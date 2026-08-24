@@ -14,6 +14,9 @@ const els = {
   subject: document.querySelector("#subjectFilter"),
   studyUnit: document.querySelector("#studyUnitFilter"),
   subunit: document.querySelector("#subunitFilter"),
+  selectAllSubunits: document.querySelector("#selectAllSubunitsBtn"),
+  clearSubunits: document.querySelector("#clearSubunitsBtn"),
+  subunitSelectionInfo: document.querySelector("#subunitSelectionInfo"),
   scope: document.querySelector("#scopeFilter"),
   countMode: document.querySelector("#questionCountMode"),
   count: document.querySelector("#questionCount"),
@@ -182,15 +185,62 @@ function populateSubunits() {
     if (code || title) subunits.set(`${code}||${title}`, {code, title});
   });
 
-  els.subunit.innerHTML = `<option value="">전체</option>` +
-    [...subunits.values()]
-      .sort((a,b) => a.code.localeCompare(b.code, undefined, {numeric:true}))
-      .map(s => {
-        const value = `${s.code}||${s.title}`;
-        const label = [s.code, s.title].filter(Boolean).join(" ");
-        return `<option value="${escapeHtml(value)}">${escapeHtml(label)}</option>`;
-      }).join("");
+  const sorted = [...subunits.values()]
+    .sort((a,b) => a.code.localeCompare(b.code, undefined, {numeric:true}));
 
+  els.subunit.innerHTML = sorted.map((s, i) => {
+    const value = `${s.code}||${s.title}`;
+    const label = [s.code, s.title].filter(Boolean).join(" ");
+    return `
+      <label class="subunit-option">
+        <input type="checkbox" name="subunitFilter" value="${escapeHtml(value)}" />
+        <span>${escapeHtml(label)}</span>
+      </label>
+    `;
+  }).join("");
+
+  els.subunit.querySelectorAll('input[name="subunitFilter"]').forEach(input => {
+    input.addEventListener("change", () => {
+      updateSubunitSelectionInfo();
+      updateAvailableCount();
+    });
+  });
+
+  updateSubunitSelectionInfo();
+  updateAvailableCount();
+}
+
+function getSelectedSubunits() {
+  return [...els.subunit.querySelectorAll('input[name="subunitFilter"]:checked')]
+    .map(input => input.value);
+}
+
+function updateSubunitSelectionInfo() {
+  const all = [...els.subunit.querySelectorAll('input[name="subunitFilter"]')];
+  const selected = getSelectedSubunits();
+
+  if (!all.length) {
+    els.subunitSelectionInfo.textContent = "소단원 없음";
+  } else if (!selected.length || selected.length === all.length) {
+    els.subunitSelectionInfo.textContent = `전체 ${all.length}개 소단원`;
+  } else {
+    els.subunitSelectionInfo.textContent = `${selected.length} / ${all.length}개 선택`;
+  }
+}
+
+function selectAllSubunits() {
+  els.subunit.querySelectorAll('input[name="subunitFilter"]').forEach(input => {
+    input.checked = true;
+  });
+  updateSubunitSelectionInfo();
+  updateAvailableCount();
+}
+
+function clearSubunits() {
+  els.subunit.querySelectorAll('input[name="subunitFilter"]').forEach(input => {
+    input.checked = false;
+  });
+  updateSubunitSelectionInfo();
   updateAvailableCount();
 }
 
@@ -207,15 +257,17 @@ function matchesScope(q) {
 function getFilteredBank() {
   const subject = els.subject.value;
   const unit = els.studyUnit.value;
-  const subunit = els.subunit.value;
+  const selectedSubunits = getSelectedSubunits();
 
   return bank.filter(q => {
     if (subject && (q.subject || "미분류") !== subject) return false;
     if (unit && studyUnitOf(q) !== unit) return false;
-    if (subunit) {
-      const [code, title] = subunit.split("||");
-      if (subunitCode(q) !== code || subunitTitle(q) !== title) return false;
+
+    if (selectedSubunits.length) {
+      const key = `${subunitCode(q)}||${subunitTitle(q)}`;
+      if (!selectedSubunits.includes(key)) return false;
     }
+
     if (!matchesScope(q)) return false;
     return true;
   });
@@ -531,7 +583,8 @@ function escapeHtml(value) {
 
 els.subject.addEventListener("change", populateStudyUnits);
 els.studyUnit.addEventListener("change", populateSubunits);
-els.subunit.addEventListener("change", updateAvailableCount);
+els.selectAllSubunits.addEventListener("click", selectAllSubunits);
+els.clearSubunits.addEventListener("click", clearSubunits);
 els.scope.addEventListener("change", updateAvailableCount);
 els.countMode.addEventListener("change", () => {
   els.customCountWrap.classList.toggle("hidden", els.countMode.value !== "custom");

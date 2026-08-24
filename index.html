@@ -41,10 +41,15 @@
           <select id="studyUnitFilter"></select>
         </label>
 
-        <label>
-          소단원
-          <select id="subunitFilter"></select>
-        </label>
+        <div class="subunit-field">
+          <div class="field-label">소단원 · 복수선택</div>
+          <div class="subunit-toolbar">
+            <button id="selectAllSubunitsBtn" type="button" class="mini-button">전체 선택</button>
+            <button id="clearSubunitsBtn" type="button" class="mini-button secondary">선택 해제</button>
+            <span id="subunitSelectionInfo" class="muted">전체 소단원</span>
+          </div>
+          <div id="subunitFilter" class="subunit-checklist"></div>
+        </div>
 
         <label>
           출제 범위
