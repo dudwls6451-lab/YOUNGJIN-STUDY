@@ -39,8 +39,7 @@ const els = {
   question: document.querySelector("#questionText"),
   favorite: document.querySelector("#favoriteBtn"),
   figureArea: document.querySelector("#figureArea"),
-  figureImage: document.querySelector("#figureImage"),
-  figureCaption: document.querySelector("#figureCaption"),
+  figureGallery: document.querySelector("#figureGallery"),
   figureNotice: document.querySelector("#figureNotice"),
   choices: document.querySelector("#choices"),
   feedback: document.querySelector("#feedback"),
@@ -365,36 +364,70 @@ function renderQuestion() {
 function renderFigure(q) {
   els.figureArea.classList.add("hidden");
   els.figureNotice.classList.add("hidden");
-  els.figureImage.removeAttribute("src");
+  els.figureGallery.innerHTML = "";
 
-  let imagePath = q.image || q.image_path || null;
-  const refs = Array.isArray(q.figure_refs) ? q.figure_refs : [];
+  const refs = Array.isArray(q.figure_refs) ? q.figure_refs.map(String) : [];
 
-  if (!imagePath && refs.length) {
-    const ref = String(refs[0]).replace(/^FIGURE[_ -]*/i, "");
-    imagePath = `./figures/FIGURE_${ref}.png`;
+  let paths = [];
+  if (Array.isArray(q.images) && q.images.length) {
+    paths = q.images;
+  } else if (q.image || q.image_path) {
+    paths = [q.image || q.image_path];
+  } else if (refs.length) {
+    paths = refs.map(ref => {
+      const clean = String(ref).replace(/^FIGURE[_ -]*/i, "");
+      return `./figures/FIGURE_${clean}.png`;
+    });
   }
 
-  if (imagePath) {
-    els.figureImage.onload = () => {
-      els.figureArea.classList.remove("hidden");
-      els.figureNotice.classList.add("hidden");
-    };
-    els.figureImage.onerror = () => {
-      els.figureArea.classList.add("hidden");
-      els.figureNotice.textContent =
-        `Figure 이미지 파일을 찾지 못했습니다.${refs.length ? ` 참조: ${refs.join(", ")}` : ""}`;
+  if (!paths.length) {
+    if (q.requires_figure || refs.length) {
+      els.figureNotice.textContent = `그림/도표 참조 문제${refs.length ? ` · Figure ${refs.join(", ")}` : ""}`;
       els.figureNotice.classList.remove("hidden");
-    };
-    els.figureImage.src = imagePath;
-    els.figureCaption.textContent = refs.length ? `Figure ${refs.join(", ")}` : "";
+    }
     return;
   }
 
-  if (q.requires_figure || refs.length) {
-    els.figureNotice.textContent = `그림/도표 참조 문제${refs.length ? ` · ${refs.join(", ")}` : ""}`;
-    els.figureNotice.classList.remove("hidden");
-  }
+  let loaded = 0;
+  let failed = 0;
+
+  paths.forEach((path, i) => {
+    const item = document.createElement("figure");
+    item.className = "figure-item";
+
+    const img = document.createElement("img");
+    img.alt = refs[i] ? `Figure ${refs[i]}` : `문제 Figure ${i + 1}`;
+    img.loading = "eager";
+
+    const caption = document.createElement("figcaption");
+    caption.className = "muted";
+    caption.textContent = refs[i] ? `Figure ${refs[i]}` : "";
+
+    img.addEventListener("load", () => {
+      loaded++;
+      item.classList.remove("hidden");
+      els.figureArea.classList.remove("hidden");
+      els.figureNotice.classList.add("hidden");
+    });
+
+    img.addEventListener("error", () => {
+      failed++;
+      item.remove();
+
+      if (failed === paths.length && loaded === 0) {
+        els.figureArea.classList.add("hidden");
+        els.figureNotice.textContent =
+          `Figure 이미지 파일을 찾지 못했습니다.${refs.length ? ` 참조: ${refs.join(", ")}` : ""}`;
+        els.figureNotice.classList.remove("hidden");
+      }
+    });
+
+    item.appendChild(img);
+    if (caption.textContent) item.appendChild(caption);
+    els.figureGallery.appendChild(item);
+
+    img.src = path.startsWith("./") ? path : `./${path.replace(/^\/+/, "")}`;
+  });
 }
 
 function selectExamAnswer(choiceId) {

@@ -50,3 +50,39 @@ pre{overflow-x:auto;background:#111827;color:#e5e7eb;padding:16px;border-radius:
 .subunit-option:hover{background:#f6f8fd}
 .subunit-option input{width:17px;height:17px;margin-top:2px;flex:0 0 auto}
 @media(max-width:700px){.subunit-checklist{grid-template-columns:1fr;max-height:240px}}
+
+
+/* v6: multiple Figure support */
+.figure-gallery{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:18px;
+}
+.figure-item{
+  margin:0;
+  padding:12px;
+  border:1px solid var(--border);
+  border-radius:12px;
+  background:#fff;
+  text-align:center;
+}
+.figure-item img{
+  display:block;
+  width:auto;
+  max-width:100%;
+  max-height:none;
+  margin:0 auto;
+  border:0;
+  border-radius:6px;
+  background:#fff;
+}
+.figure-item figcaption{
+  margin-top:8px;
+  font-weight:700;
+}
+@media(min-width:900px){
+  .figure-gallery:has(.figure-item:nth-child(2)){
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    align-items:start;
+  }
+}
