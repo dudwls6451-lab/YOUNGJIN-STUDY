@@ -32,6 +32,14 @@ const els = {
   statsCard: document.querySelector("#statsCard"),
   statsBtn: document.querySelector("#statsBtn"),
   closeStats: document.querySelector("#closeStatsBtn"),
+  errorsCard: document.querySelector("#errorsCard"),
+  errorsBtn: document.querySelector("#errorsBtn"),
+  closeErrors: document.querySelector("#closeErrorsBtn"),
+  errorCountBadge: document.querySelector("#errorCountBadge"),
+  errorsList: document.querySelector("#errorsList"),
+  errorsEmpty: document.querySelector("#errorsEmpty"),
+  copyErrors: document.querySelector("#copyErrorsBtn"),
+  copyErrorsStatus: document.querySelector("#copyErrorsStatus"),
   statsSummary: document.querySelector("#statsSummary"),
   weakestSu: document.querySelector("#weakestSu"),
   subjectStatsBody: document.querySelector("#subjectStatsBody"),
@@ -43,6 +51,7 @@ const els = {
   question: document.querySelector("#questionText"),
   favorite: document.querySelector("#favoriteBtn"),
   examExclude: document.querySelector("#examExcludeBtn"),
+  errorBtn: document.querySelector("#errorBtn"),
   figureArea: document.querySelector("#figureArea"),
   figureGallery: document.querySelector("#figureGallery"),
   figureNotice: document.querySelector("#figureNotice"),
@@ -87,6 +96,14 @@ function getRecord(id) {
       lastAttempted: null,
       favorite: false,
       examExcluded: false,
+      errorReported: false,
+      errorReportedAt: null,
+      errorNote: "",
+      errorQuestionSnapshot: "",
+      errorChoicesSnapshot: [],
+      errorSubjectSnapshot: "",
+      errorUnitSnapshot: "",
+      errorSubunitSnapshot: "",
     };
   }
   return progressStore[id];
@@ -139,11 +156,23 @@ function normalizeChoices(q) {
 
 async function loadBank() {
   try {
-    const res = await fetch(DATA_PATH, { cache: "no-store" });
+    const dataUrl = `${DATA_PATH}?v=${Date.now()}`;
+    const res = await fetch(dataUrl, { cache: "no-store" });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
     bank = Array.isArray(data) ? data : (data.questions || []);
-    els.bankInfo.textContent = `총 ${bank.length.toLocaleString()}문제`;
+
+    const subjectCounts = new Map();
+    bank.forEach(q => {
+      const subject = q.subject || "미분류";
+      subjectCounts.set(subject, (subjectCounts.get(subject) || 0) + 1);
+    });
+    const breakdown = [...subjectCounts.entries()]
+      .map(([subject, count]) => `${subject} ${count.toLocaleString()}`)
+      .join(" · ");
+
+    els.bankInfo.textContent = `총 ${bank.length.toLocaleString()}문제${breakdown ? ` · ${breakdown}` : ""}`;
+    updateErrorCount();
     populateSubjects();
   } catch (err) {
     els.bankInfo.textContent = "문제 데이터를 불러오지 못했습니다. GitHub Pages 또는 로컬 HTTP 서버에서 실행하세요.";
@@ -279,6 +308,7 @@ function getFilteredBank() {
   const selectedSubunits = getSelectedSubunits();
 
   return bank.filter(q => {
+    if (progressStore[q.id]?.errorReported) return false;
     if (subject && (q.subject || "미분류") !== subject) return false;
     if (unit && studyUnitOf(q) !== unit) return false;
 
@@ -305,6 +335,9 @@ function updateAvailableCount() {
 
 function startSession(source = null) {
   let pool = source || getFilteredBank();
+
+  // ERROR 신고된 문제는 어떤 모드/재도전에서도 자동 제외합니다.
+  pool = pool.filter(q => !(progressStore[q.id]?.errorReported));
 
   // 오답 재도전처럼 source가 직접 전달된 경우에도 그림 제외 옵션을 유지합니다.
   if (els.noFigureOnly.checked) {
@@ -340,6 +373,7 @@ function startSession(source = null) {
 
   els.resultCard.classList.add("hidden");
   els.statsCard.classList.add("hidden");
+  els.errorsCard.classList.add("hidden");
   els.quizCard.classList.remove("hidden");
 
   renderQuestion();
@@ -360,6 +394,13 @@ function renderQuestion() {
   els.meta.innerHTML = pills.map(p => `<span class="pill">${escapeHtml(p)}</span>`).join("");
 
   const rec = getRecord(q.id);
+
+  els.errorBtn.classList.toggle("reported", !!rec.errorReported);
+  els.errorBtn.textContent = rec.errorReported ? "REPORTED" : "ERROR";
+  els.errorBtn.title = rec.errorReported
+    ? "이미 오류 신고된 문제"
+    : "문제 오류 신고 · 신고 후 자동 건너뛰기";
+
   els.favorite.textContent = rec.favorite ? "★" : "☆";
   els.favorite.classList.toggle("active", rec.favorite);
 
@@ -609,6 +650,220 @@ function toggleExamExcluded() {
   updateAvailableCount();
 }
 
+
+function getReportedRecords() {
+  return Object.entries(progressStore)
+    .filter(([, rec]) => rec?.errorReported)
+    .map(([id, rec]) => {
+      const q = bank.find(item => item.id === id);
+      return { id, rec, q };
+    })
+    .sort((a, b) => (b.rec.errorReportedAt || "").localeCompare(a.rec.errorReportedAt || ""));
+}
+
+function updateErrorCount() {
+  const count = Object.values(progressStore).filter(rec => rec?.errorReported).length;
+  els.errorCountBadge.textContent = count.toLocaleString();
+  els.errorsBtn.title = `오류 신고 ${count}문제`;
+}
+
+function errorChoicesFor(q, rec) {
+  if (q) return normalizeChoices(q).map(c => `${c.id}. ${c.text}`);
+  if (Array.isArray(rec.errorChoicesSnapshot)) return rec.errorChoicesSnapshot;
+  return [];
+}
+
+function reportCurrentError() {
+  const q = session[index];
+  if (!q) return;
+
+  const rec = getRecord(q.id);
+  if (!rec.errorReported) {
+    rec.errorReported = true;
+    rec.errorReportedAt = new Date().toISOString();
+    rec.errorNote = rec.errorNote || "";
+    rec.errorQuestionSnapshot = q.question || "";
+    rec.errorChoicesSnapshot = normalizeChoices(q).map(c => `${c.id}. ${c.text}`);
+    rec.errorSubjectSnapshot = q.subject || "미분류";
+    rec.errorUnitSnapshot = studyUnitOf(q);
+    rec.errorSubunitSnapshot = [subunitCode(q), subunitTitle(q)].filter(Boolean).join(" ");
+  }
+
+  // 학습모드에서 이미 이 문제를 채점한 뒤 ERROR를 누른 경우,
+  // 현재 세션 점수/오답목록에서는 해당 문제를 제외합니다.
+  if (els.mode.value === "study" && answered) {
+    const lastResult = rec.lastResult;
+    if (lastResult === "correct" && correctCount > 0) {
+      correctCount--;
+    } else if (lastResult === "incorrect") {
+      const pos = wrongQuestions.findIndex(item => item.id === q.id);
+      if (pos >= 0) wrongQuestions.splice(pos, 1);
+    }
+  }
+
+  delete examAnswers[q.id];
+  saveProgress();
+  updateErrorCount();
+
+  // 현재 세션 자체에서 제거하여 즉시 다음 문제로 건너뜁니다.
+  session.splice(index, 1);
+  updateAvailableCount();
+
+  if (!session.length) {
+    els.quizCard.classList.add("hidden");
+    els.resultCard.classList.remove("hidden");
+    els.resultText.textContent = "현재 세션의 모든 문제가 오류 신고되어 자동 제외되었습니다.";
+    els.examReview.innerHTML = "";
+    els.retryWrong.disabled = true;
+    els.resultCard.scrollIntoView({ behavior: "smooth", block: "start" });
+    return;
+  }
+
+  // 신고한 문제가 세션의 마지막 문제였으면 바로 결과로 이동합니다.
+  if (index >= session.length) {
+    if (els.mode.value === "exam") {
+      gradeExam();
+    } else {
+      showResult(false);
+    }
+    return;
+  }
+
+  // 같은 index에는 splice 후 다음 문제가 들어와 있으므로 즉시 렌더링합니다.
+  renderQuestion();
+  els.quizCard.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+function restoreErrorReport(id) {
+  const rec = progressStore[id];
+  if (!rec) return;
+
+  rec.errorReported = false;
+  rec.errorReportedAt = null;
+  saveProgress();
+  updateErrorCount();
+  updateAvailableCount();
+  renderErrorReports();
+}
+
+function updateErrorNote(id, note) {
+  const rec = progressStore[id];
+  if (!rec) return;
+  rec.errorNote = note;
+  saveProgress();
+}
+
+function renderErrorReports() {
+  const reports = getReportedRecords();
+  els.errorsEmpty.classList.toggle("hidden", reports.length > 0);
+  els.errorsList.innerHTML = "";
+
+  reports.forEach(({ id, rec, q }) => {
+    const subject = q?.subject || rec.errorSubjectSnapshot || "미분류";
+    const unit = q ? studyUnitOf(q) : (rec.errorUnitSnapshot || "");
+    const subunit = q
+      ? [subunitCode(q), subunitTitle(q)].filter(Boolean).join(" ")
+      : (rec.errorSubunitSnapshot || "");
+    const question = q?.question || rec.errorQuestionSnapshot || "(지문 없음)";
+    const choices = errorChoicesFor(q, rec);
+
+    const item = document.createElement("article");
+    item.className = "error-report-item";
+    item.innerHTML = `
+      <div class="error-report-head">
+        <div>
+          <strong>${escapeHtml(id)}</strong>
+          <div class="muted">${escapeHtml(subject)}${unit ? ` · SU ${escapeHtml(unit)}` : ""}${subunit ? ` · ${escapeHtml(subunit)}` : ""}</div>
+        </div>
+        <button type="button" class="mini-button secondary restore-error-button">오류 해제</button>
+      </div>
+
+      <p class="error-question">${escapeHtml(question)}</p>
+
+      ${choices.length ? `
+        <div class="error-choice-list">
+          ${choices.map(choice => `<div>${escapeHtml(choice)}</div>`).join("")}
+        </div>
+      ` : ""}
+
+      <label class="error-note-label">
+        오류 내용 메모
+        <textarea class="error-note" rows="2" placeholder="예: B 선택지 OCR 오류">${escapeHtml(rec.errorNote || "")}</textarea>
+      </label>
+    `;
+
+    item.querySelector(".restore-error-button").addEventListener("click", () => restoreErrorReport(id));
+    item.querySelector(".error-note").addEventListener("input", event => {
+      updateErrorNote(id, event.target.value);
+    });
+
+    els.errorsList.appendChild(item);
+  });
+}
+
+function showErrorReports() {
+  renderErrorReports();
+  els.statsCard.classList.add("hidden");
+  els.errorsCard.classList.remove("hidden");
+  els.errorsCard.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+function formatErrorReportsForCopy() {
+  const reports = getReportedRecords();
+  if (!reports.length) return "";
+
+  const lines = [
+    "문제은행 오류 보고 목록",
+    `총 ${reports.length}문항`,
+    ""
+  ];
+
+  reports.forEach(({ id, rec, q }, i) => {
+    const subject = q?.subject || rec.errorSubjectSnapshot || "미분류";
+    const unit = q ? studyUnitOf(q) : (rec.errorUnitSnapshot || "");
+    const subunit = q
+      ? [subunitCode(q), subunitTitle(q)].filter(Boolean).join(" ")
+      : (rec.errorSubunitSnapshot || "");
+    const question = q?.question || rec.errorQuestionSnapshot || "(지문 없음)";
+    const choices = errorChoicesFor(q, rec);
+
+    lines.push(`${i + 1}. ${id}`);
+    lines.push(`과목: ${subject}${unit ? ` / SU ${unit}` : ""}${subunit ? ` / ${subunit}` : ""}`);
+    lines.push(`문제: ${question}`);
+    if (choices.length) {
+      lines.push("선택지:");
+      choices.forEach(choice => lines.push(choice));
+    }
+    lines.push(`오류 내용: ${String(rec.errorNote || "").trim() || "(미입력)"}`);
+    lines.push("");
+  });
+
+  return lines.join("\n");
+}
+
+async function copyAllErrorReports() {
+  const text = formatErrorReportsForCopy();
+  if (!text) {
+    els.copyErrorsStatus.textContent = "복사할 오류가 없습니다.";
+    return;
+  }
+
+  try {
+    await navigator.clipboard.writeText(text);
+    els.copyErrorsStatus.textContent = "복사 완료 · ChatGPT에 그대로 붙여넣으면 됩니다.";
+  } catch {
+    const area = document.createElement("textarea");
+    area.value = text;
+    area.style.position = "fixed";
+    area.style.opacity = "0";
+    document.body.appendChild(area);
+    area.select();
+    document.execCommand("copy");
+    area.remove();
+    els.copyErrorsStatus.textContent = "복사 완료 · ChatGPT에 그대로 붙여넣으면 됩니다.";
+  }
+}
+
 function aggregateStats(questions) {
   const total = questions.length;
   let solved = 0;
@@ -762,11 +1017,13 @@ function showStats() {
 }
 
 function resetProgress() {
-  const ok = confirm("오답노트, 정답률, 즐겨찾기, 시험모드 제외 표시를 포함한 모든 학습기록을 초기화할까요?");
+  const ok = confirm("오답노트, 정답률, 즐겨찾기, 시험모드 제외 표시, 오류 신고 목록을 포함한 모든 학습기록을 초기화할까요?");
   if (!ok) return;
   progressStore = {};
   localStorage.removeItem(STORAGE_KEY);
+  updateErrorCount();
   updateAvailableCount();
+  renderErrorReports();
   alert("학습기록을 초기화했습니다.");
 }
 
@@ -794,6 +1051,7 @@ els.start.addEventListener("click", () => startSession());
 els.next.addEventListener("click", nextQuestion);
 els.favorite.addEventListener("click", toggleFavorite);
 els.examExclude.addEventListener("click", toggleExamExcluded);
+els.errorBtn.addEventListener("click", reportCurrentError);
 els.retryWrong.addEventListener("click", () => {
   const wrong = [...wrongQuestions];
   els.countMode.value = "all";
@@ -806,6 +1064,9 @@ els.restart.addEventListener("click", () => {
 });
 els.statsBtn.addEventListener("click", showStats);
 els.closeStats.addEventListener("click", () => els.statsCard.classList.add("hidden"));
+els.errorsBtn.addEventListener("click", showErrorReports);
+els.closeErrors.addEventListener("click", () => els.errorsCard.classList.add("hidden"));
+els.copyErrors.addEventListener("click", copyAllErrorReports);
 els.resetProgress.addEventListener("click", resetProgress);
 
 loadBank();
