@@ -32,12 +32,16 @@ const els = {
   statsBtn: document.querySelector("#statsBtn"),
   closeStats: document.querySelector("#closeStatsBtn"),
   statsSummary: document.querySelector("#statsSummary"),
+  weakestSu: document.querySelector("#weakestSu"),
+  subjectStatsBody: document.querySelector("#subjectStatsBody"),
+  suStatsBody: document.querySelector("#suStatsBody"),
   statsBody: document.querySelector("#statsBody"),
   progress: document.querySelector("#progress"),
   score: document.querySelector("#score"),
   meta: document.querySelector("#questionMeta"),
   question: document.querySelector("#questionText"),
   favorite: document.querySelector("#favoriteBtn"),
+  examExclude: document.querySelector("#examExcludeBtn"),
   figureArea: document.querySelector("#figureArea"),
   figureGallery: document.querySelector("#figureGallery"),
   figureNotice: document.querySelector("#figureNotice"),
@@ -81,6 +85,7 @@ function getRecord(id) {
       lastAnswer: null,
       lastAttempted: null,
       favorite: false,
+      examExcluded: false,
     };
   }
   return progressStore[id];
@@ -248,6 +253,7 @@ function matchesScope(q) {
   switch (els.scope.value) {
     case "wrong": return (rec.incorrect || 0) > 0;
     case "favorite": return !!rec.favorite;
+    case "examExcluded": return !!rec.examExcluded;
     case "unseen": return !rec.attempts;
     default: return true;
   }
@@ -283,9 +289,17 @@ function updateAvailableCount() {
 }
 
 function startSession(source = null) {
-  const pool = source || getFilteredBank();
+  let pool = source || getFilteredBank();
+
+  // "!"로 표시한 문제는 학습모드에는 남아 있지만 시험모드에서는 출제하지 않습니다.
+  if (els.mode.value === "exam") {
+    pool = pool.filter(q => !(progressStore[q.id]?.examExcluded));
+  }
+
   if (!pool.length) {
-    alert("출제할 문제가 없습니다.");
+    alert(els.mode.value === "exam"
+      ? "시험모드에서 출제할 문제가 없습니다. ! 표시된 제외 문제를 확인해 주세요."
+      : "출제할 문제가 없습니다.");
     return;
   }
 
@@ -328,6 +342,12 @@ function renderQuestion() {
   const rec = getRecord(q.id);
   els.favorite.textContent = rec.favorite ? "★" : "☆";
   els.favorite.classList.toggle("active", rec.favorite);
+
+  els.examExclude.textContent = "!";
+  els.examExclude.classList.toggle("exclude-active", !!rec.examExcluded);
+  els.examExclude.title = rec.examExcluded
+    ? "시험모드 출제 제외됨 · 클릭하면 해제"
+    : "시험모드 출제 제외 · 학습모드에는 계속 표시";
 
   renderFigure(q);
 
@@ -555,39 +575,164 @@ function toggleFavorite() {
   updateAvailableCount();
 }
 
-function showStats() {
-  const records = bank.map(q => ({ q, rec: progressStore[q.id] || null }))
-    .filter(x => x.rec && (x.rec.attempts || x.rec.favorite))
-    .sort((a,b) => (b.rec?.lastAttempted || "").localeCompare(a.rec?.lastAttempted || ""));
+function toggleExamExcluded() {
+  const q = session[index];
+  const rec = getRecord(q.id);
+  rec.examExcluded = !rec.examExcluded;
+  saveProgress();
 
-  const totalAttempts = records.reduce((s,x) => s + (x.rec.attempts || 0), 0);
-  const totalCorrect = records.reduce((s,x) => s + (x.rec.correct || 0), 0);
-  const totalWrong = records.reduce((s,x) => s + (x.rec.incorrect || 0), 0);
-  const favoriteCount = records.filter(x => x.rec.favorite).length;
-  const overallPct = totalAttempts ? Math.round(totalCorrect / totalAttempts * 100) : 0;
+  els.examExclude.classList.toggle("exclude-active", !!rec.examExcluded);
+  els.examExclude.title = rec.examExcluded
+    ? "시험모드 출제 제외됨 · 클릭하면 해제"
+    : "시험모드 출제 제외 · 학습모드에는 계속 표시";
+
+  updateAvailableCount();
+}
+
+function aggregateStats(questions) {
+  const total = questions.length;
+  let solved = 0;
+  let attempts = 0;
+  let correct = 0;
+  let incorrect = 0;
+  let favorites = 0;
+  let excluded = 0;
+
+  questions.forEach(q => {
+    const rec = progressStore[q.id] || {};
+    if ((rec.attempts || 0) > 0) solved++;
+    attempts += rec.attempts || 0;
+    correct += rec.correct || 0;
+    incorrect += rec.incorrect || 0;
+    if (rec.favorite) favorites++;
+    if (rec.examExcluded) excluded++;
+  });
+
+  return {
+    total,
+    solved,
+    attempts,
+    correct,
+    incorrect,
+    favorites,
+    excluded,
+    progressPct: total ? Math.round(solved / total * 100) : 0,
+    accuracyPct: attempts ? Math.round(correct / attempts * 100) : null,
+  };
+}
+
+function buildGroupStats(keyFn, filterFn = () => true) {
+  const groups = new Map();
+
+  bank.filter(filterFn).forEach(q => {
+    const keyData = keyFn(q);
+    if (!keyData) return;
+    const key = JSON.stringify(keyData);
+    if (!groups.has(key)) groups.set(key, { keyData, questions: [] });
+    groups.get(key).questions.push(q);
+  });
+
+  return [...groups.values()].map(group => ({
+    ...group.keyData,
+    ...aggregateStats(group.questions),
+  }));
+}
+
+function pctText(value) {
+  return value === null ? "-" : `${value}%`;
+}
+
+function showStats() {
+  const overall = aggregateStats(bank);
 
   const summary = [
-    ["총 풀이", totalAttempts],
-    ["정답률", `${overallPct}%`],
-    ["누적 오답", totalWrong],
-    ["즐겨찾기", favoriteCount],
+    ["전체 문제", overall.total.toLocaleString()],
+    ["푼 문제", `${overall.solved.toLocaleString()} / ${overall.total.toLocaleString()}`],
+    ["전체 진도", `${overall.progressPct}%`],
+    ["누적 정답률", pctText(overall.accuracyPct)],
+    ["누적 풀이", overall.attempts.toLocaleString()],
+    ["시험 제외", overall.excluded.toLocaleString()],
   ];
 
   els.statsSummary.innerHTML = summary.map(([label,value]) => `
     <div class="summary-box"><span class="muted">${label}</span><strong>${value}</strong></div>
   `).join("");
 
-  els.statsBody.innerHTML = records.slice(0, 300).map(({q, rec}) => {
-    const pct = rec.attempts ? Math.round(rec.correct / rec.attempts * 100) : 0;
+  const subjectStats = buildGroupStats(q => ({
+    subject: q.subject || "미분류",
+  })).sort((a,b) => a.subject.localeCompare(b.subject, "ko"));
+
+  els.subjectStatsBody.innerHTML = subjectStats.map(row => `
+    <tr>
+      <td><strong>${escapeHtml(row.subject)}</strong></td>
+      <td>${row.total.toLocaleString()}</td>
+      <td>${row.solved.toLocaleString()}</td>
+      <td>${row.progressPct}%</td>
+      <td>${row.attempts.toLocaleString()}</td>
+      <td>${pctText(row.accuracyPct)}</td>
+      <td>${row.excluded.toLocaleString()}</td>
+    </tr>
+  `).join("");
+
+  const suStats = buildGroupStats(q => {
+    const unit = studyUnitOf(q);
+    if (!unit) return null;
+    return {
+      subject: q.subject || "미분류",
+      unit,
+    };
+  }).sort((a,b) =>
+    a.subject.localeCompare(b.subject, "ko") ||
+    String(a.unit).localeCompare(String(b.unit), undefined, {numeric:true})
+  );
+
+  els.suStatsBody.innerHTML = suStats.map(row => `
+    <tr>
+      <td>${escapeHtml(row.subject)}</td>
+      <td><strong>SU ${escapeHtml(row.unit)}</strong></td>
+      <td>${row.total.toLocaleString()}</td>
+      <td>${row.solved.toLocaleString()}</td>
+      <td>${row.progressPct}%</td>
+      <td>${row.attempts.toLocaleString()}</td>
+      <td>${pctText(row.accuracyPct)}</td>
+      <td>${row.excluded.toLocaleString()}</td>
+    </tr>
+  `).join("");
+
+  const attemptedSus = suStats.filter(row => row.attempts > 0 && row.accuracyPct !== null);
+  attemptedSus.sort((a,b) =>
+    a.accuracyPct - b.accuracyPct ||
+    b.attempts - a.attempts ||
+    a.subject.localeCompare(b.subject, "ko") ||
+    String(a.unit).localeCompare(String(b.unit), undefined, {numeric:true})
+  );
+
+  if (attemptedSus.length) {
+    const weakest = attemptedSus[0];
+    els.weakestSu.innerHTML = `
+      <strong>${escapeHtml(weakest.subject)} · SU ${escapeHtml(weakest.unit)}</strong>
+      <span>${weakest.accuracyPct}% · ${weakest.solved}/${weakest.total}문제 풀이 · 누적 ${weakest.attempts}회</span>
+    `;
+  } else {
+    els.weakestSu.textContent = "아직 풀이 기록이 없습니다.";
+  }
+
+  const records = bank.map(q => ({ q, rec: progressStore[q.id] || null }))
+    .filter(x => x.rec && (x.rec.attempts || x.rec.favorite || x.rec.examExcluded))
+    .sort((a,b) => (b.rec?.lastAttempted || "").localeCompare(a.rec?.lastAttempted || ""));
+
+  els.statsBody.innerHTML = records.slice(0, 500).map(({q, rec}) => {
+    const pct = rec.attempts ? Math.round(rec.correct / rec.attempts * 100) : null;
     return `
       <tr>
         <td>${escapeHtml(q.id)}</td>
         <td>${rec.attempts || 0}</td>
         <td>${rec.correct || 0}</td>
         <td>${rec.incorrect || 0}</td>
-        <td>${pct}%</td>
+        <td>${pctText(pct)}</td>
         <td>${escapeHtml(rec.lastResult || "-")}</td>
         <td>${rec.favorite ? "★" : ""}</td>
+        <td>${rec.examExcluded ? "!" : ""}</td>
       </tr>
     `;
   }).join("");
@@ -597,7 +742,7 @@ function showStats() {
 }
 
 function resetProgress() {
-  const ok = confirm("오답노트, 정답률, 즐겨찾기를 포함한 모든 학습기록을 초기화할까요?");
+  const ok = confirm("오답노트, 정답률, 즐겨찾기, 시험모드 제외 표시를 포함한 모든 학습기록을 초기화할까요?");
   if (!ok) return;
   progressStore = {};
   localStorage.removeItem(STORAGE_KEY);
@@ -619,6 +764,7 @@ els.studyUnit.addEventListener("change", populateSubunits);
 els.selectAllSubunits.addEventListener("click", selectAllSubunits);
 els.clearSubunits.addEventListener("click", clearSubunits);
 els.scope.addEventListener("change", updateAvailableCount);
+els.mode.addEventListener("change", updateAvailableCount);
 els.countMode.addEventListener("change", () => {
   els.customCountWrap.classList.toggle("hidden", els.countMode.value !== "custom");
   updateAvailableCount();
@@ -626,6 +772,7 @@ els.countMode.addEventListener("change", () => {
 els.start.addEventListener("click", () => startSession());
 els.next.addEventListener("click", nextQuestion);
 els.favorite.addEventListener("click", toggleFavorite);
+els.examExclude.addEventListener("click", toggleExamExcluded);
 els.retryWrong.addEventListener("click", () => {
   const wrong = [...wrongQuestions];
   els.countMode.value = "all";

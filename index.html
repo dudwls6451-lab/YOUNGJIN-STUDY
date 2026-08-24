@@ -57,6 +57,7 @@
             <option value="all">전체 문제</option>
             <option value="wrong">오답 문제만</option>
             <option value="favorite">즐겨찾기만</option>
+            <option value="examExcluded">시험모드 제외 문제만</option>
             <option value="unseen">아직 안 푼 문제</option>
           </select>
         </label>
@@ -107,7 +108,10 @@
 
       <div class="question-topline">
         <div id="questionMeta" class="pill-row"></div>
-        <button id="favoriteBtn" class="icon-button" title="즐겨찾기">☆</button>
+        <div class="question-actions">
+          <button id="examExcludeBtn" class="icon-button exclude-button" title="시험모드 출제 제외" aria-label="시험모드 출제 제외">!</button>
+          <button id="favoriteBtn" class="icon-button" title="즐겨찾기" aria-label="즐겨찾기">☆</button>
+        </div>
       </div>
 
       <h2 id="questionText" class="question"></h2>
@@ -140,28 +144,75 @@
       <div class="section-head">
         <div>
           <h2>학습 통계</h2>
-          <p class="muted">이 브라우저에 LocalStorage로 저장됩니다.</p>
+          <p class="muted">이 브라우저의 학습 DB(LocalStorage)를 기준으로 계산합니다.</p>
         </div>
         <button id="closeStatsBtn" class="button secondary">닫기</button>
       </div>
 
       <div id="statsSummary" class="summary-grid"></div>
+
+      <div id="weakestSuCard" class="weakest-card">
+        <div class="muted">가장 낮은 정답률 SU</div>
+        <div id="weakestSu" class="weakest-value">아직 풀이 기록이 없습니다.</div>
+      </div>
+
+      <h3 class="stats-heading">교재 / 과목별 통계</h3>
       <div class="table-wrap">
         <table>
           <thead>
             <tr>
-              <th>문제 ID</th>
-              <th>풀이</th>
-              <th>정답</th>
-              <th>오답</th>
+              <th>교재 / 과목</th>
+              <th>전체</th>
+              <th>푼 문제</th>
+              <th>진도</th>
+              <th>누적 풀이</th>
               <th>정답률</th>
-              <th>최근 결과</th>
-              <th>즐겨찾기</th>
+              <th>시험 제외</th>
             </tr>
           </thead>
-          <tbody id="statsBody"></tbody>
+          <tbody id="subjectStatsBody"></tbody>
         </table>
       </div>
+
+      <h3 class="stats-heading">Study Unit별 통계</h3>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>교재 / 과목</th>
+              <th>SU</th>
+              <th>전체</th>
+              <th>푼 문제</th>
+              <th>진도</th>
+              <th>누적 풀이</th>
+              <th>정답률</th>
+              <th>시험 제외</th>
+            </tr>
+          </thead>
+          <tbody id="suStatsBody"></tbody>
+        </table>
+      </div>
+
+      <details class="detail-stats">
+        <summary>문제별 상세 기록 보기</summary>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>문제 ID</th>
+                <th>풀이</th>
+                <th>정답</th>
+                <th>오답</th>
+                <th>정답률</th>
+                <th>최근 결과</th>
+                <th>즐겨찾기</th>
+                <th>시험 제외</th>
+              </tr>
+            </thead>
+            <tbody id="statsBody"></tbody>
+          </table>
+        </div>
+      </details>
     </section>
   </main>
 

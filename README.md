@@ -201,3 +201,85 @@ JSON은 다음처럼 연결되어 있습니다.
 ```
 
 한 문제에서 Figure가 2개 이상 필요한 경우 웹 화면에 모든 Figure를 함께 표시합니다.
+
+
+## v7 통합 문제은행
+
+포함 Study Unit:
+
+- SU 5 — Aerodynamics and Airplanes
+- SU 6 — Airspace and Airports
+- SU 7 — Air Traffic Control
+- SU 8 — IFR Navigation Equipment, Holding, and Approaches
+- SU 9 — IFR Flights
+- SU 15 — Aviation Weather
+- SU 16 — Weather Reports and Forecasts
+- SU 17 — Wind Shear
+- SU 18 — Aeromedical Factors and Aeronautical Decision Making (ADM)
+
+총 1,075문제입니다.
+
+새로 추가한 SU의 Figure는 문제의 `figure_refs`와 `images` 필드에 연결되어 있습니다.
+Figure 번호의 A/B suffix도 보존합니다. 예:
+
+```json
+"figure_refs": ["255A", "257B"],
+"images": [
+  "figures/FIGURE_255A.png",
+  "figures/FIGURE_257B.png"
+]
+```
+
+SU5의 기존 한글 해설은 그대로 유지됩니다. 이번에 새로 추가한 SU 6/7/8/9/15/16/17/18의
+해설은 원문 영어를 보존했습니다.
+
+
+## v8 — 전체 한글 해설
+
+v8부터 포함된 1,075문제 모두 웹 화면에서 한국어 해설을 표시합니다.
+
+- SU5: 기존 상세 한글 해설 유지
+- SU6 / 7 / 8 / 9 / 15 / 16 / 17 / 18: 시험 포인트 중심 한국어 핵심 해설
+- 새로 번역된 799문제의 기존 Gleim 영문 상세 해설은 `explanation_en`에 그대로 보존
+- 표시용 `explanation`은 한국어
+- `explanation_language`는 `ko`
+
+예시:
+
+```json
+{
+  "answer": "B",
+  "explanation": "정답은 B입니다. ...한국어 해설...",
+  "explanation_language": "ko",
+  "explanation_en": "Original Gleim English explanation..."
+}
+```
+
+따라서 사이트에서는 한국어로 공부하면서 필요할 경우 JSON에서 원문 상세 해설을 대조할 수 있습니다.
+
+
+## v9 — 학습 통계 강화 + 시험모드 제외 표시
+
+### 학습 통계
+브라우저 LocalStorage에 저장된 학습기록을 기준으로 다음을 계산합니다.
+
+- 전체 문제 수
+- 한 번이라도 푼 고유 문제 수
+- 전체 진도율
+- 누적 풀이 횟수
+- 누적 정답률
+- 교재/과목별 전체 문제 수 / 푼 문제 수 / 진도율 / 정답률
+- Study Unit별 전체 문제 수 / 푼 문제 수 / 진도율 / 정답률
+- 풀이 기록이 있는 SU 중 가장 정답률이 낮은 SU 자동 표시
+
+`푼 문제 수`는 고유 문제 기준이며, `정답률`은 모든 시도의 누적 정답/풀이 횟수 기준입니다.
+
+### ! 시험모드 제외
+문제 화면의 `!` 버튼을 누르면 해당 문제는 학습모드에는 계속 남아 있지만 이후 시험모드에서는 출제되지 않습니다.
+
+- `!` 활성: 시험모드 제외
+- 다시 누르면 해제
+- 출제 범위에서 `시험모드 제외 문제만`을 선택해 따로 확인 가능
+- 설정은 기존 학습기록과 함께 LocalStorage에 저장
+
+GitHub Pages는 정적 사이트이므로 이 학습 DB는 현재 브라우저/기기에 저장됩니다.

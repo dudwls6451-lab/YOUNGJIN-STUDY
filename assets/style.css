@@ -86,3 +86,57 @@ pre{overflow-x:auto;background:#111827;color:#e5e7eb;padding:16px;border-radius:
     align-items:start;
   }
 }
+
+
+/* v9: analytics + exam exclusion annotation */
+.question-actions{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  flex:0 0 auto;
+}
+.exclude-button{
+  font-weight:900;
+  color:#8a4b00;
+}
+.icon-button.exclude-active{
+  color:#b42318;
+  background:#fff0ee;
+  border-color:#f0a49d;
+  box-shadow:0 0 0 2px rgba(180,35,24,.08);
+}
+.stats-heading{
+  margin:26px 0 8px;
+  font-size:1rem;
+}
+.weakest-card{
+  border:1px solid #f1c48f;
+  background:#fff8ef;
+  border-radius:12px;
+  padding:14px 16px;
+  margin:4px 0 20px;
+}
+.weakest-value{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px 14px;
+  align-items:baseline;
+  margin-top:4px;
+}
+.weakest-value strong{
+  font-size:1.1rem;
+}
+.detail-stats{
+  margin-top:26px;
+  border-top:1px solid var(--border);
+  padding-top:16px;
+}
+.detail-stats summary{
+  cursor:pointer;
+  font-weight:750;
+  color:#344054;
+}
+@media(max-width:700px){
+  .question-topline{align-items:flex-start}
+  .question-actions{gap:6px}
+}
