@@ -47362,7 +47362,7 @@
       },
       "source_page": 23,
       "source_pdf_page": 29,
-      "question": "성충권의 대표적인 기상현상은?",
+      "question": "성층권의 대표적인 기상현상은?",
       "choices": [
         {
           "id": "A",
@@ -47388,14 +47388,16 @@
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.9479,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "대기"
-      ]
+      ],
+      "correction_status": "user_reported_fixed",
+      "corrected_at": "2026-08-25"
     },
     {
       "id": "WX-SU3-027",
@@ -48751,40 +48753,42 @@
       },
       "source_page": 27,
       "source_pdf_page": 33,
-      "question": "다음 고도계 settinga] 대한 설명 중 틀린 것은?",
+      "question": "다음 고도계 setting에 대한 설명 중 틀린 것은?",
       "choices": [
         {
           "id": "A",
-          "text": "QFEE 항공기 착륙 시 조종사의 요청에 의해 이루어진다."
+          "text": "QFE는 항공기 착륙 시 조종사의 요청에 의해 이루어진다."
         },
         {
           "id": "B",
-          "text": "전이고도 이상으로 비행하는 경우 조종사는 전이고도에서 표준기압으로 “66108 한다."
+          "text": "전이고도 이상으로 비행하는 경우 조종사는 전이고도에서 표준기압으로 setting 한다."
         },
         {
           "id": "C",
-          "text": "@씨브로 8660108하면 착륙 시 비행장 표고를 지시한다."
+          "text": "QNH로 setting하면 착륙 시 비행장 표고를 지시한다."
         },
         {
           "id": "D",
-          "text": "단거리 비행 시에는"
+          "text": "단거리 비행 시에는 QNH로 setting하여야 한다."
         }
       ],
       "answer": "D",
-      "explanation": "정답은 D입니다. 정답 보기: 단거리 비행 시에는",
+      "explanation": "교재 정답은 D이다. 원문 기준으로 QFE, 표준기압 setting, QNH의 지시 특성을 구분하는 문제이다.",
       "explanation_language": "ko",
       "reference": "항공기상.pdf · 출제예상문제",
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.9316,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "대기"
-      ]
+      ],
+      "correction_status": "user_reported_fixed",
+      "corrected_at": "2026-08-25"
     },
     {
       "id": "WX-SU3-054",
@@ -50085,41 +50089,46 @@
       },
       "source_page": 31,
       "source_pdf_page": 37,
-      "question": "다음 중 SS 방출하는 구간은?",
+      "question": "다음 중 열을 방출하는 구간은?",
       "choices": [
         {
           "id": "A",
-          "text": "4,8,8"
+          "text": "A, B, E"
         },
         {
           "id": "B",
-          "text": "B,C,E"
+          "text": "B, C, E"
         },
         {
           "id": "C",
-          "text": "C,D,F"
+          "text": "C, D, F"
         },
         {
           "id": "D",
-          "text": "se 0"
+          "text": "A, D, F"
         }
       ],
       "answer": "D",
-      "explanation": "열에너지를 방출하거나 흡수하는 상태 변화는 다음과 같다. 열에너지 방출 열에너지 흡수 A: 응결(액화) [기체->액체] | C: 기화 [액체->기체] D: 승화 [기체>고체] |B: 승화 [고체->기체] F: 응고(결빙) [액체>고체) | OE: 융해 Gata) O. 기상일반",
+      "explanation": "그림에서 열에너지를 방출하는 상태변화는 A(응결/액화), D(기체→고체), F(응고/결빙)이므로 정답은 D, A·D·F이다.",
       "explanation_language": "ko",
       "reference": "항공기상.pdf · 출제예상문제",
-      "requires_figure": false,
+      "requires_figure": true,
       "figure_refs": [],
-      "images": [],
-      "answer_confidence": 0.9428,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "images": [
+        "figures/WX-SU3-079.png"
+      ],
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "대기"
       ],
-      "source_explanation_ocr": true
+      "source_explanation_ocr": true,
+      "image": "figures/WX-SU3-079.png",
+      "correction_status": "user_reported_fixed",
+      "corrected_at": "2026-08-25"
     },
     {
       "id": "WX-SU4-001",
@@ -51688,7 +51697,7 @@
         },
         {
           "id": "C",
-          "text": "He 것이다."
+          "text": "맑을 것이다."
         },
         {
           "id": "D",
@@ -51702,15 +51711,17 @@
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.8925,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "기상일반"
       ],
-      "source_explanation_ocr": true
+      "source_explanation_ocr": true,
+      "correction_status": "user_reported_fixed",
+      "corrected_at": "2026-08-25"
     },
     {
       "id": "WX-SU4-032",
@@ -55970,7 +55981,7 @@
       },
       "source_page": 66,
       "source_pdf_page": 72,
-      "question": "습하고 더운 공기가 상대적으로 A 지표면으로 이동할 때 생기는 안개는?",
+      "question": "습하고 더운 공기가 상대적으로 찬 지표면으로 이동할 때 생기는 안개는?",
       "choices": [
         {
           "id": "A",
@@ -55996,14 +56007,16 @@
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.9514,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "안개(Fog)"
-      ]
+      ],
+      "correction_status": "user_reported_fixed",
+      "corrected_at": "2026-08-25"
     },
     {
       "id": "WX-SU5-022",
@@ -56950,7 +56963,7 @@
       },
       "source_page": 69,
       "source_pdf_page": 75,
-      "question": "수평적으로 거의 동일한 물리적 특징을 가진 공기 AAS 무엇이라 하는가?",
+      "question": "수평적으로 거의 동일한 물리적 특징을 가진 공기 집단을 무엇이라 하는가?",
       "choices": [
         {
           "id": "A",
@@ -56976,14 +56989,16 @@
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.9181,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "기단과 전선"
-      ]
+      ],
+      "correction_status": "user_reported_fixed",
+      "corrected_at": "2026-08-25"
     },
     {
       "id": "WX-SU6-002",
@@ -57533,7 +57548,7 @@
         },
         {
           "id": "B",
-          "text": "cPt+cT"
+          "text": "cP+cT"
         },
         {
           "id": "C",
@@ -57551,14 +57566,16 @@
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.918,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "기단과 전선"
-      ]
+      ],
+      "correction_status": "user_reported_fixed",
+      "corrected_at": "2026-08-25"
     },
     {
       "id": "WX-SU6-013",
@@ -58445,7 +58462,7 @@
       },
       "source_page": 73,
       "source_pdf_page": 79,
-      "question": "권운(01)과 AS2(Cs) 9] 구름이 생성된다면, 다음 중 예상되는 원인은?",
+      "question": "권운(Ci)과 권층운(Cs)의 구름이 생성된다면, 다음 중 예상되는 원인은?",
       "choices": [
         {
           "id": "A",
@@ -58471,14 +58488,16 @@
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.8488,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "기단과 전선"
-      ]
+      ],
+      "correction_status": "user_reported_fixed",
+      "corrected_at": "2026-08-25"
     },
     {
       "id": "WX-SU6-031",
@@ -58705,7 +58724,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "0010 front"
+          "text": "Cold front"
         },
         {
           "id": "B",
@@ -58727,14 +58746,16 @@
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.9577,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "기단과 전선"
-      ]
+      ],
+      "correction_status": "user_reported_fixed",
+      "corrected_at": "2026-08-25"
     },
     {
       "id": "WX-SU6-036",
@@ -59416,11 +59437,11 @@
       },
       "source_page": 94,
       "source_pdf_page": 100,
-      "question": "'까20ㅁ0678【[012의 생성조건에 대한 설명 중 틀린 것은?",
+      "question": "Thunderstorm의 생성조건에 대한 설명 중 틀린 것은?",
       "choices": [
         {
           "id": "A",
-          "text": "최소한 조건부 불안정한 대기상태, 즉 상승기류 시 불안정, 하강기류 시 안정상태를 유지하여 야 한다."
+          "text": "최소한 조건부 불안정한 대기상태, 즉 상승기류 시 불안정, 하강기류 시 안정상태를 유지하여야 한다."
         },
         {
           "id": "B",
@@ -59428,29 +59449,31 @@
         },
         {
           "id": "C",
-          "text": "6 20 306 40 50 60 출제예상문제 95"
+          "text": "하층 대기가 다량의 수증기를 함유하고 있어야 한다."
         },
         {
           "id": "D",
-          "text": "하층 대기가 다량의 수증기를 함유하고 있어야 한다."
+          "text": "반드시 과냉각수적이 존재하여야 한다."
         }
       ],
       "answer": "D",
-      "explanation": "〉 뇌우(다40ㅁ06781[01770) 1. 뇌우는 천둥과 번개를 동반하는 적란운(06) 또는 적란운의 집합체이다. 강한 대류활동을 가진 뇌우 는 폭우, 우박, 돌풍, 번개 등을 동반함으로써 짧은 시간 동안에 큰 항공 재해를 가져올 수 있는 중규 모 기상현상이다. 습하고 불안정한 공기가 지속적으로 수직 상승하면서 발생되며, 뇌우 각각의 구름은 수 00에서 수 십 km7}4] 수직적으로 형성된다. 2. 뇌우의 생성조건 가. 불안정 대기 : 최소한 조건부 불안정한 대기상태이어야 한다. 나. 상승 운동 : 초기 촉매작용(11[108 force)o] 되는 상승기류가 있어야 한다. 다. 높은 습도 : 하층 대기가 다량의 수증기를 함유하고 있어야 한다.",
+      "explanation": "뇌우 생성에는 불안정한 대기, 상승작용, 충분한 수증기가 필요하다. 과냉각수적이 반드시 존재해야 하는 것은 아니므로 D가 틀린 설명이다.",
       "explanation_language": "ko",
       "reference": "항공기상.pdf · 출제예상문제",
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.9146,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "뇌우와 번개"
       ],
-      "source_explanation_ocr": true
+      "source_explanation_ocr": true,
+      "correction_status": "user_reported_fixed",
+      "corrected_at": "2026-08-25"
     },
     {
       "id": "WX-SU7-008",
@@ -59672,7 +59695,7 @@
       },
       "source_page": 95,
       "source_pdf_page": 101,
-      "question": "뇌우의 성숙기에서의 특성으로 옮은 것은?",
+      "question": "뇌우의 성숙기에서의 특성으로 옳은 것은?",
       "choices": [
         {
           "id": "A",
@@ -59688,24 +59711,26 @@
         },
         {
           "id": "D",
-          "text": "ASE AA (gust front)o] 형성된다."
+          "text": "거스트 전선(gust front)이 형성된다."
         }
       ],
       "answer": "C",
-      "explanation": "정답은 C입니다. 정답 보기: 강우가 시작된다.",
+      "explanation": "교재 정답은 C이다. 뇌우의 성숙기에는 강수가 시작되고 상승기류와 하강기류가 함께 나타난다.",
       "explanation_language": "ko",
       "reference": "항공기상.pdf · 출제예상문제",
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.9272,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "뇌우와 번개"
-      ]
+      ],
+      "correction_status": "user_reported_fixed",
+      "corrected_at": "2026-08-25"
     },
     {
       "id": "WX-SU7-013",
@@ -60599,7 +60624,7 @@
       },
       "source_page": 98,
       "source_pdf_page": 104,
-      "question": "뇌우에 동반되며 항공기 외부 및 전자항법장비의 손상을 일으킬 수 We 기상현상은?",
+      "question": "뇌우에 동반되며 항공기 외부 및 전자항법장비의 손상을 일으킬 수 있는 기상현상은?",
       "choices": [
         {
           "id": "A",
@@ -60615,25 +60640,27 @@
         },
         {
           "id": "D",
-          "text": "Lighting"
+          "text": "Lightning"
         }
       ],
       "answer": "D",
-      "explanation": "뇌우지역 기상특성 및 뇌우지역 비행절차는 다음과 같다. 30 24@ 6D 62 2. @6 BD 29. @6 30. @ 출제예상문제 99 1. 뇌우지역 기상특성 가. 강한 하강기류가 있는 뇌우 아래에서 난기류 이외에 강한 윈드시어(\\100811681), 강한 강수, 낮 은 실링(661108), 시정 감소 Fe] 결합되어 나타날 수 있다. 나. 적운단계에서는 약함 또는 보통 강도의 난기류가 발생하며, 성숙단계에서는 보통 또는 심한 강 도의 난기류가 발생한다. 소멸단계의 초기단계에서는 심한 난기류가 나타날 수 있으며, 말기에서도 곳에 따라 심한 난기류가 발생할 수 있다. 따라서 뇌우의 단계에 관계없이 가능하면 뇌우 세포는 피 하는 것이 좋다. 다. B7H(lighting) 7} 치는 경우 일반적으로 항공기 구조의 손상은 미미하지만, 항공기의 전자장비나 계기, 통신기기 및 레이더 등에 BS 일으킬 수 있다. 2. 뇌우지역 비행절차 가. 강한 뇌우로 식별되거나, 또는 강한 레이더 반사파(88081 echo)7} 나타나는 뇌우는 최소한 20 NM 이상 회피하라. 나. 자동조종장치(346001101)를 사용하고 있다면 고도유지 modes} 속도유지 modes 해제한다. 일 정한 자세를 유지하고, 고도 및 속도가 변동될 수 있도록 놓아두라. 다. 번개로 인한 일시적인 시력상실(6110ㅁ0ㅁ688)을 줄이기 위하여 조종실 조명을 최대한 밝게 조절하 고 시선을 계기에 둔다. 라. 권장하는 난기류 통과속도로 동력설정을 유지하고 변경하지 마라. 권장속도가 달리 지정되어 있 지 않다면, 비행기의 구조적인 응력을 최소화하기 위하여 비행속도를 설계기동속도(\\,) 이하로 유 지하여야 한다. 마. 항공기탑재 레이더를 사용하고 있다면, 비행중인 고도 이외의 다른 고도에서의 뇌우를 탐지할 수 있도록 때때로 안테나의 각도를 상하로 기울인다. 바. 일단 뇌우 속에 들어갔다면 되돌아가지 마라. 0. 착빙(101ㅁ8)",
+      "explanation": "번개(Lightning)는 뇌우에 동반되며 항공기 외부와 전자·항법장비에 손상을 줄 수 있다.",
       "explanation_language": "ko",
       "reference": "항공기상.pdf · 출제예상문제",
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.9769,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "뇌우와 번개"
       ],
-      "source_explanation_ocr": true
+      "source_explanation_ocr": true,
+      "correction_status": "user_reported_fixed",
+      "corrected_at": "2026-08-25"
     },
     {
       "id": "WX-SU8-001",
@@ -61790,7 +61817,7 @@
       },
       "source_page": 103,
       "source_pdf_page": 109,
-      "question": "Clear icinge] 가장 잘 발생하는 구름은?",
+      "question": "Clear icing이 가장 잘 발생하는 구름은?",
       "choices": [
         {
           "id": "A",
@@ -61798,7 +61825,7 @@
         },
         {
           "id": "B",
-          "text": "se"
+          "text": "층운"
         },
         {
           "id": "C",
@@ -61816,14 +61843,16 @@
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.8902,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "착빙(Icing)"
-      ]
+      ],
+      "correction_status": "user_reported_fixed",
+      "corrected_at": "2026-08-25"
     },
     {
       "id": "WX-SU8-024",
@@ -62830,11 +62859,11 @@
         },
         {
           "id": "C",
-          "text": "적도 5S 이내에서는 발생하지 않는다."
+          "text": "적도 5° 이내에서는 발생하지 않는다."
         },
         {
           "id": "D",
-          "text": "해수면 온도 26.5C 이상의 열대해역에서 발생한다."
+          "text": "해수면 온도 26.5°C 이상의 열대해역에서 발생한다."
         }
       ],
       "answer": "B",
@@ -62844,14 +62873,16 @@
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.8733,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "태풍"
-      ]
+      ],
+      "correction_status": "user_reported_fixed",
+      "corrected_at": "2026-08-25"
     },
     {
       "id": "WX-SU9-010",
@@ -63329,7 +63360,7 @@
       },
       "source_page": 108,
       "source_pdf_page": 114,
-      "question": "Turbulence level] 아닌 것은?",
+      "question": "Turbulence level이 아닌 것은?",
       "choices": [
         {
           "id": "A",
@@ -63349,20 +63380,22 @@
         }
       ],
       "answer": "D",
-      "explanation": "정답은 D입니다. 정답 보기: Trace",
+      "explanation": "난기류 강도는 Light, Moderate, Severe, Extreme 등으로 분류하며 Trace는 난기류 강도 단계가 아니다.",
       "explanation_language": "ko",
       "reference": "항공기상.pdf · 출제예상문제",
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.963,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "난기류"
-      ]
+      ],
+      "correction_status": "user_reported_fixed",
+      "corrected_at": "2026-08-25"
     },
     {
       "id": "WX-SU10-003",
@@ -65542,40 +65575,42 @@
       },
       "source_page": 115,
       "source_pdf_page": 121,
-      "question": "일반적인 CAT (clear air turbulence) 2] 위치는?",
+      "question": "일반적인 CAT(clear air turbulence)의 위치는?",
       "choices": [
         {
           "id": "A",
-          "text": "제트기류의 극지방 상의 상부 E(trough)"
+          "text": "제트기류의 극지방 상의 상부 골(trough)"
         },
         {
           "id": "B",
-          "text": "고기압 흐름의 적도 지역의 상부 마루(2086) 근처"
+          "text": "고기압 흐름의 적도 지역의 상부 마루(ridge) 근처"
         },
         {
           "id": "C",
-          "text": "CATS] 소멸 단계에서 고기압 마루(ㅁ086@)를 지향한 SAS] 남쪽"
+          "text": "CAT의 소멸 단계에서 고기압 마루(ridge)를 지향한 동서의 남쪽"
         },
         {
           "id": "D",
-          "text": "저기압 골의 상부 UR (ridge) 근처"
+          "text": "저기압 골의 상부 마루(ridge) 근처"
         }
       ],
       "answer": "A",
-      "explanation": "정답은 A입니다. 정답 보기: 제트기류의 극지방 상의 상부 E(trough)",
+      "explanation": "교재 정답은 A이다. CAT는 제트기류 부근, 특히 극측(polar side)의 상부 골(upper trough)과 관련해 자주 나타난다.",
       "explanation_language": "ko",
       "reference": "항공기상.pdf · 출제예상문제",
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.9257,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "난기류"
-      ]
+      ],
+      "correction_status": "user_reported_fixed",
+      "corrected_at": "2026-08-25"
     },
     {
       "id": "WX-SU10-046",
@@ -68325,11 +68360,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "0 기압계의 이동과 상층운 예보"
+          "text": "기압계의 이동과 상층운 예보"
         },
         {
           "id": "B",
-          "text": "중층운 강수 ALY SEE 작성에 이용"
+          "text": "중층운 강수 예보와 층후도 작성에 이용"
         },
         {
           "id": "C",
@@ -68341,20 +68376,22 @@
         }
       ],
       "answer": "C",
-      "explanation": "정답은 C입니다. 정답 보기: 하층 기상 확인 및 강수 예보",
+      "explanation": "850 hPa 기상차트는 대류권 하층의 기상 상태를 확인하고 강수를 예보하는 데 이용한다.",
       "explanation_language": "ko",
       "reference": "항공기상.pdf · 출제예상문제",
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.9311,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "일기도"
-      ]
+      ],
+      "correction_status": "user_reported_fixed",
+      "corrected_at": "2026-08-25"
     },
     {
       "id": "WX-SU11-040",
@@ -71095,7 +71132,7 @@
       },
       "source_page": 147,
       "source_pdf_page": 153,
-      "question": "SIGWX 048파에서 & 수 없는 것은?",
+      "question": "SIGWX Chart에서 볼 수 없는 것은?",
       "choices": [
         {
           "id": "A",
@@ -71115,15 +71152,15 @@
         }
       ],
       "answer": "D",
-      "explanation": "정답은 D입니다. 정답 보기: heavy rain",
+      "explanation": "SIGWX Chart에는 thunderstorm, turbulence, severe squall line 등이 표시될 수 있으나 heavy rain 자체는 해당 보기 중 표시 대상이 아니다.",
       "explanation_language": "ko",
       "reference": "항공기상.pdf · 출제예상문제",
       "requires_figure": true,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.9204,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed_figure_notice",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
@@ -71133,7 +71170,9 @@
         "[241] 32. SIGWX 048파에서 & 수 없는 것은?",
         "00 thunderstorm                               @ turbulence",
         "® severe squall line                       @ heavy rain"
-      ]
+      ],
+      "correction_status": "user_reported_fixed",
+      "corrected_at": "2026-08-25"
     },
     {
       "id": "WX-SU12-033",
@@ -72069,7 +72108,7 @@
         },
         {
           "id": "B",
-          "text": "1A"
+          "text": "1시간"
         },
         {
           "id": "C",
@@ -72087,14 +72126,16 @@
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.9388,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "항공기상 예보"
-      ]
+      ],
+      "correction_status": "user_reported_fixed",
+      "corrected_at": "2026-08-25"
     },
     {
       "id": "WX-SU12-050",
@@ -74177,7 +74218,7 @@
       },
       "source_page": 168,
       "source_pdf_page": 174,
-      "question": "다음 중 기상부호가 틀리게 연결된 AL?",
+      "question": "다음 중 기상부호가 틀리게 연결된 것은?",
       "choices": [
         {
           "id": "A",
@@ -74197,20 +74238,22 @@
         }
       ],
       "answer": "C",
-      "explanation": "정답은 C입니다. 정답 보기: PY: Pay",
+      "explanation": "정답은 C이다. 기상부호 PY는 Spray(물보라)를 뜻하므로 'PY: Pay'는 틀리게 연결된 보기이다.",
       "explanation_language": "ko",
       "reference": "항공기상.pdf · 출제예상문제",
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.9411,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "항공기상 관측"
-      ]
+      ],
+      "correction_status": "user_reported_fixed",
+      "corrected_at": "2026-08-25"
     },
     {
       "id": "WX-SU13-040",
@@ -74382,7 +74425,7 @@
       },
       "source_page": 169,
       "source_pdf_page": 175,
-      "question": "기상현상을 나타내는 수식어 (의 공항 기준위치로부터의 WAL?",
+      "question": "기상현상을 나타내는 수식어 VC의 공항 기준위치로부터의 반경은?",
       "choices": [
         {
           "id": "A",
@@ -74402,20 +74445,22 @@
         }
       ],
       "answer": "C",
-      "explanation": "정답은 C입니다. 정답 보기: 8 km~16 km",
+      "explanation": "VC(Vicinity)는 공항 기준위치로부터 약 8~16 km 범위를 의미한다.",
       "explanation_language": "ko",
       "reference": "항공기상.pdf · 출제예상문제",
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.9253,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "항공기상 관측"
-      ]
+      ],
+      "correction_status": "user_reported_fixed",
+      "corrected_at": "2026-08-25"
     },
     {
       "id": "WX-SU13-044",
@@ -74433,7 +74478,7 @@
       },
       "source_page": 169,
       "source_pdf_page": 175,
-      "question": "인접 수식어 VCS} 같이 사용할 수 있는 기상 SLE (code) =?",
+      "question": "인접 수식어 VC와 같이 사용할 수 있는 기상 코드(code)는?",
       "choices": [
         {
           "id": "A",
@@ -74441,7 +74486,7 @@
         },
         {
           "id": "B",
-          "text": "Ts"
+          "text": "TS"
         },
         {
           "id": "C",
@@ -74453,21 +74498,23 @@
         }
       ],
       "answer": "B",
-      "explanation": "현재 기상현상을 보고할 때 사용하는 강도 수식어와 인접 수식어는 다음과 같다. 1. 강도 수식어 부호 예 - RA (약한 강도의 비) 표시 없음 RA (보통 강도의 비) + +RA (강한 강도의 비) 2. 인접 수식어 인접(0; Vicinity) ole 공항 내는 아니지만 공항 기준위치로부터 약 8~16 km 이내를 뜻하며 METAR 및 80001에는 \"08\", “SS”, “FG”, “FC’, “SH’, “PO\", “BLDU’, 78084\", “BLSN’, “TS” 및 “VA\" 보고에 사용해야 한다.",
+      "explanation": "교재의 VC(Vicinity) 사용 가능 현상에는 TS가 포함된다. 따라서 정답은 B이다.",
       "explanation_language": "ko",
       "reference": "항공기상.pdf · 출제예상문제",
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.9104,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "항공기상 관측"
       ],
-      "source_explanation_ocr": true
+      "source_explanation_ocr": true,
+      "correction_status": "user_reported_fixed",
+      "corrected_at": "2026-08-25"
     },
     {
       "id": "WX-SU13-045",
@@ -74536,11 +74583,11 @@
       },
       "source_page": 170,
       "source_pdf_page": 176,
-      "question": "기상부호 MIFGS 사용하여 안개를 보고할 수 있는 경우는?",
+      "question": "기상부호 MIFG를 사용하여 안개를 보고할 수 있는 경우는?",
       "choices": [
         {
           "id": "A",
-          "text": "안개가 SYS] 일부지역에 끼어있을 때"
+          "text": "안개가 공항의 일부지역에 끼어있을 때"
         },
         {
           "id": "B",
@@ -74548,7 +74595,7 @@
         },
         {
           "id": "C",
-          "text": "지상 m 이상 높이에서의 APS 1,000 m 이상이지만 안개층을 통해서 볼 수 있는 시정이 1,000 m 미만일 때"
+          "text": "지상 2 m 이상 높이에서의 시정은 1,000 m 이상이지만 안개층을 통해서 볼 수 있는 시정이 1,000 m 미만일 때"
         },
         {
           "id": "D",
@@ -74556,20 +74603,22 @@
         }
       ],
       "answer": "C",
-      "explanation": "정답은 C입니다. 정답 보기: 지상 m 이상 높이에서의 APS 1,000 m 이상이지만 안개층을 통해서 볼 수 있는 시정이 1,000 m 미만일 때",
+      "explanation": "MIFG는 shallow fog(얕은 안개)로, 지상 2 m 이상에서는 시정이 1,000 m 이상이지만 안개층을 통해 본 시정이 1,000 m 미만인 경우에 사용한다.",
       "explanation_language": "ko",
       "reference": "항공기상.pdf · 출제예상문제",
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.93,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "항공기상 관측"
-      ]
+      ],
+      "correction_status": "user_reported_fixed",
+      "corrected_at": "2026-08-25"
     },
     {
       "id": "WX-SU13-047",
@@ -75150,7 +75199,7 @@
       },
       "source_page": 171,
       "source_pdf_page": 177,
-      "question": "METAROA 구름이 “SCTO10 0\\ㅠ0020'으로 보고되었다면 001108은?",
+      "question": "METAR에서 구름이 “SCT010 OVC020”으로 보고되었다면 ceiling은?",
       "choices": [
         {
           "id": "A",
@@ -75170,20 +75219,22 @@
         }
       ],
       "answer": "D",
-      "explanation": "정답은 D입니다. 정답 보기: 2,000 ft",
+      "explanation": "Ceiling은 BKN 또는 OVC로 보고된 가장 낮은 구름층의 높이이다. OVC020은 2,000 ft이므로 정답은 D이다.",
       "explanation_language": "ko",
       "reference": "항공기상.pdf · 출제예상문제",
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.9603,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "항공기상 관측"
-      ]
+      ],
+      "correction_status": "user_reported_fixed",
+      "corrected_at": "2026-08-25"
     },
     {
       "id": "WX-SU13-059",
@@ -75355,7 +75406,7 @@
       },
       "source_page": 172,
       "source_pdf_page": 178,
-      "question": "CAVOKS] 의미로 틀린 것은?",
+      "question": "CAVOK의 의미로 틀린 것은?",
       "choices": [
         {
           "id": "A",
@@ -75367,7 +75418,7 @@
         },
         {
           "id": "C",
-          "text": "Ch7} 없는 경우"
+          "text": "Cb가 없는 경우"
         },
         {
           "id": "D",
@@ -75375,20 +75426,22 @@
         }
       ],
       "answer": "D",
-      "explanation": "정답은 D입니다. 정답 보기: 시정 10 mile 이상인 경우",
+      "explanation": "교재 문제에서 틀린 보기는 D이다. CAVOK의 시정 기준은 10 km 이상이므로 '10 mile 이상'은 잘못된 설명이다.",
       "explanation_language": "ko",
       "reference": "항공기상.pdf · 출제예상문제",
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.9382,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "항공기상 관측"
-      ]
+      ],
+      "correction_status": "user_reported_fixed",
+      "corrected_at": "2026-08-25"
     },
     {
       "id": "WX-SU13-063",
@@ -76841,7 +76894,7 @@
       },
       "source_page": 179,
       "source_pdf_page": 185,
-      "question": "ATISS] 권장 방송시간은?",
+      "question": "ATIS의 권장 방송시간은?",
       "choices": [
         {
           "id": "A",
@@ -76849,33 +76902,35 @@
         },
         {
           "id": "B",
-          "text": "30%"
+          "text": "30초"
         },
         {
           "id": "C",
-          "text": "602"
+          "text": "60초"
         },
         {
           "id": "D",
-          "text": "90%"
+          "text": "90초"
         }
       ],
       "answer": "B",
-      "explanation": "공항자동정보방송업무(&'18; Automatic Terminal Information Service) ol) 포함되는 기상정보 및 권장 방송시간은 다음과 같다. 1. ATISO 포함되는 기상정보는 다음과 같다. ATIS 정보에는 최신 기상전문의 시간, 운고(661108), 시정, 시정장애, 기온, 이슬점, 풍향(자방위)과 풍속, 고도계수정치, 그리고 그 밖의 관련사항이 포함된다. 가. 공항의 정시관측보고(\\11/1'&1) 및 특별관측보고(81001) 나. 사용 가능한 착륙예보 다. 접근지역의 주요기상에 대한 모든 사용 가능한 정보. 단, 운고(061108)가 5,000 [를 초과하고, 시 정이 5 mileS 초과하면 ATIS 방송에서 운고/하늘상태, 시정 및 시정장애를 생략할 수 있다. 라. 그 밖의 관련 사항(해당할 경우) 활주로 상태(사용 활주로, HES 폐쇄 등), 공항 시설의 문제 또는 이용 시 유의할 사항(40 이 나 118의 고장, 공항 주변의 조류 등) 2. ATIS 메시지는 송신속도 LE ATIS 송신에 사용되는 항행안전시설의 식별신호에 의해 저해되지 oF 도록 가능한 30초를 초과하지 않아야 한다.",
+      "explanation": "교재는 ATIS 메시지가 가능한 30초를 초과하지 않도록 권장한다고 설명한다.",
       "explanation_language": "ko",
       "reference": "항공기상.pdf · 출제예상문제",
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.8763,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "항공기상 정보"
       ],
-      "source_explanation_ocr": true
+      "source_explanation_ocr": true,
+      "correction_status": "user_reported_fixed",
+      "corrected_at": "2026-08-25"
     },
     {
       "id": "WX-SU14-013",
