@@ -4,18 +4,18 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>항공 문제은행</title>
-  <link rel="stylesheet" href="./assets/style.css" />
+  <link rel="stylesheet" href="./assets/style-v11-1.css?v=11.1.1" />
 </head>
 <body>
   <header class="topbar">
     <div class="container topbar-inner">
       <div>
         <h1>항공 문제은행</h1>
-        <p class="muted">JSON 기반 · GitHub Pages · 학습기록 자동 저장</p>
+        <p class="muted">JSON 기반 · GitHub Pages · 학습기록 자동 저장 · v11.1</p>
       </div>
       <nav class="row nav-row">
         <button id="statsBtn" class="button secondary">학습 통계</button>
-        <button id="errorsBtn" class="button secondary error-list-button">
+        <button id="errorsBtn" type="button" class="button secondary error-list-button">
           오류 목록 <span id="errorCountBadge" class="count-badge">0</span>
         </button>
         <a class="button secondary" href="./admin.html">문제 추가</a>
@@ -117,7 +117,7 @@
       <div class="question-topline">
         <div id="questionMeta" class="pill-row"></div>
         <div class="question-actions">
-          <button id="errorBtn" class="error-button" title="문제 오류 신고 · 신고 후 자동 건너뛰기" aria-label="문제 오류 신고">ERROR</button>
+          <button id="errorBtn" type="button" class="error-button" title="문제 오류 신고 · 신고 후 자동 건너뛰기" aria-label="문제 오류 신고">ERROR</button>
           <button id="examExcludeBtn" class="icon-button exclude-button" title="시험모드 출제 제외" aria-label="시험모드 출제 제외">!</button>
           <button id="favoriteBtn" class="icon-button" title="즐겨찾기" aria-label="즐겨찾기">☆</button>
         </div>
@@ -244,6 +244,6 @@
     </section>
   </main>
 
-  <script src="./assets/app.js"></script>
+  <script src="./assets/app-v11-1.js?v=11.1.1"></script>
 </body>
 </html>
