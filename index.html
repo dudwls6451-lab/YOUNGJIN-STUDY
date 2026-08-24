@@ -58,6 +58,19 @@
 
         <label>
           출제 개수
+          <select id="questionCountMode">
+            <option value="10">10문제</option>
+            <option value="20" selected>20문제</option>
+            <option value="30">30문제</option>
+            <option value="50">50문제</option>
+            <option value="100">100문제</option>
+            <option value="all">선택 범위 전체</option>
+            <option value="custom">직접 입력</option>
+          </select>
+        </label>
+
+        <label id="customCountWrap" class="hidden">
+          직접 입력
           <input id="questionCount" type="number" min="1" value="20" />
         </label>
 

@@ -1,12 +1,23 @@
 const DATA_PATH = "./data/questions.json";
 const STORAGE_KEY = "pilotQuestionBankProgressV2";
 
+const SUBJECTS = [
+  "ATP Gleim",
+  "항공기상",
+  "공중항법",
+  "비행이론",
+  "항공법규",
+  "항공교통통신정보업무",
+];
+
 const els = {
   subject: document.querySelector("#subjectFilter"),
   studyUnit: document.querySelector("#studyUnitFilter"),
   subunit: document.querySelector("#subunitFilter"),
   scope: document.querySelector("#scopeFilter"),
+  countMode: document.querySelector("#questionCountMode"),
   count: document.querySelector("#questionCount"),
+  customCountWrap: document.querySelector("#customCountWrap"),
   mode: document.querySelector("#modeSelect"),
   shuffleChoices: document.querySelector("#shuffleChoices"),
   start: document.querySelector("#startBtn"),
@@ -133,9 +144,12 @@ async function loadBank() {
 }
 
 function populateSubjects() {
-  const subjects = [...new Set(bank.map(q => q.subject || "미분류"))].sort();
-  els.subject.innerHTML = `<option value="">전체</option>` +
-    subjects.map(s => `<option value="${escapeHtml(s)}">${escapeHtml(s)}</option>`).join("");
+  els.subject.innerHTML = `<option value="">전체 과목</option>` +
+    SUBJECTS.map(s => {
+      const count = bank.filter(q => (q.subject || "미분류") === s).length;
+      const suffix = count ? ` (${count})` : "";
+      return `<option value="${escapeHtml(s)}">${escapeHtml(s + suffix)}</option>`;
+    }).join("");
   populateStudyUnits();
 }
 
@@ -211,7 +225,8 @@ function updateAvailableCount() {
   const filtered = getFilteredBank();
   els.bankInfo.textContent = `선택 범위 ${filtered.length.toLocaleString()}문제 / 전체 ${bank.length.toLocaleString()}문제`;
   els.count.max = Math.max(1, filtered.length);
-  if (filtered.length && Number(els.count.value) > filtered.length) {
+
+  if (els.countMode.value === "custom" && filtered.length && Number(els.count.value) > filtered.length) {
     els.count.value = filtered.length;
   }
 }
@@ -223,7 +238,15 @@ function startSession(source = null) {
     return;
   }
 
-  const requested = Math.max(1, Number(els.count.value) || 20);
+  let requested;
+  if (els.countMode.value === "all") {
+    requested = pool.length;
+  } else if (els.countMode.value === "custom") {
+    requested = Math.max(1, Number(els.count.value) || 20);
+  } else {
+    requested = Math.max(1, Number(els.countMode.value) || 20);
+  }
+
   session = shuffle(pool).slice(0, Math.min(requested, pool.length));
   index = 0;
   correctCount = 0;
@@ -510,12 +533,17 @@ els.subject.addEventListener("change", populateStudyUnits);
 els.studyUnit.addEventListener("change", populateSubunits);
 els.subunit.addEventListener("change", updateAvailableCount);
 els.scope.addEventListener("change", updateAvailableCount);
+els.countMode.addEventListener("change", () => {
+  els.customCountWrap.classList.toggle("hidden", els.countMode.value !== "custom");
+  updateAvailableCount();
+});
 els.start.addEventListener("click", () => startSession());
 els.next.addEventListener("click", nextQuestion);
 els.favorite.addEventListener("click", toggleFavorite);
 els.retryWrong.addEventListener("click", () => {
   const wrong = [...wrongQuestions];
-  els.count.value = wrong.length;
+  els.countMode.value = "all";
+  els.customCountWrap.classList.add("hidden");
   startSession(wrong);
 });
 els.restart.addEventListener("click", () => {
