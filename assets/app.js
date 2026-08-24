@@ -23,6 +23,7 @@ const els = {
   customCountWrap: document.querySelector("#customCountWrap"),
   mode: document.querySelector("#modeSelect"),
   shuffleChoices: document.querySelector("#shuffleChoices"),
+  noFigureOnly: document.querySelector("#noFigureOnly"),
   start: document.querySelector("#startBtn"),
   bankInfo: document.querySelector("#bankInfo"),
   resetProgress: document.querySelector("#resetProgressBtn"),
@@ -259,6 +260,19 @@ function matchesScope(q) {
   }
 }
 
+function hasFigure(q) {
+  if (q.requires_figure) return true;
+  if (Array.isArray(q.figure_refs) && q.figure_refs.length) return true;
+  if (Array.isArray(q.images) && q.images.length) return true;
+  if (q.image || q.image_path) return true;
+
+  // OCR/구형 데이터에서 Figure 메타데이터가 빠졌어도,
+  // 문제 자체가 그림·도표·일기도 참조를 명시하면 그림 문제로 취급합니다.
+  const text = String(q.question || "");
+  const figureCue = /(?:\bfigure\b|그림\s*\d*|다음\s*(?:그림|도표|일기도|기상도)|(?:그림|도표|일기도|기상도)\s*(?:을|를|의|에서|참조)|참조\s*(?:그림|도표|일기도|기상도))/i;
+  return figureCue.test(text);
+}
+
 function getFilteredBank() {
   const subject = els.subject.value;
   const unit = els.studyUnit.value;
@@ -274,6 +288,7 @@ function getFilteredBank() {
     }
 
     if (!matchesScope(q)) return false;
+    if (els.noFigureOnly.checked && hasFigure(q)) return false;
     return true;
   });
 }
@@ -290,6 +305,11 @@ function updateAvailableCount() {
 
 function startSession(source = null) {
   let pool = source || getFilteredBank();
+
+  // 오답 재도전처럼 source가 직접 전달된 경우에도 그림 제외 옵션을 유지합니다.
+  if (els.noFigureOnly.checked) {
+    pool = pool.filter(q => !hasFigure(q));
+  }
 
   // "!"로 표시한 문제는 학습모드에는 남아 있지만 시험모드에서는 출제하지 않습니다.
   if (els.mode.value === "exam") {
@@ -765,6 +785,7 @@ els.selectAllSubunits.addEventListener("click", selectAllSubunits);
 els.clearSubunits.addEventListener("click", clearSubunits);
 els.scope.addEventListener("change", updateAvailableCount);
 els.mode.addEventListener("change", updateAvailableCount);
+els.noFigureOnly.addEventListener("change", updateAvailableCount);
 els.countMode.addEventListener("change", () => {
   els.customCountWrap.classList.toggle("hidden", els.countMode.value !== "custom");
   updateAvailableCount();
