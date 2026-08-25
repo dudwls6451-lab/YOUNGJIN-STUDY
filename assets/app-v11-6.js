@@ -118,7 +118,7 @@ function ensureV1117DirectTheoryShortcut() {
   btn.id = "directTheoryBtn";
   btn.className = "mode-choice-card theory-direct-card";
   btn.type = "button";
-  btn.innerHTML = '<span class="mode-icon">📖</span><strong>항공기상 이론 학습 <em class="new-badge">FULL</em></strong><span>항공기상 이론 → 쪽지시험 10문항 → 8개 이상 합격</span>';
+  btn.innerHTML = '<span class="mode-icon">📖</span><strong>교재 이론 학습 <em class="new-badge">NEW</em></strong><span>항공기상 · 검댕이 항공법규 → 쪽지시험 10문항 → 8개 이상 합격</span>';
   grid.appendChild(btn);
 }
 ensureV1117DirectTheoryShortcut();
@@ -148,12 +148,12 @@ function ensureV1116TheoryShell() {
   }
   if (!document.querySelector("#bookTheoryHubCard")) {
     const section = document.createElement("section"); section.id="bookTheoryHubCard"; section.className="card hidden";
-    section.innerHTML = `<div class="section-head"><div><h2>이론 학습 교재를 선택하십시오.</h2><p class="muted">항공기상 교재의 전 이론 범위를 순서대로 학습할 수 있습니다.</p></div><button id="bookTheoryBackBtn" class="button secondary" type="button">이전</button></div><div class="book-choice-grid theory-book-grid"><button id="weatherTheoryBtn" class="book-choice-card theory-ready" data-theory-subject="항공기상" type="button"><img src="./assets/covers/weather.jpg" alt="항공기상 표지"><strong>항공기상</strong><span>전체 이론 과정 · 40단계</span></button><div class="theory-coming-soon"><strong>ATP Gleim · 검댕이 항공법규</strong><span>이론 학습 확장 예정</span></div></div>`;
+    section.innerHTML = `<div class="section-head"><div><h2>이론 학습 교재를 선택하십시오.</h2><p class="muted">교재 본문을 순서대로 학습하고 각 단계의 쪽지시험을 통과합니다.</p></div><button id="bookTheoryBackBtn" class="button secondary" type="button">이전</button></div><div class="book-choice-grid theory-book-grid"><button id="weatherTheoryBtn" class="book-choice-card theory-ready" data-theory-subject="항공기상" type="button"><img src="./assets/covers/weather.jpg" alt="항공기상 표지"><strong>항공기상</strong><span>전체 이론 과정 · 40단계</span></button><button id="airlawTheoryBtn" class="book-choice-card theory-ready" data-theory-subject="검댕이 항공법규" type="button"><img src="./assets/covers/airlaw.jpg" alt="검댕이 항공법규 표지"><strong>검댕이 항공법규</strong><span>국제 항공법 + 항공안전법 · 15단계</span></button><div class="theory-coming-soon"><strong>ATP Gleim</strong><span>이론 학습 확장 예정</span></div></div>`;
     main.insertBefore(section, insertBefore);
   }
   if (!document.querySelector("#theoryCard")) {
     const section = document.createElement("section"); section.id="theoryCard"; section.className="card theory-card hidden";
-    section.innerHTML = `<div class="section-head theory-main-head"><div><span class="eyebrow">항공기상 이론 학습 · 전체과정</span><h2 id="theoryUnitTitle">제1절 대기</h2><p id="theoryUnitProgress" class="muted"></p></div><button id="theoryExitBtn" class="button secondary" type="button">교재 선택</button></div><div class="theory-layout"><aside class="theory-sidebar"><div class="theory-sidebar-title">학습 단계</div><div id="theoryStageList" class="theory-stage-list"></div></aside><article class="theory-reader"><div class="theory-stage-head"><span id="theoryStageNumber" class="pill"></span><span id="theoryStageStatus" class="theory-status-badge"></span></div><h2 id="theoryStageTitle"></h2><div id="theoryContent" class="theory-content"></div><div id="theoryReadSentinel" class="theory-read-sentinel" aria-hidden="true"></div><div class="theory-test-panel"><div><strong>쪽지시험</strong><p id="theoryTestGuide" class="muted">이론을 끝까지 읽으면 응시할 수 있습니다. 기존 문제은행에서 10문항이 무작위 출제되며 8문항 이상 맞아야 합격입니다.</p></div><button id="theoryTestBtn" class="button" type="button" disabled>끝까지 읽으면 응시 가능</button></div></article></div>`;
+    section.innerHTML = `<div class="section-head theory-main-head"><div><span id="theoryEyebrow" class="eyebrow">교재 이론 학습</span><h2 id="theoryUnitTitle">이론 학습</h2><p id="theoryUnitProgress" class="muted"></p></div><button id="theoryExitBtn" class="button secondary" type="button">교재 선택</button></div><div class="theory-layout"><aside class="theory-sidebar"><div class="theory-sidebar-title">학습 단계</div><div id="theoryStageList" class="theory-stage-list"></div></aside><article class="theory-reader"><div class="theory-stage-head"><span id="theoryStageNumber" class="pill"></span><span id="theoryStageStatus" class="theory-status-badge"></span></div><h2 id="theoryStageTitle"></h2><div id="theoryContent" class="theory-content"></div><div id="theoryReadSentinel" class="theory-read-sentinel" aria-hidden="true"></div><div class="theory-test-panel"><div><strong>쪽지시험</strong><p id="theoryTestGuide" class="muted">이론을 끝까지 읽으면 응시할 수 있습니다. 기존 문제은행에서 10문항이 무작위 출제되며 8문항 이상 맞아야 합격입니다.</p></div><button id="theoryTestBtn" class="button" type="button" disabled>끝까지 읽으면 응시 가능</button></div></article></div>`;
     main.insertBefore(section, insertBefore);
   }
 }
@@ -194,6 +194,8 @@ const els = {
   bookProblemBackBtn: document.querySelector("#bookProblemBackBtn"),
   bookTheoryBackBtn: document.querySelector("#bookTheoryBackBtn"),
   weatherTheoryBtn: document.querySelector("#weatherTheoryBtn"),
+  airlawTheoryBtn: document.querySelector("#airlawTheoryBtn"),
+  theoryEyebrow: document.querySelector("#theoryEyebrow"),
   theoryExitBtn: document.querySelector("#theoryExitBtn"),
   theoryStageList: document.querySelector("#theoryStageList"),
   theoryUnitProgress: document.querySelector("#theoryUnitProgress"),
@@ -282,6 +284,7 @@ let learningContext = {
 };
 let sessionMeta = {};
 let theoryData = null;
+let activeTheorySubject = null;
 let currentTheoryStageIndex = 0;
 let theoryReadObserver = null;
 
@@ -421,14 +424,38 @@ function applyModeUIState() {
 }
 
 
+
+const THEORY_CONFIG = {
+  "항공기상": {
+    storageKey: "weatherAll",
+    paths: ["./data/theory-weather-all.json", "./data/theory-weather-su3.json"],
+    label: "항공기상 이론 학습",
+    loadError: "항공기상 이론 학습 데이터를 불러오지 못했습니다."
+  },
+  "검댕이 항공법규": {
+    storageKey: "airlawAll",
+    paths: ["./data/theory-airlaw-all.json"],
+    label: "검댕이 항공법규 이론 학습",
+    loadError: "검댕이 항공법규 이론 학습 데이터를 불러오지 못했습니다."
+  }
+};
+
+function getTheoryConfig() {
+  return THEORY_CONFIG[activeTheorySubject] || THEORY_CONFIG["항공기상"];
+}
+
 function getTheoryRoot() {
   if (!progressStore.__theory || typeof progressStore.__theory !== "object") progressStore.__theory = {};
-  if (!progressStore.__theory.weatherAll) {
+  const cfg = getTheoryConfig();
+  if (cfg.storageKey === "weatherAll" && !progressStore.__theory.weatherAll) {
     const legacy = progressStore.__theory.weatherSu3;
     progressStore.__theory.weatherAll = legacy && typeof legacy === "object" ? legacy : { stages: {} };
   }
-  if (!progressStore.__theory.weatherAll.stages) progressStore.__theory.weatherAll.stages = {};
-  return progressStore.__theory.weatherAll;
+  if (!progressStore.__theory[cfg.storageKey] || typeof progressStore.__theory[cfg.storageKey] !== "object") {
+    progressStore.__theory[cfg.storageKey] = { stages: {} };
+  }
+  if (!progressStore.__theory[cfg.storageKey].stages) progressStore.__theory[cfg.storageKey].stages = {};
+  return progressStore.__theory[cfg.storageKey];
 }
 
 function getTheoryStageProgress(stageId) {
@@ -443,11 +470,13 @@ function theoryStageUnlocked(stageIndex) {
   return !!getTheoryStageProgress(theoryData.stages[stageIndex - 1].id).passed;
 }
 
-async function loadTheoryData() {
-  if (theoryData) return theoryData;
-  const paths = ["./data/theory-weather-all.json", "./data/theory-weather-su3.json"];
+async function loadTheoryData(subject = activeTheorySubject || "항공기상") {
+  if (theoryData && activeTheorySubject === subject) return theoryData;
+  activeTheorySubject = subject;
+  theoryData = null;
+  const cfg = getTheoryConfig();
   let lastError = null;
-  for (const path of paths) {
+  for (const path of cfg.paths) {
     try {
       const res = await fetch(`${path}?v=${Date.now()}`, {cache:"no-store"});
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -455,7 +484,7 @@ async function loadTheoryData() {
       return theoryData;
     } catch (err) { lastError = err; }
   }
-  throw lastError || new Error("이론 학습 데이터를 불러오지 못했습니다.");
+  throw lastError || new Error(cfg.loadError);
 }
 
 function renderTheoryStageList() {
@@ -522,20 +551,25 @@ function renderTheoryStage(stageIndex) {
   currentTheoryStageIndex = stageIndex;
   const stage = theoryData.stages[stageIndex];
   const rec = getTheoryStageProgress(stage.id);
-  if (els.theoryUnitTitle) els.theoryUnitTitle.textContent = stage.unit_title || theoryData?.metadata?.name || "항공기상 이론";
+  if (els.theoryEyebrow) els.theoryEyebrow.textContent = `${theoryData?.metadata?.subject || activeTheorySubject || "교재"} 이론 학습`;
+  if (els.theoryUnitTitle) els.theoryUnitTitle.textContent = stage.unit_title || theoryData?.metadata?.name || "이론 학습";
   els.theoryStageNumber.textContent = `${stageIndex + 1} / ${theoryData.stages.length}`;
   els.theoryStageStatus.textContent = rec.passed ? `합격 · 최고 ${rec.bestScore}/10` : (rec.lastScore === null ? "미응시" : `최근 ${rec.lastScore}/10`);
   els.theoryStageStatus.className = `theory-status-badge ${rec.passed ? "passed" : ""}`;
   els.theoryStageTitle.textContent = stage.title;
-  els.theoryContent.innerHTML = (stage.sections || []).map(renderTheorySection).join("") + `<section class="theory-summary"><h3>시험 직전 핵심</h3><ul>${(stage.summary_points || []).map(p => `<li>${escapeHtml(p)}</li>`).join("")}</ul><p class="theory-source">교재 범위: 항공기상.pdf 인쇄 p.${stage.source_printed_pages.join("–")} · PDF p.${stage.source_pdf_pages.join("–")}</p></section>`;
+  const sourceName = theoryData?.metadata?.source_file || "교재";
+  const printed = (stage.source_printed_pages || []).join("–");
+  const pdfPages = (stage.source_pdf_pages || []).join("–");
+  els.theoryContent.innerHTML = (stage.sections || []).map(renderTheorySection).join("") + `<section class="theory-summary"><h3>시험 직전 핵심</h3><ul>${(stage.summary_points || []).map(p => `<li>${escapeHtml(p)}</li>`).join("")}</ul><p class="theory-source">교재 범위: ${escapeHtml(sourceName)}${printed ? ` 인쇄 p.${escapeHtml(printed)}` : ""}${pdfPages ? ` · PDF p.${escapeHtml(pdfPages)}` : ""}</p></section>`;
   renderTheoryStageList();
   setupTheoryReadGate(stage);
   els.theoryCard.scrollIntoView({behavior:"smooth", block:"start"});
 }
 
-async function openWeatherTheory() {
+
+async function openTheory(subject) {
   try {
-    await loadTheoryData();
+    await loadTheoryData(subject);
     hideStudySurfaces();
     els.modeHubCard?.classList.add("hidden");
     els.textbookHubCard?.classList.add("hidden");
@@ -547,9 +581,13 @@ async function openWeatherTheory() {
     renderTheoryStage(firstNotPassed >= 0 ? firstNotPassed : theoryData.stages.length - 1);
   } catch (err) {
     console.error(err);
-    alert("항공기상 이론 학습 데이터를 불러오지 못했습니다. data/theory-weather-all.json 파일을 확인해 주세요.");
+    const cfg = THEORY_CONFIG[subject] || {};
+    alert(`${cfg.loadError || "이론 학습 데이터를 불러오지 못했습니다."}\n관련 data JSON 파일을 확인해 주세요.`);
   }
 }
+
+function openWeatherTheory() { return openTheory("항공기상"); }
+function openAirlawTheory() { return openTheory("검댕이 항공법규"); }
 
 function getCurrentTheoryStage() {
   return theoryData?.stages?.[currentTheoryStageIndex] || null;
@@ -569,7 +607,7 @@ function startTheoryTest(stage = getCurrentTheoryStage()) {
   const pool = getTheoryQuestionPool(stage);
   if (pool.length < 10) { alert(`쪽지시험에 필요한 문제는 10문항이지만 현재 사용 가능한 문제는 ${pool.length}문항입니다. 오류/시험 제외 표시를 확인해 주세요.`); return; }
   session = shuffle(pool).slice(0, 10);
-  sessionMeta = {type:"theoryTest", theoryStageId:stage.id, theoryStageIndex:currentTheoryStageIndex, theoryStageTitle:stage.title};
+  sessionMeta = {type:"theoryTest", theorySubject:activeTheorySubject, theoryStageId:stage.id, theoryStageIndex:currentTheoryStageIndex, theoryStageTitle:stage.title};
   index = 0; correctCount = 0; wrongQuestions = []; examAnswers = {};
   els.theoryCard.classList.add("hidden");
   els.resultCard.classList.add("hidden");
@@ -1797,6 +1835,8 @@ document.addEventListener("click", event => {
   if (problemChoice) { event.preventDefault(); showBookProblemHub(); return; }
   const weatherTheory = event.target.closest("#weatherTheoryBtn");
   if (weatherTheory) { event.preventDefault(); openWeatherTheory(); return; }
+  const airlawTheory = event.target.closest("#airlawTheoryBtn");
+  if (airlawTheory) { event.preventDefault(); openAirlawTheory(); return; }
 });
 
 els.kotsaModeBtn?.addEventListener("click", () => activateLearningContext({
@@ -1812,6 +1852,7 @@ els.directTheoryBtn?.addEventListener("click", showBookTheoryHub);
 els.bookProblemBackBtn?.addEventListener("click", showTextbookHub);
 els.bookTheoryBackBtn?.addEventListener("click", showTextbookHub);
 els.weatherTheoryBtn?.addEventListener("click", openWeatherTheory);
+els.airlawTheoryBtn?.addEventListener("click", openAirlawTheory);
 els.theoryExitBtn?.addEventListener("click", showBookTheoryHub);
 els.theoryTestBtn?.addEventListener("click", () => startTheoryTest());
 els.theoryStageList?.addEventListener("click", event => {

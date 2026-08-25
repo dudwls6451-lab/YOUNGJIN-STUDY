@@ -356,3 +356,7 @@ pre{overflow-x:auto;background:#111827;color:#e5e7eb;padding:16px;border-radius:
 @media (prefers-color-scheme: dark) {
   .theory-unit-label { background: rgba(30,48,78,.96); color: #cfe0ff; border-color: #425b86; }
 }
+
+
+/* v11.20 airlaw theory */
+.theory-book-grid { grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); }

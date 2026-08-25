@@ -4,14 +4,14 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>항공 문제은행</title>
-  <link rel="stylesheet" href="./assets/style-v11-18.css?v=11.18.0" />
+  <link rel="stylesheet" href="./assets/style-v11-20.css?v=11.20.0" />
 </head>
 <body>
   <header class="topbar">
     <div class="container topbar-inner">
       <div>
         <h1>항공 문제은행</h1>
-        <p class="muted">학습 모드 선택 · 항공기상 전체 이론학습 · v11.18</p>
+        <p class="muted">학습 모드 선택 · 항공기상 전체 이론학습 · v11.20</p>
       </div>
       <nav class="row nav-row">
         <button id="statsBtn" class="button secondary">학습 통계</button>
@@ -47,8 +47,8 @@
           <span>항공사별 맞춤 출제 과정</span>
         </button>
         <button id="directTheoryBtn" class="mode-choice-card theory-direct-card" type="button">
-          <span class="mode-icon">📖</span><strong>항공기상 이론 학습 <em class="new-badge">FULL</em></strong>
-          <span>항공기상 이론 → 쪽지시험 10문항 → 8개 이상 합격</span>
+          <span class="mode-icon">📖</span><strong>교재 이론 학습 <em class="new-badge">NEW</em></strong>
+          <span>항공기상 · 검댕이 항공법규 → 쪽지시험 10문항 → 8개 이상 합격</span>
         </button>
       </div>
     </section>
@@ -90,7 +90,7 @@
       <div class="section-head">
         <div>
           <h2>이론 학습 교재를 선택하십시오.</h2>
-          <p class="muted">항공기상 교재의 전 이론 범위를 순서대로 학습할 수 있습니다.</p>
+          <p class="muted">교재 본문을 순서대로 학습하고 각 단계의 쪽지시험을 통과합니다.</p>
         </div>
         <button id="bookTheoryBackBtn" class="button secondary" type="button">이전</button>
       </div>
@@ -98,15 +98,18 @@
         <button id="weatherTheoryBtn" class="book-choice-card theory-ready" data-theory-subject="항공기상" type="button">
           <img src="./assets/covers/weather.jpg" alt="항공기상 표지"><strong>항공기상</strong><span>전체 이론 과정 · 40단계</span>
         </button>
-        <div class="theory-coming-soon"><strong>ATP Gleim · 검댕이 항공법규</strong><span>이론 학습 확장 예정</span></div>
+        <button id="airlawTheoryBtn" class="book-choice-card theory-ready" data-theory-subject="검댕이 항공법규" type="button">
+          <img src="./assets/covers/airlaw.jpg" alt="검댕이 항공법규 표지"><strong>검댕이 항공법규</strong><span>국제 항공법 + 항공안전법 · 15단계</span>
+        </button>
+        <div class="theory-coming-soon"><strong>ATP Gleim</strong><span>이론 학습 확장 예정</span></div>
       </div>
     </section>
 
     <section id="theoryCard" class="card theory-card hidden">
       <div class="section-head theory-main-head">
         <div>
-          <span class="eyebrow">항공기상 이론 학습 · 전체과정</span>
-          <h2 id="theoryUnitTitle">제1절 대기</h2>
+          <span id="theoryEyebrow" class="eyebrow">교재 이론 학습</span>
+          <h2 id="theoryUnitTitle">이론 학습</h2>
           <p id="theoryUnitProgress" class="muted"></p>
         </div>
         <button id="theoryExitBtn" class="button secondary" type="button">교재 선택</button>
@@ -377,6 +380,6 @@
   </main>
 
   <script src="./assets/auth-v11-4.js?v=11.18.0"></script>
-  <script src="./assets/app-v11-9.js?v=11.18.0"></script>
+  <script src="./assets/app-v11-10.js?v=11.20.0"></script>
 </body>
 </html>
