@@ -1,0 +1,63 @@
+{
+  "version": "v11.25",
+  "base": "v11.24",
+  "feature": "restricted_resource_library",
+  "source_files": [
+    "IFR 최저고도 카드 · TOGA 자료실.pdf",
+    "METAR·TAF 해독 카드 · TOGA 자료실.pdf",
+    "NOTAM 해독 카드 · TOGA 자료실.pdf",
+    "SNOWTAM 판독 카드 · TOGA 자료실.pdf",
+    "V속도 한 장 카드 · TOGA 자료실.pdf",
+    "공기역학 핵심 카드 · TOGA 자료실.pdf",
+    "관제 신호·비상코드 카드 · TOGA 자료실.pdf",
+    "기상 위험 카드 · TOGA 자료실.pdf",
+    "연료 정책 한 장 카드 · TOGA 자료실.pdf",
+    "홀딩 한 장 카드 · TOGA 자료실.pdf"
+  ],
+  "authorized_accounts": [
+    "김영진_시험용",
+    "주해솔_시험용",
+    "송용근_시험용",
+    "최원찬_시험용",
+    "우석원_시험용"
+  ],
+  "access_control": {
+    "resource_menu_hidden_for_unauthorized_accounts": true,
+    "viewer_rechecks_authorization_on_open": true,
+    "unauthorized_accounts_blocked_in_app_ui": true,
+    "implementation": "client-side account gate on static GitHub Pages"
+  },
+  "read_only_delivery": {
+    "source_pdf_files_in_deployment": 0,
+    "rendered_page_assets": 20,
+    "delivery_format": "PNG pages rendered into HTML canvas",
+    "download_button": false,
+    "print_blocked_in_ui": true,
+    "context_menu_blocked_in_viewer": true,
+    "save_print_view_source_shortcuts_blocked_while_viewer_open": true,
+    "note": "Static hosting cannot provide absolute DRM or server-side ACL; screenshots/devtools/network extraction cannot be made impossible purely in client code."
+  },
+  "ui": {
+    "menu_location": "top navigation",
+    "resource_count": 10,
+    "resource_list_view": true,
+    "canvas_viewer": true,
+    "back_to_resource_list": true
+  },
+  "changed_files": [
+    "index.html",
+    "README.md",
+    "assets/auth-v11-6.js",
+    "assets/app-v11-14.js",
+    "assets/style-v11-25.css",
+    "assets/resources/**"
+  ],
+  "validation": {
+    "javascript_syntax_ok": true,
+    "authorized_account_count": 5,
+    "resource_item_count": 10,
+    "rendered_page_asset_count": 20,
+    "original_pdf_files_absent_from_deployment": true,
+    "browser_runtime_test": "not run: local browser navigation blocked by execution environment policy"
+  }
+}
