@@ -78,6 +78,11 @@ function ensureV1115UiShell() {
           <strong>파라타항공 대비 과정</strong>
           <span>ATP Gleim + 검댕이 항공법규</span>
         </button>
+        <button id="jejuCourseBtn" class="airline-choice-card jeju-air-card" type="button">
+          <img src="./assets/covers/jeju_air.svg" alt="JEJUair 로고">
+          <strong>제주항공 대비 과정</strong>
+          <span>2024·2025 상/하반기 필기 복기 200문항</span>
+        </button>
       </div>`;
     if (controls) main.insertBefore(section, controls);
     else main.appendChild(section);
@@ -209,6 +214,7 @@ const els = {
   airlineHubBackBtn: document.querySelector("#airlineHubBackBtn"),
   freeStudyBtn: document.querySelector("#freeStudyBtn"),
   parataCourseBtn: document.querySelector("#parataCourseBtn"),
+  jejuCourseBtn: document.querySelector("#jejuCourseBtn"),
   backToModeBtn: document.querySelector("#backToModeBtn"),
   contextTitle: document.querySelector("#contextTitle"),
   contextNote: document.querySelector("#contextNote"),
@@ -291,13 +297,19 @@ let theoryReadObserver = null;
 const BOOK_SUBJECTS = ["ATP Gleim", "검댕이 항공법규", "항공기상"];
 const KOTSA_SUBJECTS = ["항공기상", "검댕이 항공법규"];
 const PARATA_SUBJECTS = ["ATP Gleim", "검댕이 항공법규"];
+const JEJU_RECALL_SUBJECT = "제주항공 복기";
+const JEJU_SUBJECTS = [JEJU_RECALL_SUBJECT];
 
 function isExamLike() {
   return sessionMeta.type === "theoryTest" || els.mode.value === "exam" || els.mode.value === "mock";
 }
 
 function getAllowedSubjectSet() {
-  return learningContext.allowedSubjects ? new Set(learningContext.allowedSubjects) : null;
+  if (learningContext.allowedSubjects) return new Set(learningContext.allowedSubjects);
+  if (learningContext.kind === "free") {
+    return new Set([...new Set(bank.map(q => q.subject || "미분류"))].filter(s => s !== JEJU_RECALL_SUBJECT));
+  }
+  return null;
 }
 
 function hideStudySurfaces() {
@@ -823,8 +835,16 @@ function populateStudyUnits() {
   const units = [...new Set(filtered.map(studyUnitOf).filter(Boolean))]
     .sort((a,b) => a.localeCompare(b, undefined, {numeric:true}));
 
+  const unitLabels = new Map();
+  filtered.forEach(q => {
+    const u = studyUnitOf(q);
+    if (u && !unitLabels.has(u)) unitLabels.set(u, q.study_unit_title || u);
+  });
   els.studyUnit.innerHTML = `<option value="">전체</option>` +
-    units.map(u => `<option value="${escapeHtml(u)}">SU ${escapeHtml(u)}</option>`).join("");
+    units.map(u => {
+      const label = subject === JEJU_RECALL_SUBJECT ? (unitLabels.get(u) || u) : `SU ${u}`;
+      return `<option value="${escapeHtml(u)}">${escapeHtml(label)}</option>`;
+    }).join("");
 
   populateSubunits();
 }
@@ -1038,7 +1058,8 @@ function renderQuestion() {
   els.feedback.className = "feedback hidden";
   els.feedback.textContent = "";
 
-  const pills = [q.id, q.subject, studyUnitOf(q) ? `SU ${studyUnitOf(q)}` : "", [subunitCode(q), subunitTitle(q)].filter(Boolean).join(" ")].filter(Boolean);
+  const unitPill = studyUnitOf(q) ? (q.subject === JEJU_RECALL_SUBJECT ? studyUnitOf(q) : `SU ${studyUnitOf(q)}`) : "";
+  const pills = [q.id, q.subject, unitPill, [subunitCode(q), subunitTitle(q)].filter(Boolean).join(" ")].filter(Boolean);
   els.meta.innerHTML = pills.map(p => `<span class="pill">${escapeHtml(p)}</span>`).join("");
 
   const rec = getRecord(q.id);
@@ -1875,6 +1896,10 @@ document.querySelectorAll("[data-book-subject]").forEach(btn => {
 els.parataCourseBtn?.addEventListener("click", () => activateLearningContext({
   kind:"airline", label:"파라타항공 대비 과정", allowedSubjects:PARATA_SUBJECTS, airline:"parata",
   note:"사용 교재: ATP Gleim + 검댕이 항공법규"
+}));
+els.jejuCourseBtn?.addEventListener("click", () => activateLearningContext({
+  kind:"airline", label:"제주항공 대비 과정", allowedSubjects:JEJU_SUBJECTS, lockedSubject:JEJU_RECALL_SUBJECT, airline:"jeju",
+  note:"복기 재구성 200문항 · 2024/2025 상·하반기 · 불완전 복기는 객관식으로 추론 재구성"
 }));
 
 async function bootstrap() {

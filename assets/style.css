@@ -260,7 +260,7 @@ pre{overflow-x:auto;background:#111827;color:#e5e7eb;padding:16px;border-radius:
 .book-choice-card img{width:100%;height:230px;object-fit:contain;background:#f7f8fa;border-radius:10px}
 .book-choice-card strong{font-size:1rem}.book-choice-card span{font-size:.82rem;color:var(--muted)}
 .book-choice-card.free-study img{object-fit:cover}
-.airline-choice-grid{display:grid;grid-template-columns:minmax(260px,520px);justify-content:center;margin-top:22px}
+.airline-choice-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,440px));gap:18px;justify-content:center;margin-top:22px}
 .airline-choice-card{border:1px solid var(--border);border-radius:18px;background:#fff;padding:18px;cursor:pointer;display:flex;flex-direction:column;gap:10px;align-items:center;color:var(--text);font:inherit;transition:.15s ease}
 .airline-choice-card img{width:100%;height:150px;object-fit:contain;border-radius:12px;background:#0524c8}
 .airline-choice-card strong{font-size:1.18rem}.airline-choice-card span{font-size:.88rem;color:var(--muted)}
@@ -360,3 +360,7 @@ pre{overflow-x:auto;background:#111827;color:#e5e7eb;padding:16px;border-radius:
 
 /* v11.20 airlaw theory */
 .theory-book-grid { grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); }
+
+/* v11.21 · Jeju Air recall course */
+.airline-choice-card.jeju-air-card img{background:#fff;border:1px solid #edf0f4;padding:10px}
+.airline-choice-card.jeju-air-card:hover{border-color:#ff8a55;box-shadow:0 8px 24px rgba(255,80,0,.10)}
