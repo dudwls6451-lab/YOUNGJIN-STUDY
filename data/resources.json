@@ -1,0 +1,95 @@
+{
+  "version": "11.26",
+  "resources": [
+    {
+      "id": "v-speeds",
+      "title": "V속도 한 장 카드",
+      "tag": "성능·속도",
+      "pages": [
+        "./assets/resources/v-speeds/page-1.png",
+        "./assets/resources/v-speeds/page-2.png"
+      ]
+    },
+    {
+      "id": "metar-taf",
+      "title": "METAR·TAF 해독 카드",
+      "tag": "기상",
+      "pages": [
+        "./assets/resources/metar-taf/page-1.png",
+        "./assets/resources/metar-taf/page-2.png"
+      ]
+    },
+    {
+      "id": "holding",
+      "title": "홀딩 한 장 카드",
+      "tag": "IFR",
+      "pages": [
+        "./assets/resources/holding/page-1.png",
+        "./assets/resources/holding/page-2.png"
+      ]
+    },
+    {
+      "id": "ifr",
+      "title": "IFR 최저고도 카드",
+      "tag": "IFR",
+      "pages": [
+        "./assets/resources/ifr/page-1.png",
+        "./assets/resources/ifr/page-2.png"
+      ]
+    },
+    {
+      "id": "atc-emergency",
+      "title": "관제 신호·비상코드 카드",
+      "tag": "관제·비상",
+      "pages": [
+        "./assets/resources/atc-emergency/page-1.png",
+        "./assets/resources/atc-emergency/page-2.png"
+      ]
+    },
+    {
+      "id": "weather-hazards",
+      "title": "기상 위험 카드",
+      "tag": "기상",
+      "pages": [
+        "./assets/resources/weather-hazards/page-1.png",
+        "./assets/resources/weather-hazards/page-2.png"
+      ]
+    },
+    {
+      "id": "aerodynamics",
+      "title": "공기역학 핵심 카드",
+      "tag": "공기역학",
+      "pages": [
+        "./assets/resources/aerodynamics/page-1.png",
+        "./assets/resources/aerodynamics/page-2.png"
+      ]
+    },
+    {
+      "id": "notam",
+      "title": "NOTAM 해독 카드",
+      "tag": "운항정보",
+      "pages": [
+        "./assets/resources/notam/page-1.png",
+        "./assets/resources/notam/page-2.png"
+      ]
+    },
+    {
+      "id": "snowtam",
+      "title": "SNOWTAM 판독 카드",
+      "tag": "운항정보",
+      "pages": [
+        "./assets/resources/snowtam/page-1.png",
+        "./assets/resources/snowtam/page-2.png"
+      ]
+    },
+    {
+      "id": "fuel-policy",
+      "title": "연료 정책 한 장 카드",
+      "tag": "운항절차",
+      "pages": [
+        "./assets/resources/fuel-policy/page-1.png",
+        "./assets/resources/fuel-policy/page-2.png"
+      ]
+    }
+  ]
+}
