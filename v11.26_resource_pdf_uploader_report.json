@@ -1,0 +1,53 @@
+{
+  "version": "v11.26",
+  "base": "v11.25",
+  "feature": "resource_library_pdf_admin_uploader",
+  "changes": {
+    "resource_manifest": "data/resources.json added; user app loads it dynamically with hardcoded fallback",
+    "admin_pdf_upload": true,
+    "multi_pdf": true,
+    "page_rasterization": "PDF.js 3.11.174 in browser -> JPEG pages",
+    "patch_packaging": "JSZip 3.10.1 -> deployment patch ZIP",
+    "original_pdf_in_patch": false,
+    "access": "resource-library authorized accounts only"
+  },
+  "authorized_accounts": [
+    "김영진_시험용",
+    "주해솔_시험용",
+    "송용근_시험용",
+    "최원찬_시험용",
+    "우석원_시험용"
+  ],
+  "deployment_workflow": [
+    "open admin.html on GitHub Pages or local HTTP server",
+    "select PDF(s)",
+    "edit title/tag",
+    "build resource patch ZIP",
+    "extract patch at repository root",
+    "commit/push"
+  ],
+  "changed_files": [
+    "index.html",
+    "admin.html",
+    "README.md",
+    "assets/app-v11-15.js",
+    "assets/resource-admin-v11-26.js",
+    "data/resources.json"
+  ],
+  "runtime_dependencies": [
+    "cdnjs pdf.js 3.11.174",
+    "cdnjs JSZip 3.10.1"
+  ],
+  "validation": {
+    "resource_manifest_valid_json": true,
+    "initial_resource_count": 10,
+    "original_pdf_files_absent_from_deployment": true,
+    "app_manifest_loader_present": true,
+    "admin_access_gate_present": true,
+    "pdf_input_multiple": true,
+    "original_pdf_excluded_from_generated_patch_logic": true,
+    "javascript_syntax_ok": true,
+    "http_static_smoke_test_ok": true,
+    "browser_pdf_conversion_runtime_test": "not executed in container; conversion runs in browser with PDF.js/JSZip loaded from cdnjs"
+  }
+}
