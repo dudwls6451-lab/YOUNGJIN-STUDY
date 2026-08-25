@@ -4,14 +4,14 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>항공 문제은행</title>
-  <link rel="stylesheet" href="./assets/style-v11-16.css?v=11.16.0" />
+  <link rel="stylesheet" href="./assets/style-v11-17.css?v=11.17.0" />
 </head>
 <body>
   <header class="topbar">
     <div class="container topbar-inner">
       <div>
         <h1>항공 문제은행</h1>
-        <p class="muted">학습 모드 선택 · 이론 학습 테스트베드 · v11.16</p>
+        <p class="muted">학습 모드 선택 · 이론 학습 테스트베드 · v11.17</p>
       </div>
       <nav class="row nav-row">
         <button id="statsBtn" class="button secondary">학습 통계</button>
@@ -40,11 +40,15 @@
         </button>
         <button id="textbookModeBtn" class="mode-choice-card" type="button">
           <span class="mode-icon">📚</span><strong>각 교재 학습</strong>
-          <span>교재별 집중 학습 또는 자유학습</span>
+          <span>문제 풀이 / 이론 학습 / 자유학습</span>
         </button>
         <button id="airlineModeBtn" class="mode-choice-card" type="button">
           <span class="mode-icon">🛫</span><strong>항공사 필기전형 대비</strong>
           <span>항공사별 맞춤 출제 과정</span>
+        </button>
+        <button id="directTheoryBtn" class="mode-choice-card theory-direct-card" type="button">
+          <span class="mode-icon">📖</span><strong>이론 학습 테스트베드 <em class="new-badge">NEW</em></strong>
+          <span>항공기상 이론 → 쪽지시험 10문항 → 8개 이상 합격</span>
         </button>
       </div>
     </section>
@@ -373,6 +377,6 @@
   </main>
 
   <script src="./assets/auth-v11-4.js?v=11.15.0"></script>
-  <script src="./assets/app-v11-7.js?v=11.16.0"></script>
+  <script src="./assets/app-v11-8.js?v=11.17.0"></script>
 </body>
 </html>

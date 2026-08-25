@@ -111,6 +111,18 @@ function ensureV1115UiShell() {
 }
 ensureV1115UiShell();
 
+function ensureV1117DirectTheoryShortcut() {
+  const grid = document.querySelector("#modeHubCard .mode-choice-grid");
+  if (!grid || document.querySelector("#directTheoryBtn")) return;
+  const btn = document.createElement("button");
+  btn.id = "directTheoryBtn";
+  btn.className = "mode-choice-card theory-direct-card";
+  btn.type = "button";
+  btn.innerHTML = '<span class="mode-icon">📖</span><strong>이론 학습 테스트베드 <em class="new-badge">NEW</em></strong><span>항공기상 이론 → 쪽지시험 10문항 → 8개 이상 합격</span>';
+  grid.appendChild(btn);
+}
+ensureV1117DirectTheoryShortcut();
+
 function ensureV1116TheoryShell() {
   const main = document.querySelector("main.container") || document.querySelector("main");
   if (!main) return;
@@ -178,6 +190,7 @@ const els = {
   textbookHubBackBtn: document.querySelector("#textbookHubBackBtn"),
   textbookProblemBtn: document.querySelector("#textbookProblemBtn"),
   textbookTheoryBtn: document.querySelector("#textbookTheoryBtn"),
+  directTheoryBtn: document.querySelector("#directTheoryBtn"),
   bookProblemBackBtn: document.querySelector("#bookProblemBackBtn"),
   bookTheoryBackBtn: document.querySelector("#bookTheoryBackBtn"),
   weatherTheoryBtn: document.querySelector("#weatherTheoryBtn"),
@@ -1760,6 +1773,21 @@ document.addEventListener("click", event => {
   }
 });
 
+
+// v11.17: 학습 허브 네비게이션은 이벤트 위임으로도 연결하여 캐시/동적 DOM 교체 상황에 대비합니다.
+document.addEventListener("click", event => {
+  const directTheory = event.target.closest("#directTheoryBtn");
+  if (directTheory) { event.preventDefault(); showBookTheoryHub(); return; }
+  const textbook = event.target.closest("#textbookModeBtn");
+  if (textbook) { event.preventDefault(); showTextbookHub(); return; }
+  const theoryChoice = event.target.closest("#textbookTheoryBtn");
+  if (theoryChoice) { event.preventDefault(); showBookTheoryHub(); return; }
+  const problemChoice = event.target.closest("#textbookProblemBtn");
+  if (problemChoice) { event.preventDefault(); showBookProblemHub(); return; }
+  const weatherTheory = event.target.closest("#weatherTheoryBtn");
+  if (weatherTheory) { event.preventDefault(); openWeatherTheory(); return; }
+});
+
 els.kotsaModeBtn?.addEventListener("click", () => activateLearningContext({
   kind:"kotsa", label:"교통안전공단 면허시험 대비", allowedSubjects:KOTSA_SUBJECTS,
   note:"ATP Gleim은 이 과정에서 제외됩니다."
@@ -1769,6 +1797,7 @@ els.airlineModeBtn?.addEventListener("click", showAirlineHub);
 els.textbookHubBackBtn?.addEventListener("click", showMainModeHub);
 els.textbookProblemBtn?.addEventListener("click", showBookProblemHub);
 els.textbookTheoryBtn?.addEventListener("click", showBookTheoryHub);
+els.directTheoryBtn?.addEventListener("click", showBookTheoryHub);
 els.bookProblemBackBtn?.addEventListener("click", showTextbookHub);
 els.bookTheoryBackBtn?.addEventListener("click", showTextbookHub);
 els.weatherTheoryBtn?.addEventListener("click", openWeatherTheory);
