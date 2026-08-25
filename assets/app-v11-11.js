@@ -116,6 +116,31 @@ function ensureV1115UiShell() {
 }
 ensureV1115UiShell();
 
+// v11.22: 이전 버전의 airlineHubCard가 이미 존재하는 경우에도
+// 제주항공 대비 과정 카드를 보강합니다. (v11.21 패치 적용 시 누락 방지)
+function ensureV1122JejuCourseCard() {
+  const hub = document.querySelector("#airlineHubCard");
+  if (!hub || hub.querySelector("#jejuCourseBtn")) return;
+
+  let grid = hub.querySelector(".airline-choice-grid");
+  if (!grid) {
+    grid = document.createElement("div");
+    grid.className = "airline-choice-grid";
+    hub.appendChild(grid);
+  }
+
+  const button = document.createElement("button");
+  button.id = "jejuCourseBtn";
+  button.className = "airline-choice-card jeju-air-card";
+  button.type = "button";
+  button.innerHTML = `
+    <img src="./assets/covers/jeju_air.svg" alt="JEJUair 로고">
+    <strong>제주항공 대비 과정</strong>
+    <span>2024·2025 상/하반기 필기 복기 200문항</span>`;
+  grid.appendChild(button);
+}
+ensureV1122JejuCourseCard();
+
 function ensureV1117DirectTheoryShortcut() {
   const grid = document.querySelector("#modeHubCard .mode-choice-grid");
   if (!grid || document.querySelector("#directTheoryBtn")) return;

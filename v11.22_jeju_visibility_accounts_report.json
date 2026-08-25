@@ -1,0 +1,51 @@
+{
+  "version": "v11.22",
+  "base": "v11.21",
+  "fixes": {
+    "jeju_air_course_visibility": {
+      "status": "fixed",
+      "cause": "existing airlineHubCard from older builds prevented v11.21 shell creation path from adding jejuCourseBtn",
+      "solution": "ensureV1122JejuCourseCard() injects 제주항공 대비 과정 card whenever airlineHubCard exists but jejuCourseBtn is missing",
+      "question_bank_subject": "제주항공 복기",
+      "question_count": 200,
+      "sessions": [
+        "2024 상반기",
+        "2024 하반기",
+        "2025 상반기",
+        "2025 하반기"
+      ]
+    }
+  },
+  "accounts_added": [
+    {
+      "username": "최원찬_시험용",
+      "password": "1234"
+    },
+    {
+      "username": "주해솔_시험용",
+      "password": "1234"
+    },
+    {
+      "username": "송용근_시험용",
+      "password": "1234"
+    },
+    {
+      "username": "우석원_시험용",
+      "password": "1234"
+    }
+  ],
+  "password_storage": "SHA-256(username:password), plaintext not stored in JS",
+  "compatibility_files_updated": [
+    "assets/app-v11-10.js",
+    "assets/app-v11-11.js",
+    "assets/app-v11-12.js",
+    "assets/app.js",
+    "assets/auth-v11-4.js",
+    "assets/auth-v11-5.js"
+  ],
+  "data_changes": {
+    "question_count_unchanged": 2712,
+    "jeju_recall_questions": 200,
+    "question_data_changed": false
+  }
+}
