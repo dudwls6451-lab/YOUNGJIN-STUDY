@@ -1,0 +1,47 @@
+{
+  "version": "v11.25-atccomm-full-extract",
+  "source": "항공교통통신  ocr_압축됨.pdf",
+  "previously_extracted": 300,
+  "newly_extracted": 638,
+  "full_question_count": 938,
+  "new_breakdown": {
+    "출제예상문제_나머지": 263,
+    "모의고사": 375,
+    "모의고사_회차수": 15,
+    "모의고사_회차당": 25
+  },
+  "full_breakdown": {
+    "제1장 항행안전시설": 78,
+    "제2장 항공교통업무": 202,
+    "제3장 항공교통관제절차": 147,
+    "제4장 비상절차": 49,
+    "항공통신업무": 47,
+    "항공정보업무": 40,
+    "모의고사 1회": 25,
+    "모의고사 2회": 25,
+    "모의고사 3회": 25,
+    "모의고사 4회": 25,
+    "모의고사 5회": 25,
+    "모의고사 6회": 25,
+    "모의고사 7회": 25,
+    "모의고사 8회": 25,
+    "모의고사 9회": 25,
+    "모의고사 10회": 25,
+    "모의고사 11회": 25,
+    "모의고사 12회": 25,
+    "모의고사 13회": 25,
+    "모의고사 14회": 25,
+    "모의고사 15회": 25
+  },
+  "validation": {
+    "remaining_count_638": true,
+    "full_count_938": true,
+    "unique_full_ids": true,
+    "new_all_have_4_choices": true,
+    "new_answers_present": 555,
+    "new_answers_missing_due_ocr": 83,
+    "new_review_required": 100,
+    "figure_question_count_new": 6
+  },
+  "note": "검수 전 1차 전체 추출본. OCR에서 정답 동그라미 숫자가 @/©/® 등으로 깨진 문항은 answer=null로 보존했고, 같은 교재 안의 완전히 동일한 반복문항으로 답을 복원한 경우 answer_source=duplicate_exact_match_within_same_book으로 표시했다. 문제/보기/해설 원문은 가능한 범위에서 그대로 추출."
+}
