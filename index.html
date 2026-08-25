@@ -4,14 +4,14 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>항공 문제은행</title>
-  <link rel="stylesheet" href="./assets/style-v11-1.css?v=11.1.1" />
+  <link rel="stylesheet" href="./assets/style-v11-14.css?v=11.14.0" />
 </head>
 <body>
   <header class="topbar">
     <div class="container topbar-inner">
       <div>
         <h1>항공 문제은행</h1>
-        <p class="muted">JSON 기반 · GitHub Pages · 학습기록 자동 저장 · v11.3</p>
+        <p class="muted">학습 모드 선택 · 계정별 학습기록 · v11.14</p>
       </div>
       <nav class="row nav-row">
         <button id="statsBtn" class="button secondary">학습 통계</button>
@@ -24,7 +24,63 @@
   </header>
 
   <main class="container">
-    <section class="card controls">
+    <section id="topProgressCard" class="progress-overview">
+      <div id="topProgressGrid" class="top-progress-grid"></div>
+    </section>
+
+    <section id="modeHubCard" class="card mode-hub">
+      <div class="hub-title">
+        <h2>학습 모드를 선택하십시오.</h2>
+        <p class="muted">목적에 맞는 학습 과정을 선택하면 해당 문제만 사용할 수 있습니다.</p>
+      </div>
+      <div class="mode-choice-grid">
+        <button id="kotsaModeBtn" class="mode-choice-card" type="button">
+          <span class="mode-icon">✈️</span><strong>교통안전공단 면허시험 대비</strong>
+          <span>항공기상 + 검댕이 항공법규</span>
+        </button>
+        <button id="textbookModeBtn" class="mode-choice-card" type="button">
+          <span class="mode-icon">📚</span><strong>각 교재 학습</strong>
+          <span>교재별 집중 학습 또는 자유학습</span>
+        </button>
+        <button id="airlineModeBtn" class="mode-choice-card" type="button">
+          <span class="mode-icon">🛫</span><strong>항공사 필기전형 대비</strong>
+          <span>항공사별 맞춤 출제 과정</span>
+        </button>
+      </div>
+    </section>
+
+    <section id="textbookHubCard" class="card hidden">
+      <div class="section-head">
+        <div><h2>학습할 교재를 선택하십시오.</h2><p class="muted">교재를 선택하면 해당 교재 문제만 출제됩니다.</p></div>
+        <button id="textbookHubBackBtn" class="button secondary" type="button">이전</button>
+      </div>
+      <div class="book-choice-grid">
+        <button class="book-choice-card" data-book-subject="ATP Gleim" type="button"><img src="./assets/covers/atp_gleim.jpg" alt="ATP Gleim 표지"><strong>ATP Gleim</strong></button>
+        <button class="book-choice-card" data-book-subject="검댕이 항공법규" type="button"><img src="./assets/covers/airlaw.jpg" alt="검댕이 항공법규 표지"><strong>검댕이 항공법규</strong></button>
+        <button class="book-choice-card" data-book-subject="항공기상" type="button"><img src="./assets/covers/weather.jpg" alt="항공기상 표지"><strong>항공기상</strong></button>
+        <button id="freeStudyBtn" class="book-choice-card free-study" type="button"><img src="./assets/covers/all_books.jpg" alt="전체 교재"><strong>자유학습모드</strong><span>기존 문제은행의 모든 기능 사용</span></button>
+      </div>
+    </section>
+
+    <section id="airlineHubCard" class="card hidden">
+      <div class="section-head">
+        <div><h2>원하는 항공사 전형 대비 과정을 선택하십시오.</h2><p class="muted">항공사별 출제 교재와 시험 구성을 적용합니다.</p></div>
+        <button id="airlineHubBackBtn" class="button secondary" type="button">이전</button>
+      </div>
+      <div class="airline-choice-grid">
+        <button id="parataCourseBtn" class="airline-choice-card" type="button">
+          <img src="./assets/covers/parata_air.svg" alt="PARATA AIR 로고">
+          <strong>파라타항공 대비 과정</strong>
+          <span>ATP Gleim + 검댕이 항공법규</span>
+        </button>
+      </div>
+    </section>
+
+    <section id="controlsCard" class="card controls hidden">
+      <div class="context-bar">
+        <div><span class="muted">현재 학습 과정</span><strong id="contextTitle">자유학습모드</strong><span id="contextNote" class="muted"></span></div>
+        <button id="backToModeBtn" class="button secondary" type="button">학습 모드 선택</button>
+      </div>
       <div class="section-head">
         <div>
           <h2>문제 선택</h2>
@@ -70,6 +126,7 @@
           <select id="questionCountMode">
             <option value="10">10문제</option>
             <option value="20" selected>20문제</option>
+            <option value="25">25문제</option>
             <option value="30">30문제</option>
             <option value="50">50문제</option>
             <option value="100">100문제</option>
@@ -88,6 +145,7 @@
           <select id="modeSelect">
             <option value="study">학습모드 · 즉시 채점</option>
             <option value="exam">시험모드 · 마지막에 채점</option>
+            <option value="mock">모의시험 · 25문제 · 70점 합격</option>
           </select>
         </label>
 
@@ -245,7 +303,7 @@
     </section>
   </main>
 
-  <script src="./assets/auth-v11-4.js?v=11.10.0"></script>
-  <script src="./assets/app-v11-4.js?v=11.10.0"></script>
+  <script src="./assets/auth-v11-4.js?v=11.14.0"></script>
+  <script src="./assets/app-v11-5.js?v=11.14.0"></script>
 </body>
 </html>

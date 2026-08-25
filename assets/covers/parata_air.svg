@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" role="img" aria-label="PARATA AIR">
+  <rect width="900" height="260" rx="24" fill="#0023cc"/>
+  <g transform="translate(42 32)" fill="#fff">
+    <path d="M98 10A88 88 0 0 1 184 96H12A88 88 0 0 1 98 10Z"/>
+    <path d="M12 103C49 105 83 108 104 119C129 132 138 153 133 176C128 196 116 214 99 232A88 88 0 0 1 12 103Z" transform="scale(.78) translate(28 -4)"/>
+    <path d="M181 103A88 88 0 0 1 108 184L177 110C179 108 180 105 181 103Z"/>
+  </g>
+  <text x="245" y="151" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="72" font-weight="700" letter-spacing="5">PARATA AIR</text>
+</svg>
