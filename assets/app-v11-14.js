@@ -1,3 +1,4 @@
+// v11.25: 항공교통통신 전체 938문항 통합 · 정답 미확정 83문항 자동 출제 제외
 
 function ensureV1115UiShell() {
   const main = document.querySelector("main.container") || document.querySelector("main");
@@ -56,7 +57,7 @@ function ensureV1115UiShell() {
       <div class="book-choice-grid">
         <button class="book-choice-card" data-book-subject="ATP Gleim" type="button"><img src="./assets/covers/atp_gleim.jpg" alt="ATP Gleim 표지"><strong>ATP Gleim</strong></button>
         <button class="book-choice-card" data-book-subject="검댕이 항공법규" type="button"><img src="./assets/covers/airlaw.jpg" alt="검댕이 항공법규 표지"><strong>검댕이 항공법규</strong></button>
-        <button class="book-choice-card" data-book-subject="항공기상" type="button"><img src="./assets/covers/weather.jpg" alt="항공기상 표지"><strong>항공기상</strong></button><button class="book-choice-card" data-book-subject="항공교통통신" type="button"><img src="./assets/covers/atc_comm.svg" alt="항공교통통신 표지"><strong>항공교통통신</strong><span>출제예상문제 300문항</span></button>
+        <button class="book-choice-card" data-book-subject="항공기상" type="button"><img src="./assets/covers/weather.jpg" alt="항공기상 표지"><strong>항공기상</strong></button><button class="book-choice-card" data-book-subject="항공교통통신" type="button"><img src="./assets/covers/atc_comm.svg" alt="항공교통통신 표지"><strong>항공교통통신</strong><span>전체 938문항 · 정답 미확정 83문항 출제 제외</span></button>
         <button id="freeStudyBtn" class="book-choice-card free-study" type="button"><img src="./assets/covers/all_books.jpg" alt="전체 교재"><strong>자유학습모드</strong><span>기존 문제은행의 모든 기능 사용</span></button>
       </div>`;
     if (controls) main.insertBefore(section, controls);
@@ -188,7 +189,7 @@ function ensureV1116TheoryShell() {
   if (!document.querySelector("#bookProblemHubCard")) {
     const section = document.createElement("section");
     section.id = "bookProblemHubCard"; section.className = "card hidden";
-    section.innerHTML = `<div class="section-head"><div><h2>문제 풀이 교재를 선택하십시오.</h2><p class="muted">기존 문제 풀이 기능은 그대로 유지됩니다.</p></div><button id="bookProblemBackBtn" class="button secondary" type="button">이전</button></div><div class="book-choice-grid"><button class="book-choice-card" data-book-subject="ATP Gleim" type="button"><img src="./assets/covers/atp_gleim.jpg" alt="ATP Gleim 표지"><strong>ATP Gleim</strong></button><button class="book-choice-card" data-book-subject="검댕이 항공법규" type="button"><img src="./assets/covers/airlaw.jpg" alt="검댕이 항공법규 표지"><strong>검댕이 항공법규</strong></button><button class="book-choice-card" data-book-subject="항공기상" type="button"><img src="./assets/covers/weather.jpg" alt="항공기상 표지"><strong>항공기상</strong></button><button class="book-choice-card" data-book-subject="항공교통통신" type="button"><img src="./assets/covers/atc_comm.svg" alt="항공교통통신 표지"><strong>항공교통통신</strong><span>출제예상문제 300문항</span></button><button id="freeStudyBtn" class="book-choice-card free-study" type="button"><img src="./assets/covers/all_books.jpg" alt="전체 교재"><strong>자유학습모드</strong><span>기존 문제은행의 모든 기능 사용</span></button></div>`;
+    section.innerHTML = `<div class="section-head"><div><h2>문제 풀이 교재를 선택하십시오.</h2><p class="muted">기존 문제 풀이 기능은 그대로 유지됩니다.</p></div><button id="bookProblemBackBtn" class="button secondary" type="button">이전</button></div><div class="book-choice-grid"><button class="book-choice-card" data-book-subject="ATP Gleim" type="button"><img src="./assets/covers/atp_gleim.jpg" alt="ATP Gleim 표지"><strong>ATP Gleim</strong></button><button class="book-choice-card" data-book-subject="검댕이 항공법규" type="button"><img src="./assets/covers/airlaw.jpg" alt="검댕이 항공법규 표지"><strong>검댕이 항공법규</strong></button><button class="book-choice-card" data-book-subject="항공기상" type="button"><img src="./assets/covers/weather.jpg" alt="항공기상 표지"><strong>항공기상</strong></button><button class="book-choice-card" data-book-subject="항공교통통신" type="button"><img src="./assets/covers/atc_comm.svg" alt="항공교통통신 표지"><strong>항공교통통신</strong><span>전체 938문항 · 정답 미확정 83문항 출제 제외</span></button><button id="freeStudyBtn" class="book-choice-card free-study" type="button"><img src="./assets/covers/all_books.jpg" alt="전체 교재"><strong>자유학습모드</strong><span>기존 문제은행의 모든 기능 사용</span></button></div>`;
     main.insertBefore(section, insertBefore);
   }
   if (!document.querySelector("#bookTheoryHubCard")) {
@@ -230,15 +231,6 @@ const els = {
   bookTheoryHubCard: document.querySelector("#bookTheoryHubCard"),
   theoryCard: document.querySelector("#theoryCard"),
   airlineHubCard: document.querySelector("#airlineHubCard"),
-  resourceLibraryCard: document.querySelector("#resourceLibraryCard"),
-  resourceViewerCard: document.querySelector("#resourceViewerCard"),
-  resourceLibraryBtn: document.querySelector("#resourceLibraryBtn"),
-  resourceLibraryCloseBtn: document.querySelector("#resourceLibraryCloseBtn"),
-  resourceLibraryGrid: document.querySelector("#resourceLibraryGrid"),
-  resourceViewerBackBtn: document.querySelector("#resourceViewerBackBtn"),
-  resourceViewerTitle: document.querySelector("#resourceViewerTitle"),
-  resourceViewerMeta: document.querySelector("#resourceViewerMeta"),
-  resourceViewerPages: document.querySelector("#resourceViewerPages"),
   controlsCard: document.querySelector("#controlsCard"),
   kotsaModeBtn: document.querySelector("#kotsaModeBtn"),
   textbookModeBtn: document.querySelector("#textbookModeBtn"),
@@ -352,123 +344,12 @@ const PARATA_SUBJECTS = ["ATP Gleim", "검댕이 항공법규"];
 const JEJU_RECALL_SUBJECT = "제주항공 복기";
 const JEJU_SUBJECTS = [JEJU_RECALL_SUBJECT];
 const TRINITY_SUBJECT = "트리니티항공 대비";
+const ATCCOMM_SUBJECT = "항공교통통신";
 const TRINITY_SUBJECTS = [TRINITY_SUBJECT];
 const AIRLINE_ONLY_SUBJECTS = new Set([JEJU_RECALL_SUBJECT, TRINITY_SUBJECT]);
 
-// v11.25 제한 자료실: 원본 PDF 대신 렌더링 페이지 이미지만 배포합니다.
-const RESOURCE_LIBRARY_ITEMS = [
-  {id:"v-speeds", title:"V속도 한 장 카드", tag:"성능·속도", pages:["./assets/resources/v-speeds/page-1.png","./assets/resources/v-speeds/page-2.png"]},
-  {id:"metar-taf", title:"METAR·TAF 해독 카드", tag:"기상", pages:["./assets/resources/metar-taf/page-1.png","./assets/resources/metar-taf/page-2.png"]},
-  {id:"holding", title:"홀딩 한 장 카드", tag:"IFR", pages:["./assets/resources/holding/page-1.png","./assets/resources/holding/page-2.png"]},
-  {id:"ifr", title:"IFR 최저고도 카드", tag:"IFR", pages:["./assets/resources/ifr/page-1.png","./assets/resources/ifr/page-2.png"]},
-  {id:"atc-emergency", title:"관제 신호·비상코드 카드", tag:"관제·비상", pages:["./assets/resources/atc-emergency/page-1.png","./assets/resources/atc-emergency/page-2.png"]},
-  {id:"weather-hazards", title:"기상 위험 카드", tag:"기상", pages:["./assets/resources/weather-hazards/page-1.png","./assets/resources/weather-hazards/page-2.png"]},
-  {id:"aerodynamics", title:"공기역학 핵심 카드", tag:"공기역학", pages:["./assets/resources/aerodynamics/page-1.png","./assets/resources/aerodynamics/page-2.png"]},
-  {id:"notam", title:"NOTAM 해독 카드", tag:"운항정보", pages:["./assets/resources/notam/page-1.png","./assets/resources/notam/page-2.png"]},
-  {id:"snowtam", title:"SNOWTAM 판독 카드", tag:"운항정보", pages:["./assets/resources/snowtam/page-1.png","./assets/resources/snowtam/page-2.png"]},
-  {id:"fuel-policy", title:"연료 정책 한 장 카드", tag:"운항절차", pages:["./assets/resources/fuel-policy/page-1.png","./assets/resources/fuel-policy/page-2.png"]},
-];
-
-function hasResourceLibraryAccess() {
-  return !!window.PilotBankAuth?.canAccessResourceLibrary?.();
-}
-
-function configureResourceLibraryAccess() {
-  const allowed = hasResourceLibraryAccess();
-  els.resourceLibraryBtn?.classList.toggle("hidden", !allowed);
-  if (!allowed) {
-    els.resourceLibraryCard?.classList.add("hidden");
-    els.resourceViewerCard?.classList.add("hidden");
-  }
-  return allowed;
-}
-
-function hideAllHubs() {
-  [els.modeHubCard, els.textbookHubCard, els.bookProblemHubCard, els.bookTheoryHubCard, els.airlineHubCard].forEach(el => el?.classList.add("hidden"));
-}
-
-function renderResourceLibrary() {
-  if (!els.resourceLibraryGrid) return;
-  els.resourceLibraryGrid.innerHTML = RESOURCE_LIBRARY_ITEMS.map(item => `
-    <button class="resource-item-card" type="button" data-resource-id="${escapeHtml(item.id)}">
-      <span class="resource-item-icon" aria-hidden="true">📄</span>
-      <span class="resource-item-tag">${escapeHtml(item.tag)}</span>
-      <strong>${escapeHtml(item.title)}</strong>
-      <span class="resource-item-meta">열람 전용 · ${item.pages.length}페이지</span>
-    </button>`).join("");
-}
-
-function showResourceLibrary() {
-  if (!configureResourceLibraryAccess()) {
-    alert("이 계정은 자료실 접근 권한이 없습니다.");
-    showMainModeHub();
-    return;
-  }
-  hideStudySurfaces();
-  hideAllHubs();
-  els.resourceViewerCard?.classList.add("hidden");
-  renderResourceLibrary();
-  els.resourceLibraryCard?.classList.remove("hidden");
-  window.scrollTo({top:0, behavior:"smooth"});
-}
-
-async function drawProtectedResourcePage(src, host, pageNumber, pageCount) {
-  const wrap = document.createElement("figure");
-  wrap.className = "resource-page-wrap";
-  const canvas = document.createElement("canvas");
-  canvas.className = "resource-page-canvas";
-  canvas.setAttribute("aria-label", `자료 페이지 ${pageNumber}/${pageCount}`);
-  const caption = document.createElement("figcaption");
-  caption.textContent = `${pageNumber} / ${pageCount}`;
-  wrap.append(canvas, caption);
-  host.appendChild(wrap);
-
-  try {
-    const response = await fetch(src, {cache:"no-store", credentials:"same-origin"});
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    const blob = await response.blob();
-    const url = URL.createObjectURL(blob);
-    const img = new Image();
-    img.decoding = "async";
-    img.src = url;
-    await new Promise((resolve, reject) => { img.onload = resolve; img.onerror = reject; });
-    canvas.width = img.naturalWidth;
-    canvas.height = img.naturalHeight;
-    const ctx = canvas.getContext("2d", {alpha:false});
-    ctx.fillStyle = "#fff";
-    ctx.fillRect(0, 0, canvas.width, canvas.height);
-    ctx.drawImage(img, 0, 0);
-    URL.revokeObjectURL(url);
-  } catch (err) {
-    console.error("자료 페이지 표시 실패", err);
-    wrap.classList.add("resource-page-error");
-    wrap.innerHTML = `<div class="notice">페이지를 불러오지 못했습니다.</div>`;
-  }
-}
-
-async function openResourceItem(resourceId) {
-  if (!configureResourceLibraryAccess()) {
-    alert("이 계정은 자료실 접근 권한이 없습니다.");
-    showMainModeHub();
-    return;
-  }
-  const item = RESOURCE_LIBRARY_ITEMS.find(entry => entry.id === resourceId);
-  if (!item || !els.resourceViewerPages) return;
-  hideStudySurfaces();
-  hideAllHubs();
-  els.resourceLibraryCard?.classList.add("hidden");
-  els.resourceViewerCard?.classList.remove("hidden");
-  els.resourceViewerTitle.textContent = item.title;
-  els.resourceViewerMeta.textContent = `${item.tag} · ${item.pages.length}페이지 · 열람 전용`;
-  els.resourceViewerPages.innerHTML = '<div class="resource-loading">자료를 불러오는 중입니다.</div>';
-  const host = document.createElement("div");
-  host.className = "resource-page-stack";
-  els.resourceViewerPages.innerHTML = "";
-  els.resourceViewerPages.appendChild(host);
-  for (let i = 0; i < item.pages.length; i += 1) {
-    await drawProtectedResourcePage(item.pages[i], host, i + 1, item.pages.length);
-  }
-  els.resourceViewerCard.scrollIntoView({behavior:"smooth", block:"start"});
+function hasScorableAnswer(q) {
+  return ["A", "B", "C", "D"].includes(String(q?.answer || "").toUpperCase());
 }
 
 function isExamLike() {
@@ -484,7 +365,7 @@ function getAllowedSubjectSet() {
 }
 
 function hideStudySurfaces() {
-  [els.controlsCard, els.quizCard, els.resultCard, els.statsCard, els.errorsCard, els.theoryCard, els.resourceLibraryCard, els.resourceViewerCard].forEach(el => el?.classList.add("hidden"));
+  [els.controlsCard, els.quizCard, els.resultCard, els.statsCard, els.errorsCard, els.theoryCard].forEach(el => el?.classList.add("hidden"));
 }
 
 function renderTopProgress() {
@@ -779,6 +660,7 @@ function getCurrentTheoryStage() {
 function getTheoryQuestionPool(stage) {
   const wanted = new Set(stage?.question_ids || []);
   return bank.filter(q => wanted.has(q.id))
+    .filter(hasScorableAnswer)
     .filter(q => !progressStore[q.id]?.errorReported)
     .filter(q => !progressStore[q.id]?.examExcluded);
 }
@@ -1013,7 +895,7 @@ function populateStudyUnits() {
   });
   els.studyUnit.innerHTML = `<option value="">전체</option>` +
     units.map(u => {
-      const label = (subject === JEJU_RECALL_SUBJECT || subject === TRINITY_SUBJECT) ? (unitLabels.get(u) || u) : `SU ${u}`;
+      const label = (subject === JEJU_RECALL_SUBJECT || subject === TRINITY_SUBJECT || subject === ATCCOMM_SUBJECT) ? (unitLabels.get(u) || u) : `SU ${u}`;
       return `<option value="${escapeHtml(u)}">${escapeHtml(label)}</option>`;
     }).join("");
 
@@ -1128,6 +1010,7 @@ function getFilteredBank() {
   const allowed = getAllowedSubjectSet();
 
   return bank.filter(q => {
+    if (!hasScorableAnswer(q)) return false;
     if (progressStore[q.id]?.errorReported) return false;
     if (allowed && !allowed.has(q.subject || "미분류")) return false;
     if (subject && (q.subject || "미분류") !== subject) return false;
@@ -1156,6 +1039,7 @@ function updateAvailableCount() {
 
 function buildParataExamSession() {
   const base = bank.filter(q => PARATA_SUBJECTS.includes(q.subject || "미분류"))
+    .filter(hasScorableAnswer)
     .filter(q => !(progressStore[q.id]?.errorReported))
     .filter(q => !(progressStore[q.id]?.examExcluded))
     .filter(q => !els.noFigureOnly.checked || !hasFigure(q));
@@ -1181,6 +1065,7 @@ function startSession(source = null) {
     sessionMeta = {type:"parataExam", gleimCount:built.gleimCount, lawCount:built.lawCount};
   } else {
     let pool = source || getFilteredBank();
+    pool = pool.filter(hasScorableAnswer);
     pool = pool.filter(q => !(progressStore[q.id]?.errorReported));
     if (els.noFigureOnly.checked) pool = pool.filter(q => !hasFigure(q));
     if (isExamLike()) pool = pool.filter(q => !(progressStore[q.id]?.examExcluded));
@@ -2029,26 +1914,6 @@ document.addEventListener("click", event => {
   if (airlawTheory) { event.preventDefault(); openAirlawTheory(); return; }
 });
 
-els.resourceLibraryBtn?.addEventListener("click", showResourceLibrary);
-els.resourceLibraryCloseBtn?.addEventListener("click", showMainModeHub);
-els.resourceViewerBackBtn?.addEventListener("click", showResourceLibrary);
-els.resourceLibraryGrid?.addEventListener("click", event => {
-  const card = event.target.closest("[data-resource-id]");
-  if (!card) return;
-  openResourceItem(card.dataset.resourceId);
-});
-els.resourceViewerCard?.addEventListener("contextmenu", event => event.preventDefault());
-els.resourceViewerCard?.addEventListener("dragstart", event => event.preventDefault());
-document.addEventListener("keydown", event => {
-  const viewerOpen = els.resourceViewerCard && !els.resourceViewerCard.classList.contains("hidden");
-  if (!viewerOpen || !(event.ctrlKey || event.metaKey)) return;
-  const key = String(event.key || "").toLowerCase();
-  if (["s", "p", "u"].includes(key)) {
-    event.preventDefault();
-    event.stopPropagation();
-  }
-}, true);
-
 els.kotsaModeBtn?.addEventListener("click", () => activateLearningContext({
   kind:"kotsa", label:"교통안전공단 면허시험 대비", allowedSubjects:KOTSA_SUBJECTS,
   note:"ATP Gleim은 이 과정에서 제외됩니다."
@@ -2098,10 +1963,8 @@ async function bootstrap() {
   if (window.PilotBankAuth?.requireLogin) {
     const user = await window.PilotBankAuth.requireLogin();
     configureUserStorage(user);
-    configureResourceLibraryAccess();
   } else {
     configureUserStorage(null);
-    configureResourceLibraryAccess();
   }
   maybeImportLegacyProgress();
   progressStore = loadProgress();

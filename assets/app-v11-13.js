@@ -1,3 +1,4 @@
+// v11.25: 항공교통통신 전체 938문항 통합 · 정답 미확정 83문항 자동 출제 제외
 
 function ensureV1115UiShell() {
   const main = document.querySelector("main.container") || document.querySelector("main");
@@ -56,7 +57,7 @@ function ensureV1115UiShell() {
       <div class="book-choice-grid">
         <button class="book-choice-card" data-book-subject="ATP Gleim" type="button"><img src="./assets/covers/atp_gleim.jpg" alt="ATP Gleim 표지"><strong>ATP Gleim</strong></button>
         <button class="book-choice-card" data-book-subject="검댕이 항공법규" type="button"><img src="./assets/covers/airlaw.jpg" alt="검댕이 항공법규 표지"><strong>검댕이 항공법규</strong></button>
-        <button class="book-choice-card" data-book-subject="항공기상" type="button"><img src="./assets/covers/weather.jpg" alt="항공기상 표지"><strong>항공기상</strong></button><button class="book-choice-card" data-book-subject="항공교통통신" type="button"><img src="./assets/covers/atc_comm.svg" alt="항공교통통신 표지"><strong>항공교통통신</strong><span>출제예상문제 300문항</span></button>
+        <button class="book-choice-card" data-book-subject="항공기상" type="button"><img src="./assets/covers/weather.jpg" alt="항공기상 표지"><strong>항공기상</strong></button><button class="book-choice-card" data-book-subject="항공교통통신" type="button"><img src="./assets/covers/atc_comm.svg" alt="항공교통통신 표지"><strong>항공교통통신</strong><span>전체 938문항 · 정답 미확정 83문항 출제 제외</span></button>
         <button id="freeStudyBtn" class="book-choice-card free-study" type="button"><img src="./assets/covers/all_books.jpg" alt="전체 교재"><strong>자유학습모드</strong><span>기존 문제은행의 모든 기능 사용</span></button>
       </div>`;
     if (controls) main.insertBefore(section, controls);
@@ -188,7 +189,7 @@ function ensureV1116TheoryShell() {
   if (!document.querySelector("#bookProblemHubCard")) {
     const section = document.createElement("section");
     section.id = "bookProblemHubCard"; section.className = "card hidden";
-    section.innerHTML = `<div class="section-head"><div><h2>문제 풀이 교재를 선택하십시오.</h2><p class="muted">기존 문제 풀이 기능은 그대로 유지됩니다.</p></div><button id="bookProblemBackBtn" class="button secondary" type="button">이전</button></div><div class="book-choice-grid"><button class="book-choice-card" data-book-subject="ATP Gleim" type="button"><img src="./assets/covers/atp_gleim.jpg" alt="ATP Gleim 표지"><strong>ATP Gleim</strong></button><button class="book-choice-card" data-book-subject="검댕이 항공법규" type="button"><img src="./assets/covers/airlaw.jpg" alt="검댕이 항공법규 표지"><strong>검댕이 항공법규</strong></button><button class="book-choice-card" data-book-subject="항공기상" type="button"><img src="./assets/covers/weather.jpg" alt="항공기상 표지"><strong>항공기상</strong></button><button class="book-choice-card" data-book-subject="항공교통통신" type="button"><img src="./assets/covers/atc_comm.svg" alt="항공교통통신 표지"><strong>항공교통통신</strong><span>출제예상문제 300문항</span></button><button id="freeStudyBtn" class="book-choice-card free-study" type="button"><img src="./assets/covers/all_books.jpg" alt="전체 교재"><strong>자유학습모드</strong><span>기존 문제은행의 모든 기능 사용</span></button></div>`;
+    section.innerHTML = `<div class="section-head"><div><h2>문제 풀이 교재를 선택하십시오.</h2><p class="muted">기존 문제 풀이 기능은 그대로 유지됩니다.</p></div><button id="bookProblemBackBtn" class="button secondary" type="button">이전</button></div><div class="book-choice-grid"><button class="book-choice-card" data-book-subject="ATP Gleim" type="button"><img src="./assets/covers/atp_gleim.jpg" alt="ATP Gleim 표지"><strong>ATP Gleim</strong></button><button class="book-choice-card" data-book-subject="검댕이 항공법규" type="button"><img src="./assets/covers/airlaw.jpg" alt="검댕이 항공법규 표지"><strong>검댕이 항공법규</strong></button><button class="book-choice-card" data-book-subject="항공기상" type="button"><img src="./assets/covers/weather.jpg" alt="항공기상 표지"><strong>항공기상</strong></button><button class="book-choice-card" data-book-subject="항공교통통신" type="button"><img src="./assets/covers/atc_comm.svg" alt="항공교통통신 표지"><strong>항공교통통신</strong><span>전체 938문항 · 정답 미확정 83문항 출제 제외</span></button><button id="freeStudyBtn" class="book-choice-card free-study" type="button"><img src="./assets/covers/all_books.jpg" alt="전체 교재"><strong>자유학습모드</strong><span>기존 문제은행의 모든 기능 사용</span></button></div>`;
     main.insertBefore(section, insertBefore);
   }
   if (!document.querySelector("#bookTheoryHubCard")) {
@@ -343,8 +344,13 @@ const PARATA_SUBJECTS = ["ATP Gleim", "검댕이 항공법규"];
 const JEJU_RECALL_SUBJECT = "제주항공 복기";
 const JEJU_SUBJECTS = [JEJU_RECALL_SUBJECT];
 const TRINITY_SUBJECT = "트리니티항공 대비";
+const ATCCOMM_SUBJECT = "항공교통통신";
 const TRINITY_SUBJECTS = [TRINITY_SUBJECT];
 const AIRLINE_ONLY_SUBJECTS = new Set([JEJU_RECALL_SUBJECT, TRINITY_SUBJECT]);
+
+function hasScorableAnswer(q) {
+  return ["A", "B", "C", "D"].includes(String(q?.answer || "").toUpperCase());
+}
 
 function isExamLike() {
   return sessionMeta.type === "theoryTest" || els.mode.value === "exam" || els.mode.value === "mock";
@@ -654,6 +660,7 @@ function getCurrentTheoryStage() {
 function getTheoryQuestionPool(stage) {
   const wanted = new Set(stage?.question_ids || []);
   return bank.filter(q => wanted.has(q.id))
+    .filter(hasScorableAnswer)
     .filter(q => !progressStore[q.id]?.errorReported)
     .filter(q => !progressStore[q.id]?.examExcluded);
 }
@@ -888,7 +895,7 @@ function populateStudyUnits() {
   });
   els.studyUnit.innerHTML = `<option value="">전체</option>` +
     units.map(u => {
-      const label = (subject === JEJU_RECALL_SUBJECT || subject === TRINITY_SUBJECT) ? (unitLabels.get(u) || u) : `SU ${u}`;
+      const label = (subject === JEJU_RECALL_SUBJECT || subject === TRINITY_SUBJECT || subject === ATCCOMM_SUBJECT) ? (unitLabels.get(u) || u) : `SU ${u}`;
       return `<option value="${escapeHtml(u)}">${escapeHtml(label)}</option>`;
     }).join("");
 
@@ -1003,6 +1010,7 @@ function getFilteredBank() {
   const allowed = getAllowedSubjectSet();
 
   return bank.filter(q => {
+    if (!hasScorableAnswer(q)) return false;
     if (progressStore[q.id]?.errorReported) return false;
     if (allowed && !allowed.has(q.subject || "미분류")) return false;
     if (subject && (q.subject || "미분류") !== subject) return false;
@@ -1031,6 +1039,7 @@ function updateAvailableCount() {
 
 function buildParataExamSession() {
   const base = bank.filter(q => PARATA_SUBJECTS.includes(q.subject || "미분류"))
+    .filter(hasScorableAnswer)
     .filter(q => !(progressStore[q.id]?.errorReported))
     .filter(q => !(progressStore[q.id]?.examExcluded))
     .filter(q => !els.noFigureOnly.checked || !hasFigure(q));
@@ -1056,6 +1065,7 @@ function startSession(source = null) {
     sessionMeta = {type:"parataExam", gleimCount:built.gleimCount, lawCount:built.lawCount};
   } else {
     let pool = source || getFilteredBank();
+    pool = pool.filter(hasScorableAnswer);
     pool = pool.filter(q => !(progressStore[q.id]?.errorReported));
     if (els.noFigureOnly.checked) pool = pool.filter(q => !hasFigure(q));
     if (isExamLike()) pool = pool.filter(q => !(progressStore[q.id]?.examExcluded));

@@ -1,0 +1,59 @@
+{
+  "version": "v11.25",
+  "base": "github-question-bank-v11.24-trinity-atccomm-ui-full.zip",
+  "purpose": "항공교통통신 300문항을 교재 전체 938문항으로 실제 앱에 통합한 GitHub 배포용 패치/전체본",
+  "question_bank": {
+    "before_total": 3319,
+    "before_atccomm": 300,
+    "after_total": 3957,
+    "after_atccomm": 938,
+    "net_added": 638,
+    "atccomm_scorable_now": 855,
+    "atccomm_pending_answer_review": 83
+  },
+  "atccomm_breakdown": {
+    "제1장 항행안전시설": 78,
+    "제2장 항공교통업무": 202,
+    "제3장 항공교통관제절차": 147,
+    "제4장 비상절차": 49,
+    "항공통신업무": 47,
+    "항공정보업무": 40,
+    "모의고사 1회": 25,
+    "모의고사 2회": 25,
+    "모의고사 3회": 25,
+    "모의고사 4회": 25,
+    "모의고사 5회": 25,
+    "모의고사 6회": 25,
+    "모의고사 7회": 25,
+    "모의고사 8회": 25,
+    "모의고사 9회": 25,
+    "모의고사 10회": 25,
+    "모의고사 11회": 25,
+    "모의고사 12회": 25,
+    "모의고사 13회": 25,
+    "모의고사 14회": 25,
+    "모의고사 15회": 25
+  },
+  "behavior": {
+    "pending_answer_questions": "데이터에는 유지(answer_pending_review=true), 문제풀이/시험/쪽지시험 출제 풀에서는 자동 제외",
+    "study_unit_labels": "항공교통통신은 SU 숫자 대신 장/모의고사 명칭 표시",
+    "figure_files": [
+      "figures/source_page_030.png",
+      "figures/source_page_203.png",
+      "figures/source_page_204.png",
+      "figures/source_page_209.png",
+      "figures/source_page_249.png",
+      "figures/source_page_267.png"
+    ]
+  },
+  "github_patch_note": "v11.24 저장소 루트에 패치 ZIP의 내용물을 폴더 구조 그대로 덮어쓰면 됨. 기존 data/항공교통통신_300문항_v11.24.json은 더 이상 참조되지 않으므로 남아 있어도 작동에는 영향 없음; 정리하고 싶으면 삭제 가능.",
+  "changed_files": [
+    "index.html",
+    "assets/app-v11-14.js",
+    "assets/app-v11-13.js",
+    "assets/app.js",
+    "data/questions.json",
+    "data/questions-v11-2.json",
+    "data/항공교통통신_938문항_v11.25.json"
+  ]
+}

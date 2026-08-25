@@ -1,3 +1,4 @@
+// v11.25: 항공교통통신 전체 938문항 통합 · 정답 미확정 83문항 자동 출제 제외
 
 function ensureV1115UiShell() {
   const main = document.querySelector("main.container") || document.querySelector("main");
@@ -56,7 +57,7 @@ function ensureV1115UiShell() {
       <div class="book-choice-grid">
         <button class="book-choice-card" data-book-subject="ATP Gleim" type="button"><img src="./assets/covers/atp_gleim.jpg" alt="ATP Gleim 표지"><strong>ATP Gleim</strong></button>
         <button class="book-choice-card" data-book-subject="검댕이 항공법규" type="button"><img src="./assets/covers/airlaw.jpg" alt="검댕이 항공법규 표지"><strong>검댕이 항공법규</strong></button>
-        <button class="book-choice-card" data-book-subject="항공기상" type="button"><img src="./assets/covers/weather.jpg" alt="항공기상 표지"><strong>항공기상</strong></button>
+        <button class="book-choice-card" data-book-subject="항공기상" type="button"><img src="./assets/covers/weather.jpg" alt="항공기상 표지"><strong>항공기상</strong></button><button class="book-choice-card" data-book-subject="항공교통통신" type="button"><img src="./assets/covers/atc_comm.svg" alt="항공교통통신 표지"><strong>항공교통통신</strong><span>전체 938문항 · 정답 미확정 83문항 출제 제외</span></button>
         <button id="freeStudyBtn" class="book-choice-card free-study" type="button"><img src="./assets/covers/all_books.jpg" alt="전체 교재"><strong>자유학습모드</strong><span>기존 문제은행의 모든 기능 사용</span></button>
       </div>`;
     if (controls) main.insertBefore(section, controls);
@@ -141,17 +142,32 @@ function ensureV1122JejuCourseCard() {
 }
 ensureV1122JejuCourseCard();
 
-function ensureV1117DirectTheoryShortcut() {
-  const grid = document.querySelector("#modeHubCard .mode-choice-grid");
-  if (!grid || document.querySelector("#directTheoryBtn")) return;
-  const btn = document.createElement("button");
-  btn.id = "directTheoryBtn";
-  btn.className = "mode-choice-card theory-direct-card";
-  btn.type = "button";
-  btn.innerHTML = '<span class="mode-icon">📖</span><strong>교재 이론 학습 <em class="new-badge">NEW</em></strong><span>항공기상 · 검댕이 항공법규 → 쪽지시험 10문항 → 8개 이상 합격</span>';
-  grid.appendChild(btn);
+function ensureV1124TrinityCourseCard() {
+  const hub = document.querySelector("#airlineHubCard");
+  if (!hub || hub.querySelector("#trinityCourseBtn")) return;
+  let grid = hub.querySelector(".airline-choice-grid");
+  if (!grid) {
+    grid = document.createElement("div");
+    grid.className = "airline-choice-grid";
+    hub.appendChild(grid);
+  }
+  const button = document.createElement("button");
+  button.id = "trinityCourseBtn";
+  button.className = "airline-choice-card trinity-air-card";
+  button.type = "button";
+  button.innerHTML = `
+    <img src="./assets/covers/trinity_air.svg" alt="TRINITY AIR 로고">
+    <strong>트리니티항공 대비 과정</strong>
+    <span>사용자 풀이 기록 · 고유 307문항 · 과목별 분류</span>`;
+  grid.appendChild(button);
 }
-ensureV1117DirectTheoryShortcut();
+ensureV1124TrinityCourseCard();
+
+
+function removeV1124DirectTheoryShortcut() {
+  document.querySelector("#directTheoryBtn")?.remove();
+}
+removeV1124DirectTheoryShortcut();
 
 function ensureV1116TheoryShell() {
   const main = document.querySelector("main.container") || document.querySelector("main");
@@ -173,7 +189,7 @@ function ensureV1116TheoryShell() {
   if (!document.querySelector("#bookProblemHubCard")) {
     const section = document.createElement("section");
     section.id = "bookProblemHubCard"; section.className = "card hidden";
-    section.innerHTML = `<div class="section-head"><div><h2>문제 풀이 교재를 선택하십시오.</h2><p class="muted">기존 문제 풀이 기능은 그대로 유지됩니다.</p></div><button id="bookProblemBackBtn" class="button secondary" type="button">이전</button></div><div class="book-choice-grid"><button class="book-choice-card" data-book-subject="ATP Gleim" type="button"><img src="./assets/covers/atp_gleim.jpg" alt="ATP Gleim 표지"><strong>ATP Gleim</strong></button><button class="book-choice-card" data-book-subject="검댕이 항공법규" type="button"><img src="./assets/covers/airlaw.jpg" alt="검댕이 항공법규 표지"><strong>검댕이 항공법규</strong></button><button class="book-choice-card" data-book-subject="항공기상" type="button"><img src="./assets/covers/weather.jpg" alt="항공기상 표지"><strong>항공기상</strong></button><button id="freeStudyBtn" class="book-choice-card free-study" type="button"><img src="./assets/covers/all_books.jpg" alt="전체 교재"><strong>자유학습모드</strong><span>기존 문제은행의 모든 기능 사용</span></button></div>`;
+    section.innerHTML = `<div class="section-head"><div><h2>문제 풀이 교재를 선택하십시오.</h2><p class="muted">기존 문제 풀이 기능은 그대로 유지됩니다.</p></div><button id="bookProblemBackBtn" class="button secondary" type="button">이전</button></div><div class="book-choice-grid"><button class="book-choice-card" data-book-subject="ATP Gleim" type="button"><img src="./assets/covers/atp_gleim.jpg" alt="ATP Gleim 표지"><strong>ATP Gleim</strong></button><button class="book-choice-card" data-book-subject="검댕이 항공법규" type="button"><img src="./assets/covers/airlaw.jpg" alt="검댕이 항공법규 표지"><strong>검댕이 항공법규</strong></button><button class="book-choice-card" data-book-subject="항공기상" type="button"><img src="./assets/covers/weather.jpg" alt="항공기상 표지"><strong>항공기상</strong></button><button class="book-choice-card" data-book-subject="항공교통통신" type="button"><img src="./assets/covers/atc_comm.svg" alt="항공교통통신 표지"><strong>항공교통통신</strong><span>전체 938문항 · 정답 미확정 83문항 출제 제외</span></button><button id="freeStudyBtn" class="book-choice-card free-study" type="button"><img src="./assets/covers/all_books.jpg" alt="전체 교재"><strong>자유학습모드</strong><span>기존 문제은행의 모든 기능 사용</span></button></div>`;
     main.insertBefore(section, insertBefore);
   }
   if (!document.querySelector("#bookTheoryHubCard")) {
@@ -203,6 +219,8 @@ const SUBJECTS = [
   "항공법규",
   "검댕이 항공법규",
   "항공교통통신정보업무",
+  "항공교통통신",
+  "트리니티항공 대비",
 ];
 
 const els = {
@@ -240,6 +258,7 @@ const els = {
   freeStudyBtn: document.querySelector("#freeStudyBtn"),
   parataCourseBtn: document.querySelector("#parataCourseBtn"),
   jejuCourseBtn: document.querySelector("#jejuCourseBtn"),
+  trinityCourseBtn: document.querySelector("#trinityCourseBtn"),
   backToModeBtn: document.querySelector("#backToModeBtn"),
   contextTitle: document.querySelector("#contextTitle"),
   contextNote: document.querySelector("#contextNote"),
@@ -319,11 +338,19 @@ let activeTheorySubject = null;
 let currentTheoryStageIndex = 0;
 let theoryReadObserver = null;
 
-const BOOK_SUBJECTS = ["ATP Gleim", "검댕이 항공법규", "항공기상"];
+const BOOK_SUBJECTS = ["ATP Gleim", "검댕이 항공법규", "항공기상", "항공교통통신"];
 const KOTSA_SUBJECTS = ["항공기상", "검댕이 항공법규"];
 const PARATA_SUBJECTS = ["ATP Gleim", "검댕이 항공법규"];
 const JEJU_RECALL_SUBJECT = "제주항공 복기";
 const JEJU_SUBJECTS = [JEJU_RECALL_SUBJECT];
+const TRINITY_SUBJECT = "트리니티항공 대비";
+const ATCCOMM_SUBJECT = "항공교통통신";
+const TRINITY_SUBJECTS = [TRINITY_SUBJECT];
+const AIRLINE_ONLY_SUBJECTS = new Set([JEJU_RECALL_SUBJECT, TRINITY_SUBJECT]);
+
+function hasScorableAnswer(q) {
+  return ["A", "B", "C", "D"].includes(String(q?.answer || "").toUpperCase());
+}
 
 function isExamLike() {
   return sessionMeta.type === "theoryTest" || els.mode.value === "exam" || els.mode.value === "mock";
@@ -332,7 +359,7 @@ function isExamLike() {
 function getAllowedSubjectSet() {
   if (learningContext.allowedSubjects) return new Set(learningContext.allowedSubjects);
   if (learningContext.kind === "free") {
-    return new Set([...new Set(bank.map(q => q.subject || "미분류"))].filter(s => s !== JEJU_RECALL_SUBJECT));
+    return new Set([...new Set(bank.map(q => q.subject || "미분류"))].filter(s => !AIRLINE_ONLY_SUBJECTS.has(s)));
   }
   return null;
 }
@@ -633,6 +660,7 @@ function getCurrentTheoryStage() {
 function getTheoryQuestionPool(stage) {
   const wanted = new Set(stage?.question_ids || []);
   return bank.filter(q => wanted.has(q.id))
+    .filter(hasScorableAnswer)
     .filter(q => !progressStore[q.id]?.errorReported)
     .filter(q => !progressStore[q.id]?.examExcluded);
 }
@@ -867,7 +895,7 @@ function populateStudyUnits() {
   });
   els.studyUnit.innerHTML = `<option value="">전체</option>` +
     units.map(u => {
-      const label = subject === JEJU_RECALL_SUBJECT ? (unitLabels.get(u) || u) : `SU ${u}`;
+      const label = (subject === JEJU_RECALL_SUBJECT || subject === TRINITY_SUBJECT || subject === ATCCOMM_SUBJECT) ? (unitLabels.get(u) || u) : `SU ${u}`;
       return `<option value="${escapeHtml(u)}">${escapeHtml(label)}</option>`;
     }).join("");
 
@@ -982,6 +1010,7 @@ function getFilteredBank() {
   const allowed = getAllowedSubjectSet();
 
   return bank.filter(q => {
+    if (!hasScorableAnswer(q)) return false;
     if (progressStore[q.id]?.errorReported) return false;
     if (allowed && !allowed.has(q.subject || "미분류")) return false;
     if (subject && (q.subject || "미분류") !== subject) return false;
@@ -1010,6 +1039,7 @@ function updateAvailableCount() {
 
 function buildParataExamSession() {
   const base = bank.filter(q => PARATA_SUBJECTS.includes(q.subject || "미분류"))
+    .filter(hasScorableAnswer)
     .filter(q => !(progressStore[q.id]?.errorReported))
     .filter(q => !(progressStore[q.id]?.examExcluded))
     .filter(q => !els.noFigureOnly.checked || !hasFigure(q));
@@ -1035,6 +1065,7 @@ function startSession(source = null) {
     sessionMeta = {type:"parataExam", gleimCount:built.gleimCount, lawCount:built.lawCount};
   } else {
     let pool = source || getFilteredBank();
+    pool = pool.filter(hasScorableAnswer);
     pool = pool.filter(q => !(progressStore[q.id]?.errorReported));
     if (els.noFigureOnly.checked) pool = pool.filter(q => !hasFigure(q));
     if (isExamLike()) pool = pool.filter(q => !(progressStore[q.id]?.examExcluded));
@@ -1871,8 +1902,6 @@ document.addEventListener("click", event => {
 
 // v11.17: 학습 허브 네비게이션은 이벤트 위임으로도 연결하여 캐시/동적 DOM 교체 상황에 대비합니다.
 document.addEventListener("click", event => {
-  const directTheory = event.target.closest("#directTheoryBtn");
-  if (directTheory) { event.preventDefault(); showBookTheoryHub(); return; }
   const textbook = event.target.closest("#textbookModeBtn");
   if (textbook) { event.preventDefault(); showTextbookHub(); return; }
   const theoryChoice = event.target.closest("#textbookTheoryBtn");
@@ -1894,7 +1923,6 @@ els.airlineModeBtn?.addEventListener("click", showAirlineHub);
 els.textbookHubBackBtn?.addEventListener("click", showMainModeHub);
 els.textbookProblemBtn?.addEventListener("click", showBookProblemHub);
 els.textbookTheoryBtn?.addEventListener("click", showBookTheoryHub);
-els.directTheoryBtn?.addEventListener("click", showBookTheoryHub);
 els.bookProblemBackBtn?.addEventListener("click", showTextbookHub);
 els.bookTheoryBackBtn?.addEventListener("click", showTextbookHub);
 els.weatherTheoryBtn?.addEventListener("click", openWeatherTheory);
@@ -1925,6 +1953,10 @@ els.parataCourseBtn?.addEventListener("click", () => activateLearningContext({
 els.jejuCourseBtn?.addEventListener("click", () => activateLearningContext({
   kind:"airline", label:"제주항공 대비 과정", allowedSubjects:JEJU_SUBJECTS, lockedSubject:JEJU_RECALL_SUBJECT, airline:"jeju",
   note:"복기 재구성 200문항 · 2024/2025 상·하반기 · 불완전 복기는 객관식으로 추론 재구성"
+}));
+els.trinityCourseBtn?.addEventListener("click", () => activateLearningContext({
+  kind:"airline", label:"트리니티항공 대비 과정", allowedSubjects:TRINITY_SUBJECTS, lockedSubject:TRINITY_SUBJECT, airline:"trinity",
+  note:"사용자 풀이 기록 350문항에서 중복 43문항을 통합한 고유 307문항 · 문제/보기/정답/핵심 해설만 보존"
 }));
 
 async function bootstrap() {

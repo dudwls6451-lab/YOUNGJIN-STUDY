@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>항공 문제은행</title>
-  <link rel="stylesheet" href="./assets/style-v11-25.css?v=11.25.0" />
+  <link rel="stylesheet" href="./assets/style-v11-24.css?v=11.24.0" />
 </head>
 <body>
   <header class="topbar">
@@ -14,7 +14,6 @@
         <p class="muted">학습 모드 선택 · 통합 문제은행 · v11.25</p>
       </div>
       <nav class="row nav-row">
-        <button id="resourceLibraryBtn" class="button secondary hidden" type="button">자료실</button>
         <button id="statsBtn" class="button secondary">학습 통계</button>
         <button id="errorsBtn" type="button" class="button secondary error-list-button">
           오류 목록 <span id="errorCountBadge" class="count-badge">0</span>
@@ -79,7 +78,7 @@
         <button class="book-choice-card" data-book-subject="ATP Gleim" type="button"><img src="./assets/covers/atp_gleim.jpg" alt="ATP Gleim 표지"><strong>ATP Gleim</strong></button>
         <button class="book-choice-card" data-book-subject="검댕이 항공법규" type="button"><img src="./assets/covers/airlaw.jpg" alt="검댕이 항공법규 표지"><strong>검댕이 항공법규</strong></button>
         <button class="book-choice-card" data-book-subject="항공기상" type="button"><img src="./assets/covers/weather.jpg" alt="항공기상 표지"><strong>항공기상</strong></button>
-        <button class="book-choice-card" data-book-subject="항공교통통신" type="button"><img src="./assets/covers/atc_comm.svg" alt="항공교통통신 표지"><strong>항공교통통신</strong><span>출제예상문제 300문항</span></button>
+        <button class="book-choice-card" data-book-subject="항공교통통신" type="button"><img src="./assets/covers/atc_comm.svg" alt="항공교통통신 표지"><strong>항공교통통신</strong><span>전체 938문항 · 정답 미확정 83문항 출제 제외</span></button>
         <button id="freeStudyBtn" class="book-choice-card free-study" type="button"><img src="./assets/covers/all_books.jpg" alt="전체 교재"><strong>자유학습모드</strong><span>기존 문제은행의 모든 기능 사용</span></button>
       </div>
     </section>
@@ -158,35 +157,6 @@
           <span>사용자 풀이 기록 · 고유 307문항 · 과목별 분류</span>
         </button>
       </div>
-    </section>
-
-
-    <section id="resourceLibraryCard" class="card resource-library-card hidden">
-      <div class="section-head">
-        <div>
-          <span class="eyebrow">제한 열람</span>
-          <h2>자료실</h2>
-          <p class="muted">허용된 시험용 계정만 열람할 수 있습니다. 원본 PDF는 배포하지 않으며, 화면 열람 전용으로 제공합니다.</p>
-        </div>
-        <button id="resourceLibraryCloseBtn" class="button secondary" type="button">학습 모드로</button>
-      </div>
-      <div class="resource-access-notice" role="note">
-        <strong>열람 전용</strong> · 다운로드 버튼 없음 · 인쇄 차단 · 우클릭 저장 차단
-      </div>
-      <div id="resourceLibraryGrid" class="resource-library-grid"></div>
-    </section>
-
-    <section id="resourceViewerCard" class="card resource-viewer-card hidden" aria-live="polite">
-      <div class="section-head resource-viewer-head">
-        <div>
-          <span class="eyebrow">TOGA 자료실 · 열람 전용</span>
-          <h2 id="resourceViewerTitle">자료</h2>
-          <p id="resourceViewerMeta" class="muted"></p>
-        </div>
-        <button id="resourceViewerBackBtn" class="button secondary" type="button">자료실 목록</button>
-      </div>
-      <div class="resource-access-notice danger" role="note">이 화면은 저장·다운로드·인쇄용이 아닙니다.</div>
-      <div id="resourceViewerPages" class="resource-viewer-pages"></div>
     </section>
 
     <section id="controlsCard" class="card controls hidden">
@@ -416,7 +386,7 @@
     </section>
   </main>
 
-  <script src="./assets/auth-v11-6.js?v=11.25.0"></script>
+  <script src="./assets/auth-v11-5.js?v=11.22.0"></script>
   <script src="./assets/app-v11-14.js?v=11.25.0"></script>
 </body>
 </html>
