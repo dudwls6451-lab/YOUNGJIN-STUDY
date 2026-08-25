@@ -1,5 +1,122 @@
+
+function ensureV1115UiShell() {
+  const main = document.querySelector("main.container") || document.querySelector("main");
+  if (!main) return;
+
+  let controls = document.querySelector("#controlsCard") || document.querySelector("section.card.controls");
+  if (controls) {
+    controls.id = "controlsCard";
+    controls.classList.add("hidden");
+  }
+
+  if (!document.querySelector("#topProgressCard")) {
+    const section = document.createElement("section");
+    section.id = "topProgressCard";
+    section.className = "progress-overview";
+    section.innerHTML = '<div id="topProgressGrid" class="top-progress-grid"></div>';
+    main.insertBefore(section, main.firstChild);
+  }
+
+  if (!document.querySelector("#modeHubCard")) {
+    const hub = document.createElement("section");
+    hub.id = "modeHubCard";
+    hub.className = "card mode-hub";
+    hub.innerHTML = `
+      <div class="hub-title">
+        <h2>학습 모드를 선택하십시오.</h2>
+        <p class="muted">목적에 맞는 학습 과정을 선택하면 해당 문제만 사용할 수 있습니다.</p>
+      </div>
+      <div class="mode-choice-grid">
+        <button id="kotsaModeBtn" class="mode-choice-card" type="button">
+          <span class="mode-icon">✈️</span><strong>교통안전공단 면허시험 대비</strong>
+          <span>항공기상 + 검댕이 항공법규</span>
+        </button>
+        <button id="textbookModeBtn" class="mode-choice-card" type="button">
+          <span class="mode-icon">📚</span><strong>각 교재 학습</strong>
+          <span>교재별 집중 학습 또는 자유학습</span>
+        </button>
+        <button id="airlineModeBtn" class="mode-choice-card" type="button">
+          <span class="mode-icon">🛫</span><strong>항공사 필기전형 대비</strong>
+          <span>항공사별 맞춤 출제 과정</span>
+        </button>
+      </div>`;
+    if (controls) main.insertBefore(hub, controls);
+    else main.insertBefore(hub, main.firstChild?.nextSibling || null);
+  }
+
+  if (!document.querySelector("#textbookHubCard")) {
+    const section = document.createElement("section");
+    section.id = "textbookHubCard";
+    section.className = "card hidden";
+    section.innerHTML = `
+      <div class="section-head">
+        <div><h2>학습할 교재를 선택하십시오.</h2><p class="muted">교재를 선택하면 해당 교재 문제만 출제됩니다.</p></div>
+        <button id="textbookHubBackBtn" class="button secondary" type="button">이전</button>
+      </div>
+      <div class="book-choice-grid">
+        <button class="book-choice-card" data-book-subject="ATP Gleim" type="button"><img src="./assets/covers/atp_gleim.jpg" alt="ATP Gleim 표지"><strong>ATP Gleim</strong></button>
+        <button class="book-choice-card" data-book-subject="검댕이 항공법규" type="button"><img src="./assets/covers/airlaw.jpg" alt="검댕이 항공법규 표지"><strong>검댕이 항공법규</strong></button>
+        <button class="book-choice-card" data-book-subject="항공기상" type="button"><img src="./assets/covers/weather.jpg" alt="항공기상 표지"><strong>항공기상</strong></button>
+        <button id="freeStudyBtn" class="book-choice-card free-study" type="button"><img src="./assets/covers/all_books.jpg" alt="전체 교재"><strong>자유학습모드</strong><span>기존 문제은행의 모든 기능 사용</span></button>
+      </div>`;
+    if (controls) main.insertBefore(section, controls);
+    else main.appendChild(section);
+  }
+
+  if (!document.querySelector("#airlineHubCard")) {
+    const section = document.createElement("section");
+    section.id = "airlineHubCard";
+    section.className = "card hidden";
+    section.innerHTML = `
+      <div class="section-head">
+        <div><h2>원하는 항공사 전형 대비 과정을 선택하십시오.</h2><p class="muted">항공사별 출제 교재와 시험 구성을 적용합니다.</p></div>
+        <button id="airlineHubBackBtn" class="button secondary" type="button">이전</button>
+      </div>
+      <div class="airline-choice-grid">
+        <button id="parataCourseBtn" class="airline-choice-card" type="button">
+          <img src="./assets/covers/parata_air.svg" alt="PARATA AIR 로고">
+          <strong>파라타항공 대비 과정</strong>
+          <span>ATP Gleim + 검댕이 항공법규</span>
+        </button>
+      </div>`;
+    if (controls) main.insertBefore(section, controls);
+    else main.appendChild(section);
+  }
+
+  if (controls && !document.querySelector("#contextTitle")) {
+    const bar = document.createElement("div");
+    bar.className = "context-bar";
+    bar.innerHTML = `
+      <div><span class="muted">현재 학습 과정</span><strong id="contextTitle">자유학습모드</strong><span id="contextNote" class="muted"></span></div>
+      <button id="backToModeBtn" class="button secondary" type="button">학습 모드 선택</button>`;
+    controls.insertBefore(bar, controls.firstChild);
+  }
+
+  const countSelect = document.querySelector("#questionCountMode");
+  if (countSelect && !countSelect.querySelector('option[value="25"]')) {
+    const opt = document.createElement("option");
+    opt.value = "25";
+    opt.textContent = "25문제";
+    const thirty = countSelect.querySelector('option[value="30"]');
+    countSelect.insertBefore(opt, thirty || null);
+  }
+
+  const modeSelect = document.querySelector("#modeSelect");
+  if (modeSelect && !modeSelect.querySelector('option[value="mock"]')) {
+    const opt = document.createElement("option");
+    opt.value = "mock";
+    opt.textContent = "모의시험 · 25문제 · 70점 합격";
+    modeSelect.appendChild(opt);
+  }
+}
+ensureV1115UiShell();
+
+
 const DATA_PATH = "./data/questions-v11-2.json";
-const STORAGE_KEY = "pilotQuestionBankProgressV2";
+const BASE_STORAGE_KEY = "pilotQuestionBankProgressV2";
+const LEGACY_STORAGE_KEY = BASE_STORAGE_KEY;
+let STORAGE_KEY = BASE_STORAGE_KEY;
+let currentUser = null;
 
 const SUBJECTS = [
   "ATP Gleim",
@@ -7,10 +124,26 @@ const SUBJECTS = [
   "공중항법",
   "비행이론",
   "항공법규",
+  "검댕이 항공법규",
   "항공교통통신정보업무",
 ];
 
 const els = {
+  topProgressGrid: document.querySelector("#topProgressGrid"),
+  modeHubCard: document.querySelector("#modeHubCard"),
+  textbookHubCard: document.querySelector("#textbookHubCard"),
+  airlineHubCard: document.querySelector("#airlineHubCard"),
+  controlsCard: document.querySelector("#controlsCard"),
+  kotsaModeBtn: document.querySelector("#kotsaModeBtn"),
+  textbookModeBtn: document.querySelector("#textbookModeBtn"),
+  airlineModeBtn: document.querySelector("#airlineModeBtn"),
+  textbookHubBackBtn: document.querySelector("#textbookHubBackBtn"),
+  airlineHubBackBtn: document.querySelector("#airlineHubBackBtn"),
+  freeStudyBtn: document.querySelector("#freeStudyBtn"),
+  parataCourseBtn: document.querySelector("#parataCourseBtn"),
+  backToModeBtn: document.querySelector("#backToModeBtn"),
+  contextTitle: document.querySelector("#contextTitle"),
+  contextNote: document.querySelector("#contextNote"),
   subject: document.querySelector("#subjectFilter"),
   studyUnit: document.querySelector("#studyUnitFilter"),
   subunit: document.querySelector("#subunitFilter"),
@@ -40,6 +173,7 @@ const els = {
   errorsEmpty: document.querySelector("#errorsEmpty"),
   copyErrors: document.querySelector("#copyErrorsBtn"),
   copyErrorsStatus: document.querySelector("#copyErrorsStatus"),
+  resetErrors: document.querySelector("#resetErrorsBtn"),
   statsSummary: document.querySelector("#statsSummary"),
   weakestSu: document.querySelector("#weakestSu"),
   subjectStatsBody: document.querySelector("#subjectStatsBody"),
@@ -71,7 +205,142 @@ let correctCount = 0;
 let wrongQuestions = [];
 let answered = false;
 let examAnswers = {};
-let progressStore = loadProgress();
+let progressStore = {};
+let learningContext = {
+  kind: "hub",
+  label: "",
+  allowedSubjects: null,
+  lockedSubject: null,
+  airline: null,
+  baseNote: "",
+};
+let sessionMeta = {};
+
+const BOOK_SUBJECTS = ["ATP Gleim", "검댕이 항공법규", "항공기상"];
+const KOTSA_SUBJECTS = ["항공기상", "검댕이 항공법규"];
+const PARATA_SUBJECTS = ["ATP Gleim", "검댕이 항공법규"];
+
+function isExamLike() {
+  return els.mode.value === "exam" || els.mode.value === "mock";
+}
+
+function getAllowedSubjectSet() {
+  return learningContext.allowedSubjects ? new Set(learningContext.allowedSubjects) : null;
+}
+
+function hideStudySurfaces() {
+  [els.controlsCard, els.quizCard, els.resultCard, els.statsCard, els.errorsCard].forEach(el => el?.classList.add("hidden"));
+}
+
+function renderTopProgress() {
+  if (!els.topProgressGrid || !bank.length) return;
+  els.topProgressGrid.innerHTML = BOOK_SUBJECTS.map(subject => {
+    const stats = aggregateStats(bank.filter(q => (q.subject || "미분류") === subject));
+    const accuracy = stats.accuracyPct === null ? "-" : `${stats.accuracyPct}%`;
+    return `
+      <div class="top-progress-item">
+        <div class="progress-name">${escapeHtml(subject)}</div>
+        <div class="progress-numbers"><span>진행률 ${stats.progressPct}% (${stats.solved}/${stats.total})</span><span>정답률 ${accuracy}</span></div>
+        <div class="progress-track"><div class="progress-fill" style="width:${stats.progressPct}%"></div></div>
+      </div>`;
+  }).join("");
+}
+
+function showMainModeHub() {
+  learningContext = { kind:"hub", label:"", allowedSubjects:null, lockedSubject:null, airline:null, baseNote:"" };
+  hideStudySurfaces();
+  els.textbookHubCard?.classList.add("hidden");
+  els.airlineHubCard?.classList.add("hidden");
+  els.modeHubCard?.classList.remove("hidden");
+  renderTopProgress();
+  window.scrollTo({top:0, behavior:"smooth"});
+}
+
+function showTextbookHub() {
+  hideStudySurfaces();
+  els.modeHubCard?.classList.add("hidden");
+  els.airlineHubCard?.classList.add("hidden");
+  els.textbookHubCard?.classList.remove("hidden");
+  window.scrollTo({top:0, behavior:"smooth"});
+}
+
+function showAirlineHub() {
+  hideStudySurfaces();
+  els.modeHubCard?.classList.add("hidden");
+  els.textbookHubCard?.classList.add("hidden");
+  els.airlineHubCard?.classList.remove("hidden");
+  window.scrollTo({top:0, behavior:"smooth"});
+}
+
+function activateLearningContext({kind, label, allowedSubjects, lockedSubject=null, airline=null, note=""}) {
+  learningContext = { kind, label, allowedSubjects, lockedSubject, airline, baseNote: note };
+  els.modeHubCard?.classList.add("hidden");
+  els.textbookHubCard?.classList.add("hidden");
+  els.airlineHubCard?.classList.add("hidden");
+  els.controlsCard?.classList.remove("hidden");
+  els.quizCard?.classList.add("hidden");
+  els.resultCard?.classList.add("hidden");
+  els.contextTitle.textContent = label;
+  els.contextNote.textContent = note;
+  populateSubjects();
+  applyModeUIState();
+  updateAvailableCount();
+  window.scrollTo({top:0, behavior:"smooth"});
+}
+
+function applyModeUIState() {
+  const parataExam = learningContext.airline === "parata" && els.mode.value === "exam";
+  const mock = els.mode.value === "mock";
+  els.controlsCard?.classList.toggle("parata-exam-lock", parataExam);
+
+  if (parataExam) {
+    els.subject.value = "";
+    els.scope.value = "all";
+    els.countMode.value = "50";
+    els.subject.disabled = true;
+    els.studyUnit.disabled = true;
+    els.scope.disabled = true;
+    els.countMode.disabled = true;
+    els.selectAllSubunits.disabled = true;
+    els.clearSubunits.disabled = true;
+    els.contextNote.textContent = "시험모드: 50문항 · ATP Gleim 70~80% + 검댕이 항공법규 20~30%";
+  } else {
+    els.subject.disabled = !!learningContext.lockedSubject;
+    els.studyUnit.disabled = false;
+    els.scope.disabled = false;
+    els.countMode.disabled = mock;
+    els.selectAllSubunits.disabled = false;
+    els.clearSubunits.disabled = false;
+    if (mock) {
+      els.countMode.value = "25";
+      els.contextNote.textContent = `${learningContext.label} · 모의시험 25문항 · 70점 이상 합격`;
+    } else {
+      els.contextNote.textContent = learningContext.baseNote || "";
+    }
+  }
+  els.customCountWrap.classList.toggle("hidden", els.countMode.value !== "custom" || mock || parataExam);
+  populateStudyUnits();
+}
+
+
+function configureUserStorage(user) {
+  currentUser = user || null;
+  STORAGE_KEY = window.PilotBankAuth?.progressStorageKey(BASE_STORAGE_KEY) || BASE_STORAGE_KEY;
+}
+
+function maybeImportLegacyProgress() {
+  if (STORAGE_KEY === LEGACY_STORAGE_KEY) return;
+  try {
+    if (localStorage.getItem(STORAGE_KEY) !== null) return;
+    const legacy = localStorage.getItem(LEGACY_STORAGE_KEY);
+    if (!legacy) return;
+
+    const ok = confirm(`기존 v11.2 브라우저 학습기록이 있습니다.\n\n이 기록을 ${currentUser || "현재"} 계정으로 가져올까요?\n(원본 기록은 삭제하지 않습니다.)`);
+    if (ok) localStorage.setItem(STORAGE_KEY, legacy);
+  } catch (err) {
+    console.warn("기존 학습기록 가져오기 확인 실패", err);
+  }
+}
 
 function loadProgress() {
   try {
@@ -163,10 +432,20 @@ function normalizeChoices(q) {
 
 async function loadBank() {
   try {
-    const dataUrl = `${DATA_PATH}?v=${Date.now()}`;
-    const res = await fetch(dataUrl, { cache: "no-store" });
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const data = await res.json();
+    let data = null;
+    let lastError = null;
+    for (const path of [DATA_PATH, "./data/questions.json"]) {
+      try {
+        const dataUrl = `${path}?v=${Date.now()}`;
+        const res = await fetch(dataUrl, { cache: "no-store" });
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        data = await res.json();
+        break;
+      } catch (err) {
+        lastError = err;
+      }
+    }
+    if (!data) throw lastError || new Error("문제 데이터 로드 실패");
     bank = Array.isArray(data) ? data : (data.questions || []);
 
     const subjectCounts = new Map();
@@ -189,18 +468,36 @@ async function loadBank() {
 }
 
 function populateSubjects() {
-  els.subject.innerHTML = `<option value="">전체 과목</option>` +
-    SUBJECTS.map(s => {
-      const count = bank.filter(q => (q.subject || "미분류") === s).length;
-      const suffix = count ? ` (${count})` : "";
-      return `<option value="${escapeHtml(s)}">${escapeHtml(s + suffix)}</option>`;
-    }).join("");
+  const counts = new Map();
+  bank.forEach(q => {
+    const subject = q.subject || "미분류";
+    counts.set(subject, (counts.get(subject) || 0) + 1);
+  });
+
+  const allowed = getAllowedSubjectSet();
+  const preferred = SUBJECTS.filter(subject => (counts.get(subject) || 0) > 0 && (!allowed || allowed.has(subject)));
+  const extras = [...counts.keys()]
+    .filter(subject => !SUBJECTS.includes(subject) && (!allowed || allowed.has(subject)))
+    .sort((a, b) => a.localeCompare(b, "ko"));
+  const visibleSubjects = [...preferred, ...extras];
+  const visibleTotal = bank.filter(q => !allowed || allowed.has(q.subject || "미분류")).length;
+
+  if (learningContext.lockedSubject) {
+    const s = learningContext.lockedSubject;
+    els.subject.innerHTML = `<option value="${escapeHtml(s)}">${escapeHtml(s)} (${(counts.get(s)||0).toLocaleString()})</option>`;
+    els.subject.value = s;
+  } else {
+    els.subject.innerHTML = `<option value="">전체 허용 교재 (${visibleTotal.toLocaleString()})</option>` +
+      visibleSubjects.map(subject => `<option value="${escapeHtml(subject)}">${escapeHtml(subject)} (${(counts.get(subject)||0).toLocaleString()})</option>`).join("");
+  }
   populateStudyUnits();
 }
 
 function populateStudyUnits() {
   const subject = els.subject.value;
   let filtered = bank;
+  const allowed = getAllowedSubjectSet();
+  if (allowed) filtered = filtered.filter(q => allowed.has(q.subject || "미분류"));
   if (subject) filtered = filtered.filter(q => (q.subject || "미분류") === subject);
 
   const units = [...new Set(filtered.map(studyUnitOf).filter(Boolean))]
@@ -216,6 +513,8 @@ function populateSubunits() {
   const subject = els.subject.value;
   const unit = els.studyUnit.value;
   let filtered = bank;
+  const allowed = getAllowedSubjectSet();
+  if (allowed) filtered = filtered.filter(q => allowed.has(q.subject || "미분류"));
 
   if (subject) filtered = filtered.filter(q => (q.subject || "미분류") === subject);
   if (unit) filtered = filtered.filter(q => studyUnitOf(q) === unit);
@@ -315,8 +614,11 @@ function getFilteredBank() {
   const unit = els.studyUnit.value;
   const selectedSubunits = getSelectedSubunits();
 
+  const allowed = getAllowedSubjectSet();
+
   return bank.filter(q => {
     if (progressStore[q.id]?.errorReported) return false;
+    if (allowed && !allowed.has(q.subject || "미분류")) return false;
     if (subject && (q.subject || "미분류") !== subject) return false;
     if (unit && studyUnitOf(q) !== unit) return false;
 
@@ -341,39 +643,57 @@ function updateAvailableCount() {
   }
 }
 
+function buildParataExamSession() {
+  const base = bank.filter(q => PARATA_SUBJECTS.includes(q.subject || "미분류"))
+    .filter(q => !(progressStore[q.id]?.errorReported))
+    .filter(q => !(progressStore[q.id]?.examExcluded))
+    .filter(q => !els.noFigureOnly.checked || !hasFigure(q));
+  const gleim = base.filter(q => q.subject === "ATP Gleim");
+  const law = base.filter(q => q.subject === "검댕이 항공법규");
+  const gleimCount = 35 + Math.floor(Math.random() * 6); // 35~40 = 70~80%
+  const lawCount = 50 - gleimCount; // 10~15 = 20~30%
+  if (gleim.length < gleimCount || law.length < lawCount) {
+    alert(`파라타항공 시험모드에 필요한 문제가 부족합니다.\nATP Gleim ${gleim.length}/${gleimCount}, 검댕이 항공법규 ${law.length}/${lawCount}`);
+    return null;
+  }
+  const picked = [...shuffle(gleim).slice(0, gleimCount), ...shuffle(law).slice(0, lawCount)];
+  return {questions: shuffle(picked), gleimCount, lawCount};
+}
+
 function startSession(source = null) {
-  let pool = source || getFilteredBank();
+  sessionMeta = {};
 
-  // ERROR 신고된 문제는 어떤 모드/재도전에서도 자동 제외합니다.
-  pool = pool.filter(q => !(progressStore[q.id]?.errorReported));
-
-  // 오답 재도전처럼 source가 직접 전달된 경우에도 그림 제외 옵션을 유지합니다.
-  if (els.noFigureOnly.checked) {
-    pool = pool.filter(q => !hasFigure(q));
-  }
-
-  // "!"로 표시한 문제는 학습모드에는 남아 있지만 시험모드에서는 출제하지 않습니다.
-  if (els.mode.value === "exam") {
-    pool = pool.filter(q => !(progressStore[q.id]?.examExcluded));
-  }
-
-  if (!pool.length) {
-    alert(els.mode.value === "exam"
-      ? "시험모드에서 출제할 문제가 없습니다. ! 표시된 제외 문제를 확인해 주세요."
-      : "출제할 문제가 없습니다.");
-    return;
-  }
-
-  let requested;
-  if (els.countMode.value === "all") {
-    requested = pool.length;
-  } else if (els.countMode.value === "custom") {
-    requested = Math.max(1, Number(els.count.value) || 20);
+  if (!source && learningContext.airline === "parata" && els.mode.value === "exam") {
+    const built = buildParataExamSession();
+    if (!built) return;
+    session = built.questions;
+    sessionMeta = {type:"parataExam", gleimCount:built.gleimCount, lawCount:built.lawCount};
   } else {
-    requested = Math.max(1, Number(els.countMode.value) || 20);
+    let pool = source || getFilteredBank();
+    pool = pool.filter(q => !(progressStore[q.id]?.errorReported));
+    if (els.noFigureOnly.checked) pool = pool.filter(q => !hasFigure(q));
+    if (isExamLike()) pool = pool.filter(q => !(progressStore[q.id]?.examExcluded));
+
+    if (!pool.length) {
+      alert(isExamLike() ? "시험에서 출제할 문제가 없습니다. 제외/오류 표시를 확인해 주세요." : "출제할 문제가 없습니다.");
+      return;
+    }
+
+    let requested;
+    if (source) requested = pool.length;
+    else if (els.mode.value === "mock") requested = 25;
+    else if (els.countMode.value === "all") requested = pool.length;
+    else if (els.countMode.value === "custom") requested = Math.max(1, Number(els.count.value) || 20);
+    else requested = Math.max(1, Number(els.countMode.value) || 20);
+
+    if (!source && els.mode.value === "mock" && pool.length < 25) {
+      alert(`모의시험은 25문항이 필요하지만 현재 출제 가능 문제는 ${pool.length}문항입니다.`);
+      return;
+    }
+    session = shuffle(pool).slice(0, Math.min(requested, pool.length));
+    sessionMeta = {type: els.mode.value === "mock" ? "mock" : els.mode.value};
   }
 
-  session = shuffle(pool).slice(0, Math.min(requested, pool.length));
   index = 0;
   correctCount = 0;
   wrongQuestions = [];
@@ -393,7 +713,7 @@ function renderQuestion() {
   const q = session[index];
 
   els.progress.textContent = `${index + 1} / ${session.length}`;
-  els.score.textContent = els.mode.value === "exam" ? "시험모드" : `정답 ${correctCount}`;
+  els.score.textContent = isExamLike() ? (els.mode.value === "mock" ? "모의시험" : "시험모드") : `정답 ${correctCount}`;
   els.question.textContent = q.question || "(문제 없음)";
   els.feedback.className = "feedback hidden";
   els.feedback.textContent = "";
@@ -432,18 +752,18 @@ function renderQuestion() {
     btn.dataset.choiceId = choice.id;
     btn.innerHTML = `<strong>${escapeHtml(choice.id)}.</strong> ${escapeHtml(choice.text)}`;
 
-    if (els.mode.value === "exam" && existing === choice.id) btn.classList.add("selected");
+    if (isExamLike() && existing === choice.id) btn.classList.add("selected");
 
     btn.addEventListener("click", () => {
-      if (els.mode.value === "exam") selectExamAnswer(choice.id);
+      if (isExamLike()) selectExamAnswer(choice.id);
       else answerStudy(choice.id, btn);
     });
 
     els.choices.appendChild(btn);
   });
 
-  if (els.mode.value === "exam") {
-    els.next.textContent = index === session.length - 1 ? "시험 제출" : "다음 문제";
+  if (isExamLike()) {
+    els.next.textContent = index === session.length - 1 ? (els.mode.value === "mock" ? "모의시험 제출" : "시험 제출") : "다음 문제";
     els.next.classList.remove("hidden");
   } else {
     els.next.classList.add("hidden");
@@ -568,12 +888,13 @@ function recordAttempt(q, selected, isCorrect) {
   rec.lastAnswer = selected;
   rec.lastAttempted = new Date().toISOString();
   saveProgress();
+  renderTopProgress();
 }
 
 function nextQuestion() {
   if (els.mode.value === "study" && !answered) return;
 
-  if (els.mode.value === "exam" && index === session.length - 1) {
+  if (isExamLike() && index === session.length - 1) {
     gradeExam();
     return;
   }
@@ -610,7 +931,16 @@ function showResult(showReview = false) {
   els.resultCard.classList.remove("hidden");
 
   const pct = Math.round((correctCount / session.length) * 100);
-  els.resultText.textContent = `${session.length}문제 중 ${correctCount}문제 정답 · ${pct}% · 오답 ${wrongQuestions.length}문제`;
+  els.resultText.classList.remove("mock-result", "mock-pass", "mock-fail");
+  if (els.mode.value === "mock") {
+    const passed = pct >= 70;
+    els.resultText.textContent = `100점 만점 ${pct}점 · ${passed ? "합격" : "불합격"} · ${session.length}문제 중 ${correctCount}문제 정답`;
+    els.resultText.classList.add("mock-result", passed ? "mock-pass" : "mock-fail");
+  } else if (sessionMeta.type === "parataExam") {
+    els.resultText.textContent = `파라타항공 대비 시험 · ${session.length}문제 중 ${correctCount}문제 정답 · ${pct}% · ATP Gleim ${sessionMeta.gleimCount} / 검댕이 항공법규 ${sessionMeta.lawCount}`;
+  } else {
+    els.resultText.textContent = `${session.length}문제 중 ${correctCount}문제 정답 · ${pct}% · 오답 ${wrongQuestions.length}문제`;
+  }
 
   els.retryWrong.disabled = wrongQuestions.length === 0;
   els.examReview.innerHTML = "";
@@ -626,11 +956,11 @@ function showResult(showReview = false) {
           <p>${escapeHtml(q.question)}</p>
           <p>선택: <strong>${escapeHtml(selected)}</strong> / 정답: <strong>${escapeHtml(correct)}</strong></p>
           ${q.explanation ? `<p class="muted">${escapeHtml(q.explanation)}</p>` : ""}
-        </div>
-      `;
+        </div>`;
     }).join("");
   }
 
+  renderTopProgress();
   els.resultCard.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
@@ -729,7 +1059,7 @@ function reportCurrentError() {
 
   // 신고한 문제가 세션의 마지막 문제였으면 바로 결과로 이동합니다.
   if (index >= session.length) {
-    if (els.mode.value === "exam") {
+    if (isExamLike()) {
       gradeExam();
     } else {
       showResult(false);
@@ -870,6 +1200,36 @@ async function copyAllErrorReports() {
     area.remove();
     els.copyErrorsStatus.textContent = "복사 완료 · ChatGPT에 그대로 붙여넣으면 됩니다.";
   }
+}
+
+function resetErrorReports() {
+  const reports = getReportedRecords();
+  if (!reports.length) {
+    alert("초기화할 오류 신고가 없습니다.");
+    return;
+  }
+
+  const ok = confirm(`${reports.length}개의 오류 신고 목록을 초기화할까요?\n\n학습 횟수, 정답률, 즐겨찾기, 시험모드 제외 기록은 유지되고 오류 신고 기록만 삭제됩니다.`);
+  if (!ok) return;
+
+  reports.forEach(({ id }) => {
+    const rec = progressStore[id];
+    if (!rec) return;
+    rec.errorReported = false;
+    rec.errorReportedAt = null;
+    rec.errorNote = "";
+    rec.errorQuestionSnapshot = "";
+    rec.errorChoicesSnapshot = [];
+    rec.errorSubjectSnapshot = "";
+    rec.errorUnitSnapshot = "";
+    rec.errorSubunitSnapshot = "";
+  });
+
+  saveProgress();
+  updateErrorCount();
+  updateAvailableCount();
+  renderErrorReports();
+  els.copyErrorsStatus.textContent = "오류 목록을 초기화했습니다.";
 }
 
 function aggregateStats(questions) {
@@ -1025,13 +1385,14 @@ function showStats() {
 }
 
 function resetProgress() {
-  const ok = confirm("오답노트, 정답률, 즐겨찾기, 시험모드 제외 표시, 오류 신고 목록을 포함한 모든 학습기록을 초기화할까요?");
+  const ok = confirm(`${currentUser ? currentUser + " 계정의 " : ""}오답노트, 정답률, 즐겨찾기, 시험모드 제외 표시, 오류 신고 목록을 포함한 모든 학습기록을 초기화할까요?`);
   if (!ok) return;
   progressStore = {};
   try { localStorage.removeItem(STORAGE_KEY); } catch (err) { console.warn("LocalStorage 초기화 실패", err); }
   updateErrorCount();
   updateAvailableCount();
   renderErrorReports();
+  renderTopProgress();
   alert("학습기록을 초기화했습니다.");
 }
 
@@ -1049,7 +1410,10 @@ els.studyUnit.addEventListener("change", populateSubunits);
 els.selectAllSubunits.addEventListener("click", selectAllSubunits);
 els.clearSubunits.addEventListener("click", clearSubunits);
 els.scope.addEventListener("change", updateAvailableCount);
-els.mode.addEventListener("change", updateAvailableCount);
+els.mode.addEventListener("change", () => {
+  applyModeUIState();
+  updateAvailableCount();
+});
 els.noFigureOnly.addEventListener("change", updateAvailableCount);
 els.countMode.addEventListener("change", () => {
   els.customCountWrap.classList.toggle("hidden", els.countMode.value !== "custom");
@@ -1067,11 +1431,13 @@ els.retryWrong.addEventListener("click", () => {
 });
 els.restart.addEventListener("click", () => {
   els.resultCard.classList.add("hidden");
-  window.scrollTo({top:0, behavior:"smooth"});
+  els.controlsCard.classList.remove("hidden");
+  els.controlsCard.scrollIntoView({behavior:"smooth", block:"start"});
 });
 els.statsBtn.addEventListener("click", showStats);
 els.closeStats.addEventListener("click", () => els.statsCard.classList.add("hidden"));
 els.resetProgress.addEventListener("click", resetProgress);
+els.resetErrors?.addEventListener("click", resetErrorReports);
 
 // v11.1: 오류 신고 UI는 이벤트 위임으로 연결합니다.
 // 모바일 브라우저/정적 페이지 캐시 갱신 상황에서도 버튼 교체 여부와 무관하게 동작합니다.
@@ -1104,4 +1470,42 @@ document.addEventListener("click", event => {
   }
 });
 
-loadBank();
+els.kotsaModeBtn?.addEventListener("click", () => activateLearningContext({
+  kind:"kotsa", label:"교통안전공단 면허시험 대비", allowedSubjects:KOTSA_SUBJECTS,
+  note:"ATP Gleim은 이 과정에서 제외됩니다."
+}));
+els.textbookModeBtn?.addEventListener("click", showTextbookHub);
+els.airlineModeBtn?.addEventListener("click", showAirlineHub);
+els.textbookHubBackBtn?.addEventListener("click", showMainModeHub);
+els.airlineHubBackBtn?.addEventListener("click", showMainModeHub);
+els.backToModeBtn?.addEventListener("click", showMainModeHub);
+els.freeStudyBtn?.addEventListener("click", () => activateLearningContext({
+  kind:"free", label:"자유학습모드", allowedSubjects:null,
+  note:"모든 교재와 기존 문제은행 기능을 사용할 수 있습니다."
+}));
+document.querySelectorAll("[data-book-subject]").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const subject = btn.dataset.bookSubject;
+    activateLearningContext({kind:"book", label:`${subject} 교재 학습`, allowedSubjects:[subject], lockedSubject:subject, note:"선택한 교재만 출제됩니다."});
+  });
+});
+els.parataCourseBtn?.addEventListener("click", () => activateLearningContext({
+  kind:"airline", label:"파라타항공 대비 과정", allowedSubjects:PARATA_SUBJECTS, airline:"parata",
+  note:"사용 교재: ATP Gleim + 검댕이 항공법규"
+}));
+
+async function bootstrap() {
+  if (window.PilotBankAuth?.requireLogin) {
+    const user = await window.PilotBankAuth.requireLogin();
+    configureUserStorage(user);
+  } else {
+    configureUserStorage(null);
+  }
+  maybeImportLegacyProgress();
+  progressStore = loadProgress();
+  await loadBank();
+  renderTopProgress();
+  showMainModeHub();
+}
+
+bootstrap();

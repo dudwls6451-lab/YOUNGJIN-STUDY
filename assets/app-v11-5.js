@@ -1,3 +1,117 @@
+
+function ensureV1115UiShell() {
+  const main = document.querySelector("main.container") || document.querySelector("main");
+  if (!main) return;
+
+  let controls = document.querySelector("#controlsCard") || document.querySelector("section.card.controls");
+  if (controls) {
+    controls.id = "controlsCard";
+    controls.classList.add("hidden");
+  }
+
+  if (!document.querySelector("#topProgressCard")) {
+    const section = document.createElement("section");
+    section.id = "topProgressCard";
+    section.className = "progress-overview";
+    section.innerHTML = '<div id="topProgressGrid" class="top-progress-grid"></div>';
+    main.insertBefore(section, main.firstChild);
+  }
+
+  if (!document.querySelector("#modeHubCard")) {
+    const hub = document.createElement("section");
+    hub.id = "modeHubCard";
+    hub.className = "card mode-hub";
+    hub.innerHTML = `
+      <div class="hub-title">
+        <h2>학습 모드를 선택하십시오.</h2>
+        <p class="muted">목적에 맞는 학습 과정을 선택하면 해당 문제만 사용할 수 있습니다.</p>
+      </div>
+      <div class="mode-choice-grid">
+        <button id="kotsaModeBtn" class="mode-choice-card" type="button">
+          <span class="mode-icon">✈️</span><strong>교통안전공단 면허시험 대비</strong>
+          <span>항공기상 + 검댕이 항공법규</span>
+        </button>
+        <button id="textbookModeBtn" class="mode-choice-card" type="button">
+          <span class="mode-icon">📚</span><strong>각 교재 학습</strong>
+          <span>교재별 집중 학습 또는 자유학습</span>
+        </button>
+        <button id="airlineModeBtn" class="mode-choice-card" type="button">
+          <span class="mode-icon">🛫</span><strong>항공사 필기전형 대비</strong>
+          <span>항공사별 맞춤 출제 과정</span>
+        </button>
+      </div>`;
+    if (controls) main.insertBefore(hub, controls);
+    else main.insertBefore(hub, main.firstChild?.nextSibling || null);
+  }
+
+  if (!document.querySelector("#textbookHubCard")) {
+    const section = document.createElement("section");
+    section.id = "textbookHubCard";
+    section.className = "card hidden";
+    section.innerHTML = `
+      <div class="section-head">
+        <div><h2>학습할 교재를 선택하십시오.</h2><p class="muted">교재를 선택하면 해당 교재 문제만 출제됩니다.</p></div>
+        <button id="textbookHubBackBtn" class="button secondary" type="button">이전</button>
+      </div>
+      <div class="book-choice-grid">
+        <button class="book-choice-card" data-book-subject="ATP Gleim" type="button"><img src="./assets/covers/atp_gleim.jpg" alt="ATP Gleim 표지"><strong>ATP Gleim</strong></button>
+        <button class="book-choice-card" data-book-subject="검댕이 항공법규" type="button"><img src="./assets/covers/airlaw.jpg" alt="검댕이 항공법규 표지"><strong>검댕이 항공법규</strong></button>
+        <button class="book-choice-card" data-book-subject="항공기상" type="button"><img src="./assets/covers/weather.jpg" alt="항공기상 표지"><strong>항공기상</strong></button>
+        <button id="freeStudyBtn" class="book-choice-card free-study" type="button"><img src="./assets/covers/all_books.jpg" alt="전체 교재"><strong>자유학습모드</strong><span>기존 문제은행의 모든 기능 사용</span></button>
+      </div>`;
+    if (controls) main.insertBefore(section, controls);
+    else main.appendChild(section);
+  }
+
+  if (!document.querySelector("#airlineHubCard")) {
+    const section = document.createElement("section");
+    section.id = "airlineHubCard";
+    section.className = "card hidden";
+    section.innerHTML = `
+      <div class="section-head">
+        <div><h2>원하는 항공사 전형 대비 과정을 선택하십시오.</h2><p class="muted">항공사별 출제 교재와 시험 구성을 적용합니다.</p></div>
+        <button id="airlineHubBackBtn" class="button secondary" type="button">이전</button>
+      </div>
+      <div class="airline-choice-grid">
+        <button id="parataCourseBtn" class="airline-choice-card" type="button">
+          <img src="./assets/covers/parata_air.svg" alt="PARATA AIR 로고">
+          <strong>파라타항공 대비 과정</strong>
+          <span>ATP Gleim + 검댕이 항공법규</span>
+        </button>
+      </div>`;
+    if (controls) main.insertBefore(section, controls);
+    else main.appendChild(section);
+  }
+
+  if (controls && !document.querySelector("#contextTitle")) {
+    const bar = document.createElement("div");
+    bar.className = "context-bar";
+    bar.innerHTML = `
+      <div><span class="muted">현재 학습 과정</span><strong id="contextTitle">자유학습모드</strong><span id="contextNote" class="muted"></span></div>
+      <button id="backToModeBtn" class="button secondary" type="button">학습 모드 선택</button>`;
+    controls.insertBefore(bar, controls.firstChild);
+  }
+
+  const countSelect = document.querySelector("#questionCountMode");
+  if (countSelect && !countSelect.querySelector('option[value="25"]')) {
+    const opt = document.createElement("option");
+    opt.value = "25";
+    opt.textContent = "25문제";
+    const thirty = countSelect.querySelector('option[value="30"]');
+    countSelect.insertBefore(opt, thirty || null);
+  }
+
+  const modeSelect = document.querySelector("#modeSelect");
+  if (modeSelect && !modeSelect.querySelector('option[value="mock"]')) {
+    const opt = document.createElement("option");
+    opt.value = "mock";
+    opt.textContent = "모의시험 · 25문제 · 70점 합격";
+    modeSelect.appendChild(opt);
+  }
+}
+ensureV1115UiShell();
+
+
 const DATA_PATH = "./data/questions-v11-2.json";
 const BASE_STORAGE_KEY = "pilotQuestionBankProgressV2";
 const LEGACY_STORAGE_KEY = BASE_STORAGE_KEY;
@@ -318,10 +432,20 @@ function normalizeChoices(q) {
 
 async function loadBank() {
   try {
-    const dataUrl = `${DATA_PATH}?v=${Date.now()}`;
-    const res = await fetch(dataUrl, { cache: "no-store" });
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const data = await res.json();
+    let data = null;
+    let lastError = null;
+    for (const path of [DATA_PATH, "./data/questions.json"]) {
+      try {
+        const dataUrl = `${path}?v=${Date.now()}`;
+        const res = await fetch(dataUrl, { cache: "no-store" });
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        data = await res.json();
+        break;
+      } catch (err) {
+        lastError = err;
+      }
+    }
+    if (!data) throw lastError || new Error("문제 데이터 로드 실패");
     bank = Array.isArray(data) ? data : (data.questions || []);
 
     const subjectCounts = new Map();
@@ -372,6 +496,8 @@ function populateSubjects() {
 function populateStudyUnits() {
   const subject = els.subject.value;
   let filtered = bank;
+  const allowed = getAllowedSubjectSet();
+  if (allowed) filtered = filtered.filter(q => allowed.has(q.subject || "미분류"));
   if (subject) filtered = filtered.filter(q => (q.subject || "미분류") === subject);
 
   const units = [...new Set(filtered.map(studyUnitOf).filter(Boolean))]
@@ -387,6 +513,8 @@ function populateSubunits() {
   const subject = els.subject.value;
   const unit = els.studyUnit.value;
   let filtered = bank;
+  const allowed = getAllowedSubjectSet();
+  if (allowed) filtered = filtered.filter(q => allowed.has(q.subject || "미분류"));
 
   if (subject) filtered = filtered.filter(q => (q.subject || "미분류") === subject);
   if (unit) filtered = filtered.filter(q => studyUnitOf(q) === unit);
