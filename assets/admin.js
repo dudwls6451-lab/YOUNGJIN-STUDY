@@ -16,7 +16,7 @@ let baseDocument = null;
 let mergedDocument = null;
 
 async function loadBase() {
-  const res = await fetch(DATA_PATH, { cache: "no-store" });
+  const res = await fetch(`${DATA_PATH}?v=${Date.now()}`, { cache: "no-store" });
   if (!res.ok) throw new Error(`기존 문제은행 로드 실패: HTTP ${res.status}`);
   const raw = await res.json();
   baseDocument = normalizeDocument(raw);
@@ -137,7 +137,12 @@ async function mergeFiles() {
     renderSummary({base:baseQuestions.length,incoming,added,replaced,skipped,total:questions.length});
     renderPreview(questions);
     els.previewCard.classList.remove("hidden");
-    setStatus(`완료: +${added} 추가${replaced ? ` · ${replaced} 교체` : ""}${skipped ? ` · ${skipped} 중복 건너뜀` : ""}`);
+    setStatus(
+      `브라우저 병합 완료: +${added} 추가` +
+      `${replaced ? ` · ${replaced} 교체` : ""}` +
+      `${skipped ? ` · ${skipped} 중복 건너뜀` : ""}` +
+      `\n아직 GitHub 사이트에는 반영되지 않았습니다. 아래에서 questions.json을 다운로드한 뒤 GitHub의 data/questions.json을 교체하고 Commit 하세요.`
+    );
     els.previewCard.scrollIntoView({behavior:"smooth",block:"start"});
   } catch (err) {
     console.error(err);
