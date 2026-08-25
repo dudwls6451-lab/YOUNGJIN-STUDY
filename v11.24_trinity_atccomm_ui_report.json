@@ -1,0 +1,72 @@
+{
+  "version": "v11.24",
+  "base": "v11.22",
+  "changes": {
+    "trinity_air_course": {
+      "source_files": [
+        "트리니티 2회차.txt",
+        "트리니티3회차.txt",
+        "트리니티 4회차.txt",
+        "트리니티 5회차.txt",
+        "트리니티 6회차.txt",
+        "트리니티 7회차.txt",
+        "트리니티 모의고사 1회차.txt"
+      ],
+      "raw_questions": 350,
+      "unique_questions": 307,
+      "duplicate_groups": 43,
+      "duplicate_occurrences_removed": 43,
+      "category_counts": {
+        "항법": 34,
+        "기상": 49,
+        "IFR": 61,
+        "법규": 41,
+        "운항절차": 64,
+        "공기역학": 15,
+        "계기시스템": 21,
+        "성능": 20,
+        "인적요인": 2
+      },
+      "user_answer_and_result_metadata_removed": true,
+      "course_subject": "트리니티항공 대비"
+    },
+    "home_theory_shortcut_removed": true,
+    "theory_courses_preserved_under_textbook_learning": true,
+    "atc_communication_textbook": {
+      "questions_added": 300,
+      "subject": "항공교통통신",
+      "figures_copied": [
+        "ATC-COMM-076.png",
+        "ATC-COMM-078.png"
+      ],
+      "added_to_textbook_problem_menu": true
+    }
+  },
+  "question_bank": {
+    "before": 2712,
+    "after": 3319,
+    "subject_counts": {
+      "ATP Gleim": 1075,
+      "항공기상": 922,
+      "검댕이 항공법규": 515,
+      "제주항공 복기": 200,
+      "항공교통통신": 300,
+      "트리니티항공 대비": 307
+    }
+  },
+  "validation": {
+    "trinity_all_307_have_question": true,
+    "trinity_all_307_have_4_choices": true,
+    "trinity_all_307_have_answer": true,
+    "trinity_all_307_have_core_explanation": true,
+    "trinity_user_answer_ui_removed": true,
+    "trinity_duplicate_answer_conflicts": 0,
+    "merged_question_count": 3319,
+    "merged_unique_ids": true,
+    "javascript_syntax_ok": true,
+    "home_direct_theory_card_removed": true,
+    "textbook_theory_route_preserved": true,
+    "atccomm_card_present": true,
+    "trinity_course_card_present": true
+  }
+}

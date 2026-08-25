@@ -4,14 +4,14 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>항공 문제은행</title>
-  <link rel="stylesheet" href="./assets/style-v11-22.css?v=11.22.0" />
+  <link rel="stylesheet" href="./assets/style-v11-24.css?v=11.24.0" />
 </head>
 <body>
   <header class="topbar">
     <div class="container topbar-inner">
       <div>
         <h1>항공 문제은행</h1>
-        <p class="muted">학습 모드 선택 · 항공기상 전체 이론학습 · v11.22</p>
+        <p class="muted">학습 모드 선택 · 통합 문제은행 · v11.24</p>
       </div>
       <nav class="row nav-row">
         <button id="statsBtn" class="button secondary">학습 통계</button>
@@ -46,10 +46,6 @@
           <span class="mode-icon">🛫</span><strong>항공사 필기전형 대비</strong>
           <span>항공사별 맞춤 출제 과정</span>
         </button>
-        <button id="directTheoryBtn" class="mode-choice-card theory-direct-card" type="button">
-          <span class="mode-icon">📖</span><strong>교재 이론 학습 <em class="new-badge">NEW</em></strong>
-          <span>항공기상 · 검댕이 항공법규 → 쪽지시험 10문항 → 8개 이상 합격</span>
-        </button>
       </div>
     </section>
 
@@ -82,6 +78,7 @@
         <button class="book-choice-card" data-book-subject="ATP Gleim" type="button"><img src="./assets/covers/atp_gleim.jpg" alt="ATP Gleim 표지"><strong>ATP Gleim</strong></button>
         <button class="book-choice-card" data-book-subject="검댕이 항공법규" type="button"><img src="./assets/covers/airlaw.jpg" alt="검댕이 항공법규 표지"><strong>검댕이 항공법규</strong></button>
         <button class="book-choice-card" data-book-subject="항공기상" type="button"><img src="./assets/covers/weather.jpg" alt="항공기상 표지"><strong>항공기상</strong></button>
+        <button class="book-choice-card" data-book-subject="항공교통통신" type="button"><img src="./assets/covers/atc_comm.svg" alt="항공교통통신 표지"><strong>항공교통통신</strong><span>출제예상문제 300문항</span></button>
         <button id="freeStudyBtn" class="book-choice-card free-study" type="button"><img src="./assets/covers/all_books.jpg" alt="전체 교재"><strong>자유학습모드</strong><span>기존 문제은행의 모든 기능 사용</span></button>
       </div>
     </section>
@@ -153,6 +150,11 @@
           <img src="./assets/covers/jeju_air.svg" alt="JEJUair 로고">
           <strong>제주항공 대비 과정</strong>
           <span>2024·2025 상/하반기 필기 복기 200문항</span>
+        </button>
+        <button id="trinityCourseBtn" class="airline-choice-card trinity-air-card" type="button">
+          <img src="./assets/covers/trinity_air.svg" alt="TRINITY AIR 로고">
+          <strong>트리니티항공 대비 과정</strong>
+          <span>사용자 풀이 기록 · 고유 307문항 · 과목별 분류</span>
         </button>
       </div>
     </section>
@@ -385,6 +387,6 @@
   </main>
 
   <script src="./assets/auth-v11-5.js?v=11.22.0"></script>
-  <script src="./assets/app-v11-12.js?v=11.22.0"></script>
+  <script src="./assets/app-v11-13.js?v=11.24.0"></script>
 </body>
 </html>

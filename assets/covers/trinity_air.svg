@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 180" role="img" aria-label="TRINITY AIR">
+  <rect width="640" height="180" rx="28" fill="#ffffff"/>
+  <path d="M55 108 L120 45 L185 108 L155 108 L120 75 L85 108 Z" fill="#1f2937"/>
+  <path d="M95 120 H145 L120 145 Z" fill="#6b7280"/>
+  <text x="215" y="98" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700" fill="#111827">TRINITY</text>
+  <text x="217" y="136" font-family="Arial, Helvetica, sans-serif" font-size="30" letter-spacing="8" fill="#4b5563">AIR</text>
+</svg>

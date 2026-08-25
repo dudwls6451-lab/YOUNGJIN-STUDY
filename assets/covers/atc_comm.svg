@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 640" role="img" aria-label="항공교통통신">
+  <rect width="480" height="640" rx="24" fill="#f8fafc"/>
+  <rect x="42" y="50" width="396" height="540" rx="18" fill="#ffffff" stroke="#cbd5e1" stroke-width="4"/>
+  <text x="240" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="52" font-weight="700" fill="#0f172a">ATC</text>
+  <text x="240" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" fill="#334155">COMM</text>
+  <path d="M120 360 H360 M150 400 H330 M180 440 H300" stroke="#64748b" stroke-width="10" stroke-linecap="round"/>
+  <text x="240" y="530" text-anchor="middle" font-family="sans-serif" font-size="30" font-weight="700" fill="#0f172a">항공교통통신</text>
+</svg>
