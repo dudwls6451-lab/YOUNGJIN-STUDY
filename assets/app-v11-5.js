@@ -111,6 +111,41 @@ function ensureV1115UiShell() {
 }
 ensureV1115UiShell();
 
+function ensureV1116TheoryShell() {
+  const main = document.querySelector("main.container") || document.querySelector("main");
+  if (!main) return;
+  const textbook = document.querySelector("#textbookHubCard");
+  const airline = document.querySelector("#airlineHubCard");
+  if (textbook && !document.querySelector("#textbookProblemBtn")) {
+    textbook.innerHTML = `
+      <div class="section-head">
+        <div><h2>교재 학습 방식을 선택하십시오.</h2><p class="muted">문제를 바로 풀거나, 교재 이론을 순서대로 학습할 수 있습니다.</p></div>
+        <button id="textbookHubBackBtn" class="button secondary" type="button">이전</button>
+      </div>
+      <div class="study-type-grid">
+        <button id="textbookProblemBtn" class="mode-choice-card" type="button"><span class="mode-icon">✍️</span><strong>문제 풀이</strong><span>기존 문제은행 방식으로 교재별 문제를 풉니다.</span></button>
+        <button id="textbookTheoryBtn" class="mode-choice-card" type="button"><span class="mode-icon">📖</span><strong>이론 학습</strong><span>이론을 읽고 10문항 쪽지시험을 통과하며 다음 단계로 진행합니다.</span></button>
+      </div>`;
+  }
+  const insertBefore = airline || document.querySelector("#controlsCard");
+  if (!document.querySelector("#bookProblemHubCard")) {
+    const section = document.createElement("section");
+    section.id = "bookProblemHubCard"; section.className = "card hidden";
+    section.innerHTML = `<div class="section-head"><div><h2>문제 풀이 교재를 선택하십시오.</h2><p class="muted">기존 문제 풀이 기능은 그대로 유지됩니다.</p></div><button id="bookProblemBackBtn" class="button secondary" type="button">이전</button></div><div class="book-choice-grid"><button class="book-choice-card" data-book-subject="ATP Gleim" type="button"><img src="./assets/covers/atp_gleim.jpg" alt="ATP Gleim 표지"><strong>ATP Gleim</strong></button><button class="book-choice-card" data-book-subject="검댕이 항공법규" type="button"><img src="./assets/covers/airlaw.jpg" alt="검댕이 항공법규 표지"><strong>검댕이 항공법규</strong></button><button class="book-choice-card" data-book-subject="항공기상" type="button"><img src="./assets/covers/weather.jpg" alt="항공기상 표지"><strong>항공기상</strong></button><button id="freeStudyBtn" class="book-choice-card free-study" type="button"><img src="./assets/covers/all_books.jpg" alt="전체 교재"><strong>자유학습모드</strong><span>기존 문제은행의 모든 기능 사용</span></button></div>`;
+    main.insertBefore(section, insertBefore);
+  }
+  if (!document.querySelector("#bookTheoryHubCard")) {
+    const section = document.createElement("section"); section.id="bookTheoryHubCard"; section.className="card hidden";
+    section.innerHTML = `<div class="section-head"><div><h2>이론 학습 교재를 선택하십시오.</h2><p class="muted">v11.16 테스트베드는 항공기상 제1절 ‘대기’부터 제공합니다.</p></div><button id="bookTheoryBackBtn" class="button secondary" type="button">이전</button></div><div class="book-choice-grid theory-book-grid"><button id="weatherTheoryBtn" class="book-choice-card theory-ready" data-theory-subject="항공기상" type="button"><img src="./assets/covers/weather.jpg" alt="항공기상 표지"><strong>항공기상</strong><span>테스트베드 · 제1절 대기</span></button><div class="theory-coming-soon"><strong>ATP Gleim · 검댕이 항공법규</strong><span>이론 학습 확장 예정</span></div></div>`;
+    main.insertBefore(section, insertBefore);
+  }
+  if (!document.querySelector("#theoryCard")) {
+    const section = document.createElement("section"); section.id="theoryCard"; section.className="card theory-card hidden";
+    section.innerHTML = `<div class="section-head theory-main-head"><div><span class="eyebrow">항공기상 이론 학습 · 테스트베드</span><h2 id="theoryUnitTitle">제1절 대기</h2><p id="theoryUnitProgress" class="muted"></p></div><button id="theoryExitBtn" class="button secondary" type="button">교재 선택</button></div><div class="theory-layout"><aside class="theory-sidebar"><div class="theory-sidebar-title">학습 단계</div><div id="theoryStageList" class="theory-stage-list"></div></aside><article class="theory-reader"><div class="theory-stage-head"><span id="theoryStageNumber" class="pill"></span><span id="theoryStageStatus" class="theory-status-badge"></span></div><h2 id="theoryStageTitle"></h2><div id="theoryContent" class="theory-content"></div><div id="theoryReadSentinel" class="theory-read-sentinel" aria-hidden="true"></div><div class="theory-test-panel"><div><strong>쪽지시험</strong><p id="theoryTestGuide" class="muted">이론을 끝까지 읽으면 응시할 수 있습니다. 기존 문제은행에서 10문항이 무작위 출제되며 8문항 이상 맞아야 합격입니다.</p></div><button id="theoryTestBtn" class="button" type="button" disabled>끝까지 읽으면 응시 가능</button></div></article></div>`;
+    main.insertBefore(section, insertBefore);
+  }
+}
+ensureV1116TheoryShell();
 
 const DATA_PATH = "./data/questions-v11-2.json";
 const BASE_STORAGE_KEY = "pilotQuestionBankProgressV2";
@@ -132,12 +167,30 @@ const els = {
   topProgressGrid: document.querySelector("#topProgressGrid"),
   modeHubCard: document.querySelector("#modeHubCard"),
   textbookHubCard: document.querySelector("#textbookHubCard"),
+  bookProblemHubCard: document.querySelector("#bookProblemHubCard"),
+  bookTheoryHubCard: document.querySelector("#bookTheoryHubCard"),
+  theoryCard: document.querySelector("#theoryCard"),
   airlineHubCard: document.querySelector("#airlineHubCard"),
   controlsCard: document.querySelector("#controlsCard"),
   kotsaModeBtn: document.querySelector("#kotsaModeBtn"),
   textbookModeBtn: document.querySelector("#textbookModeBtn"),
   airlineModeBtn: document.querySelector("#airlineModeBtn"),
   textbookHubBackBtn: document.querySelector("#textbookHubBackBtn"),
+  textbookProblemBtn: document.querySelector("#textbookProblemBtn"),
+  textbookTheoryBtn: document.querySelector("#textbookTheoryBtn"),
+  bookProblemBackBtn: document.querySelector("#bookProblemBackBtn"),
+  bookTheoryBackBtn: document.querySelector("#bookTheoryBackBtn"),
+  weatherTheoryBtn: document.querySelector("#weatherTheoryBtn"),
+  theoryExitBtn: document.querySelector("#theoryExitBtn"),
+  theoryStageList: document.querySelector("#theoryStageList"),
+  theoryUnitProgress: document.querySelector("#theoryUnitProgress"),
+  theoryStageNumber: document.querySelector("#theoryStageNumber"),
+  theoryStageStatus: document.querySelector("#theoryStageStatus"),
+  theoryStageTitle: document.querySelector("#theoryStageTitle"),
+  theoryContent: document.querySelector("#theoryContent"),
+  theoryReadSentinel: document.querySelector("#theoryReadSentinel"),
+  theoryTestGuide: document.querySelector("#theoryTestGuide"),
+  theoryTestBtn: document.querySelector("#theoryTestBtn"),
   airlineHubBackBtn: document.querySelector("#airlineHubBackBtn"),
   freeStudyBtn: document.querySelector("#freeStudyBtn"),
   parataCourseBtn: document.querySelector("#parataCourseBtn"),
@@ -215,13 +268,16 @@ let learningContext = {
   baseNote: "",
 };
 let sessionMeta = {};
+let theoryData = null;
+let currentTheoryStageIndex = 0;
+let theoryReadObserver = null;
 
 const BOOK_SUBJECTS = ["ATP Gleim", "검댕이 항공법규", "항공기상"];
 const KOTSA_SUBJECTS = ["항공기상", "검댕이 항공법규"];
 const PARATA_SUBJECTS = ["ATP Gleim", "검댕이 항공법규"];
 
 function isExamLike() {
-  return els.mode.value === "exam" || els.mode.value === "mock";
+  return sessionMeta.type === "theoryTest" || els.mode.value === "exam" || els.mode.value === "mock";
 }
 
 function getAllowedSubjectSet() {
@@ -229,7 +285,7 @@ function getAllowedSubjectSet() {
 }
 
 function hideStudySurfaces() {
-  [els.controlsCard, els.quizCard, els.resultCard, els.statsCard, els.errorsCard].forEach(el => el?.classList.add("hidden"));
+  [els.controlsCard, els.quizCard, els.resultCard, els.statsCard, els.errorsCard, els.theoryCard].forEach(el => el?.classList.add("hidden"));
 }
 
 function renderTopProgress() {
@@ -250,6 +306,8 @@ function showMainModeHub() {
   learningContext = { kind:"hub", label:"", allowedSubjects:null, lockedSubject:null, airline:null, baseNote:"" };
   hideStudySurfaces();
   els.textbookHubCard?.classList.add("hidden");
+  els.bookProblemHubCard?.classList.add("hidden");
+  els.bookTheoryHubCard?.classList.add("hidden");
   els.airlineHubCard?.classList.add("hidden");
   els.modeHubCard?.classList.remove("hidden");
   renderTopProgress();
@@ -259,8 +317,30 @@ function showMainModeHub() {
 function showTextbookHub() {
   hideStudySurfaces();
   els.modeHubCard?.classList.add("hidden");
+  els.bookProblemHubCard?.classList.add("hidden");
+  els.bookTheoryHubCard?.classList.add("hidden");
   els.airlineHubCard?.classList.add("hidden");
   els.textbookHubCard?.classList.remove("hidden");
+  window.scrollTo({top:0, behavior:"smooth"});
+}
+
+function showBookProblemHub() {
+  hideStudySurfaces();
+  els.modeHubCard?.classList.add("hidden");
+  els.textbookHubCard?.classList.add("hidden");
+  els.bookTheoryHubCard?.classList.add("hidden");
+  els.airlineHubCard?.classList.add("hidden");
+  els.bookProblemHubCard?.classList.remove("hidden");
+  window.scrollTo({top:0, behavior:"smooth"});
+}
+
+function showBookTheoryHub() {
+  hideStudySurfaces();
+  els.modeHubCard?.classList.add("hidden");
+  els.textbookHubCard?.classList.add("hidden");
+  els.bookProblemHubCard?.classList.add("hidden");
+  els.airlineHubCard?.classList.add("hidden");
+  els.bookTheoryHubCard?.classList.remove("hidden");
   window.scrollTo({top:0, behavior:"smooth"});
 }
 
@@ -268,6 +348,8 @@ function showAirlineHub() {
   hideStudySurfaces();
   els.modeHubCard?.classList.add("hidden");
   els.textbookHubCard?.classList.add("hidden");
+  els.bookProblemHubCard?.classList.add("hidden");
+  els.bookTheoryHubCard?.classList.add("hidden");
   els.airlineHubCard?.classList.remove("hidden");
   window.scrollTo({top:0, behavior:"smooth"});
 }
@@ -276,6 +358,9 @@ function activateLearningContext({kind, label, allowedSubjects, lockedSubject=nu
   learningContext = { kind, label, allowedSubjects, lockedSubject, airline, baseNote: note };
   els.modeHubCard?.classList.add("hidden");
   els.textbookHubCard?.classList.add("hidden");
+  els.bookProblemHubCard?.classList.add("hidden");
+  els.bookTheoryHubCard?.classList.add("hidden");
+  els.theoryCard?.classList.add("hidden");
   els.airlineHubCard?.classList.add("hidden");
   els.controlsCard?.classList.remove("hidden");
   els.quizCard?.classList.add("hidden");
@@ -322,6 +407,179 @@ function applyModeUIState() {
   populateStudyUnits();
 }
 
+
+function getTheoryRoot() {
+  if (!progressStore.__theory || typeof progressStore.__theory !== "object") progressStore.__theory = {};
+  if (!progressStore.__theory.weatherSu3) progressStore.__theory.weatherSu3 = { stages: {} };
+  if (!progressStore.__theory.weatherSu3.stages) progressStore.__theory.weatherSu3.stages = {};
+  return progressStore.__theory.weatherSu3;
+}
+
+function getTheoryStageProgress(stageId) {
+  const root = getTheoryRoot();
+  if (!root.stages[stageId]) root.stages[stageId] = { read:false, passed:false, attempts:0, bestScore:0, lastScore:null, lastTakenAt:null };
+  return root.stages[stageId];
+}
+
+function theoryStageUnlocked(stageIndex) {
+  if (stageIndex <= 0) return true;
+  if (!theoryData?.stages?.[stageIndex - 1]) return false;
+  return !!getTheoryStageProgress(theoryData.stages[stageIndex - 1].id).passed;
+}
+
+async function loadTheoryData() {
+  if (theoryData) return theoryData;
+  const paths = ["./data/theory-weather-su3.json"];
+  let lastError = null;
+  for (const path of paths) {
+    try {
+      const res = await fetch(`${path}?v=${Date.now()}`, {cache:"no-store"});
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      theoryData = await res.json();
+      return theoryData;
+    } catch (err) { lastError = err; }
+  }
+  throw lastError || new Error("이론 학습 데이터를 불러오지 못했습니다.");
+}
+
+function renderTheoryStageList() {
+  if (!theoryData || !els.theoryStageList) return;
+  const completed = theoryData.stages.filter(s => getTheoryStageProgress(s.id).passed).length;
+  els.theoryUnitProgress.textContent = `${completed} / ${theoryData.stages.length}단계 합격 · 쪽지시험 10문항 중 8문항 이상 정답 시 다음 단계 해제`;
+  els.theoryStageList.innerHTML = theoryData.stages.map((stage, i) => {
+    const rec = getTheoryStageProgress(stage.id);
+    const unlocked = theoryStageUnlocked(i);
+    const active = i === currentTheoryStageIndex;
+    const status = rec.passed ? `합격 · 최고 ${rec.bestScore}/10` : (unlocked ? (rec.lastScore === null ? "학습 가능" : `최근 ${rec.lastScore}/10`) : "잠김");
+    return `<button class="theory-stage-button ${active ? "active" : ""} ${rec.passed ? "passed" : ""}" data-theory-stage-index="${i}" type="button" ${unlocked ? "" : "disabled"}><span class="theory-stage-order">${i + 1}</span><span><strong>${escapeHtml(stage.title)}</strong><small>${escapeHtml(status)}</small></span><span class="theory-lock">${rec.passed ? "✓" : (unlocked ? "→" : "🔒")}</span></button>`;
+  }).join("");
+}
+
+function renderTheorySection(section) {
+  let html = `<section class="theory-section"><h3>${escapeHtml(section.heading || "")}</h3>`;
+  (section.paragraphs || []).forEach(p => { html += `<p>${escapeHtml(p)}</p>`; });
+  if (section.bullets?.length) html += `<ul>${section.bullets.map(item => `<li>${escapeHtml(item)}</li>`).join("")}</ul>`;
+  if (section.table?.rows?.length) {
+    html += `<div class="theory-table-wrap"><table class="theory-table"><thead><tr>${(section.table.headers || []).map(h => `<th>${escapeHtml(h)}</th>`).join("")}</tr></thead><tbody>${section.table.rows.map(row => `<tr>${row.map(v => `<td>${escapeHtml(v)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
+  }
+  if (section.figure?.src) html += `<figure class="theory-figure"><img src="${escapeHtml(section.figure.src)}" alt="${escapeHtml(section.figure.caption || section.heading || "교재 그림")}" loading="lazy"><figcaption>${escapeHtml(section.figure.caption || "")}</figcaption></figure>`;
+  html += `</section>`;
+  return html;
+}
+
+function markTheoryRead(stage) {
+  const rec = getTheoryStageProgress(stage.id);
+  if (!rec.read) { rec.read = true; saveProgress(); }
+  els.theoryTestBtn.disabled = false;
+  els.theoryTestBtn.textContent = rec.passed ? "쪽지시험 재응시" : "쪽지시험 응시";
+  els.theoryTestGuide.textContent = rec.passed ? `이미 합격한 단계입니다. 최고 ${rec.bestScore}/10 · 원하면 다시 응시할 수 있습니다.` : "기존 문제은행의 이 단계 관련 문항에서 10문항을 무작위 출제합니다. 8문항 이상 정답이면 합격입니다.";
+}
+
+function setupTheoryReadGate(stage) {
+  if (theoryReadObserver) { theoryReadObserver.disconnect(); theoryReadObserver = null; }
+  const rec = getTheoryStageProgress(stage.id);
+  if (rec.read || rec.passed) { markTheoryRead(stage); return; }
+  els.theoryTestBtn.disabled = true;
+  els.theoryTestBtn.textContent = "끝까지 읽으면 응시 가능";
+  els.theoryTestGuide.textContent = "이론을 끝까지 읽으면 버튼이 활성화됩니다. 기존 문제은행에서 10문항이 무작위 출제되며 8문항 이상 맞아야 합격입니다.";
+  if (!els.theoryReadSentinel || !window.IntersectionObserver) return;
+  theoryReadObserver = new IntersectionObserver(entries => {
+    if (entries.some(entry => entry.isIntersecting)) {
+      markTheoryRead(stage);
+      theoryReadObserver?.disconnect();
+      theoryReadObserver = null;
+    }
+  }, {threshold:0.5});
+  theoryReadObserver.observe(els.theoryReadSentinel);
+}
+
+function renderTheoryStage(stageIndex) {
+  if (!theoryData?.stages?.length) return;
+  if (!theoryStageUnlocked(stageIndex)) return;
+  currentTheoryStageIndex = stageIndex;
+  const stage = theoryData.stages[stageIndex];
+  const rec = getTheoryStageProgress(stage.id);
+  els.theoryStageNumber.textContent = `${stageIndex + 1} / ${theoryData.stages.length}`;
+  els.theoryStageStatus.textContent = rec.passed ? `합격 · 최고 ${rec.bestScore}/10` : (rec.lastScore === null ? "미응시" : `최근 ${rec.lastScore}/10`);
+  els.theoryStageStatus.className = `theory-status-badge ${rec.passed ? "passed" : ""}`;
+  els.theoryStageTitle.textContent = stage.title;
+  els.theoryContent.innerHTML = (stage.sections || []).map(renderTheorySection).join("") + `<section class="theory-summary"><h3>시험 직전 핵심</h3><ul>${(stage.summary_points || []).map(p => `<li>${escapeHtml(p)}</li>`).join("")}</ul><p class="theory-source">교재 범위: 항공기상.pdf 인쇄 p.${stage.source_printed_pages.join("–")} · PDF p.${stage.source_pdf_pages.join("–")}</p></section>`;
+  renderTheoryStageList();
+  setupTheoryReadGate(stage);
+  els.theoryCard.scrollIntoView({behavior:"smooth", block:"start"});
+}
+
+async function openWeatherTheory() {
+  try {
+    await loadTheoryData();
+    hideStudySurfaces();
+    els.modeHubCard?.classList.add("hidden");
+    els.textbookHubCard?.classList.add("hidden");
+    els.bookProblemHubCard?.classList.add("hidden");
+    els.bookTheoryHubCard?.classList.add("hidden");
+    els.airlineHubCard?.classList.add("hidden");
+    els.theoryCard?.classList.remove("hidden");
+    const firstNotPassed = theoryData.stages.findIndex((s, i) => theoryStageUnlocked(i) && !getTheoryStageProgress(s.id).passed);
+    renderTheoryStage(firstNotPassed >= 0 ? firstNotPassed : theoryData.stages.length - 1);
+  } catch (err) {
+    console.error(err);
+    alert("항공기상 이론 학습 데이터를 불러오지 못했습니다. data/theory-weather-su3.json 파일을 확인해 주세요.");
+  }
+}
+
+function getCurrentTheoryStage() {
+  return theoryData?.stages?.[currentTheoryStageIndex] || null;
+}
+
+function getTheoryQuestionPool(stage) {
+  const wanted = new Set(stage?.question_ids || []);
+  return bank.filter(q => wanted.has(q.id))
+    .filter(q => !progressStore[q.id]?.errorReported)
+    .filter(q => !progressStore[q.id]?.examExcluded);
+}
+
+function startTheoryTest(stage = getCurrentTheoryStage()) {
+  if (!stage) return;
+  const rec = getTheoryStageProgress(stage.id);
+  if (!rec.read && !rec.passed) { alert("이론을 끝까지 읽은 뒤 쪽지시험에 응시해 주세요."); return; }
+  const pool = getTheoryQuestionPool(stage);
+  if (pool.length < 10) { alert(`쪽지시험에 필요한 문제는 10문항이지만 현재 사용 가능한 문제는 ${pool.length}문항입니다. 오류/시험 제외 표시를 확인해 주세요.`); return; }
+  session = shuffle(pool).slice(0, 10);
+  sessionMeta = {type:"theoryTest", theoryStageId:stage.id, theoryStageIndex:currentTheoryStageIndex, theoryStageTitle:stage.title};
+  index = 0; correctCount = 0; wrongQuestions = []; examAnswers = {};
+  els.theoryCard.classList.add("hidden");
+  els.resultCard.classList.add("hidden");
+  els.statsCard.classList.add("hidden");
+  els.errorsCard.classList.add("hidden");
+  els.quizCard.classList.remove("hidden");
+  renderQuestion();
+  els.quizCard.scrollIntoView({behavior:"smooth", block:"start"});
+}
+
+function recordTheoryTestResult() {
+  if (sessionMeta.type !== "theoryTest") return false;
+  const stage = theoryData?.stages?.find(s => s.id === sessionMeta.theoryStageId);
+  if (!stage) return false;
+  const rec = getTheoryStageProgress(stage.id);
+  rec.attempts = (rec.attempts || 0) + 1;
+  rec.lastScore = correctCount;
+  rec.bestScore = Math.max(rec.bestScore || 0, correctCount);
+  rec.lastTakenAt = new Date().toISOString();
+  if (correctCount >= 8) rec.passed = true;
+  saveProgress();
+  renderTheoryStageList();
+  return !!rec.passed;
+}
+
+function returnFromTheoryResult({advance=false} = {}) {
+  els.resultCard.classList.add("hidden");
+  els.quizCard.classList.add("hidden");
+  els.theoryCard.classList.remove("hidden");
+  const idx = Math.max(0, Number(sessionMeta.theoryStageIndex ?? currentTheoryStageIndex));
+  const next = advance && idx < (theoryData?.stages?.length || 0) - 1 ? idx + 1 : idx;
+  sessionMeta = {};
+  renderTheoryStage(next);
+}
 
 function configureUserStorage(user) {
   currentUser = user || null;
@@ -713,7 +971,7 @@ function renderQuestion() {
   const q = session[index];
 
   els.progress.textContent = `${index + 1} / ${session.length}`;
-  els.score.textContent = isExamLike() ? (els.mode.value === "mock" ? "모의시험" : "시험모드") : `정답 ${correctCount}`;
+  els.score.textContent = sessionMeta.type === "theoryTest" ? "쪽지시험 · 10문항" : (isExamLike() ? (els.mode.value === "mock" ? "모의시험" : "시험모드") : `정답 ${correctCount}`);
   els.question.textContent = q.question || "(문제 없음)";
   els.feedback.className = "feedback hidden";
   els.feedback.textContent = "";
@@ -892,7 +1150,7 @@ function recordAttempt(q, selected, isCorrect) {
 }
 
 function nextQuestion() {
-  if (els.mode.value === "study" && !answered) return;
+  if (!isExamLike() && !answered) return;
 
   if (isExamLike() && index === session.length - 1) {
     gradeExam();
@@ -932,7 +1190,16 @@ function showResult(showReview = false) {
 
   const pct = Math.round((correctCount / session.length) * 100);
   els.resultText.classList.remove("mock-result", "mock-pass", "mock-fail");
-  if (els.mode.value === "mock") {
+  if (sessionMeta.type === "theoryTest") {
+    const passed = recordTheoryTestResult();
+    els.resultText.textContent = `쪽지시험 · 10문항 중 ${correctCount}문항 정답 · ${passed ? "합격" : "불합격"} · ${passed ? "다음 이론 단계가 해제되었습니다." : "8문항 이상 맞아야 다음 단계로 넘어갈 수 있습니다."}`;
+    els.resultText.classList.add("mock-result", passed ? "mock-pass" : "mock-fail");
+    els.retryWrong.disabled = false;
+    els.retryWrong.classList.remove("hidden");
+    els.retryWrong.textContent = passed ? "쪽지시험 다시 보기" : "쪽지시험 재응시";
+    const isLast = Number(sessionMeta.theoryStageIndex) >= (theoryData?.stages?.length || 1) - 1;
+    els.restart.textContent = passed ? (isLast ? "이론 학습 완료" : "다음 이론으로") : "이론 다시 보기";
+  } else if (els.mode.value === "mock") {
     const passed = pct >= 70;
     els.resultText.textContent = `100점 만점 ${pct}점 · ${passed ? "합격" : "불합격"} · ${session.length}문제 중 ${correctCount}문제 정답`;
     els.resultText.classList.add("mock-result", passed ? "mock-pass" : "mock-fail");
@@ -960,6 +1227,11 @@ function showResult(showReview = false) {
     }).join("");
   }
 
+  if (sessionMeta.type !== "theoryTest") {
+    els.retryWrong.classList.remove("hidden");
+    els.retryWrong.textContent = "오답만 다시";
+    els.restart.textContent = "처음으로";
+  }
   renderTopProgress();
   els.resultCard.scrollIntoView({ behavior: "smooth", block: "start" });
 }
@@ -1045,6 +1317,12 @@ function reportCurrentError() {
 
   // 현재 세션 자체에서 제거하여 즉시 다음 문제로 건너뜁니다.
   session.splice(index, 1);
+  if (sessionMeta.type === "theoryTest") {
+    const stage = theoryData?.stages?.find(s => s.id === sessionMeta.theoryStageId);
+    const used = new Set(session.map(item => item.id));
+    const replacement = shuffle(getTheoryQuestionPool(stage).filter(item => !used.has(item.id)))[0];
+    if (replacement) session.push(replacement);
+  }
   updateAvailableCount();
 
   if (!session.length) {
@@ -1424,12 +1702,24 @@ els.next.addEventListener("click", nextQuestion);
 els.favorite.addEventListener("click", toggleFavorite);
 els.examExclude.addEventListener("click", toggleExamExcluded);
 els.retryWrong.addEventListener("click", () => {
+  if (sessionMeta.type === "theoryTest") {
+    const stage = theoryData?.stages?.find(s => s.id === sessionMeta.theoryStageId) || getCurrentTheoryStage();
+    startTheoryTest(stage);
+    return;
+  }
   const wrong = [...wrongQuestions];
   els.countMode.value = "all";
   els.customCountWrap.classList.add("hidden");
   startSession(wrong);
 });
 els.restart.addEventListener("click", () => {
+  if (sessionMeta.type === "theoryTest") {
+    const passed = correctCount >= 8;
+    const isLast = Number(sessionMeta.theoryStageIndex) >= (theoryData?.stages?.length || 1) - 1;
+    if (passed && isLast) { sessionMeta = {}; showBookTheoryHub(); }
+    else returnFromTheoryResult({advance: passed});
+    return;
+  }
   els.resultCard.classList.add("hidden");
   els.controlsCard.classList.remove("hidden");
   els.controlsCard.scrollIntoView({behavior:"smooth", block:"start"});
@@ -1477,6 +1767,18 @@ els.kotsaModeBtn?.addEventListener("click", () => activateLearningContext({
 els.textbookModeBtn?.addEventListener("click", showTextbookHub);
 els.airlineModeBtn?.addEventListener("click", showAirlineHub);
 els.textbookHubBackBtn?.addEventListener("click", showMainModeHub);
+els.textbookProblemBtn?.addEventListener("click", showBookProblemHub);
+els.textbookTheoryBtn?.addEventListener("click", showBookTheoryHub);
+els.bookProblemBackBtn?.addEventListener("click", showTextbookHub);
+els.bookTheoryBackBtn?.addEventListener("click", showTextbookHub);
+els.weatherTheoryBtn?.addEventListener("click", openWeatherTheory);
+els.theoryExitBtn?.addEventListener("click", showBookTheoryHub);
+els.theoryTestBtn?.addEventListener("click", () => startTheoryTest());
+els.theoryStageList?.addEventListener("click", event => {
+  const btn = event.target.closest("[data-theory-stage-index]");
+  if (!btn || btn.disabled) return;
+  renderTheoryStage(Number(btn.dataset.theoryStageIndex));
+});
 els.airlineHubBackBtn?.addEventListener("click", showMainModeHub);
 els.backToModeBtn?.addEventListener("click", showMainModeHub);
 els.freeStudyBtn?.addEventListener("click", () => activateLearningContext({

@@ -4,14 +4,14 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>항공 문제은행</title>
-  <link rel="stylesheet" href="./assets/style-v11-14.css?v=11.15.0" />
+  <link rel="stylesheet" href="./assets/style-v11-16.css?v=11.16.0" />
 </head>
 <body>
   <header class="topbar">
     <div class="container topbar-inner">
       <div>
         <h1>항공 문제은행</h1>
-        <p class="muted">학습 모드 선택 · 계정별 학습기록 · v11.15</p>
+        <p class="muted">학습 모드 선택 · 이론 학습 테스트베드 · v11.16</p>
       </div>
       <nav class="row nav-row">
         <button id="statsBtn" class="button secondary">학습 통계</button>
@@ -51,14 +51,83 @@
 
     <section id="textbookHubCard" class="card hidden">
       <div class="section-head">
-        <div><h2>학습할 교재를 선택하십시오.</h2><p class="muted">교재를 선택하면 해당 교재 문제만 출제됩니다.</p></div>
+        <div>
+          <h2>교재 학습 방식을 선택하십시오.</h2>
+          <p class="muted">문제를 바로 풀거나, 교재 이론을 순서대로 학습할 수 있습니다.</p>
+        </div>
         <button id="textbookHubBackBtn" class="button secondary" type="button">이전</button>
+      </div>
+      <div class="study-type-grid">
+        <button id="textbookProblemBtn" class="mode-choice-card" type="button">
+          <span class="mode-icon">✍️</span><strong>문제 풀이</strong>
+          <span>기존 문제은행 방식으로 교재별 문제를 풉니다.</span>
+        </button>
+        <button id="textbookTheoryBtn" class="mode-choice-card" type="button">
+          <span class="mode-icon">📖</span><strong>이론 학습</strong>
+          <span>이론을 읽고 10문항 쪽지시험을 통과하며 다음 단계로 진행합니다.</span>
+        </button>
+      </div>
+    </section>
+
+    <section id="bookProblemHubCard" class="card hidden">
+      <div class="section-head">
+        <div><h2>문제 풀이 교재를 선택하십시오.</h2><p class="muted">기존 문제 풀이 기능은 그대로 유지됩니다.</p></div>
+        <button id="bookProblemBackBtn" class="button secondary" type="button">이전</button>
       </div>
       <div class="book-choice-grid">
         <button class="book-choice-card" data-book-subject="ATP Gleim" type="button"><img src="./assets/covers/atp_gleim.jpg" alt="ATP Gleim 표지"><strong>ATP Gleim</strong></button>
         <button class="book-choice-card" data-book-subject="검댕이 항공법규" type="button"><img src="./assets/covers/airlaw.jpg" alt="검댕이 항공법규 표지"><strong>검댕이 항공법규</strong></button>
         <button class="book-choice-card" data-book-subject="항공기상" type="button"><img src="./assets/covers/weather.jpg" alt="항공기상 표지"><strong>항공기상</strong></button>
         <button id="freeStudyBtn" class="book-choice-card free-study" type="button"><img src="./assets/covers/all_books.jpg" alt="전체 교재"><strong>자유학습모드</strong><span>기존 문제은행의 모든 기능 사용</span></button>
+      </div>
+    </section>
+
+    <section id="bookTheoryHubCard" class="card hidden">
+      <div class="section-head">
+        <div>
+          <h2>이론 학습 교재를 선택하십시오.</h2>
+          <p class="muted">v11.16 테스트베드는 항공기상 제1절 ‘대기’부터 제공합니다.</p>
+        </div>
+        <button id="bookTheoryBackBtn" class="button secondary" type="button">이전</button>
+      </div>
+      <div class="book-choice-grid theory-book-grid">
+        <button id="weatherTheoryBtn" class="book-choice-card theory-ready" data-theory-subject="항공기상" type="button">
+          <img src="./assets/covers/weather.jpg" alt="항공기상 표지"><strong>항공기상</strong><span>테스트베드 · 제1절 대기</span>
+        </button>
+        <div class="theory-coming-soon"><strong>ATP Gleim · 검댕이 항공법규</strong><span>이론 학습 확장 예정</span></div>
+      </div>
+    </section>
+
+    <section id="theoryCard" class="card theory-card hidden">
+      <div class="section-head theory-main-head">
+        <div>
+          <span class="eyebrow">항공기상 이론 학습 · 테스트베드</span>
+          <h2 id="theoryUnitTitle">제1절 대기</h2>
+          <p id="theoryUnitProgress" class="muted"></p>
+        </div>
+        <button id="theoryExitBtn" class="button secondary" type="button">교재 선택</button>
+      </div>
+      <div class="theory-layout">
+        <aside class="theory-sidebar">
+          <div class="theory-sidebar-title">학습 단계</div>
+          <div id="theoryStageList" class="theory-stage-list"></div>
+        </aside>
+        <article class="theory-reader">
+          <div class="theory-stage-head">
+            <span id="theoryStageNumber" class="pill"></span>
+            <span id="theoryStageStatus" class="theory-status-badge"></span>
+          </div>
+          <h2 id="theoryStageTitle"></h2>
+          <div id="theoryContent" class="theory-content"></div>
+          <div id="theoryReadSentinel" class="theory-read-sentinel" aria-hidden="true"></div>
+          <div class="theory-test-panel">
+            <div>
+              <strong>쪽지시험</strong>
+              <p id="theoryTestGuide" class="muted">이론을 끝까지 읽으면 응시할 수 있습니다. 기존 문제은행에서 10문항이 무작위 출제되며 8문항 이상 맞아야 합격입니다.</p>
+            </div>
+            <button id="theoryTestBtn" class="button" type="button" disabled>끝까지 읽으면 응시 가능</button>
+          </div>
+        </article>
       </div>
     </section>
 
@@ -304,6 +373,6 @@
   </main>
 
   <script src="./assets/auth-v11-4.js?v=11.15.0"></script>
-  <script src="./assets/app-v11-6.js?v=11.15.0"></script>
+  <script src="./assets/app-v11-7.js?v=11.16.0"></script>
 </body>
 </html>
