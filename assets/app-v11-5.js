@@ -118,7 +118,7 @@ function ensureV1117DirectTheoryShortcut() {
   btn.id = "directTheoryBtn";
   btn.className = "mode-choice-card theory-direct-card";
   btn.type = "button";
-  btn.innerHTML = '<span class="mode-icon">📖</span><strong>이론 학습 테스트베드 <em class="new-badge">NEW</em></strong><span>항공기상 이론 → 쪽지시험 10문항 → 8개 이상 합격</span>';
+  btn.innerHTML = '<span class="mode-icon">📖</span><strong>항공기상 이론 학습 <em class="new-badge">FULL</em></strong><span>항공기상 이론 → 쪽지시험 10문항 → 8개 이상 합격</span>';
   grid.appendChild(btn);
 }
 ensureV1117DirectTheoryShortcut();
@@ -148,12 +148,12 @@ function ensureV1116TheoryShell() {
   }
   if (!document.querySelector("#bookTheoryHubCard")) {
     const section = document.createElement("section"); section.id="bookTheoryHubCard"; section.className="card hidden";
-    section.innerHTML = `<div class="section-head"><div><h2>이론 학습 교재를 선택하십시오.</h2><p class="muted">v11.16 테스트베드는 항공기상 제1절 ‘대기’부터 제공합니다.</p></div><button id="bookTheoryBackBtn" class="button secondary" type="button">이전</button></div><div class="book-choice-grid theory-book-grid"><button id="weatherTheoryBtn" class="book-choice-card theory-ready" data-theory-subject="항공기상" type="button"><img src="./assets/covers/weather.jpg" alt="항공기상 표지"><strong>항공기상</strong><span>테스트베드 · 제1절 대기</span></button><div class="theory-coming-soon"><strong>ATP Gleim · 검댕이 항공법규</strong><span>이론 학습 확장 예정</span></div></div>`;
+    section.innerHTML = `<div class="section-head"><div><h2>이론 학습 교재를 선택하십시오.</h2><p class="muted">항공기상 교재의 전 이론 범위를 순서대로 학습할 수 있습니다.</p></div><button id="bookTheoryBackBtn" class="button secondary" type="button">이전</button></div><div class="book-choice-grid theory-book-grid"><button id="weatherTheoryBtn" class="book-choice-card theory-ready" data-theory-subject="항공기상" type="button"><img src="./assets/covers/weather.jpg" alt="항공기상 표지"><strong>항공기상</strong><span>전체 이론 과정 · 40단계</span></button><div class="theory-coming-soon"><strong>ATP Gleim · 검댕이 항공법규</strong><span>이론 학습 확장 예정</span></div></div>`;
     main.insertBefore(section, insertBefore);
   }
   if (!document.querySelector("#theoryCard")) {
     const section = document.createElement("section"); section.id="theoryCard"; section.className="card theory-card hidden";
-    section.innerHTML = `<div class="section-head theory-main-head"><div><span class="eyebrow">항공기상 이론 학습 · 테스트베드</span><h2 id="theoryUnitTitle">제1절 대기</h2><p id="theoryUnitProgress" class="muted"></p></div><button id="theoryExitBtn" class="button secondary" type="button">교재 선택</button></div><div class="theory-layout"><aside class="theory-sidebar"><div class="theory-sidebar-title">학습 단계</div><div id="theoryStageList" class="theory-stage-list"></div></aside><article class="theory-reader"><div class="theory-stage-head"><span id="theoryStageNumber" class="pill"></span><span id="theoryStageStatus" class="theory-status-badge"></span></div><h2 id="theoryStageTitle"></h2><div id="theoryContent" class="theory-content"></div><div id="theoryReadSentinel" class="theory-read-sentinel" aria-hidden="true"></div><div class="theory-test-panel"><div><strong>쪽지시험</strong><p id="theoryTestGuide" class="muted">이론을 끝까지 읽으면 응시할 수 있습니다. 기존 문제은행에서 10문항이 무작위 출제되며 8문항 이상 맞아야 합격입니다.</p></div><button id="theoryTestBtn" class="button" type="button" disabled>끝까지 읽으면 응시 가능</button></div></article></div>`;
+    section.innerHTML = `<div class="section-head theory-main-head"><div><span class="eyebrow">항공기상 이론 학습 · 전체과정</span><h2 id="theoryUnitTitle">제1절 대기</h2><p id="theoryUnitProgress" class="muted"></p></div><button id="theoryExitBtn" class="button secondary" type="button">교재 선택</button></div><div class="theory-layout"><aside class="theory-sidebar"><div class="theory-sidebar-title">학습 단계</div><div id="theoryStageList" class="theory-stage-list"></div></aside><article class="theory-reader"><div class="theory-stage-head"><span id="theoryStageNumber" class="pill"></span><span id="theoryStageStatus" class="theory-status-badge"></span></div><h2 id="theoryStageTitle"></h2><div id="theoryContent" class="theory-content"></div><div id="theoryReadSentinel" class="theory-read-sentinel" aria-hidden="true"></div><div class="theory-test-panel"><div><strong>쪽지시험</strong><p id="theoryTestGuide" class="muted">이론을 끝까지 읽으면 응시할 수 있습니다. 기존 문제은행에서 10문항이 무작위 출제되며 8문항 이상 맞아야 합격입니다.</p></div><button id="theoryTestBtn" class="button" type="button" disabled>끝까지 읽으면 응시 가능</button></div></article></div>`;
     main.insertBefore(section, insertBefore);
   }
 }
@@ -423,9 +423,12 @@ function applyModeUIState() {
 
 function getTheoryRoot() {
   if (!progressStore.__theory || typeof progressStore.__theory !== "object") progressStore.__theory = {};
-  if (!progressStore.__theory.weatherSu3) progressStore.__theory.weatherSu3 = { stages: {} };
-  if (!progressStore.__theory.weatherSu3.stages) progressStore.__theory.weatherSu3.stages = {};
-  return progressStore.__theory.weatherSu3;
+  if (!progressStore.__theory.weatherAll) {
+    const legacy = progressStore.__theory.weatherSu3;
+    progressStore.__theory.weatherAll = legacy && typeof legacy === "object" ? legacy : { stages: {} };
+  }
+  if (!progressStore.__theory.weatherAll.stages) progressStore.__theory.weatherAll.stages = {};
+  return progressStore.__theory.weatherAll;
 }
 
 function getTheoryStageProgress(stageId) {
@@ -442,7 +445,7 @@ function theoryStageUnlocked(stageIndex) {
 
 async function loadTheoryData() {
   if (theoryData) return theoryData;
-  const paths = ["./data/theory-weather-su3.json"];
+  const paths = ["./data/theory-weather-all.json", "./data/theory-weather-su3.json"];
   let lastError = null;
   for (const path of paths) {
     try {
@@ -459,13 +462,20 @@ function renderTheoryStageList() {
   if (!theoryData || !els.theoryStageList) return;
   const completed = theoryData.stages.filter(s => getTheoryStageProgress(s.id).passed).length;
   els.theoryUnitProgress.textContent = `${completed} / ${theoryData.stages.length}단계 합격 · 쪽지시험 10문항 중 8문항 이상 정답 시 다음 단계 해제`;
-  els.theoryStageList.innerHTML = theoryData.stages.map((stage, i) => {
+  let previousUnit = null;
+  let html = "";
+  theoryData.stages.forEach((stage, i) => {
+    if (stage.unit_title && stage.unit_title !== previousUnit) {
+      html += `<div class="theory-unit-label">${escapeHtml(stage.unit_title)}</div>`;
+      previousUnit = stage.unit_title;
+    }
     const rec = getTheoryStageProgress(stage.id);
     const unlocked = theoryStageUnlocked(i);
     const active = i === currentTheoryStageIndex;
     const status = rec.passed ? `합격 · 최고 ${rec.bestScore}/10` : (unlocked ? (rec.lastScore === null ? "학습 가능" : `최근 ${rec.lastScore}/10`) : "잠김");
-    return `<button class="theory-stage-button ${active ? "active" : ""} ${rec.passed ? "passed" : ""}" data-theory-stage-index="${i}" type="button" ${unlocked ? "" : "disabled"}><span class="theory-stage-order">${i + 1}</span><span><strong>${escapeHtml(stage.title)}</strong><small>${escapeHtml(status)}</small></span><span class="theory-lock">${rec.passed ? "✓" : (unlocked ? "→" : "🔒")}</span></button>`;
-  }).join("");
+    html += `<button class="theory-stage-button ${active ? "active" : ""} ${rec.passed ? "passed" : ""}" data-theory-stage-index="${i}" type="button" ${unlocked ? "" : "disabled"}><span class="theory-stage-order">${i + 1}</span><span><strong>${escapeHtml(stage.title)}</strong><small>${escapeHtml(status)}</small></span><span class="theory-lock">${rec.passed ? "✓" : (unlocked ? "→" : "🔒")}</span></button>`;
+  });
+  els.theoryStageList.innerHTML = html;
 }
 
 function renderTheorySection(section) {
@@ -512,6 +522,7 @@ function renderTheoryStage(stageIndex) {
   currentTheoryStageIndex = stageIndex;
   const stage = theoryData.stages[stageIndex];
   const rec = getTheoryStageProgress(stage.id);
+  if (els.theoryUnitTitle) els.theoryUnitTitle.textContent = stage.unit_title || theoryData?.metadata?.name || "항공기상 이론";
   els.theoryStageNumber.textContent = `${stageIndex + 1} / ${theoryData.stages.length}`;
   els.theoryStageStatus.textContent = rec.passed ? `합격 · 최고 ${rec.bestScore}/10` : (rec.lastScore === null ? "미응시" : `최근 ${rec.lastScore}/10`);
   els.theoryStageStatus.className = `theory-status-badge ${rec.passed ? "passed" : ""}`;
@@ -536,7 +547,7 @@ async function openWeatherTheory() {
     renderTheoryStage(firstNotPassed >= 0 ? firstNotPassed : theoryData.stages.length - 1);
   } catch (err) {
     console.error(err);
-    alert("항공기상 이론 학습 데이터를 불러오지 못했습니다. data/theory-weather-su3.json 파일을 확인해 주세요.");
+    alert("항공기상 이론 학습 데이터를 불러오지 못했습니다. data/theory-weather-all.json 파일을 확인해 주세요.");
   }
 }
 

@@ -11,6 +11,7 @@
     "김영진_시험용": "39eca08aeb432326189e95cd27b5ac80d99c4c3ae9519efa3a3c4bd80dd1c8f0",
     "김덕재_시험용": "a8c0570cf7429c7a2922048240ffd05bc7ce335b1bc29d60aa79a1ab4e021b18",
     "진준_시험용": "cf61a7198ebc3f58d1108df74b7ebe0c82a5f0b959d3900abba99fd62c203c27",
+    "김기태_시험용": "b5832d227f395d4daa308724da85d57d4cfa076758c0bfa4d89acbb8fb34e418",
   };
 
   let currentUser = null;

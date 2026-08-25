@@ -341,3 +341,18 @@ pre{overflow-x:auto;background:#111827;color:#e5e7eb;padding:16px;border-radius:
 .new-badge{font-style:normal;font-size:.68rem;line-height:1;padding:5px 7px;border-radius:999px;background:#6d28d9;color:#fff;letter-spacing:.04em}
 #textbookTheoryBtn{border:2px solid #8b5cf6;background:#faf7ff}
 @media(max-width:900px){.mode-choice-grid{grid-template-columns:1fr}}
+
+
+/* v11.18 full weather theory */
+.theory-unit-label {
+  position: sticky; top: 0; z-index: 2;
+  margin: 10px 0 6px; padding: 8px 10px;
+  border-radius: 9px; background: rgba(238,244,255,.96);
+  color: #284b8f; font-size: .78rem; font-weight: 900;
+  letter-spacing: -.01em; border: 1px solid #dce7fb;
+}
+.theory-stage-list { max-height: min(70vh, 720px); overflow-y: auto; padding-right: 4px; }
+.theory-stage-button strong { line-height: 1.25; }
+@media (prefers-color-scheme: dark) {
+  .theory-unit-label { background: rgba(30,48,78,.96); color: #cfe0ff; border-color: #425b86; }
+}
