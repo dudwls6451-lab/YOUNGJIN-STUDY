@@ -46198,7 +46198,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "0 태양에 의한 지표면의 불균등 가열"
+          "text": "태양에 의한 지표면의 불균등 가열"
         },
         {
           "id": "B",
@@ -46210,7 +46210,7 @@
         },
         {
           "id": "D",
-          "text": "'@ 바다의 증발에 의한 수증기의 포화"
+          "text": "바다의 증발에 의한 수증기의 포화"
         }
       ],
       "answer": "A",
@@ -46257,11 +46257,11 @@
         },
         {
           "id": "C",
-          "text": "열 교환"
+          "text": "바람"
         },
         {
           "id": "D",
-          "text": ". 주요 기상요소로는 기온, 기압, 습도, 풍향, 풍속, 강수량 SO] 있다."
+          "text": "열 교환"
         }
       ],
       "answer": "D",
@@ -46355,11 +46355,11 @@
         },
         {
           "id": "B",
-          "text": "산소 50%, 질소 50%, 기타 12"
+          "text": "산소 50%, 질소 50%, 기타 1%"
         },
         {
           "id": "C",
-          "text": "산소 31%, 질소 1%, 기타 78%"
+          "text": "산소 21%, 질소 1%, 기타 78%"
         },
         {
           "id": "D",
@@ -46454,7 +46454,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "st"
+          "text": "중간권"
         },
         {
           "id": "B",
@@ -46466,7 +46466,7 @@
         },
         {
           "id": "D",
-          "text": "a4"
+          "text": "열권"
         }
       ],
       "answer": "C",
@@ -46505,7 +46505,7 @@
       "choices": [
         {
           "id": "A",
-          "text": ") Tropopause"
+          "text": "Tropopause"
         },
         {
           "id": "B",
@@ -46556,7 +46556,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "da"
+          "text": "열권"
         },
         {
           "id": "B",
@@ -46568,7 +46568,7 @@
         },
         {
           "id": "D",
-          "text": "224"
+          "text": "오존권"
         }
       ],
       "answer": "B",
@@ -46660,11 +46660,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "오존충이 존재하는 구간이다."
+          "text": "오존층이 존재하는 구간이다."
         },
         {
           "id": "B",
-          "text": "대류권의 평균 높이는 6 km 이다."
+          "text": "대류권의 평균 높이는 6 km이다."
         },
         {
           "id": "C",
@@ -46672,7 +46672,7 @@
         },
         {
           "id": "D",
-          "text": "적도 부근의 대류권 고도가 극 지방에 비해 높다."
+          "text": "적도 부근의 대류권 고도가 극지방에 비해 높다."
         }
       ],
       "answer": "D",
@@ -46711,7 +46711,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "1) 급격한 기온감률((60ㅁ0678[0ㅠ6 lapse rate) 2] 변화가 존재한다."
+          "text": "급격한 기온감률(temperature lapse rate)의 변화가 존재한다."
         },
         {
           "id": "B",
@@ -46976,7 +46976,7 @@
         },
         {
           "id": "C",
-          "text": "중위도에서 대류권계면의 두께는 여름보다 겨울에 더 얇다."
+          "text": "중위도에서 대류권계면의 두께는 여름보다 겨울에 더 두껍다."
         },
         {
           "id": "D",
@@ -47187,7 +47187,7 @@
         },
         {
           "id": "C",
-          "text": "온도가 일정한 층 부근에서는 SES] 없다."
+          "text": "온도가 일정한 층 부근에서는 바람들이 없다."
         },
         {
           "id": "D",
@@ -47281,7 +47281,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "오촌증이 태양의 자외선을 흡수하기 때문에"
+          "text": "오존층이 태양의 자외선을 흡수하기 때문에"
         },
         {
           "id": "B",
@@ -47328,7 +47328,7 @@
       },
       "source_page": 23,
       "source_pdf_page": 29,
-      "question": "진주모운이 발생하는 SL?",
+      "question": "진주모운이 발생하는 층은?",
       "choices": [
         {
           "id": "A",
@@ -47448,7 +47448,7 @@
         },
         {
           "id": "D",
-          "text": "aa"
+          "text": "열권"
         }
       ],
       "answer": "C",
@@ -47653,7 +47653,7 @@
         },
         {
           "id": "D",
-          "text": "1,013 dyne/cm?"
+          "text": "1,013 dyne/cm²"
         }
       ],
       "answer": "D",
@@ -47688,19 +47688,19 @@
       },
       "source_page": 24,
       "source_pdf_page": 30,
-      "question": "다음 중 표준대기조건에 부합하지 않는 AL?",
+      "question": "다음 중 표준대기조건에 부합하지 않는 것은?",
       "choices": [
         {
           "id": "A",
-          "text": "기압 11013 millibar"
+          "text": "기압 1,013 millibar"
         },
         {
           "id": "B",
-          "text": "기온은 1.000 ft J 204 증가한다."
+          "text": "기온은 1,000 ft당 2°C씩 증가한다."
         },
         {
           "id": "C",
-          "text": "기온 156"
+          "text": "기온 15°C"
         },
         {
           "id": "D",
@@ -47797,11 +47797,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "15°, 29.92 inHg"
+          "text": "15°C, 29.92 inHg"
         },
         {
           "id": "B",
-          "text": "59°C, 1013.2 mb"
+          "text": "59°F, 1013.2 mb"
         },
         {
           "id": "C",
@@ -47809,7 +47809,7 @@
         },
         {
           "id": "D",
-          "text": "157, 1013.2 inHg"
+          "text": "15°C, 1013.2 inHg"
         }
       ],
       "answer": "A",
@@ -47898,23 +47898,23 @@
       },
       "source_page": 24,
       "source_pdf_page": 30,
-      "question": "표준대기(184)에서 고도 증가에 따른 기온체감률은?",
+      "question": "표준대기(ISA)에서 고도 증가에 따른 기온체감률은?",
       "choices": [
         {
           "id": "A",
-          "text": "16/1,.000 ft"
+          "text": "1°C/1,000 ft"
         },
         {
           "id": "B",
-          "text": "1.5C/1,000 ft"
+          "text": "1.5°C/1,000 ft"
         },
         {
           "id": "C",
-          "text": "20/1,000 ft"
+          "text": "2°C/1,000 ft"
         },
         {
           "id": "D",
-          "text": "3C/1,000 ft"
+          "text": "3°C/1,000 ft"
         }
       ],
       "answer": "C",
@@ -47950,23 +47950,23 @@
       },
       "source_page": 25,
       "source_pdf_page": 31,
-      "question": "고도 10,000 【에서의 표준 대기온도는 몇 도인가?",
+      "question": "고도 10,000 ft에서의 표준 대기온도는 몇 도인가?",
       "choices": [
         {
           "id": "A",
-          "text": "-15C"
+          "text": "-15°C"
         },
         {
           "id": "B",
-          "text": "-10C"
+          "text": "-10°C"
         },
         {
           "id": "C",
-          "text": "-5T"
+          "text": "-5°C"
         },
         {
           "id": "D",
-          "text": "0C"
+          "text": "0°C"
         }
       ],
       "answer": "C",
@@ -48161,7 +48161,7 @@
       },
       "source_page": 25,
       "source_pdf_page": 31,
-      "question": "대류권에서 TLE 1,000 ft 상승 시 기압 변화는?",
+      "question": "대류권에서 고도 1,000 ft 상승 시 기압 변화는?",
       "choices": [
         {
           "id": "A",
@@ -48212,7 +48212,7 @@
       },
       "source_page": 25,
       "source_pdf_page": 31,
-      "question": "표준대기상태에서 대기압이 해면기압의 1/20] 되는 DEE?",
+      "question": "표준대기상태에서 대기압이 해면기압의 1/2이 되는 고도는?",
       "choices": [
         {
           "id": "A",
@@ -48267,19 +48267,19 @@
       },
       "source_page": 25,
       "source_pdf_page": 31,
-      "question": "기압의 변화에 대한 AY 중 옮지 않은 것은?",
+      "question": "기압의 변화에 대한 설명 중 옳지 않은 것은?",
       "choices": [
         {
           "id": "A",
-          "text": "표준 해면기압은 1013.2 mb, 29.92 inHg 또는 760 mmHg 이다."
+          "text": "표준 해면기압은 1013.2 mb, 29.92 inHg 또는 760 mmHg이다."
         },
         {
           "id": "B",
-          "text": "고도 18,000 《에서의 대기압은 해면 대기압의 1/2로 감소한다."
+          "text": "고도 18,000 ft에서의 대기압은 해면 대기압의 1/2로 감소한다."
         },
         {
           "id": "C",
-          "text": "대류권에서 고도가 1,000 ft 증가하면 기압은 oF 1 inHg 감소한다."
+          "text": "대류권에서 고도가 1,000 ft 증가하면 기압은 약 1 inHg 감소한다."
         },
         {
           "id": "D",
@@ -48423,23 +48423,23 @@
       },
       "source_page": 26,
       "source_pdf_page": 32,
-      "question": "해발고도 2,000 [에서 altimeter 29.32 inHg, OAT7} 17°C 일 4H pressure altitude(PA) 와 density altitude(DA) 2] 관계로 맞는 것은?",
+      "question": "해발고도 2,000 ft에서 altimeter 29.32 inHg, OAT가 17°C일 때 pressure altitude(PA)와 density altitude(DA)의 관계로 맞는 것은?",
       "choices": [
         {
           "id": "A",
-          "text": ") PA7} DA®t} 크다."
+          "text": "PA가 DA보다 크다."
         },
         {
           "id": "B",
-          "text": "DA7} PASC} 크다."
+          "text": "DA가 PA보다 크다."
         },
         {
           "id": "C",
-          "text": "PAS} DAE 동일하다."
+          "text": "PA와 DA는 동일하다."
         },
         {
           "id": "D",
-          "text": "PAS} DAE 관련이 없다."
+          "text": "PA와 DA는 관련이 없다."
         }
       ],
       "answer": "B",
@@ -48475,23 +48475,23 @@
       },
       "source_page": 26,
       "source_pdf_page": 32,
-      "question": "『1.310에서 기온이 표준온도 이하일 때, true altitude(TA)2} pressure altitude(PA) 2] 관계로 옮은 것은?",
+      "question": "FL310에서 기온이 표준온도 이하일 때, true altitude(TA)와 pressure altitude(PA)의 관계로 옳은 것은?",
       "choices": [
         {
           "id": "A",
-          "text": "TA} PAE 같다."
+          "text": "TA와 PA는 같다."
         },
         {
           "id": "B",
-          "text": "TAY 11.310보다 높다."
+          "text": "TA는 FL310보다 높다."
         },
         {
           "id": "C",
-          "text": "TAY 『1.310보다 낮다."
+          "text": "TA는 FL310보다 낮다."
         },
         {
           "id": "D",
-          "text": "PAY TAHT} 낮다."
+          "text": "PA는 TA보다 낮다."
         }
       ],
       "answer": "C",
@@ -48526,23 +48526,23 @@
       },
       "source_page": 26,
       "source_pdf_page": 32,
-      "question": "\"1.350에서 047가 -65 일 때, true 311+4ㅁ06(''&)와 pressure altitude(PA) 2] 관계로 옮은 것은?",
+      "question": "FL350에서 OAT가 -65°C일 때, true altitude(TA)와 pressure altitude(PA)의 관계로 옳은 것은?",
       "choices": [
         {
           "id": "A",
-          "text": "TAY 『1.350보다 낮다."
+          "text": "TA는 FL350보다 낮다."
         },
         {
           "id": "B",
-          "text": "TA} PAE 같다."
+          "text": "TA와 PA는 같다."
         },
         {
           "id": "C",
-          "text": "TAY FL3508¢} 높다."
+          "text": "TA는 FL350보다 높다."
         },
         {
           "id": "D",
-          "text": "TAS PAE 관련이 없다."
+          "text": "TA와 PA는 관련이 없다."
         }
       ],
       "answer": "A",
@@ -48682,7 +48682,7 @@
       },
       "source_page": 27,
       "source_pdf_page": 33,
-      "question": "일정한 2006 settingo= 전선을 통과해서 A 공기 쪽으로 비행 시 다음 중 맞는 것은?",
+      "question": "일정한 power setting으로 전선을 통과해서 찬 공기 쪽으로 비행 시 다음 중 맞는 것은?",
       "choices": [
         {
           "id": "A",
@@ -48737,7 +48737,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "ADEE 계기고도보다 높게 지시한다."
+          "text": "진고도는 계기고도보다 높게 지시한다."
         },
         {
           "id": "B",
@@ -48749,7 +48749,7 @@
         },
         {
           "id": "D",
-          "text": "진고도와 계기고도는 Wao] 없다."
+          "text": "진고도와 계기고도는 변함이 없다."
         }
       ],
       "answer": "B",
@@ -48891,7 +48891,7 @@
       },
       "source_page": 28,
       "source_pdf_page": 34,
-      "question": "비행중 관제탑에서 BAS 기압수정치 29.85 10118로 DEAS 맞추었다면 지시하는 WEE?",
+      "question": "비행중 관제탑에서 불러준 기압수정치 29.85 inHg로 고도계를 맞추었다면 지시하는 고도는?",
       "choices": [
         {
           "id": "A",
@@ -48903,7 +48903,7 @@
         },
         {
           "id": "C",
-          "text": "ADE"
+          "text": "진고도"
         },
         {
           "id": "D",
@@ -48942,23 +48942,23 @@
       },
       "source_page": 28,
       "source_pdf_page": 34,
-      "question": "전이고도 미만에서 비행하는 경우 altimeter 8666108은?",
+      "question": "전이고도 미만에서 비행하는 경우 altimeter setting은?",
       "choices": [
         {
           "id": "A",
-          "text": ")"
+          "text": "QFE"
         },
         {
           "id": "B",
-          "text": "FE"
-        },
-        {
-          "id": "C",
           "text": "QNH"
         },
         {
-          "id": "D",
+          "id": "C",
           "text": "QNE"
+        },
+        {
+          "id": "D",
+          "text": "QFF"
         }
       ],
       "answer": "B",
@@ -49047,23 +49047,23 @@
       },
       "source_page": 28,
       "source_pdf_page": 34,
-      "question": "섭씨()를 화씨(\"로 환산하는 공식으로 맞는 것은?",
+      "question": "섭씨(°C)를 화씨(°F)로 환산하는 공식으로 맞는 것은?",
       "choices": [
         {
           "id": "A",
-          "text": "F=2+32"
+          "text": "°F = 5/9°C + 32"
         },
         {
           "id": "B",
-          "text": "F=2t+32"
+          "text": "°F = 9/5°C + 32"
         },
         {
           "id": "C",
-          "text": "F = 3(c-32)"
+          "text": "°F = 5/9(°C - 32)"
         },
         {
           "id": "D",
-          "text": "F=2(c -32)"
+          "text": "°F = 9/5(°C - 32)"
         }
       ],
       "answer": "B",
@@ -49152,11 +49152,11 @@
       },
       "source_page": 28,
       "source_pdf_page": 34,
-      "question": "44 (celsius) 15도는 5}#|(fahrenheit) 몇 도 인가?",
+      "question": "섭씨(celsius) 15°C는 화씨(fahrenheit) 몇 도인가?",
       "choices": [
         {
           "id": "A",
-          "text": "9F"
+          "text": "9°F"
         },
         {
           "id": "B",
@@ -49258,7 +49258,7 @@
       },
       "source_page": 29,
       "source_pdf_page": 35,
-      "question": "물이 증발하면서 주위의 SS 흡수하여 주위의 기온보다 낮아질 때의 온도는?",
+      "question": "물이 증발하면서 주위의 열을 흡수하여 주위의 기온보다 낮아질 때의 온도는?",
       "choices": [
         {
           "id": "A",
@@ -49362,7 +49362,7 @@
       },
       "source_page": 29,
       "source_pdf_page": 35,
-      "question": "온위(00[601181 (60ㅁ70673[470)를 구하기 위한 표준이 되는 TWEE?",
+      "question": "온위(potential temperature)를 구하기 위한 표준이 되는 고도는?",
       "choices": [
         {
           "id": "A",
@@ -49422,7 +49422,7 @@
         },
         {
           "id": "B",
-          "text": "비가 오는 Fol 적어진다."
+          "text": "비가 오는 날에 적어진다."
         },
         {
           "id": "C",
@@ -49528,11 +49528,11 @@
         },
         {
           "id": "C",
-          "text": "고위도보다 저위도가 더 크다."
+          "text": "상층보다 지면이 더 크다."
         },
         {
           "id": "D",
-          "text": ". 하루 중 최고기온과 최저기온의 AS 일교차(4317 『8760)라고 한다."
+          "text": "고위도보다 저위도가 더 크다."
         }
       ],
       "answer": "D",
@@ -49572,19 +49572,19 @@
       "choices": [
         {
           "id": "A",
-          "text": "1€/1,000 ft"
+          "text": "1°C/1,000 ft"
         },
         {
           "id": "B",
-          "text": "2/1,000 ft"
+          "text": "2°C/1,000 ft"
         },
         {
           "id": "C",
-          "text": "3/1,000 ft"
+          "text": "3°C/1,000 ft"
         },
         {
           "id": "D",
-          "text": "4C/1,000 ft"
+          "text": "4°C/1,000 ft"
         }
       ],
       "answer": "B",
@@ -49672,7 +49672,7 @@
       },
       "source_page": 30,
       "source_pdf_page": 36,
-      "question": "포화되지 않은 따뜻한 공기가 급상승할 때 발생하는 BAL?",
+      "question": "포화되지 않은 따뜻한 공기가 급상승할 때 발생하는 현상은?",
       "choices": [
         {
           "id": "A",
@@ -49727,19 +49727,19 @@
       "choices": [
         {
           "id": "A",
-          "text": "10/100ㅁ"
+          "text": "1°C/100 m"
         },
         {
           "id": "B",
-          "text": "20/100 m"
+          "text": "2°C/100 m"
         },
         {
           "id": "C",
-          "text": "3€/100 m"
+          "text": "3°C/100 m"
         },
         {
           "id": "D",
-          "text": "4C/100 m"
+          "text": "4°C/100 m"
         }
       ],
       "answer": "A",
@@ -49829,7 +49829,7 @@
       },
       "source_page": 30,
       "source_pdf_page": 36,
-      "question": "1 m°9] 공기가 함유하고 있는 수증기의 양은?",
+      "question": "1 m³의 공기가 함유하고 있는 수증기의 양은?",
       "choices": [
         {
           "id": "A",
@@ -49837,7 +49837,7 @@
         },
         {
           "id": "B",
-          "text": "e"
+          "text": "비습"
         },
         {
           "id": "C",
@@ -49931,23 +49931,23 @@
       },
       "source_page": 30,
       "source_pdf_page": 36,
-      "question": "습윤공기 1 8에 포함되어 있는 수증기의 양을 나타내는 용어는?",
+      "question": "습윤공기 1 kg에 포함되어 있는 수증기의 양을 나타내는 용어는?",
       "choices": [
         {
           "id": "A",
-          "text": ") AdS= (absolute humidity)"
+          "text": "절대습도(absolute humidity)"
         },
         {
           "id": "B",
-          "text": "ANSE (relative humidity)"
+          "text": "상대습도(relative humidity)"
         },
         {
           "id": "C",
-          "text": "4]<(specific humidity)"
+          "text": "비습(specific humidity)"
         },
         {
           "id": "D",
-          "text": "£34 (mixing ratio)"
+          "text": "혼합비(mixing ratio)"
         }
       ],
       "answer": "C",
@@ -50513,7 +50513,7 @@
       },
       "source_page": 32,
       "source_pdf_page": 38,
-      "question": "포화공기의 안정도에 대한 설명 중 틀린 AL?",
+      "question": "포화공기의 안정도에 대한 설명 중 틀린 것은?",
       "choices": [
         {
           "id": "A",
@@ -50675,11 +50675,11 @@
         },
         {
           "id": "B",
-          "text": "양호한 시정, WIA 강우, SLBA"
+          "text": "양호한 시정, 간헐적인 강우, 층운형 구름"
         },
         {
           "id": "C",
-          "text": "불량한 시정, TAA 강우, 적운형 구름"
+          "text": "불량한 시정, 간헐적인 강우, 적운형 구름"
         },
         {
           "id": "D",
@@ -50877,7 +50877,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Sey 구름의 생성"
+          "text": "층운형 구름의 생성"
         },
         {
           "id": "B",
@@ -50889,7 +50889,7 @@
         },
         {
           "id": "D",
-          "text": "AWIA 강수의 발생"
+          "text": "소나기성 강수의 발생"
         }
       ],
       "answer": "A",
@@ -50929,7 +50929,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "대기가 안정하면 dust devile] 생긴다."
+          "text": "대기가 안정하면 dust devil이 생긴다."
         },
         {
           "id": "B",
@@ -51189,19 +51189,19 @@
       "choices": [
         {
           "id": "A",
-          "text": ") +62881>+3"
+          "text": "+6≥SSI>+3"
         },
         {
           "id": "B",
-          "text": "+2>SSIz-2"
+          "text": "+2>SSI≥-2"
         },
         {
           "id": "C",
-          "text": "+3=SSI=0"
+          "text": "+3≥SSI≥0"
         },
         {
           "id": "D",
-          "text": "02SSI>-4"
+          "text": "0≥SSI>-4"
         }
       ],
       "answer": "C",
@@ -51241,19 +51241,19 @@
       "choices": [
         {
           "id": "A",
-          "text": "한대전선(0018 front)"
+          "text": "한대전선(polar front)"
         },
         {
           "id": "B",
-          "text": "AqAA(intertropical front)"
+          "text": "열대전선(intertropical front)"
         },
         {
           "id": "C",
-          "text": "온대전선((60ㅁ06186 front)"
+          "text": "온대전선(temperate front)"
         },
         {
           "id": "D",
-          "text": "o}Sq AA (subtropical front)"
+          "text": "아열대전선(subtropical front)"
         }
       ],
       "answer": "A",
@@ -51455,7 +51455,7 @@
         },
         {
           "id": "C",
-          "text": "기압이 11013 mb 이상인 구역"
+          "text": "기압이 1,013 mb 이상인 구역"
         },
         {
           "id": "D",
@@ -51825,7 +51825,7 @@
         },
         {
           "id": "D",
-          "text": "6. 6 22 20 29. 6 30. @6 3.0 32@"
+          "text": "반시계 방향, 하강기류"
         }
       ],
       "answer": "D",
@@ -52069,7 +52069,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "접지역전, 침강역전, 이류역전 So] 있다."
+          "text": "접지역전, 침강역전, 이류역전 등이 있다."
         },
         {
           "id": "B",
@@ -52225,7 +52225,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "1 접지역전"
+          "text": "접지역전"
         },
         {
           "id": "B",
@@ -52288,7 +52288,7 @@
         },
         {
           "id": "D",
-          "text": "aaa"
+          "text": "접지역전"
         }
       ],
       "answer": "D",
@@ -52633,23 +52633,23 @@
       },
       "source_page": 39,
       "source_pdf_page": 45,
-      "question": "11707021820108에 대한 설명 중 틀린 것은?",
+      "question": "Hydroplaning에 대한 설명 중 틀린 것은?",
       "choices": [
         {
           "id": "A",
-          "text": "Hydroplaning 발생속도는 116 pressureo] 비례한다."
+          "text": "Hydroplaning 발생속도는 tire pressure에 비례한다."
         },
         {
           "id": "B",
-          "text": "Viscous hydroplaning- dynamic hydroplaning 보다 낮은 속도에서 일어난다."
+          "text": "Viscous hydroplaning은 dynamic hydroplaning보다 낮은 속도에서 일어난다."
         },
         {
           "id": "C",
-          "text": "Hydroplaning 발생 시 속도를 줄이기 2a] aerodynamic brakeS 사용한다."
+          "text": "Hydroplaning 발생 시 속도를 줄이기 위해 aerodynamic brake를 사용한다."
         },
         {
           "id": "D",
-          "text": "항공기 무게가 무거울수록 170100180108 발생속도는 감소한다."
+          "text": "항공기 무게가 무거울수록 hydroplaning 발생속도는 감소한다."
         }
       ],
       "answer": "D",
@@ -52684,11 +52684,11 @@
       },
       "source_page": 40,
       "source_pdf_page": 46,
-      "question": "항공기 타이어의 압력이 121 psi 일 때 동적수막이 발생할 수 있는 SEE?",
+      "question": "항공기 타이어의 압력이 121 psi일 때 동적수막이 발생할 수 있는 속도는?",
       "choices": [
         {
           "id": "A",
-          "text": ") 110 knots"
+          "text": "110 knots"
         },
         {
           "id": "B",
@@ -55082,7 +55082,7 @@
       },
       "source_page": 63,
       "source_pdf_page": 69,
-      "question": "영상의 기온에서 온도와 노점기온이 SS 때 가장 자주 생기는 것은?",
+      "question": "영상의 기온에서 온도와 노점기온이 같을 때 가장 자주 생기는 것은?",
       "choices": [
         {
           "id": "A",
@@ -55090,7 +55090,7 @@
         },
         {
           "id": "B",
-          "text": "4]"
+          "text": "비"
         },
         {
           "id": "C",
@@ -55098,7 +55098,7 @@
         },
         {
           "id": "D",
-          "text": "스모크"
+          "text": "스모그"
         }
       ],
       "answer": "A",
@@ -55198,11 +55198,11 @@
         },
         {
           "id": "C",
-          "text": "안개는 사라질 것 같지 않다."
+          "text": "안개는 더욱 짙어진다."
         },
         {
           "id": "D",
-          "text": ". 무수히 많은 미세한 물방울들이나 습한 흡습성 입자들이 대기 중에 퍼있는 현상으로 수평시정이 1 km"
+          "text": "안개는 사라질 것 같지 않다."
         }
       ],
       "answer": "B",
@@ -55340,7 +55340,7 @@
       },
       "source_page": 64,
       "source_pdf_page": 70,
-      "question": "안개가 잘 발생하는 BAL?",
+      "question": "안개가 잘 발생하는 조건은?",
       "choices": [
         {
           "id": "A",
@@ -55502,7 +55502,7 @@
         },
         {
           "id": "B",
-          "text": "차고 YE} 큰 공기의 유입"
+          "text": "차고 밀도가 큰 공기의 유입"
         },
         {
           "id": "C",
@@ -55868,7 +55868,7 @@
         },
         {
           "id": "D",
-          "text": "SAKE"
+          "text": "복사무"
         }
       ],
       "answer": "D",
@@ -56009,7 +56009,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "풍속이 23~3노트일 때 잘 발생한다."
+          "text": "풍속이 2~3노트일 때 잘 발생한다."
         },
         {
           "id": "B",
@@ -56021,7 +56021,7 @@
         },
         {
           "id": "D",
-          "text": ": 고기압 지배하에 있는 내륙에서 잘 일어나며, 땅안개라고도 한다."
+          "text": "고기압 지배하에 있는 내륙에서 잘 일어나며, 땅안개라고도 한다."
         }
       ],
       "answer": "A",
@@ -56110,19 +56110,19 @@
       },
       "source_page": 66,
       "source_pdf_page": 72,
-      "question": "일반적으로 이류안개가 BAS 수 있는 조건은?",
+      "question": "일반적으로 이류안개가 형성될 수 있는 조건은?",
       "choices": [
         {
           "id": "A",
-          "text": "찬 지면 또는 수면 위로 이동하는 BT 습한 공기"
+          "text": "찬 지면 또는 수면 위로 이동하는 덥고 습한 공기"
         },
         {
           "id": "B",
-          "text": "바람이 없는 상황 하에서 서늘한 지면 위로 가라앉는 Bl 습한 공기"
+          "text": "바람이 없는 상황 하에서 서늘한 지면 위로 가라앉는 덥고 습한 공기"
         },
         {
           "id": "C",
-          "text": "더운 수면의 기류 위로 A 공기군이 불어오는 육지 산들바람"
+          "text": "더운 수면의 기류 위로 찬 공기군이 불어오는 육지 산들바람"
         },
         {
           "id": "D",
@@ -56219,7 +56219,7 @@
       },
       "source_page": 66,
       "source_pdf_page": 72,
-      "question": "습윤한 공기가 한랭한 육지나 수면 AS 이동할 때 생기는 안개는?",
+      "question": "습윤한 공기가 한랭한 육지나 수면 위를 이동할 때 생기는 안개는?",
       "choices": [
         {
           "id": "A",
@@ -56330,7 +56330,7 @@
         },
         {
           "id": "B",
-          "text": "야간에 SAAT 바다로 분다."
+          "text": "야간에 육지에서 바다로 분다."
         },
         {
           "id": "C",
@@ -56377,19 +56377,19 @@
       "choices": [
         {
           "id": "A",
-          "text": "풍속 7 2ㅁ/800까지의 바람은 안개를 더 AA) 한다."
+          "text": "풍속 7 m/sec까지의 바람은 안개를 더 두껍게 한다."
         },
         {
           "id": "B",
-          "text": "해무의 FAS 보통 1 100에 이른다."
+          "text": "해무의 두께는 보통 1 km에 이른다."
         },
         {
           "id": "C",
-          "text": ". 6 20 23. @6 24. 6 25. @6 26."
+          "text": "여름에 고위도 해상에서 해무가 자주 발생한다."
         },
         {
           "id": "D",
-          "text": "출제예상문제 67"
+          "text": "해안에 발생할 때는 해무의 형태가 된다."
         }
       ],
       "answer": "B",
@@ -56527,7 +56527,7 @@
       },
       "source_page": 67,
       "source_pdf_page": 73,
-      "question": "한랭한 공기가 따뜻한 수면 AS 지날 때 생기는 안개는?",
+      "question": "한랭한 공기가 따뜻한 수면 위를 지날 때 생기는 안개는?",
       "choices": [
         {
           "id": "A",
@@ -56888,19 +56888,19 @@
       "choices": [
         {
           "id": "A",
-          "text": "이류무(01600 108)는 온난 습윤한 공기가 한랭한 지표면 위로 이동할 때 발생한다."
+          "text": "이류무(advection fog)는 온난 습윤한 공기가 한랭한 지표면 위로 이동할 때 발생한다."
         },
         {
           "id": "B",
-          "text": "AAG frontal 100)는 공기의 팽창으로 냉각되는 습윤한 공기에 의해 발생한다."
+          "text": "전선무(frontal fog)는 공기의 팽창으로 냉각되는 습윤한 공기에 의해 발생한다."
         },
         {
           "id": "C",
-          "text": "빙무(06 100)는 대단히 저온이고 바람이 없을 때 발생한다."
+          "text": "빙무(ice fog)는 대단히 저온이고 바람이 없을 때 발생한다."
         },
         {
           "id": "D",
-          "text": "증기무(6668 fog) 찬 공기가 높은 온도의 수면 YS 지날 때 발생한다."
+          "text": "증기무(steam fog)는 찬 공기가 높은 온도의 수면 위를 지날 때 발생한다."
         }
       ],
       "answer": "B",
@@ -57098,11 +57098,11 @@
       },
       "source_page": 69,
       "source_pdf_page": 75,
-      "question": "기단(3 mass)2] 특징이 아닌 것은?",
+      "question": "기단(air mass)의 특징이 아닌 것은?",
       "choices": [
         {
           "id": "A",
-          "text": "온도, 습도 등의 연직분포 상태가 거의 같은 AAS 지닌 공기 덩어리를 말한다."
+          "text": "온도, 습도 등의 연직분포 상태가 거의 같은 성질을 지닌 공기 덩어리를 말한다."
         },
         {
           "id": "B",
@@ -57312,7 +57312,7 @@
         },
         {
           "id": "B",
-          "text": "대륙성 극기단 - 0ㅠ"
+          "text": "대륙성 극기단 - cT"
         },
         {
           "id": "C",
@@ -57320,7 +57320,7 @@
         },
         {
           "id": "D",
-          "text": "해양성 한랭기단 -2『"
+          "text": "해양성 한랭기단 - mP"
         }
       ],
       "answer": "B",
@@ -57364,7 +57364,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "대륙성 열대기단 - 08"
+          "text": "대륙성 열대기단 - cT"
         },
         {
           "id": "B",
@@ -57376,7 +57376,7 @@
         },
         {
           "id": "D",
-          "text": "해양성 B37) - mP"
+          "text": "해양성 한랭기단 - mP"
         }
       ],
       "answer": "A",
@@ -57845,7 +57845,7 @@
         },
         {
           "id": "B",
-          "text": "FA 기단"
+          "text": "양쯔강 기단"
         },
         {
           "id": "C",
@@ -58509,23 +58509,23 @@
       },
       "source_page": 73,
       "source_pdf_page": 79,
-      "question": "온난전선 통과 시 예상되는 구름의 SAE?",
+      "question": "온난전선 통과 시 예상되는 구름의 순서는?",
       "choices": [
         {
           "id": "A",
-          "text": "Cc -Ac -Cu-Cb-Ns"
+          "text": "Cc - Ac - Cu - Cb - Ns"
         },
         {
           "id": "B",
-          "text": "Ci-Cs-Ac-As-Ns"
+          "text": "Ci - Cs - Ac - As - Ns"
         },
         {
           "id": "C",
-          "text": "Ci-Cc-Ns -Cb -Ac"
+          "text": "Ci - Cc - Ns - Cb - Ac"
         },
         {
           "id": "D",
-          "text": "Cc -Sc -St -Ns - St"
+          "text": "Cc - Sc - St - Ns - St"
         }
       ],
       "answer": "B",
@@ -58617,19 +58617,19 @@
       "choices": [
         {
           "id": "A",
-          "text": "이류무(30760[10ㅁ fog)"
+          "text": "이류무(advection fog)"
         },
         {
           "id": "B",
-          "text": "복사무(78013110ㅁ fog)"
+          "text": "복사무(radiation fog)"
         },
         {
           "id": "C",
-          "text": "지무(@804700 fog)"
+          "text": "지무(ground fog)"
         },
         {
           "id": "D",
-          "text": "강수무(0760101686100ㅁ-10ㅁ04060 fog)"
+          "text": "강수무(precipitation-induced fog)"
         }
       ],
       "answer": "D",
@@ -58935,7 +58935,7 @@
         },
         {
           "id": "C",
-          "text": "FAS] 북서풍으로 변한다."
+          "text": "남서풍이 북서풍으로 변한다."
         },
         {
           "id": "D",
@@ -59192,11 +59192,11 @@
         },
         {
           "id": "C",
-          "text": "북서풍"
+          "text": "북동풍"
         },
         {
           "id": "D",
-          "text": ". 인접한 두 기단 중 한랭기단의 찬 공기가 온난기단의 따뜻한 공기 쪽으로 파고들 때 형성되는 전선"
+          "text": "북서풍"
         }
       ],
       "answer": "B",
@@ -59290,7 +59290,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "이"
+          "text": "Ci"
         },
         {
           "id": "B",
@@ -59345,7 +59345,7 @@
         },
         {
           "id": "B",
-          "text": "st"
+          "text": "층운"
         },
         {
           "id": "C",
@@ -59439,23 +59439,23 @@
       },
       "source_page": 94,
       "source_pdf_page": 100,
-      "question": "Thunderstorm] 생기기 위한 조건으로 맞는 것은?",
+      "question": "Thunderstorm이 생기기 위한 조건으로 맞는 것은?",
       "choices": [
         {
           "id": "A",
-          "text": "고온, 다습, 안정된 11086 rate"
+          "text": "고온, 다습, 안정된 lapse rate"
         },
         {
           "id": "B",
-          "text": "고온, 다습, 불안정한 11086 rate"
+          "text": "고온, 다습, 불안정한 lapse rate"
         },
         {
           "id": "C",
-          "text": "고온, 건조, 안정된 11086 rate"
+          "text": "고온, 건조, 안정된 lapse rate"
         },
         {
           "id": "D",
-          "text": "고온, 건조, 불안정한 11086 rate"
+          "text": "고온, 건조, 불안정한 lapse rate"
         }
       ],
       "answer": "B",
@@ -59961,7 +59961,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "기단 뇌우는 약 1~2시간 정도 지속되면서 강한 비와 SSS 동반하기는 하나, 그 수명이 짧고 규모가 작다."
+          "text": "기단 뇌우는 약 1~2시간 정도 지속되면서 강한 비와 돌풍을 동반하기는 하나, 그 수명이 짧고 규모가 작다."
         },
         {
           "id": "B",
@@ -59973,7 +59973,7 @@
         },
         {
           "id": "D",
-          "text": "다세포 뇌우는 여러 단계와 여러 개의 대류세포가 뭉쳐진 현상으로서 2~10시간 유지되며 수 십 km9] 수평규모를 갖는다."
+          "text": "다세포 뇌우는 여러 단계와 여러 개의 대류세포가 뭉쳐진 현상으로서 2~10시간 유지되며 수십 km의 수평규모를 갖는다."
         }
       ],
       "answer": "B",
@@ -60113,7 +60113,7 @@
       },
       "source_page": 97,
       "source_pdf_page": 103,
-      "question": "Squall line] 대한 설명으로 틀린 것은?",
+      "question": "Squall line에 대한 설명으로 틀린 것은?",
       "choices": [
         {
           "id": "A",
@@ -60129,7 +60129,7 @@
         },
         {
           "id": "D",
-          "text": "AAO] 있어야 발생할 수 있다."
+          "text": "전선이 있어야 발생할 수 있다."
         }
       ],
       "answer": "D",
@@ -60393,7 +60393,7 @@
         },
         {
           "id": "C",
-          "text": "성숙기에는 상승 및 하강기류가 SEA, 강수가 시작되므로 성숙기에만 비행에 주의하면 된다."
+          "text": "성숙기에는 상승 및 하강기류가 공존하고, 강수가 시작되므로 성숙기에만 비행에 주의하면 된다."
         },
         {
           "id": "D",
@@ -60432,15 +60432,15 @@
       },
       "source_page": 98,
       "source_pdf_page": 104,
-      "question": "레이더 상에 강한 뇌우의 echo7} 형성되어 있을 때 피해야 하는 최소거리는?",
+      "question": "레이더 상에 강한 뇌우의 echo가 형성되어 있을 때 피해야 하는 최소거리는?",
       "choices": [
         {
           "id": "A",
-          "text": "3NM"
+          "text": "3 NM"
         },
         {
           "id": "B",
-          "text": "5NM"
+          "text": "5 NM"
         },
         {
           "id": "C",
@@ -60534,7 +60534,7 @@
       },
       "source_page": 98,
       "source_pdf_page": 104,
-      "question": "뇌우지역 통과 Alol 취해야 할 비행행동으로 맞는 것은?",
+      "question": "뇌우지역 통과 시에 취해야 할 비행행동으로 맞는 것은?",
       "choices": [
         {
           "id": "A",
@@ -60546,7 +60546,7 @@
         },
         {
           "id": "C",
-          "text": "AGA ABS 최대한 GA 한다."
+          "text": "조종실 조명을 최대한 어둡게 한다."
         },
         {
           "id": "D",
@@ -60955,7 +60955,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Aye 주로 날개가 영하의 온도일 때 생성된다."
+          "text": "착빙은 주로 날개가 영하의 온도일 때 생성된다."
         },
         {
           "id": "B",
@@ -60963,11 +60963,11 @@
         },
         {
           "id": "C",
-          "text": "영하 201 이하에서는 과냉각수적이 주로 존재한다."
+          "text": "영하 20°C 이하에서는 과냉각수적이 주로 존재한다."
         },
         {
           "id": "D",
-          "text": "4YS -10C~-20 CHA 자주 발생한다."
+          "text": "착빙은 -10°C~-20°C에서 자주 발생한다."
         }
       ],
       "answer": "B",
@@ -61116,7 +61116,7 @@
       },
       "source_page": 100,
       "source_pdf_page": 106,
-      "question": "착빙에 SAS 주는 요소가 아닌 것은?",
+      "question": "착빙에 영향을 주는 요소가 아닌 것은?",
       "choices": [
         {
           "id": "A",
@@ -61168,7 +61168,7 @@
       },
       "source_page": 100,
       "source_pdf_page": 106,
-      "question": "항공기 유리창에 넓게 퍼진 상태로 oh] 얼음막이 형성되는 착빙은?",
+      "question": "항공기 유리창에 넓게 퍼진 상태로 얇게 얼음막이 형성되는 착빙은?",
       "choices": [
         {
           "id": "A",
@@ -61219,7 +61219,7 @@
       },
       "source_page": 100,
       "source_pdf_page": 106,
-      "question": "투명하고 단단한 얼음으로 처음의 물방울이 얼어버리기 전에 다음 물방울이 SOMA 생기는 착빙은?",
+      "question": "투명하고 단단한 얼음으로 처음의 물방울이 얼어버리기 전에 다음 물방울이 붙으면서 생기는 착빙은?",
       "choices": [
         {
           "id": "A",
@@ -61270,7 +61270,7 @@
       },
       "source_page": 100,
       "source_pdf_page": 106,
-      "question": "액체 상태의 물방울이 항공기 표면에 HAMS, 항공기 표면에 흐르면서 무겁고 단단하며 매 끄럽게 착빙되는 것은?",
+      "question": "액체 상태의 물방울이 항공기 표면에 부딪힌 후, 항공기 표면에 흐르면서 무겁고 단단하며 매끄럽게 착빙되는 것은?",
       "choices": [
         {
           "id": "A",
@@ -61376,19 +61376,19 @@
       "choices": [
         {
           "id": "A",
-          "text": "서리(6ㅠ086)"
+          "text": "서리(frost)"
         },
         {
           "id": "B",
-          "text": "우빙(01687 ice)"
+          "text": "우빙(clear ice)"
         },
         {
           "id": "C",
-          "text": "표면이 거친 착빙(021%60 ice)"
+          "text": "표면이 거친 착빙(mixed ice)"
         },
         {
           "id": "D",
-          "text": "+4 (rime ice)"
+          "text": "수빙(rime ice)"
         }
       ],
       "answer": "B",
@@ -61539,11 +61539,11 @@
         },
         {
           "id": "C",
-          "text": "상대풍을 조기에 분리시켜 ASS 일으키기 때문에"
+          "text": "상대풍을 조기에 분리시켜 실속을 일으키기 때문에"
         },
         {
           "id": "D",
-          "text": "항공기 표면에 붙어 있던 결빙은 SSA 더욱 많은 얼음 입자가 붙게 되어 AGS 일으킬 수"
+          "text": "항공기 표면에 붙어 있던 결빙은 공중에서 더욱 많은 얼음 입자가 붙게 되어 실속을 일으킬 수 있기 때문에"
         }
       ],
       "answer": "C",
@@ -61732,11 +61732,11 @@
       },
       "source_page": 102,
       "source_pdf_page": 108,
-      "question": "착빙강도에 대한 설명으로 옮은 AL?",
+      "question": "착빙강도에 대한 설명으로 옳은 것은?",
       "choices": [
         {
           "id": "A",
-          "text": "Trace: 착빙의 누적율이 녹는율보다 조금 낮다."
+          "text": "Trace: 착빙의 누적률이 녹는율보다 조금 낮다."
         },
         {
           "id": "B",
@@ -61744,7 +61744,7 @@
         },
         {
           "id": "C",
-          "text": "Severe: AY 또는 방빙장치를 사용해도 제거가 어려우며, 항공기 조종에 큰 악영향을 미친다."
+          "text": "Severe: 제빙 또는 방빙장치를 사용해도 제거가 어려우며, 항공기 조종에 큰 악영향을 미친다."
         },
         {
           "id": "D",
@@ -61834,7 +61834,7 @@
       },
       "source_page": 102,
       "source_pdf_page": 108,
-      "question": "다음 $ severe icing?) 예상되는 조건은?",
+      "question": "다음 중 severe icing이 예상되는 조건은?",
       "choices": [
         {
           "id": "A",
@@ -61842,11 +61842,11 @@
         },
         {
           "id": "B",
-          "text": "-10의 층적운"
+          "text": "-10°C의 층적운"
         },
         {
           "id": "C",
-          "text": "-10C2] 적운"
+          "text": "-10°C의 적운"
         },
         {
           "id": "D",
@@ -62200,11 +62200,11 @@
       },
       "source_page": 103,
       "source_pdf_page": 109,
-      "question": "Icingo] 거의 발생하지 않는 구름은?",
+      "question": "Icing이 거의 발생하지 않는 구름은?",
       "choices": [
         {
           "id": "A",
-          "text": "04"
+          "text": "Cu"
         },
         {
           "id": "B",
@@ -62356,7 +62356,7 @@
       },
       "source_page": 103,
       "source_pdf_page": 109,
-      "question": "-15T ~-20T4A 일어날 수 있는 착빙은?",
+      "question": "-15°C~-20°C에서 일어날 수 있는 착빙은?",
       "choices": [
         {
           "id": "A",
@@ -62778,7 +62778,7 @@
       },
       "source_page": 105,
       "source_pdf_page": 111,
-      "question": "중심 부근의 최대풍속이 48~63 KTS@l 열대성저기압을 무엇이라 하는가?",
+      "question": "중심 부근의 최대풍속이 48~63 KTS인 열대성저기압을 무엇이라 하는가?",
       "choices": [
         {
           "id": "A",
@@ -62786,7 +62786,7 @@
         },
         {
           "id": "B",
-          "text": "Topical Depression(TD)"
+          "text": "Tropical Depression(TD)"
         },
         {
           "id": "C",
@@ -63250,19 +63250,19 @@
       "choices": [
         {
           "id": "A",
-          "text": "태풍 중심부 주변은 적란운이 존재하고 12100416006가 심하다."
+          "text": "태풍 중심부 주변은 적란운이 존재하고 turbulence가 심하다."
         },
         {
           "id": "B",
-          "text": "Turbulence7} 심할 때는 고도계가 정확하지 않으므로 71010 altimeterS 사용해야 진고도를 알 수 있다."
+          "text": "Turbulence가 심할 때는 고도계가 정확하지 않으므로 radio altimeter를 사용해야 진고도를 알 수 있다."
         },
         {
           "id": "C",
-          "text": "저고도 비행 시 태풍의 SAS 오른쪽에 두고 비행하면 {311 \\100를 받으면서 비행할 수 있다."
+          "text": "저고도 비행 시 태풍의 중심을 오른쪽에 두고 비행하면 tail wind를 받으면서 비행할 수 있다."
         },
         {
           "id": "D",
-          "text": ": 동체 주기 시, 비행기의 기수를 바람이 부는 반대방향으로 Bop] parking 해야 한다."
+          "text": "동체 주기 시, 비행기의 기수를 바람이 부는 반대방향으로 향하게 parking 해야 한다."
         }
       ],
       "answer": "D",
@@ -63560,7 +63560,7 @@
       },
       "source_page": 108,
       "source_pdf_page": 114,
-      "question": "기내에서 걷기가 힘든 BEY] turbulence7} 발생했을 때, 이 turbulence2] 강도는?",
+      "question": "기내에서 걷기가 힘든 정도의 turbulence가 발생했을 때, 이 turbulence의 강도는?",
       "choices": [
         {
           "id": "A",
@@ -63611,15 +63611,15 @@
       },
       "source_page": 108,
       "source_pdf_page": 114,
-      "question": "Moderate turbulence2] 증상으로 맞는 것은?",
+      "question": "Moderate turbulence의 증상으로 맞는 것은?",
       "choices": [
         {
           "id": "A",
-          "text": "항공기의 동요가 크고 고도 변화가 있으며, 걷기가 힘들어 진다."
+          "text": "항공기의 동요가 크고 고도 변화가 있으며, 걷기가 힘들어진다."
         },
         {
           "id": "B",
-          "text": "항공기가 순간적으로 통제력을 상실하고, BAS] 심하게 흔들리며 걷기가 불가능해 진다."
+          "text": "항공기가 순간적으로 통제력을 상실하고, 물건들이 심하게 흔들리며 걷기가 불가능해진다."
         },
         {
           "id": "C",
@@ -63713,7 +63713,7 @@
       },
       "source_page": 108,
       "source_pdf_page": 114,
-      "question": "Vertical gust7} 초속 10~15 mel turbulence2] 강도는?",
+      "question": "Vertical gust가 초속 10~15 m인 turbulence의 강도는?",
       "choices": [
         {
           "id": "A",
@@ -63765,7 +63765,7 @@
       },
       "source_page": 108,
       "source_pdf_page": 114,
-      "question": "역학적 난기류(0601301031 turbulence) # 무엇인가?",
+      "question": "역학적 난기류(mechanical turbulence)란 무엇인가?",
       "choices": [
         {
           "id": "A",
@@ -63870,7 +63870,7 @@
       },
       "source_page": 109,
       "source_pdf_page": 115,
-      "question": "다음 중 wake turbulence2] 강도가 가장 = 경우는?",
+      "question": "다음 중 wake turbulence의 강도가 가장 큰 경우는?",
       "choices": [
         {
           "id": "A",
@@ -63921,7 +63921,7 @@
       },
       "source_page": 109,
       "source_pdf_page": 115,
-      "question": "다음 중 가장 큰 강도의 wake turbulence7} 발생하는 항공기는?",
+      "question": "다음 중 가장 큰 강도의 wake turbulence가 발생하는 항공기는?",
       "choices": [
         {
           "id": "A",
@@ -63988,7 +63988,7 @@
         },
         {
           "id": "D",
-          "text": "대형 327]2] rotation points 알아 Yc} rotation points 지나서 이륙한다."
+          "text": "대형 항공기의 rotation point를 알아 두었다가 rotation point를 지나서 이륙한다."
         }
       ],
       "answer": "B",
@@ -64076,7 +64076,7 @@
       },
       "source_page": 109,
       "source_pdf_page": 115,
-      "question": "직경 4 km 이하의 지역에 발생하는 최대풍속 75 m/s2] 강력한 하강풍을 무엇이라고 하는가?",
+      "question": "직경 4 km 이하의 지역에 발생하는 최대풍속 75 m/s의 강력한 하강풍을 무엇이라고 하는가?",
       "choices": [
         {
           "id": "A",
@@ -64127,7 +64127,7 @@
       },
       "source_page": 110,
       "source_pdf_page": 116,
-      "question": "마이크로버스트 하강기류(40\\00784)의 최대 풍속은?",
+      "question": "마이크로버스트 하강기류(downdraft)의 최대 풍속은?",
       "choices": [
         {
           "id": "A",
@@ -64187,7 +64187,7 @@
         },
         {
           "id": "B",
-          "text": "산맥의 Bol] 45도 이내의 풍향"
+          "text": "산맥의 축에 45도 이내의 풍향"
         },
         {
           "id": "C",
@@ -64334,7 +64334,7 @@
       },
       "source_page": 110,
       "source_pdf_page": 116,
-      "question": "산악파에 대한 다음 AY 중 틀린 것은?",
+      "question": "산악파에 대한 다음 설명 중 틀린 것은?",
       "choices": [
         {
           "id": "A",
@@ -64350,7 +64350,7 @@
         },
         {
           "id": "D",
-          "text": "렌즈구름 FAS 안정되어 있다."
+          "text": "렌즈구름 주변은 안정되어 있다."
         }
       ],
       "answer": "D",
@@ -64596,7 +64596,7 @@
       "choices": [
         {
           "id": "A",
-          "text": ") Rotor cloud 위험하지 않다."
+          "text": "Rotor cloud는 위험하지 않다."
         },
         {
           "id": "B",
@@ -64655,7 +64655,7 @@
         },
         {
           "id": "C",
-          "text": "최소한 산 정상 높이보다 30% 이상의 WES 취한다."
+          "text": "최소한 산 정상 높이보다 30% 이상의 고도를 취한다."
         },
         {
           "id": "D",
@@ -64702,7 +64702,7 @@
         },
         {
           "id": "B",
-          "text": "산맥에 접근할 때는 45도 정도의 AES 유지한다."
+          "text": "산맥에 접근할 때는 45도 정도의 각도를 유지한다."
         },
         {
           "id": "C",
@@ -64710,7 +64710,7 @@
         },
         {
           "id": "D",
-          "text": "적어도 산정상의 30% 높이만큼의 WES 취하여야 한다."
+          "text": "적어도 산정상의 30% 높이만큼의 고도를 취하여야 한다."
         }
       ],
       "answer": "D",
@@ -64746,7 +64746,7 @@
       },
       "source_page": 112,
       "source_pdf_page": 118,
-      "question": "대기권에서 제트기류가 위치하는 RL?",
+      "question": "대기권에서 제트기류가 위치하는 곳은?",
       "choices": [
         {
           "id": "A",
@@ -64797,23 +64797,23 @@
       },
       "source_page": 112,
       "source_pdf_page": 118,
-      "question": "일반적으로 제트기류가 위치하는 DEE?",
+      "question": "일반적으로 제트기류가 위치하는 고도는?",
       "choices": [
         {
           "id": "A",
-          "text": "7 고도 11 102의 대류권계면"
+          "text": "고도 11 km의 대류권계면"
         },
         {
           "id": "B",
-          "text": "고도 25 100의 대류권계면"
+          "text": "고도 25 km의 대류권계면"
         },
         {
           "id": "C",
-          "text": "고도 25 kms] 성층권계면"
+          "text": "고도 25 km의 성층권계면"
         },
         {
           "id": "D",
-          "text": "고도 50 102의 성층권계면"
+          "text": "고도 50 km의 성층권계면"
         }
       ],
       "answer": "A",
@@ -64852,19 +64852,19 @@
       "choices": [
         {
           "id": "A",
-          "text": "제트기류는 대류권 상부 또는 성층권 내에서 거의 수평인 축에 집중되어 있는 강하고 좁은 바 람의 흐름이다."
+          "text": "제트기류는 대류권 상부 또는 성층권 내에서 거의 수평인 축에 집중되어 있는 강하고 좁은 바람의 흐름이다."
         },
         {
           "id": "B",
-          "text": "제트기류의 최저풍속은 80 따로 정하고 있으며, 최대풍속이 80 kt 이상 되는 강한 등풍속선은 모두 제트기류에 속하게 된다."
+          "text": "제트기류의 최저풍속은 80 kt로 정하고 있으며, 최대풍속이 80 kt 이상 되는 강한 등풍속선은 모두 제트기류에 속하게 된다."
         },
         {
           "id": "C",
-          "text": "제트기류는 연직 및 수평방향에 강한 바람쉐어를 수반하며, 하나 또는 그 이상의 최대 풍속역 이 있다."
+          "text": "제트기류는 연직 및 수평방향에 강한 바람쉐어를 수반하며, 하나 또는 그 이상의 최대 풍속역이 있다."
         },
         {
           "id": "D",
-          "text": "제트기류는 수천 0ㅁ의 길이, 수백 km] 폭, 그리고 수 100의 깊이를 가진다."
+          "text": "제트기류는 수천 km의 길이, 수백 km의 폭, 그리고 수 km의 깊이를 가진다."
         }
       ],
       "answer": "B",
@@ -64903,7 +64903,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "제트기류의 최저풍속은 560 m/s 이다."
+          "text": "제트기류의 최저풍속은 50 m/s이다."
         },
         {
           "id": "B",
@@ -64911,11 +64911,11 @@
         },
         {
           "id": "C",
-          "text": "일반적으로 수 A km] 길이와 수 백 km] 폭을 가진다."
+          "text": "일반적으로 수천 km의 길이와 수백 km의 폭을 가진다."
         },
         {
           "id": "D",
-          "text": "연직방향으로 1 km 당 10~20 따의 비율로 풍속이 변한다."
+          "text": "연직방향으로 1 km당 10~20 kt의 비율로 풍속이 변한다."
         }
       ],
       "answer": "A",
@@ -64950,7 +64950,7 @@
       },
       "source_page": 112,
       "source_pdf_page": 118,
-      "question": "Jet streamo] 발생할 때의 바람은?",
+      "question": "Jet stream이 발생할 때의 바람은?",
       "choices": [
         {
           "id": "A",
@@ -64966,7 +64966,7 @@
         },
         {
           "id": "D",
-          "text": "ABS"
+          "text": "선형풍"
         }
       ],
       "answer": "C",
@@ -65001,7 +65001,7 @@
       },
       "source_page": 112,
       "source_pdf_page": 118,
-      "question": "북태평양을 지나는 106 stream] 이름은?",
+      "question": "북태평양을 지나는 jet stream의 이름은?",
       "choices": [
         {
           "id": "A",
@@ -65217,15 +65217,15 @@
         },
         {
           "id": "B",
-          "text": "여름에는 북쪽으로 ASHE 남쪽으로 이동한다."
+          "text": "여름에는 북쪽으로 이동하고 겨울에는 남쪽으로 이동한다."
         },
         {
           "id": "C",
-          "text": "ASHE 약해지고 겨울에는 강해진다."
+          "text": "여름에는 약해지고 겨울에는 강해진다."
         },
         {
           "id": "D",
-          "text": "0076는 하나만 존재한다."
+          "text": "Core는 하나만 존재한다."
         }
       ],
       "answer": "D",
@@ -65260,15 +65260,15 @@
       },
       "source_page": 113,
       "source_pdf_page": 119,
-      "question": "Jet stream] 대한 설명으로 틀린 것은?",
+      "question": "Jet stream에 대한 설명으로 틀린 것은?",
       "choices": [
         {
           "id": "A",
-          "text": ") 풍속 80 kts 이상의 west wind 이다."
+          "text": "풍속 80 kts 이상의 west wind이다."
         },
         {
           "id": "B",
-          "text": "Jet stream 주변에서 청천난기류(24&')가 주로 발생한다."
+          "text": "Jet stream 주변에서 청천난기류(CAT)가 주로 발생한다."
         },
         {
           "id": "C",
@@ -65276,7 +65276,7 @@
         },
         {
           "id": "D",
-          "text": "강하고 Fo] 좁은 수평적인 공기의 이동이다."
+          "text": "강하고 폭이 좁은 수평적인 공기의 이동이다."
         }
       ],
       "answer": "A",
@@ -65311,15 +65311,15 @@
       },
       "source_page": 113,
       "source_pdf_page": 119,
-      "question": "제트기류와 관련된 설명으로 Sz] 않은 것은?",
+      "question": "제트기류와 관련된 설명으로 옳지 않은 것은?",
       "choices": [
         {
           "id": "A",
-          "text": "제트기류는 수천 00의 길이, 수백 km] 폭, 그리고 수 km] 깊이를 가진다."
+          "text": "제트기류는 수천 km의 길이, 수백 km의 폭, 그리고 수 km의 깊이를 가진다."
         },
         {
           "id": "B",
-          "text": "Jet stream 주변에서 청천난기류(24&0')가 주로 발생한다."
+          "text": "Jet stream 주변에서 청천난기류(CAT)가 주로 발생한다."
         },
         {
           "id": "C",
@@ -65327,7 +65327,7 @@
         },
         {
           "id": "D",
-          "text": "제트기류의 윈드시어가 심한 LS 기류 중심의 남쪽이다. (북반구 기준)"
+          "text": "제트기류의 윈드시어가 심한 곳은 기류 중심의 남쪽이다. (북반구 기준)"
         }
       ],
       "answer": "D",
@@ -65362,11 +65362,11 @@
       },
       "source_page": 113,
       "source_pdf_page": 119,
-      "question": "다음 그림에서 sub-tropical jet stream2] 위치는?",
+      "question": "다음 그림에서 sub-tropical jet stream의 위치는?",
       "choices": [
         {
           "id": "A",
-          "text": "a"
+          "text": "A"
         },
         {
           "id": "B",
@@ -65374,11 +65374,11 @@
         },
         {
           "id": "C",
-          "text": "c"
+          "text": "C"
         },
         {
           "id": "D",
-          "text": "p"
+          "text": "D"
         }
       ],
       "answer": "B",
@@ -65438,7 +65438,7 @@
         },
         {
           "id": "D",
-          "text": ": 제트기류는 풍속 100 kt 이상의 바람을 말한다."
+          "text": "제트기류는 풍속 100 kt 이상의 바람을 말한다."
         }
       ],
       "answer": "C",
@@ -65473,7 +65473,7 @@
       },
       "source_page": 114,
       "source_pdf_page": 120,
-      "question": "Jet stream2] 특성이 아닌 것은?",
+      "question": "Jet stream의 특성이 아닌 것은?",
       "choices": [
         {
           "id": "A",
@@ -65481,15 +65481,15 @@
         },
         {
           "id": "B",
-          "text": "수직 수평의 wind sheart jet $42] 북쪽면이 남쪽면보다 크다."
+          "text": "수직 수평의 wind shear는 jet 축의 북쪽면이 남쪽면보다 크다."
         },
         {
           "id": "C",
-          "text": "강한 청천난류(04&0')가 jet core 하방의 찬 기류 쪽에 존재한다."
+          "text": "강한 청천난류(CAT)가 jet core 하방의 찬 기류 쪽에 존재한다."
         },
         {
           "id": "D",
-          "text": "우리나라에 주로 영향을 주는 A polar jet stream 이다."
+          "text": "우리나라에 주로 영향을 주는 것은 polar jet stream이다."
         }
       ],
       "answer": "A",
@@ -65849,23 +65849,23 @@
       },
       "source_page": 115,
       "source_pdf_page": 121,
-      "question": "제트기류에 의한 청천난류(24&1')가 측면에 나타나면 어떻게 비행해야 되는가?",
+      "question": "제트기류에 의한 청천난류(CAT)가 측면에 나타나면 어떻게 비행해야 되는가?",
       "choices": [
         {
           "id": "A",
-          "text": "온도가 올라감에 따라 고도를 상승시키고, 내려감에 따라 WES 하강시킨다."
+          "text": "온도가 올라감에 따라 고도를 상승시키고, 내려감에 따라 고도를 하강시킨다."
         },
         {
           "id": "B",
-          "text": "온도가 올라감에 따라 UES 하강시키고, 내려감에 따라 WES 상승시킨다."
+          "text": "온도가 올라감에 따라 고도를 하강시키고, 내려감에 따라 고도를 상승시킨다."
         },
         {
           "id": "C",
-          "text": "온도가 올라감에 따라 FES 높이고, 내려감에 따라 SES 낮춘다."
+          "text": "온도가 올라감에 따라 속도를 높이고, 내려감에 따라 속도를 낮춘다."
         },
         {
           "id": "D",
-          "text": "온도가 올라감에 따라 SES 낮추고, 내려감에 따라 SES 높인다."
+          "text": "온도가 올라감에 따라 속도를 낮추고, 내려감에 따라 속도를 높인다."
         }
       ],
       "answer": "A",
@@ -65901,19 +65901,19 @@
       },
       "source_page": 116,
       "source_pdf_page": 122,
-      "question": "Low level wind shearo] 대한 설명 중 틀린 것은?",
+      "question": "Low level wind shear에 대한 설명 중 틀린 것은?",
       "choices": [
         {
           "id": "A",
-          "text": "7 고도 3.000 ft 이하에서 발생하는 풍향과 풍속의 급격한 변화를 말한다."
+          "text": "고도 3,000 ft 이하에서 발생하는 풍향과 풍속의 급격한 변화를 말한다."
         },
         {
           "id": "B",
-          "text": "AAS 위의 강한 바람과 함께 저고도 기온역전이 존재할 때 wind shear7} 발생할 수 있다."
+          "text": "역전층 위의 강한 바람과 함께 저고도 기온역전이 존재할 때 wind shear가 발생할 수 있다."
         },
         {
           "id": "C",
-          "text": "Microburst, 뇌우와 같은 기상현상은 wind 811697와 관련이 있다."
+          "text": "Microburst, 뇌우와 같은 기상현상은 wind shear와 관련이 있다."
         },
         {
           "id": "D",
@@ -65952,7 +65952,7 @@
       },
       "source_page": 116,
       "source_pdf_page": 122,
-      "question": "다음 중 wind shear2} Heo] 없는 것은?",
+      "question": "다음 중 wind shear와 관련이 없는 것은?",
       "choices": [
         {
           "id": "A",
@@ -66003,11 +66003,11 @@
       },
       "source_page": 116,
       "source_pdf_page": 122,
-      "question": "전선에 의한 wind shear7} 발생할 수 있는 경우가 아닌 AL?",
+      "question": "전선에 의한 wind shear가 발생할 수 있는 경우가 아닌 것은?",
       "choices": [
         {
           "id": "A",
-          "text": "전선의 기온차가 50: 이상일 때"
+          "text": "전선의 기온차가 5°C 이상일 때"
         },
         {
           "id": "B",
@@ -66054,7 +66054,7 @@
       },
       "source_page": 116,
       "source_pdf_page": 122,
-      "question": "다음 중 저고도 전단풍(10\\-16061 wind 811637)이 발생하기 위한 조건으로 맞는 것은?",
+      "question": "다음 중 저고도 전단풍(low-level wind shear)이 발생하기 위한 조건으로 맞는 것은?",
       "choices": [
         {
           "id": "A",
@@ -66062,7 +66062,7 @@
         },
         {
           "id": "B",
-          "text": "AAS 위의 강한 바람과 함께 저고도 기온역전이 존재할 때"
+          "text": "역전층 위의 강한 바람과 함께 저고도 기온역전이 존재할 때"
         },
         {
           "id": "C",
@@ -66158,19 +66158,19 @@
       },
       "source_page": 116,
       "source_pdf_page": 122,
-      "question": "다음 중 위험한 전단풍(\\100 shear)o] 예상되는 경우는?",
+      "question": "다음 중 위험한 전단풍(wind shear)이 예상되는 경우는?",
       "choices": [
         {
           "id": "A",
-          "text": "안정된 공기충이 산맥을 지나갈 때"
+          "text": "안정된 공기층이 산맥을 지나갈 때"
         },
         {
           "id": "B",
-          "text": "저고도 기온역전((60ㅁ06『81416 inversion) 지역에서 상층풍이 25노트 이상일 때"
+          "text": "저고도 기온역전(temperature inversion) 지역에서 상층풍이 25노트 이상일 때"
         },
         {
           "id": "C",
-          "text": "SSL] 발달되고 AAO] 통과한 후"
+          "text": "층운이 발달되고 전선이 통과한 후"
         },
         {
           "id": "D",
@@ -66209,11 +66209,11 @@
       },
       "source_page": 116,
       "source_pdf_page": 122,
-      "question": "비행 중 경험하는 저고도 바람시어(\\100 shear) 2] 발생을 알 수 있는 현상이 아닌 것은?",
+      "question": "비행 중 경험하는 저고도 바람시어(wind shear)의 발생을 알 수 있는 현상이 아닌 것은?",
       "choices": [
         {
           "id": "A",
-          "text": "SEAS 수직속도계의 진동"
+          "text": "속도계와 수직속도계의 진동"
         },
         {
           "id": "B",
@@ -66221,7 +66221,7 @@
         },
         {
           "id": "C",
-          "text": "활공로를 유지하기 위해 소요되는 BIA power settings} 강하율"
+          "text": "항공로를 유지하기 위해 소요되는 정상적인 power setting과 강하율"
         },
         {
           "id": "D",
@@ -66265,11 +66265,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "정풍에서 배풍으로 BEA 때"
+          "text": "정풍에서 배풍으로 바뀔 때"
         },
         {
           "id": "B",
-          "text": "배풍에서 정풍으로 바낄 때"
+          "text": "배풍에서 정풍으로 바뀔 때"
         },
         {
           "id": "C",
@@ -66416,7 +66416,7 @@
       },
       "source_page": 117,
       "source_pdf_page": 123,
-      "question": "LLWAS network expansion] 관련된 내용 중 틀린 것은?",
+      "question": "LLWAS network expansion에 관련된 내용 중 틀린 것은?",
       "choices": [
         {
           "id": "A",
@@ -66432,7 +66432,7 @@
         },
         {
           "id": "D",
-          "text": ": 활주로가 확장 건설되면 탐지범위가 확대될 수 있다."
+          "text": "활주로가 확장 건설되면 탐지범위가 확대될 수 있다."
         }
       ],
       "answer": "A",
@@ -66521,7 +66521,7 @@
       },
       "source_page": 134,
       "source_pdf_page": 140,
-      "question": "기압이 동일한 AMS 연결한 AS 무엇이라 하는가?",
+      "question": "기압이 동일한 지점을 연결한 선을 무엇이라 하는가?",
       "choices": [
         {
           "id": "A",
@@ -66623,11 +66623,11 @@
       },
       "source_page": 134,
       "source_pdf_page": 140,
-      "question": "일기도에서 1106@-가 좁을 때의 현상으로 맞는 AL?",
+      "question": "일기도에서 isobar가 좁을 때의 현상으로 맞는 것은?",
       "choices": [
         {
           "id": "A",
-          "text": ") weak gradient and weak winds"
+          "text": "weak gradient and weak winds"
         },
         {
           "id": "B",
@@ -66674,7 +66674,7 @@
       },
       "source_page": 134,
       "source_pdf_page": 140,
-      "question": "일기도에서 등압선 간격이 좁은 곳의 현상으로 We AL?",
+      "question": "일기도에서 등압선 간격이 좁은 곳의 현상으로 맞는 것은?",
       "choices": [
         {
           "id": "A",
@@ -66781,23 +66781,23 @@
       },
       "source_page": 134,
       "source_pdf_page": 140,
-      "question": "다음 그림과 같은 일기도에서 기압골(\\ㅠ0481)을 나타내는 부분은?",
+      "question": "다음 그림과 같은 일기도에서 기압골(trough)을 나타내는 부분은?",
       "choices": [
         {
           "id": "A",
-          "text": "A.B"
+          "text": "A, B"
         },
         {
           "id": "B",
-          "text": "c,D"
+          "text": "C, D"
         },
         {
           "id": "C",
-          "text": "B,D"
+          "text": "B, D"
         },
         {
           "id": "D",
-          "text": "A,C"
+          "text": "A, C"
         }
       ],
       "answer": "D",
@@ -67006,7 +67006,7 @@
         },
         {
           "id": "B",
-          "text": "기압치가 다른 두 SUAS 서로 교차하지 않는다."
+          "text": "기압치가 다른 두 등압선은 서로 교차하지 않는다."
         },
         {
           "id": "C",
@@ -67104,7 +67104,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "SUAS 그릴 때 육상에서는 기압이 바람보다 중요하다."
+          "text": "등압선을 그릴 때 육상에서는 기압이 바람보다 중요하다."
         },
         {
           "id": "B",
@@ -67418,23 +67418,23 @@
       },
       "source_page": 136,
       "source_pdf_page": 142,
-      "question": "정체전선 기호의 형태와 색깔로 맞는 AL?",
+      "question": "정체전선 기호의 형태와 색깔로 맞는 것은?",
       "choices": [
         {
           "id": "A",
-          "text": "ww | 반원 - 파란색, 역삼각형 - 붉은색"
+          "text": "반원 - 파란색, 역삼각형 - 붉은색"
         },
         {
           "id": "B",
-          "text": "0 ㅠ쓰ㅠ쓰- ：반원-붉은색, 역삼각형 - 파란색"
+          "text": "반원 - 붉은색, 역삼각형 - 파란색"
         },
         {
           "id": "C",
-          "text": "Q 소"
+          "text": "반원, 삼각형 - 보라색"
         },
         {
           "id": "D",
-          "text": "소@:반원, 삼각형 - 보라색"
+          "text": "반원, 삼각형 - 파란색"
         }
       ],
       "answer": "B",
@@ -67758,19 +67758,19 @@
       "choices": [
         {
           "id": "A",
-          "text": "0"
-        },
-        {
-          "id": "B",
           "text": "25 Kts"
         },
         {
-          "id": "C",
+          "id": "B",
           "text": "100 Kts"
         },
         {
-          "id": "D",
+          "id": "C",
           "text": "10 Kts"
+        },
+        {
+          "id": "D",
+          "text": "60 Kts"
         }
       ],
       "answer": "C",
@@ -67806,23 +67806,23 @@
       },
       "source_page": 137,
       "source_pdf_page": 143,
-      "question": "기상 표시 기호 중 002216의 기호는?",
+      "question": "기상 표시 기호 중 drizzle의 기호는?",
       "choices": [
         {
           "id": "A",
-          "text": "A"
+          "text": "△"
         },
         {
           "id": "B",
-          "text": "2"
+          "text": "▽"
         },
         {
           "id": "C",
-          "text": "e"
+          "text": "•"
         },
         {
           "id": "D",
-          "text": "s"
+          "text": ","
         }
       ],
       "answer": "D",
@@ -67857,7 +67857,7 @@
       },
       "source_page": 137,
       "source_pdf_page": 143,
-      "question": "기상 기호 V9} 의미는?",
+      "question": "기상 기호 “▽”의 의미는?",
       "choices": [
         {
           "id": "A",
@@ -67914,23 +67914,23 @@
       },
       "source_page": 138,
       "source_pdf_page": 144,
-      "question": "눈(8001\\)을 나타내는 기상 700001은?",
+      "question": "눈(snow)을 나타내는 기상 symbol은?",
       "choices": [
         {
           "id": "A",
-          "text": "O="
+          "text": "≡"
         },
         {
           "id": "B",
-          "text": "A"
+          "text": "▲"
         },
         {
           "id": "C",
-          "text": "O"
+          "text": "●⌒"
         },
         {
           "id": "D",
-          "text": "X"
+          "text": "✳"
         }
       ],
       "answer": "D",
@@ -68026,23 +68026,23 @@
       },
       "source_page": 138,
       "source_pdf_page": 144,
-      "question": "Thunderstorm 나타내는 기상 기호는?",
+      "question": "Thunderstorm을 나타내는 기상 기호는?",
       "choices": [
         {
           "id": "A",
-          "text": "0?"
+          "text": "기호 ①"
         },
         {
           "id": "B",
-          "text": "os"
+          "text": "기호 ②"
         },
         {
           "id": "C",
-          "text": "ak"
+          "text": "기호 ③"
         },
         {
           "id": "D",
-          "text": "oo"
+          "text": "기호 ④"
         }
       ],
       "answer": "C",
@@ -68270,15 +68270,15 @@
       },
       "source_page": 138,
       "source_pdf_page": 144,
-      "question": "아래 그림과 같은 weather depiction chart2] 기호에서 노점온도는 얼마인가?",
+      "question": "아래 그림과 같은 weather depiction chart의 기호에서 노점온도는 얼마인가?",
       "choices": [
         {
           "id": "A",
-          "text": "-3"
+          "text": "-3°C"
         },
         {
           "id": "B",
-          "text": "806"
+          "text": "8°C"
         },
         {
           "id": "C",
@@ -68286,7 +68286,7 @@
         },
         {
           "id": "D",
-          "text": "206"
+          "text": "2°C"
         }
       ],
       "answer": "B",
@@ -68332,19 +68332,19 @@
       "choices": [
         {
           "id": "A",
-          "text": "기온: 21C, 이슬점온도: 27ㄷ"
+          "text": "기온: 21°C, 이슬점온도: 27°C"
         },
         {
           "id": "B",
-          "text": "67"
+          "text": "기온: 21°C, 이슬점온도: 67°C"
         },
         {
           "id": "C",
-          "text": "기온: 21C, 이슬점온도: 67C"
+          "text": "기온: 27°C, 이슬점온도: 21°C"
         },
         {
           "id": "D",
-          "text": "기온: 27C, 이슬점온도: 21T"
+          "text": "기온: 27°C, 이슬점온도: -3°C"
         }
       ],
       "answer": "A",
@@ -68391,7 +68391,7 @@
       },
       "source_page": 139,
       "source_pdf_page": 145,
-      "question": "일기도 기호의 기압 표기를 ASS hPa 단위의 기압으로 잘못 환산한 것은?",
+      "question": "일기도 기호의 기압 표기를 해당하는 hPa 단위의 기압으로 잘못 환산한 것은?",
       "choices": [
         {
           "id": "A",
@@ -68618,19 +68618,19 @@
       "choices": [
         {
           "id": "A",
-          "text": "se 강수예보, 대기 하층 습윤구역 예측 및 저공비행을 위한 기상 브리핑에 이용할 수 있다."
+          "text": "하층은 강수예보, 대기 하층 습윤구역 예측 및 저공비행을 위한 기상 브리핑에 이용할 수 있다."
         },
         {
           "id": "B",
-          "text": "SSS 강수예보, 단파 계산 및 10,000 ft 고도의 비행을 위한 기상 브리핑에 이용할 수 있다. (83 기압계의 이동과 ASL 예보에 이용할 수 있다."
+          "text": "중층은 강수예보, 단파 계산 및 10,000 ft 고도의 비행을 위한 기상 브리핑에 이용할 수 있다."
         },
         {
           "id": "C",
-          "text": "제트기류의 분석과 고공비행 예보에 이용할 수 있다."
+          "text": "기압계의 이동과 상층운 예보에 이용할 수 있다."
         },
         {
           "id": "D",
-          "text": ". 850 hPa 일기도"
+          "text": "제트기류의 분석과 고공비행 예보에 이용할 수 있다."
         }
       ],
       "answer": "B",
@@ -68719,7 +68719,7 @@
       },
       "source_page": 140,
       "source_pdf_page": 146,
-      "question": "18,000 [로 비행할 때 참조하여야 하는 weather analysis chart?",
+      "question": "18,000 ft로 비행할 때 참조하여야 하는 weather analysis chart는?",
       "choices": [
         {
           "id": "A",
@@ -68770,7 +68770,7 @@
       },
       "source_page": 140,
       "source_pdf_page": 146,
-      "question": "700 hPa 등압면에 해당되는 기준고도(600ㅁ)는?",
+      "question": "700 hPa 등압면에 해당되는 기준고도(gpm)는?",
       "choices": [
         {
           "id": "A",
@@ -68872,7 +68872,7 @@
       },
       "source_page": 140,
       "source_pdf_page": 146,
-      "question": "제트기류의 BES 알아보기 위한 기상도는?",
+      "question": "제트기류의 분포를 알아보기 위한 기상도는?",
       "choices": [
         {
           "id": "A",
@@ -69133,7 +69133,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "sea"
+          "text": "등온선"
         },
         {
           "id": "B",
@@ -69987,7 +69987,7 @@
       },
       "source_page": 142,
       "source_pdf_page": 148,
-      "question": "아래와 같은 TAF 전문의 유효시간은 얼마인가? “TAF KPIT 0917302 0918/1024 15005KT 5SM HZ FEW020 WS010/31022KT\"",
+      "question": "아래와 같은 TAF 전문의 유효시간은 얼마인가? “TAF KPIT 091730Z 0918/1024 15005KT 5SM HZ FEW020 WS010/31022KT”",
       "choices": [
         {
           "id": "A",
@@ -70038,7 +70038,7 @@
       },
       "source_page": 143,
       "source_pdf_page": 149,
-      "question": "다음과 같은 TAF 전문의 유효시간은? TAF KOKC 0511302 051212 14008KT 5SM BR BKN030 TEMPO 1316 1 1/2SM BR",
+      "question": "다음과 같은 TAF 전문의 유효시간은? “TAF KOKC 051130Z 051212 14008KT 5SM BR BKN030 TEMPO 1316 1 1/2SM BR”",
       "choices": [
         {
           "id": "A",
@@ -70250,7 +70250,7 @@
       },
       "source_page": 144,
       "source_pdf_page": 150,
-      "question": "아래와 같은 \"에서 24002에 예상되는 시정은? “BECMG 1820 2000 BKN004 PROB30 BECMG 2022 0500 FG 77001\"",
+      "question": "아래와 같은 TAF에서 2400Z에 예상되는 시정은? “BECMG 1820 2000 BKN004 PROB30 BECMG 2022 0500 FG VV001”",
       "choices": [
         {
           "id": "A",
@@ -70262,11 +70262,11 @@
         },
         {
           "id": "C",
-          "text": "500 me} 2,000 m 사이"
+          "text": "500 m와 2,000 m 사이"
         },
         {
           "id": "D",
-          "text": "0 m2} 1,000 m 사이"
+          "text": "0 m와 1,000 m 사이"
         }
       ],
       "answer": "A",
@@ -70302,23 +70302,23 @@
       },
       "source_page": 144,
       "source_pdf_page": 150,
-      "question": "아래와 같은 74“에서 0600 ㅁㅁ70에 예상되는 최저시정은? TAF OEDR 280000Z 280110 VRBO8KT 0470 BECMG 0103 7000 TEMPO 0410",
+      "question": "아래와 같은 TAF에서 0600 UTC에 예상되는 최저시정은? “TAF OEDR 280000Z 280110 VRB08KT CAVOK BECMG 0103 7000 TEMPO 0410 28014G24KT 4000 SA”",
       "choices": [
         {
           "id": "A",
-          "text": "8014G24KT 4000 SA"
-        },
-        {
-          "id": "B",
           "text": "2,000 m"
         },
         {
-          "id": "C",
+          "id": "B",
           "text": "4,000 m"
         },
         {
-          "id": "D",
+          "id": "C",
           "text": "7,000 m"
+        },
+        {
+          "id": "D",
+          "text": "10,000 m 이상"
         }
       ],
       "answer": "B",
@@ -70354,23 +70354,23 @@
       },
       "source_page": 144,
       "source_pdf_page": 150,
-      "question": "다음과 같은 “에서 2100 UTC 예상되는 최저시정은? TAF EHAM 281500Z 281601 14010KT 6000 -RA SCT025 BECMG 1618 12015G25KT SCT008 BKN013 TEMPO 1823 3000 RA BKN005 OVC010 BECMG 2301",
+      "question": "다음과 같은 TAF에서 2100 UTC에 예상되는 최저시정은? “TAF EHAM 281500Z 281601 14010KT 6000 -RA SCT025 BECMG 1618 12015G25KT SCT008 BKN013 TEMPO 1823 3000 RA BKN005 OVC010 BECMG 2301 2502KT 8000 NSW BKN020”",
       "choices": [
         {
           "id": "A",
-          "text": "502KT 8000 NSW BKN020"
-        },
-        {
-          "id": "B",
           "text": "3,000 m"
         },
         {
-          "id": "C",
+          "id": "B",
           "text": "5,000 m"
         },
         {
-          "id": "D",
+          "id": "C",
           "text": "6,000 m"
+        },
+        {
+          "id": "D",
+          "text": "8,000 m"
         }
       ],
       "answer": "A",
@@ -70406,11 +70406,11 @@
       },
       "source_page": 144,
       "source_pdf_page": 150,
-      "question": "TAFo] 표시되는 구름은?",
+      "question": "TAF에 표시되는 구름은?",
       "choices": [
         {
           "id": "A",
-          "text": "420"
+          "text": "AC"
         },
         {
           "id": "B",
@@ -70418,7 +70418,7 @@
         },
         {
           "id": "C",
-          "text": "80"
+          "text": "SC"
         },
         {
           "id": "D",
@@ -70457,7 +70457,7 @@
       },
       "source_page": 145,
       "source_pdf_page": 151,
-      "question": "TAF] 포함되는 기상요소가 아닌 것은?",
+      "question": "TAF에 포함되는 기상요소가 아닌 것은?",
       "choices": [
         {
           "id": "A",
@@ -70509,7 +70509,7 @@
       },
       "source_page": 145,
       "source_pdf_page": 151,
-      "question": "TAFS] 변화지시군으로 알맞은 것은?",
+      "question": "TAF의 변화지시군으로 알맞은 것은?",
       "choices": [
         {
           "id": "A",
@@ -70848,7 +70848,7 @@
       },
       "source_page": 146,
       "source_pdf_page": 152,
-      "question": "High-level SIGWX Chart2] 적용고도는?",
+      "question": "High-level SIGWX Chart의 적용고도는?",
       "choices": [
         {
           "id": "A",
@@ -71013,11 +71013,11 @@
       },
       "source_page": 146,
       "source_pdf_page": 152,
-      "question": "Significant Weather Charto]A] 기호 RY 의미는?",
+      "question": "Significant Weather Chart에서 해당 기호의 의미는?",
       "choices": [
         {
           "id": "A",
-          "text": "심한 ay"
+          "text": "심한 착빙"
         },
         {
           "id": "B",
@@ -71064,7 +71064,7 @@
       },
       "source_page": 146,
       "source_pdf_page": 152,
-      "question": "Significant Weather Chart] 기호 YW 2) 의미는?",
+      "question": "Significant Weather Chart에서 해당 기호의 의미는?",
       "choices": [
         {
           "id": "A",
@@ -71168,7 +71168,7 @@
       },
       "source_page": 146,
       "source_pdf_page": 152,
-      "question": "Significant Weather Charto]A] 기호 -V-V-2] 의미는?",
+      "question": "Significant Weather Chart에서 기호 “-V-V-”의 의미는?",
       "choices": [
         {
           "id": "A",
@@ -71219,7 +71219,7 @@
       },
       "source_page": 147,
       "source_pdf_page": 153,
-      "question": "Significant Weather Charto]4] 다음 기호의 의미로 옮은 것은?",
+      "question": "Significant Weather Chart에서 다음 기호의 의미로 옳은 것은?",
       "choices": [
         {
           "id": "A",
@@ -71340,19 +71340,19 @@
       "choices": [
         {
           "id": "A",
-          "text": "\\OV"
+          "text": "기호 ①"
         },
         {
           "id": "B",
-          "text": "at"
+          "text": "기호 ②"
         },
         {
           "id": "C",
-          "text": "oN"
+          "text": "기호 ③"
         },
         {
           "id": "D",
-          "text": "cio"
+          "text": "기호 ④"
         }
       ],
       "answer": "A",
@@ -71641,19 +71641,19 @@
       },
       "source_page": 148,
       "source_pdf_page": 154,
-      "question": "High-Level Prog SIGWX Charto]A] 그림과 같은 기호가 나타내는 구름의 높이는?",
+      "question": "High-Level Prog SIGWX Chart에서 그림과 같은 기호가 나타내는 구름의 높이는?",
       "choices": [
         {
           "id": "A",
-          "text": "FL51004] FL250 까지"
+          "text": "FL510에서 FL250까지"
         },
         {
           "id": "B",
-          "text": "FL510 미만에서 FL250 까지"
+          "text": "FL510 미만에서 FL250까지"
         },
         {
           "id": "C",
-          "text": "FL5100)4] FL250 이하의 어느 지점까지"
+          "text": "FL510에서 FL250 이하의 어느 지점까지"
         },
         {
           "id": "D",
@@ -71699,15 +71699,15 @@
       },
       "source_page": 148,
       "source_pdf_page": 154,
-      "question": "High-Level SIGWX Chart] 다음 그림과 같은 예보기호에 대한 설명으로 틀린 것은?",
+      "question": "High-Level SIGWX Chart에서 다음 그림과 같은 예보기호에 대한 설명으로 틀린 것은?",
       "choices": [
         {
           "id": "A",
-          "text": "구름의 기저(6886)는 FL250 이하이다."
+          "text": "구름의 기저(base)는 FL250 이하이다."
         },
         {
           "id": "B",
-          "text": "구름 상부(【02)의 높이는 FL350 이다. (Gx"
+          "text": "구름 상부(top)의 높이는 FL350이다."
         },
         {
           "id": "C",
@@ -71715,7 +71715,7 @@
         },
         {
           "id": "D",
-          "text": "구름의 운량(606『886)은 4/8 이하이다."
+          "text": "구름의 운량(coverage)은 4/8 이하이다."
         }
       ],
       "answer": "D",
@@ -71757,23 +71757,23 @@
       },
       "source_page": 148,
       "source_pdf_page": 154,
-      "question": "High-Level SIGWX Prog 0018파에 표시된 다음 기호가 의미하는 기상현상은?",
+      "question": "High-Level SIGWX Prog Chart에 표시된 다음 기호가 의미하는 기상현상은?",
       "choices": [
         {
           "id": "A",
-          "text": ") 30,000 부터 25,000ft 미만까지 moderate to severe icing"
+          "text": "30,000 ft부터 25,000 ft 미만까지 moderate to severe icing"
         },
         {
           "id": "B",
-          "text": "00 ‘\\"
+          "text": "30,000 ft부터 25,000 ft 미만까지 moderate to severe turbulence"
         },
         {
           "id": "C",
-          "text": "30,000 부터 25,000ft 미만까지 moderate to severe turbulence"
+          "text": "30,000 ft 부근에 moderate to severe icing"
         },
         {
           "id": "D",
-          "text": "30,000 ft 4=4e] moderate to severe icing"
+          "text": "30,000 ft 부근에 moderate to severe turbulence"
         }
       ],
       "answer": "B",
@@ -71817,11 +71817,11 @@
       },
       "source_page": 149,
       "source_pdf_page": 155,
-      "question": "SIGWX 0)18파에 표시된 다음 기호에 대한 설명으로 올바르지 않는 것은?",
+      "question": "SIGWX Chart에 표시된 다음 기호에 대한 설명으로 올바르지 않은 것은?",
       "choices": [
         {
           "id": "A",
-          "text": "해당 구역에 중간 BES] turbulence7} 있다. ln. 450 |"
+          "text": "해당 구역에 중간 정도의 turbulence가 있다."
         },
         {
           "id": "B",
@@ -71829,11 +71829,11 @@
         },
         {
           "id": "C",
-          "text": "80 ."
+          "text": "유효 최소고도는 28,000피트이다."
         },
         {
           "id": "D",
-          "text": "유효 최소고도는 28,000피트이다."
+          "text": "28,000피트부터 45,000피트에 걸쳐 squall line이 형성되어 있다."
         }
       ],
       "answer": "D",
@@ -71875,23 +71875,23 @@
       },
       "source_page": 149,
       "source_pdf_page": 155,
-      "question": "SIGWX 048파에 표시된 다음 기호가 의미하는 것은?",
+      "question": "SIGWX Chart에 표시된 다음 기호가 의미하는 것은?",
       "choices": [
         {
           "id": "A",
-          "text": "FL3603} FL280 사이에서 turbulence7} 예상된다."
+          "text": "FL360과 FL280 사이에서 turbulence가 예상된다."
         },
         {
           "id": "B",
-          "text": "FL3603} FL280 사이에서 squall lineo] 예상된다."
+          "text": "FL360과 FL280 사이에서 squall line이 예상된다."
         },
         {
           "id": "C",
-          "text": "80 ."
+          "text": "FL280 부근에서 turbulence가 예상된다."
         },
         {
           "id": "D",
-          "text": "FL280 부근에서 turbulence7} 예상된다."
+          "text": "FL280 부근에서 squall line이 예상된다."
         }
       ],
       "answer": "A",
@@ -71947,7 +71947,7 @@
       },
       "source_page": 149,
       "source_pdf_page": 155,
-      "question": "High-Level SIGWX Prog Charto]] 표시된 다음의 그림 기호에 대한 설명으로 틀린 것은?",
+      "question": "High-Level SIGWX Prog Chart에 표시된 다음의 그림 기호에 대한 설명으로 틀린 것은?",
       "choices": [
         {
           "id": "A",
@@ -71959,11 +71959,11 @@
         },
         {
           "id": "C",
-          "text": "FRQE 운량이 해당 구역의 75% 이하라는 의미이다."
+          "text": "FRQ는 운량이 해당 구역의 75% 이하라는 의미이다."
         },
         {
           "id": "D",
-          "text": "500은 구름의 상부(02) 고도가 FL500 이라는 것을 나타낸다."
+          "text": "500은 구름의 상부(top) 고도가 FL500이라는 것을 나타낸다."
         }
       ],
       "answer": "C",
@@ -72009,7 +72009,7 @@
       },
       "source_page": 149,
       "source_pdf_page": 155,
-      "question": "Significant Weather Charto4] 네모 안에 표시된 숫자 “300\"0] 나타내는 높이는?",
+      "question": "Significant Weather Chart에서 네모 안에 표시된 숫자 “300”이 나타내는 높이는?",
       "choices": [
         {
           "id": "A",
@@ -72163,7 +72163,7 @@
       },
       "source_page": 150,
       "source_pdf_page": 156,
-      "question": "SIGMETS] 최대 유효시간은?",
+      "question": "SIGMET의 최대 유효시간은?",
       "choices": [
         {
           "id": "A",
@@ -72267,11 +72267,11 @@
       },
       "source_page": 150,
       "source_pdf_page": 156,
-      "question": "SIGMETS] 유효시간은?",
+      "question": "SIGMET의 유효시간은?",
       "choices": [
         {
           "id": "A",
-          "text": "시간"
+          "text": "1시간"
         },
         {
           "id": "B",
@@ -72318,7 +72318,7 @@
       },
       "source_page": 150,
       "source_pdf_page": 156,
-      "question": "SIGMETo] 관한 설명 중 틀린 것은?",
+      "question": "SIGMET에 관한 설명 중 틀린 것은?",
       "choices": [
         {
           "id": "A",
@@ -72526,7 +72526,7 @@
       },
       "source_page": 163,
       "source_pdf_page": 169,
-      "question": "용어 METARS] 의미는?",
+      "question": "용어 METAR의 의미는?",
       "choices": [
         {
           "id": "A",
@@ -72631,23 +72631,23 @@
       },
       "source_page": 163,
       "source_pdf_page": 169,
-      "question": "관제탑에서 제공하는 바람 정보는 활주로 상공 몇 ㅁ에서 측정하는가?",
+      "question": "관제탑에서 제공하는 바람 정보는 활주로 상공 몇 m에서 측정하는가?",
       "choices": [
         {
           "id": "A",
-          "text": "O5m"
+          "text": "5 m"
         },
         {
           "id": "B",
-          "text": "72ㅁ"
+          "text": "7 m"
         },
         {
           "id": "C",
-          "text": "10m"
+          "text": "10 m"
         },
         {
           "id": "D",
-          "text": "12m"
+          "text": "12 m"
         }
       ],
       "answer": "C",
@@ -73169,7 +73169,7 @@
       },
       "source_page": 164,
       "source_pdf_page": 170,
-      "question": "민간항공에서 평균풍속과 최대풍속이 얼마 이상 차이가 나는 바람을 돌풍(608\\)이라 하는 가?",
+      "question": "민간항공에서 평균풍속과 최대풍속이 얼마 이상 차이가 나는 바람을 돌풍(gust)이라 하는가?",
       "choices": [
         {
           "id": "A",
@@ -73220,7 +73220,7 @@
       },
       "source_page": 164,
       "source_pdf_page": 170,
-      "question": "Gust2] 표기가 올바른 것은?",
+      "question": "Gust의 표기가 올바른 것은?",
       "choices": [
         {
           "id": "A",
@@ -73275,19 +73275,19 @@
       "choices": [
         {
           "id": "A",
-          "text": "풍향은 진북 기준 10분 단위로 반올림한 3자리 숫자로 표시한다."
+          "text": "풍향은 진북 기준 10° 단위로 반올림한 3자리 숫자로 표시한다."
         },
         {
           "id": "B",
-          "text": "100 kt 이상의 풍속은 MOB 표시한다."
+          "text": "100 kt 이상의 풍속은 M으로 표시한다."
         },
         {
           "id": "C",
-          "text": "10분 이내 최대 순간풍속이 평균풍속보다 10 kt 이상 변화하고 있으면 GH 표시한다."
+          "text": "10분 이내 최대 순간풍속이 평균풍속보다 10 kt 이상 변화하고 있으면 G로 표시한다."
         },
         {
           "id": "D",
-          "text": "무풍 시 “000001《\"로 표시한다."
+          "text": "무풍 시 “00000KT”로 표시한다."
         }
       ],
       "answer": "C",
@@ -73376,11 +73376,11 @@
       },
       "source_page": 165,
       "source_pdf_page": 171,
-      "question": "METAR) 시정의 측정과 보고방법으로 틀린 것은?",
+      "question": "METAR에서 시정의 측정과 보고방법으로 틀린 것은?",
       "choices": [
         {
           "id": "A",
-          "text": "ARS 우세시정을 기준으로 관측해야 하며 m 또는 km 단위로 보고해야 한다."
+          "text": "시정은 우세시정을 기준으로 관측해야 하며 m 또는 km 단위로 보고해야 한다."
         },
         {
           "id": "B",
@@ -73427,7 +73427,7 @@
       },
       "source_page": 165,
       "source_pdf_page": 171,
-      "question": "METAR] 시정이 10 km 이상인 경우 어떻게 표시하는가?",
+      "question": "METAR에서 시정이 10 km 이상인 경우 어떻게 표시하는가?",
       "choices": [
         {
           "id": "A",
@@ -73478,7 +73478,7 @@
       },
       "source_page": 165,
       "source_pdf_page": 171,
-      "question": "METAR] 시정의 보고방법으로 틀린 AL?",
+      "question": "METAR에서 시정의 보고방법으로 틀린 것은?",
       "choices": [
         {
           "id": "A",
@@ -73494,7 +73494,7 @@
         },
         {
           "id": "D",
-          "text": "시정이 10 km 이상인 경우, CAVOKS 사용할 조건일 HS 제외하고는 '9999\"로 보고한다."
+          "text": "시정이 10 km 이상인 경우, CAVOK를 사용할 조건일 때를 제외하고는 “9999”로 보고한다."
         }
       ],
       "answer": "B",
@@ -73635,11 +73635,11 @@
       },
       "source_page": 166,
       "source_pdf_page": 172,
-      "question": "METAR 2827}4174 217} \"R14/P2000\" 2 보고되었다면 이 의미는?",
+      "question": "METAR에서 활주로가시거리가 “R14/P2000”으로 보고되었다면 이 의미는?",
       "choices": [
         {
           "id": "A",
-          "text": "01) 14 방향 활주로가시거리 22000 m"
+          "text": "14 방향 활주로가시거리 2,000 m"
         },
         {
           "id": "B",
@@ -73651,7 +73651,7 @@
         },
         {
           "id": "D",
-          "text": "14 방향 활주로가시거리 22000 m 미만"
+          "text": "14 방향 활주로가시거리 2,000 m 미만"
         }
       ],
       "answer": "C",
@@ -73686,11 +73686,11 @@
       },
       "source_page": 166,
       "source_pdf_page": 172,
-      "question": "활주로가시거리(2) 보고방법에 대한 설명 중 틀린 것은?",
+      "question": "활주로가시거리(RVR) 보고방법에 대한 설명 중 틀린 것은?",
       "choices": [
         {
           "id": "A",
-          "text": "ANA 또는 활주로가시거리가 11500 미만일 때 그 기간 내내 단위로 보고한다."
+          "text": "시정 또는 활주로가시거리가 1,500 m 미만일 때 그 기간 내내 m 단위로 보고한다."
         },
         {
           "id": "B",
@@ -73698,11 +73698,11 @@
         },
         {
           "id": "C",
-          "text": ": 관측 바로 전 10분 동안에 전반 5분간 RVR 평균보다 후반 5분간 RVR Bat] 200 m 이상 차 이가 있는 경우에 변화경향을 보고한다."
+          "text": "관측 바로 전 10분 동안에 전반 5분간 RVR 평균보다 후반 5분간 RVR 평균이 200 m 이상 차이가 있는 경우에 변화경향을 보고한다."
         },
         {
           "id": "D",
-          "text": ": 관측 바로 전 10분 동안에 1분간 평균최소 과 평균최대 RVR] 차가 Bat ㅁ\\1보다 50 m"
+          "text": "관측 바로 전 10분 동안에 1분간 평균최소 RVR과 평균최대 RVR의 차가 평균 RVR보다 50 m 또는 20% 이상 차이가 있을 경우에는 10분간 RVR 평균 대신 1분간 평균최소와 1분간 평균최대 RVR을 보고한다."
         }
       ],
       "answer": "C",
@@ -73899,7 +73899,7 @@
       },
       "source_page": 167,
       "source_pdf_page": 173,
-      "question": "METAR] 부호 \"0이 의미하는 기상현상은?",
+      "question": "METAR에서 부호 “GR”이 의미하는 기상현상은?",
       "choices": [
         {
           "id": "A",
@@ -73950,7 +73950,7 @@
       },
       "source_page": 167,
       "source_pdf_page": 173,
-      "question": "7248에서 부호 “PO\"'7} 의미하는 기상현상은?",
+      "question": "TAF에서 부호 “PO”가 의미하는 기상현상은?",
       "choices": [
         {
           "id": "A",
@@ -74104,7 +74104,7 @@
       },
       "source_page": 168,
       "source_pdf_page": 174,
-      "question": "A7](smoke)S 나타내는 약자는?",
+      "question": "연기(smoke)를 나타내는 약자는?",
       "choices": [
         {
           "id": "A",
@@ -74259,11 +74259,11 @@
       },
       "source_page": 168,
       "source_pdf_page": 174,
-      "question": "수평시정이 얼마 미만일 때 기상부호 PGS 나타내는가?",
+      "question": "수평시정이 얼마 미만일 때 기상부호 FG로 나타내는가?",
       "choices": [
         {
           "id": "A",
-          "text": ") 1,000 m"
+          "text": "1,000 m"
         },
         {
           "id": "B",
@@ -74275,7 +74275,7 @@
         },
         {
           "id": "D",
-          "text": "100m"
+          "text": "100 m"
         }
       ],
       "answer": "A",
@@ -74628,7 +74628,7 @@
       },
       "source_page": 169,
       "source_pdf_page": 175,
-      "question": "보통 강도의 비가 오는 상태를 나타내는 BSE?",
+      "question": "보통 강도의 비가 오는 상태를 나타내는 부호는?",
       "choices": [
         {
           "id": "A",
@@ -74636,7 +74636,7 @@
         },
         {
           "id": "B",
-          "text": "ORA"
+          "text": "0RA"
         },
         {
           "id": "C",
@@ -74679,7 +74679,7 @@
       },
       "source_page": 169,
       "source_pdf_page": 175,
-      "question": "부호 “—RASH'7} 의미하는 기상현상은?",
+      "question": "부호 “-RASH”가 의미하는 기상현상은?",
       "choices": [
         {
           "id": "A",
@@ -74837,23 +74837,23 @@
       },
       "source_page": 169,
       "source_pdf_page": 175,
-      "question": "Drifting 8ㅁ0\\와 blowing snow 기상현상에 대한 설명 중 맞는 것은?",
+      "question": "Drifting snow와 blowing snow 기상현상에 대한 설명 중 맞는 것은?",
       "choices": [
         {
           "id": "A",
-          "text": "2 Blowing 800\\는 지표면에 쌓인 눈이 바람에 의해 날려 2 m 미만의 고도에서 시정을 감소시 키는 현상이다."
+          "text": "Blowing snow는 지표면에 쌓인 눈이 바람에 의해 날려 2 m 미만의 고도에서 시정을 감소시키는 현상이다."
         },
         {
           "id": "B",
-          "text": "Drifting 800\\는 지표면에 쌓인 눈이 바람에 의해 날려 모든 방향에 일정하게 시정을 5/8 mile 미만으로 감소시키는 현상이다."
+          "text": "Drifting snow는 지표면에 쌓인 눈이 바람에 의해 날려 모든 방향에 일정하게 시정을 5/8 mile 미만으로 감소시키는 현상이다."
         },
         {
           "id": "C",
-          "text": "0. 0 4.@ 420 4@ = 44. @"
+          "text": "Drifting snow는 blowing snow보다 시정을 더 떨어뜨린다."
         },
         {
           "id": "D",
-          "text": "70 제2편 항공기상 예보 및 관측"
+          "text": "Blowing snow는 지표면에 쌓인 눈이 바람에 의해 날려 눈높이에서의 시정을 감소시키는 현상으로, 하늘을 덮고 태양을 가려서 시정이 “0”이 되기도 한다."
         }
       ],
       "answer": "D",
@@ -74941,7 +74941,7 @@
       },
       "source_page": 170,
       "source_pdf_page": 176,
-      "question": "지상 27 이상에서의 시정은 1000 이상이지만 안개층에서의 시정은 1,000ㅁ 미만인 안 AS 나타내는 BEE?",
+      "question": "지상 2 m 이상에서의 시정은 1,000 m 이상이지만 안개층에서의 시정은 1,000 m 미만인 안개를 나타내는 부호는?",
       "choices": [
         {
           "id": "A",
@@ -75047,7 +75047,7 @@
       },
       "source_page": 170,
       "source_pdf_page": 176,
-      "question": "METAR] 약어 “FEW'7} 의미하는 운량 비율은?",
+      "question": "METAR에서 약어 “FEW”가 의미하는 운량 비율은?",
       "choices": [
         {
           "id": "A",
@@ -75202,7 +75202,7 @@
       },
       "source_page": 171,
       "source_pdf_page": 177,
-      "question": "구름의 base7} 불분명하고 안개 때문에 완전 차폐되었을 때 측정하는 AVL?",
+      "question": "구름의 base가 불분명하고 안개 때문에 완전 차폐되었을 때 측정하는 시정은?",
       "choices": [
         {
           "id": "A",
@@ -75253,23 +75253,23 @@
       },
       "source_page": 171,
       "source_pdf_page": 177,
-      "question": "산악지대에서 구름이 관측지점의 고도보다 낮을 경우 운저고도의 표시로 맞는 AL?",
+      "question": "산악지대에서 구름이 관측지점의 고도보다 낮을 경우 운저고도의 표시로 맞는 것은?",
       "choices": [
         {
           "id": "A",
-          "text": "ScTo00"
+          "text": "SCT000"
         },
         {
           "id": "B",
-          "text": "sct"
+          "text": "SCT///"
         },
         {
           "id": "C",
-          "text": "70000"
+          "text": "VV000"
         },
         {
           "id": "D",
-          "text": "wv"
+          "text": "VV///"
         }
       ],
       "answer": "B",
@@ -75304,23 +75304,23 @@
       },
       "source_page": 171,
       "source_pdf_page": 177,
-      "question": "수직시정을 관측할 + 없을 때 쓰이는 기호로 알맞은 것은?",
+      "question": "수직시정을 관측할 수 없을 때 쓰이는 기호로 알맞은 것은?",
       "choices": [
         {
           "id": "A",
-          "text": "2 W"
+          "text": "VV///"
         },
         {
           "id": "B",
-          "text": "W"
+          "text": "VV//"
         },
         {
           "id": "C",
-          "text": "vv"
+          "text": "VV/"
         },
         {
           "id": "D",
-          "text": "vw"
+          "text": "VV"
         }
       ],
       "answer": "A",
@@ -75458,23 +75458,23 @@
       },
       "source_page": 171,
       "source_pdf_page": 177,
-      "question": "Ceiling?] 정의로 올바른 AL?",
+      "question": "Ceiling의 정의로 올바른 것은?",
       "choices": [
         {
           "id": "A",
-          "text": "가장 낮은 구름충의 높이"
+          "text": "가장 낮은 구름층의 높이"
         },
         {
           "id": "B",
-          "text": "Broken 또는 overcast® 보고되는 가장 낮은 구름층의 높이"
+          "text": "Broken 또는 overcast로 보고되는 가장 낮은 구름층의 높이"
         },
         {
           "id": "C",
-          "text": "8081@[로 보고되는 가장 낮은 구름층의 높이"
+          "text": "Scattered로 보고되는 가장 낮은 구름층의 높이"
         },
         {
           "id": "D",
-          "text": "하늘의 6/10 이상을 덮는 가장 낮은 FHSS] 높이"
+          "text": "하늘의 6/10 이상을 덮는 가장 낮은 구름층의 높이"
         }
       ],
       "answer": "B",
@@ -75562,7 +75562,7 @@
       },
       "source_page": 172,
       "source_pdf_page": 178,
-      "question": "Ceiling?} 관계없는 것은?",
+      "question": "Ceiling과 관계없는 것은?",
       "choices": [
         {
           "id": "A",
@@ -75667,7 +75667,7 @@
       },
       "source_page": 172,
       "source_pdf_page": 178,
-      "question": "TAFOA] “BECMG 1012 3000 SCT003 BKN030°2-# 보고되었다면 661108은?",
+      "question": "TAF에서 “BECMG 1012 3000 SCT003 BKN030”으로 보고되었다면 ceiling은?",
       "choices": [
         {
           "id": "A",
@@ -75772,7 +75772,7 @@
       },
       "source_page": 172,
       "source_pdf_page": 178,
-      "question": "0470Ｌ과 관계가 없는 것은?",
+      "question": "CAVOK과 관계가 없는 것은?",
       "choices": [
         {
           "id": "A",
@@ -75877,7 +75877,7 @@
       },
       "source_page": 173,
       "source_pdf_page": 179,
-      "question": "다음 중 METARS] 반드시 표시하여야 할 구름은?",
+      "question": "다음 중 METAR에 반드시 표시하여야 할 구름은?",
       "choices": [
         {
           "id": "A",
@@ -75928,7 +75928,7 @@
       },
       "source_page": 173,
       "source_pdf_page": 179,
-      "question": "METAR 반드시 표시해야 하는 구름은?",
+      "question": "METAR에 반드시 표시해야 하는 구름은?",
       "choices": [
         {
           "id": "A",
@@ -75983,19 +75983,19 @@
       "choices": [
         {
           "id": "A",
-          "text": "-1"
+          "text": "-1°C"
         },
         {
           "id": "B",
-          "text": "-2T"
+          "text": "-2°C"
         },
         {
           "id": "C",
-          "text": "-3T"
+          "text": "-3°C"
         },
         {
           "id": "D",
-          "text": "-4C"
+          "text": "-4°C"
         }
       ],
       "answer": "C",
@@ -76030,7 +76030,7 @@
       },
       "source_page": 173,
       "source_pdf_page": 179,
-      "question": "METAR 전문에서 '&3006'의 의미는?",
+      "question": "METAR 전문에서 “A3006”의 의미는?",
       "choices": [
         {
           "id": "A",
@@ -76189,7 +76189,7 @@
       },
       "source_page": 174,
       "source_pdf_page": 180,
-      "question": "경향예보(7600 1076088[)에 대한 설명으로 틀린 것은?",
+      "question": "경향예보(trend forecast)에 대한 설명으로 틀린 것은?",
       "choices": [
         {
           "id": "A",
@@ -76205,7 +76205,7 @@
         },
         {
           "id": "D",
-          "text": "유효시간은 6시간 이내이다. = 잠깐! 알고 가세요. [기상예보의 발표주기 및 SSAIZH + 유효시간 12시간 미만: 3시간 + 유료시간 12시간 이상 30시간: 6시간 | ONE! 이상 30시간 미만 ICAO!"
+          "text": "유효시간은 6시간 이내이다."
         }
       ],
       "answer": "D",
@@ -76240,23 +76240,23 @@
       },
       "source_page": 175,
       "source_pdf_page": 181,
-      "question": "아래와 같은 METAROMA) 1400Z9]] 예상되는 시정은? “EDDF 2722002 280624 VRBO5SKT 4000 BR SCT005 OVC013 BECMG 1314 9000 SHRA",
+      "question": "아래와 같은 METAR에서 1400Z에 예상되는 시정은? “EDDF 272200Z 280624 VRB05KT 4000 BR SCT005 OVC013 BECMG 1314 9000 SHRA OVC015 PROB40 TEMPO 1416 VRB15G25KT 1600 TSRA OVC010CB BECMG 1618 26010KT BKN030”",
       "choices": [
         {
           "id": "A",
-          "text": "VC015 PROB40 TEMPO 1416 VRB15G25KT 1600 TSRA OVCO10CB BECMG"
-        },
-        {
-          "id": "B",
-          "text": "618 26010KT BKN030\""
-        },
-        {
-          "id": "C",
           "text": "9,000 m"
         },
         {
-          "id": "D",
+          "id": "B",
           "text": "4,000 m"
+        },
+        {
+          "id": "C",
+          "text": "1,600 m"
+        },
+        {
+          "id": "D",
+          "text": "1,000 m"
         }
       ],
       "answer": "A",
@@ -76296,19 +76296,19 @@
       "choices": [
         {
           "id": "A",
-          "text": "BECMGE 기간 내 불특정 시간에 규칙적이나 불규칙적으로 변동이 예상될 때 사용한다."
+          "text": "BECMG는 기간 내 불특정 시간에 규칙적이나 불규칙적으로 변동이 예상될 때 사용한다."
         },
         {
           "id": "B",
-          "text": "FM& 2시간 이상의 점진적인 변화가 예상될 때 사용한다."
+          "text": "FM은 2시간 이상의 점진적인 변화가 예상될 때 사용한다."
         },
         {
           "id": "C",
-          "text": "TEMPOY 특정 기간의 어느 시간에 일시적으로 변동이 예상될 때 사용한다."
+          "text": "TEMPO는 특정 기간의 어느 시간에 일시적으로 변동이 예상될 때 사용한다."
         },
         {
           "id": "D",
-          "text": "NOSIGE 어떤 중대한 변화도 발생하지 않을 것으로 예상될 때 사용한다."
+          "text": "NOSIG는 어떤 중대한 변화도 발생하지 않을 것으로 예상될 때 사용한다."
         }
       ],
       "answer": "B",
@@ -76397,23 +76397,23 @@
       },
       "source_page": 175,
       "source_pdf_page": 181,
-      "question": "METAR] “BECMG FM1100\"2 무엇을 의미하는가?",
+      "question": "METAR에서 “BECMG FM1100”은 무엇을 의미하는가?",
       "choices": [
         {
           "id": "A",
-          "text": ") 11002에 변화가 시작된다."
+          "text": "1100Z에 변화가 시작된다."
         },
         {
           "id": "B",
-          "text": "11002에 변화가 끝난다."
+          "text": "1100Z에 변화가 끝난다."
         },
         {
           "id": "C",
-          "text": "예보기간의 시작시간에 변화가 시작되어 11002에 끝난다."
+          "text": "예보기간의 시작시간에 변화가 시작되어 1100Z에 끝난다."
         },
         {
           "id": "D",
-          "text": "11002에 변화가 시작되어 예보기간의 종료시간에 끝난다."
+          "text": "1100Z에 변화가 시작되어 예보기간의 종료시간에 끝난다."
         }
       ],
       "answer": "D",
@@ -76448,23 +76448,23 @@
       },
       "source_page": 175,
       "source_pdf_page": 181,
-      "question": "METAR] 변화지시자 \"28014@\"에 대한 다음 설명 중 맞는 것은?",
+      "question": "METAR에서 변화지시자 “BECMG”에 대한 다음 설명 중 맞는 것은?",
       "choices": [
         {
           "id": "A",
-          "text": "BECMG 0203 2000: 02시에 시정은 22000 m 이다."
+          "text": "BECMG 0203 2000: 02시에 시정은 2,000 m이다."
         },
         {
           "id": "B",
-          "text": "BECMG FM0600 3000: 06시에 414-2 3,000 m 이다."
+          "text": "BECMG FM0600 3000: 06시에 시정은 3,000 m이다."
         },
         {
           "id": "C",
-          "text": "BECMG TL1030 2000: 104) 30분에 시정은 2.000 m 이다."
+          "text": "BECMG TL1030 2000: 10시 30분에 시정은 2,000 m이다."
         },
         {
           "id": "D",
-          "text": "BECMG FM1030 TL1130 3000: 10시 30분에 시정은 3.000 m 이다."
+          "text": "BECMG FM1030 TL1130 3000: 10시 30분에 시정은 3,000 m이다."
         }
       ],
       "answer": "C",
@@ -76760,23 +76760,23 @@
       },
       "source_page": 177,
       "source_pdf_page": 183,
-      "question": "Windshear PIREPo 관련된 내용 중 틀린 것은?",
+      "question": "Windshear PIREP에 관련된 내용 중 틀린 것은?",
       "choices": [
         {
           "id": "A",
-          "text": "이착륙 중 \\100811697를 경험하면 즉시 관제사에게 보고하여야 한다."
+          "text": "이착륙 중 windshear를 경험하면 즉시 관제사에게 보고하여야 한다."
         },
         {
           "id": "B",
-          "text": "고도, 속도의 SAS 포함하여 보고한다."
+          "text": "고도, 속도의 증감을 포함하여 보고한다."
         },
         {
           "id": "C",
-          "text": "LGT, MOD, SEV& 구분하여 보고한다."
+          "text": "LGT, MOD, SEV로 구분하여 보고한다."
         },
         {
           "id": "D",
-          "text": "“Negative” = “positive” windshear 용어의 사용은 피한다."
+          "text": "“Negative” 또는 “positive” windshear 용어의 사용은 피한다."
         }
       ],
       "answer": "C",
@@ -76820,15 +76820,15 @@
         },
         {
           "id": "B",
-          "text": "에코(6000)의 강도가 강하면 강수의 강도는 강하다."
+          "text": "에코(echo)의 강도가 강하면 강수의 강도는 강하다."
         },
         {
           "id": "C",
-          "text": "기상 레이더가 있으면 어느 지역이든 A 수 있다."
+          "text": "기상 레이더가 있으면 어느 지역이든 갈 수 있다."
         },
         {
           "id": "D",
-          "text": "에코(600)로부터 5~6 km 밖은 안전하다."
+          "text": "에코(echo)로부터 5~6 km 밖은 안전하다."
         }
       ],
       "answer": "B",
@@ -76863,7 +76863,7 @@
       },
       "source_page": 177,
       "source_pdf_page": 183,
-      "question": "==4\\(water 070216[)은 없으나 대기의 활동으로 반사파가 많아져 생기는 레이더 에코는?",
+      "question": "수적(water droplet)은 없으나 대기의 활동으로 반사파가 많아져 생기는 레이더 에코는?",
       "choices": [
         {
           "id": "A",
@@ -76879,7 +76879,7 @@
         },
         {
           "id": "D",
-          "text": "충상 에코"
+          "text": "층상 에코"
         }
       ],
       "answer": "B",
@@ -76968,11 +76968,11 @@
       },
       "source_page": 178,
       "source_pdf_page": 184,
-      "question": "레이더 기상보고 전문에서 '4111\\+\"가 의미하는 것은?",
+      "question": "레이더 기상보고 전문에서 “4TRW+”가 의미하는 것은?",
       "choices": [
         {
           "id": "A",
-          "text": "4/10 BY, 되우와 강한 소나기"
+          "text": "4/10 덮임, 뇌우와 강한 소나기"
         },
         {
           "id": "B",
@@ -76980,7 +76980,7 @@
         },
         {
           "id": "C",
-          "text": "4/8 BY, 뇌우와 강한 소나기"
+          "text": "4/8 덮임, 뇌우와 강한 소나기"
         },
         {
           "id": "D",
@@ -77020,7 +77020,7 @@
       },
       "source_page": 178,
       "source_pdf_page": 184,
-      "question": "약어 \"&1718\"의 의미는?",
+      "question": "약어 “ATIS”의 의미는?",
       "choices": [
         {
           "id": "A",
@@ -77333,7 +77333,7 @@
       },
       "source_page": 179,
       "source_pdf_page": 185,
-      "question": "자동기상관측 시스템 4\\08-1에서 제공하는 BRE?",
+      "question": "자동기상관측 시스템 AWOS-1에서 제공하는 정보는?",
       "choices": [
         {
           "id": "A",
@@ -77345,7 +77345,7 @@
         },
         {
           "id": "C",
-          "text": "DEA 수정치, 바람 자료, 기온, 시정, 밀도고도"
+          "text": "고도계 수정치, 바람 자료, 기온, 시정, 밀도고도"
         },
         {
           "id": "D",
