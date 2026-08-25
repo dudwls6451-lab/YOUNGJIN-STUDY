@@ -58,7 +58,11 @@
       "항공기상": 597
     },
     "weather_scope": "항공기상.pdf 모의고사 전 출제예상문제 전체 597문제",
-    "data_update": "ATP Gleim 1,075 + 항공기상 597"
+    "data_update": "ATP Gleim 1,075 + 항공기상 597 · 사용자 신고 51문항 원본 재검증",
+    "data_revision": "v11.2-wx51-recheck",
+    "data_revision_date": "2026-08-25",
+    "weather_user_report_rechecked": 51,
+    "weather_previous_corrections_preserved": 26
   },
   "subunits": [
     {
@@ -47119,7 +47123,7 @@
         },
         {
           "id": "C",
-          "text": "sa"
+          "text": "중간권"
         },
         {
           "id": "D",
@@ -47133,14 +47137,17 @@
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.924,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "대기"
-      ]
+      ],
+      "correction_status": "user_reported_fixed_v11_2",
+      "corrected_at": "2026-08-25",
+      "correction_batch": "WX-51-recheck"
     },
     {
       "id": "WX-SU3-022",
@@ -47726,19 +47733,19 @@
       "choices": [
         {
           "id": "A",
-          "text": "00ㅁ"
+          "text": "0°C"
         },
         {
           "id": "B",
-          "text": "5c"
+          "text": "5°C"
         },
         {
           "id": "C",
-          "text": "1006"
+          "text": "10°C"
         },
         {
           "id": "D",
-          "text": "150"
+          "text": "15°C"
         }
       ],
       "answer": "D",
@@ -47748,14 +47755,17 @@
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.9369,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "대기"
-      ]
+      ],
+      "correction_status": "user_reported_fixed_v11_2",
+      "corrected_at": "2026-08-25",
+      "correction_batch": "WX-51-recheck"
     },
     {
       "id": "WX-SU3-034",
@@ -47824,11 +47834,11 @@
       },
       "source_page": 24,
       "source_pdf_page": 30,
-      "question": "표준대기에 대한 설명 중 맞는 AL?",
+      "question": "표준대기에 대한 설명 중 맞는 것은?",
       "choices": [
         {
           "id": "A",
-          "text": "표준기온은 00 이다."
+          "text": "표준기온은 0°C 이다."
         },
         {
           "id": "B",
@@ -47836,11 +47846,11 @@
         },
         {
           "id": "C",
-          "text": "기압은 1000 ft 당 1기압씩 감소한다."
+          "text": "기압은 1,000 ft 당 1기압씩 감소한다."
         },
         {
           "id": "D",
-          "text": "기온은 11000 ft 당 3.50 감소한다."
+          "text": "기온은 1,000 ft 당 3.5°C 감소한다."
         }
       ],
       "answer": "B",
@@ -47850,14 +47860,17 @@
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.9708,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "대기"
-      ]
+      ],
+      "correction_status": "user_reported_fixed_v11_2",
+      "corrected_at": "2026-08-25",
+      "correction_batch": "WX-51-recheck"
     },
     {
       "id": "WX-SU3-036",
@@ -48548,7 +48561,7 @@
       },
       "source_page": 26,
       "source_pdf_page": 32,
-      "question": "U4 power 86[[178으로 따뜻한 곳에서 차가운 곳으로 비행 시 TAS(true 31180060)는?",
+      "question": "일정한 power setting으로 따뜻한 곳에서 차가운 곳으로 비행 시 TAS(true airspeed)는?",
       "choices": [
         {
           "id": "A",
@@ -48574,14 +48587,17 @@
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.8933,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "대기"
-      ]
+      ],
+      "correction_status": "user_reported_fixed_v11_2",
+      "corrected_at": "2026-08-25",
+      "correction_batch": "WX-51-recheck"
     },
     {
       "id": "WX-SU3-050",
@@ -49734,7 +49750,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "비습: 1 의 습윤공기 속에 포함된 수증기의 양"
+          "text": "비습: 1 kg의 습윤공기 속에 포함된 수증기의 양"
         },
         {
           "id": "B",
@@ -49742,7 +49758,7 @@
         },
         {
           "id": "C",
-          "text": "포화 혼합비: 건조공기 1 ker 공존하는 최대 수증기의 양"
+          "text": "포화 혼합비: 건조공기 1 kg과 공존하는 최대 수증기의 양"
         },
         {
           "id": "D",
@@ -49756,15 +49772,18 @@
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.9709,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "대기"
       ],
-      "source_explanation_ocr": true
+      "source_explanation_ocr": true,
+      "correction_status": "user_reported_fixed_v11_2",
+      "corrected_at": "2026-08-25",
+      "correction_batch": "WX-51-recheck"
     },
     {
       "id": "WX-SU3-073",
@@ -50300,7 +50319,7 @@
       },
       "source_page": 32,
       "source_pdf_page": 38,
-      "question": "단열감률(122)과 건조단열감률(04&1.20)과의 관계로 맞는 것은?",
+      "question": "단열감률(LR)과 건조단열감률(DALR)과의 관계로 맞는 것은?",
       "choices": [
         {
           "id": "A",
@@ -50316,7 +50335,7 @@
         },
         {
           "id": "D",
-          "text": "LRy} DALRE: 관련이 없다."
+          "text": "LR과 DALR은 관련이 없다."
         }
       ],
       "answer": "C",
@@ -50326,14 +50345,17 @@
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.9491,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "기상일반"
-      ]
+      ],
+      "correction_status": "user_reported_fixed_v11_2",
+      "corrected_at": "2026-08-25",
+      "correction_batch": "WX-51-recheck"
     },
     {
       "id": "WX-SU4-005",
@@ -51595,11 +51617,11 @@
         },
         {
           "id": "C",
-          "text": "WIA 방향으로 회전하면서 안쪽으로 불어 들어간다."
+          "text": "반시계 방향으로 회전하면서 안쪽으로 불어 들어간다."
         },
         {
           "id": "D",
-          "text": "WIA 방향으로 회전하면서 바깥쪽으로 불어 나간다."
+          "text": "반시계 방향으로 회전하면서 바깥쪽으로 불어 나간다."
         }
       ],
       "answer": "D",
@@ -51609,14 +51631,17 @@
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.953,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "기상일반"
-      ]
+      ],
+      "correction_status": "user_reported_fixed_v11_2",
+      "corrected_at": "2026-08-25",
+      "correction_batch": "WX-51-recheck"
     },
     {
       "id": "WX-SU4-030",
@@ -51720,8 +51745,9 @@
         "기상일반"
       ],
       "source_explanation_ocr": true,
-      "correction_status": "user_reported_fixed",
-      "corrected_at": "2026-08-25"
+      "correction_status": "user_reported_fixed_v11_2",
+      "corrected_at": "2026-08-25",
+      "correction_batch": "WX-51-recheck"
     },
     {
       "id": "WX-SU4-032",
@@ -56860,7 +56886,7 @@
       },
       "source_page": 68,
       "source_pdf_page": 74,
-      "question": "기상현상 “HZ\"o] 대한 설명으로 맞는 것은?",
+      "question": "기상현상 “HZ”에 대한 설명으로 맞는 것은?",
       "choices": [
         {
           "id": "A",
@@ -56868,11 +56894,11 @@
         },
         {
           "id": "B",
-          "text": "무수히 많은 물방울이나 습한 흡습성 입자들이 공기 중에 부유하고 있는 현상으로 우육빛으로 보인다."
+          "text": "무수히 많은 물방울이나 습한 흡습성 입자들이 공기 중에 부유하고 있는 현상으로 우윳빛으로 보인다."
         },
         {
           "id": "C",
-          "text": "아주 작고 건조한 입자가 공기 중에 무수히 부유하고 있는 현상으로 우육빛으로 보인다."
+          "text": "아주 작고 건조한 입자가 공기 중에 무수히 부유하고 있는 현상으로 우윳빛으로 보인다."
         },
         {
           "id": "D",
@@ -56886,14 +56912,17 @@
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.9328,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "안개(Fog)"
-      ]
+      ],
+      "correction_status": "user_reported_fixed_v11_2",
+      "corrected_at": "2026-08-25",
+      "correction_batch": "WX-51-recheck"
     },
     {
       "id": "WX-SU5-039",
@@ -56911,11 +56940,11 @@
       },
       "source_page": 68,
       "source_pdf_page": 74,
-      "question": "(haze) = 인한 조종사의 착시는?",
+      "question": "연무(haze)로 인한 조종사의 착시는?",
       "choices": [
         {
           "id": "A",
-          "text": ": 활주로가 좁게 보인다."
+          "text": "활주로가 좁게 보인다."
         },
         {
           "id": "B",
@@ -56923,29 +56952,32 @@
         },
         {
           "id": "C",
-          "text": "활주로가 멀게 보인다. 있어서, 대기가 우웃빛으로 흐려 보이는 현상을 말한다. 이러한 대기의 연무는 조종사에게 활주로로부 터 더 먼 거리에 있는 것 같은 착각을 유발시킨다."
+          "text": "활주로가 가깝게 보인다."
         },
         {
           "id": "D",
-          "text": "5.@ 30 37. 6 38. 6 39. @"
+          "text": "활주로가 멀게 보인다."
         }
       ],
       "answer": "D",
-      "explanation": "연무(412\", 6820)란 HOS 볼 수 없는 대단히 미세하고 건조한 입자들이 대기 중에 수없이 많이 떠 있어서, 대기가 우웃빛으로 흐려 보이는 현상을 말한다. 이러한 대기의 연무는 조종사에게 활주로로부 터 더 먼 거리에 있는 것 같은 착각을 유발시킨다. 35.@ 30 37. 6 38. 6 39. @ 출제예상문제 69 . 기단과 전선",
+      "explanation": "연무(HZ)가 있으면 조종사는 활주로로부터 더 먼 거리에 있는 것 같은 착각을 일으킬 수 있다.",
       "explanation_language": "ko",
       "reference": "항공기상.pdf · 출제예상문제",
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.9697,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "안개(Fog)"
       ],
-      "source_explanation_ocr": true
+      "source_explanation_ocr": true,
+      "correction_status": "user_reported_fixed_v11_2",
+      "corrected_at": "2026-08-25",
+      "correction_batch": "WX-51-recheck"
     },
     {
       "id": "WX-SU6-001",
@@ -57711,7 +57743,7 @@
         },
         {
           "id": "D",
-          "text": "동해안에 Be 굿은 날씨가 나타난다."
+          "text": "동해안에 잦은 궂은 날씨가 나타난다."
         }
       ],
       "answer": "C",
@@ -57721,14 +57753,17 @@
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.9125,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "기단과 전선"
-      ]
+      ],
+      "correction_status": "user_reported_fixed_v11_2",
+      "corrected_at": "2026-08-25",
+      "correction_batch": "WX-51-recheck"
     },
     {
       "id": "WX-SU6-016",
@@ -57805,11 +57840,11 @@
         },
         {
           "id": "B",
-          "text": "F¥H4 기단 - 오호츠크해 기단"
+          "text": "양쯔강 기단 - 오호츠크해 기단"
         },
         {
           "id": "C",
-          "text": "FA 기단 - 북태평양 기단"
+          "text": "양쯔강 기단 - 북태평양 기단"
         },
         {
           "id": "D",
@@ -57823,14 +57858,17 @@
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.9218,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "기단과 전선"
-      ]
+      ],
+      "correction_status": "user_reported_fixed_v11_2",
+      "corrected_at": "2026-08-25",
+      "correction_batch": "WX-51-recheck"
     },
     {
       "id": "WX-SU6-018",
@@ -58754,8 +58792,9 @@
         "항공기상",
         "기단과 전선"
       ],
-      "correction_status": "user_reported_fixed",
-      "corrected_at": "2026-08-25"
+      "correction_status": "user_reported_fixed_v11_2",
+      "corrected_at": "2026-08-25",
+      "correction_batch": "WX-51-recheck"
     },
     {
       "id": "WX-SU6-036",
@@ -59143,7 +59182,7 @@
         },
         {
           "id": "C",
-          "text": "뇌우의 각각의 구름은 수 2에서 수 십 102까지 수평적으로 형성된다."
+          "text": "뇌우의 각각의 구름은 수 km에서 수 십 km까지 수평적으로 형성된다."
         },
         {
           "id": "D",
@@ -59157,14 +59196,17 @@
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.9391,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "뇌우와 번개"
-      ]
+      ],
+      "correction_status": "user_reported_fixed_v11_2",
+      "corrected_at": "2026-08-25",
+      "correction_batch": "WX-51-recheck"
     },
     {
       "id": "WX-SU7-002",
@@ -59799,7 +59841,7 @@
       },
       "source_page": 95,
       "source_pdf_page": 101,
-      "question": "뇌우의 생성 및 소멸 과정에 대한 설명 중 올바른 AL?",
+      "question": "뇌우의 생성 및 소멸 과정에 대한 설명 중 올바른 것은?",
       "choices": [
         {
           "id": "A",
@@ -59815,7 +59857,7 @@
         },
         {
           "id": "D",
-          "text": "소멸단계에서는 상승기류가 지속적으로 생성되면서 하강기류는 점차 약해진다. 7@ 80 9@ 100 10@ 20 1 0 14.0 96 제1편 항공기상학 GHA) 뇌우의 단계 및 특징은 다음과 같다. 단계 특징 Clic eve) | , 강한 상승기류가 발생하면서 algo] 급격하게 성장한다. *상승기류와 하강기류가 함께 나타나며 천둥, 번개, 소나기, 우박 등을 동반 x 한다. (Matec have) | , 구름의 하충으로부터 강수가 시작된다. 뷔 * 냉각된 하강기류는 지면 위에서 수평으로 퍼지면서 지상에 강한 SF (gusty wind), 급격한 기온 강하 및 기압의 급상승을 일으킨다. 소멸기 se 르가 Os 스가 Oks"
+          "text": "소멸단계에서는 상승기류가 지속적으로 생성되면서 하강기류는 점차 약해진다."
         }
       ],
       "answer": "C",
@@ -59825,14 +59867,17 @@
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.9086,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "뇌우와 번개"
-      ]
+      ],
+      "correction_status": "user_reported_fixed_v11_2",
+      "corrected_at": "2026-08-25",
+      "correction_batch": "WX-51-recheck"
     },
     {
       "id": "WX-SU7-015",
@@ -60106,7 +60151,7 @@
       },
       "source_page": 97,
       "source_pdf_page": 103,
-      "question": "Squall 1106이 주로 발생하는 위치는?",
+      "question": "Squall line이 주로 발생하는 위치는?",
       "choices": [
         {
           "id": "A",
@@ -60132,15 +60177,18 @@
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.9378,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "뇌우와 번개"
       ],
-      "source_explanation_ocr": true
+      "source_explanation_ocr": true,
+      "correction_status": "user_reported_fixed_v11_2",
+      "corrected_at": "2026-08-25",
+      "correction_batch": "WX-51-recheck"
     },
     {
       "id": "WX-SU7-021",
@@ -62180,7 +62228,7 @@
       },
       "source_page": 103,
       "source_pdf_page": 109,
-      "question": "0'C~-10 COA] 가장 빈번하게 발생되는 착빙은?",
+      "question": "0°C~-10°C에서 가장 빈번하게 발생되는 착빙은?",
       "choices": [
         {
           "id": "A",
@@ -62206,14 +62254,17 @@
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.947,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "착빙(Icing)"
-      ]
+      ],
+      "correction_status": "user_reported_fixed_v11_2",
+      "corrected_at": "2026-08-25",
+      "correction_batch": "WX-51-recheck"
     },
     {
       "id": "WX-SU8-031",
@@ -62591,7 +62642,7 @@
       },
       "source_page": 105,
       "source_pdf_page": 111,
-      "question": "중심 부근의 최대풍속이 34~47 ktsel 열대성저기압은?",
+      "question": "중심 부근의 최대풍속이 34~47 kts인 열대성저기압은?",
       "choices": [
         {
           "id": "A",
@@ -62617,14 +62668,17 @@
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.8812,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "태풍"
-      ]
+      ],
+      "correction_status": "user_reported_fixed_v11_2",
+      "corrected_at": "2026-08-25",
+      "correction_batch": "WX-51-recheck"
     },
     {
       "id": "WX-SU9-005",
@@ -62693,7 +62747,7 @@
       },
       "source_page": 105,
       "source_pdf_page": 111,
-      "question": "&-S(typhoon) 중심 부근의 최대풍속은?",
+      "question": "태풍(typhoon) 중심 부근의 최대풍속은?",
       "choices": [
         {
           "id": "A",
@@ -62719,14 +62773,17 @@
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.9214,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "태풍"
-      ]
+      ],
+      "correction_status": "user_reported_fixed_v11_2",
+      "corrected_at": "2026-08-25",
+      "correction_batch": "WX-51-recheck"
     },
     {
       "id": "WX-SU9-007",
@@ -62881,8 +62938,9 @@
         "항공기상",
         "태풍"
       ],
-      "correction_status": "user_reported_fixed",
-      "corrected_at": "2026-08-25"
+      "correction_status": "user_reported_fixed_v11_2",
+      "corrected_at": "2026-08-25",
+      "correction_batch": "WX-51-recheck"
     },
     {
       "id": "WX-SU9-010",
@@ -63159,7 +63217,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "태풍 중심부 주변은 적란운이 존재하고 [400416006가 심하다."
+          "text": "태풍 중심부 주변은 적란운이 존재하고 turbulence가 심하다."
         },
         {
           "id": "B",
@@ -63171,7 +63229,7 @@
         },
         {
           "id": "D",
-          "text": "저고도 비행 시 태풍의 SAS 오른쪽에 두고 비행하면 배풍을 받으면서 비행할 수 있다."
+          "text": "저고도 비행 시 태풍의 중심을 오른쪽에 두고 비행하면 배풍을 받으면서 비행할 수 있다."
         }
       ],
       "answer": "C",
@@ -63181,14 +63239,17 @@
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.9123,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "태풍"
-      ]
+      ],
+      "correction_status": "user_reported_fixed_v11_2",
+      "corrected_at": "2026-08-25",
+      "correction_batch": "WX-51-recheck"
     },
     {
       "id": "WX-SU9-016",
@@ -63669,15 +63730,15 @@
       },
       "source_page": 108,
       "source_pdf_page": 114,
-      "question": "항적 난류 회피 시 대형 항공기 뒤에 내리는 소형 항공기의 착륙 ABH 적합한 것은?",
+      "question": "항적 난류 회피 시 대형 항공기 뒤에 내리는 소형 항공기의 착륙 경로로 적합한 것은?",
       "choices": [
         {
           "id": "A",
-          "text": "Glide 91006 경로상의 아래쪽으로 내린다."
+          "text": "Glide slope 경로상의 아래쪽으로 내린다."
         },
         {
           "id": "B",
-          "text": "Glide 91006 경로상의 위쪽으로 내린다."
+          "text": "Glide slope 경로상의 위쪽으로 내린다."
         },
         {
           "id": "C",
@@ -63685,7 +63746,7 @@
         },
         {
           "id": "D",
-          "text": "2 대형 항공기의 착륙지점과 동일한 지점에 착륙한다."
+          "text": "대형 항공기의 착륙지점과 동일한 지점에 착륙한다."
         }
       ],
       "answer": "B",
@@ -63695,14 +63756,17 @@
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.9015,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "난기류"
-      ]
+      ],
+      "correction_status": "user_reported_fixed_v11_2",
+      "corrected_at": "2026-08-25",
+      "correction_batch": "WX-51-recheck"
     },
     {
       "id": "WX-SU10-009",
@@ -64392,7 +64456,7 @@
         },
         {
           "id": "B",
-          "text": "BAL"
+          "text": "모자운"
         },
         {
           "id": "C",
@@ -64410,14 +64474,17 @@
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.8692,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "난기류"
-      ]
+      ],
+      "correction_status": "user_reported_fixed_v11_2",
+      "corrected_at": "2026-08-25",
+      "correction_batch": "WX-51-recheck"
     },
     {
       "id": "WX-SU10-023",
@@ -67787,23 +67854,23 @@
       },
       "source_page": 138,
       "source_pdf_page": 144,
-      "question": "다음 중 hail 나타내는 기상 기호는?",
+      "question": "다음 중 hail을 나타내는 기상 기호는?",
       "choices": [
         {
           "id": "A",
-          "text": "A"
+          "text": "①"
         },
         {
           "id": "B",
-          "text": "@@O"
+          "text": "②"
         },
         {
           "id": "C",
-          "text": "n)"
+          "text": "③"
         },
         {
           "id": "D",
-          "text": "e"
+          "text": "④"
         }
       ],
       "answer": "A",
@@ -67812,10 +67879,12 @@
       "reference": "항공기상.pdf · 출제예상문제",
       "requires_figure": true,
       "figure_refs": [],
-      "images": [],
-      "answer_confidence": 0.9361,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed_figure_notice",
+      "images": [
+        "figures/WX-SU11-029.png"
+      ],
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
@@ -67824,7 +67893,11 @@
       "source_raw_ocr": [
         "【문제】 29. 다음 중 hail 나타내는 기상 기호는?",
         "OA                  Q@@O               On)                  Oe"
-      ]
+      ],
+      "image": "figures/WX-SU11-029.png",
+      "correction_status": "user_reported_fixed_v11_2",
+      "corrected_at": "2026-08-25",
+      "correction_batch": "WX-51-recheck"
     },
     {
       "id": "WX-SU11-030",
@@ -67897,7 +67970,7 @@
       },
       "source_page": 138,
       "source_pdf_page": 144,
-      "question": "기상 기호 @ 의 의미는?",
+      "question": "아래 기상 기호의 의미는?",
       "choices": [
         {
           "id": "A",
@@ -67922,10 +67995,12 @@
       "reference": "항공기상.pdf · 출제예상문제",
       "requires_figure": true,
       "figure_refs": [],
-      "images": [],
-      "answer_confidence": 0.8884,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed_figure_notice",
+      "images": [
+        "figures/WX-SU11-031.png"
+      ],
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
@@ -67935,7 +68010,11 @@
         "【문제】 31. 기상 기호 @ 의 의미는?",
         "@® Shower rain                              @ Freezing rain",
         "@® Haze                                      @® Thunderstorm"
-      ]
+      ],
+      "image": "figures/WX-SU11-031.png",
+      "correction_status": "user_reported_fixed_v11_2",
+      "corrected_at": "2026-08-25",
+      "correction_batch": "WX-51-recheck"
     },
     {
       "id": "WX-SU11-032",
@@ -68305,23 +68384,23 @@
       },
       "source_page": 139,
       "source_pdf_page": 145,
-      "question": "저고도 순항 시 하층운에서 습기 유입상태 등의 기상변화를 조사하는데 이용되는 “SF 4h(constant pressure) 차트는?",
+      "question": "저고도 순항 시 하층운에서 습기 유입상태 등의 기상변화를 조사하는데 이용되는 등압(constant pressure) 차트는?",
       "choices": [
         {
           "id": "A",
-          "text": ") 300 hpa 등압 차트"
+          "text": "300 hPa 등압 차트"
         },
         {
           "id": "B",
-          "text": "500 hpa 등압 차트"
+          "text": "500 hPa 등압 차트"
         },
         {
           "id": "C",
-          "text": "700 hpa 등압 차트"
+          "text": "700 hPa 등압 차트"
         },
         {
           "id": "D",
-          "text": "850 hpa 등압 차트"
+          "text": "850 hPa 등압 차트"
         }
       ],
       "answer": "D",
@@ -68331,14 +68410,17 @@
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.9517,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "일기도"
-      ]
+      ],
+      "correction_status": "user_reported_fixed_v11_2",
+      "corrected_at": "2026-08-25",
+      "correction_batch": "WX-51-recheck"
     },
     {
       "id": "WX-SU11-039",
@@ -68971,7 +69053,7 @@
       },
       "source_page": 140,
       "source_pdf_page": 146,
-      "question": "상층 일기도 분석에서 등고선이 9,180 spmS 기준으로 하여 120 gpm 간격으로 그려진 일 기도는?",
+      "question": "상층 일기도 분석에서 등고선이 9,180 gpm을 기준으로 하여 120 gpm 간격으로 그려진 일기도는?",
       "choices": [
         {
           "id": "A",
@@ -68997,14 +69079,17 @@
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.8855,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "일기도"
-      ]
+      ],
+      "correction_status": "user_reported_fixed_v11_2",
+      "corrected_at": "2026-08-25",
+      "correction_batch": "WX-51-recheck"
     },
     {
       "id": "WX-SU11-052",
@@ -69089,7 +69174,7 @@
         },
         {
           "id": "D",
-          "text": ") 300 hPa 일기도"
+          "text": "300 hPa 일기도"
         }
       ],
       "answer": "B",
@@ -69099,14 +69184,17 @@
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.9544,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "일기도"
-      ]
+      ],
+      "correction_status": "user_reported_fixed_v11_2",
+      "corrected_at": "2026-08-25",
+      "correction_batch": "WX-51-recheck"
     },
     {
       "id": "WX-SU11-054",
@@ -69179,7 +69267,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "1. 180"
+          "text": "FL 180"
         },
         {
           "id": "B",
@@ -69201,14 +69289,17 @@
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.8544,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "일기도"
-      ]
+      ],
+      "correction_status": "user_reported_fixed_v11_2",
+      "corrected_at": "2026-08-25",
+      "correction_batch": "WX-51-recheck"
     },
     {
       "id": "WX-SU11-056",
@@ -69552,11 +69643,11 @@
       },
       "source_page": 142,
       "source_pdf_page": 148,
-      "question": "TAFS] 유효시간은?",
+      "question": "TAF의 유효시간은?",
       "choices": [
         {
           "id": "A",
-          "text": "0 5시간 이상, 24시간 미만"
+          "text": "5시간 이상, 24시간 미만"
         },
         {
           "id": "B",
@@ -69568,7 +69659,7 @@
         },
         {
           "id": "D",
-          "text": "34시간 이상, 30시간 미만"
+          "text": "24시간 이상, 30시간 미만"
         }
       ],
       "answer": "C",
@@ -69578,14 +69669,17 @@
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.9502,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "항공기상 예보"
-      ]
+      ],
+      "correction_status": "user_reported_fixed_v11_2",
+      "corrected_at": "2026-08-25",
+      "correction_batch": "WX-51-recheck"
     },
     {
       "id": "WX-SU12-003",
@@ -69654,7 +69748,7 @@
       },
       "source_page": 142,
       "source_pdf_page": 148,
-      "question": "유효시간이 12~30시간인 TAF] 발행주기는?",
+      "question": "유효시간이 12~30시간인 TAF의 발행주기는?",
       "choices": [
         {
           "id": "A",
@@ -69680,15 +69774,18 @@
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.9451,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "항공기상 예보"
       ],
-      "source_explanation_ocr": true
+      "source_explanation_ocr": true,
+      "correction_status": "user_reported_fixed_v11_2",
+      "corrected_at": "2026-08-25",
+      "correction_batch": "WX-51-recheck"
     },
     {
       "id": "WX-SU12-005",
@@ -69860,23 +69957,23 @@
       },
       "source_page": 143,
       "source_pdf_page": 149,
-      "question": "다음과 같은 TAF 전문에서 풍향과 풍속은? TAF RKSI 1305002 130606 21015G25KT 8000 SHRA SCTO10CB BECMG 1214 NSW _SCT025",
+      "question": "다음과 같은 TAF 전문에서 풍향과 풍속은?\nTAF RKSI 130500Z 130606 21015G25KT 8000 SHRA SCT010CB BECMG 1214 NSW SCT025",
       "choices": [
         {
           "id": "A",
-          "text": "풍향 210“, 최대순간풍속 15 kt, 평균풍속 25 kt"
+          "text": "풍향 210°, 최대순간풍속 15 kt, 평균풍속 25 kt"
         },
         {
           "id": "B",
-          "text": "풍향 210“, 최대순간풍속 25 kt, 평균풍속 15 kt"
+          "text": "풍향 210°, 최대순간풍속 25 kt, 평균풍속 15 kt"
         },
         {
           "id": "C",
-          "text": "풍향 15“, 최대순간풍속 21 kt, BSS 21 kt"
+          "text": "풍향 15°, 최대순간풍속 21 kt, 평균풍속 21 kt"
         },
         {
           "id": "D",
-          "text": "풍향 15“, 최대순간풍속 25 kt, 평균풍속 210 kt"
+          "text": "풍향 15°, 최대순간풍속 25 kt, 평균풍속 210 kt"
         }
       ],
       "answer": "B",
@@ -69886,14 +69983,17 @@
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.8715,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "항공기상 예보"
-      ]
+      ],
+      "correction_status": "user_reported_fixed_v11_2",
+      "corrected_at": "2026-08-25",
+      "correction_batch": "WX-51-recheck"
     },
     {
       "id": "WX-SU12-009",
@@ -70427,7 +70527,7 @@
       },
       "source_page": 145,
       "source_pdf_page": 151,
-      "question": "기상현상 변화지시자(08086 indicator) “TEMPO\"o] 대한 설명으로 틀린 것은?",
+      "question": "기상현상 변화지시자(change indicator) “TEMPO”에 대한 설명으로 틀린 것은?",
       "choices": [
         {
           "id": "A",
@@ -70443,7 +70543,7 @@
         },
         {
           "id": "D",
-          "text": "일시적인 변화가 1시간 이상 지속될 것으로 예상되면 “BECMG\"S 사용해야 한다."
+          "text": "일시적인 변화가 1시간 이상 지속될 것으로 예상되면 “BECMG”를 사용해야 한다."
         }
       ],
       "answer": "B",
@@ -70453,14 +70553,17 @@
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.9546,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "항공기상 예보"
-      ]
+      ],
+      "correction_status": "user_reported_fixed_v11_2",
+      "corrected_at": "2026-08-25",
+      "correction_batch": "WX-51-recheck"
     },
     {
       "id": "WX-SU12-020",
@@ -70478,7 +70581,7 @@
       },
       "source_page": 145,
       "source_pdf_page": 151,
-      "question": "740“에서 변화지시자 \"TEMPO\" 각 변동의 지속시간이 ( )이며, 변동 지속시간의 합이 해당 시간 동안 ( )일 것으로 예상될 때 사용해야 한다. ( ) 안에 맞는 것은?",
+      "question": "TAF에서 변화지시자 “TEMPO”는 각 변동의 지속시간이 ( )이며, 변동 지속시간의 합이 해당 시간 동안 ( )일 것으로 예상될 때 사용해야 한다. ( ) 안에 맞는 것은?",
       "choices": [
         {
           "id": "A",
@@ -70494,7 +70597,7 @@
         },
         {
           "id": "D",
-          "text": "3시간 미만, 1/2 미만"
+          "text": "2시간 미만, 1/2 미만"
         }
       ],
       "answer": "B",
@@ -70504,14 +70607,17 @@
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.9275,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "항공기상 예보"
-      ]
+      ],
+      "correction_status": "user_reported_fixed_v11_2",
+      "corrected_at": "2026-08-25",
+      "correction_batch": "WX-51-recheck"
     },
     {
       "id": "WX-SU12-021",
@@ -70711,11 +70817,11 @@
       },
       "source_page": 146,
       "source_pdf_page": 152,
-      "question": "Significant Weather Charto]A] 기호 AL2] 의미는?",
+      "question": "Significant Weather Chart에서 아래 기호의 의미는?",
       "choices": [
         {
           "id": "A",
-          "text": ") Squall line"
+          "text": "Squall line"
         },
         {
           "id": "B",
@@ -70734,17 +70840,23 @@
       "explanation": "정답은 B입니다. 정답 보기: Moderate turbulence",
       "explanation_language": "ko",
       "reference": "항공기상.pdf · 출제예상문제",
-      "requires_figure": false,
+      "requires_figure": true,
       "figure_refs": [],
-      "images": [],
-      "answer_confidence": 0.9371,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "images": [
+        "figures/WX-SU12-024.png"
+      ],
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "항공기상 예보"
-      ]
+      ],
+      "image": "figures/WX-SU12-024.png",
+      "correction_status": "user_reported_fixed_v11_2",
+      "corrected_at": "2026-08-25",
+      "correction_batch": "WX-51-recheck"
     },
     {
       "id": "WX-SU12-025",
@@ -71024,7 +71136,7 @@
       },
       "source_page": 147,
       "source_pdf_page": 153,
-      "question": "SIGWX chart] 기호 == 2} 의미는?",
+      "question": "SIGWX chart에서 기호 “=”의 의미는?",
       "choices": [
         {
           "id": "A",
@@ -71050,9 +71162,9 @@
       "requires_figure": true,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.9014,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed_figure_notice",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
@@ -71062,7 +71174,10 @@
         "[241] 30. SIGWX chart] 기호 == 2} 의미는?",
         "(1) 광범위한 모래                     (2) 광범위한 박무",
         "(3) 광범위한 연무                      @ 광범위한 안개"
-      ]
+      ],
+      "correction_status": "user_reported_fixed_v11_2",
+      "corrected_at": "2026-08-25",
+      "correction_batch": "WX-51-recheck"
     },
     {
       "id": "WX-SU12-031",
@@ -71190,7 +71305,7 @@
       },
       "source_page": 147,
       "source_pdf_page": 153,
-      "question": "SIGWX 0}18파에서 ISOLS] coverage?",
+      "question": "SIGWX Chart에서 ISOL의 coverage는?",
       "choices": [
         {
           "id": "A",
@@ -71216,9 +71331,9 @@
       "requires_figure": true,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.9066,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed_figure_notice",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
@@ -71228,7 +71343,10 @@
         "[24] 33. SIGWX 0}18파에서 ISOLS] coverage?",
         "@ less than 50%                          @ 50~75%",
         "@ above 75%                            ® 100%"
-      ]
+      ],
+      "correction_status": "user_reported_fixed_v11_2",
+      "corrected_at": "2026-08-25",
+      "correction_batch": "WX-51-recheck"
     },
     {
       "id": "WX-SU12-034",
@@ -71316,23 +71434,23 @@
       },
       "source_page": 148,
       "source_pdf_page": 154,
-      "question": "High-Level Prog SIGWX 0018파에서 아래 그림과 같은 기호의 \"XXX\"; 의미하는 것은?",
+      "question": "High-Level Prog SIGWX Chart에서 아래 그림과 같은 기호의 “XXX”가 의미하는 것은?",
       "choices": [
         {
           "id": "A",
-          "text": "구름의 운저(6386)를 알 수 없다."
+          "text": "구름의 운저(base)를 알 수 없다."
         },
         {
           "id": "B",
-          "text": "구름의 운저(6886)가 FL420 미만이다."
+          "text": "구름의 운저(base)가 FL420 미만이다."
         },
         {
           "id": "C",
-          "text": "구름의 -22| (base) 7} FL250 미만이다."
+          "text": "구름의 운저(base)가 FL250 미만이다."
         },
         {
           "id": "D",
-          "text": "구름의 운저0(6886)가 FL200 미만이다."
+          "text": "구름의 운저(base)가 FL200 미만이다."
         }
       ],
       "answer": "C",
@@ -71341,10 +71459,12 @@
       "reference": "항공기상.pdf · 출제예상문제",
       "requires_figure": true,
       "figure_refs": [],
-      "images": [],
-      "answer_confidence": 0.9492,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed_figure_notice",
+      "images": [
+        "figures/WX-SU12-035.png"
+      ],
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
@@ -71356,7 +71476,11 @@
         "ISOL 540        @ 구름의 운저(6886)가 FL420 미만이다.",
         "(Ga      (3) 구름의 -22| (base) 7} FL250 미만이다.",
         "@ 구름의 운저0(6886)가 FL200 미만이다."
-      ]
+      ],
+      "image": "figures/WX-SU12-035.png",
+      "correction_status": "user_reported_fixed_v11_2",
+      "corrected_at": "2026-08-25",
+      "correction_batch": "WX-51-recheck"
     },
     {
       "id": "WX-SU12-036",
@@ -72513,7 +72637,7 @@
       },
       "source_page": 163,
       "source_pdf_page": 169,
-      "question": "항공기가 활주로에서 이륙 A tower 불러주는 풍향과 풍속은 몇 분 동안의 평균값인가?",
+      "question": "항공기가 활주로에서 이륙 전 tower에서 불러주는 풍향과 풍속은 몇 분 동안의 평균값인가?",
       "choices": [
         {
           "id": "A",
@@ -72539,9 +72663,9 @@
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.8266,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
@@ -72550,7 +72674,10 @@
       "source_raw_ocr": [
         "【문제】6. 항공기가 활주로에서 이륙 A tower 불러주는 풍향과 풍속은 몇 분 동안의 평균값인가?",
         "0 2분               @ 5분               @ 10분              @ 15분"
-      ]
+      ],
+      "correction_status": "user_reported_fixed_v11_2",
+      "corrected_at": "2026-08-25",
+      "correction_batch": "WX-51-recheck"
     },
     {
       "id": "WX-SU13-007",
@@ -72684,7 +72811,7 @@
       },
       "source_page": 164,
       "source_pdf_page": 170,
-      "question": "기상 보고 시 “0810 의 기준은?",
+      "question": "기상 보고 시 “calm”의 기준은?",
       "choices": [
         {
           "id": "A",
@@ -72692,7 +72819,7 @@
         },
         {
           "id": "B",
-          "text": "1kt 미만"
+          "text": "1 kt 미만"
         },
         {
           "id": "C",
@@ -72710,14 +72837,17 @@
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.9109,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "항공기상 관측"
-      ]
+      ],
+      "correction_status": "user_reported_fixed_v11_2",
+      "corrected_at": "2026-08-25",
+      "correction_batch": "WX-51-recheck"
     },
     {
       "id": "WX-SU13-010",
@@ -73298,7 +73428,7 @@
       },
       "source_page": 166,
       "source_pdf_page": 172,
-      "question": "약어 \"의 의미는?",
+      "question": "약어 “RVR”의 의미는?",
       "choices": [
         {
           "id": "A",
@@ -73324,14 +73454,17 @@
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.9549,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "항공기상 관측"
-      ]
+      ],
+      "correction_status": "user_reported_fixed_v11_2",
+      "corrected_at": "2026-08-25",
+      "correction_batch": "WX-51-recheck"
     },
     {
       "id": "WX-SU13-022",
@@ -73503,7 +73636,7 @@
       },
       "source_page": 167,
       "source_pdf_page": 173,
-      "question": "약어 “POS 나타내는 기상현상은?",
+      "question": "약어 “PO”로 나타내는 기상현상은?",
       "choices": [
         {
           "id": "A",
@@ -73529,14 +73662,17 @@
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.9642,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "항공기상 관측"
-      ]
+      ],
+      "correction_status": "user_reported_fixed_v11_2",
+      "corrected_at": "2026-08-25",
+      "correction_batch": "WX-51-recheck"
     },
     {
       "id": "WX-SU13-026",
@@ -73554,7 +73690,7 @@
       },
       "source_page": 167,
       "source_pdf_page": 173,
-      "question": "부호 “PL\"o] 의미하는 기상현상은?",
+      "question": "부호 “PL”이 의미하는 기상현상은?",
       "choices": [
         {
           "id": "A",
@@ -73580,14 +73716,17 @@
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.8719,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "항공기상 관측"
-      ]
+      ],
+      "correction_status": "user_reported_fixed_v11_2",
+      "corrected_at": "2026-08-25",
+      "correction_batch": "WX-51-recheck"
     },
     {
       "id": "WX-SU13-027",
@@ -74069,7 +74208,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "6"
+          "text": "FG"
         },
         {
           "id": "B",
@@ -74091,14 +74230,17 @@
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.9384,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "항공기상 관측"
-      ]
+      ],
+      "correction_status": "user_reported_fixed_v11_2",
+      "corrected_at": "2026-08-25",
+      "correction_batch": "WX-51-recheck"
     },
     {
       "id": "WX-SU13-037",
@@ -74116,7 +74258,7 @@
       },
       "source_page": 168,
       "source_pdf_page": 174,
-      "question": "METAR 전문에서 부호 “BR\"°] 의미하는 기상현상은?",
+      "question": "METAR 전문에서 부호 “BR”이 의미하는 기상현상은?",
       "choices": [
         {
           "id": "A",
@@ -74142,14 +74284,17 @@
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.9103,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "항공기상 관측"
-      ]
+      ],
+      "correction_status": "user_reported_fixed_v11_2",
+      "corrected_at": "2026-08-25",
+      "correction_batch": "WX-51-recheck"
     },
     {
       "id": "WX-SU13-038",
@@ -74238,7 +74383,7 @@
         }
       ],
       "answer": "C",
-      "explanation": "정답은 C이다. 기상부호 PY는 Spray(물보라)를 뜻하므로 'PY: Pay'는 틀리게 연결된 보기이다.",
+      "explanation": "정답은 C이다. 교재 원문에서 C는 의도적으로 틀리게 연결된 보기다. 기상부호 PY는 Spray를 뜻한다.",
       "explanation_language": "ko",
       "reference": "항공기상.pdf · 출제예상문제",
       "requires_figure": false,
@@ -74252,8 +74397,9 @@
         "항공기상",
         "항공기상 관측"
       ],
-      "correction_status": "user_reported_fixed",
-      "corrected_at": "2026-08-25"
+      "correction_status": "user_reported_fixed_v11_2",
+      "corrected_at": "2026-08-25",
+      "correction_batch": "WX-51-recheck"
     },
     {
       "id": "WX-SU13-040",
@@ -74688,7 +74834,7 @@
       },
       "source_page": 170,
       "source_pdf_page": 176,
-      "question": "약어 “SCT’S] 운량은?",
+      "question": "약어 “SCT”의 운량은?",
       "choices": [
         {
           "id": "A",
@@ -74714,14 +74860,17 @@
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.9256,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "항공기상 관측"
-      ]
+      ],
+      "correction_status": "user_reported_fixed_v11_2",
+      "corrected_at": "2026-08-25",
+      "correction_batch": "WX-51-recheck"
     },
     {
       "id": "WX-SU13-049",
@@ -75303,40 +75452,43 @@
       },
       "source_page": 172,
       "source_pdf_page": 178,
-      "question": "아래와 같이 METAR7} 보고되었다면 601108은 얼마인가? “METAR RKSS 211025Z 31015KT 6000 1400SW R14L/P1500 +SHRA BR BKNO08",
+      "question": "아래와 같이 METAR가 보고되었다면 ceiling은 얼마인가?\n“METAR RKSS 211025Z 31015KT 6000 1400SW R14L/P1500 +SHRA BR BKN008 OVC020 18/15”",
       "choices": [
         {
           "id": "A",
-          "text": "VC020 18/15\""
-        },
-        {
-          "id": "B",
           "text": "600 ft"
         },
         {
-          "id": "C",
+          "id": "B",
           "text": "800 ft"
         },
         {
-          "id": "D",
+          "id": "C",
           "text": "1,400 ft"
+        },
+        {
+          "id": "D",
+          "text": "2,000 ft"
         }
       ],
       "answer": "B",
-      "explanation": "정답은 B입니다. 정답 보기: 600 ft",
+      "explanation": "Ceiling은 BKN 또는 OVC로 보고된 가장 낮은 구름층의 높이이다. BKN008이므로 800 ft이다.",
       "explanation_language": "ko",
       "reference": "항공기상.pdf · 출제예상문제",
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.9224,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "항공기상 관측"
-      ]
+      ],
+      "correction_status": "user_reported_fixed_v11_2",
+      "corrected_at": "2026-08-25",
+      "correction_batch": "WX-51-recheck"
     },
     {
       "id": "WX-SU13-061",
@@ -75818,23 +75970,23 @@
       },
       "source_page": 174,
       "source_pdf_page": 180,
-      "question": "다음 METAR] 대한 해석으로 맞는 것은? “25020G38KT 1200 +TSGR BKN006 BKNO15CB 23/18 01016 BECMG NSW =\"",
+      "question": "다음 METAR에 대한 해석으로 맞는 것은?\n“25020G38KT 1200 +TSGR BKN006 BKN015CB 23/18 Q1016 BECMG NSW =”",
       "choices": [
         {
           "id": "A",
-          "text": "Broken 운고 600 와 1500 ft, 기온 18°C"
+          "text": "Broken 운고 600 ft와 1500 ft, 기온 18°C"
         },
         {
           "id": "B",
-          "text": "풍향 250°, 우박을 동반한 보통 강도의 뇌우, 기압"
+          "text": "풍향 250°, 우박을 동반한 보통 강도의 뇌우, 기압 QNH 1016 hPa"
         },
         {
           "id": "C",
-          "text": "NH 1016 hPa"
+          "text": "38 kts의 돌풍, 우박을 동반한 강한 강도의 뇌우, 이슬점온도 18°C"
         },
         {
           "id": "D",
-          "text": "38 168의 돌풍, 우박을 동반한 강한 강도의 뇌우, 이슬점온도 18:"
+          "text": "평균 풍속 20~38 kts, 시정 1200 m, 기온 23°C"
         }
       ],
       "answer": "C",
@@ -75844,14 +75996,17 @@
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.9499,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "항공기상 관측"
-      ]
+      ],
+      "correction_status": "user_reported_fixed_v11_2",
+      "corrected_at": "2026-08-25",
+      "correction_batch": "WX-51-recheck"
     },
     {
       "id": "WX-SU13-071",
@@ -76023,23 +76178,23 @@
       },
       "source_page": 175,
       "source_pdf_page": 181,
-      "question": "변화지시자 \"788014@에 대한 다음 설명 중 틀린 것은?",
+      "question": "변화지시자 “BECMG”에 대한 다음 설명 중 틀린 것은?",
       "choices": [
         {
           "id": "A",
-          "text": "BECMG FM1100: 변화가 11002에 급격히 나타난다."
+          "text": "BECMG FM1100: 변화가 1100Z에 급격히 나타난다."
         },
         {
           "id": "B",
-          "text": "BECMG FM1100 TL1400: 변화가 11002에 나타나서 14002에 끝난다."
+          "text": "BECMG FM1100 TL1400: 변화가 1100Z에 나타나서 1400Z에 끝난다."
         },
         {
           "id": "C",
-          "text": "BECMG TL1300: 변화가 예보기간의 시작시간에 같이 시작되어 13002에 끝난다."
+          "text": "BECMG TL1300: 변화가 예보기간의 시작시간에 같이 시작되어 1300Z에 끝난다."
         },
         {
           "id": "D",
-          "text": ") BECMG AT1200: 변화가 12002에 나타난다."
+          "text": "BECMG AT1200: 변화가 1200Z에 나타난다."
         }
       ],
       "answer": "A",
@@ -76049,14 +76204,17 @@
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.9355,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "항공기상 관측"
-      ]
+      ],
+      "correction_status": "user_reported_fixed_v11_2",
+      "corrected_at": "2026-08-25",
+      "correction_batch": "WX-51-recheck"
     },
     {
       "id": "WX-SU13-075",
@@ -76595,11 +76753,11 @@
         },
         {
           "id": "B",
-          "text": "목표물에 반사되어 되돌아오는 반사파를 에코(6010)라고 한다."
+          "text": "목표물에 반사되어 되돌아오는 반사파를 에코(echo)라고 한다."
         },
         {
           "id": "C",
-          "text": "항공기 탑재용은 5 cm} 10 om, 그리고 지상용은 3 om 파장의 레이더를 사용한다."
+          "text": "항공기 탑재용은 5 cm와 10 cm, 그리고 지상용은 3 cm 파장의 레이더를 사용한다."
         },
         {
           "id": "D",
@@ -76613,14 +76771,17 @@
       "requires_figure": false,
       "figure_refs": [],
       "images": [],
-      "answer_confidence": 0.9319,
-      "answer_source": "교재 페이지 하단 정답표 이미지 판독",
-      "extraction_quality": "ocr_reviewed",
+      "answer_confidence": 1.0,
+      "answer_source": "항공기상.pdf 원본 페이지 직접 대조",
+      "extraction_quality": "manual_source_verified",
       "difficulty": null,
       "tags": [
         "항공기상",
         "항공기상 정보"
-      ]
+      ],
+      "correction_status": "user_reported_fixed_v11_2",
+      "corrected_at": "2026-08-25",
+      "correction_batch": "WX-51-recheck"
     },
     {
       "id": "WX-SU14-007",
