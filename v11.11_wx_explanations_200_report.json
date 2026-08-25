@@ -1,0 +1,103 @@
+{
+  "version": "v11.11",
+  "base": "v11.10",
+  "total_bank_questions": 2512,
+  "weather_questions": 922,
+  "explanations_rewritten": 200,
+  "range": [
+    "WX-SU3-001",
+    "WX-SU5-027"
+  ],
+  "text_corrections": [
+    {
+      "id": "WX-SU3-031",
+      "field": "choice C",
+      "before": "29 inHg",
+      "after": "29.92 inHg",
+      "reason": "ISA standard pressure"
+    },
+    {
+      "id": "WX-SU3-034",
+      "field": "choice B",
+      "before": "59°F, 1013.2 mb",
+      "after": "59°C, 1013.2 mb",
+      "reason": "PDF original restored; avoids duplicate correct answer"
+    },
+    {
+      "id": "WX-SU4-032",
+      "field": "choices C/D",
+      "before": "C=counterclockwise/up, D=counterclockwise/down",
+      "after": "C=counterclockwise/down, D=counterclockwise/up",
+      "reason": "PDF original restored; answer D now conceptually correct"
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "WX-SU3-034",
+      "question": "해수면 고도에서의 표준기온 및 기압은 얼마인가?",
+      "current_answer": "A",
+      "note": "선택지 B가 기존 JSON에서 59°F로 잘못 정리되어 있었음. 원문 59°C로 복원 필요."
+    },
+    {
+      "id": "WX-SU3-055",
+      "question": "비행중 관제탑에서 불러준 기압수정치 29.85 inHg로 고도계를 맞추었다면 지시하는 고도는?",
+      "current_answer": "C",
+      "note": "문항의 '진고도' 표현은 엄밀히는 indicated altitude/MSL altitude와 구분 필요. 정답 변경은 하지 않음."
+    },
+    {
+      "id": "WX-SU3-061",
+      "question": "항공정보에 사용되는 측정단위로 맞는 것은?",
+      "current_answer": "D",
+      "note": "보기 A(속도 kt)도 항공에서 일반적으로 사용되는 단위라 문항이 모호함."
+    },
+    {
+      "id": "WX-SU4-020",
+      "question": "다음 중 뇌우가 발생할 수 있는 SSI 조건은?",
+      "current_answer": "C",
+      "note": "SSI 임계값은 기관/교재별 분류표가 다를 수 있어 교재식 범주 문제로 보는 것이 안전함."
+    },
+    {
+      "id": "WX-SU4-032",
+      "question": "북반구에서 저기압의 바람 방향은?",
+      "current_answer": "D",
+      "note": "기존 JSON에서 C/D 선택지 문구가 원문과 뒤바뀌어 있었음. 원문은 C=반시계+하강, D=반시계+상승. 선택지 복원 필요."
+    },
+    {
+      "id": "WX-SU4-049",
+      "question": "항공기 타이어의 압력이 121 psi일 때 동적수막이 발생할 수 있는 속도는?",
+      "current_answer": "B",
+      "note": "FAA 문헌의 근사식에 따라 121 psi 결과가 약 95~99 kt로 달라짐. 교재의 96 kt는 시험값이므로 추후 정답 기준 검토 권장."
+    },
+    {
+      "id": "WX-SU1-019",
+      "question": "기압경도력과 원심력이 평형을 이루며 부는 바람은?",
+      "current_answer": "C",
+      "note": "'선형풍'은 일반적인 영문 용어와 대응이 불명확함. 개념상 cyclostrophic wind로 해석해 해설 작성."
+    },
+    {
+      "id": "WX-SU2-023",
+      "question": "강수 예보가 있다면 최소한의 구름 두께는?",
+      "current_answer": "C",
+      "note": "4,000 ft는 교재식 경험값이며 FAA 일반 기상자료에서 보편적 최소 구름두께 규정으로 쓰는 값은 아님."
+    },
+    {
+      "id": "WX-SU5-020",
+      "question": "복사안개에 대한 설명으로 틀린 것은?",
+      "current_answer": "A",
+      "note": "교재 정답 A와 해설이 서로 모순됨. FAA 기상 원리상 A~D가 모두 대체로 참이라 문항 무효 가능성이 높음."
+    },
+    {
+      "id": "WX-SU5-026",
+      "question": "해무는 언제 부는가?",
+      "current_answer": "D",
+      "note": "원문 자체가 '해무는 언제 부는가?'로 인쇄되어 있고 정답 D이나, 개념상 오류 가능성 매우 높음. 해풍을 뜻했다면 C가 정답."
+    }
+  ],
+  "answer_keys_changed": [],
+  "policy": "No answer key was changed in this pass. Clearly defective/ambiguous items were flagged rather than guessed.",
+  "official_reference_status": {
+    "FAA-H-8083-28B": "current FAA Aviation Weather Handbook page verified 2026-08-25",
+    "FAA-H-8083-25C": "current PHAK; weather theory Ch.12, weather services Ch.13",
+    "hydroplaning": "FAA-H-8083-3C AFH Ch.9 and AC 91-79A; coefficient differences noted in explanation"
+  }
+}
