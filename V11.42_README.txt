@@ -1,0 +1,14 @@
+항공 문제은행 v11.42 중앙 오류보고 UI 호환 패치
+
+1) v11.41의 supabase/V11.41_ERROR_REPORTS.sql을 아직 실행하지 않았다면 SQL Editor에서 먼저 실행합니다.
+   이미 Success가 났다면 다시 실행할 필요 없습니다.
+2) index.html 과 assets/app-v11-21.js 를 GitHub 같은 경로에 업로드/덮어씁니다.
+3) 배포 후 Ctrl+F5 또는 강력 새로고침합니다.
+
+변경:
+- 일반 사용자 오류 목록의 '전체 복사'를 완전히 제거하고 '오류 보고'로 교체
+- '오류 보고' 클릭 -> public.error_reports로 서버 전송
+- 구버전 index.html이 캐시되어 #copyErrorsBtn이 남아도 JS가 자동으로 오류 보고 버튼으로 변환
+- 관리자(is_admin=true)에게만 '보고된 오류' 메뉴 노출
+- 관리자 화면은 Supabase error_reports에서 전체 제출 목록을 불러옴
+- 일반 사용자는 다른 사용자의 오류 보고를 조회할 수 없음 (RLS)
