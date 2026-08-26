@@ -1,0 +1,12 @@
+{
+  "version":"v11.46",
+  "base":"v11.45",
+  "changes":[
+    "airline quick navigation added",
+    "sidebar/top navigation collapse works on wide and narrow layouts",
+    "active quiz exit confirmation added for navigation actions",
+    "theory-learning light surfaces normalized to dark palette",
+    "v11.45 server-backed study time preserved"
+  ],
+  "sql_required":false
+}
