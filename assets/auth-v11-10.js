@@ -15,6 +15,10 @@
   // Supabase 사용자는 가입 승인 상태를 그대로 접근 권한으로 사용합니다.
   const LEGACY_RESOURCE_LIBRARY_USERS = new Set(["김영진_시험용"]);
 
+  // v11.50: 기능별 접근 권한. 별도 설정이 없으면 승인 사용자는 기본 허용합니다.
+  const FEATURE_KEYS = ["problem_bank", "theory_learning", "aviwiki", "airline_course", "wrong_review", "resource_library"];
+  const DEFAULT_FEATURE_ACCESS = Object.fromEntries(FEATURE_KEYS.map(key => [key, true]));
+
   let currentIdentity = null;
   let pendingPromise = null;
   let idleTimer = null;
@@ -238,6 +242,30 @@
     return null;
   }
 
+  async function fetchOwnFeatureAccess(userId) {
+    const supabase = client();
+    if (!supabase || !userId) return { ...DEFAULT_FEATURE_ACCESS };
+    try {
+      const { data, error } = await supabase
+        .from("user_feature_access")
+        .select("feature_key,enabled")
+        .eq("user_id", userId);
+      if (error) {
+        // 테이블 적용 전/일시 오류 시 기존 기능을 막지 않습니다.
+        console.warn("[Auth] feature access fetch", error);
+        return { ...DEFAULT_FEATURE_ACCESS };
+      }
+      const access = { ...DEFAULT_FEATURE_ACCESS };
+      (data || []).forEach(row => {
+        if (FEATURE_KEYS.includes(row.feature_key)) access[row.feature_key] = row.enabled !== false;
+      });
+      return access;
+    } catch (err) {
+      console.warn("[Auth] feature access fetch", err);
+      return { ...DEFAULT_FEATURE_ACCESS };
+    }
+  }
+
   async function getSupabaseIdentity() {
     const supabase = client();
     if (!supabase) return null;
@@ -245,7 +273,8 @@
     if (error || !data?.session?.user) return null;
     const user = data.session.user;
     const profile = await fetchOwnProfile(user.id);
-    return { kind: "supabase", user, profile };
+    const featureAccess = profile?.is_admin ? { ...DEFAULT_FEATURE_ACCESS } : await fetchOwnFeatureAccess(user.id);
+    return { kind: "supabase", user, profile, featureAccess };
   }
 
   function approvalState(identity) {
@@ -284,6 +313,7 @@
         const updated = await fetchOwnProfile(identity.user.id, false);
         if (updated) identity.profile = updated;
         if (approvalState(identity) === "approved") {
+          identity.featureAccess = identity.profile?.is_admin ? { ...DEFAULT_FEATURE_ACCESS } : await fetchOwnFeatureAccess(identity.user.id);
           currentIdentity = identity;
           await showWelcome(overlay, identity);
           overlay.remove();
@@ -603,18 +633,40 @@
     return identityLabel(currentIdentity) || getLegacySessionUser();
   }
 
-  function canAccessResourceLibrary() {
+  function canAccessFeature(featureKey) {
+    if (!FEATURE_KEYS.includes(featureKey)) return false;
     if (!currentIdentity) {
       const legacy = getLegacySessionUser();
-      return !!legacy && LEGACY_RESOURCE_LIBRARY_USERS.has(legacy);
+      if (legacy) return true;
+      return false;
     }
-    if (currentIdentity.kind === "legacy") {
-      return LEGACY_RESOURCE_LIBRARY_USERS.has(currentIdentity.username);
-    }
+    if (currentIdentity.kind === "legacy") return true;
     if (currentIdentity.kind === "supabase") {
-      return approvalState(currentIdentity) === "approved";
+      if (approvalState(currentIdentity) !== "approved") return false;
+      if (currentIdentity.profile?.is_admin) return true;
+      return currentIdentity.featureAccess?.[featureKey] !== false;
     }
     return false;
+  }
+
+  function canAccessResourceLibrary() {
+    if (currentIdentity?.kind === "legacy") {
+      return LEGACY_RESOURCE_LIBRARY_USERS.has(currentIdentity.username);
+    }
+    return canAccessFeature("resource_library");
+  }
+
+  async function refreshFeatureAccess() {
+    if (currentIdentity?.kind !== "supabase" || !currentIdentity.user?.id) return { ...DEFAULT_FEATURE_ACCESS };
+    currentIdentity.featureAccess = currentIdentity.profile?.is_admin
+      ? { ...DEFAULT_FEATURE_ACCESS }
+      : await fetchOwnFeatureAccess(currentIdentity.user.id);
+    return { ...currentIdentity.featureAccess };
+  }
+
+  function getCurrentFeatureAccess() {
+    if (currentIdentity?.kind === "legacy" || currentIdentity?.profile?.is_admin) return { ...DEFAULT_FEATURE_ACCESS };
+    return { ...DEFAULT_FEATURE_ACCESS, ...(currentIdentity?.featureAccess || {}) };
   }
 
   function progressStorageKey(baseKey = "pilotQuestionBankProgressV2") {
@@ -636,5 +688,8 @@
     getCurrentProfile,
     progressStorageKey,
     canAccessResourceLibrary,
+    canAccessFeature,
+    getCurrentFeatureAccess,
+    refreshFeatureAccess,
   };
 })();
