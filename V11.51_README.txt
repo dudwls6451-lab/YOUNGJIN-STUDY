@@ -1,0 +1,18 @@
+Aviation Question Bank v11.51
+
+[추가 기능]
+관리자 > 회원 관리에서 모든 회원의 학습 현황을 한눈에 확인합니다.
+- 오늘 학습시간
+- 총 누적 학습시간
+- 전체 진도: 푼 고유 문제 / 현재 전체 문제 수
+- 누적 정답률: 누적 정답 / 누적 시도
+
+[적용 순서]
+1. Supabase SQL Editor에서 supabase/V11.51_MEMBER_LEARNING_OVERVIEW.sql 전체 실행
+2. GitHub에 아래 파일 덮어쓰기
+   - index.html
+   - assets/app-v11-28.js
+   - assets/member-admin-v11-51.js
+3. 배포 후 강력 새로고침
+
+기존 회원 승인/거절/기능별 접근권한은 그대로 유지됩니다.
