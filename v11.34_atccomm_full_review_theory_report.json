@@ -1,0 +1,855 @@
+{
+  "version": "v11.34",
+  "base": "v11.33-ui-recovery",
+  "purpose": "항공교통통신 938문항 source review + 전체 이론학습 25단계",
+  "source": {
+    "pdf": "항공교통통신  ocr_압축됨.pdf",
+    "pdf_pages": 295,
+    "question_count": 938
+  },
+  "question_bank": {
+    "before_total": 3319,
+    "before_atccomm": 300,
+    "after_total": 3957,
+    "after_atccomm": 938,
+    "expected_questions": 563,
+    "mock_exam_questions": 375,
+    "pending_answers_after": 0
+  },
+  "review": {
+    "answer_changes_count": 111,
+    "answer_changes": [
+      {
+        "id": "ATC-COMM-309",
+        "old": null,
+        "new": "D",
+        "source": "교재 출제예상문제 정답표/해설 대조"
+      },
+      {
+        "id": "ATC-COMM-334",
+        "old": null,
+        "new": "D",
+        "source": "교재 출제예상문제 정답표/해설 대조"
+      },
+      {
+        "id": "ATC-COMM-337",
+        "old": null,
+        "new": "D",
+        "source": "교재 출제예상문제 정답표/해설 대조"
+      },
+      {
+        "id": "ATC-COMM-359",
+        "old": null,
+        "new": "D",
+        "source": "교재 출제예상문제 정답표/해설 대조"
+      },
+      {
+        "id": "ATC-COMM-370",
+        "old": null,
+        "new": "D",
+        "source": "교재 출제예상문제 정답표/해설 대조"
+      },
+      {
+        "id": "ATC-COMM-371",
+        "old": null,
+        "new": "A",
+        "source": "교재 출제예상문제 정답표/해설 대조"
+      },
+      {
+        "id": "ATC-COMM-376",
+        "old": null,
+        "new": "D",
+        "source": "교재 출제예상문제 정답표/해설 대조"
+      },
+      {
+        "id": "ATC-COMM-387",
+        "old": null,
+        "new": "D",
+        "source": "교재 출제예상문제 정답표/해설 대조"
+      },
+      {
+        "id": "ATC-COMM-400",
+        "old": null,
+        "new": "D",
+        "source": "교재 출제예상문제 정답표/해설 대조"
+      },
+      {
+        "id": "ATC-COMM-401",
+        "old": null,
+        "new": "D",
+        "source": "교재 출제예상문제 정답표/해설 대조"
+      },
+      {
+        "id": "ATC-COMM-410",
+        "old": null,
+        "new": "D",
+        "source": "교재 출제예상문제 정답표/해설 대조"
+      },
+      {
+        "id": "ATC-COMM-415",
+        "old": null,
+        "new": "D",
+        "source": "교재 출제예상문제 정답표/해설 대조"
+      },
+      {
+        "id": "ATC-COMM-416",
+        "old": null,
+        "new": "D",
+        "source": "교재 출제예상문제 정답표/해설 대조"
+      },
+      {
+        "id": "ATC-COMM-420",
+        "old": null,
+        "new": "D",
+        "source": "교재 출제예상문제 정답표/해설 대조"
+      },
+      {
+        "id": "ATC-COMM-422",
+        "old": null,
+        "new": "D",
+        "source": "교재 출제예상문제 정답표/해설 대조"
+      },
+      {
+        "id": "ATC-COMM-426",
+        "old": null,
+        "new": "D",
+        "source": "교재 출제예상문제 정답표/해설 대조"
+      },
+      {
+        "id": "ATC-COMM-427",
+        "old": null,
+        "new": "C",
+        "source": "교재 출제예상문제 정답표/해설 대조"
+      },
+      {
+        "id": "ATC-COMM-428",
+        "old": null,
+        "new": "D",
+        "source": "교재 출제예상문제 정답표/해설 대조"
+      },
+      {
+        "id": "ATC-COMM-443",
+        "old": null,
+        "new": "D",
+        "source": "교재 출제예상문제 정답표/해설 대조"
+      },
+      {
+        "id": "ATC-COMM-448",
+        "old": null,
+        "new": "D",
+        "source": "교재 출제예상문제 정답표/해설 대조"
+      },
+      {
+        "id": "ATC-COMM-451",
+        "old": null,
+        "new": "D",
+        "source": "교재 출제예상문제 정답표/해설 대조"
+      },
+      {
+        "id": "ATC-COMM-452",
+        "old": null,
+        "new": "D",
+        "source": "교재 출제예상문제 정답표/해설 대조"
+      },
+      {
+        "id": "ATC-COMM-466",
+        "old": null,
+        "new": "D",
+        "source": "교재 출제예상문제 정답표/해설 대조"
+      },
+      {
+        "id": "ATC-COMM-475",
+        "old": null,
+        "new": "D",
+        "source": "교재 출제예상문제 정답표/해설 대조"
+      },
+      {
+        "id": "ATC-COMM-476",
+        "old": null,
+        "new": "B",
+        "source": "교재 출제예상문제 정답표/해설 대조"
+      },
+      {
+        "id": "ATC-COMM-483",
+        "old": null,
+        "new": "D",
+        "source": "교재 출제예상문제 정답표/해설 대조"
+      },
+      {
+        "id": "ATC-COMM-486",
+        "old": null,
+        "new": "D",
+        "source": "교재 출제예상문제 정답표/해설 대조"
+      },
+      {
+        "id": "ATC-COMM-488",
+        "old": null,
+        "new": "D",
+        "source": "교재 출제예상문제 정답표/해설 대조"
+      },
+      {
+        "id": "ATC-COMM-500",
+        "old": null,
+        "new": "D",
+        "source": "교재 출제예상문제 정답표/해설 대조"
+      },
+      {
+        "id": "ATC-COMM-502",
+        "old": null,
+        "new": "D",
+        "source": "교재 출제예상문제 정답표/해설 대조"
+      },
+      {
+        "id": "ATC-COMM-513",
+        "old": null,
+        "new": "D",
+        "source": "교재 출제예상문제 정답표/해설 대조"
+      },
+      {
+        "id": "ATC-COMM-514",
+        "old": null,
+        "new": "D",
+        "source": "교재 출제예상문제 정답표/해설 대조"
+      },
+      {
+        "id": "ATC-COMM-515",
+        "old": null,
+        "new": "D",
+        "source": "교재 출제예상문제 정답표/해설 대조"
+      },
+      {
+        "id": "ATC-COMM-517",
+        "old": null,
+        "new": "D",
+        "source": "교재 출제예상문제 정답표/해설 대조"
+      },
+      {
+        "id": "ATC-COMM-520",
+        "old": null,
+        "new": "D",
+        "source": "교재 출제예상문제 정답표/해설 대조"
+      },
+      {
+        "id": "ATC-COMM-521",
+        "old": null,
+        "new": "D",
+        "source": "교재 출제예상문제 정답표/해설 대조"
+      },
+      {
+        "id": "ATC-COMM-526",
+        "old": null,
+        "new": "D",
+        "source": "교재 출제예상문제 정답표/해설 대조"
+      },
+      {
+        "id": "ATC-COMM-531",
+        "old": null,
+        "new": "D",
+        "source": "교재 출제예상문제 정답표/해설 대조"
+      },
+      {
+        "id": "ATC-COMM-532",
+        "old": null,
+        "new": "D",
+        "source": "교재 출제예상문제 정답표/해설 대조"
+      },
+      {
+        "id": "ATC-COMM-537",
+        "old": null,
+        "new": "D",
+        "source": "교재 출제예상문제 정답표/해설 대조"
+      },
+      {
+        "id": "ATC-COMM-538",
+        "old": null,
+        "new": "D",
+        "source": "교재 출제예상문제 정답표/해설 대조"
+      },
+      {
+        "id": "ATC-COMM-544",
+        "old": null,
+        "new": "D",
+        "source": "교재 출제예상문제 정답표/해설 대조"
+      },
+      {
+        "id": "ATC-COMM-549",
+        "old": null,
+        "new": "D",
+        "source": "교재 출제예상문제 정답표/해설 대조"
+      },
+      {
+        "id": "ATC-COMM-552",
+        "old": null,
+        "new": "D",
+        "source": "교재 출제예상문제 정답표/해설 대조"
+      },
+      {
+        "id": "ATC-COMM-331",
+        "old": "A",
+        "new": "D",
+        "source": "교재 정답표 + 본문/해설 대조"
+      },
+      {
+        "id": "ATC-COMM-363",
+        "old": "C",
+        "new": "D",
+        "source": "교재 정답표 + 본문/해설 대조"
+      },
+      {
+        "id": "ATC-COMM-562",
+        "old": "C",
+        "new": "D",
+        "source": "교재 정답표 + 본문/해설 대조"
+      },
+      {
+        "id": "ATC-COMM-564",
+        "old": null,
+        "new": "B",
+        "source": "교재 모의고사 1회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-565",
+        "old": null,
+        "new": "A",
+        "source": "교재 모의고사 1회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-570",
+        "old": null,
+        "new": "B",
+        "source": "교재 모의고사 1회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-572",
+        "old": "B",
+        "new": "D",
+        "source": "교재 모의고사 1회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-578",
+        "old": null,
+        "new": "A",
+        "source": "교재 모의고사 1회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-589",
+        "old": null,
+        "new": "C",
+        "source": "교재 모의고사 2회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-595",
+        "old": null,
+        "new": "B",
+        "source": "교재 모의고사 2회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-596",
+        "old": "B",
+        "new": "D",
+        "source": "교재 모의고사 2회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-634",
+        "old": null,
+        "new": "B",
+        "source": "교재 모의고사 3회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-638",
+        "old": null,
+        "new": "D",
+        "source": "교재 모의고사 3회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-664",
+        "old": "C",
+        "new": "D",
+        "source": "교재 모의고사 5회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-666",
+        "old": null,
+        "new": "A",
+        "source": "교재 모의고사 5회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-668",
+        "old": null,
+        "new": "A",
+        "source": "교재 모의고사 5회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-671",
+        "old": null,
+        "new": "B",
+        "source": "교재 모의고사 5회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-675",
+        "old": "C",
+        "new": "D",
+        "source": "교재 모의고사 5회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-683",
+        "old": "C",
+        "new": "D",
+        "source": "교재 모의고사 5회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-707",
+        "old": null,
+        "new": "A",
+        "source": "교재 모의고사 6회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-709",
+        "old": null,
+        "new": "C",
+        "source": "교재 모의고사 6회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-710",
+        "old": null,
+        "new": "B",
+        "source": "교재 모의고사 6회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-718",
+        "old": "C",
+        "new": "D",
+        "source": "교재 모의고사 7회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-732",
+        "old": "B",
+        "new": "C",
+        "source": "교재 모의고사 7회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-739",
+        "old": "A",
+        "new": "C",
+        "source": "교재 모의고사 8회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-741",
+        "old": null,
+        "new": "B",
+        "source": "교재 모의고사 8회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-743",
+        "old": "B",
+        "new": "C",
+        "source": "교재 모의고사 8회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-764",
+        "old": null,
+        "new": "B",
+        "source": "교재 모의고사 9회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-769",
+        "old": null,
+        "new": "A",
+        "source": "교재 모의고사 9회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-772",
+        "old": null,
+        "new": "B",
+        "source": "교재 모의고사 9회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-773",
+        "old": "C",
+        "new": "D",
+        "source": "교재 모의고사 9회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-783",
+        "old": "C",
+        "new": "D",
+        "source": "교재 모의고사 9회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-784",
+        "old": null,
+        "new": "C",
+        "source": "교재 모의고사 9회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-785",
+        "old": "C",
+        "new": "D",
+        "source": "교재 모의고사 9회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-788",
+        "old": null,
+        "new": "A",
+        "source": "교재 모의고사 9회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-790",
+        "old": null,
+        "new": "B",
+        "source": "교재 모의고사 10회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-793",
+        "old": "B",
+        "new": "A",
+        "source": "교재 모의고사 10회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-795",
+        "old": null,
+        "new": "B",
+        "source": "교재 모의고사 10회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-796",
+        "old": "B",
+        "new": "A",
+        "source": "교재 모의고사 10회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-812",
+        "old": null,
+        "new": "B",
+        "source": "교재 모의고사 10회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-813",
+        "old": "B",
+        "new": "A",
+        "source": "교재 모의고사 10회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-814",
+        "old": null,
+        "new": "A",
+        "source": "교재 모의고사 11회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-826",
+        "old": "A",
+        "new": "B",
+        "source": "교재 모의고사 11회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-839",
+        "old": null,
+        "new": "B",
+        "source": "교재 모의고사 12회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-849",
+        "old": "B",
+        "new": "A",
+        "source": "교재 모의고사 12회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-850",
+        "old": "B",
+        "new": "A",
+        "source": "교재 모의고사 12회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-857",
+        "old": "C",
+        "new": "D",
+        "source": "교재 모의고사 12회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-860",
+        "old": "D",
+        "new": "A",
+        "source": "교재 모의고사 12회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-864",
+        "old": "C",
+        "new": "A",
+        "source": "교재 모의고사 13회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-866",
+        "old": null,
+        "new": "B",
+        "source": "교재 모의고사 13회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-869",
+        "old": "C",
+        "new": "A",
+        "source": "교재 모의고사 13회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-871",
+        "old": "C",
+        "new": "D",
+        "source": "교재 모의고사 13회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-884",
+        "old": "C",
+        "new": "A",
+        "source": "교재 모의고사 13회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-889",
+        "old": null,
+        "new": "C",
+        "source": "교재 모의고사 14회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-890",
+        "old": null,
+        "new": "B",
+        "source": "교재 모의고사 14회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-891",
+        "old": "C",
+        "new": "D",
+        "source": "교재 모의고사 14회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-909",
+        "old": null,
+        "new": "A",
+        "source": "교재 모의고사 14회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-914",
+        "old": null,
+        "new": "B",
+        "source": "교재 모의고사 15회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-915",
+        "old": null,
+        "new": "A",
+        "source": "교재 모의고사 15회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-918",
+        "old": null,
+        "new": "C",
+        "source": "교재 모의고사 15회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-919",
+        "old": null,
+        "new": "B",
+        "source": "교재 모의고사 15회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-922",
+        "old": null,
+        "new": "C",
+        "source": "교재 모의고사 15회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-927",
+        "old": null,
+        "new": "A",
+        "source": "교재 모의고사 15회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-928",
+        "old": null,
+        "new": "C",
+        "source": "교재 모의고사 15회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-931",
+        "old": null,
+        "new": "B",
+        "source": "교재 모의고사 15회 정답표 대조"
+      },
+      {
+        "id": "ATC-COMM-650",
+        "old": null,
+        "new": "B",
+        "source": "교재 모의고사 4회 해설 대조"
+      },
+      {
+        "id": "ATC-COMM-661",
+        "old": null,
+        "new": "B",
+        "source": "교재 모의고사 4회 해설 대조"
+      }
+    ],
+    "text_field_changes_count": 104,
+    "known_ocr_marker_hits_after": [],
+    "residual_special_symbol_question_ids": []
+  },
+  "theory": {
+    "stage_count": 25,
+    "linked_expected_questions": 563,
+    "quiz_questions_per_stage": 10,
+    "pass_correct": 8,
+    "mock_exams_not_stage_linked": 375,
+    "stage_sizes": [
+      {
+        "id": "ATC-TH-01",
+        "title": "항행안전무선시설 · ILS · GPS · 서비스 범위",
+        "questions": 32
+      },
+      {
+        "id": "ATC-TH-02",
+        "title": "비행장등대 · VASI/PAPI · 활주로/유도로 등화",
+        "questions": 21
+      },
+      {
+        "id": "ATC-TH-03",
+        "title": "활주로·유도로 표지와 비행장 표지판",
+        "questions": 25
+      },
+      {
+        "id": "ATC-TH-04",
+        "title": "항공교통업무의 목적 · 공역 등급 A~G",
+        "questions": 27
+      },
+      {
+        "id": "ATC-TH-05",
+        "title": "특수사용공역 · ATS 기관 · 항공로 · UTC · PBN/RNAV",
+        "questions": 34
+      },
+      {
+        "id": "ATC-TH-06",
+        "title": "ATC 우선순위 · 순항/최저고도 · 교체비행장 · 기상/고도계",
+        "questions": 19
+      },
+      {
+        "id": "ATC-TH-07",
+        "title": "비관제공항 CTAF/UNICOM · ATIS",
+        "questions": 19
+      },
+      {
+        "id": "ATC-TH-08",
+        "title": "교통조언 · MSAW · VFR 레이더업무 · 트랜스폰더",
+        "questions": 29
+      },
+      {
+        "id": "ATC-TH-09",
+        "title": "관제탑 공항 · 제동상태 · 빛총신호",
+        "questions": 18
+      },
+      {
+        "id": "ATC-TH-10",
+        "title": "지상통신 · Taxi · Option approach · 항공기 등화",
+        "questions": 12
+      },
+      {
+        "id": "ATC-TH-11",
+        "title": "ATC Clearance · Pilot’s Discretion · Special VFR",
+        "questions": 15
+      },
+      {
+        "id": "ATC-TH-12",
+        "title": "IFR 분리기준 · 속도조절",
+        "questions": 16
+      },
+      {
+        "id": "ATC-TH-13",
+        "title": "시각경계 · TCAS · Radar/ATCRBS/ASR/ARSR/PAR",
+        "questions": 13
+      },
+      {
+        "id": "ATC-TH-14",
+        "title": "비행전 · 비행계획서(ICAO FPL) · 변경/종료",
+        "questions": 27
+      },
+      {
+        "id": "ATC-TH-15",
+        "title": "출발절차 · Pre-taxi · Void/Release · ODP/SID",
+        "questions": 21
+      },
+      {
+        "id": "ATC-TH-16",
+        "title": "항공로 절차 · 주파수변경 · 위치보고 · Holding",
+        "questions": 24
+      },
+      {
+        "id": "ATC-TH-17",
+        "title": "도착절차 · STAR · MSA/MVA · 계기/시각접근",
+        "questions": 48
+      },
+      {
+        "id": "ATC-TH-18",
+        "title": "조종사·관제사 역할과 책임 · Minimum Fuel",
+        "questions": 10
+      },
+      {
+        "id": "ATC-TH-19",
+        "title": "국가안보 · ADIZ · 요격절차와 신호",
+        "questions": 17
+      },
+      {
+        "id": "ATC-TH-20",
+        "title": "비상지원 · 7700 · ELT · 수색구조",
+        "questions": 15
+      },
+      {
+        "id": "ATC-TH-21",
+        "title": "비상단계 · MAYDAY/PAN-PAN · Hijack · Fuel Dump · 통신두절",
+        "questions": 34
+      },
+      {
+        "id": "ATC-TH-22",
+        "title": "무선통신 일반운용 · Phraseology · 교신실패/Radio Check",
+        "questions": 18
+      },
+      {
+        "id": "ATC-TH-23",
+        "title": "문자·숫자 송신 · AFS/AFTN · 전문 우선순위",
+        "questions": 29
+      },
+      {
+        "id": "ATC-TH-24",
+        "title": "AIS · AIP · NOTAM/SNOWTAM · AIRAC/AIC",
+        "questions": 26
+      },
+      {
+        "id": "ATC-TH-25",
+        "title": "항공지도의 종류 · 축척 · 장애물도 표기와 기호",
+        "questions": 14
+      }
+    ]
+  },
+  "ui_safety": {
+    "active_js": "assets/app-v11-18.js",
+    "active_css": "assets/style-v11-33.css",
+    "new_nested_folders_created": false,
+    "resource_flattening_preserved": true
+  },
+  "validation": {
+    "bank_total_3957": true,
+    "atc_count_938": true,
+    "atc_unique_ids": true,
+    "all_four_choices": true,
+    "all_answers_resolved": true,
+    "pending_review_zero": true,
+    "review_flag_zero": true,
+    "theory_25_stages": true,
+    "theory_563_unique_links": true,
+    "theory_all_ids_exist": true,
+    "theory_stage_pool_min10": true,
+    "mock_375": true,
+    "figure_files_present": true,
+    "no_assets_resources_dir": true,
+    "css_filename_unchanged": true,
+    "active_js_filename_unchanged": true,
+    "known_question_choice_ocr_markers_zero": true,
+    "javascript_syntax_ok": true,
+    "index_refs_existing_assets": true
+  },
+  "note": "모의고사 4회는 원본 정답표의 원형 숫자 글리프가 이미지에서 동일하게 깨져 보여, 기존 해설 대조 답안을 유지하고 미확정이었던 12번/23번만 해설로 복원했다. 나머지 모의고사는 원본 정답표를 회차별로 대조했다."
+}

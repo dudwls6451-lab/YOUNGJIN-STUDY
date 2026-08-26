@@ -1,0 +1,2509 @@
+{
+  "metadata": {
+    "name": "항공교통통신 전체 이론학습 과정",
+    "subject": "항공교통통신",
+    "source_file": "항공교통통신  ocr_압축됨.pdf",
+    "source_scope": "제1장 항행안전시설부터 항공정보업무까지 교재 이론 전 범위. 모의고사 15회는 종합문제이므로 단계별 쪽지시험 연결에서는 제외.",
+    "version": "v11.34-atccomm-theory-full-563-linked",
+    "stage_count": 25,
+    "linked_question_count": 563,
+    "unique_linked_question_count": 563,
+    "question_bank_total": 938,
+    "mock_exam_questions": 375,
+    "quiz_rule": {
+      "questions": 10,
+      "pass_correct": 8,
+      "pass_percent": 80
+    },
+    "completion_rule": "각 단계 본문 학습 후 쪽지시험에서 10문항 중 8문항 이상 정답 시 다음 단계 해제"
+  },
+  "stages": [
+    {
+      "id": "ATC-TH-01",
+      "order": 1,
+      "unit_title": "제1장 항행안전시설",
+      "title": "항행안전무선시설 · ILS · GPS · 서비스 범위",
+      "source_pdf_pages": [
+        8,
+        9,
+        10
+      ],
+      "source_printed_pages": [
+        6,
+        7,
+        8
+      ],
+      "question_ids": [
+        "ATC-COMM-001",
+        "ATC-COMM-002",
+        "ATC-COMM-003",
+        "ATC-COMM-004",
+        "ATC-COMM-005",
+        "ATC-COMM-006",
+        "ATC-COMM-007",
+        "ATC-COMM-008",
+        "ATC-COMM-009",
+        "ATC-COMM-010",
+        "ATC-COMM-011",
+        "ATC-COMM-012",
+        "ATC-COMM-013",
+        "ATC-COMM-014",
+        "ATC-COMM-015",
+        "ATC-COMM-016",
+        "ATC-COMM-017",
+        "ATC-COMM-018",
+        "ATC-COMM-019",
+        "ATC-COMM-020",
+        "ATC-COMM-021",
+        "ATC-COMM-022",
+        "ATC-COMM-023",
+        "ATC-COMM-024",
+        "ATC-COMM-025",
+        "ATC-COMM-026",
+        "ATC-COMM-027",
+        "ATC-COMM-028",
+        "ATC-COMM-029",
+        "ATC-COMM-030",
+        "ATC-COMM-031",
+        "ATC-COMM-032"
+      ],
+      "sections": [
+        {
+          "heading": "주요 항행안전무선시설",
+          "table": {
+            "headers": [
+              "시설",
+              "교재 핵심 기능/수치"
+            ],
+            "rows": [
+              [
+                "NDB",
+                "무지향성 신호로 방위·기지국 방향 판단 · 190~535 kHz"
+              ],
+              [
+                "VOR",
+                "자북 기준 방위각 제공 · 108.0~117.95 MHz · 가시선 제한"
+              ],
+              [
+                "TACAN",
+                "자북 기준 방위각 + 지상 기준점까지 경사거리 정보"
+              ],
+              [
+                "VORTAC",
+                "한 위치에서 VOR 방위 + TACAN 방위 + DME 거리 제공"
+              ],
+              [
+                "DME",
+                "거리(NM) 제공 · 960~1,215 MHz · 경사거리 · 199 NM까지 1/2 mile 또는 거리의 3% 중 큰 값 이내 정확도"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "ILS 구성과 식별",
+          "bullets": [
+            "ILS는 정밀계기접근에 필요한 방위각·활공각·거리 정보를 제공한다.",
+            "Localizer: 108.10~111.95 MHz. 활주로 중심선 진로유도를 제공하며, 활주로 시단에서 진로 폭은 700 ft로 조절된다.",
+            "Localizer coverage: 안테나 반경 18 NM 이내에서 코스 양쪽 10°까지, 반경 10 NM 이내에서 10°~35°까지.",
+            "Glide slope: 인가된 ILS 접근절차의 최저결심고도(DH)까지 강하정보를 제공한다.",
+            "Marker beacon 통과등: OM 청색, MM 황색(Amber), IM 백색.",
+            "Compass locator는 190~535 kHz에서 운용되고 최소 15 mile 통달범위를 가진다. LOM은 식별부호 앞 2자리, LMM은 뒤 2자리를 송신한다."
+          ]
+        },
+        {
+          "heading": "GPS와 표준 서비스 범위",
+          "paragraphs": [
+            "교재는 GPS 위성군을 24개 가용 위성으로 설명하며, 정확한 3차원 위치를 얻기 위해 최소 4개의 위성이 필요하다고 정리한다."
+          ],
+          "table": {
+            "headers": [
+              "등급",
+              "VOR/DME/TACAN SSV"
+            ],
+            "rows": [
+              [
+                "T",
+                "1,000 ft AGL 초과~12,000 ft AGL 이하 · 25 NM"
+              ],
+              [
+                "L",
+                "1,000 ft AGL 초과~18,000 ft AGL 이하 · 40 NM"
+              ],
+              [
+                "H",
+                "1,000~14,500 ft AGL: 40 NM / 14,500 ft 초과~60,000 ft: 100 NM / 18,000~45,000 ft AGL: 130 NM"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "NDB 서비스 범위",
+          "table": {
+            "headers": [
+              "등급",
+              "반경"
+            ],
+            "rows": [
+              [
+                "Compass Locator",
+                "15 NM"
+              ],
+              [
+                "MH",
+                "25 NM"
+              ],
+              [
+                "H",
+                "50 NM"
+              ],
+              [
+                "HH",
+                "75 NM"
+              ]
+            ]
+          }
+        }
+      ],
+      "summary_points": [
+        "NDB 190~535 kHz · DME 960~1,215 MHz",
+        "DME는 수평거리가 아니라 경사거리",
+        "Localizer 108.10~111.95 MHz · 시단 코스 폭 700 ft",
+        "OM=청색 · MM=황색 · IM=백색",
+        "GPS 3차원 위치는 최소 4개 위성",
+        "VOR SSV T/L/H와 NDB 15/25/50/75 NM 구분"
+      ]
+    },
+    {
+      "id": "ATC-TH-02",
+      "order": 2,
+      "unit_title": "제1장 항행안전시설",
+      "title": "비행장등대 · VASI/PAPI · 활주로/유도로 등화",
+      "source_pdf_pages": [
+        11,
+        12,
+        13
+      ],
+      "source_printed_pages": [
+        9,
+        10,
+        11
+      ],
+      "question_ids": [
+        "ATC-COMM-033",
+        "ATC-COMM-034",
+        "ATC-COMM-035",
+        "ATC-COMM-036",
+        "ATC-COMM-037",
+        "ATC-COMM-038",
+        "ATC-COMM-039",
+        "ATC-COMM-040",
+        "ATC-COMM-041",
+        "ATC-COMM-042",
+        "ATC-COMM-043",
+        "ATC-COMM-044",
+        "ATC-COMM-045",
+        "ATC-COMM-046",
+        "ATC-COMM-047",
+        "ATC-COMM-048",
+        "ATC-COMM-049",
+        "ATC-COMM-050",
+        "ATC-COMM-051",
+        "ATC-COMM-052",
+        "ATC-COMM-053"
+      ],
+      "sections": [
+        {
+          "heading": "비행장등대(Aerodrome beacon)",
+          "bullets": [
+            "비행장등대는 항행 중인 항공기에 비행장 위치를 알려주는 등화이며, 비행장식별등대는 모스부호에 따라 명멸한다.",
+            "육상 비행장: 백색+녹색 / 수상 비행장: 백색+황색 / 헬기장: 녹색+황색+백색.",
+            "군 비행장등대는 백색과 녹색이 교대로 섬광하되 녹색 섬광 사이에 백색이 두 번 섬광된다.",
+            "1분간 섬광횟수는 20~30회. 주간에도 지상시정 3 mile 미만 또는 운고 1,000 ft 미만이면 점등한다. 단, 점등 여부만으로 VFR/IFR을 판단해서는 안 된다."
+          ]
+        },
+        {
+          "heading": "VASI와 PAPI",
+          "bullets": [
+            "VASI는 활주로 중심선 연장선 ±10° 이내, 활주로 시단으로부터 4 NM까지 시각 활공로의 장애물 회피를 제공한다.",
+            "PAPI 정상 진입각: 가까운 2개 적색 + 먼 2개 백색.",
+            "약간 높음: 1 red + 3 white / 높음: all white / 약간 낮음: 3 red + 1 white / 낮음: all red."
+          ]
+        },
+        {
+          "heading": "활주로 등화",
+          "table": {
+            "headers": [
+              "등화",
+              "교재 핵심"
+            ],
+            "rows": [
+              [
+                "Runway edge",
+                "어둡거나 저시정에서 활주로 가장자리 표시"
+              ],
+              [
+                "Threshold",
+                "착륙 방향에서 녹색 · 출발 항공기 쪽에는 종단을 나타내는 적색"
+              ],
+              [
+                "Centerline",
+                "50 ft 간격. 마지막 3,000 ft까지 백색, 다음 2,000 ft 적/백 교대, 마지막 1,000 ft 적색"
+              ],
+              [
+                "TDZL",
+                "시단 100 ft 뒤부터 3,000 ft 또는 활주로 중간지점 중 짧은 곳까지 백색 고정등"
+              ],
+              [
+                "LAHSO light",
+                "지정 hold-short 지점에 활주로를 가로지르는 점멸 백색등"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "유도로 등화",
+          "bullets": [
+            "Taxiway edge light는 청색, taxiway centerline light는 녹색이다.",
+            "Runway guard light는 유도로/활주로 교차지점에서 활주로 진입 전 정지 위치의 인지성을 높인다.",
+            "Stop bar light는 정지 위치를 나타내는 적색등이다."
+          ]
+        }
+      ],
+      "summary_points": [
+        "육상 비행장등대 백/녹 · 군 비행장등대는 백색 2회 특징",
+        "VASI 장애물 안전범위 ±10° · 4 NM",
+        "PAPI 정상=2 red + 2 white",
+        "Centerline 마지막 2,000 ft 적/백 교대, 마지막 1,000 ft 적색",
+        "Taxiway edge=청색 · centerline=녹색 · stop bar=적색"
+      ]
+    },
+    {
+      "id": "ATC-TH-03",
+      "order": 3,
+      "unit_title": "제1장 항행안전시설",
+      "title": "활주로·유도로 표지와 비행장 표지판",
+      "source_pdf_pages": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "source_printed_pages": [
+        11,
+        12,
+        13,
+        14
+      ],
+      "question_ids": [
+        "ATC-COMM-054",
+        "ATC-COMM-055",
+        "ATC-COMM-056",
+        "ATC-COMM-057",
+        "ATC-COMM-058",
+        "ATC-COMM-059",
+        "ATC-COMM-060",
+        "ATC-COMM-061",
+        "ATC-COMM-062",
+        "ATC-COMM-063",
+        "ATC-COMM-064",
+        "ATC-COMM-065",
+        "ATC-COMM-066",
+        "ATC-COMM-067",
+        "ATC-COMM-068",
+        "ATC-COMM-069",
+        "ATC-COMM-070",
+        "ATC-COMM-071",
+        "ATC-COMM-072",
+        "ATC-COMM-073",
+        "ATC-COMM-074",
+        "ATC-COMM-075",
+        "ATC-COMM-076",
+        "ATC-COMM-077",
+        "ATC-COMM-078"
+      ],
+      "sections": [
+        {
+          "heading": "표지 색상의 큰 원칙",
+          "paragraphs": [
+            "교재는 활주로 표지를 백색, 유도로·항공기 미사용지역·정지위치 표지를 황색으로 구분한다."
+          ],
+          "bullets": [
+            "Runway designation은 활주로 중심선의 자기방위를 10으로 나누어 가장 가까운 정수로 표시하며, 평행 활주로는 L/R/C로 구분한다.",
+            "Runway centerline과 side stripe는 백색이며, runway shoulder marking은 황색이다."
+          ]
+        },
+        {
+          "heading": "시단·이설시단·정지위치",
+          "bullets": [
+            "Threshold marking은 착륙에 사용할 수 있는 활주로 시작점을 나타낸다.",
+            "Displaced threshold 뒤쪽 구간은 해당 방향 착륙에는 사용할 수 없지만 지상활주·이륙 또는 반대방향 착륙활주에는 사용할 수 있다.",
+            "정상적인 이동에 사용할 수 없는 시단 앞 구간은 황색 chevron으로 표시한다.",
+            "Demarcation bar는 이설된 활주로와 blast pad/stopway/taxiway를 구분하며 황색이다.",
+            "Runway holding position marking은 두 줄 실선+두 줄 점선의 황색선이며, 실선이 정지해야 하는 쪽이다."
+          ]
+        },
+        {
+          "heading": "유도로·기타 표지",
+          "bullets": [
+            "Taxiway centerline은 한 줄 황색 실선이다.",
+            "VOR checkpoint sign은 황색 바탕에 흑색 문자/숫자를 사용한다.",
+            "폐쇄 활주로는 백색 X, 폐쇄 유도로는 황색 X로 표시한다."
+          ]
+        },
+        {
+          "heading": "비행장 표지판 색상",
+          "table": {
+            "headers": [
+              "종류",
+              "색상/용도"
+            ],
+            "rows": [
+              [
+                "Mandatory instruction",
+                "적색 바탕 + 백색 문자 · 활주로/critical area/진입금지 등 허가 없이 진행 금지"
+              ],
+              [
+                "Location",
+                "흑색 바탕 + 황색 문자 · 단독 설치 시 황색 테두리"
+              ],
+              [
+                "Direction",
+                "황색 바탕 + 흑색 문자 + 회전방향 화살표"
+              ],
+              [
+                "Destination",
+                "황색 바탕 + 흑색 문자 + 목적지 방향 화살표"
+              ],
+              [
+                "Information",
+                "황색 바탕 + 흑색 문자"
+              ],
+              [
+                "Runway distance remaining",
+                "흑색 바탕 + 백색 숫자 · 잔여거리 1,000 ft 단위"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "문제은행 연결 그림",
+          "figure": {
+            "src": "./figures/ATC-COMM-076.png",
+            "caption": "문제은행 ATC-COMM-076: Location sign 판별용 그림"
+          }
+        }
+      ],
+      "summary_points": [
+        "Runway marking=백색 · Taxiway/hold marking=황색",
+        "Hold line은 실선 쪽에서 정지",
+        "Mandatory=적/백 · Location=흑/황 · Direction/Destination/Information=황/흑",
+        "Runway distance remaining=흑색 바탕 백색 숫자",
+        "이설시단과 chevron 구역의 사용 가능 범위를 구분"
+      ]
+    },
+    {
+      "id": "ATC-TH-04",
+      "order": 4,
+      "unit_title": "제2장 항공교통업무",
+      "title": "항공교통업무의 목적 · 공역 등급 A~G",
+      "source_pdf_pages": [
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "source_printed_pages": [
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "question_ids": [
+        "ATC-COMM-079",
+        "ATC-COMM-080",
+        "ATC-COMM-081",
+        "ATC-COMM-082",
+        "ATC-COMM-083",
+        "ATC-COMM-084",
+        "ATC-COMM-085",
+        "ATC-COMM-086",
+        "ATC-COMM-087",
+        "ATC-COMM-088",
+        "ATC-COMM-089",
+        "ATC-COMM-090",
+        "ATC-COMM-091",
+        "ATC-COMM-092",
+        "ATC-COMM-093",
+        "ATC-COMM-094",
+        "ATC-COMM-095",
+        "ATC-COMM-096",
+        "ATC-COMM-097",
+        "ATC-COMM-098",
+        "ATC-COMM-099",
+        "ATC-COMM-100",
+        "ATC-COMM-101",
+        "ATC-COMM-102",
+        "ATC-COMM-103",
+        "ATC-COMM-104",
+        "ATC-COMM-105"
+      ],
+      "sections": [
+        {
+          "heading": "항공교통업무(ATS)의 목적과 구분",
+          "bullets": [
+            "목적: 항공기 간 충돌 방지, 기동지역에서 항공기와 장애물 충돌 방지, 교통흐름 질서유지·촉진, 안전·효율 운항을 위한 조언/정보 제공, 수색·구조 관련 협조.",
+            "ATS는 항공교통관제업무, 비행정보업무, 경보업무로 구분한다.",
+            "항공교통관제업무는 접근관제·비행장관제·지역관제로 나뉜다."
+          ]
+        },
+        {
+          "heading": "공역 등급 비교",
+          "table": {
+            "headers": [
+              "등급",
+              "교재의 핵심 구분"
+            ],
+            "rows": [
+              [
+                "A",
+                "인천 FIR 내 MSL 20,000 ft 초과~60,000 ft 이하 항공로 · 원칙적으로 IFR · 모든 항공기 간 분리"
+              ],
+              [
+                "B",
+                "IFR/VFR 가능 · 모든 항공기 간 분리 · 진입 전 ATC 교신/허가 · 10,000 ft 미만 250 kt 이하"
+              ],
+              [
+                "C",
+                "IFR/VFR 가능 · IFR은 IFR/VFR로부터 분리, VFR은 IFR로부터 분리 · 진입 전 교신"
+              ],
+              [
+                "D",
+                "IFR/VFR 가능 · IFR 분리 제공, VFR 분리업무는 제공되지 않음 · 진입 전 교신"
+              ],
+              [
+                "E",
+                "A~D 이외 관제공역 · IFR은 IFR로부터 분리 · VFR은 원칙적으로 분리 없음"
+              ],
+              [
+                "F",
+                "항공교통조언업무/비행정보업무 공역으로 설명되며, 교재는 우리나라에 F등급 공역이 없다고 기재"
+              ],
+              [
+                "G",
+                "비관제공역 · IFR/VFR 가능 · 조종사 요청 시 비행정보업무만 제공"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "속도·교신 함정",
+          "bullets": [
+            "B/C 등급은 10,000 ft 미만에서 250 kt 제한이 제시된다.",
+            "C등급은 공항 반경 4 NM, 지표면 2,500 ft 이하에서 200 kt 제한이 제시된다.",
+            "E등급의 IFR은 진입 전 ATC 허가와 교신 유지가 필요하다."
+          ]
+        }
+      ],
+      "summary_points": [
+        "ATS 최우선 목적: 항공기 간 충돌 방지",
+        "A등급은 원칙적으로 IFR only",
+        "B는 모든 항공기 간 분리",
+        "C는 IFR↔VFR 분리, VFR↔VFR은 교통정보 중심",
+        "D/E의 VFR에는 분리업무가 제공되지 않음",
+        "G는 비관제공역"
+      ]
+    },
+    {
+      "id": "ATC-TH-05",
+      "order": 5,
+      "unit_title": "제2장 항공교통업무",
+      "title": "특수사용공역 · ATS 기관 · 항공로 · UTC · PBN/RNAV",
+      "source_pdf_pages": [
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "source_printed_pages": [
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "question_ids": [
+        "ATC-COMM-106",
+        "ATC-COMM-107",
+        "ATC-COMM-108",
+        "ATC-COMM-109",
+        "ATC-COMM-110",
+        "ATC-COMM-111",
+        "ATC-COMM-112",
+        "ATC-COMM-113",
+        "ATC-COMM-114",
+        "ATC-COMM-115",
+        "ATC-COMM-116",
+        "ATC-COMM-117",
+        "ATC-COMM-118",
+        "ATC-COMM-119",
+        "ATC-COMM-120",
+        "ATC-COMM-121",
+        "ATC-COMM-122",
+        "ATC-COMM-123",
+        "ATC-COMM-124",
+        "ATC-COMM-125",
+        "ATC-COMM-126",
+        "ATC-COMM-127",
+        "ATC-COMM-128",
+        "ATC-COMM-129",
+        "ATC-COMM-130",
+        "ATC-COMM-131",
+        "ATC-COMM-132",
+        "ATC-COMM-133",
+        "ATC-COMM-134",
+        "ATC-COMM-135",
+        "ATC-COMM-136",
+        "ATC-COMM-137",
+        "ATC-COMM-138",
+        "ATC-COMM-139"
+      ],
+      "sections": [
+        {
+          "heading": "특수사용공역",
+          "table": {
+            "headers": [
+              "구분",
+              "교재 설명"
+            ],
+            "rows": [
+              [
+                "P (Prohibited)",
+                "안전·국방 등 이유로 비행 금지"
+              ],
+              [
+                "R (Restricted)",
+                "사격 등 위험 또는 기타 이유로 무허가 항공기 비행 제한"
+              ],
+              [
+                "URA",
+                "초경량비행장치 비행활동 제한"
+              ],
+              [
+                "CATA",
+                "민간항공기 훈련공역"
+              ],
+              [
+                "MOA",
+                "군사작전 공역 · IFR 항공기와 분리 필요"
+              ],
+              [
+                "기타 주의공역",
+                "조종사의 특별한 주의·경계·식별이 필요한 공역"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "ATS 기관·공항지역 용어",
+          "bullets": [
+            "ATS unit은 ATC 기관, 비행정보실, ATS 보고취급소 등을 포괄한다.",
+            "ATC unit은 지역관제소(ACC), 접근관제소, 관제탑을 말한다.",
+            "Maneuvering area는 계류장을 제외한 활주로·유도로 지역, Movement area는 maneuvering area + apron이다.",
+            "Control zone은 비행장 중심에서 접근방향으로 최소 5 NM까지 연장되도록 설정한다."
+          ]
+        },
+        {
+          "heading": "항공로·보고지점",
+          "bullets": [
+            "ATS route 기본명칭은 알파벳 1자+1~999 숫자로 구성한다. 접두문자 K=헬리콥터 저고도, U=고고도, S=초음속 전용 항로를 뜻한다.",
+            "항로 뒤 보충문자 F는 조언업무, G는 비행정보업무 제공을 나타낸다.",
+            "동일한 항행안전무선시설 부호명칭은 원칙적으로 600 NM 이내에서 중복 사용하지 않는다.",
+            "보고지점은 필수/비필수로 구분하며, 필수보고지점은 통신·업무부담을 최소화하도록 필요한 최소한으로 설정한다."
+          ]
+        },
+        {
+          "heading": "UTC와 PBN",
+          "bullets": [
+            "ATS 시설은 UTC를 사용하며, 시계/기록장치는 UTC로부터 30초 이내 정확도를 유지하도록 점검한다. 데이터링크 통신 사용 시에는 1초 이내.",
+            "PBN은 항공기 성능에 기초한 RNAV를 말한다. RNP/RNAV 숫자 지시자는 비행시간의 최소 95% 동안 달성할 것으로 예상되는 횡적 항행 정확도(NM)를 나타낸다.",
+            "교재는 SID/STAR에 RNAV 1, 항공로에 RNAV 2 또는 RNAV 5, 대양 운항에 RNAV 10을 예시한다."
+          ]
+        }
+      ],
+      "summary_points": [
+        "P=금지 · R=제한 · MOA=군작전",
+        "Maneuvering area는 apron 제외, Movement area는 apron 포함",
+        "Control zone 최소 5 NM",
+        "ATS route: K 저고도 헬기 · U 고고도 · S 초음속",
+        "UTC 정확도 30초, 데이터링크는 1초",
+        "RNAV/RNP 숫자는 95% 시간 동안의 횡적 정확도(NM)"
+      ]
+    },
+    {
+      "id": "ATC-TH-06",
+      "order": 6,
+      "unit_title": "제2장 항공교통업무",
+      "title": "ATC 우선순위 · 순항/최저고도 · 교체비행장 · 기상/고도계",
+      "source_pdf_pages": [
+        41,
+        42,
+        43,
+        44
+      ],
+      "source_printed_pages": [
+        39,
+        40,
+        41,
+        42
+      ],
+      "question_ids": [
+        "ATC-COMM-140",
+        "ATC-COMM-141",
+        "ATC-COMM-142",
+        "ATC-COMM-143",
+        "ATC-COMM-144",
+        "ATC-COMM-145",
+        "ATC-COMM-146",
+        "ATC-COMM-147",
+        "ATC-COMM-148",
+        "ATC-COMM-149",
+        "ATC-COMM-150",
+        "ATC-COMM-151",
+        "ATC-COMM-152",
+        "ATC-COMM-153",
+        "ATC-COMM-154",
+        "ATC-COMM-155",
+        "ATC-COMM-156",
+        "ATC-COMM-157",
+        "ATC-COMM-158"
+      ],
+      "sections": [
+        {
+          "heading": "운영상 우선순위와 긴급 이행",
+          "bullets": [
+            "기본은 First Come, First Served이지만 조난 항공기, MEDEVAC, 수색구조, 대통령 탑승기/경호기, 비행점검, 방공 요격 등에는 우선권/특별취급이 제시된다.",
+            "IFR 항공기는 SVFR 항공기보다 우선권을 가진다.",
+            "Immediately는 긴박한 상황 회피를 위해 신속 이행이 필요한 경우, Expedite는 긴박한 상황으로 진전되는 것을 피하기 위해 즉각 이행이 필요한 경우에 사용한다."
+          ]
+        },
+        {
+          "heading": "순항고도·최저비행고도",
+          "table": {
+            "headers": [
+              "구분",
+              "교재 기준"
+            ],
+            "rows": [
+              [
+                "IFR 000°~179° / 29,000 ft 미만",
+                "1,000 ft 홀수배"
+              ],
+              [
+                "IFR 180°~359° / 29,000 ft 미만",
+                "1,000 ft 짝수배"
+              ],
+              [
+                "IFR 산악지역 최저",
+                "반지름 4 NM 내 최고 장애물 +2,000 ft"
+              ],
+              [
+                "IFR 비산악지역 최저",
+                "반지름 4 NM 내 최고 장애물 +1,000 ft"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "이륙교체비행장과 IFR 강제 조건",
+          "bullets": [
+            "출발공항으로 되돌아올 수 없는 경우, 2발기는 1발 부작동 순항속도로 1시간 이내, 3발 이상은 모든 발동기 작동 순항속도로 2시간 이내의 이륙교체비행장을 지정하도록 설명한다.",
+            "MSL 20,000 ft 초과 비행 또는 천음속/초음속 비행은 관할 ATC 허가가 없는 한 기상상태와 관계없이 IFR 방식으로 비행한다."
+          ]
+        },
+        {
+          "heading": "RVR·지상풍·고도계",
+          "bullets": [
+            "Mid-point 또는 Roll-out RVR가 2,000 ft(600 m) 미만이고 Touchdown RVR보다 작을 때 Mid/Roll-out RVR를 함께 발부한다.",
+            "지상풍 관측은 활주로 위 10±1 m(30±3 ft) 높이를 대표하도록 한다. METAR 정온은 1 kt 미만, terminal calm wind는 3 kt 미만으로 설명한다.",
+            "고도계 지시와 알려진 공항표고 차이가 ±75 ft 이상이면 정확성을 의심한다.",
+            "고기압에서 저기압으로 재설정 없이 비행하면 실제로는 지시고도보다 지면에 더 가까워질 수 있으며, 더 차가운 기단으로 들어가면 같은 지시고도에서 진고도는 낮아진다."
+          ]
+        }
+      ],
+      "summary_points": [
+        "IFR>SVFR 우선",
+        "IFR 000~179 홀수천 ft · 180~359 짝수천 ft(29,000 ft 미만)",
+        "산악 +2,000 ft · 비산악 +1,000 ft(4 NM)",
+        "이륙교체: 2발기 1시간 / 3발 이상 2시간",
+        "풍 관측 10±1 m · METAR calm <1 kt · terminal calm <3 kt",
+        "고도계 공항표고 차이 ±75 ft 이상이면 의심"
+      ]
+    },
+    {
+      "id": "ATC-TH-07",
+      "order": 7,
+      "unit_title": "제2장 항공교통업무",
+      "title": "비관제공항 CTAF/UNICOM · ATIS",
+      "source_pdf_pages": [
+        44,
+        45
+      ],
+      "source_printed_pages": [
+        42,
+        43
+      ],
+      "question_ids": [
+        "ATC-COMM-159",
+        "ATC-COMM-160",
+        "ATC-COMM-161",
+        "ATC-COMM-162",
+        "ATC-COMM-163",
+        "ATC-COMM-164",
+        "ATC-COMM-165",
+        "ATC-COMM-166",
+        "ATC-COMM-167",
+        "ATC-COMM-168",
+        "ATC-COMM-169",
+        "ATC-COMM-170",
+        "ATC-COMM-171",
+        "ATC-COMM-172",
+        "ATC-COMM-173",
+        "ATC-COMM-174",
+        "ATC-COMM-175",
+        "ATC-COMM-176",
+        "ATC-COMM-177"
+      ],
+      "sections": [
+        {
+          "heading": "관제탑이 운영되지 않는 공항",
+          "bullets": [
+            "CTAF(Common Traffic Advisory Frequency)는 비관제공항 입출항 중 공항 조언을 위해 지정된 주파수이다.",
+            "입항 조종사는 착륙 약 10 mile 전부터 CTAF를 경청하고 교신한다.",
+            "UNICOM은 관제탑이나 FSS가 없는 공공용공항에서 공항정보를 제공하는 비정부 공지무선통신시설이며, 요청 시 기상·풍향·추천 활주로 등 정보를 제공할 수 있다."
+          ]
+        },
+        {
+          "heading": "ATIS의 목적과 범위",
+          "bullets": [
+            "ATIS는 터미널 지역에서 녹음된 비관제정보를 연속 자동 송신하여 관제사 업무부담과 주파수 혼잡을 줄이기 위한 업무이다.",
+            "교재는 별도 VHF를 사용한 도착 ATIS의 일반적 보호범위를 20~60 NM, 최대 25,000 ft AGL로 설명한다."
+          ]
+        },
+        {
+          "heading": "ATIS 포함사항과 조종사 응답",
+          "bullets": [
+            "공항/시설 명칭, phonetic letter code, 최근 기상전문의 UTC 시각, 풍향/풍속·시정·시정장애·하늘상태·기온·이슬점·고도계수정치 등 기상, 계기접근 및 사용활주로를 포함한다.",
+            "최초교신 시 방송에 붙은 알파벳 코드 용어를 복창하여 ATIS 수신을 통보한다.",
+            "Ceiling이 5,000 ft 초과하고 시정이 5 mile 초과하면 하늘상태/운고/시정 정보를 생략할 수 있다.",
+            "\"Have numbers\"는 바람·활주로·고도계 정보를 받았다는 뜻이지 ATIS 수신을 뜻하지 않는다.",
+            "ATIS 메시지는 가능한 30초를 초과하지 않아야 하며 중요사항 변경 시 즉시 갱신한다."
+          ]
+        }
+      ],
+      "summary_points": [
+        "CTAF 입항 교신 약 10 NM 전",
+        "UNICOM=비정부 공항정보 무선시설",
+        "ATIS 일반 보호범위 20~60 NM · 최대 25,000 ft AGL",
+        "ATIS 수신은 phonetic code로 알림",
+        "Have numbers ≠ ATIS received",
+        "ATIS 메시지 가능한 30초 이내"
+      ]
+    },
+    {
+      "id": "ATC-TH-08",
+      "order": 8,
+      "unit_title": "제2장 항공교통업무",
+      "title": "교통조언 · MSAW · VFR 레이더업무 · 트랜스폰더",
+      "source_pdf_pages": [
+        46,
+        47,
+        48
+      ],
+      "source_printed_pages": [
+        44,
+        45,
+        46
+      ],
+      "question_ids": [
+        "ATC-COMM-178",
+        "ATC-COMM-179",
+        "ATC-COMM-180",
+        "ATC-COMM-181",
+        "ATC-COMM-182",
+        "ATC-COMM-183",
+        "ATC-COMM-184",
+        "ATC-COMM-185",
+        "ATC-COMM-186",
+        "ATC-COMM-187",
+        "ATC-COMM-188",
+        "ATC-COMM-189",
+        "ATC-COMM-190",
+        "ATC-COMM-191",
+        "ATC-COMM-192",
+        "ATC-COMM-193",
+        "ATC-COMM-194",
+        "ATC-COMM-195",
+        "ATC-COMM-196",
+        "ATC-COMM-197",
+        "ATC-COMM-198",
+        "ATC-COMM-199",
+        "ATC-COMM-200",
+        "ATC-COMM-201",
+        "ATC-COMM-202",
+        "ATC-COMM-203",
+        "ATC-COMM-204",
+        "ATC-COMM-205",
+        "ATC-COMM-206"
+      ],
+      "sections": [
+        {
+          "heading": "교통조언(Traffic advisory)",
+          "bullets": [
+            "레이더 식별 항공기 교통정보는 보통 12시간 시각 기준 방위, NM 거리, 표적 진행방향/상대운동, 인지한 경우 기종·고도를 포함한다.",
+            "급격한 기동 등으로 시계방향 표현이 부정확하면 N/NE/E/SE/S/SW/W/NW 8방위를 사용할 수 있다.",
+            "레이더에 식별되지 않은 표적은 픽스로부터의 거리·방향, 진행방향, 인지한 경우 기종·고도로 설명한다."
+          ]
+        },
+        {
+          "heading": "Safety Alert와 MSAW",
+          "bullets": [
+            "관제사가 항공기가 지형/장애물에 불안전하게 근접했다고 판단하면 즉시 안전경보를 발부한다.",
+            "MSAW는 Mode C 장비 항공기가 사전 결정된 최저안전고도 미만이거나 그럴 것으로 예상될 때 관제사를 자동으로 보조하는 기능이다.",
+            "VFR 항공기에 대한 기본 레이더업무에는 safety alert와 traffic advisory가 포함된다."
+          ]
+        },
+        {
+          "heading": "트랜스폰더 운용",
+          "bullets": [
+            "Mode C/S 고도보고 트랜스폰더는 항공기 식별과 상황인식 향상에 기여한다.",
+            "이륙 전 가능한 늦게 ON/정상 위치, 착륙활주 종료 후 가능한 빨리 OFF 또는 STANDBY로 전환한다(ATC 요청 예외).",
+            "IFR을 목적지 도착 전에 취소하면 VFR 운항에 맞게 트랜스폰더를 조정한다. IDENT는 ATC 요청 때만 사용한다.",
+            "코드 변경 중 7500/7600/7700을 순간 선택하지 않도록 주의하며, 민간항공기는 7777을 사용하지 않는다.",
+            "불법간섭 7500 · 양방향 통신두절 7600 · 비상 7700 · VFR 기본 code 1200(달리 지시 없을 때)."
+          ]
+        },
+        {
+          "heading": "레이더비컨 용어",
+          "table": {
+            "headers": [
+              "Phraseology",
+              "의미"
+            ],
+            "rows": [
+              [
+                "Squawk (number)",
+                "지정 code로 Mode 3/A 작동"
+              ],
+              [
+                "Ident",
+                "IDENT 기능 작동"
+              ],
+              [
+                "Squawk Standby",
+                "Standby 위치"
+              ],
+              [
+                "Squawk Altitude",
+                "Mode C 자동고도보고 작동"
+              ],
+              [
+                "Stop Altitude Squawk",
+                "고도보고 중지"
+              ],
+              [
+                "Stop Squawk",
+                "트랜스폰더를 끔"
+              ],
+              [
+                "Squawk Mayday",
+                "비상 code 7700"
+              ],
+              [
+                "Squawk VFR",
+                "1200 또는 적절한 VFR code"
+              ]
+            ]
+          }
+        }
+      ],
+      "summary_points": [
+        "Traffic: 12시 방향 + 거리 + 진행방향 + 기종/고도",
+        "MSAW는 Mode C 항적의 저고도 위험을 관제사에게 경고",
+        "IDENT는 ATC 요청 시만",
+        "7500 hijack · 7600 radio failure · 7700 emergency",
+        "민간 7777 금지 · VFR 기본 1200",
+        "Squawk Altitude=Mode C 작동"
+      ]
+    },
+    {
+      "id": "ATC-TH-09",
+      "order": 9,
+      "unit_title": "제2장 항공교통업무",
+      "title": "관제탑 공항 · 제동상태 · 빛총신호",
+      "source_pdf_pages": [
+        48,
+        49,
+        50
+      ],
+      "source_printed_pages": [
+        46,
+        47,
+        48
+      ],
+      "question_ids": [
+        "ATC-COMM-207",
+        "ATC-COMM-208",
+        "ATC-COMM-209",
+        "ATC-COMM-210",
+        "ATC-COMM-211",
+        "ATC-COMM-212",
+        "ATC-COMM-213",
+        "ATC-COMM-214",
+        "ATC-COMM-215",
+        "ATC-COMM-216",
+        "ATC-COMM-217",
+        "ATC-COMM-218",
+        "ATC-COMM-219",
+        "ATC-COMM-220",
+        "ATC-COMM-221",
+        "ATC-COMM-222",
+        "ATC-COMM-223",
+        "ATC-COMM-224"
+      ],
+      "sections": [
+        {
+          "heading": "관제탑이 운영되는 공항",
+          "bullets": [
+            "B/C/D 공항교통구역에서 운항 중에는 관제탑과 양방향 무선교신을 유지하며, 최초 무선호출은 공항 약 15 mile 지점에서 이루어지도록 설명한다.",
+            "달리 지시가 없으면 착륙 접근 중 고정익은 좌측 교통장주를 따르고, 헬리콥터는 고정익 교통흐름을 방해하지 않아야 한다.",
+            "폭발물 위협 등 비상 격리주기는 주변 주기장·건물·인원으로부터 최소 100 m 안전거리를 확보하도록 한다."
+          ]
+        },
+        {
+          "heading": "비행장 주변 운항과 제동상태",
+          "bullets": [
+            "이륙·착륙 순서에서 선행 항공기가 활주로를 충분히 비우거나 종단을 통과하기 전에는 후속 항공기가 활주/시단 통과를 시작하지 않도록 하는 기준을 제시한다.",
+            "제동상태 강도는 good, good to medium, medium, medium to poor, poor, nil 등으로 표현한다.",
+            "good to medium 이하이거나 상태 악화가 예상되면 ATIS로 \"Braking action advisories are in effect\"를 방송한다."
+          ]
+        },
+        {
+          "heading": "빛총신호(Light gun)",
+          "table": {
+            "headers": [
+              "신호",
+              "비행 중",
+              "지상"
+            ],
+            "rows": [
+              [
+                "연속 녹색",
+                "착륙 허가",
+                "이륙 허가"
+              ],
+              [
+                "점멸 녹색",
+                "착륙 준비",
+                "지상이동 허가"
+              ],
+              [
+                "연속 적색",
+                "다른 항공기에 양보·계속 선회",
+                "정지"
+              ],
+              [
+                "점멸 적색",
+                "비행장 불안전·착륙 금지",
+                "사용 중인 착륙지역에서 이탈"
+              ],
+              [
+                "점멸 백색",
+                "착륙 후 계류장으로",
+                "출발지점으로 복귀"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "빛총신호 응답",
+          "bullets": [
+            "비행 중 주간: 날개를 흔든다. 야간: 착륙등 2회 점멸(없으면 항행등 2회).",
+            "지상 주간: 보조익 또는 방향타를 움직인다. 야간: 착륙등 또는 항행등을 2회 점멸한다."
+          ]
+        }
+      ],
+      "summary_points": [
+        "Tower 최초 호출 약 15 NM",
+        "비상 격리주기 최소 100 m",
+        "Braking action: good → nil",
+        "연속 녹색=착륙/이륙 허가",
+        "연속 적색=공중 양보·선회 / 지상 정지",
+        "점멸 적색=공중 착륙 금지 / 지상 착륙지역 이탈"
+      ]
+    },
+    {
+      "id": "ATC-TH-10",
+      "order": 10,
+      "unit_title": "제2장 항공교통업무",
+      "title": "지상통신 · Taxi · Option approach · 항공기 등화",
+      "source_pdf_pages": [
+        50,
+        51
+      ],
+      "source_printed_pages": [
+        48,
+        49
+      ],
+      "question_ids": [
+        "ATC-COMM-225",
+        "ATC-COMM-226",
+        "ATC-COMM-227",
+        "ATC-COMM-228",
+        "ATC-COMM-229",
+        "ATC-COMM-230",
+        "ATC-COMM-231",
+        "ATC-COMM-232",
+        "ATC-COMM-233",
+        "ATC-COMM-234",
+        "ATC-COMM-235",
+        "ATC-COMM-236"
+      ],
+      "sections": [
+        {
+          "heading": "지상관제 주파수",
+          "bullets": [
+            "지상관제 주파수는 tower 주파수 혼잡을 줄이기 위한 것으로, 지상항공기·공항차량과의 지상활주 정보, 허가 및 관련 교신에 사용한다.",
+            "착륙 직후 조종사는 관제사가 주파수 변경을 지시할 때까지 tower 주파수에서 ground로 임의 변경하지 않는다."
+          ]
+        },
+        {
+          "heading": "지상활주(Taxiing)",
+          "bullets": [
+            "관제탑 운영 중 이동지역의 항공기·차량은 이동 전에 허가를 받아야 한다.",
+            "지상활주경로가 활주로를 통과하면 hold-short 지시 또는 runway crossing clearance가 명확히 언급되어야 한다.",
+            "ATC는 taxi clearance에서 오해를 막기 위해 \"cleared\"라는 용어를 사용하지 않는다.",
+            "공항에 익숙하지 않거나 경로가 혼동될 수 있으면 progressive taxi instruction을 요청할 수 있다.",
+            "High-speed taxiway는 착륙 후 최대 약 60 kt로 신속히 활주로를 이탈하도록 설계된 장반경 유도로로 설명된다."
+          ]
+        },
+        {
+          "heading": "Cleared for the option",
+          "paragraphs": [
+            "이 허가는 touch-and-go, low approach, missed approach, stop-and-go 또는 full-stop landing 중에서 선택할 수 있게 한다. 관제탑이 운영되는 지역에서 ATC 허가를 받아 사용한다."
+          ]
+        },
+        {
+          "heading": "항공기 등화",
+          "bullets": [
+            "일몰~일출 사이 지상 작동 중이거나 비행 중인 항공기는 position light를 켠다.",
+            "충돌방지등 시스템이 있는 항공기는 주야간 모든 운항에서 켜는 것이 원칙이지만, 악기상에서 빛이 안전에 위험을 유발할 경우 기장은 끌 수 있다."
+          ]
+        }
+      ],
+      "summary_points": [
+        "착륙 후 ground 주파수는 지시받고 변경",
+        "Taxi 경로의 runway crossing/hold short는 명시적으로 확인",
+        "Taxi 지시에는 \"cleared\"를 쓰지 않음",
+        "Progressive taxi 요청 가능",
+        "Cleared for the option=touch-and-go/low/missed/stop-and-go/full stop 선택",
+        "Position light는 일몰~일출"
+      ]
+    },
+    {
+      "id": "ATC-TH-11",
+      "order": 11,
+      "unit_title": "제2장 항공교통업무",
+      "title": "ATC Clearance · Pilot’s Discretion · Special VFR",
+      "source_pdf_pages": [
+        52,
+        53
+      ],
+      "source_printed_pages": [
+        50,
+        51
+      ],
+      "question_ids": [
+        "ATC-COMM-237",
+        "ATC-COMM-238",
+        "ATC-COMM-239",
+        "ATC-COMM-240",
+        "ATC-COMM-241",
+        "ATC-COMM-242",
+        "ATC-COMM-243",
+        "ATC-COMM-244",
+        "ATC-COMM-245",
+        "ATC-COMM-246",
+        "ATC-COMM-247",
+        "ATC-COMM-248",
+        "ATC-COMM-249",
+        "ATC-COMM-250",
+        "ATC-COMM-251"
+      ],
+      "sections": [
+        {
+          "heading": "ATC Clearance의 의미",
+          "paragraphs": [
+            "ATC clearance는 알려진 교통상황과 공항의 물리적 상황에 기초하여 관제공역에서 항공기를 특정 조건 하에 진행시키는 승인이다. 규정·최저고도를 위반하거나 불안전하게 운항할 권한을 부여하는 것은 아니다."
+          ]
+        },
+        {
+          "heading": "허가 접두어와 구성",
+          "bullets": [
+            "비관제시설을 통해 중계되는 경우 ATC clears / ATC advises / ATC requests를 사용한다.",
+            "허가에는 보통 호출부호, clearance limit, SID, 경로, 고도/변경, holding instruction, 기타 특별정보, 주파수·beacon code가 포함된다.",
+            "\"At pilot’s discretion\"은 조종사가 상승/강하 시점과 비율, 중간 level-off를 선택할 수 있다는 뜻이나, 한번 떠난 고도로 다시 돌아갈 수는 없다고 설명한다."
+          ]
+        },
+        {
+          "heading": "Special VFR",
+          "bullets": [
+            "B/C/D/E 공항교통구역에서 VFR 최저치 미만일 때 ATC 허가로 수행할 수 있다.",
+            "고정익 SVFR은 최소 1 SM 비행시정, 이착륙 시 최소 1 SM 지상시정(보고 없으면 비행시정)을 요구하며 구름을 피해야 한다.",
+            "허가는 해당 공항교통구역 안에서만 유효하며, 그 구역을 벗어난 뒤에는 ATC가 SVFR 분리를 제공하지 않는다.",
+            "계기자격/계기가 없는 항공기는 주간에만 운항한다는 기준이 제시되며 헬리콥터는 예외로 설명된다."
+          ]
+        }
+      ],
+      "summary_points": [
+        "Clearance는 규정 위반 권한이 아님",
+        "Clearance limit은 공항/NAVAID/FIR boundary/intersection/waypoint 가능",
+        "Pilot’s discretion=시점·비율 선택, 떠난 고도로 재복귀 불가",
+        "SVFR는 B/C/D/E surface area",
+        "SVFR 최소 1 SM + clear of clouds"
+      ]
+    },
+    {
+      "id": "ATC-TH-12",
+      "order": 12,
+      "unit_title": "제2장 항공교통업무",
+      "title": "IFR 분리기준 · 속도조절",
+      "source_pdf_pages": [
+        53,
+        54
+      ],
+      "source_printed_pages": [
+        51,
+        52
+      ],
+      "question_ids": [
+        "ATC-COMM-252",
+        "ATC-COMM-253",
+        "ATC-COMM-254",
+        "ATC-COMM-255",
+        "ATC-COMM-256",
+        "ATC-COMM-257",
+        "ATC-COMM-258",
+        "ATC-COMM-259",
+        "ATC-COMM-260",
+        "ATC-COMM-261",
+        "ATC-COMM-262",
+        "ATC-COMM-263",
+        "ATC-COMM-264",
+        "ATC-COMM-265",
+        "ATC-COMM-266",
+        "ATC-COMM-267"
+      ],
+      "sections": [
+        {
+          "heading": "분리 방법",
+          "bullets": [
+            "ATC는 수직분리, 종적분리(시간/거리), 횡적분리를 사용한다.",
+            "동일 고도 항공기를 레이더로 분리할 때 교재는 레이더 안테나 40 mile 이내 최소 3 mile, 40 mile 밖 최소 5 mile을 제시한다.",
+            "동일 고도·동일 진로의 시간 종적분리는 일반 15분, NAVAID로 위치/속도 판단 시 10분, 선행기가 20 kt 이상 빠르면 5분, 40 kt 이상 빠르면 3분으로 설명한다.",
+            "수직분리는 FL290 이하 1,000 ft, FL290 초과 2,000 ft를 기본으로 하되 RVSM 조건에서는 1,000 ft를 적용한다."
+          ]
+        },
+        {
+          "heading": "ATC 속도조절 권고 최저치",
+          "table": {
+            "headers": [
+              "상황",
+              "최저속도"
+            ],
+            "rows": [
+              [
+                "FL280~10,000 ft",
+                "250 kt 또는 상당 Mach"
+              ],
+              [
+                "도착 turbojet <10,000 ft",
+                "210 kt"
+              ],
+              [
+                "도착 turbojet · runway 20 mile 이내",
+                "170 kt"
+              ],
+              [
+                "도착 reciprocating/turboprop <10,000 ft",
+                "200 kt"
+              ],
+              [
+                "동 항공기 · runway 20 mile 이내",
+                "150 kt"
+              ],
+              [
+                "출발 turbojet",
+                "230 kt"
+              ],
+              [
+                "출발 reciprocating/turboprop",
+                "150 kt"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "속도조절 제한",
+          "bullets": [
+            "접근허가는 이전 속도조절 지시보다 우선하지만 필요하면 이후 다시 속도조절이 발부될 수 있다.",
+            "조종사 동의 없는 FL390 이상, 발간된 고고도 계기접근, holding pattern, 최종접근픽스 또는 runway 5 mile 중 더 가까운 지점 이후에는 속도조절을 지시하지 않는다.",
+            "최저안전속도가 지시속도보다 크면 조종사는 속도조절 지시를 거부할 권한이 있다."
+          ]
+        }
+      ],
+      "summary_points": [
+        "Radar: ≤40 mile 3 NM · >40 mile 5 NM",
+        "시간 종적 15/10/5/3분",
+        "수직분리: FL290 이하 1,000 ft · 초과 2,000 ft · RVSM 1,000 ft",
+        "도착 jet 210 kt, 20 mile 이내 170 kt",
+        "출발 jet 230 kt",
+        "FL390 이상은 조종사 동의 없이 속도조절 금지"
+      ]
+    },
+    {
+      "id": "ATC-TH-13",
+      "order": 13,
+      "unit_title": "제2장 항공교통업무",
+      "title": "시각경계 · TCAS · Radar/ATCRBS/ASR/ARSR/PAR",
+      "source_pdf_pages": [
+        54,
+        55,
+        56
+      ],
+      "source_printed_pages": [
+        52,
+        53,
+        54
+      ],
+      "question_ids": [
+        "ATC-COMM-268",
+        "ATC-COMM-269",
+        "ATC-COMM-270",
+        "ATC-COMM-271",
+        "ATC-COMM-272",
+        "ATC-COMM-273",
+        "ATC-COMM-274",
+        "ATC-COMM-275",
+        "ATC-COMM-276",
+        "ATC-COMM-277",
+        "ATC-COMM-278",
+        "ATC-COMM-279",
+        "ATC-COMM-280"
+      ],
+      "sections": [
+        {
+          "heading": "시각경계절차",
+          "bullets": [
+            "이륙 전 접근구역을 탐색하고 필요한 clearing maneuver를 수행한다.",
+            "상승/강하 중에는 주변 공역을 계속 탐색할 수 있도록 약간 좌우로 경사지게 하는 등의 경계절차를 사용한다.",
+            "직진수평비행 중에도 일정한 간격으로 육안탐색을 실시하고, 강하하면서 traffic pattern에 진입하는 것은 피하도록 설명한다."
+          ]
+        },
+        {
+          "heading": "TCAS I / TCAS II",
+          "bullets": [
+            "TCAS I은 proximity warning만 제공하며, 그 경고 자체로 회피기동을 권고하지 않는다.",
+            "TCAS II는 TA와 RA를 제공하며, RA는 상승/강하의 수직기동을 권고한다.",
+            "RA 때문에 ATC clearance를 벗어나면 가능한 빨리 ATC에 통보하고 충돌위험 해소 후 현재 clearance로 신속히 복귀한다.",
+            "RA 대응 중 관제사의 표준분리 책임은 일시적으로 달라지며, 항공기가 배정고도로 복귀하거나 TCAS 기동 완료/대체허가 수행 후 표준분리가 재확인되면 책임이 재개된다고 설명한다."
+          ]
+        },
+        {
+          "heading": "Radar와 ATCRBS",
+          "bullets": [
+            "Radar는 전파를 발사하고 반사파를 수신하여 거리를 계산한다. 전파는 대체로 직진하지만 대기 굴절, 반사/감쇠, 지형 차폐 등으로 제한을 받는다.",
+            "ATCRBS(2차감시레이더)는 interrogator, transponder, radarscope로 구성되며 표적 보강·신속한 식별·선택 code 시현의 이점을 가진다."
+          ]
+        },
+        {
+          "heading": "감시/접근 레이더 비교",
+          "table": {
+            "headers": [
+              "시설",
+              "교재 핵심"
+            ],
+            "rows": [
+              [
+                "ASR",
+                "공항 주변 단거리 감시 · range+azimuth · coverage 최대 60 mile"
+              ],
+              [
+                "ARSR",
+                "넓은 지역 항공기 위치 시현을 위한 장거리 항로감시레이더"
+              ],
+              [
+                "PAR",
+                "정밀접근 보조 · range+azimuth+elevation · 약 10 mile, 방위 20°, 경사 7°로 최종접근구역 탐지"
+              ]
+            ]
+          }
+        }
+      ],
+      "summary_points": [
+        "TCAS I=경고 · TCAS II=TA+RA",
+        "RA는 수직 회피기동",
+        "ATCRBS=interrogator + transponder + radarscope",
+        "ASR 최대 약 60 mile · range/azimuth",
+        "ARSR=장거리 항로감시",
+        "PAR=range/azimuth/elevation · 최종접근 정밀유도"
+      ]
+    },
+    {
+      "id": "ATC-TH-14",
+      "order": 14,
+      "unit_title": "제3장 항공교통관제절차",
+      "title": "비행전 · 비행계획서(ICAO FPL) · 변경/종료",
+      "source_pdf_pages": [
+        97,
+        98,
+        99,
+        100
+      ],
+      "source_printed_pages": [
+        95,
+        96,
+        97,
+        98
+      ],
+      "question_ids": [
+        "ATC-COMM-281",
+        "ATC-COMM-282",
+        "ATC-COMM-283",
+        "ATC-COMM-284",
+        "ATC-COMM-285",
+        "ATC-COMM-286",
+        "ATC-COMM-287",
+        "ATC-COMM-288",
+        "ATC-COMM-289",
+        "ATC-COMM-290",
+        "ATC-COMM-291",
+        "ATC-COMM-292",
+        "ATC-COMM-293",
+        "ATC-COMM-294",
+        "ATC-COMM-295",
+        "ATC-COMM-296",
+        "ATC-COMM-297",
+        "ATC-COMM-298",
+        "ATC-COMM-299",
+        "ATC-COMM-300",
+        "ATC-COMM-301",
+        "ATC-COMM-302",
+        "ATC-COMM-303",
+        "ATC-COMM-304",
+        "ATC-COMM-305",
+        "ATC-COMM-306",
+        "ATC-COMM-307"
+      ],
+      "sections": [
+        {
+          "heading": "비행계획 제출과 반복비행계획",
+          "bullets": [
+            "인천 FIR을 통과하거나 FIR 내에서 비행하는 모든 항공기는 ICAO 비행계획 양식을 사용한다.",
+            "인천 FIR 내 출발 항공기는 출발예정시간 최소 1시간 전에 제출하고, FIR 내로 진입하는 항공기는 FIR 경계선 통과 최소 1시간 전에 제출한다.",
+            "반복비행계획은 매주 같은 요일에 정기적으로 운항하고 10일 동안 적어도 10번 이상 또는 매일 운항하는 국내선 IFR에 사용할 수 있다고 교재는 설명한다."
+          ]
+        },
+        {
+          "heading": "DVFR와 비행방식 변경",
+          "bullets": [
+            "KADIZ 경계선을 통과하는 VFR을 DVFR로 설명하며, 계획서에 KADIZ 내 경로·고도·경계선 예정시간을 포함한다.",
+            "인천 FIR으로 입항하는 VFR 항공기는 경계선 통과 예정 20분 전까지 통과예정시간을 보고한다.",
+            "Flight rules: I=전 비행 IFR, V=전 비행 VFR, Y=첫 구간 IFR 후 변경, Z=첫 구간 VFR 후 변경."
+          ]
+        },
+        {
+          "heading": "ICAO FPL 핵심 코드",
+          "table": {
+            "headers": [
+              "항목",
+              "교재 표기"
+            ],
+            "rows": [
+              [
+                "Type of flight",
+                "S 정기 · N 부정기 · G 일반항공 · M 군용 · X 기타"
+              ],
+              [
+                "Wake turbulence",
+                "H ≥136,000 kg · M 7,000~<136,000 kg · L ≤7,000 kg"
+              ],
+              [
+                "Equipment",
+                "N 장비 없음/고장 · S 표준장비 운용 가능 · D DME · F ADF · G GNSS · L ILS · O VOR · R PBN · T TACAN · U UHF · V VHF · W RVSM"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Item 15와 계획 변경/종료",
+          "bullets": [
+            "순항속도는 TAS를 기입한다. km/h는 K+4자리, knots는 N+4자리, Mach는 M+3자리로 표현한다.",
+            "순항고도는 F+3자리, S+4자리, A+3자리, M+4자리 또는 비관제 VFR의 경우 VFR로 표기한다.",
+            "제출된 IFR 비행계획은 이동 개시 예정시간보다 30분 초과 지연, VFR은 1시간 이상 지연되면 수정 또는 새 계획 제출과 기존 계획 취소가 필요하다.",
+            "VFR/DVFR 비행계획 종료 확인은 조종사 책임이며, 관제탑 운영 공항의 IFR 비행계획은 착륙과 동시에 자동 종료된다."
+          ]
+        }
+      ],
+      "summary_points": [
+        "FPL 제출: 출발/경계 통과 최소 1시간 전",
+        "DVFR 입항 VFR: FIR 경계 통과 예정 20분 전 보고",
+        "Flight rules I/V/Y/Z",
+        "IFR 30분 초과 지연 · VFR 1시간 이상 지연 시 계획 수정/재제출",
+        "FPL Item 15 속도는 TAS 기준"
+      ]
+    },
+    {
+      "id": "ATC-TH-15",
+      "order": 15,
+      "unit_title": "제3장 항공교통관제절차",
+      "title": "출발절차 · Pre-taxi · Void/Release · ODP/SID",
+      "source_pdf_pages": [
+        100,
+        101,
+        102
+      ],
+      "source_printed_pages": [
+        98,
+        99,
+        100
+      ],
+      "question_ids": [
+        "ATC-COMM-308",
+        "ATC-COMM-309",
+        "ATC-COMM-310",
+        "ATC-COMM-311",
+        "ATC-COMM-312",
+        "ATC-COMM-313",
+        "ATC-COMM-314",
+        "ATC-COMM-315",
+        "ATC-COMM-316",
+        "ATC-COMM-317",
+        "ATC-COMM-318",
+        "ATC-COMM-319",
+        "ATC-COMM-320",
+        "ATC-COMM-321",
+        "ATC-COMM-322",
+        "ATC-COMM-323",
+        "ATC-COMM-324",
+        "ATC-COMM-325",
+        "ATC-COMM-326",
+        "ATC-COMM-327",
+        "ATC-COMM-328"
+      ],
+      "sections": [
+        {
+          "heading": "Pre-taxi clearance",
+          "bullets": [
+            "참여는 의무가 아니다.",
+            "참여 조종사는 지상활주 예정시간 최소 10분 전까지 clearance delivery 또는 ground control을 호출한다.",
+            "clearance delivery 주파수로 IFR 허가를 받았다면 taxi 준비가 완료되었을 때 ground control을 호출한다."
+          ]
+        },
+        {
+          "heading": "출발 제한 용어",
+          "table": {
+            "headers": [
+              "용어",
+              "핵심"
+            ],
+            "rows": [
+              [
+                "Clearance void time",
+                "비관제공항에서 지정 시각까지 출발하지 않으면 허가 무효. 미출발 통보시간은 30분을 초과하지 않음"
+              ],
+              [
+                "Hold for release",
+                "ATC가 해제시간 또는 추가지시를 줄 때까지 IFR 출발 금지"
+              ],
+              [
+                "Release time",
+                "항공기가 출발할 수 있는 가장 빠른 시각"
+              ],
+              [
+                "EDCT",
+                "지정 시각보다 5분 이상 빠르거나 5분 이상 늦게 출발하지 않도록 함"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "ODP와 SID",
+          "bullets": [
+            "DP는 터미널 지역에서 항공로 구조까지 장애물 회피를 제공하는 IFR 절차이다.",
+            "ODP는 장애물 회피를 주목적으로 하고, SID는 장애물 회피와 전환을 제공하면서 시스템 능력 향상·업무부담 감소에 중점을 둔다. SID 비행 전에는 ATC 허가가 필요하다.",
+            "달리 지정되지 않으면 활주로종단을 최소 35 ft 위로 통과하고 최초 선회 전 DER 표고보다 400 ft 이상 상승하며 최저 IFR 고도까지 최소 200 ft/NM 상승률을 유지하는 기준을 사용한다."
+          ]
+        }
+      ],
+      "summary_points": [
+        "Pre-taxi 호출: taxi 예정 최소 10분 전",
+        "Void time 미출발 통보 지정시간 ≤30분",
+        "EDCT ±5분",
+        "DER 35 ft · 선회 전 400 ft · 200 ft/NM",
+        "SID는 ATC 허가 필요"
+      ]
+    },
+    {
+      "id": "ATC-TH-16",
+      "order": 16,
+      "unit_title": "제3장 항공교통관제절차",
+      "title": "항공로 절차 · 주파수변경 · 위치보고 · Holding",
+      "source_pdf_pages": [
+        103,
+        104,
+        105,
+        106
+      ],
+      "source_printed_pages": [
+        101,
+        102,
+        103,
+        104
+      ],
+      "question_ids": [
+        "ATC-COMM-329",
+        "ATC-COMM-330",
+        "ATC-COMM-331",
+        "ATC-COMM-332",
+        "ATC-COMM-333",
+        "ATC-COMM-334",
+        "ATC-COMM-335",
+        "ATC-COMM-336",
+        "ATC-COMM-337",
+        "ATC-COMM-338",
+        "ATC-COMM-339",
+        "ATC-COMM-340",
+        "ATC-COMM-341",
+        "ATC-COMM-342",
+        "ATC-COMM-343",
+        "ATC-COMM-344",
+        "ATC-COMM-345",
+        "ATC-COMM-346",
+        "ATC-COMM-347",
+        "ATC-COMM-348",
+        "ATC-COMM-349",
+        "ATC-COMM-350",
+        "ATC-COMM-351",
+        "ATC-COMM-352"
+      ],
+      "sections": [
+        {
+          "heading": "ATC 주파수 변경과 Radar service",
+          "bullets": [
+            "새 주파수 최초교신 시 적절한 용어 level, climbing to, descending to와 배정고도 및 필요한 경우 떠나는 고도를 보고한다.",
+            "관제사가 특정 고도를 확인할 때는 “Verify at (altitude)”를 사용한다.",
+            "“Radar contact lost” 또는 “Radar service terminated” 통보 후에는 정상적인 위치보고를 재개한다."
+          ]
+        },
+        {
+          "heading": "위치보고와 121.5 MHz",
+          "bullets": [
+            "레이더 식별 중에는 지정된 보고지점의 정규 위치보고를 생략할 수 있으나, 레이더 포착이 소실되거나 서비스가 종료되면 다시 정상보고한다.",
+            "레이더가 포착하지 못할 때 FAF/outer marker를 떠나는 시점, missed approach 등 교재가 정한 의무보고 사항을 구분한다.",
+            "다른 VHF 채널 통신 중이거나 장비/업무 제한 등 교재가 제시한 예외를 제외하고 121.5 MHz 감시를 강조한다."
+          ]
+        },
+        {
+          "heading": "Holding 시간",
+          "table": {
+            "headers": [
+              "고도",
+              "Inbound leg"
+            ],
+            "rows": [
+              [
+                "14,000 ft MSL 이하",
+                "1분"
+              ],
+              [
+                "14,000 ft MSL 초과",
+                "1분 30초"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Outbound timing",
+          "paragraphs": [
+            "Outbound leg 시간은 fix 상공 또는 abeam 위치 중 나중에 나타나는 곳에서 시작하며, abeam을 판단할 수 없으면 outbound 선회를 완료한 때부터 측정한다."
+          ]
+        }
+      ],
+      "summary_points": [
+        "Verify at (altitude)",
+        "Radar service terminated → 정상 위치보고 재개",
+        "Holding 14,000 ft 이하 1분 · 초과 1분30초",
+        "Outbound 시간은 fix/abeam 중 나중 시점"
+      ]
+    },
+    {
+      "id": "ATC-TH-17",
+      "order": 17,
+      "unit_title": "제3장 항공교통관제절차",
+      "title": "도착절차 · STAR · MSA/MVA · 계기/시각접근",
+      "source_pdf_pages": [
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112
+      ],
+      "source_printed_pages": [
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110
+      ],
+      "question_ids": [
+        "ATC-COMM-353",
+        "ATC-COMM-354",
+        "ATC-COMM-355",
+        "ATC-COMM-356",
+        "ATC-COMM-357",
+        "ATC-COMM-358",
+        "ATC-COMM-359",
+        "ATC-COMM-360",
+        "ATC-COMM-361",
+        "ATC-COMM-362",
+        "ATC-COMM-363",
+        "ATC-COMM-364",
+        "ATC-COMM-365",
+        "ATC-COMM-366",
+        "ATC-COMM-367",
+        "ATC-COMM-368",
+        "ATC-COMM-369",
+        "ATC-COMM-370",
+        "ATC-COMM-371",
+        "ATC-COMM-372",
+        "ATC-COMM-373",
+        "ATC-COMM-374",
+        "ATC-COMM-375",
+        "ATC-COMM-376",
+        "ATC-COMM-377",
+        "ATC-COMM-378",
+        "ATC-COMM-379",
+        "ATC-COMM-380",
+        "ATC-COMM-381",
+        "ATC-COMM-382",
+        "ATC-COMM-383",
+        "ATC-COMM-384",
+        "ATC-COMM-385",
+        "ATC-COMM-386",
+        "ATC-COMM-387",
+        "ATC-COMM-388",
+        "ATC-COMM-389",
+        "ATC-COMM-390",
+        "ATC-COMM-391",
+        "ATC-COMM-392",
+        "ATC-COMM-393",
+        "ATC-COMM-394",
+        "ATC-COMM-395",
+        "ATC-COMM-396",
+        "ATC-COMM-397",
+        "ATC-COMM-398",
+        "ATC-COMM-399",
+        "ATC-COMM-400"
+      ],
+      "sections": [
+        {
+          "heading": "STAR와 Descend via",
+          "bullets": [
+            "STAR 사용을 원하지 않으면 비행계획서 비고란에 “NO STAR”를 기입하거나 ATC에 통보할 수 있다.",
+            "“Descend via”가 포함된 허가는 발간 제한사항 및 STAR의 횡적항행과 함께 조종사 임의의 수직항행을 허가하는 것으로 교재가 설명한다."
+          ]
+        },
+        {
+          "heading": "MSA · MVA",
+          "table": {
+            "headers": [
+              "항목",
+              "핵심"
+            ],
+            "rows": [
+              [
+                "MSA",
+                "긴급 사용 · 보통 반경 25 NM, 필요 시 30 NM · 장애물 1,000 ft 회피 · NAVAID reception 보장 아님 · 최대 4 sector"
+              ],
+              [
+                "MVA",
+                "레이더 ATC용 최저고도 · 비산악 1,000 ft/산악 2,000 ft 장애물 회피 · 관제공역 floor보다 최소 300 ft 위 · 일부 경우 MEA/MOCA보다 낮을 수 있음"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "VDP와 접근범주",
+          "bullets": [
+            "VDP는 비정밀 접근절차 최종접근진로의 지점으로, VDP 도달 전 MDA 아래로 강하하지 않는다. DME 또는 RNAV along-track distance로 식별할 수 있다.",
+            "LP 또는 LNAV 최저치에는 적용되지만 LPV 또는 LNAV/VNAV 최저치에는 적용되지 않는다고 교재는 설명한다.",
+            "접근범주는 최대착륙중량에서 착륙형태 실속속도의 1.3배를 기준으로 분류한다."
+          ]
+        },
+        {
+          "heading": "시각접근/Contact approach와 레이더 접근",
+          "bullets": [
+            "시각접근은 IFR 비행계획 하에서 공항 또는 선행 항공기를 시야에 두고 수행한다.",
+            "Contact approach는 조종사가 요청하며 교재가 제시한 시정/절차 요건을 적용한다.",
+            "최종접근진로로 레이더 유도 중 특정시간 동안 통신이 없으면 lost communications procedure를 수행하며 그 시간은 1분을 초과하지 못한다."
+          ]
+        }
+      ],
+      "summary_points": [
+        "MSA 25 NM(필요 시 30) · 1,000 ft · 최대 4 sector",
+        "MVA 비산악 1,000 / 산악 2,000 / floor+300 ft",
+        "VDP 전 MDA 아래 강하 금지",
+        "접근범주 기준: Vso×1.3",
+        "최종접근 레이더 유도 통신두절 기준 최대 1분"
+      ]
+    },
+    {
+      "id": "ATC-TH-18",
+      "order": 18,
+      "unit_title": "제3장 항공교통관제절차",
+      "title": "조종사·관제사 역할과 책임 · Minimum Fuel",
+      "source_pdf_pages": [
+        112,
+        113
+      ],
+      "source_printed_pages": [
+        110,
+        111
+      ],
+      "question_ids": [
+        "ATC-COMM-401",
+        "ATC-COMM-402",
+        "ATC-COMM-403",
+        "ATC-COMM-404",
+        "ATC-COMM-405",
+        "ATC-COMM-406",
+        "ATC-COMM-407",
+        "ATC-COMM-408",
+        "ATC-COMM-409",
+        "ATC-COMM-410"
+      ],
+      "sections": [
+        {
+          "heading": "ATC 허가와 조종사 책임",
+          "bullets": [
+            "조종사는 ATC 허가를 받고 이해하였음을 응답하고, 충분히 이해하지 못했거나 의심스러운 사항은 확인한다.",
+            "활주로 진입전대기(hold short of runway) 지시는 반드시 복창하는 항목으로 교재가 제시한다.",
+            "비행방식이나 레이더 관제 여부와 관계없이 기상상태가 허용되면 see and avoid 책임이 있다."
+          ]
+        },
+        {
+          "heading": "속도조절",
+          "bullets": [
+            "관제사는 감속과 증속이 번갈아 필요한 지시를 피하고, IAS는 10 kt 단위로 지시한다.",
+            "FL240 이상에서 Mach로 비행하는 터보제트에는 Mach 0.01 간격으로 지시할 수 있다고 교재는 설명한다."
+          ]
+        },
+        {
+          "heading": "Minimum fuel",
+          "bullets": [
+            "Minimum fuel은 비상선언 자체가 아니며 자동 우선권을 뜻하지 않는다.",
+            "안전한 착륙을 위해 우선권이 필요하다고 판단되면 비상을 선포하고 잔여 연료를 분 단위로 계산하여 ATC에 보고하는 절차를 교재 문제에서 강조한다."
+          ]
+        }
+      ],
+      "summary_points": [
+        "허가 이해/복창/확인 책임",
+        "See and avoid는 조종사의 최종 책임",
+        "속도지시 IAS 10 kt 단위 · FL240 이상 Mach 0.01",
+        "Minimum fuel ≠ 자동 우선권"
+      ]
+    },
+    {
+      "id": "ATC-TH-19",
+      "order": 19,
+      "unit_title": "제3장 항공교통관제절차",
+      "title": "국가안보 · ADIZ · 요격절차와 신호",
+      "source_pdf_pages": [
+        114,
+        115,
+        116
+      ],
+      "source_printed_pages": [
+        112,
+        113,
+        114
+      ],
+      "question_ids": [
+        "ATC-COMM-411",
+        "ATC-COMM-412",
+        "ATC-COMM-413",
+        "ATC-COMM-414",
+        "ATC-COMM-415",
+        "ATC-COMM-416",
+        "ATC-COMM-417",
+        "ATC-COMM-418",
+        "ATC-COMM-419",
+        "ATC-COMM-420",
+        "ATC-COMM-421",
+        "ATC-COMM-422",
+        "ATC-COMM-423",
+        "ATC-COMM-424",
+        "ATC-COMM-425",
+        "ATC-COMM-426",
+        "ATC-COMM-427"
+      ],
+      "sections": [
+        {
+          "heading": "ADIZ 운항요건",
+          "bullets": [
+            "ADIZ 운항 시 고도보고기능이 있는 사용 가능한 2차 감시레이더용 transponder를 작동시키고 해당 code 또는 ATC 지정 code에 응답할 수 있도록 설정한다.",
+            "해당 ATC와 양방향 무선교신을 유지하며 IFR 또는 ADIZ 진입시간/지점을 포함한 DVFR 비행계획을 사용한다.",
+            "비관제공역을 통하여 ADIZ에 진입할 때는 진입 30분 전부터 15분 전 사이에 통과예정시간·지점·고도를 보고하고, ADIZ에서는 30분마다 위치보고한다."
+          ]
+        },
+        {
+          "heading": "위치 오차허용",
+          "table": {
+            "headers": [
+              "구분",
+              "교재 기준"
+            ],
+            "rows": [
+              [
+                "육상",
+                "예정시간 ±5분 · 계획 항적 중앙선 ±10 NM"
+              ],
+              [
+                "해상",
+                "예정시간 ±5분 · 계획 항적 중앙선 ±20 NM"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "요격 접근과 통신",
+          "bullets": [
+            "표준 접근에서 요격기는 피요격기의 후미로 접근하며 통상 2대가 투입된다고 설명한다.",
+            "피요격 항공기는 가능하면 121.5 MHz 또는 243.0 MHz로 무선교신을 시도한다.",
+            "별도 지시가 없으면 SSR transponder Mode 3/A Code 7700을 선택하는 내용을 교재 문제에서 다룬다."
+          ]
+        },
+        {
+          "heading": "대표 요격신호",
+          "bullets": [
+            "요격기가 약간 위쪽 전방 좌측에서 날개를 흔드는 신호는 “당신은 요격을 당하고 있으니 나를 따라오라”의 의미로 제시된다.",
+            "피요격기가 지시를 따를 수 없을 때는 사용 가능한 모든 등화를 규칙적으로 on/off한다. 비상임을 알릴 때는 등화를 불규칙적으로 점멸한다."
+          ]
+        }
+      ],
+      "summary_points": [
+        "ADIZ: transponder + 양방향 교신 + 비행계획",
+        "위치오차 육상 ±5분/10 NM · 해상 ±5분/20 NM",
+        "요격 표준접근: 후방 · 통상 2대",
+        "피요격 무선 121.5/243.0 MHz",
+        "지시 불가=규칙 점멸 · 비상=불규칙 점멸"
+      ]
+    },
+    {
+      "id": "ATC-TH-20",
+      "order": 20,
+      "unit_title": "제4장 비상절차",
+      "title": "비상지원 · 7700 · ELT · 수색구조",
+      "source_pdf_pages": [
+        147,
+        148
+      ],
+      "source_printed_pages": [
+        145,
+        146
+      ],
+      "question_ids": [
+        "ATC-COMM-428",
+        "ATC-COMM-429",
+        "ATC-COMM-430",
+        "ATC-COMM-431",
+        "ATC-COMM-432",
+        "ATC-COMM-433",
+        "ATC-COMM-434",
+        "ATC-COMM-435",
+        "ATC-COMM-436",
+        "ATC-COMM-437",
+        "ATC-COMM-438",
+        "ATC-COMM-439",
+        "ATC-COMM-440",
+        "ATC-COMM-441",
+        "ATC-COMM-442"
+      ],
+      "sections": [
+        {
+          "heading": "Transponder 비상운용",
+          "bullets": [
+            "조난 또는 긴급상황에서 지상 레이더시설에 비상을 선언하려면 Mode 3/A Code 7700/Emergency 및 Mode C 고도보고로 조정한 뒤 즉시 ATC와 교신한다."
+          ]
+        },
+        {
+          "heading": "ELT",
+          "bullets": [
+            "교재는 ELT 운용 주파수로 121.5 MHz, 243.0 MHz 및 406 MHz를 제시한다.",
+            "ELT 시험은 매시 처음 5분 동안에만 실시하고, 실제경보와 혼동하지 않도록 가청 신호는 3회 이내로 제한한다. 공중시험은 승인되지 않는다.",
+            "ELT 신호를 청취하면 최초/마지막 청취 위치와 시간, 최대강도 위치, 고도와 수신주파수 등을 인접 ATS 시설에 통보한다."
+          ]
+        },
+        {
+          "heading": "수색구조 시각신호",
+          "bullets": [
+            "교재는 생존자/구조대의 지상-공중 시각기호를 표로 제시하며 V=assistance, X=medical assistance, N=No/Negative, Y=Yes/Affirmative 등의 의미를 문제로 확인한다."
+          ]
+        }
+      ],
+      "summary_points": [
+        "Emergency squawk 7700 + Mode C",
+        "ELT 121.5 / 243.0 / 406 MHz",
+        "ELT test: 매시 첫 5분 · 3 sweeps 이내 · airborne test 금지",
+        "SAR 시각기호 구분"
+      ]
+    },
+    {
+      "id": "ATC-TH-21",
+      "order": 21,
+      "unit_title": "제4장 비상절차",
+      "title": "비상단계 · MAYDAY/PAN-PAN · Hijack · Fuel Dump · 통신두절",
+      "source_pdf_pages": [
+        149,
+        150,
+        151,
+        152
+      ],
+      "source_printed_pages": [
+        147,
+        148,
+        149,
+        150
+      ],
+      "question_ids": [
+        "ATC-COMM-443",
+        "ATC-COMM-444",
+        "ATC-COMM-445",
+        "ATC-COMM-446",
+        "ATC-COMM-447",
+        "ATC-COMM-448",
+        "ATC-COMM-449",
+        "ATC-COMM-450",
+        "ATC-COMM-451",
+        "ATC-COMM-452",
+        "ATC-COMM-453",
+        "ATC-COMM-454",
+        "ATC-COMM-455",
+        "ATC-COMM-456",
+        "ATC-COMM-457",
+        "ATC-COMM-458",
+        "ATC-COMM-459",
+        "ATC-COMM-460",
+        "ATC-COMM-461",
+        "ATC-COMM-462",
+        "ATC-COMM-463",
+        "ATC-COMM-464",
+        "ATC-COMM-465",
+        "ATC-COMM-466",
+        "ATC-COMM-467",
+        "ATC-COMM-468",
+        "ATC-COMM-469",
+        "ATC-COMM-470",
+        "ATC-COMM-471",
+        "ATC-COMM-472",
+        "ATC-COMM-473",
+        "ATC-COMM-474",
+        "ATC-COMM-475",
+        "ATC-COMM-476"
+      ],
+      "sections": [
+        {
+          "heading": "비상 단계",
+          "table": {
+            "headers": [
+              "단계",
+              "핵심"
+            ],
+            "rows": [
+              [
+                "INCERFA",
+                "항공기/탑승자의 안전이 불확실"
+              ],
+              [
+                "ALERFA",
+                "항공기/탑승자의 안전이 염려"
+              ],
+              [
+                "DETRESFA",
+                "중대하고 급박한 위험 및 즉각적인 지원 필요"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "조난·긴급 통신",
+          "bullets": [
+            "조난은 MAYDAY, 긴급은 PAN-PAN을 사용한다. 교재는 조난/긴급 주파수로 121.5 MHz와 243.0 MHz를 설명하고 해상업무 지원용 2182 kHz도 다룬다.",
+            "조난통신은 다른 통신에 절대적인 우선권을 가지며, 조난메시지에는 식별부호·상황·의도/요청·위치·고도·잔여연료(분)·탑승인원 등의 정보를 포함한다."
+          ]
+        },
+        {
+          "heading": "특별비상·연료투하",
+          "bullets": [
+            "공중납치 등 특별비상상황에서는 Mode 3/A Code 7500을 사용한다.",
+            "연료투하 시 교재는 사전 방송, IFR 고도배정과 다른 항공기 분리 기준을 제시한다. IFR 조건에서는 비행로나 비행장주 5 NM 이내 최고 장애물보다 최소 2,000 ft 이상의 고도를 배정한다."
+          ]
+        },
+        {
+          "heading": "양방향 무선통신 두절",
+          "bullets": [
+            "VFR 기상조건에서는 VFR 조건으로 계속 비행하여 가능한 빨리 착륙하는 원칙을 제시한다.",
+            "통신두절 시 transponder는 Mode 3/A Code 7600으로 설정한다.",
+            "교재는 IFR 통신두절의 항로·고도·속도 및 접근/착륙 시각 기준을 별도로 정리한다."
+          ]
+        }
+      ],
+      "summary_points": [
+        "INCERFA → ALERFA → DETRESFA",
+        "MAYDAY=조난 · PAN-PAN=긴급",
+        "Hijack 7500 · Radio failure 7600 · Emergency 7700",
+        "Fuel dump IFR: 관련 최고 장애물 +2,000 ft",
+        "VMC 통신두절: VFR로 가능한 빨리 착륙"
+      ]
+    },
+    {
+      "id": "ATC-TH-22",
+      "order": 22,
+      "unit_title": "항공통신업무",
+      "title": "무선통신 일반운용 · Phraseology · 교신실패/Radio Check",
+      "source_pdf_pages": [
+        164,
+        165,
+        166,
+        167,
+        168
+      ],
+      "source_printed_pages": [
+        162,
+        163,
+        164,
+        165,
+        166
+      ],
+      "question_ids": [
+        "ATC-COMM-477",
+        "ATC-COMM-478",
+        "ATC-COMM-479",
+        "ATC-COMM-480",
+        "ATC-COMM-481",
+        "ATC-COMM-482",
+        "ATC-COMM-483",
+        "ATC-COMM-484",
+        "ATC-COMM-485",
+        "ATC-COMM-486",
+        "ATC-COMM-487",
+        "ATC-COMM-488",
+        "ATC-COMM-489",
+        "ATC-COMM-490",
+        "ATC-COMM-491",
+        "ATC-COMM-492",
+        "ATC-COMM-493",
+        "ATC-COMM-494"
+      ],
+      "sections": [
+        {
+          "heading": "Radio technique",
+          "bullets": [
+            "송신 전 먼저 청취(Listen)하고, 송신키를 누르기 전에 전달할 내용을 생각한다(Think).",
+            "마이크를 입술 가까이에 두고 버튼을 누른 뒤 첫 단어가 확실히 송신되도록 잠시 기다리고 평상시 대화 어조로 말한다.",
+            "보통 통화속도는 분당 100단어를 초과하지 않으며, 숫자 앞뒤에 약간의 간격을 둔다."
+          ]
+        },
+        {
+          "heading": "주요 Phraseology",
+          "table": {
+            "headers": [
+              "용어",
+              "교재 의미"
+            ],
+            "rows": [
+              [
+                "ACKNOWLEDGE",
+                "메시지를 수신하고 이해했는지 알려 달라"
+              ],
+              [
+                "ROGER",
+                "마지막 송신을 모두 받았다"
+              ],
+              [
+                "WILCO",
+                "메시지를 이해했고 그대로 따르겠다"
+              ],
+              [
+                "VERIFY",
+                "발신자에게 확인·점검하라"
+              ],
+              [
+                "SAY AGAIN",
+                "마지막 송신의 전부 또는 일부를 반복하라"
+              ],
+              [
+                "SPEAK SLOWER",
+                "말하는 속도를 천천히 하라"
+              ],
+              [
+                "DISREGARD",
+                "이 메시지를 무시하라"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "교신 실패와 반복",
+          "bullets": [
+            "지정 주파수 교신이 실패하면 적합한 다른 주파수, 다른 항공기 또는 다른 항공국을 통해 교신을 시도한다.",
+            "계속 실패하면 “TRANSMITTING BLIND” 다음 전달내용을 2회 송신한다. 수신기 고장 시 “TRANSMITTING BLIND DUE TO RECEIVER FAILURE”를 사용한다.",
+            "일부 반복은 SAY AGAIN ALL BEFORE/AFTER/BETWEEN 등의 형식을 사용한다."
+          ]
+        },
+        {
+          "heading": "Radio check와 호출부호",
+          "bullets": [
+            "시험송신은 호출된 기지국, 항공기 호출부호, RADIO CHECK, 사용주파수의 순서로 구성한다. 수신감도는 1~5로 보고한다.",
+            "최초교신에는 호출 시설명칭, 전체 항공기 식별부호, 지상운행 중이면 위치, 필요 시 메시지/요구사항과 Over를 포함한다.",
+            "항공국 호출부호 예: CONTROL, APPROACH, DEPARTURE, TOWER, GROUND, DELIVERY, INFORMATION, RADIO, CENTER."
+          ]
+        }
+      ],
+      "summary_points": [
+        "송신 전 Listen → Think",
+        "일반 통화속도 ≤100 words/min",
+        "WILCO=이해+준수 · ROGER=수신 · VERIFY=확인",
+        "TRANSMITTING BLIND는 내용 2회",
+        "Radio check readability 1~5"
+      ]
+    },
+    {
+      "id": "ATC-TH-23",
+      "order": 23,
+      "unit_title": "항공통신업무",
+      "title": "문자·숫자 송신 · AFS/AFTN · 전문 우선순위",
+      "source_pdf_pages": [
+        169,
+        170,
+        171,
+        172,
+        173
+      ],
+      "source_printed_pages": [
+        167,
+        168,
+        169,
+        170,
+        171
+      ],
+      "question_ids": [
+        "ATC-COMM-495",
+        "ATC-COMM-496",
+        "ATC-COMM-497",
+        "ATC-COMM-498",
+        "ATC-COMM-499",
+        "ATC-COMM-500",
+        "ATC-COMM-501",
+        "ATC-COMM-502",
+        "ATC-COMM-503",
+        "ATC-COMM-504",
+        "ATC-COMM-505",
+        "ATC-COMM-506",
+        "ATC-COMM-507",
+        "ATC-COMM-508",
+        "ATC-COMM-509",
+        "ATC-COMM-510",
+        "ATC-COMM-511",
+        "ATC-COMM-512",
+        "ATC-COMM-513",
+        "ATC-COMM-514",
+        "ATC-COMM-515",
+        "ATC-COMM-516",
+        "ATC-COMM-517",
+        "ATC-COMM-518",
+        "ATC-COMM-519",
+        "ATC-COMM-520",
+        "ATC-COMM-521",
+        "ATC-COMM-522",
+        "ATC-COMM-523"
+      ],
+      "sections": [
+        {
+          "heading": "문자·숫자 송신",
+          "bullets": [
+            "ICAO 음성 알파벳을 사용한다. 숫자 3=Tree, 4=Fow-er, 5=Fife, 9=Nin-er 등의 발음을 교재가 제시한다.",
+            "주파수 숫자는 각각 읽고 소수점은 Point 또는 Decimal로 읽는다(ICAO 절차는 Decimal).",
+            "18,000 ft MSL 미만 고도는 Hundred/Thousand를 적절히 붙이고, 18,000 ft 이상은 Flight level 다음 숫자를 각각 읽는다.",
+            "기수방향은 Heading 다음 3자리 숫자로 읽고 Degrees는 생략한다. 속도는 숫자 뒤 knots, 마하수는 Mach를 앞에 붙인다."
+          ]
+        },
+        {
+          "heading": "항공통신업무와 AFS",
+          "bullets": [
+            "항공통신업무는 항공방송, 항공고정, 항공이동, 항공무선항행업무 등을 포함하여 설명한다.",
+            "항공고정통신업무(AFS)는 특정 지점 사이에서 AFTN 또는 AMHS 등을 이용하여 항공정보를 제공·교환하는 업무이다."
+          ]
+        },
+        {
+          "heading": "전문 우선순위",
+          "table": {
+            "headers": [
+              "전문",
+              "우선순위"
+            ],
+            "rows": [
+              [
+                "조난",
+                "SS"
+              ],
+              [
+                "긴급",
+                "DD"
+              ],
+              [
+                "비행안전",
+                "FF"
+              ],
+              [
+                "기상·비행규칙·AIS",
+                "GG"
+              ],
+              [
+                "항공행정",
+                "KK"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "AFTN 핵심 수치",
+          "bullets": [
+            "전송 우선순위는 SS → DD/FF → GG/KK 순이다.",
+            "전문 전체는 ZCZC부터 NNNN까지 2,100자를 초과하지 않고, 본문은 1,800자, 한 줄은 공백 포함 69자를 초과하지 않는다.",
+            "AFTN 전문 사본/기록은 최소 30일 동안 보존한다.",
+            "AFS 전문 본문에는 로마 숫자를 사용하지 않으며 부득이하면 아라비아 숫자 앞에 ROMAN을 붙여 알린다."
+          ]
+        }
+      ],
+      "summary_points": [
+        "주파수 소수점=Point/Decimal",
+        "Heading은 3자리, Degrees 생략",
+        "SS > DD/FF > GG/KK",
+        "AFTN 2,100 / 본문 1,800 / 줄 69자",
+        "AFTN 기록 최소 30일"
+      ]
+    },
+    {
+      "id": "ATC-TH-24",
+      "order": 24,
+      "unit_title": "항공정보업무",
+      "title": "AIS · AIP · NOTAM/SNOWTAM · AIRAC/AIC",
+      "source_pdf_pages": [
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191
+      ],
+      "source_printed_pages": [
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189
+      ],
+      "question_ids": [
+        "ATC-COMM-524",
+        "ATC-COMM-525",
+        "ATC-COMM-526",
+        "ATC-COMM-527",
+        "ATC-COMM-528",
+        "ATC-COMM-529",
+        "ATC-COMM-530",
+        "ATC-COMM-531",
+        "ATC-COMM-532",
+        "ATC-COMM-533",
+        "ATC-COMM-534",
+        "ATC-COMM-535",
+        "ATC-COMM-536",
+        "ATC-COMM-537",
+        "ATC-COMM-538",
+        "ATC-COMM-539",
+        "ATC-COMM-540",
+        "ATC-COMM-541",
+        "ATC-COMM-542",
+        "ATC-COMM-543",
+        "ATC-COMM-544",
+        "ATC-COMM-545",
+        "ATC-COMM-546",
+        "ATC-COMM-547",
+        "ATC-COMM-548",
+        "ATC-COMM-549"
+      ],
+      "sections": [
+        {
+          "heading": "AIS와 AIP",
+          "bullets": [
+            "AIS를 24시간 제공할 수 없는 경우 책임지역에서 항공기가 비행하는 동안 비행시간 최소 2시간 전후까지 항공정보를 제공한다.",
+            "AIP는 항공항행에 필수적이고 영구적인 성격의 항공정보를 수록한다. 교재는 GEN, ENR, AD의 3부분으로 구성된다고 설명한다.",
+            "항공정보간행물(수정판 포함)은 28일 간격으로 연 13회 발간된다고 교재는 정리한다."
+          ]
+        },
+        {
+          "heading": "NOTAM",
+          "bullets": [
+            "NOTAMN=신규, NOTAMR=대체, NOTAMC=취소.",
+            "Q항목은 8개의 소항목으로 구성되고 사선으로 구분한다. NOTAM Code는 총 5문자이며 첫 문자는 Q이다.",
+            "예시 QIGAS는 IG=Glide path(ILS), AS=Unserviceable을 뜻한다."
+          ]
+        },
+        {
+          "heading": "SNOWTAM",
+          "bullets": [
+            "최대 유효기간은 24시간이다.",
+            "재발행 기준으로 마찰계수 0.05, 마른 눈 20 mm, 젖은 눈 10 mm, 진창 3 mm, 사용 가능한 활주로 길이/폭 10% 이상의 변경 등을 제시한다."
+          ]
+        },
+        {
+          "heading": "AIRAC · AIC",
+          "bullets": [
+            "AIRAC 정보는 발효일자로부터 최소 28일 동안 변경하지 않으며, 수신자가 발효일 최소 28일 전에 받을 수 있도록 발효일 42일 전에 발행한다. 중요한 변경은 56일 이전 발간일자를 사용할 수 있다.",
+            "AIC는 AIP 또는 NOTAM 전파대상이 아닌 비행안전·항행·기술·행정·규정개정 등의 정보/설명/조언을 수록한다."
+          ]
+        }
+      ],
+      "summary_points": [
+        "AIS 비24시간 공항: 비행시간 최소 ±2시간",
+        "AIP = GEN / ENR / AD",
+        "NOTAMN/R/C",
+        "NOTAM Code 5문자, 첫 글자 Q",
+        "SNOWTAM 24시간 · 0.05 / 20 / 10 / 3 / 10%",
+        "AIRAC: 28일 유지 · 42일 전 발행 · 중요변경 56일"
+      ]
+    },
+    {
+      "id": "ATC-TH-25",
+      "order": 25,
+      "unit_title": "항공정보업무",
+      "title": "항공지도의 종류 · 축척 · 장애물도 표기와 기호",
+      "source_pdf_pages": [
+        192,
+        193,
+        194
+      ],
+      "source_printed_pages": [
+        190,
+        191,
+        192
+      ],
+      "question_ids": [
+        "ATC-COMM-550",
+        "ATC-COMM-551",
+        "ATC-COMM-552",
+        "ATC-COMM-553",
+        "ATC-COMM-554",
+        "ATC-COMM-555",
+        "ATC-COMM-556",
+        "ATC-COMM-557",
+        "ATC-COMM-558",
+        "ATC-COMM-559",
+        "ATC-COMM-560",
+        "ATC-COMM-561",
+        "ATC-COMM-562",
+        "ATC-COMM-563"
+      ],
+      "sections": [
+        {
+          "heading": "주요 항공지도의 목적",
+          "table": {
+            "headers": [
+              "지도",
+              "교재 핵심"
+            ],
+            "rows": [
+              [
+                "Aerodrome Obstacle Chart Type A",
+                "이륙비행로 구역의 중요한 장애물 정보"
+              ],
+              [
+                "Type B",
+                "최저안전고도/높이 결정, 비상절차, 장애물 회피·표지 관련 정보"
+              ],
+              [
+                "Precision Approach Terrain Chart",
+                "무선고도계 사용 시 결심고도 결정에 영향을 주는 지형 측면정보"
+              ],
+              [
+                "Enroute Chart",
+                "ATS 항공로를 따라 항행하는 데 필요한 정보"
+              ],
+              [
+                "Area Chart",
+                "순항↔접근, 이륙/실패접근↔순항 전환 및 복잡 공역 통과 정보"
+              ],
+              [
+                "SID/STAR Chart",
+                "출발/도착 표준계기비행로 정보"
+              ],
+              [
+                "Instrument Approach Chart",
+                "실패접근을 포함한 계기접근절차 수행 정보"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "장애물도 표기",
+          "bullets": [
+            "활주로 윤곽, 유도로·계류장(apron)·주기지역은 실선으로 표시한다.",
+            "정지로(stopway), 개방로(clearway), 이륙 및 진입표면은 파선(점선)으로 표시한다."
+          ]
+        },
+        {
+          "heading": "VFR 지도 축척",
+          "bullets": [
+            "교재의 Aeronautical Chart 및 FAA Sectional chart는 1:500,000 축척으로 저속·중속 시계비행에 사용한다.",
+            "VFR Terminal Area Chart(TAC)는 1:250,000 축척으로 더 상세하며 B등급 또는 C등급 공역 주변 입출항에 사용할 수 있다고 설명한다."
+          ]
+        },
+        {
+          "heading": "항공지도 기호",
+          "bullets": [
+            "NDB, VOR, DME, VOR/DME, TACAN, VORTAC, RNAV waypoint와 Area Chart의 departure/arrival route 등 교재 표의 기호를 구분한다."
+          ]
+        }
+      ],
+      "summary_points": [
+        "Type A=이륙 장애물 · Type B=최저고도/비상/장애물",
+        "Taxiway/apron/parking=실선",
+        "Stopway/clearway=점선",
+        "Sectional 1:500,000 · TAC 1:250,000",
+        "Enroute/Area/SID/STAR/IAP 목적 구분"
+      ]
+    }
+  ]
+}
