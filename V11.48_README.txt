@@ -1,0 +1,25 @@
+v11.48 Aviwiki · Weather 추가
+
+기준: v11.47 Aviwiki Aerodynamics
+
+변경 내용
+- 사용자 제공 Weather.txt 전체를 Aviwiki용 데이터로 구조화
+- Weather 10개 챕터 / 61개 섹션 추가
+- Aerodynamics 6개 챕터 / 37개 섹션과 통합
+- Aviwiki 총 2과목 / 16챕터 / 98섹션
+- 홈 통합검색에서 Aerodynamics + Weather 동시 검색
+- Weather 과목 카드 활성화
+- 상세 좌측 목차와 이전/다음 이동은 현재 과목 안에서만 동작
+- 북마크/이어보기 기존 Supabase 상태 저장 구조 그대로 사용
+- 추가 SQL 없음
+
+그림 연결 준비
+- Aerodynamics/Weather 데이터의 figure_slots에 그림 위치 예약 정보 저장
+- 현재 asset_path는 null
+- 추후 그림 파일을 받으면 해당 slot_id에 파일 경로를 연결하는 방식으로 확장 가능
+
+GitHub에 덮어쓸 파일
+- index.html
+- assets/app-v11-27.js
+- data/aviwiki-aerodynamics-v1.json
+- data/aviwiki-weather-v1.json

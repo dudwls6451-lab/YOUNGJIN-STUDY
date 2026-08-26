@@ -1,0 +1,28 @@
+{
+  "version": "v11.48",
+  "feature": "aviwiki_weather",
+  "subjects": {
+    "Aerodynamics": {
+      "chapters": 6,
+      "sections": 37
+    },
+    "Weather": {
+      "chapters": 10,
+      "sections": 61
+    }
+  },
+  "totals": {
+    "subjects": 2,
+    "chapters": 16,
+    "sections": 98
+  },
+  "weather_source": "Weather.txt",
+  "image_slots": "reserved_for_future_assets",
+  "sql_required": false,
+  "changed_files": [
+    "index.html",
+    "assets/app-v11-27.js",
+    "data/aviwiki-aerodynamics-v1.json",
+    "data/aviwiki-weather-v1.json"
+  ]
+}
