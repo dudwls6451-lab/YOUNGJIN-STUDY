@@ -1,0 +1,23 @@
+v11.38 Supabase 인증 설정
+
+회원가입 흐름
+- 이름 + 이메일 + 비밀번호 + 비밀번호 확인
+- 이메일 인증/OTP 없음
+- 가입 즉시 profiles.approval_status = pending
+- 관리자가 approved로 변경한 뒤 문제은행 이용 가능
+
+로그인 흐름
+- 이메일 + 비밀번호
+- approved 사용자만 문제은행 입장
+- pending/rejected 사용자는 승인 상태 화면 표시
+
+필수 Supabase 설정
+1. Authentication > Providers > Email
+2. Allow new users to sign up: ON
+3. Confirm Email: OFF
+
+Custom SMTP는 이 구성에서 필요하지 않습니다.
+
+주의
+- 이전 이메일 인증 방식으로 만들어진 미인증 테스트 계정은 필요하면 Supabase Authentication > Users에서 삭제 후 다시 가입하세요.
+- profiles의 관리자 계정은 approval_status=approved, is_admin=true 상태를 유지하세요.
