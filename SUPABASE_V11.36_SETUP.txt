@@ -1,0 +1,44 @@
+항공 문제은행 v11.36 · Supabase 이메일 OTP 인증 패치
+
+[변경 내용]
+1) 기존 로컬 시험용 로그인 계정은 김영진_시험용만 유지
+2) 신규 회원가입: 이름 + 이메일 → 이메일 OTP 인증
+3) 로그인: 이메일 → 이메일 OTP 인증 (로그인 화면에서는 새 계정 자동 생성 금지)
+4) 이메일 인증 후 public.profiles.approval_status 확인
+   - pending: 관리자 승인 대기 화면
+   - approved: 문제은행 입장
+   - rejected: 승인 불가 화면
+5) Supabase 사용자는 UUID 기준으로 기존 LocalStorage 학습기록을 분리
+6) 기존 문제은행/문제 데이터/app-v11-18.js는 변경하지 않음
+
+[중요: Supabase 이메일 템플릿 설정]
+Supabase Dashboard → Authentication → Email Templates → Magic Link or OTP
+이메일 본문에 링크만 있다면 {{ .ConfirmationURL }} 대신 인증코드가 보이도록 {{ .Token }} 을 넣어 주세요.
+예시 본문:
+
+<h2>항공 문제은행 인증코드</h2>
+<p>아래 인증코드를 문제은행 화면에 입력해 주세요.</p>
+<p style="font-size:28px;font-weight:700;letter-spacing:4px;">{{ .Token }}</p>
+
+[관리자 승인]
+현재는 Supabase Dashboard → Table Editor → profiles 에서 가입자의 approval_status를
+pending → approved 로 변경하면 됩니다.
+사용자는 승인대기 화면의 '승인 상태 다시 확인' 버튼을 누르면 바로 입장할 수 있습니다.
+
+[관리자 Supabase 계정]
+앞서 만든 관리자 Supabase 계정은 profiles.is_admin = true, approval_status = approved 상태를 유지하세요.
+
+[기존 김영진_시험용]
+기존 로컬 로그인 방식은 김영진_시험용 계정 하나만 유지됩니다.
+이 계정은 Supabase 계정과 별개이므로 Supabase 가입자 승인 기능은 Dashboard에서 수행합니다.
+추후 관리자 승인 페이지를 웹앱에 추가할 수 있습니다.
+
+[적용 파일]
+- index.html
+- assets/supabase-config.js
+- assets/auth-v11-7.js
+- assets/auth-v11-3.js ~ auth-v11-6.js (구버전 호환 파일의 기존 계정 목록도 김영진_시험용만 남기도록 정리)
+
+[확인]
+배포 후 F12 → Console에서 아래 메시지를 확인하세요.
+[Supabase] client initialized: true

@@ -9,13 +9,6 @@
   // 단, 정적 사이트 특성상 서버 인증을 대체하는 보안 기능은 아닙니다.
   const USERS = {
     "김영진_시험용": "39eca08aeb432326189e95cd27b5ac80d99c4c3ae9519efa3a3c4bd80dd1c8f0",
-    "김덕재_시험용": "a8c0570cf7429c7a2922048240ffd05bc7ce335b1bc29d60aa79a1ab4e021b18",
-    "진준_시험용": "cf61a7198ebc3f58d1108df74b7ebe0c82a5f0b959d3900abba99fd62c203c27",
-    "김기태_시험용": "b5832d227f395d4daa308724da85d57d4cfa076758c0bfa4d89acbb8fb34e418",
-    "최원찬_시험용": "4e07770562fe41c42e301f119597f86c0cfdca7e3e640b3b89dde38dae513485",
-    "주해솔_시험용": "326e153d6959160c0e7d7568e0d33b25c1ed70b546a447ad8c68fd149aeff4df",
-    "송용근_시험용": "ad5027c76805ca39e7451c7c860f2bc7485da676edb0adda6eada6ed3b80a7fd",
-    "우석원_시험용": "7c83a625076c79ef4b0217aca1bc8c103b0a64fea444c9c7b7a7cef6a1bc3a5e",
   };
 
   let currentUser = null;
