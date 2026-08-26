@@ -5,27 +5,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>항공 문제은행</title>
   <link rel="stylesheet" href="./assets/style-v11-33.css?v=11.34.0" />
+  <link rel="stylesheet" href="./assets/style-v11-44.css?v=11.44.0" />
 </head>
 <body>
   <header class="topbar">
     <div class="container topbar-inner">
       <div>
         <h1><button id="homeTitleBtn" class="brand-home-button" type="button" aria-label="홈으로 이동">항공 문제은행</button></h1>
-        <p class="muted">학습 모드 선택 · 통합 문제은행 · v11.41</p>
+        <p class="muted">모바일 · iPad 최적화 학습 플랫폼 · v11.44</p>
       </div>
       <nav class="row nav-row">
-        <button id="statsBtn" class="button secondary">학습 통계</button>
-        <button id="errorsBtn" type="button" class="button secondary error-list-button">
-          오류 목록 <span id="errorCountBadge" class="count-badge">0</span>
+        <button id="homeNavBtn" class="button secondary nav-action" type="button"><span class="nav-icon">⌂</span><span>홈</span></button>
+        <button id="statsBtn" class="button secondary nav-action" type="button"><span class="nav-icon">◉</span><span>마이페이지</span></button>
+        <button id="errorsBtn" type="button" class="button secondary error-list-button nav-action">
+          <span class="nav-icon">!</span><span>오류 목록</span> <span id="errorCountBadge" class="count-badge">0</span>
         </button>
-        <button id="adminErrorReportsBtn" type="button" class="button secondary hidden">보고된 오류</button>
-        <a class="button secondary" href="./admin.html">문제 추가</a>
+        <button id="adminErrorReportsBtn" type="button" class="button secondary hidden nav-action"><span class="nav-icon">⚙</span><span>보고된 오류</span></button>
+        <a id="problemAdminLink" class="button secondary hidden nav-action" href="./admin.html"><span class="nav-icon">＋</span><span>문제 추가</span></a>
       </nav>
     </div>
   </header>
 
   <main class="container">
+    <section id="homeHero" class="home-hero">
+      <div>
+        <span class="eyebrow">TOGA STUDY</span>
+        <h2 id="homeGreeting">오늘의 학습을 시작하세요.</h2>
+        <p class="muted">목표에 맞는 학습 모드를 선택하고, 학습 현황과 취약 파트는 마이페이지에서 확인할 수 있습니다.</p>
+      </div>
+      <div class="home-hero-mark" aria-hidden="true">✈</div>
+    </section>
+
     <section id="topProgressCard" class="progress-overview">
+      <div class="dashboard-section-head">
+        <div><span class="eyebrow">PROGRESS</span><h3>교재별 학습 현황</h3></div>
+        <button id="homeMyPageBtn" type="button" class="mini-button secondary">자세히 보기 →</button>
+      </div>
       <div id="topProgressGrid" class="top-progress-grid"></div>
     </section>
 
@@ -355,8 +370,9 @@
 
       <div id="feedback" class="feedback hidden"></div>
 
-      <div class="row end">
-        <button id="nextBtn" class="button hidden">다음 문제</button>
+      <div class="quiz-navigation" aria-label="문제 이동">
+        <button id="prevBtn" class="button secondary" type="button">← 이전 문제</button>
+        <button id="nextBtn" class="button hidden" type="button">다음 문제 →</button>
       </div>
     </section>
 
@@ -381,7 +397,7 @@
       </div>
 
       <div class="row error-toolbar">
-        <button id="sendErrorsBtn" class="button">오류 보고 전송</button>
+        <button id="sendErrorsBtn" class="button">오류 보고</button>
         <button id="resetErrorsBtn" type="button" class="button danger-outline">오류목록 초기화</button>
         <span id="copyErrorsStatus" class="muted"></span>
       </div>
@@ -400,6 +416,7 @@
       </div>
       <div class="row error-toolbar">
         <button id="refreshAdminErrorReportsBtn" class="button secondary">새로고침</button>
+        <button id="copyAdminErrorReportsBtn" class="button">전체 복사</button>
         <strong id="adminErrorReportSummary">불러오는 중...</strong>
         <span id="adminErrorReportStatus" class="muted"></span>
       </div>
@@ -410,21 +427,34 @@
     <section id="statsCard" class="card hidden">
       <div class="section-head">
         <div>
-          <h2>학습 통계</h2>
-          <p class="muted">로그인한 사용자의 Supabase 학습기록을 기준으로 계산합니다.</p>
+          <span class="eyebrow">MY PAGE</span>
+          <h2>마이페이지</h2>
+          <p class="muted">Supabase에 저장된 내 학습기록을 기준으로 진도, 정답률, 취약 파트를 확인합니다.</p>
         </div>
         <button id="closeStatsBtn" class="button secondary">닫기</button>
       </div>
 
-      <div id="statsSummary" class="summary-grid"></div>
+      <div id="myPageUserMeta" class="mypage-user-meta"></div>
+      <div id="statsSummary" class="summary-grid mypage-summary-grid"></div>
 
-      <div id="weakestSuCard" class="weakest-card">
-        <div class="muted">가장 낮은 정답률 SU</div>
-        <div id="weakestSu" class="weakest-value">아직 풀이 기록이 없습니다.</div>
-      </div>
+      <section class="mypage-section">
+        <div class="mypage-section-title"><div><span class="eyebrow">BOOKS</span><h3>교재별 학습 현황</h3></div></div>
+        <div id="myPageBookGrid" class="mypage-book-grid"></div>
+      </section>
 
-      <h3 class="stats-heading">교재 / 과목별 통계</h3>
-      <div class="table-wrap">
+      <section class="mypage-section">
+        <div class="mypage-section-title"><div><span class="eyebrow">WEAK POINTS</span><h3>내 취약 파트</h3></div></div>
+        <div id="weakestSuCard" class="weakest-card">
+          <div class="muted">가장 낮은 정답률 SU</div>
+          <div id="weakestSu" class="weakest-value">아직 풀이 기록이 없습니다.</div>
+        </div>
+        <div id="weakestSuList" class="weakest-su-list"></div>
+      </section>
+
+      <details class="mypage-detail-section">
+        <summary>상세 학습 통계 보기</summary>
+        <h3 class="stats-heading">교재 / 과목별 통계</h3>
+        <div class="table-wrap">
         <table>
           <thead>
             <tr>
@@ -460,7 +490,9 @@
         </table>
       </div>
 
-      <details class="detail-stats">
+      </details>
+
+      <details class="detail-stats mypage-detail-section">
         <summary>문제별 상세 기록 보기</summary>
         <div class="table-wrap">
           <table>
@@ -484,8 +516,8 @@
   </main>
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-  <script src="./assets/supabase-config.js?v=11.41.0"></script>
-  <script src="./assets/auth-v11-9.js?v=11.41.0"></script>
-  <script src="./assets/app-v11-20.js?v=11.41.0"></script>
+  <script src="./assets/supabase-config.js?v=11.44.0"></script>
+  <script src="./assets/auth-v11-9.js?v=11.44.0"></script>
+  <script src="./assets/app-v11-23.js?v=11.44.0"></script>
 </body>
 </html>

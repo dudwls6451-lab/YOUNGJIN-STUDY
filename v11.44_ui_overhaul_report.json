@@ -1,0 +1,35 @@
+{
+  "version": "v11.44",
+  "base": "v11.43",
+  "sql_required": false,
+  "features": {
+    "home_progress_home_only": true,
+    "mypage": {
+      "overall_summary": true,
+      "book_progress_accuracy": true,
+      "weakest_study_units_top5": true,
+      "detailed_stats_preserved": true
+    },
+    "quiz_focus_mode": {
+      "filters_hidden_after_start": true,
+      "previous_question": true,
+      "next_question": true,
+      "study_answer_review_restored": true,
+      "stable_shuffled_choice_order": true
+    },
+    "admin_error_reports": {
+      "server_list": true,
+      "copy_all": true
+    },
+    "responsive": {
+      "ipad_landscape_sidebar": true,
+      "mobile_top_navigation": true,
+      "mobile_sticky_question_navigation": true
+    }
+  },
+  "changed_files": [
+    "index.html",
+    "assets/app-v11-23.js",
+    "assets/style-v11-44.css"
+  ]
+}
