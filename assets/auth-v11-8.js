@@ -454,7 +454,6 @@
           <button class="auth-submit" id="authSubmit" type="submit">${signup ? "회원가입 및 인증코드 받기" : "로그인"}</button>
           <div class="auth-error" id="authError" role="alert"></div>
           <div class="auth-success" id="authSuccess" role="status"></div>
-          <button class="auth-legacy-toggle" id="authLegacyToggle" type="button">기존 김영진_시험용 계정으로 로그인</button>
         </form>
       `;
 
@@ -477,9 +476,6 @@
         pendingEmail = emailInput?.value.trim() || pendingEmail;
         mode = "signup";
         draw();
-      });
-      overlay.querySelector("#authLegacyToggle")?.addEventListener("click", () => {
-        renderLegacyLogin(overlay, resolve, draw);
       });
 
       setTimeout(() => (signup ? nameInput : emailInput)?.focus(), 0);
