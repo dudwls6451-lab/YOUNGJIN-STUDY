@@ -1,0 +1,24 @@
+v11.37 Supabase 이메일/비밀번호 로그인 + 회원가입 이메일 인증 패치
+
+[동작]
+- 로그인: 이메일 + 비밀번호만 입력
+- 회원가입: 이름 + 이메일 + 비밀번호 + 비밀번호 확인
+- 회원가입 제출 후 이메일 인증코드 입력
+- 이메일 인증 성공 후 profiles.approval_status = pending 상태로 관리자 승인 대기
+- approved 사용자만 문제은행 진입
+- 기존 로컬 계정은 김영진_시험용만 유지
+
+[Supabase 필수 설정]
+1. Authentication > Providers > Email
+   - Allow new users to sign up: ON
+   - Confirm Email: ON
+2. Authentication > Email Templates > Confirm signup
+   - 이메일 본문에 {{ .Token }} 을 넣어 6자리 인증코드가 보이게 설정
+   - 예: 인증코드: {{ .Token }}
+3. 기존 profiles / RLS / trigger 구조는 v11.36과 동일하게 사용
+
+[적용 파일]
+- index.html
+- assets/auth-v11-8.js
+
+주의: secret/service_role 키를 브라우저 코드에 넣지 마세요.
