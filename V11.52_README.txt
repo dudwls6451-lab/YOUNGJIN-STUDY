@@ -1,0 +1,28 @@
+V11.52 K-AIM 300문항 추가 패치
+
+기준 버전
+- v11.51 member-learning-overview 패치가 적용된 최신 저장소
+
+적용 내용
+- K-AIM(세화 문제집) 300문항 추가
+- 각 교재 학습 > 문제 풀이에 K-AIM 카드 추가
+- 오답 복습에 K-AIM 카드 추가
+- 과목 필터 / 교재별 진행률 / 마이페이지 교재 통계에 K-AIM 포함
+- K-AIM 표지 SVG는 assets/kaim-cover.svg로 assets 루트에 평탄화
+
+중요: 기존 문제은행 데이터 보호
+- data/questions-v11-2.json 및 data/questions.json을 패치에 포함하지 않습니다.
+- assets/app-v11-28.js가 data/kaim-300-v11.52.json을 별도 fetch하여 현재 문제은행 뒤에 추가합니다.
+- 따라서 사용자가 최신 문제은행 파일을 별도로 수정했더라도 그 파일을 덮어쓰지 않습니다.
+- 동일한 K-AIM ID가 이미 있으면 중복 추가하지 않습니다.
+
+현재 K-AIM 데이터 상태
+- 300문항 / ID K-AIM-001 ~ K-AIM-300
+- 답안 A-D 값 300개 존재
+- 4개 선택지 배열 300개 존재
+- extraction_review_required=true: 218문항
+- 빈 선택지가 하나 이상 남아 있는 문항: 29문항
+- 사용자가 검증은 추후 진행해도 된다고 요청하여 현재 상태 그대로 패치화했습니다.
+
+적용 방법
+- ZIP 내부 파일을 GitHub 저장소 루트에 그대로 덮어쓰기/업로드하면 됩니다.

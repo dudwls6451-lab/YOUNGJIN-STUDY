@@ -1,0 +1,57 @@
+{
+  "version": "v11.52",
+  "base": "v11.51-member-learning-overview-patch",
+  "feature": "K-AIM 세화 문제집 300문항 문제은행 추가",
+  "integration_mode": "additive_runtime_load",
+  "compatibility": {
+    "base_data_overwritten": false,
+    "base_question_paths_untouched": [
+      "data/questions-v11-2.json",
+      "data/questions.json"
+    ],
+    "extra_data_path": "data/kaim-300-v11.52.json",
+    "duplicate_policy": "same ID already present -> skip",
+    "active_app_file": "assets/app-v11-28.js",
+    "cache_bust": "11.52.0"
+  },
+  "question_data": {
+    "subject": "K-AIM",
+    "count": 300,
+    "id_first": "K-AIM-001",
+    "id_last": "K-AIM-300",
+    "unique_ids": 300,
+    "valid_abcd_answers": 300,
+    "four_choice_questions": 300,
+    "review_required": 218,
+    "blank_choice_questions": 29,
+    "study_units": {
+      "1": 126,
+      "2": 7,
+      "3": 58,
+      "4": 46,
+      "5": 9,
+      "6": 33,
+      "7": 12,
+      "8": 9
+    }
+  },
+  "ui": {
+    "book_problem_card": true,
+    "wrong_review_card": true,
+    "subject_filter": true,
+    "home_progress_and_mypage_via_BOOK_SUBJECTS": true,
+    "new_asset": "assets/kaim-cover.svg",
+    "asset_flat_at_assets_root": true,
+    "theory_course_added": false
+  },
+  "expected_total_if_base_is_3957": 4257,
+  "known_limitation": "사용자 요청에 따라 완전 OCR 재검증 전에 패치 생성. extraction_review_required=true 문항과 빈 보기 문항이 남아 있음.",
+  "validation": {
+    "javascript_syntax_ok": true,
+    "json_parse_ok": true,
+    "id_unique_within_kaim": true,
+    "answers_all_abcd": true,
+    "choices_all_length_4": true,
+    "does_not_ship_main_question_bank_file": true
+  }
+}
