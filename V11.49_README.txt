@@ -1,0 +1,16 @@
+v11.49 자료실 권한 복구 핫픽스
+
+원인:
+- auth-v11-9.js의 canAccessResourceLibrary()가 Supabase 사용자는 항상 false를 반환하도록 되어 있어,
+  승인된 Supabase 계정에서도 자료실 메뉴가 숨겨졌습니다.
+
+수정:
+- 기존 김영진_시험용 로컬 계정은 계속 자료실 접근 가능
+- Supabase 계정은 profiles.approval_status = approved 인 경우 자료실 접근 가능
+- pending/rejected 계정은 기존처럼 접근 불가
+
+적용:
+- index.html 덮어쓰기
+- assets/auth-v11-10.js 업로드
+- 추가 SQL 없음
+- 배포 후 강력 새로고침 권장
