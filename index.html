@@ -5,23 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>항공 문제은행</title>
   <link rel="stylesheet" href="./assets/style-v11-33.css?v=11.34.0" />
-  <link rel="stylesheet" href="./assets/style-v11-44.css?v=11.44.0" />
+  <link rel="stylesheet" href="./assets/style-v11-45.css?v=11.45.0" />
 </head>
 <body>
   <header class="topbar">
     <div class="container topbar-inner">
       <div>
         <h1><button id="homeTitleBtn" class="brand-home-button" type="button" aria-label="홈으로 이동">항공 문제은행</button></h1>
-        <p class="muted">모바일 · iPad 최적화 학습 플랫폼 · v11.44</p>
+        <p class="muted">모바일 · iPad 최적화 학습 플랫폼 · v11.45</p>
       </div>
-      <nav class="row nav-row">
-        <button id="homeNavBtn" class="button secondary nav-action" type="button"><span class="nav-icon">⌂</span><span>홈</span></button>
-        <button id="statsBtn" class="button secondary nav-action" type="button"><span class="nav-icon">◉</span><span>마이페이지</span></button>
-        <button id="errorsBtn" type="button" class="button secondary error-list-button nav-action">
-          <span class="nav-icon">!</span><span>오류 목록</span> <span id="errorCountBadge" class="count-badge">0</span>
+      <nav class="row nav-row" aria-label="빠른 이동 메뉴">
+        <button id="menuToggleBtn" class="button secondary nav-action menu-toggle-action" type="button" aria-expanded="true" title="메뉴 접기"><span class="nav-icon">☰</span><span class="nav-label">메뉴 접기</span></button>
+        <button id="homeNavBtn" class="button secondary nav-action" type="button" title="홈"><span class="nav-icon">⌂</span><span class="nav-label">홈</span></button>
+        <button id="studyNavBtn" class="button secondary nav-action" type="button" title="학습 모드 선택"><span class="nav-icon">✦</span><span class="nav-label">학습 선택</span></button>
+        <button id="textbookQuickNavBtn" class="button secondary nav-action" type="button" title="각 교재 학습"><span class="nav-icon">▤</span><span class="nav-label">각 교재</span></button>
+        <button id="wrongReviewQuickNavBtn" class="button secondary nav-action" type="button" title="오답 복습"><span class="nav-icon">↻</span><span class="nav-label">오답 복습</span></button>
+        <button id="statsBtn" class="button secondary nav-action" type="button" title="마이페이지"><span class="nav-icon">◉</span><span class="nav-label">마이페이지</span></button>
+        <button id="errorsBtn" type="button" class="button secondary error-list-button nav-action" title="오류 목록">
+          <span class="nav-icon">!</span><span class="nav-label">오류 목록</span> <span id="errorCountBadge" class="count-badge">0</span>
         </button>
-        <button id="adminErrorReportsBtn" type="button" class="button secondary hidden nav-action"><span class="nav-icon">⚙</span><span>보고된 오류</span></button>
-        <a id="problemAdminLink" class="button secondary hidden nav-action" href="./admin.html"><span class="nav-icon">＋</span><span>문제 추가</span></a>
+        <button id="quickResourceNavBtn" type="button" class="button secondary hidden nav-action" title="자료실"><span class="nav-icon">▣</span><span class="nav-label">자료실</span></button>
+        <button id="adminErrorReportsBtn" type="button" class="button secondary hidden nav-action" title="보고된 오류"><span class="nav-icon">⚙</span><span class="nav-label">보고된 오류</span></button>
+        <a id="problemAdminLink" class="button secondary hidden nav-action" href="./admin.html" title="문제 추가"><span class="nav-icon">＋</span><span class="nav-label">문제 추가</span></a>
       </nav>
     </div>
   </header>
@@ -29,9 +34,12 @@
   <main class="container">
     <section id="homeHero" class="home-hero">
       <div>
-        <span class="eyebrow">TOGA STUDY</span>
         <h2 id="homeGreeting">오늘의 학습을 시작하세요.</h2>
         <p class="muted">목표에 맞는 학습 모드를 선택하고, 학습 현황과 취약 파트는 마이페이지에서 확인할 수 있습니다.</p>
+        <div class="home-study-time" aria-live="polite">
+          <div id="homeTodayStudyTime" class="home-study-time-primary">오늘은 0시간 0분 공부했습니다.</div>
+          <div id="homeTotalStudyTime" class="home-study-time-secondary">지금까지 0시간 0분 공부했습니다.</div>
+        </div>
       </div>
       <div class="home-hero-mark" aria-hidden="true">✈</div>
     </section>
@@ -516,8 +524,8 @@
   </main>
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-  <script src="./assets/supabase-config.js?v=11.44.0"></script>
-  <script src="./assets/auth-v11-9.js?v=11.44.0"></script>
-  <script src="./assets/app-v11-23.js?v=11.44.0"></script>
+  <script src="./assets/supabase-config.js?v=11.45.0"></script>
+  <script src="./assets/auth-v11-9.js?v=11.45.0"></script>
+  <script src="./assets/app-v11-24.js?v=11.45.0"></script>
 </body>
 </html>

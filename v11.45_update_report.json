@@ -1,0 +1,18 @@
+{
+  "version": "v11.45",
+  "base": "v11.44",
+  "changes": [
+    "removed TOGA STUDY home eyebrow",
+    "collapsible desktop/iPad navigation rail",
+    "quick navigation actions",
+    "Supabase-backed active quiz study time",
+    "today and lifetime study-time home summary"
+  ],
+  "study_time": {
+    "flush_seconds": 15,
+    "idle_pause_minutes": 10,
+    "background_pause": true,
+    "table": "user_study_time_daily"
+  },
+  "sql_required": "supabase/V11.45_STUDY_TIME.sql"
+}
