@@ -1,0 +1,6 @@
+v11.53 K-AIM 300 visibility hotfix
+
+현재 저장소 루트에 이 ZIP의 내용을 덮어쓰십시오.
+- K-AIM 300문항은 assets/app-v11-29.js 안에 직접 포함되어 별도 data 파일이 필요 없습니다.
+- index.html은 app-v11-29.js?v=11.53.0을 로드합니다.
+- 기존 data/kaim-300-v11.52.json이 남아 있어도 무방합니다.

@@ -1,0 +1,25 @@
+{
+  "version": "v11.53",
+  "purpose": "K-AIM 300문항이 보이지 않는 문제 수정",
+  "base": "v11.51+ / v11.52 K-AIM patch",
+  "root_cause": "v11.52가 별도 data/kaim-300-v11.52.json fetch에 의존하여 해당 파일이 배포 위치에 없거나 로드 실패 시 K-AIM 카드만 보이고 문제는 0개가 됨",
+  "fix": [
+    "K-AIM 300문항을 assets/app-v11-29.js 내부에 직접 포함",
+    "별도 K-AIM JSON fetch 제거",
+    "새 app 파일명 사용으로 GitHub/브라우저 캐시 및 기존 파일 덮어쓰기 문제 회피",
+    "기존 v11.51 기능 로직은 v11.52 app 기준 그대로 유지",
+    "K-AIM 단원 라벨은 SU 숫자 대신 교재 단원명 표시"
+  ],
+  "question_count": 300,
+  "id_first": "K-AIM-001",
+  "id_last": "K-AIM-300",
+  "subject_counts": {
+    "K-AIM": 300
+  },
+  "files": [
+    "index.html",
+    "assets/app-v11-29.js",
+    "assets/kaim-cover.svg"
+  ],
+  "note": "data/kaim-300-v11.52.json은 v11.53에서 필요하지 않으며 남아 있어도 영향 없음."
+}
