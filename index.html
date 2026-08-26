@@ -4,17 +4,16 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>항공 문제은행</title>
-  <link rel="stylesheet" href="./assets/style-v11-25.css?v=11.25.0" />
+  <link rel="stylesheet" href="./assets/style-v11-29.css?v=11.29.0" />
 </head>
 <body>
   <header class="topbar">
     <div class="container topbar-inner">
       <div>
-        <h1>항공 문제은행</h1>
-        <p class="muted">학습 모드 선택 · 통합 문제은행 · v11.25</p>
+        <h1><button id="homeTitleBtn" class="brand-home-button" type="button" aria-label="홈으로 이동">항공 문제은행</button></h1>
+        <p class="muted">학습 모드 선택 · 통합 문제은행 · v11.28</p>
       </div>
       <nav class="row nav-row">
-        <button id="resourceLibraryBtn" class="button secondary hidden" type="button">자료실</button>
         <button id="statsBtn" class="button secondary">학습 통계</button>
         <button id="errorsBtn" type="button" class="button secondary error-list-button">
           오류 목록 <span id="errorCountBadge" class="count-badge">0</span>
@@ -47,7 +46,55 @@
           <span class="mode-icon">🛫</span><strong>항공사 필기전형 대비</strong>
           <span>항공사별 맞춤 출제 과정</span>
         </button>
+        <button id="wrongReviewModeBtn" class="mode-choice-card wrong-review-mode-card" type="button">
+          <span class="mode-icon">🔁</span><strong>오답 복습</strong>
+          <span>교재를 고르고 누적 오답 횟수로 반복 복습</span>
+        </button>
+        <button id="resourceLibraryModeBtn" class="mode-choice-card resource-mode-card hidden" type="button">
+          <span class="mode-icon">🗂️</span><strong>자료실</strong>
+          <span>허용 계정 전용 · 열람 전용 자료</span>
+        </button>
       </div>
+    </section>
+
+    <section id="wrongReviewHubCard" class="card hidden">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">오답 복습</span>
+          <h2>복습할 교재를 선택하십시오.</h2>
+          <p class="muted">한 번이라도 틀린 문제를 교재별로 모아 반복해서 풉니다.</p>
+        </div>
+        <button id="wrongReviewHubBackBtn" class="button secondary" type="button">이전</button>
+      </div>
+      <div class="book-choice-grid wrong-review-book-grid">
+        <button class="book-choice-card" data-wrong-review-subject="ATP Gleim" type="button"><img src="./assets/covers/atp_gleim.jpg" alt="ATP Gleim 표지"><strong>ATP Gleim</strong><span class="wrong-review-count">오답 기록 확인</span></button>
+        <button class="book-choice-card" data-wrong-review-subject="검댕이 항공법규" type="button"><img src="./assets/covers/airlaw.jpg" alt="검댕이 항공법규 표지"><strong>검댕이 항공법규</strong><span class="wrong-review-count">오답 기록 확인</span></button>
+        <button class="book-choice-card" data-wrong-review-subject="항공기상" type="button"><img src="./assets/covers/weather.jpg" alt="항공기상 표지"><strong>항공기상</strong><span class="wrong-review-count">오답 기록 확인</span></button>
+        <button class="book-choice-card" data-wrong-review-subject="항공교통통신" type="button"><img src="./assets/covers/atc_comm.svg" alt="항공교통통신 표지"><strong>항공교통통신</strong><span class="wrong-review-count">오답 기록 확인</span></button>
+      </div>
+    </section>
+
+    <section id="wrongReviewFilterCard" class="card hidden">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">오답 복습</span>
+          <h2 id="wrongReviewBookTitle">교재 오답 복습</h2>
+          <p class="muted">누적 오답 횟수가 기준 이상인 문제를 모두 섞어서 반복 출제합니다.</p>
+        </div>
+        <button id="wrongReviewFilterBackBtn" class="button secondary" type="button">교재 선택</button>
+      </div>
+      <div class="wrong-review-filter-panel">
+        <label>
+          누적 오답 횟수
+          <select id="wrongReviewMinCount"></select>
+        </label>
+        <div class="wrong-review-filter-summary">
+          <span class="muted">현재 복습 대상</span>
+          <strong id="wrongReviewCountInfo">0문제</strong>
+        </div>
+        <button id="wrongReviewStartBtn" class="button" type="button">오답 복습 시작</button>
+      </div>
+      <p class="muted wrong-review-note">정답을 맞혀도 과거 누적 오답 횟수는 유지되므로 같은 문제를 다시 반복 복습할 수 있습니다.</p>
     </section>
 
     <section id="textbookHubCard" class="card hidden">
@@ -98,6 +145,9 @@
         </button>
         <button id="airlawTheoryBtn" class="book-choice-card theory-ready" data-theory-subject="검댕이 항공법규" type="button">
           <img src="./assets/covers/airlaw.jpg" alt="검댕이 항공법규 표지"><strong>검댕이 항공법규</strong><span>국제 항공법 + 항공안전법 · 15단계</span>
+        </button>
+        <button id="atcTheoryBtn" class="book-choice-card theory-ready" data-theory-subject="항공교통통신" type="button">
+          <img src="./assets/covers/atc_comm.svg" alt="항공교통통신 표지"><strong>항공교통통신</strong><span>300문항 연계 이론 · 14단계</span>
         </button>
         <div class="theory-coming-soon"><strong>ATP Gleim</strong><span>이론 학습 확장 예정</span></div>
       </div>
@@ -417,6 +467,6 @@
   </main>
 
   <script src="./assets/auth-v11-6.js?v=11.26.0"></script>
-  <script src="./assets/app-v11-15.js?v=11.26.0"></script>
+  <script src="./assets/app-v11-18.js?v=11.29.0"></script>
 </body>
 </html>

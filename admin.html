@@ -6,14 +6,6 @@
   <title>관리자 도구 · 항공 문제은행</title>
   <link rel="stylesheet" href="./assets/style.css" />
   <style>
-    .resource-dropzone{display:grid;gap:8px;margin:16px 0;padding:22px;border:2px dashed #bdc8dc;border-radius:14px;background:#f8faff;cursor:pointer}
-    .resource-dropzone input{margin-top:6px}
-    .resource-upload-queue{display:grid;gap:12px;margin:16px 0}
-    .resource-upload-row{display:grid;grid-template-columns:minmax(180px,1.2fr) minmax(180px,1fr) minmax(120px,.6fr);gap:12px;align-items:end;padding:14px;border:1px solid #e1e6ef;border-radius:12px;background:#fff}
-    .resource-upload-file{display:grid;gap:4px;min-width:0}.resource-upload-file strong{overflow-wrap:anywhere}.resource-upload-file span{font-size:.8rem;color:#778196}
-    .resource-progress-wrap{display:flex;gap:10px;align-items:center;margin:10px 0}.resource-progress-wrap progress{width:min(520px,100%);height:16px}
-    .status.success{white-space:pre-wrap;color:#17663a}.status.error{white-space:pre-wrap;color:#a12c2c}
-    @media(max-width:760px){.resource-upload-row{grid-template-columns:1fr}}
   </style>
 </head>
 <body>
@@ -21,7 +13,7 @@
     <div class="container topbar-inner">
       <div>
         <h1>관리자 도구</h1>
-        <p class="muted">자료실 PDF 등록 · JSON 병합</p>
+        <p class="muted">JSON 병합</p>
       </div>
       <nav>
         <a class="button secondary" href="./index.html">문제 풀기</a>
@@ -31,43 +23,8 @@
 
   <main class="container">
 
-    <section id="resourceAdminCard" class="card hidden">
-      <h2>1. 자료실 PDF 등록</h2>
-      <p>PDF를 선택하면 브라우저에서 페이지 이미지로 변환하고, <strong>배포용 패치 ZIP</strong>을 만듭니다. 원본 PDF는 패치에 포함되지 않습니다.</p>
-      <div class="notice"><strong>정적 GitHub Pages 방식</strong><br>PDF 선택 → 이미지 변환 → 패치 ZIP 생성 → 저장소 루트에 압축 해제/덮어쓰기 → Commit/Push 순서입니다.</div>
-
-      <label class="resource-dropzone">
-        <strong>PDF 업로드</strong>
-        <span class="muted">여러 파일을 한 번에 선택할 수 있습니다.</span>
-        <input id="resourcePdfFiles" type="file" accept=".pdf,application/pdf" multiple />
-      </label>
-
-      <div class="grid compact-grid">
-        <label>
-          이미지 화질
-          <select id="resourceRenderQuality">
-            <option value="standard" selected>표준 · 권장</option>
-            <option value="high">고화질 · 용량 큼</option>
-            <option value="compact">용량 절약</option>
-          </select>
-        </label>
-      </div>
-
-      <div id="resourcePdfQueue" class="resource-upload-queue"></div>
-      <div class="resource-progress-wrap">
-        <progress id="resourceUploadProgress" value="0" max="100" hidden></progress>
-        <span id="resourceUploadProgressText" class="muted"></span>
-      </div>
-      <div class="row">
-        <button id="resourceBuildPatchBtn" class="button" type="button" disabled>자료실 등록 패치 만들기</button>
-        <button id="resourceClearBtn" class="button secondary" type="button">선택 초기화</button>
-      </div>
-      <div id="resourceUploadStatus" class="status"></div>
-      <p class="muted">변환 라이브러리는 인터넷에서 불러오므로 관리자 페이지에서 PDF 변환 시 네트워크 연결이 필요합니다.</p>
-    </section>
-
     <section class="card">
-      <h2>2. JSON 업로드</h2>
+      <h2>1. JSON 업로드</h2>
       <p>
         기존 <code>data/questions.json</code>을 자동으로 읽은 뒤,
         업로드한 JSON의 <code>questions</code> 배열을 합칩니다.
@@ -98,7 +55,7 @@
     </section>
 
     <section id="previewCard" class="card hidden">
-      <h2>3. 병합 결과</h2>
+      <h2>2. 병합 결과</h2>
       <div id="summary" class="summary-grid"></div>
 
       <details>
@@ -147,6 +104,5 @@
   <script src="./assets/auth-v11-6.js?v=11.26.0"></script>
   <script>window.PilotBankAuth?.requireLogin();</script>
   <script src="./assets/admin.js?v=11.10.0"></script>
-  <script src="./assets/resource-admin-v11-26.js?v=11.26.0"></script>
 </body>
 </html>
