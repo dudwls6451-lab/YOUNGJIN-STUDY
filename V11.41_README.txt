@@ -1,0 +1,21 @@
+Aviation Question Bank v11.41 - Central Error Reports
+
+1) Supabase SQL Editor에서 먼저 실행
+   supabase/V11.41_ERROR_REPORTS.sql
+
+2) Success 확인 후 GitHub 저장소에 덮어쓰기
+   index.html
+   assets/app-v11-20.js
+
+변경사항
+- 오류 목록의 '전체 복사' -> '오류 보고 전송'
+- 전송된 오류는 Supabase public.error_reports에 저장
+- 같은 사용자가 같은 문제를 다시 전송하면 최신 메모/스냅샷으로 갱신
+- 일반 사용자는 다른 사용자의 오류 보고를 읽을 수 없음
+- profiles.is_admin=true인 Supabase 관리자에게만 상단 '보고된 오류' 메뉴 표시
+- 관리자 메뉴에서 전체 제출 건수/고유 문제 수/보고자/문제/선택지/오류 메모 확인
+- 개인 '오류목록 초기화'는 개인 출제 제외 상태만 지우며 이미 서버에 전송된 보고는 유지
+
+주의
+- SQL을 먼저 실행하지 않으면 '오류 보고 전송'이 실패합니다.
+- 기존 김영진_시험용 legacy 계정은 Supabase UUID가 없으므로 서버 전송 기능 대상이 아닙니다.

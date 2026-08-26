@@ -1,4 +1,3 @@
-// v11.31: 자료실 이미지 자산 완전 평탄화 (assets 루트에 직접 저장, resources 폴더 없음)
 
 function ensureV1115UiShell() {
   const main = document.querySelector("main.container") || document.querySelector("main");
@@ -57,7 +56,7 @@ function ensureV1115UiShell() {
       <div class="book-choice-grid">
         <button class="book-choice-card" data-book-subject="ATP Gleim" type="button"><img src="./assets/covers/atp_gleim.jpg" alt="ATP Gleim 표지"><strong>ATP Gleim</strong></button>
         <button class="book-choice-card" data-book-subject="검댕이 항공법규" type="button"><img src="./assets/covers/airlaw.jpg" alt="검댕이 항공법규 표지"><strong>검댕이 항공법규</strong></button>
-        <button class="book-choice-card" data-book-subject="항공기상" type="button"><img src="./assets/covers/weather.jpg" alt="항공기상 표지"><strong>항공기상</strong></button><button class="book-choice-card" data-book-subject="항공교통통신" type="button"><img src="./assets/covers/atc_comm.svg" alt="항공교통통신 표지"><strong>항공교통통신</strong><span>출제예상문제 300문항</span></button>
+        <button class="book-choice-card" data-book-subject="항공기상" type="button"><img src="./assets/covers/weather.jpg" alt="항공기상 표지"><strong>항공기상</strong></button><button class="book-choice-card" data-book-subject="항공교통통신" type="button"><img src="./assets/covers/atc_comm.svg" alt="항공교통통신 표지"><strong>항공교통통신</strong><span>출제예상·모의고사 938문항</span></button>
         <button id="freeStudyBtn" class="book-choice-card free-study" type="button"><img src="./assets/covers/all_books.jpg" alt="전체 교재"><strong>자유학습모드</strong><span>기존 문제은행의 모든 기능 사용</span></button>
       </div>`;
     if (controls) main.insertBefore(section, controls);
@@ -189,12 +188,12 @@ function ensureV1116TheoryShell() {
   if (!document.querySelector("#bookProblemHubCard")) {
     const section = document.createElement("section");
     section.id = "bookProblemHubCard"; section.className = "card hidden";
-    section.innerHTML = `<div class="section-head"><div><h2>문제 풀이 교재를 선택하십시오.</h2><p class="muted">기존 문제 풀이 기능은 그대로 유지됩니다.</p></div><button id="bookProblemBackBtn" class="button secondary" type="button">이전</button></div><div class="book-choice-grid"><button class="book-choice-card" data-book-subject="ATP Gleim" type="button"><img src="./assets/covers/atp_gleim.jpg" alt="ATP Gleim 표지"><strong>ATP Gleim</strong></button><button class="book-choice-card" data-book-subject="검댕이 항공법규" type="button"><img src="./assets/covers/airlaw.jpg" alt="검댕이 항공법규 표지"><strong>검댕이 항공법규</strong></button><button class="book-choice-card" data-book-subject="항공기상" type="button"><img src="./assets/covers/weather.jpg" alt="항공기상 표지"><strong>항공기상</strong></button><button class="book-choice-card" data-book-subject="항공교통통신" type="button"><img src="./assets/covers/atc_comm.svg" alt="항공교통통신 표지"><strong>항공교통통신</strong><span>출제예상문제 300문항</span></button><button id="freeStudyBtn" class="book-choice-card free-study" type="button"><img src="./assets/covers/all_books.jpg" alt="전체 교재"><strong>자유학습모드</strong><span>기존 문제은행의 모든 기능 사용</span></button></div>`;
+    section.innerHTML = `<div class="section-head"><div><h2>문제 풀이 교재를 선택하십시오.</h2><p class="muted">기존 문제 풀이 기능은 그대로 유지됩니다.</p></div><button id="bookProblemBackBtn" class="button secondary" type="button">이전</button></div><div class="book-choice-grid"><button class="book-choice-card" data-book-subject="ATP Gleim" type="button"><img src="./assets/covers/atp_gleim.jpg" alt="ATP Gleim 표지"><strong>ATP Gleim</strong></button><button class="book-choice-card" data-book-subject="검댕이 항공법규" type="button"><img src="./assets/covers/airlaw.jpg" alt="검댕이 항공법규 표지"><strong>검댕이 항공법규</strong></button><button class="book-choice-card" data-book-subject="항공기상" type="button"><img src="./assets/covers/weather.jpg" alt="항공기상 표지"><strong>항공기상</strong></button><button class="book-choice-card" data-book-subject="항공교통통신" type="button"><img src="./assets/covers/atc_comm.svg" alt="항공교통통신 표지"><strong>항공교통통신</strong><span>출제예상·모의고사 938문항</span></button><button id="freeStudyBtn" class="book-choice-card free-study" type="button"><img src="./assets/covers/all_books.jpg" alt="전체 교재"><strong>자유학습모드</strong><span>기존 문제은행의 모든 기능 사용</span></button></div>`;
     main.insertBefore(section, insertBefore);
   }
   if (!document.querySelector("#bookTheoryHubCard")) {
     const section = document.createElement("section"); section.id="bookTheoryHubCard"; section.className="card hidden";
-    section.innerHTML = `<div class="section-head"><div><h2>이론 학습 교재를 선택하십시오.</h2><p class="muted">교재 본문을 순서대로 학습하고 각 단계의 쪽지시험을 통과합니다.</p></div><button id="bookTheoryBackBtn" class="button secondary" type="button">이전</button></div><div class="book-choice-grid theory-book-grid"><button id="weatherTheoryBtn" class="book-choice-card theory-ready" data-theory-subject="항공기상" type="button"><img src="./assets/covers/weather.jpg" alt="항공기상 표지"><strong>항공기상</strong><span>전체 이론 과정 · 40단계</span></button><button id="airlawTheoryBtn" class="book-choice-card theory-ready" data-theory-subject="검댕이 항공법규" type="button"><img src="./assets/covers/airlaw.jpg" alt="검댕이 항공법규 표지"><strong>검댕이 항공법규</strong><span>국제 항공법 + 항공안전법 · 15단계</span></button><button id="atcTheoryBtn" class="book-choice-card theory-ready" data-theory-subject="항공교통통신" type="button"><img src="./assets/covers/atc_comm.svg" alt="항공교통통신 표지"><strong>항공교통통신</strong><span>300문항 연계 이론 · 14단계</span></button><div class="theory-coming-soon"><strong>ATP Gleim</strong><span>이론 학습 확장 예정</span></div></div>`;
+    section.innerHTML = `<div class="section-head"><div><h2>이론 학습 교재를 선택하십시오.</h2><p class="muted">교재 본문을 순서대로 학습하고 각 단계의 쪽지시험을 통과합니다.</p></div><button id="bookTheoryBackBtn" class="button secondary" type="button">이전</button></div><div class="book-choice-grid theory-book-grid"><button id="weatherTheoryBtn" class="book-choice-card theory-ready" data-theory-subject="항공기상" type="button"><img src="./assets/covers/weather.jpg" alt="항공기상 표지"><strong>항공기상</strong><span>전체 이론 과정 · 40단계</span></button><button id="airlawTheoryBtn" class="book-choice-card theory-ready" data-theory-subject="검댕이 항공법규" type="button"><img src="./assets/covers/airlaw.jpg" alt="검댕이 항공법규 표지"><strong>검댕이 항공법규</strong><span>국제 항공법 + 항공안전법 · 15단계</span></button><button id="atcTheoryBtn" class="book-choice-card theory-ready" data-theory-subject="항공교통통신" type="button"><img src="./assets/covers/atc_comm.svg" alt="항공교통통신 표지"><strong>항공교통통신</strong><span>전체 이론 과정 · 25단계</span></button><div class="theory-coming-soon"><strong>ATP Gleim</strong><span>이론 학습 확장 예정</span></div></div>`;
     main.insertBefore(section, insertBefore);
   }
   if (!document.querySelector("#theoryCard")) {
@@ -297,7 +296,6 @@ const els = {
   noFigureOnly: document.querySelector("#noFigureOnly"),
   start: document.querySelector("#startBtn"),
   bankInfo: document.querySelector("#bankInfo"),
-  resetProgress: document.querySelector("#resetProgressBtn"),
   quizCard: document.querySelector("#quizCard"),
   resultCard: document.querySelector("#resultCard"),
   statsCard: document.querySelector("#statsCard"),
@@ -309,9 +307,17 @@ const els = {
   errorCountBadge: document.querySelector("#errorCountBadge"),
   errorsList: document.querySelector("#errorsList"),
   errorsEmpty: document.querySelector("#errorsEmpty"),
-  copyErrors: document.querySelector("#copyErrorsBtn"),
+  sendErrors: document.querySelector("#sendErrorsBtn"),
   copyErrorsStatus: document.querySelector("#copyErrorsStatus"),
   resetErrors: document.querySelector("#resetErrorsBtn"),
+  adminErrorReportsBtn: document.querySelector("#adminErrorReportsBtn"),
+  adminErrorReportsCard: document.querySelector("#adminErrorReportsCard"),
+  closeAdminErrorReports: document.querySelector("#closeAdminErrorReportsBtn"),
+  refreshAdminErrorReports: document.querySelector("#refreshAdminErrorReportsBtn"),
+  adminErrorReportSummary: document.querySelector("#adminErrorReportSummary"),
+  adminErrorReportStatus: document.querySelector("#adminErrorReportStatus"),
+  adminErrorReportsEmpty: document.querySelector("#adminErrorReportsEmpty"),
+  adminErrorReportsList: document.querySelector("#adminErrorReportsList"),
   statsSummary: document.querySelector("#statsSummary"),
   weakestSu: document.querySelector("#weakestSu"),
   subjectStatsBody: document.querySelector("#subjectStatsBody"),
@@ -502,7 +508,7 @@ function getAllowedSubjectSet() {
 }
 
 function hideStudySurfaces() {
-  [els.controlsCard, els.quizCard, els.resultCard, els.statsCard, els.errorsCard, els.theoryCard, els.resourceLibraryCard, els.resourceViewerCard, els.wrongReviewHubCard, els.wrongReviewFilterCard].forEach(el => el?.classList.add("hidden"));
+  [els.controlsCard, els.quizCard, els.resultCard, els.statsCard, els.errorsCard, els.adminErrorReportsCard, els.theoryCard, els.resourceLibraryCard, els.resourceViewerCard, els.wrongReviewHubCard, els.wrongReviewFilterCard].forEach(el => el?.classList.add("hidden"));
 }
 
 function renderTopProgress() {
@@ -950,12 +956,33 @@ function returnFromTheoryResult({advance=false} = {}) {
   renderTheoryStage(next);
 }
 
+// v11.41: Supabase 사용자는 학습기록의 원본을 클라우드 DB로 사용하고 오류 보고를 서버 inbox로 전송합니다.
+// 기존 LocalStorage 기록은 가져오지 않으며, legacy 계정만 기존 브라우저 저장을 유지합니다.
+let cloudSyncRequested = false;
+let cloudSyncRunning = false;
+let cloudQuestionBaseline = new Map();
+let cloudFlagBaseline = new Map();
+let cloudTheoryBaseline = new Map();
+
+function getSupabaseLearningUserId() {
+  return window.PilotBankAuth?.getCurrentProfile?.()?.id || null;
+}
+
+function usesSupabaseLearningData() {
+  return !!(window.supabaseClient && getSupabaseLearningUserId());
+}
+
 function configureUserStorage(user) {
   currentUser = user || null;
   STORAGE_KEY = window.PilotBankAuth?.progressStorageKey(BASE_STORAGE_KEY) || BASE_STORAGE_KEY;
+  if (usesSupabaseLearningData()) {
+    // v11.39부터 Supabase 계정은 브라우저 기록을 원본으로 사용하지 않습니다.
+    try { localStorage.removeItem(STORAGE_KEY); } catch {}
+  }
 }
 
 function maybeImportLegacyProgress() {
+  if (usesSupabaseLearningData()) return;
   if (STORAGE_KEY === LEGACY_STORAGE_KEY) return;
   try {
     if (localStorage.getItem(STORAGE_KEY) !== null) return;
@@ -969,7 +996,170 @@ function maybeImportLegacyProgress() {
   }
 }
 
-function loadProgress() {
+async function fetchAllUserRows(table, columns, orderColumn) {
+  const supabase = window.supabaseClient;
+  const userId = getSupabaseLearningUserId();
+  if (!supabase || !userId) return [];
+
+  const pageSize = 1000;
+  let from = 0;
+  const rows = [];
+  while (true) {
+    let query = supabase
+      .from(table)
+      .select(columns)
+      .eq("user_id", userId)
+      .range(from, from + pageSize - 1);
+    if (orderColumn) query = query.order(orderColumn, { ascending: true });
+    const { data, error } = await query;
+    if (error) throw error;
+    const chunk = data || [];
+    rows.push(...chunk);
+    if (chunk.length < pageSize) break;
+    from += pageSize;
+  }
+  return rows;
+}
+
+function emptyQuestionRecord() {
+  return {
+    attempts: 0,
+    correct: 0,
+    incorrect: 0,
+    lastResult: null,
+    lastAnswer: null,
+    lastAttempted: null,
+    favorite: false,
+    examExcluded: false,
+    errorReported: false,
+    errorReportedAt: null,
+    errorNote: "",
+    errorQuestionSnapshot: "",
+    errorChoicesSnapshot: [],
+    errorSubjectSnapshot: "",
+    errorUnitSnapshot: "",
+    errorSubunitSnapshot: "",
+  };
+}
+
+function questionComparable(rec = {}) {
+  return {
+    attempts: Number(rec.attempts || 0),
+    correct: Number(rec.correct || 0),
+    incorrect: Number(rec.incorrect || 0),
+    lastResult: rec.lastResult || null,
+    lastAnswer: rec.lastAnswer ?? null,
+    lastAttempted: rec.lastAttempted || null,
+    errorReported: !!rec.errorReported,
+    errorReportedAt: rec.errorReportedAt || null,
+    errorNote: rec.errorNote || "",
+    errorQuestionSnapshot: rec.errorQuestionSnapshot || "",
+    errorChoicesSnapshot: Array.isArray(rec.errorChoicesSnapshot) ? rec.errorChoicesSnapshot : [],
+    errorSubjectSnapshot: rec.errorSubjectSnapshot || "",
+    errorUnitSnapshot: rec.errorUnitSnapshot || "",
+    errorSubunitSnapshot: rec.errorSubunitSnapshot || "",
+  };
+}
+
+function flagComparable(rec = {}) {
+  return { favorite: !!rec.favorite, examExcluded: !!rec.examExcluded };
+}
+
+function theoryComparable(rec = {}) {
+  return {
+    read: !!rec.read,
+    passed: !!rec.passed,
+    attempts: Number(rec.attempts || 0),
+    bestScore: Number(rec.bestScore || 0),
+    lastScore: rec.lastScore === null || rec.lastScore === undefined ? null : Number(rec.lastScore),
+    lastTakenAt: rec.lastTakenAt || null,
+  };
+}
+
+function captureCloudBaselines(store = progressStore) {
+  cloudQuestionBaseline = new Map();
+  cloudFlagBaseline = new Map();
+  cloudTheoryBaseline = new Map();
+
+  Object.entries(store || {}).forEach(([id, rec]) => {
+    if (id === "__theory" || !rec || typeof rec !== "object") return;
+    cloudQuestionBaseline.set(id, JSON.stringify(questionComparable(rec)));
+    cloudFlagBaseline.set(id, JSON.stringify(flagComparable(rec)));
+  });
+
+  const theoryRoot = store?.__theory || {};
+  Object.entries(theoryRoot).forEach(([storageKey, root]) => {
+    Object.entries(root?.stages || {}).forEach(([stageId, rec]) => {
+      cloudTheoryBaseline.set(`${storageKey}::${stageId}`, JSON.stringify(theoryComparable(rec)));
+    });
+  });
+}
+
+async function loadCloudProgress() {
+  const [questionRows, flagRows, theoryRows] = await Promise.all([
+    fetchAllUserRows(
+      "user_question_progress",
+      "question_id,attempts,correct,incorrect,last_result,last_answer,last_attempted,error_reported,error_reported_at,error_note,error_question_snapshot,error_choices_snapshot,error_subject_snapshot,error_unit_snapshot,error_subunit_snapshot",
+      "question_id"
+    ),
+    fetchAllUserRows("user_question_flags", "question_id,favorite,exam_excluded", "question_id"),
+    fetchAllUserRows("user_theory_progress", "storage_key,stage_id,read,passed,attempts,best_score,last_score,last_taken_at", "stage_id"),
+  ]);
+
+  const store = {};
+  questionRows.forEach(row => {
+    store[row.question_id] = {
+      ...emptyQuestionRecord(),
+      attempts: Number(row.attempts || 0),
+      correct: Number(row.correct || 0),
+      incorrect: Number(row.incorrect || 0),
+      lastResult: row.last_result || null,
+      lastAnswer: row.last_answer ?? null,
+      lastAttempted: row.last_attempted || null,
+      errorReported: !!row.error_reported,
+      errorReportedAt: row.error_reported_at || null,
+      errorNote: row.error_note || "",
+      errorQuestionSnapshot: row.error_question_snapshot || "",
+      errorChoicesSnapshot: Array.isArray(row.error_choices_snapshot) ? row.error_choices_snapshot : [],
+      errorSubjectSnapshot: row.error_subject_snapshot || "",
+      errorUnitSnapshot: row.error_unit_snapshot || "",
+      errorSubunitSnapshot: row.error_subunit_snapshot || "",
+    };
+  });
+
+  flagRows.forEach(row => {
+    const rec = store[row.question_id] || (store[row.question_id] = emptyQuestionRecord());
+    rec.favorite = !!row.favorite;
+    rec.examExcluded = !!row.exam_excluded;
+  });
+
+  theoryRows.forEach(row => {
+    if (!store.__theory) store.__theory = {};
+    if (!store.__theory[row.storage_key]) store.__theory[row.storage_key] = { stages: {} };
+    store.__theory[row.storage_key].stages[row.stage_id] = {
+      read: !!row.read,
+      passed: !!row.passed,
+      attempts: Number(row.attempts || 0),
+      bestScore: Number(row.best_score || 0),
+      lastScore: row.last_score === null || row.last_score === undefined ? null : Number(row.last_score),
+      lastTakenAt: row.last_taken_at || null,
+    };
+  });
+
+  captureCloudBaselines(store);
+  return store;
+}
+
+async function loadProgress() {
+  if (usesSupabaseLearningData()) {
+    try {
+      return await loadCloudProgress();
+    } catch (err) {
+      console.error("[Supabase] 학습기록 로드 실패", err);
+      alert("Supabase 학습기록을 불러오지 못했습니다. 데이터베이스 SQL 설정을 확인해 주세요.");
+      return {};
+    }
+  }
   try {
     return JSON.parse(localStorage.getItem(STORAGE_KEY)) || {};
   } catch {
@@ -977,15 +1167,201 @@ function loadProgress() {
   }
 }
 
+function questionMetadataFor(id) {
+  const q = bank.find(item => item.id === id);
+  if (!q) return { subject: null, study_unit: null, subunit: null };
+  return {
+    subject: q.subject || null,
+    study_unit: studyUnitOf(q) || null,
+    subunit: [subunitCode(q), subunitTitle(q)].filter(Boolean).join(" ") || null,
+  };
+}
+
+async function upsertInBatches(table, rows, onConflict) {
+  const supabase = window.supabaseClient;
+  if (!supabase || !rows.length) return;
+  const size = 250;
+  for (let i = 0; i < rows.length; i += size) {
+    const batch = rows.slice(i, i + size);
+    const { error } = await supabase.from(table).upsert(batch, { onConflict });
+    if (error) throw error;
+  }
+}
+
+async function syncProgressToSupabase() {
+  if (!usesSupabaseLearningData()) return;
+  const userId = getSupabaseLearningUserId();
+  const now = new Date().toISOString();
+  const questionRows = [];
+  const questionBaselineUpdates = [];
+  const flagRows = [];
+  const flagBaselineUpdates = [];
+  const theoryRows = [];
+  const theoryBaselineUpdates = [];
+
+  Object.entries(progressStore || {}).forEach(([id, rec]) => {
+    if (id === "__theory" || !rec || typeof rec !== "object") return;
+
+    const qComparable = questionComparable(rec);
+    const qSerialized = JSON.stringify(qComparable);
+    if (cloudQuestionBaseline.get(id) !== qSerialized) {
+      const meta = questionMetadataFor(id);
+      questionRows.push({
+        user_id: userId,
+        question_id: id,
+        ...meta,
+        attempts: qComparable.attempts,
+        correct: qComparable.correct,
+        incorrect: qComparable.incorrect,
+        last_result: qComparable.lastResult,
+        last_answer: qComparable.lastAnswer,
+        last_attempted: qComparable.lastAttempted,
+        error_reported: qComparable.errorReported,
+        error_reported_at: qComparable.errorReportedAt,
+        error_note: qComparable.errorNote,
+        error_question_snapshot: qComparable.errorQuestionSnapshot,
+        error_choices_snapshot: qComparable.errorChoicesSnapshot,
+        error_subject_snapshot: qComparable.errorSubjectSnapshot,
+        error_unit_snapshot: qComparable.errorUnitSnapshot,
+        error_subunit_snapshot: qComparable.errorSubunitSnapshot,
+        updated_at: now,
+      });
+      questionBaselineUpdates.push([id, qSerialized]);
+    }
+
+    const fComparable = flagComparable(rec);
+    const fSerialized = JSON.stringify(fComparable);
+    const hadFlagRow = cloudFlagBaseline.has(id);
+    if (cloudFlagBaseline.get(id) !== fSerialized && (hadFlagRow || fComparable.favorite || fComparable.examExcluded)) {
+      flagRows.push({
+        user_id: userId,
+        question_id: id,
+        favorite: fComparable.favorite,
+        exam_excluded: fComparable.examExcluded,
+        updated_at: now,
+      });
+      flagBaselineUpdates.push([id, fSerialized]);
+    } else if (!hadFlagRow) {
+      // 기본 false/false 상태는 DB 행을 만들 필요가 없지만 현재 세션의 기준값으로는 기억합니다.
+      cloudFlagBaseline.set(id, fSerialized);
+    }
+  });
+
+  const theoryRoot = progressStore?.__theory || {};
+  Object.entries(theoryRoot).forEach(([storageKey, root]) => {
+    Object.entries(root?.stages || {}).forEach(([stageId, rec]) => {
+      const comparable = theoryComparable(rec);
+      const serialized = JSON.stringify(comparable);
+      const key = `${storageKey}::${stageId}`;
+      if (cloudTheoryBaseline.get(key) === serialized) return;
+      theoryRows.push({
+        user_id: userId,
+        storage_key: storageKey,
+        stage_id: stageId,
+        read: comparable.read,
+        passed: comparable.passed,
+        attempts: comparable.attempts,
+        best_score: comparable.bestScore,
+        last_score: comparable.lastScore,
+        last_taken_at: comparable.lastTakenAt,
+        updated_at: now,
+      });
+      theoryBaselineUpdates.push([key, serialized]);
+    });
+  });
+
+  try {
+    if (questionRows.length) {
+      await upsertInBatches("user_question_progress", questionRows, "user_id,question_id");
+      questionBaselineUpdates.forEach(([key, value]) => cloudQuestionBaseline.set(key, value));
+    }
+    if (flagRows.length) {
+      await upsertInBatches("user_question_flags", flagRows, "user_id,question_id");
+      flagBaselineUpdates.forEach(([key, value]) => cloudFlagBaseline.set(key, value));
+    }
+    if (theoryRows.length) {
+      await upsertInBatches("user_theory_progress", theoryRows, "user_id,storage_key,stage_id");
+      theoryBaselineUpdates.forEach(([key, value]) => cloudTheoryBaseline.set(key, value));
+    }
+  } catch (err) {
+    console.error("[Supabase] 학습기록 저장 실패", err);
+  }
+}
+
+function queueCloudProgressSync() {
+  if (!usesSupabaseLearningData()) return;
+  cloudSyncRequested = true;
+  if (cloudSyncRunning) return;
+  cloudSyncRunning = true;
+  (async () => {
+    try {
+      while (cloudSyncRequested) {
+        cloudSyncRequested = false;
+        await syncProgressToSupabase();
+      }
+    } finally {
+      cloudSyncRunning = false;
+      if (cloudSyncRequested) queueCloudProgressSync();
+    }
+  })();
+}
+
 function saveProgress() {
+  if (usesSupabaseLearningData()) {
+    queueCloudProgressSync();
+    return true;
+  }
   try {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(progressStore));
     return true;
   } catch (err) {
-    // 저장소가 차단되거나 용량 제한에 걸려도 현재 세션 기능은 계속 동작시킵니다.
     console.warn("학습기록을 LocalStorage에 저장하지 못했습니다.", err);
     return false;
   }
+}
+
+function recordAttemptToCloud(q, selected, isCorrect) {
+  if (!usesSupabaseLearningData() || !q) return;
+  const userId = getSupabaseLearningUserId();
+  const row = {
+    user_id: userId,
+    question_id: q.id,
+    selected_answer: selected ?? null,
+    is_correct: !!isCorrect,
+    mode: els.mode?.value || null,
+    session_type: sessionMeta?.type || null,
+    subject: q.subject || null,
+    study_unit: studyUnitOf(q) || null,
+    subunit: [subunitCode(q), subunitTitle(q)].filter(Boolean).join(" ") || null,
+    answered_at: new Date().toISOString(),
+  };
+  window.supabaseClient.from("user_attempts").insert(row).then(({ error }) => {
+    if (error) console.error("[Supabase] 상세 풀이 이력 저장 실패", error);
+  });
+}
+
+function recordSessionToCloud(scorePct) {
+  if (!usesSupabaseLearningData() || sessionMeta?.__cloudLogged) return;
+  sessionMeta.__cloudLogged = true;
+  const userId = getSupabaseLearningUserId();
+  const cleanMeta = { ...sessionMeta };
+  delete cleanMeta.__cloudLogged;
+  const row = {
+    user_id: userId,
+    session_type: cleanMeta.type || els.mode?.value || "study",
+    mode: els.mode?.value || null,
+    context_label: learningContext?.label || null,
+    question_count: session.length,
+    correct_count: correctCount,
+    score_pct: Number.isFinite(scorePct) ? scorePct : null,
+    question_ids: session.map(q => q.id),
+    wrong_question_ids: wrongQuestions.map(q => q.id),
+    metadata: cleanMeta,
+    completed_at: new Date().toISOString(),
+  };
+  window.supabaseClient.from("user_exam_sessions").insert(row).then(({ error }) => {
+    if (error) console.error("[Supabase] 세션 결과 저장 실패", error);
+  });
 }
 
 function getRecord(id) {
@@ -1329,7 +1705,10 @@ function startSession(source = null, metaOverride = null) {
     sessionMeta = {type: els.mode.value === "mock" ? "mock" : els.mode.value};
   }
 
-  if (metaOverride && typeof metaOverride === "object") sessionMeta = {...metaOverride};
+  if (metaOverride && typeof metaOverride === "object") {
+    sessionMeta = {...metaOverride};
+    delete sessionMeta.__cloudLogged;
+  }
 
   index = 0;
   correctCount = 0;
@@ -1530,6 +1909,7 @@ function recordAttempt(q, selected, isCorrect) {
   rec.lastAnswer = selected;
   rec.lastAttempted = new Date().toISOString();
   saveProgress();
+  recordAttemptToCloud(q, selected, isCorrect);
   renderTopProgress();
 }
 
@@ -1573,6 +1953,7 @@ function showResult(showReview = false) {
   els.resultCard.classList.remove("hidden");
 
   const pct = Math.round((correctCount / session.length) * 100);
+  recordSessionToCloud(pct);
   els.resultText.classList.remove("mock-result", "mock-pass", "mock-fail");
   if (sessionMeta.type === "theoryTest") {
     const passed = recordTheoryTestResult();
@@ -1816,60 +2197,128 @@ function showErrorReports() {
   els.errorsCard.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
-function formatErrorReportsForCopy() {
+async function sendAllErrorReports() {
   const reports = getReportedRecords();
-  if (!reports.length) return "";
-
-  const lines = [
-    "문제은행 오류 보고 목록",
-    `총 ${reports.length}문항`,
-    ""
-  ];
-
-  reports.forEach(({ id, rec, q }, i) => {
-    const subject = q?.subject || rec.errorSubjectSnapshot || "미분류";
-    const unit = q ? studyUnitOf(q) : (rec.errorUnitSnapshot || "");
-    const subunit = q
-      ? [subunitCode(q), subunitTitle(q)].filter(Boolean).join(" ")
-      : (rec.errorSubunitSnapshot || "");
-    const question = q?.question || rec.errorQuestionSnapshot || "(지문 없음)";
-    const choices = errorChoicesFor(q, rec);
-
-    lines.push(`${i + 1}. ${id}`);
-    lines.push(`과목: ${subject}${unit ? ` / SU ${unit}` : ""}${subunit ? ` / ${subunit}` : ""}`);
-    lines.push(`문제: ${question}`);
-    if (choices.length) {
-      lines.push("선택지:");
-      choices.forEach(choice => lines.push(choice));
-    }
-    lines.push(`오류 내용: ${String(rec.errorNote || "").trim() || "(미입력)"}`);
-    lines.push("");
-  });
-
-  return lines.join("\n");
-}
-
-async function copyAllErrorReports() {
-  const text = formatErrorReportsForCopy();
-  if (!text) {
-    els.copyErrorsStatus.textContent = "복사할 오류가 없습니다.";
+  if (!reports.length) {
+    els.copyErrorsStatus.textContent = "전송할 오류가 없습니다.";
     return;
   }
 
-  try {
-    await navigator.clipboard.writeText(text);
-    els.copyErrorsStatus.textContent = "복사 완료 · ChatGPT에 그대로 붙여넣으면 됩니다.";
-  } catch {
-    const area = document.createElement("textarea");
-    area.value = text;
-    area.style.position = "fixed";
-    area.style.opacity = "0";
-    document.body.appendChild(area);
-    area.select();
-    document.execCommand("copy");
-    area.remove();
-    els.copyErrorsStatus.textContent = "복사 완료 · ChatGPT에 그대로 붙여넣으면 됩니다.";
+  if (!usesSupabaseLearningData()) {
+    els.copyErrorsStatus.textContent = "서버 오류 보고는 Supabase 회원 계정에서 사용할 수 있습니다.";
+    return;
   }
+
+  const supabase = window.supabaseClient;
+  const userId = getSupabaseLearningUserId();
+  const button = els.sendErrors;
+  if (button) button.disabled = true;
+  els.copyErrorsStatus.textContent = "오류 보고를 전송하고 있습니다...";
+
+  const rows = reports.map(({ id, rec, q }) => ({
+    user_id: userId,
+    question_id: id,
+    subject: q?.subject || rec.errorSubjectSnapshot || "미분류",
+    study_unit: q ? String(studyUnitOf(q) || "") : String(rec.errorUnitSnapshot || ""),
+    subunit: q
+      ? [subunitCode(q), subunitTitle(q)].filter(Boolean).join(" ")
+      : String(rec.errorSubunitSnapshot || ""),
+    question_snapshot: q?.question || rec.errorQuestionSnapshot || "",
+    choices_snapshot: errorChoicesFor(q, rec),
+    error_note: String(rec.errorNote || "").trim(),
+    reported_at: rec.errorReportedAt || new Date().toISOString(),
+    updated_at: new Date().toISOString(),
+  }));
+
+  try {
+    const { error } = await supabase
+      .from("error_reports")
+      .upsert(rows, { onConflict: "user_id,question_id" });
+    if (error) throw error;
+    els.copyErrorsStatus.textContent = `${rows.length}건의 오류 보고를 서버에 전송했습니다.`;
+  } catch (err) {
+    console.error("[Supabase] 오류 보고 전송 실패", err);
+    els.copyErrorsStatus.textContent = `전송 실패: ${err?.message || "알 수 없는 오류"}`;
+  } finally {
+    if (button) button.disabled = false;
+  }
+}
+
+function configureAdminErrorAccess() {
+  const profile = window.PilotBankAuth?.getCurrentProfile?.();
+  const isAdmin = !!profile?.is_admin;
+  els.adminErrorReportsBtn?.classList.toggle("hidden", !isAdmin);
+}
+
+function formatAdminReportTime(value) {
+  if (!value) return "";
+  try {
+    return new Intl.DateTimeFormat("ko-KR", {
+      year: "numeric", month: "2-digit", day: "2-digit",
+      hour: "2-digit", minute: "2-digit"
+    }).format(new Date(value));
+  } catch {
+    return String(value);
+  }
+}
+
+async function loadAdminErrorReports() {
+  const profile = window.PilotBankAuth?.getCurrentProfile?.();
+  if (!profile?.is_admin || !window.supabaseClient) return;
+
+  els.adminErrorReportStatus.textContent = "불러오는 중...";
+  els.adminErrorReportsList.innerHTML = "";
+  try {
+    const { data, error } = await window.supabaseClient
+      .from("error_reports")
+      .select("id,user_id,question_id,subject,study_unit,subunit,question_snapshot,choices_snapshot,error_note,reported_at,updated_at,profiles(username,email)")
+      .order("reported_at", { ascending: false });
+    if (error) throw error;
+
+    const reports = Array.isArray(data) ? data : [];
+    const uniqueQuestions = new Set(reports.map(row => row.question_id)).size;
+    els.adminErrorReportSummary.textContent = `총 ${reports.length}건 · 고유 문제 ${uniqueQuestions}개`;
+    els.adminErrorReportsEmpty.classList.toggle("hidden", reports.length > 0);
+    els.adminErrorReportsList.innerHTML = "";
+
+    reports.forEach(row => {
+      const reporter = row.profiles?.username || row.profiles?.email || row.user_id;
+      const choices = Array.isArray(row.choices_snapshot) ? row.choices_snapshot : [];
+      const item = document.createElement("article");
+      item.className = "error-report-item";
+      item.innerHTML = `
+        <div class="error-report-head">
+          <div>
+            <strong>${escapeHtml(row.question_id || "")}</strong>
+            <div class="muted">${escapeHtml(row.subject || "미분류")}${row.study_unit ? ` · SU ${escapeHtml(row.study_unit)}` : ""}${row.subunit ? ` · ${escapeHtml(row.subunit)}` : ""}</div>
+          </div>
+          <div class="muted">${escapeHtml(formatAdminReportTime(row.reported_at))}</div>
+        </div>
+        <div class="muted">보고자: ${escapeHtml(reporter)}</div>
+        <p class="error-question">${escapeHtml(row.question_snapshot || "(지문 없음)")}</p>
+        ${choices.length ? `<div class="error-choice-list">${choices.map(choice => `<div>${escapeHtml(choice)}</div>`).join("")}</div>` : ""}
+        <div class="error-note-label"><strong>오류 내용</strong><div>${escapeHtml(row.error_note || "(메모 없음)")}</div></div>
+      `;
+      els.adminErrorReportsList.appendChild(item);
+    });
+    els.adminErrorReportStatus.textContent = "";
+  } catch (err) {
+    console.error("[Supabase] 관리자 오류 목록 조회 실패", err);
+    els.adminErrorReportSummary.textContent = "조회 실패";
+    els.adminErrorReportStatus.textContent = err?.message || "오류 목록을 불러오지 못했습니다.";
+  }
+}
+
+async function showAdminErrorReports() {
+  const profile = window.PilotBankAuth?.getCurrentProfile?.();
+  if (!profile?.is_admin) {
+    alert("관리자 계정에서만 확인할 수 있습니다.");
+    return;
+  }
+  [els.statsCard, els.errorsCard, els.controlsCard, els.quizCard, els.resultCard, els.theoryCard, els.resourceLibraryCard, els.resourceViewerCard].forEach(el => el?.classList.add("hidden"));
+  els.adminErrorReportsCard?.classList.remove("hidden");
+  await loadAdminErrorReports();
+  els.adminErrorReportsCard?.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
 function resetErrorReports() {
@@ -1899,7 +2348,7 @@ function resetErrorReports() {
   updateErrorCount();
   updateAvailableCount();
   renderErrorReports();
-  els.copyErrorsStatus.textContent = "오류 목록을 초기화했습니다.";
+  els.copyErrorsStatus.textContent = "개인 오류 목록을 초기화했습니다. 이미 서버로 전송한 보고는 관리자 목록에 유지됩니다.";
 }
 
 function aggregateStats(questions) {
@@ -2054,18 +2503,6 @@ function showStats() {
   els.statsCard.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
-function resetProgress() {
-  const ok = confirm(`${currentUser ? currentUser + " 계정의 " : ""}오답노트, 정답률, 즐겨찾기, 시험모드 제외 표시, 오류 신고 목록을 포함한 모든 학습기록을 초기화할까요?`);
-  if (!ok) return;
-  progressStore = {};
-  try { localStorage.removeItem(STORAGE_KEY); } catch (err) { console.warn("LocalStorage 초기화 실패", err); }
-  updateErrorCount();
-  updateAvailableCount();
-  renderErrorReports();
-  renderTopProgress();
-  alert("학습기록을 초기화했습니다.");
-}
-
 function escapeHtml(value) {
   return String(value ?? "")
     .replaceAll("&","&amp;")
@@ -2128,7 +2565,6 @@ els.restart.addEventListener("click", () => {
 });
 els.statsBtn.addEventListener("click", showStats);
 els.closeStats.addEventListener("click", () => els.statsCard.classList.add("hidden"));
-els.resetProgress.addEventListener("click", resetProgress);
 els.resetErrors?.addEventListener("click", resetErrorReports);
 
 // v11.1: 오류 신고 UI는 이벤트 위임으로 연결합니다.
@@ -2155,10 +2591,31 @@ document.addEventListener("click", event => {
     return;
   }
 
-  const copyErrorsButton = event.target.closest("#copyErrorsBtn");
-  if (copyErrorsButton) {
+  const sendErrorsButton = event.target.closest("#sendErrorsBtn");
+  if (sendErrorsButton) {
     event.preventDefault();
-    copyAllErrorReports();
+    sendAllErrorReports();
+    return;
+  }
+
+  const adminErrorsButton = event.target.closest("#adminErrorReportsBtn");
+  if (adminErrorsButton) {
+    event.preventDefault();
+    showAdminErrorReports();
+    return;
+  }
+
+  const closeAdminErrorsButton = event.target.closest("#closeAdminErrorReportsBtn");
+  if (closeAdminErrorsButton) {
+    event.preventDefault();
+    els.adminErrorReportsCard?.classList.add("hidden");
+    return;
+  }
+
+  const refreshAdminErrorsButton = event.target.closest("#refreshAdminErrorReportsBtn");
+  if (refreshAdminErrorsButton) {
+    event.preventDefault();
+    loadAdminErrorReports();
   }
 });
 
@@ -2259,12 +2716,14 @@ async function bootstrap() {
     const user = await window.PilotBankAuth.requireLogin();
     configureUserStorage(user);
     configureResourceLibraryAccess();
+    configureAdminErrorAccess();
   } else {
     configureUserStorage(null);
     configureResourceLibraryAccess();
+    configureAdminErrorAccess();
   }
   maybeImportLegacyProgress();
-  progressStore = loadProgress();
+  progressStore = await loadProgress();
   await loadBank();
   renderTopProgress();
   showMainModeHub();
