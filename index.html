@@ -27,6 +27,7 @@
           <span class="nav-icon">!</span><span class="nav-label">오류 목록</span> <span id="errorCountBadge" class="count-badge">0</span>
         </button>
         <button id="quickResourceNavBtn" type="button" class="button secondary hidden nav-action" title="자료실"><span class="nav-icon">▣</span><span class="nav-label">자료실</span></button>
+        <button id="memberManagementBtn" type="button" class="button secondary hidden nav-action" title="회원 관리"><span class="nav-icon">♙</span><span class="nav-label">회원 관리</span><span id="memberPendingBadge" class="nav-pending-badge hidden">0</span></button>
         <button id="adminErrorReportsBtn" type="button" class="button secondary hidden nav-action" title="보고된 오류"><span class="nav-icon">⚙</span><span class="nav-label">보고된 오류</span></button>
         <a id="problemAdminLink" class="button secondary hidden nav-action" href="./admin.html" title="문제 추가"><span class="nav-icon">＋</span><span class="nav-label">문제 추가</span></a>
       </nav>
@@ -485,6 +486,23 @@
       <div id="errorsList" class="error-report-list"></div>
     </section>
 
+    <section id="memberManagementCard" class="card hidden">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">ADMIN · MEMBERS</span>
+          <h2>회원 관리</h2>
+          <p class="muted">가입 신청을 승인·거절하고 회원별 기능 접근 권한을 관리합니다.</p>
+        </div>
+        <button id="closeMemberManagementBtn" class="button secondary" type="button">닫기</button>
+      </div>
+      <div class="row error-toolbar">
+        <button id="refreshMembersBtn" class="button secondary" type="button">새로고침</button>
+        <strong id="memberManagementStatus">불러오는 중...</strong>
+      </div>
+      <div id="memberManagementTabs" class="member-admin-tabs"></div>
+      <div id="memberManagementList" class="member-admin-list"></div>
+    </section>
+
     <section id="adminErrorReportsCard" class="card hidden">
       <div class="section-head">
         <div>
@@ -596,7 +614,8 @@
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="./assets/supabase-config.js?v=11.46.0"></script>
-  <script src="./assets/auth-v11-10.js?v=11.49.0"></script>
+  <script src="./assets/auth-v11-10.js?v=11.50.0"></script>
   <script src="./assets/app-v11-27.js?v=11.48.0"></script>
+  <script src="./assets/member-admin-v11-50.js?v=11.50.0"></script>
 </body>
 </html>
