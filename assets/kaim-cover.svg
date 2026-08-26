@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 840" role="img" aria-labelledby="title desc">
+  <title id="title">K-AIM 세화 문제집</title>
+  <desc id="desc">K-AIM 문제은행 교재 표지</desc>
+  <rect width="600" height="840" rx="28" fill="#102a43"/>
+  <rect x="36" y="36" width="528" height="768" rx="22" fill="#f7f9fc"/>
+  <path d="M76 180h448M76 640h448" stroke="#102a43" stroke-width="6" opacity=".18"/>
+  <text x="300" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="92" font-weight="700" fill="#102a43">K-AIM</text>
+  <text x="300" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="600" fill="#486581">QUESTION BANK</text>
+  <text x="300" y="505" text-anchor="middle" font-family="sans-serif" font-size="36" font-weight="700" fill="#102a43">세화 문제집</text>
+  <text x="300" y="560" text-anchor="middle" font-family="sans-serif" font-size="26" fill="#627d98">비행정보 및 관제절차</text>
+  <text x="300" y="710" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#829ab1">300 QUESTIONS</text>
+</svg>

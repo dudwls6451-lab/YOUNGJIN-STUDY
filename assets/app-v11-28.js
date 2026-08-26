@@ -56,7 +56,7 @@ function ensureV1115UiShell() {
       <div class="book-choice-grid">
         <button class="book-choice-card" data-book-subject="ATP Gleim" type="button"><img src="./assets/covers/atp_gleim.jpg" alt="ATP Gleim 표지"><strong>ATP Gleim</strong></button>
         <button class="book-choice-card" data-book-subject="검댕이 항공법규" type="button"><img src="./assets/covers/airlaw.jpg" alt="검댕이 항공법규 표지"><strong>검댕이 항공법규</strong></button>
-        <button class="book-choice-card" data-book-subject="항공기상" type="button"><img src="./assets/covers/weather.jpg" alt="항공기상 표지"><strong>항공기상</strong></button><button class="book-choice-card" data-book-subject="항공교통통신" type="button"><img src="./assets/covers/atc_comm.svg" alt="항공교통통신 표지"><strong>항공교통통신</strong><span>출제예상·모의고사 938문항</span></button>
+        <button class="book-choice-card" data-book-subject="항공기상" type="button"><img src="./assets/covers/weather.jpg" alt="항공기상 표지"><strong>항공기상</strong></button><button class="book-choice-card" data-book-subject="항공교통통신" type="button"><img src="./assets/covers/atc_comm.svg" alt="항공교통통신 표지"><strong>항공교통통신</strong><span>출제예상·모의고사 938문항</span></button><button class="book-choice-card" data-book-subject="K-AIM" type="button"><img src="./assets/kaim-cover.svg" alt="K-AIM 표지"><strong>K-AIM</strong><span>세화 문제집 · 300문항</span></button>
         <button id="freeStudyBtn" class="book-choice-card free-study" type="button"><img src="./assets/covers/all_books.jpg" alt="전체 교재"><strong>자유학습모드</strong><span>기존 문제은행의 모든 기능 사용</span></button>
       </div>`;
     if (controls) main.insertBefore(section, controls);
@@ -188,7 +188,7 @@ function ensureV1116TheoryShell() {
   if (!document.querySelector("#bookProblemHubCard")) {
     const section = document.createElement("section");
     section.id = "bookProblemHubCard"; section.className = "card hidden";
-    section.innerHTML = `<div class="section-head"><div><h2>문제 풀이 교재를 선택하십시오.</h2><p class="muted">기존 문제 풀이 기능은 그대로 유지됩니다.</p></div><button id="bookProblemBackBtn" class="button secondary" type="button">이전</button></div><div class="book-choice-grid"><button class="book-choice-card" data-book-subject="ATP Gleim" type="button"><img src="./assets/covers/atp_gleim.jpg" alt="ATP Gleim 표지"><strong>ATP Gleim</strong></button><button class="book-choice-card" data-book-subject="검댕이 항공법규" type="button"><img src="./assets/covers/airlaw.jpg" alt="검댕이 항공법규 표지"><strong>검댕이 항공법규</strong></button><button class="book-choice-card" data-book-subject="항공기상" type="button"><img src="./assets/covers/weather.jpg" alt="항공기상 표지"><strong>항공기상</strong></button><button class="book-choice-card" data-book-subject="항공교통통신" type="button"><img src="./assets/covers/atc_comm.svg" alt="항공교통통신 표지"><strong>항공교통통신</strong><span>출제예상·모의고사 938문항</span></button><button id="freeStudyBtn" class="book-choice-card free-study" type="button"><img src="./assets/covers/all_books.jpg" alt="전체 교재"><strong>자유학습모드</strong><span>기존 문제은행의 모든 기능 사용</span></button></div>`;
+    section.innerHTML = `<div class="section-head"><div><h2>문제 풀이 교재를 선택하십시오.</h2><p class="muted">기존 문제 풀이 기능은 그대로 유지됩니다.</p></div><button id="bookProblemBackBtn" class="button secondary" type="button">이전</button></div><div class="book-choice-grid"><button class="book-choice-card" data-book-subject="ATP Gleim" type="button"><img src="./assets/covers/atp_gleim.jpg" alt="ATP Gleim 표지"><strong>ATP Gleim</strong></button><button class="book-choice-card" data-book-subject="검댕이 항공법규" type="button"><img src="./assets/covers/airlaw.jpg" alt="검댕이 항공법규 표지"><strong>검댕이 항공법규</strong></button><button class="book-choice-card" data-book-subject="항공기상" type="button"><img src="./assets/covers/weather.jpg" alt="항공기상 표지"><strong>항공기상</strong></button><button class="book-choice-card" data-book-subject="항공교통통신" type="button"><img src="./assets/covers/atc_comm.svg" alt="항공교통통신 표지"><strong>항공교통통신</strong><span>출제예상·모의고사 938문항</span></button><button class="book-choice-card" data-book-subject="K-AIM" type="button"><img src="./assets/kaim-cover.svg" alt="K-AIM 표지"><strong>K-AIM</strong><span>세화 문제집 · 300문항</span></button><button id="freeStudyBtn" class="book-choice-card free-study" type="button"><img src="./assets/covers/all_books.jpg" alt="전체 교재"><strong>자유학습모드</strong><span>기존 문제은행의 모든 기능 사용</span></button></div>`;
     main.insertBefore(section, insertBefore);
   }
   if (!document.querySelector("#bookTheoryHubCard")) {
@@ -204,7 +204,31 @@ function ensureV1116TheoryShell() {
 }
 ensureV1116TheoryShell();
 
+function ensureV1152KaimCards() {
+  const problemGrid = document.querySelector("#bookProblemHubCard .book-choice-grid");
+  if (problemGrid && !problemGrid.querySelector('[data-book-subject="K-AIM"]')) {
+    const freeStudy = problemGrid.querySelector("#freeStudyBtn");
+    const btn = document.createElement("button");
+    btn.className = "book-choice-card";
+    btn.type = "button";
+    btn.dataset.bookSubject = "K-AIM";
+    btn.innerHTML = '<img src="./assets/kaim-cover.svg" alt="K-AIM 표지"><strong>K-AIM</strong><span>세화 문제집 · 300문항</span>';
+    problemGrid.insertBefore(btn, freeStudy || null);
+  }
+  const wrongGrid = document.querySelector("#wrongReviewHubCard .wrong-review-book-grid");
+  if (wrongGrid && !wrongGrid.querySelector('[data-wrong-review-subject="K-AIM"]')) {
+    const btn = document.createElement("button");
+    btn.className = "book-choice-card";
+    btn.type = "button";
+    btn.dataset.wrongReviewSubject = "K-AIM";
+    btn.innerHTML = '<img src="./assets/kaim-cover.svg" alt="K-AIM 표지"><strong>K-AIM</strong><span class="wrong-review-count">오답 기록 확인</span>';
+    wrongGrid.appendChild(btn);
+  }
+}
+ensureV1152KaimCards();
+
 const DATA_PATH = "./data/questions-v11-2.json";
+const ADDITIVE_DATA_PATHS = ["./data/kaim-300-v11.52.json"];
 const BASE_STORAGE_KEY = "pilotQuestionBankProgressV2";
 const LEGACY_STORAGE_KEY = BASE_STORAGE_KEY;
 let STORAGE_KEY = BASE_STORAGE_KEY;
@@ -219,6 +243,7 @@ const SUBJECTS = [
   "검댕이 항공법규",
   "항공교통통신정보업무",
   "항공교통통신",
+  "K-AIM",
   "트리니티항공 대비",
 ];
 
@@ -491,7 +516,7 @@ let aviwikiBookmarkOnly = false;
 let aviwikiStateLoaded = false;
 let aviwikiCloudStateAvailable = true;
 
-const BOOK_SUBJECTS = ["ATP Gleim", "검댕이 항공법규", "항공기상", "항공교통통신"];
+const BOOK_SUBJECTS = ["ATP Gleim", "검댕이 항공법규", "항공기상", "항공교통통신", "K-AIM"];
 const KOTSA_SUBJECTS = ["항공기상", "검댕이 항공법규"];
 const PARATA_SUBJECTS = ["ATP Gleim", "검댕이 항공법규"];
 const JEJU_RECALL_SUBJECT = "제주항공 복기";
@@ -2258,6 +2283,26 @@ async function loadBank() {
     }
     if (!data) throw lastError || new Error("문제 데이터 로드 실패");
     bank = Array.isArray(data) ? data : (data.questions || []);
+
+    // v11.52: 새 교재 데이터는 기존 통합 문제 파일을 덮어쓰지 않고 별도 JSON에서 가산 로드합니다.
+    // 이렇게 하면 최신 questions-v11-2.json이 이후 다시 갱신되어도 K-AIM 패치를 재병합할 필요가 없습니다.
+    const existingIds = new Set(bank.map(q => q.id));
+    for (const path of ADDITIVE_DATA_PATHS) {
+      try {
+        const extraUrl = `${path}?v=${Date.now()}`;
+        const extraRes = await fetch(extraUrl, { cache: "no-store" });
+        if (!extraRes.ok) throw new Error(`HTTP ${extraRes.status}`);
+        const extraData = await extraRes.json();
+        const extraQuestions = Array.isArray(extraData) ? extraData : (extraData.questions || []);
+        extraQuestions.forEach(q => {
+          if (!q?.id || existingIds.has(q.id)) return;
+          bank.push(q);
+          existingIds.add(q.id);
+        });
+      } catch (extraError) {
+        console.warn(`추가 문제 데이터 로드 실패: ${path}`, extraError);
+      }
+    }
 
     // v11.51: 관리자 회원관리 화면이 마이페이지와 동일한 전체 문제 수를
     // 사용해 회원별 진도를 계산할 수 있도록 현재 문제은행 규모를 공개합니다.
