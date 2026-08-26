@@ -296,7 +296,6 @@ const els = {
   noFigureOnly: document.querySelector("#noFigureOnly"),
   start: document.querySelector("#startBtn"),
   bankInfo: document.querySelector("#bankInfo"),
-  resetProgress: document.querySelector("#resetProgressBtn"),
   quizCard: document.querySelector("#quizCard"),
   resultCard: document.querySelector("#resultCard"),
   statsCard: document.querySelector("#statsCard"),
@@ -2428,48 +2427,6 @@ function showStats() {
   els.statsCard.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
-async function resetProgress() {
-  const ok = confirm(`${currentUser ? currentUser + " 계정의 " : ""}오답노트, 정답률, 즐겨찾기, 시험모드 제외 표시, 오류 신고, 이론 진도, 시험 이력을 포함한 모든 학습기록을 초기화할까요?`);
-  if (!ok) return;
-
-  if (usesSupabaseLearningData()) {
-    const userId = getSupabaseLearningUserId();
-    // 저장 중인 변경분이 있다면 먼저 끝낸 뒤 삭제하여 초기화 직후 재삽입되는 경쟁조건을 막습니다.
-    cloudSyncRequested = false;
-    while (cloudSyncRunning) {
-      await new Promise(resolve => setTimeout(resolve, 50));
-    }
-    const tables = [
-      "user_question_progress",
-      "user_question_flags",
-      "user_attempts",
-      "user_theory_progress",
-      "user_exam_sessions",
-    ];
-    try {
-      for (const table of tables) {
-        const { error } = await window.supabaseClient.from(table).delete().eq("user_id", userId);
-        if (error) throw error;
-      }
-    } catch (err) {
-      console.error("[Supabase] 학습기록 초기화 실패", err);
-      alert("Supabase 학습기록 초기화 중 오류가 발생했습니다.");
-      return;
-    }
-    progressStore = {};
-    captureCloudBaselines(progressStore);
-  } else {
-    progressStore = {};
-    try { localStorage.removeItem(STORAGE_KEY); } catch (err) { console.warn("LocalStorage 초기화 실패", err); }
-  }
-
-  updateErrorCount();
-  updateAvailableCount();
-  renderErrorReports();
-  renderTopProgress();
-  alert("학습기록을 초기화했습니다.");
-}
-
 function escapeHtml(value) {
   return String(value ?? "")
     .replaceAll("&","&amp;")
@@ -2532,7 +2489,6 @@ els.restart.addEventListener("click", () => {
 });
 els.statsBtn.addEventListener("click", showStats);
 els.closeStats.addEventListener("click", () => els.statsCard.classList.add("hidden"));
-els.resetProgress.addEventListener("click", resetProgress);
 els.resetErrors?.addEventListener("click", resetErrorReports);
 
 // v11.1: 오류 신고 UI는 이벤트 위임으로 연결합니다.
