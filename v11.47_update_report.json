@@ -1,0 +1,15 @@
+{
+  "version": "v11.47",
+  "feature": "Aviwiki theory encyclopedia phase 1",
+  "source": "Aerodynamic.txt",
+  "aerodynamics": {
+    "chapters": 6,
+    "sections": 37,
+    "search": true,
+    "resume": true,
+    "bookmarks": true,
+    "responsive_reader": true
+  },
+  "other_subjects": "placeholders only; no generated theory content",
+  "supabase": "aviwiki_user_state stores last_section_id and bookmarks per user"
+}

@@ -1,0 +1,25 @@
+v11.47 · Aviwiki 이론 백과사전 1차
+
+적용 순서
+1) Supabase SQL Editor에서 supabase/V11.47_AVIWIKI_STATE.sql 실행
+2) GitHub 저장소에 다음 파일을 같은 경로로 업로드/덮어쓰기
+   - index.html
+   - assets/app-v11-26.js
+   - assets/style-v11-47.css
+   - data/aviwiki-aerodynamics-v1.json
+3) GitHub Pages 배포 후 강력 새로고침
+
+주요 기능
+- 사이드 메뉴 + 홈 카드에서 Aviwiki 진입
+- Aerodynamics 6챕터 / 37섹션 수록
+- 제목/챕터/태그/본문 통합 검색
+- 이어보기 / 처음부터 공부하기
+- 상세화면: 좌측 목차 + 우측 본문
+- 모바일/태블릿 반응형 레이아웃
+- 북마크 / 북마크만 보기
+- 읽던 섹션 + 북마크를 Supabase에 계정별 저장
+- 서버 테이블이 아직 없거나 일시 실패하면 브라우저 LocalStorage로 임시 폴백
+
+데이터 원칙
+- 이번 버전의 Aerodynamics 본문은 사용자가 제공한 Aerodynamic.txt만 구조화함.
+- 다른 과목 카드는 UI 자리는 마련했지만 내용은 임의 생성하지 않고 '자료 준비 중'으로 표시함.

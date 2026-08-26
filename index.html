@@ -5,20 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>항공 문제은행</title>
   <link rel="stylesheet" href="./assets/style-v11-33.css?v=11.34.0" />
-  <link rel="stylesheet" href="./assets/style-v11-46.css?v=11.46.0" />
+  <link rel="stylesheet" href="./assets/style-v11-47.css?v=11.47.0" />
 </head>
 <body>
   <header class="topbar">
     <div class="container topbar-inner">
       <div>
         <h1><button id="homeTitleBtn" class="brand-home-button" type="button" aria-label="홈으로 이동">항공 문제은행</button></h1>
-        <p class="muted">모바일 · iPad 최적화 학습 플랫폼 · v11.46</p>
+        <p class="muted">모바일 · iPad 최적화 학습 플랫폼 · v11.47</p>
       </div>
       <nav class="row nav-row" aria-label="빠른 이동 메뉴">
         <button id="menuToggleBtn" class="button secondary nav-action menu-toggle-action" type="button" aria-expanded="true" title="메뉴 접기"><span class="nav-icon">☰</span><span class="nav-label">메뉴 접기</span></button>
         <button id="homeNavBtn" class="button secondary nav-action" type="button" title="홈"><span class="nav-icon">⌂</span><span class="nav-label">홈</span></button>
         <button id="studyNavBtn" class="button secondary nav-action" type="button" title="학습 모드 선택"><span class="nav-icon">✦</span><span class="nav-label">학습 선택</span></button>
         <button id="textbookQuickNavBtn" class="button secondary nav-action" type="button" title="각 교재 학습"><span class="nav-icon">▤</span><span class="nav-label">각 교재</span></button>
+        <button id="aviwikiNavBtn" class="button secondary nav-action" type="button" title="이론 백과사전"><span class="nav-icon">⌘</span><span class="nav-label">Aviwiki</span></button>
         <button id="airlineQuickNavBtn" class="button secondary nav-action" type="button" title="항공사 필기전형 대비"><span class="nav-icon">✈</span><span class="nav-label">항공사 대비</span></button>
         <button id="wrongReviewQuickNavBtn" class="button secondary nav-action" type="button" title="오답 복습"><span class="nav-icon">↻</span><span class="nav-label">오답 복습</span></button>
         <button id="statsBtn" class="button secondary nav-action" type="button" title="마이페이지"><span class="nav-icon">◉</span><span class="nav-label">마이페이지</span></button>
@@ -67,6 +68,10 @@
           <span class="mode-icon">📚</span><strong>각 교재 학습</strong>
           <span>문제 풀이 / 이론 학습 / 자유학습</span>
         </button>
+        <button id="aviwikiModeBtn" class="mode-choice-card aviwiki-entry-card" type="button">
+          <span class="mode-icon">🧭</span><strong>이론 백과사전 · Aviwiki</strong>
+          <span>키워드 검색 · 챕터별 탐색 · 북마크 · 이어보기</span>
+        </button>
         <button id="airlineModeBtn" class="mode-choice-card" type="button">
           <span class="mode-icon">🛫</span><strong>항공사 필기전형 대비</strong>
           <span>항공사별 맞춤 출제 과정</span>
@@ -79,6 +84,71 @@
           <span class="mode-icon">🗂️</span><strong>자료실</strong>
           <span>허용 계정 전용 · 열람 전용 자료</span>
         </button>
+      </div>
+    </section>
+
+
+    <section id="aviwikiHomeCard" class="aviwiki-home hidden" aria-label="이론 백과사전">
+      <div class="aviwiki-home-inner">
+        <div class="aviwiki-kicker">⌘ 이론 백과사전 · Aviwiki</div>
+        <h2>필요한 개념을 바로 찾아보세요</h2>
+        <p id="aviwikiHomeMeta" class="aviwiki-lead">Aerodynamics 자료를 검색하거나, 챕터를 골라 처음부터 공부할 수 있어요.</p>
+
+        <label class="aviwiki-search-shell" aria-label="이론 검색">
+          <span class="aviwiki-search-icon">⌕</span>
+          <input id="aviwikiGlobalSearch" type="search" autocomplete="off" placeholder="예: 실속, 받음각, 유도항력, 마하턱, 지면효과..." />
+        </label>
+
+        <div id="aviwikiSearchResults" class="aviwiki-search-results hidden"></div>
+
+        <div class="aviwiki-home-actions">
+          <button id="aviwikiResumeBtn" class="aviwiki-feature-card primary" type="button">
+            <span class="aviwiki-feature-icon">◷</span>
+            <span><small>이어보기</small><strong id="aviwikiResumeTitle">비행 중 작용하는 4가지 힘</strong></span>
+          </button>
+          <button id="aviwikiStartBtn" class="aviwiki-feature-card" type="button">
+            <span class="aviwiki-feature-icon">▣</span>
+            <span><small>처음부터 공부하기</small><strong>Aerodynamics 부터 순서대로</strong></span>
+          </button>
+        </div>
+
+        <div class="aviwiki-subject-head">
+          <span>과목 선택</span>
+          <small>자료가 준비된 과목부터 순차적으로 열립니다.</small>
+        </div>
+        <div id="aviwikiSubjectGrid" class="aviwiki-subject-grid"></div>
+      </div>
+    </section>
+
+    <section id="aviwikiReaderCard" class="aviwiki-reader-page hidden" aria-label="이론 상세">
+      <div class="aviwiki-reader-topbar">
+        <button id="aviwikiHomeBtn" class="aviwiki-home-link" type="button">⌂ 이론 홈</button>
+        <div class="aviwiki-reader-progress"><span id="aviwikiReaderProgress">1 / 37</span></div>
+      </div>
+      <div class="aviwiki-reader-layout">
+        <aside class="aviwiki-toc">
+          <label class="aviwiki-toc-search">
+            <span>⌕</span>
+            <input id="aviwikiTocSearch" type="search" autocomplete="off" placeholder="이론 검색" />
+          </label>
+          <button id="aviwikiBookmarkOnlyBtn" class="aviwiki-bookmark-filter" type="button">♡ 북마크만</button>
+          <div id="aviwikiTocList" class="aviwiki-toc-list"></div>
+        </aside>
+        <article class="aviwiki-article">
+          <div class="aviwiki-article-head">
+            <div>
+              <div id="aviwikiArticleEyebrow" class="aviwiki-article-eyebrow">Aerodynamics · 양력과 항력</div>
+              <h1 id="aviwikiArticleTitle">비행 중 작용하는 4가지 힘</h1>
+              <div id="aviwikiArticleTags" class="aviwiki-tag-row"></div>
+            </div>
+            <button id="aviwikiBookmarkBtn" class="aviwiki-bookmark-btn" type="button" aria-label="북마크">♡</button>
+          </div>
+          <div id="aviwikiArticleBody" class="aviwiki-article-body"></div>
+          <div class="aviwiki-reader-nav">
+            <button id="aviwikiPrevBtn" class="button secondary" type="button">← 이전 이론</button>
+            <button id="aviwikiNextBtn" class="button" type="button">다음 이론 →</button>
+          </div>
+        </article>
       </div>
     </section>
 
@@ -527,6 +597,6 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="./assets/supabase-config.js?v=11.46.0"></script>
   <script src="./assets/auth-v11-9.js?v=11.46.0"></script>
-  <script src="./assets/app-v11-25.js?v=11.46.0"></script>
+  <script src="./assets/app-v11-26.js?v=11.47.0"></script>
 </body>
 </html>
