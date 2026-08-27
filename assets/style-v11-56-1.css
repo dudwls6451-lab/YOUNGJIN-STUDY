@@ -1,0 +1,18 @@
+
+/* v11.56 — Aviwiki highlight / drawing / saved notes */
+.aviwiki-article{position:relative}
+.aviwiki-annotation-toolbar{position:sticky;top:0;z-index:12;display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:0 0 18px;padding:10px 12px;border:1px solid rgba(148,163,184,.28);border-radius:14px;background:rgba(255,255,255,.95);backdrop-filter:blur(12px);box-shadow:0 8px 24px rgba(15,23,42,.07)}
+.aviwiki-tool-group{display:flex;align-items:center;gap:7px;flex-wrap:wrap}.aviwiki-tool-btn,.aviwiki-draw-tool{border:1px solid #d7deea;background:#fff;color:#263248;border-radius:10px;padding:7px 10px;font-weight:700;cursor:pointer}.aviwiki-tool-btn:hover,.aviwiki-draw-tool:hover{background:#f5f7fb}.aviwiki-tool-btn.active,.aviwiki-draw-tool.active{background:#18243b;color:#fff;border-color:#18243b}.aviwiki-tool-btn.save{background:#174ea6;color:#fff;border-color:#174ea6}.aviwiki-tool-btn.secondary{font-weight:600}.aviwiki-tool-select{border:1px solid #d7deea;border-radius:9px;background:#fff;padding:7px 8px}.aviwiki-draw-tools{display:flex;align-items:center;gap:7px;flex-wrap:wrap}.aviwiki-color-label,.aviwiki-width-label{display:flex;align-items:center;gap:5px;font-size:12px;color:#60708c;font-weight:700}.aviwiki-color-label input{width:30px;height:28px;padding:1px;border:1px solid #d7deea;border-radius:7px;background:#fff}.aviwiki-width-label input{width:88px}.aviwiki-annotation-status{display:none!important}.aviwiki-draw-canvas{position:absolute;left:0;top:0;z-index:10;pointer-events:none;touch-action:none}.aviwiki-draw-canvas.active{pointer-events:auto;cursor:crosshair}.aviwiki-highlight{padding:0 .05em;border-radius:.16em;color:inherit}.aviwiki-highlight-yellow{background:#fff59d}.aviwiki-highlight-green{background:#bbf7d0}.aviwiki-highlight-pink{background:#fecdd3}.aviwiki-highlight-blue{background:#bfdbfe}
+.aviwiki-saved-notes-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px}.aviwiki-note-card{border:1px solid #e0e6ef;border-radius:16px;overflow:hidden;background:#fff;box-shadow:0 8px 22px rgba(15,23,42,.05)}.aviwiki-note-thumb{display:block;width:100%;height:170px;padding:0;border:0;background:#f6f8fb;cursor:pointer;overflow:hidden}.aviwiki-note-thumb img{width:100%;height:100%;object-fit:cover;object-position:top;display:block}.aviwiki-note-info{display:flex;flex-direction:column;gap:4px;padding:12px 13px}.aviwiki-note-info strong{font-size:14px}.aviwiki-note-info span,.aviwiki-note-info small{color:#718096;font-size:12px}.aviwiki-note-actions{display:flex;gap:6px;margin-top:7px;flex-wrap:wrap}.aviwiki-note-actions button{border:1px solid #dbe2ec;background:#fff;border-radius:8px;padding:5px 8px;font-size:12px;cursor:pointer}.aviwiki-note-actions button:hover{background:#f5f7fb}
+@media(max-width:760px){
+.aviwiki-annotation-toolbar{position:relative;top:auto;display:block;margin:0 0 12px;padding:8px;border-radius:11px;box-shadow:none}
+.aviwiki-tool-group{display:flex;gap:5px;flex-wrap:nowrap;width:100%;overflow-x:auto;scrollbar-width:none;padding:1px 0}
+.aviwiki-tool-group+.aviwiki-tool-group{margin-top:6px}
+.aviwiki-tool-group::-webkit-scrollbar,.aviwiki-draw-tools::-webkit-scrollbar{display:none}
+.aviwiki-tool-btn,.aviwiki-draw-tool{flex:0 0 auto;padding:6px 8px;border-radius:8px;font-size:12px;white-space:nowrap}
+.aviwiki-tool-select{flex:0 0 auto;padding:6px 7px;font-size:12px}
+.aviwiki-draw-tools{display:flex;gap:5px;flex-wrap:nowrap;overflow-x:auto;width:auto}
+.aviwiki-color-label,.aviwiki-width-label{flex:0 0 auto;white-space:nowrap;font-size:11px}
+.aviwiki-width-label input{width:70px}
+.aviwiki-note-thumb{height:140px}
+}
