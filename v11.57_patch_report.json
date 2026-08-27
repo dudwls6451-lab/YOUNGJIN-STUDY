@@ -1,0 +1,15 @@
+{
+  "patch_revision": "v11.57-aviwiki-cloud-notes-bounded-canvas",
+  "base_required": "v11.56.1-aviwiki-tools-mobile-fix",
+  "changes": {
+    "note_storage": "Supabase Storage private bucket + aviwiki_notes metadata table",
+    "snapshot_format": "WebP 0.82 (PNG fallback)",
+    "snapshot_scope": "current visible bounded annotation viewport",
+    "cross_device_sync": true,
+    "annotation_workspace": "fixed-height scrollable rectangle inside Aviwiki article",
+    "mobile_scroll_safety": "hand/scroll tool + canvas pointer capture limited to rectangle",
+    "study_time": "v11.56.1 behavior preserved (quiz + theory reader + Aviwiki reader)"
+  },
+  "supabase_setup": "Run supabase/V11.57_AVIWIKI_CLOUD_NOTES.sql once in Supabase SQL Editor.",
+  "deployment": "Apply SQL once, then overwrite v11.56.1 repository root with ZIP contents."
+}

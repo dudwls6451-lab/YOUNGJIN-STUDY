@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="./assets/style-v11-33.css?v=11.34.0" />
   <link rel="stylesheet" href="./assets/style-v11-47.css?v=11.47.0" />
   <link rel="stylesheet" href="./assets/style-v11-56-1.css?v=11.56.1" />
+  <link rel="stylesheet" href="./assets/style-v11-57.css?v=11.57.0" />
 </head>
 <body>
   <header class="topbar">
@@ -156,7 +157,8 @@
             <div class="aviwiki-tool-group">
               <button id="aviwikiDrawToggleBtn" class="aviwiki-tool-btn" type="button">✎ 필기</button>
               <div id="aviwikiDrawTools" class="aviwiki-draw-tools hidden">
-                <button class="aviwiki-draw-tool active" type="button" data-aviwiki-draw-tool="pen">펜</button>
+                <button class="aviwiki-draw-tool active" type="button" data-aviwiki-draw-tool="hand" title="필기 박스 안을 스크롤">✋ 이동</button>
+                <button class="aviwiki-draw-tool" type="button" data-aviwiki-draw-tool="pen">펜</button>
                 <button class="aviwiki-draw-tool" type="button" data-aviwiki-draw-tool="marker">마커</button>
                 <button class="aviwiki-draw-tool" type="button" data-aviwiki-draw-tool="eraser">지우개</button>
                 <label class="aviwiki-color-label">색 <input id="aviwikiDrawColor" type="color" value="#1d4ed8" /></label>
@@ -167,8 +169,12 @@
               </div>
             </div>
           </div>
-          <canvas id="aviwikiDrawCanvas" class="aviwiki-draw-canvas" aria-label="Aviwiki 필기 캔버스"></canvas>
-          <div id="aviwikiArticleBody" class="aviwiki-article-body"></div>
+          <div id="aviwikiAnnotationViewport" class="aviwiki-annotation-viewport" aria-label="Aviwiki 필기 가능 영역">
+            <div id="aviwikiAnnotationSurface" class="aviwiki-annotation-surface">
+              <div id="aviwikiArticleBody" class="aviwiki-article-body"></div>
+              <canvas id="aviwikiDrawCanvas" class="aviwiki-draw-canvas" aria-label="Aviwiki 필기 캔버스"></canvas>
+            </div>
+          </div>
           <div class="aviwiki-reader-nav">
             <button id="aviwikiPrevBtn" class="button secondary" type="button">← 이전 이론</button>
             <button id="aviwikiNextBtn" class="button" type="button">다음 이론 →</button>
@@ -651,7 +657,7 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="./assets/supabase-config.js?v=11.46.0"></script>
   <script src="./assets/auth-v11-10.js?v=11.50.0"></script>
-  <script src="./assets/app-v11-35.js?v=11.56.1"></script>
+  <script src="./assets/app-v11-36.js?v=11.57.0"></script>
   <script src="./assets/member-admin-v11-51.js?v=11.51.0"></script>
 </body>
 </html>
