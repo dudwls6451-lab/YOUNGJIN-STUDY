@@ -1,0 +1,18 @@
+PilotBank v11.53.2 cumulative patch
+
+Base: v11.53
+Apply: ZIP 내부 경로 그대로 문제은행 루트에 덮어쓰기
+
+Added / updated
+- K-AIM: 1,122문항 유지 + Study Unit 1~30 학습과정 추가
+  - 단계시험: 단원별 최대 10문항, 80% 이상 합격
+  - 10문항 미만 단원은 사용 가능한 전체 문항
+- Aviwiki cumulative additions
+  - Navigation: 6챕터 / 35섹션
+  - IFR Procedures: 7챕터 / 45섹션
+  - Systems: 7챕터 / 41섹션
+  - Performance & Weight Balance: 5챕터 / 30섹션
+  - 항공법규: 8챕터 / 48섹션
+
+This is cumulative: previous v11.53.1 patch is not required.
+Existing progress / wrong-answer records / user data are not reset by this patch.

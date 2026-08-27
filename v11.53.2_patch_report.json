@@ -1,0 +1,61 @@
+{
+  "version": "v11.53.2",
+  "base": "v11.53 (cumulative; previous v11.53.1 patch not required)",
+  "features": [
+    "K-AIM reviewed 1,122 questions retained in app bundle",
+    "K-AIM 30-stage Study Unit learning course",
+    "Aviwiki cumulative additions: Navigation, IFR Procedures, Systems, Performance & Weight Balance, 항공법규"
+  ],
+  "kaim": {
+    "question_count": 1122,
+    "stage_count": 30,
+    "id_first": "K-AIM-001",
+    "id_last": "K-AIM-1122",
+    "unique_ids": true,
+    "all_answers_abcd": true,
+    "all_four_choices": true,
+    "course_pass_rule": "up to 10 questions per Study Unit, 80% pass; smaller units use all available questions"
+  },
+  "aviwiki": {
+    "Navigation": {
+      "chapters": 6,
+      "sections": 35
+    },
+    "IFR Procedures": {
+      "chapters": 7,
+      "sections": 45
+    },
+    "Systems": {
+      "chapters": 7,
+      "sections": 41
+    },
+    "Performance & Weight Balance": {
+      "chapters": 5,
+      "sections": 30
+    },
+    "항공법규": {
+      "chapters": 8,
+      "sections": 48
+    }
+  },
+  "new_uploaded_subjects": {
+    "Performance & Weight Balance": {
+      "chapters": 5,
+      "sections": 30
+    },
+    "항공법규": {
+      "chapters": 8,
+      "sections": 48
+    }
+  },
+  "files": [
+    "index.html",
+    "assets/app-v11-31.js",
+    "data/aviwiki-navigation-v1.json",
+    "data/aviwiki-ifr-procedures-v1.json",
+    "data/aviwiki-systems-v1.json",
+    "data/aviwiki-performance-weight-balance-v1.json",
+    "data/aviwiki-airlaw-v1.json",
+    "data/theory-kaim-course-v1.json"
+  ]
+}
