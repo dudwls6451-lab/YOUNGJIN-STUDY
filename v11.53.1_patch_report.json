@@ -1,0 +1,63 @@
+{
+  "patch_revision": "v11.53.1-kaim1122-aviwiki3",
+  "base_required": "github-question-bank v11.53 (K-AIM visibility hotfix applied)",
+  "integration_mode": "overlay patch; existing main question bank files untouched",
+  "k_aim": {
+    "source_json": "K-AIM_세화문제집_전체1122문항_4단계최종반영.json",
+    "count": 1122,
+    "id_first": "K-AIM-001",
+    "id_last": "K-AIM-1122",
+    "unique_ids": 1122,
+    "answers_abcd": 1122,
+    "choices_len4": 1122,
+    "runtime": "embedded in assets/app-v11-30.js to preserve v11.53 no-extra-fetch behavior",
+    "review_stages_completed": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "aviwiki": {
+    "added_subjects": [
+      "Navigation",
+      "IFR Procedures",
+      "Systems"
+    ],
+    "counts": {
+      "Navigation": {
+        "chapters": 6,
+        "sections": 35
+      },
+      "IFR Procedures": {
+        "chapters": 7,
+        "sections": 45
+      },
+      "Systems": {
+        "chapters": 7,
+        "sections": 41
+      }
+    },
+    "source_files": [
+      "Navigation.txt",
+      "IFR Procedures.txt",
+      "System.txt"
+    ],
+    "existing_subjects_preserved": [
+      "Aerodynamics",
+      "Weather"
+    ]
+  },
+  "files": [
+    "assets/app-v11-30.js",
+    "data/aviwiki-ifr-procedures-v1.json",
+    "data/aviwiki-navigation-v1.json",
+    "data/aviwiki-systems-v1.json",
+    "index.html"
+  ],
+  "notes": [
+    "v11.53의 기존 data/questions-v11-2.json을 수정하지 않음",
+    "K-AIM 기존 300문항 임베드 배열을 검토 완료 1122문항 배열로 교체",
+    "Aviwiki 원문에서 앱 UI 안내 문구만 제외하고 본문/표/그림 출처 표기는 유지"
+  ]
+}

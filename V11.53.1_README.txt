@@ -1,0 +1,19 @@
+Pilot Question Bank v11.53.1 overlay patch
+
+Base: v11.53 K-AIM visibility hotfix
+
+Adds / updates:
+- K-AIM: 300 -> 1,122 reviewed questions (embedded, no separate runtime fetch)
+- Aviwiki: Navigation (6 chapters / 35 sections)
+- Aviwiki: IFR Procedures (7 chapters / 45 sections)
+- Aviwiki: Systems (7 chapters / 41 sections)
+- Existing Aerodynamics / Weather Aviwiki preserved
+
+Install:
+Copy the contents of this ZIP over the repository root of v11.53, preserving folders.
+The patch changes index.html to load assets/app-v11-30.js and adds three data/aviwiki-*.json files.
+
+Important:
+- Do not delete existing v11.53 files.
+- data/questions-v11-2.json is not replaced.
+- assets/kaim-cover.svg remains the v11.53 copy already installed.
