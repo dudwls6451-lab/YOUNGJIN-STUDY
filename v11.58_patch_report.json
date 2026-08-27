@@ -1,0 +1,33 @@
+{
+  "patch_revision": "v11.58-kaim-aviwiki-theory",
+  "base_required": "v11.57-aviwiki-cloud-notes-bounded-canvas",
+  "feature": "K-AIM 30단계 이론 본문 전면 재구성",
+  "changes": {
+    "stages": 30,
+    "linked_kaim_quiz_questions": 1038,
+    "old_style": "문제-정답 요약 중심",
+    "new_style": "Aviwiki 개념 설명 중심 + 검수 문제은행 해설 보완 + K-AIM 단계시험",
+    "progress_preserved": true,
+    "stage_ids_preserved": "KAIM-COURSE-01~30",
+    "storage_key_preserved": "kaimCourse30"
+  },
+  "aviwiki_sources_used": {
+    "Navigation.txt": 13,
+    "항공법규.txt": 11,
+    "IFR Procedures.txt": 36,
+    "Emergency & Aeromedical.txt": 10,
+    "System.txt": 3
+  },
+  "fallback_sources": [
+    "항공기상 922문항 검수 해설",
+    "ATP Gleim 검수 해설",
+    "K-AIM 검수 문항 연결표(독립 Aviwiki 이론이 적은 일부 세부항목)"
+  ],
+  "files": [
+    "index.html",
+    "assets/app-v11-37.js",
+    "data/theory-kaim-course-v3.json",
+    "V11.58_README.txt",
+    "v11.58_patch_report.json"
+  ]
+}
