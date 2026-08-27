@@ -1,0 +1,19 @@
+GitHub Question Bank v11.55.1 · Aviwiki Emergency & Aeromedical 활성화 패치
+
+기준 버전
+- github-question-bank v11.55-kaim-learning-mode-patch 적용 완료 상태
+
+설치
+1. 이 ZIP의 내용을 현재 v11.55 저장소 루트에 폴더 구조 그대로 덮어씁니다.
+2. GitHub Pages/CDN 캐시가 남아 있으면 배포 후 강력 새로고침을 합니다.
+
+변경 내용
+- Aviwiki의 "Emergency & Aeromedical" 과목을 실제 데이터와 연결하여 활성화합니다.
+- 사용자 제공 Emergency & Aeromedical.txt 전체를 Aviwiki 공통 JSON 구조로 변환했습니다.
+- v11.55의 K-AIM 학습 모드와 기존 Aviwiki 과목/문제은행 데이터는 변경하지 않습니다.
+
+포함 파일
+- index.html
+- assets/app-v11-34.js
+- data/aviwiki-emergency-aeromedical-v1.json
+- v11.55.1_aviwiki_emergency_aeromedical_report.json

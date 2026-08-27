@@ -1,0 +1,47 @@
+{
+  "patch_revision": "v11.55.1-aviwiki-emergency-aeromedical",
+  "base_required": "github-question-bank v11.55-kaim-learning-mode-patch",
+  "integration_mode": "minimal overlay patch; preserves v11.55 K-AIM learning mode and existing bank/data files",
+  "aviwiki": {
+    "subject": "Emergency & Aeromedical",
+    "source_file": "Emergency & Aeromedical.txt",
+    "chapters": 4,
+    "sections": 26,
+    "chapter_breakdown": {
+      "고고도 생리 — 저산소증·감압·기압장애": 7,
+      "공간정위상실·시각·피로": 7,
+      "CRM·ADM·인적요인": 6,
+      "비상절차": 6
+    },
+    "first_section": "저산소증의 정의와 4종 분류",
+    "last_section": "조난 통신·위치 신호와 비상장비",
+    "data_path": "./data/aviwiki-emergency-aeromedical-v1.json"
+  },
+  "preserved": {
+    "kaim_learning_mode_v11_55": true,
+    "kaim_course_file": "data/theory-kaim-course-v2.json (base v11.55; not overwritten)",
+    "existing_aviwiki_subject_paths": 7,
+    "question_bank_files_overwritten": false
+  },
+  "files": [
+    "V11.55.1_README.txt",
+    "assets/app-v11-34.js",
+    "data/aviwiki-emergency-aeromedical-v1.json",
+    "index.html",
+    "v11.55.1_aviwiki_emergency_aeromedical_report.json"
+  ],
+  "validation": {
+    "json_parse_ok": true,
+    "chapter_count_matches": true,
+    "section_count_matches": true,
+    "section_ids_unique": true,
+    "all_sections_subject_match": true,
+    "all_sections_have_content": true,
+    "ui_hint_removed_from_content": true,
+    "app_path_added": true,
+    "subject_definition_present": true,
+    "index_points_new_app": true,
+    "cache_version_updated": true,
+    "source_section_markers": 26
+  }
+}
