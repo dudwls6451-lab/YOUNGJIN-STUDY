@@ -1,0 +1,20 @@
+{
+  "patch_revision": "v11.56.1-aviwiki-annotation-mobile-fix",
+  "base_required": "v11.56-aviwiki-annotation-studytime",
+  "fixes": [
+    "형광펜 pointerdown preventDefault 제거 — 모바일 click suppression 방지",
+    "텍스트 selection을 pointerup/mouseup에서 캐시하고 버튼은 event delegation으로 처리",
+    "필기 토글/펜/마커/지우개/undo/clear/save 이벤트를 delegated binding으로 재구성",
+    "모바일 스크롤 시 캔버스 좌표 이중 보정 제거",
+    "필기 도구 펼친 뒤 requestAnimationFrame으로 캔버스 재측정",
+    "모바일 상시 기능 설명/상태 문구 제거 및 도구막대 압축",
+    "마이페이지 나의 필기 설명 문구 제거"
+  ],
+  "study_time": "v11.56의 문제풀이 + 교재 이론 + AVIWIKI 집계 로직 그대로 유지",
+  "files": [
+    "index.html",
+    "assets/app-v11-35.js",
+    "assets/style-v11-56-1.css"
+  ],
+  "deployment": "v11.56 적용 저장소 루트에 덮어쓰기"
+}
