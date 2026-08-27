@@ -6,6 +6,7 @@
   <title>항공 문제은행</title>
   <link rel="stylesheet" href="./assets/style-v11-33.css?v=11.34.0" />
   <link rel="stylesheet" href="./assets/style-v11-47.css?v=11.47.0" />
+  <link rel="stylesheet" href="./assets/style-v11-56.css?v=11.56.0" />
 </head>
 <body>
   <header class="topbar">
@@ -144,6 +145,30 @@
             </div>
             <button id="aviwikiBookmarkBtn" class="aviwiki-bookmark-btn" type="button" aria-label="북마크">♡</button>
           </div>
+          <div id="aviwikiAnnotationToolbar" class="aviwiki-annotation-toolbar" aria-label="Aviwiki 학습 도구">
+            <div class="aviwiki-tool-group">
+              <button id="aviwikiHighlightBtn" class="aviwiki-tool-btn" type="button" title="드래그한 텍스트를 형광펜 표시">🖍 형광펜</button>
+              <select id="aviwikiHighlightColor" class="aviwiki-tool-select" aria-label="형광펜 색상">
+                <option value="yellow">노랑</option><option value="green">초록</option><option value="pink">분홍</option><option value="blue">파랑</option>
+              </select>
+              <button id="aviwikiHighlightEraseBtn" class="aviwiki-tool-btn secondary" type="button" title="선택 영역의 형광펜 제거">선택 지우기</button>
+            </div>
+            <div class="aviwiki-tool-group">
+              <button id="aviwikiDrawToggleBtn" class="aviwiki-tool-btn" type="button">✎ 필기</button>
+              <div id="aviwikiDrawTools" class="aviwiki-draw-tools hidden">
+                <button class="aviwiki-draw-tool active" type="button" data-aviwiki-draw-tool="pen">펜</button>
+                <button class="aviwiki-draw-tool" type="button" data-aviwiki-draw-tool="marker">마커</button>
+                <button class="aviwiki-draw-tool" type="button" data-aviwiki-draw-tool="eraser">지우개</button>
+                <label class="aviwiki-color-label">색 <input id="aviwikiDrawColor" type="color" value="#1d4ed8" /></label>
+                <label class="aviwiki-width-label">굵기 <input id="aviwikiDrawWidth" type="range" min="1" max="24" value="4" /></label>
+                <button id="aviwikiDrawUndoBtn" class="aviwiki-tool-btn secondary" type="button">되돌리기</button>
+                <button id="aviwikiDrawClearBtn" class="aviwiki-tool-btn secondary" type="button">전체 지우기</button>
+                <button id="aviwikiNoteSaveBtn" class="aviwiki-tool-btn save" type="button">필기 저장</button>
+              </div>
+            </div>
+            <span id="aviwikiAnnotationStatus" class="aviwiki-annotation-status">텍스트를 드래그한 뒤 형광펜을 누르세요.</span>
+          </div>
+          <canvas id="aviwikiDrawCanvas" class="aviwiki-draw-canvas" aria-label="Aviwiki 필기 캔버스"></canvas>
           <div id="aviwikiArticleBody" class="aviwiki-article-body"></div>
           <div class="aviwiki-reader-nav">
             <button id="aviwikiPrevBtn" class="button secondary" type="button">← 이전 이론</button>
@@ -547,6 +572,11 @@
       </section>
 
       <section class="mypage-section">
+        <div class="mypage-section-title"><div><span class="eyebrow">MY NOTES</span><h3>나의 필기</h3><p class="muted">AVIWIKI에서 ‘필기 저장’한 화면을 이 브라우저에 보관합니다.</p></div></div>
+        <div id="aviwikiSavedNotesGrid" class="aviwiki-saved-notes-grid"><div class="notice">저장된 필기를 불러오는 중입니다.</div></div>
+      </section>
+
+      <section class="mypage-section">
         <div class="mypage-section-title"><div><span class="eyebrow">WEAK POINTS</span><h3>내 취약 파트</h3></div></div>
         <div id="weakestSuCard" class="weakest-card">
           <div class="muted">가장 낮은 정답률 SU</div>
@@ -622,7 +652,7 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="./assets/supabase-config.js?v=11.46.0"></script>
   <script src="./assets/auth-v11-10.js?v=11.50.0"></script>
-  <script src="./assets/app-v11-34.js?v=11.55.1"></script>
+  <script src="./assets/app-v11-34.js?v=11.56.0"></script>
   <script src="./assets/member-admin-v11-51.js?v=11.51.0"></script>
 </body>
 </html>

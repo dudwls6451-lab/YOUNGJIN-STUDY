@@ -1,0 +1,56 @@
+{
+  "patch_revision": "v11.56-aviwiki-annotation-studytime",
+  "base_required": "v11.55-kaim-learning",
+  "features": {
+    "aviwiki_highlighter": {
+      "selection": "click-and-drag text selection",
+      "colors": [
+        "yellow",
+        "green",
+        "pink",
+        "blue"
+      ],
+      "persistence": "localStorage per user/browser"
+    },
+    "aviwiki_drawing": {
+      "tools": [
+        "pen",
+        "marker",
+        "eraser",
+        "color",
+        "width",
+        "undo",
+        "clear"
+      ],
+      "persistence": "vector strokes in localStorage per section"
+    },
+    "saved_notes": {
+      "action": "필기 저장",
+      "format": "PNG snapshot",
+      "storage": "IndexedDB per user/browser",
+      "mypage_section": "나의 필기",
+      "actions": [
+        "open",
+        "download PNG",
+        "delete"
+      ]
+    },
+    "study_time": {
+      "counted_surfaces": [
+        "문제풀이",
+        "교재 이론 학습",
+        "Aviwiki 이론 상세"
+      ],
+      "backend": "existing Supabase add_my_study_seconds RPC",
+      "idle_timeout_minutes": 10,
+      "scroll_counts_as_interaction": true
+    }
+  },
+  "files": [
+    "index.html",
+    "assets/app-v11-34.js",
+    "assets/style-v11-56.css"
+  ],
+  "deployment": "v11.55 저장소 루트에 ZIP 내용을 폴더 구조 그대로 덮어쓰기",
+  "note": "필기 PNG/하이라이트/드로잉은 별도 Supabase 스키마 추가 없이 즉시 사용하도록 브라우저 로컬 저장소에 보관. 공부시간은 기존 Supabase 일별 공부시간 테이블에 합산."
+}
