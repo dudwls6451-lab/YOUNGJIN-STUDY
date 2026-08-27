@@ -384,6 +384,19 @@ const els = {
   aviwikiArticleTags: document.querySelector("#aviwikiArticleTags"),
   aviwikiBookmarkBtn: document.querySelector("#aviwikiBookmarkBtn"),
   aviwikiArticleBody: document.querySelector("#aviwikiArticleBody"),
+  aviwikiAnnotationToolbar: document.querySelector("#aviwikiAnnotationToolbar"),
+  aviwikiHighlightBtn: document.querySelector("#aviwikiHighlightBtn"),
+  aviwikiHighlightColor: document.querySelector("#aviwikiHighlightColor"),
+  aviwikiHighlightEraseBtn: document.querySelector("#aviwikiHighlightEraseBtn"),
+  aviwikiDrawToggleBtn: document.querySelector("#aviwikiDrawToggleBtn"),
+  aviwikiDrawTools: document.querySelector("#aviwikiDrawTools"),
+  aviwikiDrawCanvas: document.querySelector("#aviwikiDrawCanvas"),
+  aviwikiDrawColor: document.querySelector("#aviwikiDrawColor"),
+  aviwikiDrawWidth: document.querySelector("#aviwikiDrawWidth"),
+  aviwikiDrawUndoBtn: document.querySelector("#aviwikiDrawUndoBtn"),
+  aviwikiDrawClearBtn: document.querySelector("#aviwikiDrawClearBtn"),
+  aviwikiNoteSaveBtn: document.querySelector("#aviwikiNoteSaveBtn"),
+  aviwikiAnnotationStatus: document.querySelector("#aviwikiAnnotationStatus"),
   aviwikiPrevBtn: document.querySelector("#aviwikiPrevBtn"),
   aviwikiNextBtn: document.querySelector("#aviwikiNextBtn"),
   textbookHubCard: document.querySelector("#textbookHubCard"),
@@ -483,6 +496,7 @@ const els = {
   adminErrorReportsList: document.querySelector("#adminErrorReportsList"),
   myPageUserMeta: document.querySelector("#myPageUserMeta"),
   myPageBookGrid: document.querySelector("#myPageBookGrid"),
+  aviwikiSavedNotesGrid: document.querySelector("#aviwikiSavedNotesGrid"),
   statsSummary: document.querySelector("#statsSummary"),
   weakestSu: document.querySelector("#weakestSu"),
   weakestSuList: document.querySelector("#weakestSuList"),
@@ -546,7 +560,6 @@ const AVIWIKI_DATA_PATHS = {
   "IFR Procedures": "./data/aviwiki-ifr-procedures-v1.json",
   Systems: "./data/aviwiki-systems-v1.json",
   "Performance & Weight Balance": "./data/aviwiki-performance-weight-balance-v1.json",
-  "Emergency & Aeromedical": "./data/aviwiki-emergency-aeromedical-v1.json",
   "항공법규": "./data/aviwiki-airlaw-v1.json",
 };
 const AVIWIKI_LOCAL_STATE_KEY = "pilotbank-aviwiki-state-v1";
@@ -556,6 +569,18 @@ let aviwikiBookmarks = new Set();
 let aviwikiBookmarkOnly = false;
 let aviwikiStateLoaded = false;
 let aviwikiCloudStateAvailable = true;
+
+// v11.56 Aviwiki 형광펜/필기 + 로컬 필기 스냅샷
+const AVIWIKI_ANNOTATION_STATE_PREFIX = "pilotbank-aviwiki-annotations-v1156";
+const AVIWIKI_NOTES_DB_NAME = "pilotbank-aviwiki-notes-v1";
+let aviwikiAnnotationLoadedKey = null;
+let aviwikiAnnotationState = {highlights:{}, drawings:{}};
+let aviwikiLastTextSelection = null;
+let aviwikiDrawingActive = false;
+let aviwikiDrawingTool = "pen";
+let aviwikiDrawingPointerId = null;
+let aviwikiCurrentStroke = null;
+let aviwikiNoteObjectUrls = [];
 
 const BOOK_SUBJECTS = ["ATP Gleim", "검댕이 항공법규", "항공기상", "항공교통통신", "K-AIM", "비행이론"];
 const KOTSA_SUBJECTS = ["항공기상", "검댕이 항공법규"];
@@ -701,7 +726,9 @@ function getAllowedSubjectSet() {
 }
 
 function hideStudySurfaces() {
+  accrueStudyTime();
   [els.homeHero, els.topProgressCard, els.controlsCard, els.quizCard, els.resultCard, els.statsCard, els.errorsCard, els.adminErrorReportsCard, els.theoryCard, els.resourceLibraryCard, els.resourceViewerCard, els.wrongReviewHubCard, els.wrongReviewFilterCard, els.aviwikiHomeCard, els.aviwikiReaderCard].forEach(el => el?.classList.add("hidden"));
+  updateStudyTimerState();
 }
 
 function setQuizFocus(active) {
@@ -840,7 +867,7 @@ async function ensureAviwikiData() {
   if (aviwikiData?.sections?.length) return aviwikiData;
   const loaded = [];
   for (const [subject, path] of Object.entries(AVIWIKI_DATA_PATHS)) {
-    const response = await fetch(`${path}?v=11.55.1`, {cache:"no-store"});
+    const response = await fetch(`${path}?v=11.53.2`, {cache:"no-store"});
     if (!response.ok) throw new Error(`Aviwiki ${subject} data HTTP ${response.status}`);
     const data = await response.json();
     if (!Array.isArray(data?.sections)) throw new Error(`Aviwiki ${subject} sections missing`);
@@ -943,6 +970,381 @@ async function saveAviwikiState() {
     aviwikiCloudStateAvailable = false;
     console.warn("Aviwiki 서버 상태 저장 실패 · 로컬 상태는 유지", err);
   }
+}
+
+
+function aviwikiUserScopeKey() {
+  const userId = getSupabaseLearningUserId?.() || window.PilotBankAuth?.getCurrentUser?.() || "guest";
+  return String(userId || "guest").replace(/[^a-zA-Z0-9_.@-]/g, "_");
+}
+
+function aviwikiAnnotationStorageKey() {
+  return `${AVIWIKI_ANNOTATION_STATE_PREFIX}:${aviwikiUserScopeKey()}`;
+}
+
+function ensureAviwikiAnnotationState() {
+  const key = aviwikiAnnotationStorageKey();
+  if (aviwikiAnnotationLoadedKey === key) return;
+  aviwikiAnnotationLoadedKey = key;
+  try {
+    const parsed = JSON.parse(localStorage.getItem(key) || "{}");
+    aviwikiAnnotationState = {
+      highlights: parsed?.highlights && typeof parsed.highlights === "object" ? parsed.highlights : {},
+      drawings: parsed?.drawings && typeof parsed.drawings === "object" ? parsed.drawings : {},
+    };
+  } catch {
+    aviwikiAnnotationState = {highlights:{}, drawings:{}};
+  }
+}
+
+function saveAviwikiAnnotationState() {
+  ensureAviwikiAnnotationState();
+  try { localStorage.setItem(aviwikiAnnotationStorageKey(), JSON.stringify(aviwikiAnnotationState)); } catch (err) {
+    console.warn("Aviwiki 필기 상태 저장 실패", err);
+  }
+}
+
+function aviwikiSetAnnotationStatus(message) {
+  if (els.aviwikiAnnotationStatus) els.aviwikiAnnotationStatus.textContent = message;
+}
+
+function aviwikiTextOffsetForBoundary(container, node, offset) {
+  try {
+    const r = document.createRange();
+    r.selectNodeContents(container);
+    r.setEnd(node, offset);
+    return (r.cloneContents().textContent || "").length;
+  } catch { return null; }
+}
+
+function captureAviwikiTextSelection() {
+  if (aviwikiDrawingActive || !aviwikiCurrentSectionId || !els.aviwikiArticleBody) return;
+  const sel = window.getSelection?.();
+  if (!sel || sel.rangeCount < 1 || sel.isCollapsed) return;
+  const range = sel.getRangeAt(0);
+  const root = els.aviwikiArticleBody;
+  const common = range.commonAncestorContainer?.nodeType === Node.TEXT_NODE ? range.commonAncestorContainer.parentNode : range.commonAncestorContainer;
+  if (!common || !root.contains(common)) return;
+  const start = aviwikiTextOffsetForBoundary(root, range.startContainer, range.startOffset);
+  const end = aviwikiTextOffsetForBoundary(root, range.endContainer, range.endOffset);
+  if (start === null || end === null || end <= start) return;
+  aviwikiLastTextSelection = {sectionId:aviwikiCurrentSectionId, start, end, text:sel.toString()};
+  aviwikiSetAnnotationStatus(`선택됨: ${sel.toString().trim().slice(0, 32)}${sel.toString().trim().length > 32 ? "…" : ""}`);
+}
+
+function aviwikiHighlightClass(color) {
+  return ["yellow","green","pink","blue"].includes(color) ? color : "yellow";
+}
+
+function applyAviwikiHighlights() {
+  ensureAviwikiAnnotationState();
+  const root = els.aviwikiArticleBody;
+  if (!root || !aviwikiCurrentSectionId) return;
+  root.querySelectorAll("mark.aviwiki-highlight").forEach(mark => {
+    const parent = mark.parentNode;
+    while (mark.firstChild) parent.insertBefore(mark.firstChild, mark);
+    parent.removeChild(mark);
+    parent.normalize?.();
+  });
+  const rows = [...(aviwikiAnnotationState.highlights[aviwikiCurrentSectionId] || [])]
+    .filter(h => Number.isFinite(h.start) && Number.isFinite(h.end) && h.end > h.start)
+    .sort((a,b) => b.start - a.start);
+  rows.forEach((h, idx) => {
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+    const nodes=[]; let pos=0, node;
+    while ((node=walker.nextNode())) {
+      const len=node.nodeValue?.length || 0;
+      if (pos < h.end && pos + len > h.start) nodes.push({node,start:pos,end:pos+len});
+      pos += len;
+    }
+    nodes.reverse().forEach(part => {
+      const localStart=Math.max(0,h.start-part.start);
+      const localEnd=Math.min(part.node.nodeValue.length,h.end-part.start);
+      if (localEnd <= localStart) return;
+      let target=part.node;
+      if (localEnd < target.nodeValue.length) target.splitText(localEnd);
+      if (localStart > 0) target=target.splitText(localStart);
+      const mark=document.createElement("mark");
+      mark.className=`aviwiki-highlight aviwiki-highlight-${aviwikiHighlightClass(h.color)}`;
+      mark.dataset.highlightId=h.id || `h${idx}`;
+      target.parentNode.insertBefore(mark,target);
+      mark.appendChild(target);
+    });
+  });
+}
+
+function addAviwikiHighlight() {
+  ensureAviwikiAnnotationState();
+  const s=aviwikiLastTextSelection;
+  if (!s || s.sectionId !== aviwikiCurrentSectionId || s.end <= s.start) {
+    aviwikiSetAnnotationStatus("먼저 본문에서 원하는 텍스트를 드래그하세요.");
+    return;
+  }
+  const color=aviwikiHighlightClass(els.aviwikiHighlightColor?.value || "yellow");
+  const current=aviwikiAnnotationState.highlights[s.sectionId] || [];
+  const next=current.filter(h => h.end <= s.start || h.start >= s.end);
+  next.push({id:`hl-${Date.now()}-${Math.random().toString(36).slice(2,7)}`, start:s.start, end:s.end, color});
+  aviwikiAnnotationState.highlights[s.sectionId]=next;
+  saveAviwikiAnnotationState();
+  applyAviwikiHighlights();
+  window.getSelection?.().removeAllRanges?.();
+  aviwikiLastTextSelection=null;
+  aviwikiSetAnnotationStatus("형광펜을 저장했습니다.");
+}
+
+function eraseAviwikiHighlightSelection() {
+  ensureAviwikiAnnotationState();
+  const s=aviwikiLastTextSelection;
+  if (!s || s.sectionId !== aviwikiCurrentSectionId) {
+    aviwikiSetAnnotationStatus("지울 형광펜 영역을 드래그해 선택하세요.");
+    return;
+  }
+  const current=aviwikiAnnotationState.highlights[s.sectionId] || [];
+  const next=current.filter(h => h.end <= s.start || h.start >= s.end);
+  aviwikiAnnotationState.highlights[s.sectionId]=next;
+  saveAviwikiAnnotationState();
+  applyAviwikiHighlights();
+  window.getSelection?.().removeAllRanges?.();
+  aviwikiLastTextSelection=null;
+  aviwikiSetAnnotationStatus("선택 영역의 형광펜을 지웠습니다.");
+}
+
+function aviwikiCurrentDrawing() {
+  ensureAviwikiAnnotationState();
+  if (!aviwikiCurrentSectionId) return [];
+  if (!Array.isArray(aviwikiAnnotationState.drawings[aviwikiCurrentSectionId])) aviwikiAnnotationState.drawings[aviwikiCurrentSectionId]=[];
+  return aviwikiAnnotationState.drawings[aviwikiCurrentSectionId];
+}
+
+function resizeAviwikiDrawCanvas() {
+  const canvas=els.aviwikiDrawCanvas;
+  const article=canvas?.closest(".aviwiki-article");
+  if (!canvas || !article || article.classList.contains("hidden")) return;
+  const dpr=Math.max(1, Math.min(2, window.devicePixelRatio || 1));
+  const w=Math.max(1, article.scrollWidth);
+  const h=Math.max(1, article.scrollHeight);
+  const oldW=Number(canvas.dataset.cssWidth || 0), oldH=Number(canvas.dataset.cssHeight || 0);
+  if (Math.abs(oldW-w)<2 && Math.abs(oldH-h)<2 && canvas.width) { renderAviwikiDrawing(); return; }
+  canvas.dataset.cssWidth=String(w); canvas.dataset.cssHeight=String(h);
+  canvas.style.width=`${w}px`; canvas.style.height=`${h}px`;
+  canvas.width=Math.round(w*dpr); canvas.height=Math.round(h*dpr);
+  const ctx=canvas.getContext("2d");
+  ctx.setTransform(dpr,0,0,dpr,0,0);
+  renderAviwikiDrawing();
+}
+
+function drawAviwikiStroke(ctx, stroke) {
+  const pts=stroke?.points || [];
+  if (!pts.length) return;
+  ctx.save();
+  ctx.lineCap="round"; ctx.lineJoin="round";
+  if (stroke.tool === "eraser") {
+    ctx.globalCompositeOperation="destination-out";
+    ctx.globalAlpha=1;
+    ctx.lineWidth=Math.max(8, Number(stroke.width || 12));
+  } else {
+    ctx.globalCompositeOperation="source-over";
+    ctx.strokeStyle=stroke.color || "#1d4ed8";
+    ctx.globalAlpha=stroke.tool === "marker" ? 0.28 : 1;
+    ctx.lineWidth=Math.max(1, Number(stroke.width || 4)) * (stroke.tool === "marker" ? 2.5 : 1);
+  }
+  ctx.beginPath();
+  ctx.moveTo(pts[0].x,pts[0].y);
+  for (let i=1;i<pts.length;i++) ctx.lineTo(pts[i].x,pts[i].y);
+  if (pts.length===1) ctx.lineTo(pts[0].x+0.1,pts[0].y+0.1);
+  ctx.stroke();
+  ctx.restore();
+}
+
+function renderAviwikiDrawing() {
+  const canvas=els.aviwikiDrawCanvas;
+  if (!canvas?.width) return;
+  const dpr=Math.max(1, Math.min(2, window.devicePixelRatio || 1));
+  const ctx=canvas.getContext("2d");
+  ctx.setTransform(1,0,0,1,0,0); ctx.clearRect(0,0,canvas.width,canvas.height); ctx.setTransform(dpr,0,0,dpr,0,0);
+  aviwikiCurrentDrawing().forEach(stroke => drawAviwikiStroke(ctx,stroke));
+}
+
+function aviwikiCanvasPoint(event) {
+  const canvas=els.aviwikiDrawCanvas;
+  const article=canvas?.closest(".aviwiki-article");
+  const rect=article?.getBoundingClientRect();
+  if (!rect || !article) return null;
+  return {x:event.clientX-rect.left+article.scrollLeft, y:event.clientY-rect.top+article.scrollTop};
+}
+
+function setAviwikiDrawingActive(active) {
+  aviwikiDrawingActive=!!active;
+  els.aviwikiDrawCanvas?.classList.toggle("active",aviwikiDrawingActive);
+  els.aviwikiDrawToggleBtn?.classList.toggle("active",aviwikiDrawingActive);
+  els.aviwikiDrawTools?.classList.toggle("hidden",!aviwikiDrawingActive);
+  if (aviwikiDrawingActive) {
+    resizeAviwikiDrawCanvas();
+    aviwikiSetAnnotationStatus("필기 모드: 펜·마커·지우개를 선택해 화면 위에 그리세요.");
+  } else aviwikiSetAnnotationStatus("텍스트를 드래그한 뒤 형광펜을 누르세요.");
+}
+
+function setAviwikiDrawingTool(tool) {
+  aviwikiDrawingTool=["pen","marker","eraser"].includes(tool)?tool:"pen";
+  document.querySelectorAll("[data-aviwiki-draw-tool]").forEach(btn => btn.classList.toggle("active",btn.dataset.aviwikiDrawTool===aviwikiDrawingTool));
+}
+
+function beginAviwikiStroke(event) {
+  if (!aviwikiDrawingActive || event.button > 0) return;
+  const p=aviwikiCanvasPoint(event); if (!p) return;
+  event.preventDefault();
+  aviwikiDrawingPointerId=event.pointerId;
+  els.aviwikiDrawCanvas?.setPointerCapture?.(event.pointerId);
+  aviwikiCurrentStroke={tool:aviwikiDrawingTool,color:els.aviwikiDrawColor?.value||"#1d4ed8",width:Number(els.aviwikiDrawWidth?.value||4),points:[p]};
+  aviwikiCurrentDrawing().push(aviwikiCurrentStroke);
+  renderAviwikiDrawing();
+}
+
+function moveAviwikiStroke(event) {
+  if (!aviwikiCurrentStroke || aviwikiDrawingPointerId!==event.pointerId) return;
+  const p=aviwikiCanvasPoint(event); if (!p) return;
+  event.preventDefault();
+  aviwikiCurrentStroke.points.push(p);
+  renderAviwikiDrawing();
+}
+
+function endAviwikiStroke(event) {
+  if (!aviwikiCurrentStroke || (event.pointerId!=null && aviwikiDrawingPointerId!==event.pointerId)) return;
+  aviwikiCurrentStroke=null; aviwikiDrawingPointerId=null;
+  saveAviwikiAnnotationState();
+}
+
+function undoAviwikiDrawing() {
+  const rows=aviwikiCurrentDrawing(); if (!rows.length) return;
+  rows.pop(); saveAviwikiAnnotationState(); renderAviwikiDrawing();
+}
+
+function clearAviwikiDrawing() {
+  const rows=aviwikiCurrentDrawing(); if (!rows.length) return;
+  if (!confirm("현재 이론의 필기를 모두 지울까요?")) return;
+  aviwikiAnnotationState.drawings[aviwikiCurrentSectionId]=[];
+  saveAviwikiAnnotationState(); renderAviwikiDrawing();
+}
+
+function openAviwikiNotesDb() {
+  return new Promise((resolve,reject) => {
+    if (!window.indexedDB) return reject(new Error("IndexedDB unavailable"));
+    const req=indexedDB.open(AVIWIKI_NOTES_DB_NAME,1);
+    req.onupgradeneeded=() => {
+      const db=req.result;
+      if (!db.objectStoreNames.contains("notes")) {
+        const store=db.createObjectStore("notes",{keyPath:"id"});
+        store.createIndex("userKey","userKey",{unique:false});
+        store.createIndex("createdAt","createdAt",{unique:false});
+      }
+    };
+    req.onsuccess=()=>resolve(req.result); req.onerror=()=>reject(req.error);
+  });
+}
+
+async function aviwikiNotePut(note) {
+  const db=await openAviwikiNotesDb();
+  await new Promise((resolve,reject)=>{const tx=db.transaction("notes","readwrite");tx.objectStore("notes").put(note);tx.oncomplete=resolve;tx.onerror=()=>reject(tx.error);});
+  db.close();
+}
+
+async function aviwikiNoteGet(id) {
+  const db=await openAviwikiNotesDb();
+  const value=await new Promise((resolve,reject)=>{const req=db.transaction("notes").objectStore("notes").get(id);req.onsuccess=()=>resolve(req.result);req.onerror=()=>reject(req.error);});
+  db.close(); return value;
+}
+
+async function aviwikiNoteDelete(id) {
+  const db=await openAviwikiNotesDb();
+  await new Promise((resolve,reject)=>{const tx=db.transaction("notes","readwrite");tx.objectStore("notes").delete(id);tx.oncomplete=resolve;tx.onerror=()=>reject(tx.error);});
+  db.close();
+}
+
+async function aviwikiNotesForCurrentUser() {
+  const db=await openAviwikiNotesDb();
+  const all=await new Promise((resolve,reject)=>{const req=db.transaction("notes").objectStore("notes").getAll();req.onsuccess=()=>resolve(req.result||[]);req.onerror=()=>reject(req.error);});
+  db.close();
+  return all.filter(n=>n.userKey===aviwikiUserScopeKey()).sort((a,b)=>String(b.createdAt).localeCompare(String(a.createdAt)));
+}
+
+function aviwikiSnapshotCss() {
+  return `*{box-sizing:border-box}body{margin:0}.aviwiki-article{position:relative;background:#fff;color:#172033;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans KR",sans-serif;padding:38px 44px;line-height:1.75}.aviwiki-article-head{display:flex;justify-content:space-between;border-bottom:1px solid #e5e7eb;padding-bottom:18px;margin-bottom:24px}.aviwiki-article-eyebrow{font-size:14px;color:#64748b}.aviwiki-article h1{font-size:30px;margin:5px 0 8px}.aviwiki-tag-row{display:flex;gap:6px;flex-wrap:wrap}.aviwiki-tag-row span{font-size:12px;background:#eef2ff;border-radius:999px;padding:3px 8px}.aviwiki-article-body h2{font-size:22px;margin:30px 0 10px}.aviwiki-article-body p{font-size:16px;margin:10px 0}.aviwiki-bullet-list{padding-left:24px}.aviwiki-table{border-collapse:collapse;width:100%;margin:14px 0}.aviwiki-table th,.aviwiki-table td{border:1px solid #dbe1ea;padding:8px;vertical-align:top}.aviwiki-table th{background:#f8fafc}.aviwiki-formula{background:#f8fafc;padding:12px 14px;border-radius:10px;font-weight:600}.aviwiki-figure-hint,.aviwiki-source-line{background:#f8fafc;padding:10px 12px;border-radius:8px;margin:10px 0}.aviwiki-highlight{padding:0 .05em;border-radius:.15em}.aviwiki-highlight-yellow{background:#fff59d}.aviwiki-highlight-green{background:#bbf7d0}.aviwiki-highlight-pink{background:#fecdd3}.aviwiki-highlight-blue{background:#bfdbfe}.aviwiki-draw-canvas{position:absolute;inset:0;z-index:5;pointer-events:none}`;
+}
+
+async function captureAviwikiNoteBlob() {
+  const article=els.aviwikiArticleBody?.closest(".aviwiki-article");
+  if (!article) throw new Error("Aviwiki article missing");
+  resizeAviwikiDrawCanvas();
+  const width=Math.max(760,Math.min(1200,article.scrollWidth));
+  const height=Math.max(500,Math.min(30000,article.scrollHeight));
+  const clone=article.cloneNode(true);
+  clone.querySelector(".aviwiki-annotation-toolbar")?.remove();
+  clone.querySelector(".aviwiki-reader-nav")?.remove();
+  clone.querySelector(".aviwiki-bookmark-btn")?.remove();
+  const cloneCanvas=clone.querySelector("#aviwikiDrawCanvas");
+  if (cloneCanvas && els.aviwikiDrawCanvas) {
+    const img=document.createElement("img");
+    img.src=els.aviwikiDrawCanvas.toDataURL("image/png");
+    img.style.cssText=`position:absolute;left:0;top:0;width:${els.aviwikiDrawCanvas.dataset.cssWidth||article.scrollWidth}px;height:${els.aviwikiDrawCanvas.dataset.cssHeight||article.scrollHeight}px;z-index:5;pointer-events:none;`;
+    cloneCanvas.replaceWith(img);
+  }
+  clone.style.width=`${width}px`; clone.style.height=`${height}px`; clone.style.overflow="hidden";
+  const html=`<div xmlns="http://www.w3.org/1999/xhtml"><style>${aviwikiSnapshotCss()}</style>${clone.outerHTML}</div>`;
+  const svg=`<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}"><foreignObject width="100%" height="100%">${html}</foreignObject></svg>`;
+  const svgBlob=new Blob([svg],{type:"image/svg+xml;charset=utf-8"});
+  const url=URL.createObjectURL(svgBlob);
+  try {
+    const img=await new Promise((resolve,reject)=>{const x=new Image();x.onload=()=>resolve(x);x.onerror=reject;x.src=url;});
+    const canvas=document.createElement("canvas"); canvas.width=width; canvas.height=height;
+    const ctx=canvas.getContext("2d",{alpha:false}); ctx.fillStyle="#fff";ctx.fillRect(0,0,width,height);ctx.drawImage(img,0,0);
+    return await new Promise((resolve,reject)=>canvas.toBlob(blob=>blob?resolve(blob):reject(new Error("PNG 변환 실패")),"image/png",0.95));
+  } finally { URL.revokeObjectURL(url); }
+}
+
+async function saveCurrentAviwikiNote() {
+  if (!aviwikiCurrentSectionId) return;
+  const btn=els.aviwikiNoteSaveBtn; const old=btn?.textContent;
+  if (btn) {btn.disabled=true;btn.textContent="저장 중…";}
+  try {
+    const section=aviwikiData?.sections?.find(s=>s.id===aviwikiCurrentSectionId);
+    const blob=await captureAviwikiNoteBlob();
+    const now=new Date();
+    const note={id:`${aviwikiUserScopeKey()}-${now.getTime()}-${Math.random().toString(36).slice(2,7)}`,userKey:aviwikiUserScopeKey(),sectionId:aviwikiCurrentSectionId,title:section?.title||els.aviwikiArticleTitle?.textContent||"Aviwiki 필기",subject:section?.subject||"Aviwiki",chapter:section?.chapter||"",createdAt:now.toISOString(),blob};
+    await aviwikiNotePut(note);
+    aviwikiSetAnnotationStatus("필기를 저장했습니다. 마이페이지 → 나의 필기에서 확인할 수 있습니다.");
+    renderAviwikiSavedNotes();
+  } catch (err) {
+    console.error("Aviwiki 필기 저장 실패",err); alert("필기 이미지를 저장하지 못했습니다. 브라우저 저장공간을 확인해 주세요.");
+  } finally {if(btn){btn.disabled=false;btn.textContent=old||"필기 저장";}}
+}
+
+async function renderAviwikiSavedNotes() {
+  const grid=els.aviwikiSavedNotesGrid; if (!grid) return;
+  aviwikiNoteObjectUrls.forEach(URL.revokeObjectURL); aviwikiNoteObjectUrls=[];
+  try {
+    const notes=await aviwikiNotesForCurrentUser();
+    if (!notes.length) {grid.innerHTML='<div class="notice">아직 저장한 필기가 없습니다. AVIWIKI에서 필기 후 ‘필기 저장’을 눌러보세요.</div>';return;}
+    grid.innerHTML=notes.map(note=>{
+      const url=URL.createObjectURL(note.blob); aviwikiNoteObjectUrls.push(url);
+      const date=new Date(note.createdAt); const dateText=Number.isNaN(date.getTime())?"":date.toLocaleString("ko-KR");
+      return `<article class="aviwiki-note-card"><button class="aviwiki-note-thumb" type="button" data-aviwiki-note-open="${escapeHtml(note.id)}"><img src="${url}" alt="${escapeHtml(note.title)} 필기"></button><div class="aviwiki-note-info"><strong>${escapeHtml(note.title)}</strong><span>${escapeHtml(note.subject)}${note.chapter?` · ${escapeHtml(note.chapter)}`:""}</span><small>${escapeHtml(dateText)}</small><div class="aviwiki-note-actions"><button type="button" data-aviwiki-note-open="${escapeHtml(note.id)}">열기</button><button type="button" data-aviwiki-note-download="${escapeHtml(note.id)}">PNG 저장</button><button type="button" data-aviwiki-note-delete="${escapeHtml(note.id)}">삭제</button></div></div></article>`;
+    }).join("");
+  } catch (err) {console.error(err);grid.innerHTML='<div class="notice">나의 필기를 불러오지 못했습니다.</div>';}
+}
+
+async function openSavedAviwikiNote(id, download=false) {
+  const note=await aviwikiNoteGet(id); if (!note?.blob) return;
+  const url=URL.createObjectURL(note.blob);
+  if (download) {
+    const a=document.createElement("a");a.href=url;a.download=`Aviwiki_${String(note.title||"필기").replace(/[\\/:*?"<>|]/g,"_")}.png`;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),3000);
+  } else {
+    const a=document.createElement("a");a.href=url;a.target="_blank";a.rel="noopener";document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),60000);
+  }
+}
+
+async function deleteSavedAviwikiNote(id) {
+  if (!confirm("이 필기를 삭제할까요?")) return;
+  await aviwikiNoteDelete(id); renderAviwikiSavedNotes();
 }
 
 function renderAviwikiSubjectGrid() {
@@ -1185,6 +1587,10 @@ async function openAviwikiSection(sectionId) {
     els.aviwikiArticleTags.innerHTML = (section.tags || []).map(tag => `<span>${escapeHtml(tag)}</span>`).join("");
   }
   if (els.aviwikiArticleBody) els.aviwikiArticleBody.innerHTML = renderAviwikiArticleBody(section.content);
+  ensureAviwikiAnnotationState();
+  applyAviwikiHighlights();
+  setAviwikiDrawingActive(false);
+  requestAnimationFrame(() => requestAnimationFrame(resizeAviwikiDrawCanvas));
   if (els.aviwikiBookmarkBtn) {
     const marked = aviwikiBookmarks.has(section.id);
     els.aviwikiBookmarkBtn.textContent = marked ? "♥" : "♡";
@@ -1202,6 +1608,7 @@ async function openAviwikiSection(sectionId) {
 
   const article = els.aviwikiArticleBody?.closest(".aviwiki-article");
   if (article) article.scrollTop = 0;
+  updateStudyTimerState();
   window.scrollTo({top:0, behavior:"smooth"});
 }
 
@@ -1658,6 +2065,7 @@ async function openTheory(subject) {
     els.bookTheoryHubCard?.classList.add("hidden");
     els.airlineHubCard?.classList.add("hidden");
     els.theoryCard?.classList.remove("hidden");
+    updateStudyTimerState();
     const firstNotPassed = theoryData.stages.findIndex((s, i) => theoryStageUnlocked(i) && !getTheoryStageProgress(s.id).passed);
     renderTheoryStage(firstNotPassed >= 0 ? firstNotPassed : theoryData.stages.length - 1);
   } catch (err) {
@@ -1733,6 +2141,7 @@ function returnFromTheoryResult({advance=false} = {}) {
   els.resultCard.classList.add("hidden");
   els.quizCard.classList.add("hidden");
   els.theoryCard.classList.remove("hidden");
+  updateStudyTimerState();
   const idx = Math.max(0, Number(sessionMeta.theoryStageIndex ?? currentTheoryStageIndex));
   const next = advance && idx < (theoryData?.stages?.length || 0) - 1 ? idx + 1 : idx;
   sessionMeta = {};
@@ -1814,11 +2223,16 @@ async function loadStudyTimeSummary() {
   renderHomeStudyTime();
 }
 
+function studySurfaceIsActive() {
+  const quizOpen = document.body.classList.contains("quiz-active") && !!els.quizCard && !els.quizCard.classList.contains("hidden");
+  const theoryOpen = !!els.theoryCard && !els.theoryCard.classList.contains("hidden");
+  const aviwikiOpen = !!els.aviwikiReaderCard && !els.aviwikiReaderCard.classList.contains("hidden");
+  return quizOpen || theoryOpen || aviwikiOpen;
+}
+
 function studyTimerShouldCount() {
   return usesSupabaseLearningData()
-    && document.body.classList.contains("quiz-active")
-    && !!els.quizCard
-    && !els.quizCard.classList.contains("hidden")
+    && studySurfaceIsActive()
     && document.visibilityState === "visible"
     && (Date.now() - studyTimeLastInteractionAt) < STUDY_TIME_IDLE_TIMEOUT_MS;
 }
@@ -1861,15 +2275,12 @@ async function flushStudyTime() {
 function updateStudyTimerState() {
   accrueStudyTime();
   studyTimeLastTickAt = Date.now();
-  if (document.body.classList.contains("quiz-active")) {
-    studyTimeLastInteractionAt = Date.now();
-  } else {
-    flushStudyTime();
-  }
+  if (studySurfaceIsActive()) studyTimeLastInteractionAt = Date.now();
+  else flushStudyTime();
 }
 
 function markStudyInteraction() {
-  if (!document.body.classList.contains("quiz-active")) return;
+  if (!studySurfaceIsActive()) return;
   studyTimeLastInteractionAt = Date.now();
 }
 
@@ -1881,6 +2292,7 @@ window.setInterval(() => {
 document.addEventListener("pointerdown", markStudyInteraction, {passive:true});
 document.addEventListener("keydown", markStudyInteraction, {passive:true});
 document.addEventListener("touchstart", markStudyInteraction, {passive:true});
+document.addEventListener("scroll", markStudyInteraction, {passive:true, capture:true});
 document.addEventListener("visibilitychange", () => {
   accrueStudyTime();
   if (document.visibilityState === "hidden") flushStudyTime();
@@ -3521,6 +3933,7 @@ function showStats() {
         </article>`;
     }).join("");
   }
+  renderAviwikiSavedNotes();
 
   els.subjectStatsBody.innerHTML = subjectStats.map(row => `
     <tr>
@@ -3827,12 +4240,41 @@ els.aviwikiTocList?.addEventListener("click", event => {
   if (item) openAviwikiSection(item.dataset.aviwikiSection);
 });
 els.aviwikiBookmarkBtn?.addEventListener("click", toggleAviwikiBookmark);
+
+document.addEventListener("selectionchange", captureAviwikiTextSelection);
+els.aviwikiHighlightBtn?.addEventListener("pointerdown", event => event.preventDefault());
+els.aviwikiHighlightEraseBtn?.addEventListener("pointerdown", event => event.preventDefault());
+els.aviwikiHighlightBtn?.addEventListener("click", addAviwikiHighlight);
+els.aviwikiHighlightEraseBtn?.addEventListener("click", eraseAviwikiHighlightSelection);
+els.aviwikiDrawToggleBtn?.addEventListener("click", () => setAviwikiDrawingActive(!aviwikiDrawingActive));
+els.aviwikiDrawTools?.addEventListener("click", event => {
+  const btn=event.target.closest("[data-aviwiki-draw-tool]");
+  if (btn) setAviwikiDrawingTool(btn.dataset.aviwikiDrawTool);
+});
+els.aviwikiDrawUndoBtn?.addEventListener("click", undoAviwikiDrawing);
+els.aviwikiDrawClearBtn?.addEventListener("click", clearAviwikiDrawing);
+els.aviwikiNoteSaveBtn?.addEventListener("click", saveCurrentAviwikiNote);
+els.aviwikiDrawCanvas?.addEventListener("pointerdown", beginAviwikiStroke);
+els.aviwikiDrawCanvas?.addEventListener("pointermove", moveAviwikiStroke);
+els.aviwikiDrawCanvas?.addEventListener("pointerup", endAviwikiStroke);
+els.aviwikiDrawCanvas?.addEventListener("pointercancel", endAviwikiStroke);
+
+document.addEventListener("click", async event => {
+  const openBtn=event.target.closest("[data-aviwiki-note-open]");
+  if (openBtn) { event.preventDefault(); await openSavedAviwikiNote(openBtn.dataset.aviwikiNoteOpen,false); return; }
+  const dlBtn=event.target.closest("[data-aviwiki-note-download]");
+  if (dlBtn) { event.preventDefault(); await openSavedAviwikiNote(dlBtn.dataset.aviwikiNoteDownload,true); return; }
+  const delBtn=event.target.closest("[data-aviwiki-note-delete]");
+  if (delBtn) { event.preventDefault(); await deleteSavedAviwikiNote(delBtn.dataset.aviwikiNoteDelete); }
+});
+
 els.aviwikiPrevBtn?.addEventListener("click", () => navigateAviwiki(-1));
 els.aviwikiNextBtn?.addEventListener("click", () => navigateAviwiki(1));
 
 window.addEventListener("resize", () => {
   document.body.classList.remove("sidebar-collapsed", "mobile-nav-collapsed");
   restoreSidebarCollapsed();
+  if (els.aviwikiReaderCard && !els.aviwikiReaderCard.classList.contains("hidden")) resizeAviwikiDrawCanvas();
 });
 els.wrongReviewHubBackBtn?.addEventListener("click", showMainModeHub);
 els.wrongReviewFilterBackBtn?.addEventListener("click", showWrongReviewHub);
