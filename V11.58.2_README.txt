@@ -1,0 +1,19 @@
+V11.58.2 — AVIWIKI 테마/Emergency 복구 핫픽스
+
+기준
+- v11.58.1 적용 상태
+
+수정 범위
+1) AVIWIKI 본문 데이터/구조는 변경하지 않음
+2) 필기 영역과 도구창의 흰색 배경만 다크 AVIWIKI 테마로 복구
+3) Emergency & Aeromedical을 AVIWIKI 과목 목록에 강제 등록
+4) Emergency & Aeromedical.txt 기반의 기존 4챕터/26섹션 JSON 포함
+5) K-AIM 강화 이론과정(theory-kaim-course-v3.json)은 그대로 유지
+
+중요
+- 이번에는 동일 파일명 덮어쓰기 캐시 문제를 막기 위해
+  app-v11-38.js 및 style-v11-58-2-aviwiki-hotfix.css를 새 파일명으로 사용합니다.
+
+적용
+- ZIP을 저장소 루트에 그대로 덮어쓰기
+- 배포 후 페이지를 완전히 닫았다 다시 열거나 강력 새로고침
