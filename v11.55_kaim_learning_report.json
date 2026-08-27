@@ -1,0 +1,67 @@
+{
+  "patch_revision": "v11.55-kaim-learning",
+  "base_required": "v11.54-flight-theory914-logos-covers",
+  "feature": "K-AIM 학습 모드",
+  "course": {
+    "stages": 30,
+    "linked_reviewed_questions": 1038,
+    "original_kaim_bank_questions": 1122,
+    "quiz_rule": "각 단계 최대 10문항, 80% 이상 합격",
+    "progress_preserved": true,
+    "stage_ids_preserved": "KAIM-COURSE-01~30",
+    "storage_key_preserved": "kaimCourse30"
+  },
+  "content": {
+    "source": "11. 세화 문제집.pdf + 실사용권장 clean K-AIM 문제은행",
+    "learning_sections": [
+      "이 단원의 학습 범위",
+      "핵심 문제로 개념 확인",
+      "숫자·기준 빠른 암기",
+      "단계시험",
+      "시험 직전 핵심"
+    ],
+    "unit_question_counts": {
+      "1": 126,
+      "2": 7,
+      "3": 58,
+      "4": 46,
+      "5": 9,
+      "6": 33,
+      "7": 12,
+      "8": 10,
+      "9": 1,
+      "10": 87,
+      "11": 54,
+      "12": 55,
+      "13": 67,
+      "14": 10,
+      "15": 2,
+      "16": 55,
+      "17": 17,
+      "18": 83,
+      "19": 106,
+      "20": 16,
+      "21": 17,
+      "22": 16,
+      "23": 29,
+      "24": 5,
+      "25": 39,
+      "26": 31,
+      "27": 8,
+      "28": 3,
+      "29": 13,
+      "30": 23
+    }
+  },
+  "ui": {
+    "theory_hub_card_added": true,
+    "card_label": "K-AIM 학습 모드",
+    "app_bundle": "assets/app-v11-33.js",
+    "course_file": "data/theory-kaim-course-v2.json"
+  },
+  "safety": {
+    "kaim_theory_pool_excludes_answer_pending_review": true,
+    "kaim_theory_pool_excludes_extraction_review_required": true
+  },
+  "deployment": "v11.54 저장소 루트에 ZIP 내용물을 폴더 구조 그대로 덮어쓰기"
+}
