@@ -1,0 +1,34 @@
+{
+  "patch_revision": "v11.58.1-kaim-only-aviwiki-restore",
+  "base_compatibility": [
+    "v11.57",
+    "v11.58"
+  ],
+  "scope": {
+    "aviwiki_core_data_modified": false,
+    "aviwiki_core_navigation_modified": false,
+    "aviwiki_annotation_features_preserved": "v11.57 exact implementation",
+    "aviwiki_visual_restore": "forced white annotation background removed; existing parent Aviwiki theme inherited",
+    "emergency_aeromedical_restored": true,
+    "kaim_theory_only_rebuilt": true
+  },
+  "kaim": {
+    "stages": 30,
+    "quiz_questions": 1038,
+    "stage_ids_preserved": true,
+    "storage_key_preserved": "kaimCourse30",
+    "theory_basis": "Aviwiki existing text copied into K-AIM-only theory course JSON; no Aviwiki source JSON overwritten",
+    "course_file": "data/theory-kaim-course-v3.json"
+  },
+  "emergency": {
+    "data_file": "data/aviwiki-emergency-aeromedical-v1.json",
+    "app_path_restored": true
+  },
+  "runtime_files": [
+    "assets/app-v11-36.js",
+    "assets/app-v11-37.js",
+    "assets/style-v11-57.css"
+  ],
+  "index_html_overwritten": false,
+  "note": "index.html을 패치에 넣지 않아 현재 UI 구조를 덮어쓰지 않는다."
+}
