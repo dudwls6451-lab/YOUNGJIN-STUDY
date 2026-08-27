@@ -1,0 +1,40 @@
+{
+  "patch_revision": "v11.54-flight-theory-914-logo-cover",
+  "base_required": "v11.53.3 (v11.53.2 UI + v11.53.3 airlaw explanations)",
+  "question_bank": {
+    "base_data_questions": 3957,
+    "flight_theory_added": 914,
+    "data_file_questions_after": 4871,
+    "kaim_runtime_embedded_preserved": 1122,
+    "runtime_total_expected": 5993
+  },
+  "flight_theory": {
+    "subject": "비행이론",
+    "count": 914,
+    "id_first": "FLIGHT-THEORY-001",
+    "id_last": "FLIGHT-THEORY-914",
+    "source": "비행이론.pdf",
+    "review": "정답키 1차 + OCR 2차 검수본"
+  },
+  "airline_logos": {
+    "parata": "assets/covers/parata_air.jpg",
+    "jeju": "assets/covers/jeju_air.png",
+    "trinity": "assets/covers/trinity_air.png",
+    "source": "사용자가 이번 대화에서 제공한 이미지"
+  },
+  "textbook_covers": {
+    "ATP Gleim": "assets/covers/atp_gleim.jpg",
+    "검댕이 항공법규": "assets/covers/airlaw.jpg",
+    "항공기상": "assets/covers/weather.jpg",
+    "항공교통통신": "assets/covers/atc_comm_cover.jpg",
+    "K-AIM": "assets/covers/kaim_cover.jpg",
+    "비행이론": "assets/covers/flight_theory_cover.png"
+  },
+  "ui": {
+    "new_app_bundle": "assets/app-v11-32.js",
+    "book_problem_card_added": "비행이론",
+    "wrong_review_card_added": "비행이론",
+    "theory_mode_note": "비행이론은 현재 914문항 문제은행만 추가. 별도 이론 단계 데이터가 없어 이론학습 카드에는 추가하지 않음."
+  },
+  "deployment": "v11.53.3 적용 저장소 루트에 ZIP 내용물을 폴더 구조 그대로 덮어쓰기"
+}
