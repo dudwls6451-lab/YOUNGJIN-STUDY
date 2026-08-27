@@ -563,6 +563,7 @@ const AVIWIKI_DATA_PATHS = {
   Systems: "./data/aviwiki-systems-v1.json",
   "Performance & Weight Balance": "./data/aviwiki-performance-weight-balance-v1.json",
   "항공법규": "./data/aviwiki-airlaw-v1.json",
+  "Emergency & Aeromedical": "./data/aviwiki-emergency-aeromedical-v1.json",
 };
 const AVIWIKI_LOCAL_STATE_KEY = "pilotbank-aviwiki-state-v1";
 let aviwikiData = null;
@@ -2030,8 +2031,8 @@ const THEORY_CONFIG = {
   },
   "K-AIM": {
     storageKey: "kaimCourse30",
-    paths: ["./data/theory-kaim-course-v2.json", "./data/theory-kaim-course-v1.json"],
-    label: "K-AIM 30단계 핵심 학습",
+    paths: ["./data/theory-kaim-course-v3.json", "./data/theory-kaim-course-v2.json", "./data/theory-kaim-course-v1.json"],
+    label: "K-AIM · Aviwiki 연계 이론 학습",
     loadError: "K-AIM 학습과정 데이터를 불러오지 못했습니다."
   }
 };

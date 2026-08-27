@@ -193,7 +193,7 @@ function ensureV1116TheoryShell() {
   }
   if (!document.querySelector("#bookTheoryHubCard")) {
     const section = document.createElement("section"); section.id="bookTheoryHubCard"; section.className="card hidden";
-    section.innerHTML = `<div class="section-head"><div><h2>이론 학습 교재를 선택하십시오.</h2><p class="muted">교재 본문을 순서대로 학습하고 각 단계의 쪽지시험을 통과합니다.</p></div><button id="bookTheoryBackBtn" class="button secondary" type="button">이전</button></div><div class="book-choice-grid theory-book-grid"><button id="weatherTheoryBtn" class="book-choice-card theory-ready" data-theory-subject="항공기상" type="button"><img src="./assets/covers/weather.jpg" alt="항공기상 표지"><strong>항공기상</strong><span>전체 이론 과정 · 40단계</span></button><button id="airlawTheoryBtn" class="book-choice-card theory-ready" data-theory-subject="검댕이 항공법규" type="button"><img src="./assets/covers/airlaw.jpg" alt="검댕이 항공법규 표지"><strong>검댕이 항공법규</strong><span>국제 항공법 + 항공안전법 · 15단계</span></button><button id="atcTheoryBtn" class="book-choice-card theory-ready" data-theory-subject="항공교통통신" type="button"><img src="./assets/covers/atc_comm_cover.jpg" alt="항공교통통신 표지"><strong>항공교통통신</strong><span>전체 이론 과정 · 25단계</span></button><button id="kaimTheoryBtn" class="book-choice-card theory-ready" data-theory-subject="K-AIM" type="button"><img src="./assets/covers/kaim_cover.jpg" alt="K-AIM 표지"><strong>K-AIM 학습 모드</strong><span>30단계 · Aviwiki 이론 + 1,038문항 단계시험</span></button><div class="theory-coming-soon"><strong>ATP Gleim</strong><span>이론 학습 확장 예정</span></div></div>`;
+    section.innerHTML = `<div class="section-head"><div><h2>이론 학습 교재를 선택하십시오.</h2><p class="muted">교재 본문을 순서대로 학습하고 각 단계의 쪽지시험을 통과합니다.</p></div><button id="bookTheoryBackBtn" class="button secondary" type="button">이전</button></div><div class="book-choice-grid theory-book-grid"><button id="weatherTheoryBtn" class="book-choice-card theory-ready" data-theory-subject="항공기상" type="button"><img src="./assets/covers/weather.jpg" alt="항공기상 표지"><strong>항공기상</strong><span>전체 이론 과정 · 40단계</span></button><button id="airlawTheoryBtn" class="book-choice-card theory-ready" data-theory-subject="검댕이 항공법규" type="button"><img src="./assets/covers/airlaw.jpg" alt="검댕이 항공법규 표지"><strong>검댕이 항공법규</strong><span>국제 항공법 + 항공안전법 · 15단계</span></button><button id="atcTheoryBtn" class="book-choice-card theory-ready" data-theory-subject="항공교통통신" type="button"><img src="./assets/covers/atc_comm_cover.jpg" alt="항공교통통신 표지"><strong>항공교통통신</strong><span>전체 이론 과정 · 25단계</span></button><button id="kaimTheoryBtn" class="book-choice-card theory-ready" data-theory-subject="K-AIM" type="button"><img src="./assets/covers/kaim_cover.jpg" alt="K-AIM 표지"><strong>K-AIM 학습 모드</strong><span>30단계 · 검수 완료 1,038문항 연계</span></button><div class="theory-coming-soon"><strong>ATP Gleim</strong><span>이론 학습 확장 예정</span></div></div>`;
     main.insertBefore(section, insertBefore);
   }
   if (!document.querySelector("#theoryCard")) {
@@ -231,7 +231,7 @@ function ensureV1152KaimCards() {
     btn.className = "book-choice-card theory-ready";
     btn.type = "button";
     btn.dataset.theorySubject = "K-AIM";
-    btn.innerHTML = '<img src="./assets/covers/kaim_cover.jpg" alt="K-AIM 표지"><strong>K-AIM 학습 모드</strong><span>30단계 · Aviwiki 이론 + 1,038문항 단계시험</span>';
+    btn.innerHTML = '<img src="./assets/covers/kaim_cover.jpg" alt="K-AIM 표지"><strong>K-AIM 학습 모드</strong><span>30단계 · 검수 완료 1,038문항 연계</span>';
     const comingSoon = theoryGrid.querySelector(".theory-coming-soon");
     theoryGrid.insertBefore(btn, comingSoon || null);
   }
@@ -563,6 +563,7 @@ const AVIWIKI_DATA_PATHS = {
   Systems: "./data/aviwiki-systems-v1.json",
   "Performance & Weight Balance": "./data/aviwiki-performance-weight-balance-v1.json",
   "항공법규": "./data/aviwiki-airlaw-v1.json",
+  "Emergency & Aeromedical": "./data/aviwiki-emergency-aeromedical-v1.json",
 };
 const AVIWIKI_LOCAL_STATE_KEY = "pilotbank-aviwiki-state-v1";
 let aviwikiData = null;
@@ -2031,7 +2032,7 @@ const THEORY_CONFIG = {
   "K-AIM": {
     storageKey: "kaimCourse30",
     paths: ["./data/theory-kaim-course-v3.json", "./data/theory-kaim-course-v2.json", "./data/theory-kaim-course-v1.json"],
-    label: "K-AIM Aviwiki 연계 이론 학습",
+    label: "K-AIM · Aviwiki 연계 이론 학습",
     loadError: "K-AIM 학습과정 데이터를 불러오지 못했습니다."
   }
 };

@@ -9,8 +9,8 @@
   -webkit-overflow-scrolling:touch;
   border:1px solid #d9e1ec;
   border-radius:14px;
-  background:#fff;
-  box-shadow:inset 0 0 0 1px rgba(255,255,255,.6);
+  background:transparent;
+  box-shadow:none;
   touch-action:pan-x pan-y;
 }
 .aviwiki-annotation-surface{
@@ -19,7 +19,7 @@
   min-height:100%;
   width:100%;
   padding:20px 22px 28px;
-  background:#fff;
+  background:transparent;
 }
 .aviwiki-annotation-surface .aviwiki-article-body{position:relative;z-index:1;min-height:100%}
 .aviwiki-annotation-surface .aviwiki-draw-canvas{
@@ -43,3 +43,7 @@
 @media (max-height:640px){
   .aviwiki-annotation-viewport{height:56vh;min-height:280px}
 }
+
+/* v11.58.1 rollback: annotation workspace must inherit the existing Aviwiki theme. */
+.aviwiki-annotation-viewport,.aviwiki-annotation-surface{background:transparent!important;color:inherit}
+.aviwiki-annotation-viewport{border-color:rgba(148,163,184,.28);box-shadow:none}
