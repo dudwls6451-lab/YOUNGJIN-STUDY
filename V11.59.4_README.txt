@@ -1,0 +1,15 @@
+v11.59.4 Study Group goal form validation hotfix
+Base: v11.59.3
+
+Root cause fixed:
+- studyGoalMinutes used min=1 + step=10, making 120 invalid (valid sequence 1, 11, ... 111, 121).
+- studyGoalQuestions used min=1 + step=5, making default 30 invalid.
+- fields hidden only by CSS remained enabled and participated in HTML native form validation, preventing the submit event entirely.
+
+Fixes:
+- study time step=1 (1-1440 minutes)
+- question count step=1 (1-10000)
+- inactive goal-type fields are disabled, not only hidden
+- goal editor uses novalidate and JS-side explicit validation
+- v11.59.3 direct Supabase write / RLS model preserved
+- no SQL change required

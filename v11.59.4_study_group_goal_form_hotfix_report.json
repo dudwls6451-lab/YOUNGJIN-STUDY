@@ -1,0 +1,32 @@
+{
+  "version": "v11.59.4",
+  "base": "v11.59.3",
+  "issue": "Goal form submit blocked by HTML native validation before saveGoal handler",
+  "root_cause": {
+    "study_time": "min=1 + step=10 made 120 invalid; browser suggested 111/121",
+    "questions": "min=1 + step=5 made default 30 invalid",
+    "hidden_fields": "CSS-hidden inactive controls remained enabled and still blocked form submission"
+  },
+  "fixes": [
+    "studyGoalMinutes step changed to 1",
+    "studyGoalQuestions step changed to 1",
+    "inactive goal-specific controls disabled",
+    "goal form novalidate enabled",
+    "manual JS range validation retained/strengthened"
+  ],
+  "database_changes": false,
+  "sql_required": false,
+  "preserved": "v11.59.3 direct-write goal storage and RLS",
+  "validation": {
+    "index_refs_59_4": true,
+    "minutes_step_1": true,
+    "questions_step_1": true,
+    "form_novalidate": true,
+    "inactive_minutes_disabled": true,
+    "inactive_questions_disabled": true,
+    "inactive_theory_disabled": true,
+    "direct_insert_preserved": true,
+    "direct_update_preserved": true,
+    "javascript_syntax": "passed"
+  }
+}
