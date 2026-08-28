@@ -1,0 +1,18 @@
+Aviation Question Bank v11.59.2 — Study Group goal-save hotfix
+
+Base: v11.59.1
+
+Fix:
+- 신규 목표 저장과 기존 목표 수정을 별도 Supabase RPC로 분리
+- 신규 목표 저장 시 nullable p_goal_id를 전달하던 취약한 호출 경로 제거
+- 목표 저장 직후 DB 재조회로 실제 반영 여부 검증
+- 저장 중 버튼 중복 클릭 방지
+- Supabase PostgREST schema cache reload 포함
+
+Apply:
+1) Supabase SQL Editor에서 supabase/V11.59.2_STUDY_GROUP_GOAL_SAVE_HOTFIX.sql 실행
+2) ZIP 내용을 GitHub 저장소 루트에 덮어쓰기
+3) Commit / Push
+4) 브라우저 강력 새로고침
+
+기존 스터디그룹/초대/목표/게시글/댓글 데이터는 삭제하거나 초기화하지 않습니다.

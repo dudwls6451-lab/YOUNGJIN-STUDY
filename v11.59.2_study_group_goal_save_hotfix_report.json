@@ -1,0 +1,21 @@
+{
+  "version": "v11.59.2",
+  "base": "v11.59.1",
+  "scope": "study-group goal save hotfix",
+  "fixes": [
+    "split create/update RPC paths",
+    "JSONB goal payload to avoid nullable RPC signature edge cases",
+    "post-save DB verification",
+    "save-button double-submit guard",
+    "PostgREST schema-cache reload"
+  ],
+  "data_destructive": false,
+  "requires_sql": "supabase/V11.59.2_STUDY_GROUP_GOAL_SAVE_HOTFIX.sql",
+  "validation": {
+    "js_syntax": true,
+    "index_new_script": true,
+    "new_add_rpc": true,
+    "new_update_rpc": true,
+    "schema_reload": true
+  }
+}
