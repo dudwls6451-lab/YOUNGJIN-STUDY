@@ -1,0 +1,18 @@
+Aviation Question Bank v11.59.3 — Study Group goal-save direct-write hotfix
+
+Base: v11.59.2
+
+Fix:
+- Goal add/update no longer depends on a goal-save RPC.
+- Web client writes directly to public.study_group_goals.
+- RLS permits INSERT/UPDATE/DELETE only for the active group leader.
+- created_by defaults to auth.uid().
+- Defensive schema repair for partially-applied v11.59.1 migrations.
+- Raw Supabase code/message/details/hint are shown if saving still fails.
+
+Apply:
+1) Supabase SQL Editor: run supabase/V11.59.3_STUDY_GROUP_DIRECT_GOAL_WRITE.sql
+2) Deploy this patch ZIP over the current repo root.
+3) Commit/push and hard refresh.
+
+No existing study-group data is deleted.

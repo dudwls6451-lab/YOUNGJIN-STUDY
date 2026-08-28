@@ -1,0 +1,30 @@
+{
+  "version": "v11.59.3",
+  "base": "v11.59.2",
+  "issue": "Study-group additional goal could not be saved after v11.59.1/v11.59.2",
+  "fix_strategy": "Remove goal-save RPC dependency and write directly to study_group_goals under leader-only RLS",
+  "frontend": {
+    "script": "assets/study-group-v11-59-3.js",
+    "insert": "supabase.from('study_group_goals').insert(...).select('id').single()",
+    "update": "supabase.from('study_group_goals').update(...).eq('id', ...).eq('group_id', ...).select('id').single()",
+    "error_diagnostics": ["code", "message", "details", "hint"]
+  },
+  "database": {
+    "sql": "supabase/V11.59.3_STUDY_GROUP_DIRECT_GOAL_WRITE.sql",
+    "write_model": "direct table writes protected by RLS",
+    "insert_policy": "active group leader only; created_by must equal auth.uid()",
+    "update_policy": "active group leader only",
+    "delete_policy": "active group leader only",
+    "select_policy": "group members only",
+    "existing_data_deleted": false,
+    "schema_repair": true,
+    "schema_cache_reload": true
+  },
+  "validation": {
+    "javascript_syntax": "passed",
+    "index_references_v11_59_3": true,
+    "existing_board_feature_preserved": true,
+    "existing_multi_goal_data_preserved": true,
+    "zip_integrity": "pending"
+  }
+}
