@@ -1,0 +1,30 @@
+{
+  "patch_revision": "v11.58.5-aviwiki-full-theory-note-capture",
+  "base_required": "v11.58.4-air-navigation879-merged",
+  "scope": "AVIWIKI note capture only",
+  "changes": {
+    "capture_before": "현재 보이는 bounded viewport만 캡처",
+    "capture_after": "현재 AVIWIKI 이론 section 전체를 top-to-bottom 한 장으로 캡처",
+    "includes_highlights": true,
+    "includes_drawings": true,
+    "live_reader_scroll_behavior_changed": false,
+    "supabase_schema_changed": false,
+    "storage_bucket_limit_handling": "7.4 MiB 목표; WebP 품질 조정 및 전체 페이지 해상도 자동 축소",
+    "content_cropping": false
+  },
+  "preserved_from_v11.58.4": [
+    "공중항법 879문항",
+    "K-AIM 이론 과정 v3",
+    "Emergency & Aeromedical",
+    "AVIWIKI 다크 테마",
+    "형광펜 고대비 색상",
+    "Supabase 클라우드 필기 저장",
+    "bounded 필기 영역과 모바일 스크롤"
+  ],
+  "files": [
+    "index.html",
+    "assets/app-v11-41.js",
+    "V11.58.5_README.txt",
+    "v11.58.5_patch_report.json"
+  ]
+}
