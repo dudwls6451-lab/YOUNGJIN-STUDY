@@ -1,0 +1,50 @@
+{
+  "patch_revision": "v11.58.6-air-navigation879-rebased-on-v11.58.5",
+  "base_required": "v11.58.5-aviwiki-full-theory-capture",
+  "base_file": "github-question-bank-v11.58.5-aviwiki-full-theory-capture-patch.zip",
+  "air_navigation": {
+    "data_source": "Pass2 integration data from v11.58.4, derived from questions_air_navigation_001_879_review_pass2_answers.json",
+    "subject": "공중항법",
+    "question_count": 879,
+    "first_id": "AIR-NAV-001",
+    "last_id": "AIR-NAV-879",
+    "expected_questions": 529,
+    "mock_exam_questions": 350,
+    "study_units": 9,
+    "subunits": 45,
+    "ocr_review_needed_remaining": 2,
+    "figure_dependent_questions": 9,
+    "content_currentness_review": "Pass3 stopped; no Pass3 changes applied"
+  },
+  "integration": {
+    "data_file": "data/questions-air-navigation-v1.json",
+    "cover": "assets/covers/air_navigation_cover.jpg",
+    "app": "assets/app-v11-42.js?v=11.58.6",
+    "problem_book_card": true,
+    "wrong_answer_review_card": true,
+    "book_progress_enabled": true,
+    "load_mode": "supplemental fetch appended after base bank + embedded K-AIM with ID de-duplication",
+    "air_navigation_cache_buster": "11.58.6"
+  },
+  "preserved_from_v11.58.5": [
+    "AVIWIKI full theory top-to-bottom note capture",
+    "AVIWIKI highlights and handwriting included in capture",
+    "bounded reader scroll behavior",
+    "v11.58.4 Air Navigation UI integration logic",
+    "K-AIM theory course v3",
+    "Emergency & Aeromedical",
+    "AVIWIKI dark theme/highlight/save fixes"
+  ],
+  "validation": {
+    "question_count_879": true,
+    "continuous_ids": true,
+    "unique_ids": true,
+    "four_choices_all": true,
+    "answers_abcd_all": true,
+    "subject_all_air_navigation": true,
+    "node_syntax_check": true,
+    "index_app_reference": true,
+    "airnav_loader_reference": true,
+    "v11_58_5_app_preserved_except_versioned_airnav_lines": true
+  }
+}
