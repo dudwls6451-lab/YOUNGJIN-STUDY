@@ -1,0 +1,58 @@
+{
+  "version": "v11.58.7",
+  "base": "v11.58.6",
+  "feature": "비행이론 교재 이론 학습과정",
+  "course": {
+    "stage_count": 23,
+    "linked_question_count": 589,
+    "linked_unique_count": 589,
+    "all_linked_ids_exist_in_reviewed_914": true,
+    "quiz_questions_max": 10,
+    "pass_percent": 80,
+    "storage_key": "flightTheory23"
+  },
+  "flight_theory_bank": {
+    "count": 914,
+    "first_id": "FLIGHT-THEORY-001",
+    "last_id": "FLIGHT-THEORY-914",
+    "unique_ids": true,
+    "all_four_choices": true,
+    "all_answers_abcd": true,
+    "expected_question_count": 589,
+    "mock_exam_question_count": 325
+  },
+  "files": {
+    "V11.58.7_README.txt": {
+      "bytes": 1011,
+      "sha256": "7f3999de84ee9cfa2fe1ed76b2af58cb303bc60c28e6f2f1a37a4f6d4005a06e"
+    },
+    "assets/app-v11-43.js": {
+      "bytes": 1657451,
+      "sha256": "3a092e36652495e5e53d2d1b6d0e39e7f0d65ab67e2eb03584eb7037fd0cd99c"
+    },
+    "assets/covers/air_navigation_cover.jpg": {
+      "bytes": 64454,
+      "sha256": "dea6da99f391eb06aa951553426d3f5b521d718efd4146411018a95a2be56c75"
+    },
+    "data/questions-air-navigation-v1.json": {
+      "bytes": 1187900,
+      "sha256": "3e11306deb9b4c3b762e83e1996a12756ab915e82b7f25e0395594c3dd72cbd7"
+    },
+    "data/questions-flight-theory-v1.json": {
+      "bytes": 1009489,
+      "sha256": "b10a5db9197c034c063308f789f3be3e2604c92e0ee78a261f068d2b9d16183c"
+    },
+    "data/theory-flight-theory-v1.json": {
+      "bytes": 62403,
+      "sha256": "9936b2705aa872b9301f7c3f47cb5a86620b2eb1fafd3165dfdce1d6ecf8ddec"
+    },
+    "index.html": {
+      "bytes": 37098,
+      "sha256": "047468ae14144bba569db88064594491d7a99f23cc122f387dd976dd8ebae3e6"
+    }
+  },
+  "notes": [
+    "Pass3 현행성 검토는 적용하지 않음",
+    "별도 SQL 불필요"
+  ]
+}
