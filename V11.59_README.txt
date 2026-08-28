@@ -1,0 +1,36 @@
+Aviation Question Bank v11.59.0 — Study Group
+
+[베이스]
+- v11.58.8 공중항법 31단계 이론학습과정 패치
+
+[새 기능]
+- 항공사 대비 과정 접근 권한이 있는 승인 회원만 스터디그룹 초대 후보에 표시
+- 스터디그룹 생성자 = 그룹장
+- 앱 내부 초대 메시지 자동 생성
+- 마이페이지에서 초대 수락 / 거절
+- 그룹장 일일 목표 설정: 공부시간 / 이론 교재+목표 단계 / 문제 수 / 메모
+- 그룹원 전체의 목표 달성 현황 공유
+- 그룹장: 추가 초대, 그룹명 변경, 회원 내보내기, 그룹 삭제
+- 그룹원: 그룹 탈퇴
+- 초대 배지 및 60초 단위 현황 자동 새로고침
+
+[적용 순서 — 중요]
+1. Supabase Dashboard > SQL Editor에서 supabase/V11.59_STUDY_GROUP.sql을 한 번 실행합니다.
+2. 그 다음 이 ZIP의 내용을 GitHub 저장소 루트에 덮어쓰고 Commit/Push 합니다.
+3. 브라우저에서 강력 새로고침합니다.
+
+[권한 기준]
+- 기존 v11.50 user_feature_access를 그대로 사용합니다.
+- approval_status='approved' 회원 중 airline_course가 명시적으로 false가 아닌 회원만 초대 가능합니다.
+- 관리자 계정은 기존 규칙대로 항상 허용됩니다.
+
+[데이터]
+- study_groups / study_group_members / study_group_invites / study_group_daily_goals
+- 학습시간: 기존 user_study_time_daily
+- 문제 풀이: 기존 user_attempts
+- 이론 진도: 기존 user_theory_progress
+
+[주의]
+- 초대는 앱 내부 알림입니다. 이메일/SMS/푸시 발송은 이 버전에 포함하지 않습니다.
+- 학습시간은 기존 앱의 서버 flush 주기에 따라 약간 늦게 반영될 수 있습니다.
+- 일일 이론 진도는 해당 교재에서 현재 통과한 단계 수를 기준으로 표시합니다.

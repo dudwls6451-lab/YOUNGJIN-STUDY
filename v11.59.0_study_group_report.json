@@ -1,0 +1,60 @@
+{
+  "version": "v11.59.0",
+  "base": "v11.58.8",
+  "feature": "Study Group",
+  "database": {
+    "tables": [
+      "study_groups",
+      "study_group_members",
+      "study_group_invites",
+      "study_group_daily_goals"
+    ],
+    "uses_existing": [
+      "profiles",
+      "user_feature_access",
+      "user_study_time_daily",
+      "user_attempts",
+      "user_theory_progress"
+    ],
+    "eligibility": "approved AND (admin OR airline_course not explicitly disabled)",
+    "rls_enabled": true,
+    "write_path": "security-definer RPC only"
+  },
+  "ui_features": [
+    "group creation",
+    "eligible-member picker",
+    "in-app invitations",
+    "My Page accept/decline",
+    "daily goal editor",
+    "shared member dashboard",
+    "invite badge",
+    "member removal/leave",
+    "rename/delete"
+  ],
+  "goal_metrics": [
+    "study minutes",
+    "theory subject + passed stage count",
+    "daily question attempts"
+  ],
+  "notes": [
+    "Pass3 공중항법 검토 내용과 무관; v11.58.8 기능을 그대로 보존함."
+  ],
+  "validation": {
+    "sql_dollar_quotes_even": true,
+    "sql_create_table_count": 4,
+    "sql_rpc_count": 17,
+    "sql_rls_tables": true,
+    "eligibility_uses_airline_course": true,
+    "eligibility_uses_approved": true,
+    "dashboard_uses_existing_learning_tables": true,
+    "index_css_ref": true,
+    "index_js_ref": true,
+    "base_app_preserved": true,
+    "frontend_rpc_names": true,
+    "frontend_mypage_invites": true,
+    "frontend_airline_gate": true,
+    "node_check_study_group_js": true,
+    "node_check_base_app": true,
+    "sql_execution": "not executed against live Supabase; static schema/RPC/RLS checks passed"
+  }
+}
