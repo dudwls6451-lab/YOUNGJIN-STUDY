@@ -1,0 +1,28 @@
+PilotBank v11.60.0
+Base: v11.59.4
+
+Added
+- PWA / Web Push notification subscription
+- 24h inactivity push notification
+- Admin announcements + immediate push request + hourly retry
+- Weekly Ranking: same 50 text-only textbook questions for all users, 50-minute server-timed attempt
+- Monday KST weekly round rotation
+- Server-side scoring, rank, personal wrong-answer explanations, round comments
+
+Question pool
+- text-only / no figure / no image / mock sections excluded
+- 4,580 eligible questions
+- subjects: {'공중항법': 523, '항공교통통신': 509, '비행이론': 584, 'ATP Gleim': 853, 'K-AIM': 1033, '검댕이 항공법규': 515, '항공기상': 563}
+
+Deployment
+1. Run supabase/V11.60_FULL.sql (or V11.60_COMMUNITY_RANKING_PUSH.sql if v11.59.3 full already applied).
+2. Deploy patch files to GitHub Pages.
+3. Set Edge Function secrets from the separately delivered V11.60_PUSH_SECRETS_DO_NOT_COMMIT.txt.
+4. Deploy both Edge Functions with --no-verify-jwt.
+5. Edit YOUR_PROJECT_REF / YOUR_PUBLISHABLE_KEY in supabase/V11.60_CRON_SETUP_TEMPLATE.sql, then run it.
+6. On iPhone/iPad: add PilotBank to Home Screen, then open installed app and tap Push notifications on.
+
+Security
+- VAPID private key and CRON_SECRET are NOT inside the GitHub patch ZIP.
+- Weekly scores are calculated in Edge Function, not in browser.
+- Browser static question data remains inspectable in developer tools, so this is not an anti-cheat/proctored exam system.

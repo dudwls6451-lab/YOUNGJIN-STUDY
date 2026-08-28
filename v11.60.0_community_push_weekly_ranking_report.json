@@ -1,0 +1,67 @@
+{
+  "version": "v11.60.0",
+  "base": "v11.59.4",
+  "ranking_pool_count": 4580,
+  "ranking_pool_subjects": {
+    "공중항법": 523,
+    "항공교통통신": 509,
+    "비행이론": 584,
+    "ATP Gleim": 853,
+    "K-AIM": 1033,
+    "검댕이 항공법규": 515,
+    "항공기상": 563
+  },
+  "features": [
+    "web_push",
+    "24h_inactivity_notification",
+    "admin_announcements",
+    "weekly_ranking_50q_50min",
+    "server_scoring",
+    "leaderboard",
+    "wrong_review",
+    "ranking_comments",
+    "monday_rotation"
+  ],
+  "files": {
+    "index.html": 37592,
+    "assets/community-v11-60.js": 21394,
+    "assets/style-v11-60-community.css": 4068,
+    "service-worker-v11-60.js": 899,
+    "manifest.webmanifest": 447,
+    "data/weekly-ranking-text-pool-v1.json": 3001604,
+    "supabase/V11.60_FULL.sql": 80318,
+    "supabase/V11.60_COMMUNITY_RANKING_PUSH.sql": 17036,
+    "supabase/V11.60_CRON_SETUP_TEMPLATE.sql": 2183,
+    "supabase/functions/pilotbank-push-worker/index.ts": 5064,
+    "supabase/functions/pilotbank-weekly-ranking/index.ts": 6703,
+    "supabase/functions/pilotbank-weekly-ranking/pool.ts": 100969
+  },
+  "checks": {
+    "index_community_ref": true,
+    "manifest_ref": true,
+    "service_worker_present": true,
+    "pool_exact_50_capable": true,
+    "pool_all_text_only": true,
+    "sql_contains_rls": true,
+    "sql_contains_weekly": true,
+    "sql_contains_push": true,
+    "node_client_js_syntax": true,
+    "node_service_worker_syntax": true,
+    "node_weekly_edge_ts_parse": true,
+    "node_push_edge_ts_parse": true,
+    "cron_push_hourly": true,
+    "cron_ranking_hourly": true,
+    "cron_secret_not_in_patch": true,
+    "vapid_private_not_in_patch": true,
+    "ios_manifest_present": true,
+    "ranking_server_score_path": true,
+    "ranking_50_minutes": true,
+    "inactivity_message_exact": true
+  },
+  "deployment_notes": {
+    "requires_edge_function_deploy": true,
+    "requires_cron_setup": true,
+    "requires_vapid_secrets": true,
+    "additional_paid_provider_required": false
+  }
+}
