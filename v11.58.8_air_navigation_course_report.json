@@ -1,0 +1,44 @@
+{
+  "version": "v11.58.8",
+  "base": "v11.58.7",
+  "feature": "공중항법 교재 31단계 이론학습",
+  "course": {
+    "stage_count": 31,
+    "linked_expected_questions": 529,
+    "expected_question_count": 529,
+    "mock_questions_excluded_from_stage_quiz": 350,
+    "linked_ids_unique": true,
+    "linked_ids_exact_expected_set": true,
+    "all_linked_ids_present_in_bank": true,
+    "all_stages_have_questions": true,
+    "quiz_max_questions": 10,
+    "pass_percent": 80
+  },
+  "preserved": {
+    "air_navigation_question_bank": 879,
+    "flight_theory_course_file": true,
+    "flight_theory_questions_file": true,
+    "air_navigation_cover": true
+  },
+  "files": [
+    "V11.58.8_README.txt",
+    "assets/app-v11-44.js",
+    "assets/covers/air_navigation_cover.jpg",
+    "data/questions-air-navigation-v1.json",
+    "data/questions-flight-theory-v1.json",
+    "data/theory-air-navigation-v1.json",
+    "data/theory-flight-theory-v1.json",
+    "index.html"
+  ],
+  "validation": {
+    "node_check": true,
+    "node_stderr": "",
+    "json_parse": true,
+    "index_ref": true,
+    "theory_config": true,
+    "theory_button": true,
+    "event_listener": true,
+    "zip_test": true
+  },
+  "zip_size_bytes": 486806
+}

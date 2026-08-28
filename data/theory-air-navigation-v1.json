@@ -1,0 +1,1724 @@
+{
+  "metadata": {
+    "name": "공중항법 교재 이론학습",
+    "subject": "공중항법",
+    "source_file": "공중항법.pdf",
+    "source_scope": "교재 본문 및 해당 출제예상문제 해설. 모의고사 350문항은 단계시험에서 제외.",
+    "version": "1.0",
+    "stage_count": 31,
+    "quiz_rule": {
+      "questions_max": 10,
+      "pass_percent": 80,
+      "unlock": "previous_stage_passed"
+    },
+    "note": "교재 원문 기준 학습과정이며 현행 규정·내용의 외부 검증은 별도로 수행하지 않음.",
+    "content_basis": "공중항법.pdf의 장·절 구성, 본문, 출제예상문제 및 해설",
+    "linked_question_count": 529,
+    "excluded_mock_question_count": 350
+  },
+  "stages": [
+    {
+      "id": "AIRNAV-TH-01",
+      "order": 1,
+      "unit_title": "제1장 항법이론",
+      "title": "1.1 공중항법의 개요",
+      "source_printed_pages": [
+        6
+      ],
+      "source_pdf_pages": [
+        10
+      ],
+      "question_ids": [
+        "AIR-NAV-001",
+        "AIR-NAV-002",
+        "AIR-NAV-003",
+        "AIR-NAV-004",
+        "AIR-NAV-005",
+        "AIR-NAV-006",
+        "AIR-NAV-007",
+        "AIR-NAV-008",
+        "AIR-NAV-009",
+        "AIR-NAV-010",
+        "AIR-NAV-011",
+        "AIR-NAV-012",
+        "AIR-NAV-013",
+        "AIR-NAV-014",
+        "AIR-NAV-015"
+      ],
+      "quiz_questions": 10,
+      "pass_percent": 80,
+      "sections": [
+        {
+          "heading": "공중항법의 기본 개념",
+          "paragraphs": [
+            "교재는 공중항법을 항공기의 정확한 위치를 식별하고 한 지점에서 다른 지점까지 안전하고 효과적으로 유도하는 기술로 설명한다. 중요한 세 가지 요소는 항공기 위치 확인, 침로 결정, 도착예정시간(ETA) 산출이며, 기본문제는 위치·방향·거리·시간의 정확한 산출이다.",
+            "기초공중항법에는 추측항법, 지문항법, 무선항법, 레이더항법이 포함되고, 전문공중항법에는 로란항법, 기압차항법, 천문항법, 그리드항법 등이 소개된다."
+          ]
+        }
+      ],
+      "summary_points": [
+        "항법의 3요소: 위치 확인·침로 결정·ETA 산출",
+        "항법의 4대 기본문제: 위치·방향·거리·시간",
+        "추측항법은 바람의 영향으로 시간이 지날수록 오차가 누적",
+        "지문항법은 지형·지물과 항공도를 육안으로 대조"
+      ]
+    },
+    {
+      "id": "AIRNAV-TH-02",
+      "order": 2,
+      "unit_title": "제1장 항법이론",
+      "title": "1.2 지구(Earth)",
+      "source_printed_pages": [
+        7,
+        8
+      ],
+      "source_pdf_pages": [
+        11,
+        12
+      ],
+      "question_ids": [
+        "AIR-NAV-016",
+        "AIR-NAV-017",
+        "AIR-NAV-018",
+        "AIR-NAV-019",
+        "AIR-NAV-020",
+        "AIR-NAV-021",
+        "AIR-NAV-022",
+        "AIR-NAV-023",
+        "AIR-NAV-024",
+        "AIR-NAV-025",
+        "AIR-NAV-026",
+        "AIR-NAV-027",
+        "AIR-NAV-028",
+        "AIR-NAV-029"
+      ],
+      "quiz_questions": 10,
+      "pass_percent": 80,
+      "sections": [
+        {
+          "heading": "지구상의 선과 항로",
+          "paragraphs": [
+            "대권은 지구 중심을 지나는 평면이 지표면과 만나는 원이며 두 지점 사이의 최단거리 호를 제공한다. 대표적인 대권은 적도와 자오선이다. 소권은 지구 중심을 지나지 않는 평면이 만드는 원이다.",
+            "항정선은 각 자오선과 항상 같은 각도로 교차하는 선이다. 자오선과 적도는 대권이면서 항정선이고, 그 밖의 항정선은 극으로 수렴하는 나선형 곡선을 이룬다."
+          ]
+        },
+        {
+          "heading": "위도·경도와 차이값",
+          "paragraphs": [
+            "위도는 적도를 기준으로 북·남 방향의 각거리, 경도는 본초자오선을 기준으로 동·서 방향의 각거리이다. 교재는 변위(Dl), 변경(Dlo), 중분위도(Lm)의 계산 방법도 함께 다룬다."
+          ]
+        }
+      ],
+      "summary_points": [
+        "대권 호 = 두 지점 사이 최단거리",
+        "자오선과 적도는 대권",
+        "항정선은 각 자오선과 동일한 각도로 교차",
+        "위도 기준 = 적도, 경도 기준 = 본초자오선"
+      ]
+    },
+    {
+      "id": "AIRNAV-TH-03",
+      "order": 3,
+      "unit_title": "제1장 항법이론",
+      "title": "1.3 시간, 거리 및 방향",
+      "source_printed_pages": [
+        9,
+        12
+      ],
+      "source_pdf_pages": [
+        13,
+        16
+      ],
+      "question_ids": [
+        "AIR-NAV-030",
+        "AIR-NAV-031",
+        "AIR-NAV-032",
+        "AIR-NAV-033",
+        "AIR-NAV-034",
+        "AIR-NAV-035",
+        "AIR-NAV-036",
+        "AIR-NAV-037",
+        "AIR-NAV-038",
+        "AIR-NAV-039",
+        "AIR-NAV-040",
+        "AIR-NAV-041",
+        "AIR-NAV-042",
+        "AIR-NAV-043",
+        "AIR-NAV-044",
+        "AIR-NAV-045",
+        "AIR-NAV-046",
+        "AIR-NAV-047",
+        "AIR-NAV-048",
+        "AIR-NAV-049",
+        "AIR-NAV-050",
+        "AIR-NAV-051",
+        "AIR-NAV-052",
+        "AIR-NAV-053",
+        "AIR-NAV-054",
+        "AIR-NAV-055",
+        "AIR-NAV-056",
+        "AIR-NAV-057",
+        "AIR-NAV-058",
+        "AIR-NAV-059",
+        "AIR-NAV-060",
+        "AIR-NAV-061",
+        "AIR-NAV-062",
+        "AIR-NAV-063",
+        "AIR-NAV-064",
+        "AIR-NAV-065",
+        "AIR-NAV-066",
+        "AIR-NAV-067",
+        "AIR-NAV-068",
+        "AIR-NAV-069",
+        "AIR-NAV-070",
+        "AIR-NAV-071",
+        "AIR-NAV-072",
+        "AIR-NAV-073",
+        "AIR-NAV-074",
+        "AIR-NAV-075",
+        "AIR-NAV-076",
+        "AIR-NAV-077",
+        "AIR-NAV-078",
+        "AIR-NAV-079",
+        "AIR-NAV-080",
+        "AIR-NAV-081"
+      ],
+      "quiz_questions": 10,
+      "pass_percent": 80,
+      "sections": [
+        {
+          "heading": "시간과 거리",
+          "paragraphs": [
+            "교재는 GMT, LMT, UTC를 구분하고 항법 목적에서는 UTC와 GMT를 사실상 같은 기준으로 사용한다고 설명한다. 지구가 24시간에 360° 회전하므로 경도 15°는 1시간, 경도 15′는 1분에 해당한다.",
+            "거리 단위는 해상마일(NM)과 법정마일(SM)을 구분한다. 위도 1′는 1 NM, 위도 1°는 60 NM이며 국제해상마일 1 NM은 1,852 m로 정리한다."
+          ]
+        },
+        {
+          "heading": "속도와 방향",
+          "paragraphs": [
+            "속도는 이동거리를 시간으로 나눈 값이며 항법에서는 대기속도, 대지속도, 상대속도를 구분한다. 마하수는 진대기속도와 음속의 비이다.",
+            "Course는 계획한 수평진로, track은 실제 지표면상의 이동진로, heading은 항공기 기수가 향하는 방향이다. 상대방위는 기수를 기준으로 시계방향으로 측정하며 교재는 진방위·진침로·상대방위의 관계를 함께 설명한다."
+          ]
+        }
+      ],
+      "summary_points": [
+        "경도 15° = 1시간",
+        "위도 1′ = 1 NM",
+        "1 NM = 1,852 m",
+        "Course=계획 진로, Track=실제 진로, Heading=기수 방향"
+      ]
+    },
+    {
+      "id": "AIRNAV-TH-04",
+      "order": 4,
+      "unit_title": "제1장 항법이론",
+      "title": "1.4 차트(Charts)",
+      "source_printed_pages": [
+        13,
+        17
+      ],
+      "source_pdf_pages": [
+        17,
+        21
+      ],
+      "question_ids": [
+        "AIR-NAV-082",
+        "AIR-NAV-083",
+        "AIR-NAV-084",
+        "AIR-NAV-085",
+        "AIR-NAV-086",
+        "AIR-NAV-087",
+        "AIR-NAV-088",
+        "AIR-NAV-089",
+        "AIR-NAV-090",
+        "AIR-NAV-091",
+        "AIR-NAV-092",
+        "AIR-NAV-093",
+        "AIR-NAV-094",
+        "AIR-NAV-095",
+        "AIR-NAV-096",
+        "AIR-NAV-097",
+        "AIR-NAV-098"
+      ],
+      "quiz_questions": 10,
+      "pass_percent": 80,
+      "sections": [
+        {
+          "heading": "항공차트와 투영법",
+          "paragraphs": [
+            "항공차트는 지구 표면의 일부를 축척하여 평면에 표현한 항공용 지도이다. 이상적인 차트의 조건으로 각도·형상·면적·거리의 정확성, 항정선과 대권의 직선 표현 등이 제시된다.",
+            "투영면에 따라 원통도법·원추도법·평면도법, 광원의 위치에 따라 심사도법·평사도법·정사도법으로 나눈다. 심사도법에서는 대권이 직선으로 나타난다."
+          ]
+        },
+        {
+          "heading": "Mercator와 Lambert",
+          "paragraphs": [
+            "Mercator chart는 자오선과 위선이 직교하고 항정선이 직선이어서 방위 측정에 편리하지만 고위도로 갈수록 축척이 확대된다. Lambert 정각원추도법은 중위도 항공도에서 널리 다루며 대권이 거의 직선에 가깝게 표현되는 특성이 소개된다."
+          ]
+        }
+      ],
+      "summary_points": [
+        "Gnomonic: 대권이 직선",
+        "Mercator: 항정선이 직선",
+        "Mercator는 고위도로 갈수록 축척 확대",
+        "투영법은 원통·원추·평면 계열로 구분"
+      ]
+    },
+    {
+      "id": "AIRNAV-TH-05",
+      "order": 5,
+      "unit_title": "제2장 추측항법",
+      "title": "2.1 항공기에 대한 바람의 영향",
+      "source_printed_pages": [
+        35,
+        36
+      ],
+      "source_pdf_pages": [
+        39,
+        40
+      ],
+      "question_ids": [
+        "AIR-NAV-099",
+        "AIR-NAV-100",
+        "AIR-NAV-101",
+        "AIR-NAV-102",
+        "AIR-NAV-103",
+        "AIR-NAV-104",
+        "AIR-NAV-105",
+        "AIR-NAV-106",
+        "AIR-NAV-107",
+        "AIR-NAV-108",
+        "AIR-NAV-109",
+        "AIR-NAV-110",
+        "AIR-NAV-111",
+        "AIR-NAV-112",
+        "AIR-NAV-113"
+      ],
+      "quiz_questions": 10,
+      "pass_percent": 80,
+      "sections": [
+        {
+          "heading": "바람 삼각형",
+          "paragraphs": [
+            "바람 삼각형은 air vector, wind vector, ground vector의 세 벡터로 구성된다. Air vector의 요소는 진침로(TH)와 진대기속도(TAS), wind vector는 풍향과 풍속, ground vector는 항적(TR)과 대지속도(GS)이다.",
+            "활주로 방향과 바람이 이루는 각을 이용해 측풍성분과 정풍 또는 배풍성분을 계산한다. 교재는 측풍성분을 풍속×sin각, 정풍성분을 풍속×cos각으로 설명한다."
+          ]
+        },
+        {
+          "heading": "편류와 바람수정",
+          "paragraphs": [
+            "바람 때문에 항공기가 침로 좌우로 밀리는 현상을 편류라 하고 TH와 TR 사이 각을 편류각으로 나타낸다. 원하는 항로를 유지하려면 풍상측으로 침로를 보정하는 바람수정각(WCA)을 적용한다."
+          ]
+        }
+      ],
+      "summary_points": [
+        "Air vector = TH + TAS",
+        "Wind vector = 풍향 + 풍속",
+        "Ground vector = TR + GS",
+        "측풍 = 풍속×sinα, 정풍/배풍 = 풍속×cosα"
+      ]
+    },
+    {
+      "id": "AIRNAV-TH-06",
+      "order": 6,
+      "unit_title": "제2장 추측항법",
+      "title": "2.2 조종사 항법 기법",
+      "source_printed_pages": [
+        37,
+        43
+      ],
+      "source_pdf_pages": [
+        41,
+        47
+      ],
+      "question_ids": [
+        "AIR-NAV-114",
+        "AIR-NAV-115",
+        "AIR-NAV-116",
+        "AIR-NAV-117",
+        "AIR-NAV-118",
+        "AIR-NAV-119",
+        "AIR-NAV-120",
+        "AIR-NAV-121",
+        "AIR-NAV-122",
+        "AIR-NAV-123",
+        "AIR-NAV-124",
+        "AIR-NAV-125",
+        "AIR-NAV-126",
+        "AIR-NAV-127",
+        "AIR-NAV-128",
+        "AIR-NAV-129",
+        "AIR-NAV-130",
+        "AIR-NAV-131",
+        "AIR-NAV-132",
+        "AIR-NAV-133",
+        "AIR-NAV-134",
+        "AIR-NAV-135",
+        "AIR-NAV-136",
+        "AIR-NAV-137",
+        "AIR-NAV-138",
+        "AIR-NAV-139",
+        "AIR-NAV-140",
+        "AIR-NAV-141",
+        "AIR-NAV-142",
+        "AIR-NAV-143"
+      ],
+      "quiz_questions": 10,
+      "pass_percent": 80,
+      "sections": [
+        {
+          "heading": "바람수정과 60:1 법칙",
+          "paragraphs": [
+            "교재는 진침로(TH), 진항로(TC), 바람수정각(WCA)의 관계와 60:1 법칙을 이용한 근사 계산을 다룬다. WCA의 부호는 진항로를 기준으로 어느 방향으로 보정하는지를 나타낸다.",
+            "항로에서 벗어난 거리와 비행거리를 이용해 트랙오차와 수정각을 구하고, 남은 거리에 따라 목적지로 복귀하기 위한 추가 수정량을 산출하는 방법도 설명한다."
+          ]
+        },
+        {
+          "heading": "항법계산과 비행계획",
+          "paragraphs": [
+            "대지속도·시간·거리 관계, 상승·하강 중 거리, 연료소모, 등시점(ETP)과 안전복귀점(PSR) 등 실제 항법계획에 필요한 계산 기법을 다룬다."
+          ]
+        }
+      ],
+      "summary_points": [
+        "TH = TC ± WCA",
+        "60:1 법칙으로 항로이탈각을 근사",
+        "거리 = 속도 × 시간",
+        "ETP는 양쪽 목적지까지 소요시간이 같아지는 지점"
+      ]
+    },
+    {
+      "id": "AIRNAV-TH-07",
+      "order": 7,
+      "unit_title": "제2장 추측항법",
+      "title": "2.3 관련 항법 기법",
+      "source_printed_pages": [
+        44,
+        46
+      ],
+      "source_pdf_pages": [
+        48,
+        50
+      ],
+      "question_ids": [
+        "AIR-NAV-144",
+        "AIR-NAV-145",
+        "AIR-NAV-146",
+        "AIR-NAV-147"
+      ],
+      "quiz_questions": 10,
+      "pass_percent": 80,
+      "sections": [
+        {
+          "heading": "위치의 종류",
+          "paragraphs": [
+            "추측위치(DR position)는 마지막으로 확인한 위치에서 시간·대지속도·항적을 계산하여 얻은 위치이다. 공중위치(air position)는 바람을 고려하지 않고 진침로와 진대기속도로 설정한 대기 중 위치이다.",
+            "고정위치(fix)는 시각참조점이나 항행안전무선시설 등으로 확실하게 확인한 위치를 뜻한다."
+          ]
+        },
+        {
+          "heading": "지문항법 운용",
+          "paragraphs": [
+            "교재는 고도·속도·차트 축척이 지상 물표 식별에 미치는 영향을 설명한다. 큰 축척일수록 지형과 지물의 세부 표현이 많아 시각참조점 확인에 유리하다."
+          ]
+        }
+      ],
+      "summary_points": [
+        "DR position = 바람 영향까지 적용한 계산 위치",
+        "Air position = 바람을 고려하지 않은 위치",
+        "Fix = 확실하게 확인된 위치",
+        "큰 축척 차트일수록 지상물표 식별에 유리"
+      ]
+    },
+    {
+      "id": "AIRNAV-TH-08",
+      "order": 8,
+      "unit_title": "제3장 항공계기",
+      "title": "3.1 자기 나침반(Magnetic Compass)",
+      "source_printed_pages": [
+        57,
+        59
+      ],
+      "source_pdf_pages": [
+        61,
+        63
+      ],
+      "question_ids": [
+        "AIR-NAV-148",
+        "AIR-NAV-149",
+        "AIR-NAV-150",
+        "AIR-NAV-151",
+        "AIR-NAV-152",
+        "AIR-NAV-153",
+        "AIR-NAV-154",
+        "AIR-NAV-155",
+        "AIR-NAV-156",
+        "AIR-NAV-157",
+        "AIR-NAV-158",
+        "AIR-NAV-159",
+        "AIR-NAV-160",
+        "AIR-NAV-161",
+        "AIR-NAV-162",
+        "AIR-NAV-163",
+        "AIR-NAV-164",
+        "AIR-NAV-165",
+        "AIR-NAV-166",
+        "AIR-NAV-167",
+        "AIR-NAV-168",
+        "AIR-NAV-169",
+        "AIR-NAV-170",
+        "AIR-NAV-171",
+        "AIR-NAV-172",
+        "AIR-NAV-173"
+      ],
+      "quiz_questions": 10,
+      "pass_percent": 80,
+      "sections": [
+        {
+          "heading": "지자기의 3요소",
+          "paragraphs": [
+            "교재는 편차(variation), 자차(deviation), 복각(magnetic dip)을 자기 나침반 이해의 핵심으로 다룬다. 등편차선은 같은 편차를 잇는 선, 무편차선은 편차가 0인 지점을 잇는 선이다.",
+            "자차는 항공기 자체의 자성이나 전기장비 등에 의해 발생하며 나침반 교정표로 보정한다. 복각은 자력선이 수평면과 이루는 각으로 극지방으로 갈수록 커진다."
+          ]
+        },
+        {
+          "heading": "동적 오차",
+          "paragraphs": [
+            "북반구에서는 북쪽으로 선회할 때 지시지연, 남쪽으로 선회할 때 지시선행이 나타나는 선회오차가 설명된다. 동·서 방향에서 가속하면 북쪽, 감속하면 남쪽을 지시하는 가감속 오차도 다룬다."
+          ]
+        }
+      ],
+      "summary_points": [
+        "Variation = 진북과 자북의 차이",
+        "Deviation = 항공기 내부 영향에 의한 나침반 오차",
+        "복각은 극으로 갈수록 증가",
+        "북반구 가속: 북쪽, 감속: 남쪽 지시 경향"
+      ]
+    },
+    {
+      "id": "AIRNAV-TH-09",
+      "order": 9,
+      "unit_title": "제3장 항공계기",
+      "title": "3.2 고도계",
+      "source_printed_pages": [
+        60,
+        61
+      ],
+      "source_pdf_pages": [
+        64,
+        65
+      ],
+      "question_ids": [
+        "AIR-NAV-174",
+        "AIR-NAV-175",
+        "AIR-NAV-176",
+        "AIR-NAV-177",
+        "AIR-NAV-178",
+        "AIR-NAV-179"
+      ],
+      "quiz_questions": 10,
+      "pass_percent": 80,
+      "sections": [
+        {
+          "heading": "고도계 원리와 오차",
+          "paragraphs": [
+            "기압고도계는 대기압의 변화를 이용해 고도를 표시한다. 교재는 기계적 오차, 탄성오차, 편위, 잔류효과, 온도오차, 기압오차 등 고도계 오차의 종류를 정리한다."
+          ]
+        },
+        {
+          "heading": "고도의 종류",
+          "paragraphs": [
+            "기압고도, 진고도, 절대고도, 밀도고도 등 서로 다른 기준의 고도를 구분하고, 고도계 설정과 대기상태에 따라 지시값이 달라지는 이유를 설명한다."
+          ]
+        }
+      ],
+      "summary_points": [
+        "기압고도계는 정압을 이용",
+        "고도계는 온도·기압·기계적 특성에 따른 오차가 있음",
+        "Pressure altitude는 표준기압 기준",
+        "고도의 기준면을 구분해서 암기"
+      ]
+    },
+    {
+      "id": "AIRNAV-TH-10",
+      "order": 10,
+      "unit_title": "제3장 항공계기",
+      "title": "3.3 속도계",
+      "source_printed_pages": [
+        61,
+        62
+      ],
+      "source_pdf_pages": [
+        65,
+        66
+      ],
+      "question_ids": [
+        "AIR-NAV-180",
+        "AIR-NAV-181",
+        "AIR-NAV-182",
+        "AIR-NAV-183",
+        "AIR-NAV-184",
+        "AIR-NAV-185",
+        "AIR-NAV-186",
+        "AIR-NAV-187",
+        "AIR-NAV-188",
+        "AIR-NAV-189",
+        "AIR-NAV-190"
+      ],
+      "quiz_questions": 10,
+      "pass_percent": 80,
+      "sections": [
+        {
+          "heading": "대기속도계의 원리",
+          "paragraphs": [
+            "대기속도계는 피토압과 정압의 차이인 동압을 이용한다. 동압은 유속의 제곱에 비례하므로 계기 내부에서 이를 속도 눈금으로 환산하여 지시대기속도(IAS)를 표시한다."
+          ]
+        },
+        {
+          "heading": "IAS에서 TAS까지",
+          "paragraphs": [
+            "IAS에서 계기·장착오차를 수정하면 CAS, 압축성 영향을 보정하면 EAS, 공기밀도 영향을 보정하면 TAS가 되는 흐름을 교재가 정리한다."
+          ]
+        }
+      ],
+      "summary_points": [
+        "속도계 입력 = 피토압과 정압의 차이",
+        "IAS → CAS: 계기·장착오차 수정",
+        "CAS → EAS: 압축성 수정",
+        "EAS → TAS: 공기밀도 수정"
+      ]
+    },
+    {
+      "id": "AIRNAV-TH-11",
+      "order": 11,
+      "unit_title": "제4장 항행안전시설",
+      "title": "4.1 항행안전무선시설(Radio Navigation Aids)",
+      "source_printed_pages": [
+        72,
+        76
+      ],
+      "source_pdf_pages": [
+        76,
+        80
+      ],
+      "question_ids": [
+        "AIR-NAV-191",
+        "AIR-NAV-192",
+        "AIR-NAV-193",
+        "AIR-NAV-194",
+        "AIR-NAV-195",
+        "AIR-NAV-196",
+        "AIR-NAV-197",
+        "AIR-NAV-198",
+        "AIR-NAV-199",
+        "AIR-NAV-200",
+        "AIR-NAV-201",
+        "AIR-NAV-202",
+        "AIR-NAV-203",
+        "AIR-NAV-204",
+        "AIR-NAV-205",
+        "AIR-NAV-206",
+        "AIR-NAV-207",
+        "AIR-NAV-208",
+        "AIR-NAV-209",
+        "AIR-NAV-210",
+        "AIR-NAV-211",
+        "AIR-NAV-212",
+        "AIR-NAV-213",
+        "AIR-NAV-214",
+        "AIR-NAV-215",
+        "AIR-NAV-216",
+        "AIR-NAV-217",
+        "AIR-NAV-218",
+        "AIR-NAV-219",
+        "AIR-NAV-220",
+        "AIR-NAV-221",
+        "AIR-NAV-222",
+        "AIR-NAV-223",
+        "AIR-NAV-224",
+        "AIR-NAV-225",
+        "AIR-NAV-226",
+        "AIR-NAV-227",
+        "AIR-NAV-228",
+        "AIR-NAV-229",
+        "AIR-NAV-230",
+        "AIR-NAV-231",
+        "AIR-NAV-232",
+        "AIR-NAV-233",
+        "AIR-NAV-234",
+        "AIR-NAV-235",
+        "AIR-NAV-236",
+        "AIR-NAV-237",
+        "AIR-NAV-238",
+        "AIR-NAV-239",
+        "AIR-NAV-240",
+        "AIR-NAV-241",
+        "AIR-NAV-242",
+        "AIR-NAV-243"
+      ],
+      "quiz_questions": 10,
+      "pass_percent": 80,
+      "sections": [
+        {
+          "heading": "NDB·VOR·DME",
+          "paragraphs": [
+            "교재는 NDB가 무지향성 신호를 송신하여 방위를 판단하게 하고, VOR가 방위정보를 제공하는 전방향성 시설이라고 설명한다. VOR 점검과 식별, 서비스 범위, 레디얼 개념이 주요 시험 포인트로 제시된다.",
+            "DME는 지상국과 항공기 사이의 경사거리 정보를 제공한다. VOR/DME 또는 TACAN과 결합하면 방위와 거리로 위치를 정할 수 있다."
+          ]
+        },
+        {
+          "heading": "ILS와 기타 시설",
+          "paragraphs": [
+            "ILS는 로컬라이저로 좌우 진로, 글라이드패스로 수직 유도, 마커나 DME 등으로 거리·위치 정보를 제공한다. 교재는 로컬라이저·글라이드패스·마커의 역할과 식별, 컴퍼스로케이터 등의 관련 시설을 설명한다."
+          ]
+        }
+      ],
+      "summary_points": [
+        "NDB는 방위, VOR는 radial, DME는 경사거리",
+        "VOR 식별 및 점검 허용오차가 주요 출제 포인트",
+        "ILS: LOC + Glide Path + 거리/위치 보조",
+        "DME 거리는 지상거리와 다른 경사거리"
+      ]
+    },
+    {
+      "id": "AIRNAV-TH-12",
+      "order": 12,
+      "unit_title": "제4장 항행안전시설",
+      "title": "4.2 항공등화시설(Lighting Aids)",
+      "source_printed_pages": [
+        77,
+        78
+      ],
+      "source_pdf_pages": [
+        81,
+        82
+      ],
+      "question_ids": [
+        "AIR-NAV-244",
+        "AIR-NAV-245",
+        "AIR-NAV-246",
+        "AIR-NAV-247",
+        "AIR-NAV-248",
+        "AIR-NAV-249",
+        "AIR-NAV-250",
+        "AIR-NAV-251",
+        "AIR-NAV-252",
+        "AIR-NAV-253",
+        "AIR-NAV-254",
+        "AIR-NAV-255",
+        "AIR-NAV-256"
+      ],
+      "quiz_questions": 10,
+      "pass_percent": 80,
+      "sections": [
+        {
+          "heading": "진입각 지시등",
+          "paragraphs": [
+            "VASI와 PAPI는 조종사에게 시각적인 진입각 정보를 제공한다. 교재는 각각의 등화 배열과 정상·상부·하부 진입상태에서 보이는 색 조합을 중심으로 설명한다."
+          ]
+        },
+        {
+          "heading": "공항 등화",
+          "paragraphs": [
+            "비행장등대의 민간·군용 섬광 형태, 주간 점등 조건 등 공항 식별과 관련된 등화 특성을 다룬다."
+          ]
+        }
+      ],
+      "summary_points": [
+        "VASI/PAPI는 시각 진입각 정보 제공",
+        "PAPI 색 조합으로 고저 판단",
+        "비행장등대는 공항 식별에 사용",
+        "등화의 색과 섬광 패턴이 시험 포인트"
+      ]
+    },
+    {
+      "id": "AIRNAV-TH-13",
+      "order": 13,
+      "unit_title": "제4장 항행안전시설",
+      "title": "4.3 공항 표지판(Airport Sign)",
+      "source_printed_pages": [
+        78,
+        79
+      ],
+      "source_pdf_pages": [
+        82,
+        83
+      ],
+      "question_ids": [
+        "AIR-NAV-257",
+        "AIR-NAV-258",
+        "AIR-NAV-259",
+        "AIR-NAV-260"
+      ],
+      "quiz_questions": 10,
+      "pass_percent": 80,
+      "sections": [
+        {
+          "heading": "공항 표지판의 색 체계",
+          "paragraphs": [
+            "명령지시표지판, 위치표지판, 방향표지판, 목적지표지판, 정보표지판 등 표지판의 기능과 바탕색·문자색을 구분한다.",
+            "방향표지와 목적지표지는 이동해야 할 방향을 안내하며, 위치표지는 현재 위치를 식별하도록 돕는다."
+          ]
+        }
+      ],
+      "summary_points": [
+        "표지판은 기능별로 색 체계가 다름",
+        "Mandatory sign의 색 조합 암기",
+        "Location sign은 현재 위치 식별",
+        "Direction/Destination sign은 지상 이동 방향 안내"
+      ]
+    },
+    {
+      "id": "AIRNAV-TH-14",
+      "order": 14,
+      "unit_title": "제5장 항공교통업무",
+      "title": "5.1 항공교통관제업무",
+      "source_printed_pages": [
+        92,
+        93
+      ],
+      "source_pdf_pages": [
+        96,
+        97
+      ],
+      "question_ids": [
+        "AIR-NAV-261",
+        "AIR-NAV-262",
+        "AIR-NAV-263",
+        "AIR-NAV-264",
+        "AIR-NAV-265",
+        "AIR-NAV-266",
+        "AIR-NAV-267",
+        "AIR-NAV-268",
+        "AIR-NAV-269",
+        "AIR-NAV-270",
+        "AIR-NAV-271",
+        "AIR-NAV-272",
+        "AIR-NAV-273",
+        "AIR-NAV-274",
+        "AIR-NAV-275",
+        "AIR-NAV-276",
+        "AIR-NAV-277"
+      ],
+      "quiz_questions": 10,
+      "pass_percent": 80,
+      "sections": [
+        {
+          "heading": "ATC 정보업무",
+          "paragraphs": [
+            "ATIS는 터미널지역에서 반복되는 필수 비관제정보를 자동방송하여 관제주파수 혼잡을 줄인다. 교재는 기상, 고도계수정치, 접근방식과 사용활주로 등 ATIS에 포함되는 정보를 정리한다.",
+            "레이더 교통조언, 자동고도보고 Mode C, 관제탑 레이더의 기본용도와 저고도 윈드시어 경보장치(LLWAS) 등 공항 주변의 주요 관제 지원기능을 함께 다룬다."
+          ]
+        },
+        {
+          "heading": "공항운영 연계 개념",
+          "paragraphs": [
+            "공항운영 출제예상문제에서는 활주로 방향·풍향의 기준, 유도신호, 저고도 윈드시어 정보 등 조종사가 지상과 터미널구역에서 접하는 운용 정보를 확인한다."
+          ]
+        }
+      ],
+      "summary_points": [
+        "ATIS 목적 = 반복정보 자동방송으로 주파수 혼잡 감소",
+        "Mode C = 자동고도보고",
+        "LLWAS = 저고도 windshear/gust front 정보",
+        "관제탑 radar는 위치·교통조언·방향정보 등에 활용"
+      ]
+    },
+    {
+      "id": "AIRNAV-TH-15",
+      "order": 15,
+      "unit_title": "제5장 항공교통업무",
+      "title": "5.2 공항운영(Airport Operations)",
+      "source_printed_pages": [
+        104,
+        105
+      ],
+      "source_pdf_pages": [
+        108,
+        109
+      ],
+      "question_ids": [
+        "AIR-NAV-278",
+        "AIR-NAV-279",
+        "AIR-NAV-280",
+        "AIR-NAV-281",
+        "AIR-NAV-282",
+        "AIR-NAV-283",
+        "AIR-NAV-284"
+      ],
+      "quiz_questions": 10,
+      "pass_percent": 80,
+      "sections": [
+        {
+          "heading": "공항운영",
+          "paragraphs": [
+            "이 단계는 교재의 공항운영 출제예상문제와 해설을 중심으로 구성한다. 관제탑 레이더의 기본용도, 활주로 방향과 풍향 표현, 지상 유도신호, 공항 주변 윈드시어 정보 등 실제 공항운영에서 조종사가 접하는 항목을 정리한다.",
+            "유도원과 조종사 사이의 브레이크·고임목 신호처럼 지상조업 중 사용하는 표준 시각신호도 함께 다룬다."
+          ]
+        }
+      ],
+      "summary_points": [
+        "공항운영 문제는 지상·터미널 운용정보 중심",
+        "활주로 방향과 풍향의 기준 구분",
+        "Marshaller 신호의 의미 구분",
+        "LLWAS 관련 정보 확인"
+      ],
+      "source_note": "독립 본문 절이 아닌 교재 출제예상문제·해설을 바탕으로 구성"
+    },
+    {
+      "id": "AIRNAV-TH-16",
+      "order": 16,
+      "unit_title": "제5장 항공교통업무",
+      "title": "5.3 항공교통관제 허가와 항공기분리",
+      "source_printed_pages": [
+        94,
+        95
+      ],
+      "source_pdf_pages": [
+        98,
+        99
+      ],
+      "question_ids": [
+        "AIR-NAV-285",
+        "AIR-NAV-286",
+        "AIR-NAV-287",
+        "AIR-NAV-288",
+        "AIR-NAV-289",
+        "AIR-NAV-290",
+        "AIR-NAV-291",
+        "AIR-NAV-292",
+        "AIR-NAV-293",
+        "AIR-NAV-294",
+        "AIR-NAV-295",
+        "AIR-NAV-296",
+        "AIR-NAV-297",
+        "AIR-NAV-298",
+        "AIR-NAV-299",
+        "AIR-NAV-300",
+        "AIR-NAV-301",
+        "AIR-NAV-302",
+        "AIR-NAV-303",
+        "AIR-NAV-304",
+        "AIR-NAV-305",
+        "AIR-NAV-306",
+        "AIR-NAV-307"
+      ],
+      "quiz_questions": 10,
+      "pass_percent": 80,
+      "sections": [
+        {
+          "heading": "허가와 분리",
+          "paragraphs": [
+            "교재는 VFR-on-top의 의미와 책임, IFR 항공기 사이의 수직·종적·횡적 분리 개념, 레이더 분리와 속도조절 등을 다룬다. VFR-on-top은 IFR 비행계획을 취소하는 것이 아니며 VFR 기상상태에서 시계회피 책임은 조종사에게 있음을 설명한다."
+          ]
+        },
+        {
+          "heading": "관제공역 운용",
+          "paragraphs": [
+            "관제공역에서의 속도 제한, Special VFR, 항공기 간 분리와 ATC 허가의 적용방법을 출제예상문제와 해설로 반복 확인한다."
+          ]
+        }
+      ],
+      "summary_points": [
+        "VFR-on-top은 IFR 비행계획 취소가 아님",
+        "분리는 수직·종적·횡적 개념으로 구분",
+        "레이더 분리와 속도조절 수치가 주요 시험 포인트",
+        "공역별 운용조건을 구분"
+      ]
+    },
+    {
+      "id": "AIRNAV-TH-17",
+      "order": 17,
+      "unit_title": "제5장 항공교통업무",
+      "title": "5.4 감시시스템(Surveillance systems)",
+      "source_printed_pages": [
+        96
+      ],
+      "source_pdf_pages": [
+        100
+      ],
+      "question_ids": [
+        "AIR-NAV-308",
+        "AIR-NAV-309",
+        "AIR-NAV-310",
+        "AIR-NAV-311",
+        "AIR-NAV-312",
+        "AIR-NAV-313",
+        "AIR-NAV-314",
+        "AIR-NAV-315",
+        "AIR-NAV-316",
+        "AIR-NAV-317",
+        "AIR-NAV-318"
+      ],
+      "quiz_questions": 10,
+      "pass_percent": 80,
+      "sections": [
+        {
+          "heading": "감시레이더",
+          "paragraphs": [
+            "ASR은 공항 주변 단거리 감시와 터미널 교통처리에, ARSR은 넓은 항로지역의 장거리 감시에 사용되는 것으로 설명한다. PAR은 정밀접근 유도를 위한 레이더 시설로 다룬다."
+          ]
+        },
+        {
+          "heading": "트랜스폰더와 충돌방지",
+          "paragraphs": [
+            "교재는 SSR/트랜스폰더의 Mode A·C·S, 고도보고와 코드, TCAS의 Traffic Advisory와 Resolution Advisory 등 감시·충돌방지 체계를 함께 정리한다."
+          ]
+        }
+      ],
+      "summary_points": [
+        "ASR = 공항주변 단거리 감시",
+        "ARSR = 항로 장거리 감시",
+        "PAR = 정밀접근 유도",
+        "TCAS II = TA + RA"
+      ]
+    },
+    {
+      "id": "AIRNAV-TH-18",
+      "order": 18,
+      "unit_title": "제5장 항공교통업무",
+      "title": "5.5 고도계 수정 절차(Altimeter Setting Procedures)",
+      "source_printed_pages": [
+        96,
+        98
+      ],
+      "source_pdf_pages": [
+        100,
+        102
+      ],
+      "question_ids": [
+        "AIR-NAV-319",
+        "AIR-NAV-320",
+        "AIR-NAV-321",
+        "AIR-NAV-322",
+        "AIR-NAV-323",
+        "AIR-NAV-324",
+        "AIR-NAV-325",
+        "AIR-NAV-326",
+        "AIR-NAV-327",
+        "AIR-NAV-328",
+        "AIR-NAV-329",
+        "AIR-NAV-330",
+        "AIR-NAV-331",
+        "AIR-NAV-332",
+        "AIR-NAV-333",
+        "AIR-NAV-334",
+        "AIR-NAV-335",
+        "AIR-NAV-336",
+        "AIR-NAV-337",
+        "AIR-NAV-338",
+        "AIR-NAV-339",
+        "AIR-NAV-340",
+        "AIR-NAV-341",
+        "AIR-NAV-342",
+        "AIR-NAV-343",
+        "AIR-NAV-344",
+        "AIR-NAV-345",
+        "AIR-NAV-346",
+        "AIR-NAV-347",
+        "AIR-NAV-348",
+        "AIR-NAV-349",
+        "AIR-NAV-350",
+        "AIR-NAV-351",
+        "AIR-NAV-352",
+        "AIR-NAV-353"
+      ],
+      "quiz_questions": 10,
+      "pass_percent": 80,
+      "sections": [
+        {
+          "heading": "고도계 설정",
+          "paragraphs": [
+            "교재는 전이고도·전이비행고도·전이층을 구분하고 상승·강하 중 고도계 설정을 언제 QNH 또는 표준기압치로 변경하는지 설명한다. 인천 FIR의 전이고도를 14,000 ft로 제시한다.",
+            "QNH·QFE·QNE는 서로 다른 기준면에 고도계의 0점을 맞추는 개념으로 설명되며, 각각 지시되는 고도의 의미가 달라진다."
+          ]
+        },
+        {
+          "heading": "기압·온도 오차",
+          "paragraphs": [
+            "기압 변화와 고도계 지시의 관계, 저온에서 진고도가 지시고도보다 낮아지는 현상, 밀도고도와 TAS 변화 등 고도계·대기상태 관련 계산을 다룬다."
+          ]
+        }
+      ],
+      "summary_points": [
+        "교재 기준 전이고도 = 14,000 ft",
+        "상승 시 전이고도에서 표준기압, 강하 시 전이비행고도에서 QNH",
+        "QNH/QFE/QNE 기준면 구분",
+        "저온에서는 진고도가 지시고도보다 낮아질 수 있음"
+      ]
+    },
+    {
+      "id": "AIRNAV-TH-19",
+      "order": 19,
+      "unit_title": "제5장 항공교통업무",
+      "title": "5.6 항적난기류(Wake Turbulence)",
+      "source_printed_pages": [
+        99,
+        100
+      ],
+      "source_pdf_pages": [
+        103,
+        104
+      ],
+      "question_ids": [
+        "AIR-NAV-354",
+        "AIR-NAV-355",
+        "AIR-NAV-356",
+        "AIR-NAV-357",
+        "AIR-NAV-358",
+        "AIR-NAV-359",
+        "AIR-NAV-360",
+        "AIR-NAV-361",
+        "AIR-NAV-362",
+        "AIR-NAV-363",
+        "AIR-NAV-364"
+      ],
+      "quiz_questions": 10,
+      "pass_percent": 80,
+      "sections": [
+        {
+          "heading": "후류의 발생과 강도",
+          "paragraphs": [
+            "양력 발생에 따른 날개 상·하부 압력차 때문에 날개끝에서 서로 반대 방향으로 회전하는 와류가 형성된다. 교재는 와류강도가 항공기 중량, 속도, 날개 형상에 영향을 받으며 무겁고(clean) 저속일 때 강하다고 설명한다."
+          ]
+        },
+        {
+          "heading": "회피와 분리",
+          "paragraphs": [
+            "선행 대형기의 비행경로 아래쪽과 후방을 피하고, 이륙 시 선행기의 부양지점 이전에 이륙해 상승경로 위를 유지하는 등의 회피절차를 다룬다. 항공기 범주별 후류 간격도 시험문제로 반복된다."
+          ]
+        }
+      ],
+      "summary_points": [
+        "후류는 양력 발생에 따른 날개끝 압력차로 생성",
+        "강한 와류 조건: heavy·clean·slow",
+        "대형기 뒤에서는 비행경로 아래쪽을 피함",
+        "이륙 시 선행기 rotation/lift-off point 이전 이륙이 핵심"
+      ]
+    },
+    {
+      "id": "AIRNAV-TH-20",
+      "order": 20,
+      "unit_title": "제5장 항공교통업무",
+      "title": "5.7 항공차트(Aeronautical Charts)",
+      "source_printed_pages": [
+        121,
+        123
+      ],
+      "source_pdf_pages": [
+        125,
+        127
+      ],
+      "question_ids": [
+        "AIR-NAV-365",
+        "AIR-NAV-366",
+        "AIR-NAV-367",
+        "AIR-NAV-368",
+        "AIR-NAV-369",
+        "AIR-NAV-370",
+        "AIR-NAV-371",
+        "AIR-NAV-372",
+        "AIR-NAV-373",
+        "AIR-NAV-374",
+        "AIR-NAV-375",
+        "AIR-NAV-376",
+        "AIR-NAV-377",
+        "AIR-NAV-378",
+        "AIR-NAV-379",
+        "AIR-NAV-380",
+        "AIR-NAV-381",
+        "AIR-NAV-382"
+      ],
+      "quiz_questions": 10,
+      "pass_percent": 80,
+      "sections": [
+        {
+          "heading": "항공차트의 종류",
+          "paragraphs": [
+            "이 단계는 교재의 항공차트 출제예상문제와 해설을 중심으로 구성한다. Sectional, WAC, Terminal Area Chart, IFR enroute chart, approach chart 등 목적에 따라 사용되는 차트의 범위와 축척을 구분한다."
+          ]
+        },
+        {
+          "heading": "차트 정보 읽기",
+          "paragraphs": [
+            "공항·항행시설·공역·장애물·최저고도 등 차트에 표시되는 주요 정보를 식별하고, 비행방식과 비행구간에 맞는 차트를 선택하는 것이 핵심이다."
+          ]
+        }
+      ],
+      "summary_points": [
+        "VFR/IFR 목적에 따라 사용하는 차트가 다름",
+        "Sectional·WAC·Terminal Area chart 축척 구분",
+        "Enroute와 Approach chart 용도 구분",
+        "차트 기호·고도·공역 정보 판독"
+      ],
+      "source_note": "독립 본문 절이 아닌 교재 출제예상문제·해설을 바탕으로 구성"
+    },
+    {
+      "id": "AIRNAV-TH-21",
+      "order": 21,
+      "unit_title": "제6장 항공교통관제절차",
+      "title": "6.1 비행전(Preflight)",
+      "source_printed_pages": [
+        124,
+        125
+      ],
+      "source_pdf_pages": [
+        128,
+        129
+      ],
+      "question_ids": [
+        "AIR-NAV-383",
+        "AIR-NAV-384",
+        "AIR-NAV-385",
+        "AIR-NAV-386",
+        "AIR-NAV-387",
+        "AIR-NAV-388",
+        "AIR-NAV-389",
+        "AIR-NAV-390",
+        "AIR-NAV-391",
+        "AIR-NAV-392"
+      ],
+      "quiz_questions": 10,
+      "pass_percent": 80,
+      "sections": [
+        {
+          "heading": "비행계획",
+          "paragraphs": [
+            "교재는 인천 FIR에서 비행계획 제출 시기, 지연 시 변경 또는 취소, 비행계획에 포함되는 항목을 정리한다. 출발 전 계획 변경 가능 목적지, 탑승인원, 비상주파수와 구조장비 등도 포함항목으로 설명한다."
+          ]
+        },
+        {
+          "heading": "ATS 시간",
+          "paragraphs": [
+            "항공교통업무시설은 UTC를 사용하며 시간기록의 정확도를 유지해야 한다. 조종사에게 시간정보를 제공하는 절차도 함께 다룬다."
+          ]
+        }
+      ],
+      "summary_points": [
+        "비행계획 제출·변경·취소 시점 구분",
+        "비행계획 필수 기재사항 암기",
+        "ATS는 UTC 사용",
+        "지연시간 기준이 문제로 자주 출제"
+      ]
+    },
+    {
+      "id": "AIRNAV-TH-22",
+      "order": 22,
+      "unit_title": "제6장 항공교통관제절차",
+      "title": "6.2 항공로 절차(En Route Procedure)",
+      "source_printed_pages": [
+        125,
+        127
+      ],
+      "source_pdf_pages": [
+        129,
+        131
+      ],
+      "question_ids": [
+        "AIR-NAV-393",
+        "AIR-NAV-394",
+        "AIR-NAV-395",
+        "AIR-NAV-396",
+        "AIR-NAV-397",
+        "AIR-NAV-398",
+        "AIR-NAV-399",
+        "AIR-NAV-400",
+        "AIR-NAV-401",
+        "AIR-NAV-402",
+        "AIR-NAV-403",
+        "AIR-NAV-404",
+        "AIR-NAV-405",
+        "AIR-NAV-406",
+        "AIR-NAV-407",
+        "AIR-NAV-408",
+        "AIR-NAV-409",
+        "AIR-NAV-410",
+        "AIR-NAV-411",
+        "AIR-NAV-412",
+        "AIR-NAV-413",
+        "AIR-NAV-414",
+        "AIR-NAV-415",
+        "AIR-NAV-416",
+        "AIR-NAV-417",
+        "AIR-NAV-418",
+        "AIR-NAV-419"
+      ],
+      "quiz_questions": 10,
+      "pass_percent": 80,
+      "sections": [
+        {
+          "heading": "위치보고와 항로 운항",
+          "paragraphs": [
+            "항로 비행 중 위치보고 내용과 보고가 필요한 상황, 항행·통신장비 기능상실 보고 등을 다룬다. 보고지점 통과 시각과 수정예정시간 등 ATC가 필요로 하는 정보를 구분한다."
+          ]
+        },
+        {
+          "heading": "허가한계와 체공",
+          "paragraphs": [
+            "허가한계점에 접근했지만 이후 허가를 받지 못한 경우의 감속, 후속허가 발부 시점, 체공 진입과 outbound leg 시간측정 등 체공절차를 설명한다."
+          ]
+        }
+      ],
+      "summary_points": [
+        "위치보고 시각·고도·예정시간 등 핵심 항목 구분",
+        "장비 기능상실은 ATC에 보고",
+        "허가한계 접근 시 체공 준비",
+        "Holding outbound time과 시작지점이 주요 시험 포인트"
+      ]
+    },
+    {
+      "id": "AIRNAV-TH-23",
+      "order": 23,
+      "unit_title": "제6장 항공교통관제절차",
+      "title": "6.3 도착절차(Arrival Procedures)",
+      "source_printed_pages": [
+        128,
+        130
+      ],
+      "source_pdf_pages": [
+        132,
+        134
+      ],
+      "question_ids": [
+        "AIR-NAV-420",
+        "AIR-NAV-421",
+        "AIR-NAV-422",
+        "AIR-NAV-423",
+        "AIR-NAV-424",
+        "AIR-NAV-425",
+        "AIR-NAV-426",
+        "AIR-NAV-427",
+        "AIR-NAV-428",
+        "AIR-NAV-429",
+        "AIR-NAV-430",
+        "AIR-NAV-431",
+        "AIR-NAV-432",
+        "AIR-NAV-433",
+        "AIR-NAV-434",
+        "AIR-NAV-435",
+        "AIR-NAV-436",
+        "AIR-NAV-437",
+        "AIR-NAV-438",
+        "AIR-NAV-439",
+        "AIR-NAV-440",
+        "AIR-NAV-441",
+        "AIR-NAV-442",
+        "AIR-NAV-443",
+        "AIR-NAV-444",
+        "AIR-NAV-445",
+        "AIR-NAV-446",
+        "AIR-NAV-447",
+        "AIR-NAV-448",
+        "AIR-NAV-449"
+      ],
+      "quiz_questions": 10,
+      "pass_percent": 80,
+      "sections": [
+        {
+          "heading": "계기접근 기본요소",
+          "paragraphs": [
+            "MSA는 긴급 시 사용할 수 있도록 IAP 차트에 표시되고 장애물 회피여유를 제공한다. MVA, FAF, approach gate, procedure turn, hold-in-lieu 등 접근절차의 위치·고도 개념을 다룬다."
+          ]
+        },
+        {
+          "heading": "시각·Contact·실패접근",
+          "paragraphs": [
+            "시각접근과 Contact approach의 요구조건과 책임을 비교하고, 조기 실패접근을 포함해 MAP까지의 비행과 이후 실패접근절차를 설명한다."
+          ]
+        }
+      ],
+      "summary_points": [
+        "MSA와 MVA의 목적 구분",
+        "Procedure turn/HILPT 적용조건 확인",
+        "Visual approach와 Contact approach 조건 구분",
+        "Missed approach는 MAP와 지정 절차가 핵심"
+      ]
+    },
+    {
+      "id": "AIRNAV-TH-24",
+      "order": 24,
+      "unit_title": "제6장 항공교통관제절차",
+      "title": "6.4 국가안보, 요격절차 및 비상절차",
+      "source_printed_pages": [
+        130,
+        131
+      ],
+      "source_pdf_pages": [
+        134,
+        135
+      ],
+      "question_ids": [
+        "AIR-NAV-450",
+        "AIR-NAV-451",
+        "AIR-NAV-452",
+        "AIR-NAV-453",
+        "AIR-NAV-454",
+        "AIR-NAV-455",
+        "AIR-NAV-456",
+        "AIR-NAV-457",
+        "AIR-NAV-458",
+        "AIR-NAV-459",
+        "AIR-NAV-460",
+        "AIR-NAV-461",
+        "AIR-NAV-462"
+      ],
+      "quiz_questions": 10,
+      "pass_percent": 80,
+      "sections": [
+        {
+          "heading": "국가안보와 ADIZ",
+          "paragraphs": [
+            "교재는 방공식별구역 통과 시 위치·시간 오차 허용범위와 보고 요구를 설명한다. 육상과 해상에서 허용되는 항적 이탈 범위가 다르게 제시된다."
+          ]
+        },
+        {
+          "heading": "요격과 비상절차",
+          "paragraphs": [
+            "요격기의 접근방향, 피요격항공기가 따라야 할 신호와 조치, 별도 지시가 없을 때의 트랜스폰더 설정 등 요격·비상상황의 기본행동을 다룬다."
+          ]
+        }
+      ],
+      "summary_points": [
+        "ADIZ 위치·시간 허용오차 구분",
+        "요격기·피요격기 시각신호 확인",
+        "비상상황 transponder code 구분",
+        "관제기관과의 교신·지시 준수가 핵심"
+      ]
+    },
+    {
+      "id": "AIRNAV-TH-25",
+      "order": 25,
+      "unit_title": "제7장 인적요소 일반",
+      "title": "7.1 인적요소의 개요",
+      "source_printed_pages": [
+        152,
+        153
+      ],
+      "source_pdf_pages": [
+        156,
+        157
+      ],
+      "question_ids": [
+        "AIR-NAV-463",
+        "AIR-NAV-464",
+        "AIR-NAV-465",
+        "AIR-NAV-466",
+        "AIR-NAV-467",
+        "AIR-NAV-468",
+        "AIR-NAV-469",
+        "AIR-NAV-470"
+      ],
+      "quiz_questions": 10,
+      "pass_percent": 80,
+      "sections": [
+        {
+          "heading": "인적요소의 개념",
+          "paragraphs": [
+            "교재는 인적요소를 인간의 능력과 한계를 이해하고 인간과 주변요소의 상호작용을 최적화하여 효율성과 안전성을 높이는 분야로 설명한다."
+          ]
+        },
+        {
+          "heading": "SHELL 관계",
+          "paragraphs": [
+            "운항승무원을 중심으로 software, hardware, environment, liveware가 상호작용하는 관계를 설명하며, 특히 동료와의 teamwork와 지휘·의사소통 문제를 안전과 연결한다."
+          ]
+        }
+      ],
+      "summary_points": [
+        "Human Factors = 인간 능력·한계와 상호작용의 최적화",
+        "SHELL 요소 간 interface가 안전에 영향",
+        "Liveware-Liveware에는 teamwork·의사소통 포함",
+        "자동화 환경에서 monitoring과 cross-check 중요"
+      ]
+    },
+    {
+      "id": "AIRNAV-TH-26",
+      "order": 26,
+      "unit_title": "제7장 인적요소 일반",
+      "title": "7.2 항공생리",
+      "source_printed_pages": [
+        153,
+        157
+      ],
+      "source_pdf_pages": [
+        157,
+        161
+      ],
+      "question_ids": [
+        "AIR-NAV-471",
+        "AIR-NAV-472",
+        "AIR-NAV-473",
+        "AIR-NAV-474",
+        "AIR-NAV-475",
+        "AIR-NAV-476",
+        "AIR-NAV-477",
+        "AIR-NAV-478",
+        "AIR-NAV-479",
+        "AIR-NAV-480",
+        "AIR-NAV-481",
+        "AIR-NAV-482",
+        "AIR-NAV-483",
+        "AIR-NAV-484",
+        "AIR-NAV-485",
+        "AIR-NAV-486",
+        "AIR-NAV-487",
+        "AIR-NAV-488",
+        "AIR-NAV-489",
+        "AIR-NAV-490",
+        "AIR-NAV-491"
+      ],
+      "quiz_questions": 10,
+      "pass_percent": 80,
+      "sections": [
+        {
+          "heading": "저산소증과 호흡",
+          "paragraphs": [
+            "교재는 고도가 올라가 산소분압이 낮아질 때 나타나는 저산소증의 원인과 증상, 유효의식시간을 설명한다. 과호흡증은 지나치게 빠른 호흡으로 혈중 이산화탄소 분압이 낮아진 상태로 정리한다.",
+            "객실기압고도에 따른 산소사용 조건과 감압증, 기압 변화에 따른 체강통 등 고고도 생리현상도 함께 다룬다."
+          ]
+        },
+        {
+          "heading": "가속도와 비행착각",
+          "paragraphs": [
+            "+G에서 시각저하·blackout·의식상실 등이 나타날 수 있고, 시각·전정감각에 의한 다양한 비행착각을 설명한다. 공간정위상실 시 잘못된 신체감각보다 비행계기의 지시를 신뢰해야 한다고 강조한다."
+          ]
+        }
+      ],
+      "summary_points": [
+        "저산소증은 산소분압 저하와 관련",
+        "Hyperventilation은 과도한 호흡으로 CO₂ 감소",
+        "고도별 TUC 수치가 주요 암기",
+        "공간정위상실 시 계기 지시를 신뢰"
+      ]
+    },
+    {
+      "id": "AIRNAV-TH-27",
+      "order": 27,
+      "unit_title": "제7장 인적요소 일반",
+      "title": "7.3 항공심리",
+      "source_printed_pages": [
+        158,
+        159
+      ],
+      "source_pdf_pages": [
+        162,
+        163
+      ],
+      "question_ids": [
+        "AIR-NAV-492",
+        "AIR-NAV-493",
+        "AIR-NAV-494",
+        "AIR-NAV-495",
+        "AIR-NAV-496",
+        "AIR-NAV-497",
+        "AIR-NAV-498",
+        "AIR-NAV-499",
+        "AIR-NAV-500"
+      ],
+      "quiz_questions": 10,
+      "pass_percent": 80,
+      "sections": [
+        {
+          "heading": "운항승무원의 능력",
+          "paragraphs": [
+            "운항승무원에게는 평균 이상의 지능, 우수한 감각과 신경근육 협응, 건전한 정신활동과 정서안정 등이 요구된다고 설명한다."
+          ]
+        },
+        {
+          "heading": "Human error",
+          "paragraphs": [
+            "인적과오를 탈락, 수행, 대상 등의 형태로 분류하고 인간과 기계가 각각 우월한 특성을 비교한다. 인간은 예기치 않은 상황에서의 판단·응용·창조에 강점이 있고, 기계는 빠르고 정확한 반복과 대량 정보처리에 강점이 있다고 정리한다."
+          ]
+        }
+      ],
+      "summary_points": [
+        "운항승무원: 지능·감각·협응·정서안정",
+        "과오 유형: 탈락·수행·대상",
+        "기계 강점: 속도·반복·대량정보처리",
+        "인간 강점: 판단·응용·창조·적응"
+      ]
+    },
+    {
+      "id": "AIRNAV-TH-28",
+      "order": 28,
+      "unit_title": "제7장 인적요소 일반",
+      "title": "7.4 직무와 신체조건의 적정성",
+      "source_printed_pages": [
+        160,
+        162
+      ],
+      "source_pdf_pages": [
+        164,
+        166
+      ],
+      "question_ids": [
+        "AIR-NAV-501",
+        "AIR-NAV-502",
+        "AIR-NAV-503",
+        "AIR-NAV-504",
+        "AIR-NAV-505",
+        "AIR-NAV-506",
+        "AIR-NAV-507"
+      ],
+      "quiz_questions": 10,
+      "pass_percent": 80,
+      "sections": [
+        {
+          "heading": "건강과 약물",
+          "paragraphs": [
+            "교재는 건강을 신체·정신·사회적으로 안녕한 상태로 보고 예방을 1차·2차·3차로 구분한다. 영양, 약물 오남용과 자가복용이 조종수행능력에 미치는 영향도 설명한다."
+          ]
+        },
+        {
+          "heading": "스트레스와 긴급반응",
+          "paragraphs": [
+            "스트레스를 개인의 능력 한계를 넘어서는 환경요구와의 불균형으로 설명하고, 긴급상황에서 나타나는 생리적·심리적 반응단계를 정리한다."
+          ]
+        }
+      ],
+      "summary_points": [
+        "건강은 신체·정신·사회적 안녕 포함",
+        "예방은 1차·2차·3차로 구분",
+        "약물은 판단력·주의력·협응 등에 영향 가능",
+        "스트레스는 개인 능력과 환경 요구의 불균형"
+      ]
+    },
+    {
+      "id": "AIRNAV-TH-29",
+      "order": 29,
+      "unit_title": "제8장 인적요소 분야",
+      "title": "8.1 인간-인간(Liveware-Liveware)",
+      "source_printed_pages": [
+        172,
+        174
+      ],
+      "source_pdf_pages": [
+        176,
+        178
+      ],
+      "question_ids": [
+        "AIR-NAV-508",
+        "AIR-NAV-509",
+        "AIR-NAV-510",
+        "AIR-NAV-511",
+        "AIR-NAV-512"
+      ],
+      "quiz_questions": 10,
+      "pass_percent": 80,
+      "sections": [
+        {
+          "heading": "문화와 의사소통",
+          "paragraphs": [
+            "교재는 Anglo와 non-Anglo 문화권의 권위거리, 체면, 기장과 승무원 사이의 관계와 의사소통 방식 차이를 비교한다. 문화 차이가 조종실 의사소통과 CRM에 영향을 줄 수 있음을 다룬다."
+          ]
+        },
+        {
+          "heading": "Leadership과 Risk management",
+          "paragraphs": [
+            "관리격자 모델로 인간관계와 직무에 대한 관심 정도를 기준으로 리더십 유형을 구분하며 9.9형을 이상적인 형태로 설명한다. 또한 pilot, aircraft, environment, operation의 상호작용을 고려하는 위험관리 개념을 다룬다."
+          ]
+        }
+      ],
+      "summary_points": [
+        "문화 차이는 cockpit communication에 영향",
+        "Leadership grid는 인간·직무 관심 축으로 구성",
+        "9.9형 = 높은 인간관계 관심 + 높은 직무 관심",
+        "Risk management는 pilot·aircraft·environment·operation을 함께 고려"
+      ]
+    },
+    {
+      "id": "AIRNAV-TH-30",
+      "order": 30,
+      "unit_title": "제8장 인적요소 분야",
+      "title": "8.2 인간-소프트웨어/하드웨어(Liveware-Software/Hardware)",
+      "source_printed_pages": [
+        175,
+        178
+      ],
+      "source_pdf_pages": [
+        179,
+        182
+      ],
+      "question_ids": [
+        "AIR-NAV-513",
+        "AIR-NAV-514",
+        "AIR-NAV-515",
+        "AIR-NAV-516",
+        "AIR-NAV-517",
+        "AIR-NAV-518",
+        "AIR-NAV-519",
+        "AIR-NAV-520",
+        "AIR-NAV-521",
+        "AIR-NAV-522",
+        "AIR-NAV-523",
+        "AIR-NAV-524"
+      ],
+      "quiz_questions": 10,
+      "pass_percent": 80,
+      "sections": [
+        {
+          "heading": "SOP와 절차",
+          "paragraphs": [
+            "표준운영절차(SOP)는 복잡한 시스템을 일관성 있고 논리적으로 운용하도록 돕고 오류를 줄이는 조직적 기반이다. 교재는 절차위반이 사고와 연결될 수 있음을 사고분석 사례와 함께 설명한다.",
+            "조종석 운영의 3P는 philosophy, policies, procedures이며 practice를 추가한 4P 개념도 소개한다. 절차 변경사유와 call-out 원칙을 함께 다룬다."
+          ]
+        },
+        {
+          "heading": "Checklist와 자동화",
+          "paragraphs": [
+            "점검표의 설계·사용상 문제, 표준용어와 응답의 구체성, 자동화의 장점과 인간-기계 interface를 설명한다. 경고표시장치는 warning, caution, advisory 정보를 구분해 승무원의 주의를 유도해야 한다."
+          ]
+        }
+      ],
+      "summary_points": [
+        "SOP는 일관된 운용과 오류 감소를 지원",
+        "3P = Philosophy·Policies·Procedures",
+        "Checklist는 표준용어와 정확한 상태확인이 중요",
+        "ACW = Advisory·Caution·Warning"
+      ]
+    },
+    {
+      "id": "AIRNAV-TH-31",
+      "order": 31,
+      "unit_title": "제8장 인적요소 분야",
+      "title": "8.3 인간-환경(Liveware-Environment)",
+      "source_printed_pages": [
+        179,
+        180
+      ],
+      "source_pdf_pages": [
+        183,
+        184
+      ],
+      "question_ids": [
+        "AIR-NAV-525",
+        "AIR-NAV-526",
+        "AIR-NAV-527",
+        "AIR-NAV-528",
+        "AIR-NAV-529"
+      ],
+      "quiz_questions": 10,
+      "pass_percent": 80,
+      "sections": [
+        {
+          "heading": "물리적 환경",
+          "paragraphs": [
+            "온도, 습도, 시차와 같은 환경요소가 승무원의 쾌적성·피로·집중력에 미치는 영향을 다룬다. 장거리 비행의 시차는 생체리듬과 생활리듬의 불일치를 만들어 피로를 유발할 수 있다고 설명한다."
+          ]
+        },
+        {
+          "heading": "문화적 환경",
+          "paragraphs": [
+            "Hofstede의 문화차원으로 권력거리, 불확실성 회피, 개인주의, 남성성을 소개하고 이러한 문화적 특성이 CRM과 조직행동에 영향을 줄 수 있음을 설명한다."
+          ]
+        }
+      ],
+      "summary_points": [
+        "온도·습도·시차는 인적수행에 영향",
+        "시차는 생체리듬 불일치와 피로를 유발",
+        "Hofstede: 권력거리·불확실성회피·개인주의·남성성",
+        "문화적 환경도 CRM의 일부"
+      ]
+    }
+  ]
+}
