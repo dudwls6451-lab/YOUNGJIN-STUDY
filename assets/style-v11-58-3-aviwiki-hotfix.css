@@ -1,0 +1,112 @@
+/* v11.58.2 — Aviwiki theme restore hotfix.
+   Do not alter Aviwiki content/layout; only make annotation controls inherit the original dark reader. */
+
+#aviwikiReaderCard .aviwiki-annotation-viewport,
+#aviwikiReaderCard .aviwiki-annotation-surface {
+  background: transparent !important;
+  color: inherit !important;
+}
+
+#aviwikiReaderCard .aviwiki-annotation-viewport {
+  border-color: rgba(148,163,184,.26) !important;
+  box-shadow: none !important;
+}
+
+#aviwikiReaderCard .aviwiki-article-body,
+#aviwikiReaderCard .aviwiki-article-body p,
+#aviwikiReaderCard .aviwiki-article-body li,
+#aviwikiReaderCard .aviwiki-article-body td,
+#aviwikiReaderCard .aviwiki-article-body th {
+  color: inherit !important;
+}
+
+/* v11.56.1 introduced a white sticky annotation toolbar.
+   Restore it to the same dark visual language as the Aviwiki reader. */
+#aviwikiReaderCard .aviwiki-annotation-toolbar {
+  background: rgba(12,21,34,.94) !important;
+  border-color: rgba(79,109,145,.42) !important;
+  box-shadow: none !important;
+  backdrop-filter: blur(10px);
+}
+
+#aviwikiReaderCard .aviwiki-tool-btn,
+#aviwikiReaderCard .aviwiki-draw-tool,
+#aviwikiReaderCard .aviwiki-tool-select {
+  background: #122238 !important;
+  color: #eaf2fb !important;
+  border-color: #29435f !important;
+}
+
+#aviwikiReaderCard .aviwiki-tool-btn:hover,
+#aviwikiReaderCard .aviwiki-draw-tool:hover {
+  background: #18304d !important;
+}
+
+#aviwikiReaderCard .aviwiki-tool-btn.active,
+#aviwikiReaderCard .aviwiki-draw-tool.active {
+  background: #16c7cf !important;
+  color: #06131c !important;
+  border-color: #16c7cf !important;
+}
+
+#aviwikiReaderCard .aviwiki-tool-btn.save {
+  background: #16c7cf !important;
+  color: #06131c !important;
+  border-color: #16c7cf !important;
+}
+
+#aviwikiReaderCard .aviwiki-color-label,
+#aviwikiReaderCard .aviwiki-width-label {
+  color: #cbd7e5 !important;
+}
+
+#aviwikiReaderCard .aviwiki-color-label input {
+  background: #122238 !important;
+  border-color: #29435f !important;
+}
+
+/* Highlight colors remain readable on dark text pages. */
+#aviwikiReaderCard .aviwiki-highlight-yellow { background:#7a6814 !important; color:inherit !important; }
+#aviwikiReaderCard .aviwiki-highlight-green  { background:#1c6647 !important; color:inherit !important; }
+#aviwikiReaderCard .aviwiki-highlight-pink   { background:#7b3b54 !important; color:inherit !important; }
+#aviwikiReaderCard .aviwiki-highlight-blue   { background:#285d8e !important; color:inherit !important; }
+
+@media (max-width:720px) {
+  #aviwikiReaderCard .aviwiki-annotation-toolbar {
+    padding: 7px !important;
+    border-radius: 10px !important;
+  }
+  #aviwikiReaderCard .aviwiki-tool-btn,
+  #aviwikiReaderCard .aviwiki-draw-tool,
+  #aviwikiReaderCard .aviwiki-tool-select {
+    min-height: 38px;
+  }
+}
+
+/* v11.58.3 — stronger Aviwiki highlights.
+   Highlighted text always switches to dark ink on a bright marker background. */
+#aviwikiReaderCard mark.aviwiki-highlight {
+  color: #07111d !important;
+  font-weight: 650 !important;
+  text-shadow: none !important;
+  border-radius: .18em !important;
+  padding: 0 .08em !important;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+#aviwikiReaderCard mark.aviwiki-highlight-yellow {
+  background: #ffe55c !important;
+  box-shadow: inset 0 -.05em 0 rgba(193,144,0,.28) !important;
+}
+#aviwikiReaderCard mark.aviwiki-highlight-green {
+  background: #8ff0b5 !important;
+  box-shadow: inset 0 -.05em 0 rgba(19,128,77,.22) !important;
+}
+#aviwikiReaderCard mark.aviwiki-highlight-pink {
+  background: #ff9fbd !important;
+  box-shadow: inset 0 -.05em 0 rgba(177,52,94,.20) !important;
+}
+#aviwikiReaderCard mark.aviwiki-highlight-blue {
+  background: #91ccff !important;
+  box-shadow: inset 0 -.05em 0 rgba(42,114,175,.22) !important;
+}
