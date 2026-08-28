@@ -1,0 +1,23 @@
+V11.58.3 — AVIWIKI 형광펜 가독성 + 필기 저장 핫픽스
+
+기준
+- v11.58.2
+
+수정
+- 형광펜: 밝은 4색 + 강제 진한 글자색으로 다크모드 가독성 확보
+- 필기 캡처: Android에서 불안정한 SVG foreignObject 방식을 제거
+- html2canvas로 현재 필기 박스의 보이는 영역만 캡처
+- WebP 압축 저장, WebP 불가 시 PNG 자동 fallback
+- 모바일에서 프로필 로딩이 늦어도 Supabase auth session으로 사용자 ID 재확인
+- 클라우드 업로드/DB 저장 오류 메시지 개선
+
+보존
+- AVIWIKI 본문/과목 데이터 변경 없음
+- Emergency & Aeromedical 유지
+- K-AIM 보강 이론 30단계 유지
+- 기존 형광펜/필기 데이터 유지
+- 기존 v11.57 Supabase SQL 그대로 사용 (추가 SQL 없음)
+
+적용
+- v11.58.2 위에 ZIP 내용물을 저장소 루트에 덮어쓰기
+- 앱/브라우저 완전 종료 후 다시 열기

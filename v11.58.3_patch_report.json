@@ -1,0 +1,24 @@
+{
+  "patch_revision": "v11.58.3-aviwiki-highlight-cloud-save-fix",
+  "base_required": "v11.58.2",
+  "changes": {
+    "aviwiki_content_changed": false,
+    "kaim_theory_changed": false,
+    "emergency_aeromedical_changed": false,
+    "highlight_contrast": "bright marker background + forced dark text",
+    "note_capture": "html2canvas bounded viewport capture",
+    "note_format": "WebP 0.82 with PNG fallback",
+    "cloud_user_resolution": "profile id first, Supabase auth session fallback",
+    "cache_bust": true
+  },
+  "sql_change_required": false,
+  "files": [
+    "index.html",
+    "assets/app-v11-39.js",
+    "assets/style-v11-58-3-aviwiki-hotfix.css",
+    "data/aviwiki-emergency-aeromedical-v1.json",
+    "data/theory-kaim-course-v3.json",
+    "V11.58.3_README.txt",
+    "v11.58.3_patch_report.json"
+  ]
+}
