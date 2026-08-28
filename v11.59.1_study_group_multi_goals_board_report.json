@@ -1,0 +1,56 @@
+{
+  "version": "v11.59.1",
+  "base": "v11.59.0 Study Group",
+  "features": {
+    "multiple_daily_goals": true,
+    "goal_types": [
+      "study_time",
+      "theory_stage",
+      "questions"
+    ],
+    "goal_add_edit_delete": true,
+    "per_member_per_goal_status": true,
+    "overall_goal_completion_ratio": true,
+    "group_board": true,
+    "posts": true,
+    "comments": true,
+    "author_delete": true,
+    "leader_moderation_delete": true,
+    "board_refresh_seconds": 60,
+    "legacy_v11590_goal_migration": true
+  },
+  "database": {
+    "new_tables": [
+      "study_group_goals",
+      "study_group_posts",
+      "study_group_comments"
+    ],
+    "new_rpc_functions": [
+      "study_group_goals",
+      "study_group_save_goal",
+      "study_group_delete_goal",
+      "study_group_dashboard_v2",
+      "study_group_board_posts",
+      "study_group_board_create_post",
+      "study_group_board_delete_post",
+      "study_group_board_comments",
+      "study_group_board_create_comment",
+      "study_group_board_delete_comment"
+    ],
+    "migration_sql": "supabase/V11.59.1_STUDY_GROUP_MULTI_GOALS_BOARD.sql",
+    "full_installer_sql": "supabase/V11.59.1_STUDY_GROUP_FULL.sql",
+    "rls_enabled_for_new_tables": true
+  },
+  "validation": {
+    "index_uses_new_css": true,
+    "index_uses_new_js": true,
+    "static_html_duplicate_ids": [],
+    "all_required_rpc_referenced": true,
+    "all_required_rpc_defined": true,
+    "sql_dollar_quote_pairs_even": true,
+    "base_app_preserved": true,
+    "air_navigation_data_preserved": true,
+    "flight_theory_course_preserved": true,
+    "air_navigation_course_preserved": true
+  }
+}

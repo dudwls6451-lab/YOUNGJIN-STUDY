@@ -1,0 +1,31 @@
+PilotBank v11.59.1 — Study Group Multi Goals + Board
+Base: v11.59.0 Study Group
+
+[추가 기능]
+1) 날짜별 목표를 여러 개 추가/수정/삭제
+   - 공부시간 목표
+   - 이론 학습진도 목표 (여러 교재를 동시에 각각 설정 가능)
+   - 문제 풀이 목표
+   - 각 목표별 이름/메모
+2) 그룹원 카드에서 각 목표의 현재값/목표값/달성 여부와 전체 달성률 표시
+3) 스터디그룹 게시판
+   - 모든 그룹원 글 작성
+   - 댓글 작성
+   - 글/댓글 작성자 삭제 가능
+   - 그룹장은 그룹 관리 목적으로 모든 글/댓글 삭제 가능
+   - 게시판 최근 글 50개 표시
+4) v11.59.0에서 이미 설정한 단일 일일목표는 새 다중목표 구조로 자동 이전
+
+[적용]
+A. 가장 간단한 방법
+   Supabase SQL Editor에서 supabase/V11.59.1_STUDY_GROUP_FULL.sql 전체 실행
+   -> v11.59.0 SQL을 이미 실행했어도 재실행 가능하도록 작성됨.
+B. v11.59.0 SQL이 이미 적용되어 있다면
+   supabase/V11.59.1_STUDY_GROUP_MULTI_GOALS_BOARD.sql만 실행해도 됨.
+C. 그 후 이 ZIP을 GitHub 저장소 루트에 덮어쓰기 후 Commit / Push.
+D. 브라우저 강력 새로고침.
+
+[DB]
+신규 테이블: study_group_goals, study_group_posts, study_group_comments
+기존 study_groups / members / invites / v11.59.0 daily_goals는 보존됩니다.
+게시판과 다중목표 쓰기는 RPC로만 처리되며, RLS로 그룹 외 회원의 조회를 차단합니다.
