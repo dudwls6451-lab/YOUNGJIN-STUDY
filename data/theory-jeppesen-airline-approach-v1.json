@@ -1,0 +1,232 @@
+{
+  "metadata": {
+    "name": "Jeppesen Airway Manual · Approach Chart Legend Airline Format",
+    "subject": "Jeppesen Airway Manual · Approach Chart Legend Airline Format",
+    "source_file": "TalkFile_JEPPESEN AIRWAY MANUAL (251113).pdf",
+    "scope": "Approach Chart Legend Airline Format p.199–202",
+    "course_type": "reference_approach_chart_legend_airline_format",
+    "visual_item_count": 11,
+    "stage_count": 3,
+    "quiz_rule": {
+      "questions": "all stage questions",
+      "pass_percent": 80
+    },
+    "version": "v11.60.20"
+  },
+  "stages": [
+    {
+      "id": "JEPP-AIRLINE-APPROACH-STAGE-01",
+      "unit_title": "Approach Chart Legend Airline Format",
+      "title": "General · Heading · MSA",
+      "source_printed_pages": [
+        199
+      ],
+      "source_pdf_pages": [
+        199
+      ],
+      "sections": [
+        {
+          "heading": "GENERAL",
+          "paragraphs": [
+            "이 Airline Format 범례는 표준 Approach Chart Legend를 보충하는 자료이다. Airline chart는 aircraft categories C와 D만을 대상으로 하며, 1차 정보와 2차 정보를 더 잘 구분하기 위해 파란색을 추가 색상으로 사용한다."
+          ]
+        },
+        {
+          "heading": "APPROACH CHART HEADING",
+          "paragraphs": [
+            "Airline chart icon이 헤딩에 표시된다. 여러 국가에서 ICAO 권고에 따라 CAT II와 CAT III suffix 표기를 통상 생략하며, 가능한 경우 CAT I·CAT II·CAT III ILS 절차를 결합한다. 활주로가 CAT III 승인인 경우 허용되는 가장 낮은 CAT III minimum을 표시하고 CAT I/II는 minimums 교차참조로 안내한다."
+          ]
+        },
+        {
+          "heading": "MINIMUM SECTOR ALTITUDE",
+          "paragraphs": [
+            "MSA는 상황인식 향상을 위해 Plan View에 축척대로 표시된다. 복잡한 MSA를 수용하고 익숙한 형식을 유지하기 위해 Briefing Strip에도 MSA를 유지한다. 두 위치의 MSA는 같은 색으로 표시되며, Briefing Strip은 전체 MSA coverage를 보여주는 반면 Plan View에는 실제 차트 영역에 영향을 주는 MSA 정보만 표시한다."
+          ]
+        },
+        {
+          "heading": "Airline chart icon",
+          "paragraphs": [
+            "Airline Format 접근차트의 헤딩에는 airline chart icon이 표시된다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airline-approach-legend/airline-approach-heading.webp",
+            "caption": "Approach Chart Legend Airline Format p.199 · Airline chart icon"
+          }
+        },
+        {
+          "heading": "CAT I, CAT II, CAT III ILS procedures combined when possible",
+          "paragraphs": [
+            "ICAO 권고에 따라 CAT II와 CAT III suffix 표기는 여러 국가에서 통상 생략되며, 가능한 경우 CAT I·CAT II·CAT III ILS 절차를 하나의 차트에 결합한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airline-approach-legend/airline-approach-heading.webp",
+            "caption": "Approach Chart Legend Airline Format p.199 · CAT I, CAT II, CAT III ILS procedures combined when possible"
+          }
+        },
+        {
+          "heading": "Lowest permissible CAT III minimum with CAT I/II cross-reference",
+          "paragraphs": [
+            "활주로가 CAT III 승인을 받은 경우 허용되는 가장 낮은 CAT III 최저치를 표시하고, CAT I 및 CAT II 최저치는 minimums를 참조하도록 교차참조한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airline-approach-legend/airline-cat3-minimum.webp",
+            "caption": "Approach Chart Legend Airline Format p.199 · Lowest permissible CAT III minimum with CAT I/II cross-reference"
+          }
+        },
+        {
+          "heading": "Minimum Sector Altitude depicted to-scale in the Plan View",
+          "paragraphs": [
+            "상황인식 향상을 위해 MSA를 Plan View에 축척대로 표시한다. MSA는 Briefing Strip에도 유지되며 두 위치에서 같은 색으로 표시되고, Plan View에는 차트 영역에 영향을 주는 MSA 정보만 나타난다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airline-approach-legend/airline-msa-planview.webp",
+            "caption": "Approach Chart Legend Airline Format p.199 · Minimum Sector Altitude depicted to-scale in the Plan View"
+          }
+        }
+      ],
+      "quiz_question_ids": [
+        "JEPP-AIRLINE-APPROACH-001",
+        "JEPP-AIRLINE-APPROACH-002",
+        "JEPP-AIRLINE-APPROACH-003",
+        "JEPP-AIRLINE-APPROACH-004"
+      ]
+    },
+    {
+      "id": "JEPP-AIRLINE-APPROACH-STAGE-02",
+      "unit_title": "Approach Chart Legend Airline Format",
+      "title": "Plan View · Profile View",
+      "source_printed_pages": [
+        201
+      ],
+      "source_pdf_pages": [
+        201
+      ],
+      "sections": [
+        {
+          "heading": "PLAN VIEW",
+          "paragraphs": [
+            "DME 거리와 radial 정보는 5 NM 간격으로 표시된다. Prohibited, Restricted, Danger Area와 같은 Special Use Airspace 및 secondary airport가 별도의 시각 요소로 표시된다."
+          ]
+        },
+        {
+          "heading": "PROFILE VIEW",
+          "paragraphs": [
+            "Recommended Altitude Descent Table이 사용된다. 국가가 이미 제공하지 않은 경우, 적절한 DME가 절차에 사용되면 비정밀접근에 FAF에서 시작하는 DME ribbon을 표시한다. 적절한 DME가 없고 절차가 FMS용으로 코딩된 경우 표는 다음 waypoint까지의 거리를 기준으로 할 수 있다."
+          ]
+        },
+        {
+          "heading": "Conversion Table",
+          "paragraphs": [
+            "Conversion Table의 접근속도는 aircraft categories C와 D에 더 잘 맞도록 조정되어 있다."
+          ]
+        },
+        {
+          "heading": "DME distance and radial information spaced at intervals of 5 NM",
+          "paragraphs": [
+            "Airline Format Plan View에서는 DME 거리와 radial 정보를 5 NM 간격으로 표시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airline-approach-legend/airline-dme-5nm.webp",
+            "caption": "Approach Chart Legend Airline Format p.201 · DME distance and radial information spaced at intervals of 5 NM"
+          }
+        },
+        {
+          "heading": "Special use airspace (Prohibited, Restricted, Danger Areas)",
+          "paragraphs": [
+            "Plan View에 Prohibited, Restricted, Danger Area와 같은 Special Use Airspace를 표시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airline-approach-legend/airline-special-use-airspace.webp",
+            "caption": "Approach Chart Legend Airline Format p.201 · Special use airspace (Prohibited, Restricted, Danger Areas)"
+          }
+        },
+        {
+          "heading": "Secondary airport",
+          "paragraphs": [
+            "Airline Format Plan View에서 secondary airport는 주 공항 정보와 구분되도록 별도의 표현으로 나타낸다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airline-approach-legend/airline-secondary-airport.webp",
+            "caption": "Approach Chart Legend Airline Format p.201 · Secondary airport"
+          }
+        },
+        {
+          "heading": "Recommended Altitude Descent Table",
+          "paragraphs": [
+            "Profile View에는 비정밀접근에서 연속강하를 지원하기 위한 Recommended Altitude Descent Table이 표시될 수 있다. 적절한 DME를 사용하는 경우 FAF에서 시작하는 DME ribbon이 사용되며, 적절한 DME가 없고 절차가 FMS용으로 코딩된 경우 다음 waypoint까지의 거리를 기준으로 표를 구성할 수 있다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airline-approach-legend/airline-recommended-altitude-descent-table.webp",
+            "caption": "Approach Chart Legend Airline Format p.201 · Recommended Altitude Descent Table"
+          }
+        },
+        {
+          "heading": "Conversion Table",
+          "paragraphs": [
+            "Airline Format의 Conversion Table은 지상속도와 강하각에 대응하는 강하율 정보를 제공한다. 접근속도 값은 항공기 Category C와 D에 더 잘 맞도록 조정되어 있다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airline-approach-legend/airline-conversion-table.webp",
+            "caption": "Approach Chart Legend Airline Format p.201 · Conversion Table"
+          }
+        }
+      ],
+      "quiz_question_ids": [
+        "JEPP-AIRLINE-APPROACH-005",
+        "JEPP-AIRLINE-APPROACH-006",
+        "JEPP-AIRLINE-APPROACH-007",
+        "JEPP-AIRLINE-APPROACH-008",
+        "JEPP-AIRLINE-APPROACH-009"
+      ]
+    },
+    {
+      "id": "JEPP-AIRLINE-APPROACH-STAGE-03",
+      "unit_title": "Approach Chart Legend Airline Format",
+      "title": "Approach & Airport Chart Minimums",
+      "source_printed_pages": [
+        202
+      ],
+      "source_pdf_pages": [
+        202
+      ],
+      "sections": [
+        {
+          "heading": "APPROACH AND AIRPORT CHART MINIMUMS",
+          "paragraphs": [
+            "Airline Format에는 Landing Minimums와 Take-off Minimums의 별도 표기 예시가 제공된다. 원본 Landing Minimums 예시는 ILS CAT IIIB 운항 승인을 받은 활주로를 대상으로 한다."
+          ]
+        },
+        {
+          "heading": "AIRLINE FORMAT CAUTION",
+          "paragraphs": [
+            "AIRLINE FORMAT 제목의 범례 페이지는 항공사용 차트에 고유한 항목만 포함한다. 이 Airline Format 범례에서 다루지 않는 정보는 “NEW FORMAT” 및 일반 “APPROACH CHART LEGEND”를 참조해야 한다. p.202의 이 문구 다음부터는 별도 파트인 SID/DP/STAR OVERVIEW CHART LEGEND AIRLINE FORMAT이 시작된다."
+          ]
+        },
+        {
+          "heading": "Landing Minimums — airline format",
+          "paragraphs": [
+            "Airline Format에는 착륙최저치 표가 별도 형식으로 제공되며, 원본 예시는 ILS CAT IIIB 운항 승인을 받은 활주로의 landing minimums 표기 예시이다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airline-approach-legend/airline-landing-minimums.webp",
+            "caption": "Approach Chart Legend Airline Format p.202 · Landing Minimums — airline format"
+          }
+        },
+        {
+          "heading": "Take-off Minimums — airline format",
+          "paragraphs": [
+            "Airline Format에는 이륙최저치 표가 제공되며, AIRLINE FORMAT 범례는 항공사용 차트에 고유한 항목만 설명한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airline-approach-legend/airline-takeoff-minimums.webp",
+            "caption": "Approach Chart Legend Airline Format p.202 · Take-off Minimums — airline format"
+          }
+        }
+      ],
+      "quiz_question_ids": [
+        "JEPP-AIRLINE-APPROACH-010",
+        "JEPP-AIRLINE-APPROACH-011"
+      ]
+    }
+  ]
+}

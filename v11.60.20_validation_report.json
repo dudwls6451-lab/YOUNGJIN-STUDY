@@ -1,0 +1,31 @@
+{
+  "version": "v11.60.20",
+  "base": "v11.60.19",
+  "source_scope": "Jeppesen Airway Manual Approach Chart Legend Airline Format p.199–202",
+  "checks": {
+    "question_count": 11,
+    "stage_count": 3,
+    "unique_ids": true,
+    "four_choices_all": true,
+    "all_images_exist": true,
+    "new_asset_count": 10,
+    "no_previous_figure_dirs": true,
+    "index_has_script": true,
+    "js_syntax": true,
+    "zip_integrity": true,
+    "zip_file_count": 16,
+    "zip_size_bytes": 117406
+  },
+  "new_asset_files": [
+    "airline-conversion-table.webp",
+    "airline-secondary-airport.webp",
+    "airline-msa-planview.webp",
+    "airline-cat3-minimum.webp",
+    "airline-takeoff-minimums.webp",
+    "airline-special-use-airspace.webp",
+    "airline-dme-5nm.webp",
+    "airline-recommended-altitude-descent-table.webp",
+    "airline-approach-heading.webp",
+    "airline-landing-minimums.webp"
+  ]
+}
