@@ -1,0 +1,43 @@
+{
+  "version": "v11.60.21",
+  "base": "v11.60.20",
+  "source_scope": "Jeppesen Airway Manual Signs and Markings — United States Airport Sign Systems p.207–214",
+  "checks": {
+    "question_count": 22,
+    "stage_count": 4,
+    "unique_ids": true,
+    "four_choices_all": true,
+    "all_images_exist": true,
+    "new_asset_count": 22,
+    "only_new_figure_dir": true,
+    "index_has_script": true,
+    "js_syntax": true,
+    "zip_integrity": true,
+    "zip_file_count": 29,
+    "zip_size_bytes": 149393
+  },
+  "new_asset_files": [
+    "us-sign-01-runway-holding-both.webp",
+    "us-sign-02-runway-holding-takeoff.webp",
+    "us-sign-03-runway-intersection-holding.webp",
+    "us-sign-04-ils-critical-area-holding.webp",
+    "us-sign-05-runway-approach-area-holding.webp",
+    "us-sign-06-no-entry.webp",
+    "us-sign-07-taxiway-location.webp",
+    "us-sign-08-runway-location.webp",
+    "us-sign-09-runway-boundary.webp",
+    "us-sign-10-ils-critical-area-boundary.webp",
+    "us-sign-11-taxiway-direction-runway-exit.webp",
+    "us-sign-12-crossing-taxiway-direction.webp",
+    "us-sign-13-outbound-destination.webp",
+    "us-sign-14-outbound-destination-multiple-runways.webp",
+    "us-sign-15-inbound-destination.webp",
+    "us-sign-16-runway-distance-remaining.webp",
+    "us-sign-17-example-two-runways.webp",
+    "us-sign-18-example-two-runway-ends.webp",
+    "us-sign-19-example-runway-intersections.webp",
+    "us-sign-20-example-standard-fourway.webp",
+    "us-sign-21-example-direction-change.webp",
+    "us-sign-22-example-complex-airport.webp"
+  ]
+}

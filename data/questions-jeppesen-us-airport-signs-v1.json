@@ -1,0 +1,1114 @@
+{
+  "metadata": {
+    "name": "Jeppesen Airway Manual · United States Airport Sign Systems",
+    "subject": "Jeppesen Airway Manual · United States Airport Sign Systems",
+    "source_file": "TalkFile_JEPPESEN AIRWAY MANUAL (251113).pdf",
+    "scope": "Signs and Markings — United States Airport Sign Systems p.207–214; p.215+ runway markings excluded",
+    "course_type": "reference_us_airport_sign_systems",
+    "question_count": 22,
+    "stage_count": 4,
+    "version": "v11.60.21"
+  },
+  "questions": [
+    {
+      "id": "JEPP-US-SIGNS-001",
+      "number": 1,
+      "subject": "Jeppesen Airway Manual · United States Airport Sign Systems",
+      "study_unit": 1,
+      "study_unit_title": "Signs and Markings · United States Airport Sign Systems",
+      "subunit": {
+        "code": "US-SIGNS-STAGE-01",
+        "title": "Mandatory Signs"
+      },
+      "source_page": 207,
+      "question": "다음 Jeppesen United States Airport Sign Systems 이미지가 나타내는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Takeoff Runway Holding Sign — runway designation only"
+        },
+        {
+          "id": "B",
+          "text": "Runway Approach Area Holding Sign"
+        },
+        {
+          "id": "C",
+          "text": "Taxiway/Runway and Runway/Runway Holding Sign"
+        },
+        {
+          "id": "D",
+          "text": "No Entry Sign"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 Taxiway/Runway and Runway/Runway Holding Sign입니다. 활주로와 교차하는 유도로 또는 다른 활주로와 교차하는 활주로의 holding position에 설치한다. 표지에는 교차 활주로의 designation이 표시되며, 예시 15-33은 RWY 15 threshold가 왼쪽, RWY 33 threshold가 오른쪽임을 나타낸다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Signs and Markings · United States Airport Sign Systems p.207",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-us-airport-signs/us-sign-01-runway-holding-both.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Signs and Markings",
+        "United States Airport Sign Systems",
+        "Taxiway/Runway and Runway/Runway Holding Sign"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Taxiway/Runway and Runway/Runway Holding Sign",
+      "source_description_ko": "활주로와 교차하는 유도로 또는 다른 활주로와 교차하는 활주로의 holding position에 설치한다. 표지에는 교차 활주로의 designation이 표시되며, 예시 15-33은 RWY 15 threshold가 왼쪽, RWY 33 threshold가 오른쪽임을 나타낸다."
+    },
+    {
+      "id": "JEPP-US-SIGNS-002",
+      "number": 2,
+      "subject": "Jeppesen Airway Manual · United States Airport Sign Systems",
+      "study_unit": 1,
+      "study_unit_title": "Signs and Markings · United States Airport Sign Systems",
+      "subunit": {
+        "code": "US-SIGNS-STAGE-01",
+        "title": "Mandatory Signs"
+      },
+      "source_page": 207,
+      "question": "다음 Jeppesen United States Airport Sign Systems 이미지가 나타내는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Runway/Runway Holding Sign at an Intersection of Two Runways"
+        },
+        {
+          "id": "B",
+          "text": "Takeoff Runway Holding Sign — runway designation only"
+        },
+        {
+          "id": "C",
+          "text": "ILS Critical Area Holding Sign"
+        },
+        {
+          "id": "D",
+          "text": "Runway Approach Area Holding Sign"
+        }
+      ],
+      "answer": "B",
+      "explanation": "정답은 Takeoff Runway Holding Sign — runway designation only입니다. 유도로가 이륙활주로 시작점과 교차하는 경우에는 이륙에 사용하는 활주로의 designation 하나만 표지에 표시될 수 있다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Signs and Markings · United States Airport Sign Systems p.207",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-us-airport-signs/us-sign-02-runway-holding-takeoff.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Signs and Markings",
+        "United States Airport Sign Systems",
+        "Takeoff Runway Holding Sign — runway designation only"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Takeoff Runway Holding Sign — runway designation only",
+      "source_description_ko": "유도로가 이륙활주로 시작점과 교차하는 경우에는 이륙에 사용하는 활주로의 designation 하나만 표지에 표시될 수 있다."
+    },
+    {
+      "id": "JEPP-US-SIGNS-003",
+      "number": 3,
+      "subject": "Jeppesen Airway Manual · United States Airport Sign Systems",
+      "study_unit": 1,
+      "study_unit_title": "Signs and Markings · United States Airport Sign Systems",
+      "subunit": {
+        "code": "US-SIGNS-STAGE-01",
+        "title": "Mandatory Signs"
+      },
+      "source_page": 207,
+      "question": "다음 Jeppesen United States Airport Sign Systems 이미지가 나타내는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Runway/Runway Holding Sign at an Intersection of Two Runways"
+        },
+        {
+          "id": "B",
+          "text": "ILS Critical Area Holding Sign"
+        },
+        {
+          "id": "C",
+          "text": "Takeoff Runway Holding Sign — runway designation only"
+        },
+        {
+          "id": "D",
+          "text": "No Entry Sign"
+        }
+      ],
+      "answer": "A",
+      "explanation": "정답은 Runway/Runway Holding Sign at an Intersection of Two Runways입니다. 유도로가 두 활주로의 교차부와 만나는 경우 두 활주로 designation과 각 활주로의 대략적인 방향을 나타내는 화살표가 함께 표시된다. 화살표는 바로 옆 활주로 designation의 threshold 방향도 나타낸다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Signs and Markings · United States Airport Sign Systems p.207",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-us-airport-signs/us-sign-03-runway-intersection-holding.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Signs and Markings",
+        "United States Airport Sign Systems",
+        "Runway/Runway Holding Sign at an Intersection of Two Runways"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Runway/Runway Holding Sign at an Intersection of Two Runways",
+      "source_description_ko": "유도로가 두 활주로의 교차부와 만나는 경우 두 활주로 designation과 각 활주로의 대략적인 방향을 나타내는 화살표가 함께 표시된다. 화살표는 바로 옆 활주로 designation의 threshold 방향도 나타낸다."
+    },
+    {
+      "id": "JEPP-US-SIGNS-004",
+      "number": 4,
+      "subject": "Jeppesen Airway Manual · United States Airport Sign Systems",
+      "study_unit": 1,
+      "study_unit_title": "Signs and Markings · United States Airport Sign Systems",
+      "subunit": {
+        "code": "US-SIGNS-STAGE-01",
+        "title": "Mandatory Signs"
+      },
+      "source_page": 207,
+      "question": "다음 Jeppesen United States Airport Sign Systems 이미지가 나타내는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Takeoff Runway Holding Sign — runway designation only"
+        },
+        {
+          "id": "B",
+          "text": "Runway Approach Area Holding Sign"
+        },
+        {
+          "id": "C",
+          "text": "ILS Critical Area Holding Sign"
+        },
+        {
+          "id": "D",
+          "text": "Taxiway/Runway and Runway/Runway Holding Sign"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 ILS Critical Area Holding Sign입니다. ILS 사용 시 정상 holding position과 다른 위치에서 대기해야 할 필요가 있는 경우 사용한다. 표지에는 ILS가 표시되며 유도로의 ILS holding position marking 옆에 설치된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Signs and Markings · United States Airport Sign Systems p.207",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-us-airport-signs/us-sign-04-ils-critical-area-holding.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Signs and Markings",
+        "United States Airport Sign Systems",
+        "ILS Critical Area Holding Sign"
+      ],
+      "reference_study_only": true,
+      "legend_label": "ILS Critical Area Holding Sign",
+      "source_description_ko": "ILS 사용 시 정상 holding position과 다른 위치에서 대기해야 할 필요가 있는 경우 사용한다. 표지에는 ILS가 표시되며 유도로의 ILS holding position marking 옆에 설치된다."
+    },
+    {
+      "id": "JEPP-US-SIGNS-005",
+      "number": 5,
+      "subject": "Jeppesen Airway Manual · United States Airport Sign Systems",
+      "study_unit": 1,
+      "study_unit_title": "Signs and Markings · United States Airport Sign Systems",
+      "subunit": {
+        "code": "US-SIGNS-STAGE-01",
+        "title": "Mandatory Signs"
+      },
+      "source_page": 208,
+      "question": "다음 Jeppesen United States Airport Sign Systems 이미지가 나타내는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "No Entry Sign"
+        },
+        {
+          "id": "B",
+          "text": "Runway Approach Area Holding Sign"
+        },
+        {
+          "id": "C",
+          "text": "Takeoff Runway Holding Sign — runway designation only"
+        },
+        {
+          "id": "D",
+          "text": "ILS Critical Area Holding Sign"
+        }
+      ],
+      "answer": "B",
+      "explanation": "정답은 Runway Approach Area Holding Sign입니다. 유도로가 활주로 접근 또는 출발 영역 안에 있어 해당 활주로 운항에 간섭할 수 있는 경우 사용한다. 접근방향 활주로 designation 뒤에 “-APCH”가 표시된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Signs and Markings · United States Airport Sign Systems p.208",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-us-airport-signs/us-sign-05-runway-approach-area-holding.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Signs and Markings",
+        "United States Airport Sign Systems",
+        "Runway Approach Area Holding Sign"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Runway Approach Area Holding Sign",
+      "source_description_ko": "유도로가 활주로 접근 또는 출발 영역 안에 있어 해당 활주로 운항에 간섭할 수 있는 경우 사용한다. 접근방향 활주로 designation 뒤에 “-APCH”가 표시된다."
+    },
+    {
+      "id": "JEPP-US-SIGNS-006",
+      "number": 6,
+      "subject": "Jeppesen Airway Manual · United States Airport Sign Systems",
+      "study_unit": 1,
+      "study_unit_title": "Signs and Markings · United States Airport Sign Systems",
+      "subunit": {
+        "code": "US-SIGNS-STAGE-01",
+        "title": "Mandatory Signs"
+      },
+      "source_page": 208,
+      "question": "다음 Jeppesen United States Airport Sign Systems 이미지가 나타내는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "No Entry Sign"
+        },
+        {
+          "id": "B",
+          "text": "Takeoff Runway Holding Sign — runway designation only"
+        },
+        {
+          "id": "C",
+          "text": "ILS Critical Area Holding Sign"
+        },
+        {
+          "id": "D",
+          "text": "Runway Approach Area Holding Sign"
+        }
+      ],
+      "answer": "A",
+      "explanation": "정답은 No Entry Sign입니다. 항공기의 진입이 금지된 구역을 나타낸다. 일방통행 유도로 또는 차량도로가 활주로·유도로·apron과 만나는 곳 등에서 사용될 수 있다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Signs and Markings · United States Airport Sign Systems p.208",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-us-airport-signs/us-sign-06-no-entry.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Signs and Markings",
+        "United States Airport Sign Systems",
+        "No Entry Sign"
+      ],
+      "reference_study_only": true,
+      "legend_label": "No Entry Sign",
+      "source_description_ko": "항공기의 진입이 금지된 구역을 나타낸다. 일방통행 유도로 또는 차량도로가 활주로·유도로·apron과 만나는 곳 등에서 사용될 수 있다."
+    },
+    {
+      "id": "JEPP-US-SIGNS-007",
+      "number": 7,
+      "subject": "Jeppesen Airway Manual · United States Airport Sign Systems",
+      "study_unit": 2,
+      "study_unit_title": "Signs and Markings · United States Airport Sign Systems",
+      "subunit": {
+        "code": "US-SIGNS-STAGE-02",
+        "title": "Location · Boundary Signs"
+      },
+      "source_page": 208,
+      "question": "다음 Jeppesen United States Airport Sign Systems 이미지가 나타내는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Runway Location Sign"
+        },
+        {
+          "id": "B",
+          "text": "ILS Critical Area Boundary Sign"
+        },
+        {
+          "id": "C",
+          "text": "Taxiway Location Sign"
+        },
+        {
+          "id": "D",
+          "text": "Runway Boundary Sign"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 Taxiway Location Sign입니다. 현재 항공기가 위치한 유도로를 식별한다. 검은 배경에 노란 문자와 노란 테두리를 사용하며 표지의 문자는 해당 taxiway designation이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Signs and Markings · United States Airport Sign Systems p.208",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-us-airport-signs/us-sign-07-taxiway-location.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Signs and Markings",
+        "United States Airport Sign Systems",
+        "Taxiway Location Sign"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Taxiway Location Sign",
+      "source_description_ko": "현재 항공기가 위치한 유도로를 식별한다. 검은 배경에 노란 문자와 노란 테두리를 사용하며 표지의 문자는 해당 taxiway designation이다."
+    },
+    {
+      "id": "JEPP-US-SIGNS-008",
+      "number": 8,
+      "subject": "Jeppesen Airway Manual · United States Airport Sign Systems",
+      "study_unit": 2,
+      "study_unit_title": "Signs and Markings · United States Airport Sign Systems",
+      "subunit": {
+        "code": "US-SIGNS-STAGE-02",
+        "title": "Location · Boundary Signs"
+      },
+      "source_page": 208,
+      "question": "다음 Jeppesen United States Airport Sign Systems 이미지가 나타내는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Runway Boundary Sign"
+        },
+        {
+          "id": "B",
+          "text": "Taxiway Location Sign"
+        },
+        {
+          "id": "C",
+          "text": "Runway Location Sign"
+        },
+        {
+          "id": "D",
+          "text": "ILS Critical Area Boundary Sign"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 Runway Location Sign입니다. 현재 항공기가 위치한 활주로를 식별한다. 검은 배경에 노란 문자와 노란 테두리를 사용하며, 서로 가까운 여러 활주로로 인해 위치 혼동이 생길 수 있는 곳에서 특히 유용하다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Signs and Markings · United States Airport Sign Systems p.208",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-us-airport-signs/us-sign-08-runway-location.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Signs and Markings",
+        "United States Airport Sign Systems",
+        "Runway Location Sign"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Runway Location Sign",
+      "source_description_ko": "현재 항공기가 위치한 활주로를 식별한다. 검은 배경에 노란 문자와 노란 테두리를 사용하며, 서로 가까운 여러 활주로로 인해 위치 혼동이 생길 수 있는 곳에서 특히 유용하다."
+    },
+    {
+      "id": "JEPP-US-SIGNS-009",
+      "number": 9,
+      "subject": "Jeppesen Airway Manual · United States Airport Sign Systems",
+      "study_unit": 2,
+      "study_unit_title": "Signs and Markings · United States Airport Sign Systems",
+      "subunit": {
+        "code": "US-SIGNS-STAGE-02",
+        "title": "Location · Boundary Signs"
+      },
+      "source_page": 209,
+      "question": "다음 Jeppesen United States Airport Sign Systems 이미지가 나타내는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Runway Boundary Sign"
+        },
+        {
+          "id": "B",
+          "text": "Runway Location Sign"
+        },
+        {
+          "id": "C",
+          "text": "Taxiway Location Sign"
+        },
+        {
+          "id": "D",
+          "text": "ILS Critical Area Boundary Sign"
+        }
+      ],
+      "answer": "A",
+      "explanation": "정답은 Runway Boundary Sign입니다. 활주로를 빠져나가는 조종사가 runway clear 여부를 판단하는 추가 시각 단서로 사용한다. 노란 배경에 검은 holding position marking 도형이 표시되며 활주로 쪽을 향한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Signs and Markings · United States Airport Sign Systems p.209",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-us-airport-signs/us-sign-09-runway-boundary.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Signs and Markings",
+        "United States Airport Sign Systems",
+        "Runway Boundary Sign"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Runway Boundary Sign",
+      "source_description_ko": "활주로를 빠져나가는 조종사가 runway clear 여부를 판단하는 추가 시각 단서로 사용한다. 노란 배경에 검은 holding position marking 도형이 표시되며 활주로 쪽을 향한다."
+    },
+    {
+      "id": "JEPP-US-SIGNS-010",
+      "number": 10,
+      "subject": "Jeppesen Airway Manual · United States Airport Sign Systems",
+      "study_unit": 2,
+      "study_unit_title": "Signs and Markings · United States Airport Sign Systems",
+      "subunit": {
+        "code": "US-SIGNS-STAGE-02",
+        "title": "Location · Boundary Signs"
+      },
+      "source_page": 209,
+      "question": "다음 Jeppesen United States Airport Sign Systems 이미지가 나타내는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Taxiway Location Sign"
+        },
+        {
+          "id": "B",
+          "text": "ILS Critical Area Boundary Sign"
+        },
+        {
+          "id": "C",
+          "text": "Runway Boundary Sign"
+        },
+        {
+          "id": "D",
+          "text": "Runway Location Sign"
+        }
+      ],
+      "answer": "B",
+      "explanation": "정답은 ILS Critical Area Boundary Sign입니다. ILS critical area를 빠져나가는 조종사가 해당 구역에서 clear 되었는지 판단하도록 돕는다. 노란 배경에 검은 ILS pavement holding position marking 도형이 표시된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Signs and Markings · United States Airport Sign Systems p.209",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-us-airport-signs/us-sign-10-ils-critical-area-boundary.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Signs and Markings",
+        "United States Airport Sign Systems",
+        "ILS Critical Area Boundary Sign"
+      ],
+      "reference_study_only": true,
+      "legend_label": "ILS Critical Area Boundary Sign",
+      "source_description_ko": "ILS critical area를 빠져나가는 조종사가 해당 구역에서 clear 되었는지 판단하도록 돕는다. 노란 배경에 검은 ILS pavement holding position marking 도형이 표시된다."
+    },
+    {
+      "id": "JEPP-US-SIGNS-011",
+      "number": 11,
+      "subject": "Jeppesen Airway Manual · United States Airport Sign Systems",
+      "study_unit": 3,
+      "study_unit_title": "Signs and Markings · United States Airport Sign Systems",
+      "subunit": {
+        "code": "US-SIGNS-STAGE-03",
+        "title": "Direction · Destination · Information Signs"
+      },
+      "source_page": 209,
+      "question": "다음 Jeppesen United States Airport Sign Systems 이미지가 나타내는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Inbound Destination Sign"
+        },
+        {
+          "id": "B",
+          "text": "Runway Distance Remaining Sign"
+        },
+        {
+          "id": "C",
+          "text": "Outbound Destination Sign"
+        },
+        {
+          "id": "D",
+          "text": "Taxiway Direction Sign or Runway Exit Sign"
+        }
+      ],
+      "answer": "D",
+      "explanation": "정답은 Taxiway Direction Sign or Runway Exit Sign입니다. 교차부에서 조종사가 통상 진입하거나 hold short할 것으로 예상되는 교차 taxiway의 designation과 회전 방향을 화살표로 표시한다. 활주로에서 exit를 나타낼 때는 출구와 같은 쪽에 설치된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Signs and Markings · United States Airport Sign Systems p.209",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-us-airport-signs/us-sign-11-taxiway-direction-runway-exit.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Signs and Markings",
+        "United States Airport Sign Systems",
+        "Taxiway Direction Sign or Runway Exit Sign"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Taxiway Direction Sign or Runway Exit Sign",
+      "source_description_ko": "교차부에서 조종사가 통상 진입하거나 hold short할 것으로 예상되는 교차 taxiway의 designation과 회전 방향을 화살표로 표시한다. 활주로에서 exit를 나타낼 때는 출구와 같은 쪽에 설치된다."
+    },
+    {
+      "id": "JEPP-US-SIGNS-012",
+      "number": 12,
+      "subject": "Jeppesen Airway Manual · United States Airport Sign Systems",
+      "study_unit": 3,
+      "study_unit_title": "Signs and Markings · United States Airport Sign Systems",
+      "subunit": {
+        "code": "US-SIGNS-STAGE-03",
+        "title": "Direction · Destination · Information Signs"
+      },
+      "source_page": 209,
+      "question": "다음 Jeppesen United States Airport Sign Systems 이미지가 나타내는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Direction Sign for a Single Crossing Taxiway"
+        },
+        {
+          "id": "B",
+          "text": "Taxiway Direction Sign or Runway Exit Sign"
+        },
+        {
+          "id": "C",
+          "text": "Runway Distance Remaining Sign"
+        },
+        {
+          "id": "D",
+          "text": "Outbound Destination Sign to Different Runways"
+        }
+      ],
+      "answer": "A",
+      "explanation": "정답은 Direction Sign for a Single Crossing Taxiway입니다. 교차부가 하나의 crossing taxiway로만 구성된 경우 같은 taxiway designation에 두 방향 화살표가 표시된다. 예시에서는 현재 taxiway location sign과 crossing taxiway direction을 함께 보여준다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Signs and Markings · United States Airport Sign Systems p.209",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-us-airport-signs/us-sign-12-crossing-taxiway-direction.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Signs and Markings",
+        "United States Airport Sign Systems",
+        "Direction Sign for a Single Crossing Taxiway"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Direction Sign for a Single Crossing Taxiway",
+      "source_description_ko": "교차부가 하나의 crossing taxiway로만 구성된 경우 같은 taxiway designation에 두 방향 화살표가 표시된다. 예시에서는 현재 taxiway location sign과 crossing taxiway direction을 함께 보여준다."
+    },
+    {
+      "id": "JEPP-US-SIGNS-013",
+      "number": 13,
+      "subject": "Jeppesen Airway Manual · United States Airport Sign Systems",
+      "study_unit": 3,
+      "study_unit_title": "Signs and Markings · United States Airport Sign Systems",
+      "subunit": {
+        "code": "US-SIGNS-STAGE-03",
+        "title": "Direction · Destination · Information Signs"
+      },
+      "source_page": 210,
+      "question": "다음 Jeppesen United States Airport Sign Systems 이미지가 나타내는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Inbound Destination Sign"
+        },
+        {
+          "id": "B",
+          "text": "Outbound Destination Sign"
+        },
+        {
+          "id": "C",
+          "text": "Runway Distance Remaining Sign"
+        },
+        {
+          "id": "D",
+          "text": "Direction Sign for a Single Crossing Taxiway"
+        }
+      ],
+      "answer": "B",
+      "explanation": "정답은 Outbound Destination Sign입니다. 공항 내 목적지로 향하는 taxi route 방향을 나타내는 destination sign이다. 노란 배경에 검은 inscription과 화살표를 사용한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Signs and Markings · United States Airport Sign Systems p.210",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-us-airport-signs/us-sign-13-outbound-destination.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Signs and Markings",
+        "United States Airport Sign Systems",
+        "Outbound Destination Sign"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Outbound Destination Sign",
+      "source_description_ko": "공항 내 목적지로 향하는 taxi route 방향을 나타내는 destination sign이다. 노란 배경에 검은 inscription과 화살표를 사용한다."
+    },
+    {
+      "id": "JEPP-US-SIGNS-014",
+      "number": 14,
+      "subject": "Jeppesen Airway Manual · United States Airport Sign Systems",
+      "study_unit": 3,
+      "study_unit_title": "Signs and Markings · United States Airport Sign Systems",
+      "subunit": {
+        "code": "US-SIGNS-STAGE-03",
+        "title": "Direction · Destination · Information Signs"
+      },
+      "source_page": 210,
+      "question": "다음 Jeppesen United States Airport Sign Systems 이미지가 나타내는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Outbound Destination Sign to Different Runways"
+        },
+        {
+          "id": "B",
+          "text": "Outbound Destination Sign"
+        },
+        {
+          "id": "C",
+          "text": "Inbound Destination Sign"
+        },
+        {
+          "id": "D",
+          "text": "Runway Distance Remaining Sign"
+        }
+      ],
+      "answer": "A",
+      "explanation": "정답은 Outbound Destination Sign to Different Runways입니다. 두 활주로로 향하는 taxi route가 공통인 경우 하나의 outbound destination sign에 둘 이상의 runway designation을 점으로 구분하여 표시할 수 있다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Signs and Markings · United States Airport Sign Systems p.210",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-us-airport-signs/us-sign-14-outbound-destination-multiple-runways.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Signs and Markings",
+        "United States Airport Sign Systems",
+        "Outbound Destination Sign to Different Runways"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Outbound Destination Sign to Different Runways",
+      "source_description_ko": "두 활주로로 향하는 taxi route가 공통인 경우 하나의 outbound destination sign에 둘 이상의 runway designation을 점으로 구분하여 표시할 수 있다."
+    },
+    {
+      "id": "JEPP-US-SIGNS-015",
+      "number": 15,
+      "subject": "Jeppesen Airway Manual · United States Airport Sign Systems",
+      "study_unit": 3,
+      "study_unit_title": "Signs and Markings · United States Airport Sign Systems",
+      "subunit": {
+        "code": "US-SIGNS-STAGE-03",
+        "title": "Direction · Destination · Information Signs"
+      },
+      "source_page": 210,
+      "question": "다음 Jeppesen United States Airport Sign Systems 이미지가 나타내는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Outbound Destination Sign"
+        },
+        {
+          "id": "B",
+          "text": "Inbound Destination Sign"
+        },
+        {
+          "id": "C",
+          "text": "Runway Distance Remaining Sign"
+        },
+        {
+          "id": "D",
+          "text": "Taxiway Direction Sign or Runway Exit Sign"
+        }
+      ],
+      "answer": "B",
+      "explanation": "정답은 Inbound Destination Sign입니다. 특정 공항 목적지로 들어가는 방향을 나타내는 destination sign이다. 원본 예시는 MIL 방향을 나타낸다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Signs and Markings · United States Airport Sign Systems p.210",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-us-airport-signs/us-sign-15-inbound-destination.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Signs and Markings",
+        "United States Airport Sign Systems",
+        "Inbound Destination Sign"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Inbound Destination Sign",
+      "source_description_ko": "특정 공항 목적지로 들어가는 방향을 나타내는 destination sign이다. 원본 예시는 MIL 방향을 나타낸다."
+    },
+    {
+      "id": "JEPP-US-SIGNS-016",
+      "number": 16,
+      "subject": "Jeppesen Airway Manual · United States Airport Sign Systems",
+      "study_unit": 3,
+      "study_unit_title": "Signs and Markings · United States Airport Sign Systems",
+      "subunit": {
+        "code": "US-SIGNS-STAGE-03",
+        "title": "Direction · Destination · Information Signs"
+      },
+      "source_page": 210,
+      "question": "다음 Jeppesen United States Airport Sign Systems 이미지가 나타내는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Direction Sign for a Single Crossing Taxiway"
+        },
+        {
+          "id": "B",
+          "text": "Taxiway Direction Sign or Runway Exit Sign"
+        },
+        {
+          "id": "C",
+          "text": "Outbound Destination Sign to Different Runways"
+        },
+        {
+          "id": "D",
+          "text": "Runway Distance Remaining Sign"
+        }
+      ],
+      "answer": "D",
+      "explanation": "정답은 Runway Distance Remaining Sign입니다. 이륙과 착륙 중 남은 활주로 거리를 천 ft 단위로 알려준다. 검은 배경에 흰 숫자를 사용하며 실제 남은 거리는 표지 숫자가 나타내는 값보다 최대 50 ft 적을 수 있다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Signs and Markings · United States Airport Sign Systems p.210",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-us-airport-signs/us-sign-16-runway-distance-remaining.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Signs and Markings",
+        "United States Airport Sign Systems",
+        "Runway Distance Remaining Sign"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Runway Distance Remaining Sign",
+      "source_description_ko": "이륙과 착륙 중 남은 활주로 거리를 천 ft 단위로 알려준다. 검은 배경에 흰 숫자를 사용하며 실제 남은 거리는 표지 숫자가 나타내는 값보다 최대 50 ft 적을 수 있다."
+    },
+    {
+      "id": "JEPP-US-SIGNS-017",
+      "number": 17,
+      "subject": "Jeppesen Airway Manual · United States Airport Sign Systems",
+      "study_unit": 4,
+      "study_unit_title": "Signs and Markings · United States Airport Sign Systems",
+      "subunit": {
+        "code": "US-SIGNS-STAGE-04",
+        "title": "Signing Examples & Intersection Layouts"
+      },
+      "source_page": 211,
+      "question": "다음 Jeppesen United States Airport Sign Systems 이미지가 나타내는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Holding Position Signs at Runway Intersections"
+        },
+        {
+          "id": "B",
+          "text": "Taxiway Entrance at Intersection of Two Runway Ends"
+        },
+        {
+          "id": "C",
+          "text": "Standard 4-Way Taxiway Intersection"
+        },
+        {
+          "id": "D",
+          "text": "Taxiway Entrance at Intersection of Two Runways"
+        }
+      ],
+      "answer": "D",
+      "explanation": "정답은 Taxiway Entrance at Intersection of Two Runways입니다. 두 활주로가 교차하는 지점으로 유도로가 진입할 때의 holding position sign 배치 예시이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Signs and Markings · United States Airport Sign Systems p.211",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-us-airport-signs/us-sign-17-example-two-runways.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Signs and Markings",
+        "United States Airport Sign Systems",
+        "Taxiway Entrance at Intersection of Two Runways"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Taxiway Entrance at Intersection of Two Runways",
+      "source_description_ko": "두 활주로가 교차하는 지점으로 유도로가 진입할 때의 holding position sign 배치 예시이다."
+    },
+    {
+      "id": "JEPP-US-SIGNS-018",
+      "number": 18,
+      "subject": "Jeppesen Airway Manual · United States Airport Sign Systems",
+      "study_unit": 4,
+      "study_unit_title": "Signs and Markings · United States Airport Sign Systems",
+      "subunit": {
+        "code": "US-SIGNS-STAGE-04",
+        "title": "Signing Examples & Intersection Layouts"
+      },
+      "source_page": 211,
+      "question": "다음 Jeppesen United States Airport Sign Systems 이미지가 나타내는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Standard 4-Way Taxiway Intersection"
+        },
+        {
+          "id": "B",
+          "text": "Straight Ahead Taxiway with Direction Change Greater Than 25°"
+        },
+        {
+          "id": "C",
+          "text": "Taxiway Entrance at Intersection of Two Runways"
+        },
+        {
+          "id": "D",
+          "text": "Taxiway Entrance at Intersection of Two Runway Ends"
+        }
+      ],
+      "answer": "D",
+      "explanation": "정답은 Taxiway Entrance at Intersection of Two Runway Ends입니다. 두 활주로 끝단이 만나는 부근으로 유도로가 진입할 때의 holding position sign 배치 예시이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Signs and Markings · United States Airport Sign Systems p.211",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-us-airport-signs/us-sign-18-example-two-runway-ends.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Signs and Markings",
+        "United States Airport Sign Systems",
+        "Taxiway Entrance at Intersection of Two Runway Ends"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Taxiway Entrance at Intersection of Two Runway Ends",
+      "source_description_ko": "두 활주로 끝단이 만나는 부근으로 유도로가 진입할 때의 holding position sign 배치 예시이다."
+    },
+    {
+      "id": "JEPP-US-SIGNS-019",
+      "number": 19,
+      "subject": "Jeppesen Airway Manual · United States Airport Sign Systems",
+      "study_unit": 4,
+      "study_unit_title": "Signs and Markings · United States Airport Sign Systems",
+      "subunit": {
+        "code": "US-SIGNS-STAGE-04",
+        "title": "Signing Examples & Intersection Layouts"
+      },
+      "source_page": 212,
+      "question": "다음 Jeppesen United States Airport Sign Systems 이미지가 나타내는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Taxiway Entrance at Intersection of Two Runways"
+        },
+        {
+          "id": "B",
+          "text": "Standard 4-Way Taxiway Intersection"
+        },
+        {
+          "id": "C",
+          "text": "Holding Position Signs at Runway Intersections"
+        },
+        {
+          "id": "D",
+          "text": "Straight Ahead Taxiway with Direction Change Greater Than 25°"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 Holding Position Signs at Runway Intersections입니다. 활주로 교차부에서 runway holding position signs가 각 접근 방향에 어떻게 배치되는지를 보여주는 예시이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Signs and Markings · United States Airport Sign Systems p.212",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-us-airport-signs/us-sign-19-example-runway-intersections.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Signs and Markings",
+        "United States Airport Sign Systems",
+        "Holding Position Signs at Runway Intersections"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Holding Position Signs at Runway Intersections",
+      "source_description_ko": "활주로 교차부에서 runway holding position signs가 각 접근 방향에 어떻게 배치되는지를 보여주는 예시이다."
+    },
+    {
+      "id": "JEPP-US-SIGNS-020",
+      "number": 20,
+      "subject": "Jeppesen Airway Manual · United States Airport Sign Systems",
+      "study_unit": 4,
+      "study_unit_title": "Signs and Markings · United States Airport Sign Systems",
+      "subunit": {
+        "code": "US-SIGNS-STAGE-04",
+        "title": "Signing Examples & Intersection Layouts"
+      },
+      "source_page": 213,
+      "question": "다음 Jeppesen United States Airport Sign Systems 이미지가 나타내는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Taxiway Entrance at Intersection of Two Runways"
+        },
+        {
+          "id": "B",
+          "text": "Standard 4-Way Taxiway Intersection"
+        },
+        {
+          "id": "C",
+          "text": "Straight Ahead Taxiway with Direction Change Greater Than 25°"
+        },
+        {
+          "id": "D",
+          "text": "Holding Position Signs at Runway Intersections"
+        }
+      ],
+      "answer": "B",
+      "explanation": "정답은 Standard 4-Way Taxiway Intersection입니다. 표준적인 4방향 유도로 교차부에서 location sign과 direction sign을 배치하는 예시이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Signs and Markings · United States Airport Sign Systems p.213",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-us-airport-signs/us-sign-20-example-standard-fourway.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Signs and Markings",
+        "United States Airport Sign Systems",
+        "Standard 4-Way Taxiway Intersection"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Standard 4-Way Taxiway Intersection",
+      "source_description_ko": "표준적인 4방향 유도로 교차부에서 location sign과 direction sign을 배치하는 예시이다."
+    },
+    {
+      "id": "JEPP-US-SIGNS-021",
+      "number": 21,
+      "subject": "Jeppesen Airway Manual · United States Airport Sign Systems",
+      "study_unit": 4,
+      "study_unit_title": "Signs and Markings · United States Airport Sign Systems",
+      "subunit": {
+        "code": "US-SIGNS-STAGE-04",
+        "title": "Signing Examples & Intersection Layouts"
+      },
+      "source_page": 213,
+      "question": "다음 Jeppesen United States Airport Sign Systems 이미지가 나타내는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Taxiway Entrance at Intersection of Two Runways"
+        },
+        {
+          "id": "B",
+          "text": "Straight Ahead Taxiway with Direction Change Greater Than 25°"
+        },
+        {
+          "id": "C",
+          "text": "Taxiway Entrance at Intersection of Two Runway Ends"
+        },
+        {
+          "id": "D",
+          "text": "Standard 4-Way Taxiway Intersection"
+        }
+      ],
+      "answer": "B",
+      "explanation": "정답은 Straight Ahead Taxiway with Direction Change Greater Than 25°입니다. 직진 taxiway의 방향 변화가 25°를 초과하는 경우 location sign과 direction sign으로 방향 변화를 명확하게 표시하는 예시이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Signs and Markings · United States Airport Sign Systems p.213",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-us-airport-signs/us-sign-21-example-direction-change.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Signs and Markings",
+        "United States Airport Sign Systems",
+        "Straight Ahead Taxiway with Direction Change Greater Than 25°"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Straight Ahead Taxiway with Direction Change Greater Than 25°",
+      "source_description_ko": "직진 taxiway의 방향 변화가 25°를 초과하는 경우 location sign과 direction sign으로 방향 변화를 명확하게 표시하는 예시이다."
+    },
+    {
+      "id": "JEPP-US-SIGNS-022",
+      "number": 22,
+      "subject": "Jeppesen Airway Manual · United States Airport Sign Systems",
+      "study_unit": 4,
+      "study_unit_title": "Signs and Markings · United States Airport Sign Systems",
+      "subunit": {
+        "code": "US-SIGNS-STAGE-04",
+        "title": "Signing Examples & Intersection Layouts"
+      },
+      "source_page": 214,
+      "question": "다음 Jeppesen United States Airport Sign Systems 이미지가 나타내는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Taxiway Entrance at Intersection of Two Runway Ends"
+        },
+        {
+          "id": "B",
+          "text": "Taxiway Entrance at Intersection of Two Runways"
+        },
+        {
+          "id": "C",
+          "text": "Signing Examples for a Complex Airport"
+        },
+        {
+          "id": "D",
+          "text": "Holding Position Signs at Runway Intersections"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 Signing Examples for a Complex Airport입니다. 복잡한 공항 유도로망에서 mandatory, location, direction, destination, ILS 관련 sign을 함께 배치하는 종합 예시이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Signs and Markings · United States Airport Sign Systems p.214",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-us-airport-signs/us-sign-22-example-complex-airport.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Signs and Markings",
+        "United States Airport Sign Systems",
+        "Signing Examples for a Complex Airport"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Signing Examples for a Complex Airport",
+      "source_description_ko": "복잡한 공항 유도로망에서 mandatory, location, direction, destination, ILS 관련 sign을 함께 배치하는 종합 예시이다."
+    }
+  ]
+}
