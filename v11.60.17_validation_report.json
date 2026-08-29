@@ -1,0 +1,14 @@
+{
+  "version": "v11.60.17",
+  "base": "v11.60.16",
+  "source_scope": "SID/DP and STAR Legend p.145–152",
+  "question_count": 71,
+  "unique_question_ids": 71,
+  "stage_count": 8,
+  "new_image_count": 71,
+  "missing_question_images": [],
+  "answer_values_valid": true,
+  "four_choices_each": true,
+  "old_figure_folders_reincluded": false,
+  "new_image_folder": "assets/jeppesen-sidstar-legend/"
+}
