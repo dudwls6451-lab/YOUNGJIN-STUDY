@@ -419,6 +419,13 @@ const els = {
   quickResourceNavBtn: document.querySelector("#quickResourceNavBtn"),
   homeTodayStudyTime: document.querySelector("#homeTodayStudyTime"),
   homeTotalStudyTime: document.querySelector("#homeTotalStudyTime"),
+  homePilotRank: document.querySelector("#homePilotRank"),
+  homePilotRankIcon: document.querySelector("#homePilotRankIcon"),
+  homePilotRankName: document.querySelector("#homePilotRankName"),
+  homePilotRankTotal: document.querySelector("#homePilotRankTotal"),
+  homePilotRankTrack: document.querySelector("#homePilotRankTrack"),
+  homePilotRankFill: document.querySelector("#homePilotRankFill"),
+  homePilotRankNext: document.querySelector("#homePilotRankNext"),
   homeMyPageBtn: document.querySelector("#homeMyPageBtn"),
   problemAdminLink: document.querySelector("#problemAdminLink"),
   modeHubCard: document.querySelector("#modeHubCard"),
@@ -2541,16 +2548,77 @@ function formatStudyDuration(seconds) {
   return `${hours}시간 ${minutes}분`;
 }
 
+const PILOT_STUDY_GRADES = [
+  { minHours: 0, name: "학생조종사", icon: "🎓", nextHours: 40, nextName: "자가용 조종사" },
+  { minHours: 40, name: "자가용 조종사", icon: "🛩️", nextHours: 200, nextName: "사업용 조종사" },
+  { minHours: 200, name: "사업용 조종사", icon: "✈️", nextHours: 1500, nextName: "운송용 조종사" },
+  { minHours: 1500, name: "운송용 조종사", icon: "🛫", nextHours: null, nextName: null },
+];
+
+function compactStudyHours(seconds, {ceilMinutes=false} = {}) {
+  const rawMinutes = Math.max(0, Number(seconds || 0)) / 60;
+  const totalMinutes = ceilMinutes ? Math.ceil(rawMinutes) : Math.floor(rawMinutes);
+  const hours = Math.floor(totalMinutes / 60);
+  const minutes = totalMinutes % 60;
+  if (hours && minutes) return `${hours}h ${minutes}m`;
+  if (hours) return `${hours}h`;
+  return `${minutes}m`;
+}
+
+function pilotStudyGrade(seconds) {
+  const totalHours = Math.max(0, Number(seconds || 0)) / 3600;
+  let grade = PILOT_STUDY_GRADES[0];
+  for (const candidate of PILOT_STUDY_GRADES) {
+    if (totalHours >= candidate.minHours) grade = candidate;
+  }
+  if (grade.nextHours == null) return { ...grade, progress: 100, remainingSeconds: 0 };
+  const span = Math.max(1, grade.nextHours - grade.minHours);
+  const progress = Math.max(0, Math.min(100, ((totalHours - grade.minHours) / span) * 100));
+  return { ...grade, progress, remainingSeconds: Math.max(0, grade.nextHours * 3600 - Number(seconds || 0)) };
+}
+
+function renderHomePilotRank(totalSeconds) {
+  if (!els.homePilotRank) return;
+  if (!usesSupabaseLearningData()) {
+    els.homePilotRank.classList.add("is-unavailable");
+    if (els.homePilotRankName) els.homePilotRankName.textContent = "회원 등급";
+    if (els.homePilotRankIcon) els.homePilotRankIcon.textContent = "🎓";
+    if (els.homePilotRankTotal) els.homePilotRankTotal.textContent = "로그인 후 누적 학습시간이 기록됩니다.";
+    if (els.homePilotRankFill) els.homePilotRankFill.style.width = "0%";
+    if (els.homePilotRankTrack) els.homePilotRankTrack.setAttribute("aria-valuenow", "0");
+    if (els.homePilotRankNext) els.homePilotRankNext.textContent = "";
+    return;
+  }
+  els.homePilotRank.classList.remove("is-unavailable");
+  const grade = pilotStudyGrade(totalSeconds);
+  if (els.homePilotRankName) els.homePilotRankName.textContent = grade.name;
+  if (els.homePilotRankIcon) els.homePilotRankIcon.textContent = grade.icon;
+  if (els.homePilotRankTotal) els.homePilotRankTotal.innerHTML = `누적 학습시간 <strong>${compactStudyHours(totalSeconds)}</strong>`;
+  if (els.homePilotRankFill) els.homePilotRankFill.style.width = `${grade.progress.toFixed(2)}%`;
+  if (els.homePilotRankTrack) {
+    els.homePilotRankTrack.setAttribute("aria-valuenow", String(Math.round(grade.progress)));
+    els.homePilotRankTrack.setAttribute("aria-valuetext", grade.nextName ? `${grade.nextName}까지 ${compactStudyHours(grade.remainingSeconds, {ceilMinutes:true})}` : "최고 등급 달성");
+  }
+  if (els.homePilotRankNext) {
+    els.homePilotRankNext.textContent = grade.nextName
+      ? `✈ ${grade.nextName}까지 ${compactStudyHours(grade.remainingSeconds, {ceilMinutes:true})}`
+      : "★ 최고 등급 달성";
+  }
+}
+
 function renderHomeStudyTime() {
   if (!els.homeTodayStudyTime || !els.homeTotalStudyTime) return;
   if (!usesSupabaseLearningData()) {
     els.homeTodayStudyTime.textContent = "오늘 학습시간은 Supabase 계정에서 기록됩니다.";
     els.homeTotalStudyTime.textContent = "";
+    renderHomePilotRank(0);
     return;
   }
   const visiblePending = Math.floor(studyTimePendingSeconds);
+  const visibleTotal = studyTimeTotalSeconds + visiblePending;
   els.homeTodayStudyTime.textContent = `오늘은 ${formatStudyDuration(studyTimeTodaySeconds + visiblePending)} 공부했습니다.`;
-  els.homeTotalStudyTime.textContent = `지금까지 ${formatStudyDuration(studyTimeTotalSeconds + visiblePending)} 공부했습니다.`;
+  els.homeTotalStudyTime.textContent = `지금까지 ${formatStudyDuration(visibleTotal)} 공부했습니다.`;
+  renderHomePilotRank(visibleTotal);
 }
 
 async function loadStudyTimeSummary() {
@@ -2586,7 +2654,11 @@ function studySurfaceIsActive() {
   const quizOpen = document.body.classList.contains("quiz-active") && !!els.quizCard && !els.quizCard.classList.contains("hidden");
   const theoryOpen = !!els.theoryCard && !els.theoryCard.classList.contains("hidden");
   const aviwikiOpen = !!els.aviwikiReaderCard && !els.aviwikiReaderCard.classList.contains("hidden");
-  return quizOpen || theoryOpen || aviwikiOpen;
+  const rankingCard = document.querySelector("#weeklyRankingCard");
+  const rankingExam = document.querySelector("#rankingExam");
+  const weeklyRankingOpen = !!rankingCard && !rankingCard.classList.contains("hidden")
+    && !!rankingExam && !rankingExam.classList.contains("hidden");
+  return quizOpen || theoryOpen || aviwikiOpen || weeklyRankingOpen;
 }
 
 function studyTimerShouldCount() {
@@ -2642,6 +2714,14 @@ function markStudyInteraction() {
   if (!studySurfaceIsActive()) return;
   studyTimeLastInteractionAt = Date.now();
 }
+
+// Community modules (including Weekly Ranking) can notify the shared study timer
+// when a study surface is opened or closed. The timer itself remains centralized here.
+window.PilotBankStudyTime = Object.freeze({
+  updateState: updateStudyTimerState,
+  flush: flushStudyTime,
+  render: renderHomeStudyTime,
+});
 
 window.setInterval(() => {
   accrueStudyTime();
@@ -3713,6 +3793,15 @@ function nextQuestion() {
   if (!isExamLike() && !answered) return;
 
   if (isExamLike() && index === session.length - 1) {
+    const unansweredCount = session.reduce((count, q) => count + (examAnswers[q.id] ? 0 : 1), 0);
+    if (unansweredCount > 0) {
+      const ok = window.confirm(
+        `미제출 문제가 ${unansweredCount}개 있습니다.\n` +
+        `미응답 문항은 오답 처리됩니다.\n\n` +
+        `그래도 제출하시겠습니까?`
+      );
+      if (!ok) return;
+    }
     gradeExam();
     return;
   }
@@ -3742,6 +3831,79 @@ function gradeExam() {
   });
 
   showResult(true);
+}
+
+
+function resultReviewFigureMarkup(q) {
+  const refs = Array.isArray(q.figure_refs) ? q.figure_refs.map(String) : [];
+  let paths = [];
+  if (Array.isArray(q.images) && q.images.length) {
+    paths = q.images.map(String);
+  } else if (q.image || q.image_path) {
+    paths = [String(q.image || q.image_path)];
+  } else if (refs.length) {
+    paths = refs.map(ref => {
+      if (/[/\\]/.test(ref) || /\.(?:png|jpe?g|webp|gif|svg)$/i.test(ref)) return ref;
+      const clean = String(ref).replace(/^FIGURE[_ -]*/i, "");
+      return `./figures/FIGURE_${clean}.png`;
+    });
+  }
+  if (!paths.length) {
+    if (q.requires_figure || refs.length) {
+      return `<div class="result-review-figure-notice">그림/도표 참조 문제${refs.length ? ` · ${escapeHtml(refs.join(", "))}` : ""}</div>`;
+    }
+    return "";
+  }
+  return `<div class="result-review-figures">${paths.map((path, i) => {
+    const src = path.startsWith("./") ? path : `./${path.replace(/^\/+/, "")}`;
+    const label = refs[i] ? `Figure ${refs[i]}` : `문제 그림 ${i + 1}`;
+    return `<figure><img src="${escapeHtml(src)}" alt="${escapeHtml(label)}" loading="lazy">${refs[i] ? `<figcaption>${escapeHtml(label)}</figcaption>` : ""}</figure>`;
+  }).join("")}</div>`;
+}
+
+function resultReviewQuestionMarkup(q, selected) {
+  const selectedId = String(selected || "").toUpperCase();
+  const correctId = String(q.answer || "").toUpperCase();
+  const choices = sessionChoicesFor(q);
+  const unitPill = studyUnitOf(q) ? (q.subject === JEJU_RECALL_SUBJECT ? studyUnitOf(q) : `SU ${studyUnitOf(q)}`) : "";
+  const pills = [q.id, q.subject, unitPill, [subunitCode(q), subunitTitle(q)].filter(Boolean).join(" ")].filter(Boolean);
+  return `
+    <div class="result-question-screen" aria-label="읽기 전용 문제 화면">
+      <div class="result-review-readonly">읽기 전용 · 선택지 재선택 불가</div>
+      <div class="result-review-meta">${pills.map(p => `<span class="pill">${escapeHtml(p)}</span>`).join("")}</div>
+      <h4 class="result-review-full-question">${escapeHtml(q.question || "(문제 없음)")}</h4>
+      ${resultReviewFigureMarkup(q)}
+      <div class="result-review-choices">${choices.map(choice => {
+        const id = String(choice.id || "").toUpperCase();
+        const isCorrect = id === correctId;
+        const isSelected = id === selectedId;
+        const classes = ["result-review-choice", isCorrect ? "correct-answer" : "", isSelected ? "user-selected" : "", isSelected && !isCorrect ? "wrong-selected" : ""].filter(Boolean).join(" ");
+        const badges = `${isSelected ? '<span class="result-choice-badge mine">내 선택</span>' : ""}${isCorrect ? '<span class="result-choice-badge answer">정답</span>' : ""}`;
+        return `<div class="${classes}" aria-disabled="true"><strong>${escapeHtml(choice.id)}.</strong><span>${escapeHtml(choice.text)}</span><span class="result-choice-badges">${badges}</span></div>`;
+      }).join("")}</div>
+    </div>`;
+}
+
+function resultReviewItemMarkup(q, idx) {
+  const selectedRaw = examAnswers[q.id] || "";
+  const selected = selectedRaw || "미응답";
+  const correct = String(q.answer || "").toUpperCase();
+  const ok = String(selectedRaw).toUpperCase() === correct;
+  const explanation = q.explanation ? escapeHtml(q.explanation).replace(/\n/g, "<br>") : "해설 없음";
+  const reference = q.reference ? `<div class="result-review-reference">출처: ${escapeHtml(q.reference)}</div>` : "";
+  return `
+    <article class="review-item result-review-item ${ok ? "good" : "bad"}">
+      <div class="result-review-topline">
+        <span class="result-review-status ${ok ? "good" : "bad"}">${ok ? "정답" : "오답"}</span>
+        <strong>${idx + 1}. ${escapeHtml(q.id)}</strong>
+        <span>내 답 <b>${escapeHtml(selected)}</b> · 정답 <b>${escapeHtml(correct)}</b></span>
+      </div>
+      <div class="result-review-explanation"><strong>해설</strong><div>${explanation}</div>${reference}</div>
+      <details class="result-question-details">
+        <summary><span class="result-review-question-title">${escapeHtml(q.question || "(문제 없음)")}</span><span class="result-review-expand-label">문제 화면 보기</span></summary>
+        ${resultReviewQuestionMarkup(q, selectedRaw)}
+      </details>
+    </article>`;
 }
 
 function showResult(showReview = false) {
@@ -3781,18 +3943,7 @@ function showResult(showReview = false) {
   els.examReview.innerHTML = "";
 
   if (showReview) {
-    els.examReview.innerHTML = session.map(q => {
-      const selected = examAnswers[q.id] || "미응답";
-      const correct = String(q.answer || "").toUpperCase();
-      const ok = selected === correct;
-      return `
-        <div class="review-item ${ok ? "good" : "bad"}">
-          <p><strong>${escapeHtml(q.id)}</strong> · ${ok ? "정답" : "오답"}</p>
-          <p>${escapeHtml(q.question)}</p>
-          <p>선택: <strong>${escapeHtml(selected)}</strong> / 정답: <strong>${escapeHtml(correct)}</strong></p>
-          ${q.explanation ? `<p class="muted">${escapeHtml(q.explanation)}</p>` : ""}
-        </div>`;
-    }).join("");
+    els.examReview.innerHTML = session.map((q, idx) => resultReviewItemMarkup(q, idx)).join("");
   }
 
   if (sessionMeta.type === "wrongReview") {

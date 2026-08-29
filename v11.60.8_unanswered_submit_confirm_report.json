@@ -1,0 +1,33 @@
+{
+  "version": "11.60.8",
+  "base": "github-question-bank-v11.60.7-result-question-expand-one-shot-patch.zip",
+  "feature": "unanswered-submit-confirmation",
+  "behavior": {
+    "exam_like": "If one or more questions are unanswered at final submit, show a confirmation with unanswered count; cancel keeps exam open; OK grades/submits.",
+    "weekly_ranking_manual": "If unanswered questions exist, show count + incorrect warning + irreversible submission warning; otherwise retain existing submission confirmation.",
+    "weekly_ranking_deadline": "Auto-submit at deadline remains automatic with no confirmation."
+  },
+  "modified_files": [
+    "index.html",
+    "assets/app-v11-44.js",
+    "assets/community-v11-60.js"
+  ],
+  "added_files": [
+    "V11.60.8_UNANSWERED_SUBMIT_CONFIRM_README.md",
+    "v11.60.8_unanswered_submit_confirm_report.json"
+  ],
+  "unchanged_question_or_figure_files": 12,
+  "static_checks": {
+    "exam_unanswered_count": true,
+    "exam_confirm_copy": true,
+    "exam_wrong_warning": true,
+    "ranking_unanswered_count": true,
+    "ranking_confirm_copy": true,
+    "ranking_auto_submit_unchanged": true,
+    "ranking_manual_submit": true
+  },
+  "base_integrity": {
+    "missing_files": [],
+    "unexpected_changed_files": []
+  }
+}

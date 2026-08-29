@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="./assets/style-v11-58-3-aviwiki-hotfix.css?v=11.58.3" />
   <link rel="stylesheet" href="./assets/style-v11-59-1-study-group.css?v=11.59.1" />
   <link rel="stylesheet" href="./assets/style-v11-60-community.css?v=11.60.0" />
+  <link rel="stylesheet" href="./assets/style-v11-60-7-result-review.css?v=11.60.9" />
+  <link rel="stylesheet" href="./assets/style-v11-60-9-pilot-rank.css?v=11.60.9" />
   <link rel="manifest" href="./manifest.webmanifest?v=11.60.0" />
   <link rel="apple-touch-icon" href="./assets/pwa-icon-192.png" />
   <meta name="theme-color" content="#0f766e" />
@@ -20,7 +22,7 @@
     <div class="container topbar-inner">
       <div>
         <h1><button id="homeTitleBtn" class="brand-home-button" type="button" aria-label="홈으로 이동">항공 문제은행</button></h1>
-        <p class="muted">모바일 · iPad 최적화 학습 플랫폼 · v11.60</p>
+        <p class="muted">모바일 · iPad 최적화 학습 플랫폼 · v11.60.9</p>
       </div>
       <nav class="row nav-row" aria-label="빠른 이동 메뉴">
         <button id="menuToggleBtn" class="button secondary nav-action menu-toggle-action" type="button" aria-expanded="true" title="메뉴 접기"><span class="nav-icon">☰</span><span class="nav-label">메뉴 접기</span></button>
@@ -47,6 +49,17 @@
       <div>
         <h2 id="homeGreeting">오늘의 학습을 시작하세요.</h2>
         <p class="muted">목표에 맞는 학습 모드를 선택하고, 학습 현황과 취약 파트는 마이페이지에서 확인할 수 있습니다.</p>
+        <div id="homePilotRank" class="home-pilot-rank-strip" aria-live="polite">
+          <div class="home-pilot-rank-badge">
+            <span id="homePilotRankIcon" class="home-pilot-rank-icon" aria-hidden="true">🎓</span>
+            <strong id="homePilotRankName">학생조종사</strong>
+          </div>
+          <div id="homePilotRankTotal" class="home-pilot-rank-total">누적 학습시간 <strong>0h</strong></div>
+          <div id="homePilotRankTrack" class="home-pilot-rank-track" role="progressbar" aria-label="다음 등급까지 학습시간 진행률" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+            <div id="homePilotRankFill" class="home-pilot-rank-fill" style="width:0%"></div>
+          </div>
+          <div id="homePilotRankNext" class="home-pilot-rank-next">✈ 자가용 조종사까지 40h</div>
+        </div>
         <div class="home-study-time" aria-live="polite">
           <div id="homeTodayStudyTime" class="home-study-time-primary">오늘은 0시간 0분 공부했습니다.</div>
           <div id="homeTotalStudyTime" class="home-study-time-secondary">지금까지 0시간 0분 공부했습니다.</div>
@@ -663,9 +676,9 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="./assets/supabase-config.js?v=11.46.0"></script>
   <script src="./assets/auth-v11-10.js?v=11.50.0"></script>
-  <script src="./assets/app-v11-44.js?v=11.60.6"></script>
+  <script src="./assets/app-v11-44.js?v=11.60.9"></script>
   <script src="./assets/member-admin-v11-51.js?v=11.51.0"></script>
   <script src="./assets/study-group-v11-59-4.js?v=11.59.4"></script>
-  <script src="./assets/community-v11-60.js?v=11.60.0"></script>
+  <script src="./assets/community-v11-60.js?v=11.60.9"></script>
 </body>
 </html>
