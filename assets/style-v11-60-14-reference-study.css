@@ -1,0 +1,11 @@
+.reference-study-entry{position:relative;overflow:hidden}
+.reference-study-entry::after{content:"NEW";position:absolute;top:.7rem;right:.7rem;font-size:.65rem;font-weight:800;letter-spacing:.08em;padding:.18rem .42rem;border-radius:999px;background:rgba(14,165,233,.14);border:1px solid rgba(14,165,233,.34)}
+.reference-book-grid{max-width:420px}
+.reference-book-card img{object-fit:cover;background:#f7f4e8}
+.reference-study-detail-head{align-items:flex-start}
+.reference-study-title-wrap{display:flex;gap:1rem;align-items:center}
+.reference-study-title-wrap>img{width:74px;height:98px;object-fit:cover;border-radius:8px;box-shadow:0 8px 24px rgba(15,23,42,.18);flex:0 0 auto}
+.reference-study-summary{display:flex;flex-wrap:wrap;gap:.7rem;margin:1rem 0 1.2rem}
+.reference-study-summary span{display:inline-flex;gap:.35rem;align-items:baseline;border:1px solid var(--border,#d8dee8);border-radius:999px;padding:.45rem .7rem;background:rgba(148,163,184,.08)}
+.reference-study-summary b{font-size:1.05rem}
+@media(max-width:640px){.reference-study-title-wrap{align-items:flex-start}.reference-study-title-wrap>img{width:58px;height:78px}.reference-study-detail-head{gap:1rem}}

@@ -69,3 +69,18 @@ K-AIM 확장 수록분 76문항은 원본 이미지에서 문제문 또는 보�
 - 수정본은 Supabase `question_overrides`에 저장되어 승인 회원에게 다음 문제은행 로드부터 적용됩니다.
 - 관리자 `보고된 오류` 화면에 `전체 삭제`를 추가했습니다.
 - DB 기능 사용 전 `supabase/V11.60.13_ADMIN_INLINE_EDIT_ERROR_CLEAR.sql`을 실행하십시오.
+
+---
+
+# PilotBank v11.60.14 추가 패치
+
+v11.60.13을 기반으로 **참고서 학습** 메뉴와 `Jeppesen Airway Manual` Glossary 학습과정을 추가했다.
+
+- 참고서 학습 → Jeppesen Airway Manual → 문제 풀이 / 이론 학습
+- 한국어 설명 번역 443개 용어 전부 수록
+- 용어별 2문항, 총 886문항
+- 이론 학습 33단계 + 단계별 최대 10문항 쪽지시험
+- Jeppesen 문제 풀이/이론 읽기 모두 기존 누적 학습시간에 포함
+- 별도 DB migration 없음
+
+상세 내용은 `V11.60.14_REFERENCE_STUDY_JEPPESEN.md`를 참고한다.

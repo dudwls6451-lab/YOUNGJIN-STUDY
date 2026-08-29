@@ -1,0 +1,18 @@
+{
+  "version": "v11.60.14",
+  "base": "v11.60.13",
+  "feature": "reference study / Jeppesen Airway Manual",
+  "reference_books": 1,
+  "jeppesen_glossary_terms": 443,
+  "jeppesen_questions": 886,
+  "theory_stages": 33,
+  "questions_per_term": 2,
+  "theory_quiz_questions_max": 10,
+  "theory_pass_percent": 80,
+  "study_time_counted": {
+    "problem_solving": true,
+    "theory_reader": true,
+    "reference_menu": false
+  },
+  "database_migration_required": false
+}

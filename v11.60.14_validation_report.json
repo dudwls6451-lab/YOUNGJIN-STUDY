@@ -1,0 +1,82 @@
+{
+  "version": "v11.60.14",
+  "base": "github-question-bank-v11.60.13-admin-inline-edit-error-clear-one-shot-patch.zip",
+  "validation": {
+    "node_check_reference_plugin": "pass",
+    "node_check_existing_app": "pass",
+    "question_json_parse": "pass",
+    "theory_json_parse": "pass",
+    "question_count": 886,
+    "unique_question_ids": 886,
+    "four_choices_each": true,
+    "answer_keys_reference_existing_choices": true,
+    "theory_stage_count": 33,
+    "theory_term_count": 443,
+    "theory_question_ids_complete": true,
+    "existing_files_unchanged_count": 57,
+    "existing_files_changed": [
+      "README.md",
+      "index.html"
+    ],
+    "existing_files_removed": []
+  },
+  "changed_files": [
+    {
+      "path": "README.md",
+      "base_sha256": "fcd7f2b611b8867459d4f72663106c53492ffef430856d1f49615332f27e1699",
+      "new_sha256": "b1d62ff2a96062f67846bb2bb98b3fac7cedb13a35b054a70b49627f74b19de7"
+    },
+    {
+      "path": "index.html",
+      "base_sha256": "7059e9679e301482d6d3b18b170daf065b4812383602db12d61bf07a8d324da4",
+      "new_sha256": "0ee16a73bf69cb8d131428e34f425f62754c6a8dac6b4c6442faff13603eff6e"
+    }
+  ],
+  "added_files": [
+    {
+      "path": "V11.60.14_REFERENCE_STUDY_JEPPESEN.md",
+      "sha256": "a3756fe0ffd1b865aa65691f371be31e4f12d3a23fb5f14c11080bfcdd443156",
+      "bytes": 1614
+    },
+    {
+      "path": "v11.60.14_reference_study_report.json",
+      "sha256": "977d9dd7da6468e1bdcd1e59e0604a9eef124a29e861722d0ebb33c8bef87f08",
+      "bytes": 465
+    },
+    {
+      "path": "data/questions-jeppesen-glossary-v1.json",
+      "sha256": "894070bdc2bc913f2f7e7acdd364ff626efadb5fdd6e459879858d2bf53fca30",
+      "bytes": 1760695
+    },
+    {
+      "path": "data/theory-jeppesen-glossary-v1.json",
+      "sha256": "c761a8db6fe6c17be4570c1378b628e461bc1c6da294a027d93179f13e716292",
+      "bytes": 268242
+    },
+    {
+      "path": "assets/style-v11-60-14-reference-study.css",
+      "sha256": "532e82f212c6d582d399f39ccb207ec1e4974df963cc52dcd376b812afe179e2",
+      "bytes": 1175
+    },
+    {
+      "path": "assets/reference-study-v11-60-14.js",
+      "sha256": "909b4e7fcf2f764c60ea3adecda82c6a3619d54f92848cdc99c8ffee3b70a3fe",
+      "bytes": 10916
+    },
+    {
+      "path": "assets/covers/jeppesen_airway_manual.svg",
+      "sha256": "26279c9cd226122e96281df110aabb3e73b973d5492e1aee025f12e2ca986242",
+      "bytes": 1450
+    },
+    {
+      "path": "data/reference-sources/Jeppesen_Airway_Manual_Glossary_용어별_2문항_문제은행.txt",
+      "sha256": "fbcdff9cb25a15be242fa9a186468f6b513074822da4b830a49f88ce5c402ce9",
+      "bytes": 896112
+    },
+    {
+      "path": "data/reference-sources/Jeppesen_Airway_Manual_Glossary_설명_한국어번역.txt",
+      "sha256": "341cb1034f13dc70540cc6093772568f1eed4e395dab639b2ff4d65e6a324e78",
+      "bytes": 115208
+    }
+  ]
+}
