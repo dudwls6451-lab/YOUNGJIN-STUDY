@@ -1,0 +1,7 @@
+.reference-module-heading{margin-top:1.25rem;margin-bottom:.75rem;padding-top:.25rem}
+.reference-module-heading h3{margin:.12rem 0 .25rem;font-size:1.15rem}
+.reference-module-heading p{margin:0}
+.reference-module-section{margin-top:1.5rem;padding-top:1.25rem;border-top:1px solid var(--border,#d8dee8)}
+.reference-study-detail .theory-figure img,.theory-card .theory-figure img{max-height:300px;object-fit:contain;background:#fff;border-radius:10px}
+.figure-gallery .figure-item img{max-height:360px;object-fit:contain;background:#fff}
+@media(max-width:640px){.reference-module-section{margin-top:1.15rem;padding-top:1rem}.theory-card .theory-figure img{max-height:250px}}
