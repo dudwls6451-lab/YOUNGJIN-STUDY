@@ -1,0 +1,1414 @@
+{
+  "metadata": {
+    "name": "Jeppesen Airway Manual · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+    "subject": "Jeppesen Airway Manual · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+    "source_file": "TalkFile_JEPPESEN AIRWAY MANUAL (251113).pdf",
+    "scope": "Signs and Markings — ICAO Recommended Airport Signs, Runway and Taxiway Markings p.219–232; VDGS p.233+ excluded",
+    "course_type": "reference_icao_airport_signs_markings",
+    "question_count": 28,
+    "stage_count": 5,
+    "version": "v11.60.22"
+  },
+  "questions": [
+    {
+      "id": "JEPP-ICAO-SIGNS-001",
+      "number": 1,
+      "subject": "Jeppesen Airway Manual · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "study_unit": 1,
+      "study_unit_title": "Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "subunit": {
+        "code": "ICAO-SIGNS-STAGE-01",
+        "title": "Mandatory Instruction Signs"
+      },
+      "source_page": 220,
+      "question": "다음 Jeppesen ICAO Recommended Airport Signs, Runway and Taxiway Markings 이미지가 나타내는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Runway-Holding Position Sign"
+        },
+        {
+          "id": "B",
+          "text": "Location / Runway Designation Sign"
+        },
+        {
+          "id": "C",
+          "text": "NO ENTRY Sign"
+        },
+        {
+          "id": "D",
+          "text": "Runway Designation / Category II Holding Position Sign"
+        }
+      ],
+      "answer": "B",
+      "explanation": "정답은 Location / Runway Designation Sign입니다. Location sign과 runway designation sign을 함께 표시한 형태이다. 원문에서 location sign은 노란 문자를 검은 배경에 사용하며, runway designation을 포함한 mandatory instruction sign은 흰 문자를 빨간 배경에 사용한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings p.220",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-icao-airport-signs-markings/icao-01-location-runway-designation.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Signs and Markings",
+        "ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+        "Location / Runway Designation Sign"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Location / Runway Designation Sign",
+      "source_description_ko": "Location sign과 runway designation sign을 함께 표시한 형태이다. 원문에서 location sign은 노란 문자를 검은 배경에 사용하며, runway designation을 포함한 mandatory instruction sign은 흰 문자를 빨간 배경에 사용한다."
+    },
+    {
+      "id": "JEPP-ICAO-SIGNS-002",
+      "number": 2,
+      "subject": "Jeppesen Airway Manual · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "study_unit": 1,
+      "study_unit_title": "Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "subunit": {
+        "code": "ICAO-SIGNS-STAGE-01",
+        "title": "Mandatory Instruction Signs"
+      },
+      "source_page": 220,
+      "question": "다음 Jeppesen ICAO Recommended Airport Signs, Runway and Taxiway Markings 이미지가 나타내는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Location / Runway Designation Sign"
+        },
+        {
+          "id": "B",
+          "text": "Runway Designation / Category II Holding Position Sign"
+        },
+        {
+          "id": "C",
+          "text": "Runway Designation / Location Sign"
+        },
+        {
+          "id": "D",
+          "text": "Runway-Holding Position Sign"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 Runway Designation / Location Sign입니다. Runway designation sign과 location sign을 함께 표시한 형태이다. Runway designation sign은 교차 활주로 designation을 나타내며 mandatory instruction sign의 red/white 형식을 사용한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings p.220",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-icao-airport-signs-markings/icao-02-runway-designation-location.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Signs and Markings",
+        "ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+        "Runway Designation / Location Sign"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Runway Designation / Location Sign",
+      "source_description_ko": "Runway designation sign과 location sign을 함께 표시한 형태이다. Runway designation sign은 교차 활주로 designation을 나타내며 mandatory instruction sign의 red/white 형식을 사용한다."
+    },
+    {
+      "id": "JEPP-ICAO-SIGNS-003",
+      "number": 3,
+      "subject": "Jeppesen Airway Manual · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "study_unit": 1,
+      "study_unit_title": "Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "subunit": {
+        "code": "ICAO-SIGNS-STAGE-01",
+        "title": "Mandatory Instruction Signs"
+      },
+      "source_page": 220,
+      "question": "다음 Jeppesen ICAO Recommended Airport Signs, Runway and Taxiway Markings 이미지가 나타내는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Location / Runway Designation Sign"
+        },
+        {
+          "id": "B",
+          "text": "Runway-Holding Position Sign"
+        },
+        {
+          "id": "C",
+          "text": "Runway Designation / Category II Holding Position Sign"
+        },
+        {
+          "id": "D",
+          "text": "Runway Designation / Location Sign"
+        }
+      ],
+      "answer": "B",
+      "explanation": "정답은 Runway-Holding Position Sign입니다. Runway-holding position sign은 obstacle limitation surface 또는 ILS/MLS critical/sensitive area에 대한 runway-holding position의 양쪽에 설치되며, 표지 inscription은 taxiway designation과 number로 구성된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings p.220",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-icao-airport-signs-markings/icao-03-runway-holding-position-sign.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Signs and Markings",
+        "ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+        "Runway-Holding Position Sign"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Runway-Holding Position Sign",
+      "source_description_ko": "Runway-holding position sign은 obstacle limitation surface 또는 ILS/MLS critical/sensitive area에 대한 runway-holding position의 양쪽에 설치되며, 표지 inscription은 taxiway designation과 number로 구성된다."
+    },
+    {
+      "id": "JEPP-ICAO-SIGNS-004",
+      "number": 4,
+      "subject": "Jeppesen Airway Manual · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "study_unit": 1,
+      "study_unit_title": "Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "subunit": {
+        "code": "ICAO-SIGNS-STAGE-01",
+        "title": "Mandatory Instruction Signs"
+      },
+      "source_page": 220,
+      "question": "다음 Jeppesen ICAO Recommended Airport Signs, Runway and Taxiway Markings 이미지가 나타내는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Runway Designation / Category II Holding Position Sign"
+        },
+        {
+          "id": "B",
+          "text": "NO ENTRY Sign"
+        },
+        {
+          "id": "C",
+          "text": "Location / Runway Designation Sign"
+        },
+        {
+          "id": "D",
+          "text": "Runway-Holding Position Sign"
+        }
+      ],
+      "answer": "A",
+      "explanation": "정답은 Runway Designation / Category II Holding Position Sign입니다. Category I, II 또는 III holding position sign은 critical area 접근 방향을 향해 runway-holding position marking 양쪽에 설치된다. Inscription은 runway designator 뒤에 CAT I, CAT II 또는 CAT III를 붙인다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings p.220",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-icao-airport-signs-markings/icao-04-category-ii-holding-position.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Signs and Markings",
+        "ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+        "Runway Designation / Category II Holding Position Sign"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Runway Designation / Category II Holding Position Sign",
+      "source_description_ko": "Category I, II 또는 III holding position sign은 critical area 접근 방향을 향해 runway-holding position marking 양쪽에 설치된다. Inscription은 runway designator 뒤에 CAT I, CAT II 또는 CAT III를 붙인다."
+    },
+    {
+      "id": "JEPP-ICAO-SIGNS-005",
+      "number": 5,
+      "subject": "Jeppesen Airway Manual · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "study_unit": 1,
+      "study_unit_title": "Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "subunit": {
+        "code": "ICAO-SIGNS-STAGE-01",
+        "title": "Mandatory Instruction Signs"
+      },
+      "source_page": 220,
+      "question": "다음 Jeppesen ICAO Recommended Airport Signs, Runway and Taxiway Markings 이미지가 나타내는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Runway Designation / Location Sign"
+        },
+        {
+          "id": "B",
+          "text": "NO ENTRY Sign"
+        },
+        {
+          "id": "C",
+          "text": "Location / Runway Designation Sign"
+        },
+        {
+          "id": "D",
+          "text": "Runway-Holding Position Sign"
+        }
+      ],
+      "answer": "B",
+      "explanation": "정답은 NO ENTRY Sign입니다. 진입이 금지된 구역을 표시하는 mandatory instruction sign이다. Mandatory instruction signs는 red background와 white inscription을 사용한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings p.220",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-icao-airport-signs-markings/icao-05-no-entry.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Signs and Markings",
+        "ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+        "NO ENTRY Sign"
+      ],
+      "reference_study_only": true,
+      "legend_label": "NO ENTRY Sign",
+      "source_description_ko": "진입이 금지된 구역을 표시하는 mandatory instruction sign이다. Mandatory instruction signs는 red background와 white inscription을 사용한다."
+    },
+    {
+      "id": "JEPP-ICAO-SIGNS-006",
+      "number": 6,
+      "subject": "Jeppesen Airway Manual · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "study_unit": 2,
+      "study_unit_title": "Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "subunit": {
+        "code": "ICAO-SIGNS-STAGE-02",
+        "title": "Information Signs"
+      },
+      "source_page": 222,
+      "question": "다음 Jeppesen ICAO Recommended Airport Signs, Runway and Taxiway Markings 이미지가 나타내는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Direction / Location / Direction Sign"
+        },
+        {
+          "id": "B",
+          "text": "Location / Direction Sign"
+        },
+        {
+          "id": "C",
+          "text": "Runway Vacated / Location Sign"
+        },
+        {
+          "id": "D",
+          "text": "Destination Sign"
+        }
+      ],
+      "answer": "A",
+      "explanation": "정답은 Direction / Location / Direction Sign입니다. 교차부에서 taxiway 방향 정보와 현재 위치를 결합한 information sign 예시이다. Location sign은 yellow-on-black, direction sign은 black-on-yellow 형식을 사용한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings p.222",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-icao-airport-signs-markings/icao-06-direction-location-direction.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Signs and Markings",
+        "ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+        "Direction / Location / Direction Sign"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Direction / Location / Direction Sign",
+      "source_description_ko": "교차부에서 taxiway 방향 정보와 현재 위치를 결합한 information sign 예시이다. Location sign은 yellow-on-black, direction sign은 black-on-yellow 형식을 사용한다."
+    },
+    {
+      "id": "JEPP-ICAO-SIGNS-007",
+      "number": 7,
+      "subject": "Jeppesen Airway Manual · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "study_unit": 2,
+      "study_unit_title": "Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "subunit": {
+        "code": "ICAO-SIGNS-STAGE-02",
+        "title": "Information Signs"
+      },
+      "source_page": 222,
+      "question": "다음 Jeppesen ICAO Recommended Airport Signs, Runway and Taxiway Markings 이미지가 나타내는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Direction / Location / Direction Sign"
+        },
+        {
+          "id": "B",
+          "text": "Location Sign"
+        },
+        {
+          "id": "C",
+          "text": "Intersection Take-off Sign"
+        },
+        {
+          "id": "D",
+          "text": "Location / Direction Sign"
+        }
+      ],
+      "answer": "D",
+      "explanation": "정답은 Location / Direction Sign입니다. 현재 taxiway location과 교차 taxiway 진행 방향을 함께 표시한다. Direction sign은 taxiway designation과 진행 방향 화살표를 포함한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings p.222",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-icao-airport-signs-markings/icao-07-location-direction.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Signs and Markings",
+        "ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+        "Location / Direction Sign"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Location / Direction Sign",
+      "source_description_ko": "현재 taxiway location과 교차 taxiway 진행 방향을 함께 표시한다. Direction sign은 taxiway designation과 진행 방향 화살표를 포함한다."
+    },
+    {
+      "id": "JEPP-ICAO-SIGNS-008",
+      "number": 8,
+      "subject": "Jeppesen Airway Manual · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "study_unit": 2,
+      "study_unit_title": "Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "subunit": {
+        "code": "ICAO-SIGNS-STAGE-02",
+        "title": "Information Signs"
+      },
+      "source_page": 222,
+      "question": "다음 Jeppesen ICAO Recommended Airport Signs, Runway and Taxiway Markings 이미지가 나타내는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Destination Sign"
+        },
+        {
+          "id": "B",
+          "text": "Direction / Location / Direction Sign"
+        },
+        {
+          "id": "C",
+          "text": "Location / Direction Sign"
+        },
+        {
+          "id": "D",
+          "text": "Intersection Take-off Sign"
+        }
+      ],
+      "answer": "A",
+      "explanation": "정답은 Destination Sign입니다. Cargo, general aviation 등 특정 목적지로 가는 방향을 나타낸다. Destination sign은 목적지를 식별하는 문자·숫자 message와 진행 방향 화살표로 구성된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings p.222",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-icao-airport-signs-markings/icao-08-destination.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Signs and Markings",
+        "ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+        "Destination Sign"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Destination Sign",
+      "source_description_ko": "Cargo, general aviation 등 특정 목적지로 가는 방향을 나타낸다. Destination sign은 목적지를 식별하는 문자·숫자 message와 진행 방향 화살표로 구성된다."
+    },
+    {
+      "id": "JEPP-ICAO-SIGNS-009",
+      "number": 9,
+      "subject": "Jeppesen Airway Manual · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "study_unit": 2,
+      "study_unit_title": "Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "subunit": {
+        "code": "ICAO-SIGNS-STAGE-02",
+        "title": "Information Signs"
+      },
+      "source_page": 222,
+      "question": "다음 Jeppesen ICAO Recommended Airport Signs, Runway and Taxiway Markings 이미지가 나타내는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Location Sign"
+        },
+        {
+          "id": "B",
+          "text": "Location / Runway Vacated Sign"
+        },
+        {
+          "id": "C",
+          "text": "Direction / Location / Direction Sign"
+        },
+        {
+          "id": "D",
+          "text": "Location / Direction Sign"
+        }
+      ],
+      "answer": "B",
+      "explanation": "정답은 Location / Runway Vacated Sign입니다. Location sign과 runway vacated sign을 결합한 형태이다. Runway vacated sign은 runway-holding position marking Pattern A의 도형을 사용하여 runway 또는 ILS/MLS critical/sensitive area를 벗어났음을 나타내는 데 사용된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings p.222",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-icao-airport-signs-markings/icao-09-location-runway-vacated.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Signs and Markings",
+        "ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+        "Location / Runway Vacated Sign"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Location / Runway Vacated Sign",
+      "source_description_ko": "Location sign과 runway vacated sign을 결합한 형태이다. Runway vacated sign은 runway-holding position marking Pattern A의 도형을 사용하여 runway 또는 ILS/MLS critical/sensitive area를 벗어났음을 나타내는 데 사용된다."
+    },
+    {
+      "id": "JEPP-ICAO-SIGNS-010",
+      "number": 10,
+      "subject": "Jeppesen Airway Manual · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "study_unit": 2,
+      "study_unit_title": "Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "subunit": {
+        "code": "ICAO-SIGNS-STAGE-02",
+        "title": "Information Signs"
+      },
+      "source_page": 222,
+      "question": "다음 Jeppesen ICAO Recommended Airport Signs, Runway and Taxiway Markings 이미지가 나타내는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Runway Exit Sign"
+        },
+        {
+          "id": "B",
+          "text": "Runway Vacated / Location Sign"
+        },
+        {
+          "id": "C",
+          "text": "Direction / Location / Direction Sign"
+        },
+        {
+          "id": "D",
+          "text": "Intersection Take-off Sign"
+        }
+      ],
+      "answer": "B",
+      "explanation": "정답은 Runway Vacated / Location Sign입니다. Runway vacated sign과 location sign을 결합한 형태이다. Runway vacated sign은 exit taxiway에 centerline lights가 없고 runway 또는 ILS/MLS critical/sensitive area를 떠나는 것을 표시할 필요가 있을 때 제공된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings p.222",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-icao-airport-signs-markings/icao-10-runway-vacated-location.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Signs and Markings",
+        "ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+        "Runway Vacated / Location Sign"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Runway Vacated / Location Sign",
+      "source_description_ko": "Runway vacated sign과 location sign을 결합한 형태이다. Runway vacated sign은 exit taxiway에 centerline lights가 없고 runway 또는 ILS/MLS critical/sensitive area를 떠나는 것을 표시할 필요가 있을 때 제공된다."
+    },
+    {
+      "id": "JEPP-ICAO-SIGNS-011",
+      "number": 11,
+      "subject": "Jeppesen Airway Manual · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "study_unit": 2,
+      "study_unit_title": "Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "subunit": {
+        "code": "ICAO-SIGNS-STAGE-02",
+        "title": "Information Signs"
+      },
+      "source_page": 222,
+      "question": "다음 Jeppesen ICAO Recommended Airport Signs, Runway and Taxiway Markings 이미지가 나타내는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Runway Vacated / Location Sign"
+        },
+        {
+          "id": "B",
+          "text": "Direction / Location / Direction Sign"
+        },
+        {
+          "id": "C",
+          "text": "Runway Exit Sign"
+        },
+        {
+          "id": "D",
+          "text": "Intersection Take-off Sign"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 Runway Exit Sign입니다. 활주로 출구를 식별하며 exit taxiway designator와 따라야 할 방향을 나타내는 화살표로 구성된다. 활주로에서는 실제 출구가 있는 쪽에 설치된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings p.222",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-icao-airport-signs-markings/icao-11-runway-exit.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Signs and Markings",
+        "ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+        "Runway Exit Sign"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Runway Exit Sign",
+      "source_description_ko": "활주로 출구를 식별하며 exit taxiway designator와 따라야 할 방향을 나타내는 화살표로 구성된다. 활주로에서는 실제 출구가 있는 쪽에 설치된다."
+    },
+    {
+      "id": "JEPP-ICAO-SIGNS-012",
+      "number": 12,
+      "subject": "Jeppesen Airway Manual · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "study_unit": 2,
+      "study_unit_title": "Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "subunit": {
+        "code": "ICAO-SIGNS-STAGE-02",
+        "title": "Information Signs"
+      },
+      "source_page": 222,
+      "question": "다음 Jeppesen ICAO Recommended Airport Signs, Runway and Taxiway Markings 이미지가 나타내는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Location Sign"
+        },
+        {
+          "id": "B",
+          "text": "Runway Vacated / Location Sign"
+        },
+        {
+          "id": "C",
+          "text": "Runway Exit Sign"
+        },
+        {
+          "id": "D",
+          "text": "Location / Direction Sign"
+        }
+      ],
+      "answer": "A",
+      "explanation": "정답은 Location Sign입니다. 항공기가 현재 위치하거나 진입하는 taxiway, runway 또는 기타 pavement의 designation을 나타낸다. Location sign은 yellow inscription on black background 형식이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings p.222",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-icao-airport-signs-markings/icao-12-location.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Signs and Markings",
+        "ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+        "Location Sign"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Location Sign",
+      "source_description_ko": "항공기가 현재 위치하거나 진입하는 taxiway, runway 또는 기타 pavement의 designation을 나타낸다. Location sign은 yellow inscription on black background 형식이다."
+    },
+    {
+      "id": "JEPP-ICAO-SIGNS-013",
+      "number": 13,
+      "subject": "Jeppesen Airway Manual · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "study_unit": 2,
+      "study_unit_title": "Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "subunit": {
+        "code": "ICAO-SIGNS-STAGE-02",
+        "title": "Information Signs"
+      },
+      "source_page": 222,
+      "question": "다음 Jeppesen ICAO Recommended Airport Signs, Runway and Taxiway Markings 이미지가 나타내는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Intersection Take-off Sign"
+        },
+        {
+          "id": "B",
+          "text": "Runway Vacated / Location Sign"
+        },
+        {
+          "id": "C",
+          "text": "Location / Direction Sign"
+        },
+        {
+          "id": "D",
+          "text": "Destination Sign"
+        }
+      ],
+      "answer": "A",
+      "explanation": "정답은 Intersection Take-off Sign입니다. 교차지점에서 이용 가능한 take-off distance를 숫자와 단위로 나타내는 information sign 예시이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings p.222",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-icao-airport-signs-markings/icao-13-intersection-takeoff.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Signs and Markings",
+        "ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+        "Intersection Take-off Sign"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Intersection Take-off Sign",
+      "source_description_ko": "교차지점에서 이용 가능한 take-off distance를 숫자와 단위로 나타내는 information sign 예시이다."
+    },
+    {
+      "id": "JEPP-ICAO-SIGNS-014",
+      "number": 14,
+      "subject": "Jeppesen Airway Manual · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "study_unit": 3,
+      "study_unit_title": "Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "subunit": {
+        "code": "ICAO-SIGNS-STAGE-03",
+        "title": "Runway Holding Positions · Stop Bars · Guard Lights"
+      },
+      "source_page": 224,
+      "question": "다음 Jeppesen ICAO Recommended Airport Signs, Runway and Taxiway Markings 이미지가 나타내는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Runway Guard Lights — Configuration A"
+        },
+        {
+          "id": "B",
+          "text": "Stop Bar"
+        },
+        {
+          "id": "C",
+          "text": "Runway-Holding Position Marking — Pattern A"
+        },
+        {
+          "id": "D",
+          "text": "Runway-Holding Position Marking — Pattern B"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 Runway-Holding Position Marking — Pattern A입니다. Taxiway와 non-precision/non-instrument/take-off runway의 교차부 또는 하나의 holding position만 제공되는 precision approach runway 교차부에서 사용하는 runway-holding position marking 형식이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings p.224",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-icao-airport-signs-markings/icao-14-runway-holding-pattern-a.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Signs and Markings",
+        "ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+        "Runway-Holding Position Marking — Pattern A"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Runway-Holding Position Marking — Pattern A",
+      "source_description_ko": "Taxiway와 non-precision/non-instrument/take-off runway의 교차부 또는 하나의 holding position만 제공되는 precision approach runway 교차부에서 사용하는 runway-holding position marking 형식이다."
+    },
+    {
+      "id": "JEPP-ICAO-SIGNS-015",
+      "number": 15,
+      "subject": "Jeppesen Airway Manual · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "study_unit": 3,
+      "study_unit_title": "Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "subunit": {
+        "code": "ICAO-SIGNS-STAGE-03",
+        "title": "Runway Holding Positions · Stop Bars · Guard Lights"
+      },
+      "source_page": 224,
+      "question": "다음 Jeppesen ICAO Recommended Airport Signs, Runway and Taxiway Markings 이미지가 나타내는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Runway-Holding Position Marking — Pattern A"
+        },
+        {
+          "id": "B",
+          "text": "Runway Guard Lights — Configuration B"
+        },
+        {
+          "id": "C",
+          "text": "Runway-Holding Position Marking — Pattern B"
+        },
+        {
+          "id": "D",
+          "text": "Stop Bar"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 Runway-Holding Position Marking — Pattern B입니다. Precision approach runway 교차부에 두 개 또는 세 개의 runway-holding positions가 있는 경우 runway에서 더 먼 marking에 사용된다. Runway/runway intersection의 holding position marking도 Pattern B를 사용한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings p.224",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-icao-airport-signs-markings/icao-15-runway-holding-pattern-b.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Signs and Markings",
+        "ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+        "Runway-Holding Position Marking — Pattern B"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Runway-Holding Position Marking — Pattern B",
+      "source_description_ko": "Precision approach runway 교차부에 두 개 또는 세 개의 runway-holding positions가 있는 경우 runway에서 더 먼 marking에 사용된다. Runway/runway intersection의 holding position marking도 Pattern B를 사용한다."
+    },
+    {
+      "id": "JEPP-ICAO-SIGNS-016",
+      "number": 16,
+      "subject": "Jeppesen Airway Manual · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "study_unit": 3,
+      "study_unit_title": "Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "subunit": {
+        "code": "ICAO-SIGNS-STAGE-03",
+        "title": "Runway Holding Positions · Stop Bars · Guard Lights"
+      },
+      "source_page": 225,
+      "question": "다음 Jeppesen ICAO Recommended Airport Signs, Runway and Taxiway Markings 이미지가 나타내는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Stop Bar"
+        },
+        {
+          "id": "B",
+          "text": "Runway Guard Lights — Configuration B"
+        },
+        {
+          "id": "C",
+          "text": "Runway Guard Lights — Configuration A"
+        },
+        {
+          "id": "D",
+          "text": "Runway-Holding Position Marking — Pattern A"
+        }
+      ],
+      "answer": "A",
+      "explanation": "정답은 Stop Bar입니다. 정지시키고자 하는 지점에서 taxiway를 가로질러 설치한다. Stop bar lights는 교차부 또는 runway-holding position으로 접근하는 방향에서 red로 보이며, runway-holding position에 설치된 stop bar는 runway 접근 방향에 대해 unidirectional이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings p.225",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-icao-airport-signs-markings/icao-16-stop-bar.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Signs and Markings",
+        "ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+        "Stop Bar"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Stop Bar",
+      "source_description_ko": "정지시키고자 하는 지점에서 taxiway를 가로질러 설치한다. Stop bar lights는 교차부 또는 runway-holding position으로 접근하는 방향에서 red로 보이며, runway-holding position에 설치된 stop bar는 runway 접근 방향에 대해 unidirectional이다."
+    },
+    {
+      "id": "JEPP-ICAO-SIGNS-017",
+      "number": 17,
+      "subject": "Jeppesen Airway Manual · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "study_unit": 3,
+      "study_unit_title": "Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "subunit": {
+        "code": "ICAO-SIGNS-STAGE-03",
+        "title": "Runway Holding Positions · Stop Bars · Guard Lights"
+      },
+      "source_page": 226,
+      "question": "다음 Jeppesen ICAO Recommended Airport Signs, Runway and Taxiway Markings 이미지가 나타내는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Runway-Holding Position Marking — Pattern B"
+        },
+        {
+          "id": "B",
+          "text": "Stop Bar"
+        },
+        {
+          "id": "C",
+          "text": "Runway Guard Lights — Configuration B"
+        },
+        {
+          "id": "D",
+          "text": "Runway Guard Lights — Configuration A"
+        }
+      ],
+      "answer": "D",
+      "explanation": "정답은 Runway Guard Lights — Configuration A입니다. Configuration A runway guard lights는 taxiway 양쪽에 위치한다. 원문은 runway guard lights를 unidirectional flashing yellow lights로 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings p.226",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-icao-airport-signs-markings/icao-17-runway-guard-lights-config-a.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Signs and Markings",
+        "ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+        "Runway Guard Lights — Configuration A"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Runway Guard Lights — Configuration A",
+      "source_description_ko": "Configuration A runway guard lights는 taxiway 양쪽에 위치한다. 원문은 runway guard lights를 unidirectional flashing yellow lights로 설명한다."
+    },
+    {
+      "id": "JEPP-ICAO-SIGNS-018",
+      "number": 18,
+      "subject": "Jeppesen Airway Manual · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "study_unit": 3,
+      "study_unit_title": "Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "subunit": {
+        "code": "ICAO-SIGNS-STAGE-03",
+        "title": "Runway Holding Positions · Stop Bars · Guard Lights"
+      },
+      "source_page": 226,
+      "question": "다음 Jeppesen ICAO Recommended Airport Signs, Runway and Taxiway Markings 이미지가 나타내는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Runway Guard Lights — Configuration B"
+        },
+        {
+          "id": "B",
+          "text": "Runway-Holding Position Marking — Pattern B"
+        },
+        {
+          "id": "C",
+          "text": "Runway Guard Lights — Configuration A"
+        },
+        {
+          "id": "D",
+          "text": "Runway-Holding Position Marking — Pattern A"
+        }
+      ],
+      "answer": "A",
+      "explanation": "정답은 Runway Guard Lights — Configuration B입니다. Configuration B runway guard lights는 taxiway를 가로질러 위치한다. 교차부 형상을 더 명확히 할 필요가 있는 경우 Configuration A, B 또는 둘 다 사용할 수 있다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings p.226",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-icao-airport-signs-markings/icao-18-runway-guard-lights-config-b.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Signs and Markings",
+        "ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+        "Runway Guard Lights — Configuration B"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Runway Guard Lights — Configuration B",
+      "source_description_ko": "Configuration B runway guard lights는 taxiway를 가로질러 위치한다. 교차부 형상을 더 명확히 할 필요가 있는 경우 Configuration A, B 또는 둘 다 사용할 수 있다."
+    },
+    {
+      "id": "JEPP-ICAO-SIGNS-019",
+      "number": 19,
+      "subject": "Jeppesen Airway Manual · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "study_unit": 4,
+      "study_unit_title": "Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "subunit": {
+        "code": "ICAO-SIGNS-STAGE-04",
+        "title": "Runway Markings · RETIL/HSTIL"
+      },
+      "source_page": 230,
+      "question": "다음 Jeppesen ICAO Recommended Airport Signs, Runway and Taxiway Markings 이미지가 나타내는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Runway Touchdown Zone Markings"
+        },
+        {
+          "id": "B",
+          "text": "Runway Centerline Marking"
+        },
+        {
+          "id": "C",
+          "text": "Runway Side Stripe Marking"
+        },
+        {
+          "id": "D",
+          "text": "Runway Threshold Markings"
+        }
+      ],
+      "answer": "D",
+      "explanation": "정답은 Runway Threshold Markings입니다. Paved instrument 및 non-instrument runway의 threshold에 제공되는 종방향 stripe pattern이다. Stripe 수는 runway width에 따라 달라지며 원문 표는 18m=4, 23m=6, 30m=8, 45m=12, 60m=16으로 제시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings p.230",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-icao-airport-signs-markings/icao-20-threshold-marking.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Signs and Markings",
+        "ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+        "Runway Threshold Markings"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Runway Threshold Markings",
+      "source_description_ko": "Paved instrument 및 non-instrument runway의 threshold에 제공되는 종방향 stripe pattern이다. Stripe 수는 runway width에 따라 달라지며 원문 표는 18m=4, 23m=6, 30m=8, 45m=12, 60m=16으로 제시한다."
+    },
+    {
+      "id": "JEPP-ICAO-SIGNS-020",
+      "number": 20,
+      "subject": "Jeppesen Airway Manual · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "study_unit": 4,
+      "study_unit_title": "Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "subunit": {
+        "code": "ICAO-SIGNS-STAGE-04",
+        "title": "Runway Markings · RETIL/HSTIL"
+      },
+      "source_page": 230,
+      "question": "다음 Jeppesen ICAO Recommended Airport Signs, Runway and Taxiway Markings 이미지가 나타내는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Runway Designation Marking"
+        },
+        {
+          "id": "B",
+          "text": "Runway Threshold Markings"
+        },
+        {
+          "id": "C",
+          "text": "Runway Side Stripe Marking"
+        },
+        {
+          "id": "D",
+          "text": "High Speed Taxiway Turn-off Indicator Lights (HSTIL) / Rapid Exit Taxiway Indicator Lights (RETIL)"
+        }
+      ],
+      "answer": "A",
+      "explanation": "정답은 Runway Designation Marking입니다. Paved runway threshold에 위치하는 두 자리 숫자 designation이다. Parallel runways에서는 접근 방향에서 보아 왼쪽에서 오른쪽 순으로 letter가 추가된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings p.230",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-icao-airport-signs-markings/icao-21-runway-designation-marking.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Signs and Markings",
+        "ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+        "Runway Designation Marking"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Runway Designation Marking",
+      "source_description_ko": "Paved runway threshold에 위치하는 두 자리 숫자 designation이다. Parallel runways에서는 접근 방향에서 보아 왼쪽에서 오른쪽 순으로 letter가 추가된다."
+    },
+    {
+      "id": "JEPP-ICAO-SIGNS-021",
+      "number": 21,
+      "subject": "Jeppesen Airway Manual · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "study_unit": 4,
+      "study_unit_title": "Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "subunit": {
+        "code": "ICAO-SIGNS-STAGE-04",
+        "title": "Runway Markings · RETIL/HSTIL"
+      },
+      "source_page": 230,
+      "question": "다음 Jeppesen ICAO Recommended Airport Signs, Runway and Taxiway Markings 이미지가 나타내는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "High Speed Taxiway Turn-off Indicator Lights (HSTIL) / Rapid Exit Taxiway Indicator Lights (RETIL)"
+        },
+        {
+          "id": "B",
+          "text": "Runway Designation Marking"
+        },
+        {
+          "id": "C",
+          "text": "Runway Centerline Marking"
+        },
+        {
+          "id": "D",
+          "text": "Runway Side Stripe Marking"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 Runway Centerline Marking입니다. Paved runway centerline을 따라 일정한 간격의 stripes와 gaps로 표시한다. 원문은 stripe를 통상 30m, gap을 20m로 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings p.230",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-icao-airport-signs-markings/icao-22-runway-centerline-marking.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Signs and Markings",
+        "ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+        "Runway Centerline Marking"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Runway Centerline Marking",
+      "source_description_ko": "Paved runway centerline을 따라 일정한 간격의 stripes와 gaps로 표시한다. 원문은 stripe를 통상 30m, gap을 20m로 설명한다."
+    },
+    {
+      "id": "JEPP-ICAO-SIGNS-022",
+      "number": 22,
+      "subject": "Jeppesen Airway Manual · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "study_unit": 4,
+      "study_unit_title": "Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "subunit": {
+        "code": "ICAO-SIGNS-STAGE-04",
+        "title": "Runway Markings · RETIL/HSTIL"
+      },
+      "source_page": 228,
+      "question": "다음 Jeppesen ICAO Recommended Airport Signs, Runway and Taxiway Markings 이미지가 나타내는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Runway Aiming Point Markings"
+        },
+        {
+          "id": "B",
+          "text": "Runway Side Stripe Marking"
+        },
+        {
+          "id": "C",
+          "text": "Runway Centerline Marking"
+        },
+        {
+          "id": "D",
+          "text": "High Speed Taxiway Turn-off Indicator Lights (HSTIL) / Rapid Exit Taxiway Indicator Lights (RETIL)"
+        }
+      ],
+      "answer": "D",
+      "explanation": "정답은 High Speed Taxiway Turn-off Indicator Lights (HSTIL) / Rapid Exit Taxiway Indicator Lights (RETIL)입니다. 관련 high speed turn-off taxiway와 같은 쪽 runway에 배치하는 fixed unidirectional yellow lights이다. ICAO 용어는 Rapid Exit Taxiway Indicator Lights (RETIL)로 제시된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings p.228",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-icao-airport-signs-markings/icao-19-retil-hstil.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Signs and Markings",
+        "ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+        "High Speed Taxiway Turn-off Indicator Lights (HSTIL) / Rapid Exit Taxiway Indicator Lights (RETIL)"
+      ],
+      "reference_study_only": true,
+      "legend_label": "High Speed Taxiway Turn-off Indicator Lights (HSTIL) / Rapid Exit Taxiway Indicator Lights (RETIL)",
+      "source_description_ko": "관련 high speed turn-off taxiway와 같은 쪽 runway에 배치하는 fixed unidirectional yellow lights이다. ICAO 용어는 Rapid Exit Taxiway Indicator Lights (RETIL)로 제시된다."
+    },
+    {
+      "id": "JEPP-ICAO-SIGNS-023",
+      "number": 23,
+      "subject": "Jeppesen Airway Manual · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "study_unit": 4,
+      "study_unit_title": "Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "subunit": {
+        "code": "ICAO-SIGNS-STAGE-04",
+        "title": "Runway Markings · RETIL/HSTIL"
+      },
+      "source_page": 230,
+      "question": "다음 Jeppesen ICAO Recommended Airport Signs, Runway and Taxiway Markings 이미지가 나타내는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Runway Threshold Markings"
+        },
+        {
+          "id": "B",
+          "text": "Runway Side Stripe Marking"
+        },
+        {
+          "id": "C",
+          "text": "Runway Touchdown Zone Markings"
+        },
+        {
+          "id": "D",
+          "text": "High Speed Taxiway Turn-off Indicator Lights (HSTIL) / Rapid Exit Taxiway Indicator Lights (RETIL)"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 Runway Touchdown Zone Markings입니다. Runway centerline을 기준으로 대칭 배치된 rectangular marking pairs이다. Pair 수는 landing distance available(LDA) 또는 threshold 간 거리에 따라 달라진다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings p.230",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-icao-airport-signs-markings/icao-23-touchdown-zone-markings.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Signs and Markings",
+        "ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+        "Runway Touchdown Zone Markings"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Runway Touchdown Zone Markings",
+      "source_description_ko": "Runway centerline을 기준으로 대칭 배치된 rectangular marking pairs이다. Pair 수는 landing distance available(LDA) 또는 threshold 간 거리에 따라 달라진다."
+    },
+    {
+      "id": "JEPP-ICAO-SIGNS-024",
+      "number": 24,
+      "subject": "Jeppesen Airway Manual · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "study_unit": 4,
+      "study_unit_title": "Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "subunit": {
+        "code": "ICAO-SIGNS-STAGE-04",
+        "title": "Runway Markings · RETIL/HSTIL"
+      },
+      "source_page": 230,
+      "question": "다음 Jeppesen ICAO Recommended Airport Signs, Runway and Taxiway Markings 이미지가 나타내는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Runway Side Stripe Marking"
+        },
+        {
+          "id": "B",
+          "text": "Runway Aiming Point Markings"
+        },
+        {
+          "id": "C",
+          "text": "Runway Touchdown Zone Markings"
+        },
+        {
+          "id": "D",
+          "text": "Runway Designation Marking"
+        }
+      ],
+      "answer": "B",
+      "explanation": "정답은 Runway Aiming Point Markings입니다. Paved instrument 또는 non-instrument runway의 각 approach end에 제공되며, 두 개의 conspicuous stripes로 구성된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings p.230",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-icao-airport-signs-markings/icao-24-aiming-point-markings.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Signs and Markings",
+        "ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+        "Runway Aiming Point Markings"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Runway Aiming Point Markings",
+      "source_description_ko": "Paved instrument 또는 non-instrument runway의 각 approach end에 제공되며, 두 개의 conspicuous stripes로 구성된다."
+    },
+    {
+      "id": "JEPP-ICAO-SIGNS-025",
+      "number": 25,
+      "subject": "Jeppesen Airway Manual · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "study_unit": 4,
+      "study_unit_title": "Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "subunit": {
+        "code": "ICAO-SIGNS-STAGE-04",
+        "title": "Runway Markings · RETIL/HSTIL"
+      },
+      "source_page": 230,
+      "question": "다음 Jeppesen ICAO Recommended Airport Signs, Runway and Taxiway Markings 이미지가 나타내는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Runway Designation Marking"
+        },
+        {
+          "id": "B",
+          "text": "Runway Centerline Marking"
+        },
+        {
+          "id": "C",
+          "text": "Runway Threshold Markings"
+        },
+        {
+          "id": "D",
+          "text": "Runway Side Stripe Marking"
+        }
+      ],
+      "answer": "D",
+      "explanation": "정답은 Runway Side Stripe Marking입니다. Runway edge와 shoulder 사이 contrast가 부족한 paved runway 및 precision approach runway에서 제공되며, runway 양쪽 edge를 따라 두 stripes로 표시된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings p.230",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-icao-airport-signs-markings/icao-25-runway-side-stripe.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Signs and Markings",
+        "ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+        "Runway Side Stripe Marking"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Runway Side Stripe Marking",
+      "source_description_ko": "Runway edge와 shoulder 사이 contrast가 부족한 paved runway 및 precision approach runway에서 제공되며, runway 양쪽 edge를 따라 두 stripes로 표시된다."
+    },
+    {
+      "id": "JEPP-ICAO-SIGNS-026",
+      "number": 26,
+      "subject": "Jeppesen Airway Manual · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "study_unit": 5,
+      "study_unit_title": "Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "subunit": {
+        "code": "ICAO-SIGNS-STAGE-05",
+        "title": "Displaced Threshold · Closed/Non-load-bearing · Chevron Marking"
+      },
+      "source_page": 231,
+      "question": "다음 Jeppesen ICAO Recommended Airport Signs, Runway and Taxiway Markings 이미지가 나타내는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Temporarily Displaced Threshold Marking"
+        },
+        {
+          "id": "B",
+          "text": "Runway Aiming Point Markings"
+        },
+        {
+          "id": "C",
+          "text": "Direction / Location / Direction Sign"
+        },
+        {
+          "id": "D",
+          "text": "Stop Bar"
+        }
+      ],
+      "answer": "A",
+      "explanation": "정답은 Temporarily Displaced Threshold Marking입니다. 원본의 temporarily displaced threshold 예시이다. Displaced threshold markings는 실제 threshold 위치가 runway 끝단과 일치하지 않는 경우의 표지를 보여준다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings p.231",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-icao-airport-signs-markings/icao-26-temporarily-displaced-threshold.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Signs and Markings",
+        "ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+        "Temporarily Displaced Threshold Marking"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Temporarily Displaced Threshold Marking",
+      "source_description_ko": "원본의 temporarily displaced threshold 예시이다. Displaced threshold markings는 실제 threshold 위치가 runway 끝단과 일치하지 않는 경우의 표지를 보여준다."
+    },
+    {
+      "id": "JEPP-ICAO-SIGNS-027",
+      "number": 27,
+      "subject": "Jeppesen Airway Manual · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "study_unit": 5,
+      "study_unit_title": "Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "subunit": {
+        "code": "ICAO-SIGNS-STAGE-05",
+        "title": "Displaced Threshold · Closed/Non-load-bearing · Chevron Marking"
+      },
+      "source_page": 231,
+      "question": "다음 Jeppesen ICAO Recommended Airport Signs, Runway and Taxiway Markings 이미지가 나타내는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Direction / Location / Direction Sign"
+        },
+        {
+          "id": "B",
+          "text": "Location / Runway Vacated Sign"
+        },
+        {
+          "id": "C",
+          "text": "Temporarily or Permanently Displaced Threshold Marking"
+        },
+        {
+          "id": "D",
+          "text": "Runway Aiming Point Markings"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 Temporarily or Permanently Displaced Threshold Marking입니다. 원본의 temporarily or permanently displaced threshold 예시이다. Transverse stripe와 threshold 방향 arrow 형식이 함께 제시된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings p.231",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-icao-airport-signs-markings/icao-27-displaced-threshold.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Signs and Markings",
+        "ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+        "Temporarily or Permanently Displaced Threshold Marking"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Temporarily or Permanently Displaced Threshold Marking",
+      "source_description_ko": "원본의 temporarily or permanently displaced threshold 예시이다. Transverse stripe와 threshold 방향 arrow 형식이 함께 제시된다."
+    },
+    {
+      "id": "JEPP-ICAO-SIGNS-028",
+      "number": 28,
+      "subject": "Jeppesen Airway Manual · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "study_unit": 5,
+      "study_unit_title": "Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+      "subunit": {
+        "code": "ICAO-SIGNS-STAGE-05",
+        "title": "Displaced Threshold · Closed/Non-load-bearing · Chevron Marking"
+      },
+      "source_page": 232,
+      "question": "다음 Jeppesen ICAO Recommended Airport Signs, Runway and Taxiway Markings 이미지가 나타내는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Runway Designation Marking"
+        },
+        {
+          "id": "B",
+          "text": "Pre-threshold Area Marking (Chevron Marking)"
+        },
+        {
+          "id": "C",
+          "text": "Runway Aiming Point Markings"
+        },
+        {
+          "id": "D",
+          "text": "Runway Centerline Marking"
+        }
+      ],
+      "answer": "B",
+      "explanation": "정답은 Pre-threshold Area Marking (Chevron Marking)입니다. Threshold 이전 paved surface가 60m를 초과하고 항공기 사용에 적합하지 않을 때 전체 길이에 chevron marking을 표시한다. 원문은 preferably yellow이며 runway threshold 방향을 가리킨다고 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Signs and Markings · ICAO Recommended Airport Signs, Runway and Taxiway Markings p.232",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-icao-airport-signs-markings/icao-28-pre-threshold-chevron.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Signs and Markings",
+        "ICAO Recommended Airport Signs, Runway and Taxiway Markings",
+        "Pre-threshold Area Marking (Chevron Marking)"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Pre-threshold Area Marking (Chevron Marking)",
+      "source_description_ko": "Threshold 이전 paved surface가 60m를 초과하고 항공기 사용에 적합하지 않을 때 전체 길이에 chevron marking을 표시한다. 원문은 preferably yellow이며 runway threshold 방향을 가리킨다고 설명한다."
+    }
+  ]
+}
