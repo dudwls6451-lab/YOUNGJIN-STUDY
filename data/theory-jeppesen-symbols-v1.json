@@ -1,0 +1,2188 @@
+{
+  "metadata": {
+    "name": "Jeppesen Airway Manual · Symbols · Charting Symbols Legend",
+    "subject": "Jeppesen Airway Manual · Symbols",
+    "source_file": "TalkFile_JEPPESEN AIRWAY MANUAL (251113).pdf",
+    "scope": "Symbols · Charting Symbols Legend p.126–135",
+    "course_type": "reference_symbols",
+    "symbol_count": 168,
+    "stage_count": 14,
+    "quiz_rule": {
+      "questions": 10,
+      "pass_percent": 80
+    },
+    "version": "v11.60.15"
+  },
+  "stages": [
+    {
+      "id": "JEPP-SYM-STAGE-01",
+      "unit_title": "Symbols · Charting Symbols Legend",
+      "title": "NAVAIDS · 15 symbols",
+      "source_printed_pages": [
+        126,
+        127
+      ],
+      "source_pdf_pages": [
+        126,
+        127
+      ],
+      "sections": [
+        {
+          "heading": "VOR",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “VOR”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-001-p126-vor.png",
+            "caption": "Charting Symbols Legend p.126 · VOR"
+          }
+        },
+        {
+          "heading": "VORDME/VORTAC",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “VORDME/VORTAC”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-002-p126-vordme-vortac.png",
+            "caption": "Charting Symbols Legend p.126 · VORDME/VORTAC"
+          }
+        },
+        {
+          "heading": "VORTAC",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “VORTAC”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-003-p127-vortac.png",
+            "caption": "Charting Symbols Legend p.127 · VORTAC"
+          }
+        },
+        {
+          "heading": "DME",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “DME”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-004-p127-dme.png",
+            "caption": "Charting Symbols Legend p.127 · DME"
+          }
+        },
+        {
+          "heading": "TACAN",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “TACAN”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-005-p127-tacan.png",
+            "caption": "Charting Symbols Legend p.127 · TACAN"
+          }
+        },
+        {
+          "heading": "NDB/LOCATOR",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “NDB/LOCATOR”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-006-p127-ndb-locator.png",
+            "caption": "Charting Symbols Legend p.127 · NDB/LOCATOR"
+          }
+        },
+        {
+          "heading": "ILS, LOC, LDA, SDF, MLS, or KRM (Front Course)",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “ILS, LOC, LDA, SDF, MLS, or KRM (Front Course)”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-007-p127-ils-loc-lda-sdf-mls-or-krm-front-course.png",
+            "caption": "Charting Symbols Legend p.127 · ILS, LOC, LDA, SDF, MLS, or KRM (Front Course)"
+          }
+        },
+        {
+          "heading": "LOC (Back Course)",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “LOC (Back Course)”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-008-p127-loc-back-course.png",
+            "caption": "Charting Symbols Legend p.127 · LOC (Back Course)"
+          }
+        },
+        {
+          "heading": "Offset Localizer",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Offset Localizer”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-009-p127-offset-localizer.png",
+            "caption": "Charting Symbols Legend p.127 · Offset Localizer"
+          }
+        },
+        {
+          "heading": "Markers",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Markers”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-010-p127-markers.png",
+            "caption": "Charting Symbols Legend p.127 · Markers"
+          }
+        },
+        {
+          "heading": "VOR/VORDME/VORTAC/NDB (Profile View)",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “VOR/VORDME/VORTAC/NDB (Profile View)”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-011-p127-vor-vordme-vortac-ndb-profile-view.png",
+            "caption": "Charting Symbols Legend p.127 · VOR/VORDME/VORTAC/NDB (Profile View)"
+          }
+        },
+        {
+          "heading": "ILS Glide Slope",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “ILS Glide Slope”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-012-p127-ils-glide-slope.png",
+            "caption": "Charting Symbols Legend p.127 · ILS Glide Slope"
+          }
+        },
+        {
+          "heading": "RNAV Glide Path",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “RNAV Glide Path”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-013-p127-rnav-glide-path.png",
+            "caption": "Charting Symbols Legend p.127 · RNAV Glide Path"
+          }
+        },
+        {
+          "heading": "GLS Glide Path",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “GLS Glide Path”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-014-p127-gls-glide-path.png",
+            "caption": "Charting Symbols Legend p.127 · GLS Glide Path"
+          }
+        },
+        {
+          "heading": "NAVAIDS (Airport Plan View)",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “NAVAIDS (Airport Plan View)”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-015-p127-navaids-airport-plan-view.png",
+            "caption": "Charting Symbols Legend p.127 · NAVAIDS (Airport Plan View)"
+          }
+        }
+      ],
+      "summary_points": [
+        "NAVAIDS 카테고리의 이번 단계 15개 심볼을 이미지와 명칭으로 식별합니다.",
+        "쪽지시험에서는 위 심볼 이미지가 제시되고 해당 명칭을 고릅니다."
+      ],
+      "question_ids": [
+        "JEPP-SYM-001",
+        "JEPP-SYM-002",
+        "JEPP-SYM-003",
+        "JEPP-SYM-004",
+        "JEPP-SYM-005",
+        "JEPP-SYM-006",
+        "JEPP-SYM-007",
+        "JEPP-SYM-008",
+        "JEPP-SYM-009",
+        "JEPP-SYM-010",
+        "JEPP-SYM-011",
+        "JEPP-SYM-012",
+        "JEPP-SYM-013",
+        "JEPP-SYM-014",
+        "JEPP-SYM-015"
+      ],
+      "quiz_questions": 10,
+      "pass_percent": 80
+    },
+    {
+      "id": "JEPP-SYM-STAGE-02",
+      "unit_title": "Symbols · Charting Symbols Legend",
+      "title": "AIRSPACE & BOUNDARIES 1/3 · 15 symbols",
+      "source_printed_pages": [
+        128,
+        128
+      ],
+      "source_pdf_pages": [
+        128,
+        128
+      ],
+      "sections": [
+        {
+          "heading": "Special Use Airspace",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Special Use Airspace”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-016-p128-special-use-airspace.png",
+            "caption": "Charting Symbols Legend p.128 · Special Use Airspace"
+          }
+        },
+        {
+          "heading": "Special Use Airspace",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Special Use Airspace”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-017-p128-special-use-airspace.png",
+            "caption": "Charting Symbols Legend p.128 · Special Use Airspace"
+          }
+        },
+        {
+          "heading": "Special Flight Rules Area (FAA)",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Special Flight Rules Area (FAA)”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-018-p128-special-flight-rules-area-faa.png",
+            "caption": "Charting Symbols Legend p.128 · Special Flight Rules Area (FAA)"
+          }
+        },
+        {
+          "heading": "Class A Airspace",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Class A Airspace”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-019-p128-class-a-airspace.png",
+            "caption": "Charting Symbols Legend p.128 · Class A Airspace"
+          }
+        },
+        {
+          "heading": "Class B Airspace",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Class B Airspace”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-020-p128-class-b-airspace.png",
+            "caption": "Charting Symbols Legend p.128 · Class B Airspace"
+          }
+        },
+        {
+          "heading": "Class C Airspace",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Class C Airspace”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-021-p128-class-c-airspace.png",
+            "caption": "Charting Symbols Legend p.128 · Class C Airspace"
+          }
+        },
+        {
+          "heading": "Class D Airspace",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Class D Airspace”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-022-p128-class-d-airspace.png",
+            "caption": "Charting Symbols Legend p.128 · Class D Airspace"
+          }
+        },
+        {
+          "heading": "Class G Airspace",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Class G Airspace”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-023-p128-class-g-airspace.png",
+            "caption": "Charting Symbols Legend p.128 · Class G Airspace"
+          }
+        },
+        {
+          "heading": "Control Area / Military Terminal Control Area / Terminal Control Area",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Control Area / Military Terminal Control Area / Terminal Control Area”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-024-p128-control-area-military-terminal-control-area-terminal-control-area.png",
+            "caption": "Charting Symbols Legend p.128 · Control Area / Military Terminal Control Area / Terminal Control Area"
+          }
+        },
+        {
+          "heading": "Air Traffic Services — Class D/FAA/Class E/Control Zone/Military Control Zone/Tower Control Area",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Air Traffic Services — Class D/FAA/Class E/Control Zone/Military Control Zone/Tower Control Area”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-025-p128-air-traffic-services-class-d-faa-class-e-control-zone-military-control.png",
+            "caption": "Charting Symbols Legend p.128 · Air Traffic Services — Class D/FAA/Class E/Control Zone/Military Control Zone/Tower Control Area"
+          }
+        },
+        {
+          "heading": "Air Traffic Services — AFIZ/Helicopter Protected Zone/Helicopter Traffic Zone/Military Air Traffic Zone/Positive Control Area/Special Rules Area/Zone/Traffic Information Area/Zone",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Air Traffic Services — AFIZ/Helicopter Protected Zone/Helicopter Traffic Zone/Military Air Traffic Zone/Positive Control Area/Special Rules Area/Zone/Traffic Information Area/Zone”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-026-p128-air-traffic-services-afiz-helicopter-protected-zone-helicopter-traffic.png",
+            "caption": "Charting Symbols Legend p.128 · Air Traffic Services — AFIZ/Helicopter Protected Zone/Helicopter Traffic Zone/Military Air Traffic Zone/Positive Control Area/Special Rules Area/Zone/Traffic Information Area/Zone"
+          }
+        },
+        {
+          "heading": "Oceanic Control Area / FAA Control Areas",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Oceanic Control Area / FAA Control Areas”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-027-p128-oceanic-control-area-faa-control-areas.png",
+            "caption": "Charting Symbols Legend p.128 · Oceanic Control Area / FAA Control Areas"
+          }
+        },
+        {
+          "heading": "Air Defense Identification Zone",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Air Defense Identification Zone”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-028-p128-air-defense-identification-zone.png",
+            "caption": "Charting Symbols Legend p.128 · Air Defense Identification Zone"
+          }
+        },
+        {
+          "heading": "Flight Information Region / Upper Flight Information Region",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Flight Information Region / Upper Flight Information Region”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-029-p128-flight-information-region-upper-flight-information-region.png",
+            "caption": "Charting Symbols Legend p.128 · Flight Information Region / Upper Flight Information Region"
+          }
+        },
+        {
+          "heading": "Air Route Traffic Control Center / Area Control Center / Area of Responsibility / Delegated Airspace / Upper Area Control Center",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Air Route Traffic Control Center / Area Control Center / Area of Responsibility / Delegated Airspace / Upper Area Control Center”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-030-p128-air-route-traffic-control-center-area-control-center-area-of-responsib.png",
+            "caption": "Charting Symbols Legend p.128 · Air Route Traffic Control Center / Area Control Center / Area of Responsibility / Delegated Airspace / Upper Area Control Center"
+          }
+        }
+      ],
+      "summary_points": [
+        "AIRSPACE & BOUNDARIES 카테고리의 이번 단계 15개 심볼을 이미지와 명칭으로 식별합니다.",
+        "쪽지시험에서는 위 심볼 이미지가 제시되고 해당 명칭을 고릅니다."
+      ],
+      "question_ids": [
+        "JEPP-SYM-016",
+        "JEPP-SYM-017",
+        "JEPP-SYM-018",
+        "JEPP-SYM-019",
+        "JEPP-SYM-020",
+        "JEPP-SYM-021",
+        "JEPP-SYM-022",
+        "JEPP-SYM-023",
+        "JEPP-SYM-024",
+        "JEPP-SYM-025",
+        "JEPP-SYM-026",
+        "JEPP-SYM-027",
+        "JEPP-SYM-028",
+        "JEPP-SYM-029",
+        "JEPP-SYM-030"
+      ],
+      "quiz_questions": 10,
+      "pass_percent": 80
+    },
+    {
+      "id": "JEPP-SYM-STAGE-03",
+      "unit_title": "Symbols · Charting Symbols Legend",
+      "title": "AIRSPACE & BOUNDARIES 2/3 · 15 symbols",
+      "source_printed_pages": [
+        128,
+        129
+      ],
+      "source_pdf_pages": [
+        128,
+        129
+      ],
+      "sections": [
+        {
+          "heading": "CNS/ATM Equipment Boundary (MNPS, RNP, RVSM)",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “CNS/ATM Equipment Boundary (MNPS, RNP, RVSM)”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-031-p128-cns-atm-equipment-boundary-mnps-rnp-rvsm.png",
+            "caption": "Charting Symbols Legend p.128 · CNS/ATM Equipment Boundary (MNPS, RNP, RVSM)"
+          }
+        },
+        {
+          "heading": "Random RNAV Area",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Random RNAV Area”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-032-p128-random-rnav-area.png",
+            "caption": "Charting Symbols Legend p.128 · Random RNAV Area"
+          }
+        },
+        {
+          "heading": "Enroute Communications Sector",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Enroute Communications Sector”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-033-p129-enroute-communications-sector.png",
+            "caption": "Charting Symbols Legend p.129 · Enroute Communications Sector"
+          }
+        },
+        {
+          "heading": "Lost Comms",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Lost Comms”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-034-p129-lost-comms.png",
+            "caption": "Charting Symbols Legend p.129 · Lost Comms"
+          }
+        },
+        {
+          "heading": "Frequency Boundary - Class B FLA (Australia)",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Frequency Boundary - Class B FLA (Australia)”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-035-p129-frequency-boundary-class-b-fla-australia.png",
+            "caption": "Charting Symbols Legend p.129 · Frequency Boundary - Class B FLA (Australia)"
+          }
+        },
+        {
+          "heading": "Frequency Boundary - Class G FLA (Australia)",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Frequency Boundary - Class G FLA (Australia)”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-036-p129-frequency-boundary-class-g-fla-australia.png",
+            "caption": "Charting Symbols Legend p.129 · Frequency Boundary - Class G FLA (Australia)"
+          }
+        },
+        {
+          "heading": "Frequency Boundary - HF",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Frequency Boundary - HF”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-037-p129-frequency-boundary-hf.png",
+            "caption": "Charting Symbols Legend p.129 · Frequency Boundary - HF"
+          }
+        },
+        {
+          "heading": "Free Route Airspace",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Free Route Airspace”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-038-p129-free-route-airspace.png",
+            "caption": "Charting Symbols Legend p.129 · Free Route Airspace"
+          }
+        },
+        {
+          "heading": "International Boundary",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “International Boundary”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-039-p129-international-boundary.png",
+            "caption": "Charting Symbols Legend p.129 · International Boundary"
+          }
+        },
+        {
+          "heading": "Mandatory Broadcast Zone",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Mandatory Broadcast Zone”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-040-p129-mandatory-broadcast-zone.png",
+            "caption": "Charting Symbols Legend p.129 · Mandatory Broadcast Zone"
+          }
+        },
+        {
+          "heading": "QNE/QNH Boundary",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “QNE/QNH Boundary”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-041-p129-qne-qnh-boundary.png",
+            "caption": "Charting Symbols Legend p.129 · QNE/QNH Boundary"
+          }
+        },
+        {
+          "heading": "RVSM Transition Boundary",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “RVSM Transition Boundary”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-042-p129-rvsm-transition-boundary.png",
+            "caption": "Charting Symbols Legend p.129 · RVSM Transition Boundary"
+          }
+        },
+        {
+          "heading": "Special VFR Not Authorized",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Special VFR Not Authorized”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-043-p129-special-vfr-not-authorized.png",
+            "caption": "Charting Symbols Legend p.129 · Special VFR Not Authorized"
+          }
+        },
+        {
+          "heading": "Speed Restriction Boundary",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Speed Restriction Boundary”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-044-p129-speed-restriction-boundary.png",
+            "caption": "Charting Symbols Legend p.129 · Speed Restriction Boundary"
+          }
+        },
+        {
+          "heading": "Time Zone",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Time Zone”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-045-p129-time-zone.png",
+            "caption": "Charting Symbols Legend p.129 · Time Zone"
+          }
+        }
+      ],
+      "summary_points": [
+        "AIRSPACE & BOUNDARIES 카테고리의 이번 단계 15개 심볼을 이미지와 명칭으로 식별합니다.",
+        "쪽지시험에서는 위 심볼 이미지가 제시되고 해당 명칭을 고릅니다."
+      ],
+      "question_ids": [
+        "JEPP-SYM-031",
+        "JEPP-SYM-032",
+        "JEPP-SYM-033",
+        "JEPP-SYM-034",
+        "JEPP-SYM-035",
+        "JEPP-SYM-036",
+        "JEPP-SYM-037",
+        "JEPP-SYM-038",
+        "JEPP-SYM-039",
+        "JEPP-SYM-040",
+        "JEPP-SYM-041",
+        "JEPP-SYM-042",
+        "JEPP-SYM-043",
+        "JEPP-SYM-044",
+        "JEPP-SYM-045"
+      ],
+      "quiz_questions": 10,
+      "pass_percent": 80
+    },
+    {
+      "id": "JEPP-SYM-STAGE-04",
+      "unit_title": "Symbols · Charting Symbols Legend",
+      "title": "AIRSPACE & BOUNDARIES 3/3 · 3 symbols",
+      "source_printed_pages": [
+        129,
+        129
+      ],
+      "source_pdf_pages": [
+        129,
+        129
+      ],
+      "sections": [
+        {
+          "heading": "State/Province Boundary",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “State/Province Boundary”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-046-p129-state-province-boundary.png",
+            "caption": "Charting Symbols Legend p.129 · State/Province Boundary"
+          }
+        },
+        {
+          "heading": "Common Traffic Advisory Frequency Boundary (Australia)",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Common Traffic Advisory Frequency Boundary (Australia)”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-047-p129-common-traffic-advisory-frequency-boundary-australia.png",
+            "caption": "Charting Symbols Legend p.129 · Common Traffic Advisory Frequency Boundary (Australia)"
+          }
+        },
+        {
+          "heading": "Advisory Radio Area / Radar Area/Zone",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Advisory Radio Area / Radar Area/Zone”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-048-p129-advisory-radio-area-radar-area-zone.png",
+            "caption": "Charting Symbols Legend p.129 · Advisory Radio Area / Radar Area/Zone"
+          }
+        }
+      ],
+      "summary_points": [
+        "AIRSPACE & BOUNDARIES 카테고리의 이번 단계 3개 심볼을 이미지와 명칭으로 식별합니다.",
+        "쪽지시험에서는 위 심볼 이미지가 제시되고 해당 명칭을 고릅니다."
+      ],
+      "question_ids": [
+        "JEPP-SYM-046",
+        "JEPP-SYM-047",
+        "JEPP-SYM-048"
+      ],
+      "quiz_questions": 3,
+      "pass_percent": 80
+    },
+    {
+      "id": "JEPP-SYM-STAGE-05",
+      "unit_title": "Symbols · Charting Symbols Legend",
+      "title": "AIRPORT 1/3 · 15 symbols",
+      "source_printed_pages": [
+        129,
+        130
+      ],
+      "source_pdf_pages": [
+        129,
+        130
+      ],
+      "sections": [
+        {
+          "heading": "Runway Number",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Runway Number”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-049-p129-runway-number.png",
+            "caption": "Charting Symbols Legend p.129 · Runway Number"
+          }
+        },
+        {
+          "heading": "Seaplane Operating Area",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Seaplane Operating Area”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-050-p129-seaplane-operating-area.png",
+            "caption": "Charting Symbols Legend p.129 · Seaplane Operating Area"
+          }
+        },
+        {
+          "heading": "Paved Runway",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Paved Runway”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-051-p129-paved-runway.png",
+            "caption": "Charting Symbols Legend p.129 · Paved Runway"
+          }
+        },
+        {
+          "heading": "Unpaved Runway",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Unpaved Runway”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-052-p130-unpaved-runway.png",
+            "caption": "Charting Symbols Legend p.130 · Unpaved Runway"
+          }
+        },
+        {
+          "heading": "Displaced Threshold",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Displaced Threshold”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-053-p130-displaced-threshold.png",
+            "caption": "Charting Symbols Legend p.130 · Displaced Threshold"
+          }
+        },
+        {
+          "heading": "Hold Lines",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Hold Lines”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-054-p130-hold-lines.png",
+            "caption": "Charting Symbols Legend p.130 · Hold Lines"
+          }
+        },
+        {
+          "heading": "Approach lights extending to displaced threshold",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Approach lights extending to displaced threshold”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-055-p130-approach-lights-extending-to-displaced-threshold.png",
+            "caption": "Charting Symbols Legend p.130 · Approach lights extending to displaced threshold"
+          }
+        },
+        {
+          "heading": "Arrestor Gear",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Arrestor Gear”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-056-p130-arrestor-gear.png",
+            "caption": "Charting Symbols Legend p.130 · Arrestor Gear"
+          }
+        },
+        {
+          "heading": "Jet Barrier",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Jet Barrier”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-057-p130-jet-barrier.png",
+            "caption": "Charting Symbols Legend p.130 · Jet Barrier"
+          }
+        },
+        {
+          "heading": "Closed Runway",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Closed Runway”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-058-p130-closed-runway.png",
+            "caption": "Charting Symbols Legend p.130 · Closed Runway"
+          }
+        },
+        {
+          "heading": "Stopway, Overrun, Blast Pad or Multiple use",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Stopway, Overrun, Blast Pad or Multiple use”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-059-p130-stopway-overrun-blast-pad-or-multiple-use.png",
+            "caption": "Charting Symbols Legend p.130 · Stopway, Overrun, Blast Pad or Multiple use"
+          }
+        },
+        {
+          "heading": "Area Under Construction",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Area Under Construction”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-060-p130-area-under-construction.png",
+            "caption": "Charting Symbols Legend p.130 · Area Under Construction"
+          }
+        },
+        {
+          "heading": "Runway Shoulder (when readily noticeable)",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Runway Shoulder (when readily noticeable)”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-061-p130-runway-shoulder-when-readily-noticeable.png",
+            "caption": "Charting Symbols Legend p.130 · Runway Shoulder (when readily noticeable)"
+          }
+        },
+        {
+          "heading": "Standard ALSF-I",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Standard ALSF-I”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-062-p130-standard-alsf-i.png",
+            "caption": "Charting Symbols Legend p.130 · Standard ALSF-I"
+          }
+        },
+        {
+          "heading": "Standard ALSF-II",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Standard ALSF-II”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-063-p130-standard-alsf-ii.png",
+            "caption": "Charting Symbols Legend p.130 · Standard ALSF-II"
+          }
+        }
+      ],
+      "summary_points": [
+        "AIRPORT 카테고리의 이번 단계 15개 심볼을 이미지와 명칭으로 식별합니다.",
+        "쪽지시험에서는 위 심볼 이미지가 제시되고 해당 명칭을 고릅니다."
+      ],
+      "question_ids": [
+        "JEPP-SYM-049",
+        "JEPP-SYM-050",
+        "JEPP-SYM-051",
+        "JEPP-SYM-052",
+        "JEPP-SYM-053",
+        "JEPP-SYM-054",
+        "JEPP-SYM-055",
+        "JEPP-SYM-056",
+        "JEPP-SYM-057",
+        "JEPP-SYM-058",
+        "JEPP-SYM-059",
+        "JEPP-SYM-060",
+        "JEPP-SYM-061",
+        "JEPP-SYM-062",
+        "JEPP-SYM-063"
+      ],
+      "quiz_questions": 10,
+      "pass_percent": 80
+    },
+    {
+      "id": "JEPP-SYM-STAGE-06",
+      "unit_title": "Symbols · Charting Symbols Legend",
+      "title": "AIRPORT 2/3 · 15 symbols",
+      "source_printed_pages": [
+        130,
+        131
+      ],
+      "source_pdf_pages": [
+        130,
+        131
+      ],
+      "sections": [
+        {
+          "heading": "MALSR/SSALR",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “MALSR/SSALR”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-064-p130-malsr-ssalr.png",
+            "caption": "Charting Symbols Legend p.130 · MALSR/SSALR"
+          }
+        },
+        {
+          "heading": "MALS/MALSF",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “MALS/MALSF”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-065-p130-mals-malsf.png",
+            "caption": "Charting Symbols Legend p.130 · MALS/MALSF"
+          }
+        },
+        {
+          "heading": "SALS",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “SALS”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-066-p130-sals.png",
+            "caption": "Charting Symbols Legend p.130 · SALS"
+          }
+        },
+        {
+          "heading": "SSALF/SSALS",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “SSALF/SSALS”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-067-p130-ssalf-ssals.png",
+            "caption": "Charting Symbols Legend p.130 · SSALF/SSALS"
+          }
+        },
+        {
+          "heading": "ODALS",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “ODALS”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-068-p130-odals.png",
+            "caption": "Charting Symbols Legend p.130 · ODALS"
+          }
+        },
+        {
+          "heading": "HIALS (Calvert)",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “HIALS (Calvert)”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-069-p130-hials-calvert.png",
+            "caption": "Charting Symbols Legend p.130 · HIALS (Calvert)"
+          }
+        },
+        {
+          "heading": "HIALS (Calvert II)",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “HIALS (Calvert II)”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-070-p130-hials-calvert-ii.png",
+            "caption": "Charting Symbols Legend p.130 · HIALS (Calvert II)"
+          }
+        },
+        {
+          "heading": "HIALS",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “HIALS”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-071-p130-hials.png",
+            "caption": "Charting Symbols Legend p.130 · HIALS"
+          }
+        },
+        {
+          "heading": "LDIN/RLLS",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “LDIN/RLLS”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-072-p130-ldin-rlls.png",
+            "caption": "Charting Symbols Legend p.130 · LDIN/RLLS"
+          }
+        },
+        {
+          "heading": "RAIL",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “RAIL”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-073-p131-rail.png",
+            "caption": "Charting Symbols Legend p.131 · RAIL"
+          }
+        },
+        {
+          "heading": "Road",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Road”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-074-p131-road.png",
+            "caption": "Charting Symbols Legend p.131 · Road"
+          }
+        },
+        {
+          "heading": "Trees",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Trees”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-075-p131-trees.png",
+            "caption": "Charting Symbols Legend p.131 · Trees"
+          }
+        },
+        {
+          "heading": "Bluff",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Bluff”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-076-p131-bluff.png",
+            "caption": "Charting Symbols Legend p.131 · Bluff"
+          }
+        },
+        {
+          "heading": "Pole Line",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Pole Line”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-077-p131-pole-line.png",
+            "caption": "Charting Symbols Legend p.131 · Pole Line"
+          }
+        },
+        {
+          "heading": "Railroad",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Railroad”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-078-p131-railroad.png",
+            "caption": "Charting Symbols Legend p.131 · Railroad"
+          }
+        }
+      ],
+      "summary_points": [
+        "AIRPORT 카테고리의 이번 단계 15개 심볼을 이미지와 명칭으로 식별합니다.",
+        "쪽지시험에서는 위 심볼 이미지가 제시되고 해당 명칭을 고릅니다."
+      ],
+      "question_ids": [
+        "JEPP-SYM-064",
+        "JEPP-SYM-065",
+        "JEPP-SYM-066",
+        "JEPP-SYM-067",
+        "JEPP-SYM-068",
+        "JEPP-SYM-069",
+        "JEPP-SYM-070",
+        "JEPP-SYM-071",
+        "JEPP-SYM-072",
+        "JEPP-SYM-073",
+        "JEPP-SYM-074",
+        "JEPP-SYM-075",
+        "JEPP-SYM-076",
+        "JEPP-SYM-077",
+        "JEPP-SYM-078"
+      ],
+      "quiz_questions": 10,
+      "pass_percent": 80
+    },
+    {
+      "id": "JEPP-SYM-STAGE-07",
+      "unit_title": "Symbols · Charting Symbols Legend",
+      "title": "AIRPORT 3/3 · 15 symbols",
+      "source_printed_pages": [
+        131,
+        131
+      ],
+      "source_pdf_pages": [
+        131,
+        131
+      ],
+      "sections": [
+        {
+          "heading": "Ditch",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Ditch”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-079-p131-ditch.png",
+            "caption": "Charting Symbols Legend p.131 · Ditch"
+          }
+        },
+        {
+          "heading": "Buildings",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Buildings”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-080-p131-buildings.png",
+            "caption": "Charting Symbols Legend p.131 · Buildings"
+          }
+        },
+        {
+          "heading": "Lighted Pole",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Lighted Pole”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-081-p131-lighted-pole.png",
+            "caption": "Charting Symbols Legend p.131 · Lighted Pole"
+          }
+        },
+        {
+          "heading": "Unidentified Beacon",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Unidentified Beacon”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-082-p131-unidentified-beacon.png",
+            "caption": "Charting Symbols Legend p.131 · Unidentified Beacon"
+          }
+        },
+        {
+          "heading": "Permanently Closed Taxiway",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Permanently Closed Taxiway”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-083-p131-permanently-closed-taxiway.png",
+            "caption": "Charting Symbols Legend p.131 · Permanently Closed Taxiway"
+          }
+        },
+        {
+          "heading": "Taxiway and Apron",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Taxiway and Apron”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-084-p131-taxiway-and-apron.png",
+            "caption": "Charting Symbols Legend p.131 · Taxiway and Apron"
+          }
+        },
+        {
+          "heading": "LAHSO Distance Points",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “LAHSO Distance Points”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-085-p131-lahso-distance-points.png",
+            "caption": "Charting Symbols Legend p.131 · LAHSO Distance Points"
+          }
+        },
+        {
+          "heading": "RVR Measuring Site",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “RVR Measuring Site”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-086-p131-rvr-measuring-site.png",
+            "caption": "Charting Symbols Legend p.131 · RVR Measuring Site"
+          }
+        },
+        {
+          "heading": "Wind Indicator",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Wind Indicator”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-087-p131-wind-indicator.png",
+            "caption": "Charting Symbols Legend p.131 · Wind Indicator"
+          }
+        },
+        {
+          "heading": "Airports",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Airports”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-088-p131-airports.png",
+            "caption": "Charting Symbols Legend p.131 · Airports"
+          }
+        },
+        {
+          "heading": "Helicopter Landing Pad",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Helicopter Landing Pad”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-089-p131-helicopter-landing-pad.png",
+            "caption": "Charting Symbols Legend p.131 · Helicopter Landing Pad"
+          }
+        },
+        {
+          "heading": "Magnetic Variation",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Magnetic Variation”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-090-p131-magnetic-variation.png",
+            "caption": "Charting Symbols Legend p.131 · Magnetic Variation"
+          }
+        },
+        {
+          "heading": "Airport Reference Point (ARP)",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Airport Reference Point (ARP)”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-091-p131-airport-reference-point-arp.png",
+            "caption": "Charting Symbols Legend p.131 · Airport Reference Point (ARP)"
+          }
+        },
+        {
+          "heading": "Tree Line",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Tree Line”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-092-p131-tree-line.png",
+            "caption": "Charting Symbols Legend p.131 · Tree Line"
+          }
+        },
+        {
+          "heading": "Building Area",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Building Area”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-093-p131-building-area.png",
+            "caption": "Charting Symbols Legend p.131 · Building Area"
+          }
+        }
+      ],
+      "summary_points": [
+        "AIRPORT 카테고리의 이번 단계 15개 심볼을 이미지와 명칭으로 식별합니다.",
+        "쪽지시험에서는 위 심볼 이미지가 제시되고 해당 명칭을 고릅니다."
+      ],
+      "question_ids": [
+        "JEPP-SYM-079",
+        "JEPP-SYM-080",
+        "JEPP-SYM-081",
+        "JEPP-SYM-082",
+        "JEPP-SYM-083",
+        "JEPP-SYM-084",
+        "JEPP-SYM-085",
+        "JEPP-SYM-086",
+        "JEPP-SYM-087",
+        "JEPP-SYM-088",
+        "JEPP-SYM-089",
+        "JEPP-SYM-090",
+        "JEPP-SYM-091",
+        "JEPP-SYM-092",
+        "JEPP-SYM-093"
+      ],
+      "quiz_questions": 10,
+      "pass_percent": 80
+    },
+    {
+      "id": "JEPP-SYM-STAGE-08",
+      "unit_title": "Symbols · Charting Symbols Legend",
+      "title": "ROUTES & AIRWAYS 1/2 · 15 symbols",
+      "source_printed_pages": [
+        132,
+        132
+      ],
+      "source_pdf_pages": [
+        132,
+        132
+      ],
+      "sections": [
+        {
+          "heading": "Track/Airway",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Track/Airway”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-094-p132-track-airway.png",
+            "caption": "Charting Symbols Legend p.132 · Track/Airway"
+          }
+        },
+        {
+          "heading": "Diversionary Route",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Diversionary Route”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-095-p132-diversionary-route.png",
+            "caption": "Charting Symbols Legend p.132 · Diversionary Route"
+          }
+        },
+        {
+          "heading": "Arrival/Departure Route",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Arrival/Departure Route”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-096-p132-arrival-departure-route.png",
+            "caption": "Charting Symbols Legend p.132 · Arrival/Departure Route"
+          }
+        },
+        {
+          "heading": "Transition Track",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Transition Track”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-097-p132-transition-track.png",
+            "caption": "Charting Symbols Legend p.132 · Transition Track"
+          }
+        },
+        {
+          "heading": "High Level Approach Track",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “High Level Approach Track”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-098-p132-high-level-approach-track.png",
+            "caption": "Charting Symbols Legend p.132 · High Level Approach Track"
+          }
+        },
+        {
+          "heading": "Visual Track",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Visual Track”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-099-p132-visual-track.png",
+            "caption": "Charting Symbols Legend p.132 · Visual Track"
+          }
+        },
+        {
+          "heading": "VNAV/VDA",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “VNAV/VDA”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-100-p132-vnav-vda.png",
+            "caption": "Charting Symbols Legend p.132 · VNAV/VDA"
+          }
+        },
+        {
+          "heading": "Radar Vectors",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Radar Vectors”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-101-p132-radar-vectors.png",
+            "caption": "Charting Symbols Legend p.132 · Radar Vectors"
+          }
+        },
+        {
+          "heading": "Missed Approach Course",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Missed Approach Course”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-102-p132-missed-approach-course.png",
+            "caption": "Charting Symbols Legend p.132 · Missed Approach Course"
+          }
+        },
+        {
+          "heading": "Navigational Signal Gap",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Navigational Signal Gap”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-103-p132-navigational-signal-gap.png",
+            "caption": "Charting Symbols Legend p.132 · Navigational Signal Gap"
+          }
+        },
+        {
+          "heading": "Altitude Change “T”",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Altitude Change “T””을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-104-p132-altitude-change-t.png",
+            "caption": "Charting Symbols Legend p.132 · Altitude Change “T”"
+          }
+        },
+        {
+          "heading": "Total Mileage",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Total Mileage”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-105-p132-total-mileage.png",
+            "caption": "Charting Symbols Legend p.132 · Total Mileage"
+          }
+        },
+        {
+          "heading": "Change Over Point",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Change Over Point”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-106-p132-change-over-point.png",
+            "caption": "Charting Symbols Legend p.132 · Change Over Point"
+          }
+        },
+        {
+          "heading": "Even and Odd Indicators",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Even and Odd Indicators”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-107-p132-even-and-odd-indicators.png",
+            "caption": "Charting Symbols Legend p.132 · Even and Odd Indicators"
+          }
+        },
+        {
+          "heading": "Prior Permission Required",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Prior Permission Required”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-108-p132-prior-permission-required.png",
+            "caption": "Charting Symbols Legend p.132 · Prior Permission Required"
+          }
+        }
+      ],
+      "summary_points": [
+        "ROUTES & AIRWAYS 카테고리의 이번 단계 15개 심볼을 이미지와 명칭으로 식별합니다.",
+        "쪽지시험에서는 위 심볼 이미지가 제시되고 해당 명칭을 고릅니다."
+      ],
+      "question_ids": [
+        "JEPP-SYM-094",
+        "JEPP-SYM-095",
+        "JEPP-SYM-096",
+        "JEPP-SYM-097",
+        "JEPP-SYM-098",
+        "JEPP-SYM-099",
+        "JEPP-SYM-100",
+        "JEPP-SYM-101",
+        "JEPP-SYM-102",
+        "JEPP-SYM-103",
+        "JEPP-SYM-104",
+        "JEPP-SYM-105",
+        "JEPP-SYM-106",
+        "JEPP-SYM-107",
+        "JEPP-SYM-108"
+      ],
+      "quiz_questions": 10,
+      "pass_percent": 80
+    },
+    {
+      "id": "JEPP-SYM-STAGE-09",
+      "unit_title": "Symbols · Charting Symbols Legend",
+      "title": "ROUTES & AIRWAYS 2/2 · 11 symbols",
+      "source_printed_pages": [
+        132,
+        133
+      ],
+      "source_pdf_pages": [
+        132,
+        133
+      ],
+      "sections": [
+        {
+          "heading": "Flight Planned Route",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Flight Planned Route”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-109-p132-flight-planned-route.png",
+            "caption": "Charting Symbols Legend p.132 · Flight Planned Route"
+          }
+        },
+        {
+          "heading": "Airway By-Pass",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Airway By-Pass”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-110-p132-airway-by-pass.png",
+            "caption": "Charting Symbols Legend p.132 · Airway By-Pass"
+          }
+        },
+        {
+          "heading": "Airway Designator",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Airway Designator”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-111-p132-airway-designator.png",
+            "caption": "Charting Symbols Legend p.132 · Airway Designator"
+          }
+        },
+        {
+          "heading": "Route Suffix",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Route Suffix”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-112-p132-route-suffix.png",
+            "caption": "Charting Symbols Legend p.132 · Route Suffix"
+          }
+        },
+        {
+          "heading": "One Way Airway",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “One Way Airway”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-113-p132-one-way-airway.png",
+            "caption": "Charting Symbols Legend p.132 · One Way Airway"
+          }
+        },
+        {
+          "heading": "Holding Patterns",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Holding Patterns”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-114-p133-holding-patterns.png",
+            "caption": "Charting Symbols Legend p.133 · Holding Patterns"
+          }
+        },
+        {
+          "heading": "DME Limit Holding",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “DME Limit Holding”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-115-p133-dme-limit-holding.png",
+            "caption": "Charting Symbols Legend p.133 · DME Limit Holding"
+          }
+        },
+        {
+          "heading": "Intercept Route",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Intercept Route”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-116-p133-intercept-route.png",
+            "caption": "Charting Symbols Legend p.133 · Intercept Route"
+          }
+        },
+        {
+          "heading": "DME and DME Radial Formation",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “DME and DME Radial Formation”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-124-p133-dme-and-dme-radial-formation.png",
+            "caption": "Charting Symbols Legend p.133 · DME and DME Radial Formation"
+          }
+        },
+        {
+          "heading": "Non Precision Final Approach Fix",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Non Precision Final Approach Fix”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-125-p133-non-precision-final-approach-fix.png",
+            "caption": "Charting Symbols Legend p.133 · Non Precision Final Approach Fix"
+          }
+        },
+        {
+          "heading": "Non Precision Missed Approach Fix",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Non Precision Missed Approach Fix”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-126-p133-non-precision-missed-approach-fix.png",
+            "caption": "Charting Symbols Legend p.133 · Non Precision Missed Approach Fix"
+          }
+        }
+      ],
+      "summary_points": [
+        "ROUTES & AIRWAYS 카테고리의 이번 단계 11개 심볼을 이미지와 명칭으로 식별합니다.",
+        "쪽지시험에서는 위 심볼 이미지가 제시되고 해당 명칭을 고릅니다."
+      ],
+      "question_ids": [
+        "JEPP-SYM-109",
+        "JEPP-SYM-110",
+        "JEPP-SYM-111",
+        "JEPP-SYM-112",
+        "JEPP-SYM-113",
+        "JEPP-SYM-114",
+        "JEPP-SYM-115",
+        "JEPP-SYM-116",
+        "JEPP-SYM-124",
+        "JEPP-SYM-125",
+        "JEPP-SYM-126"
+      ],
+      "quiz_questions": 10,
+      "pass_percent": 80
+    },
+    {
+      "id": "JEPP-SYM-STAGE-10",
+      "unit_title": "Symbols · Charting Symbols Legend",
+      "title": "AIRSPACE FIXES · 7 symbols",
+      "source_printed_pages": [
+        133,
+        133
+      ],
+      "source_pdf_pages": [
+        133,
+        133
+      ],
+      "sections": [
+        {
+          "heading": "Non-Compulsory",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Non-Compulsory”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-117-p133-non-compulsory.png",
+            "caption": "Charting Symbols Legend p.133 · Non-Compulsory"
+          }
+        },
+        {
+          "heading": "Compulsory",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Compulsory”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-118-p133-compulsory.png",
+            "caption": "Charting Symbols Legend p.133 · Compulsory"
+          }
+        },
+        {
+          "heading": "RNAV Non-Compulsory/CNF",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “RNAV Non-Compulsory/CNF”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-119-p133-rnav-non-compulsory-cnf.png",
+            "caption": "Charting Symbols Legend p.133 · RNAV Non-Compulsory/CNF"
+          }
+        },
+        {
+          "heading": "RNAV Compulsory",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “RNAV Compulsory”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-120-p133-rnav-compulsory.png",
+            "caption": "Charting Symbols Legend p.133 · RNAV Compulsory"
+          }
+        },
+        {
+          "heading": "Mileage Break/CNF — Non-Compulsory Fix",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Mileage Break/CNF — Non-Compulsory Fix”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-121-p133-mileage-break-cnf-non-compulsory-fix.png",
+            "caption": "Charting Symbols Legend p.133 · Mileage Break/CNF — Non-Compulsory Fix"
+          }
+        },
+        {
+          "heading": "Fly Over Fix",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Fly Over Fix”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-122-p133-fly-over-fix.png",
+            "caption": "Charting Symbols Legend p.133 · Fly Over Fix"
+          }
+        },
+        {
+          "heading": "Meteorological Report Point",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Meteorological Report Point”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-123-p133-meteorological-report-point.png",
+            "caption": "Charting Symbols Legend p.133 · Meteorological Report Point"
+          }
+        }
+      ],
+      "summary_points": [
+        "AIRSPACE FIXES 카테고리의 이번 단계 7개 심볼을 이미지와 명칭으로 식별합니다.",
+        "쪽지시험에서는 위 심볼 이미지가 제시되고 해당 명칭을 고릅니다."
+      ],
+      "question_ids": [
+        "JEPP-SYM-117",
+        "JEPP-SYM-118",
+        "JEPP-SYM-119",
+        "JEPP-SYM-120",
+        "JEPP-SYM-121",
+        "JEPP-SYM-122",
+        "JEPP-SYM-123"
+      ],
+      "quiz_questions": 7,
+      "pass_percent": 80
+    },
+    {
+      "id": "JEPP-SYM-STAGE-11",
+      "unit_title": "Symbols · Charting Symbols Legend",
+      "title": "LIGHTING BOX & MISSED APPROACH 1/2 · 15 symbols",
+      "source_printed_pages": [
+        133,
+        134
+      ],
+      "source_pdf_pages": [
+        133,
+        134
+      ],
+      "sections": [
+        {
+          "heading": "Standard ALSF-I",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Standard ALSF-I”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-127-p133-standard-alsf-i.png",
+            "caption": "Charting Symbols Legend p.133 · Standard ALSF-I"
+          }
+        },
+        {
+          "heading": "Standard ALSF-II",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Standard ALSF-II”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-128-p133-standard-alsf-ii.png",
+            "caption": "Charting Symbols Legend p.133 · Standard ALSF-II"
+          }
+        },
+        {
+          "heading": "MALSR",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “MALSR”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-129-p133-malsr.png",
+            "caption": "Charting Symbols Legend p.133 · MALSR"
+          }
+        },
+        {
+          "heading": "SSALR",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “SSALR”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-130-p133-ssalr.png",
+            "caption": "Charting Symbols Legend p.133 · SSALR"
+          }
+        },
+        {
+          "heading": "MALS",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “MALS”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-131-p133-mals.png",
+            "caption": "Charting Symbols Legend p.133 · MALS"
+          }
+        },
+        {
+          "heading": "MALSF",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “MALSF”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-132-p133-malsf.png",
+            "caption": "Charting Symbols Legend p.133 · MALSF"
+          }
+        },
+        {
+          "heading": "SALS",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “SALS”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-133-p133-sals.png",
+            "caption": "Charting Symbols Legend p.133 · SALS"
+          }
+        },
+        {
+          "heading": "SSALF",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “SSALF”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-134-p133-ssalf.png",
+            "caption": "Charting Symbols Legend p.133 · SSALF"
+          }
+        },
+        {
+          "heading": "SSALS",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “SSALS”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-135-p134-ssals.png",
+            "caption": "Charting Symbols Legend p.134 · SSALS"
+          }
+        },
+        {
+          "heading": "HIALS (Calvert)",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “HIALS (Calvert)”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-136-p134-hials-calvert.png",
+            "caption": "Charting Symbols Legend p.134 · HIALS (Calvert)"
+          }
+        },
+        {
+          "heading": "HIALS (Calvert II)",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “HIALS (Calvert II)”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-137-p134-hials-calvert-ii.png",
+            "caption": "Charting Symbols Legend p.134 · HIALS (Calvert II)"
+          }
+        },
+        {
+          "heading": "HIALS",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “HIALS”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-138-p134-hials.png",
+            "caption": "Charting Symbols Legend p.134 · HIALS"
+          }
+        },
+        {
+          "heading": "ODALS",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “ODALS”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-139-p134-odals.png",
+            "caption": "Charting Symbols Legend p.134 · ODALS"
+          }
+        },
+        {
+          "heading": "LDIN/RLLS",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “LDIN/RLLS”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-140-p134-ldin-rlls.png",
+            "caption": "Charting Symbols Legend p.134 · LDIN/RLLS"
+          }
+        },
+        {
+          "heading": "RAIL",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “RAIL”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-141-p134-rail.png",
+            "caption": "Charting Symbols Legend p.134 · RAIL"
+          }
+        }
+      ],
+      "summary_points": [
+        "LIGHTING BOX & MISSED APPROACH 카테고리의 이번 단계 15개 심볼을 이미지와 명칭으로 식별합니다.",
+        "쪽지시험에서는 위 심볼 이미지가 제시되고 해당 명칭을 고릅니다."
+      ],
+      "question_ids": [
+        "JEPP-SYM-127",
+        "JEPP-SYM-128",
+        "JEPP-SYM-129",
+        "JEPP-SYM-130",
+        "JEPP-SYM-131",
+        "JEPP-SYM-132",
+        "JEPP-SYM-133",
+        "JEPP-SYM-134",
+        "JEPP-SYM-135",
+        "JEPP-SYM-136",
+        "JEPP-SYM-137",
+        "JEPP-SYM-138",
+        "JEPP-SYM-139",
+        "JEPP-SYM-140",
+        "JEPP-SYM-141"
+      ],
+      "quiz_questions": 10,
+      "pass_percent": 80
+    },
+    {
+      "id": "JEPP-SYM-STAGE-12",
+      "unit_title": "Symbols · Charting Symbols Legend",
+      "title": "LIGHTING BOX & MISSED APPROACH 2/2 · 6 symbols",
+      "source_printed_pages": [
+        134,
+        134
+      ],
+      "source_pdf_pages": [
+        134,
+        134
+      ],
+      "sections": [
+        {
+          "heading": "Climb",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Climb”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-142-p134-climb.png",
+            "caption": "Charting Symbols Legend p.134 · Climb"
+          }
+        },
+        {
+          "heading": "Left Turn (less than 45°)",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Left Turn (less than 45°)”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-143-p134-left-turn-less-than-45.png",
+            "caption": "Charting Symbols Legend p.134 · Left Turn (less than 45°)"
+          }
+        },
+        {
+          "heading": "Left Turn (greater than 45°)",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Left Turn (greater than 45°)”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-144-p134-left-turn-greater-than-45.png",
+            "caption": "Charting Symbols Legend p.134 · Left Turn (greater than 45°)"
+          }
+        },
+        {
+          "heading": "Right Turn (less than 45°)",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Right Turn (less than 45°)”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-145-p134-right-turn-less-than-45.png",
+            "caption": "Charting Symbols Legend p.134 · Right Turn (less than 45°)"
+          }
+        },
+        {
+          "heading": "Right Turn (greater than 45°)",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Right Turn (greater than 45°)”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-146-p134-right-turn-greater-than-45.png",
+            "caption": "Charting Symbols Legend p.134 · Right Turn (greater than 45°)"
+          }
+        },
+        {
+          "heading": "Direct",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Direct”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-147-p134-direct.png",
+            "caption": "Charting Symbols Legend p.134 · Direct"
+          }
+        }
+      ],
+      "summary_points": [
+        "LIGHTING BOX & MISSED APPROACH 카테고리의 이번 단계 6개 심볼을 이미지와 명칭으로 식별합니다.",
+        "쪽지시험에서는 위 심볼 이미지가 제시되고 해당 명칭을 고릅니다."
+      ],
+      "question_ids": [
+        "JEPP-SYM-142",
+        "JEPP-SYM-143",
+        "JEPP-SYM-144",
+        "JEPP-SYM-145",
+        "JEPP-SYM-146",
+        "JEPP-SYM-147"
+      ],
+      "quiz_questions": 6,
+      "pass_percent": 80
+    },
+    {
+      "id": "JEPP-SYM-STAGE-13",
+      "unit_title": "Symbols · Charting Symbols Legend",
+      "title": "TERRAIN · 8 symbols",
+      "source_printed_pages": [
+        134,
+        134
+      ],
+      "source_pdf_pages": [
+        134,
+        134
+      ],
+      "sections": [
+        {
+          "heading": "Natural Terrain High Point",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Natural Terrain High Point”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-148-p134-natural-terrain-high-point.png",
+            "caption": "Charting Symbols Legend p.134 · Natural Terrain High Point"
+          }
+        },
+        {
+          "heading": "Man-made High Point",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Man-made High Point”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-149-p134-man-made-high-point.png",
+            "caption": "Charting Symbols Legend p.134 · Man-made High Point"
+          }
+        },
+        {
+          "heading": "Unidentified Man-made Structure",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Unidentified Man-made Structure”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-150-p134-unidentified-man-made-structure.png",
+            "caption": "Charting Symbols Legend p.134 · Unidentified Man-made Structure"
+          }
+        },
+        {
+          "heading": "Highest Arrow",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Highest Arrow”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-151-p134-highest-arrow.png",
+            "caption": "Charting Symbols Legend p.134 · Highest Arrow"
+          }
+        },
+        {
+          "heading": "Hazard Beacon",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Hazard Beacon”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-152-p134-hazard-beacon.png",
+            "caption": "Charting Symbols Legend p.134 · Hazard Beacon"
+          }
+        },
+        {
+          "heading": "Generalized Terrain Contours",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Generalized Terrain Contours”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-153-p134-generalized-terrain-contours.png",
+            "caption": "Charting Symbols Legend p.134 · Generalized Terrain Contours"
+          }
+        },
+        {
+          "heading": "Grid MORA",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Grid MORA”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-154-p134-grid-mora.png",
+            "caption": "Charting Symbols Legend p.134 · Grid MORA"
+          }
+        },
+        {
+          "heading": "Water",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Water”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-155-p134-water.png",
+            "caption": "Charting Symbols Legend p.134 · Water"
+          }
+        }
+      ],
+      "summary_points": [
+        "TERRAIN 카테고리의 이번 단계 8개 심볼을 이미지와 명칭으로 식별합니다.",
+        "쪽지시험에서는 위 심볼 이미지가 제시되고 해당 명칭을 고릅니다."
+      ],
+      "question_ids": [
+        "JEPP-SYM-148",
+        "JEPP-SYM-149",
+        "JEPP-SYM-150",
+        "JEPP-SYM-151",
+        "JEPP-SYM-152",
+        "JEPP-SYM-153",
+        "JEPP-SYM-154",
+        "JEPP-SYM-155"
+      ],
+      "quiz_questions": 8,
+      "pass_percent": 80
+    },
+    {
+      "id": "JEPP-SYM-STAGE-14",
+      "unit_title": "Symbols · Charting Symbols Legend",
+      "title": "MISCELLANEOUS · 13 symbols",
+      "source_printed_pages": [
+        135,
+        135
+      ],
+      "source_pdf_pages": [
+        135,
+        135
+      ],
+      "sections": [
+        {
+          "heading": "Index Number Oval",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Index Number Oval”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-156-p135-index-number-oval.png",
+            "caption": "Charting Symbols Legend p.135 · Index Number Oval"
+          }
+        },
+        {
+          "heading": "Holding Pattern Length",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Holding Pattern Length”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-157-p135-holding-pattern-length.png",
+            "caption": "Charting Symbols Legend p.135 · Holding Pattern Length"
+          }
+        },
+        {
+          "heading": "Arrival/Departure Airport",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Arrival/Departure Airport”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-158-p135-arrival-departure-airport.png",
+            "caption": "Charting Symbols Legend p.135 · Arrival/Departure Airport"
+          }
+        },
+        {
+          "heading": "City Pattern",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “City Pattern”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-159-p135-city-pattern.png",
+            "caption": "Charting Symbols Legend p.135 · City Pattern"
+          }
+        },
+        {
+          "heading": "Airline Chart Icon",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Airline Chart Icon”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-160-p135-airline-chart-icon.png",
+            "caption": "Charting Symbols Legend p.135 · Airline Chart Icon"
+          }
+        },
+        {
+          "heading": "North Arrow",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “North Arrow”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-161-p135-north-arrow.png",
+            "caption": "Charting Symbols Legend p.135 · North Arrow"
+          }
+        },
+        {
+          "heading": "Bar Scale",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Bar Scale”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-162-p135-bar-scale.png",
+            "caption": "Charting Symbols Legend p.135 · Bar Scale"
+          }
+        },
+        {
+          "heading": "Enroute Chart Overlap",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Enroute Chart Overlap”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-163-p135-enroute-chart-overlap.png",
+            "caption": "Charting Symbols Legend p.135 · Enroute Chart Overlap"
+          }
+        },
+        {
+          "heading": "Area Chart Overlap",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Area Chart Overlap”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-164-p135-area-chart-overlap.png",
+            "caption": "Charting Symbols Legend p.135 · Area Chart Overlap"
+          }
+        },
+        {
+          "heading": "Inset Boundary",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Inset Boundary”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-165-p135-inset-boundary.png",
+            "caption": "Charting Symbols Legend p.135 · Inset Boundary"
+          }
+        },
+        {
+          "heading": "Remote Communications Outlet (RCO)",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Remote Communications Outlet (RCO)”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-166-p135-remote-communications-outlet-rco.png",
+            "caption": "Charting Symbols Legend p.135 · Remote Communications Outlet (RCO)"
+          }
+        },
+        {
+          "heading": "Grid",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Grid”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-167-p135-grid.png",
+            "caption": "Charting Symbols Legend p.135 · Grid"
+          }
+        },
+        {
+          "heading": "Isogonic Line",
+          "paragraphs": [
+            "Jeppesen Charting Symbols Legend에서 “Isogonic Line”을 나타내는 기호입니다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-symbols/symbol-168-p135-isogonic-line.png",
+            "caption": "Charting Symbols Legend p.135 · Isogonic Line"
+          }
+        }
+      ],
+      "summary_points": [
+        "MISCELLANEOUS 카테고리의 이번 단계 13개 심볼을 이미지와 명칭으로 식별합니다.",
+        "쪽지시험에서는 위 심볼 이미지가 제시되고 해당 명칭을 고릅니다."
+      ],
+      "question_ids": [
+        "JEPP-SYM-156",
+        "JEPP-SYM-157",
+        "JEPP-SYM-158",
+        "JEPP-SYM-159",
+        "JEPP-SYM-160",
+        "JEPP-SYM-161",
+        "JEPP-SYM-162",
+        "JEPP-SYM-163",
+        "JEPP-SYM-164",
+        "JEPP-SYM-165",
+        "JEPP-SYM-166",
+        "JEPP-SYM-167",
+        "JEPP-SYM-168"
+      ],
+      "quiz_questions": 10,
+      "pass_percent": 80
+    }
+  ]
+}

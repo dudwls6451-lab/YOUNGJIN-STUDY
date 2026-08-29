@@ -1,0 +1,33 @@
+{
+  "version": "v11.60.15",
+  "base": "v11.60.14-reference-study-jeppesen",
+  "feature": "Jeppesen Airway Manual · Symbols · Charting Symbols Legend",
+  "source_pages": "126–135",
+  "symbol_questions": 168,
+  "symbol_images": 168,
+  "symbol_theory_stages": 14,
+  "categories": {
+    "NAVAIDS": 15,
+    "AIRSPACE & BOUNDARIES": 33,
+    "AIRPORT": 45,
+    "ROUTES & AIRWAYS": 26,
+    "AIRSPACE FIXES": 7,
+    "LIGHTING BOX & MISSED APPROACH": 21,
+    "TERRAIN": 8,
+    "MISCELLANEOUS": 13
+  },
+  "changed_existing_files": [
+    "index.html"
+  ],
+  "added_file_count": 172,
+  "removed_files": [],
+  "checks": {
+    "question_ids_unique": true,
+    "four_choices_each": true,
+    "answer_keys_valid": true,
+    "image_files_all_present": true,
+    "theory_question_links_complete": true,
+    "javascript_syntax": true,
+    "zip_integrity": true
+  }
+}
