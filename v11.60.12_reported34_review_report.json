@@ -1,0 +1,295 @@
+{
+  "version": "v11.60.12",
+  "base": "v11.60.11",
+  "scope": [
+    "한국어 문제/선택지 전수 재점검 작업본 반영",
+    "사용자 오류보고 34건 개별 검토 및 수정",
+    "K-AIM 재점검 데이터 실제 UI embedded pool 동기화"
+  ],
+  "reported_count": 34,
+  "reported_reviewed": 34,
+  "answer_key_changes": [
+    {
+      "id": "AIR-NAV-178",
+      "status": "corrected_and_reviewed",
+      "old_answer": "A",
+      "new_answer": "B",
+      "answer_changed": true,
+      "note": "공중항법 원본 p.68(파일 PDF p.72) 해설 및 정답표 직접 대조: radio altimeter는 절대고도를 지시, 정답 ②(B)."
+    }
+  ],
+  "items": [
+    {
+      "id": "AIR-NAV-178",
+      "status": "corrected_and_reviewed",
+      "old_answer": "A",
+      "new_answer": "B",
+      "answer_changed": true,
+      "note": "공중항법 원본 p.68(파일 PDF p.72) 해설 및 정답표 직접 대조: radio altimeter는 절대고도를 지시, 정답 ②(B)."
+    },
+    {
+      "id": "AIR-NAV-175",
+      "status": "corrected_and_reviewed",
+      "old_answer": "C",
+      "new_answer": "C",
+      "answer_changed": false,
+      "note": "공중항법 원본 p.67 직접 대조. OCR 분리(pit ch) 수정, 정답 ③(C) 유지."
+    },
+    {
+      "id": "AIR-NAV-177",
+      "status": "corrected_and_reviewed",
+      "old_answer": "B",
+      "new_answer": "B",
+      "answer_changed": false,
+      "note": "공중항법 원본 p.67 직접 대조. 3,0°o/5,0°o OCR 숫자 오류 수정, 정답 ②(B) 유지."
+    },
+    {
+      "id": "AIR-NAV-157",
+      "status": "corrected_and_reviewed",
+      "old_answer": "C",
+      "new_answer": "C",
+      "answer_changed": false,
+      "note": "공중항법 원본 p.64 직접 대조. Deviation OCR 분리 및 의존명사 띄어쓰기 정리. 의도적 오답 보기인 경도는 원문대로 유지."
+    },
+    {
+      "id": "AIR-NAV-169",
+      "status": "corrected_and_reviewed",
+      "old_answer": "D",
+      "new_answer": "D",
+      "answer_changed": false,
+      "note": "공중항법 원본 p.66 직접 대조. 영문 OCR 분리 오류 수정, 정답 ④(D) 유지."
+    },
+    {
+      "id": "AIR-NAV-154",
+      "status": "corrected_and_reviewed",
+      "old_answer": "D",
+      "new_answer": "D",
+      "answer_changed": false,
+      "note": "공중항법 원본 p.63 이미지 직접 대조. 감옹자기→감응자기 수정, 정답 ④(D) 유지."
+    },
+    {
+      "id": "AIR-NAV-140",
+      "status": "corrected_and_reviewed",
+      "old_answer": "B",
+      "new_answer": "B",
+      "answer_changed": false,
+      "note": "사용자 제공 정오표 반영: 배풍 30/정풍 50 → 정풍 30/배풍 50. ETP 계산값은 약 784.6 NM로 정답 B 유지."
+    },
+    {
+      "id": "AIR-NAV-124",
+      "status": "corrected_and_reviewed",
+      "old_answer": "D",
+      "new_answer": "D",
+      "answer_changed": false,
+      "note": "공중항법 원본 p.52 직접 대조 및 해설(3×60/20=9°) 확인. OCR 30/50/70/go를 각도값으로 복원."
+    },
+    {
+      "id": "AIR-NAV-135",
+      "status": "corrected_and_reviewed",
+      "old_answer": "C",
+      "new_answer": "C",
+      "answer_changed": false,
+      "note": "공중항법 원본 p.54 직접 대조. g0°→90°, lead p o i nt→lead point 수정, 정답 ③(C) 유지."
+    },
+    {
+      "id": "AIR-NAV-138",
+      "status": "corrected_and_reviewed",
+      "old_answer": "D",
+      "new_answer": "D",
+      "answer_changed": false,
+      "note": "공중항법 원본 p.54 직접 대조. 등시 점/고장시/되돌아 갈/항로 상 띄어쓰기 정리, 정답 ④(D) 유지."
+    },
+    {
+      "id": "KDA-LAW-SU2-184",
+      "status": "corrected_and_reviewed",
+      "old_answer": "A",
+      "new_answer": "A",
+      "answer_changed": false,
+      "note": "항공법규 원본 p.123 직접 대조. l차→1차 및 띄어쓰기/하이픈 통일. 정답 ①(A) 유지."
+    },
+    {
+      "id": "KDA-LAW-SU2-170",
+      "status": "corrected_and_reviewed",
+      "old_answer": "C",
+      "new_answer": "C",
+      "answer_changed": false,
+      "note": "항공법규 원본 p.120 직접 대조. 조사/쉼표 및 전달→달의 OCR 오류 수정. 정답 ③(C) 유지."
+    },
+    {
+      "id": "KDA-LAW-SU2-095",
+      "status": "corrected_and_reviewed",
+      "old_answer": "D",
+      "new_answer": "D",
+      "answer_changed": false,
+      "note": "항공법규 원본 p.100~101 직접 대조. 불필요한 백틱 제거, 기창→기장 수정, 정답 ④(D) 유지."
+    },
+    {
+      "id": "KDA-LAW-SU2-094",
+      "status": "corrected_and_reviewed",
+      "old_answer": "D",
+      "new_answer": "D",
+      "answer_changed": false,
+      "note": "항공법규 원본 p.100 직접 대조. 항공시사용사업/향공시물 등 심한 OCR 오류를 원문 의미대로 복원. 정답 ④(D) 유지."
+    },
+    {
+      "id": "KDA-LAW-SU2-081",
+      "status": "corrected_and_reviewed",
+      "old_answer": "A",
+      "new_answer": "A",
+      "answer_changed": false,
+      "note": "항공법규 원본 p.103 직접 대조. 갑항증명울할때 OCR 오류 수정 및 C/D 보기 순서를 원본과 일치시킴. 정답 ①(A) 유지."
+    },
+    {
+      "id": "AIR-NAV-104",
+      "status": "corrected_and_reviewed",
+      "old_answer": "A",
+      "new_answer": "A",
+      "answer_changed": false,
+      "note": "공중항법 원본 p.48 직접 대조. head ing 분리 및 L→1 OCR 오류 복원, 정답 ①(A) 유지."
+    },
+    {
+      "id": "AIR-NAV-111",
+      "status": "corrected_and_reviewed",
+      "old_answer": "A",
+      "new_answer": "A",
+      "answer_changed": false,
+      "note": "공중항법 원본 문항 대조. 영문 분리 및 마이너스 기호 정규화, 정답 A 유지."
+    },
+    {
+      "id": "AIR-NAV-099",
+      "status": "corrected_and_reviewed",
+      "old_answer": "C",
+      "new_answer": "C",
+      "answer_changed": false,
+      "note": "공중항법 원본 p.47 직접 대조. vect or/corre cti on an gle OCR 분리 수정, 정답 ③(C) 유지."
+    },
+    {
+      "id": "AIR-NAV-100",
+      "status": "corrected_and_reviewed",
+      "old_answer": "A",
+      "new_answer": "A",
+      "answer_changed": false,
+      "note": "공중항법 원본 p.47 직접 대조. ground vect or 및 선택지 표기 정리, 정답 ①(A) 유지."
+    },
+    {
+      "id": "AIR-NAV-106",
+      "status": "corrected_and_reviewed",
+      "old_answer": "C",
+      "new_answer": "C",
+      "answer_changed": false,
+      "note": "공중항법 원본 대조. true heading/track OCR 분리와 괄호 띄어쓰기 정리, 정답 C 유지."
+    },
+    {
+      "id": "AIR-NAV-108",
+      "status": "corrected_and_reviewed",
+      "old_answer": "D",
+      "new_answer": "D",
+      "answer_changed": false,
+      "note": "공중항법 원본 p.48 직접 대조. Magnetic/deviation/magnetic dip/wind correction angle OCR 분리 수정, 정답 D 유지."
+    },
+    {
+      "id": "AIR-NAV-110",
+      "status": "corrected_and_reviewed",
+      "old_answer": "B",
+      "new_answer": "B",
+      "answer_changed": false,
+      "note": "공중항법 원본 대조. 영문 OCR 분리와 조사 띄어쓰기 정리, 정답 B 유지."
+    },
+    {
+      "id": "AIR-NAV-101",
+      "status": "corrected_and_reviewed",
+      "old_answer": "D",
+      "new_answer": "D",
+      "answer_changed": false,
+      "note": "공중항법 원본 p.47 및 연결 그림 대조. 괄호 앞뒤 불필요 공백 정리, 정답 D 유지."
+    },
+    {
+      "id": "AIR-NAV-103",
+      "status": "corrected_and_reviewed",
+      "old_answer": "B",
+      "new_answer": "B",
+      "answer_changed": false,
+      "note": "공중항법 원본/계산 대조. kt s 및 30/60/go/120 OCR을 3°/6°/9°/12°로 복원, 정답 B 유지."
+    },
+    {
+      "id": "AIR-NAV-109",
+      "status": "corrected_and_reviewed",
+      "old_answer": "D",
+      "new_answer": "D",
+      "answer_changed": false,
+      "note": "공중항법 원본 대조. ma gneti c/correc ti on/head ing OCR 분리 수정, 정답 D 유지."
+    },
+    {
+      "id": "AIR-NAV-113",
+      "status": "corrected_and_reviewed",
+      "old_answer": "B",
+      "new_answer": "B",
+      "answer_changed": false,
+      "note": "공중항법 원본 p.49 직접 대조. kts 이 면/an gle 및 60/go/90 OCR을 -6°/+9°/-9°로 복원, 정답 B 유지."
+    },
+    {
+      "id": "AIR-NAV-080",
+      "status": "corrected_and_reviewed",
+      "old_answer": "C",
+      "new_answer": "C",
+      "answer_changed": false,
+      "note": "공중항법 원본 p.31 직접 대조. ma gneti c/rela ti ve/bear ing OCR 분리 수정, 정답 C 유지."
+    },
+    {
+      "id": "AIR-NAV-023",
+      "status": "corrected_and_reviewed",
+      "old_answer": "D",
+      "new_answer": "D",
+      "answer_changed": false,
+      "note": "공중항법 원본 p.21 직접 대조. 10/O/oo/g oo OCR을 1°/0/0°/90°로 복원, 정답 D 유지."
+    },
+    {
+      "id": "AIR-NAV-029",
+      "status": "corrected_and_reviewed",
+      "old_answer": "A",
+      "new_answer": "A",
+      "answer_changed": false,
+      "note": "공중항법 원본 p.22 직접 대조. 10°s→10°S 표기 정리, 정답 A 유지."
+    },
+    {
+      "id": "AIR-NAV-013",
+      "status": "corrected_and_reviewed",
+      "old_answer": "D",
+      "new_answer": "D",
+      "answer_changed": false,
+      "note": "공중항법 원본 p.19 이미지 직접 대조. 항법이댜/이용하 여 등 OCR 오탈자와 콜론 표기를 정리. 원문 용어 천문의는 유지, 정답 D 유지."
+    },
+    {
+      "id": "FLIGHT-THEORY-021",
+      "status": "corrected_and_reviewed",
+      "old_answer": "B",
+      "new_answer": "B",
+      "answer_changed": false,
+      "note": "비행이론 원문 대조. 정 리를/옳계 OCR 오탈자 수정, 정답 B 유지."
+    },
+    {
+      "id": "ATC-COMM-040",
+      "status": "corrected_and_reviewed",
+      "old_answer": "A",
+      "new_answer": "A",
+      "answer_changed": false,
+      "note": "항공교통통신 원본 문항/해설 직접 대조. 10O/5O를 10°/5°로 복원, 정답 A 유지."
+    },
+    {
+      "id": "GLEIM-ATP-SU5-206",
+      "status": "corrected_and_reviewed",
+      "old_answer": "B",
+      "new_answer": "B",
+      "answer_changed": false,
+      "note": "선택지 A 끝의 고립 문자 O 제거. 기존 한글 해설 및 정답 B와 일치."
+    },
+    {
+      "id": "ATC-COMM-328",
+      "status": "corrected_and_reviewed",
+      "old_answer": "A",
+      "new_answer": "A",
+      "answer_changed": false,
+      "note": "항공교통통신 원본 문항/해설 직접 대조. 최 저치 및 •/'/\\*/’ OCR 문장부호 정리. A는 의도적 오답(실제 6 NM)이므로 5 NM 유지, 정답 A 유지."
+    }
+  ]
+}

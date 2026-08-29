@@ -1,0 +1,60 @@
+{
+  "version": "v11.60.12",
+  "base": "v11.60.11",
+  "purpose": "한국어 문제/선택지 오탈자·띄어쓰기·OCR 재점검 + 사용자 오류보고 34건 원본/정오표 검토",
+  "dataset_summary": {
+    "questions-v11-2.json": {
+      "question_count": 3438,
+      "text_changed_question_ids": 503,
+      "answer_changed_ids": []
+    },
+    "questions-air-navigation-v1.json": {
+      "question_count": 879,
+      "text_changed_question_ids": 450,
+      "answer_changed_ids": [
+        "AIR-NAV-178"
+      ]
+    },
+    "questions-flight-theory-v1.json": {
+      "question_count": 914,
+      "text_changed_question_ids": 371,
+      "answer_changed_ids": []
+    },
+    "questions-kaim-v1.json": {
+      "question_count": 1122,
+      "text_changed_question_ids": 540,
+      "answer_changed_ids": []
+    },
+    "questions-airlaw-v1.json": {
+      "question_count": 503,
+      "text_changed_question_ids": 193,
+      "answer_changed_ids": []
+    },
+    "questions-atccomm-v1.json": {
+      "question_count": 938,
+      "text_changed_question_ids": 305,
+      "answer_changed_ids": []
+    }
+  },
+  "reported_errors": {
+    "total": 34,
+    "reviewed": 34,
+    "answer_key_changes": [
+      {
+        "id": "AIR-NAV-178",
+        "status": "corrected_and_reviewed",
+        "old_answer": "A",
+        "new_answer": "B",
+        "answer_changed": true,
+        "note": "공중항법 원본 p.68(파일 PDF p.72) 해설 및 정답표 직접 대조: radio altimeter는 절대고도를 지시, 정답 ②(B)."
+      }
+    ]
+  },
+  "important_correction": {
+    "id": "AIR-NAV-178",
+    "before_answer": "A",
+    "after_answer": "B",
+    "reason": "원본 공중항법 p.68 해설/정답표에서 전파고도계는 절대고도(②)를 지시"
+  },
+  "checks": {}
+}
