@@ -1,0 +1,4145 @@
+{
+  "metadata": {
+    "name": "Jeppesen Airway Manual · Airport Chart Legend",
+    "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+    "source_file": "TalkFile_JEPPESEN AIRWAY MANUAL (251113).pdf",
+    "scope": "Airport Chart Legend p.153–158",
+    "course_type": "reference_airport_chart_legend",
+    "question_count": 81,
+    "stage_count": 6,
+    "version": "v11.60.18"
+  },
+  "questions": [
+    {
+      "id": "JEPP-AIRPORT-001",
+      "number": 1,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 1,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-01",
+        "title": "Airport Chart · Format & Heading"
+      },
+      "source_page": 153,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 1가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Chart revision date"
+        },
+        {
+          "id": "B",
+          "text": "Chart effective date"
+        },
+        {
+          "id": "C",
+          "text": "Chart index number"
+        },
+        {
+          "id": "D",
+          "text": "ICAO indicators and IATA airport identifiers"
+        }
+      ],
+      "answer": "D",
+      "explanation": "정답은 ICAO indicators and IATA airport identifiers입니다. ICAO 위치지시부호와 IATA 공항 식별부호를 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.153 · No. 1",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-001-icao-indicators-and-iata-airport-identifiers.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Airport Chart · Format & Heading",
+        "ICAO indicators and IATA airport identifiers"
+      ],
+      "reference_study_only": true,
+      "legend_number": "1",
+      "legend_label": "ICAO indicators and IATA airport identifiers",
+      "source_description_ko": "ICAO 위치지시부호와 IATA 공항 식별부호를 표시한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-002",
+      "number": 2,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 1,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-01",
+        "title": "Airport Chart · Format & Heading"
+      },
+      "source_page": 153,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 2가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Airport geographic latitude and longitude"
+        },
+        {
+          "id": "B",
+          "text": "Airport name"
+        },
+        {
+          "id": "C",
+          "text": "Airport elevation"
+        },
+        {
+          "id": "D",
+          "text": "Jeppesen company logo"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 Airport elevation입니다. 공항 표고를 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.153 · No. 2",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-002-airport-elevation.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Airport Chart · Format & Heading",
+        "Airport elevation"
+      ],
+      "reference_study_only": true,
+      "legend_number": "2",
+      "legend_label": "Airport elevation",
+      "source_description_ko": "공항 표고를 표시한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-003",
+      "number": 3,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 1,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-01",
+        "title": "Airport Chart · Format & Heading"
+      },
+      "source_page": 153,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 3가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Airport name"
+        },
+        {
+          "id": "B",
+          "text": "Airport geographic latitude and longitude"
+        },
+        {
+          "id": "C",
+          "text": "Jeppesen company logo"
+        },
+        {
+          "id": "D",
+          "text": "Geographic location name"
+        }
+      ],
+      "answer": "B",
+      "explanation": "정답은 Airport geographic latitude and longitude입니다. 공항의 지리적 위도와 경도를 도·분·0.1분 단위로 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.153 · No. 3",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-003-airport-geographic-latitude-and-longitude.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Airport Chart · Format & Heading",
+        "Airport geographic latitude and longitude"
+      ],
+      "reference_study_only": true,
+      "legend_number": "3",
+      "legend_label": "Airport geographic latitude and longitude",
+      "source_description_ko": "공항의 지리적 위도와 경도를 도·분·0.1분 단위로 표시한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-004",
+      "number": 4,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 1,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-01",
+        "title": "Airport Chart · Format & Heading"
+      },
+      "source_page": 153,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 4가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Airport elevation"
+        },
+        {
+          "id": "B",
+          "text": "ICAO indicators and IATA airport identifiers"
+        },
+        {
+          "id": "C",
+          "text": "Chart index number"
+        },
+        {
+          "id": "D",
+          "text": "Airport geographic latitude and longitude"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 Chart index number입니다. 차트 인덱스 번호를 표시한다. 공항 차트가 접근 차트의 뒷면에 인쇄될 때에는 첫 접근 차트와 같은 번호를 사용한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.153 · No. 4",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-004-chart-index-number.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Airport Chart · Format & Heading",
+        "Chart index number"
+      ],
+      "reference_study_only": true,
+      "legend_number": "4",
+      "legend_label": "Chart index number",
+      "source_description_ko": "차트 인덱스 번호를 표시한다. 공항 차트가 접근 차트의 뒷면에 인쇄될 때에는 첫 접근 차트와 같은 번호를 사용한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-005",
+      "number": 5,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 1,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-01",
+        "title": "Airport Chart · Format & Heading"
+      },
+      "source_page": 153,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 5가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Chart revision date"
+        },
+        {
+          "id": "B",
+          "text": "Jeppesen company logo"
+        },
+        {
+          "id": "C",
+          "text": "Airport name"
+        },
+        {
+          "id": "D",
+          "text": "Airport geographic latitude and longitude"
+        }
+      ],
+      "answer": "A",
+      "explanation": "정답은 Chart revision date입니다. 차트 개정일을 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.153 · No. 5",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-005-chart-revision-date.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Airport Chart · Format & Heading",
+        "Chart revision date"
+      ],
+      "reference_study_only": true,
+      "legend_number": "5",
+      "legend_label": "Chart revision date",
+      "source_description_ko": "차트 개정일을 표시한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-006",
+      "number": 6,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 1,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-01",
+        "title": "Airport Chart · Format & Heading"
+      },
+      "source_page": 153,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 6가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "ICAO indicators and IATA airport identifiers"
+        },
+        {
+          "id": "B",
+          "text": "Airport name"
+        },
+        {
+          "id": "C",
+          "text": "Chart effective date"
+        },
+        {
+          "id": "D",
+          "text": "Jeppesen company logo"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 Chart effective date입니다. 차트 시행일을 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.153 · No. 6",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-006-chart-effective-date.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Airport Chart · Format & Heading",
+        "Chart effective date"
+      ],
+      "reference_study_only": true,
+      "legend_number": "6",
+      "legend_label": "Chart effective date",
+      "source_description_ko": "차트 시행일을 표시한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-007",
+      "number": 7,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 1,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-01",
+        "title": "Airport Chart · Format & Heading"
+      },
+      "source_page": 153,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 7가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Chart revision date"
+        },
+        {
+          "id": "B",
+          "text": "Chart index number"
+        },
+        {
+          "id": "C",
+          "text": "Airport name"
+        },
+        {
+          "id": "D",
+          "text": "Airport elevation"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 Airport name입니다. 공항명을 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.153 · No. 7",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-007-airport-name.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Airport Chart · Format & Heading",
+        "Airport name"
+      ],
+      "reference_study_only": true,
+      "legend_number": "7",
+      "legend_label": "Airport name",
+      "source_description_ko": "공항명을 표시한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-008",
+      "number": 8,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 1,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-01",
+        "title": "Airport Chart · Format & Heading"
+      },
+      "source_page": 153,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 8가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Airport geographic latitude and longitude"
+        },
+        {
+          "id": "B",
+          "text": "Airport name"
+        },
+        {
+          "id": "C",
+          "text": "Airport elevation"
+        },
+        {
+          "id": "D",
+          "text": "Geographic location name"
+        }
+      ],
+      "answer": "D",
+      "explanation": "정답은 Geographic location name입니다. 지리적 위치명을 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.153 · No. 8",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-008-geographic-location-name.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Airport Chart · Format & Heading",
+        "Geographic location name"
+      ],
+      "reference_study_only": true,
+      "legend_number": "8",
+      "legend_label": "Geographic location name",
+      "source_description_ko": "지리적 위치명을 표시한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-009",
+      "number": 9,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 1,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-01",
+        "title": "Airport Chart · Format & Heading"
+      },
+      "source_page": 153,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 9가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Chart effective date"
+        },
+        {
+          "id": "B",
+          "text": "Airport elevation"
+        },
+        {
+          "id": "C",
+          "text": "Geographic location name"
+        },
+        {
+          "id": "D",
+          "text": "Jeppesen company logo"
+        }
+      ],
+      "answer": "D",
+      "explanation": "정답은 Jeppesen company logo입니다. Jeppesen 회사 로고를 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.153 · No. 9",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-009-jeppesen-company-logo.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Airport Chart · Format & Heading",
+        "Jeppesen company logo"
+      ],
+      "reference_study_only": true,
+      "legend_number": "9",
+      "legend_label": "Jeppesen company logo",
+      "source_description_ko": "Jeppesen 회사 로고를 표시한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-010",
+      "number": 10,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 2,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-02",
+        "title": "Airport Planview · 1–15"
+      },
+      "source_page": 154,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 1가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Closed runway depiction"
+        },
+        {
+          "id": "B",
+          "text": "Permanently closed taxiways"
+        },
+        {
+          "id": "C",
+          "text": "Airport planview / latitude-longitude grid"
+        },
+        {
+          "id": "D",
+          "text": "Runway end elevation"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 Airport planview / latitude-longitude grid입니다. 공항 평면도는 실제 축척(To Scale)으로 표시되며, 도·분·0.1분 단위의 위도/경도 격자가 neat line 안쪽에 표시된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.154 · No. 1",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-010-airport-planview-latitude-longitude-grid.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Airport Planview · 1–15",
+        "Airport planview / latitude-longitude grid"
+      ],
+      "reference_study_only": true,
+      "legend_number": "1",
+      "legend_label": "Airport planview / latitude-longitude grid",
+      "source_description_ko": "공항 평면도는 실제 축척(To Scale)으로 표시되며, 도·분·0.1분 단위의 위도/경도 격자가 neat line 안쪽에 표시된다."
+    },
+    {
+      "id": "JEPP-AIRPORT-011",
+      "number": 11,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 2,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-02",
+        "title": "Airport Planview · 1–15"
+      },
+      "source_page": 154,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 2가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "RVR transmitter locations"
+        },
+        {
+          "id": "B",
+          "text": "Airport magnetic variation"
+        },
+        {
+          "id": "C",
+          "text": "Closed runway depiction"
+        },
+        {
+          "id": "D",
+          "text": "Runway designators and runway bearings"
+        }
+      ],
+      "answer": "B",
+      "explanation": "정답은 Airport magnetic variation입니다. 공항의 자기편차를 그래픽과 수치로 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.154 · No. 2",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-011-airport-magnetic-variation.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Airport Planview · 1–15",
+        "Airport magnetic variation"
+      ],
+      "reference_study_only": true,
+      "legend_number": "2",
+      "legend_label": "Airport magnetic variation",
+      "source_description_ko": "공항의 자기편차를 그래픽과 수치로 표시한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-012",
+      "number": 12,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 2,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-02",
+        "title": "Airport Planview · 1–15"
+      },
+      "source_page": 154,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 3가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Airport operational notes"
+        },
+        {
+          "id": "B",
+          "text": "Runway end elevation"
+        },
+        {
+          "id": "C",
+          "text": "Stopways and overruns"
+        },
+        {
+          "id": "D",
+          "text": "Airport magnetic variation"
+        }
+      ],
+      "answer": "A",
+      "explanation": "정답은 Airport operational notes입니다. 공항 운용 관련 주석은 평면도 안에 표시하며, 특정 구역에 관한 주석은 해당 구역 안에 두거나 연결해서 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.154 · No. 3",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-012-airport-operational-notes.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Airport Planview · 1–15",
+        "Airport operational notes"
+      ],
+      "reference_study_only": true,
+      "legend_number": "3",
+      "legend_label": "Airport operational notes",
+      "source_description_ko": "공항 운용 관련 주석은 평면도 안에 표시하며, 특정 구역에 관한 주석은 해당 구역 안에 두거나 연결해서 표시한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-013",
+      "number": 13,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 2,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-02",
+        "title": "Airport Planview · 1–15"
+      },
+      "source_page": 154,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 4가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Approach light systems"
+        },
+        {
+          "id": "B",
+          "text": "Runway designators and runway bearings"
+        },
+        {
+          "id": "C",
+          "text": "Stopways and overruns"
+        },
+        {
+          "id": "D",
+          "text": "Physical runway length"
+        }
+      ],
+      "answer": "B",
+      "explanation": "정답은 Runway designators and runway bearings입니다. 활주로 식별번호는 뒤에 T가 붙지 않는 한 자방위 기준이며, 알려진 경우 활주로 방위도 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.154 · No. 4",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-013-runway-designators-and-runway-bearings.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Airport Planview · 1–15",
+        "Runway designators and runway bearings"
+      ],
+      "reference_study_only": true,
+      "legend_number": "4",
+      "legend_label": "Runway designators and runway bearings",
+      "source_description_ko": "활주로 식별번호는 뒤에 T가 붙지 않는 한 자방위 기준이며, 알려진 경우 활주로 방위도 표시한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-014",
+      "number": 14,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 2,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-02",
+        "title": "Airport Planview · 1–15"
+      },
+      "source_page": 154,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 5가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Stopways and overruns"
+        },
+        {
+          "id": "B",
+          "text": "Airport operational notes"
+        },
+        {
+          "id": "C",
+          "text": "Physical runway length"
+        },
+        {
+          "id": "D",
+          "text": "Closed runway depiction"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 Physical runway length입니다. 정지로·오버런·이설시단 보정을 포함하지 않은 물리적 활주로 길이를 표시한다. 국제공항에서는 미터 환산값도 함께 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.154 · No. 5",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-014-physical-runway-length.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Airport Planview · 1–15",
+        "Physical runway length"
+      ],
+      "reference_study_only": true,
+      "legend_number": "5",
+      "legend_label": "Physical runway length",
+      "source_description_ko": "정지로·오버런·이설시단 보정을 포함하지 않은 물리적 활주로 길이를 표시한다. 국제공항에서는 미터 환산값도 함께 표시한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-015",
+      "number": 15,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 2,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-02",
+        "title": "Airport Planview · 1–15"
+      },
+      "source_page": 154,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 6가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Runway end elevation"
+        },
+        {
+          "id": "B",
+          "text": "Stopways and overruns"
+        },
+        {
+          "id": "C",
+          "text": "Physical runway length"
+        },
+        {
+          "id": "D",
+          "text": "Hot Spot"
+        }
+      ],
+      "answer": "A",
+      "explanation": "정답은 Runway end elevation입니다. 알려진 경우 활주로 말단 표고를 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.154 · No. 6",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-015-runway-end-elevation.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Airport Planview · 1–15",
+        "Runway end elevation"
+      ],
+      "reference_study_only": true,
+      "legend_number": "6",
+      "legend_label": "Runway end elevation",
+      "source_description_ko": "알려진 경우 활주로 말단 표고를 표시한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-016",
+      "number": 16,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 2,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-02",
+        "title": "Airport Planview · 1–15"
+      },
+      "source_page": 154,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 7가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Permanently closed taxiways"
+        },
+        {
+          "id": "B",
+          "text": "Displaced threshold location"
+        },
+        {
+          "id": "C",
+          "text": "Airport operational notes"
+        },
+        {
+          "id": "D",
+          "text": "Hot Spot"
+        }
+      ],
+      "answer": "B",
+      "explanation": "정답은 Displaced threshold location입니다. 해당되는 경우 활주로상의 이설시단 위치를 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.154 · No. 7",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-016-displaced-threshold-location.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Airport Planview · 1–15",
+        "Displaced threshold location"
+      ],
+      "reference_study_only": true,
+      "legend_number": "7",
+      "legend_label": "Displaced threshold location",
+      "source_description_ko": "해당되는 경우 활주로상의 이설시단 위치를 표시한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-017",
+      "number": 17,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 2,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-02",
+        "title": "Airport Planview · 1–15"
+      },
+      "source_page": 154,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 8가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "LAHSO stopping points"
+        },
+        {
+          "id": "B",
+          "text": "Displaced threshold location"
+        },
+        {
+          "id": "C",
+          "text": "Permanently closed taxiways"
+        },
+        {
+          "id": "D",
+          "text": "Airport planview / latitude-longitude grid"
+        }
+      ],
+      "answer": "A",
+      "explanation": "정답은 LAHSO stopping points입니다. Land and Hold Short Operations를 위한 활주로상의 정지지점을 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.154 · No. 8",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-017-lahso-stopping-points.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Airport Planview · 1–15",
+        "LAHSO stopping points"
+      ],
+      "reference_study_only": true,
+      "legend_number": "8",
+      "legend_label": "LAHSO stopping points",
+      "source_description_ko": "Land and Hold Short Operations를 위한 활주로상의 정지지점을 표시한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-018",
+      "number": 18,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 2,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-02",
+        "title": "Airport Planview · 1–15"
+      },
+      "source_page": 154,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 9가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Airport magnetic variation"
+        },
+        {
+          "id": "B",
+          "text": "Airport operational notes"
+        },
+        {
+          "id": "C",
+          "text": "Runway end elevation"
+        },
+        {
+          "id": "D",
+          "text": "Hot Spot"
+        }
+      ],
+      "answer": "D",
+      "explanation": "정답은 Hot Spot입니다. 해당되는 경우 Hot Spot 구역과 해당 라벨을 표시하며, 평면도 또는 추가 활주로 정보 밴드 아래에 설명을 싣는다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.154 · No. 9",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-018-hot-spot.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Airport Planview · 1–15",
+        "Hot Spot"
+      ],
+      "reference_study_only": true,
+      "legend_number": "9",
+      "legend_label": "Hot Spot",
+      "source_description_ko": "해당되는 경우 Hot Spot 구역과 해당 라벨을 표시하며, 평면도 또는 추가 활주로 정보 밴드 아래에 설명을 싣는다."
+    },
+    {
+      "id": "JEPP-AIRPORT-019",
+      "number": 19,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 2,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-02",
+        "title": "Airport Planview · 1–15"
+      },
+      "source_page": 154,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 10가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Stopways and overruns"
+        },
+        {
+          "id": "B",
+          "text": "Closed runway depiction"
+        },
+        {
+          "id": "C",
+          "text": "Approach light systems"
+        },
+        {
+          "id": "D",
+          "text": "Physical runway length"
+        }
+      ],
+      "answer": "A",
+      "explanation": "정답은 Stopways and overruns입니다. 이용 가능한 경우 정지로와 오버런을 해당 길이와 함께 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.154 · No. 10",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-019-stopways-and-overruns.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Airport Planview · 1–15",
+        "Stopways and overruns"
+      ],
+      "reference_study_only": true,
+      "legend_number": "10",
+      "legend_label": "Stopways and overruns",
+      "source_description_ko": "이용 가능한 경우 정지로와 오버런을 해당 길이와 함께 표시한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-020",
+      "number": 20,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 2,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-02",
+        "title": "Airport Planview · 1–15"
+      },
+      "source_page": 154,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 11가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Runway end elevation"
+        },
+        {
+          "id": "B",
+          "text": "Permanently closed taxiways"
+        },
+        {
+          "id": "C",
+          "text": "RVR transmitter locations"
+        },
+        {
+          "id": "D",
+          "text": "Airport magnetic variation"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 RVR transmitter locations입니다. 알려진 경우 RVR 송신기 위치와 해당 식별자를 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.154 · No. 11",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-020-rvr-transmitter-locations.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Airport Planview · 1–15",
+        "RVR transmitter locations"
+      ],
+      "reference_study_only": true,
+      "legend_number": "11",
+      "legend_label": "RVR transmitter locations",
+      "source_description_ko": "알려진 경우 RVR 송신기 위치와 해당 식별자를 표시한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-021",
+      "number": 21,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 2,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-02",
+        "title": "Airport Planview · 1–15"
+      },
+      "source_page": 154,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 12가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Physical runway length"
+        },
+        {
+          "id": "B",
+          "text": "Closed runway depiction"
+        },
+        {
+          "id": "C",
+          "text": "Runway designators and runway bearings"
+        },
+        {
+          "id": "D",
+          "text": "Active taxiways and ramp areas"
+        }
+      ],
+      "answer": "D",
+      "explanation": "정답은 Active taxiways and ramp areas입니다. 운용 중인 모든 유도로와 램프 구역은 회색 면 채움으로 표시하며, 알려진 경우 유도로 식별자와 램프명을 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.154 · No. 12",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-021-active-taxiways-and-ramp-areas.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Airport Planview · 1–15",
+        "Active taxiways and ramp areas"
+      ],
+      "reference_study_only": true,
+      "legend_number": "12",
+      "legend_label": "Active taxiways and ramp areas",
+      "source_description_ko": "운용 중인 모든 유도로와 램프 구역은 회색 면 채움으로 표시하며, 알려진 경우 유도로 식별자와 램프명을 표시한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-022",
+      "number": 22,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 2,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-02",
+        "title": "Airport Planview · 1–15"
+      },
+      "source_page": 154,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 13가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Approach light systems"
+        },
+        {
+          "id": "B",
+          "text": "Permanently closed taxiways"
+        },
+        {
+          "id": "C",
+          "text": "Displaced threshold location"
+        },
+        {
+          "id": "D",
+          "text": "Active taxiways and ramp areas"
+        }
+      ],
+      "answer": "B",
+      "explanation": "정답은 Permanently closed taxiways입니다. 알려진 모든 영구 폐쇄 유도로를 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.154 · No. 13",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-022-permanently-closed-taxiways.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Airport Planview · 1–15",
+        "Permanently closed taxiways"
+      ],
+      "reference_study_only": true,
+      "legend_number": "13",
+      "legend_label": "Permanently closed taxiways",
+      "source_description_ko": "알려진 모든 영구 폐쇄 유도로를 표시한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-023",
+      "number": 23,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 2,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-02",
+        "title": "Airport Planview · 1–15"
+      },
+      "source_page": 154,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 14가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "LAHSO stopping points"
+        },
+        {
+          "id": "B",
+          "text": "Displaced threshold location"
+        },
+        {
+          "id": "C",
+          "text": "Airport magnetic variation"
+        },
+        {
+          "id": "D",
+          "text": "Closed runway depiction"
+        }
+      ],
+      "answer": "D",
+      "explanation": "정답은 Closed runway depiction입니다. 폐쇄 성격에 따라 두 가지 폐쇄 활주로 표기를 사용한다. 임시 폐쇄는 길이와 식별번호를 유지하고, 영구 폐쇄는 이를 제거한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.154 · No. 14",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-023-closed-runway-depiction.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Airport Planview · 1–15",
+        "Closed runway depiction"
+      ],
+      "reference_study_only": true,
+      "legend_number": "14",
+      "legend_label": "Closed runway depiction",
+      "source_description_ko": "폐쇄 성격에 따라 두 가지 폐쇄 활주로 표기를 사용한다. 임시 폐쇄는 길이와 식별번호를 유지하고, 영구 폐쇄는 이를 제거한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-024",
+      "number": 24,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 2,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-02",
+        "title": "Airport Planview · 1–15"
+      },
+      "source_page": 154,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 15가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Physical runway length"
+        },
+        {
+          "id": "B",
+          "text": "LAHSO stopping points"
+        },
+        {
+          "id": "C",
+          "text": "Approach light systems"
+        },
+        {
+          "id": "D",
+          "text": "Airport operational notes"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 Approach light systems입니다. 알려진 모든 접근등 시스템의 구성과 길이를 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.154 · No. 15",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-024-approach-light-systems.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Airport Planview · 1–15",
+        "Approach light systems"
+      ],
+      "reference_study_only": true,
+      "legend_number": "15",
+      "legend_label": "Approach light systems",
+      "source_description_ko": "알려진 모든 접근등 시스템의 구성과 길이를 표시한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-025",
+      "number": 25,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 3,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-03",
+        "title": "Airport Planview · 16–34"
+      },
+      "source_page": 154,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 16가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Seaplane operating areas / water runways"
+        },
+        {
+          "id": "B",
+          "text": "Helicopter landing pads/areas"
+        },
+        {
+          "id": "C",
+          "text": "Areas under construction"
+        },
+        {
+          "id": "D",
+          "text": "Tree lines"
+        }
+      ],
+      "answer": "A",
+      "explanation": "정답은 Seaplane operating areas / water runways입니다. 모든 수상비행기 운용구역/수상활주로를 표시한다. 활주로 번호 뒤에 W를 붙이고, 물리적 길이와 표고도 함께 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.154 · No. 16",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-025-seaplane-operating-areas-water-runways.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Airport Planview · 16–34",
+        "Seaplane operating areas / water runways"
+      ],
+      "reference_study_only": true,
+      "legend_number": "16",
+      "legend_label": "Seaplane operating areas / water runways",
+      "source_description_ko": "모든 수상비행기 운용구역/수상활주로를 표시한다. 활주로 번호 뒤에 W를 붙이고, 물리적 길이와 표고도 함께 표시한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-026",
+      "number": 26,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 3,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-03",
+        "title": "Airport Planview · 16–34"
+      },
+      "source_page": 154,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 17가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Ditches"
+        },
+        {
+          "id": "B",
+          "text": "Special use airspace"
+        },
+        {
+          "id": "C",
+          "text": "Airport Reference Point (ARP)"
+        },
+        {
+          "id": "D",
+          "text": "Engineered Materials Arresting System (EMAS) pads"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 Airport Reference Point (ARP)입니다. 알려진 경우 공항기준점(ARP)의 지리적 위치를 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.154 · No. 17",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-026-airport-reference-point-arp.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Airport Planview · 16–34",
+        "Airport Reference Point (ARP)"
+      ],
+      "reference_study_only": true,
+      "legend_number": "17",
+      "legend_label": "Airport Reference Point (ARP)",
+      "source_description_ko": "알려진 경우 공항기준점(ARP)의 지리적 위치를 표시한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-027",
+      "number": 27,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 3,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-03",
+        "title": "Airport Planview · 16–34"
+      },
+      "source_page": 154,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 18가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Seaplane operating areas / water runways"
+        },
+        {
+          "id": "B",
+          "text": "Tree lines"
+        },
+        {
+          "id": "C",
+          "text": "Areas under construction"
+        },
+        {
+          "id": "D",
+          "text": "Railroads"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 Areas under construction입니다. 공사 중인 구역은 가는 파선 윤곽선으로 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.154 · No. 18",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-027-areas-under-construction.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Airport Planview · 16–34",
+        "Areas under construction"
+      ],
+      "reference_study_only": true,
+      "legend_number": "18",
+      "legend_label": "Areas under construction",
+      "source_description_ko": "공사 중인 구역은 가는 파선 윤곽선으로 표시한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-028",
+      "number": 28,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 3,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-03",
+        "title": "Airport Planview · 16–34"
+      },
+      "source_page": 154,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 19가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Railroads"
+        },
+        {
+          "id": "B",
+          "text": "Special use airspace"
+        },
+        {
+          "id": "C",
+          "text": "Airport VORs and NDBs"
+        },
+        {
+          "id": "D",
+          "text": "Airport identification beacon"
+        }
+      ],
+      "answer": "D",
+      "explanation": "정답은 Airport identification beacon입니다. 알려진 경우 공항 식별 비콘의 위치를 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.154 · No. 19",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-028-airport-identification-beacon.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Airport Planview · 16–34",
+        "Airport identification beacon"
+      ],
+      "reference_study_only": true,
+      "legend_number": "19",
+      "legend_label": "Airport identification beacon",
+      "source_description_ko": "알려진 경우 공항 식별 비콘의 위치를 표시한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-029",
+      "number": 29,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 3,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-03",
+        "title": "Airport Planview · 16–34"
+      },
+      "source_page": 154,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 20가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Seaplane operating areas / water runways"
+        },
+        {
+          "id": "B",
+          "text": "Tree lines"
+        },
+        {
+          "id": "C",
+          "text": "Buildings"
+        },
+        {
+          "id": "D",
+          "text": "Pole lines"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 Buildings입니다. 공항 안 또는 인근의 건물을 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.154 · No. 20",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-029-buildings.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Airport Planview · 16–34",
+        "Buildings"
+      ],
+      "reference_study_only": true,
+      "legend_number": "20",
+      "legend_label": "Buildings",
+      "source_description_ko": "공항 안 또는 인근의 건물을 표시한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-030",
+      "number": 30,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 3,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-03",
+        "title": "Airport Planview · 16–34"
+      },
+      "source_page": 154,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 21가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Bluffs"
+        },
+        {
+          "id": "B",
+          "text": "Terrain high points and man-made structures"
+        },
+        {
+          "id": "C",
+          "text": "Roads"
+        },
+        {
+          "id": "D",
+          "text": "Seaplane operating areas / water runways"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 Roads입니다. Caution, Alert 또는 Be Aware 주석에서 언급되는 경우 공항 안 또는 인근 도로를 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.154 · No. 21",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-030-roads.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Airport Planview · 16–34",
+        "Roads"
+      ],
+      "reference_study_only": true,
+      "legend_number": "21",
+      "legend_label": "Roads",
+      "source_description_ko": "Caution, Alert 또는 Be Aware 주석에서 언급되는 경우 공항 안 또는 인근 도로를 표시한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-031",
+      "number": 31,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 3,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-03",
+        "title": "Airport Planview · 16–34"
+      },
+      "source_page": 154,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 22가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Seaplane operating areas / water runways"
+        },
+        {
+          "id": "B",
+          "text": "Engineered Materials Arresting System (EMAS) pads"
+        },
+        {
+          "id": "C",
+          "text": "Railroads"
+        },
+        {
+          "id": "D",
+          "text": "Ditches"
+        }
+      ],
+      "answer": "B",
+      "explanation": "정답은 Engineered Materials Arresting System (EMAS) pads입니다. EMAS 패드 위치를 표시하고 라벨을 붙인다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.154 · No. 22",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-031-engineered-materials-arresting-system-emas-pads.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Airport Planview · 16–34",
+        "Engineered Materials Arresting System (EMAS) pads"
+      ],
+      "reference_study_only": true,
+      "legend_number": "22",
+      "legend_label": "Engineered Materials Arresting System (EMAS) pads",
+      "source_description_ko": "EMAS 패드 위치를 표시하고 라벨을 붙인다."
+    },
+    {
+      "id": "JEPP-AIRPORT-032",
+      "number": 32,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 3,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-03",
+        "title": "Airport Planview · 16–34"
+      },
+      "source_page": 154,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 23가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Wind direction indicators"
+        },
+        {
+          "id": "B",
+          "text": "Engineered Materials Arresting System (EMAS) pads"
+        },
+        {
+          "id": "C",
+          "text": "Hazard beacons"
+        },
+        {
+          "id": "D",
+          "text": "Seaplane operating areas / water runways"
+        }
+      ],
+      "answer": "A",
+      "explanation": "정답은 Wind direction indicators입니다. 알려진 모든 풍향지시기를 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.154 · No. 23",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-032-wind-direction-indicators.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Airport Planview · 16–34",
+        "Wind direction indicators"
+      ],
+      "reference_study_only": true,
+      "legend_number": "23",
+      "legend_label": "Wind direction indicators",
+      "source_description_ko": "알려진 모든 풍향지시기를 표시한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-033",
+      "number": 33,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 3,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-03",
+        "title": "Airport Planview · 16–34"
+      },
+      "source_page": 154,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 24가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Helicopter landing pads/areas"
+        },
+        {
+          "id": "B",
+          "text": "Special use airspace"
+        },
+        {
+          "id": "C",
+          "text": "Hazard beacons"
+        },
+        {
+          "id": "D",
+          "text": "Tree lines"
+        }
+      ],
+      "answer": "A",
+      "explanation": "정답은 Helicopter landing pads/areas입니다. 헬리콥터 착륙 패드/구역을 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.154 · No. 24",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-033-helicopter-landing-pads-areas.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Airport Planview · 16–34",
+        "Helicopter landing pads/areas"
+      ],
+      "reference_study_only": true,
+      "legend_number": "24",
+      "legend_label": "Helicopter landing pads/areas",
+      "source_description_ko": "헬리콥터 착륙 패드/구역을 표시한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-034",
+      "number": 34,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 3,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-03",
+        "title": "Airport Planview · 16–34"
+      },
+      "source_page": 154,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 25가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Airport identification beacon"
+        },
+        {
+          "id": "B",
+          "text": "Airport Reference Point (ARP)"
+        },
+        {
+          "id": "C",
+          "text": "Airport VORs and NDBs"
+        },
+        {
+          "id": "D",
+          "text": "Wind direction indicators"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 Airport VORs and NDBs입니다. 공항 VOR 및 NDB의 지리적 위치를 표시하고 라벨을 붙인다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.154 · No. 25",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-034-airport-vors-and-ndbs.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Airport Planview · 16–34",
+        "Airport VORs and NDBs"
+      ],
+      "reference_study_only": true,
+      "legend_number": "25",
+      "legend_label": "Airport VORs and NDBs",
+      "source_description_ko": "공항 VOR 및 NDB의 지리적 위치를 표시하고 라벨을 붙인다."
+    },
+    {
+      "id": "JEPP-AIRPORT-035",
+      "number": 35,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 3,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-03",
+        "title": "Airport Planview · 16–34"
+      },
+      "source_page": 154,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 26가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Engineered Materials Arresting System (EMAS) pads"
+        },
+        {
+          "id": "B",
+          "text": "Pole lines"
+        },
+        {
+          "id": "C",
+          "text": "Helicopter landing pads/areas"
+        },
+        {
+          "id": "D",
+          "text": "Buildings"
+        }
+      ],
+      "answer": "B",
+      "explanation": "정답은 Pole lines입니다. 공항 안 또는 인근의 전신주/전주 선을 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.154 · No. 26",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-035-pole-lines.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Airport Planview · 16–34",
+        "Pole lines"
+      ],
+      "reference_study_only": true,
+      "legend_number": "26",
+      "legend_label": "Pole lines",
+      "source_description_ko": "공항 안 또는 인근의 전신주/전주 선을 표시한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-036",
+      "number": 36,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 3,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-03",
+        "title": "Airport Planview · 16–34"
+      },
+      "source_page": 154,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 27가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Terrain high points and man-made structures"
+        },
+        {
+          "id": "B",
+          "text": "Bluffs"
+        },
+        {
+          "id": "C",
+          "text": "Buildings"
+        },
+        {
+          "id": "D",
+          "text": "Tree lines"
+        }
+      ],
+      "answer": "A",
+      "explanation": "정답은 Terrain high points and man-made structures입니다. 가장 가까운 활주로 말단 표고보다 50ft 이상 높은 알려진 지형 고점 및 인공구조물을 해당 기호와 표고로 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.154 · No. 27",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-036-terrain-high-points-and-man-made-structures.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Airport Planview · 16–34",
+        "Terrain high points and man-made structures"
+      ],
+      "reference_study_only": true,
+      "legend_number": "27",
+      "legend_label": "Terrain high points and man-made structures",
+      "source_description_ko": "가장 가까운 활주로 말단 표고보다 50ft 이상 높은 알려진 지형 고점 및 인공구조물을 해당 기호와 표고로 표시한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-037",
+      "number": 37,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 3,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-03",
+        "title": "Airport Planview · 16–34"
+      },
+      "source_page": 154,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 28가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Roads"
+        },
+        {
+          "id": "B",
+          "text": "Seaplane operating areas / water runways"
+        },
+        {
+          "id": "C",
+          "text": "Special use airspace"
+        },
+        {
+          "id": "D",
+          "text": "Engineered Materials Arresting System (EMAS) pads"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 Special use airspace입니다. 특수사용공역의 구역·윤곽·식별자를 표시한다. 전체 평면도가 한 공역 안에 있으면 “Entire Chart Lies Within R-XXXX” 형식의 주석을 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.154 · No. 28",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-037-special-use-airspace.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Airport Planview · 16–34",
+        "Special use airspace"
+      ],
+      "reference_study_only": true,
+      "legend_number": "28",
+      "legend_label": "Special use airspace",
+      "source_description_ko": "특수사용공역의 구역·윤곽·식별자를 표시한다. 전체 평면도가 한 공역 안에 있으면 “Entire Chart Lies Within R-XXXX” 형식의 주석을 표시한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-038",
+      "number": 38,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 3,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-03",
+        "title": "Airport Planview · 16–34"
+      },
+      "source_page": 154,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 29가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Airport identification beacon"
+        },
+        {
+          "id": "B",
+          "text": "Feet/meters scale"
+        },
+        {
+          "id": "C",
+          "text": "Pole lines"
+        },
+        {
+          "id": "D",
+          "text": "Seaplane operating areas / water runways"
+        }
+      ],
+      "answer": "B",
+      "explanation": "정답은 Feet/meters scale입니다. 차트 축척과 동등한 feet 및 meters 눈금을 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.154 · No. 29",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-038-feet-meters-scale.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Airport Planview · 16–34",
+        "Feet/meters scale"
+      ],
+      "reference_study_only": true,
+      "legend_number": "29",
+      "legend_label": "Feet/meters scale",
+      "source_description_ko": "차트 축척과 동등한 feet 및 meters 눈금을 표시한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-039",
+      "number": 39,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 3,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-03",
+        "title": "Airport Planview · 16–34"
+      },
+      "source_page": 154,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 30가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Airport Reference Point (ARP)"
+        },
+        {
+          "id": "B",
+          "text": "Hazard beacons"
+        },
+        {
+          "id": "C",
+          "text": "Buildings"
+        },
+        {
+          "id": "D",
+          "text": "Ditches"
+        }
+      ],
+      "answer": "B",
+      "explanation": "정답은 Hazard beacons입니다. 평면도 안의 위험 비콘과 알려진 경우 그 표고를 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.154 · No. 30",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-039-hazard-beacons.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Airport Planview · 16–34",
+        "Hazard beacons"
+      ],
+      "reference_study_only": true,
+      "legend_number": "30",
+      "legend_label": "Hazard beacons",
+      "source_description_ko": "평면도 안의 위험 비콘과 알려진 경우 그 표고를 표시한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-040",
+      "number": 40,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 3,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-03",
+        "title": "Airport Planview · 16–34"
+      },
+      "source_page": 154,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 31가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Railroads"
+        },
+        {
+          "id": "B",
+          "text": "Tree lines"
+        },
+        {
+          "id": "C",
+          "text": "Ditches"
+        },
+        {
+          "id": "D",
+          "text": "Wind direction indicators"
+        }
+      ],
+      "answer": "A",
+      "explanation": "정답은 Railroads입니다. Caution, Alert 또는 Be Aware 주석에서 언급되는 경우 공항 안 또는 인근 철도를 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.154 · No. 31",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-040-railroads.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Airport Planview · 16–34",
+        "Railroads"
+      ],
+      "reference_study_only": true,
+      "legend_number": "31",
+      "legend_label": "Railroads",
+      "source_description_ko": "Caution, Alert 또는 Be Aware 주석에서 언급되는 경우 공항 안 또는 인근 철도를 표시한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-041",
+      "number": 41,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 3,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-03",
+        "title": "Airport Planview · 16–34"
+      },
+      "source_page": 154,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 32가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Roads"
+        },
+        {
+          "id": "B",
+          "text": "Airport Reference Point (ARP)"
+        },
+        {
+          "id": "C",
+          "text": "Ditches"
+        },
+        {
+          "id": "D",
+          "text": "Railroads"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 Ditches입니다. 공항 인근의 배수로/도랑을 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.154 · No. 32",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-041-ditches.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Airport Planview · 16–34",
+        "Ditches"
+      ],
+      "reference_study_only": true,
+      "legend_number": "32",
+      "legend_label": "Ditches",
+      "source_description_ko": "공항 인근의 배수로/도랑을 표시한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-042",
+      "number": 42,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 3,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-03",
+        "title": "Airport Planview · 16–34"
+      },
+      "source_page": 154,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 33가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Railroads"
+        },
+        {
+          "id": "B",
+          "text": "Hazard beacons"
+        },
+        {
+          "id": "C",
+          "text": "Tree lines"
+        },
+        {
+          "id": "D",
+          "text": "Airport identification beacon"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 Tree lines입니다. 수목선을 표시한다. 끝이 열린 수목선은 산림구역의 경계를 의미한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.154 · No. 33",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-042-tree-lines.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Airport Planview · 16–34",
+        "Tree lines"
+      ],
+      "reference_study_only": true,
+      "legend_number": "33",
+      "legend_label": "Tree lines",
+      "source_description_ko": "수목선을 표시한다. 끝이 열린 수목선은 산림구역의 경계를 의미한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-043",
+      "number": 43,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 3,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-03",
+        "title": "Airport Planview · 16–34"
+      },
+      "source_page": 154,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 34가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Buildings"
+        },
+        {
+          "id": "B",
+          "text": "Feet/meters scale"
+        },
+        {
+          "id": "C",
+          "text": "Bluffs"
+        },
+        {
+          "id": "D",
+          "text": "Special use airspace"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 Bluffs입니다. 절벽은 기호의 화살표가 아래쪽 또는 더 낮은 표고 쪽을 가리키도록 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.154 · No. 34",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-043-bluffs.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Airport Planview · 16–34",
+        "Bluffs"
+      ],
+      "reference_study_only": true,
+      "legend_number": "34",
+      "legend_label": "Bluffs",
+      "source_description_ko": "절벽은 기호의 화살표가 아래쪽 또는 더 낮은 표고 쪽을 가리키도록 표시한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-044",
+      "number": 44,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 4,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-04",
+        "title": "Additional Runway Information Band"
+      },
+      "source_page": 155,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 1가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "LAHSO threshold-to-hold-short distance"
+        },
+        {
+          "id": "B",
+          "text": "Runway surface treatment (grooving)"
+        },
+        {
+          "id": "C",
+          "text": "Operational runway lighting and approach light systems"
+        },
+        {
+          "id": "D",
+          "text": "Runway designators/numbers"
+        }
+      ],
+      "answer": "D",
+      "explanation": "정답은 Runway designators/numbers입니다. 활주로 식별번호는 박스의 좌상단과 우하단에 표시한다. 밴드 안의 모든 정보는 오른쪽에 표시된 활주로에 적용되며, 활주로별 정보가 다르면 선으로 구분한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.155 · No. 1",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-044-runway-designators-numbers.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Additional Runway Information Band",
+        "Runway designators/numbers"
+      ],
+      "reference_study_only": true,
+      "legend_number": "1",
+      "legend_label": "Runway designators/numbers",
+      "source_description_ko": "활주로 식별번호는 박스의 좌상단과 우하단에 표시한다. 밴드 안의 모든 정보는 오른쪽에 표시된 활주로에 적용되며, 활주로별 정보가 다르면 선으로 구분한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-045",
+      "number": 45,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 4,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-04",
+        "title": "Additional Runway Information Band"
+      },
+      "source_page": 155,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 2가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Band expanded for all operational runways"
+        },
+        {
+          "id": "B",
+          "text": "Landing distance beyond threshold"
+        },
+        {
+          "id": "C",
+          "text": "Operational runway lighting and approach light systems"
+        },
+        {
+          "id": "D",
+          "text": "Physical runway width"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 Operational runway lighting and approach light systems입니다. 운용 중인 활주로 조명과 접근등 시스템을 모두 나열한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.155 · No. 2",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-045-operational-runway-lighting-and-approach-light-systems.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Additional Runway Information Band",
+        "Operational runway lighting and approach light systems"
+      ],
+      "reference_study_only": true,
+      "legend_number": "2",
+      "legend_label": "Operational runway lighting and approach light systems",
+      "source_description_ko": "운용 중인 활주로 조명과 접근등 시스템을 모두 나열한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-046",
+      "number": 46,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 4,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-04",
+        "title": "Additional Runway Information Band"
+      },
+      "source_page": 155,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 3가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "RVR transmitters"
+        },
+        {
+          "id": "B",
+          "text": "Runway designators/numbers"
+        },
+        {
+          "id": "C",
+          "text": "Runway surface treatment (grooving)"
+        },
+        {
+          "id": "D",
+          "text": "Restricted take-off length"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 Runway surface treatment (grooving)입니다. 활주로 표면처리(그루빙) 여부를 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.155 · No. 3",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-046-runway-surface-treatment-grooving.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Additional Runway Information Band",
+        "Runway surface treatment (grooving)"
+      ],
+      "reference_study_only": true,
+      "legend_number": "3",
+      "legend_label": "Runway surface treatment (grooving)",
+      "source_description_ko": "활주로 표면처리(그루빙) 여부를 표시한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-047",
+      "number": 47,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 4,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-04",
+        "title": "Additional Runway Information Band"
+      },
+      "source_page": 155,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 4가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "RVR transmitters"
+        },
+        {
+          "id": "B",
+          "text": "Operational runway lighting and approach light systems"
+        },
+        {
+          "id": "C",
+          "text": "Runway information notes"
+        },
+        {
+          "id": "D",
+          "text": "Runway surface treatment (grooving)"
+        }
+      ],
+      "answer": "A",
+      "explanation": "정답은 RVR transmitters입니다. 활주로를 따라 하나 이상의 RVR 송신기가 설치된 경우 “RVR”를 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.155 · No. 4",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-047-rvr-transmitters.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Additional Runway Information Band",
+        "RVR transmitters"
+      ],
+      "reference_study_only": true,
+      "legend_number": "4",
+      "legend_label": "RVR transmitters",
+      "source_description_ko": "활주로를 따라 하나 이상의 RVR 송신기가 설치된 경우 “RVR”를 표시한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-048",
+      "number": 48,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 4,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-04",
+        "title": "Additional Runway Information Band"
+      },
+      "source_page": 155,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 5가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Landing distance beyond threshold"
+        },
+        {
+          "id": "B",
+          "text": "Operational runway lighting and approach light systems"
+        },
+        {
+          "id": "C",
+          "text": "RVR transmitters"
+        },
+        {
+          "id": "D",
+          "text": "Runway designators/numbers"
+        }
+      ],
+      "answer": "A",
+      "explanation": "정답은 Landing distance beyond threshold입니다. 물리적 활주로 길이와 다를 때 시단을 지난 착륙가용거리를 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.155 · No. 5",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-048-landing-distance-beyond-threshold.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Additional Runway Information Band",
+        "Landing distance beyond threshold"
+      ],
+      "reference_study_only": true,
+      "legend_number": "5",
+      "legend_label": "Landing distance beyond threshold",
+      "source_description_ko": "물리적 활주로 길이와 다를 때 시단을 지난 착륙가용거리를 표시한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-049",
+      "number": 49,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 4,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-04",
+        "title": "Additional Runway Information Band"
+      },
+      "source_page": 155,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 6가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Operational runway lighting and approach light systems"
+        },
+        {
+          "id": "B",
+          "text": "LAHSO threshold-to-hold-short distance"
+        },
+        {
+          "id": "C",
+          "text": "Glide slope transmitter to roll-out end distance"
+        },
+        {
+          "id": "D",
+          "text": "Restricted take-off length"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 Glide slope transmitter to roll-out end distance입니다. 해당되는 경우 글라이드슬로프 송신기 정횡 지점부터 활주로 roll-out end까지의 거리를 표시한다. PAR의 경우 GS가 활주로와 교차하는 지점부터의 거리이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.155 · No. 6",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-049-glide-slope-transmitter-to-roll-out-end-distance.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Additional Runway Information Band",
+        "Glide slope transmitter to roll-out end distance"
+      ],
+      "reference_study_only": true,
+      "legend_number": "6",
+      "legend_label": "Glide slope transmitter to roll-out end distance",
+      "source_description_ko": "해당되는 경우 글라이드슬로프 송신기 정횡 지점부터 활주로 roll-out end까지의 거리를 표시한다. PAR의 경우 GS가 활주로와 교차하는 지점부터의 거리이다."
+    },
+    {
+      "id": "JEPP-AIRPORT-050",
+      "number": 50,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 4,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-04",
+        "title": "Additional Runway Information Band"
+      },
+      "source_page": 155,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 7가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Landing distance beyond threshold"
+        },
+        {
+          "id": "B",
+          "text": "Operational runway lighting and approach light systems"
+        },
+        {
+          "id": "C",
+          "text": "LAHSO threshold-to-hold-short distance"
+        },
+        {
+          "id": "D",
+          "text": "Band expanded for all operational runways"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 LAHSO threshold-to-hold-short distance입니다. LAHSO가 있는 공항에서는 활주로 시단부터 지정 hold short 지점까지의 거리를 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.155 · No. 7",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-050-lahso-threshold-to-hold-short-distance.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Additional Runway Information Band",
+        "LAHSO threshold-to-hold-short distance"
+      ],
+      "reference_study_only": true,
+      "legend_number": "7",
+      "legend_label": "LAHSO threshold-to-hold-short distance",
+      "source_description_ko": "LAHSO가 있는 공항에서는 활주로 시단부터 지정 hold short 지점까지의 거리를 표시한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-051",
+      "number": 51,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 4,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-04",
+        "title": "Additional Runway Information Band"
+      },
+      "source_page": 155,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 8가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Operational runway lighting and approach light systems"
+        },
+        {
+          "id": "B",
+          "text": "Runway information notes"
+        },
+        {
+          "id": "C",
+          "text": "Restricted take-off length"
+        },
+        {
+          "id": "D",
+          "text": "Runway surface treatment (grooving)"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 Restricted take-off length입니다. 이륙 길이가 제한되는 경우 이륙에 이용 가능한 물리적 활주로 거리를 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.155 · No. 8",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-051-restricted-take-off-length.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Additional Runway Information Band",
+        "Restricted take-off length"
+      ],
+      "reference_study_only": true,
+      "legend_number": "8",
+      "legend_label": "Restricted take-off length",
+      "source_description_ko": "이륙 길이가 제한되는 경우 이륙에 이용 가능한 물리적 활주로 거리를 표시한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-052",
+      "number": 52,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 4,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-04",
+        "title": "Additional Runway Information Band"
+      },
+      "source_page": 155,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 9가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Physical runway width"
+        },
+        {
+          "id": "B",
+          "text": "Landing distance beyond threshold"
+        },
+        {
+          "id": "C",
+          "text": "RVR transmitters"
+        },
+        {
+          "id": "D",
+          "text": "Runway surface treatment (grooving)"
+        }
+      ],
+      "answer": "A",
+      "explanation": "정답은 Physical runway width입니다. 활주로의 물리적 폭을 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.155 · No. 9",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-052-physical-runway-width.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Additional Runway Information Band",
+        "Physical runway width"
+      ],
+      "reference_study_only": true,
+      "legend_number": "9",
+      "legend_label": "Physical runway width",
+      "source_description_ko": "활주로의 물리적 폭을 표시한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-053",
+      "number": 53,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 4,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-04",
+        "title": "Additional Runway Information Band"
+      },
+      "source_page": 155,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 10가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "RVR transmitters"
+        },
+        {
+          "id": "B",
+          "text": "Physical runway width"
+        },
+        {
+          "id": "C",
+          "text": "Band expanded for all operational runways"
+        },
+        {
+          "id": "D",
+          "text": "Operational runway lighting and approach light systems"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 Band expanded for all operational runways입니다. 이 밴드는 운용 중인 모든 활주로 정보를 활주로 번호 순으로 보여주도록 확장된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.155 · No. 10",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-053-band-expanded-for-all-operational-runways.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Additional Runway Information Band",
+        "Band expanded for all operational runways"
+      ],
+      "reference_study_only": true,
+      "legend_number": "10",
+      "legend_label": "Band expanded for all operational runways",
+      "source_description_ko": "이 밴드는 운용 중인 모든 활주로 정보를 활주로 번호 순으로 보여주도록 확장된다."
+    },
+    {
+      "id": "JEPP-AIRPORT-054",
+      "number": 54,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 4,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-04",
+        "title": "Additional Runway Information Band"
+      },
+      "source_page": 155,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 11가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Landing distance beyond threshold"
+        },
+        {
+          "id": "B",
+          "text": "Band expanded for all operational runways"
+        },
+        {
+          "id": "C",
+          "text": "Runway information notes"
+        },
+        {
+          "id": "D",
+          "text": "Operational runway lighting and approach light systems"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 Runway information notes입니다. 이 구역에 표시된 활주로 정보와 관련된 모든 주석을 나타낸다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.155 · No. 11",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-054-runway-information-notes.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Additional Runway Information Band",
+        "Runway information notes"
+      ],
+      "reference_study_only": true,
+      "legend_number": "11",
+      "legend_label": "Runway information notes",
+      "source_description_ko": "이 구역에 표시된 활주로 정보와 관련된 모든 주석을 나타낸다."
+    },
+    {
+      "id": "JEPP-AIRPORT-055",
+      "number": 55,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 5,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-05",
+        "title": "Take-off Minimums"
+      },
+      "source_page": 156,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 1가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Runway numbers when minima differ"
+        },
+        {
+          "id": "B",
+          "text": "Best (lowest) authorized take-off minimums"
+        },
+        {
+          "id": "C",
+          "text": "Take-off minimums header"
+        },
+        {
+          "id": "D",
+          "text": "Abbreviations / detailed description"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 Take-off minimums header입니다. 이륙최저치 박스의 내용을 나타내는 헤더이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.156 · No. 1",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-055-take-off-minimums-header.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Take-off Minimums",
+        "Take-off minimums header"
+      ],
+      "reference_study_only": true,
+      "legend_number": "1",
+      "legend_label": "Take-off minimums header",
+      "source_description_ko": "이륙최저치 박스의 내용을 나타내는 헤더이다."
+    },
+    {
+      "id": "JEPP-AIRPORT-056",
+      "number": 56,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 5,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-05",
+        "title": "Take-off Minimums"
+      },
+      "source_page": 156,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 2가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Very specific conditions"
+        },
+        {
+          "id": "B",
+          "text": "Take-off minimums header"
+        },
+        {
+          "id": "C",
+          "text": "“R” means RVR"
+        },
+        {
+          "id": "D",
+          "text": "Runway number(s)"
+        }
+      ],
+      "answer": "D",
+      "explanation": "정답은 Runway number(s)입니다. 필요한 경우 활주로 번호를 표시하며 아래 최저치는 지정된 활주로에 적용된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.156 · No. 2",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-056-runway-number-s.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Take-off Minimums",
+        "Runway number(s)"
+      ],
+      "reference_study_only": true,
+      "legend_number": "2",
+      "legend_label": "Runway number(s)",
+      "source_description_ko": "필요한 경우 활주로 번호를 표시하며 아래 최저치는 지정된 활주로에 적용된다."
+    },
+    {
+      "id": "JEPP-AIRPORT-057",
+      "number": 57,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 5,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-05",
+        "title": "Take-off Minimums"
+      },
+      "source_page": 156,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 3가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Runway numbers when minima differ"
+        },
+        {
+          "id": "B",
+          "text": "General conditions"
+        },
+        {
+          "id": "C",
+          "text": "Abbreviations / detailed description"
+        },
+        {
+          "id": "D",
+          "text": "Highest minimums / least conditions"
+        }
+      ],
+      "answer": "B",
+      "explanation": "정답은 General conditions입니다. 많은 최저치에 영향을 주는 일반 조건을 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.156 · No. 3",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-057-general-conditions.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Take-off Minimums",
+        "General conditions"
+      ],
+      "reference_study_only": true,
+      "legend_number": "3",
+      "legend_label": "General conditions",
+      "source_description_ko": "많은 최저치에 영향을 주는 일반 조건을 표시한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-058",
+      "number": 58,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 5,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-05",
+        "title": "Take-off Minimums"
+      },
+      "source_page": 156,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 4가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "“R/V” means RVR or meteorological VIS"
+        },
+        {
+          "id": "B",
+          "text": "Aircraft type information"
+        },
+        {
+          "id": "C",
+          "text": "Take-off title / additional information"
+        },
+        {
+          "id": "D",
+          "text": "Take-off minimums notes"
+        }
+      ],
+      "answer": "B",
+      "explanation": "정답은 Aircraft type information입니다. 필요한 경우 항공기 엔진 수 또는 국가가 발행한 항공기 접근 범주 등 항공기 종류 정보를 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.156 · No. 4",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-058-aircraft-type-information.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Take-off Minimums",
+        "Aircraft type information"
+      ],
+      "reference_study_only": true,
+      "legend_number": "4",
+      "legend_label": "Aircraft type information",
+      "source_description_ko": "필요한 경우 항공기 엔진 수 또는 국가가 발행한 항공기 접근 범주 등 항공기 종류 정보를 표시한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-059",
+      "number": 59,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 5,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-05",
+        "title": "Take-off Minimums"
+      },
+      "source_page": 156,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 5가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "More specific conditions"
+        },
+        {
+          "id": "B",
+          "text": "“R/V” means RVR or meteorological VIS"
+        },
+        {
+          "id": "C",
+          "text": "Aircraft type information"
+        },
+        {
+          "id": "D",
+          "text": "Runway number(s)"
+        }
+      ],
+      "answer": "A",
+      "explanation": "정답은 More specific conditions입니다. 일부 최저치에만 영향을 주는 더 구체적인 조건을 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.156 · No. 5",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-059-more-specific-conditions.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Take-off Minimums",
+        "More specific conditions"
+      ],
+      "reference_study_only": true,
+      "legend_number": "5",
+      "legend_label": "More specific conditions",
+      "source_description_ko": "일부 최저치에만 영향을 주는 더 구체적인 조건을 표시한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-060",
+      "number": 60,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 5,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-05",
+        "title": "Take-off Minimums"
+      },
+      "source_page": 156,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 6가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Very specific conditions"
+        },
+        {
+          "id": "B",
+          "text": "Minimums label"
+        },
+        {
+          "id": "C",
+          "text": "“R” means RVR"
+        },
+        {
+          "id": "D",
+          "text": "“R/V” means RVR or meteorological VIS"
+        }
+      ],
+      "answer": "A",
+      "explanation": "정답은 Very specific conditions입니다. 바로 아래 최저치에만 영향을 주는 매우 구체적인 조건을 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.156 · No. 6",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-060-very-specific-conditions.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Take-off Minimums",
+        "Very specific conditions"
+      ],
+      "reference_study_only": true,
+      "legend_number": "6",
+      "legend_label": "Very specific conditions",
+      "source_description_ko": "바로 아래 최저치에만 영향을 주는 매우 구체적인 조건을 표시한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-061",
+      "number": 61,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 5,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-05",
+        "title": "Take-off Minimums"
+      },
+      "source_page": 156,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 7가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Abbreviations / detailed description"
+        },
+        {
+          "id": "B",
+          "text": "“Other” take-off minimums"
+        },
+        {
+          "id": "C",
+          "text": "Runway numbers when minima differ"
+        },
+        {
+          "id": "D",
+          "text": "Best (lowest) authorized take-off minimums"
+        }
+      ],
+      "answer": "D",
+      "explanation": "정답은 Best (lowest) authorized take-off minimums입니다. 위의 조건과 활주로에 따라 허용되는 ceiling 및 RVR/met VIS를 표시한다. ceiling과 visibility가 모두 있으면 둘 다 충족해야 하며, 이 형식의 해당 열은 가장 좋은(가장 낮은) 이륙최저치를 나타낸다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.156 · No. 7",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-061-best-lowest-authorized-take-off-minimums.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Take-off Minimums",
+        "Best (lowest) authorized take-off minimums"
+      ],
+      "reference_study_only": true,
+      "legend_number": "7",
+      "legend_label": "Best (lowest) authorized take-off minimums",
+      "source_description_ko": "위의 조건과 활주로에 따라 허용되는 ceiling 및 RVR/met VIS를 표시한다. ceiling과 visibility가 모두 있으면 둘 다 충족해야 하며, 이 형식의 해당 열은 가장 좋은(가장 낮은) 이륙최저치를 나타낸다."
+    },
+    {
+      "id": "JEPP-AIRPORT-062",
+      "number": 62,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 5,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-05",
+        "title": "Take-off Minimums"
+      },
+      "source_page": 156,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 8가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Very specific conditions"
+        },
+        {
+          "id": "B",
+          "text": "“Other” take-off minimums"
+        },
+        {
+          "id": "C",
+          "text": "Higher minimums with fewer restrictions"
+        },
+        {
+          "id": "D",
+          "text": "Take-off title / additional information"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 Higher minimums with fewer restrictions입니다. 위 조건을 기준으로 허용되는 ceiling 및 visibility를 표시하며, 일반적으로 제한조건이 줄어들수록 최저치는 더 높아진다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.156 · No. 8",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-062-higher-minimums-with-fewer-restrictions.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Take-off Minimums",
+        "Higher minimums with fewer restrictions"
+      ],
+      "reference_study_only": true,
+      "legend_number": "8",
+      "legend_label": "Higher minimums with fewer restrictions",
+      "source_description_ko": "위 조건을 기준으로 허용되는 ceiling 및 visibility를 표시하며, 일반적으로 제한조건이 줄어들수록 최저치는 더 높아진다."
+    },
+    {
+      "id": "JEPP-AIRPORT-063",
+      "number": 63,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 5,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-05",
+        "title": "Take-off Minimums"
+      },
+      "source_page": 156,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 9가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "“R” means RVR"
+        },
+        {
+          "id": "B",
+          "text": "Special approval required"
+        },
+        {
+          "id": "C",
+          "text": "General conditions"
+        },
+        {
+          "id": "D",
+          "text": "Abbreviations / detailed description"
+        }
+      ],
+      "answer": "D",
+      "explanation": "정답은 Abbreviations / detailed description입니다. 이륙최저치 밴드에는 긴 조건/제한 설명 때문에 약어가 자주 사용되며, 자세한 설명은 Chart Glossary 및 Abbreviations를 참조한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.156 · No. 9",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-063-abbreviations-detailed-description.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Take-off Minimums",
+        "Abbreviations / detailed description"
+      ],
+      "reference_study_only": true,
+      "legend_number": "9",
+      "legend_label": "Abbreviations / detailed description",
+      "source_description_ko": "이륙최저치 밴드에는 긴 조건/제한 설명 때문에 약어가 자주 사용되며, 자세한 설명은 Chart Glossary 및 Abbreviations를 참조한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-064",
+      "number": 64,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 5,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-05",
+        "title": "Take-off Minimums"
+      },
+      "source_page": 156,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 10가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Take-off minimums notes"
+        },
+        {
+          "id": "B",
+          "text": "Minimums label"
+        },
+        {
+          "id": "C",
+          "text": "Separate minimums by aircraft type"
+        },
+        {
+          "id": "D",
+          "text": "Special approval required"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 Separate minimums by aircraft type입니다. 같은 조건에서도 항공기 종류에 따라 이륙최저치가 다를 수 있어 각 항공기 종류별 최저치를 따로 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.156 · No. 10",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-064-separate-minimums-by-aircraft-type.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Take-off Minimums",
+        "Separate minimums by aircraft type"
+      ],
+      "reference_study_only": true,
+      "legend_number": "10",
+      "legend_label": "Separate minimums by aircraft type",
+      "source_description_ko": "같은 조건에서도 항공기 종류에 따라 이륙최저치가 다를 수 있어 각 항공기 종류별 최저치를 따로 표시한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-065",
+      "number": 65,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 5,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-05",
+        "title": "Take-off Minimums"
+      },
+      "source_page": 156,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 11가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "“Other” take-off minimums"
+        },
+        {
+          "id": "B",
+          "text": "Minimums label"
+        },
+        {
+          "id": "C",
+          "text": "Runway number(s)"
+        },
+        {
+          "id": "D",
+          "text": "Special approval required"
+        }
+      ],
+      "answer": "A",
+      "explanation": "정답은 “Other” take-off minimums입니다. 일반적으로 조건이 없는 이륙최저치를 나타낼 때 “Other”라는 용어를 사용한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.156 · No. 11",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-065-other-take-off-minimums.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Take-off Minimums",
+        "“Other” take-off minimums"
+      ],
+      "reference_study_only": true,
+      "legend_number": "11",
+      "legend_label": "“Other” take-off minimums",
+      "source_description_ko": "일반적으로 조건이 없는 이륙최저치를 나타낼 때 “Other”라는 용어를 사용한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-066",
+      "number": 66,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 5,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-05",
+        "title": "Take-off Minimums"
+      },
+      "source_page": 156,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 12가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Separate minimums by aircraft type"
+        },
+        {
+          "id": "B",
+          "text": "“R” means RVR"
+        },
+        {
+          "id": "C",
+          "text": "Highest minimums / least conditions"
+        },
+        {
+          "id": "D",
+          "text": "Runway numbers when minima differ"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 Highest minimums / least conditions입니다. 가장 오른쪽 최저치 박스로서 일반적으로 해당 활주로에서 조건 수가 가장 적고 이륙최저치는 가장 높은 조합을 포함한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.156 · No. 12",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-066-highest-minimums-least-conditions.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Take-off Minimums",
+        "Highest minimums / least conditions"
+      ],
+      "reference_study_only": true,
+      "legend_number": "12",
+      "legend_label": "Highest minimums / least conditions",
+      "source_description_ko": "가장 오른쪽 최저치 박스로서 일반적으로 해당 활주로에서 조건 수가 가장 적고 이륙최저치는 가장 높은 조합을 포함한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-067",
+      "number": 67,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 5,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-05",
+        "title": "Take-off Minimums"
+      },
+      "source_page": 157,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 13가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "“R/V” means RVR or meteorological VIS"
+        },
+        {
+          "id": "B",
+          "text": "Take-off minimums header"
+        },
+        {
+          "id": "C",
+          "text": "Minimums label"
+        },
+        {
+          "id": "D",
+          "text": "Higher minimums with fewer restrictions"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 Minimums label입니다. 이륙최저치가 특정 규정을 준수함을 나타내는 라벨이다. 단, 국가가 발행한 값보다 낮아질 수 없다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.157 · No. 13",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-067-minimums-label.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Take-off Minimums",
+        "Minimums label"
+      ],
+      "reference_study_only": true,
+      "legend_number": "13",
+      "legend_label": "Minimums label",
+      "source_description_ko": "이륙최저치가 특정 규정을 준수함을 나타내는 라벨이다. 단, 국가가 발행한 값보다 낮아질 수 없다."
+    },
+    {
+      "id": "JEPP-AIRPORT-068",
+      "number": 68,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 5,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-05",
+        "title": "Take-off Minimums"
+      },
+      "source_page": 157,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 14가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Runway number(s)"
+        },
+        {
+          "id": "B",
+          "text": "Special approval required"
+        },
+        {
+          "id": "C",
+          "text": "Take-off minimums notes"
+        },
+        {
+          "id": "D",
+          "text": "Take-off title / additional information"
+        }
+      ],
+      "answer": "D",
+      "explanation": "정답은 Take-off title / additional information입니다. 표시 내용에 따라 제목은 단순히 TAKE-OFF이거나 DEPARTURE PROCEDURE 등 추가 정보를 포함할 수 있다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.157 · No. 14",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-068-take-off-title-additional-information.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Take-off Minimums",
+        "Take-off title / additional information"
+      ],
+      "reference_study_only": true,
+      "legend_number": "14",
+      "legend_label": "Take-off title / additional information",
+      "source_description_ko": "표시 내용에 따라 제목은 단순히 TAKE-OFF이거나 DEPARTURE PROCEDURE 등 추가 정보를 포함할 수 있다."
+    },
+    {
+      "id": "JEPP-AIRPORT-069",
+      "number": 69,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 5,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-05",
+        "title": "Take-off Minimums"
+      },
+      "source_page": 157,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 15가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Best (lowest) authorized take-off minimums"
+        },
+        {
+          "id": "B",
+          "text": "Take-off title / additional information"
+        },
+        {
+          "id": "C",
+          "text": "Runway numbers when minima differ"
+        },
+        {
+          "id": "D",
+          "text": "Separate minimums by aircraft type"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 Runway numbers when minima differ입니다. 활주로별 이륙최저치가 다르거나 특정 활주로가 이륙에 허가되지 않은 경우에만 활주로 번호를 나열한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.157 · No. 15",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-069-runway-numbers-when-minima-differ.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Take-off Minimums",
+        "Runway numbers when minima differ"
+      ],
+      "reference_study_only": true,
+      "legend_number": "15",
+      "legend_label": "Runway numbers when minima differ",
+      "source_description_ko": "활주로별 이륙최저치가 다르거나 특정 활주로가 이륙에 허가되지 않은 경우에만 활주로 번호를 나열한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-070",
+      "number": 70,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 5,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-05",
+        "title": "Take-off Minimums"
+      },
+      "source_page": 157,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 16가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Very specific conditions"
+        },
+        {
+          "id": "B",
+          "text": "Take-off minimums header"
+        },
+        {
+          "id": "C",
+          "text": "Take-off minimums notes"
+        },
+        {
+          "id": "D",
+          "text": "Special approval required"
+        }
+      ],
+      "answer": "D",
+      "explanation": "정답은 Special approval required입니다. “Approved Operators”, “Low Visibility Take-off” 등 일부 최저치를 사용하려면 특별 승인이 필요할 수 있음을 나타낸다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.157 · No. 16",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-070-special-approval-required.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Take-off Minimums",
+        "Special approval required"
+      ],
+      "reference_study_only": true,
+      "legend_number": "16",
+      "legend_label": "Special approval required",
+      "source_description_ko": "“Approved Operators”, “Low Visibility Take-off” 등 일부 최저치를 사용하려면 특별 승인이 필요할 수 있음을 나타낸다."
+    },
+    {
+      "id": "JEPP-AIRPORT-071",
+      "number": 71,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 5,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-05",
+        "title": "Take-off Minimums"
+      },
+      "source_page": 157,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 17가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Higher minimums with fewer restrictions"
+        },
+        {
+          "id": "B",
+          "text": "“R” means RVR"
+        },
+        {
+          "id": "C",
+          "text": "Very specific conditions"
+        },
+        {
+          "id": "D",
+          "text": "Best (lowest) authorized take-off minimums"
+        }
+      ],
+      "answer": "B",
+      "explanation": "정답은 “R” means RVR입니다. “R”은 RVR을 의미한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.157 · No. 17",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-071-r-means-rvr.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Take-off Minimums",
+        "“R” means RVR"
+      ],
+      "reference_study_only": true,
+      "legend_number": "17",
+      "legend_label": "“R” means RVR",
+      "source_description_ko": "“R”은 RVR을 의미한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-072",
+      "number": 72,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 5,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-05",
+        "title": "Take-off Minimums"
+      },
+      "source_page": 157,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 18가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Separate minimums by aircraft type"
+        },
+        {
+          "id": "B",
+          "text": "“R” means RVR"
+        },
+        {
+          "id": "C",
+          "text": "“R/V” means RVR or meteorological VIS"
+        },
+        {
+          "id": "D",
+          "text": "General conditions"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 “R/V” means RVR or meteorological VIS입니다. “R/V”는 값이 RVR 또는 기상시정(VIS) 둘 다일 수 있음을 의미한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.157 · No. 18",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-072-r-v-means-rvr-or-meteorological-vis.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Take-off Minimums",
+        "“R/V” means RVR or meteorological VIS"
+      ],
+      "reference_study_only": true,
+      "legend_number": "18",
+      "legend_label": "“R/V” means RVR or meteorological VIS",
+      "source_description_ko": "“R/V”는 값이 RVR 또는 기상시정(VIS) 둘 다일 수 있음을 의미한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-073",
+      "number": 73,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 5,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-05",
+        "title": "Take-off Minimums"
+      },
+      "source_page": 157,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 19가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "“R” means RVR"
+        },
+        {
+          "id": "B",
+          "text": "“Other” take-off minimums"
+        },
+        {
+          "id": "C",
+          "text": "Best (lowest) authorized take-off minimums"
+        },
+        {
+          "id": "D",
+          "text": "Take-off minimums notes"
+        }
+      ],
+      "answer": "D",
+      "explanation": "정답은 Take-off minimums notes입니다. 도표화된 이륙최저치에 직접적으로만 관련된 주석은 최저치 박스 바로 아래 인접 위치에 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.157 · No. 19",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-073-take-off-minimums-notes.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Take-off Minimums",
+        "Take-off minimums notes"
+      ],
+      "reference_study_only": true,
+      "legend_number": "19",
+      "legend_label": "Take-off minimums notes",
+      "source_description_ko": "도표화된 이륙최저치에 직접적으로만 관련된 주석은 최저치 박스 바로 아래 인접 위치에 표시한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-074",
+      "number": 74,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 6,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-06",
+        "title": "Alternate Minimums & Chart Boundary"
+      },
+      "source_page": 158,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 1가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Visibility and ceiling values"
+        },
+        {
+          "id": "B",
+          "text": "Jeppesen copyright label"
+        },
+        {
+          "id": "C",
+          "text": "Aircraft approach categories / category-based alternate minima"
+        },
+        {
+          "id": "D",
+          "text": "Conditional notes"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 Aircraft approach categories / category-based alternate minima입니다. 대체공항 최저치는 일반적으로 착륙공항의 사용 가능한 접근절차에 적용되는 착륙최저치를 기반으로 하므로, 이후 대체공항 최저치는 항공기 접근범주와 연계된다. 모든 범주에 같은 값이 적용되면 범주를 표시하지 않는다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.158 · No. 1",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-074-aircraft-approach-categories-category-based-alternate-minima.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Alternate Minimums & Chart Boundary",
+        "Aircraft approach categories / category-based alternate minima"
+      ],
+      "reference_study_only": true,
+      "legend_number": "1",
+      "legend_label": "Aircraft approach categories / category-based alternate minima",
+      "source_description_ko": "대체공항 최저치는 일반적으로 착륙공항의 사용 가능한 접근절차에 적용되는 착륙최저치를 기반으로 하므로, 이후 대체공항 최저치는 항공기 접근범주와 연계된다. 모든 범주에 같은 값이 적용되면 범주를 표시하지 않는다."
+    },
+    {
+      "id": "JEPP-AIRPORT-075",
+      "number": 75,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 6,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-06",
+        "title": "Alternate Minimums & Chart Boundary"
+      },
+      "source_page": 158,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 2가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Jeppesen copyright label"
+        },
+        {
+          "id": "B",
+          "text": "Alternate minimums box label"
+        },
+        {
+          "id": "C",
+          "text": "Visibility and ceiling values"
+        },
+        {
+          "id": "D",
+          "text": "State-supplied source amendment information"
+        }
+      ],
+      "answer": "B",
+      "explanation": "정답은 Alternate minimums box label입니다. 대체공항 최저치 박스임을 나타내는 라벨을 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.158 · No. 2",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-075-alternate-minimums-box-label.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Alternate Minimums & Chart Boundary",
+        "Alternate minimums box label"
+      ],
+      "reference_study_only": true,
+      "legend_number": "2",
+      "legend_label": "Alternate minimums box label",
+      "source_description_ko": "대체공항 최저치 박스임을 나타내는 라벨을 표시한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-076",
+      "number": 76,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 6,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-06",
+        "title": "Alternate Minimums & Chart Boundary"
+      },
+      "source_page": 158,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 3가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Conditional notes"
+        },
+        {
+          "id": "B",
+          "text": "Alternate minimums box label"
+        },
+        {
+          "id": "C",
+          "text": "Aircraft approach categories / category-based alternate minima"
+        },
+        {
+          "id": "D",
+          "text": "Visibility and ceiling values"
+        }
+      ],
+      "answer": "A",
+      "explanation": "정답은 Conditional notes입니다. 적용되는 모든 조건부 주석은 해당 최저치 바로 위에 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.158 · No. 3",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-076-conditional-notes.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Alternate Minimums & Chart Boundary",
+        "Conditional notes"
+      ],
+      "reference_study_only": true,
+      "legend_number": "3",
+      "legend_label": "Conditional notes",
+      "source_description_ko": "적용되는 모든 조건부 주석은 해당 최저치 바로 위에 표시한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-077",
+      "number": 77,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 6,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-06",
+        "title": "Alternate Minimums & Chart Boundary"
+      },
+      "source_page": 158,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 4가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "State-supplied source amendment information"
+        },
+        {
+          "id": "B",
+          "text": "Approach procedure identifiers/classification"
+        },
+        {
+          "id": "C",
+          "text": "Visibility and ceiling values"
+        },
+        {
+          "id": "D",
+          "text": "Conditional notes"
+        }
+      ],
+      "answer": "B",
+      "explanation": "정답은 Approach procedure identifiers/classification입니다. 적절한 모든 접근절차의 식별자 또는 분류를 표시하고, 적용되는 대체공항 최저치는 바로 아래에 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.158 · No. 4",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-077-approach-procedure-identifiers-classification.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Alternate Minimums & Chart Boundary",
+        "Approach procedure identifiers/classification"
+      ],
+      "reference_study_only": true,
+      "legend_number": "4",
+      "legend_label": "Approach procedure identifiers/classification",
+      "source_description_ko": "적절한 모든 접근절차의 식별자 또는 분류를 표시하고, 적용되는 대체공항 최저치는 바로 아래에 표시한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-078",
+      "number": 78,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 6,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-06",
+        "title": "Alternate Minimums & Chart Boundary"
+      },
+      "source_page": 158,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 5가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Alternate minimums box label"
+        },
+        {
+          "id": "B",
+          "text": "Visibility and ceiling values"
+        },
+        {
+          "id": "C",
+          "text": "Aircraft approach categories / category-based alternate minima"
+        },
+        {
+          "id": "D",
+          "text": "State-supplied source amendment information"
+        }
+      ],
+      "answer": "B",
+      "explanation": "정답은 Visibility and ceiling values입니다. 대체공항 최저치의 시정은 국가가 제공한 단위로 표시한다. feet 단위 RVR와 statute/nautical mile 단위 기상시정은 별도 단위표시 없이 쓰며, meter는 m, kilometer는 km로 표시한다. ceiling은 국가 보고 단위로 기상시정 앞에 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.158 · No. 5",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-078-visibility-and-ceiling-values.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Alternate Minimums & Chart Boundary",
+        "Visibility and ceiling values"
+      ],
+      "reference_study_only": true,
+      "legend_number": "5",
+      "legend_label": "Visibility and ceiling values",
+      "source_description_ko": "대체공항 최저치의 시정은 국가가 제공한 단위로 표시한다. feet 단위 RVR와 statute/nautical mile 단위 기상시정은 별도 단위표시 없이 쓰며, meter는 m, kilometer는 km로 표시한다. ceiling은 국가 보고 단위로 기상시정 앞에 표시한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-079",
+      "number": 79,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 6,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-06",
+        "title": "Alternate Minimums & Chart Boundary"
+      },
+      "source_page": 158,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 1가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Summary of changes from the last revision"
+        },
+        {
+          "id": "B",
+          "text": "State-supplied source amendment information"
+        },
+        {
+          "id": "C",
+          "text": "Conditional notes"
+        },
+        {
+          "id": "D",
+          "text": "Alternate minimums box label"
+        }
+      ],
+      "answer": "A",
+      "explanation": "정답은 Summary of changes from the last revision입니다. 마지막 개정에서 차트에 적용된 변경사항을 간단히 요약한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.158 · No. 1",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-079-summary-of-changes-from-the-last-revision.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Alternate Minimums & Chart Boundary",
+        "Summary of changes from the last revision"
+      ],
+      "reference_study_only": true,
+      "legend_number": "1",
+      "legend_label": "Summary of changes from the last revision",
+      "source_description_ko": "마지막 개정에서 차트에 적용된 변경사항을 간단히 요약한다."
+    },
+    {
+      "id": "JEPP-AIRPORT-080",
+      "number": 80,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 6,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-06",
+        "title": "Alternate Minimums & Chart Boundary"
+      },
+      "source_page": 158,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 2가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Approach procedure identifiers/classification"
+        },
+        {
+          "id": "B",
+          "text": "Visibility and ceiling values"
+        },
+        {
+          "id": "C",
+          "text": "Jeppesen copyright label"
+        },
+        {
+          "id": "D",
+          "text": "Alternate minimums box label"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 Jeppesen copyright label입니다. Jeppesen 저작권 표시이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.158 · No. 2",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-080-jeppesen-copyright-label.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Alternate Minimums & Chart Boundary",
+        "Jeppesen copyright label"
+      ],
+      "reference_study_only": true,
+      "legend_number": "2",
+      "legend_label": "Jeppesen copyright label",
+      "source_description_ko": "Jeppesen 저작권 표시이다."
+    },
+    {
+      "id": "JEPP-AIRPORT-081",
+      "number": 81,
+      "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+      "study_unit": 6,
+      "study_unit_title": "Airport Chart Legend",
+      "subunit": {
+        "code": "AIRPORT-STAGE-06",
+        "title": "Alternate Minimums & Chart Boundary"
+      },
+      "source_page": 158,
+      "question": "다음 Jeppesen Airport Chart Legend 이미지에서 빨간색으로 표시된 번호 3가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Visibility and ceiling values"
+        },
+        {
+          "id": "B",
+          "text": "Alternate minimums box label"
+        },
+        {
+          "id": "C",
+          "text": "Conditional notes"
+        },
+        {
+          "id": "D",
+          "text": "State-supplied source amendment information"
+        }
+      ],
+      "answer": "D",
+      "explanation": "정답은 State-supplied source amendment information입니다. 국가가 원자료 개정정보를 제공한 경우 표시한다. 일반적으로 이 개정번호는 이륙 또는 대체공항 최저치와 직접 관련된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Airport Chart Legend p.158 · No. 3",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-airport-legend/airport-081-state-supplied-source-amendment-information.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Airport Chart Legend",
+        "Alternate Minimums & Chart Boundary",
+        "State-supplied source amendment information"
+      ],
+      "reference_study_only": true,
+      "legend_number": "3",
+      "legend_label": "State-supplied source amendment information",
+      "source_description_ko": "국가가 원자료 개정정보를 제공한 경우 표시한다. 일반적으로 이 개정번호는 이륙 또는 대체공항 최저치와 직접 관련된다."
+    }
+  ]
+}

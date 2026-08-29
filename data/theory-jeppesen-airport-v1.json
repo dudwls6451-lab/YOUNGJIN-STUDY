@@ -1,0 +1,1043 @@
+{
+  "metadata": {
+    "name": "Jeppesen Airway Manual · Airport Chart Legend",
+    "subject": "Jeppesen Airway Manual · Airport Chart Legend",
+    "source_file": "TalkFile_JEPPESEN AIRWAY MANUAL (251113).pdf",
+    "scope": "Airport Chart Legend p.153–158",
+    "course_type": "reference_airport_chart_legend",
+    "legend_item_count": 81,
+    "stage_count": 6,
+    "quiz_rule": {
+      "questions": "6–10",
+      "pass_percent": 80
+    },
+    "version": "v11.60.18"
+  },
+  "stages": [
+    {
+      "id": "JEPP-AIRPORT-STAGE-01",
+      "unit_title": "Airport Chart Legend",
+      "title": "Airport Chart · Format & Heading",
+      "source_printed_pages": [
+        153
+      ],
+      "source_pdf_pages": [
+        153
+      ],
+      "sections": [
+        {
+          "heading": "Airport chart format",
+          "paragraphs": [
+            "Airport Chart는 Heading, Communications, Airport Planview, Additional Runway Information, Take-off and Alternate Minimums 등의 구역으로 나뉜다. 대형 공항에서는 Communications와 Airport Planview가 한쪽에, Added Notes·Additional Runway Information·Take-off/Alternate Minimums가 반대쪽에 배치될 수 있다."
+          ]
+        },
+        {
+          "heading": "1. ICAO indicators and IATA airport identifiers",
+          "paragraphs": [
+            "ICAO 위치지시부호와 IATA 공항 식별부호를 표시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-001-icao-indicators-and-iata-airport-identifiers.webp",
+            "caption": "Airport Chart Legend p.153 · ICAO indicators and IATA airport identifiers"
+          }
+        },
+        {
+          "heading": "2. Airport elevation",
+          "paragraphs": [
+            "공항 표고를 표시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-002-airport-elevation.webp",
+            "caption": "Airport Chart Legend p.153 · Airport elevation"
+          }
+        },
+        {
+          "heading": "3. Airport geographic latitude and longitude",
+          "paragraphs": [
+            "공항의 지리적 위도와 경도를 도·분·0.1분 단위로 표시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-003-airport-geographic-latitude-and-longitude.webp",
+            "caption": "Airport Chart Legend p.153 · Airport geographic latitude and longitude"
+          }
+        },
+        {
+          "heading": "4. Chart index number",
+          "paragraphs": [
+            "차트 인덱스 번호를 표시한다. 공항 차트가 접근 차트의 뒷면에 인쇄될 때에는 첫 접근 차트와 같은 번호를 사용한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-004-chart-index-number.webp",
+            "caption": "Airport Chart Legend p.153 · Chart index number"
+          }
+        },
+        {
+          "heading": "5. Chart revision date",
+          "paragraphs": [
+            "차트 개정일을 표시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-005-chart-revision-date.webp",
+            "caption": "Airport Chart Legend p.153 · Chart revision date"
+          }
+        },
+        {
+          "heading": "6. Chart effective date",
+          "paragraphs": [
+            "차트 시행일을 표시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-006-chart-effective-date.webp",
+            "caption": "Airport Chart Legend p.153 · Chart effective date"
+          }
+        },
+        {
+          "heading": "7. Airport name",
+          "paragraphs": [
+            "공항명을 표시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-007-airport-name.webp",
+            "caption": "Airport Chart Legend p.153 · Airport name"
+          }
+        },
+        {
+          "heading": "8. Geographic location name",
+          "paragraphs": [
+            "지리적 위치명을 표시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-008-geographic-location-name.webp",
+            "caption": "Airport Chart Legend p.153 · Geographic location name"
+          }
+        },
+        {
+          "heading": "9. Jeppesen company logo",
+          "paragraphs": [
+            "Jeppesen 회사 로고를 표시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-009-jeppesen-company-logo.webp",
+            "caption": "Airport Chart Legend p.153 · Jeppesen company logo"
+          }
+        }
+      ],
+      "quiz_question_ids": [
+        "JEPP-AIRPORT-001",
+        "JEPP-AIRPORT-002",
+        "JEPP-AIRPORT-003",
+        "JEPP-AIRPORT-004",
+        "JEPP-AIRPORT-005",
+        "JEPP-AIRPORT-006",
+        "JEPP-AIRPORT-007",
+        "JEPP-AIRPORT-008",
+        "JEPP-AIRPORT-009"
+      ]
+    },
+    {
+      "id": "JEPP-AIRPORT-STAGE-02",
+      "unit_title": "Airport Chart Legend",
+      "title": "Airport Planview · 1–15",
+      "source_printed_pages": [
+        154
+      ],
+      "source_pdf_pages": [
+        154
+      ],
+      "sections": [
+        {
+          "heading": "Airport Planview",
+          "paragraphs": [
+            "공항 평면도는 실제 축척(To Scale)으로 공항 배치를 나타내며, 다양한 공항 운용 정보와 활주로·유도로·조명·장애물·특수사용공역 등을 번호별 범례로 설명한다."
+          ]
+        },
+        {
+          "heading": "1. Airport planview / latitude-longitude grid",
+          "paragraphs": [
+            "공항 평면도는 실제 축척(To Scale)으로 표시되며, 도·분·0.1분 단위의 위도/경도 격자가 neat line 안쪽에 표시된다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-010-airport-planview-latitude-longitude-grid.webp",
+            "caption": "Airport Chart Legend p.154 · Airport planview / latitude-longitude grid"
+          }
+        },
+        {
+          "heading": "2. Airport magnetic variation",
+          "paragraphs": [
+            "공항의 자기편차를 그래픽과 수치로 표시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-011-airport-magnetic-variation.webp",
+            "caption": "Airport Chart Legend p.154 · Airport magnetic variation"
+          }
+        },
+        {
+          "heading": "3. Airport operational notes",
+          "paragraphs": [
+            "공항 운용 관련 주석은 평면도 안에 표시하며, 특정 구역에 관한 주석은 해당 구역 안에 두거나 연결해서 표시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-012-airport-operational-notes.webp",
+            "caption": "Airport Chart Legend p.154 · Airport operational notes"
+          }
+        },
+        {
+          "heading": "4. Runway designators and runway bearings",
+          "paragraphs": [
+            "활주로 식별번호는 뒤에 T가 붙지 않는 한 자방위 기준이며, 알려진 경우 활주로 방위도 표시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-013-runway-designators-and-runway-bearings.webp",
+            "caption": "Airport Chart Legend p.154 · Runway designators and runway bearings"
+          }
+        },
+        {
+          "heading": "5. Physical runway length",
+          "paragraphs": [
+            "정지로·오버런·이설시단 보정을 포함하지 않은 물리적 활주로 길이를 표시한다. 국제공항에서는 미터 환산값도 함께 표시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-014-physical-runway-length.webp",
+            "caption": "Airport Chart Legend p.154 · Physical runway length"
+          }
+        },
+        {
+          "heading": "6. Runway end elevation",
+          "paragraphs": [
+            "알려진 경우 활주로 말단 표고를 표시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-015-runway-end-elevation.webp",
+            "caption": "Airport Chart Legend p.154 · Runway end elevation"
+          }
+        },
+        {
+          "heading": "7. Displaced threshold location",
+          "paragraphs": [
+            "해당되는 경우 활주로상의 이설시단 위치를 표시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-016-displaced-threshold-location.webp",
+            "caption": "Airport Chart Legend p.154 · Displaced threshold location"
+          }
+        },
+        {
+          "heading": "8. LAHSO stopping points",
+          "paragraphs": [
+            "Land and Hold Short Operations를 위한 활주로상의 정지지점을 표시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-017-lahso-stopping-points.webp",
+            "caption": "Airport Chart Legend p.154 · LAHSO stopping points"
+          }
+        },
+        {
+          "heading": "9. Hot Spot",
+          "paragraphs": [
+            "해당되는 경우 Hot Spot 구역과 해당 라벨을 표시하며, 평면도 또는 추가 활주로 정보 밴드 아래에 설명을 싣는다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-018-hot-spot.webp",
+            "caption": "Airport Chart Legend p.154 · Hot Spot"
+          }
+        },
+        {
+          "heading": "10. Stopways and overruns",
+          "paragraphs": [
+            "이용 가능한 경우 정지로와 오버런을 해당 길이와 함께 표시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-019-stopways-and-overruns.webp",
+            "caption": "Airport Chart Legend p.154 · Stopways and overruns"
+          }
+        },
+        {
+          "heading": "11. RVR transmitter locations",
+          "paragraphs": [
+            "알려진 경우 RVR 송신기 위치와 해당 식별자를 표시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-020-rvr-transmitter-locations.webp",
+            "caption": "Airport Chart Legend p.154 · RVR transmitter locations"
+          }
+        },
+        {
+          "heading": "12. Active taxiways and ramp areas",
+          "paragraphs": [
+            "운용 중인 모든 유도로와 램프 구역은 회색 면 채움으로 표시하며, 알려진 경우 유도로 식별자와 램프명을 표시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-021-active-taxiways-and-ramp-areas.webp",
+            "caption": "Airport Chart Legend p.154 · Active taxiways and ramp areas"
+          }
+        },
+        {
+          "heading": "13. Permanently closed taxiways",
+          "paragraphs": [
+            "알려진 모든 영구 폐쇄 유도로를 표시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-022-permanently-closed-taxiways.webp",
+            "caption": "Airport Chart Legend p.154 · Permanently closed taxiways"
+          }
+        },
+        {
+          "heading": "14. Closed runway depiction",
+          "paragraphs": [
+            "폐쇄 성격에 따라 두 가지 폐쇄 활주로 표기를 사용한다. 임시 폐쇄는 길이와 식별번호를 유지하고, 영구 폐쇄는 이를 제거한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-023-closed-runway-depiction.webp",
+            "caption": "Airport Chart Legend p.154 · Closed runway depiction"
+          }
+        },
+        {
+          "heading": "15. Approach light systems",
+          "paragraphs": [
+            "알려진 모든 접근등 시스템의 구성과 길이를 표시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-024-approach-light-systems.webp",
+            "caption": "Airport Chart Legend p.154 · Approach light systems"
+          }
+        }
+      ],
+      "quiz_question_ids": [
+        "JEPP-AIRPORT-010",
+        "JEPP-AIRPORT-011",
+        "JEPP-AIRPORT-012",
+        "JEPP-AIRPORT-013",
+        "JEPP-AIRPORT-014",
+        "JEPP-AIRPORT-015",
+        "JEPP-AIRPORT-016",
+        "JEPP-AIRPORT-017",
+        "JEPP-AIRPORT-018",
+        "JEPP-AIRPORT-019",
+        "JEPP-AIRPORT-020",
+        "JEPP-AIRPORT-021",
+        "JEPP-AIRPORT-022",
+        "JEPP-AIRPORT-023",
+        "JEPP-AIRPORT-024"
+      ]
+    },
+    {
+      "id": "JEPP-AIRPORT-STAGE-03",
+      "unit_title": "Airport Chart Legend",
+      "title": "Airport Planview · 16–34",
+      "source_printed_pages": [
+        154
+      ],
+      "source_pdf_pages": [
+        154
+      ],
+      "sections": [
+        {
+          "heading": "Airport Planview — continuation",
+          "paragraphs": [
+            "Airport Planview 후반 범례는 수상활주로, ARP, 공사구역, 비콘, 건물·도로, EMAS, 풍향지시기, 헬리패드, NAVAID, 지형 및 각종 지상 특징을 설명한다."
+          ]
+        },
+        {
+          "heading": "16. Seaplane operating areas / water runways",
+          "paragraphs": [
+            "모든 수상비행기 운용구역/수상활주로를 표시한다. 활주로 번호 뒤에 W를 붙이고, 물리적 길이와 표고도 함께 표시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-025-seaplane-operating-areas-water-runways.webp",
+            "caption": "Airport Chart Legend p.154 · Seaplane operating areas / water runways"
+          }
+        },
+        {
+          "heading": "17. Airport Reference Point (ARP)",
+          "paragraphs": [
+            "알려진 경우 공항기준점(ARP)의 지리적 위치를 표시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-026-airport-reference-point-arp.webp",
+            "caption": "Airport Chart Legend p.154 · Airport Reference Point (ARP)"
+          }
+        },
+        {
+          "heading": "18. Areas under construction",
+          "paragraphs": [
+            "공사 중인 구역은 가는 파선 윤곽선으로 표시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-027-areas-under-construction.webp",
+            "caption": "Airport Chart Legend p.154 · Areas under construction"
+          }
+        },
+        {
+          "heading": "19. Airport identification beacon",
+          "paragraphs": [
+            "알려진 경우 공항 식별 비콘의 위치를 표시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-028-airport-identification-beacon.webp",
+            "caption": "Airport Chart Legend p.154 · Airport identification beacon"
+          }
+        },
+        {
+          "heading": "20. Buildings",
+          "paragraphs": [
+            "공항 안 또는 인근의 건물을 표시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-029-buildings.webp",
+            "caption": "Airport Chart Legend p.154 · Buildings"
+          }
+        },
+        {
+          "heading": "21. Roads",
+          "paragraphs": [
+            "Caution, Alert 또는 Be Aware 주석에서 언급되는 경우 공항 안 또는 인근 도로를 표시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-030-roads.webp",
+            "caption": "Airport Chart Legend p.154 · Roads"
+          }
+        },
+        {
+          "heading": "22. Engineered Materials Arresting System (EMAS) pads",
+          "paragraphs": [
+            "EMAS 패드 위치를 표시하고 라벨을 붙인다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-031-engineered-materials-arresting-system-emas-pads.webp",
+            "caption": "Airport Chart Legend p.154 · Engineered Materials Arresting System (EMAS) pads"
+          }
+        },
+        {
+          "heading": "23. Wind direction indicators",
+          "paragraphs": [
+            "알려진 모든 풍향지시기를 표시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-032-wind-direction-indicators.webp",
+            "caption": "Airport Chart Legend p.154 · Wind direction indicators"
+          }
+        },
+        {
+          "heading": "24. Helicopter landing pads/areas",
+          "paragraphs": [
+            "헬리콥터 착륙 패드/구역을 표시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-033-helicopter-landing-pads-areas.webp",
+            "caption": "Airport Chart Legend p.154 · Helicopter landing pads/areas"
+          }
+        },
+        {
+          "heading": "25. Airport VORs and NDBs",
+          "paragraphs": [
+            "공항 VOR 및 NDB의 지리적 위치를 표시하고 라벨을 붙인다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-034-airport-vors-and-ndbs.webp",
+            "caption": "Airport Chart Legend p.154 · Airport VORs and NDBs"
+          }
+        },
+        {
+          "heading": "26. Pole lines",
+          "paragraphs": [
+            "공항 안 또는 인근의 전신주/전주 선을 표시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-035-pole-lines.webp",
+            "caption": "Airport Chart Legend p.154 · Pole lines"
+          }
+        },
+        {
+          "heading": "27. Terrain high points and man-made structures",
+          "paragraphs": [
+            "가장 가까운 활주로 말단 표고보다 50ft 이상 높은 알려진 지형 고점 및 인공구조물을 해당 기호와 표고로 표시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-036-terrain-high-points-and-man-made-structures.webp",
+            "caption": "Airport Chart Legend p.154 · Terrain high points and man-made structures"
+          }
+        },
+        {
+          "heading": "28. Special use airspace",
+          "paragraphs": [
+            "특수사용공역의 구역·윤곽·식별자를 표시한다. 전체 평면도가 한 공역 안에 있으면 “Entire Chart Lies Within R-XXXX” 형식의 주석을 표시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-037-special-use-airspace.webp",
+            "caption": "Airport Chart Legend p.154 · Special use airspace"
+          }
+        },
+        {
+          "heading": "29. Feet/meters scale",
+          "paragraphs": [
+            "차트 축척과 동등한 feet 및 meters 눈금을 표시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-038-feet-meters-scale.webp",
+            "caption": "Airport Chart Legend p.154 · Feet/meters scale"
+          }
+        },
+        {
+          "heading": "30. Hazard beacons",
+          "paragraphs": [
+            "평면도 안의 위험 비콘과 알려진 경우 그 표고를 표시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-039-hazard-beacons.webp",
+            "caption": "Airport Chart Legend p.154 · Hazard beacons"
+          }
+        },
+        {
+          "heading": "31. Railroads",
+          "paragraphs": [
+            "Caution, Alert 또는 Be Aware 주석에서 언급되는 경우 공항 안 또는 인근 철도를 표시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-040-railroads.webp",
+            "caption": "Airport Chart Legend p.154 · Railroads"
+          }
+        },
+        {
+          "heading": "32. Ditches",
+          "paragraphs": [
+            "공항 인근의 배수로/도랑을 표시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-041-ditches.webp",
+            "caption": "Airport Chart Legend p.154 · Ditches"
+          }
+        },
+        {
+          "heading": "33. Tree lines",
+          "paragraphs": [
+            "수목선을 표시한다. 끝이 열린 수목선은 산림구역의 경계를 의미한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-042-tree-lines.webp",
+            "caption": "Airport Chart Legend p.154 · Tree lines"
+          }
+        },
+        {
+          "heading": "34. Bluffs",
+          "paragraphs": [
+            "절벽은 기호의 화살표가 아래쪽 또는 더 낮은 표고 쪽을 가리키도록 표시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-043-bluffs.webp",
+            "caption": "Airport Chart Legend p.154 · Bluffs"
+          }
+        }
+      ],
+      "quiz_question_ids": [
+        "JEPP-AIRPORT-025",
+        "JEPP-AIRPORT-026",
+        "JEPP-AIRPORT-027",
+        "JEPP-AIRPORT-028",
+        "JEPP-AIRPORT-029",
+        "JEPP-AIRPORT-030",
+        "JEPP-AIRPORT-031",
+        "JEPP-AIRPORT-032",
+        "JEPP-AIRPORT-033",
+        "JEPP-AIRPORT-034",
+        "JEPP-AIRPORT-035",
+        "JEPP-AIRPORT-036",
+        "JEPP-AIRPORT-037",
+        "JEPP-AIRPORT-038",
+        "JEPP-AIRPORT-039",
+        "JEPP-AIRPORT-040",
+        "JEPP-AIRPORT-041",
+        "JEPP-AIRPORT-042",
+        "JEPP-AIRPORT-043"
+      ]
+    },
+    {
+      "id": "JEPP-AIRPORT-STAGE-04",
+      "unit_title": "Airport Chart Legend",
+      "title": "Additional Runway Information Band",
+      "source_printed_pages": [
+        155
+      ],
+      "source_pdf_pages": [
+        155
+      ],
+      "sections": [
+        {
+          "heading": "Additional Runway Information Band",
+          "paragraphs": [
+            "추가 활주로 정보 밴드는 각 운용 활주로의 조명, 표면처리, RVR, 착륙/이륙 가용거리, 폭 등 세부 정보를 제공한다. 국제공항에서는 거리의 미터 환산값도 함께 표시될 수 있다."
+          ]
+        },
+        {
+          "heading": "1. Runway designators/numbers",
+          "paragraphs": [
+            "활주로 식별번호는 박스의 좌상단과 우하단에 표시한다. 밴드 안의 모든 정보는 오른쪽에 표시된 활주로에 적용되며, 활주로별 정보가 다르면 선으로 구분한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-044-runway-designators-numbers.webp",
+            "caption": "Airport Chart Legend p.155 · Runway designators/numbers"
+          }
+        },
+        {
+          "heading": "2. Operational runway lighting and approach light systems",
+          "paragraphs": [
+            "운용 중인 활주로 조명과 접근등 시스템을 모두 나열한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-045-operational-runway-lighting-and-approach-light-systems.webp",
+            "caption": "Airport Chart Legend p.155 · Operational runway lighting and approach light systems"
+          }
+        },
+        {
+          "heading": "3. Runway surface treatment (grooving)",
+          "paragraphs": [
+            "활주로 표면처리(그루빙) 여부를 표시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-046-runway-surface-treatment-grooving.webp",
+            "caption": "Airport Chart Legend p.155 · Runway surface treatment (grooving)"
+          }
+        },
+        {
+          "heading": "4. RVR transmitters",
+          "paragraphs": [
+            "활주로를 따라 하나 이상의 RVR 송신기가 설치된 경우 “RVR”를 표시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-047-rvr-transmitters.webp",
+            "caption": "Airport Chart Legend p.155 · RVR transmitters"
+          }
+        },
+        {
+          "heading": "5. Landing distance beyond threshold",
+          "paragraphs": [
+            "물리적 활주로 길이와 다를 때 시단을 지난 착륙가용거리를 표시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-048-landing-distance-beyond-threshold.webp",
+            "caption": "Airport Chart Legend p.155 · Landing distance beyond threshold"
+          }
+        },
+        {
+          "heading": "6. Glide slope transmitter to roll-out end distance",
+          "paragraphs": [
+            "해당되는 경우 글라이드슬로프 송신기 정횡 지점부터 활주로 roll-out end까지의 거리를 표시한다. PAR의 경우 GS가 활주로와 교차하는 지점부터의 거리이다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-049-glide-slope-transmitter-to-roll-out-end-distance.webp",
+            "caption": "Airport Chart Legend p.155 · Glide slope transmitter to roll-out end distance"
+          }
+        },
+        {
+          "heading": "7. LAHSO threshold-to-hold-short distance",
+          "paragraphs": [
+            "LAHSO가 있는 공항에서는 활주로 시단부터 지정 hold short 지점까지의 거리를 표시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-050-lahso-threshold-to-hold-short-distance.webp",
+            "caption": "Airport Chart Legend p.155 · LAHSO threshold-to-hold-short distance"
+          }
+        },
+        {
+          "heading": "8. Restricted take-off length",
+          "paragraphs": [
+            "이륙 길이가 제한되는 경우 이륙에 이용 가능한 물리적 활주로 거리를 표시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-051-restricted-take-off-length.webp",
+            "caption": "Airport Chart Legend p.155 · Restricted take-off length"
+          }
+        },
+        {
+          "heading": "9. Physical runway width",
+          "paragraphs": [
+            "활주로의 물리적 폭을 표시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-052-physical-runway-width.webp",
+            "caption": "Airport Chart Legend p.155 · Physical runway width"
+          }
+        },
+        {
+          "heading": "10. Band expanded for all operational runways",
+          "paragraphs": [
+            "이 밴드는 운용 중인 모든 활주로 정보를 활주로 번호 순으로 보여주도록 확장된다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-053-band-expanded-for-all-operational-runways.webp",
+            "caption": "Airport Chart Legend p.155 · Band expanded for all operational runways"
+          }
+        },
+        {
+          "heading": "11. Runway information notes",
+          "paragraphs": [
+            "이 구역에 표시된 활주로 정보와 관련된 모든 주석을 나타낸다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-054-runway-information-notes.webp",
+            "caption": "Airport Chart Legend p.155 · Runway information notes"
+          }
+        }
+      ],
+      "quiz_question_ids": [
+        "JEPP-AIRPORT-044",
+        "JEPP-AIRPORT-045",
+        "JEPP-AIRPORT-046",
+        "JEPP-AIRPORT-047",
+        "JEPP-AIRPORT-048",
+        "JEPP-AIRPORT-049",
+        "JEPP-AIRPORT-050",
+        "JEPP-AIRPORT-051",
+        "JEPP-AIRPORT-052",
+        "JEPP-AIRPORT-053",
+        "JEPP-AIRPORT-054"
+      ]
+    },
+    {
+      "id": "JEPP-AIRPORT-STAGE-05",
+      "unit_title": "Airport Chart Legend",
+      "title": "Take-off Minimums",
+      "source_printed_pages": [
+        156,
+        157
+      ],
+      "source_pdf_pages": [
+        156,
+        157
+      ],
+      "sections": [
+        {
+          "heading": "Take-off Minimums",
+          "paragraphs": [
+            "도표에 이륙최저치가 실려 있다고 해서 모든 운항자에게 사용 권한이 주어지는 것은 아니다. 운항자는 운항 종류에 맞는 승인과 적용 조건을 확인해야 한다. 국가가 이륙 시정을 제공하지 않으면 Jeppesen은 ICAO Doc 9365 기준에 따라 산출할 수 있다. VIS는 V, RVR은 R, 둘 다 가능한 값은 R/V로 표기한다."
+          ]
+        },
+        {
+          "heading": "1. Take-off minimums header",
+          "paragraphs": [
+            "이륙최저치 박스의 내용을 나타내는 헤더이다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-055-take-off-minimums-header.webp",
+            "caption": "Airport Chart Legend p.156 · Take-off minimums header"
+          }
+        },
+        {
+          "heading": "2. Runway number(s)",
+          "paragraphs": [
+            "필요한 경우 활주로 번호를 표시하며 아래 최저치는 지정된 활주로에 적용된다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-056-runway-number-s.webp",
+            "caption": "Airport Chart Legend p.156 · Runway number(s)"
+          }
+        },
+        {
+          "heading": "3. General conditions",
+          "paragraphs": [
+            "많은 최저치에 영향을 주는 일반 조건을 표시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-057-general-conditions.webp",
+            "caption": "Airport Chart Legend p.156 · General conditions"
+          }
+        },
+        {
+          "heading": "4. Aircraft type information",
+          "paragraphs": [
+            "필요한 경우 항공기 엔진 수 또는 국가가 발행한 항공기 접근 범주 등 항공기 종류 정보를 표시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-058-aircraft-type-information.webp",
+            "caption": "Airport Chart Legend p.156 · Aircraft type information"
+          }
+        },
+        {
+          "heading": "5. More specific conditions",
+          "paragraphs": [
+            "일부 최저치에만 영향을 주는 더 구체적인 조건을 표시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-059-more-specific-conditions.webp",
+            "caption": "Airport Chart Legend p.156 · More specific conditions"
+          }
+        },
+        {
+          "heading": "6. Very specific conditions",
+          "paragraphs": [
+            "바로 아래 최저치에만 영향을 주는 매우 구체적인 조건을 표시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-060-very-specific-conditions.webp",
+            "caption": "Airport Chart Legend p.156 · Very specific conditions"
+          }
+        },
+        {
+          "heading": "7. Best (lowest) authorized take-off minimums",
+          "paragraphs": [
+            "위의 조건과 활주로에 따라 허용되는 ceiling 및 RVR/met VIS를 표시한다. ceiling과 visibility가 모두 있으면 둘 다 충족해야 하며, 이 형식의 해당 열은 가장 좋은(가장 낮은) 이륙최저치를 나타낸다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-061-best-lowest-authorized-take-off-minimums.webp",
+            "caption": "Airport Chart Legend p.156 · Best (lowest) authorized take-off minimums"
+          }
+        },
+        {
+          "heading": "8. Higher minimums with fewer restrictions",
+          "paragraphs": [
+            "위 조건을 기준으로 허용되는 ceiling 및 visibility를 표시하며, 일반적으로 제한조건이 줄어들수록 최저치는 더 높아진다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-062-higher-minimums-with-fewer-restrictions.webp",
+            "caption": "Airport Chart Legend p.156 · Higher minimums with fewer restrictions"
+          }
+        },
+        {
+          "heading": "9. Abbreviations / detailed description",
+          "paragraphs": [
+            "이륙최저치 밴드에는 긴 조건/제한 설명 때문에 약어가 자주 사용되며, 자세한 설명은 Chart Glossary 및 Abbreviations를 참조한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-063-abbreviations-detailed-description.webp",
+            "caption": "Airport Chart Legend p.156 · Abbreviations / detailed description"
+          }
+        },
+        {
+          "heading": "10. Separate minimums by aircraft type",
+          "paragraphs": [
+            "같은 조건에서도 항공기 종류에 따라 이륙최저치가 다를 수 있어 각 항공기 종류별 최저치를 따로 표시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-064-separate-minimums-by-aircraft-type.webp",
+            "caption": "Airport Chart Legend p.156 · Separate minimums by aircraft type"
+          }
+        },
+        {
+          "heading": "11. “Other” take-off minimums",
+          "paragraphs": [
+            "일반적으로 조건이 없는 이륙최저치를 나타낼 때 “Other”라는 용어를 사용한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-065-other-take-off-minimums.webp",
+            "caption": "Airport Chart Legend p.156 · “Other” take-off minimums"
+          }
+        },
+        {
+          "heading": "12. Highest minimums / least conditions",
+          "paragraphs": [
+            "가장 오른쪽 최저치 박스로서 일반적으로 해당 활주로에서 조건 수가 가장 적고 이륙최저치는 가장 높은 조합을 포함한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-066-highest-minimums-least-conditions.webp",
+            "caption": "Airport Chart Legend p.156 · Highest minimums / least conditions"
+          }
+        },
+        {
+          "heading": "13. Minimums label",
+          "paragraphs": [
+            "이륙최저치가 특정 규정을 준수함을 나타내는 라벨이다. 단, 국가가 발행한 값보다 낮아질 수 없다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-067-minimums-label.webp",
+            "caption": "Airport Chart Legend p.157 · Minimums label"
+          }
+        },
+        {
+          "heading": "14. Take-off title / additional information",
+          "paragraphs": [
+            "표시 내용에 따라 제목은 단순히 TAKE-OFF이거나 DEPARTURE PROCEDURE 등 추가 정보를 포함할 수 있다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-068-take-off-title-additional-information.webp",
+            "caption": "Airport Chart Legend p.157 · Take-off title / additional information"
+          }
+        },
+        {
+          "heading": "15. Runway numbers when minima differ",
+          "paragraphs": [
+            "활주로별 이륙최저치가 다르거나 특정 활주로가 이륙에 허가되지 않은 경우에만 활주로 번호를 나열한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-069-runway-numbers-when-minima-differ.webp",
+            "caption": "Airport Chart Legend p.157 · Runway numbers when minima differ"
+          }
+        },
+        {
+          "heading": "16. Special approval required",
+          "paragraphs": [
+            "“Approved Operators”, “Low Visibility Take-off” 등 일부 최저치를 사용하려면 특별 승인이 필요할 수 있음을 나타낸다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-070-special-approval-required.webp",
+            "caption": "Airport Chart Legend p.157 · Special approval required"
+          }
+        },
+        {
+          "heading": "17. “R” means RVR",
+          "paragraphs": [
+            "“R”은 RVR을 의미한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-071-r-means-rvr.webp",
+            "caption": "Airport Chart Legend p.157 · “R” means RVR"
+          }
+        },
+        {
+          "heading": "18. “R/V” means RVR or meteorological VIS",
+          "paragraphs": [
+            "“R/V”는 값이 RVR 또는 기상시정(VIS) 둘 다일 수 있음을 의미한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-072-r-v-means-rvr-or-meteorological-vis.webp",
+            "caption": "Airport Chart Legend p.157 · “R/V” means RVR or meteorological VIS"
+          }
+        },
+        {
+          "heading": "19. Take-off minimums notes",
+          "paragraphs": [
+            "도표화된 이륙최저치에 직접적으로만 관련된 주석은 최저치 박스 바로 아래 인접 위치에 표시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-073-take-off-minimums-notes.webp",
+            "caption": "Airport Chart Legend p.157 · Take-off minimums notes"
+          }
+        }
+      ],
+      "quiz_question_ids": [
+        "JEPP-AIRPORT-055",
+        "JEPP-AIRPORT-056",
+        "JEPP-AIRPORT-057",
+        "JEPP-AIRPORT-058",
+        "JEPP-AIRPORT-059",
+        "JEPP-AIRPORT-060",
+        "JEPP-AIRPORT-061",
+        "JEPP-AIRPORT-062",
+        "JEPP-AIRPORT-063",
+        "JEPP-AIRPORT-064",
+        "JEPP-AIRPORT-065",
+        "JEPP-AIRPORT-066",
+        "JEPP-AIRPORT-067",
+        "JEPP-AIRPORT-068",
+        "JEPP-AIRPORT-069",
+        "JEPP-AIRPORT-070",
+        "JEPP-AIRPORT-071",
+        "JEPP-AIRPORT-072",
+        "JEPP-AIRPORT-073"
+      ]
+    },
+    {
+      "id": "JEPP-AIRPORT-STAGE-06",
+      "unit_title": "Airport Chart Legend",
+      "title": "Alternate Minimums & Chart Boundary",
+      "source_printed_pages": [
+        158
+      ],
+      "source_pdf_pages": [
+        158
+      ],
+      "sections": [
+        {
+          "heading": "Alternate Minimums",
+          "paragraphs": [
+            "Airport Chart에는 해당 국가 당국이 착륙공항에 대해 특별히 발행한 대체공항 최저치만 수록한다. 표시값은 국가가 제공한 값이다."
+          ]
+        },
+        {
+          "heading": "Chart Boundary Line Information",
+          "paragraphs": [
+            "차트 경계에는 최근 개정 변경사항 요약, Jeppesen 저작권, 국가가 제공한 원자료 개정번호가 표시될 수 있다."
+          ]
+        },
+        {
+          "heading": "1. Aircraft approach categories / category-based alternate minima",
+          "paragraphs": [
+            "대체공항 최저치는 일반적으로 착륙공항의 사용 가능한 접근절차에 적용되는 착륙최저치를 기반으로 하므로, 이후 대체공항 최저치는 항공기 접근범주와 연계된다. 모든 범주에 같은 값이 적용되면 범주를 표시하지 않는다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-074-aircraft-approach-categories-category-based-alternate-minima.webp",
+            "caption": "Airport Chart Legend p.158 · Aircraft approach categories / category-based alternate minima"
+          }
+        },
+        {
+          "heading": "2. Alternate minimums box label",
+          "paragraphs": [
+            "대체공항 최저치 박스임을 나타내는 라벨을 표시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-075-alternate-minimums-box-label.webp",
+            "caption": "Airport Chart Legend p.158 · Alternate minimums box label"
+          }
+        },
+        {
+          "heading": "3. Conditional notes",
+          "paragraphs": [
+            "적용되는 모든 조건부 주석은 해당 최저치 바로 위에 표시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-076-conditional-notes.webp",
+            "caption": "Airport Chart Legend p.158 · Conditional notes"
+          }
+        },
+        {
+          "heading": "4. Approach procedure identifiers/classification",
+          "paragraphs": [
+            "적절한 모든 접근절차의 식별자 또는 분류를 표시하고, 적용되는 대체공항 최저치는 바로 아래에 표시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-077-approach-procedure-identifiers-classification.webp",
+            "caption": "Airport Chart Legend p.158 · Approach procedure identifiers/classification"
+          }
+        },
+        {
+          "heading": "5. Visibility and ceiling values",
+          "paragraphs": [
+            "대체공항 최저치의 시정은 국가가 제공한 단위로 표시한다. feet 단위 RVR와 statute/nautical mile 단위 기상시정은 별도 단위표시 없이 쓰며, meter는 m, kilometer는 km로 표시한다. ceiling은 국가 보고 단위로 기상시정 앞에 표시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-078-visibility-and-ceiling-values.webp",
+            "caption": "Airport Chart Legend p.158 · Visibility and ceiling values"
+          }
+        },
+        {
+          "heading": "1. Summary of changes from the last revision",
+          "paragraphs": [
+            "마지막 개정에서 차트에 적용된 변경사항을 간단히 요약한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-079-summary-of-changes-from-the-last-revision.webp",
+            "caption": "Airport Chart Legend p.158 · Summary of changes from the last revision"
+          }
+        },
+        {
+          "heading": "2. Jeppesen copyright label",
+          "paragraphs": [
+            "Jeppesen 저작권 표시이다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-080-jeppesen-copyright-label.webp",
+            "caption": "Airport Chart Legend p.158 · Jeppesen copyright label"
+          }
+        },
+        {
+          "heading": "3. State-supplied source amendment information",
+          "paragraphs": [
+            "국가가 원자료 개정정보를 제공한 경우 표시한다. 일반적으로 이 개정번호는 이륙 또는 대체공항 최저치와 직접 관련된다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-airport-legend/airport-081-state-supplied-source-amendment-information.webp",
+            "caption": "Airport Chart Legend p.158 · State-supplied source amendment information"
+          }
+        }
+      ],
+      "quiz_question_ids": [
+        "JEPP-AIRPORT-074",
+        "JEPP-AIRPORT-075",
+        "JEPP-AIRPORT-076",
+        "JEPP-AIRPORT-077",
+        "JEPP-AIRPORT-078",
+        "JEPP-AIRPORT-079",
+        "JEPP-AIRPORT-080",
+        "JEPP-AIRPORT-081"
+      ]
+    }
+  ]
+}
