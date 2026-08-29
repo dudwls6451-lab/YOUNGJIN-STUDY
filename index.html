@@ -11,8 +11,10 @@
   <link rel="stylesheet" href="./assets/style-v11-58-3-aviwiki-hotfix.css?v=11.58.3" />
   <link rel="stylesheet" href="./assets/style-v11-59-1-study-group.css?v=11.59.1" />
   <link rel="stylesheet" href="./assets/style-v11-60-community.css?v=11.60.0" />
-  <link rel="stylesheet" href="./assets/style-v11-60-7-result-review.css?v=11.60.9" />
-  <link rel="stylesheet" href="./assets/style-v11-60-9-pilot-rank.css?v=11.60.9" />
+  <link rel="stylesheet" href="./assets/style-v11-60-7-result-review.css?v=11.60.11" />
+  <link rel="stylesheet" href="./assets/style-v11-60-10-theory-result-review.css?v=11.60.11" />
+  <link rel="stylesheet" href="./assets/style-v11-60-9-pilot-rank.css?v=11.60.11" />
+  <link rel="stylesheet" href="./assets/style-v11-60-11-wrong-review.css?v=11.60.11" />
   <link rel="manifest" href="./manifest.webmanifest?v=11.60.0" />
   <link rel="apple-touch-icon" href="./assets/pwa-icon-192.png" />
   <meta name="theme-color" content="#0f766e" />
@@ -22,7 +24,7 @@
     <div class="container topbar-inner">
       <div>
         <h1><button id="homeTitleBtn" class="brand-home-button" type="button" aria-label="홈으로 이동">항공 문제은행</button></h1>
-        <p class="muted">모바일 · iPad 최적화 학습 플랫폼 · v11.60.9</p>
+        <p class="muted">모바일 · iPad 최적화 학습 플랫폼 · v11.60.11</p>
       </div>
       <nav class="row nav-row" aria-label="빠른 이동 메뉴">
         <button id="menuToggleBtn" class="button secondary nav-action menu-toggle-action" type="button" aria-expanded="true" title="메뉴 접기"><span class="nav-icon">☰</span><span class="nav-label">메뉴 접기</span></button>
@@ -100,7 +102,7 @@
         </button>
         <button id="wrongReviewModeBtn" class="mode-choice-card wrong-review-mode-card" type="button">
           <span class="mode-icon">🔁</span><strong>오답 복습</strong>
-          <span>교재를 고르고 누적 오답 횟수로 반복 복습</span>
+          <span>교재별·전체 오답과 ★로 고른 문제를 반복 복습</span>
         </button>
         <button id="resourceLibraryModeBtn" class="mode-choice-card resource-mode-card hidden" type="button">
           <span class="mode-icon">🗂️</span><strong>자료실</strong>
@@ -206,10 +208,38 @@
       <div class="section-head">
         <div>
           <span class="eyebrow">오답 복습</span>
-          <h2>복습할 교재를 선택하십시오.</h2>
-          <p class="muted">한 번이라도 틀린 문제를 교재별로 모아 반복해서 풉니다.</p>
+          <h2>복습 방식을 선택하십시오.</h2>
+          <p class="muted">교재별 오답, 모든 오답, 별표로 직접 고른 문제를 원하는 방식으로 복습할 수 있습니다.</p>
         </div>
         <button id="wrongReviewHubBackBtn" class="button secondary" type="button">이전</button>
+      </div>
+      <div class="wrong-review-mode-grid">
+        <button id="wrongReviewByBookBtn" class="mode-choice-card wrong-review-choice-card" type="button">
+          <span class="mode-icon">📚</span><strong>교재별 오답 복습</strong>
+          <span>교재를 먼저 고른 뒤 누적 오답 횟수 기준으로 복습</span>
+          <span id="wrongReviewByBookCount" class="wrong-review-mode-count">오답 기록 확인 중</span>
+        </button>
+        <button id="wrongReviewAllBtn" class="mode-choice-card wrong-review-choice-card" type="button">
+          <span class="mode-icon">🔁</span><strong>전체 오답 복습</strong>
+          <span>교재 구분 없이 한 번이라도 틀린 문제를 모두 섞어서 복습</span>
+          <span id="wrongReviewAllCount" class="wrong-review-mode-count">오답 기록 확인 중</span>
+        </button>
+        <button id="wrongReviewFavoriteBtn" class="mode-choice-card wrong-review-choice-card favorite-review-choice" type="button">
+          <span class="mode-icon">★</span><strong>내가 고른 문제 복습</strong>
+          <span>문제 풀이 중 별표를 눌러 저장한 문제만 모아서 복습</span>
+          <span id="wrongReviewFavoriteCount" class="wrong-review-mode-count">별표 기록 확인 중</span>
+        </button>
+      </div>
+    </section>
+
+    <section id="wrongReviewBookHubCard" class="card hidden">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">교재별 오답 복습</span>
+          <h2>복습할 교재를 선택하십시오.</h2>
+          <p class="muted">선택한 교재에서 한 번이라도 틀린 문제를 누적 오답 횟수 기준으로 반복 학습합니다.</p>
+        </div>
+        <button id="wrongReviewBookHubBackBtn" class="button secondary" type="button">복습 방식</button>
       </div>
       <div class="book-choice-grid wrong-review-book-grid">
         <button class="book-choice-card" data-wrong-review-subject="ATP Gleim" type="button"><img src="./assets/covers/atp_gleim.jpg" alt="ATP Gleim 표지"><strong>ATP Gleim</strong><span class="wrong-review-count">오답 기록 확인</span></button>
@@ -676,9 +706,9 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="./assets/supabase-config.js?v=11.46.0"></script>
   <script src="./assets/auth-v11-10.js?v=11.50.0"></script>
-  <script src="./assets/app-v11-44.js?v=11.60.9"></script>
+  <script src="./assets/app-v11-44.js?v=11.60.11"></script>
   <script src="./assets/member-admin-v11-51.js?v=11.51.0"></script>
   <script src="./assets/study-group-v11-59-4.js?v=11.59.4"></script>
-  <script src="./assets/community-v11-60.js?v=11.60.9"></script>
+  <script src="./assets/community-v11-60.js?v=11.60.11"></script>
 </body>
 </html>

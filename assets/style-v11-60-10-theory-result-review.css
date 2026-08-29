@@ -1,0 +1,11 @@
+/* v11.60.10 — robust theory quiz result question toggle */
+.theory-result-review-guide{display:flex;gap:8px 14px;align-items:baseline;flex-wrap:wrap;margin:14px 0 4px;padding:12px 14px;border:1px solid rgba(45,212,191,.24);border-radius:14px;background:rgba(13,148,136,.08)}
+.theory-result-review-guide strong{color:#99f6e4}
+.theory-result-review-guide span{color:#cbd5e1;font-size:.88rem;line-height:1.55}
+.result-question-toggle{width:100%;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px;align-items:center;margin-top:10px;padding:13px 2px 2px;border:0;border-top:1px solid rgba(148,163,184,.18);background:transparent;color:inherit;text-align:left;cursor:pointer;font:inherit}
+.result-question-toggle:hover .result-review-question-title{color:#e2e8f0}
+.result-question-toggle:focus-visible{outline:2px solid rgba(45,212,191,.55);outline-offset:5px;border-radius:8px}
+.result-question-toggle[aria-expanded="true"] .result-review-expand-label{color:#cbd5e1}
+.result-question-panel{margin-top:12px}
+.result-question-panel.hidden{display:none!important}
+@media(max-width:760px){.result-question-toggle{grid-template-columns:1fr}.result-review-expand-label{justify-self:start}}

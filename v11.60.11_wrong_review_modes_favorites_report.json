@@ -1,0 +1,19 @@
+{
+  "version": "11.60.11",
+  "base_patch": "github-question-bank-v11.60.10-theory-quiz-result-review-hotfix-one-shot-patch.zip",
+  "features": {
+    "wrong_review_landing_three_modes": true,
+    "book_specific_wrong_review_preserved": true,
+    "all_wrong_review": true,
+    "favorite_question_review": true,
+    "existing_member_favorite_flags_reused": true,
+    "database_schema_change_required": false,
+    "favorite_pool_refreshes_on_next_session": true,
+    "error_reported_questions_excluded": true
+  },
+  "changed_files": [
+    "index.html",
+    "assets/app-v11-44.js",
+    "assets/style-v11-60-11-wrong-review.css"
+  ]
+}

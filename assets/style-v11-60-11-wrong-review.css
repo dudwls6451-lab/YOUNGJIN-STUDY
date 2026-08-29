@@ -1,0 +1,49 @@
+/* PilotBank v11.60.11 · Wrong review mode selector */
+.wrong-review-mode-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 18px;
+}
+
+.wrong-review-choice-card {
+  min-height: 180px;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.wrong-review-choice-card .mode-icon {
+  font-size: 1.7rem;
+  line-height: 1;
+}
+
+.wrong-review-mode-count {
+  display: inline-flex;
+  width: fit-content;
+  margin-top: auto;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(148, 163, 184, .28);
+  background: rgba(148, 163, 184, .08);
+  font-size: .82rem;
+  font-weight: 700;
+}
+
+.favorite-review-choice .mode-icon {
+  color: #f5b942;
+}
+
+.wrong-review-choice-card:disabled {
+  opacity: .55;
+  cursor: not-allowed;
+}
+
+@media (max-width: 760px) {
+  .wrong-review-mode-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .wrong-review-choice-card {
+    min-height: 0;
+  }
+}

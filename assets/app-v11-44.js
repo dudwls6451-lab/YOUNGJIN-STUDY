@@ -215,7 +215,7 @@ function ensureV1152KaimCards() {
     btn.innerHTML = '<img src="./assets/covers/kaim_cover.jpg" alt="K-AIM 표지"><strong>K-AIM</strong><span>세화 문제집 · 1,122문항</span>';
     problemGrid.insertBefore(btn, freeStudy || null);
   }
-  const wrongGrid = document.querySelector("#wrongReviewHubCard .wrong-review-book-grid");
+  const wrongGrid = document.querySelector("#wrongReviewBookHubCard .wrong-review-book-grid");
   if (wrongGrid && !wrongGrid.querySelector('[data-wrong-review-subject="K-AIM"]')) {
     const btn = document.createElement("button");
     btn.className = "book-choice-card";
@@ -249,7 +249,7 @@ function ensureV1154FlightTheoryCards() {
     btn.innerHTML = '<img src="./assets/covers/flight_theory_cover.png" alt="비행이론 표지"><strong>비행이론</strong><span>출제예상문제 + 모의고사 · 914문항</span>';
     problemGrid.insertBefore(btn, freeStudy || null);
   }
-  const wrongGrid = document.querySelector("#wrongReviewHubCard .wrong-review-book-grid");
+  const wrongGrid = document.querySelector("#wrongReviewBookHubCard .wrong-review-book-grid");
   if (wrongGrid && !wrongGrid.querySelector('[data-wrong-review-subject="비행이론"]')) {
     const btn = document.createElement("button");
     btn.className = "book-choice-card";
@@ -305,7 +305,7 @@ function ensureV11584AirNavigationCards() {
     problemGrid.insertBefore(btn, freeStudy || null);
   }
 
-  const wrongGrid = document.querySelector("#wrongReviewHubCard .wrong-review-book-grid");
+  const wrongGrid = document.querySelector("#wrongReviewBookHubCard .wrong-review-book-grid");
   if (wrongGrid && !wrongGrid.querySelector('[data-wrong-review-subject="공중항법"]')) {
     const btn = document.createElement("button");
     btn.className = "book-choice-card";
@@ -483,6 +483,14 @@ const els = {
   wrongReviewModeBtn: document.querySelector("#wrongReviewModeBtn"),
   wrongReviewHubCard: document.querySelector("#wrongReviewHubCard"),
   wrongReviewHubBackBtn: document.querySelector("#wrongReviewHubBackBtn"),
+  wrongReviewByBookBtn: document.querySelector("#wrongReviewByBookBtn"),
+  wrongReviewAllBtn: document.querySelector("#wrongReviewAllBtn"),
+  wrongReviewFavoriteBtn: document.querySelector("#wrongReviewFavoriteBtn"),
+  wrongReviewByBookCount: document.querySelector("#wrongReviewByBookCount"),
+  wrongReviewAllCount: document.querySelector("#wrongReviewAllCount"),
+  wrongReviewFavoriteCount: document.querySelector("#wrongReviewFavoriteCount"),
+  wrongReviewBookHubCard: document.querySelector("#wrongReviewBookHubCard"),
+  wrongReviewBookHubBackBtn: document.querySelector("#wrongReviewBookHubBackBtn"),
   wrongReviewFilterCard: document.querySelector("#wrongReviewFilterCard"),
   wrongReviewFilterBackBtn: document.querySelector("#wrongReviewFilterBackBtn"),
   wrongReviewBookTitle: document.querySelector("#wrongReviewBookTitle"),
@@ -696,7 +704,7 @@ function configureResourceLibraryAccess() {
 }
 
 function hideAllHubs() {
-  [els.modeHubCard, els.textbookHubCard, els.bookProblemHubCard, els.bookTheoryHubCard, els.airlineHubCard, els.wrongReviewHubCard, els.wrongReviewFilterCard].forEach(el => el?.classList.add("hidden"));
+  [els.modeHubCard, els.textbookHubCard, els.bookProblemHubCard, els.bookTheoryHubCard, els.airlineHubCard, els.wrongReviewHubCard, els.wrongReviewBookHubCard, els.wrongReviewFilterCard].forEach(el => el?.classList.add("hidden"));
 }
 
 function renderResourceLibrary() {
@@ -801,7 +809,7 @@ function getAllowedSubjectSet() {
 
 function hideStudySurfaces() {
   accrueStudyTime();
-  [els.homeHero, els.topProgressCard, els.controlsCard, els.quizCard, els.resultCard, els.statsCard, els.errorsCard, els.adminErrorReportsCard, els.theoryCard, els.resourceLibraryCard, els.resourceViewerCard, els.wrongReviewHubCard, els.wrongReviewFilterCard, els.aviwikiHomeCard, els.aviwikiReaderCard].forEach(el => el?.classList.add("hidden"));
+  [els.homeHero, els.topProgressCard, els.controlsCard, els.quizCard, els.resultCard, els.statsCard, els.errorsCard, els.adminErrorReportsCard, els.theoryCard, els.resourceLibraryCard, els.resourceViewerCard, els.wrongReviewHubCard, els.wrongReviewBookHubCard, els.wrongReviewFilterCard, els.aviwikiHomeCard, els.aviwikiReaderCard].forEach(el => el?.classList.add("hidden"));
   updateStudyTimerState();
 }
 
@@ -2066,14 +2074,47 @@ function showAirlineHub() {
   window.scrollTo({top:0, behavior:"smooth"});
 }
 
-function wrongReviewPool(subject, minIncorrect = 1) {
+function wrongReviewPool(subject = null, minIncorrect = 1) {
   const minimum = Math.max(1, Number(minIncorrect) || 1);
   return bank.filter(q => {
-    if ((q.subject || "미분류") !== subject) return false;
+    if (subject && (q.subject || "미분류") !== subject) return false;
     const rec = progressStore[q.id] || {};
     if (rec.errorReported) return false;
     return Number(rec.incorrect || 0) >= minimum;
   });
+}
+
+function favoriteReviewPool() {
+  return bank.filter(q => {
+    const rec = progressStore[q.id] || {};
+    if (rec.errorReported) return false;
+    return !!rec.favorite;
+  });
+}
+
+function renderWrongReviewModeCounts() {
+  const allWrong = wrongReviewPool(null, 1);
+  const bookWrong = allWrong.filter(q => BOOK_SUBJECTS.includes(q.subject || "미분류"));
+  const favorites = favoriteReviewPool();
+  const subjectsWithWrong = new Set(bookWrong.map(q => q.subject || "미분류")).size;
+
+  if (els.wrongReviewByBookCount) {
+    els.wrongReviewByBookCount.textContent = bookWrong.length
+      ? `${subjectsWithWrong.toLocaleString()}개 교재 · 오답 ${bookWrong.length.toLocaleString()}문제`
+      : "교재별 누적 오답 없음";
+  }
+  if (els.wrongReviewAllCount) {
+    els.wrongReviewAllCount.textContent = allWrong.length
+      ? `전체 ${allWrong.length.toLocaleString()}문제`
+      : "복습할 오답 없음";
+  }
+  if (els.wrongReviewFavoriteCount) {
+    els.wrongReviewFavoriteCount.textContent = favorites.length
+      ? `★ ${favorites.length.toLocaleString()}문제 저장됨`
+      : "아직 고른 문제 없음";
+  }
+  if (els.wrongReviewAllBtn) els.wrongReviewAllBtn.disabled = allWrong.length === 0;
+  if (els.wrongReviewFavoriteBtn) els.wrongReviewFavoriteBtn.disabled = favorites.length === 0;
 }
 
 function renderWrongReviewBookCounts() {
@@ -2090,8 +2131,17 @@ function showWrongReviewHub() {
   wrongReviewSubject = null;
   hideStudySurfaces();
   hideAllHubs();
-  renderWrongReviewBookCounts();
+  renderWrongReviewModeCounts();
   els.wrongReviewHubCard?.classList.remove("hidden");
+  window.scrollTo({top:0, behavior:"smooth"});
+}
+
+function showWrongReviewBookHub() {
+  wrongReviewSubject = null;
+  hideStudySurfaces();
+  hideAllHubs();
+  renderWrongReviewBookCounts();
+  els.wrongReviewBookHubCard?.classList.remove("hidden");
   window.scrollTo({top:0, behavior:"smooth"});
 }
 
@@ -2152,11 +2202,71 @@ function startWrongReviewSession(subject = wrongReviewSubject, minIncorrect = nu
   els.noFigureOnly.checked = false;
   hideStudySurfaces();
   hideAllHubs();
-  els.wrongReviewFilterCard?.classList.add("hidden");
   startSession(pool, {
     type:"wrongReview",
+    reviewMode:"book",
     wrongReviewSubject:subject,
     minIncorrect:minimum,
+  });
+}
+
+function startAllWrongReviewSession() {
+  const pool = wrongReviewPool(null, 1);
+  if (!pool.length) {
+    alert("한 번이라도 틀린 문제가 아직 없습니다.");
+    renderWrongReviewModeCounts();
+    return;
+  }
+
+  learningContext = {
+    kind:"wrongReview",
+    label:"전체 오답 복습",
+    allowedSubjects:null,
+    lockedSubject:null,
+    airline:null,
+    baseNote:`교재 구분 없이 누적 오답 ${pool.length}문제 전체 복습`,
+  };
+  els.mode.value = "study";
+  els.scope.value = "all";
+  els.countMode.value = "all";
+  els.noFigureOnly.checked = false;
+  hideStudySurfaces();
+  hideAllHubs();
+  startSession(pool, {
+    type:"wrongReview",
+    reviewMode:"all",
+    wrongReviewSubject:"전체",
+    minIncorrect:1,
+  });
+}
+
+function startFavoriteReviewSession() {
+  const pool = favoriteReviewPool();
+  if (!pool.length) {
+    alert("별표로 고른 문제가 아직 없습니다. 문제 풀이 중 ☆를 눌러 복습할 문제를 저장해 주세요.");
+    renderWrongReviewModeCounts();
+    return;
+  }
+
+  learningContext = {
+    kind:"wrongReview",
+    label:"내가 고른 문제 복습",
+    allowedSubjects:null,
+    lockedSubject:null,
+    airline:null,
+    baseNote:`★ 별표로 직접 고른 ${pool.length}문제 복습`,
+  };
+  els.mode.value = "study";
+  els.scope.value = "all";
+  els.countMode.value = "all";
+  els.noFigureOnly.checked = false;
+  hideStudySurfaces();
+  hideAllHubs();
+  startSession(pool, {
+    type:"wrongReview",
+    reviewMode:"favorite",
+    wrongReviewSubject:"내가 고른 문제",
+    minIncorrect:0,
   });
 }
 
@@ -2172,6 +2282,7 @@ function activateLearningContext({kind, label, allowedSubjects, lockedSubject=nu
   els.theoryCard?.classList.add("hidden");
   els.airlineHubCard?.classList.add("hidden");
   els.wrongReviewHubCard?.classList.add("hidden");
+  els.wrongReviewBookHubCard?.classList.add("hidden");
   els.wrongReviewFilterCard?.classList.add("hidden");
   els.resourceLibraryCard?.classList.add("hidden");
   els.resourceViewerCard?.classList.add("hidden");
@@ -2467,7 +2578,7 @@ function startTheoryTest(stage = getCurrentTheoryStage()) {
   const rule = theoryStageQuizRule(stage, pool.length);
   session = shuffle(pool).slice(0, rule.questions);
   sessionMeta = {type:"theoryTest", theorySubject:activeTheorySubject, theoryStageId:stage.id, theoryStageIndex:currentTheoryStageIndex, theoryStageTitle:stage.title, theoryQuestionCount:rule.questions, theoryPassScore:rule.passCorrect, theoryPassPercent:rule.passPercent};
-  index = 0; correctCount = 0; wrongQuestions = []; examAnswers = {};
+  index = 0; correctCount = 0; wrongQuestions = []; examAnswers = {}; studyAnswers = {}; sessionChoiceOrder = {};
   els.theoryCard.classList.add("hidden");
   els.resultCard.classList.add("hidden");
   els.statsCard.classList.add("hidden");
@@ -3584,7 +3695,7 @@ function renderQuestion() {
   els.score.textContent = sessionMeta.type === "theoryTest"
     ? `단계시험 · ${session.length}문항`
     : (sessionMeta.type === "wrongReview"
-      ? `오답 복습 · 정답 ${correctCount}`
+      ? `${sessionMeta.reviewMode === "favorite" ? "내가 고른 문제 복습" : "오답 복습"} · 정답 ${correctCount}`
       : (isExamLike() ? (els.mode.value === "mock" ? "모의시험" : "시험모드") : `정답 ${correctCount}`));
   els.question.textContent = q.question || "(문제 없음)";
   els.feedback.className = "feedback hidden";
@@ -3891,6 +4002,7 @@ function resultReviewItemMarkup(q, idx) {
   const ok = String(selectedRaw).toUpperCase() === correct;
   const explanation = q.explanation ? escapeHtml(q.explanation).replace(/\n/g, "<br>") : "해설 없음";
   const reference = q.reference ? `<div class="result-review-reference">출처: ${escapeHtml(q.reference)}</div>` : "";
+  const panelId = `result-question-panel-${idx}`;
   return `
     <article class="review-item result-review-item ${ok ? "good" : "bad"}">
       <div class="result-review-topline">
@@ -3899,11 +4011,26 @@ function resultReviewItemMarkup(q, idx) {
         <span>내 답 <b>${escapeHtml(selected)}</b> · 정답 <b>${escapeHtml(correct)}</b></span>
       </div>
       <div class="result-review-explanation"><strong>해설</strong><div>${explanation}</div>${reference}</div>
-      <details class="result-question-details">
-        <summary><span class="result-review-question-title">${escapeHtml(q.question || "(문제 없음)")}</span><span class="result-review-expand-label">문제 화면 보기</span></summary>
+      <button class="result-question-toggle" type="button" data-result-question-toggle="${panelId}" aria-controls="${panelId}" aria-expanded="false">
+        <span class="result-review-question-title">${idx + 1}번 문제 · ${escapeHtml(q.question || "(문제 없음)")}</span>
+        <span class="result-review-expand-label">문제 화면 펼치기</span>
+      </button>
+      <div id="${panelId}" class="result-question-panel hidden">
         ${resultReviewQuestionMarkup(q, selectedRaw)}
-      </details>
+      </div>
     </article>`;
+}
+
+function toggleResultQuestionPanel(button) {
+  if (!button) return;
+  const panelId = button.dataset.resultQuestionToggle;
+  const panel = panelId ? document.getElementById(panelId) : null;
+  if (!panel) return;
+  const opening = panel.classList.contains("hidden");
+  panel.classList.toggle("hidden", !opening);
+  button.setAttribute("aria-expanded", opening ? "true" : "false");
+  const label = button.querySelector(".result-review-expand-label");
+  if (label) label.textContent = opening ? "문제 화면 접기" : "문제 화면 펼치기";
 }
 
 function showResult(showReview = false) {
@@ -3926,9 +4053,15 @@ function showResult(showReview = false) {
     const isLast = Number(sessionMeta.theoryStageIndex) >= (theoryData?.stages?.length || 1) - 1;
     els.restart.textContent = passed ? (isLast ? "학습과정 완료" : "다음 단계로") : (theoryData?.metadata?.course_type === "question_course" ? "단원 안내 다시 보기" : "이론 다시 보기");
   } else if (sessionMeta.type === "wrongReview") {
-    const subject = sessionMeta.wrongReviewSubject || wrongReviewSubject || "교재";
-    const minimum = Number(sessionMeta.minIncorrect || 1);
-    els.resultText.textContent = `오답 복습 · ${subject} · 누적 오답 ${minimum}회 이상 · ${session.length}문제 중 ${correctCount}문제 정답 · ${pct}% · 이번 회차 오답 ${wrongQuestions.length}문제`;
+    if (sessionMeta.reviewMode === "favorite") {
+      els.resultText.textContent = `내가 고른 문제 복습 · ${session.length}문제 중 ${correctCount}문제 정답 · ${pct}% · 이번 회차 오답 ${wrongQuestions.length}문제`;
+    } else if (sessionMeta.reviewMode === "all") {
+      els.resultText.textContent = `전체 오답 복습 · ${session.length}문제 중 ${correctCount}문제 정답 · ${pct}% · 이번 회차 오답 ${wrongQuestions.length}문제`;
+    } else {
+      const subject = sessionMeta.wrongReviewSubject || wrongReviewSubject || "교재";
+      const minimum = Number(sessionMeta.minIncorrect || 1);
+      els.resultText.textContent = `오답 복습 · ${subject} · 누적 오답 ${minimum}회 이상 · ${session.length}문제 중 ${correctCount}문제 정답 · ${pct}% · 이번 회차 오답 ${wrongQuestions.length}문제`;
+    }
   } else if (els.mode.value === "mock") {
     const passed = pct >= 70;
     els.resultText.textContent = `100점 만점 ${pct}점 · ${passed ? "합격" : "불합격"} · ${session.length}문제 중 ${correctCount}문제 정답`;
@@ -3942,8 +4075,14 @@ function showResult(showReview = false) {
   els.retryWrong.disabled = wrongQuestions.length === 0;
   els.examReview.innerHTML = "";
 
-  if (showReview) {
-    els.examReview.innerHTML = session.map((q, idx) => resultReviewItemMarkup(q, idx)).join("");
+  // v11.60.10: 이론 학습 쪽지시험은 어떤 결과 진입 경로에서도 반드시
+  // 당시 문제/선택지를 읽기 전용으로 다시 볼 수 있어야 합니다.
+  const shouldShowReview = showReview || sessionMeta.type === "theoryTest";
+  if (shouldShowReview) {
+    const theoryReviewGuide = sessionMeta.type === "theoryTest"
+      ? '<div class="theory-result-review-guide"><strong>시험문제 다시 보기</strong><span>아래 문제를 누르면 당시 문제와 선택지가 펼쳐집니다. 결과 화면에서는 선택지를 다시 고를 수 없습니다.</span></div>'
+      : "";
+    els.examReview.innerHTML = theoryReviewGuide + session.map((q, idx) => resultReviewItemMarkup(q, idx)).join("");
   }
 
   if (sessionMeta.type === "wrongReview") {
@@ -3967,6 +4106,7 @@ function toggleFavorite() {
   els.favorite.textContent = rec.favorite ? "★" : "☆";
   els.favorite.classList.toggle("active", rec.favorite);
   updateAvailableCount();
+  renderWrongReviewModeCounts();
 }
 
 function toggleExamExcluded() {
@@ -4578,6 +4718,12 @@ function escapeHtml(value) {
     .replaceAll("'","&#039;");
 }
 
+els.examReview?.addEventListener("click", event => {
+  const toggle = event.target.closest("[data-result-question-toggle]");
+  if (!toggle || !els.examReview.contains(toggle)) return;
+  toggleResultQuestionPanel(toggle);
+});
+
 els.subject.addEventListener("change", populateStudyUnits);
 els.studyUnit.addEventListener("change", populateSubunits);
 els.selectAllSubunits.addEventListener("click", selectAllSubunits);
@@ -4623,7 +4769,9 @@ els.restart.addEventListener("click", () => {
     return;
   }
   if (sessionMeta.type === "wrongReview") {
-    startWrongReviewSession(sessionMeta.wrongReviewSubject, sessionMeta.minIncorrect);
+    if (sessionMeta.reviewMode === "favorite") startFavoriteReviewSession();
+    else if (sessionMeta.reviewMode === "all") startAllWrongReviewSession();
+    else startWrongReviewSession(sessionMeta.wrongReviewSubject, sessionMeta.minIncorrect);
     return;
   }
   setQuizFocus(false);
@@ -4868,7 +5016,11 @@ window.addEventListener("resize", () => {
   if (els.aviwikiReaderCard && !els.aviwikiReaderCard.classList.contains("hidden")) resizeAviwikiDrawCanvas();
 });
 els.wrongReviewHubBackBtn?.addEventListener("click", showMainModeHub);
-els.wrongReviewFilterBackBtn?.addEventListener("click", showWrongReviewHub);
+els.wrongReviewByBookBtn?.addEventListener("click", showWrongReviewBookHub);
+els.wrongReviewAllBtn?.addEventListener("click", startAllWrongReviewSession);
+els.wrongReviewFavoriteBtn?.addEventListener("click", startFavoriteReviewSession);
+els.wrongReviewBookHubBackBtn?.addEventListener("click", showWrongReviewHub);
+els.wrongReviewFilterBackBtn?.addEventListener("click", showWrongReviewBookHub);
 els.wrongReviewMinCount?.addEventListener("change", updateWrongReviewCountInfo);
 els.wrongReviewStartBtn?.addEventListener("click", () => startWrongReviewSession());
 document.querySelectorAll("[data-wrong-review-subject]").forEach(btn => {
