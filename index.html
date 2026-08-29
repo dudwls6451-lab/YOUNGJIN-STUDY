@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="./assets/style-v11-60-10-theory-result-review.css?v=11.60.11" />
   <link rel="stylesheet" href="./assets/style-v11-60-9-pilot-rank.css?v=11.60.11" />
   <link rel="stylesheet" href="./assets/style-v11-60-11-wrong-review.css?v=11.60.11" />
+  <link rel="stylesheet" href="./assets/style-v11-60-13-admin-inline-edit.css?v=11.60.13" />
   <link rel="manifest" href="./manifest.webmanifest?v=11.60.0" />
   <link rel="apple-touch-icon" href="./assets/pwa-icon-192.png" />
   <meta name="theme-color" content="#0f766e" />
@@ -24,7 +25,7 @@
     <div class="container topbar-inner">
       <div>
         <h1><button id="homeTitleBtn" class="brand-home-button" type="button" aria-label="홈으로 이동">항공 문제은행</button></h1>
-        <p class="muted">모바일 · iPad 최적화 학습 플랫폼 · v11.60.11</p>
+        <p class="muted">모바일 · iPad 최적화 학습 플랫폼 · v11.60.13</p>
       </div>
       <nav class="row nav-row" aria-label="빠른 이동 메뉴">
         <button id="menuToggleBtn" class="button secondary nav-action menu-toggle-action" type="button" aria-expanded="true" title="메뉴 접기"><span class="nav-icon">☰</span><span class="nav-label">메뉴 접기</span></button>
@@ -519,6 +520,7 @@
       <div class="question-topline">
         <div id="questionMeta" class="pill-row"></div>
         <div class="question-actions">
+          <button id="adminQuestionEditBtn" type="button" class="mini-button admin-question-edit-button hidden" title="관리자 문제 수정">✎ 문제 수정</button>
           <button id="errorBtn" type="button" class="error-button" title="문제 오류 신고 · 신고 후 자동 건너뛰기" aria-label="문제 오류 신고">ERROR</button>
           <button id="examExcludeBtn" class="icon-button exclude-button" title="시험모드 출제 제외" aria-label="시험모드 출제 제외">!</button>
           <button id="favoriteBtn" class="icon-button" title="즐겨찾기" aria-label="즐겨찾기">☆</button>
@@ -541,6 +543,29 @@
         <button id="nextBtn" class="button hidden" type="button">다음 문제 →</button>
       </div>
     </section>
+
+    <div id="adminQuestionEditorModal" class="admin-question-editor-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="adminQuestionEditorTitle">
+      <section class="admin-question-editor-card">
+        <div class="section-head">
+          <div>
+            <span class="eyebrow">ADMIN · LIVE EDIT</span>
+            <h2 id="adminQuestionEditorTitle">문제 바로 수정</h2>
+            <p class="muted">저장한 수정본은 서버에 보관되며 모든 회원에게 다음 문제은행 로드부터 적용됩니다.</p>
+          </div>
+          <button id="adminQuestionEditCancelBtn" type="button" class="button secondary">닫기</button>
+        </div>
+        <div class="admin-question-editor-meta"><strong id="adminQuestionEditId"></strong><span id="adminQuestionEditSubject" class="muted"></span></div>
+        <label class="admin-edit-field">문제 지문<textarea id="adminQuestionEditText" rows="4"></textarea></label>
+        <div id="adminQuestionEditChoices" class="admin-edit-choice-grid"></div>
+        <label class="admin-edit-field admin-edit-answer-field">정답<select id="adminQuestionEditAnswer"></select></label>
+        <label class="admin-edit-field">해설<textarea id="adminQuestionEditExplanation" rows="6" placeholder="해설을 입력하세요."></textarea></label>
+        <div class="row admin-edit-actions">
+          <button id="adminQuestionEditSaveBtn" type="button" class="button">수정 저장</button>
+          <button id="adminQuestionEditCancelBtnBottom" type="button" class="button secondary">취소</button>
+          <span id="adminQuestionEditStatus" class="muted" aria-live="polite"></span>
+        </div>
+      </section>
+    </div>
 
     <section id="resultCard" class="card hidden">
       <h2>결과</h2>
@@ -600,6 +625,7 @@
       <div class="row error-toolbar">
         <button id="refreshAdminErrorReportsBtn" class="button secondary">새로고침</button>
         <button id="copyAdminErrorReportsBtn" class="button">전체 복사</button>
+        <button id="clearAdminErrorReportsBtn" class="button danger-outline" type="button">전체 삭제</button>
         <strong id="adminErrorReportSummary">불러오는 중...</strong>
         <span id="adminErrorReportStatus" class="muted"></span>
       </div>
@@ -706,7 +732,7 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="./assets/supabase-config.js?v=11.46.0"></script>
   <script src="./assets/auth-v11-10.js?v=11.50.0"></script>
-  <script src="./assets/app-v11-44.js?v=11.60.11"></script>
+  <script src="./assets/app-v11-44.js?v=11.60.13"></script>
   <script src="./assets/member-admin-v11-51.js?v=11.51.0"></script>
   <script src="./assets/study-group-v11-59-4.js?v=11.59.4"></script>
   <script src="./assets/community-v11-60.js?v=11.60.11"></script>

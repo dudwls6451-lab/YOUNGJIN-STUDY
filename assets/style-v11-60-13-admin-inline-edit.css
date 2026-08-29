@@ -1,0 +1,15 @@
+.admin-question-edit-button{border-color:#f0b429;background:rgba(240,180,41,.12);color:inherit;font-weight:800;white-space:nowrap}
+.admin-question-edit-button:hover{background:rgba(240,180,41,.2)}
+.admin-question-editor-backdrop{position:fixed;inset:0;z-index:10050;background:rgba(3,7,18,.72);display:flex;align-items:center;justify-content:center;padding:18px;overflow:auto}
+.admin-question-editor-backdrop.hidden{display:none!important}
+.admin-question-editor-card{width:min(880px,100%);max-height:calc(100vh - 36px);overflow:auto;background:var(--card-bg,#111827);border:1px solid rgba(148,163,184,.28);border-radius:18px;padding:20px;box-shadow:0 24px 80px rgba(0,0,0,.45)}
+.admin-question-editor-meta{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:4px 0 16px}
+.admin-edit-field{display:grid;gap:7px;font-weight:750;margin:12px 0}
+.admin-edit-field textarea,.admin-edit-field select{width:100%;box-sizing:border-box;border:1px solid rgba(148,163,184,.35);border-radius:10px;background:rgba(15,23,42,.64);color:inherit;padding:10px 12px;font:inherit;line-height:1.45}
+.admin-edit-field textarea{resize:vertical;min-height:48px}
+.admin-edit-choice-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px 14px}
+.admin-edit-choice-field{margin:0}
+.admin-edit-answer-field{max-width:220px}
+.admin-edit-actions{align-items:center;margin-top:16px}
+#clearAdminErrorReportsBtn{margin-left:2px}
+@media(max-width:700px){.admin-question-editor-backdrop{padding:8px}.admin-question-editor-card{max-height:calc(100vh - 16px);padding:14px;border-radius:14px}.admin-edit-choice-grid{grid-template-columns:1fr}.admin-question-edit-button{padding-inline:9px}}

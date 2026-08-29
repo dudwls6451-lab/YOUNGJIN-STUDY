@@ -428,6 +428,18 @@ const els = {
   homePilotRankNext: document.querySelector("#homePilotRankNext"),
   homeMyPageBtn: document.querySelector("#homeMyPageBtn"),
   problemAdminLink: document.querySelector("#problemAdminLink"),
+  adminQuestionEditBtn: document.querySelector("#adminQuestionEditBtn"),
+  adminQuestionEditorModal: document.querySelector("#adminQuestionEditorModal"),
+  adminQuestionEditCancel: document.querySelector("#adminQuestionEditCancelBtn"),
+  adminQuestionEditCancelBottom: document.querySelector("#adminQuestionEditCancelBtnBottom"),
+  adminQuestionEditId: document.querySelector("#adminQuestionEditId"),
+  adminQuestionEditSubject: document.querySelector("#adminQuestionEditSubject"),
+  adminQuestionEditText: document.querySelector("#adminQuestionEditText"),
+  adminQuestionEditChoices: document.querySelector("#adminQuestionEditChoices"),
+  adminQuestionEditAnswer: document.querySelector("#adminQuestionEditAnswer"),
+  adminQuestionEditExplanation: document.querySelector("#adminQuestionEditExplanation"),
+  adminQuestionEditSave: document.querySelector("#adminQuestionEditSaveBtn"),
+  adminQuestionEditStatus: document.querySelector("#adminQuestionEditStatus"),
   modeHubCard: document.querySelector("#modeHubCard"),
   aviwikiModeBtn: document.querySelector("#aviwikiModeBtn"),
   aviwikiHomeCard: document.querySelector("#aviwikiHomeCard"),
@@ -567,6 +579,7 @@ const els = {
   closeAdminErrorReports: document.querySelector("#closeAdminErrorReportsBtn"),
   refreshAdminErrorReports: document.querySelector("#refreshAdminErrorReportsBtn"),
   copyAdminErrorReports: document.querySelector("#copyAdminErrorReportsBtn"),
+  clearAdminErrorReports: document.querySelector("#clearAdminErrorReportsBtn"),
   adminErrorReportSummary: document.querySelector("#adminErrorReportSummary"),
   adminErrorReportStatus: document.querySelector("#adminErrorReportStatus"),
   adminErrorReportsEmpty: document.querySelector("#adminErrorReportsEmpty"),
@@ -610,6 +623,8 @@ let examAnswers = {};
 let studyAnswers = {};
 let sessionChoiceOrder = {};
 let adminErrorReportsCache = [];
+let adminQuestionOverrides = new Map();
+let adminQuestionEditTargetId = null;
 let progressStore = {};
 // v11.43: 서버에 이미 전송된 오류 보고는 사용자의 오류 목록에서 숨기되,
 // 해당 문제의 ERROR 제외 상태 자체는 유지합니다.
@@ -3319,6 +3334,147 @@ function normalizeChoices(q) {
   return [];
 }
 
+function currentUserIsAdmin() {
+  return !!window.PilotBankAuth?.getCurrentProfile?.()?.is_admin;
+}
+
+function normalizeAdminOverrideChoices(value) {
+  if (!Array.isArray(value)) return [];
+  return value.map((choice, index) => ({
+    id: String(choice?.id ?? String.fromCharCode(65 + index)).toUpperCase(),
+    text: String(choice?.text ?? ""),
+  })).filter(choice => choice.id);
+}
+
+function applyQuestionOverrideToQuestion(q, row) {
+  if (!q || !row) return q;
+  const choices = normalizeAdminOverrideChoices(row.choices);
+  q.question = String(row.question_text ?? q.question ?? "");
+  if (choices.length) q.choices = choices;
+  q.answer = String(row.answer ?? q.answer ?? "").toUpperCase();
+  q.explanation = String(row.explanation ?? "");
+  q.admin_override = true;
+  q.admin_override_updated_at = row.updated_at || null;
+  return q;
+}
+
+async function loadQuestionOverridesIntoBank() {
+  adminQuestionOverrides = new Map();
+  if (!window.supabaseClient) return;
+  try {
+    const { data, error } = await window.supabaseClient
+      .from("question_overrides")
+      .select("question_id,subject,question_text,choices,answer,explanation,updated_at,updated_by");
+    if (error) throw error;
+    const rows = Array.isArray(data) ? data : [];
+    rows.forEach(row => adminQuestionOverrides.set(row.question_id, row));
+    bank.forEach(q => {
+      const row = adminQuestionOverrides.get(q.id);
+      if (row) applyQuestionOverrideToQuestion(q, row);
+    });
+  } catch (err) {
+    // v11.60.13 DB migration이 아직 적용되지 않은 배포에서도 문제은행 자체는 정상 동작해야 합니다.
+    console.warn("[Admin Edit] question_overrides 로드 실패 - V11.60.13 SQL 적용 여부를 확인하세요.", err);
+  }
+}
+
+function closeAdminQuestionEditor() {
+  adminQuestionEditTargetId = null;
+  els.adminQuestionEditorModal?.classList.add("hidden");
+  if (els.adminQuestionEditStatus) els.adminQuestionEditStatus.textContent = "";
+}
+
+function openAdminQuestionEditor() {
+  if (!currentUserIsAdmin()) {
+    alert("관리자 계정에서만 문제를 수정할 수 있습니다.");
+    return;
+  }
+  const q = session[index];
+  if (!q) return;
+  adminQuestionEditTargetId = q.id;
+  const choices = normalizeChoices(q);
+  els.adminQuestionEditId.textContent = q.id || "";
+  els.adminQuestionEditSubject.textContent = [q.subject, studyUnitOf(q) ? `SU ${studyUnitOf(q)}` : "", subunitTitle(q)].filter(Boolean).join(" · ");
+  els.adminQuestionEditText.value = q.question || "";
+  els.adminQuestionEditExplanation.value = q.explanation || "";
+  els.adminQuestionEditChoices.innerHTML = "";
+  els.adminQuestionEditAnswer.innerHTML = "";
+  choices.forEach(choice => {
+    const field = document.createElement("label");
+    field.className = "admin-edit-field admin-edit-choice-field";
+    field.dataset.choiceId = String(choice.id).toUpperCase();
+    field.innerHTML = `<span>선택지 ${escapeHtml(choice.id)}</span><textarea rows="2" data-admin-choice-text="${escapeHtml(choice.id)}"></textarea>`;
+    field.querySelector("textarea").value = choice.text || "";
+    els.adminQuestionEditChoices.appendChild(field);
+    const option = document.createElement("option");
+    option.value = String(choice.id).toUpperCase();
+    option.textContent = String(choice.id).toUpperCase();
+    els.adminQuestionEditAnswer.appendChild(option);
+  });
+  els.adminQuestionEditAnswer.value = String(q.answer || "").toUpperCase();
+  if (els.adminQuestionEditStatus) els.adminQuestionEditStatus.textContent = q.admin_override ? "현재 서버 수정본이 적용된 문항입니다." : "";
+  els.adminQuestionEditorModal?.classList.remove("hidden");
+  window.setTimeout(() => els.adminQuestionEditText?.focus(), 0);
+}
+
+async function saveAdminQuestionEdit() {
+  if (!currentUserIsAdmin() || !window.supabaseClient) {
+    alert("관리자 계정과 Supabase 연결이 필요합니다.");
+    return;
+  }
+  const q = bank.find(item => item.id === adminQuestionEditTargetId) || session[index];
+  if (!q || q.id !== adminQuestionEditTargetId) return;
+  const questionText = String(els.adminQuestionEditText?.value || "").trim();
+  const explanation = String(els.adminQuestionEditExplanation?.value || "").trim();
+  const choices = [...els.adminQuestionEditChoices.querySelectorAll("[data-admin-choice-text]")].map(input => ({
+    id: String(input.dataset.adminChoiceText || "").toUpperCase(),
+    text: String(input.value || "").trim(),
+  }));
+  const answer = String(els.adminQuestionEditAnswer?.value || "").toUpperCase();
+  if (!questionText) { els.adminQuestionEditStatus.textContent = "문제 지문을 입력해 주세요."; return; }
+  if (choices.length < 2 || choices.some(choice => !choice.text)) { els.adminQuestionEditStatus.textContent = "모든 선택지를 입력해 주세요."; return; }
+  if (!choices.some(choice => choice.id === answer)) { els.adminQuestionEditStatus.textContent = "정답 선택을 확인해 주세요."; return; }
+
+  els.adminQuestionEditSave.disabled = true;
+  els.adminQuestionEditStatus.textContent = "저장 중...";
+  try {
+    const userId = window.PilotBankAuth?.getCurrentUser?.()?.id || window.PilotBankAuth?.getCurrentProfile?.()?.id || null;
+    const row = {
+      question_id: q.id,
+      subject: q.subject || null,
+      question_text: questionText,
+      choices,
+      answer,
+      explanation,
+      updated_by: userId,
+      updated_at: new Date().toISOString(),
+    };
+    const { data, error } = await window.supabaseClient
+      .from("question_overrides")
+      .upsert(row, { onConflict: "question_id" })
+      .select("question_id,subject,question_text,choices,answer,explanation,updated_at,updated_by")
+      .single();
+    if (error) throw error;
+    const saved = data || row;
+    adminQuestionOverrides.set(q.id, saved);
+    bank.filter(item => item.id === q.id).forEach(item => applyQuestionOverrideToQuestion(item, saved));
+    session.filter(item => item.id === q.id).forEach(item => applyQuestionOverrideToQuestion(item, saved));
+    delete sessionChoiceOrder[q.id];
+    if (examAnswers[q.id] && !choices.some(choice => choice.id === String(examAnswers[q.id]).toUpperCase())) delete examAnswers[q.id];
+    renderQuestion();
+    els.adminQuestionEditStatus.textContent = "저장되었습니다. 현재 화면에 즉시 반영했습니다.";
+    window.setTimeout(closeAdminQuestionEditor, 650);
+  } catch (err) {
+    console.error("[Admin Edit] 문제 수정 저장 실패", err);
+    const message = String(err?.message || "저장에 실패했습니다.");
+    els.adminQuestionEditStatus.textContent = message.includes("question_overrides") || message.includes("relation")
+      ? "저장 실패: V11.60.13 Supabase SQL을 먼저 실행해 주세요."
+      : `저장 실패: ${message}`;
+  } finally {
+    els.adminQuestionEditSave.disabled = false;
+  }
+}
+
 async function loadBank() {
   try {
     let data = null;
@@ -3379,6 +3535,9 @@ async function loadBank() {
     } catch (flightTheoryError) {
       console.warn("비행이론 문제 데이터 로드 실패", flightTheoryError);
     }
+
+    // v11.60.13: 관리자 서버 수정본을 정적 문제은행 위에 overlay 합니다.
+    await loadQuestionOverridesIntoBank();
 
     // v11.51: 관리자 회원관리 화면이 마이페이지와 동일한 전체 문제 수를
     // 사용해 회원별 진도를 계산할 수 있도록 현재 문제은행 규모를 공개합니다.
@@ -4367,6 +4526,7 @@ function configureAdminErrorAccess() {
   const isAdmin = !!profile?.is_admin;
   els.adminErrorReportsBtn?.classList.toggle("hidden", !isAdmin);
   els.problemAdminLink?.classList.toggle("hidden", !isAdmin);
+  els.adminQuestionEditBtn?.classList.toggle("hidden", !isAdmin);
 }
 
 function formatAdminReportTime(value) {
@@ -4426,6 +4586,42 @@ async function loadAdminErrorReports() {
     console.error("[Supabase] 관리자 오류 목록 조회 실패", err);
     els.adminErrorReportSummary.textContent = "조회 실패";
     els.adminErrorReportStatus.textContent = err?.message || "오류 목록을 불러오지 못했습니다.";
+  }
+}
+
+async function clearAllAdminErrorReports() {
+  const profile = window.PilotBankAuth?.getCurrentProfile?.();
+  if (!profile?.is_admin || !window.supabaseClient) {
+    alert("관리자 계정에서만 오류 보고를 삭제할 수 있습니다.");
+    return;
+  }
+  const count = adminErrorReportsCache.length;
+  if (!count) {
+    els.adminErrorReportStatus.textContent = "삭제할 오류 보고가 없습니다.";
+    return;
+  }
+  const ok = window.confirm(`보고된 오류 ${count}건을 서버에서 모두 삭제하시겠습니까?\n\n이 작업은 되돌릴 수 없습니다.`);
+  if (!ok) return;
+  els.clearAdminErrorReports.disabled = true;
+  els.adminErrorReportStatus.textContent = "전체 삭제 중...";
+  try {
+    let deletedCount = count;
+    const { data, error } = await window.supabaseClient.rpc("pilotbank_admin_clear_error_reports");
+    if (error) throw error;
+    if (Number.isFinite(Number(data))) deletedCount = Number(data);
+    adminErrorReportsCache = [];
+    els.adminErrorReportSummary.textContent = "총 0건 · 고유 문제 0개";
+    els.adminErrorReportsList.innerHTML = "";
+    els.adminErrorReportsEmpty.classList.remove("hidden");
+    els.adminErrorReportStatus.textContent = `오류 보고 ${deletedCount}건을 모두 삭제했습니다.`;
+  } catch (err) {
+    console.error("[Supabase] 관리자 오류 전체 삭제 실패", err);
+    const message = String(err?.message || "알 수 없는 오류");
+    els.adminErrorReportStatus.textContent = message.includes("pilotbank_admin_clear_error_reports") || message.includes("function")
+      ? "삭제 실패: V11.60.13 Supabase SQL을 먼저 실행해 주세요."
+      : `삭제 실패: ${message}`;
+  } finally {
+    els.clearAdminErrorReports.disabled = false;
   }
 }
 
@@ -4840,6 +5036,21 @@ document.addEventListener("click", event => {
   if (refreshAdminErrorsButton) {
     event.preventDefault();
     loadAdminErrorReports();
+    return;
+  }
+
+  const clearAdminErrorsButton = event.target.closest("#clearAdminErrorReportsBtn");
+  if (clearAdminErrorsButton) {
+    event.preventDefault();
+    clearAllAdminErrorReports();
+    return;
+  }
+
+  const adminQuestionEditButton = event.target.closest("#adminQuestionEditBtn");
+  if (adminQuestionEditButton) {
+    event.preventDefault();
+    openAdminQuestionEditor();
+    return;
   }
 });
 
@@ -5068,6 +5279,16 @@ els.trinityCourseBtn?.addEventListener("click", () => activateLearningContext({
   kind:"airline", label:"트리니티항공 대비 과정", allowedSubjects:TRINITY_SUBJECTS, lockedSubject:TRINITY_SUBJECT, airline:"trinity",
   note:"사용자 풀이 기록 350문항에서 중복 43문항을 통합한 고유 307문항 · 문제/보기/정답/핵심 해설만 보존"
 }));
+
+els.adminQuestionEditCancel?.addEventListener("click", closeAdminQuestionEditor);
+els.adminQuestionEditCancelBottom?.addEventListener("click", closeAdminQuestionEditor);
+els.adminQuestionEditSave?.addEventListener("click", saveAdminQuestionEdit);
+els.adminQuestionEditorModal?.addEventListener("click", event => {
+  if (event.target === els.adminQuestionEditorModal) closeAdminQuestionEditor();
+});
+document.addEventListener("keydown", event => {
+  if (event.key === "Escape" && els.adminQuestionEditorModal && !els.adminQuestionEditorModal.classList.contains("hidden")) closeAdminQuestionEditor();
+});
 
 async function bootstrap() {
   if (window.PilotBankAuth?.requireLogin) {

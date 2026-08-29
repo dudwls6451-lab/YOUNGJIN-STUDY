@@ -1,0 +1,22 @@
+{
+  "version": "v11.60.13",
+  "base": "v11.60.12",
+  "features": [
+    "admin inline question edit while solving",
+    "edit question text, choices, correct answer, explanation",
+    "Supabase question_overrides persistence and approved-user overlay",
+    "admin reported-error clear-all with confirmation",
+    "clear-all also resets matching server error_reported flags to prevent resurfacing"
+  ],
+  "requires_sql": "supabase/V11.60.13_ADMIN_INLINE_EDIT_ERROR_CLEAR.sql",
+  "checks": {
+    "data_json_unchanged": true,
+    "data_json_count": 6,
+    "admin_edit_button_present": true,
+    "admin_clear_all_button_present": true,
+    "override_loader_present": true,
+    "override_upsert_present": true,
+    "error_clear_rpc_present": true,
+    "sql_present": true
+  }
+}
