@@ -1,0 +1,3814 @@
+{
+  "metadata": {
+    "title": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) 문제은행",
+    "source": "Jeppesen Airway Manual, Visual Docking Guidance Systems (VDGS), pp.234–269",
+    "version": "1.0",
+    "patch_version": "11.60.23",
+    "question_count": 76,
+    "language": "ko explanations / source system labels preserved",
+    "format": "source-image 4-choice",
+    "note": "Only source-supported VDGS systems/displays are included; no fabricated system images."
+  },
+  "questions": [
+    {
+      "id": "JEPP-VDGS-001",
+      "number": 1,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 1,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-01",
+        "title": "APIS/APIS++ · BOLDS"
+      },
+      "source_page": 236,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "APIS/APIS++ — Steer Right"
+        },
+        {
+          "id": "B",
+          "text": "APIS/APIS++ — Aircraft type/series display"
+        },
+        {
+          "id": "C",
+          "text": "APIS/APIS++ — On Centerline"
+        },
+        {
+          "id": "D",
+          "text": "APIS/APIS++ — Steer Left"
+        }
+      ],
+      "answer": "B",
+      "explanation": "정답은 APIS/APIS++ — Aircraft type/series display입니다. 상단 alphanumeric dot-matrix 영역에서 선택된 aircraft type/series를 표시한다. 조종사는 stand 진입 전에 올바른 aircraft type을 확인해야 한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.236",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-001-apis-aircraft-type.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "APIS",
+        "APIS/APIS++ — Aircraft type/series display"
+      ],
+      "reference_study_only": true,
+      "legend_label": "APIS/APIS++ — Aircraft type/series display",
+      "source_description_ko": "상단 alphanumeric dot-matrix 영역에서 선택된 aircraft type/series를 표시한다. 조종사는 stand 진입 전에 올바른 aircraft type을 확인해야 한다."
+    },
+    {
+      "id": "JEPP-VDGS-002",
+      "number": 2,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 1,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-01",
+        "title": "APIS/APIS++ · BOLDS"
+      },
+      "source_page": 236,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "APIS/APIS++ — Closing rate STOP"
+        },
+        {
+          "id": "B",
+          "text": "APIS/APIS++ — Aircraft type/series display"
+        },
+        {
+          "id": "C",
+          "text": "APIS/APIS++ — Stand number display"
+        },
+        {
+          "id": "D",
+          "text": "APIS/APIS++ — STOP / OK"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 APIS/APIS++ — Stand number display입니다. APIS/APIS++에서 지정된 stand number를 표시하는 신호이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.236",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-002-apis-stand-number.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "APIS",
+        "APIS/APIS++ — Stand number display"
+      ],
+      "reference_study_only": true,
+      "legend_label": "APIS/APIS++ — Stand number display",
+      "source_description_ko": "APIS/APIS++에서 지정된 stand number를 표시하는 신호이다."
+    },
+    {
+      "id": "JEPP-VDGS-003",
+      "number": 3,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 1,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-01",
+        "title": "APIS/APIS++ · BOLDS"
+      },
+      "source_page": 236,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "APIS/APIS++ — TOO FAR"
+        },
+        {
+          "id": "B",
+          "text": "APIS/APIS++ — Steer Right"
+        },
+        {
+          "id": "C",
+          "text": "APIS/APIS++ — On Centerline"
+        },
+        {
+          "id": "D",
+          "text": "APIS/APIS++ — STOP / OK"
+        }
+      ],
+      "answer": "D",
+      "explanation": "정답은 APIS/APIS++ — STOP / OK입니다. 정확한 stop position에 도달하면 STOP과 OK 표시로 정지 위치 도달을 나타낸다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.236",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-003-apis-stop-ok.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "APIS",
+        "APIS/APIS++ — STOP / OK"
+      ],
+      "reference_study_only": true,
+      "legend_label": "APIS/APIS++ — STOP / OK",
+      "source_description_ko": "정확한 stop position에 도달하면 STOP과 OK 표시로 정지 위치 도달을 나타낸다."
+    },
+    {
+      "id": "JEPP-VDGS-004",
+      "number": 4,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 1,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-01",
+        "title": "APIS/APIS++ · BOLDS"
+      },
+      "source_page": 236,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "APIS/APIS++ — TOO FAR"
+        },
+        {
+          "id": "B",
+          "text": "APIS/APIS++ — Steer Left"
+        },
+        {
+          "id": "C",
+          "text": "APIS/APIS++ — Closing rate STOP"
+        },
+        {
+          "id": "D",
+          "text": "APIS/APIS++ — Aircraft type/series display"
+        }
+      ],
+      "answer": "A",
+      "explanation": "정답은 APIS/APIS++ — TOO FAR입니다. 항공기가 정상 stop position을 지나친 상태를 나타내는 TOO FAR 표시이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.236",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-004-apis-too-far.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "APIS",
+        "APIS/APIS++ — TOO FAR"
+      ],
+      "reference_study_only": true,
+      "legend_label": "APIS/APIS++ — TOO FAR",
+      "source_description_ko": "항공기가 정상 stop position을 지나친 상태를 나타내는 TOO FAR 표시이다."
+    },
+    {
+      "id": "JEPP-VDGS-005",
+      "number": 5,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 1,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-01",
+        "title": "APIS/APIS++ · BOLDS"
+      },
+      "source_page": 236,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "APIS/APIS++ — Stand number display"
+        },
+        {
+          "id": "B",
+          "text": "APIS/APIS++ — Steer Right"
+        },
+        {
+          "id": "C",
+          "text": "APIS/APIS++ — STOP / OK"
+        },
+        {
+          "id": "D",
+          "text": "APIS/APIS++ — TOO FAR"
+        }
+      ],
+      "answer": "B",
+      "explanation": "정답은 APIS/APIS++ — Steer Right입니다. Azimuth guidance의 moire pattern이 조종사에게 우측으로 조향하도록 지시하는 형태이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.236",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-005-apis-steer-right.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "APIS",
+        "APIS/APIS++ — Steer Right"
+      ],
+      "reference_study_only": true,
+      "legend_label": "APIS/APIS++ — Steer Right",
+      "source_description_ko": "Azimuth guidance의 moire pattern이 조종사에게 우측으로 조향하도록 지시하는 형태이다."
+    },
+    {
+      "id": "JEPP-VDGS-006",
+      "number": 6,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 1,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-01",
+        "title": "APIS/APIS++ · BOLDS"
+      },
+      "source_page": 236,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "APIS/APIS++ — Steer Right"
+        },
+        {
+          "id": "B",
+          "text": "APIS/APIS++ — Steer Left"
+        },
+        {
+          "id": "C",
+          "text": "APIS/APIS++ — On Centerline"
+        },
+        {
+          "id": "D",
+          "text": "APIS/APIS++ — Closing rate STOP"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 APIS/APIS++ — On Centerline입니다. Azimuth guidance가 중앙 정렬되어 aircraft가 stand centerline에 있음을 나타낸다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.236",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-006-apis-on-centerline.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "APIS",
+        "APIS/APIS++ — On Centerline"
+      ],
+      "reference_study_only": true,
+      "legend_label": "APIS/APIS++ — On Centerline",
+      "source_description_ko": "Azimuth guidance가 중앙 정렬되어 aircraft가 stand centerline에 있음을 나타낸다."
+    },
+    {
+      "id": "JEPP-VDGS-007",
+      "number": 7,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 1,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-01",
+        "title": "APIS/APIS++ · BOLDS"
+      },
+      "source_page": 236,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "APIS/APIS++ — Aircraft type/series display"
+        },
+        {
+          "id": "B",
+          "text": "APIS/APIS++ — Stand number display"
+        },
+        {
+          "id": "C",
+          "text": "APIS/APIS++ — STOP / OK"
+        },
+        {
+          "id": "D",
+          "text": "APIS/APIS++ — Steer Left"
+        }
+      ],
+      "answer": "D",
+      "explanation": "정답은 APIS/APIS++ — Steer Left입니다. Azimuth guidance가 조종사에게 좌측으로 조향하도록 지시하는 형태이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.236",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-007-apis-steer-left.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "APIS",
+        "APIS/APIS++ — Steer Left"
+      ],
+      "reference_study_only": true,
+      "legend_label": "APIS/APIS++ — Steer Left",
+      "source_description_ko": "Azimuth guidance가 조종사에게 좌측으로 조향하도록 지시하는 형태이다."
+    },
+    {
+      "id": "JEPP-VDGS-008",
+      "number": 8,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 1,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-01",
+        "title": "APIS/APIS++ · BOLDS"
+      },
+      "source_page": 236,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "APIS/APIS++ — Closing rate STOP"
+        },
+        {
+          "id": "B",
+          "text": "APIS/APIS++ — TOO FAR"
+        },
+        {
+          "id": "C",
+          "text": "APIS/APIS++ — Steer Right"
+        },
+        {
+          "id": "D",
+          "text": "APIS/APIS++ — On Centerline"
+        }
+      ],
+      "answer": "A",
+      "explanation": "정답은 APIS/APIS++ — Closing rate STOP입니다. Closing-rate progress strip의 최종 STOP 표시로 정지 지점 도달을 나타낸다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.236",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-008-apis-closing-stop.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "APIS",
+        "APIS/APIS++ — Closing rate STOP"
+      ],
+      "reference_study_only": true,
+      "legend_label": "APIS/APIS++ — Closing rate STOP",
+      "source_description_ko": "Closing-rate progress strip의 최종 STOP 표시로 정지 지점 도달을 나타낸다."
+    },
+    {
+      "id": "JEPP-VDGS-009",
+      "number": 9,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 2,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-02",
+        "title": "Honeywell · INOGON · NIG"
+      },
+      "source_page": 238,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Honeywell — Aircraft detected"
+        },
+        {
+          "id": "B",
+          "text": "Honeywell — Gate ready for docking"
+        },
+        {
+          "id": "C",
+          "text": "Honeywell — Aircraft left of centerline"
+        },
+        {
+          "id": "D",
+          "text": "Honeywell — On centerline, 0.4 m to stop"
+        }
+      ],
+      "answer": "B",
+      "explanation": "정답은 Honeywell — Gate ready for docking입니다. Gate가 docking 준비 상태일 때 aircraft type과 gate number가 display 상단에서 교대로 점멸한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.238",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-009-honeywell-gate-ready.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "Honeywell",
+        "Honeywell — Gate ready for docking"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Honeywell — Gate ready for docking",
+      "source_description_ko": "Gate가 docking 준비 상태일 때 aircraft type과 gate number가 display 상단에서 교대로 점멸한다."
+    },
+    {
+      "id": "JEPP-VDGS-010",
+      "number": 10,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 2,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-02",
+        "title": "Honeywell · INOGON · NIG"
+      },
+      "source_page": 238,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Honeywell — On centerline, 10 m to stop"
+        },
+        {
+          "id": "B",
+          "text": "Honeywell — STOP / ONBLOCK STOP"
+        },
+        {
+          "id": "C",
+          "text": "Honeywell — Aircraft detected"
+        },
+        {
+          "id": "D",
+          "text": "Honeywell — STOP TOO FAR"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 Honeywell — Aircraft detected입니다. Aircraft가 감지되면 aircraft type이 상단에 steady하게 표시되고 gate까지의 거리 측정이 시작된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.238",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-010-honeywell-aircraft-detected.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "Honeywell",
+        "Honeywell — Aircraft detected"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Honeywell — Aircraft detected",
+      "source_description_ko": "Aircraft가 감지되면 aircraft type이 상단에 steady하게 표시되고 gate까지의 거리 측정이 시작된다."
+    },
+    {
+      "id": "JEPP-VDGS-011",
+      "number": 11,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 2,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-02",
+        "title": "Honeywell · INOGON · NIG"
+      },
+      "source_page": 238,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Honeywell — OK"
+        },
+        {
+          "id": "B",
+          "text": "Honeywell — ESTOP"
+        },
+        {
+          "id": "C",
+          "text": "Honeywell — Aircraft detected"
+        },
+        {
+          "id": "D",
+          "text": "Honeywell — Aircraft right of centerline"
+        }
+      ],
+      "answer": "D",
+      "explanation": "정답은 Honeywell — Aircraft right of centerline입니다. 항공기가 centerline 우측에 있으므로 좌측 correction이 필요하다는 표시이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.238",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-011-honeywell-right-of-centerline.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "Honeywell",
+        "Honeywell — Aircraft right of centerline"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Honeywell — Aircraft right of centerline",
+      "source_description_ko": "항공기가 centerline 우측에 있으므로 좌측 correction이 필요하다는 표시이다."
+    },
+    {
+      "id": "JEPP-VDGS-012",
+      "number": 12,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 2,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-02",
+        "title": "Honeywell · INOGON · NIG"
+      },
+      "source_page": 239,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Honeywell — Aircraft left of centerline"
+        },
+        {
+          "id": "B",
+          "text": "Honeywell — Gate ready for docking"
+        },
+        {
+          "id": "C",
+          "text": "Honeywell — Aircraft right of centerline"
+        },
+        {
+          "id": "D",
+          "text": "Honeywell — On centerline, 0.4 m to stop"
+        }
+      ],
+      "answer": "A",
+      "explanation": "정답은 Honeywell — Aircraft left of centerline입니다. 항공기가 centerline 좌측에 있으므로 우측 correction이 필요하다는 표시이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.239",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-012-honeywell-left-of-centerline.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "Honeywell",
+        "Honeywell — Aircraft left of centerline"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Honeywell — Aircraft left of centerline",
+      "source_description_ko": "항공기가 centerline 좌측에 있으므로 우측 correction이 필요하다는 표시이다."
+    },
+    {
+      "id": "JEPP-VDGS-013",
+      "number": 13,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 2,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-02",
+        "title": "Honeywell · INOGON · NIG"
+      },
+      "source_page": 239,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Honeywell — Aircraft left of centerline"
+        },
+        {
+          "id": "B",
+          "text": "Honeywell — On centerline, 10 m to stop"
+        },
+        {
+          "id": "C",
+          "text": "Honeywell — STOP / ONBLOCK STOP"
+        },
+        {
+          "id": "D",
+          "text": "Honeywell — STOP TOO FAR"
+        }
+      ],
+      "answer": "B",
+      "explanation": "정답은 Honeywell — On centerline, 10 m to stop입니다. Aircraft가 centerline에 있고 최종 stop position까지 10 m 남은 상태이다. 원문은 천천히 접근할 것을 주의시킨다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.239",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-013-honeywell-10m.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "Honeywell",
+        "Honeywell — On centerline, 10 m to stop"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Honeywell — On centerline, 10 m to stop",
+      "source_description_ko": "Aircraft가 centerline에 있고 최종 stop position까지 10 m 남은 상태이다. 원문은 천천히 접근할 것을 주의시킨다."
+    },
+    {
+      "id": "JEPP-VDGS-014",
+      "number": 14,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 2,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-02",
+        "title": "Honeywell · INOGON · NIG"
+      },
+      "source_page": 239,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Honeywell — OK"
+        },
+        {
+          "id": "B",
+          "text": "Honeywell — ESTOP"
+        },
+        {
+          "id": "C",
+          "text": "Honeywell — On centerline, 0.4 m to stop"
+        },
+        {
+          "id": "D",
+          "text": "Honeywell — Aircraft detected"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 Honeywell — On centerline, 0.4 m to stop입니다. Aircraft가 centerline에 있고 최종 stop position까지 0.4 m 남아 정지를 준비해야 하는 상태이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.239",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-014-honeywell-04m.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "Honeywell",
+        "Honeywell — On centerline, 0.4 m to stop"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Honeywell — On centerline, 0.4 m to stop",
+      "source_description_ko": "Aircraft가 centerline에 있고 최종 stop position까지 0.4 m 남아 정지를 준비해야 하는 상태이다."
+    },
+    {
+      "id": "JEPP-VDGS-015",
+      "number": 15,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 2,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-02",
+        "title": "Honeywell · INOGON · NIG"
+      },
+      "source_page": 239,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Honeywell — Gate ready for docking"
+        },
+        {
+          "id": "B",
+          "text": "Honeywell — Aircraft right of centerline"
+        },
+        {
+          "id": "C",
+          "text": "Honeywell — On centerline, 10 m to stop"
+        },
+        {
+          "id": "D",
+          "text": "Honeywell — STOP / ONBLOCK STOP"
+        }
+      ],
+      "answer": "D",
+      "explanation": "정답은 Honeywell — STOP / ONBLOCK STOP입니다. STOP은 docking point 도달 즉시 정지, ONBLOCK STOP은 docking 절차가 완전히 종료되었음을 뜻한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.239",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-015-honeywell-stop.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "Honeywell",
+        "Honeywell — STOP / ONBLOCK STOP"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Honeywell — STOP / ONBLOCK STOP",
+      "source_description_ko": "STOP은 docking point 도달 즉시 정지, ONBLOCK STOP은 docking 절차가 완전히 종료되었음을 뜻한다."
+    },
+    {
+      "id": "JEPP-VDGS-016",
+      "number": 16,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 2,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-02",
+        "title": "Honeywell · INOGON · NIG"
+      },
+      "source_page": 240,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Honeywell — OK"
+        },
+        {
+          "id": "B",
+          "text": "Honeywell — Aircraft left of centerline"
+        },
+        {
+          "id": "C",
+          "text": "Honeywell — On centerline, 0.4 m to stop"
+        },
+        {
+          "id": "D",
+          "text": "Honeywell — STOP TOO FAR"
+        }
+      ],
+      "answer": "A",
+      "explanation": "정답은 Honeywell — OK입니다. Docking point에 정상적으로 도달하여 successful docking이 완료되었음을 나타낸다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.240",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-016-honeywell-ok.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "Honeywell",
+        "Honeywell — OK"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Honeywell — OK",
+      "source_description_ko": "Docking point에 정상적으로 도달하여 successful docking이 완료되었음을 나타낸다."
+    },
+    {
+      "id": "JEPP-VDGS-017",
+      "number": 17,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 2,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-02",
+        "title": "Honeywell · INOGON · NIG"
+      },
+      "source_page": 240,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Honeywell — STOP / ONBLOCK STOP"
+        },
+        {
+          "id": "B",
+          "text": "Honeywell — STOP TOO FAR"
+        },
+        {
+          "id": "C",
+          "text": "Honeywell — ESTOP"
+        },
+        {
+          "id": "D",
+          "text": "Honeywell — Aircraft detected"
+        }
+      ],
+      "answer": "B",
+      "explanation": "정답은 Honeywell — STOP TOO FAR입니다. Aircraft가 docking position을 지나친 상태를 나타낸다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.240",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-017-honeywell-stop-too-far.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "Honeywell",
+        "Honeywell — STOP TOO FAR"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Honeywell — STOP TOO FAR",
+      "source_description_ko": "Aircraft가 docking position을 지나친 상태를 나타낸다."
+    },
+    {
+      "id": "JEPP-VDGS-018",
+      "number": 18,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 2,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-02",
+        "title": "Honeywell · INOGON · NIG"
+      },
+      "source_page": 240,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Honeywell — Gate ready for docking"
+        },
+        {
+          "id": "B",
+          "text": "Honeywell — Aircraft right of centerline"
+        },
+        {
+          "id": "C",
+          "text": "Honeywell — ESTOP"
+        },
+        {
+          "id": "D",
+          "text": "Honeywell — On centerline, 10 m to stop"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 Honeywell — ESTOP입니다. Emergency stop 표시이다. 항공기를 즉시 정지하고 Apron Control의 docking 지시를 기다려야 한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.240",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-018-honeywell-estop.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "Honeywell",
+        "Honeywell — ESTOP"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Honeywell — ESTOP",
+      "source_description_ko": "Emergency stop 표시이다. 항공기를 즉시 정지하고 Apron Control의 docking 지시를 기다려야 한다."
+    },
+    {
+      "id": "JEPP-VDGS-019",
+      "number": 19,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 2,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-02",
+        "title": "Honeywell · INOGON · NIG"
+      },
+      "source_page": 241,
+      "question": "다음 Jeppesen VDGS 그림에 해당하는 시스템은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Safedock — ERROR code"
+        },
+        {
+          "id": "B",
+          "text": "APIS/APIS++ — Aircraft type/series display"
+        },
+        {
+          "id": "C",
+          "text": "NIG — RED/GREEN"
+        },
+        {
+          "id": "D",
+          "text": "INOGON Airpark Stop and Centerline System"
+        }
+      ],
+      "answer": "D",
+      "explanation": "정답은 INOGON Airpark Stop and Centerline System입니다. APIS/APS 계열의 centerline 기술을 사용하는 INOGON system으로, beacon의 화살표 형태로 조향 방향과 STOP 위치를 제공한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.241",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-019-inogon-system.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "System",
+        "INOGON Airpark Stop and Centerline System"
+      ],
+      "reference_study_only": true,
+      "legend_label": "INOGON Airpark Stop and Centerline System",
+      "source_description_ko": "APIS/APS 계열의 centerline 기술을 사용하는 INOGON system으로, beacon의 화살표 형태로 조향 방향과 STOP 위치를 제공한다."
+    },
+    {
+      "id": "JEPP-VDGS-020",
+      "number": 20,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 2,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-02",
+        "title": "Honeywell · INOGON · NIG"
+      },
+      "source_page": 242,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "NIG — RED/GREEN"
+        },
+        {
+          "id": "B",
+          "text": "NIG Side Marker — Reducing green arrow-head"
+        },
+        {
+          "id": "C",
+          "text": "NIG Side Marker — White bars / stop position"
+        },
+        {
+          "id": "D",
+          "text": "NIG Side Marker — Red bar / stop position passed"
+        }
+      ],
+      "answer": "A",
+      "explanation": "정답은 NIG — RED/GREEN입니다. NIG centerline guidance에서 RED/GREEN은 aircraft가 centerline 좌측에 있음을 뜻한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.242",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-020-nig-red-green.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "NIG",
+        "NIG — RED/GREEN"
+      ],
+      "reference_study_only": true,
+      "legend_label": "NIG — RED/GREEN",
+      "source_description_ko": "NIG centerline guidance에서 RED/GREEN은 aircraft가 centerline 좌측에 있음을 뜻한다."
+    },
+    {
+      "id": "JEPP-VDGS-021",
+      "number": 21,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 2,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-02",
+        "title": "Honeywell · INOGON · NIG"
+      },
+      "source_page": 242,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "NIG — RED/GREEN"
+        },
+        {
+          "id": "B",
+          "text": "NIG — GREEN/GREEN"
+        },
+        {
+          "id": "C",
+          "text": "NIG — GREEN/RED"
+        },
+        {
+          "id": "D",
+          "text": "NIG Side Marker — Dull green"
+        }
+      ],
+      "answer": "B",
+      "explanation": "정답은 NIG — GREEN/GREEN입니다. NIG centerline guidance에서 GREEN/GREEN은 aircraft가 centerline에 있음을 뜻한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.242",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-021-nig-green-green.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "NIG",
+        "NIG — GREEN/GREEN"
+      ],
+      "reference_study_only": true,
+      "legend_label": "NIG — GREEN/GREEN",
+      "source_description_ko": "NIG centerline guidance에서 GREEN/GREEN은 aircraft가 centerline에 있음을 뜻한다."
+    },
+    {
+      "id": "JEPP-VDGS-022",
+      "number": 22,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 2,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-02",
+        "title": "Honeywell · INOGON · NIG"
+      },
+      "source_page": 242,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "NIG Side Marker — Intense green"
+        },
+        {
+          "id": "B",
+          "text": "NIG Side Marker — Reducing green arrow-head"
+        },
+        {
+          "id": "C",
+          "text": "NIG — GREEN/RED"
+        },
+        {
+          "id": "D",
+          "text": "NIG Side Marker — White bars / stop position"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 NIG — GREEN/RED입니다. NIG centerline guidance에서 GREEN/RED은 aircraft가 centerline 우측에 있음을 뜻한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.242",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-022-nig-green-red.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "NIG",
+        "NIG — GREEN/RED"
+      ],
+      "reference_study_only": true,
+      "legend_label": "NIG — GREEN/RED",
+      "source_description_ko": "NIG centerline guidance에서 GREEN/RED은 aircraft가 centerline 우측에 있음을 뜻한다."
+    },
+    {
+      "id": "JEPP-VDGS-023",
+      "number": 23,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 2,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-02",
+        "title": "Honeywell · INOGON · NIG"
+      },
+      "source_page": 243,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "NIG Side Marker — Red bar / stop position passed"
+        },
+        {
+          "id": "B",
+          "text": "NIG — RED/GREEN"
+        },
+        {
+          "id": "C",
+          "text": "NIG — GREEN/GREEN"
+        },
+        {
+          "id": "D",
+          "text": "NIG Side Marker — Dull green"
+        }
+      ],
+      "answer": "D",
+      "explanation": "정답은 NIG Side Marker — Dull green입니다. Stopping position 접근 초기에 arrow-shaped aperture를 통해 preliminary dull GREEN light가 보이는 상태이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.243",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-023-nig-dull-green.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "NIG",
+        "NIG Side Marker — Dull green"
+      ],
+      "reference_study_only": true,
+      "legend_label": "NIG Side Marker — Dull green",
+      "source_description_ko": "Stopping position 접근 초기에 arrow-shaped aperture를 통해 preliminary dull GREEN light가 보이는 상태이다."
+    },
+    {
+      "id": "JEPP-VDGS-024",
+      "number": 24,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 2,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-02",
+        "title": "Honeywell · INOGON · NIG"
+      },
+      "source_page": 243,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "NIG Side Marker — Intense green"
+        },
+        {
+          "id": "B",
+          "text": "NIG — GREEN/RED"
+        },
+        {
+          "id": "C",
+          "text": "NIG Side Marker — Dull green"
+        },
+        {
+          "id": "D",
+          "text": "NIG Side Marker — Reducing green arrow-head"
+        }
+      ],
+      "answer": "A",
+      "explanation": "정답은 NIG Side Marker — Intense green입니다. Aircraft가 전진하면서 green light intensity가 증가하여 밝은 arrow-head가 되는 단계이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.243",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-024-nig-intense-green.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "NIG",
+        "NIG Side Marker — Intense green"
+      ],
+      "reference_study_only": true,
+      "legend_label": "NIG Side Marker — Intense green",
+      "source_description_ko": "Aircraft가 전진하면서 green light intensity가 증가하여 밝은 arrow-head가 되는 단계이다."
+    },
+    {
+      "id": "JEPP-VDGS-025",
+      "number": 25,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 2,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-02",
+        "title": "Honeywell · INOGON · NIG"
+      },
+      "source_page": 243,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "NIG Side Marker — White bars / stop position"
+        },
+        {
+          "id": "B",
+          "text": "NIG Side Marker — Reducing green arrow-head"
+        },
+        {
+          "id": "C",
+          "text": "NIG Side Marker — Red bar / stop position passed"
+        },
+        {
+          "id": "D",
+          "text": "NIG — RED/GREEN"
+        }
+      ],
+      "answer": "B",
+      "explanation": "정답은 NIG Side Marker — Reducing green arrow-head입니다. 계속 전진하면서 green arrow-head가 작아지는 단계이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.243",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-025-nig-green-small.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "NIG",
+        "NIG Side Marker — Reducing green arrow-head"
+      ],
+      "reference_study_only": true,
+      "legend_label": "NIG Side Marker — Reducing green arrow-head",
+      "source_description_ko": "계속 전진하면서 green arrow-head가 작아지는 단계이다."
+    },
+    {
+      "id": "JEPP-VDGS-026",
+      "number": 26,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 2,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-02",
+        "title": "Honeywell · INOGON · NIG"
+      },
+      "source_page": 243,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "NIG — GREEN/GREEN"
+        },
+        {
+          "id": "B",
+          "text": "NIG — GREEN/RED"
+        },
+        {
+          "id": "C",
+          "text": "NIG Side Marker — White bars / stop position"
+        },
+        {
+          "id": "D",
+          "text": "NIG Side Marker — Dull green"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 NIG Side Marker — White bars / stop position입니다. Arrow-head가 사라지고 두 개의 white bars가 나타나 correct stopping position을 나타내는 단계이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.243",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-026-nig-white-bars.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "NIG",
+        "NIG Side Marker — White bars / stop position"
+      ],
+      "reference_study_only": true,
+      "legend_label": "NIG Side Marker — White bars / stop position",
+      "source_description_ko": "Arrow-head가 사라지고 두 개의 white bars가 나타나 correct stopping position을 나타내는 단계이다."
+    },
+    {
+      "id": "JEPP-VDGS-027",
+      "number": 27,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 2,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-02",
+        "title": "Honeywell · INOGON · NIG"
+      },
+      "source_page": 243,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "NIG Side Marker — Intense green"
+        },
+        {
+          "id": "B",
+          "text": "NIG Side Marker — Reducing green arrow-head"
+        },
+        {
+          "id": "C",
+          "text": "NIG Side Marker — White bars / stop position"
+        },
+        {
+          "id": "D",
+          "text": "NIG Side Marker — Red bar / stop position passed"
+        }
+      ],
+      "answer": "D",
+      "explanation": "정답은 NIG Side Marker — Red bar / stop position passed입니다. 정상 stopping position을 지나치면 single RED bar가 나타난다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.243",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-027-nig-red-bar.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "NIG",
+        "NIG Side Marker — Red bar / stop position passed"
+      ],
+      "reference_study_only": true,
+      "legend_label": "NIG Side Marker — Red bar / stop position passed",
+      "source_description_ko": "정상 stopping position을 지나치면 single RED bar가 나타난다."
+    },
+    {
+      "id": "JEPP-VDGS-028",
+      "number": 28,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 3,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-03",
+        "title": "RLG Docking Systems"
+      },
+      "source_page": 243,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "RLG Automated — Left of centerline, steer toward green"
+        },
+        {
+          "id": "B",
+          "text": "RLG Automated — Aircraft on centerline"
+        },
+        {
+          "id": "C",
+          "text": "RLG Automated — Right of centerline, steer toward green"
+        },
+        {
+          "id": "D",
+          "text": "RLG Automated — Ramp clear / steady green"
+        }
+      ],
+      "answer": "A",
+      "explanation": "정답은 RLG Automated — Left of centerline, steer toward green입니다. RLG azimuth guidance에서 green bar와 left red bar가 보이면 aircraft가 centerline 좌측에 있으므로 green 쪽, 즉 우측으로 조향한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.243",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-028-rlg-left.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "RLG",
+        "RLG Automated — Left of centerline, steer toward green"
+      ],
+      "reference_study_only": true,
+      "legend_label": "RLG Automated — Left of centerline, steer toward green",
+      "source_description_ko": "RLG azimuth guidance에서 green bar와 left red bar가 보이면 aircraft가 centerline 좌측에 있으므로 green 쪽, 즉 우측으로 조향한다."
+    },
+    {
+      "id": "JEPP-VDGS-029",
+      "number": 29,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 3,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-03",
+        "title": "RLG Docking Systems"
+      },
+      "source_page": 243,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "RLG Automated — 10 m amber"
+        },
+        {
+          "id": "B",
+          "text": "RLG Automated — Aircraft on centerline"
+        },
+        {
+          "id": "C",
+          "text": "RLG Automated — 1 m amber"
+        },
+        {
+          "id": "D",
+          "text": "RLG Automated — Red STOP"
+        }
+      ],
+      "answer": "B",
+      "explanation": "정답은 RLG Automated — Aircraft on centerline입니다. RLG azimuth guidance에서 green bar만 보이면 aircraft가 centerline에 있다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.243",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-029-rlg-center.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "RLG",
+        "RLG Automated — Aircraft on centerline"
+      ],
+      "reference_study_only": true,
+      "legend_label": "RLG Automated — Aircraft on centerline",
+      "source_description_ko": "RLG azimuth guidance에서 green bar만 보이면 aircraft가 centerline에 있다."
+    },
+    {
+      "id": "JEPP-VDGS-030",
+      "number": 30,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 3,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-03",
+        "title": "RLG Docking Systems"
+      },
+      "source_page": 243,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "RLG Automated — Left of centerline, steer toward green"
+        },
+        {
+          "id": "B",
+          "text": "RLG Automated — Aircraft on centerline"
+        },
+        {
+          "id": "C",
+          "text": "RLG Automated — Right of centerline, steer toward green"
+        },
+        {
+          "id": "D",
+          "text": "RLG Automated — Ramp clear / steady green"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 RLG Automated — Right of centerline, steer toward green입니다. RLG azimuth guidance에서 green bar와 right red bar가 보이면 aircraft가 centerline 우측에 있으므로 green 쪽, 즉 좌측으로 조향한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.243",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-030-rlg-right.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "RLG",
+        "RLG Automated — Right of centerline, steer toward green"
+      ],
+      "reference_study_only": true,
+      "legend_label": "RLG Automated — Right of centerline, steer toward green",
+      "source_description_ko": "RLG azimuth guidance에서 green bar와 right red bar가 보이면 aircraft가 centerline 우측에 있으므로 green 쪽, 즉 좌측으로 조향한다."
+    },
+    {
+      "id": "JEPP-VDGS-031",
+      "number": 31,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 3,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-03",
+        "title": "RLG Docking Systems"
+      },
+      "source_page": 244,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "RLG Automated — 10 m amber"
+        },
+        {
+          "id": "B",
+          "text": "RLG Automated — 1 m amber"
+        },
+        {
+          "id": "C",
+          "text": "RLG Automated — Red STOP"
+        },
+        {
+          "id": "D",
+          "text": "RLG Automated — Ramp clear / steady green"
+        }
+      ],
+      "answer": "D",
+      "explanation": "정답은 RLG Automated — Ramp clear / steady green입니다. Laser scanner가 approaching aircraft를 감지하면 green lamps가 켜져 ramp clear 상태를 나타낸다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.244",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-031-rlg-ramp-clear.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "RLG",
+        "RLG Automated — Ramp clear / steady green"
+      ],
+      "reference_study_only": true,
+      "legend_label": "RLG Automated — Ramp clear / steady green",
+      "source_description_ko": "Laser scanner가 approaching aircraft를 감지하면 green lamps가 켜져 ramp clear 상태를 나타낸다."
+    },
+    {
+      "id": "JEPP-VDGS-032",
+      "number": 32,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 3,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-03",
+        "title": "RLG Docking Systems"
+      },
+      "source_page": 244,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "RLG Automated — 10 m amber"
+        },
+        {
+          "id": "B",
+          "text": "RLG Automated — Left of centerline, steer toward green"
+        },
+        {
+          "id": "C",
+          "text": "RLG Automated — Aircraft on centerline"
+        },
+        {
+          "id": "D",
+          "text": "RLG Automated — Right of centerline, steer toward green"
+        }
+      ],
+      "answer": "A",
+      "explanation": "정답은 RLG Automated — 10 m amber입니다. Final stop position 10 m 전부터 amber lamps가 켜지며 최소 taxi speed로 감속해야 한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.244",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-032-rlg-10m-amber.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "RLG",
+        "RLG Automated — 10 m amber"
+      ],
+      "reference_study_only": true,
+      "legend_label": "RLG Automated — 10 m amber",
+      "source_description_ko": "Final stop position 10 m 전부터 amber lamps가 켜지며 최소 taxi speed로 감속해야 한다."
+    },
+    {
+      "id": "JEPP-VDGS-033",
+      "number": 33,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 3,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-03",
+        "title": "RLG Docking Systems"
+      },
+      "source_page": 244,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "RLG Automated — Ramp clear / steady green"
+        },
+        {
+          "id": "B",
+          "text": "RLG Automated — 1 m amber"
+        },
+        {
+          "id": "C",
+          "text": "RLG Automated — 10 m amber"
+        },
+        {
+          "id": "D",
+          "text": "RLG Automated — Red STOP"
+        }
+      ],
+      "answer": "B",
+      "explanation": "정답은 RLG Automated — 1 m amber입니다. Stop position 1 m 전까지 amber stopping guidance가 계속되는 상태이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.244",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-033-rlg-1m-amber.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "RLG",
+        "RLG Automated — 1 m amber"
+      ],
+      "reference_study_only": true,
+      "legend_label": "RLG Automated — 1 m amber",
+      "source_description_ko": "Stop position 1 m 전까지 amber stopping guidance가 계속되는 상태이다."
+    },
+    {
+      "id": "JEPP-VDGS-034",
+      "number": 34,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 3,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-03",
+        "title": "RLG Docking Systems"
+      },
+      "source_page": 244,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "RLG Automated — Left of centerline, steer toward green"
+        },
+        {
+          "id": "B",
+          "text": "RLG Automated — Aircraft on centerline"
+        },
+        {
+          "id": "C",
+          "text": "RLG Automated — Red STOP"
+        },
+        {
+          "id": "D",
+          "text": "RLG Automated — Right of centerline, steer toward green"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 RLG Automated — Red STOP입니다. Stop position에 도달하면 red lamps와 STOP 표시가 점등된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.244",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-034-rlg-red-stop.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "RLG",
+        "RLG Automated — Red STOP"
+      ],
+      "reference_study_only": true,
+      "legend_label": "RLG Automated — Red STOP",
+      "source_description_ko": "Stop position에 도달하면 red lamps와 STOP 표시가 점등된다."
+    },
+    {
+      "id": "JEPP-VDGS-035",
+      "number": 35,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 3,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-03",
+        "title": "RLG Docking Systems"
+      },
+      "source_page": 245,
+      "question": "다음 Jeppesen VDGS 그림에 해당하는 시스템은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "RLG GIS206-2 — On centerline"
+        },
+        {
+          "id": "B",
+          "text": "RLG GIS206-2 — Aircraft left of centerline"
+        },
+        {
+          "id": "C",
+          "text": "RLG GIS206-2 — Aircraft right of centerline"
+        },
+        {
+          "id": "D",
+          "text": "RLG GIS206-2 — Main docking console"
+        }
+      ],
+      "answer": "D",
+      "explanation": "정답은 RLG GIS206-2 — Main docking console입니다. Aircraft type, continuous closing distance, azimuth guidance를 한 console에 표시하는 RLG GIS206-2 laser guided docking display이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.245",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-035-rlg-gis206-console.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "RLG GIS206",
+        "RLG GIS206-2 — Main docking console"
+      ],
+      "reference_study_only": true,
+      "legend_label": "RLG GIS206-2 — Main docking console",
+      "source_description_ko": "Aircraft type, continuous closing distance, azimuth guidance를 한 console에 표시하는 RLG GIS206-2 laser guided docking display이다."
+    },
+    {
+      "id": "JEPP-VDGS-036",
+      "number": 36,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 3,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-03",
+        "title": "RLG Docking Systems"
+      },
+      "source_page": 246,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "RLG GIS206-2 — On centerline"
+        },
+        {
+          "id": "B",
+          "text": "RLG GIS206-2 — Main docking console"
+        },
+        {
+          "id": "C",
+          "text": "RLG GIS206-2 — Aircraft left of centerline"
+        },
+        {
+          "id": "D",
+          "text": "RLG GIS206-2 — Aircraft right of centerline"
+        }
+      ],
+      "answer": "A",
+      "explanation": "정답은 RLG GIS206-2 — On centerline입니다. Green light bar가 켜지면 aircraft가 centerline에 있으므로 straight ahead를 유지한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.246",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-036-rlg-gis-center.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "RLG GIS206",
+        "RLG GIS206-2 — On centerline"
+      ],
+      "reference_study_only": true,
+      "legend_label": "RLG GIS206-2 — On centerline",
+      "source_description_ko": "Green light bar가 켜지면 aircraft가 centerline에 있으므로 straight ahead를 유지한다."
+    },
+    {
+      "id": "JEPP-VDGS-037",
+      "number": 37,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 3,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-03",
+        "title": "RLG Docking Systems"
+      },
+      "source_page": 247,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "RLG GIS206-2 — Main docking console"
+        },
+        {
+          "id": "B",
+          "text": "RLG GIS206-2 — Aircraft left of centerline"
+        },
+        {
+          "id": "C",
+          "text": "RLG GIS206-2 — On centerline"
+        },
+        {
+          "id": "D",
+          "text": "RLG GIS206-2 — Aircraft right of centerline"
+        }
+      ],
+      "answer": "B",
+      "explanation": "정답은 RLG GIS206-2 — Aircraft left of centerline입니다. Red light bar가 green bar의 왼쪽에 나타나면 aircraft가 centerline 좌측에 있으므로 우측으로 이동해야 한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.247",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-037-rlg-gis-left.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "RLG GIS206",
+        "RLG GIS206-2 — Aircraft left of centerline"
+      ],
+      "reference_study_only": true,
+      "legend_label": "RLG GIS206-2 — Aircraft left of centerline",
+      "source_description_ko": "Red light bar가 green bar의 왼쪽에 나타나면 aircraft가 centerline 좌측에 있으므로 우측으로 이동해야 한다."
+    },
+    {
+      "id": "JEPP-VDGS-038",
+      "number": 38,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 3,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-03",
+        "title": "RLG Docking Systems"
+      },
+      "source_page": 247,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "RLG GIS206-2 — Main docking console"
+        },
+        {
+          "id": "B",
+          "text": "RLG GIS206-2 — On centerline"
+        },
+        {
+          "id": "C",
+          "text": "RLG GIS206-2 — Aircraft right of centerline"
+        },
+        {
+          "id": "D",
+          "text": "RLG GIS206-2 — Aircraft left of centerline"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 RLG GIS206-2 — Aircraft right of centerline입니다. Red light bar가 green bar의 오른쪽에 나타나면 aircraft가 centerline 우측에 있으므로 좌측으로 이동해야 한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.247",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-038-rlg-gis-right.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "RLG GIS206",
+        "RLG GIS206-2 — Aircraft right of centerline"
+      ],
+      "reference_study_only": true,
+      "legend_label": "RLG GIS206-2 — Aircraft right of centerline",
+      "source_description_ko": "Red light bar가 green bar의 오른쪽에 나타나면 aircraft가 centerline 우측에 있으므로 좌측으로 이동해야 한다."
+    },
+    {
+      "id": "JEPP-VDGS-039",
+      "number": 39,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 4,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-04",
+        "title": "Safedock Normal Procedures"
+      },
+      "source_page": 249,
+      "question": "다음 Jeppesen VDGS 그림에 해당하는 시스템은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Safedock — Stop position reached"
+        },
+        {
+          "id": "B",
+          "text": "Safedock — TOO FAR"
+        },
+        {
+          "id": "C",
+          "text": "Safedock — Start-of-docking WAIT"
+        },
+        {
+          "id": "D",
+          "text": "Safedock A-VDGS — System display"
+        }
+      ],
+      "answer": "D",
+      "explanation": "정답은 Safedock A-VDGS — System display입니다. Eye-safe infrared laser와 3D scanning으로 aircraft를 식별하고 centerline/closing rate를 제공하는 Safedock A-VDGS display이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.249",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-039-safedock-system.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "Safedock",
+        "Safedock A-VDGS — System display"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Safedock A-VDGS — System display",
+      "source_description_ko": "Eye-safe infrared laser와 3D scanning으로 aircraft를 식별하고 centerline/closing rate를 제공하는 Safedock A-VDGS display이다."
+    },
+    {
+      "id": "JEPP-VDGS-040",
+      "number": 40,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 4,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-04",
+        "title": "Safedock Normal Procedures"
+      },
+      "source_page": 253,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Safedock — Start-of-docking WAIT"
+        },
+        {
+          "id": "B",
+          "text": "Safedock — WAIT"
+        },
+        {
+          "id": "C",
+          "text": "Safedock — Capture mode"
+        },
+        {
+          "id": "D",
+          "text": "Safedock — Closing rate"
+        }
+      ],
+      "answer": "A",
+      "explanation": "정답은 Safedock — Start-of-docking WAIT입니다. System 시작 시 WAIT가 표시되는 start-of-docking 상태이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.253",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-040-safedock-start-wait.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "Safedock",
+        "Safedock — Start-of-docking WAIT"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Safedock — Start-of-docking WAIT",
+      "source_description_ko": "System 시작 시 WAIT가 표시되는 start-of-docking 상태이다."
+    },
+    {
+      "id": "JEPP-VDGS-041",
+      "number": 41,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 4,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-04",
+        "title": "Safedock Normal Procedures"
+      },
+      "source_page": 253,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Safedock — Tracking"
+        },
+        {
+          "id": "B",
+          "text": "Safedock — Capture mode"
+        },
+        {
+          "id": "C",
+          "text": "Safedock — Aligned to center"
+        },
+        {
+          "id": "D",
+          "text": "Safedock — Azimuth guidance"
+        }
+      ],
+      "answer": "B",
+      "explanation": "정답은 Safedock — Capture mode입니다. Floating arrows는 system이 capture mode에서 approaching aircraft를 탐색 중임을 뜻한다. Correct aircraft type도 확인해야 한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.253",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-041-safedock-capture.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "Safedock",
+        "Safedock — Capture mode"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Safedock — Capture mode",
+      "source_description_ko": "Floating arrows는 system이 capture mode에서 approaching aircraft를 탐색 중임을 뜻한다. Correct aircraft type도 확인해야 한다."
+    },
+    {
+      "id": "JEPP-VDGS-042",
+      "number": 42,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 4,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-04",
+        "title": "Safedock Normal Procedures"
+      },
+      "source_page": 253,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Safedock — SLOW DOWN"
+        },
+        {
+          "id": "B",
+          "text": "Safedock — Stop position reached"
+        },
+        {
+          "id": "C",
+          "text": "Safedock — Tracking"
+        },
+        {
+          "id": "D",
+          "text": "Safedock — TOO FAR"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 Safedock — Tracking입니다. Laser가 aircraft를 포착하면 floating arrow가 yellow centerline indicator로 바뀌고 azimuth guidance가 시작된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.253",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-042-safedock-tracking.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "Safedock",
+        "Safedock — Tracking"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Safedock — Tracking",
+      "source_description_ko": "Laser가 aircraft를 포착하면 floating arrow가 yellow centerline indicator로 바뀌고 azimuth guidance가 시작된다."
+    },
+    {
+      "id": "JEPP-VDGS-043",
+      "number": 43,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 4,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-04",
+        "title": "Safedock Normal Procedures"
+      },
+      "source_page": 254,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Safedock — Docking completed / OK"
+        },
+        {
+          "id": "B",
+          "text": "Safedock — WAIT"
+        },
+        {
+          "id": "C",
+          "text": "Safedock — Start-of-docking WAIT"
+        },
+        {
+          "id": "D",
+          "text": "Safedock — Closing rate"
+        }
+      ],
+      "answer": "D",
+      "explanation": "정답은 Safedock — Closing rate입니다. Stop position까지의 digital countdown과 yellow vertical closing-rate bar/centerline indicator가 나타나는 단계이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.254",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-043-safedock-closing-rate.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "Safedock",
+        "Safedock — Closing rate"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Safedock — Closing rate",
+      "source_description_ko": "Stop position까지의 digital countdown과 yellow vertical closing-rate bar/centerline indicator가 나타나는 단계이다."
+    },
+    {
+      "id": "JEPP-VDGS-044",
+      "number": 44,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 4,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-04",
+        "title": "Safedock Normal Procedures"
+      },
+      "source_page": 254,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Safedock — Aligned to center"
+        },
+        {
+          "id": "B",
+          "text": "Safedock A-VDGS — System display"
+        },
+        {
+          "id": "C",
+          "text": "Safedock — Capture mode"
+        },
+        {
+          "id": "D",
+          "text": "Safedock — Closing rate"
+        }
+      ],
+      "answer": "A",
+      "explanation": "정답은 Safedock — Aligned to center입니다. Direction arrow가 없는 상태는 aircraft가 centerline에 정렬되었음을 뜻한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.254",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-044-safedock-aligned.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "Safedock",
+        "Safedock — Aligned to center"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Safedock — Aligned to center",
+      "source_description_ko": "Direction arrow가 없는 상태는 aircraft가 centerline에 정렬되었음을 뜻한다."
+    },
+    {
+      "id": "JEPP-VDGS-045",
+      "number": 45,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 4,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-04",
+        "title": "Safedock Normal Procedures"
+      },
+      "source_page": 254,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Safedock — Tracking"
+        },
+        {
+          "id": "B",
+          "text": "Safedock — SLOW DOWN"
+        },
+        {
+          "id": "C",
+          "text": "Safedock — Aligned to center"
+        },
+        {
+          "id": "D",
+          "text": "Safedock — Stop position reached"
+        }
+      ],
+      "answer": "B",
+      "explanation": "정답은 Safedock — SLOW DOWN입니다. Accepted speed보다 빠르게 접근할 때 SLOW DOWN 경고가 표시된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.254",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-045-safedock-slow-down.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "Safedock",
+        "Safedock — SLOW DOWN"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Safedock — SLOW DOWN",
+      "source_description_ko": "Accepted speed보다 빠르게 접근할 때 SLOW DOWN 경고가 표시된다."
+    },
+    {
+      "id": "JEPP-VDGS-046",
+      "number": 46,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 4,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-04",
+        "title": "Safedock Normal Procedures"
+      },
+      "source_page": 255,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Safedock — SLOW DOWN"
+        },
+        {
+          "id": "B",
+          "text": "Safedock — Docking completed / OK"
+        },
+        {
+          "id": "C",
+          "text": "Safedock — Azimuth guidance"
+        },
+        {
+          "id": "D",
+          "text": "Safedock — WAIT"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 Safedock — Azimuth guidance입니다. Yellow arrow는 aircraft의 centerline 대비 위치를, red flashing arrow는 조향해야 할 방향을 나타낸다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.255",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-046-safedock-azimuth.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "Safedock",
+        "Safedock — Azimuth guidance"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Safedock — Azimuth guidance",
+      "source_description_ko": "Yellow arrow는 aircraft의 centerline 대비 위치를, red flashing arrow는 조향해야 할 방향을 나타낸다."
+    },
+    {
+      "id": "JEPP-VDGS-047",
+      "number": 47,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 4,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-04",
+        "title": "Safedock Normal Procedures"
+      },
+      "source_page": 255,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Safedock — TOO FAR"
+        },
+        {
+          "id": "B",
+          "text": "Safedock A-VDGS — System display"
+        },
+        {
+          "id": "C",
+          "text": "Safedock — Capture mode"
+        },
+        {
+          "id": "D",
+          "text": "Safedock — Stop position reached"
+        }
+      ],
+      "answer": "D",
+      "explanation": "정답은 Safedock — Stop position reached입니다. Correct stop position에 도달하면 STOP과 red lights가 표시된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.255",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-047-safedock-stop.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "Safedock",
+        "Safedock — Stop position reached"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Safedock — Stop position reached",
+      "source_description_ko": "Correct stop position에 도달하면 STOP과 red lights가 표시된다."
+    },
+    {
+      "id": "JEPP-VDGS-048",
+      "number": 48,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 4,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-04",
+        "title": "Safedock Normal Procedures"
+      },
+      "source_page": 255,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Safedock — Docking completed / OK"
+        },
+        {
+          "id": "B",
+          "text": "Safedock — Start-of-docking WAIT"
+        },
+        {
+          "id": "C",
+          "text": "Safedock — Tracking"
+        },
+        {
+          "id": "D",
+          "text": "Safedock — Aligned to center"
+        }
+      ],
+      "answer": "A",
+      "explanation": "정답은 Safedock — Docking completed / OK입니다. Aircraft가 정상적으로 주기되면 OK가 표시되어 docking 완료를 나타낸다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.255",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-048-safedock-ok.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "Safedock",
+        "Safedock — Docking completed / OK"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Safedock — Docking completed / OK",
+      "source_description_ko": "Aircraft가 정상적으로 주기되면 OK가 표시되어 docking 완료를 나타낸다."
+    },
+    {
+      "id": "JEPP-VDGS-049",
+      "number": 49,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 4,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-04",
+        "title": "Safedock Normal Procedures"
+      },
+      "source_page": 256,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Safedock — Closing rate"
+        },
+        {
+          "id": "B",
+          "text": "Safedock — TOO FAR"
+        },
+        {
+          "id": "C",
+          "text": "Safedock — SLOW DOWN"
+        },
+        {
+          "id": "D",
+          "text": "Safedock — Stop position reached"
+        }
+      ],
+      "answer": "B",
+      "explanation": "정답은 Safedock — TOO FAR입니다. Aircraft가 stop position을 지나친 overshoot 상태이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.256",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-049-safedock-too-far.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "Safedock",
+        "Safedock — TOO FAR"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Safedock — TOO FAR",
+      "source_description_ko": "Aircraft가 stop position을 지나친 overshoot 상태이다."
+    },
+    {
+      "id": "JEPP-VDGS-050",
+      "number": 50,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 4,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-04",
+        "title": "Safedock Normal Procedures"
+      },
+      "source_page": 256,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Safedock — Azimuth guidance"
+        },
+        {
+          "id": "B",
+          "text": "Safedock — Docking completed / OK"
+        },
+        {
+          "id": "C",
+          "text": "Safedock — WAIT"
+        },
+        {
+          "id": "D",
+          "text": "Safedock A-VDGS — System display"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 Safedock — WAIT입니다. Object가 시야를 가리거나 aircraft를 일시적으로 잃으면 WAIT가 표시된다. Closing-rate bar가 다시 나타날 때까지 진행해서는 안 된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.256",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-050-safedock-wait.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "Safedock",
+        "Safedock — WAIT"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Safedock — WAIT",
+      "source_description_ko": "Object가 시야를 가리거나 aircraft를 일시적으로 잃으면 WAIT가 표시된다. Closing-rate bar가 다시 나타날 때까지 진행해서는 안 된다."
+    },
+    {
+      "id": "JEPP-VDGS-051",
+      "number": 51,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 5,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-05",
+        "title": "Safedock Abnormal/Status Messages"
+      },
+      "source_page": 256,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Safedock — STOP / SBU"
+        },
+        {
+          "id": "B",
+          "text": "Safedock — Emergency STOP"
+        },
+        {
+          "id": "C",
+          "text": "Safedock — ERROR code"
+        },
+        {
+          "id": "D",
+          "text": "Safedock — SLOW"
+        }
+      ],
+      "answer": "D",
+      "explanation": "정답은 Safedock — SLOW입니다. Stop position 근처에서 aircraft를 잃거나 system visibility가 저하되면 SLOW가 표시된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.256",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-051-safedock-slow.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "Safedock Abnormal",
+        "Safedock — SLOW"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Safedock — SLOW",
+      "source_description_ko": "Stop position 근처에서 aircraft를 잃거나 system visibility가 저하되면 SLOW가 표시된다."
+    },
+    {
+      "id": "JEPP-VDGS-052",
+      "number": 52,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 5,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-05",
+        "title": "Safedock Abnormal/Status Messages"
+      },
+      "source_page": 257,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Safedock — STOP / ID FAIL"
+        },
+        {
+          "id": "B",
+          "text": "Safedock — CHOCK ON"
+        },
+        {
+          "id": "C",
+          "text": "Safedock — System breakdown"
+        },
+        {
+          "id": "D",
+          "text": "Safedock — SLOW"
+        }
+      ],
+      "answer": "A",
+      "explanation": "정답은 Safedock — STOP / ID FAIL입니다. 12 m 전까지 aircraft verification이 완료되지 않고 재확인도 실패하면 STOP과 ID FAIL이 번갈아 표시된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.257",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-052-safedock-id-fail.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "Safedock Abnormal",
+        "Safedock — STOP / ID FAIL"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Safedock — STOP / ID FAIL",
+      "source_description_ko": "12 m 전까지 aircraft verification이 완료되지 않고 재확인도 실패하면 STOP과 ID FAIL이 번갈아 표시된다."
+    },
+    {
+      "id": "JEPP-VDGS-053",
+      "number": 53,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 5,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-05",
+        "title": "Safedock Abnormal/Status Messages"
+      },
+      "source_page": 257,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Safedock — Power failure"
+        },
+        {
+          "id": "B",
+          "text": "Safedock — WAIT / GATE BLOCK"
+        },
+        {
+          "id": "C",
+          "text": "Safedock — STOP / ID FAIL"
+        },
+        {
+          "id": "D",
+          "text": "Safedock — STOP / SBU"
+        }
+      ],
+      "answer": "B",
+      "explanation": "정답은 Safedock — WAIT / GATE BLOCK입니다. Planned stop position 방향을 object가 가리면 WAIT와 GATE BLOCK으로 docking이 중단된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.257",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-053-safedock-gate-block.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "Safedock Abnormal",
+        "Safedock — WAIT / GATE BLOCK"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Safedock — WAIT / GATE BLOCK",
+      "source_description_ko": "Planned stop position 방향을 object가 가리면 WAIT와 GATE BLOCK으로 docking이 중단된다."
+    },
+    {
+      "id": "JEPP-VDGS-054",
+      "number": 54,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 5,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-05",
+        "title": "Safedock Abnormal/Status Messages"
+      },
+      "source_page": 258,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Safedock — WAIT / GATE BLOCK"
+        },
+        {
+          "id": "B",
+          "text": "Safedock — STOP / TOO FAST"
+        },
+        {
+          "id": "C",
+          "text": "Safedock — WAIT / VIEW BLOCK"
+        },
+        {
+          "id": "D",
+          "text": "Safedock — CHOCK ON"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 Safedock — WAIT / VIEW BLOCK입니다. Laser window 오염 등으로 approaching aircraft 방향의 시야가 방해되면 VIEW BLOCK condition이 보고된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.258",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-054-safedock-view-block.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "Safedock Abnormal",
+        "Safedock — WAIT / VIEW BLOCK"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Safedock — WAIT / VIEW BLOCK",
+      "source_description_ko": "Laser window 오염 등으로 approaching aircraft 방향의 시야가 방해되면 VIEW BLOCK condition이 보고된다."
+    },
+    {
+      "id": "JEPP-VDGS-055",
+      "number": 55,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 5,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-05",
+        "title": "Safedock Abnormal/Status Messages"
+      },
+      "source_page": 259,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Safedock — Emergency STOP"
+        },
+        {
+          "id": "B",
+          "text": "Safedock — ERROR code"
+        },
+        {
+          "id": "C",
+          "text": "Safedock — Power failure"
+        },
+        {
+          "id": "D",
+          "text": "Safedock — STOP / SBU"
+        }
+      ],
+      "answer": "D",
+      "explanation": "정답은 Safedock — STOP / SBU입니다. 복구 불가능한 error가 발생하면 safety backup condition으로 STOP과 SBU가 표시되며 manual backup guidance가 필요하다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.259",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-055-safedock-sbu.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "Safedock Abnormal",
+        "Safedock — STOP / SBU"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Safedock — STOP / SBU",
+      "source_description_ko": "복구 불가능한 error가 발생하면 safety backup condition으로 STOP과 SBU가 표시되며 manual backup guidance가 필요하다."
+    },
+    {
+      "id": "JEPP-VDGS-056",
+      "number": 56,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 5,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-05",
+        "title": "Safedock Abnormal/Status Messages"
+      },
+      "source_page": 259,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Safedock — STOP / TOO FAST"
+        },
+        {
+          "id": "B",
+          "text": "Safedock — System breakdown"
+        },
+        {
+          "id": "C",
+          "text": "Safedock — SLOW"
+        },
+        {
+          "id": "D",
+          "text": "Safedock — WAIT / GATE BLOCK"
+        }
+      ],
+      "answer": "A",
+      "explanation": "정답은 Safedock — STOP / TOO FAST입니다. Docking system이 처리할 수 있는 속도보다 빠르면 STOP과 TOO FAST가 표시되며 system restart 또는 manual guidance가 필요하다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.259",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-056-safedock-too-fast.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "Safedock Abnormal",
+        "Safedock — STOP / TOO FAST"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Safedock — STOP / TOO FAST",
+      "source_description_ko": "Docking system이 처리할 수 있는 속도보다 빠르면 STOP과 TOO FAST가 표시되며 system restart 또는 manual guidance가 필요하다."
+    },
+    {
+      "id": "JEPP-VDGS-057",
+      "number": 57,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 5,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-05",
+        "title": "Safedock Abnormal/Status Messages"
+      },
+      "source_page": 260,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Safedock — STOP / ID FAIL"
+        },
+        {
+          "id": "B",
+          "text": "Safedock — Emergency STOP"
+        },
+        {
+          "id": "C",
+          "text": "Safedock — WAIT / VIEW BLOCK"
+        },
+        {
+          "id": "D",
+          "text": "Safedock — STOP / TOO FAST"
+        }
+      ],
+      "answer": "B",
+      "explanation": "정답은 Safedock — Emergency STOP입니다. Emergency Stop button이 눌리면 STOP이 표시된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.260",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-057-safedock-emergency-stop.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "Safedock Abnormal",
+        "Safedock — Emergency STOP"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Safedock — Emergency STOP",
+      "source_description_ko": "Emergency Stop button이 눌리면 STOP이 표시된다."
+    },
+    {
+      "id": "JEPP-VDGS-058",
+      "number": 58,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 5,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-05",
+        "title": "Safedock Abnormal/Status Messages"
+      },
+      "source_page": 260,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Safedock — STOP / SBU"
+        },
+        {
+          "id": "B",
+          "text": "Safedock — Emergency STOP"
+        },
+        {
+          "id": "C",
+          "text": "Safedock — CHOCK ON"
+        },
+        {
+          "id": "D",
+          "text": "Safedock — System breakdown"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 Safedock — CHOCK ON입니다. Ground staff가 nose wheel 앞에 chocks를 설치하고 Operator Panel에서 Chocks On을 누르면 CHOCK ON이 표시된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.260",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-058-safedock-chock-on.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "Safedock Abnormal",
+        "Safedock — CHOCK ON"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Safedock — CHOCK ON",
+      "source_description_ko": "Ground staff가 nose wheel 앞에 chocks를 설치하고 Operator Panel에서 Chocks On을 누르면 CHOCK ON이 표시된다."
+    },
+    {
+      "id": "JEPP-VDGS-059",
+      "number": 59,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 5,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-05",
+        "title": "Safedock Abnormal/Status Messages"
+      },
+      "source_page": 261,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Safedock — CHOCK ON"
+        },
+        {
+          "id": "B",
+          "text": "Safedock — Power failure"
+        },
+        {
+          "id": "C",
+          "text": "Safedock — STOP / ID FAIL"
+        },
+        {
+          "id": "D",
+          "text": "Safedock — ERROR code"
+        }
+      ],
+      "answer": "D",
+      "explanation": "정답은 Safedock — ERROR code입니다. System error 발생 시 ERROR와 maintenance용 error code가 표시된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.261",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-059-safedock-error.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "Safedock Abnormal",
+        "Safedock — ERROR code"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Safedock — ERROR code",
+      "source_description_ko": "System error 발생 시 ERROR와 maintenance용 error code가 표시된다."
+    },
+    {
+      "id": "JEPP-VDGS-060",
+      "number": 60,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 5,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-05",
+        "title": "Safedock Abnormal/Status Messages"
+      },
+      "source_page": 261,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Safedock — System breakdown"
+        },
+        {
+          "id": "B",
+          "text": "Safedock — SLOW"
+        },
+        {
+          "id": "C",
+          "text": "Safedock — WAIT / GATE BLOCK"
+        },
+        {
+          "id": "D",
+          "text": "Safedock — STOP / SBU"
+        }
+      ],
+      "answer": "A",
+      "explanation": "정답은 Safedock — System breakdown입니다. Severe system failure에서는 display가 검게 되고 red stop indicator만 남는다. Manual backup procedure가 필요하다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.261",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-060-safedock-breakdown.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "Safedock Abnormal",
+        "Safedock — System breakdown"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Safedock — System breakdown",
+      "source_description_ko": "Severe system failure에서는 display가 검게 되고 red stop indicator만 남는다. Manual backup procedure가 필요하다."
+    },
+    {
+      "id": "JEPP-VDGS-061",
+      "number": 61,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 5,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-05",
+        "title": "Safedock Abnormal/Status Messages"
+      },
+      "source_page": 261,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Safedock — WAIT / VIEW BLOCK"
+        },
+        {
+          "id": "B",
+          "text": "Safedock — Power failure"
+        },
+        {
+          "id": "C",
+          "text": "Safedock — STOP / TOO FAST"
+        },
+        {
+          "id": "D",
+          "text": "Safedock — CHOCK ON"
+        }
+      ],
+      "answer": "B",
+      "explanation": "정답은 Safedock — Power failure입니다. Power failure에서는 display가 완전히 black이 되며 manual backup procedure가 필요하다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.261",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-061-safedock-power-failure.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "Safedock Abnormal",
+        "Safedock — Power failure"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Safedock — Power failure",
+      "source_description_ko": "Power failure에서는 display가 완전히 black이 되며 manual backup procedure가 필요하다."
+    },
+    {
+      "id": "JEPP-VDGS-062",
+      "number": 62,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 6,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-06",
+        "title": "SAFEGATE · ApronVision"
+      },
+      "source_page": 263,
+      "question": "다음 Jeppesen VDGS 그림에 해당하는 시스템은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "SAFEGATE — Turn Left"
+        },
+        {
+          "id": "B",
+          "text": "SAFEGATE — On Centerline"
+        },
+        {
+          "id": "C",
+          "text": "SAFEGATE Docking System"
+        },
+        {
+          "id": "D",
+          "text": "SAFEGATE — Turn Right"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 SAFEGATE Docking System입니다. Left pilot seat에서 해석하도록 정렬되며 centerline과 stop guidance를 제공하는 SAFEGATE docking display이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.263",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-062-safegate-system.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "SAFEGATE",
+        "SAFEGATE Docking System"
+      ],
+      "reference_study_only": true,
+      "legend_label": "SAFEGATE Docking System",
+      "source_description_ko": "Left pilot seat에서 해석하도록 정렬되며 centerline과 stop guidance를 제공하는 SAFEGATE docking display이다."
+    },
+    {
+      "id": "JEPP-VDGS-063",
+      "number": 63,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 6,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-06",
+        "title": "SAFEGATE · ApronVision"
+      },
+      "source_page": 263,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "SAFEGATE Docking System"
+        },
+        {
+          "id": "B",
+          "text": "SAFEGATE — On Centerline"
+        },
+        {
+          "id": "C",
+          "text": "SAFEGATE — Turn Right"
+        },
+        {
+          "id": "D",
+          "text": "SAFEGATE — Turn Left"
+        }
+      ],
+      "answer": "D",
+      "explanation": "정답은 SAFEGATE — Turn Left입니다. Aircraft symbol이 centerline reference에 대해 좌측 조향이 필요한 상태를 나타낸다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.263",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-063-safegate-turn-left.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "SAFEGATE",
+        "SAFEGATE — Turn Left"
+      ],
+      "reference_study_only": true,
+      "legend_label": "SAFEGATE — Turn Left",
+      "source_description_ko": "Aircraft symbol이 centerline reference에 대해 좌측 조향이 필요한 상태를 나타낸다."
+    },
+    {
+      "id": "JEPP-VDGS-064",
+      "number": 64,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 6,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-06",
+        "title": "SAFEGATE · ApronVision"
+      },
+      "source_page": 263,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "SAFEGATE — On Centerline"
+        },
+        {
+          "id": "B",
+          "text": "SAFEGATE Docking System"
+        },
+        {
+          "id": "C",
+          "text": "SAFEGATE — Turn Left"
+        },
+        {
+          "id": "D",
+          "text": "SAFEGATE — Turn Right"
+        }
+      ],
+      "answer": "A",
+      "explanation": "정답은 SAFEGATE — On Centerline입니다. Aircraft symbol이 green reference bar와 정렬되어 centerline에 있는 상태이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.263",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-064-safegate-center.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "SAFEGATE",
+        "SAFEGATE — On Centerline"
+      ],
+      "reference_study_only": true,
+      "legend_label": "SAFEGATE — On Centerline",
+      "source_description_ko": "Aircraft symbol이 green reference bar와 정렬되어 centerline에 있는 상태이다."
+    },
+    {
+      "id": "JEPP-VDGS-065",
+      "number": 65,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 6,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-06",
+        "title": "SAFEGATE · ApronVision"
+      },
+      "source_page": 263,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "SAFEGATE Docking System"
+        },
+        {
+          "id": "B",
+          "text": "SAFEGATE — Turn Right"
+        },
+        {
+          "id": "C",
+          "text": "SAFEGATE — Turn Left"
+        },
+        {
+          "id": "D",
+          "text": "SAFEGATE — On Centerline"
+        }
+      ],
+      "answer": "B",
+      "explanation": "정답은 SAFEGATE — Turn Right입니다. Aircraft symbol이 centerline reference에 대해 우측 조향이 필요한 상태를 나타낸다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.263",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-065-safegate-turn-right.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "SAFEGATE",
+        "SAFEGATE — Turn Right"
+      ],
+      "reference_study_only": true,
+      "legend_label": "SAFEGATE — Turn Right",
+      "source_description_ko": "Aircraft symbol이 centerline reference에 대해 우측 조향이 필요한 상태를 나타낸다."
+    },
+    {
+      "id": "JEPP-VDGS-066",
+      "number": 66,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 6,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-06",
+        "title": "SAFEGATE · ApronVision"
+      },
+      "source_page": 264,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "ApronVision — Final positioning"
+        },
+        {
+          "id": "B",
+          "text": "ApronVision — STOP position reached"
+        },
+        {
+          "id": "C",
+          "text": "ApronVision — STAND NOT RELEASED"
+        },
+        {
+          "id": "D",
+          "text": "ApronVision — Start of docking / capture"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 ApronVision — STAND NOT RELEASED입니다. Parking stand가 ground handling company에 의해 확인·release되기 전 red STOP/NO STAND CHECK가 표시되며 stand에 진입하면 안 된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.264",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-066-apronvision-stand-not-released.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "ApronVision",
+        "ApronVision — STAND NOT RELEASED"
+      ],
+      "reference_study_only": true,
+      "legend_label": "ApronVision — STAND NOT RELEASED",
+      "source_description_ko": "Parking stand가 ground handling company에 의해 확인·release되기 전 red STOP/NO STAND CHECK가 표시되며 stand에 진입하면 안 된다."
+    },
+    {
+      "id": "JEPP-VDGS-067",
+      "number": 67,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 6,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-06",
+        "title": "SAFEGATE · ApronVision"
+      },
+      "source_page": 264,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "ApronVision — Tracking / aligned"
+        },
+        {
+          "id": "B",
+          "text": "ApronVision — Lateral displacement"
+        },
+        {
+          "id": "C",
+          "text": "ApronVision — Final positioning"
+        },
+        {
+          "id": "D",
+          "text": "ApronVision — Start of docking / capture"
+        }
+      ],
+      "answer": "D",
+      "explanation": "정답은 ApronVision — Start of docking / capture입니다. Green floating arrows는 system이 capture mode에서 approaching aircraft를 탐색 중임을 나타낸다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.264",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-067-apronvision-start.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "ApronVision",
+        "ApronVision — Start of docking / capture"
+      ],
+      "reference_study_only": true,
+      "legend_label": "ApronVision — Start of docking / capture",
+      "source_description_ko": "Green floating arrows는 system이 capture mode에서 approaching aircraft를 탐색 중임을 나타낸다."
+    },
+    {
+      "id": "JEPP-VDGS-068",
+      "number": 68,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 6,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-06",
+        "title": "SAFEGATE · ApronVision"
+      },
+      "source_page": 264,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "ApronVision — Tracking / aligned"
+        },
+        {
+          "id": "B",
+          "text": "ApronVision — STOP position reached"
+        },
+        {
+          "id": "C",
+          "text": "ApronVision — STAND NOT RELEASED"
+        },
+        {
+          "id": "D",
+          "text": "ApronVision — Start of docking / capture"
+        }
+      ],
+      "answer": "A",
+      "explanation": "정답은 ApronVision — Tracking / aligned입니다. Aircraft 식별 후 green floating arrows가 yellow centerline indicator로 바뀌며 single horizontal green arrow는 lead-in line과 올바른 정렬을 뜻한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.264",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-068-apronvision-tracking.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "ApronVision",
+        "ApronVision — Tracking / aligned"
+      ],
+      "reference_study_only": true,
+      "legend_label": "ApronVision — Tracking / aligned",
+      "source_description_ko": "Aircraft 식별 후 green floating arrows가 yellow centerline indicator로 바뀌며 single horizontal green arrow는 lead-in line과 올바른 정렬을 뜻한다."
+    },
+    {
+      "id": "JEPP-VDGS-069",
+      "number": 69,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 6,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-06",
+        "title": "SAFEGATE · ApronVision"
+      },
+      "source_page": 265,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "ApronVision — Tracking / aligned"
+        },
+        {
+          "id": "B",
+          "text": "ApronVision — Lateral displacement"
+        },
+        {
+          "id": "C",
+          "text": "ApronVision — Final positioning"
+        },
+        {
+          "id": "D",
+          "text": "ApronVision — STOP position reached"
+        }
+      ],
+      "answer": "B",
+      "explanation": "정답은 ApronVision — Lateral displacement입니다. Yellow centerline indicator 옆의 vertical red arrow가 lead-in line에 맞추기 위해 조향해야 할 방향을 나타낸다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.265",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-069-apronvision-lateral.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "ApronVision",
+        "ApronVision — Lateral displacement"
+      ],
+      "reference_study_only": true,
+      "legend_label": "ApronVision — Lateral displacement",
+      "source_description_ko": "Yellow centerline indicator 옆의 vertical red arrow가 lead-in line에 맞추기 위해 조향해야 할 방향을 나타낸다."
+    },
+    {
+      "id": "JEPP-VDGS-070",
+      "number": 70,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 6,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-06",
+        "title": "SAFEGATE · ApronVision"
+      },
+      "source_page": 265,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "ApronVision — STAND NOT RELEASED"
+        },
+        {
+          "id": "B",
+          "text": "ApronVision — Start of docking / capture"
+        },
+        {
+          "id": "C",
+          "text": "ApronVision — Final positioning"
+        },
+        {
+          "id": "D",
+          "text": "ApronVision — Tracking / aligned"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 ApronVision — Final positioning입니다. Stop position까지의 closure distance와 nose gear의 lead-in/stop position 관계를 표시하는 final positioning 단계이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.265",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-070-apronvision-final.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "ApronVision",
+        "ApronVision — Final positioning"
+      ],
+      "reference_study_only": true,
+      "legend_label": "ApronVision — Final positioning",
+      "source_description_ko": "Stop position까지의 closure distance와 nose gear의 lead-in/stop position 관계를 표시하는 final positioning 단계이다."
+    },
+    {
+      "id": "JEPP-VDGS-071",
+      "number": 71,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 6,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-06",
+        "title": "SAFEGATE · ApronVision"
+      },
+      "source_page": 265,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "ApronVision — Lateral displacement"
+        },
+        {
+          "id": "B",
+          "text": "ApronVision — Final positioning"
+        },
+        {
+          "id": "C",
+          "text": "ApronVision — STAND NOT RELEASED"
+        },
+        {
+          "id": "D",
+          "text": "ApronVision — STOP position reached"
+        }
+      ],
+      "answer": "D",
+      "explanation": "정답은 ApronVision — STOP position reached입니다. Correct stop position에 도달하면 STOP이 red characters로 표시된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.265",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-071-apronvision-stop.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "ApronVision",
+        "ApronVision — STOP position reached"
+      ],
+      "reference_study_only": true,
+      "legend_label": "ApronVision — STOP position reached",
+      "source_description_ko": "Correct stop position에 도달하면 STOP이 red characters로 표시된다."
+    },
+    {
+      "id": "JEPP-VDGS-072",
+      "number": 72,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 7,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-07",
+        "title": "AGNIS · Stop Guidance Only Systems"
+      },
+      "source_page": 266,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "AGNIS — Aircraft left of centerline"
+        },
+        {
+          "id": "B",
+          "text": "SAFEGATE — Turn Right"
+        },
+        {
+          "id": "C",
+          "text": "APIS/APIS++ — Closing rate STOP"
+        },
+        {
+          "id": "D",
+          "text": "NIG Side Marker — White bars / stop position"
+        }
+      ],
+      "answer": "A",
+      "explanation": "정답은 AGNIS — Aircraft left of centerline입니다. AGNIS에서 RED/GREEN 조합은 aircraft가 centerline 좌측에 있음을 뜻한다. 항상 green 쪽으로 turn한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.266",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-072-agnis-left.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "AGNIS",
+        "AGNIS — Aircraft left of centerline"
+      ],
+      "reference_study_only": true,
+      "legend_label": "AGNIS — Aircraft left of centerline",
+      "source_description_ko": "AGNIS에서 RED/GREEN 조합은 aircraft가 centerline 좌측에 있음을 뜻한다. 항상 green 쪽으로 turn한다."
+    },
+    {
+      "id": "JEPP-VDGS-073",
+      "number": 73,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 7,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-07",
+        "title": "AGNIS · Stop Guidance Only Systems"
+      },
+      "source_page": 266,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "ApronVision — Tracking / aligned"
+        },
+        {
+          "id": "B",
+          "text": "AGNIS — Aircraft on centerline"
+        },
+        {
+          "id": "C",
+          "text": "Honeywell — Aircraft right of centerline"
+        },
+        {
+          "id": "D",
+          "text": "RLG Automated — Aircraft on centerline"
+        }
+      ],
+      "answer": "B",
+      "explanation": "정답은 AGNIS — Aircraft on centerline입니다. AGNIS에서 GREEN/GREEN은 aircraft가 centerline에 있음을 뜻한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.266",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-073-agnis-center.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "AGNIS",
+        "AGNIS — Aircraft on centerline"
+      ],
+      "reference_study_only": true,
+      "legend_label": "AGNIS — Aircraft on centerline",
+      "source_description_ko": "AGNIS에서 GREEN/GREEN은 aircraft가 centerline에 있음을 뜻한다."
+    },
+    {
+      "id": "JEPP-VDGS-074",
+      "number": 74,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 7,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-07",
+        "title": "AGNIS · Stop Guidance Only Systems"
+      },
+      "source_page": 266,
+      "question": "다음 Jeppesen VDGS 표시가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "ApronVision — STOP position reached"
+        },
+        {
+          "id": "B",
+          "text": "Honeywell — On centerline, 0.4 m to stop"
+        },
+        {
+          "id": "C",
+          "text": "AGNIS — Aircraft right of centerline"
+        },
+        {
+          "id": "D",
+          "text": "RLG Automated — 10 m amber"
+        }
+      ],
+      "answer": "C",
+      "explanation": "정답은 AGNIS — Aircraft right of centerline입니다. AGNIS에서 GREEN/RED 조합은 aircraft가 centerline 우측에 있음을 뜻한다. 항상 green 쪽으로 turn한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.266",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-074-agnis-right.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "AGNIS",
+        "AGNIS — Aircraft right of centerline"
+      ],
+      "reference_study_only": true,
+      "legend_label": "AGNIS — Aircraft right of centerline",
+      "source_description_ko": "AGNIS에서 GREEN/RED 조합은 aircraft가 centerline 우측에 있음을 뜻한다. 항상 green 쪽으로 turn한다."
+    },
+    {
+      "id": "JEPP-VDGS-075",
+      "number": 75,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 7,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-07",
+        "title": "AGNIS · Stop Guidance Only Systems"
+      },
+      "source_page": 268,
+      "question": "다음 Jeppesen VDGS 그림에 해당하는 시스템은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Side Marker Board (SMB) — One Slot Example"
+        },
+        {
+          "id": "B",
+          "text": "Honeywell — ESTOP"
+        },
+        {
+          "id": "C",
+          "text": "RLG GIS206-2 — On centerline"
+        },
+        {
+          "id": "D",
+          "text": "Parallax Aircraft Parking Aid (PAPA)"
+        }
+      ],
+      "answer": "D",
+      "explanation": "정답은 Parallax Aircraft Parking Aid (PAPA)입니다. Stand centerline 우측에 설치되는 stop-only aid로, aircraft type line과 fluorescent tube/slot의 시차를 이용해 정확한 forward stopping position을 제공한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.268",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-075-papa.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "Stop-only",
+        "Parallax Aircraft Parking Aid (PAPA)"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Parallax Aircraft Parking Aid (PAPA)",
+      "source_description_ko": "Stand centerline 우측에 설치되는 stop-only aid로, aircraft type line과 fluorescent tube/slot의 시차를 이용해 정확한 forward stopping position을 제공한다."
+    },
+    {
+      "id": "JEPP-VDGS-076",
+      "number": 76,
+      "subject": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS)",
+      "study_unit": 7,
+      "study_unit_title": "Visual Docking Guidance Systems (VDGS)",
+      "subunit": {
+        "code": "VDGS-STAGE-07",
+        "title": "AGNIS · Stop Guidance Only Systems"
+      },
+      "source_page": 269,
+      "question": "다음 Jeppesen VDGS 그림에 해당하는 시스템은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Side Marker Board (SMB) — One Slot Example"
+        },
+        {
+          "id": "B",
+          "text": "APIS/APIS++ — STOP / OK"
+        },
+        {
+          "id": "C",
+          "text": "NIG — GREEN/GREEN"
+        },
+        {
+          "id": "D",
+          "text": "Safedock A-VDGS — System display"
+        }
+      ],
+      "answer": "A",
+      "explanation": "정답은 Side Marker Board (SMB) — One Slot Example입니다. Vertical slat의 green/black/red 면 변화를 이용해 stopping position을 제공하는 Side Marker Board의 one-slot example이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Visual Docking Guidance Systems (VDGS) p.269",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-vdgs/vdgs-076-smb.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "VDGS",
+        "Stop-only",
+        "Side Marker Board (SMB) — One Slot Example"
+      ],
+      "reference_study_only": true,
+      "legend_label": "Side Marker Board (SMB) — One Slot Example",
+      "source_description_ko": "Vertical slat의 green/black/red 면 변화를 이용해 stopping position을 제공하는 Side Marker Board의 one-slot example이다."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "patch": "v11.60.23",
+  "base": "v11.60.22",
+  "source_pages": "234-269",
+  "questions": 76,
+  "theory_stages": 7,
+  "new_images": 76,
+  "js_syntax": true,
+  "errors": [],
+  "delta_policy": "Only v11.60.23 VDGS images/data/script + cumulative index are included; previous figure directories excluded."
+}
