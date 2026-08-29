@@ -1,0 +1,16 @@
+{
+  "version": "11.60.10",
+  "base_patch": "github-question-bank-v11.60.9-weekly-study-time-pilot-grade-one-shot-patch.zip",
+  "fixes": {
+    "theory_quiz_result_review_forced": true,
+    "explicit_question_expand_button": true,
+    "readonly_choices": true,
+    "preserve_current_attempt_choice_order": true,
+    "figures_supported": true
+  },
+  "changed_files": [
+    "index.html",
+    "assets/app-v11-44.js",
+    "assets/style-v11-60-10-theory-result-review.css"
+  ]
+}

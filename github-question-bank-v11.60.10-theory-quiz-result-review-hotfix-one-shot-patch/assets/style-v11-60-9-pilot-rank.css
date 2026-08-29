@@ -1,0 +1,58 @@
+/* PilotBank v11.60.9 — cumulative study-time pilot grade */
+.home-pilot-rank-strip{
+  display:grid;
+  grid-template-columns:auto auto minmax(150px,1fr) auto;
+  align-items:center;
+  gap:14px;
+  width:min(100%,820px);
+  box-sizing:border-box;
+  margin:16px 0 10px;
+  padding:10px 14px;
+  border:1px solid rgba(148,163,184,.18);
+  border-radius:14px;
+  background:rgba(2,6,23,.34);
+  font-variant-numeric:tabular-nums;
+}
+.home-pilot-rank-badge{
+  display:inline-flex;
+  align-items:center;
+  gap:7px;
+  min-height:34px;
+  padding:0 12px;
+  border:1px solid rgba(148,163,184,.38);
+  border-radius:999px;
+  background:rgba(15,23,42,.68);
+  white-space:nowrap;
+}
+.home-pilot-rank-icon{font-size:.9rem;line-height:1}
+.home-pilot-rank-badge strong{font-size:1rem;letter-spacing:-.02em}
+.home-pilot-rank-total,.home-pilot-rank-next{color:#94a3b8;white-space:nowrap;font-size:.9rem}
+.home-pilot-rank-total strong{color:#f8fafc;font-size:1rem}
+.home-pilot-rank-track{
+  position:relative;
+  height:7px;
+  overflow:hidden;
+  border-radius:999px;
+  background:rgba(148,163,184,.18);
+}
+.home-pilot-rank-fill{
+  position:absolute;
+  inset:0 auto 0 0;
+  width:0;
+  border-radius:inherit;
+  background:#22d3ee;
+  transition:width .35s ease;
+}
+.home-pilot-rank-next{justify-self:end}
+.home-pilot-rank-strip.is-unavailable .home-pilot-rank-track{opacity:.45}
+@media(max-width:760px){
+  .home-pilot-rank-strip{grid-template-columns:auto 1fr;gap:10px 12px;padding:12px}
+  .home-pilot-rank-total{justify-self:end}
+  .home-pilot-rank-track{grid-column:1/-1;width:100%}
+  .home-pilot-rank-next{grid-column:1/-1;justify-self:end}
+}
+@media(max-width:440px){
+  .home-pilot-rank-strip{grid-template-columns:1fr}
+  .home-pilot-rank-total,.home-pilot-rank-next{justify-self:start}
+  .home-pilot-rank-track,.home-pilot-rank-next{grid-column:1}
+}

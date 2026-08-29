@@ -1,0 +1,19 @@
+{
+  "version": "11.60.7",
+  "base_patch": "github-question-bank-v11.60.6-all-reviewed-spacing-one-shot-patch.zip",
+  "features": {
+    "theory_exam_result_expand_readonly_question": true,
+    "weekly_ranking_all_answer_review": true,
+    "choices_reclickable": false,
+    "explanations_preserved": true,
+    "figures_supported_in_main_exam_review": true
+  },
+  "preserved_data_files": [
+    "questions-air-navigation-v1.json",
+    "questions-airlaw-v1.json",
+    "questions-atccomm-v1.json",
+    "questions-flight-theory-v1.json",
+    "questions-kaim-v1.json",
+    "questions-v11-2.json"
+  ]
+}

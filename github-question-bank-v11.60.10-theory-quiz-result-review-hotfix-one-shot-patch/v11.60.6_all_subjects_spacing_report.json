@@ -1,0 +1,19 @@
+{
+  "revision": "v11.60.6-all-reviewed-subjects-spacing-patch",
+  "subjects": {
+    "비행이론": 914,
+    "공중항법": 879,
+    "K-AIM": 1122,
+    "검댕이 항공법규": 503,
+    "항공교통통신": 938
+  },
+  "total_reviewed_questions": 4356,
+  "spacing_changed_questions": {
+    "비행이론": 177,
+    "공중항법": 221,
+    "K-AIM": 865,
+    "검댕이 항공법규": 215,
+    "항공교통통신": 445
+  },
+  "kaim_residual_source_recovery_flags": 76
+}

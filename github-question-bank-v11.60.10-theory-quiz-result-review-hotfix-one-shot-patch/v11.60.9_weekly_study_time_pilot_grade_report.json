@@ -1,0 +1,37 @@
+{
+  "version": "11.60.9",
+  "base": "11.60.8",
+  "features": {
+    "weekly_ranking_counts_as_study_time": true,
+    "ranking_lobby_counts": false,
+    "ranking_result_counts": false,
+    "idle_timeout_minutes": 10,
+    "pilot_grade_threshold_hours": [
+      {
+        "name": "학생조종사",
+        "min_hours": 0
+      },
+      {
+        "name": "자가용 조종사",
+        "min_hours": 40
+      },
+      {
+        "name": "사업용 조종사",
+        "min_hours": 200
+      },
+      {
+        "name": "운송용 조종사",
+        "min_hours": 1500
+      }
+    ],
+    "home_progress_bar": "current grade band to next threshold",
+    "database_schema_change": false
+  },
+  "changed_files": [
+    "index.html",
+    "assets/app-v11-44.js",
+    "assets/community-v11-60.js",
+    "assets/style-v11-60-9-pilot-rank.css"
+  ],
+  "preserved_question_data": true
+}
