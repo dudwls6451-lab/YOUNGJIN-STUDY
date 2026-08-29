@@ -1,0 +1,748 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PilotBank · 항공 문제은행</title>
+  <link rel="stylesheet" href="./assets/style-v11-33.css?v=11.34.0" />
+  <link rel="stylesheet" href="./assets/style-v11-47.css?v=11.47.0" />
+  <link rel="stylesheet" href="./assets/style-v11-56-1.css?v=11.56.1" />
+  <link rel="stylesheet" href="./assets/style-v11-57.css?v=11.57.0" />
+  <link rel="stylesheet" href="./assets/style-v11-58-3-aviwiki-hotfix.css?v=11.58.3" />
+  <link rel="stylesheet" href="./assets/style-v11-59-1-study-group.css?v=11.59.1" />
+  <link rel="stylesheet" href="./assets/style-v11-60-community.css?v=11.60.0" />
+  <link rel="stylesheet" href="./assets/style-v11-60-7-result-review.css?v=11.60.11" />
+  <link rel="stylesheet" href="./assets/style-v11-60-10-theory-result-review.css?v=11.60.11" />
+  <link rel="stylesheet" href="./assets/style-v11-60-9-pilot-rank.css?v=11.60.11" />
+  <link rel="stylesheet" href="./assets/style-v11-60-11-wrong-review.css?v=11.60.11" />
+  <link rel="stylesheet" href="./assets/style-v11-60-13-admin-inline-edit.css?v=11.60.13" />
+  <link rel="stylesheet" href="./assets/style-v11-60-14-reference-study.css?v=11.60.14" />
+  <link rel="stylesheet" href="./assets/style-v11-60-15-reference-symbols.css?v=11.60.15" />
+  <link rel="manifest" href="./manifest.webmanifest?v=11.60.0" />
+  <link rel="apple-touch-icon" href="./assets/pwa-icon-192.png" />
+  <meta name="theme-color" content="#0f766e" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div>
+        <h1><button id="homeTitleBtn" class="brand-home-button" type="button" aria-label="홈으로 이동">항공 문제은행</button></h1>
+        <p class="muted">모바일 · iPad 최적화 학습 플랫폼 · v11.60.15</p>
+      </div>
+      <nav class="row nav-row" aria-label="빠른 이동 메뉴">
+        <button id="menuToggleBtn" class="button secondary nav-action menu-toggle-action" type="button" aria-expanded="true" title="메뉴 접기"><span class="nav-icon">☰</span><span class="nav-label">메뉴 접기</span></button>
+        <button id="homeNavBtn" class="button secondary nav-action" type="button" title="홈"><span class="nav-icon">⌂</span><span class="nav-label">홈</span></button>
+        <button id="studyNavBtn" class="button secondary nav-action" type="button" title="학습 모드 선택"><span class="nav-icon">✦</span><span class="nav-label">학습 선택</span></button>
+        <button id="textbookQuickNavBtn" class="button secondary nav-action" type="button" title="각 교재 학습"><span class="nav-icon">▤</span><span class="nav-label">각 교재</span></button>
+        <button id="aviwikiNavBtn" class="button secondary nav-action" type="button" title="이론 백과사전"><span class="nav-icon">⌘</span><span class="nav-label">Aviwiki</span></button>
+        <button id="airlineQuickNavBtn" class="button secondary nav-action" type="button" title="항공사 필기전형 대비"><span class="nav-icon">✈</span><span class="nav-label">항공사 대비</span></button>
+        <button id="wrongReviewQuickNavBtn" class="button secondary nav-action" type="button" title="오답 복습"><span class="nav-icon">↻</span><span class="nav-label">오답 복습</span></button>
+        <button id="statsBtn" class="button secondary nav-action" type="button" title="마이페이지"><span class="nav-icon">◉</span><span class="nav-label">마이페이지</span></button>
+        <button id="errorsBtn" type="button" class="button secondary error-list-button nav-action" title="오류 목록">
+          <span class="nav-icon">!</span><span class="nav-label">오류 목록</span> <span id="errorCountBadge" class="count-badge">0</span>
+        </button>
+        <button id="quickResourceNavBtn" type="button" class="button secondary hidden nav-action" title="자료실"><span class="nav-icon">▣</span><span class="nav-label">자료실</span></button>
+        <button id="memberManagementBtn" type="button" class="button secondary hidden nav-action" title="회원 관리"><span class="nav-icon">♙</span><span class="nav-label">회원 관리</span><span id="memberPendingBadge" class="nav-pending-badge hidden">0</span></button>
+        <button id="adminErrorReportsBtn" type="button" class="button secondary hidden nav-action" title="보고된 오류"><span class="nav-icon">⚙</span><span class="nav-label">보고된 오류</span></button>
+        <a id="problemAdminLink" class="button secondary hidden nav-action" href="./admin.html" title="문제 추가"><span class="nav-icon">＋</span><span class="nav-label">문제 추가</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="homeHero" class="home-hero">
+      <div>
+        <h2 id="homeGreeting">오늘의 학습을 시작하세요.</h2>
+        <p class="muted">목표에 맞는 학습 모드를 선택하고, 학습 현황과 취약 파트는 마이페이지에서 확인할 수 있습니다.</p>
+        <div id="homePilotRank" class="home-pilot-rank-strip" aria-live="polite">
+          <div class="home-pilot-rank-badge">
+            <span id="homePilotRankIcon" class="home-pilot-rank-icon" aria-hidden="true">🎓</span>
+            <strong id="homePilotRankName">학생조종사</strong>
+          </div>
+          <div id="homePilotRankTotal" class="home-pilot-rank-total">누적 학습시간 <strong>0h</strong></div>
+          <div id="homePilotRankTrack" class="home-pilot-rank-track" role="progressbar" aria-label="다음 등급까지 학습시간 진행률" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+            <div id="homePilotRankFill" class="home-pilot-rank-fill" style="width:0%"></div>
+          </div>
+          <div id="homePilotRankNext" class="home-pilot-rank-next">✈ 자가용 조종사까지 40h</div>
+        </div>
+        <div class="home-study-time" aria-live="polite">
+          <div id="homeTodayStudyTime" class="home-study-time-primary">오늘은 0시간 0분 공부했습니다.</div>
+          <div id="homeTotalStudyTime" class="home-study-time-secondary">지금까지 0시간 0분 공부했습니다.</div>
+        </div>
+      </div>
+      <div class="home-hero-mark" aria-hidden="true">✈</div>
+    </section>
+
+    <section id="topProgressCard" class="progress-overview">
+      <div class="dashboard-section-head">
+        <div><span class="eyebrow">PROGRESS</span><h3>교재별 학습 현황</h3></div>
+        <button id="homeMyPageBtn" type="button" class="mini-button secondary">자세히 보기 →</button>
+      </div>
+      <div id="topProgressGrid" class="top-progress-grid"></div>
+    </section>
+
+    <section id="modeHubCard" class="card mode-hub">
+      <div class="hub-title">
+        <h2>학습 모드를 선택하십시오.</h2>
+        <p class="muted">목적에 맞는 학습 과정을 선택하면 해당 문제만 사용할 수 있습니다.</p>
+      </div>
+      <div class="mode-choice-grid">
+        <button id="kotsaModeBtn" class="mode-choice-card" type="button">
+          <span class="mode-icon">✈️</span><strong>교통안전공단 면허시험 대비</strong>
+          <span>항공기상 + 검댕이 항공법규</span>
+        </button>
+        <button id="textbookModeBtn" class="mode-choice-card" type="button">
+          <span class="mode-icon">📚</span><strong>각 교재 학습</strong>
+          <span>문제 풀이 / 이론 학습 / 자유학습</span>
+        </button>
+        <button id="aviwikiModeBtn" class="mode-choice-card aviwiki-entry-card" type="button">
+          <span class="mode-icon">🧭</span><strong>이론 백과사전 · Aviwiki</strong>
+          <span>키워드 검색 · 챕터별 탐색 · 북마크 · 이어보기</span>
+        </button>
+        <button id="airlineModeBtn" class="mode-choice-card" type="button">
+          <span class="mode-icon">🛫</span><strong>항공사 필기전형 대비</strong>
+          <span>항공사별 맞춤 출제 과정</span>
+        </button>
+        <button id="wrongReviewModeBtn" class="mode-choice-card wrong-review-mode-card" type="button">
+          <span class="mode-icon">🔁</span><strong>오답 복습</strong>
+          <span>교재별·전체 오답과 ★로 고른 문제를 반복 복습</span>
+        </button>
+        <button id="resourceLibraryModeBtn" class="mode-choice-card resource-mode-card hidden" type="button">
+          <span class="mode-icon">🗂️</span><strong>자료실</strong>
+          <span>허용 계정 전용 · 열람 전용 자료</span>
+        </button>
+      </div>
+    </section>
+
+
+    <section id="aviwikiHomeCard" class="aviwiki-home hidden" aria-label="이론 백과사전">
+      <div class="aviwiki-home-inner">
+        <div class="aviwiki-kicker">⌘ 이론 백과사전 · Aviwiki</div>
+        <h2>필요한 개념을 바로 찾아보세요</h2>
+        <p id="aviwikiHomeMeta" class="aviwiki-lead">Aerodynamics, Weather, Navigation, IFR Procedures, Systems를 통합 검색하거나, 과목을 골라 처음부터 공부할 수 있어요.</p>
+
+        <label class="aviwiki-search-shell" aria-label="이론 검색">
+          <span class="aviwiki-search-icon">⌕</span>
+          <input id="aviwikiGlobalSearch" type="search" autocomplete="off" placeholder="예: 실속, 윈드시어, VOR, SID, MEA, 플랩, 유압..." />
+        </label>
+
+        <div id="aviwikiSearchResults" class="aviwiki-search-results hidden"></div>
+
+        <div class="aviwiki-home-actions">
+          <button id="aviwikiResumeBtn" class="aviwiki-feature-card primary" type="button">
+            <span class="aviwiki-feature-icon">◷</span>
+            <span><small>이어보기</small><strong id="aviwikiResumeTitle">비행 중 작용하는 4가지 힘</strong></span>
+          </button>
+          <button id="aviwikiStartBtn" class="aviwiki-feature-card" type="button">
+            <span class="aviwiki-feature-icon">▣</span>
+            <span><small>처음부터 공부하기</small><strong>Aerodynamics 부터 순서대로</strong></span>
+          </button>
+        </div>
+
+        <div class="aviwiki-subject-head">
+          <span>과목 선택</span>
+          <small>자료가 준비된 과목부터 순차적으로 열립니다.</small>
+        </div>
+        <div id="aviwikiSubjectGrid" class="aviwiki-subject-grid"></div>
+      </div>
+    </section>
+
+    <section id="aviwikiReaderCard" class="aviwiki-reader-page hidden" aria-label="이론 상세">
+      <div class="aviwiki-reader-topbar">
+        <button id="aviwikiHomeBtn" class="aviwiki-home-link" type="button">⌂ 이론 홈</button>
+        <div class="aviwiki-reader-progress"><span id="aviwikiReaderProgress">1 / 37</span></div>
+      </div>
+      <div class="aviwiki-reader-layout">
+        <aside class="aviwiki-toc">
+          <label class="aviwiki-toc-search">
+            <span>⌕</span>
+            <input id="aviwikiTocSearch" type="search" autocomplete="off" placeholder="이론 검색" />
+          </label>
+          <button id="aviwikiBookmarkOnlyBtn" class="aviwiki-bookmark-filter" type="button">♡ 북마크만</button>
+          <div id="aviwikiTocList" class="aviwiki-toc-list"></div>
+        </aside>
+        <article class="aviwiki-article">
+          <div class="aviwiki-article-head">
+            <div>
+              <div id="aviwikiArticleEyebrow" class="aviwiki-article-eyebrow">Aerodynamics · 양력과 항력</div>
+              <h1 id="aviwikiArticleTitle">비행 중 작용하는 4가지 힘</h1>
+              <div id="aviwikiArticleTags" class="aviwiki-tag-row"></div>
+            </div>
+            <button id="aviwikiBookmarkBtn" class="aviwiki-bookmark-btn" type="button" aria-label="북마크">♡</button>
+          </div>
+          <div id="aviwikiAnnotationToolbar" class="aviwiki-annotation-toolbar" aria-label="Aviwiki 학습 도구">
+            <div class="aviwiki-tool-group">
+              <button id="aviwikiHighlightBtn" class="aviwiki-tool-btn" type="button" title="드래그한 텍스트를 형광펜 표시">🖍 형광펜</button>
+              <select id="aviwikiHighlightColor" class="aviwiki-tool-select" aria-label="형광펜 색상">
+                <option value="yellow">노랑</option><option value="green">초록</option><option value="pink">분홍</option><option value="blue">파랑</option>
+              </select>
+              <button id="aviwikiHighlightEraseBtn" class="aviwiki-tool-btn secondary" type="button" title="선택 영역의 형광펜 제거">선택 지우기</button>
+            </div>
+            <div class="aviwiki-tool-group">
+              <button id="aviwikiDrawToggleBtn" class="aviwiki-tool-btn" type="button">✎ 필기</button>
+              <div id="aviwikiDrawTools" class="aviwiki-draw-tools hidden">
+                <button class="aviwiki-draw-tool active" type="button" data-aviwiki-draw-tool="hand" title="필기 박스 안을 스크롤">✋ 이동</button>
+                <button class="aviwiki-draw-tool" type="button" data-aviwiki-draw-tool="pen">펜</button>
+                <button class="aviwiki-draw-tool" type="button" data-aviwiki-draw-tool="marker">마커</button>
+                <button class="aviwiki-draw-tool" type="button" data-aviwiki-draw-tool="eraser">지우개</button>
+                <label class="aviwiki-color-label">색 <input id="aviwikiDrawColor" type="color" value="#1d4ed8" /></label>
+                <label class="aviwiki-width-label">굵기 <input id="aviwikiDrawWidth" type="range" min="1" max="24" value="4" /></label>
+                <button id="aviwikiDrawUndoBtn" class="aviwiki-tool-btn secondary" type="button">되돌리기</button>
+                <button id="aviwikiDrawClearBtn" class="aviwiki-tool-btn secondary" type="button">전체 지우기</button>
+                <button id="aviwikiNoteSaveBtn" class="aviwiki-tool-btn save" type="button">필기 저장</button>
+              </div>
+            </div>
+          </div>
+          <div id="aviwikiAnnotationViewport" class="aviwiki-annotation-viewport" aria-label="Aviwiki 필기 가능 영역">
+            <div id="aviwikiAnnotationSurface" class="aviwiki-annotation-surface">
+              <div id="aviwikiArticleBody" class="aviwiki-article-body"></div>
+              <canvas id="aviwikiDrawCanvas" class="aviwiki-draw-canvas" aria-label="Aviwiki 필기 캔버스"></canvas>
+            </div>
+          </div>
+          <div class="aviwiki-reader-nav">
+            <button id="aviwikiPrevBtn" class="button secondary" type="button">← 이전 이론</button>
+            <button id="aviwikiNextBtn" class="button" type="button">다음 이론 →</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="wrongReviewHubCard" class="card hidden">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">오답 복습</span>
+          <h2>복습 방식을 선택하십시오.</h2>
+          <p class="muted">교재별 오답, 모든 오답, 별표로 직접 고른 문제를 원하는 방식으로 복습할 수 있습니다.</p>
+        </div>
+        <button id="wrongReviewHubBackBtn" class="button secondary" type="button">이전</button>
+      </div>
+      <div class="wrong-review-mode-grid">
+        <button id="wrongReviewByBookBtn" class="mode-choice-card wrong-review-choice-card" type="button">
+          <span class="mode-icon">📚</span><strong>교재별 오답 복습</strong>
+          <span>교재를 먼저 고른 뒤 누적 오답 횟수 기준으로 복습</span>
+          <span id="wrongReviewByBookCount" class="wrong-review-mode-count">오답 기록 확인 중</span>
+        </button>
+        <button id="wrongReviewAllBtn" class="mode-choice-card wrong-review-choice-card" type="button">
+          <span class="mode-icon">🔁</span><strong>전체 오답 복습</strong>
+          <span>교재 구분 없이 한 번이라도 틀린 문제를 모두 섞어서 복습</span>
+          <span id="wrongReviewAllCount" class="wrong-review-mode-count">오답 기록 확인 중</span>
+        </button>
+        <button id="wrongReviewFavoriteBtn" class="mode-choice-card wrong-review-choice-card favorite-review-choice" type="button">
+          <span class="mode-icon">★</span><strong>내가 고른 문제 복습</strong>
+          <span>문제 풀이 중 별표를 눌러 저장한 문제만 모아서 복습</span>
+          <span id="wrongReviewFavoriteCount" class="wrong-review-mode-count">별표 기록 확인 중</span>
+        </button>
+      </div>
+    </section>
+
+    <section id="wrongReviewBookHubCard" class="card hidden">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">교재별 오답 복습</span>
+          <h2>복습할 교재를 선택하십시오.</h2>
+          <p class="muted">선택한 교재에서 한 번이라도 틀린 문제를 누적 오답 횟수 기준으로 반복 학습합니다.</p>
+        </div>
+        <button id="wrongReviewBookHubBackBtn" class="button secondary" type="button">복습 방식</button>
+      </div>
+      <div class="book-choice-grid wrong-review-book-grid">
+        <button class="book-choice-card" data-wrong-review-subject="ATP Gleim" type="button"><img src="./assets/covers/atp_gleim.jpg" alt="ATP Gleim 표지"><strong>ATP Gleim</strong><span class="wrong-review-count">오답 기록 확인</span></button>
+        <button class="book-choice-card" data-wrong-review-subject="검댕이 항공법규" type="button"><img src="./assets/covers/airlaw.jpg" alt="검댕이 항공법규 표지"><strong>검댕이 항공법규</strong><span class="wrong-review-count">오답 기록 확인</span></button>
+        <button class="book-choice-card" data-wrong-review-subject="항공기상" type="button"><img src="./assets/covers/weather.jpg" alt="항공기상 표지"><strong>항공기상</strong><span class="wrong-review-count">오답 기록 확인</span></button>
+        <button class="book-choice-card" data-wrong-review-subject="항공교통통신" type="button"><img src="./assets/covers/atc_comm_cover.jpg" alt="항공교통통신 표지"><strong>항공교통통신</strong><span class="wrong-review-count">오답 기록 확인</span></button>
+        <button class="book-choice-card" data-wrong-review-subject="K-AIM" type="button"><img src="./assets/covers/kaim_cover.jpg" alt="K-AIM 표지"><strong>K-AIM</strong><span class="wrong-review-count">오답 기록 확인</span></button>
+        <button class="book-choice-card" data-wrong-review-subject="비행이론" type="button"><img src="./assets/covers/flight_theory_cover.png" alt="비행이론 표지"><strong>비행이론</strong><span class="wrong-review-count">오답 기록 확인</span></button>
+      </div>
+    </section>
+
+    <section id="wrongReviewFilterCard" class="card hidden">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">오답 복습</span>
+          <h2 id="wrongReviewBookTitle">교재 오답 복습</h2>
+          <p class="muted">누적 오답 횟수가 기준 이상인 문제를 모두 섞어서 반복 출제합니다.</p>
+        </div>
+        <button id="wrongReviewFilterBackBtn" class="button secondary" type="button">교재 선택</button>
+      </div>
+      <div class="wrong-review-filter-panel">
+        <label>
+          누적 오답 횟수
+          <select id="wrongReviewMinCount"></select>
+        </label>
+        <div class="wrong-review-filter-summary">
+          <span class="muted">현재 복습 대상</span>
+          <strong id="wrongReviewCountInfo">0문제</strong>
+        </div>
+        <button id="wrongReviewStartBtn" class="button" type="button">오답 복습 시작</button>
+      </div>
+      <p class="muted wrong-review-note">정답을 맞혀도 과거 누적 오답 횟수는 유지되므로 같은 문제를 다시 반복 복습할 수 있습니다.</p>
+    </section>
+
+    <section id="textbookHubCard" class="card hidden">
+      <div class="section-head">
+        <div>
+          <h2>교재 학습 방식을 선택하십시오.</h2>
+          <p class="muted">문제를 바로 풀거나, 교재 이론을 순서대로 학습할 수 있습니다.</p>
+        </div>
+        <button id="textbookHubBackBtn" class="button secondary" type="button">이전</button>
+      </div>
+      <div class="study-type-grid">
+        <button id="textbookProblemBtn" class="mode-choice-card" type="button">
+          <span class="mode-icon">✍️</span><strong>문제 풀이</strong>
+          <span>기존 문제은행 방식으로 교재별 문제를 풉니다.</span>
+        </button>
+        <button id="textbookTheoryBtn" class="mode-choice-card" type="button">
+          <span class="mode-icon">📖</span><strong>이론 학습</strong>
+          <span>이론을 읽고 10문항 쪽지시험을 통과하며 다음 단계로 진행합니다.</span>
+        </button>
+      </div>
+    </section>
+
+    <section id="bookProblemHubCard" class="card hidden">
+      <div class="section-head">
+        <div><h2>문제 풀이 교재를 선택하십시오.</h2><p class="muted">기존 문제 풀이 기능은 그대로 유지됩니다.</p></div>
+        <button id="bookProblemBackBtn" class="button secondary" type="button">이전</button>
+      </div>
+      <div class="book-choice-grid">
+        <button class="book-choice-card" data-book-subject="ATP Gleim" type="button"><img src="./assets/covers/atp_gleim.jpg" alt="ATP Gleim 표지"><strong>ATP Gleim</strong></button>
+        <button class="book-choice-card" data-book-subject="검댕이 항공법규" type="button"><img src="./assets/covers/airlaw.jpg" alt="검댕이 항공법규 표지"><strong>검댕이 항공법규</strong></button>
+        <button class="book-choice-card" data-book-subject="항공기상" type="button"><img src="./assets/covers/weather.jpg" alt="항공기상 표지"><strong>항공기상</strong></button>
+        <button class="book-choice-card" data-book-subject="항공교통통신" type="button"><img src="./assets/covers/atc_comm_cover.jpg" alt="항공교통통신 표지"><strong>항공교통통신</strong><span>출제예상문제 300문항</span></button>
+        <button class="book-choice-card" data-book-subject="K-AIM" type="button"><img src="./assets/covers/kaim_cover.jpg" alt="K-AIM 표지"><strong>K-AIM</strong><span>세화 문제집 · 1,122문항</span></button>
+        <button class="book-choice-card" data-book-subject="비행이론" type="button"><img src="./assets/covers/flight_theory_cover.png" alt="비행이론 표지"><strong>비행이론</strong><span>출제예상문제 + 모의고사 · 914문항</span></button>
+        <button id="freeStudyBtn" class="book-choice-card free-study" type="button"><img src="./assets/covers/all_books.jpg" alt="전체 교재"><strong>자유학습모드</strong><span>기존 문제은행의 모든 기능 사용</span></button>
+      </div>
+    </section>
+
+    <section id="bookTheoryHubCard" class="card hidden">
+      <div class="section-head">
+        <div>
+          <h2>이론 학습 교재를 선택하십시오.</h2>
+          <p class="muted">교재 본문을 순서대로 학습하고 각 단계의 쪽지시험을 통과합니다.</p>
+        </div>
+        <button id="bookTheoryBackBtn" class="button secondary" type="button">이전</button>
+      </div>
+      <div class="book-choice-grid theory-book-grid">
+        <button id="weatherTheoryBtn" class="book-choice-card theory-ready" data-theory-subject="항공기상" type="button">
+          <img src="./assets/covers/weather.jpg" alt="항공기상 표지"><strong>항공기상</strong><span>전체 이론 과정 · 40단계</span>
+        </button>
+        <button id="airlawTheoryBtn" class="book-choice-card theory-ready" data-theory-subject="검댕이 항공법규" type="button">
+          <img src="./assets/covers/airlaw.jpg" alt="검댕이 항공법규 표지"><strong>검댕이 항공법규</strong><span>국제 항공법 + 항공안전법 · 15단계</span>
+        </button>
+        <button id="atcTheoryBtn" class="book-choice-card theory-ready" data-theory-subject="항공교통통신" type="button">
+          <img src="./assets/covers/atc_comm_cover.jpg" alt="항공교통통신 표지"><strong>항공교통통신</strong><span>300문항 연계 이론 · 14단계</span>
+        </button>
+        <button id="kaimTheoryBtn" class="book-choice-card theory-ready" data-theory-subject="K-AIM" type="button">
+          <img src="./assets/covers/kaim_cover.jpg" alt="K-AIM 표지"><strong>K-AIM 학습 모드</strong><span>30단계 · Aviwiki 이론 + 1,038문항 단계시험</span>
+        </button>
+        <div class="theory-coming-soon"><strong>ATP Gleim</strong><span>이론 학습 확장 예정</span></div>
+      </div>
+    </section>
+
+    <section id="theoryCard" class="card theory-card hidden">
+      <div class="section-head theory-main-head">
+        <div>
+          <span id="theoryEyebrow" class="eyebrow">교재 이론 학습</span>
+          <h2 id="theoryUnitTitle">이론 학습</h2>
+          <p id="theoryUnitProgress" class="muted"></p>
+        </div>
+        <button id="theoryExitBtn" class="button secondary" type="button">교재 선택</button>
+      </div>
+      <div class="theory-layout">
+        <aside class="theory-sidebar">
+          <div class="theory-sidebar-title">학습 단계</div>
+          <div id="theoryStageList" class="theory-stage-list"></div>
+        </aside>
+        <article class="theory-reader">
+          <div class="theory-stage-head">
+            <span id="theoryStageNumber" class="pill"></span>
+            <span id="theoryStageStatus" class="theory-status-badge"></span>
+          </div>
+          <h2 id="theoryStageTitle"></h2>
+          <div id="theoryContent" class="theory-content"></div>
+          <div id="theoryReadSentinel" class="theory-read-sentinel" aria-hidden="true"></div>
+          <div class="theory-test-panel">
+            <div>
+              <strong>쪽지시험</strong>
+              <p id="theoryTestGuide" class="muted">이론을 끝까지 읽으면 응시할 수 있습니다. 기존 문제은행에서 10문항이 무작위 출제되며 8문항 이상 맞아야 합격입니다.</p>
+            </div>
+            <button id="theoryTestBtn" class="button" type="button" disabled>끝까지 읽으면 응시 가능</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="airlineHubCard" class="card hidden">
+      <div class="section-head">
+        <div><h2>원하는 항공사 전형 대비 과정을 선택하십시오.</h2><p class="muted">항공사별 출제 교재와 시험 구성을 적용합니다.</p></div>
+        <button id="airlineHubBackBtn" class="button secondary" type="button">이전</button>
+      </div>
+      <div class="airline-choice-grid">
+        <button id="parataCourseBtn" class="airline-choice-card" type="button">
+          <img src="./assets/covers/parata_air.jpg" alt="PARATA AIR 로고">
+          <strong>파라타항공 대비 과정</strong>
+          <span>ATP Gleim + 검댕이 항공법규</span>
+        </button>
+        <button id="jejuCourseBtn" class="airline-choice-card jeju-air-card" type="button">
+          <img src="./assets/covers/jeju_air.png" alt="JEJUair 로고">
+          <strong>제주항공 대비 과정</strong>
+          <span>2024·2025 상/하반기 필기 복기 200문항</span>
+        </button>
+        <button id="trinityCourseBtn" class="airline-choice-card trinity-air-card" type="button">
+          <img src="./assets/covers/trinity_air.png" alt="TRINITY AIR 로고">
+          <strong>트리니티항공 대비 과정</strong>
+          <span>사용자 풀이 기록 · 고유 307문항 · 과목별 분류</span>
+        </button>
+      </div>
+    </section>
+
+
+    <section id="resourceLibraryCard" class="card resource-library-card hidden">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">제한 열람</span>
+          <h2>자료실</h2>
+          <p class="muted">허용된 시험용 계정만 열람할 수 있습니다. 원본 PDF는 배포하지 않으며, 화면 열람 전용으로 제공합니다.</p>
+        </div>
+        <button id="resourceLibraryCloseBtn" class="button secondary" type="button">학습 모드로</button>
+      </div>
+      <div class="resource-access-notice" role="note">
+        <strong>열람 전용</strong> · 다운로드 버튼 없음 · 인쇄 차단 · 우클릭 저장 차단
+      </div>
+      <div id="resourceLibraryGrid" class="resource-library-grid"></div>
+    </section>
+
+    <section id="resourceViewerCard" class="card resource-viewer-card hidden" aria-live="polite">
+      <div class="section-head resource-viewer-head">
+        <div>
+          <span class="eyebrow">TOGA 자료실 · 열람 전용</span>
+          <h2 id="resourceViewerTitle">자료</h2>
+          <p id="resourceViewerMeta" class="muted"></p>
+        </div>
+        <button id="resourceViewerBackBtn" class="button secondary" type="button">자료실 목록</button>
+      </div>
+      <div class="resource-access-notice danger" role="note">이 화면은 저장·다운로드·인쇄용이 아닙니다.</div>
+      <div id="resourceViewerPages" class="resource-viewer-pages"></div>
+    </section>
+
+    <section id="controlsCard" class="card controls hidden">
+      <div class="context-bar">
+        <div><span class="muted">현재 학습 과정</span><strong id="contextTitle">자유학습모드</strong><span id="contextNote" class="muted"></span></div>
+        <button id="backToModeBtn" class="button secondary" type="button">학습 모드 선택</button>
+      </div>
+      <div class="section-head">
+        <div>
+          <h2>문제 선택</h2>
+          <p class="muted">필터를 조합해서 원하는 범위만 출제할 수 있습니다.</p>
+        </div>
+        <span id="bankInfo" class="muted"></span>
+      </div>
+
+      <div class="grid">
+        <label>
+          과목
+          <select id="subjectFilter"></select>
+        </label>
+
+        <label>
+          Study Unit
+          <select id="studyUnitFilter"></select>
+        </label>
+
+        <div class="subunit-field">
+          <div class="field-label">소단원 · 복수선택</div>
+          <div class="subunit-toolbar">
+            <button id="selectAllSubunitsBtn" type="button" class="mini-button">전체 선택</button>
+            <button id="clearSubunitsBtn" type="button" class="mini-button secondary">선택 해제</button>
+            <span id="subunitSelectionInfo" class="muted">전체 소단원</span>
+          </div>
+          <div id="subunitFilter" class="subunit-checklist"></div>
+        </div>
+
+        <label>
+          출제 범위
+          <select id="scopeFilter">
+            <option value="all">전체 문제</option>
+            <option value="wrong">오답 문제만</option>
+            <option value="favorite">즐겨찾기만</option>
+            <option value="examExcluded">시험모드 제외 문제만</option>
+            <option value="unseen">아직 안 푼 문제</option>
+          </select>
+        </label>
+
+        <label>
+          출제 개수
+          <select id="questionCountMode">
+            <option value="10">10문제</option>
+            <option value="20" selected>20문제</option>
+            <option value="25">25문제</option>
+            <option value="30">30문제</option>
+            <option value="50">50문제</option>
+            <option value="100">100문제</option>
+            <option value="all">선택 범위 전체</option>
+            <option value="custom">직접 입력</option>
+          </select>
+        </label>
+
+        <label id="customCountWrap" class="hidden">
+          직접 입력
+          <input id="questionCount" type="number" min="1" value="20" />
+        </label>
+
+        <label>
+          모드
+          <select id="modeSelect">
+            <option value="study">학습모드 · 즉시 채점</option>
+            <option value="exam">시험모드 · 마지막에 채점</option>
+            <option value="mock">모의시험 · 25문제 · 70점 합격</option>
+          </select>
+        </label>
+
+        <label class="checkbox-label">
+          <input id="shuffleChoices" type="checkbox" />
+          보기 순서도 섞기
+        </label>
+
+        <label class="checkbox-label">
+          <input id="noFigureOnly" type="checkbox" />
+          그림 없는 문제만
+        </label>
+      </div>
+
+      <div class="row">
+        <button id="startBtn" class="button">시험 시작</button>
+      </div>
+    </section>
+
+    <section id="quizCard" class="card hidden">
+      <div class="quiz-header">
+        <span id="progress"></span>
+        <span id="score"></span>
+      </div>
+
+      <div class="question-topline">
+        <div id="questionMeta" class="pill-row"></div>
+        <div class="question-actions">
+          <button id="adminQuestionEditBtn" type="button" class="mini-button admin-question-edit-button hidden" title="관리자 문제 수정">✎ 문제 수정</button>
+          <button id="errorBtn" type="button" class="error-button" title="문제 오류 신고 · 신고 후 자동 건너뛰기" aria-label="문제 오류 신고">ERROR</button>
+          <button id="examExcludeBtn" class="icon-button exclude-button" title="시험모드 출제 제외" aria-label="시험모드 출제 제외">!</button>
+          <button id="favoriteBtn" class="icon-button" title="즐겨찾기" aria-label="즐겨찾기">☆</button>
+        </div>
+      </div>
+
+      <h2 id="questionText" class="question"></h2>
+
+      <div id="figureArea" class="figure-area hidden">
+        <div id="figureGallery" class="figure-gallery"></div>
+      </div>
+
+      <div id="figureNotice" class="notice hidden"></div>
+      <div id="choices" class="choices"></div>
+
+      <div id="feedback" class="feedback hidden"></div>
+
+      <div class="quiz-navigation" aria-label="문제 이동">
+        <button id="prevBtn" class="button secondary" type="button">← 이전 문제</button>
+        <button id="nextBtn" class="button hidden" type="button">다음 문제 →</button>
+      </div>
+    </section>
+
+    <div id="adminQuestionEditorModal" class="admin-question-editor-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="adminQuestionEditorTitle">
+      <section class="admin-question-editor-card">
+        <div class="section-head">
+          <div>
+            <span class="eyebrow">ADMIN · LIVE EDIT</span>
+            <h2 id="adminQuestionEditorTitle">문제 바로 수정</h2>
+            <p class="muted">저장한 수정본은 서버에 보관되며 모든 회원에게 다음 문제은행 로드부터 적용됩니다.</p>
+          </div>
+          <button id="adminQuestionEditCancelBtn" type="button" class="button secondary">닫기</button>
+        </div>
+        <div class="admin-question-editor-meta"><strong id="adminQuestionEditId"></strong><span id="adminQuestionEditSubject" class="muted"></span></div>
+        <label class="admin-edit-field">문제 지문<textarea id="adminQuestionEditText" rows="4"></textarea></label>
+        <div id="adminQuestionEditChoices" class="admin-edit-choice-grid"></div>
+        <label class="admin-edit-field admin-edit-answer-field">정답<select id="adminQuestionEditAnswer"></select></label>
+        <label class="admin-edit-field">해설<textarea id="adminQuestionEditExplanation" rows="6" placeholder="해설을 입력하세요."></textarea></label>
+        <div class="row admin-edit-actions">
+          <button id="adminQuestionEditSaveBtn" type="button" class="button">수정 저장</button>
+          <button id="adminQuestionEditCancelBtnBottom" type="button" class="button secondary">취소</button>
+          <span id="adminQuestionEditStatus" class="muted" aria-live="polite"></span>
+        </div>
+      </section>
+    </div>
+
+    <section id="resultCard" class="card hidden">
+      <h2>결과</h2>
+      <p id="resultText" class="result-text"></p>
+      <div id="examReview" class="review-list"></div>
+      <div class="row">
+        <button id="retryWrongBtn" class="button">오답만 다시</button>
+        <button id="restartBtn" class="button secondary">처음으로</button>
+      </div>
+    </section>
+
+
+    <section id="errorsCard" class="card hidden">
+      <div class="section-head">
+        <div>
+          <h2>문제 오류 목록</h2>
+          <p class="muted">ERROR로 표시한 문제는 학습·시험 출제에서 자동 제외됩니다. 메모를 작성한 뒤 서버로 전송하면 관리자에게 보고됩니다.</p>
+        </div>
+        <button id="closeErrorsBtn" class="button secondary">닫기</button>
+      </div>
+
+      <div class="row error-toolbar">
+        <button id="sendErrorsBtn" class="button">오류 보고</button>
+        <button id="resetErrorsBtn" type="button" class="button danger-outline">오류목록 초기화</button>
+        <span id="copyErrorsStatus" class="muted"></span>
+      </div>
+
+      <div id="errorsEmpty" class="notice hidden">신고된 오류 문제가 없습니다.</div>
+      <div id="errorsList" class="error-report-list"></div>
+    </section>
+
+    <section id="memberManagementCard" class="card hidden">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">ADMIN · MEMBERS</span>
+          <h2>회원 관리</h2>
+          <p class="muted">가입 신청을 승인·거절하고 회원별 기능 접근 권한을 관리합니다.</p>
+        </div>
+        <button id="closeMemberManagementBtn" class="button secondary" type="button">닫기</button>
+      </div>
+      <div class="row error-toolbar">
+        <button id="refreshMembersBtn" class="button secondary" type="button">새로고침</button>
+        <strong id="memberManagementStatus">불러오는 중...</strong>
+      </div>
+      <div id="memberManagementTabs" class="member-admin-tabs"></div>
+      <div id="memberManagementList" class="member-admin-list"></div>
+    </section>
+
+    <section id="adminErrorReportsCard" class="card hidden">
+      <div class="section-head">
+        <div>
+          <h2>보고된 오류 총목록</h2>
+          <p class="muted">관리자 계정에서만 서버에 제출된 오류 보고를 조회할 수 있습니다.</p>
+        </div>
+        <button id="closeAdminErrorReportsBtn" class="button secondary">닫기</button>
+      </div>
+      <div class="row error-toolbar">
+        <button id="refreshAdminErrorReportsBtn" class="button secondary">새로고침</button>
+        <button id="copyAdminErrorReportsBtn" class="button">전체 복사</button>
+        <button id="clearAdminErrorReportsBtn" class="button danger-outline" type="button">전체 삭제</button>
+        <strong id="adminErrorReportSummary">불러오는 중...</strong>
+        <span id="adminErrorReportStatus" class="muted"></span>
+      </div>
+      <div id="adminErrorReportsEmpty" class="notice hidden">전송된 오류 보고가 없습니다.</div>
+      <div id="adminErrorReportsList" class="error-report-list"></div>
+    </section>
+
+    <section id="statsCard" class="card hidden">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">MY PAGE</span>
+          <h2>마이페이지</h2>
+          <p class="muted">Supabase에 저장된 내 학습기록을 기준으로 진도, 정답률, 취약 파트를 확인합니다.</p>
+        </div>
+        <button id="closeStatsBtn" class="button secondary">닫기</button>
+      </div>
+
+      <div id="myPageUserMeta" class="mypage-user-meta"></div>
+      <div id="statsSummary" class="summary-grid mypage-summary-grid"></div>
+
+      <section class="mypage-section">
+        <div class="mypage-section-title"><div><span class="eyebrow">BOOKS</span><h3>교재별 학습 현황</h3></div></div>
+        <div id="myPageBookGrid" class="mypage-book-grid"></div>
+      </section>
+
+      <section class="mypage-section">
+        <div class="mypage-section-title"><div><span class="eyebrow">MY NOTES</span><h3>나의 필기</h3></div></div>
+        <div id="aviwikiSavedNotesGrid" class="aviwiki-saved-notes-grid"><div class="notice">저장된 필기를 불러오는 중입니다.</div></div>
+      </section>
+
+      <section class="mypage-section">
+        <div class="mypage-section-title"><div><span class="eyebrow">WEAK POINTS</span><h3>내 취약 파트</h3></div></div>
+        <div id="weakestSuCard" class="weakest-card">
+          <div class="muted">가장 낮은 정답률 SU</div>
+          <div id="weakestSu" class="weakest-value">아직 풀이 기록이 없습니다.</div>
+        </div>
+        <div id="weakestSuList" class="weakest-su-list"></div>
+      </section>
+
+      <details class="mypage-detail-section">
+        <summary>상세 학습 통계 보기</summary>
+        <h3 class="stats-heading">교재 / 과목별 통계</h3>
+        <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>교재 / 과목</th>
+              <th>전체</th>
+              <th>푼 문제</th>
+              <th>진도</th>
+              <th>누적 풀이</th>
+              <th>정답률</th>
+              <th>시험 제외</th>
+            </tr>
+          </thead>
+          <tbody id="subjectStatsBody"></tbody>
+        </table>
+      </div>
+
+      <h3 class="stats-heading">Study Unit별 통계</h3>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>교재 / 과목</th>
+              <th>SU</th>
+              <th>전체</th>
+              <th>푼 문제</th>
+              <th>진도</th>
+              <th>누적 풀이</th>
+              <th>정답률</th>
+              <th>시험 제외</th>
+            </tr>
+          </thead>
+          <tbody id="suStatsBody"></tbody>
+        </table>
+      </div>
+
+      </details>
+
+      <details class="detail-stats mypage-detail-section">
+        <summary>문제별 상세 기록 보기</summary>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>문제 ID</th>
+                <th>풀이</th>
+                <th>정답</th>
+                <th>오답</th>
+                <th>정답률</th>
+                <th>최근 결과</th>
+                <th>즐겨찾기</th>
+                <th>시험 제외</th>
+              </tr>
+            </thead>
+            <tbody id="statsBody"></tbody>
+          </table>
+        </div>
+      </details>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="./assets/supabase-config.js?v=11.46.0"></script>
+  <script src="./assets/auth-v11-10.js?v=11.50.0"></script>
+  <script src="./assets/app-v11-44.js?v=11.60.14"></script>
+  <script src="./assets/reference-study-v11-60-14.js?v=11.60.14"></script>
+  <script src="./assets/reference-symbols-v11-60-15.js?v=11.60.15"></script>
+  <script src="./assets/reference-enroute-v11-60-16.js?v=11.60.16"></script>
+  <script src="./assets/reference-sidstar-v11-60-17.js?v=11.60.17"></script>
+  <script src="./assets/reference-airport-v11-60-18.js?v=11.60.18"></script>
+  <script src="./assets/reference-approach-v11-60-19.js?v=11.60.19"></script>
+  <script src="./assets/member-admin-v11-51.js?v=11.51.0"></script>
+  <script src="./assets/study-group-v11-59-4.js?v=11.59.4"></script>
+  <script src="./assets/community-v11-60.js?v=11.60.11"></script>
+</body>
+</html>

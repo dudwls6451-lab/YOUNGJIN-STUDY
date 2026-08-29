@@ -1,0 +1,17 @@
+{
+  "version": "v11.60.19",
+  "base": "v11.60.18",
+  "source_scope": "Approach Chart Legend p.159–173",
+  "question_count": 146,
+  "stage_count": 9,
+  "numbered_group_image_count": 16,
+  "theory_only_image_count": 3,
+  "total_new_image_count": 19,
+  "unique_question_ids": 146,
+  "missing_images": [],
+  "old_figure_dirs_included": false,
+  "js_syntax": "PASS",
+  "json_parse": "PASS",
+  "zip_integrity": "PASS",
+  "zip_size_bytes": 796492
+}

@@ -1,0 +1,1429 @@
+{
+  "metadata": {
+    "name": "Jeppesen Airway Manual · Approach Chart Legend",
+    "subject": "Jeppesen Airway Manual · Approach Chart Legend",
+    "source_file": "TalkFile_JEPPESEN AIRWAY MANUAL (251113).pdf",
+    "scope": "Approach Chart Legend p.159–173",
+    "course_type": "reference_approach_chart_legend",
+    "legend_item_count": 146,
+    "stage_count": 9,
+    "quiz_rule": {
+      "questions": "6–10",
+      "pass_percent": 80
+    },
+    "version": "v11.60.19"
+  },
+  "stages": [
+    {
+      "id": "JEPP-APPROACH-STAGE-01",
+      "unit_title": "Approach Chart Legend",
+      "title": "Approach Chart · Format & Heading",
+      "source_printed_pages": [
+        159
+      ],
+      "source_pdf_pages": [
+        159
+      ],
+      "sections": [
+        {
+          "heading": "Approach chart format",
+          "paragraphs": [
+            "Approach Chart는 Heading, Communications, Approach Briefing Information, MSA, Approach Planview, Approach Profile View, Conversion Tables, Icons, Landing Minimums 등으로 구성된다. 원본 Jeppesen 용어와 배치를 그대로 익히는 단계이다."
+          ]
+        },
+        {
+          "heading": "Approach Chart · Format & Heading",
+          "paragraphs": [
+            "p.159의 번호 범례를 아래 원본 이미지에서 확인한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-approach-legend/approach-heading.webp",
+            "caption": "Approach Chart Legend p.159 · Approach Chart · Format & Heading"
+          }
+        },
+        {
+          "heading": "No. 1 · ICAO/IATA airport identifiers",
+          "paragraphs": [
+            "ICAO indicators and IATA airport identifiers."
+          ]
+        },
+        {
+          "heading": "No. 2 · Airport name",
+          "paragraphs": [
+            "Airport name."
+          ]
+        },
+        {
+          "heading": "No. 3 · Chart index number",
+          "paragraphs": [
+            "Index number. Charts are sequenced by runway number within similar type approaches."
+          ]
+        },
+        {
+          "heading": "No. 4 · Chart revision date",
+          "paragraphs": [
+            "Chart revision date. Without an effective date, the chart is effective on receipt."
+          ]
+        },
+        {
+          "heading": "No. 5 · Chart effective date",
+          "paragraphs": [
+            "Chart effective date."
+          ]
+        },
+        {
+          "heading": "No. 6 · Procedure identification",
+          "paragraphs": [
+            "Procedure identification."
+          ]
+        },
+        {
+          "heading": "No. 7 · Geographical location name",
+          "paragraphs": [
+            "Geographical location name."
+          ]
+        },
+        {
+          "heading": "No. 8 · Jeppesen company logo",
+          "paragraphs": [
+            "Jeppesen company logo."
+          ]
+        }
+      ],
+      "quiz_question_ids": [
+        "JEPP-APPROACH-001",
+        "JEPP-APPROACH-002",
+        "JEPP-APPROACH-003",
+        "JEPP-APPROACH-004",
+        "JEPP-APPROACH-005",
+        "JEPP-APPROACH-006",
+        "JEPP-APPROACH-007",
+        "JEPP-APPROACH-008"
+      ]
+    },
+    {
+      "id": "JEPP-APPROACH-STAGE-02",
+      "unit_title": "Approach Chart Legend",
+      "title": "Communications · Briefing · MSA",
+      "source_printed_pages": [
+        160
+      ],
+      "source_pdf_pages": [
+        160
+      ],
+      "sections": [
+        {
+          "heading": "Communications / Briefing / MSA",
+          "paragraphs": [
+            "접근차트 상단의 통신·브리핑·MSA 영역에서 각 번호가 가리키는 정보의 역할을 학습한다."
+          ]
+        },
+        {
+          "heading": "Communications",
+          "paragraphs": [
+            "p.160의 번호 범례를 아래 원본 이미지에서 확인한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-approach-legend/approach-communications.webp",
+            "caption": "Approach Chart Legend p.160 · Communications"
+          }
+        },
+        {
+          "heading": "No. 1 · Communications order of normal use",
+          "paragraphs": [
+            "Communications are shown left to right in the order of normal use."
+          ]
+        },
+        {
+          "heading": "No. 2 · Communication service / call sign",
+          "paragraphs": [
+            "Communication service; call sign is omitted when the service is broadcast only."
+          ]
+        },
+        {
+          "heading": "No. 3 · Service functionality",
+          "paragraphs": [
+            "Functionality of the service is shown when applicable."
+          ]
+        },
+        {
+          "heading": "No. 4 · Service call sign for transmit/receive capability",
+          "paragraphs": [
+            "The service call sign is shown when transmit and receive or transmit-only operations are available."
+          ]
+        },
+        {
+          "heading": "No. 5 · Primary frequencies and frequency-use designators",
+          "paragraphs": [
+            "All available primary frequencies are depicted when applicable; frequency-use designators are added as appropriate."
+          ]
+        },
+        {
+          "heading": "No. 6 · Radar service availability",
+          "paragraphs": [
+            "Indicates that radar services are available."
+          ]
+        },
+        {
+          "heading": "No. 7 · Frequency sector definition",
+          "paragraphs": [
+            "Sectors are defined for each frequency when applicable."
+          ]
+        },
+        {
+          "heading": "No. 8 · Part-time service",
+          "paragraphs": [
+            "Indicates the service is part time."
+          ]
+        },
+        {
+          "heading": "No. 9 · Secondary-function service",
+          "paragraphs": [
+            "When the service is a secondary function, the call sign is omitted."
+          ]
+        },
+        {
+          "heading": "Approach Briefing Information",
+          "paragraphs": [
+            "p.160의 번호 범례를 아래 원본 이미지에서 확인한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-approach-legend/approach-briefing.webp",
+            "caption": "Approach Chart Legend p.160 · Approach Briefing Information"
+          }
+        },
+        {
+          "heading": "No. 1 · Approach primary navaid",
+          "paragraphs": [
+            "Approach primary Navaid."
+          ]
+        },
+        {
+          "heading": "No. 2 · Final approach course bearing",
+          "paragraphs": [
+            "Final approach course bearing."
+          ]
+        },
+        {
+          "heading": "No. 3 · FAF/FAP crossing or procedure altitude",
+          "paragraphs": [
+            "Crossing altitude at the FAF, glide slope crossing altitude for precision approaches, or procedure altitude for non-precision approaches."
+          ]
+        },
+        {
+          "heading": "No. 4 · Lowest DA(H) or MDA(H)",
+          "paragraphs": [
+            "Lowest DA(H) or MDA(H)."
+          ]
+        },
+        {
+          "heading": "No. 5 · Airport and touchdown-zone/threshold elevation",
+          "paragraphs": [
+            "Airport Elevation and Touchdown Zone/Threshold Elevation."
+          ]
+        },
+        {
+          "heading": "No. 6 · Missed approach textual description",
+          "paragraphs": [
+            "Textual description of the Missed Approach Procedure."
+          ]
+        },
+        {
+          "heading": "No. 7 · Altimeter setting / barometric pressure equivalents",
+          "paragraphs": [
+            "Altimeter Setting information; Barometric Pressure Equivalents are included."
+          ]
+        },
+        {
+          "heading": "No. 8 · Transition level and altitude",
+          "paragraphs": [
+            "Airport/Procedure Transition Level and Altitude."
+          ]
+        },
+        {
+          "heading": "No. 9 · Approach-procedure notes",
+          "paragraphs": [
+            "Notes applicable to the Approach Procedure."
+          ]
+        },
+        {
+          "heading": "Minimum Safe or Sector Altitude (MSA)",
+          "paragraphs": [
+            "p.160의 번호 범례를 아래 원본 이미지에서 확인한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-approach-legend/approach-msa.webp",
+            "caption": "Approach Chart Legend p.160 · Minimum Safe or Sector Altitude (MSA)"
+          }
+        },
+        {
+          "heading": "No. 1 · MSA sector-defining radial/bearing",
+          "paragraphs": [
+            "Sector-defining radial/bearing, always depicted to the Navaid/Fix or Airport Reference Point (ARP)."
+          ]
+        },
+        {
+          "heading": "No. 2 · Minimum safe/sector altitude",
+          "paragraphs": [
+            "Minimum safe/sector altitude."
+          ]
+        },
+        {
+          "heading": "No. 3 · MSA reference Navaid/Fix/ARP",
+          "paragraphs": [
+            "Navaid/Fix/ARP the MSA is predicated on."
+          ]
+        }
+      ],
+      "quiz_question_ids": [
+        "JEPP-APPROACH-009",
+        "JEPP-APPROACH-010",
+        "JEPP-APPROACH-011",
+        "JEPP-APPROACH-012",
+        "JEPP-APPROACH-013",
+        "JEPP-APPROACH-014",
+        "JEPP-APPROACH-015",
+        "JEPP-APPROACH-016",
+        "JEPP-APPROACH-017",
+        "JEPP-APPROACH-018",
+        "JEPP-APPROACH-019",
+        "JEPP-APPROACH-020",
+        "JEPP-APPROACH-021",
+        "JEPP-APPROACH-022",
+        "JEPP-APPROACH-023",
+        "JEPP-APPROACH-024",
+        "JEPP-APPROACH-025",
+        "JEPP-APPROACH-026",
+        "JEPP-APPROACH-027",
+        "JEPP-APPROACH-028",
+        "JEPP-APPROACH-029"
+      ]
+    },
+    {
+      "id": "JEPP-APPROACH-STAGE-03",
+      "unit_title": "Approach Chart Legend",
+      "title": "Approach Planview",
+      "source_printed_pages": [
+        161
+      ],
+      "source_pdf_pages": [
+        161
+      ],
+      "sections": [
+        {
+          "heading": "Approach Planview",
+          "paragraphs": [
+            "Planview는 절차를 To Scale로 나타내며, 항로·fix·navaid·holding·terrain·airspace·missed approach 등 핵심 정보를 번호별로 설명한다."
+          ]
+        },
+        {
+          "heading": "Approach Planview",
+          "paragraphs": [
+            "p.161의 번호 범례를 아래 원본 이미지에서 확인한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-approach-legend/approach-planview.webp",
+            "caption": "Approach Chart Legend p.161 · Approach Planview"
+          }
+        },
+        {
+          "heading": "No. 1 · To-scale planview and latitude/longitude ticks",
+          "paragraphs": [
+            "The planview is a graphical “To Scale” depiction of the approach procedure. Latitude and longitude ticks are shown in 10-minute increments along the neatline."
+          ]
+        },
+        {
+          "heading": "No. 2 · Primary-airport runway layout",
+          "paragraphs": [
+            "Complete runway layouts are depicted for the primary airport."
+          ]
+        },
+        {
+          "heading": "No. 3 · Approach transitions",
+          "paragraphs": [
+            "Approach transitions are depicted with a medium-weight line; bearing, mileage and associated altitude are placed along the track."
+          ]
+        },
+        {
+          "heading": "No. 4 · Off-chart origination navaid/waypoint information",
+          "paragraphs": [
+            "Off-chart origination navaid/waypoint name, frequency, identifier and Morse code are shown when required for fix formation."
+          ]
+        },
+        {
+          "heading": "No. 5 · Cross radials, bearings and DME fix formation",
+          "paragraphs": [
+            "VOR cross radials and NDB bearings used in forming a fix are shown; DME formation distances are shown when applicable."
+          ]
+        },
+        {
+          "heading": "No. 6 · Airspace fixes and symbols",
+          "paragraphs": [
+            "Airspace fixes are depicted using several different symbols according to usage."
+          ]
+        },
+        {
+          "heading": "No. 7 · Navaid boxes and DME capability",
+          "paragraphs": [
+            "Navaid boxes include name, identifier, Morse code and frequency; a letter D indicates DME capability and an asterisk indicates part-time."
+          ]
+        },
+        {
+          "heading": "No. 8 · Substitute fix identification",
+          "paragraphs": [
+            "Substitute fix identification information is located below the facility box when applicable."
+          ]
+        },
+        {
+          "heading": "No. 9 · IAF and IF labels",
+          "paragraphs": [
+            "Initial Approach Fixes and Intermediate Fixes are labeled as (IAF) and (IF) respectively."
+          ]
+        },
+        {
+          "heading": "No. 10 · Shadowed primary navaid box",
+          "paragraphs": [
+            "A shadowed navaid box indicates the primary navaid upon which lateral course guidance for the final approach segment is predicated."
+          ]
+        },
+        {
+          "heading": "No. 11 · Final/intermediate approach course line",
+          "paragraphs": [
+            "The final/intermediate approach course is indicated with a heavy-weight line."
+          ]
+        },
+        {
+          "heading": "No. 12 · Final approach course bearing",
+          "paragraphs": [
+            "The final approach course bearing is shown in bold text, with a directional arrow as needed."
+          ]
+        },
+        {
+          "heading": "No. 13 · Airspace fix names / formation information",
+          "paragraphs": [
+            "Airspace fix names are shown near or tied to the fix; formation information is placed below the name."
+          ]
+        },
+        {
+          "heading": "No. 14 · Jeppesen-derived database identifiers",
+          "paragraphs": [
+            "Jeppesen-derived database identifiers are depicted when different from the State-supplied name."
+          ]
+        },
+        {
+          "heading": "No. 15 · Missed approach segment",
+          "paragraphs": [
+            "The missed approach segment is shown with heavy-weight dashed line work."
+          ]
+        },
+        {
+          "heading": "No. 16 · Holding/racetrack patterns",
+          "paragraphs": [
+            "Holding/racetrack patterns are shown with both inbound and outbound bearings; restrictions are charted when applicable."
+          ]
+        },
+        {
+          "heading": "No. 17 · Terrain high points and man-made structures",
+          "paragraphs": [
+            "Some terrain high points and man-made structures are depicted along with their elevations; generally only high points 400 feet or more above airport elevation are shown."
+          ]
+        },
+        {
+          "heading": "No. 18 · Highest portrayed high-point arrow",
+          "paragraphs": [
+            "Arrow indicates the highest of the portrayed high points within the planview area only."
+          ]
+        },
+        {
+          "heading": "No. 19 · Generalized terrain contours",
+          "paragraphs": [
+            "Generalized terrain contours may be depicted based on several geographic factors."
+          ]
+        },
+        {
+          "heading": "No. 20 · Rivers and large water bodies",
+          "paragraphs": [
+            "Rivers/large water bodies are shown. Smaller and seasonal water areas are not depicted."
+          ]
+        },
+        {
+          "heading": "No. 21 · Special Use Airspace",
+          "paragraphs": [
+            "Some, but not all, Special Use Airspace boundaries and identifiers are depicted."
+          ]
+        },
+        {
+          "heading": "No. 22 · Secondary IFR and VFR airports",
+          "paragraphs": [
+            "All secondary IFR airports, and VFR airports that lie under the final approach, are depicted."
+          ]
+        },
+        {
+          "heading": "No. 23 · Planview charting scale",
+          "paragraphs": [
+            "Charting scale used is indicated along the left side of the planview."
+          ]
+        }
+      ],
+      "quiz_question_ids": [
+        "JEPP-APPROACH-030",
+        "JEPP-APPROACH-031",
+        "JEPP-APPROACH-032",
+        "JEPP-APPROACH-033",
+        "JEPP-APPROACH-034",
+        "JEPP-APPROACH-035",
+        "JEPP-APPROACH-036",
+        "JEPP-APPROACH-037",
+        "JEPP-APPROACH-038",
+        "JEPP-APPROACH-039",
+        "JEPP-APPROACH-040",
+        "JEPP-APPROACH-041",
+        "JEPP-APPROACH-042",
+        "JEPP-APPROACH-043",
+        "JEPP-APPROACH-044",
+        "JEPP-APPROACH-045",
+        "JEPP-APPROACH-046",
+        "JEPP-APPROACH-047",
+        "JEPP-APPROACH-048",
+        "JEPP-APPROACH-049",
+        "JEPP-APPROACH-050",
+        "JEPP-APPROACH-051",
+        "JEPP-APPROACH-052"
+      ]
+    },
+    {
+      "id": "JEPP-APPROACH-STAGE-04",
+      "unit_title": "Approach Chart Legend",
+      "title": "RNAV · Insets · Recommended Descent Table",
+      "source_printed_pages": [
+        162,
+        163
+      ],
+      "source_pdf_pages": [
+        162,
+        163
+      ],
+      "sections": [
+        {
+          "heading": "RNAV and non-precision aids",
+          "paragraphs": [
+            "RNAV 절차의 TAA 표기, Not To Scale inset, 비정밀 접근의 Recommended Altitude Descent Table을 학습한다."
+          ]
+        },
+        {
+          "heading": "RNAV Procedure Differences",
+          "paragraphs": [
+            "p.162의 번호 범례를 아래 원본 이미지에서 확인한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-approach-legend/approach-rnav.webp",
+            "caption": "Approach Chart Legend p.162 · RNAV Procedure Differences"
+          }
+        },
+        {
+          "heading": "No. 1 · RNAV primary navaid box",
+          "paragraphs": [
+            "A primary navaid box is shown for RNAV approach procedures augmented by ground-based facilities; system type, channel and system approach ID are shown."
+          ]
+        },
+        {
+          "heading": "No. 2 · Terminal Arrival Area / Terminal Area Altitude (TAA)",
+          "paragraphs": [
+            "Some RNAV procedures utilize a TAA; each sector is graphically placed in the planview with the foundational waypoint, forming bearings, arrival altitudes and applicable NoPT labels."
+          ]
+        },
+        {
+          "heading": "No. 3 · Modified TAA coverage",
+          "paragraphs": [
+            "When normal TAA coverage is modified, segmented areas are depicted with the applicable altitudes indicated."
+          ]
+        },
+        {
+          "heading": "No. 4 · Database waypoint naming",
+          "paragraphs": [
+            "Due to required database use, only waypoint names are shown; formations and coordinates are omitted."
+          ]
+        },
+        {
+          "heading": "No. 5 · Along-track distances for unnamed waypoints",
+          "paragraphs": [
+            "Along-track distances, normally to the next named waypoint, are shown per source for unnamed waypoints."
+          ]
+        },
+        {
+          "heading": "Approach Planview — Not To Scale Insets",
+          "paragraphs": [
+            "p.163의 번호 범례를 아래 원본 이미지에서 확인한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-approach-legend/approach-insets.webp",
+            "caption": "Approach Chart Legend p.163 · Approach Planview — Not To Scale Insets"
+          }
+        },
+        {
+          "heading": "No. 1 · Solid-line inset",
+          "paragraphs": [
+            "A solid line outlines an inset when information has been removed from the associated “To Scale” tracks; labels inside indicate the use of the contained procedural information."
+          ]
+        },
+        {
+          "heading": "No. 2 · Dashed-line NOT TO SCALE inset",
+          "paragraphs": [
+            "A dashed line outlines an inset when information remains in line with the associated “To Scale” tracks; a NOT TO SCALE label is included inside the inset."
+          ]
+        },
+        {
+          "heading": "Non-Precision Recommended Altitude Descent Table",
+          "paragraphs": [
+            "p.163의 번호 범례를 아래 원본 이미지에서 확인한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-approach-legend/approach-descent-table.webp",
+            "caption": "Approach Chart Legend p.163 · Non-Precision Recommended Altitude Descent Table"
+          }
+        },
+        {
+          "heading": "No. 1 · Table direction / gray arrow",
+          "paragraphs": [
+            "The Recommended Altitude Descent table is sequenced in the same direction as the flight tracks in the profile; a gray arrow indicates left-to-right or right-to-left direction."
+          ]
+        },
+        {
+          "heading": "No. 2 · DME checkpoint source navaid",
+          "paragraphs": [
+            "The source for DME checkpoints is indicated by the navaid ident; when Jeppesen-derived, DME is used whenever possible."
+          ]
+        },
+        {
+          "heading": "No. 3 · Recommended-altitude row label",
+          "paragraphs": [
+            "The row of recommended altitudes is labeled to indicate its associated use with the VDA."
+          ]
+        },
+        {
+          "heading": "No. 4 · DME checkpoint distance",
+          "paragraphs": [
+            "The DME distance defining each checkpoint is depicted in whole and tenths of a nautical mile."
+          ]
+        },
+        {
+          "heading": "No. 5 · Recommended altitude at each checkpoint",
+          "paragraphs": [
+            "A recommended altitude, defined by a position along the VDA at a given point, is supplied for each checkpoint."
+          ]
+        },
+        {
+          "heading": "No. 6 · Distance-to-fix checkpoint",
+          "paragraphs": [
+            "When DME is not available, each checkpoint is defined by distance to a fix along the final approach course, shown in whole and tenths of a nautical mile."
+          ]
+        },
+        {
+          "heading": "No. 7 · “To” waypoint for checkpoint",
+          "paragraphs": [
+            "The “to” waypoint is indicated when checkpoints are defined by a distance to a fix."
+          ]
+        },
+        {
+          "heading": "No. 8 · Non-precision qualifier in combined approaches",
+          "paragraphs": [
+            "When a non-precision approach is combined with a precision approach, a qualifier indicates that the recommended altitudes relate to the non-precision approach only."
+          ]
+        },
+        {
+          "heading": "No. 9 · Bold FAF altitude",
+          "paragraphs": [
+            "Bold text indicates that the altitude is charted in the FAF altitude box within the Briefing Strip."
+          ]
+        }
+      ],
+      "quiz_question_ids": [
+        "JEPP-APPROACH-053",
+        "JEPP-APPROACH-054",
+        "JEPP-APPROACH-055",
+        "JEPP-APPROACH-056",
+        "JEPP-APPROACH-057",
+        "JEPP-APPROACH-058",
+        "JEPP-APPROACH-059",
+        "JEPP-APPROACH-060",
+        "JEPP-APPROACH-061",
+        "JEPP-APPROACH-062",
+        "JEPP-APPROACH-063",
+        "JEPP-APPROACH-064",
+        "JEPP-APPROACH-065",
+        "JEPP-APPROACH-066",
+        "JEPP-APPROACH-067",
+        "JEPP-APPROACH-068"
+      ]
+    },
+    {
+      "id": "JEPP-APPROACH-STAGE-05",
+      "unit_title": "Approach Chart Legend",
+      "title": "Approach Profile View · 1–18",
+      "source_printed_pages": [
+        164
+      ],
+      "source_pdf_pages": [
+        164
+      ],
+      "sections": [
+        {
+          "heading": "Approach Profile View",
+          "paragraphs": [
+            "Profile View는 final/intermediate segment를 Not To Scale로 표현하며 altitude, course, navaid, procedure turn, FAP, runway 관련 표기법을 설명한다."
+          ]
+        },
+        {
+          "heading": "Approach Profile View — Conventions",
+          "paragraphs": [
+            "p.164의 번호 범례를 아래 원본 이미지에서 확인한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-approach-legend/approach-profile-conventions.webp",
+            "caption": "Approach Chart Legend p.164 · Approach Profile View — Conventions"
+          }
+        },
+        {
+          "heading": "No. 1 · Procedure bearings and direction arrows",
+          "paragraphs": [
+            "All procedure bearings are shown. Bold text emphasizes the Final Approach Course; arrowheads are added as needed to indicate direction of flight."
+          ]
+        },
+        {
+          "heading": "No. 2 · Bearing placement relative to track",
+          "paragraphs": [
+            "Bearings are placed either above, below, or inset in the track."
+          ]
+        },
+        {
+          "heading": "No. 3 · Holding/racetrack inbound and outbound bearings",
+          "paragraphs": [
+            "Both inbound and outbound bearings are depicted for procedure holding/racetrack patterns."
+          ]
+        },
+        {
+          "heading": "No. 4 · Minimum altitudes in profile view",
+          "paragraphs": [
+            "All altitudes depicted in the profile view are minimum altitudes unless specifically labeled otherwise; altitudes are above mean sea level in feet."
+          ]
+        },
+        {
+          "heading": "No. 5 · Maximum altitude notation",
+          "paragraphs": [
+            "Maximum altitudes may be abbreviated “MAX”."
+          ]
+        },
+        {
+          "heading": "No. 6 · Mandatory altitudes",
+          "paragraphs": [
+            "Mandatory altitudes are shown without abbreviations."
+          ]
+        },
+        {
+          "heading": "No. 7 · Recommended altitudes",
+          "paragraphs": [
+            "Recommended altitudes are shown without abbreviations."
+          ]
+        },
+        {
+          "heading": "No. 8 · Bold FAF/FAP procedure altitude",
+          "paragraphs": [
+            "Bold text emphasizes the procedure altitude at the FAF or the glide-slope intercept altitude at the FAP/FAF; this is also the altitude shown in the Briefing Strip."
+          ]
+        },
+        {
+          "heading": "No. 9 · Navaid type / Morse code / glide-slope crossing altitude",
+          "paragraphs": [
+            "The type of navaid is indicated; identifying Morse code is shown for all markers, and glide-slope crossing altitudes are included when known."
+          ]
+        },
+        {
+          "heading": "No. 10 · Navaid ident/name and crossing altitude",
+          "paragraphs": [
+            "The navaid ident or name is included where confusion may occur; associated crossing altitudes are included when applicable."
+          ]
+        },
+        {
+          "heading": "No. 11 · Fix names and DME formations",
+          "paragraphs": [
+            "All fix names are shown along with any DME formations; the source DME ident is included when multiple DME sources are charted."
+          ]
+        },
+        {
+          "heading": "No. 12 · Standalone DME name",
+          "paragraphs": [
+            "Standalone DME names are depicted similar to named waypoints."
+          ]
+        },
+        {
+          "heading": "Approach Profile View — Detailed Elements 1–18",
+          "paragraphs": [
+            "p.164의 번호 범례를 아래 원본 이미지에서 확인한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-approach-legend/approach-profile-main.webp",
+            "caption": "Approach Chart Legend p.164 · Approach Profile View — Detailed Elements 1–18"
+          }
+        },
+        {
+          "heading": "No. 1 · Profile-view procedure notes",
+          "paragraphs": [
+            "Procedure notes that relate directly to information portrayed in the profile view are charted within the profile view, normally in upper right or left corners."
+          ]
+        },
+        {
+          "heading": "No. 2 · Broken navaid/fix symbol",
+          "paragraphs": [
+            "A “broken” navaid or fix symbol indicates that it does not fall directly in line with the final approach track."
+          ]
+        },
+        {
+          "heading": "No. 3 · Procedure-turn outbound bearing",
+          "paragraphs": [
+            "Outbound bearings associated with procedure turns are included for situational awareness."
+          ]
+        },
+        {
+          "heading": "No. 4 · Procedure-turn minimum altitude",
+          "paragraphs": [
+            "Minimum altitude while executing the procedure turn."
+          ]
+        },
+        {
+          "heading": "No. 5 · Procedure-turn remain-within distance",
+          "paragraphs": [
+            "The distance to remain within while executing the procedure turn, measured from the initiating navaid unless otherwise indicated."
+          ]
+        },
+        {
+          "heading": "No. 6 · Profile-view ground line",
+          "paragraphs": [
+            "The profile-view ground line represents an imaginary straight line originating from the runway threshold; no terrain high points or man-made structures are represented in the profile view."
+          ]
+        },
+        {
+          "heading": "No. 7 · Procedure flight track",
+          "paragraphs": [
+            "Procedure flight tracks are portrayed using a thick solid line; multiple separate procedures using the same altitudes are represented by a single line."
+          ]
+        },
+        {
+          "heading": "No. 8 · Final Approach Point (FAP)",
+          "paragraphs": [
+            "Final Approach Point (FAP), beginning of the final approach segment for precision approaches."
+          ]
+        },
+        {
+          "heading": "No. 9 · NM distance to zero point",
+          "paragraphs": [
+            "Nautical-mile distance to the “0” point; not included at DME fixes."
+          ]
+        },
+        {
+          "heading": "No. 10 · NM distance between navaids/fixes",
+          "paragraphs": [
+            "Nautical-mile distance between two navaids and/or fixes."
+          ]
+        },
+        {
+          "heading": "No. 11 · Final Approach Course bearing",
+          "paragraphs": [
+            "Final Approach Course bearing; repeated only if a change in course occurs."
+          ]
+        },
+        {
+          "heading": "No. 12 · Relative track placement by crossing altitude",
+          "paragraphs": [
+            "Tracks are placed relative to each other based on the corresponding crossing altitudes."
+          ]
+        },
+        {
+          "heading": "No. 13 · Non-precision track deviating from GS/VDA",
+          "paragraphs": [
+            "Non-precision procedure flight tracks that deviate from the Glide Slope and/or Vertical Descent Angle are depicted as a dashed line."
+          ]
+        },
+        {
+          "heading": "No. 14 · DA/MDA or GS/VDA descent-limit pull-up",
+          "paragraphs": [
+            "Pull-up representing the DA/MDA or when reaching the descent limit along the GS/VDA."
+          ]
+        },
+        {
+          "heading": "No. 15 · Non-CDFA pull-up arrow",
+          "paragraphs": [
+            "Pull-up arrow associated with a non-precision approach not using a CDFA technique."
+          ]
+        },
+        {
+          "heading": "No. 16 · TDZ/runway-end/threshold elevation",
+          "paragraphs": [
+            "Touchdown-zone, runway-end, or threshold elevation labeled accordingly."
+          ]
+        },
+        {
+          "heading": "No. 17 · Threshold Crossing Height (TCH)",
+          "paragraphs": [
+            "Threshold crossing height associated with the charted glide slope or vertical descent angle."
+          ]
+        },
+        {
+          "heading": "No. 18 · Runway block",
+          "paragraphs": [
+            "Runway block symbolizing the runway; the approach end represents the runway threshold."
+          ]
+        }
+      ],
+      "quiz_question_ids": [
+        "JEPP-APPROACH-069",
+        "JEPP-APPROACH-070",
+        "JEPP-APPROACH-071",
+        "JEPP-APPROACH-072",
+        "JEPP-APPROACH-073",
+        "JEPP-APPROACH-074",
+        "JEPP-APPROACH-075",
+        "JEPP-APPROACH-076",
+        "JEPP-APPROACH-077",
+        "JEPP-APPROACH-078",
+        "JEPP-APPROACH-079",
+        "JEPP-APPROACH-080",
+        "JEPP-APPROACH-081",
+        "JEPP-APPROACH-082",
+        "JEPP-APPROACH-083",
+        "JEPP-APPROACH-084",
+        "JEPP-APPROACH-085",
+        "JEPP-APPROACH-086",
+        "JEPP-APPROACH-087",
+        "JEPP-APPROACH-088",
+        "JEPP-APPROACH-089",
+        "JEPP-APPROACH-090",
+        "JEPP-APPROACH-091",
+        "JEPP-APPROACH-092",
+        "JEPP-APPROACH-093",
+        "JEPP-APPROACH-094",
+        "JEPP-APPROACH-095",
+        "JEPP-APPROACH-096",
+        "JEPP-APPROACH-097",
+        "JEPP-APPROACH-098"
+      ]
+    },
+    {
+      "id": "JEPP-APPROACH-STAGE-06",
+      "unit_title": "Approach Chart Legend",
+      "title": "Profile Holding/RNAV · Conversion/Lighting/Missed Approach",
+      "source_printed_pages": [
+        165
+      ],
+      "source_pdf_pages": [
+        165
+      ],
+      "sections": [
+        {
+          "heading": "Profile holding/RNAV and supporting boxes",
+          "paragraphs": [
+            "Holding/RNAV profile 요소와 Descent/Timing Conversion Table, Lighting Box, Missed Approach Icons를 함께 학습한다."
+          ]
+        },
+        {
+          "heading": "Approach Profile View — Holding/RNAV Elements 19–29",
+          "paragraphs": [
+            "p.165의 번호 범례를 아래 원본 이미지에서 확인한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-approach-legend/approach-profile-rnav.webp",
+            "caption": "Approach Chart Legend p.165 · Approach Profile View — Holding/RNAV Elements 19–29"
+          }
+        },
+        {
+          "heading": "No. 19 · Holding/racetrack outbound-leg time",
+          "paragraphs": [
+            "Time limit applicable to the outbound leg of the procedure holding/racetrack."
+          ]
+        },
+        {
+          "heading": "No. 20 · Holding/racetrack minimum altitude",
+          "paragraphs": [
+            "Minimum altitude while executing the procedure holding/racetrack."
+          ]
+        },
+        {
+          "heading": "No. 21 · Holding/racetrack inbound and outbound bearings",
+          "paragraphs": [
+            "Outbound and inbound bearings associated with the procedure holding/racetrack."
+          ]
+        },
+        {
+          "heading": "No. 22 · RNAV waypoint ident",
+          "paragraphs": [
+            "RNAV waypoints are identified by their five-character identifier only."
+          ]
+        },
+        {
+          "heading": "No. 23 · Segment Minimum Altitude (SMA)",
+          "paragraphs": [
+            "Segment Minimum Altitudes are represented by a shaded rectangle bordered by the two defining fixes; the minimum altitude is shown along the top edge of the sector."
+          ]
+        },
+        {
+          "heading": "No. 24 · Altitudes corresponding to VDA",
+          "paragraphs": [
+            "Altitudes that correspond to the VDA."
+          ]
+        },
+        {
+          "heading": "No. 25 · Top-of-Descent distance to next fix",
+          "paragraphs": [
+            "Nautical miles to the next fix are supplied for the “Top of Descent” when not at a fix."
+          ]
+        },
+        {
+          "heading": "No. 26 · VDA pull-up at DA/MDA",
+          "paragraphs": [
+            "Pull-up along the VDA at the DA/MDA is depicted relative to the missed approach point."
+          ]
+        },
+        {
+          "heading": "No. 27 · Along-track distance “to” fix",
+          "paragraphs": [
+            "Nautical miles and name of “to” fixes are supplied for all along-track distance fixes."
+          ]
+        },
+        {
+          "heading": "No. 28 · VNAV path FAF to LTP/TCH",
+          "paragraphs": [
+            "A dotted gray line illustrates the VNAV path from the FAF to the Landing Threshold Point (LTP) TCH."
+          ]
+        },
+        {
+          "heading": "No. 29 · Visual flight track before runway threshold",
+          "paragraphs": [
+            "Visual flight track is shown when the missed approach point is prior to the runway threshold."
+          ]
+        },
+        {
+          "heading": "Descent/Timing Conversion · Lighting · Missed Approach Icons",
+          "paragraphs": [
+            "p.165의 번호 범례를 아래 원본 이미지에서 확인한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-approach-legend/approach-conversion-icons.webp",
+            "caption": "Approach Chart Legend p.165 · Descent/Timing Conversion · Lighting · Missed Approach Icons"
+          }
+        },
+        {
+          "heading": "No. 1 · Ground speed row",
+          "paragraphs": [
+            "Indicates Ground Speed in knots for several common aircraft approach speeds."
+          ]
+        },
+        {
+          "heading": "No. 2 · Precision GS angle and descent rates",
+          "paragraphs": [
+            "For precision approaches, Glide Slope angle is shown in degrees along with relative descent rates in feet per minute."
+          ]
+        },
+        {
+          "heading": "No. 3 · Non-precision VDA and descent rates",
+          "paragraphs": [
+            "For non-precision approaches, Vertical Descent Angle is shown, when applicable, in degrees along with relative descent rates in feet per minute."
+          ]
+        },
+        {
+          "heading": "No. 4 · MAP distance and timing",
+          "paragraphs": [
+            "The location of the Missed Approach Point is defined; distance and associated timing are included only when applicable."
+          ]
+        },
+        {
+          "heading": "No. 5 · Approach/visual slope/REIL lighting",
+          "paragraphs": [
+            "Installed approach lights, visual approach slope indicators, and runway end identification lights (REIL) are depicted for the straight-in landing runway."
+          ]
+        },
+        {
+          "heading": "No. 6 · Missed approach icons",
+          "paragraphs": [
+            "Missed approach icons symbolize the final “up and out” actions associated with the missed approach procedure; complete instructions are shown textually in the Briefing Strip."
+          ]
+        }
+      ],
+      "quiz_question_ids": [
+        "JEPP-APPROACH-099",
+        "JEPP-APPROACH-100",
+        "JEPP-APPROACH-101",
+        "JEPP-APPROACH-102",
+        "JEPP-APPROACH-103",
+        "JEPP-APPROACH-104",
+        "JEPP-APPROACH-105",
+        "JEPP-APPROACH-106",
+        "JEPP-APPROACH-107",
+        "JEPP-APPROACH-108",
+        "JEPP-APPROACH-109",
+        "JEPP-APPROACH-110",
+        "JEPP-APPROACH-111",
+        "JEPP-APPROACH-112",
+        "JEPP-APPROACH-113",
+        "JEPP-APPROACH-114",
+        "JEPP-APPROACH-115"
+      ]
+    },
+    {
+      "id": "JEPP-APPROACH-STAGE-07",
+      "unit_title": "Approach Chart Legend",
+      "title": "Landing Minimums · 1–12",
+      "source_printed_pages": [
+        166,
+        167
+      ],
+      "source_pdf_pages": [
+        166,
+        167
+      ],
+      "sections": [
+        {
+          "heading": "Landing Minimums",
+          "paragraphs": [
+            "Landing Minimums 표기의 규정 라벨, circling 기준, aircraft category, DA(H)/MDA(H), RA, visibility/RVR 표기를 원본 기준으로 학습한다."
+          ]
+        },
+        {
+          "heading": "Landing Minimums · General 1–2",
+          "paragraphs": [
+            "p.166의 번호 범례를 아래 원본 이미지에서 확인한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-approach-legend/approach-landing-1-2.webp",
+            "caption": "Approach Chart Legend p.166 · Landing Minimums · General 1–2"
+          }
+        },
+        {
+          "heading": "No. 1 · Landing minimums regulation label",
+          "paragraphs": [
+            "Minimums label indicates that landing minimums comply with a specific regulation, but never below State-published values."
+          ]
+        },
+        {
+          "heading": "No. 2 · Expanded circle-to-land area indicator",
+          "paragraphs": [
+            "Indicates that the published Circle-To-Land minimums are based on TERPS 8260.3B change 21 or later; expanded circling approach areas apply where depicted."
+          ]
+        },
+        {
+          "heading": "Landing Minimums · Categories and Values 3–12",
+          "paragraphs": [
+            "p.167의 번호 범례를 아래 원본 이미지에서 확인한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-approach-legend/approach-landing-3-12.webp",
+            "caption": "Approach Chart Legend p.167 · Landing Minimums · Categories and Values 3–12"
+          }
+        },
+        {
+          "heading": "No. 3 · Aircraft approach categories",
+          "paragraphs": [
+            "Aircraft categories ABCD are normally shown; when supplied by source, additional or alternate categories such as E, H/HC or DL may be shown."
+          ]
+        },
+        {
+          "heading": "No. 4 · TERPS maximum circling speeds",
+          "paragraphs": [
+            "TERPS maximum circling speeds."
+          ]
+        },
+        {
+          "heading": "No. 5 · ICAO maximum circling speeds",
+          "paragraphs": [
+            "ICAO maximum circling speeds."
+          ]
+        },
+        {
+          "heading": "No. 6 · Circle-to-Land-only category/speed display",
+          "paragraphs": [
+            "For Circle-To-Land-only approaches, both aircraft approach categories and maximum circling speeds are shown just prior to the circling minimums."
+          ]
+        },
+        {
+          "heading": "No. 7 · DA(H) label and values",
+          "paragraphs": [
+            "Decision Altitude (Height) label, Decision Altitude and Decision Height for precision approach and APV operations."
+          ]
+        },
+        {
+          "heading": "No. 8 · MDA(H) label and values",
+          "paragraphs": [
+            "Minimum Descent Altitude (Height) label, Minimum Descent Altitude and Minimum Descent Height for non-precision approach operations."
+          ]
+        },
+        {
+          "heading": "No. 9 · DA/MDA(H) label",
+          "paragraphs": [
+            "DA/MDA(H) label is shown when either Decision Altitude (Height) or Minimum Descent Altitude (Height) can be used on non-precision approaches depending on operational approval."
+          ]
+        },
+        {
+          "heading": "No. 10 · Radio Altimeter height",
+          "paragraphs": [
+            "Radio Altimeter height associated with CAT II precision approaches; in some cases a specific Radio Altitude is supplied by the State as part of CAT III State minimums."
+          ]
+        },
+        {
+          "heading": "No. 11 · Nautical/statute-mile visibility",
+          "paragraphs": [
+            "Nautical- or statute-mile VIS values are depicted in whole and fractions of a mile; no units label is shown."
+          ]
+        },
+        {
+          "heading": "No. 12 · Equivalent RVR with mile visibility",
+          "paragraphs": [
+            "Equivalent Runway Visual Range values associated with nautical/statute-mile VIS represent readings in hundreds of feet and are shown when supplied or authorized by the State."
+          ]
+        }
+      ],
+      "quiz_question_ids": [
+        "JEPP-APPROACH-116",
+        "JEPP-APPROACH-117",
+        "JEPP-APPROACH-118",
+        "JEPP-APPROACH-119",
+        "JEPP-APPROACH-120",
+        "JEPP-APPROACH-121",
+        "JEPP-APPROACH-122",
+        "JEPP-APPROACH-123",
+        "JEPP-APPROACH-124",
+        "JEPP-APPROACH-125",
+        "JEPP-APPROACH-126",
+        "JEPP-APPROACH-127"
+      ]
+    },
+    {
+      "id": "JEPP-APPROACH-STAGE-08",
+      "unit_title": "Approach Chart Legend",
+      "title": "Landing Minimums · 13–24 & Visibility Labels",
+      "source_printed_pages": [
+        168,
+        169
+      ],
+      "source_pdf_pages": [
+        168,
+        169
+      ],
+      "sections": [
+        {
+          "heading": "Landing Minimums conditions",
+          "paragraphs": [
+            "m/km/R/V 표기, NA/Not Applicable, ceiling, minimums box 내부 조건과 note, circling minimums 구성을 학습한다."
+          ]
+        },
+        {
+          "heading": "Visibility labels used with landing visibility values",
+          "paragraphs": [
+            "p.169의 R, C, V, R/V 라벨은 차트 값이 RVR, converted meteorological visibility(CMV), meteorological visibility(VIS), 또는 RVR/VIS 중 무엇인지를 구분한다. 원본 표의 비교 규칙은 운항 승인과 국가 규정에 따라 적용해야 한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-approach-legend/approach-visibility.webp",
+            "caption": "Approach Chart Legend p.169 · Landing visibility labels"
+          }
+        },
+        {
+          "heading": "Landing Minimums · Conditions and Minimums Boxes 13–24",
+          "paragraphs": [
+            "p.168의 번호 범례를 아래 원본 이미지에서 확인한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-approach-legend/approach-landing-13-24.webp",
+            "caption": "Approach Chart Legend p.168 · Landing Minimums · Conditions and Minimums Boxes 13–24"
+          }
+        },
+        {
+          "heading": "No. 13 · Meter/kilometer visibility and R/V labels",
+          "paragraphs": [
+            "Visibilities in meters are labeled “m” and kilometers “km”; RVR is labeled R, VIS is labeled V, and R/V indicates the charted value is either RVR or VIS."
+          ]
+        },
+        {
+          "heading": "No. 14 · Not Authorized / NA",
+          "paragraphs": [
+            "The particular condition is Not Authorized; if necessary it is abbreviated “NA”."
+          ]
+        },
+        {
+          "heading": "No. 15 · Not Applicable",
+          "paragraphs": [
+            "The particular condition does not apply."
+          ]
+        },
+        {
+          "heading": "No. 16 · Ceiling required",
+          "paragraphs": [
+            "Indicates that a ceiling is required according to the State source as part of the overall landing minimums."
+          ]
+        },
+        {
+          "heading": "No. 17 · Ceiling before associated visibility",
+          "paragraphs": [
+            "When provided by source, ceilings are depicted prior to the associated visibility and shown in smaller size in front of RVR or VIS."
+          ]
+        },
+        {
+          "heading": "No. 18 · Approach type in minimums box",
+          "paragraphs": [
+            "Type of approach is indicated when multiple types are shown in the minimums box."
+          ]
+        },
+        {
+          "heading": "No. 19 · Conditions affecting minimums",
+          "paragraphs": [
+            "Known conditions or requirements affecting the minimums are shown above the visibilities, including state-specific components or inoperative approach-light components."
+          ]
+        },
+        {
+          "heading": "No. 20 · Minimums-box notes",
+          "paragraphs": [
+            "Notes that only apply to the charted minimums are shown within the minimums box."
+          ]
+        },
+        {
+          "heading": "No. 21 · Landing-minimums runway label",
+          "paragraphs": [
+            "A landing-minimums label such as STRAIGHT-IN-LANDING, LANDING or SIDESTEP may be used; it represents the minimums for the runway(s) associated with the procedure."
+          ]
+        },
+        {
+          "heading": "No. 22 · Notes applying to a set of minimums",
+          "paragraphs": [
+            "Notes that apply to a given set of minimums are shown above the affected values."
+          ]
+        },
+        {
+          "heading": "No. 23 · Circle-to-Land minimums set",
+          "paragraphs": [
+            "The set of minimums applicable when a circling maneuver is required is labeled as such."
+          ]
+        },
+        {
+          "heading": "No. 24 · Circle-to-Land MDA(H)",
+          "paragraphs": [
+            "The MDA(H) label for circle-to-land minimum descent altitudes and associated height is shown at the top of the column."
+          ]
+        }
+      ],
+      "quiz_question_ids": [
+        "JEPP-APPROACH-128",
+        "JEPP-APPROACH-129",
+        "JEPP-APPROACH-130",
+        "JEPP-APPROACH-131",
+        "JEPP-APPROACH-132",
+        "JEPP-APPROACH-133",
+        "JEPP-APPROACH-134",
+        "JEPP-APPROACH-135",
+        "JEPP-APPROACH-136",
+        "JEPP-APPROACH-137",
+        "JEPP-APPROACH-138",
+        "JEPP-APPROACH-139"
+      ]
+    },
+    {
+      "id": "JEPP-APPROACH-STAGE-09",
+      "unit_title": "Approach Chart Legend",
+      "title": "Chart Boundary & Design Enhancements",
+      "source_printed_pages": [
+        170,
+        171,
+        172
+      ],
+      "source_pdf_pages": [
+        170,
+        171,
+        172
+      ],
+      "sections": [
+        {
+          "heading": "Chart Boundary Line Information",
+          "paragraphs": [
+            "TERPS/PANS-OPS/MIPS 설계기준 라벨, procedure source amendment, amendment reference date, changes, copyright를 학습한다."
+          ]
+        },
+        {
+          "heading": "Approach Chart Design Enhancements — p.171",
+          "paragraphs": [
+            "Military 및 향후 civilian/mixed-use procedure에 적용되는 design enhancement 예시로 UHF communications, navaid symbols/boxes, crossing altitudes 및 speed restrictions의 시각적 표기를 제시한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-approach-legend/approach-enhancements-1.webp",
+            "caption": "Approach Chart Legend p.171 · Design enhancements"
+          }
+        },
+        {
+          "heading": "Approach Chart Design Enhancements — p.172",
+          "paragraphs": [
+            "Speed restriction depiction, minimums category 표기(Cat E, HPMA, DL), Instrument Procedure Design Indicator, OPR(Office of Primary Responsibility) label을 설명한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-approach-legend/approach-enhancements-2.webp",
+            "caption": "Approach Chart Legend p.172 · Design enhancements"
+          }
+        },
+        {
+          "heading": "Chart Boundary Line Information",
+          "paragraphs": [
+            "p.170의 번호 범례를 아래 원본 이미지에서 확인한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-approach-legend/approach-boundary.webp",
+            "caption": "Approach Chart Legend p.170 · Chart Boundary Line Information"
+          }
+        },
+        {
+          "heading": "No. 1 · United States TERPS criteria label",
+          "paragraphs": [
+            "Label indicates the State has specified that the approach procedure complies with United States Standard for Terminal Procedures criteria as they relate to aircraft handling speeds and circling-area development."
+          ]
+        },
+        {
+          "heading": "No. 2 · ICAO PANS-OPS criteria label",
+          "paragraphs": [
+            "Labels indicate the State has specified that the approach procedure complies with ICAO PANS-OPS criteria as they relate to aircraft handling speeds and circling-area development."
+          ]
+        },
+        {
+          "heading": "No. 3 · MIPS design criteria label",
+          "paragraphs": [
+            "Label indicates MIPS design criteria when it is known that the procedure is designed according to Military Instrument Procedures Standardization."
+          ]
+        },
+        {
+          "heading": "No. 4 · Procedure-source amendment information",
+          "paragraphs": [
+            "Shown when procedure-source amendment information has been supplied by the State (USA)."
+          ]
+        },
+        {
+          "heading": "No. 5 · Procedure Amendment Reference Date",
+          "paragraphs": [
+            "On U.S. approach procedures, the Procedure Amendment Reference Date is supplied on charts with an Effective Date later than 22 OCT 2009 to establish electronic database currency."
+          ]
+        },
+        {
+          "heading": "No. 6 · Summary of chart changes",
+          "paragraphs": [
+            "A brief summary of the changes applied to the chart during the last revision."
+          ]
+        },
+        {
+          "heading": "No. 7 · Jeppesen copyright label",
+          "paragraphs": [
+            "Jeppesen Copyright label."
+          ]
+        }
+      ],
+      "quiz_question_ids": [
+        "JEPP-APPROACH-140",
+        "JEPP-APPROACH-141",
+        "JEPP-APPROACH-142",
+        "JEPP-APPROACH-143",
+        "JEPP-APPROACH-144",
+        "JEPP-APPROACH-145",
+        "JEPP-APPROACH-146"
+      ]
+    }
+  ]
+}
