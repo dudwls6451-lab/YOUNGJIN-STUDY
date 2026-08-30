@@ -1,0 +1,27 @@
+{
+  "version": "v11.60.26",
+  "base": "v11.60.25",
+  "module": "Jeppesen Airway Manual · Enroute Data - General · Designators of ATS Routes and Its Use in Voice Communications",
+  "source_pages": [
+    309,
+    310
+  ],
+  "questions": 16,
+  "theory_stages": 2,
+  "pass_threshold_percent": 80,
+  "new_figure_files": 0,
+  "reused_figure_files": 0,
+  "reference_total_questions_after_patch": 1591,
+  "validation": {
+    "json_parse": true,
+    "unique_question_ids": true,
+    "four_choices_each": true,
+    "answers_point_to_choice": true,
+    "all_explanations_present": true,
+    "all_stage_quiz_ids_resolve": true,
+    "js_syntax_node_check": true,
+    "index_script_once": true,
+    "no_figures_in_patch": true
+  },
+  "scope_note": "Source-derived only from Jeppesen pp.309–310; no outside content added."
+}

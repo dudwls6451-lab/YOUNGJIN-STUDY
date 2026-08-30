@@ -1,0 +1,750 @@
+{
+  "metadata": {
+    "title": "Jeppesen Airway Manual · Designators of ATS Routes and Its Use in Voice Communications 문제은행",
+    "source": "Jeppesen Airway Manual, Enroute Data - General, Designators of ATS Routes and Its Use in Voice Communications, pp.309–310",
+    "version": "1.0",
+    "patch_version": "11.60.26",
+    "question_count": 16,
+    "stage_count": 2,
+    "language": "ko questions preserving Jeppesen terminology",
+    "scope_note": "p.309–310 only; begins after Oceanic Long-Range Navigation Information."
+  },
+  "questions": [
+    {
+      "id": "JEPP-ATSROUTE-001",
+      "number": 1,
+      "subject": "Jeppesen Airway Manual · Designators of ATS Routes and Its Use in Voice Communications",
+      "study_unit": 1,
+      "study_unit_title": "Enroute Data - General",
+      "subunit": {
+        "code": "ATSROUTE-STAGE-01",
+        "title": "ATS Route Designator Composition"
+      },
+      "source_page": 309,
+      "question": "Jeppesen 원문에 따른 ATS route 기본 designator의 문자/숫자 길이 설명으로 맞는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "최대 5개의 alpha/numeric characters이며, 어떠한 경우에도 6개를 초과하지 않는다."
+        },
+        {
+          "id": "B",
+          "text": "항상 정확히 6개의 alpha/numeric characters로 구성한다."
+        },
+        {
+          "id": "C",
+          "text": "최대 8개의 alpha/numeric characters로 구성한다."
+        },
+        {
+          "id": "D",
+          "text": "길이에 제한이 없다."
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문은 ATS route basic designator가 automation systems에서 사용 가능하도록 maximum of five, in no case exceed six alpha/numeric characters로 구성된다고 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Enroute Data - General · Designators of ATS Routes and Its Use in Voice Communications p.309",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Enroute Data - General",
+        "Designators of ATS Routes",
+        "Voice Communications"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-ATSROUTE-002",
+      "number": 2,
+      "subject": "Jeppesen Airway Manual · Designators of ATS Routes and Its Use in Voice Communications",
+      "study_unit": 1,
+      "study_unit_title": "Enroute Data - General",
+      "subunit": {
+        "code": "ATSROUTE-STAGE-01",
+        "title": "ATS Route Designator Composition"
+      },
+      "source_page": 309,
+      "question": "ATS route의 basic designator 구성으로 맞는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "알파벳 1문자 뒤에 1부터 999까지의 숫자를 붙인다."
+        },
+        {
+          "id": "B",
+          "text": "숫자 1자리 뒤에 알파벳 3문자를 붙인다."
+        },
+        {
+          "id": "C",
+          "text": "알파벳 2문자만 사용한다."
+        },
+        {
+          "id": "D",
+          "text": "숫자만 1부터 999까지 사용한다."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Basic designator는 one letter of the alphabet followed by a number from 1 to 999로 구성된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Enroute Data - General · Designators of ATS Routes and Its Use in Voice Communications p.309",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Enroute Data - General",
+        "Designators of ATS Routes",
+        "Voice Communications"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-ATSROUTE-003",
+      "number": 3,
+      "subject": "Jeppesen Airway Manual · Designators of ATS Routes and Its Use in Voice Communications",
+      "study_unit": 1,
+      "study_unit_title": "Enroute Data - General",
+      "subunit": {
+        "code": "ATSROUTE-STAGE-01",
+        "title": "ATS Route Designator Composition"
+      },
+      "source_page": 309,
+      "question": "Regional network의 일부이면서 area navigation route가 아닌 ATS route에 사용하는 기본 문자군은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A, B, G, R"
+        },
+        {
+          "id": "B",
+          "text": "L, M, N, P"
+        },
+        {
+          "id": "C",
+          "text": "H, J, V, W"
+        },
+        {
+          "id": "D",
+          "text": "Q, T, Y, Z"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Jeppesen 원문은 A, B, G, R을 regional networks의 일부이며 area navigation routes가 아닌 route에 사용한다고 명시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Enroute Data - General · Designators of ATS Routes and Its Use in Voice Communications p.309",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Enroute Data - General",
+        "Designators of ATS Routes",
+        "Voice Communications"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-ATSROUTE-004",
+      "number": 4,
+      "subject": "Jeppesen Airway Manual · Designators of ATS Routes and Its Use in Voice Communications",
+      "study_unit": 1,
+      "study_unit_title": "Enroute Data - General",
+      "subunit": {
+        "code": "ATSROUTE-STAGE-01",
+        "title": "ATS Route Designator Composition"
+      },
+      "source_page": 309,
+      "question": "Regional network의 일부인 area navigation route에 사용하는 기본 문자군은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A, B, G, R"
+        },
+        {
+          "id": "B",
+          "text": "L, M, N, P"
+        },
+        {
+          "id": "C",
+          "text": "H, J, V, W"
+        },
+        {
+          "id": "D",
+          "text": "Q, T, Y, Z"
+        }
+      ],
+      "answer": "B",
+      "explanation": "L, M, N, P는 area navigation routes which form part of the regional networks of ATS routes에 사용한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Enroute Data - General · Designators of ATS Routes and Its Use in Voice Communications p.309",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Enroute Data - General",
+        "Designators of ATS Routes",
+        "Voice Communications"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-ATSROUTE-005",
+      "number": 5,
+      "subject": "Jeppesen Airway Manual · Designators of ATS Routes and Its Use in Voice Communications",
+      "study_unit": 1,
+      "study_unit_title": "Enroute Data - General",
+      "subunit": {
+        "code": "ATSROUTE-STAGE-01",
+        "title": "ATS Route Designator Composition"
+      },
+      "source_page": 309,
+      "question": "Regional network의 일부가 아니며 area navigation route도 아닌 ATS route에 사용하는 기본 문자군은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A, B, G, R"
+        },
+        {
+          "id": "B",
+          "text": "L, M, N, P"
+        },
+        {
+          "id": "C",
+          "text": "H, J, V, W"
+        },
+        {
+          "id": "D",
+          "text": "Q, T, Y, Z"
+        }
+      ],
+      "answer": "C",
+      "explanation": "H, J, V, W는 regional networks의 일부가 아니며 area navigation routes도 아닌 route에 사용한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Enroute Data - General · Designators of ATS Routes and Its Use in Voice Communications p.309",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Enroute Data - General",
+        "Designators of ATS Routes",
+        "Voice Communications"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-ATSROUTE-006",
+      "number": 6,
+      "subject": "Jeppesen Airway Manual · Designators of ATS Routes and Its Use in Voice Communications",
+      "study_unit": 1,
+      "study_unit_title": "Enroute Data - General",
+      "subunit": {
+        "code": "ATSROUTE-STAGE-01",
+        "title": "ATS Route Designator Composition"
+      },
+      "source_page": 309,
+      "question": "Regional network의 일부가 아닌 area navigation route에 사용하는 기본 문자군은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A, B, G, R"
+        },
+        {
+          "id": "B",
+          "text": "L, M, N, P"
+        },
+        {
+          "id": "C",
+          "text": "H, J, V, W"
+        },
+        {
+          "id": "D",
+          "text": "Q, T, Y, Z"
+        }
+      ],
+      "answer": "D",
+      "explanation": "Q, T, Y, Z는 area navigation routes which do not form part of the regional networks of ATS routes에 사용한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Enroute Data - General · Designators of ATS Routes and Its Use in Voice Communications p.309",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Enroute Data - General",
+        "Designators of ATS Routes",
+        "Voice Communications"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-ATSROUTE-007",
+      "number": 7,
+      "subject": "Jeppesen Airway Manual · Designators of ATS Routes and Its Use in Voice Communications",
+      "study_unit": 1,
+      "study_unit_title": "Enroute Data - General",
+      "subunit": {
+        "code": "ATSROUTE-STAGE-01",
+        "title": "ATS Route Designator Composition"
+      },
+      "source_page": 309,
+      "question": "Basic designator가 L로 시작하는 ATS route에 대해 Jeppesen의 문자군 분류상 맞는 설명은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Regional network의 일부인 area navigation route"
+        },
+        {
+          "id": "B",
+          "text": "Regional network의 일부가 아닌 non-RNAV route"
+        },
+        {
+          "id": "C",
+          "text": "Helicopter 전용 low-level route"
+        },
+        {
+          "id": "D",
+          "text": "Supersonic aircraft 전용 route"
+        }
+      ],
+      "answer": "A",
+      "explanation": "L은 M, N, P와 함께 regional network의 일부인 area navigation route용 기본 문자군에 속한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Enroute Data - General · Designators of ATS Routes and Its Use in Voice Communications p.309",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Enroute Data - General",
+        "Designators of ATS Routes",
+        "Voice Communications"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-ATSROUTE-008",
+      "number": 8,
+      "subject": "Jeppesen Airway Manual · Designators of ATS Routes and Its Use in Voice Communications",
+      "study_unit": 1,
+      "study_unit_title": "Enroute Data - General",
+      "subunit": {
+        "code": "ATSROUTE-STAGE-01",
+        "title": "ATS Route Designator Composition"
+      },
+      "source_page": 309,
+      "question": "Basic designator가 Z로 시작하는 ATS route에 대해 Jeppesen의 문자군 분류상 맞는 설명은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Regional network의 일부인 non-RNAV route"
+        },
+        {
+          "id": "B",
+          "text": "Regional network의 일부인 RNAV route"
+        },
+        {
+          "id": "C",
+          "text": "Regional network의 일부가 아닌 RNAV route"
+        },
+        {
+          "id": "D",
+          "text": "Regional network의 일부가 아닌 non-RNAV route"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Z는 Q, T, Y와 함께 regional networks의 일부가 아닌 area navigation route용 문자군에 속한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Enroute Data - General · Designators of ATS Routes and Its Use in Voice Communications p.309",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Enroute Data - General",
+        "Designators of ATS Routes",
+        "Voice Communications"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-ATSROUTE-009",
+      "number": 9,
+      "subject": "Jeppesen Airway Manual · Designators of ATS Routes and Its Use in Voice Communications",
+      "study_unit": 2,
+      "study_unit_title": "Enroute Data - General",
+      "subunit": {
+        "code": "ATSROUTE-STAGE-02",
+        "title": "Prefixes, Suffixes & Voice Communications"
+      },
+      "source_page": 309,
+      "question": "ATS route basic designator 앞에 prefix K를 붙이는 의미는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "주로 helicopter가 사용하는 low-level route"
+        },
+        {
+          "id": "B",
+          "text": "upper airspace에 설정된 route"
+        },
+        {
+          "id": "C",
+          "text": "supersonic aircraft 전용 route"
+        },
+        {
+          "id": "D",
+          "text": "flight information service만 제공되는 route"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Prefix K는 a low level route established for use primarily by helicopters를 나타낸다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Enroute Data - General · Designators of ATS Routes and Its Use in Voice Communications p.309",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Enroute Data - General",
+        "Designators of ATS Routes",
+        "Voice Communications"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-ATSROUTE-010",
+      "number": 10,
+      "subject": "Jeppesen Airway Manual · Designators of ATS Routes and Its Use in Voice Communications",
+      "study_unit": 2,
+      "study_unit_title": "Enroute Data - General",
+      "subunit": {
+        "code": "ATSROUTE-STAGE-02",
+        "title": "Prefixes, Suffixes & Voice Communications"
+      },
+      "source_page": 309,
+      "question": "ATS route basic designator 앞에 prefix U를 붙이는 의미는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "주로 helicopter가 사용하는 low-level route"
+        },
+        {
+          "id": "B",
+          "text": "route 또는 그 일부가 upper airspace에 설정됨"
+        },
+        {
+          "id": "C",
+          "text": "advisory service만 제공됨"
+        },
+        {
+          "id": "D",
+          "text": "flight information service만 제공됨"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Prefix U는 route or portion thereof is established in the upper airspace임을 나타낸다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Enroute Data - General · Designators of ATS Routes and Its Use in Voice Communications p.309",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Enroute Data - General",
+        "Designators of ATS Routes",
+        "Voice Communications"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-ATSROUTE-011",
+      "number": 11,
+      "subject": "Jeppesen Airway Manual · Designators of ATS Routes and Its Use in Voice Communications",
+      "study_unit": 2,
+      "study_unit_title": "Enroute Data - General",
+      "subunit": {
+        "code": "ATSROUTE-STAGE-02",
+        "title": "Prefixes, Suffixes & Voice Communications"
+      },
+      "source_page": 309,
+      "question": "ATS route basic designator 앞에 prefix S를 붙이는 의미는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Supersonic aircraft가 acceleration/deceleration 및 supersonic flight 중 독점적으로 사용하는 route"
+        },
+        {
+          "id": "B",
+          "text": "Standard arrival route"
+        },
+        {
+          "id": "C",
+          "text": "Special VFR route"
+        },
+        {
+          "id": "D",
+          "text": "Surveillance only route"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Prefix S는 supersonic aircraft가 acceleration/deceleration 및 supersonic flight 중 exclusively 사용하는 route를 나타낸다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Enroute Data - General · Designators of ATS Routes and Its Use in Voice Communications p.309",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Enroute Data - General",
+        "Designators of ATS Routes",
+        "Voice Communications"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-ATSROUTE-012",
+      "number": 12,
+      "subject": "Jeppesen Airway Manual · Designators of ATS Routes and Its Use in Voice Communications",
+      "study_unit": 2,
+      "study_unit_title": "Enroute Data - General",
+      "subunit": {
+        "code": "ATSROUTE-STAGE-02",
+        "title": "Prefixes, Suffixes & Voice Communications"
+      },
+      "source_page": 309,
+      "question": "ATS route basic designator 뒤에 suffix F를 붙이는 의미는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Advisory service only가 제공됨"
+        },
+        {
+          "id": "B",
+          "text": "Flight information service only가 제공됨"
+        },
+        {
+          "id": "C",
+          "text": "Upper airspace route"
+        },
+        {
+          "id": "D",
+          "text": "Helicopter low-level route"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Suffix F는 on the route or portion thereof advisory service only is provided임을 나타낸다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Enroute Data - General · Designators of ATS Routes and Its Use in Voice Communications p.309",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Enroute Data - General",
+        "Designators of ATS Routes",
+        "Voice Communications"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-ATSROUTE-013",
+      "number": 13,
+      "subject": "Jeppesen Airway Manual · Designators of ATS Routes and Its Use in Voice Communications",
+      "study_unit": 2,
+      "study_unit_title": "Enroute Data - General",
+      "subunit": {
+        "code": "ATSROUTE-STAGE-02",
+        "title": "Prefixes, Suffixes & Voice Communications"
+      },
+      "source_page": 309,
+      "question": "ATS route basic designator 뒤에 suffix G를 붙이는 의미는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Advisory service only가 제공됨"
+        },
+        {
+          "id": "B",
+          "text": "Flight information service only가 제공됨"
+        },
+        {
+          "id": "C",
+          "text": "Supersonic aircraft 전용"
+        },
+        {
+          "id": "D",
+          "text": "Upper airspace route"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Suffix G는 on the route or portion thereof flight information service only is provided임을 나타낸다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Enroute Data - General · Designators of ATS Routes and Its Use in Voice Communications p.309",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Enroute Data - General",
+        "Designators of ATS Routes",
+        "Voice Communications"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-ATSROUTE-014",
+      "number": 14,
+      "subject": "Jeppesen Airway Manual · Designators of ATS Routes and Its Use in Voice Communications",
+      "study_unit": 2,
+      "study_unit_title": "Enroute Data - General",
+      "subunit": {
+        "code": "ATSROUTE-STAGE-02",
+        "title": "Prefixes, Suffixes & Voice Communications"
+      },
+      "source_page": 309,
+      "question": "Voice communications에서 ATS route basic designator의 기본 문자는 어떻게 발음해야 하는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "ICAO spelling alphabet에 따라 발음한다."
+        },
+        {
+          "id": "B",
+          "text": "숫자로 치환해 읽는다."
+        },
+        {
+          "id": "C",
+          "text": "항상 영어 단어처럼 읽는다."
+        },
+        {
+          "id": "D",
+          "text": "발음하지 않는다."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Jeppesen 원문은 voice communications에서 basic letter of a designator를 ICAO spelling alphabet에 따라 말하도록 한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Enroute Data - General · Designators of ATS Routes and Its Use in Voice Communications p.309",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Enroute Data - General",
+        "Designators of ATS Routes",
+        "Voice Communications"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-ATSROUTE-015",
+      "number": 15,
+      "subject": "Jeppesen Airway Manual · Designators of ATS Routes and Its Use in Voice Communications",
+      "study_unit": 2,
+      "study_unit_title": "Enroute Data - General",
+      "subunit": {
+        "code": "ATSROUTE-STAGE-02",
+        "title": "Prefixes, Suffixes & Voice Communications"
+      },
+      "source_page": 310,
+      "question": "Voice communications에서 prefix K, U, S의 발음 조합으로 맞는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "K = \"Kopter\", U = \"Upper\", S = \"Supersonic\""
+        },
+        {
+          "id": "B",
+          "text": "K = \"Kilo\", U = \"Uniform\", S = \"Sierra\""
+        },
+        {
+          "id": "C",
+          "text": "K = \"Kopter\", U = \"Uniform\", S = \"Sierra\""
+        },
+        {
+          "id": "D",
+          "text": "K = \"Kilo\", U = \"Upper\", S = \"Supersonic\""
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문은 prefix K, U, S를 voice communications에서 각각 \"Kopter\", \"Upper\", \"Supersonic\"으로 발음한다고 명시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Enroute Data - General · Designators of ATS Routes and Its Use in Voice Communications p.310",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Enroute Data - General",
+        "Designators of ATS Routes",
+        "Voice Communications"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-ATSROUTE-016",
+      "number": 16,
+      "subject": "Jeppesen Airway Manual · Designators of ATS Routes and Its Use in Voice Communications",
+      "study_unit": 2,
+      "study_unit_title": "Enroute Data - General",
+      "subunit": {
+        "code": "ATSROUTE-STAGE-02",
+        "title": "Prefixes, Suffixes & Voice Communications"
+      },
+      "source_page": 310,
+      "question": "ATS route suffix F 또는 G를 voice communications에서 사용하는 것에 대한 Jeppesen 설명은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Flight crew가 이를 사용하도록 요구되지 않는다."
+        },
+        {
+          "id": "B",
+          "text": "항상 매 교신마다 반드시 발음해야 한다."
+        },
+        {
+          "id": "C",
+          "text": "관제사만 F를 생략할 수 있다."
+        },
+        {
+          "id": "D",
+          "text": "G만 생략 가능하고 F는 반드시 발음한다."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Jeppesen 원문은 suffix F 또는 G가 사용된 경우 flight crew should not be required to use them in voice communications라고 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Enroute Data - General · Designators of ATS Routes and Its Use in Voice Communications p.310",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Enroute Data - General",
+        "Designators of ATS Routes",
+        "Voice Communications"
+      ],
+      "reference_study_only": true
+    }
+  ]
+}
