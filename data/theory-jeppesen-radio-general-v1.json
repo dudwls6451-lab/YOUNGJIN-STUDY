@@ -1,0 +1,218 @@
+{
+  "metadata": {
+    "title": "Jeppesen Airway Manual · Radio Data - General · General Information 이론 학습",
+    "source": "Jeppesen Airway Manual, Radio Data - General, General Information, pp.331–335",
+    "version": "1.0",
+    "patch_version": "11.60.27",
+    "stage_count": 5,
+    "question_count": 40,
+    "pass_threshold_percent": 80,
+    "language": "ko summary preserving Jeppesen terminology",
+    "scope_note": "p.331–335 only; next Section 1 Navigation Aids begins p.336."
+  },
+  "stages": [
+    {
+      "id": 1,
+      "title": "Frequency Bands & VHF Markers",
+      "sections": [
+        {
+          "title": "Frequency Bands",
+          "bullets": [
+            "Radio frequencies는 대략 10 kHz–300 GHz 범위의 electro-magnetic spectrum에 놓이며 propagation characteristics에 따라 bands로 구분된다.",
+            "VLF 0–30 kHz · LF 30–300 kHz · MF 300 kHz–3 MHz · HF 3–30 MHz.",
+            "VHF 30–300 MHz · UHF 300 MHz–3 GHz · SHF 3–30 GHz · EHF 30–300 GHz.",
+            "Jeppesen 주석: Aviation에서는 200 MHz–3 GHz를 UHF로 간주한다."
+          ]
+        },
+        {
+          "title": "VHF Marker Beacons",
+          "bullets": [
+            "FAN TYPE, OUTER, INNER, ZONE을 포함한 모든 VHF marker는 75 MHz(75,000 kHz)에서 운용된다.",
+            "FM Fan Marker(100 W) 3000 Hz · LFM Low-Powered Fan Marker(5 W) 3000 Hz.",
+            "MM Middle Marker 1300 Hz · OM Outer Marker 400 Hz · Z Station Location Marker 3000 Hz."
+          ]
+        }
+      ],
+      "subject": "Jeppesen Airway Manual · Radio Data - General · General Information",
+      "module": "Radio Data - General · General Information",
+      "source_printed_pages": [
+        331
+      ],
+      "source_pdf_pages": [
+        331
+      ],
+      "quiz_question_ids": [
+        "JEPP-RADIOGEN-001",
+        "JEPP-RADIOGEN-002",
+        "JEPP-RADIOGEN-003",
+        "JEPP-RADIOGEN-004",
+        "JEPP-RADIOGEN-005",
+        "JEPP-RADIOGEN-006",
+        "JEPP-RADIOGEN-007",
+        "JEPP-RADIOGEN-008"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Navigation Aid & Airborne Frequency Allocation",
+      "sections": [
+        {
+          "title": "Navigation Aids",
+          "bullets": [
+            "NDB(low power)/Radio Range(low power): 190–535 kHz · standard NDB: 190–1750 kHz.",
+            "VOT: 108.0–117.975 MHz.",
+            "ILS localizer: 108.0–111.975 MHz(odd-tenths plus twentieth frequencies).",
+            "VOR: 108.0–111.975 MHz에서는 even tenths 또는 even tenths plus a twentieth; 111.975–117.975 MHz에서는 even and odd tenths.",
+            "ILS glide slope: 328.6–335.4 MHz · DME/TACAN: 960.0–1215.0 MHz · GPS: 1563.42–1587.42 MHz."
+          ]
+        },
+        {
+          "title": "Airborne Stations & Channel Spacing",
+          "bullets": [
+            "410 kHz: International DF(outside continental USA) · 475 kHz: sea flights가 intermediate frequency를 원하는 경우의 working frequency.",
+            "500 kHz: aircraft and ships over the seas를 위한 international frequency. 긴급/안전 전문 등을 제외하면 매시간 15분과 45분부터 3분간 송신을 중지한다.",
+            "3281 kHz: lighter-than-aircraft · 117.975–137.0 MHz: Air Traffic Control Operations.",
+            "Aeronautical mobile (R) service의 minimum separation between assignable frequencies는 8.33 kHz이며, 일부 지역에서는 25 kHz 등과 공존할 수 있다."
+          ]
+        }
+      ],
+      "subject": "Jeppesen Airway Manual · Radio Data - General · General Information",
+      "module": "Radio Data - General · General Information",
+      "source_printed_pages": [
+        332
+      ],
+      "source_pdf_pages": [
+        332
+      ],
+      "quiz_question_ids": [
+        "JEPP-RADIOGEN-009",
+        "JEPP-RADIOGEN-010",
+        "JEPP-RADIOGEN-011",
+        "JEPP-RADIOGEN-012",
+        "JEPP-RADIOGEN-013",
+        "JEPP-RADIOGEN-014",
+        "JEPP-RADIOGEN-015",
+        "JEPP-RADIOGEN-016"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Aeronautical Mobile Frequencies & VHF Range",
+      "sections": [
+        {
+          "title": "Aeronautical Mobile Frequency Allocation",
+          "bullets": [
+            "118–121.4 MHz: International and National Aeronautical Mobile Services.",
+            "121.6–121.9917 MHz: International and National Aerodrome Surface Communications.",
+            "123.1 MHz: Auxiliary frequency SAR · 123.45 MHz: Worldwide air-to-air communications.",
+            "136.9–136.975 MHz: VHF air-ground data link communications용 reserved band."
+          ]
+        },
+        {
+          "title": "Effective Range of VHF",
+          "bullets": [
+            "VHF transmission range는 actual line of sight보다 normally about 7% 더 길다.",
+            "공식에서 D는 nautical miles 단위 distance, h는 aircraft station height above earth이다.",
+            "Effective earth radius는 actual radius의 4/3을 사용하며, K는 h가 metres일 때 2.22, feet일 때 1.23이다."
+          ]
+        }
+      ],
+      "subject": "Jeppesen Airway Manual · Radio Data - General · General Information",
+      "module": "Radio Data - General · General Information",
+      "source_printed_pages": [
+        333
+      ],
+      "source_pdf_pages": [
+        333
+      ],
+      "quiz_question_ids": [
+        "JEPP-RADIOGEN-017",
+        "JEPP-RADIOGEN-018",
+        "JEPP-RADIOGEN-019",
+        "JEPP-RADIOGEN-020",
+        "JEPP-RADIOGEN-021",
+        "JEPP-RADIOGEN-022",
+        "JEPP-RADIOGEN-023",
+        "JEPP-RADIOGEN-024"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "VHF Range Reference & Signal Emissions I",
+      "sections": [
+        {
+          "title": "VHF Range over Flat Terrain",
+          "bullets": [
+            "500 ft 28 NM · 1,000 ft 39 NM · 1,500 ft 48 NM · 2,000 ft 55 NM.",
+            "3,000 ft 69 NM · 5,000 ft 87 NM · 10,000 ft 122 NM · 15,000 ft 152 NM.",
+            "20,000 ft 174 NM · 30,000 ft 213 NM · 40,000 ft 246 NM."
+          ]
+        },
+        {
+          "title": "Types of Signal Emissions I",
+          "bullets": [
+            "NON(A0): no modulation.",
+            "A1A(A1): telegraphy without use of a modulating audio frequency(by on-off keying).",
+            "A3A(A3): telephony, double sideband.",
+            "R3E(A3A): single sideband, reduced carrier · H3E(A3H): single sideband, full carrier · J3E(A3J): single sideband, suppressed carrier."
+          ]
+        }
+      ],
+      "subject": "Jeppesen Airway Manual · Radio Data - General · General Information",
+      "module": "Radio Data - General · General Information",
+      "source_printed_pages": [
+        334
+      ],
+      "source_pdf_pages": [
+        334
+      ],
+      "quiz_question_ids": [
+        "JEPP-RADIOGEN-025",
+        "JEPP-RADIOGEN-026",
+        "JEPP-RADIOGEN-027",
+        "JEPP-RADIOGEN-028",
+        "JEPP-RADIOGEN-029",
+        "JEPP-RADIOGEN-030",
+        "JEPP-RADIOGEN-031",
+        "JEPP-RADIOGEN-032"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Types of Signal Emissions II",
+      "sections": [
+        {
+          "title": "Types of Signal Emissions II",
+          "bullets": [
+            "B7E: two independent sidebands containing quantized/digital information.",
+            "B8E: two independent sidebands containing analogue information.",
+            "A4(A4): Facsimile(by a frequency modulated sub-carrier).",
+            "R3C(A4A): single sideband, reduced carrier · J3C: single sideband, suppressed carrier.",
+            "R7B(A7A): multichannel voice-frequency telegraphy, single sideband, reduced carrier.",
+            "B9W(A9B): 위 분류에 포함되지 않는 조합(예: telephony + telegraphy), two independent sidebands."
+          ]
+        }
+      ],
+      "subject": "Jeppesen Airway Manual · Radio Data - General · General Information",
+      "module": "Radio Data - General · General Information",
+      "source_printed_pages": [
+        334,
+        335
+      ],
+      "source_pdf_pages": [
+        334,
+        335
+      ],
+      "quiz_question_ids": [
+        "JEPP-RADIOGEN-033",
+        "JEPP-RADIOGEN-034",
+        "JEPP-RADIOGEN-035",
+        "JEPP-RADIOGEN-036",
+        "JEPP-RADIOGEN-037",
+        "JEPP-RADIOGEN-038",
+        "JEPP-RADIOGEN-039",
+        "JEPP-RADIOGEN-040"
+      ]
+    }
+  ]
+}

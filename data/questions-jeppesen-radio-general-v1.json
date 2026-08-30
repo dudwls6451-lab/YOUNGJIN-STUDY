@@ -1,0 +1,1814 @@
+{
+  "metadata": {
+    "title": "Jeppesen Airway Manual · Radio Data - General · General Information 문제은행",
+    "source": "Jeppesen Airway Manual, Radio Data - General, General Information, pp.331–335",
+    "version": "1.0",
+    "patch_version": "11.60.27",
+    "question_count": 40,
+    "stage_count": 5,
+    "language": "ko questions preserving Jeppesen terminology",
+    "scope_note": "p.331–335 only; Section 1 Navigation Aids begins at p.336."
+  },
+  "questions": [
+    {
+      "id": "JEPP-RADIOGEN-001",
+      "number": 1,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · General Information",
+      "study_unit": 1,
+      "study_unit_title": "Radio Data - General",
+      "subunit": {
+        "code": "RADIOGEN-STAGE-01",
+        "title": "Frequency Bands & VHF Markers"
+      },
+      "source_page": 331,
+      "question": "Jeppesen General Information에서 VLF(Very Low Frequency)의 범위는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "0–30 kHz"
+        },
+        {
+          "id": "B",
+          "text": "30–300 kHz"
+        },
+        {
+          "id": "C",
+          "text": "300 kHz–3 MHz"
+        },
+        {
+          "id": "D",
+          "text": "3–30 MHz"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문은 VLF를 0–30 kHz로 분류한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · General Information p.331",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "General Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-RADIOGEN-002",
+      "number": 2,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · General Information",
+      "study_unit": 1,
+      "study_unit_title": "Radio Data - General",
+      "subunit": {
+        "code": "RADIOGEN-STAGE-01",
+        "title": "Frequency Bands & VHF Markers"
+      },
+      "source_page": 331,
+      "question": "LF(Low Frequency)의 범위로 맞는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "0–30 kHz"
+        },
+        {
+          "id": "B",
+          "text": "30–300 kHz"
+        },
+        {
+          "id": "C",
+          "text": "300 kHz–3 MHz"
+        },
+        {
+          "id": "D",
+          "text": "30–300 MHz"
+        }
+      ],
+      "answer": "B",
+      "explanation": "원문은 LF를 30 kHz–300 kHz로 분류한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · General Information p.331",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "General Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-RADIOGEN-003",
+      "number": 3,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · General Information",
+      "study_unit": 1,
+      "study_unit_title": "Radio Data - General",
+      "subunit": {
+        "code": "RADIOGEN-STAGE-01",
+        "title": "Frequency Bands & VHF Markers"
+      },
+      "source_page": 331,
+      "question": "HF(High Frequency)의 범위는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "300 kHz–3 MHz"
+        },
+        {
+          "id": "B",
+          "text": "3–30 MHz"
+        },
+        {
+          "id": "C",
+          "text": "30–300 MHz"
+        },
+        {
+          "id": "D",
+          "text": "300 MHz–3 GHz"
+        }
+      ],
+      "answer": "B",
+      "explanation": "원문은 HF를 3 MHz–30 MHz로 분류한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · General Information p.331",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "General Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-RADIOGEN-004",
+      "number": 4,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · General Information",
+      "study_unit": 1,
+      "study_unit_title": "Radio Data - General",
+      "subunit": {
+        "code": "RADIOGEN-STAGE-01",
+        "title": "Frequency Bands & VHF Markers"
+      },
+      "source_page": 331,
+      "question": "Jeppesen 표에서 VHF(Very High Frequency)의 일반 범위는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "3–30 MHz"
+        },
+        {
+          "id": "B",
+          "text": "30–300 MHz"
+        },
+        {
+          "id": "C",
+          "text": "300 MHz–3 GHz"
+        },
+        {
+          "id": "D",
+          "text": "3–30 GHz"
+        }
+      ],
+      "answer": "B",
+      "explanation": "원문 frequency bands 표에서 VHF는 30 MHz–300 MHz이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · General Information p.331",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "General Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-RADIOGEN-005",
+      "number": 5,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · General Information",
+      "study_unit": 1,
+      "study_unit_title": "Radio Data - General",
+      "subunit": {
+        "code": "RADIOGEN-STAGE-01",
+        "title": "Frequency Bands & VHF Markers"
+      },
+      "source_page": 331,
+      "question": "Jeppesen의 Aviation 주석에 따르면 UHF로 간주되는 범위는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "30–300 MHz"
+        },
+        {
+          "id": "B",
+          "text": "108–137 MHz"
+        },
+        {
+          "id": "C",
+          "text": "200 MHz–3 GHz"
+        },
+        {
+          "id": "D",
+          "text": "3–30 GHz"
+        }
+      ],
+      "answer": "C",
+      "explanation": "원문 주석은 Aviation에서 200 MHz–3 GHz를 UHF로 간주한다고 명시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · General Information p.331",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "General Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-RADIOGEN-006",
+      "number": 6,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · General Information",
+      "study_unit": 1,
+      "study_unit_title": "Radio Data - General",
+      "subunit": {
+        "code": "RADIOGEN-STAGE-01",
+        "title": "Frequency Bands & VHF Markers"
+      },
+      "source_page": 331,
+      "question": "모든 VHF marker(FAN TYPE, OUTER, INNER, ZONE)가 운용되는 주파수는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "50 MHz"
+        },
+        {
+          "id": "B",
+          "text": "75 MHz"
+        },
+        {
+          "id": "C",
+          "text": "108.1 MHz"
+        },
+        {
+          "id": "D",
+          "text": "121.5 MHz"
+        }
+      ],
+      "answer": "B",
+      "explanation": "원문은 모든 VHF marker가 75 MHz(75,000 kHz)에서 운용된다고 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · General Information p.331",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "General Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-RADIOGEN-007",
+      "number": 7,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · General Information",
+      "study_unit": 1,
+      "study_unit_title": "Radio Data - General",
+      "subunit": {
+        "code": "RADIOGEN-STAGE-01",
+        "title": "Frequency Bands & VHF Markers"
+      },
+      "source_page": 331,
+      "question": "Outer Marker(OM)의 tone modulation은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "400 Hz"
+        },
+        {
+          "id": "B",
+          "text": "1300 Hz"
+        },
+        {
+          "id": "C",
+          "text": "2000 Hz"
+        },
+        {
+          "id": "D",
+          "text": "3000 Hz"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문 marker tone 표에서 OM(Outer Marker)은 400 Hz이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · General Information p.331",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "General Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-RADIOGEN-008",
+      "number": 8,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · General Information",
+      "study_unit": 1,
+      "study_unit_title": "Radio Data - General",
+      "subunit": {
+        "code": "RADIOGEN-STAGE-01",
+        "title": "Frequency Bands & VHF Markers"
+      },
+      "source_page": 331,
+      "question": "Middle Marker(MM)의 tone modulation은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "400 Hz"
+        },
+        {
+          "id": "B",
+          "text": "1000 Hz"
+        },
+        {
+          "id": "C",
+          "text": "1300 Hz"
+        },
+        {
+          "id": "D",
+          "text": "3000 Hz"
+        }
+      ],
+      "answer": "C",
+      "explanation": "원문 marker tone 표에서 MM(Middle Marker)은 1300 Hz이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · General Information p.331",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "General Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-RADIOGEN-009",
+      "number": 9,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · General Information",
+      "study_unit": 2,
+      "study_unit_title": "Radio Data - General",
+      "subunit": {
+        "code": "RADIOGEN-STAGE-02",
+        "title": "Navigation Aid & Airborne Frequency Allocation"
+      },
+      "source_page": 332,
+      "question": "표준 NDB(Non-directional Beacon)의 일반 주파수 범위는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "190–535 kHz"
+        },
+        {
+          "id": "B",
+          "text": "190–1750 kHz"
+        },
+        {
+          "id": "C",
+          "text": "108.0–117.975 MHz"
+        },
+        {
+          "id": "D",
+          "text": "960–1215 MHz"
+        }
+      ],
+      "answer": "B",
+      "explanation": "원문은 standard NDB를 190–1750 kHz로 제시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · General Information p.332",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "General Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-RADIOGEN-010",
+      "number": 10,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · General Information",
+      "study_unit": 2,
+      "study_unit_title": "Radio Data - General",
+      "subunit": {
+        "code": "RADIOGEN-STAGE-02",
+        "title": "Navigation Aid & Airborne Frequency Allocation"
+      },
+      "source_page": 332,
+      "question": "ILS localizer의 주파수 범위는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "75 MHz"
+        },
+        {
+          "id": "B",
+          "text": "108.0–111.975 MHz"
+        },
+        {
+          "id": "C",
+          "text": "111.975–117.975 MHz"
+        },
+        {
+          "id": "D",
+          "text": "328.6–335.4 MHz"
+        }
+      ],
+      "answer": "B",
+      "explanation": "원문은 ILS localizer를 108.0–111.975 MHz로 제시하며 odd-tenths plus twentieth frequencies를 사용한다고 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · General Information p.332",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "General Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-RADIOGEN-011",
+      "number": 11,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · General Information",
+      "study_unit": 2,
+      "study_unit_title": "Radio Data - General",
+      "subunit": {
+        "code": "RADIOGEN-STAGE-02",
+        "title": "Navigation Aid & Airborne Frequency Allocation"
+      },
+      "source_page": 332,
+      "question": "ILS glide slope의 주파수 범위는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "108.0–111.975 MHz"
+        },
+        {
+          "id": "B",
+          "text": "117.975–137.0 MHz"
+        },
+        {
+          "id": "C",
+          "text": "328.6–335.4 MHz"
+        },
+        {
+          "id": "D",
+          "text": "960–1215 MHz"
+        }
+      ],
+      "answer": "C",
+      "explanation": "원문 frequency allocation에서 ILS glide slope는 328.6–335.4 MHz이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · General Information p.332",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "General Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-RADIOGEN-012",
+      "number": 12,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · General Information",
+      "study_unit": 2,
+      "study_unit_title": "Radio Data - General",
+      "subunit": {
+        "code": "RADIOGEN-STAGE-02",
+        "title": "Navigation Aid & Airborne Frequency Allocation"
+      },
+      "source_page": 332,
+      "question": "DME와 TACAN의 주파수 범위는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "190–1750 kHz"
+        },
+        {
+          "id": "B",
+          "text": "108.0–117.975 MHz"
+        },
+        {
+          "id": "C",
+          "text": "328.6–335.4 MHz"
+        },
+        {
+          "id": "D",
+          "text": "960.0–1215.0 MHz"
+        }
+      ],
+      "answer": "D",
+      "explanation": "원문은 DME and TACAN을 960.0–1215.0 MHz로 제시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · General Information p.332",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "General Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-RADIOGEN-013",
+      "number": 13,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · General Information",
+      "study_unit": 2,
+      "study_unit_title": "Radio Data - General",
+      "subunit": {
+        "code": "RADIOGEN-STAGE-02",
+        "title": "Navigation Aid & Airborne Frequency Allocation"
+      },
+      "source_page": 332,
+      "question": "Jeppesen 표에서 GPS에 할당된 범위는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "960.0–1215.0 MHz"
+        },
+        {
+          "id": "B",
+          "text": "117.975–137.0 MHz"
+        },
+        {
+          "id": "C",
+          "text": "1563.42–1587.42 MHz"
+        },
+        {
+          "id": "D",
+          "text": "3–30 GHz"
+        }
+      ],
+      "answer": "C",
+      "explanation": "원문은 GPS를 1563.42–1587.42 MHz로 제시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · General Information p.332",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "General Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-RADIOGEN-014",
+      "number": 14,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · General Information",
+      "study_unit": 2,
+      "study_unit_title": "Radio Data - General",
+      "subunit": {
+        "code": "RADIOGEN-STAGE-02",
+        "title": "Navigation Aid & Airborne Frequency Allocation"
+      },
+      "source_page": 332,
+      "question": "500 kHz에 대한 설명으로 맞는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Worldwide air-to-air communications 주파수이다."
+        },
+        {
+          "id": "B",
+          "text": "International frequency for aircraft and ships over the seas이다."
+        },
+        {
+          "id": "C",
+          "text": "Auxiliary SAR 주파수이다."
+        },
+        {
+          "id": "D",
+          "text": "ILS marker beacon 주파수이다."
+        }
+      ],
+      "answer": "B",
+      "explanation": "원문은 500 kHz를 aircraft and ships over the seas를 위한 international frequency로 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · General Information p.332",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "General Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-RADIOGEN-015",
+      "number": 15,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · General Information",
+      "study_unit": 2,
+      "study_unit_title": "Radio Data - General",
+      "subunit": {
+        "code": "RADIOGEN-STAGE-02",
+        "title": "Navigation Aid & Airborne Frequency Allocation"
+      },
+      "source_page": 332,
+      "question": "500 kHz에서는 긴급·안전 전문 등을 제외하고 매시간 언제부터 3분간 일반 송신을 중지해야 하는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "00분과 30분"
+        },
+        {
+          "id": "B",
+          "text": "10분과 40분"
+        },
+        {
+          "id": "C",
+          "text": "15분과 45분"
+        },
+        {
+          "id": "D",
+          "text": "20분과 50분"
+        }
+      ],
+      "answer": "C",
+      "explanation": "원문은 매시간 15분과 45분부터 각각 3분간 송신을 중지한다고 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · General Information p.332",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "General Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-RADIOGEN-016",
+      "number": 16,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · General Information",
+      "study_unit": 2,
+      "study_unit_title": "Radio Data - General",
+      "subunit": {
+        "code": "RADIOGEN-STAGE-02",
+        "title": "Navigation Aid & Airborne Frequency Allocation"
+      },
+      "source_page": 332,
+      "question": "Aeronautical mobile (R) service에서 assignable frequency의 최소 분리 간격은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "5 kHz"
+        },
+        {
+          "id": "B",
+          "text": "8.33 kHz"
+        },
+        {
+          "id": "C",
+          "text": "25 kHz"
+        },
+        {
+          "id": "D",
+          "text": "50 kHz"
+        }
+      ],
+      "answer": "B",
+      "explanation": "원문은 minimum separation between assignable frequencies를 8.33 kHz로 제시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · General Information p.332",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "General Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-RADIOGEN-017",
+      "number": 17,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · General Information",
+      "study_unit": 3,
+      "study_unit_title": "Radio Data - General",
+      "subunit": {
+        "code": "RADIOGEN-STAGE-03",
+        "title": "Aeronautical Mobile Frequencies & VHF Range"
+      },
+      "source_page": 333,
+      "question": "121.6–121.9917 MHz 구간의 용도는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "International and National Aerodrome Surface Communications"
+        },
+        {
+          "id": "B",
+          "text": "Worldwide air-to-air communications"
+        },
+        {
+          "id": "C",
+          "text": "Auxiliary SAR"
+        },
+        {
+          "id": "D",
+          "text": "VHF air-ground data link 전용"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문은 121.6–121.9917 MHz를 International and National Aerodrome Surface Communications로 제시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · General Information p.333",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "General Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-RADIOGEN-018",
+      "number": 18,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · General Information",
+      "study_unit": 3,
+      "study_unit_title": "Radio Data - General",
+      "subunit": {
+        "code": "RADIOGEN-STAGE-03",
+        "title": "Aeronautical Mobile Frequencies & VHF Range"
+      },
+      "source_page": 333,
+      "question": "Auxiliary frequency SAR로 제시된 주파수는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "121.5 MHz"
+        },
+        {
+          "id": "B",
+          "text": "122.8 MHz"
+        },
+        {
+          "id": "C",
+          "text": "123.1 MHz"
+        },
+        {
+          "id": "D",
+          "text": "123.45 MHz"
+        }
+      ],
+      "answer": "C",
+      "explanation": "원문은 123.1 MHz를 Auxiliary frequency SAR로 제시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · General Information p.333",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "General Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-RADIOGEN-019",
+      "number": 19,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · General Information",
+      "study_unit": 3,
+      "study_unit_title": "Radio Data - General",
+      "subunit": {
+        "code": "RADIOGEN-STAGE-03",
+        "title": "Aeronautical Mobile Frequencies & VHF Range"
+      },
+      "source_page": 333,
+      "question": "Worldwide air-to-air communications 주파수는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "121.5 MHz"
+        },
+        {
+          "id": "B",
+          "text": "123.1 MHz"
+        },
+        {
+          "id": "C",
+          "text": "123.45 MHz"
+        },
+        {
+          "id": "D",
+          "text": "130.9 MHz"
+        }
+      ],
+      "answer": "C",
+      "explanation": "원문은 123.45 MHz를 Worldwide air-to-air communications로 명시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · General Information p.333",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "General Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-RADIOGEN-020",
+      "number": 20,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · General Information",
+      "study_unit": 3,
+      "study_unit_title": "Radio Data - General",
+      "subunit": {
+        "code": "RADIOGEN-STAGE-03",
+        "title": "Aeronautical Mobile Frequencies & VHF Range"
+      },
+      "source_page": 333,
+      "question": "136.9–136.975 MHz는 무엇을 위해 reserved되어 있는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "ILS localizer"
+        },
+        {
+          "id": "B",
+          "text": "VHF air-ground data link communications"
+        },
+        {
+          "id": "C",
+          "text": "NDB identification"
+        },
+        {
+          "id": "D",
+          "text": "Aerodrome surface communications"
+        }
+      ],
+      "answer": "B",
+      "explanation": "원문은 136.9–136.975 MHz를 VHF air-ground data link communications용으로 reserved한다고 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · General Information p.333",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "General Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-RADIOGEN-021",
+      "number": 21,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · General Information",
+      "study_unit": 3,
+      "study_unit_title": "Radio Data - General",
+      "subunit": {
+        "code": "RADIOGEN-STAGE-03",
+        "title": "Aeronautical Mobile Frequencies & VHF Range"
+      },
+      "source_page": 333,
+      "question": "VHF transmission의 정상적인 range는 실제 line of sight와 비교해 대략 어떠한가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "약 7% 짧다."
+        },
+        {
+          "id": "B",
+          "text": "거의 동일하다."
+        },
+        {
+          "id": "C",
+          "text": "약 7% 길다."
+        },
+        {
+          "id": "D",
+          "text": "약 25% 길다."
+        }
+      ],
+      "answer": "C",
+      "explanation": "원문은 VHF transmission range가 actual line of sight보다 normally about 7% more라고 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · General Information p.333",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "General Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-RADIOGEN-022",
+      "number": 22,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · General Information",
+      "study_unit": 3,
+      "study_unit_title": "Radio Data - General",
+      "subunit": {
+        "code": "RADIOGEN-STAGE-03",
+        "title": "Aeronautical Mobile Frequencies & VHF Range"
+      },
+      "source_page": 333,
+      "question": "VHF range 공식에서 D가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "항공기 고도(ft)"
+        },
+        {
+          "id": "B",
+          "text": "주파수(MHz)"
+        },
+        {
+          "id": "C",
+          "text": "해리 단위 거리"
+        },
+        {
+          "id": "D",
+          "text": "지구 반경 계수"
+        }
+      ],
+      "answer": "C",
+      "explanation": "원문에서 D는 distance in nautical miles를 의미한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · General Information p.333",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "General Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-RADIOGEN-023",
+      "number": 23,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · General Information",
+      "study_unit": 3,
+      "study_unit_title": "Radio Data - General",
+      "subunit": {
+        "code": "RADIOGEN-STAGE-03",
+        "title": "Aeronautical Mobile Frequencies & VHF Range"
+      },
+      "source_page": 333,
+      "question": "VHF range 공식에서 h가 feet로 표현될 때 K 값은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1.23"
+        },
+        {
+          "id": "B",
+          "text": "2.22"
+        },
+        {
+          "id": "C",
+          "text": "4/3"
+        },
+        {
+          "id": "D",
+          "text": "7.00"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문은 h가 feet일 때 K=1.23이라고 제시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · General Information p.333",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "General Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-RADIOGEN-024",
+      "number": 24,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · General Information",
+      "study_unit": 3,
+      "study_unit_title": "Radio Data - General",
+      "subunit": {
+        "code": "RADIOGEN-STAGE-03",
+        "title": "Aeronautical Mobile Frequencies & VHF Range"
+      },
+      "source_page": 333,
+      "question": "VHF range 공식에서 h가 metres로 표현될 때 K 값은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1.23"
+        },
+        {
+          "id": "B",
+          "text": "1.50"
+        },
+        {
+          "id": "C",
+          "text": "2.22"
+        },
+        {
+          "id": "D",
+          "text": "3.00"
+        }
+      ],
+      "answer": "C",
+      "explanation": "원문은 h가 metres일 때 K=2.22라고 제시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · General Information p.333",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "General Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-RADIOGEN-025",
+      "number": 25,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · General Information",
+      "study_unit": 4,
+      "study_unit_title": "Radio Data - General",
+      "subunit": {
+        "code": "RADIOGEN-STAGE-04",
+        "title": "VHF Range Reference & Signal Emissions I"
+      },
+      "source_page": 334,
+      "question": "평탄한 지형에서 항공기 고도 500 ft일 때 Jeppesen 표의 VHF range는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "28 NM"
+        },
+        {
+          "id": "B",
+          "text": "39 NM"
+        },
+        {
+          "id": "C",
+          "text": "55 NM"
+        },
+        {
+          "id": "D",
+          "text": "69 NM"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문 표에서 500 ft의 VHF range는 28 NM이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · General Information p.334",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "General Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-RADIOGEN-026",
+      "number": 26,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · General Information",
+      "study_unit": 4,
+      "study_unit_title": "Radio Data - General",
+      "subunit": {
+        "code": "RADIOGEN-STAGE-04",
+        "title": "VHF Range Reference & Signal Emissions I"
+      },
+      "source_page": 334,
+      "question": "평탄한 지형에서 5,000 ft의 VHF range는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "69 NM"
+        },
+        {
+          "id": "B",
+          "text": "87 NM"
+        },
+        {
+          "id": "C",
+          "text": "122 NM"
+        },
+        {
+          "id": "D",
+          "text": "152 NM"
+        }
+      ],
+      "answer": "B",
+      "explanation": "원문 표에서 5,000 ft의 VHF range는 87 NM이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · General Information p.334",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "General Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-RADIOGEN-027",
+      "number": 27,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · General Information",
+      "study_unit": 4,
+      "study_unit_title": "Radio Data - General",
+      "subunit": {
+        "code": "RADIOGEN-STAGE-04",
+        "title": "VHF Range Reference & Signal Emissions I"
+      },
+      "source_page": 334,
+      "question": "평탄한 지형에서 10,000 ft의 VHF range는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "87 NM"
+        },
+        {
+          "id": "B",
+          "text": "100 NM"
+        },
+        {
+          "id": "C",
+          "text": "122 NM"
+        },
+        {
+          "id": "D",
+          "text": "152 NM"
+        }
+      ],
+      "answer": "C",
+      "explanation": "원문 표에서 10,000 ft의 VHF range는 122 NM이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · General Information p.334",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "General Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-RADIOGEN-028",
+      "number": 28,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · General Information",
+      "study_unit": 4,
+      "study_unit_title": "Radio Data - General",
+      "subunit": {
+        "code": "RADIOGEN-STAGE-04",
+        "title": "VHF Range Reference & Signal Emissions I"
+      },
+      "source_page": 334,
+      "question": "평탄한 지형에서 40,000 ft의 VHF range는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "174 NM"
+        },
+        {
+          "id": "B",
+          "text": "213 NM"
+        },
+        {
+          "id": "C",
+          "text": "246 NM"
+        },
+        {
+          "id": "D",
+          "text": "300 NM"
+        }
+      ],
+      "answer": "C",
+      "explanation": "원문 표에서 40,000 ft의 VHF range는 246 NM이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · General Information p.334",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "General Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-RADIOGEN-029",
+      "number": 29,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · General Information",
+      "study_unit": 4,
+      "study_unit_title": "Radio Data - General",
+      "subunit": {
+        "code": "RADIOGEN-STAGE-04",
+        "title": "VHF Range Reference & Signal Emissions I"
+      },
+      "source_page": 334,
+      "question": "Signal emission designation A1A(구 A1)의 transmission type은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "무변조 송신"
+        },
+        {
+          "id": "B",
+          "text": "Telegraphy without the use of a modulating audio frequency"
+        },
+        {
+          "id": "C",
+          "text": "Telephony, double sideband"
+        },
+        {
+          "id": "D",
+          "text": "Facsimile"
+        }
+      ],
+      "answer": "B",
+      "explanation": "원문은 A1A(A1)를 modulating audio frequency를 사용하지 않는 telegraphy(on-off keying)로 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · General Information p.334",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "General Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-RADIOGEN-030",
+      "number": 30,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · General Information",
+      "study_unit": 4,
+      "study_unit_title": "Radio Data - General",
+      "subunit": {
+        "code": "RADIOGEN-STAGE-04",
+        "title": "VHF Range Reference & Signal Emissions I"
+      },
+      "source_page": 334,
+      "question": "A3A(구 A3)의 특징은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Telephony · Double Sideband"
+        },
+        {
+          "id": "B",
+          "text": "Single sideband · reduced carrier"
+        },
+        {
+          "id": "C",
+          "text": "Single sideband · suppressed carrier"
+        },
+        {
+          "id": "D",
+          "text": "Facsimile"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문 Types of Signal Emissions 표에서 A3A(A3)는 Telephony, Double Sideband이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · General Information p.334",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "General Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-RADIOGEN-031",
+      "number": 31,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · General Information",
+      "study_unit": 4,
+      "study_unit_title": "Radio Data - General",
+      "subunit": {
+        "code": "RADIOGEN-STAGE-04",
+        "title": "VHF Range Reference & Signal Emissions I"
+      },
+      "source_page": 334,
+      "question": "J3E(구 A3J)의 특징은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Single sideband, full carrier"
+        },
+        {
+          "id": "B",
+          "text": "Single sideband, reduced carrier"
+        },
+        {
+          "id": "C",
+          "text": "Single sideband, suppressed carrier"
+        },
+        {
+          "id": "D",
+          "text": "Two independent sidebands"
+        }
+      ],
+      "answer": "C",
+      "explanation": "원문은 J3E(A3J)를 Single sideband, suppressed carrier로 제시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · General Information p.334",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "General Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-RADIOGEN-032",
+      "number": 32,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · General Information",
+      "study_unit": 4,
+      "study_unit_title": "Radio Data - General",
+      "subunit": {
+        "code": "RADIOGEN-STAGE-04",
+        "title": "VHF Range Reference & Signal Emissions I"
+      },
+      "source_page": 334,
+      "question": "H3E(구 A3H)의 특징은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Single sideband, full carrier"
+        },
+        {
+          "id": "B",
+          "text": "Single sideband, suppressed carrier"
+        },
+        {
+          "id": "C",
+          "text": "Two independent sidebands containing digital information"
+        },
+        {
+          "id": "D",
+          "text": "Double sideband telephony"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문은 H3E(A3H)를 Single sideband, full carrier로 제시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · General Information p.334",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "General Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-RADIOGEN-033",
+      "number": 33,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · General Information",
+      "study_unit": 5,
+      "study_unit_title": "Radio Data - General",
+      "subunit": {
+        "code": "RADIOGEN-STAGE-05",
+        "title": "Types of Signal Emissions II"
+      },
+      "source_page": 334,
+      "question": "R3E(구 A3A)의 특징은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Single sideband, reduced carrier"
+        },
+        {
+          "id": "B",
+          "text": "Single sideband, full carrier"
+        },
+        {
+          "id": "C",
+          "text": "Single sideband, suppressed carrier"
+        },
+        {
+          "id": "D",
+          "text": "Two independent sidebands"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문은 R3E(A3A)를 Single sideband, reduced carrier로 제시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · General Information p.334",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "General Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-RADIOGEN-034",
+      "number": 34,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · General Information",
+      "study_unit": 5,
+      "study_unit_title": "Radio Data - General",
+      "subunit": {
+        "code": "RADIOGEN-STAGE-05",
+        "title": "Types of Signal Emissions II"
+      },
+      "source_page": 334,
+      "question": "B7E의 특징은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "두 독립 sideband에 quantized/digital information 포함"
+        },
+        {
+          "id": "B",
+          "text": "두 독립 sideband에 analogue information 포함"
+        },
+        {
+          "id": "C",
+          "text": "Single sideband, full carrier"
+        },
+        {
+          "id": "D",
+          "text": "Facsimile"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문은 B7E를 two independent sidebands containing quantized or digital information으로 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · General Information p.334",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "General Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-RADIOGEN-035",
+      "number": 35,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · General Information",
+      "study_unit": 5,
+      "study_unit_title": "Radio Data - General",
+      "subunit": {
+        "code": "RADIOGEN-STAGE-05",
+        "title": "Types of Signal Emissions II"
+      },
+      "source_page": 334,
+      "question": "B8E의 특징은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Telephony, double sideband"
+        },
+        {
+          "id": "B",
+          "text": "Two independent sidebands containing analogue information"
+        },
+        {
+          "id": "C",
+          "text": "Single sideband, reduced carrier"
+        },
+        {
+          "id": "D",
+          "text": "Multichannel voice-frequency telegraphy"
+        }
+      ],
+      "answer": "B",
+      "explanation": "원문은 B8E를 two independent sidebands containing analogue information으로 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · General Information p.334",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "General Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-RADIOGEN-036",
+      "number": 36,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · General Information",
+      "study_unit": 5,
+      "study_unit_title": "Radio Data - General",
+      "subunit": {
+        "code": "RADIOGEN-STAGE-05",
+        "title": "Types of Signal Emissions II"
+      },
+      "source_page": 334,
+      "question": "A4(구 A4)의 transmission type은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Facsimile (by a frequency modulated sub-carrier)"
+        },
+        {
+          "id": "B",
+          "text": "Telephony"
+        },
+        {
+          "id": "C",
+          "text": "Multichannel voice-frequency telegraphy"
+        },
+        {
+          "id": "D",
+          "text": "No modulation"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문은 A4를 Facsimile(by a frequency modulated sub-carrier)로 제시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · General Information p.334",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "General Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-RADIOGEN-037",
+      "number": 37,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · General Information",
+      "study_unit": 5,
+      "study_unit_title": "Radio Data - General",
+      "subunit": {
+        "code": "RADIOGEN-STAGE-05",
+        "title": "Types of Signal Emissions II"
+      },
+      "source_page": 335,
+      "question": "R3C(구 A4A)의 특징은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Single sideband, reduced carrier"
+        },
+        {
+          "id": "B",
+          "text": "Single sideband, suppressed carrier"
+        },
+        {
+          "id": "C",
+          "text": "Two independent sidebands"
+        },
+        {
+          "id": "D",
+          "text": "Full-carrier telephony"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문 p.335에서 R3C(A4A)는 Single sideband, reduced carrier이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · General Information p.335",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "General Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-RADIOGEN-038",
+      "number": 38,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · General Information",
+      "study_unit": 5,
+      "study_unit_title": "Radio Data - General",
+      "subunit": {
+        "code": "RADIOGEN-STAGE-05",
+        "title": "Types of Signal Emissions II"
+      },
+      "source_page": 335,
+      "question": "J3C의 특징은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Single sideband, reduced carrier"
+        },
+        {
+          "id": "B",
+          "text": "Single sideband, full carrier"
+        },
+        {
+          "id": "C",
+          "text": "Single sideband, suppressed carrier"
+        },
+        {
+          "id": "D",
+          "text": "Double sideband"
+        }
+      ],
+      "answer": "C",
+      "explanation": "원문 p.335에서 J3C는 Single sideband, suppressed carrier이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · General Information p.335",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "General Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-RADIOGEN-039",
+      "number": 39,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · General Information",
+      "study_unit": 5,
+      "study_unit_title": "Radio Data - General",
+      "subunit": {
+        "code": "RADIOGEN-STAGE-05",
+        "title": "Types of Signal Emissions II"
+      },
+      "source_page": 335,
+      "question": "R7B(구 A7A)의 transmission type/특징 조합으로 맞는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Multichannel voice-frequency telegraphy / Single sideband, reduced carrier"
+        },
+        {
+          "id": "B",
+          "text": "Telephony / Double sideband"
+        },
+        {
+          "id": "C",
+          "text": "Facsimile / suppressed carrier"
+        },
+        {
+          "id": "D",
+          "text": "No modulation / full carrier"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문은 R7B(A7A)를 Multichannel voice-frequency telegraphy, Single sideband, reduced carrier로 제시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · General Information p.335",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "General Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-RADIOGEN-040",
+      "number": 40,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · General Information",
+      "study_unit": 5,
+      "study_unit_title": "Radio Data - General",
+      "subunit": {
+        "code": "RADIOGEN-STAGE-05",
+        "title": "Types of Signal Emissions II"
+      },
+      "source_page": 335,
+      "question": "B9W(구 A9B)에 대한 설명으로 맞는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "위 분류에 포함되지 않는 조합(예: telephony+telegraphy), two independent sidebands"
+        },
+        {
+          "id": "B",
+          "text": "VHF marker용 tone-only emission"
+        },
+        {
+          "id": "C",
+          "text": "Single sideband, suppressed carrier만을 의미"
+        },
+        {
+          "id": "D",
+          "text": "NDB identification 전용 emission"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문은 B9W(A9B)를 위 항목으로 포괄되지 않는 경우(예: telephony와 telegraphy의 조합), two independent sidebands로 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · General Information p.335",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "General Information"
+      ],
+      "reference_study_only": true
+    }
+  ]
+}
