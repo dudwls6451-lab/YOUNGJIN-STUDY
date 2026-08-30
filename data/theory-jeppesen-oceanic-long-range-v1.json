@@ -1,0 +1,187 @@
+{
+  "metadata": {
+    "title": "Jeppesen Airway Manual · Oceanic Long-Range Navigation Information 이론 학습",
+    "source": "Jeppesen Airway Manual, Enroute Data - General, Oceanic Long-Range Navigation Information, pp.305–308",
+    "version": "1.0",
+    "patch_version": "11.60.25",
+    "stage_count": 4,
+    "question_count": 32,
+    "pass_threshold_percent": 80,
+    "language": "ko summary preserving Jeppesen terminology",
+    "scope_note": "p.309 begins Designators of ATS Routes and is excluded."
+  },
+  "stages": [
+    {
+      "id": 1,
+      "title": "Oceanic Long-Range Operation · Flight Plan Deviations",
+      "sections": [
+        {
+          "title": "Basic Oceanic Long-Range Navigation and Communication Requirements",
+          "bullets": [
+            "국제 oceanic airspace에서 IFR flight plan, controlled VFR flight plan 또는 야간 비행이 NDB/VOR-DME 등 정상 airway navigation facilities의 published range를 넘어 계속되면 long-range navigation operation으로 본다.",
+            "정확한 navigational performance는 ATC separation minima를 지원하기 위해 필요하다.",
+            "FAR 91.703은 high seas에서 미국 civil aircraft가 ICAO Annex 2를 준수하도록 요구하며, Annex 6 Part II는 flight plan 및 ATS requirements에 따라 진행할 수 있는 navigation equipment를 요구한다.",
+            "Current flight plan은 변경 요청 후 appropriate ATC unit의 clearance를 받지 않는 한 준수한다.",
+            "Established ATS route에서는 가능한 한 route centerline을, 그 밖의 route에서는 route를 정의하는 navigation facilities/points 사이를 direct로 비행한다."
+          ]
+        },
+        {
+          "title": "Inadvertent Deviation from Current Flight Plan",
+          "bullets": [
+            "Off track이면 가능한 한 빨리 track을 회복하도록 즉시 heading을 조정한다.",
+            "Reporting points 사이 cruising level의 average TAS가 flight plan 값에서 ±5% 달라지거나 그럴 것으로 예상되면 ATS에 통보한다.",
+            "다음 applicable reporting point, FIR boundary 또는 destination airport 중 먼저 도달하는 지점의 estimate가 통보값보다 2분을 초과해 달라지면(또는 authority/regional agreement가 정한 다른 기간) revised estimate를 가능한 빨리 통보한다.",
+            "IFR, 야간 또는 controlled VFR 국제항행 항공기는 prescribed station/frequency와 비행 중 언제든 two-way communication이 가능한 approved radio equipment를 갖춰야 한다."
+          ]
+        }
+      ],
+      "subject": "Jeppesen Airway Manual · Oceanic Long-Range Navigation Information",
+      "module": "Enroute Data - General · Oceanic Long-Range Navigation Information",
+      "source_printed_pages": [
+        305
+      ],
+      "source_pdf_pages": [
+        305
+      ],
+      "quiz_question_ids": [
+        "JEPP-OCEANIC-001",
+        "JEPP-OCEANIC-002",
+        "JEPP-OCEANIC-003",
+        "JEPP-OCEANIC-004",
+        "JEPP-OCEANIC-005",
+        "JEPP-OCEANIC-006",
+        "JEPP-OCEANIC-007",
+        "JEPP-OCEANIC-008"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "VHF/HF Communications · 121.5 MHz Guard",
+      "sections": [
+        {
+          "title": "Use of VHF and HF for Communication",
+          "bullets": [
+            "VHF는 line-of-sight 한계가 있으므로 oceanic airspace에서 VHF communication range를 벗어나는 IFR 또는 controlled VFR flight는 assigned HF frequencies에 continuous listening watch와 communication capability를 유지한다.",
+            "HF frequencies는 ATC가 지정하지만 실제 교신은 international flight service stations 또는 ARINC 같은 general purpose communication facilities와 이루어질 수 있다.",
+            "이 facilities는 aircraft와 ATC 사이의 position reports 및 other pertinent information을 relay한다.",
+            "Remote/oceanic areas에서 VHF ground station 범위 밖 항공기끼리 필요한 operational information을 교환하기 위한 VHF air-to-air frequencies가 Jeppesen Enroute charts에 표시될 수 있다."
+          ]
+        },
+        {
+          "title": "Guard of VHF Emergency Frequency",
+          "bullets": [
+            "Long over-water flight에서는 원칙적으로 VHF emergency frequency 121.5 MHz를 continuously guard한다.",
+            "다른 VHF channel communications, equipment limitations 또는 cockpit duties 때문에 두 channel을 동시에 guard할 수 없는 경우는 예외이다.",
+            "121.5 MHz guarding은 FIR boundaries 부근에서 특히 중요하다."
+          ]
+        }
+      ],
+      "subject": "Jeppesen Airway Manual · Oceanic Long-Range Navigation Information",
+      "module": "Enroute Data - General · Oceanic Long-Range Navigation Information",
+      "source_printed_pages": [
+        306
+      ],
+      "source_pdf_pages": [
+        306
+      ],
+      "quiz_question_ids": [
+        "JEPP-OCEANIC-009",
+        "JEPP-OCEANIC-010",
+        "JEPP-OCEANIC-011",
+        "JEPP-OCEANIC-012",
+        "JEPP-OCEANIC-013",
+        "JEPP-OCEANIC-014",
+        "JEPP-OCEANIC-015",
+        "JEPP-OCEANIC-016"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "NDB Limitations in Oceanic Navigation",
+      "sections": [
+        {
+          "title": "Use of NDB for Navigation",
+          "bullets": [
+            "Long-range oceanic flight에서 NDB를 primary navigation source로 사용하는 것은 low-frequency equipment/signal의 inherent limitations를 수반한다.",
+            "2000 watts 이상의 highest-power NDB로 air navigation에 적합하게 maintained/flight-checked된 시설도 usable service/reception range는 any altitude에서 no more than 75 NM이다.",
+            "NDB equipment로 standard AM broadcast station을 수신할 수 있어도 이를 primary navigation에 의존하는 것은 questionable operating practice이다."
+          ]
+        },
+        {
+          "title": "Standard Broadcast Station Limitations",
+          "bullets": [
+            "Station identification이 드물 수 있고, foreign-language station은 언어 지식이 없으면 identification이 어려울 수 있다.",
+            "Transmitter site와 studio가 항상 collocated되지 않으며, 사전 통보 없이 service가 종료될 수 있다.",
+            "Weather/atmospheric disturbances로 signal reception이 erratic/unreliable할 수 있고, air-navigation suitability를 확인하는 flight check가 없다.",
+            "Shoreline/mountain effect로 signal fluctuation(bending)이 발생할 수 있으며 standard broadcast stations는 air navigation 전용 시설이 아니다.",
+            "Jeppesen 예시에서 2,000 miles 거리의 10° error는 약 350 miles의 course deviation에 해당한다. 따라서 NDB를 sole source로 쓸 때 inadequacy를 carefully evaluate해야 한다."
+          ]
+        }
+      ],
+      "subject": "Jeppesen Airway Manual · Oceanic Long-Range Navigation Information",
+      "module": "Enroute Data - General · Oceanic Long-Range Navigation Information",
+      "source_printed_pages": [
+        306,
+        307
+      ],
+      "source_pdf_pages": [
+        306,
+        307
+      ],
+      "quiz_question_ids": [
+        "JEPP-OCEANIC-017",
+        "JEPP-OCEANIC-018",
+        "JEPP-OCEANIC-019",
+        "JEPP-OCEANIC-020",
+        "JEPP-OCEANIC-021",
+        "JEPP-OCEANIC-022",
+        "JEPP-OCEANIC-023",
+        "JEPP-OCEANIC-024"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Special Emergency · Air Piracy / Code 7500",
+      "sections": [
+        {
+          "title": "Special Emergency (Air Piracy)",
+          "bullets": [
+            "Special emergency는 air piracy 또는 onboard hostile act로 aircraft/passengers의 safety가 위협받는 상태를 말한다.",
+            "상황이 허용되면 distress 또는 urgency radiotelephony procedures를 적용하고 special emergency details를 포함한다.",
+            "그 절차를 사용할 수 없으면 현재 air/ground frequency에서 station addressed, aircraft identification/current position, nature of special emergency/pilot intentions 등을 가능한 범위에서 순서대로 송신한다.",
+            "필요하면 “TRANSPONDER SEVEN FIVE ZERO ZERO” 또는 Mode 3/A Code 7500을 사용한다. 원문에서 이는 hijacked/forced to a new destination을 의미한다."
+          ]
+        },
+        {
+          "title": "Code 7500 Confirmation and Hijacked Aircraft Guidance",
+          "bullets": [
+            "Code 7500은 pilot가 unlawful interference를 사전에 알리지 않은 상태에서 ATC가 assign하지 않는다. 다른 상황에서 assign되면 거부하고 controller에게 알린다.",
+            "Controller는 7500 receipt를 verify하도록 요청한다. Unlawful interference가 아니면 pilot는 clear voice로 아니라고 답하고 code selector를 확인해 appropriate setting으로 변경한다.",
+            "Pilot가 affirmative로 답하거나 reply하지 않으면 controller는 further questions를 하지 않고 flight follow, pilot request response, appropriate authority notification을 수행한다.",
+            "Safety를 해치지 않는 범위에서 hijacked passenger aircraft는 cleared routing을 벗어난 뒤 TAS 400 kt 이하, preferably 10,000–25,000 ft를 유지하고 hijacker가 announced한 destination 방향 course를 시도한다."
+          ]
+        }
+      ],
+      "subject": "Jeppesen Airway Manual · Oceanic Long-Range Navigation Information",
+      "module": "Enroute Data - General · Oceanic Long-Range Navigation Information",
+      "source_printed_pages": [
+        307,
+        308
+      ],
+      "source_pdf_pages": [
+        307,
+        308
+      ],
+      "quiz_question_ids": [
+        "JEPP-OCEANIC-025",
+        "JEPP-OCEANIC-026",
+        "JEPP-OCEANIC-027",
+        "JEPP-OCEANIC-028",
+        "JEPP-OCEANIC-029",
+        "JEPP-OCEANIC-030",
+        "JEPP-OCEANIC-031",
+        "JEPP-OCEANIC-032"
+      ]
+    }
+  ]
+}

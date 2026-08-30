@@ -1,0 +1,1454 @@
+{
+  "metadata": {
+    "title": "Jeppesen Airway Manual · Oceanic Long-Range Navigation Information 문제은행",
+    "source": "Jeppesen Airway Manual, Enroute Data - General, Oceanic Long-Range Navigation Information, pp.305–308",
+    "version": "1.0",
+    "patch_version": "11.60.25",
+    "question_count": 32,
+    "language": "ko questions/explanations with Jeppesen terminology preserved",
+    "format": "source-text 4-choice",
+    "note": "Questions are limited to statements supported by Jeppesen pp.305–308. p.309 Designators of ATS Routes is excluded."
+  },
+  "questions": [
+    {
+      "id": "JEPP-OCEANIC-001",
+      "number": 1,
+      "subject": "Jeppesen Airway Manual · Oceanic Long-Range Navigation Information",
+      "study_unit": 1,
+      "study_unit_title": "Enroute Data - General",
+      "subunit": {
+        "code": "OCEANIC-STAGE-01",
+        "title": "Basic Oceanic Long-Range Requirements"
+      },
+      "source_page": 305,
+      "question": "Jeppesen이 설명하는 long-range navigation operation에 해당하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "국제 oceanic airspace에서 정상 airway navigation facility 범위를 넘어 계속되는 IFR/VFR controlled/night operation"
+        },
+        {
+          "id": "B",
+          "text": "모든 국내 VFR 주간 비행"
+        },
+        {
+          "id": "C",
+          "text": "VOR/DME 수신 범위 안에서만 수행되는 비행"
+        },
+        {
+          "id": "D",
+          "text": "공항 traffic pattern 내에서 수행하는 비행"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Jeppesen은 국제 oceanic airspace에서 IFR flight plan, VFR controlled flight plan 또는 야간 비행이 정상 airway navigation facilities(NDB, VOR/DME)의 published range를 넘어 계속될 때 long-range navigation operation으로 본다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Enroute Data - General · Oceanic Long-Range Navigation Information p.305",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Enroute Data - General",
+        "Oceanic Long-Range Navigation Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-OCEANIC-002",
+      "number": 2,
+      "subject": "Jeppesen Airway Manual · Oceanic Long-Range Navigation Information",
+      "study_unit": 1,
+      "study_unit_title": "Enroute Data - General",
+      "subunit": {
+        "code": "OCEANIC-STAGE-01",
+        "title": "Basic Oceanic Long-Range Requirements"
+      },
+      "source_page": 305,
+      "question": "국제 oceanic airspace에서 정확한 navigation performance가 특히 필요한 이유는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "ATC가 적용하는 separation minima를 지원하기 위해서"
+        },
+        {
+          "id": "B",
+          "text": "연료 탑재량을 줄이기 위해서"
+        },
+        {
+          "id": "C",
+          "text": "VFR cloud clearance를 없애기 위해서"
+        },
+        {
+          "id": "D",
+          "text": "공항 표고를 계산하기 위해서"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문은 accurate navigational performance가 ATC units가 적용하는 separation minima를 지원하기 위해 필요하다고 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Enroute Data - General · Oceanic Long-Range Navigation Information p.305",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Enroute Data - General",
+        "Oceanic Long-Range Navigation Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-OCEANIC-003",
+      "number": 3,
+      "subject": "Jeppesen Airway Manual · Oceanic Long-Range Navigation Information",
+      "study_unit": 1,
+      "study_unit_title": "Enroute Data - General",
+      "subunit": {
+        "code": "OCEANIC-STAGE-01",
+        "title": "Basic Oceanic Long-Range Requirements"
+      },
+      "source_page": 305,
+      "question": "ICAO Annex 2에 따라 controlled flight가 established ATS route에 있을 때 원칙적으로 비행해야 하는 위치는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "해당 route의 centerline"
+        },
+        {
+          "id": "B",
+          "text": "route 우측 5 NM"
+        },
+        {
+          "id": "C",
+          "text": "route 좌측 5 NM"
+        },
+        {
+          "id": "D",
+          "text": "가장 가까운 VOR radial"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Unless otherwise authorized/directed, controlled flights on an established ATS route should, insofar as practicable, operate along the centerline of that route.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Enroute Data - General · Oceanic Long-Range Navigation Information p.305",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Enroute Data - General",
+        "Oceanic Long-Range Navigation Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-OCEANIC-004",
+      "number": 4,
+      "subject": "Jeppesen Airway Manual · Oceanic Long-Range Navigation Information",
+      "study_unit": 1,
+      "study_unit_title": "Enroute Data - General",
+      "subunit": {
+        "code": "OCEANIC-STAGE-01",
+        "title": "Basic Oceanic Long-Range Requirements"
+      },
+      "source_page": 305,
+      "question": "Controlled flight가 current flight plan에서 track을 이탈한 경우 취해야 할 조치는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "가능한 한 빨리 track을 회복하도록 즉시 heading을 조정한다"
+        },
+        {
+          "id": "B",
+          "text": "다음 reporting point까지 현재 heading을 유지한다"
+        },
+        {
+          "id": "C",
+          "text": "즉시 500 ft 상승한다"
+        },
+        {
+          "id": "D",
+          "text": "ATC 연락이 될 때까지 아무 조치도 하지 않는다"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Deviation from track 시 aircraft가 off track이면 가능한 한 빨리 track을 regain하도록 즉시 heading을 조정해야 한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Enroute Data - General · Oceanic Long-Range Navigation Information p.305",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Enroute Data - General",
+        "Oceanic Long-Range Navigation Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-OCEANIC-005",
+      "number": 5,
+      "subject": "Jeppesen Airway Manual · Oceanic Long-Range Navigation Information",
+      "study_unit": 1,
+      "study_unit_title": "Enroute Data - General",
+      "subunit": {
+        "code": "OCEANIC-STAGE-01",
+        "title": "Basic Oceanic Long-Range Requirements"
+      },
+      "source_page": 305,
+      "question": "Cruising level에서 reporting points 사이 평균 true airspeed가 flight plan 값과 얼마 이상 차이가 나거나 날 것으로 예상되면 ATS에 알려야 하는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "±3%"
+        },
+        {
+          "id": "B",
+          "text": "±5%"
+        },
+        {
+          "id": "C",
+          "text": "±8%"
+        },
+        {
+          "id": "D",
+          "text": "±10%"
+        }
+      ],
+      "answer": "B",
+      "explanation": "원문 기준은 flight plan에 기재된 true airspeed 대비 plus or minus 5 percent이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Enroute Data - General · Oceanic Long-Range Navigation Information p.305",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Enroute Data - General",
+        "Oceanic Long-Range Navigation Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-OCEANIC-006",
+      "number": 6,
+      "subject": "Jeppesen Airway Manual · Oceanic Long-Range Navigation Information",
+      "study_unit": 1,
+      "study_unit_title": "Enroute Data - General",
+      "subunit": {
+        "code": "OCEANIC-STAGE-01",
+        "title": "Basic Oceanic Long-Range Requirements"
+      },
+      "source_page": 305,
+      "question": "다음 reporting point, FIR boundary 또는 destination airport 중 먼저 도달하는 지점의 time estimate가 통보값과 얼마를 초과해 달라지면 revised estimate를 가능한 빨리 통보해야 하는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1분"
+        },
+        {
+          "id": "B",
+          "text": "2분"
+        },
+        {
+          "id": "C",
+          "text": "5분"
+        },
+        {
+          "id": "D",
+          "text": "10분"
+        }
+      ],
+      "answer": "B",
+      "explanation": "원문은 time estimate가 notified value보다 in excess of 2 minutes 오류가 있으면(또는 해당 ATS authority/지역 협정이 정한 다른 기간) revised estimate를 통보하도록 한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Enroute Data - General · Oceanic Long-Range Navigation Information p.305",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Enroute Data - General",
+        "Oceanic Long-Range Navigation Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-OCEANIC-007",
+      "number": 7,
+      "subject": "Jeppesen Airway Manual · Oceanic Long-Range Navigation Information",
+      "study_unit": 1,
+      "study_unit_title": "Enroute Data - General",
+      "subunit": {
+        "code": "OCEANIC-STAGE-01",
+        "title": "Basic Oceanic Long-Range Requirements"
+      },
+      "source_page": 305,
+      "question": "ICAO Annex 6 Part II가 IFR, 야간 또는 controlled VFR 국제항행 항공기에 요구하는 radio communication capability로 맞는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "비행 중 언제든 지정된 aeronautical station 및 frequency와 two-way communication이 가능해야 한다"
+        },
+        {
+          "id": "B",
+          "text": "출발 직후에만 two-way communication이 가능하면 된다"
+        },
+        {
+          "id": "C",
+          "text": "HF 수신만 가능하고 송신은 필요 없다"
+        },
+        {
+          "id": "D",
+          "text": "비상주파수 수신기만 있으면 된다"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문은 비행 중 언제든 prescribed aeronautical stations/frequencies와 two-way communication이 가능한 approved radio communication equipment를 요구한다고 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Enroute Data - General · Oceanic Long-Range Navigation Information p.305",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Enroute Data - General",
+        "Oceanic Long-Range Navigation Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-OCEANIC-008",
+      "number": 8,
+      "subject": "Jeppesen Airway Manual · Oceanic Long-Range Navigation Information",
+      "study_unit": 1,
+      "study_unit_title": "Enroute Data - General",
+      "subunit": {
+        "code": "OCEANIC-STAGE-01",
+        "title": "Basic Oceanic Long-Range Requirements"
+      },
+      "source_page": 305,
+      "question": "ICAO Annex 2의 current flight plan 준수 원칙으로 맞는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "변경을 요청해 appropriate ATC unit의 clearance를 받기 전에는 current flight plan을 따른다"
+        },
+        {
+          "id": "B",
+          "text": "조종사가 필요하다고 판단하면 언제든 clearance 없이 변경할 수 있다"
+        },
+        {
+          "id": "C",
+          "text": "Oceanic airspace에서는 flight plan을 따를 필요가 없다"
+        },
+        {
+          "id": "D",
+          "text": "변경은 목적지 도착 후에만 보고하면 된다"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Annex 2는 change request가 이루어지고 appropriate ATC unit의 clearance를 얻지 않는 한 current flight plan을 준수하도록 요구한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Enroute Data - General · Oceanic Long-Range Navigation Information p.305",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Enroute Data - General",
+        "Oceanic Long-Range Navigation Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-OCEANIC-009",
+      "number": 9,
+      "subject": "Jeppesen Airway Manual · Oceanic Long-Range Navigation Information",
+      "study_unit": 1,
+      "study_unit_title": "Enroute Data - General",
+      "subunit": {
+        "code": "OCEANIC-STAGE-02",
+        "title": "VHF/HF Communications · 121.5 Guard"
+      },
+      "source_page": 306,
+      "question": "Oceanic airspace에서 VHF communication capability를 벗어나 IFR 또는 controlled VFR로 운항할 때 요구되는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Assigned HF frequencies에 continuous listening watch와 communication capability를 유지한다"
+        },
+        {
+          "id": "B",
+          "text": "121.5 MHz만 송신한다"
+        },
+        {
+          "id": "C",
+          "text": "모든 radio를 끈다"
+        },
+        {
+          "id": "D",
+          "text": "NDB 식별음만 청취한다"
+        }
+      ],
+      "answer": "A",
+      "explanation": "VHF의 line-of-sight 한계 때문에 VHF 통신 범위를 벗어나는 IFR/controlled VFR oceanic flight는 assigned HF frequencies에 continuous listening watch와 communication capability를 유지해야 한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Enroute Data - General · Oceanic Long-Range Navigation Information p.306",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Enroute Data - General",
+        "Oceanic Long-Range Navigation Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-OCEANIC-010",
+      "number": 10,
+      "subject": "Jeppesen Airway Manual · Oceanic Long-Range Navigation Information",
+      "study_unit": 1,
+      "study_unit_title": "Enroute Data - General",
+      "subunit": {
+        "code": "OCEANIC-STAGE-02",
+        "title": "VHF/HF Communications · 121.5 Guard"
+      },
+      "source_page": 306,
+      "question": "Oceanic HF 주파수는 ATC가 지정하지만 실제 교신은 주로 어떤 시설과 이루어지는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "International flight service station 또는 ARINC 같은 general purpose communication facility"
+        },
+        {
+          "id": "B",
+          "text": "공항 지상조업사"
+        },
+        {
+          "id": "C",
+          "text": "NDB 송신소"
+        },
+        {
+          "id": "D",
+          "text": "기상 레이더 사이트"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문은 실제 communication이 international flight service stations 또는 Aeronautical Radio, Inc. (ARINC) 같은 general purpose communication facilities와 이루어진다고 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Enroute Data - General · Oceanic Long-Range Navigation Information p.306",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Enroute Data - General",
+        "Oceanic Long-Range Navigation Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-OCEANIC-011",
+      "number": 11,
+      "subject": "Jeppesen Airway Manual · Oceanic Long-Range Navigation Information",
+      "study_unit": 1,
+      "study_unit_title": "Enroute Data - General",
+      "subunit": {
+        "code": "OCEANIC-STAGE-02",
+        "title": "VHF/HF Communications · 121.5 Guard"
+      },
+      "source_page": 306,
+      "question": "이러한 general purpose communication facilities의 역할은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Aircraft와 ATC 사이의 position reports 및 관련 정보를 relay한다"
+        },
+        {
+          "id": "B",
+          "text": "항공기 separation을 직접 지시한다"
+        },
+        {
+          "id": "C",
+          "text": "활주로 제설을 수행한다"
+        },
+        {
+          "id": "D",
+          "text": "항공기 항법장비를 원격 교정한다"
+        }
+      ],
+      "answer": "A",
+      "explanation": "시설은 position reports 및 other pertinent information을 aircraft와 ATC 사이에서 relay하는 책임을 가진다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Enroute Data - General · Oceanic Long-Range Navigation Information p.306",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Enroute Data - General",
+        "Oceanic Long-Range Navigation Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-OCEANIC-012",
+      "number": 12,
+      "subject": "Jeppesen Airway Manual · Oceanic Long-Range Navigation Information",
+      "study_unit": 1,
+      "study_unit_title": "Enroute Data - General",
+      "subunit": {
+        "code": "OCEANIC-STAGE-02",
+        "title": "VHF/HF Communications · 121.5 Guard"
+      },
+      "source_page": 306,
+      "question": "Remote/oceanic area에서 VHF ground station 범위 밖 항공기 간 필요한 operational information 교환을 위해 사용되는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "VHF air-to-air frequencies"
+        },
+        {
+          "id": "B",
+          "text": "NDB identification frequency"
+        },
+        {
+          "id": "C",
+          "text": "ILS localizer frequency only"
+        },
+        {
+          "id": "D",
+          "text": "VOT frequency"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Jeppesen은 remote/oceanic area에서 VHF ground stations 범위 밖 항공기들이 필요한 operational information을 교환하고 문제 해결을 돕기 위해 VHF air-to-air frequencies를 사용할 수 있다고 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Enroute Data - General · Oceanic Long-Range Navigation Information p.306",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Enroute Data - General",
+        "Oceanic Long-Range Navigation Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-OCEANIC-013",
+      "number": 13,
+      "subject": "Jeppesen Airway Manual · Oceanic Long-Range Navigation Information",
+      "study_unit": 1,
+      "study_unit_title": "Enroute Data - General",
+      "subunit": {
+        "code": "OCEANIC-STAGE-02",
+        "title": "VHF/HF Communications · 121.5 Guard"
+      },
+      "source_page": 306,
+      "question": "Long over-water flight에서 원칙적으로 continuously guard해야 하는 VHF emergency frequency는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "118.0 MHz"
+        },
+        {
+          "id": "B",
+          "text": "121.5 MHz"
+        },
+        {
+          "id": "C",
+          "text": "123.45 MHz"
+        },
+        {
+          "id": "D",
+          "text": "243.0 MHz only"
+        }
+      ],
+      "answer": "B",
+      "explanation": "원문은 long over-water flights에서 121.5 MHz를 계속 guard할 필요가 있다고 강조한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Enroute Data - General · Oceanic Long-Range Navigation Information p.306",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Enroute Data - General",
+        "Oceanic Long-Range Navigation Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-OCEANIC-014",
+      "number": 14,
+      "subject": "Jeppesen Airway Manual · Oceanic Long-Range Navigation Information",
+      "study_unit": 1,
+      "study_unit_title": "Enroute Data - General",
+      "subunit": {
+        "code": "OCEANIC-STAGE-02",
+        "title": "VHF/HF Communications · 121.5 Guard"
+      },
+      "source_page": 306,
+      "question": "121.5 MHz simultaneous guard를 하지 못할 수 있는 원문상 예외 사유가 아닌 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "다른 VHF channel에서의 communications"
+        },
+        {
+          "id": "B",
+          "text": "equipment limitations"
+        },
+        {
+          "id": "C",
+          "text": "cockpit duties"
+        },
+        {
+          "id": "D",
+          "text": "단순히 oceanic flight이기 때문"
+        }
+      ],
+      "answer": "D",
+      "explanation": "다른 VHF channel 통신, equipment limitations 또는 cockpit duties가 simultaneous guarding을 방해할 때가 예외로 언급된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Enroute Data - General · Oceanic Long-Range Navigation Information p.306",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Enroute Data - General",
+        "Oceanic Long-Range Navigation Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-OCEANIC-015",
+      "number": 15,
+      "subject": "Jeppesen Airway Manual · Oceanic Long-Range Navigation Information",
+      "study_unit": 1,
+      "study_unit_title": "Enroute Data - General",
+      "subunit": {
+        "code": "OCEANIC-STAGE-02",
+        "title": "VHF/HF Communications · 121.5 Guard"
+      },
+      "source_page": 306,
+      "question": "121.5 MHz guard가 특히 중요하다고 설명된 위치는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "FIR boundaries 부근"
+        },
+        {
+          "id": "B",
+          "text": "공항 주기장 중앙"
+        },
+        {
+          "id": "C",
+          "text": "VOR 바로 상공에서만"
+        },
+        {
+          "id": "D",
+          "text": "국내선 cruise 중에만"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Jeppesen은 FIR boundaries 근처에서 121.5 MHz guarding이 particularly critical하다고 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Enroute Data - General · Oceanic Long-Range Navigation Information p.306",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Enroute Data - General",
+        "Oceanic Long-Range Navigation Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-OCEANIC-016",
+      "number": 16,
+      "subject": "Jeppesen Airway Manual · Oceanic Long-Range Navigation Information",
+      "study_unit": 1,
+      "study_unit_title": "Enroute Data - General",
+      "subunit": {
+        "code": "OCEANIC-STAGE-02",
+        "title": "VHF/HF Communications · 121.5 Guard"
+      },
+      "source_page": 306,
+      "question": "Oceanic communication에서 VHF 사용의 본질적인 제한은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Line-of-sight limitation"
+        },
+        {
+          "id": "B",
+          "text": "모든 VHF가 satellite 전용이라는 점"
+        },
+        {
+          "id": "C",
+          "text": "주파수가 자동으로 매분 변경된다는 점"
+        },
+        {
+          "id": "D",
+          "text": "지상에서만 송신 가능하다는 점"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문은 VHF radio equipment의 inherent line-of-sight limitations 때문에 oceanic 장거리에서 HF가 필요해진다고 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Enroute Data - General · Oceanic Long-Range Navigation Information p.306",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Enroute Data - General",
+        "Oceanic Long-Range Navigation Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-OCEANIC-017",
+      "number": 17,
+      "subject": "Jeppesen Airway Manual · Oceanic Long-Range Navigation Information",
+      "study_unit": 1,
+      "study_unit_title": "Enroute Data - General",
+      "subunit": {
+        "code": "OCEANIC-STAGE-03",
+        "title": "NDB Limitations for Oceanic Navigation"
+      },
+      "source_page": 306,
+      "question": "Jeppesen 원문에서 air navigation에 적합하도록 유지·flight-check된 고출력 NDB의 usable service/reception range 한계는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "50 NM"
+        },
+        {
+          "id": "B",
+          "text": "75 NM"
+        },
+        {
+          "id": "C",
+          "text": "100 NM"
+        },
+        {
+          "id": "D",
+          "text": "200 NM"
+        }
+      ],
+      "answer": "B",
+      "explanation": "2000 watts 이상의 highest-power NDB라도 usable service/reception range는 any altitude에서 no more than 75 nautical miles로 설명된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Enroute Data - General · Oceanic Long-Range Navigation Information p.306",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Enroute Data - General",
+        "Oceanic Long-Range Navigation Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-OCEANIC-018",
+      "number": 18,
+      "subject": "Jeppesen Airway Manual · Oceanic Long-Range Navigation Information",
+      "study_unit": 1,
+      "study_unit_title": "Enroute Data - General",
+      "subunit": {
+        "code": "OCEANIC-STAGE-03",
+        "title": "NDB Limitations for Oceanic Navigation"
+      },
+      "source_page": 306,
+      "question": "Standard AM broadcast station을 NDB equipment로 수신할 수 있더라도 primary navigation source로 의존하는 것을 원문은 어떻게 평가하는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Questionable operating practice"
+        },
+        {
+          "id": "B",
+          "text": "가장 권장되는 oceanic navigation 방식"
+        },
+        {
+          "id": "C",
+          "text": "ICAO가 의무화한 방식"
+        },
+        {
+          "id": "D",
+          "text": "VOR보다 항상 정확한 방식"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Jeppesen은 standard AM broadcast stations를 primary navigation에 의존하는 것은 questionable operating practice라고 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Enroute Data - General · Oceanic Long-Range Navigation Information p.306",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Enroute Data - General",
+        "Oceanic Long-Range Navigation Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-OCEANIC-019",
+      "number": 19,
+      "subject": "Jeppesen Airway Manual · Oceanic Long-Range Navigation Information",
+      "study_unit": 1,
+      "study_unit_title": "Enroute Data - General",
+      "subunit": {
+        "code": "OCEANIC-STAGE-03",
+        "title": "NDB Limitations for Oceanic Navigation"
+      },
+      "source_page": 307,
+      "question": "Standard broadcast station을 항법에 이용할 때 문제점으로 원문에 포함된 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Station identification이 infrequent할 수 있다"
+        },
+        {
+          "id": "B",
+          "text": "항상 continuous identification을 제공한다"
+        },
+        {
+          "id": "C",
+          "text": "항법 적합성을 위해 항상 flight check된다"
+        },
+        {
+          "id": "D",
+          "text": "송신소와 studio가 반드시 동일 위치다"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문은 infrequent station identification을 여러 inherent problems 중 하나로 든다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Enroute Data - General · Oceanic Long-Range Navigation Information p.307",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Enroute Data - General",
+        "Oceanic Long-Range Navigation Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-OCEANIC-020",
+      "number": 20,
+      "subject": "Jeppesen Airway Manual · Oceanic Long-Range Navigation Information",
+      "study_unit": 1,
+      "study_unit_title": "Enroute Data - General",
+      "subunit": {
+        "code": "OCEANIC-STAGE-03",
+        "title": "NDB Limitations for Oceanic Navigation"
+      },
+      "source_page": 307,
+      "question": "Foreign-language standard broadcast station 식별의 문제로 언급된 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "언어 지식이 없으면 identification이 불가능할 수 있다"
+        },
+        {
+          "id": "B",
+          "text": "영어로 자동 번역되어 문제가 없다"
+        },
+        {
+          "id": "C",
+          "text": "모든 station이 Morse ID만 사용한다"
+        },
+        {
+          "id": "D",
+          "text": "항상 ICAO phonetic alphabet을 사용한다"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문은 foreign language station의 identification이 그 언어에 대한 지식 없이는 impossible할 수 있다고 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Enroute Data - General · Oceanic Long-Range Navigation Information p.307",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Enroute Data - General",
+        "Oceanic Long-Range Navigation Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-OCEANIC-021",
+      "number": 21,
+      "subject": "Jeppesen Airway Manual · Oceanic Long-Range Navigation Information",
+      "study_unit": 1,
+      "study_unit_title": "Enroute Data - General",
+      "subunit": {
+        "code": "OCEANIC-STAGE-03",
+        "title": "NDB Limitations for Oceanic Navigation"
+      },
+      "source_page": 307,
+      "question": "Standard broadcast stations의 navigation reliability에 관한 설명으로 맞는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Air navigation suitability/reliability를 검증하는 flight check가 수행되지 않는다"
+        },
+        {
+          "id": "B",
+          "text": "모든 station이 매일 flight check된다"
+        },
+        {
+          "id": "C",
+          "text": "Oceanic navigation 전용으로만 사용된다"
+        },
+        {
+          "id": "D",
+          "text": "기상이나 대기 영향은 받지 않는다"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문은 이 시설과 신호가 air navigation에 적합하고 신뢰할 수 있는지 확인하는 flight check가 실시되지 않는다고 지적한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Enroute Data - General · Oceanic Long-Range Navigation Information p.307",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Enroute Data - General",
+        "Oceanic Long-Range Navigation Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-OCEANIC-022",
+      "number": 22,
+      "subject": "Jeppesen Airway Manual · Oceanic Long-Range Navigation Information",
+      "study_unit": 1,
+      "study_unit_title": "Enroute Data - General",
+      "subunit": {
+        "code": "OCEANIC-STAGE-03",
+        "title": "NDB Limitations for Oceanic Navigation"
+      },
+      "source_page": 307,
+      "question": "NDB/standard broadcast signal이 shoreline/mountain effect를 받을 때 나타날 수 있는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Signal fluctuation/bending"
+        },
+        {
+          "id": "B",
+          "text": "항상 정확한 great-circle guidance"
+        },
+        {
+          "id": "C",
+          "text": "DME distance 생성"
+        },
+        {
+          "id": "D",
+          "text": "ILS glideslope 생성"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문은 shoreline/mountain effect로 signal fluctuation (bending)이 생길 수 있다고 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Enroute Data - General · Oceanic Long-Range Navigation Information p.307",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Enroute Data - General",
+        "Oceanic Long-Range Navigation Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-OCEANIC-023",
+      "number": 23,
+      "subject": "Jeppesen Airway Manual · Oceanic Long-Range Navigation Information",
+      "study_unit": 1,
+      "study_unit_title": "Enroute Data - General",
+      "subunit": {
+        "code": "OCEANIC-STAGE-03",
+        "title": "NDB Limitations for Oceanic Navigation"
+      },
+      "source_page": 307,
+      "question": "Jeppesen의 예에서 2,000 miles 거리에서 10° navigation error는 대략 얼마의 course deviation에 해당하는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "약 35 miles"
+        },
+        {
+          "id": "B",
+          "text": "약 175 miles"
+        },
+        {
+          "id": "C",
+          "text": "약 350 miles"
+        },
+        {
+          "id": "D",
+          "text": "약 700 miles"
+        }
+      ],
+      "answer": "C",
+      "explanation": "원문은 10° error at 2000 miles가 approximately 350 miles of course deviation에 해당한다고 예시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Enroute Data - General · Oceanic Long-Range Navigation Information p.307",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Enroute Data - General",
+        "Oceanic Long-Range Navigation Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-OCEANIC-024",
+      "number": 24,
+      "subject": "Jeppesen Airway Manual · Oceanic Long-Range Navigation Information",
+      "study_unit": 1,
+      "study_unit_title": "Enroute Data - General",
+      "subunit": {
+        "code": "OCEANIC-STAGE-03",
+        "title": "NDB Limitations for Oceanic Navigation"
+      },
+      "source_page": 307,
+      "question": "Oceanic flight에서 NDB를 sole source of navigation으로 사용할 때 Jeppesen의 결론에 가장 가까운 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "그 inadequacy와 limitations를 carefully evaluate해야 한다"
+        },
+        {
+          "id": "B",
+          "text": "제한 없이 sole source로 권장된다"
+        },
+        {
+          "id": "C",
+          "text": "고도와 관계없이 항상 2,000 NM까지 신뢰 가능하다"
+        },
+        {
+          "id": "D",
+          "text": "Weather system의 영향을 받지 않으므로 별도 검토가 필요 없다"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문은 NDB의 여러 제한과 장거리에서 작은 각오차가 큰 횡방향 편차로 이어지는 점 때문에 sole source로서의 inadequacy를 carefully evaluate해야 한다고 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Enroute Data - General · Oceanic Long-Range Navigation Information p.307",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Enroute Data - General",
+        "Oceanic Long-Range Navigation Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-OCEANIC-025",
+      "number": 25,
+      "subject": "Jeppesen Airway Manual · Oceanic Long-Range Navigation Information",
+      "study_unit": 1,
+      "study_unit_title": "Enroute Data - General",
+      "subunit": {
+        "code": "OCEANIC-STAGE-04",
+        "title": "Special Emergency · Air Piracy / Code 7500"
+      },
+      "source_page": 307,
+      "question": "Jeppesen이 정의하는 special emergency에 해당하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Air piracy 또는 aircraft/passengers의 안전을 위협하는 hostile act"
+        },
+        {
+          "id": "B",
+          "text": "단순한 gate 변경"
+        },
+        {
+          "id": "C",
+          "text": "예정된 fuel stop"
+        },
+        {
+          "id": "D",
+          "text": "일반적인 turbulence report"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Special emergency는 air piracy 또는 aircraft나 passengers의 safety를 위협하는 onboard hostile act 상태로 정의된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Enroute Data - General · Oceanic Long-Range Navigation Information p.307",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Enroute Data - General",
+        "Oceanic Long-Range Navigation Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-OCEANIC-026",
+      "number": 26,
+      "subject": "Jeppesen Airway Manual · Oceanic Long-Range Navigation Information",
+      "study_unit": 1,
+      "study_unit_title": "Enroute Data - General",
+      "subunit": {
+        "code": "OCEANIC-STAGE-04",
+        "title": "Special Emergency · Air Piracy / Code 7500"
+      },
+      "source_page": 307,
+      "question": "Air piracy 상황에서 circumstances permit이면 pilot가 우선 적용하도록 설명된 절차는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Distress 또는 urgency radiotelephony procedures를 적용하고 special emergency details를 포함한다"
+        },
+        {
+          "id": "B",
+          "text": "Radio silence를 반드시 유지한다"
+        },
+        {
+          "id": "C",
+          "text": "Transponder를 standby로 둔다"
+        },
+        {
+          "id": "D",
+          "text": "ATC에 아무 내용도 전달하지 않는다"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문은 상황이 허용하면 distress or urgency radiotelephony procedures를 적용하고 special emergency details를 포함하도록 한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Enroute Data - General · Oceanic Long-Range Navigation Information p.307",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Enroute Data - General",
+        "Oceanic Long-Range Navigation Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-OCEANIC-027",
+      "number": 27,
+      "subject": "Jeppesen Airway Manual · Oceanic Long-Range Navigation Information",
+      "study_unit": 1,
+      "study_unit_title": "Enroute Data - General",
+      "subunit": {
+        "code": "OCEANIC-STAGE-04",
+        "title": "Special Emergency · Air Piracy / Code 7500"
+      },
+      "source_page": 307,
+      "question": "Prescribed distress/urgency procedures를 사용할 수 없는 경우 Code 7500의 의미로 맞는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "I am being hijacked/forced to a new destination"
+        },
+        {
+          "id": "B",
+          "text": "Radio failure"
+        },
+        {
+          "id": "C",
+          "text": "General emergency not related to hijacking"
+        },
+        {
+          "id": "D",
+          "text": "VFR operation"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문은 “TRANSPONDER SEVEN FIVE ZERO ZERO”가 being hijacked/forced to a new destination를 의미하며 Mode 3/A Code 7500을 사용할 수 있다고 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Enroute Data - General · Oceanic Long-Range Navigation Information p.307",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Enroute Data - General",
+        "Oceanic Long-Range Navigation Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-OCEANIC-028",
+      "number": 28,
+      "subject": "Jeppesen Airway Manual · Oceanic Long-Range Navigation Information",
+      "study_unit": 1,
+      "study_unit_title": "Enroute Data - General",
+      "subunit": {
+        "code": "OCEANIC-STAGE-04",
+        "title": "Special Emergency · Air Piracy / Code 7500"
+      },
+      "source_page": 308,
+      "question": "ATC가 pilot의 사전 통보 없이 Code 7500을 assign하는 것에 관한 설명은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "ATC는 사전 통보 없이 Code 7500을 assign하지 않는다"
+        },
+        {
+          "id": "B",
+          "text": "ATC가 모든 oceanic flight에 정기적으로 assign한다"
+        },
+        {
+          "id": "C",
+          "text": "Code 7500은 departure code로 사용한다"
+        },
+        {
+          "id": "D",
+          "text": "Pilot는 어떤 상황에서도 Code 7500 assignment를 그대로 따라야 한다"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Jeppesen NOTE는 Code 7500이 pilot의 unlawful interference 사전 통보 없이 ATC에 의해 assign되지 않는다고 명시한다. 다른 상황에서 할당받으면 pilot는 거부하고 controller에게 알려야 한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Enroute Data - General · Oceanic Long-Range Navigation Information p.308",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Enroute Data - General",
+        "Oceanic Long-Range Navigation Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-OCEANIC-029",
+      "number": 29,
+      "subject": "Jeppesen Airway Manual · Oceanic Long-Range Navigation Information",
+      "study_unit": 1,
+      "study_unit_title": "Enroute Data - General",
+      "subunit": {
+        "code": "OCEANIC-STAGE-04",
+        "title": "Special Emergency · Air Piracy / Code 7500"
+      },
+      "source_page": 308,
+      "question": "Controller가 Code 7500 receipt를 확인하기 위해 pilot에게 요구하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Code를 verify하도록 요청한다"
+        },
+        {
+          "id": "B",
+          "text": "즉시 squawk 7600으로 변경하도록 한다"
+        },
+        {
+          "id": "C",
+          "text": "무조건 radio silence를 지시한다"
+        },
+        {
+          "id": "D",
+          "text": "즉시 10,000 ft로 하강하도록 한다"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Air traffic controller는 Code 7500 수신을 acknowledge/confirm하기 위해 pilot에게 verify하도록 묻는다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Enroute Data - General · Oceanic Long-Range Navigation Information p.308",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Enroute Data - General",
+        "Oceanic Long-Range Navigation Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-OCEANIC-030",
+      "number": 30,
+      "subject": "Jeppesen Airway Manual · Oceanic Long-Range Navigation Information",
+      "study_unit": 1,
+      "study_unit_title": "Enroute Data - General",
+      "subunit": {
+        "code": "OCEANIC-STAGE-04",
+        "title": "Special Emergency · Air Piracy / Code 7500"
+      },
+      "source_page": 308,
+      "question": "Code 7500 verify 질문에 pilot가 affirmative로 답하거나 응답하지 않는 경우 controller의 후속 조치로 맞는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "추가 질문을 하지 않고 flight follow하며 pilot requests에 대응하고 appropriate authorities에 통보한다"
+        },
+        {
+          "id": "B",
+          "text": "계속 hijacker 신원을 질문한다"
+        },
+        {
+          "id": "C",
+          "text": "즉시 모든 radar service를 종료한다"
+        },
+        {
+          "id": "D",
+          "text": "Code 7500을 자동으로 취소한다"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문은 affirmative response 또는 no reply이면 controller가 further questions를 하지 않고 flight following, pilot request response, appropriate authority notification을 수행한다고 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Enroute Data - General · Oceanic Long-Range Navigation Information p.308",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Enroute Data - General",
+        "Oceanic Long-Range Navigation Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-OCEANIC-031",
+      "number": 31,
+      "subject": "Jeppesen Airway Manual · Oceanic Long-Range Navigation Information",
+      "study_unit": 1,
+      "study_unit_title": "Enroute Data - General",
+      "subunit": {
+        "code": "OCEANIC-STAGE-04",
+        "title": "Special Emergency · Air Piracy / Code 7500"
+      },
+      "source_page": 308,
+      "question": "Hijacked passenger aircraft가 cleared routing을 벗어난 뒤 안전을 해치지 않는 범위에서 시도하도록 제시된 speed/altitude는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "TAS 400 kt 이하, 가능하면 10,000–25,000 ft"
+        },
+        {
+          "id": "B",
+          "text": "TAS 250 kt 이하, 반드시 5,000 ft 이하"
+        },
+        {
+          "id": "C",
+          "text": "TAS 500 kt 이상, 30,000 ft 이상"
+        },
+        {
+          "id": "D",
+          "text": "속도 제한 없이 sea level"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Jeppesen은 가능하면 true airspeed no more than 400 knots, preferably altitude between 10,000 and 25,000 feet를 제시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Enroute Data - General · Oceanic Long-Range Navigation Information p.308",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Enroute Data - General",
+        "Oceanic Long-Range Navigation Information"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-OCEANIC-032",
+      "number": 32,
+      "subject": "Jeppesen Airway Manual · Oceanic Long-Range Navigation Information",
+      "study_unit": 1,
+      "study_unit_title": "Enroute Data - General",
+      "subunit": {
+        "code": "OCEANIC-STAGE-04",
+        "title": "Special Emergency · Air Piracy / Code 7500"
+      },
+      "source_page": 308,
+      "question": "Hijacked passenger aircraft가 cleared routing에서 벗어난 후 가능하면 취하도록 제시된 course는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Hijacker가 announced한 destination 방향의 course"
+        },
+        {
+          "id": "B",
+          "text": "무조건 departure airport로 직행"
+        },
+        {
+          "id": "C",
+          "text": "가장 가까운 VOR radial 360°"
+        },
+        {
+          "id": "D",
+          "text": "항상 현재 heading 유지"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문은 circumstances permit이면 hijacker가 announced한 destination을 향하는 course를 fly하도록 제시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Enroute Data - General · Oceanic Long-Range Navigation Information p.308",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Enroute Data - General",
+        "Oceanic Long-Range Navigation Information"
+      ],
+      "reference_study_only": true
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "patch_version": "v11.60.25",
+  "base_required": "v11.60.24",
+  "source_pages": "305–308",
+  "next_section_starts_page": 309,
+  "questions": 32,
+  "theory_stages": 4,
+  "quiz_questions_per_stage": [
+    8,
+    8,
+    8,
+    8
+  ],
+  "new_figure_files": 0,
+  "question_ids_unique": true,
+  "all_four_choices": true,
+  "all_answers_valid": true,
+  "all_explanations_present": true,
+  "js_syntax": "PASS",
+  "index_hook": "PASS",
+  "zip_integrity": "PASS",
+  "zip_size_bytes": 24270,
+  "files_in_zip": 7
+}
