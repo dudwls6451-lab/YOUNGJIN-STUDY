@@ -1,0 +1,60 @@
+/* PilotBank v11.60.34 · 오답 복습 파트 선택 */
+#wrongReviewFilterCard .wrong-review-filter-panel{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:12px;
+  align-items:end;
+}
+#wrongReviewFilterCard .wrong-review-filter-panel>label,
+#wrongReviewFilterCard .wrong-review-part-field{
+  display:grid;
+  gap:7px;
+  min-width:0;
+  font-weight:800;
+  font-size:.88rem;
+}
+#wrongReviewFilterCard .wrong-review-filter-panel select{
+  width:100%;
+  min-height:44px;
+  box-sizing:border-box;
+  border:1px solid rgba(148,163,184,.30);
+  border-radius:11px;
+  padding:9px 34px 9px 11px;
+  background:rgba(15,23,42,.68);
+  color:inherit;
+  font:inherit;
+}
+#wrongReviewFilterCard .wrong-review-filter-summary{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  gap:3px;
+  min-height:44px;
+  padding:9px 12px;
+  border:1px solid rgba(45,212,191,.22);
+  border-radius:11px;
+  background:rgba(13,148,136,.07);
+}
+#wrongReviewFilterCard .wrong-review-filter-summary strong{
+  display:flex;
+  flex-wrap:wrap;
+  gap:7px;
+  align-items:baseline;
+}
+#wrongReviewFilterCard .wrong-review-current-part{
+  color:#5eead4;
+  font-size:.82rem;
+  font-weight:800;
+}
+#wrongReviewFilterCard #wrongReviewStartBtn{
+  min-height:44px;
+}
+#wrongReviewFilterCard .wrong-review-part-field.hidden{display:none!important}
+@media(max-width:900px){
+  #wrongReviewFilterCard .wrong-review-filter-panel{grid-template-columns:1fr 1fr}
+  #wrongReviewFilterCard #wrongReviewStartBtn{grid-column:1/-1}
+}
+@media(max-width:620px){
+  #wrongReviewFilterCard .wrong-review-filter-panel{grid-template-columns:1fr}
+  #wrongReviewFilterCard #wrongReviewStartBtn{grid-column:auto}
+}

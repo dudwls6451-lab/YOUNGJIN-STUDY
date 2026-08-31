@@ -1,0 +1,20 @@
+{
+  "base": "v11.60.33",
+  "version": "v11.60.34",
+  "feature": "Wrong review part/subpart filtering",
+  "checks": {
+    "index_version_updated": true,
+    "css_linked": true,
+    "js_linked": true,
+    "script_after_cpl": true,
+    "part_selector": true,
+    "subpart_selector": true,
+    "all_part_option": true,
+    "filters_wrong_pool": true,
+    "session_meta_keeps_part": true,
+    "no_sql_files": true,
+    "zip_integrity": true,
+    "zip_file_count": 5,
+    "zip_size_bytes": 14182
+  }
+}
