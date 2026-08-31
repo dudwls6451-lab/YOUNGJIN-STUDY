@@ -1,15 +1,10 @@
-# v11.60.29 — Jeppesen Theory Detail Overhaul
+# v11.60.32 - CPL Gleim 2024 delta patch
 
-Base: v11.60.28
+Base: v11.60.31. Apply this archive over an installation that already has v11.60.31.
 
-This delta patch updates **theory data only** for all Jeppesen reference-study modules added through v11.60.28, plus 9 new source figure crops for `Radio Data - General · Section 1. Navigation Aids`.
-
-Changes:
-- Normalizes theory section schema to the renderer-supported `heading / paragraphs / bullets / table / figure` format.
-- Normalizes stage quiz linkage to `question_ids` so existing stage quizzes use the intended question pools.
-- Adds source-reviewed stage detail tables derived from the existing Jeppesen question explanations.
-- Adds deeper source-only notes to all 12 Navigation Aids stages.
-- Adds FIG 1-1-1 through FIG 1-1-9 to the relevant theory stages.
-- Adds key source tables: VOR/DME/TACAN SSV, NDB SSV, marker indications, ILS minima, and all 40 ILS localizer/glideslope frequency pairs.
-- No question/choice/answer data changed.
-- Old figure assets are not re-bundled; only the 9 new Navigation Aids theory figures are included.
+- Adds CPL Gleim to 각 교재 학습 > 문제 풀이.
+- Adds 859 validated 3-choice questions with answers and explanations.
+- Uses lazy loading; the CPL JSON is fetched only when CPL Gleim is selected.
+- Existing question-bank files and database schema are unchanged.
+- 31 malformed extraction rows were excluded to prevent broken questions.
+- Figure-dependent rows keep source-page metadata; source figures are not bundled.
