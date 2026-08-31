@@ -1,0 +1,21 @@
+{
+  "patch_version": "11.60.28",
+  "base": "v11.60.27",
+  "source_scope": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids pp.336–392",
+  "next_section": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV) begins p.393",
+  "question_count": 96,
+  "stage_count": 12,
+  "unique_ids": true,
+  "all_four_choices": true,
+  "all_answers_valid": true,
+  "all_explanations_present": true,
+  "all_reference_study_only": true,
+  "stage_quiz_links_valid": true,
+  "eight_questions_per_stage": true,
+  "new_figure_count": 0,
+  "previous_figures_rebundled": false,
+  "jeppesen_total_questions_after_patch": 1727,
+  "index_has_new_script": true,
+  "study_time": "uses existing reference learning context/theory timer",
+  "source_content_policy": "questions/theory based only on Jeppesen section text; no outside reconciliation"
+}

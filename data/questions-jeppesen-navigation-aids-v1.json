@@ -1,0 +1,4334 @@
+{
+  "metadata": {
+    "title": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids 문제은행",
+    "source": "Jeppesen Airway Manual, Radio Data - General, Section 1. Navigation Aids, pp.336–392",
+    "version": "1.0",
+    "patch_version": "11.60.28",
+    "question_count": 96,
+    "stage_count": 12,
+    "language": "ko questions preserving Jeppesen/FAA terminology",
+    "scope_note": "p.336–392 only; Section 2 Performance-Based Navigation (PBN) and Area Navigation (RNAV) begins at p.393."
+  },
+  "questions": [
+    {
+      "id": "JEPP-NAVAIDS-001",
+      "number": 1,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 1,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-01",
+        "title": "NDB · VOR · VOR MON"
+      },
+      "source_page": 336,
+      "question": "NDB가 통상 운용되는 주파수 대역으로 Jeppesen 원문에 제시된 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "190–535 kHz"
+        },
+        {
+          "id": "B",
+          "text": "108.0–117.95 MHz"
+        },
+        {
+          "id": "C",
+          "text": "329.15–335.00 MHz"
+        },
+        {
+          "id": "D",
+          "text": "960–1215 MHz"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문은 NDB가 통상 190–535 kHz에서 운용되며, ICAO Annex 10 기준 NDB 범위는 190–1750 kHz라고 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.336",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-002",
+      "number": 2,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 1,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-01",
+        "title": "NDB · VOR · VOR MON"
+      },
+      "source_page": 336,
+      "question": "ILS marker와 함께 사용되는 radio beacon을 무엇이라고 하는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Compass Locator"
+        },
+        {
+          "id": "B",
+          "text": "VOT"
+        },
+        {
+          "id": "C",
+          "text": "VORTAC"
+        },
+        {
+          "id": "D",
+          "text": "GBAS"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Radio beacon이 ILS marker와 함께 사용될 때 Compass Locator라고 부른다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.336",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-003",
+      "number": 3,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 1,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-01",
+        "title": "NDB · VOR · VOR MON"
+      },
+      "source_page": 336,
+      "question": "NDB/ADF 운용 시 조종사가 지속적으로 확인해야 하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "NDB identification"
+        },
+        {
+          "id": "B",
+          "text": "DME slant range"
+        },
+        {
+          "id": "C",
+          "text": "glide slope flag만"
+        },
+        {
+          "id": "D",
+          "text": "GPS satellite mask angle"
+        }
+      ],
+      "answer": "A",
+      "explanation": "ADF에는 잘못된 bearing을 경고하는 flag가 없으므로 조종사는 NDB identification을 지속적으로 monitor해야 한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.336",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-004",
+      "number": 4,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 1,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-01",
+        "title": "NDB · VOR · VOR MON"
+      },
+      "source_page": 337,
+      "question": "VOR의 운용 주파수 범위는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "75 MHz"
+        },
+        {
+          "id": "B",
+          "text": "108.0–117.95 MHz"
+        },
+        {
+          "id": "C",
+          "text": "190–535 kHz"
+        },
+        {
+          "id": "D",
+          "text": "960–1215 MHz"
+        }
+      ],
+      "answer": "B",
+      "explanation": "원문은 VOR이 108.0–117.95 MHz에서 운용된다고 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.337",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-005",
+      "number": 5,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 1,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-01",
+        "title": "NDB · VOR · VOR MON"
+      },
+      "source_page": 337,
+      "question": "VOR을 확실히 식별하는 positive method는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "FSS 음성만 청취"
+        },
+        {
+          "id": "B",
+          "text": "Morse Code identification 또는 자동 voice identification"
+        },
+        {
+          "id": "C",
+          "text": "CDI가 centered인지 확인"
+        },
+        {
+          "id": "D",
+          "text": "DME 거리만 확인"
+        }
+      ],
+      "answer": "B",
+      "explanation": "VOR의 확실한 식별은 Morse Code identification 또는 “VOR”가 포함된 recorded automatic voice identification이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.337",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-006",
+      "number": 6,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 1,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-01",
+        "title": "NDB · VOR · VOR MON"
+      },
+      "source_page": 337,
+      "question": "VOR course alignment의 일반적인 정확도는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "±1°"
+        },
+        {
+          "id": "B",
+          "text": "±4°"
+        },
+        {
+          "id": "C",
+          "text": "±6°"
+        },
+        {
+          "id": "D",
+          "text": "±10°"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문은 VOR course alignment accuracy가 일반적으로 ±1°라고 제시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.337",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-007",
+      "number": 7,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 1,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-01",
+        "title": "NDB · VOR · VOR MON"
+      },
+      "source_page": 338,
+      "question": "VOR Minimum Operational Network(MON)의 주된 목적은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "ILS를 완전히 대체"
+        },
+        {
+          "id": "B",
+          "text": "GNSS가 unavailable일 때 기본 conventional navigation 제공"
+        },
+        {
+          "id": "C",
+          "text": "VFR waypoint만 제공"
+        },
+        {
+          "id": "D",
+          "text": "HF 통신을 보조"
+        }
+      ],
+      "answer": "B",
+      "explanation": "VOR MON은 GNSS disruption 시 RNAV을 계속할 수 없는 항공기에 기본적인 conventional navigation service를 제공하기 위해 유지된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.338",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-008",
+      "number": 8,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 1,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-01",
+        "title": "NDB · VOR · VOR MON"
+      },
+      "source_page": 338,
+      "question": "VOR MON은 CONUS에서 항공기가 MON airport로부터 대략 어느 거리 이내에 있도록 설계되는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "25 NM"
+        },
+        {
+          "id": "B",
+          "text": "40 NM"
+        },
+        {
+          "id": "C",
+          "text": "75 NM"
+        },
+        {
+          "id": "D",
+          "text": "100 NM"
+        }
+      ],
+      "answer": "D",
+      "explanation": "원문은 CONUS 어디에서든 legacy ILS 또는 VOR approach를 가진 MON airport가 100 NM 이내에 있도록 설계한다고 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.338",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-009",
+      "number": 9,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 2,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-02",
+        "title": "VOR Receiver Check · TACAN · VORTAC · DME"
+      },
+      "source_page": 340,
+      "question": "VOT에서 CDI를 centered 했을 때 정상 표시 조합은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "0° TO 또는 180° FROM"
+        },
+        {
+          "id": "B",
+          "text": "0° FROM 또는 180° TO"
+        },
+        {
+          "id": "C",
+          "text": "90° FROM 또는 270° TO"
+        },
+        {
+          "id": "D",
+          "text": "OBS 설정과 무관하게 항상 0°"
+        }
+      ],
+      "answer": "B",
+      "explanation": "VOT 정상 확인은 OBS 0°에서 FROM 또는 180°에서 TO이다. RMI는 OBS 설정과 무관하게 180°를 지시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.340",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-010",
+      "number": 10,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 2,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-02",
+        "title": "VOR Receiver Check · TACAN · VORTAC · DME"
+      },
+      "source_page": 341,
+      "question": "VOR receiver ground check의 허용 오차를 초과하여 IFR 비행을 해서는 안 되는 기준은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "±2°"
+        },
+        {
+          "id": "B",
+          "text": "±4°"
+        },
+        {
+          "id": "C",
+          "text": "±6°"
+        },
+        {
+          "id": "D",
+          "text": "±10°"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Ground check에서 ±4°를 초과하는 오차가 있으면 원인을 수정하기 전 IFR 비행을 시도해서는 안 된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.341",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-011",
+      "number": 11,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 2,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-02",
+        "title": "VOR Receiver Check · TACAN · VORTAC · DME"
+      },
+      "source_page": 341,
+      "question": "VOR receiver airborne check의 허용 오차 기준은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "±2°"
+        },
+        {
+          "id": "B",
+          "text": "±4°"
+        },
+        {
+          "id": "C",
+          "text": "±6°"
+        },
+        {
+          "id": "D",
+          "text": "±8°"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Airborne check의 허용 기준은 ±6°이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.341",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-012",
+      "number": 12,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 2,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-02",
+        "title": "VOR Receiver Check · TACAN · VORTAC · DME"
+      },
+      "source_page": 341,
+      "question": "Dual VOR system 두 bearing indication 사이의 최대 허용 차이는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "2°"
+        },
+        {
+          "id": "B",
+          "text": "4°"
+        },
+        {
+          "id": "C",
+          "text": "6°"
+        },
+        {
+          "id": "D",
+          "text": "8°"
+        }
+      ],
+      "answer": "B",
+      "explanation": "서로 독립된 dual VOR system을 같은 VOR에 맞춰 비교할 때 최대 허용 variation은 4°이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.341",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-013",
+      "number": 13,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 2,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-02",
+        "title": "VOR Receiver Check · TACAN · VORTAC · DME"
+      },
+      "source_page": 341,
+      "question": "TACAN에 대한 설명으로 맞는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "LF continuous-wave system이다."
+        },
+        {
+          "id": "B",
+          "text": "Pulse system이며 UHF band에서 운용된다."
+        },
+        {
+          "id": "C",
+          "text": "일반 VOR receiver만으로 TACAN azimuth를 직접 수신한다."
+        },
+        {
+          "id": "D",
+          "text": "거리 정보는 제공하지 않는다."
+        }
+      ],
+      "answer": "B",
+      "explanation": "TACAN은 pulse system이며 UHF band에서 운용되고 azimuth와 distance information을 제공한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.341",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-014",
+      "number": 14,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 2,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-02",
+        "title": "VOR Receiver Check · TACAN · VORTAC · DME"
+      },
+      "source_page": 341,
+      "question": "VORTAC이 한 지점에서 제공하는 세 가지 service는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "VOR azimuth, TACAN azimuth, TACAN distance"
+        },
+        {
+          "id": "B",
+          "text": "LOC, GS, OM"
+        },
+        {
+          "id": "C",
+          "text": "NDB bearing, VOR azimuth, GPS position"
+        },
+        {
+          "id": "D",
+          "text": "VOR azimuth, HF voice, radar vector"
+        }
+      ],
+      "answer": "A",
+      "explanation": "VORTAC은 VOR azimuth, TACAN azimuth, TACAN distance(DME)를 한 지점에서 제공한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.341",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-015",
+      "number": 15,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 2,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-02",
+        "title": "VOR Receiver Check · TACAN · VORTAC · DME"
+      },
+      "source_page": 342,
+      "question": "DME가 표시하는 거리는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "항공기와 station 간 horizontal ground distance"
+        },
+        {
+          "id": "B",
+          "text": "slant range distance"
+        },
+        {
+          "id": "C",
+          "text": "runway threshold까지의 along-track distance"
+        },
+        {
+          "id": "D",
+          "text": "great-circle distance only"
+        }
+      ],
+      "answer": "B",
+      "explanation": "DME는 signal round-trip time을 거리로 환산하며 표시값은 actual horizontal distance가 아니라 slant range이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.342",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-016",
+      "number": 16,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 2,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-02",
+        "title": "VOR Receiver Check · TACAN · VORTAC · DME"
+      },
+      "source_page": 342,
+      "question": "DME의 ICAO Annex 10 운용 주파수 범위는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "108.10–111.95 MHz"
+        },
+        {
+          "id": "B",
+          "text": "329.15–335.00 MHz"
+        },
+        {
+          "id": "C",
+          "text": "960–1215 MHz"
+        },
+        {
+          "id": "D",
+          "text": "1563.42–1587.42 MHz"
+        }
+      ],
+      "answer": "C",
+      "explanation": "원문은 DME의 운용 주파수 범위를 960–1215 MHz로 제시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.342",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-017",
+      "number": 17,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 3,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-03",
+        "title": "NAVAID Standard Service Volumes"
+      },
+      "source_page": 343,
+      "question": "Standard Service Volume(SSV)에 대한 설명으로 맞는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Terrain blockage까지 완전히 보장한다."
+        },
+        {
+          "id": "B",
+          "text": "적절한 signal strength/course quality와 유사 주파수 간 interference 보호를 제공하는 3차원 volume이다."
+        },
+        {
+          "id": "C",
+          "text": "published route에서만 사용할 수 있다."
+        },
+        {
+          "id": "D",
+          "text": "모든 고도에서 동일한 반경을 가진다."
+        }
+      ],
+      "answer": "B",
+      "explanation": "SSV는 적절한 signal strength와 course quality, co/adjacent-channel interference로부터의 보호를 보장하는 3차원 volume이지만 terrain/obstruction blockage는 포함하지 않는다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.343",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-018",
+      "number": 18,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 3,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-03",
+        "title": "NAVAID Standard Service Volumes"
+      },
+      "source_page": 343,
+      "question": "NAVAID 바로 위의 conical area에 대한 원문 설명은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "항상 최상의 수신 구역이다."
+        },
+        {
+          "id": "B",
+          "text": "일반적으로 navigation에 사용할 수 없다."
+        },
+        {
+          "id": "C",
+          "text": "DME만 사용할 수 있다."
+        },
+        {
+          "id": "D",
+          "text": "오직 IFR에서만 사용할 수 있다."
+        }
+      ],
+      "answer": "B",
+      "explanation": "원문은 NAVAID 바로 위의 conical area는 일반적으로 navigation에 usable하지 않다고 주의한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.343",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-019",
+      "number": 19,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 3,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-03",
+        "title": "NAVAID Standard Service Volumes"
+      },
+      "source_page": 347,
+      "question": "Terminal(T) SSV의 표준 범위는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1,000–12,000 ft ATH, 25 NM"
+        },
+        {
+          "id": "B",
+          "text": "1,000–18,000 ft ATH, 40 NM"
+        },
+        {
+          "id": "C",
+          "text": "5,000–18,000 ft ATH, 70 NM"
+        },
+        {
+          "id": "D",
+          "text": "12,900–18,000 ft ATH, 130 NM"
+        }
+      ],
+      "answer": "A",
+      "explanation": "T SSV는 1,000 ft ATH부터 12,000 ft ATH까지, radial distance 25 NM이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.347",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-020",
+      "number": 20,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 3,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-03",
+        "title": "NAVAID Standard Service Volumes"
+      },
+      "source_page": 347,
+      "question": "Low(L) SSV의 표준 범위는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1,000–12,000 ft ATH, 25 NM"
+        },
+        {
+          "id": "B",
+          "text": "1,000–18,000 ft ATH, 40 NM"
+        },
+        {
+          "id": "C",
+          "text": "5,000–14,500 ft ATH, 70 NM"
+        },
+        {
+          "id": "D",
+          "text": "14,500–60,000 ft ATH, 100 NM"
+        }
+      ],
+      "answer": "B",
+      "explanation": "L SSV는 1,000–18,000 ft ATH에서 40 NM이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.347",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-021",
+      "number": 21,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 3,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-03",
+        "title": "NAVAID Standard Service Volumes"
+      },
+      "source_page": 348,
+      "question": "VOR Low(VL) SSV에서 5,000 ft ATH 이상 18,000 ft ATH 미만의 radial range는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "40 NM"
+        },
+        {
+          "id": "B",
+          "text": "50 NM"
+        },
+        {
+          "id": "C",
+          "text": "70 NM"
+        },
+        {
+          "id": "D",
+          "text": "130 NM"
+        }
+      ],
+      "answer": "C",
+      "explanation": "VL은 5,000 ft ATH 이상 18,000 ft ATH 미만에서 70 NM까지 제공된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.348",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-022",
+      "number": 22,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 3,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-03",
+        "title": "NAVAID Standard Service Volumes"
+      },
+      "source_page": 348,
+      "question": "DME Low(DL) SSV에서 12,900 ft ATH 이상 18,000 ft ATH 미만의 radial range는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "40 NM"
+        },
+        {
+          "id": "B",
+          "text": "70 NM"
+        },
+        {
+          "id": "C",
+          "text": "100 NM"
+        },
+        {
+          "id": "D",
+          "text": "130 NM"
+        }
+      ],
+      "answer": "D",
+      "explanation": "DL은 12,900 ft ATH 이상 18,000 ft ATH 미만에서 130 NM이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.348",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-023",
+      "number": 23,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 3,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-03",
+        "title": "NAVAID Standard Service Volumes"
+      },
+      "source_page": 348,
+      "question": "NDB Compass Locator의 service volume radius는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "15 NM"
+        },
+        {
+          "id": "B",
+          "text": "25 NM"
+        },
+        {
+          "id": "C",
+          "text": "50 NM"
+        },
+        {
+          "id": "D",
+          "text": "75 NM"
+        }
+      ],
+      "answer": "A",
+      "explanation": "NDB service volume 표에서 Compass Locator는 15 NM이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.348",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-024",
+      "number": 24,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 3,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-03",
+        "title": "NAVAID Standard Service Volumes"
+      },
+      "source_page": 348,
+      "question": "NDB class HH의 service volume radius는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "15 NM"
+        },
+        {
+          "id": "B",
+          "text": "25 NM"
+        },
+        {
+          "id": "C",
+          "text": "50 NM"
+        },
+        {
+          "id": "D",
+          "text": "75 NM"
+        }
+      ],
+      "answer": "D",
+      "explanation": "NDB service volume 표에서 HH는 75 NM이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.348",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-025",
+      "number": 25,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 4,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-04",
+        "title": "ILS Basics · Localizer · LDA"
+      },
+      "source_page": 349,
+      "question": "ILS의 기본 구성요소로 원문에 제시된 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Localizer, glide slope, OM 및 필요한 경우 IM"
+        },
+        {
+          "id": "B",
+          "text": "VOR, DME, NDB만"
+        },
+        {
+          "id": "C",
+          "text": "GPS, WAAS, GBAS"
+        },
+        {
+          "id": "D",
+          "text": "PAR, ASR, TCAS"
+        }
+      ],
+      "answer": "A",
+      "explanation": "ILS의 기본 구성은 localizer, glide slope, Outer Marker이며 CAT II/III용으로 설치된 경우 Inner Marker가 포함된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.349",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-026",
+      "number": 26,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 4,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-04",
+        "title": "ILS Basics · Localizer · LDA"
+      },
+      "source_page": 349,
+      "question": "ILS의 guidance information에 해당하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Marker beacon과 DME"
+        },
+        {
+          "id": "B",
+          "text": "Localizer와 glide slope"
+        },
+        {
+          "id": "C",
+          "text": "Approach light와 runway light"
+        },
+        {
+          "id": "D",
+          "text": "OM과 compass locator만"
+        }
+      ],
+      "answer": "B",
+      "explanation": "ILS 기능 구분에서 guidance information은 localizer와 glide slope이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.349",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-027",
+      "number": 27,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 4,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-04",
+        "title": "ILS Basics · Localizer · LDA"
+      },
+      "source_page": 349,
+      "question": "ILS localizer transmitter 주파수 범위는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "108.10–111.95 MHz"
+        },
+        {
+          "id": "B",
+          "text": "117.975–137 MHz"
+        },
+        {
+          "id": "C",
+          "text": "329.15–335.00 MHz"
+        },
+        {
+          "id": "D",
+          "text": "960–1215 MHz"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Localizer는 40개 ILS channel 중 하나를 사용하며 108.10–111.95 MHz 범위에서 운용된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.349",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-028",
+      "number": 28,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 4,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-04",
+        "title": "ILS Basics · Localizer · LDA"
+      },
+      "source_page": 349,
+      "question": "Localizer course width는 runway threshold에서 full-scale left부터 full-scale right까지 얼마로 조정되는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "350 ft"
+        },
+        {
+          "id": "B",
+          "text": "500 ft"
+        },
+        {
+          "id": "C",
+          "text": "700 ft"
+        },
+        {
+          "id": "D",
+          "text": "1,400 ft"
+        }
+      ],
+      "answer": "C",
+      "explanation": "원문은 threshold에서 localizer course width가 700 ft가 되도록 조정한다고 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.349",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-029",
+      "number": 29,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 4,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-04",
+        "title": "ILS Basics · Localizer · LDA"
+      },
+      "source_page": 350,
+      "question": "Localizer back course inbound에서 reverse sensing capability가 없는 경우 correction 방법은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Needle 방향으로 조종한다."
+        },
+        {
+          "id": "B",
+          "text": "Needle deflection과 반대 방향으로 조종한다."
+        },
+        {
+          "id": "C",
+          "text": "Heading을 고정하고 CDI를 무시한다."
+        },
+        {
+          "id": "D",
+          "text": "Glide slope만 따라간다."
+        }
+      ],
+      "answer": "B",
+      "explanation": "Back course inbound에서는 reverse sensing 때문에 “flying away from the needle”이 필요하다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.350",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-030",
+      "number": 30,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 4,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-04",
+        "title": "ILS Basics · Localizer · LDA"
+      },
+      "source_page": 350,
+      "question": "Standard localizer service volume에서 course 양쪽 10° 이내의 coverage radius는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "10 NM"
+        },
+        {
+          "id": "B",
+          "text": "18 NM"
+        },
+        {
+          "id": "C",
+          "text": "25 NM"
+        },
+        {
+          "id": "D",
+          "text": "35 NM"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Localizer는 course ±10° 이내에서 18 NM까지 proper off-course indications를 제공한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.350",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-031",
+      "number": 31,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 4,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-04",
+        "title": "ILS Basics · Localizer · LDA"
+      },
+      "source_page": 350,
+      "question": "Localizer course에서 10° 초과 35° 이내 영역의 coverage radius는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "5 NM"
+        },
+        {
+          "id": "B",
+          "text": "10 NM"
+        },
+        {
+          "id": "C",
+          "text": "18 NM"
+        },
+        {
+          "id": "D",
+          "text": "25 NM"
+        }
+      ],
+      "answer": "B",
+      "explanation": "10°–35° 양쪽 영역의 radius는 10 NM이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.350",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-032",
+      "number": 32,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 4,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-04",
+        "title": "ILS Basics · Localizer · LDA"
+      },
+      "source_page": 352,
+      "question": "LDA의 course와 runway alignment가 30°를 초과할 때 일반적으로 어떤 minimums가 published되는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Straight-in only"
+        },
+        {
+          "id": "B",
+          "text": "Circling only"
+        },
+        {
+          "id": "C",
+          "text": "CAT II only"
+        },
+        {
+          "id": "D",
+          "text": "No minimums"
+        }
+      ],
+      "answer": "B",
+      "explanation": "LDA alignment가 30°를 초과하면 circling minimums only가 published된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.352",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-033",
+      "number": 33,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 5,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-05",
+        "title": "ILS Glide Slope · Markers · Minimums · Critical Areas"
+      },
+      "source_page": 352,
+      "question": "ILS glide slope transmitter의 주파수 범위는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "108.10–111.95 MHz"
+        },
+        {
+          "id": "B",
+          "text": "190–535 kHz"
+        },
+        {
+          "id": "C",
+          "text": "329.15–335.00 MHz"
+        },
+        {
+          "id": "D",
+          "text": "960–1215 MHz"
+        }
+      ],
+      "answer": "C",
+      "explanation": "원문은 glide slope transmitter가 329.15–335.00 MHz의 40 ILS channels 중 하나를 사용한다고 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.352",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-034",
+      "number": 34,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 5,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-05",
+        "title": "ILS Glide Slope · Markers · Minimums · Critical Areas"
+      },
+      "source_page": 352,
+      "question": "ILS glide path projection angle의 정상값은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1.4°"
+        },
+        {
+          "id": "B",
+          "text": "2°"
+        },
+        {
+          "id": "C",
+          "text": "3°"
+        },
+        {
+          "id": "D",
+          "text": "6°"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Glide path projection angle은 정상적으로 horizontal 위 3°로 조정된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.352",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-035",
+      "number": 35,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 5,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-05",
+        "title": "ILS Glide Slope · Markers · Minimums · Critical Areas"
+      },
+      "source_page": 352,
+      "question": "정상 3° glide path가 MM과 OM을 통과하는 대략적 높이 조합은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "MM 100 ft / OM 700 ft"
+        },
+        {
+          "id": "B",
+          "text": "MM 200 ft / OM 1,400 ft"
+        },
+        {
+          "id": "C",
+          "text": "MM 400 ft / OM 2,000 ft"
+        },
+        {
+          "id": "D",
+          "text": "MM 700 ft / OM 3,000 ft"
+        }
+      ],
+      "answer": "B",
+      "explanation": "원문은 MM 약 200 ft, OM 약 1,400 ft above runway elevation로 제시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.352",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-036",
+      "number": 36,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 5,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-05",
+        "title": "ILS Glide Slope · Markers · Minimums · Critical Areas"
+      },
+      "source_page": 353,
+      "question": "Marker beacon receiver의 selective sensitivity는 ILS marker reception을 위해 보통 어디에 둬야 하는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "High"
+        },
+        {
+          "id": "B",
+          "text": "Medium"
+        },
+        {
+          "id": "C",
+          "text": "Low"
+        },
+        {
+          "id": "D",
+          "text": "Auto only"
+        }
+      ],
+      "answer": "C",
+      "explanation": "원문은 proper reception을 위해 selective sensitivity feature를 항상 “low” 위치에 두라고 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.353",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-037",
+      "number": 37,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 5,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-05",
+        "title": "ILS Glide Slope · Markers · Minimums · Critical Areas"
+      },
+      "source_page": 354,
+      "question": "Marker passage indication에서 Outer Marker의 light 색은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Blue"
+        },
+        {
+          "id": "B",
+          "text": "Amber"
+        },
+        {
+          "id": "C",
+          "text": "White"
+        },
+        {
+          "id": "D",
+          "text": "Green"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Table 1-1-3에서 OM은 BLUE이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.354",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-038",
+      "number": 38,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 5,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-05",
+        "title": "ILS Glide Slope · Markers · Minimums · Critical Areas"
+      },
+      "source_page": 354,
+      "question": "Category II ILS에서 IM은 무엇을 나타내는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "FAF"
+        },
+        {
+          "id": "B",
+          "text": "Glide path상 decision height 지점"
+        },
+        {
+          "id": "C",
+          "text": "Runway midpoint"
+        },
+        {
+          "id": "D",
+          "text": "Missed approach point"
+        }
+      ],
+      "answer": "B",
+      "explanation": "IM은 CAT II ILS에서 glide path상 aircraft가 decision height에 있는 지점을 나타낸다. Published RA minimum이 없는 CAT II에서 필요하다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.354",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-039",
+      "number": 39,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 5,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-05",
+        "title": "ILS Glide Slope · Markers · Minimums · Critical Areas"
+      },
+      "source_page": 356,
+      "question": "Glide slope가 inoperative일 때 ILS approach는 어떻게 되는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "완전히 금지된다."
+        },
+        {
+          "id": "B",
+          "text": "Non-precision localizer approach로 revert된다."
+        },
+        {
+          "id": "C",
+          "text": "CAT III로 자동 전환된다."
+        },
+        {
+          "id": "D",
+          "text": "SDF로 자동 전환된다."
+        }
+      ],
+      "answer": "B",
+      "explanation": "Glide slope failure 시 ILS는 non-precision localizer approach로 revert한다. Localizer failure 시에는 ILS approach 자체가 authorized되지 않는다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.356",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-040",
+      "number": 40,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 5,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-05",
+        "title": "ILS Glide Slope · Markers · Minimums · Critical Areas"
+      },
+      "source_page": 357,
+      "question": "공식 weather가 ceiling 800 ft 이상이고 visibility 2 miles 이상일 때 ILS critical area protection은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "ATC가 항상 자동 제공한다."
+        },
+        {
+          "id": "B",
+          "text": "Flight crew가 특별히 요청하지 않으면 ATC가 제공하지 않는다."
+        },
+        {
+          "id": "C",
+          "text": "Localizer만 항상 보호한다."
+        },
+        {
+          "id": "D",
+          "text": "Glide slope만 항상 보호한다."
+        }
+      ],
+      "answer": "B",
+      "explanation": "Ceiling ≥800 ft and visibility ≥2 miles에서는 flight crew가 specifically request하지 않는 한 ATC가 localizer/glideslope critical area protection을 제공하지 않는다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.357",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-041",
+      "number": 41,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 6,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-06",
+        "title": "SDF · NAVAID Maintenance · IRU/INS/AHRS · Doppler"
+      },
+      "source_page": 359,
+      "question": "SDF에 대한 설명으로 맞는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Glide slope를 반드시 제공한다."
+        },
+        {
+          "id": "B",
+          "text": "ILS localizer와 유사한 final approach course를 제공하지만 glide slope는 제공하지 않는다."
+        },
+        {
+          "id": "C",
+          "text": "GPS만 사용하는 approach이다."
+        },
+        {
+          "id": "D",
+          "text": "Course width는 항상 3°이다."
+        }
+      ],
+      "answer": "B",
+      "explanation": "SDF는 ILS localizer와 유사한 final approach course를 제공하지만 glide slope information은 제공하지 않는다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.359",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-042",
+      "number": 42,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 6,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-06",
+        "title": "SDF · NAVAID Maintenance · IRU/INS/AHRS · Doppler"
+      },
+      "source_page": 360,
+      "question": "SDF에서 usable off-course indication 한계는 course centerline 양쪽 몇 도인가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "10°"
+        },
+        {
+          "id": "B",
+          "text": "25°"
+        },
+        {
+          "id": "C",
+          "text": "35°"
+        },
+        {
+          "id": "D",
+          "text": "45°"
+        }
+      ],
+      "answer": "C",
+      "explanation": "SDF usable off-course indication은 course centerline 양쪽 35°까지이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.360",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-043",
+      "number": 43,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 6,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-06",
+        "title": "SDF · NAVAID Maintenance · IRU/INS/AHRS · Doppler"
+      },
+      "source_page": 360,
+      "question": "SDF signal course width는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "3° 또는 5°"
+        },
+        {
+          "id": "B",
+          "text": "4° 또는 8°"
+        },
+        {
+          "id": "C",
+          "text": "6° 또는 12°"
+        },
+        {
+          "id": "D",
+          "text": "10° 또는 20°"
+        }
+      ],
+      "answer": "C",
+      "explanation": "원문은 SDF signal이 6° 또는 12°로 고정된다고 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.360",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-044",
+      "number": 44,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 6,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-06",
+        "title": "SDF · NAVAID Maintenance · IRU/INS/AHRS · Doppler"
+      },
+      "source_page": 360,
+      "question": "Maintenance 중 NAVAID의 coded identification이 제거되는 주된 의미는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Signal이 정상이라는 확인"
+        },
+        {
+          "id": "B",
+          "text": "시설이 공식적으로 off the air이며 unreliable할 수 있다는 warning"
+        },
+        {
+          "id": "C",
+          "text": "VFR 전용으로 전환"
+        },
+        {
+          "id": "D",
+          "text": "Voice capability가 추가됨"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Identification removal은 tune-up/repair를 위해 시설이 공식적으로 off the air이며, signal이 들려도 unreliable할 수 있다는 warning이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.360",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-045",
+      "number": 45,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 6,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-06",
+        "title": "SDF · NAVAID Maintenance · IRU/INS/AHRS · Doppler"
+      },
+      "source_page": 362,
+      "question": "미국 LORAN-C signals의 transmission 종료일은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "2000-05-01"
+        },
+        {
+          "id": "B",
+          "text": "2010-02-08"
+        },
+        {
+          "id": "C",
+          "text": "2010-08-01"
+        },
+        {
+          "id": "D",
+          "text": "2012-01-01"
+        }
+      ],
+      "answer": "B",
+      "explanation": "원문 note는 U.S. LORAN-C signals가 2010년 2월 8일 종료되었다고 명시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.362",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-046",
+      "number": 46,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 6,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-06",
+        "title": "SDF · NAVAID Maintenance · IRU/INS/AHRS · Doppler"
+      },
+      "source_page": 362,
+      "question": "IRU position accuracy가 시간 경과에 따라 저하되는 현상을 무엇이라 하는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Masking"
+        },
+        {
+          "id": "B",
+          "text": "Drift"
+        },
+        {
+          "id": "C",
+          "text": "Slant range"
+        },
+        {
+          "id": "D",
+          "text": "Reverse sensing"
+        }
+      ],
+      "answer": "B",
+      "explanation": "IRU position accuracy decay with time를 drift라고 한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.362",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-047",
+      "number": 47,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 6,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-06",
+        "title": "SDF · NAVAID Maintenance · IRU/INS/AHRS · Doppler"
+      },
+      "source_page": 362,
+      "question": "AHRS의 기능으로 맞는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Position을 직접 계산한다."
+        },
+        {
+          "id": "B",
+          "text": "Attitude information을 weather radar/autopilot 등에 제공하지만 position을 직접 계산하지 않는다."
+        },
+        {
+          "id": "C",
+          "text": "DME distance만 계산한다."
+        },
+        {
+          "id": "D",
+          "text": "NDB bearing만 제공한다."
+        }
+      ],
+      "answer": "B",
+      "explanation": "AHRS는 attitude information을 제공하지만 직접 position information을 계산하지 않는다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.362",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-048",
+      "number": 48,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 6,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-06",
+        "title": "SDF · NAVAID Maintenance · IRU/INS/AHRS · Doppler"
+      },
+      "source_page": 363,
+      "question": "Doppler Radar navigation system에 대한 설명으로 맞는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "INS보다 더 정확하며 external update가 필요 없다."
+        },
+        {
+          "id": "B",
+          "text": "Ground speed와 drift angle을 측정하며 INS보다 덜 정확해 장거리에서는 periodic external update가 필요하다."
+        },
+        {
+          "id": "C",
+          "text": "오직 altitude만 계산한다."
+        },
+        {
+          "id": "D",
+          "text": "GPS satellite에 계속 의존한다."
+        }
+      ],
+      "answer": "B",
+      "explanation": "Doppler Radar는 radar signal로 ground speed와 drift angle을 측정하며 INS보다 덜 정확하므로 장거리에서 acceptable position accuracy를 위해 external reference update가 필요하다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.363",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-049",
+      "number": 49,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 7,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-07",
+        "title": "GPS Fundamentals · RAIM · VFR Use"
+      },
+      "source_page": 363,
+      "question": "GPS constellation은 worldwide user에게 최소 몇 개 satellite가 항상 보이도록 설계되어 있는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "4"
+        },
+        {
+          "id": "B",
+          "text": "5"
+        },
+        {
+          "id": "C",
+          "text": "6"
+        },
+        {
+          "id": "D",
+          "text": "8"
+        }
+      ],
+      "answer": "B",
+      "explanation": "원문은 24-satellite constellation이 worldwide user에게 적어도 5 satellites가 visible하도록 설계되었다고 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.363",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-050",
+      "number": 50,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 7,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-07",
+        "title": "GPS Fundamentals · RAIM · VFR Use"
+      },
+      "source_page": 363,
+      "question": "정확한 3-dimensional GPS position을 확립하기 위한 최소 satellite 수는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "3"
+        },
+        {
+          "id": "B",
+          "text": "4"
+        },
+        {
+          "id": "C",
+          "text": "5"
+        },
+        {
+          "id": "D",
+          "text": "6"
+        }
+      ],
+      "answer": "B",
+      "explanation": "정확한 3D position에는 최소 4 satellites가 필요하다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.363",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-051",
+      "number": 51,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 7,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-07",
+        "title": "GPS Fundamentals · RAIM · VFR Use"
+      },
+      "source_page": 364,
+      "question": "RAIM fault detection에 필요한 최소 satellite 조건은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "4 satellites만"
+        },
+        {
+          "id": "B",
+          "text": "5 satellites 또는 4 satellites + baro-aiding"
+        },
+        {
+          "id": "C",
+          "text": "6 satellites만"
+        },
+        {
+          "id": "D",
+          "text": "3 satellites + DME"
+        }
+      ],
+      "answer": "B",
+      "explanation": "RAIM integrity anomaly detection은 5 satellites 또는 4 satellites와 barometric altimeter input(baro-aiding)이 필요하다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.364",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-052",
+      "number": 52,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 7,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-07",
+        "title": "GPS Fundamentals · RAIM · VFR Use"
+      },
+      "source_page": 364,
+      "question": "FDE(fault detection and exclusion)에 필요한 satellite 조건은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "5 또는 4+baro"
+        },
+        {
+          "id": "B",
+          "text": "6 또는 5+baro"
+        },
+        {
+          "id": "C",
+          "text": "7 또는 6+baro"
+        },
+        {
+          "id": "D",
+          "text": "4만 필요"
+        }
+      ],
+      "answer": "B",
+      "explanation": "FDE capable receiver는 6 satellites 또는 5 satellites with baro-aiding이 필요하다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.364",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-053",
+      "number": 53,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 7,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-07",
+        "title": "GPS Fundamentals · RAIM · VFR Use"
+      },
+      "source_page": 364,
+      "question": "Baro-aiding을 위해 사용해서는 안 되는 altitude source는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Current altimeter setting"
+        },
+        {
+          "id": "B",
+          "text": "GPS-derived altitude"
+        },
+        {
+          "id": "C",
+          "text": "Barometric altimeter input"
+        },
+        {
+          "id": "D",
+          "text": "Operating manual에 따른 altimeter setting"
+        }
+      ],
+      "answer": "B",
+      "explanation": "GPS vertical error가 커 integrity monitoring을 invalid하게 만들 수 있으므로 GPS-derived altitude를 baro-aiding에 사용하면 안 된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.364",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-054",
+      "number": 54,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 7,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-07",
+        "title": "GPS Fundamentals · RAIM · VFR Use"
+      },
+      "source_page": 364,
+      "question": "GPS Selective Availability(SA)가 중단된 날짜는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1995-01-01"
+        },
+        {
+          "id": "B",
+          "text": "2000-05-01"
+        },
+        {
+          "id": "C",
+          "text": "2010-02-08"
+        },
+        {
+          "id": "D",
+          "text": "2012-12-31"
+        }
+      ],
+      "answer": "B",
+      "explanation": "SA는 2000년 5월 1일 중단되었다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.364",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-055",
+      "number": 55,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 7,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-07",
+        "title": "GPS Fundamentals · RAIM · VFR Use"
+      },
+      "source_page": 365,
+      "question": "VFR panel-mount 또는 hand-held GPS의 RAIM alerting에 대한 설명은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "모두 RAIM alerting이 있다."
+        },
+        {
+          "id": "B",
+          "text": "RAIM alerting capability가 없다."
+        },
+        {
+          "id": "C",
+          "text": "오직 hand-held만 RAIM을 제공한다."
+        },
+        {
+          "id": "D",
+          "text": "오직 VFR panel-mount만 FDE를 제공한다."
+        }
+      ],
+      "answer": "B",
+      "explanation": "원문은 VFR GPS panel mount receivers와 hand-held units에는 RAIM alerting capability가 없다고 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.365",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-056",
+      "number": 56,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 7,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-07",
+        "title": "GPS Fundamentals · RAIM · VFR Use"
+      },
+      "source_page": 366,
+      "question": "VFR waypoint name의 형식은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "3 letters starting V"
+        },
+        {
+          "id": "B",
+          "text": "5 letters beginning VP"
+        },
+        {
+          "id": "C",
+          "text": "5 pronounceable letters beginning CF"
+        },
+        {
+          "id": "D",
+          "text": "2 letters + 3 digits"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Computer entry/flight plan용 VFR waypoint name은 5 letters이며 “VP”로 시작한다. 일반적으로 pronounceable하지 않고 IFR flight plan에는 사용할 수 없다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.366",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-057",
+      "number": 57,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 8,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-08",
+        "title": "GPS IFR Requirements · Database · En Route/Departure"
+      },
+      "source_page": 367,
+      "question": "IFR GPS navigation에 승인되는 TSO 계열로 원문에 포함되지 않는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "TSO-C129()"
+        },
+        {
+          "id": "B",
+          "text": "TSO-C196()"
+        },
+        {
+          "id": "C",
+          "text": "TSO-C145()/C146()"
+        },
+        {
+          "id": "D",
+          "text": "TSO-C115a만으로 충분"
+        }
+      ],
+      "answer": "D",
+      "explanation": "원문은 IFR GPS에 TSO-C129(), C196(), C145(), C146() 등을 제시하며 TSO-C115a는 C129 requirement를 충족하지 않는다고 명시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.367",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-058",
+      "number": 58,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 8,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-08",
+        "title": "GPS IFR Requirements · Database · En Route/Departure"
+      },
+      "source_page": 367,
+      "question": "Un-augmented GPS(TSO-C129/C196)를 IFR navigation에 사용할 때 요구되는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "다른 navigation 장비는 금지"
+        },
+        {
+          "id": "B",
+          "text": "Proposed route에 적합한 alternate approved and operational means of navigation"
+        },
+        {
+          "id": "C",
+          "text": "RAIM이 있어도 항상 두 장비를 동시에 monitor"
+        },
+        {
+          "id": "D",
+          "text": "Hand-held backup만 있으면 됨"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Un-augmented GPS를 IFR에 사용할 때는 proposed route를 항법할 수 있는 alternate approved and operational means가 필요하다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.367",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-059",
+      "number": 59,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 8,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-08",
+        "title": "GPS IFR Requirements · Database · En Route/Departure"
+      },
+      "source_page": 367,
+      "question": "GPS RAIM capability가 lost되면 alternate navigation equipment monitoring은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "필요 없다."
+        },
+        {
+          "id": "B",
+          "text": "Active monitoring이 요구된다."
+        },
+        {
+          "id": "C",
+          "text": "오직 VFR에서 요구된다."
+        },
+        {
+          "id": "D",
+          "text": "ATC가 대신하므로 금지된다."
+        }
+      ],
+      "answer": "B",
+      "explanation": "RAIM available일 때는 active monitoring이 필수는 아니지만 RAIM capability가 lost되면 alternate means를 active monitor해야 한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.367",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-060",
+      "number": 60,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 8,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-08",
+        "title": "GPS IFR Requirements · Database · En Route/Departure"
+      },
+      "source_page": 368,
+      "question": "GPS IFR approach procedure는 database에서 어떻게 불러와야 하는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Latitude/longitude를 수동 입력"
+        },
+        {
+          "id": "B",
+          "text": "Place/bearing으로 수동 구성"
+        },
+        {
+          "id": "C",
+          "text": "Procedure name으로 current airborne navigation database에서 retrieve"
+        },
+        {
+          "id": "D",
+          "text": "ATC가 각 waypoint를 읽어주면 직접 입력"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Approach procedure는 current airborne navigation database에서 name으로 retrievable해야 하며 manual lat/long 또는 place/bearing entry는 허용되지 않는다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.368",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-061",
+      "number": 61,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 8,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-08",
+        "title": "GPS IFR Requirements · Database · En Route/Departure"
+      },
+      "source_page": 370,
+      "question": "GPS/WAAS를 사용하는 en route IFR operation에서 ground-based navigation equipment에 대한 원문 설명은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "항상 설치·작동해야 한다."
+        },
+        {
+          "id": "B",
+          "text": "설치·작동이 요구되지 않지만 alternate means of navigation availability를 고려해야 한다."
+        },
+        {
+          "id": "C",
+          "text": "VOR만 필수다."
+        },
+        {
+          "id": "D",
+          "text": "ADF만 필수다."
+        }
+      ],
+      "answer": "B",
+      "explanation": "GPS/WAAS navigation systems를 이용한 en route IFR에서는 ground-based navigation equipment 설치/작동이 요구되지 않지만 system failure에 대비한 alternate means를 확보하도록 권고한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.370",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-062",
+      "number": 62,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 8,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-08",
+        "title": "GPS IFR Requirements · Database · En Route/Departure"
+      },
+      "source_page": 370,
+      "question": "Outside Alaska에서 T-route가 요구하는 equipment는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "VOR only"
+        },
+        {
+          "id": "B",
+          "text": "GPS 또는 GPS/WAAS"
+        },
+        {
+          "id": "C",
+          "text": "DME/DME/IRU만"
+        },
+        {
+          "id": "D",
+          "text": "NDB only"
+        }
+      ],
+      "answer": "B",
+      "explanation": "원문은 outside Alaska의 T-route가 GPS 또는 GPS/WAAS equipment를 요구한다고 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.370",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-063",
+      "number": 63,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 8,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-08",
+        "title": "GPS IFR Requirements · Database · En Route/Departure"
+      },
+      "source_page": 371,
+      "question": "Published IFR departure/DP를 GPS로 비행할 때 terminal CDI sensitivity는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "±5 NM"
+        },
+        {
+          "id": "B",
+          "text": "±2 NM"
+        },
+        {
+          "id": "C",
+          "text": "±1 NM"
+        },
+        {
+          "id": "D",
+          "text": "±0.3 NM"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Published IFR departure/DP에서 receiver는 terminal ±1 NM CDI sensitivity로 설정되어야 한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.371",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-064",
+      "number": 64,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 8,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-08",
+        "title": "GPS IFR Requirements · Database · En Route/Departure"
+      },
+      "source_page": 371,
+      "question": "GPS를 사용하는 helicopter departure/missed approach procedure의 원문 제한 속도는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "60 kt 이하"
+        },
+        {
+          "id": "B",
+          "text": "70 kt 이하"
+        },
+        {
+          "id": "C",
+          "text": "90 kt 이하"
+        },
+        {
+          "id": "D",
+          "text": "120 kt 이하"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Helicopter procedures는 20:1 OCS와 turning area 설계 때문에 70 knots or less로 비행해야 한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.371",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-065",
+      "number": 65,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 9,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-09",
+        "title": "GPS Instrument Approaches · RAIM · Waypoints"
+      },
+      "source_page": 371,
+      "question": "GPS overlay approach로 authorized되지 않는 procedure 조합은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "VOR/DME"
+        },
+        {
+          "id": "B",
+          "text": "LOC/LDA/SDF"
+        },
+        {
+          "id": "C",
+          "text": "RNAV (GPS)"
+        },
+        {
+          "id": "D",
+          "text": "VOR or GPS"
+        }
+      ],
+      "answer": "B",
+      "explanation": "원문은 LOC, LDA, SDF procedures는 GPS overlay로 authorized되지 않는다고 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.371",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-066",
+      "number": 66,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 9,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-09",
+        "title": "GPS Instrument Approaches · RAIM · Waypoints"
+      },
+      "source_page": 372,
+      "question": "TSO-C129/C196 GPS user가 FDE와 preflight RAIM prediction 등 조건을 충족한 경우 GPS-based IAP를 flight plan에 어떻게 사용할 수 있는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Destination과 alternate 둘 다 GPS-based만 사용"
+        },
+        {
+          "id": "B",
+          "text": "Destination 또는 alternate 중 한 곳에서만 GPS-based IAP를 기반으로 file"
+        },
+        {
+          "id": "C",
+          "text": "Alternate에는 GPS 절대 금지"
+        },
+        {
+          "id": "D",
+          "text": "Destination에는 GPS 절대 금지"
+        }
+      ],
+      "answer": "B",
+      "explanation": "해당 조건을 충족하면 destination 또는 alternate 중 한 곳에서 GPS-based IAP를 기반으로 file할 수 있지만 두 곳 모두에는 사용할 수 없다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.372",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-067",
+      "number": 67,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 9,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-09",
+        "title": "GPS Instrument Approaches · RAIM · Waypoints"
+      },
+      "source_page": 373,
+      "question": "GPS approach가 loaded된 경우 receiver가 일반적으로 “arm” annunciation을 제공하는 지점은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Airport reference point 50 NM"
+        },
+        {
+          "id": "B",
+          "text": "30 NM"
+        },
+        {
+          "id": "C",
+          "text": "10 NM"
+        },
+        {
+          "id": "D",
+          "text": "2 NM"
+        }
+      ],
+      "answer": "B",
+      "explanation": "원문은 airport/heliport reference point로부터 30 NM straight-line distance에서 “arm” annunciation이 나온다고 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.373",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-068",
+      "number": 68,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 9,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-09",
+        "title": "GPS Instrument Approaches · RAIM · Waypoints"
+      },
+      "source_page": 373,
+      "question": "FAWP 2 NM 전부터 FAWP까지 CDI full-scale sensitivity는 어떻게 변하는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "±5 NM에서 ±1 NM"
+        },
+        {
+          "id": "B",
+          "text": "±1 NM에서 ±0.3 NM"
+        },
+        {
+          "id": "C",
+          "text": "±0.3 NM에서 ±1 NM"
+        },
+        {
+          "id": "D",
+          "text": "변화 없음"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Approach mode armed 상태에서 FAWP 2 NM 전부터 sensitivity가 ±1 NM에서 FAWP의 ±0.3 NM까지 smoothly ramp down한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.373",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-069",
+      "number": 69,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 9,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-09",
+        "title": "GPS Instrument Approaches · RAIM · Waypoints"
+      },
+      "source_page": 374,
+      "question": "FAWP 2 NM 전까지 approach mode가 armed되지 않아 equipment가 flag한 경우 조치는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "MDA까지 계속 descent"
+        },
+        {
+          "id": "B",
+          "text": "Approach를 계속하되 DME만 확인"
+        },
+        {
+          "id": "C",
+          "text": "MDA로 descend하지 말고 MAWP까지 간 후 missed approach"
+        },
+        {
+          "id": "D",
+          "text": "즉시 180° turn"
+        }
+      ],
+      "answer": "C",
+      "explanation": "RAIM/CDI sensitivity가 ramp down되지 않으므로 MDA로 descend하지 말고 MAWP까지 비행한 후 missed approach를 수행해야 한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.374",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-070",
+      "number": 70,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 9,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-09",
+        "title": "GPS Instrument Approaches · RAIM · Waypoints"
+      },
+      "source_page": 375,
+      "question": "GPS missed approach를 MAWP 전에 activate하면 CDI sensitivity는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "즉시 approach ±0.3 NM로 고정"
+        },
+        {
+          "id": "B",
+          "text": "즉시 terminal ±1 NM로 변하며 receiver는 MAWP까지 계속 navigate"
+        },
+        {
+          "id": "C",
+          "text": "en route ±5 NM로 즉시 변함"
+        },
+        {
+          "id": "D",
+          "text": "receiver가 즉시 다음 waypoint로 sequence"
+        }
+      ],
+      "answer": "B",
+      "explanation": "MAWP 전에 missed approach를 activate하면 CDI는 즉시 terminal ±1 NM가 되며 receiver는 MAWP까지 navigate하고 그 전에는 past MAWP로 sequence하지 않는다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.375",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-071",
+      "number": 71,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 9,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-09",
+        "title": "GPS Instrument Approaches · RAIM · Waypoints"
+      },
+      "source_page": 376,
+      "question": "RAIM이 available하지 않을 때 권고되는 조치가 아닌 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "다른 navigation/approach system 사용"
+        },
+        {
+          "id": "B",
+          "text": "RAIM available한 route/destination 선택"
+        },
+        {
+          "id": "C",
+          "text": "Trip delay"
+        },
+        {
+          "id": "D",
+          "text": "GPS indication을 integrity 확인 없이 그대로 primary로 사용"
+        }
+      ],
+      "answer": "D",
+      "explanation": "RAIM unavailable이면 다른 navigation/approach system, 다른 route/destination 또는 delay를 사용해야 한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.376",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-072",
+      "number": 72,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 9,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-09",
+        "title": "GPS Instrument Approaches · RAIM · Waypoints"
+      },
+      "source_page": 378,
+      "question": "GPS approach에서 MAWP는 waypoint type상 항상 무엇인가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Fly-by"
+        },
+        {
+          "id": "B",
+          "text": "Fly-over"
+        },
+        {
+          "id": "C",
+          "text": "CNF only"
+        },
+        {
+          "id": "D",
+          "text": "VFR waypoint"
+        }
+      ],
+      "answer": "B",
+      "explanation": "원문은 missed approach waypoint(MAWP)는 항상 fly-over waypoint라고 명시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.378",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-073",
+      "number": 73,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 10,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-10",
+        "title": "WAAS Fundamentals · Approach Capabilities · Requirements"
+      },
+      "source_page": 382,
+      "question": "WAAS가 GPS에 대해 개선하려는 세 가지 핵심 성능은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Range, speed, fuel"
+        },
+        {
+          "id": "B",
+          "text": "Accuracy, integrity, availability"
+        },
+        {
+          "id": "C",
+          "text": "Pitch, roll, yaw"
+        },
+        {
+          "id": "D",
+          "text": "Voice, data, radar"
+        }
+      ],
+      "answer": "B",
+      "explanation": "WAAS는 GPS signals의 accuracy, integrity, availability를 개선하기 위해 개발되었다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.382",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-074",
+      "number": 74,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 10,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-10",
+        "title": "WAAS Fundamentals · Approach Capabilities · Requirements"
+      },
+      "source_page": 383,
+      "question": "WAAS correction message가 aircraft receiver에 broadcast되는 GPS L1 주파수는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "108.10 MHz"
+        },
+        {
+          "id": "B",
+          "text": "121.5 MHz"
+        },
+        {
+          "id": "C",
+          "text": "1575.42 MHz"
+        },
+        {
+          "id": "D",
+          "text": "329.15 MHz"
+        }
+      ],
+      "answer": "C",
+      "explanation": "WAAS correction message는 GPS와 같은 L1 1575.42 MHz로 broadcast된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.383",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-075",
+      "number": 75,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 10,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-10",
+        "title": "WAAS Fundamentals · Approach Capabilities · Requirements"
+      },
+      "source_page": 383,
+      "question": "WAAS GEO가 correction signal 외에 제공하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "추가 pseudorange measurement"
+        },
+        {
+          "id": "B",
+          "text": "VOR radial only"
+        },
+        {
+          "id": "C",
+          "text": "ILS marker tone"
+        },
+        {
+          "id": "D",
+          "text": "HF voice relay"
+        }
+      ],
+      "answer": "A",
+      "explanation": "WAAS GEO는 correction signal뿐 아니라 추가 pseudorange measurement를 제공하여 사실상 추가 GPS satellite처럼 availability를 높인다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.383",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-076",
+      "number": 76,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 10,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-10",
+        "title": "WAAS Fundamentals · Approach Capabilities · Requirements"
+      },
+      "source_page": 383,
+      "question": "LNAV/VNAV와 LPV가 속하는 ICAO 개념은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "CAT III precision only"
+        },
+        {
+          "id": "B",
+          "text": "Approach with Vertical Guidance(APV)"
+        },
+        {
+          "id": "C",
+          "text": "SDF"
+        },
+        {
+          "id": "D",
+          "text": "NDB homing"
+        }
+      ],
+      "answer": "B",
+      "explanation": "원문은 LNAV/VNAV와 LPV를 vertical guidance를 제공하지만 precision approach 기준을 충족하지 않는 APV로 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.383",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-077",
+      "number": 77,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 10,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-10",
+        "title": "WAAS Fundamentals · Approach Capabilities · Requirements"
+      },
+      "source_page": 384,
+      "question": "LP(Localizer Performance)에 대한 설명으로 맞는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Vertical guidance를 반드시 제공한다."
+        },
+        {
+          "id": "B",
+          "text": "WAAS 기반 lateral-only procedure이며 LNAV보다 낮은 minima를 제공할 수 있다."
+        },
+        {
+          "id": "C",
+          "text": "Baro-VNAV만 사용한다."
+        },
+        {
+          "id": "D",
+          "text": "ILS glide slope transmitter가 필요하다."
+        }
+      ],
+      "answer": "B",
+      "explanation": "LP는 WAAS의 angular lateral guidance와 작은 position error를 이용하는 lateral-only procedure로, 좁은 obstacle clearance surface 덕분에 LNAV보다 낮은 minima가 가능할 수 있다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.384",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-078",
+      "number": 78,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 10,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-10",
+        "title": "WAAS Fundamentals · Approach Capabilities · Requirements"
+      },
+      "source_page": 383,
+      "question": "Terrain과 airport infrastructure가 허용할 때 LPV decision altitude는 얼마나 낮아질 수 있는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "100 ft HAT"
+        },
+        {
+          "id": "B",
+          "text": "150 ft HAT"
+        },
+        {
+          "id": "C",
+          "text": "200 ft HAT"
+        },
+        {
+          "id": "D",
+          "text": "300 ft HAT"
+        }
+      ],
+      "answer": "C",
+      "explanation": "원문은 LPV minima가 조건이 충족되면 decision altitude 200 ft height above touchdown까지 가능하다고 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.383",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-079",
+      "number": 79,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 10,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-10",
+        "title": "WAAS Fundamentals · Approach Capabilities · Requirements"
+      },
+      "source_page": 384,
+      "question": "WAAS avionics certification에 해당하는 TSO는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "TSO-C145() 또는 TSO-C146()"
+        },
+        {
+          "id": "B",
+          "text": "TSO-C60b only"
+        },
+        {
+          "id": "C",
+          "text": "TSO-C115a only"
+        },
+        {
+          "id": "D",
+          "text": "TSO-C129만 가능"
+        }
+      ],
+      "answer": "A",
+      "explanation": "WAAS avionics는 TSO-C145() 또는 TSO-C146()에 따라 certified되어야 한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.384",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-080",
+      "number": 80,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 10,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-10",
+        "title": "WAAS Fundamentals · Approach Capabilities · Requirements"
+      },
+      "source_page": 385,
+      "question": "WAAS NOTAM의 “MAY NOT BE AVBL” 의미로 맞는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "모든 lateral/vertical service가 반드시 unavailable"
+        },
+        {
+          "id": "B",
+          "text": "예상되는 WAAS service level이 unavailable할 수 있다는 predictive advisory"
+        },
+        {
+          "id": "C",
+          "text": "WAAS 사용이 영구 금지"
+        },
+        {
+          "id": "D",
+          "text": "오직 VFR에만 적용"
+        }
+      ],
+      "answer": "B",
+      "explanation": "MAY NOT BE AVBL은 ionospheric condition 등에 따라 LNAV/VNAV, LPV, LP 등의 expected service level이 unavailable할 수 있음을 알리는 predictive flight-planning advisory이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.385",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-081",
+      "number": 81,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 11,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-11",
+        "title": "WAAS Flying Procedures · Scaling · Alternate Use"
+      },
+      "source_page": 387,
+      "question": "WAAS receiver를 required alternate에 계획할 때 일반적인 planning minima 기준은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "반드시 LPV만"
+        },
+        {
+          "id": "B",
+          "text": "RNAV(GPS) LNAV 또는 circling minima line 등 permitted lateral minima"
+        },
+        {
+          "id": "C",
+          "text": "CAT IIIc만"
+        },
+        {
+          "id": "D",
+          "text": "SDF minima만"
+        }
+      ],
+      "answer": "B",
+      "explanation": "원문은 WAAS alternate planning을 RNAV(GPS) LNAV/circling minima line, GPS approach 또는 “or GPS” conventional approach를 기준으로 하도록 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.387",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-082",
+      "number": 82,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 11,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-11",
+        "title": "WAAS Flying Procedures · Scaling · Alternate Use"
+      },
+      "source_page": 387,
+      "question": "WAAS glide path guidance의 중요한 특징은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Ground equipment와 barometric aiding에 반드시 의존"
+        },
+        {
+          "id": "B",
+          "text": "Ground equipment 또는 barometric aiding와 독립적으로 생성 가능"
+        },
+        {
+          "id": "C",
+          "text": "NDB bearing이 필요"
+        },
+        {
+          "id": "D",
+          "text": "Marker beacon이 필요"
+        }
+      ],
+      "answer": "B",
+      "explanation": "WAAS receiver는 ground equipment나 barometric aiding에 의존하지 않고 glide path guidance를 생성할 수 있다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.387",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-083",
+      "number": 83,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 11,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-11",
+        "title": "WAAS Flying Procedures · Scaling · Alternate Use"
+      },
+      "source_page": 387,
+      "question": "LPV의 lateral integrity limit로 원문에 제시된 값은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "0.3 NM"
+        },
+        {
+          "id": "B",
+          "text": "100 m"
+        },
+        {
+          "id": "C",
+          "text": "40 m"
+        },
+        {
+          "id": "D",
+          "text": "10 m"
+        }
+      ],
+      "answer": "C",
+      "explanation": "원문은 GPS/LNAV/LNAV-VNAV approach mode의 0.3 NM limit와 달리 LPV lateral integrity가 40 m라고 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.387",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-084",
+      "number": 84,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 11,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-11",
+        "title": "WAAS Flying Procedures · Scaling · Alternate Use"
+      },
+      "source_page": 388,
+      "question": "LPV minima가 250 ft 미만일 때 WAAS vertical error bound는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "20 m"
+        },
+        {
+          "id": "B",
+          "text": "35 m"
+        },
+        {
+          "id": "C",
+          "text": "50 m"
+        },
+        {
+          "id": "D",
+          "text": "75 m"
+        }
+      ],
+      "answer": "B",
+      "explanation": "LPV minima below 250 ft에서는 vertical error가 35 m로 bounded된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.388",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-085",
+      "number": 85,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 11,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-11",
+        "title": "WAAS Flying Procedures · Scaling · Alternate Use"
+      },
+      "source_page": 388,
+      "question": "WAAS approach에서 complete published procedure를 비행할 때 ±1 NM linear scaling은 언제까지 유지되는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "FAF 10 NM 전"
+        },
+        {
+          "id": "B",
+          "text": "FAF 5 NM 전"
+        },
+        {
+          "id": "C",
+          "text": "FAF 2 NM 전"
+        },
+        {
+          "id": "D",
+          "text": "Runway threshold까지"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Complete procedure에서는 FAF 2 NM 전까지 ±1 NM linear scaling을 제공하고 이후 ILS와 유사한 angular scaling으로 sensitivity가 증가한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.388",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-086",
+      "number": 86,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 11,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-11",
+        "title": "WAAS Flying Procedures · Scaling · Alternate Use"
+      },
+      "source_page": 389,
+      "question": "WAAS Vector-to-Final(VTF) mode에서 initial lateral scaling은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "±5 NM"
+        },
+        {
+          "id": "B",
+          "text": "±1 NM"
+        },
+        {
+          "id": "C",
+          "text": "±0.3 NM"
+        },
+        {
+          "id": "D",
+          "text": "±0.1 NM"
+        }
+      ],
+      "answer": "B",
+      "explanation": "VTF mode에서는 ILS angular splay가 ±1 NM width에 이르는 지점까지 ±1 NM linear scaling을 사용한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.389",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-087",
+      "number": 87,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 11,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-11",
+        "title": "WAAS Flying Procedures · Scaling · Alternate Use"
+      },
+      "source_page": 389,
+      "question": "LNAV/VNAV 또는 LPV에서 missed approach initiation 기준은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "ATD가 반드시 0이 될 때까지 기다림"
+        },
+        {
+          "id": "B",
+          "text": "Decision altitude에 도달했을 때 required visual reference가 없으면 시작"
+        },
+        {
+          "id": "C",
+          "text": "DME 1 NM일 때"
+        },
+        {
+          "id": "D",
+          "text": "Receiver가 자동으로 STOP을 표시할 때"
+        }
+      ],
+      "answer": "B",
+      "explanation": "LNAV/VNAV/LPV missed approach는 DA에서 required visual reference가 없으면 시작해야 하며 ATD가 0이 되기를 기다려서는 안 된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.389",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-088",
+      "number": 88,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 11,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-11",
+        "title": "WAAS Flying Procedures · Scaling · Alternate Use"
+      },
+      "source_page": 389,
+      "question": "RNAV로 designed된 missed approach에서 WAAS receiver의 MAWP sequencing 특징은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "항상 수동으로만 sequence"
+        },
+        {
+          "id": "B",
+          "text": "GPS receiver와 달리 자동으로 MAWP를 지나 sequence할 수 있다."
+        },
+        {
+          "id": "C",
+          "text": "MAWP 전 즉시 다음 waypoint로 건너뜀"
+        },
+        {
+          "id": "D",
+          "text": "Sequencing 기능이 없다."
+        }
+      ],
+      "answer": "B",
+      "explanation": "원문은 RNAV missed approach로 designed된 경우 WAAS receiver가 GPS receiver와 달리 MAWP를 자동 sequence past할 수 있다고 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.389",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-089",
+      "number": 89,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 12,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-12",
+        "title": "GBAS/GLS · Other Precision Approach Systems"
+      },
+      "source_page": 390,
+      "question": "FAA가 국제 용어 일치를 위해 LAAS 대신 사용하는 명칭은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "WAAS"
+        },
+        {
+          "id": "B",
+          "text": "GBAS"
+        },
+        {
+          "id": "C",
+          "text": "TACAN"
+        },
+        {
+          "id": "D",
+          "text": "SDF"
+        }
+      ],
+      "answer": "B",
+      "explanation": "원문 note는 former Local Area Augmentation System(LAAS) 대신 GBAS라는 term을 사용한다고 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.390",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-090",
+      "number": 90,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 12,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-12",
+        "title": "GBAS/GLS · Other Precision Approach Systems"
+      },
+      "source_page": 390,
+      "question": "GBAS Ground Facility(GGF)의 구성에 포함되는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "최소 4개의 ground reference stations, corrections processor, VDB uplink antenna"
+        },
+        {
+          "id": "B",
+          "text": "NDB 1대와 marker 2대"
+        },
+        {
+          "id": "C",
+          "text": "VOR 2대와 HF antenna"
+        },
+        {
+          "id": "D",
+          "text": "Radar 1대만"
+        }
+      ],
+      "answer": "A",
+      "explanation": "GGF에는 runway 근처 최소 4 ground reference stations, corrections processor, VHF Data Broadcast uplink antenna가 포함된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.390",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-091",
+      "number": 91,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 12,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-12",
+        "title": "GBAS/GLS · Other Precision Approach Systems"
+      },
+      "source_page": 390,
+      "question": "GLS approach가 제공하는 guidance는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Lateral only"
+        },
+        {
+          "id": "B",
+          "text": "Vertical only"
+        },
+        {
+          "id": "C",
+          "text": "3D angular lateral and vertical guidance"
+        },
+        {
+          "id": "D",
+          "text": "Bearing only"
+        }
+      ],
+      "answer": "C",
+      "explanation": "GBAS/GLS는 exact alignment and descent를 위한 3D angular lateral/vertical guidance를 제공한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.390",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-092",
+      "number": 92,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 12,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-12",
+        "title": "GBAS/GLS · Other Precision Approach Systems"
+      },
+      "source_page": 390,
+      "question": "하나의 GBAS ground station은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "한 runway의 한 approach만 지원"
+        },
+        {
+          "id": "B",
+          "text": "여러 runway에 대한 multiple GLS approaches를 지원할 수 있다."
+        },
+        {
+          "id": "C",
+          "text": "VFR traffic만 지원"
+        },
+        {
+          "id": "D",
+          "text": "ILS back course만 지원"
+        }
+      ],
+      "answer": "B",
+      "explanation": "원문은 single GBAS ground station이 one or more runways의 multiple GLS approaches를 지원할 수 있다고 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.390",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-093",
+      "number": 93,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 12,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-12",
+        "title": "GBAS/GLS · Other Precision Approach Systems"
+      },
+      "source_page": 390,
+      "question": "GLS approach의 IAF 이전 transition/segment에서 사용될 수 있는 navigation specification은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "RNAV 1 또는 RNP 1"
+        },
+        {
+          "id": "B",
+          "text": "NDB only"
+        },
+        {
+          "id": "C",
+          "text": "VOR Class T only"
+        },
+        {
+          "id": "D",
+          "text": "SDF only"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Published GLS procedure의 transition/segments는 IAF 이전에 RNAV 1 또는 RNP 1을 사용할 수 있다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.390",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-094",
+      "number": 94,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 12,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-12",
+        "title": "GBAS/GLS · Other Precision Approach Systems"
+      },
+      "source_page": 391,
+      "question": "GLS final approach에서 권장되는 pilot technique은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "NDB homing과 동일"
+        },
+        {
+          "id": "B",
+          "text": "ILS final 또는 RNAV(GPS) LPV final과 같은 technique"
+        },
+        {
+          "id": "C",
+          "text": "Visual pattern만 사용"
+        },
+        {
+          "id": "D",
+          "text": "Back course reverse sensing technique"
+        }
+      ],
+      "answer": "B",
+      "explanation": "GLS flight guidance mode에서 glidepath를 capture한 뒤에는 ILS final 또는 LPV minimums의 RNAV(GPS) final과 같은 pilot technique을 사용한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.391",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-095",
+      "number": 95,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 12,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-12",
+        "title": "GBAS/GLS · Other Precision Approach Systems"
+      },
+      "source_page": 391,
+      "question": "ILS와 GLS 이외의 precision approach system 사용 승인을 위해 필요한 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Special instrument approach procedures"
+        },
+        {
+          "id": "B",
+          "text": "VFR waypoint approval만"
+        },
+        {
+          "id": "C",
+          "text": "NDB compass locator"
+        },
+        {
+          "id": "D",
+          "text": "VOT check only"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Precision approach systems other than ILS and GLS의 approval/use에는 special instrument approach procedures 발행이 필요하다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.391",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-NAVAIDS-096",
+      "number": 96,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "study_unit": 12,
+      "study_unit_title": "Radio Data - General · Section 1. Navigation Aids",
+      "subunit": {
+        "code": "NAVAIDS-STAGE-12",
+        "title": "GBAS/GLS · Other Precision Approach Systems"
+      },
+      "source_page": 392,
+      "question": "General aviation operator가 special procedure 승인을 요청할 때 접촉해야 하는 곳은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Local Flight Standards District Office"
+        },
+        {
+          "id": "B",
+          "text": "Only FSS"
+        },
+        {
+          "id": "C",
+          "text": "Airport fire station"
+        },
+        {
+          "id": "D",
+          "text": "ARINC only"
+        }
+      ],
+      "answer": "A",
+      "explanation": "General aviation operator는 local Flight Standards District Office에 연락해 letter of authorization을 받아야 한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids p.392",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen Airway Manual",
+        "Radio Data - General",
+        "Section 1. Navigation Aids"
+      ],
+      "reference_study_only": true
+    }
+  ]
+}

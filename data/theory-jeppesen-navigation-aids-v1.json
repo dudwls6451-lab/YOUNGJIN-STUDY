@@ -1,0 +1,600 @@
+{
+  "metadata": {
+    "title": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids 이론 학습",
+    "source": "Jeppesen Airway Manual, Radio Data - General, Section 1. Navigation Aids, pp.336–392",
+    "version": "1.0",
+    "patch_version": "11.60.28",
+    "stage_count": 12,
+    "question_count": 96,
+    "pass_threshold_percent": 80,
+    "language": "ko summary preserving Jeppesen/FAA terminology",
+    "scope_note": "p.336–392 only; Section 2 PBN/RNAV begins p.393."
+  },
+  "stages": [
+    {
+      "id": 1,
+      "title": "NDB · VOR · VOR MON",
+      "sections": [
+        {
+          "title": "NDB",
+          "bullets": [
+            "NDB는 low/medium frequency nondirectional signal로 bearing과 homing을 제공한다. 통상 190–535 kHz이며 ICAO Annex 10 범위는 190–1750 kHz이다.",
+            "ILS marker와 함께 쓰이는 radio beacon은 Compass Locator이다.",
+            "ADF에는 erroneous bearing을 알리는 flag가 없으므로 NDB identification을 지속적으로 monitor해야 한다. Lightning, precipitation static, night interference 등이 bearing/identification을 왜곡할 수 있다."
+          ]
+        },
+        {
+          "title": "VOR & VOR MON",
+          "bullets": [
+            "VOR은 108.0–117.95 MHz, line-of-sight 특성이며 course alignment accuracy는 일반적으로 ±1°.",
+            "Positive identification은 Morse code 또는 recorded automatic voice identification이다. Maintenance 중 T-E-S-T code가 나올 수 있다.",
+            "VOR MON은 GNSS disruption 시 conventional backup을 제공한다. NAS에서 WUSMA를 제외하고 5,000 ft AGL에서 nearly continuous VOR coverage를 목표로 하며 CONUS에서는 MON airport가 100 NM 이내에 있도록 설계된다."
+          ]
+        }
+      ],
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "module": "Section 1. Navigation Aids",
+      "source_printed_pages": [
+        336,
+        337,
+        338,
+        339
+      ],
+      "source_pdf_pages": [
+        336,
+        337,
+        338,
+        339
+      ],
+      "quiz_question_ids": [
+        "JEPP-NAVAIDS-001",
+        "JEPP-NAVAIDS-002",
+        "JEPP-NAVAIDS-003",
+        "JEPP-NAVAIDS-004",
+        "JEPP-NAVAIDS-005",
+        "JEPP-NAVAIDS-006",
+        "JEPP-NAVAIDS-007",
+        "JEPP-NAVAIDS-008"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "VOR Receiver Check · TACAN · VORTAC · DME",
+      "sections": [
+        {
+          "title": "VOR Receiver Check",
+          "bullets": [
+            "VOT: CDI centered에서 0° FROM 또는 180° TO. RMI는 OBS setting과 관계없이 180°를 지시한다.",
+            "IFR VOR check 허용: ground ±4°, airborne ±6°, dual VOR bearing difference 4° max.",
+            "Periodic calibration은 중요하며 yearly intervals가 recommended된다."
+          ]
+        },
+        {
+          "title": "TACAN / VORTAC / DME",
+          "bullets": [
+            "TACAN은 military/naval requirement에서 발전한 UHF pulse system으로 azimuth와 distance를 제공한다.",
+            "VORTAC은 VOR azimuth + TACAN azimuth + TACAN distance(DME)를 한 site에서 제공한다.",
+            "DME는 paired-pulse round-trip time으로 distance를 계산하며 slant range를 표시한다. ICAO Annex 10 range는 960–1215 MHz. Reliable signal은 LOS altitude에서 up to 199 NM, accuracy better than 1/2 mile or 3%, whichever is greater."
+          ]
+        }
+      ],
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "module": "Section 1. Navigation Aids",
+      "source_printed_pages": [
+        339,
+        340,
+        341,
+        342,
+        343
+      ],
+      "source_pdf_pages": [
+        339,
+        340,
+        341,
+        342,
+        343
+      ],
+      "quiz_question_ids": [
+        "JEPP-NAVAIDS-009",
+        "JEPP-NAVAIDS-010",
+        "JEPP-NAVAIDS-011",
+        "JEPP-NAVAIDS-012",
+        "JEPP-NAVAIDS-013",
+        "JEPP-NAVAIDS-014",
+        "JEPP-NAVAIDS-015",
+        "JEPP-NAVAIDS-016"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "NAVAID Standard Service Volumes",
+      "sections": [
+        {
+          "title": "SSV / ESV Concepts",
+          "bullets": [
+            "SSV는 adequate signal strength/course quality와 similar-frequency interference protection을 보장하는 3D volume이다. Terrain/obstruction blockage protection은 포함하지 않는다.",
+            "Published procedure/route는 FAA가 ESV를 승인·검증하면 SSV 밖의 NAVAID를 사용할 수 있다.",
+            "NAVAID 바로 위 conical area는 일반적으로 navigation에 usable하지 않다."
+          ]
+        },
+        {
+          "title": "Key Service Volumes",
+          "bullets": [
+            "T: 1,000–12,000 ft ATH / 25 NM. L: 1,000–18,000 ft ATH / 40 NM.",
+            "VL: 1,000–<5,000 ft / 40 NM, 5,000–<18,000 ft / 70 NM. VH는 고도에 따라 40/70/100/130 NM 구간을 가진다.",
+            "DL/DH는 12,900 ft 이하에서 radio line-of-sight 기반이며 상위 구간에서 100/130 NM 범위를 가진다.",
+            "NDB service volumes: Compass Locator 15 NM, MH 25, H 50*, HH 75."
+          ]
+        }
+      ],
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "module": "Section 1. Navigation Aids",
+      "source_printed_pages": [
+        343,
+        344,
+        345,
+        346,
+        347,
+        348
+      ],
+      "source_pdf_pages": [
+        343,
+        344,
+        345,
+        346,
+        347,
+        348
+      ],
+      "quiz_question_ids": [
+        "JEPP-NAVAIDS-017",
+        "JEPP-NAVAIDS-018",
+        "JEPP-NAVAIDS-019",
+        "JEPP-NAVAIDS-020",
+        "JEPP-NAVAIDS-021",
+        "JEPP-NAVAIDS-022",
+        "JEPP-NAVAIDS-023",
+        "JEPP-NAVAIDS-024"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "ILS Basics · Localizer · LDA",
+      "sections": [
+        {
+          "title": "ILS Structure",
+          "bullets": [
+            "ILS 목적은 final approach에서 exact alignment와 descent path 제공. Guidance=localizer/glide slope, Range=marker/DME, Visual=approach/TDZ/centerline/runway lights.",
+            "OM substitute로 compass locator, PAR/ASR, authorized DME/VOR/NDB fix, suitable RNAV/GPS fix identification 등을 사용할 수 있다."
+          ]
+        },
+        {
+          "title": "Localizer / LDA",
+          "bullets": [
+            "Localizer는 108.10–111.95 MHz의 40 channels 중 하나. Threshold에서 full-scale width 700 ft.",
+            "Standard localizer coverage: course ±10°에서 18 NM, 10–35°에서는 10 NM.",
+            "Back course inbound에서 reverse sensing capability가 없으면 needle 반대 방향으로 correction.",
+            "LDA는 localizer와 유사한 accuracy지만 complete ILS가 아니며 runway와 aligned되지 않는다. Alignment ≤30°이면 straight-in minima 가능, >30°이면 circling only."
+          ]
+        }
+      ],
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "module": "Section 1. Navigation Aids",
+      "source_printed_pages": [
+        349,
+        350,
+        351,
+        352
+      ],
+      "source_pdf_pages": [
+        349,
+        350,
+        351,
+        352
+      ],
+      "quiz_question_ids": [
+        "JEPP-NAVAIDS-025",
+        "JEPP-NAVAIDS-026",
+        "JEPP-NAVAIDS-027",
+        "JEPP-NAVAIDS-028",
+        "JEPP-NAVAIDS-029",
+        "JEPP-NAVAIDS-030",
+        "JEPP-NAVAIDS-031",
+        "JEPP-NAVAIDS-032"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "ILS Glide Slope · Markers · Minimums · Critical Areas",
+      "sections": [
+        {
+          "title": "Glide Slope & Markers",
+          "bullets": [
+            "Glide slope: 329.15–335.00 MHz, beam 1.4° vertical, nominal projection 3°, normally usable to 10 NM. MM 약 200 ft, OM 약 1,400 ft above runway elevation.",
+            "Avoid flying below glide path. Published TCH는 planning reference이며 actual on-course indication height 자체가 아니다.",
+            "Marker lights: OM blue, MM amber, IM white, BC white. MM은 더 이상 operationally required가 아니며 new ILS sites에 설치되지 않는다."
+          ]
+        },
+        {
+          "title": "ILS Minimums / Failures / Critical Area",
+          "bullets": [
+            "Lowest authorized minima: CAT I DH 200 ft/RVR 2400 ft(조건에 따라 1800), SA CAT I 150/1400, CAT II 100/1200(조건에 따라 1000), CAT IIIa/b/c는 더 낮은 DH/RVR 범위.",
+            "Localizer inoperative → ILS approach not authorized. Glide slope inoperative → non-precision localizer approach.",
+            "Weather ≥800 ft ceiling and ≥2 miles visibility: specifically requested하지 않으면 ATC critical-area protection 없음. Coupled/autoland crew는 signal disturbance 가능성에 항상 대비한다."
+          ]
+        }
+      ],
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "module": "Section 1. Navigation Aids",
+      "source_printed_pages": [
+        352,
+        353,
+        354,
+        355,
+        356,
+        357,
+        358
+      ],
+      "source_pdf_pages": [
+        352,
+        353,
+        354,
+        355,
+        356,
+        357,
+        358
+      ],
+      "quiz_question_ids": [
+        "JEPP-NAVAIDS-033",
+        "JEPP-NAVAIDS-034",
+        "JEPP-NAVAIDS-035",
+        "JEPP-NAVAIDS-036",
+        "JEPP-NAVAIDS-037",
+        "JEPP-NAVAIDS-038",
+        "JEPP-NAVAIDS-039",
+        "JEPP-NAVAIDS-040"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "SDF · NAVAID Maintenance · IRU/INS/AHRS · Doppler",
+      "sections": [
+        {
+          "title": "SDF & Maintenance",
+          "bullets": [
+            "SDF는 localizer와 유사한 final course를 제공하지만 glide slope가 없다. 108.10–111.95 MHz, usable off-course ±35°, course width 6° 또는 12°.",
+            "Maintenance 중 coded identification removal은 facility가 officially off the air이며 unreliable할 수 있다는 warning. NOTAMed out of service procedure는 identification이 들려도 비행하지 않는다."
+          ]
+        },
+        {
+          "title": "Other Navigation Systems",
+          "bullets": [
+            "U.S. LORAN-C transmission은 2010-02-08 종료.",
+            "IRU는 gyro/accelerometer로 attitude, position, velocity를 계산하며 time에 따른 position degradation을 drift라 한다. INS는 IRU + internal navigation computer.",
+            "AHRS는 attitude information을 제공하지만 position을 직접 계산하지 않는다.",
+            "Doppler Radar는 ground speed와 drift angle을 측정하는 dead-reckoning system이며 INS보다 덜 정확해 long-range에서 external reference updates가 필요하다."
+          ]
+        }
+      ],
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "module": "Section 1. Navigation Aids",
+      "source_printed_pages": [
+        359,
+        360,
+        361,
+        362,
+        363
+      ],
+      "source_pdf_pages": [
+        359,
+        360,
+        361,
+        362,
+        363
+      ],
+      "quiz_question_ids": [
+        "JEPP-NAVAIDS-041",
+        "JEPP-NAVAIDS-042",
+        "JEPP-NAVAIDS-043",
+        "JEPP-NAVAIDS-044",
+        "JEPP-NAVAIDS-045",
+        "JEPP-NAVAIDS-046",
+        "JEPP-NAVAIDS-047",
+        "JEPP-NAVAIDS-048"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "GPS Fundamentals · RAIM · VFR Use",
+      "sections": [
+        {
+          "title": "GPS System & RAIM",
+          "bullets": [
+            "GPS는 space-based radio navigation system. 24-satellite constellation은 worldwide user에게 at least 5 satellites visible을 목표로 하며 accurate 3D position에는 4 satellites가 필요하다. Reference system은 WGS-84.",
+            "RAIM detection: 5 satellites 또는 4 + baro-aiding. FDE: 6 또는 5 + baro-aiding. GPS-derived altitude를 baro-aiding source로 사용하지 않는다.",
+            "SA는 2000-05-01 중단."
+          ]
+        },
+        {
+          "title": "VFR GPS",
+          "bullets": [
+            "VFR panel/hand-held GPS에는 RAIM alerting이 없으므로 다른 navigation techniques로 systematic cross-check한다.",
+            "IFR database는 current여야 한다. VFR database update는 regulation상 필수는 아니지만 outdated database 사용 시 current aeronautical products로 waypoint를 verify해야 한다.",
+            "VFR waypoint name은 VP로 시작하는 5 letters. 일반적으로 pronounceable하지 않으며 IFR flight plan에는 사용할 수 없다."
+          ]
+        }
+      ],
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "module": "Section 1. Navigation Aids",
+      "source_printed_pages": [
+        363,
+        364,
+        365,
+        366
+      ],
+      "source_pdf_pages": [
+        363,
+        364,
+        365,
+        366
+      ],
+      "quiz_question_ids": [
+        "JEPP-NAVAIDS-049",
+        "JEPP-NAVAIDS-050",
+        "JEPP-NAVAIDS-051",
+        "JEPP-NAVAIDS-052",
+        "JEPP-NAVAIDS-053",
+        "JEPP-NAVAIDS-054",
+        "JEPP-NAVAIDS-055",
+        "JEPP-NAVAIDS-056"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "GPS IFR Requirements · Database · En Route/Departure",
+      "sections": [
+        {
+          "title": "IFR GPS General & Database",
+          "bullets": [
+            "IFR GPS: TSO-C129/C196/C145/C146 등의 approved equipment와 AC 20-138 installation requirement. VFR/hand-held GPS는 IFR navigation/approach 또는 principal instrument reference로 authorized되지 않는다.",
+            "Un-augmented GPS(C129/C196)는 route에 적합한 alternate approved/operational navigation means가 필요하며 RAIM lost 시 alternate means active monitoring이 필요하다.",
+            "Approach는 current database에서 procedure name으로 retrieve되어야 하며 manual lat/long 또는 place/bearing entry는 금지."
+          ]
+        },
+        {
+          "title": "En Route / Departure",
+          "bullets": [
+            "GPS/WAAS en route IFR에서는 ground-based navigation equipment가 반드시 installed/operating일 필요는 없지만 alternate means availability를 고려한다.",
+            "Outside Alaska: Q-route는 GPS/GPS-WAAS/DME-DME-IRU 등 AC 90-100 performance, T-route는 GPS 또는 GPS/WAAS 필요.",
+            "Published IFR DP: terminal CDI ±1 NM, terminal RAIM. Helicopter departure/missed approach는 70 kt 이하."
+          ]
+        }
+      ],
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "module": "Section 1. Navigation Aids",
+      "source_printed_pages": [
+        367,
+        368,
+        369,
+        370,
+        371
+      ],
+      "source_pdf_pages": [
+        367,
+        368,
+        369,
+        370,
+        371
+      ],
+      "quiz_question_ids": [
+        "JEPP-NAVAIDS-057",
+        "JEPP-NAVAIDS-058",
+        "JEPP-NAVAIDS-059",
+        "JEPP-NAVAIDS-060",
+        "JEPP-NAVAIDS-061",
+        "JEPP-NAVAIDS-062",
+        "JEPP-NAVAIDS-063",
+        "JEPP-NAVAIDS-064"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "GPS Instrument Approaches · RAIM · Waypoints",
+      "sections": [
+        {
+          "title": "GPS Approaches",
+          "bullets": [
+            "GPS overlay에서 LOC/LDA/SDF procedures는 authorized되지 않는다. “GPS”가 title에 들어간 stand-alone/overlay procedure는 해당 approval 하에서 GPS로 비행할 수 있다.",
+            "C129/C196 + FDE + preflight RAIM prediction 등 조건 충족 시 GPS-based IAP는 destination 또는 alternate 중 한 곳에 기반해 file 가능하지만 양쪽 모두는 아니다.",
+            "Approach arm: airport reference point 30 NM. FAWP 2 NM 전부터 CDI sensitivity가 ±1 NM → ±0.3 NM로 ramp down한다."
+          ]
+        },
+        {
+          "title": "Missed / RAIM / Waypoints",
+          "bullets": [
+            "Approach mode 미활성/RAIM failure before FAWP: descend하지 말고 MAWP까지 비행 후 missed. After FAWP failure: climb and execute missed.",
+            "Missed를 MAWP 전에 activate하면 CDI는 terminal ±1 NM로 바뀌지만 receiver는 MAWP까지 계속 navigate한다.",
+            "MAWP는 always fly-over. CNF는 ATC가 recognize하지 않으며 direct/flight plan/ATC communications에 사용하지 않는다."
+          ]
+        }
+      ],
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "module": "Section 1. Navigation Aids",
+      "source_printed_pages": [
+        371,
+        372,
+        373,
+        374,
+        375,
+        376,
+        377,
+        378,
+        379,
+        380,
+        381,
+        382
+      ],
+      "source_pdf_pages": [
+        371,
+        372,
+        373,
+        374,
+        375,
+        376,
+        377,
+        378,
+        379,
+        380,
+        381,
+        382
+      ],
+      "quiz_question_ids": [
+        "JEPP-NAVAIDS-065",
+        "JEPP-NAVAIDS-066",
+        "JEPP-NAVAIDS-067",
+        "JEPP-NAVAIDS-068",
+        "JEPP-NAVAIDS-069",
+        "JEPP-NAVAIDS-070",
+        "JEPP-NAVAIDS-071",
+        "JEPP-NAVAIDS-072"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "WAAS Fundamentals · Approach Capabilities · Requirements",
+      "sections": [
+        {
+          "title": "WAAS Architecture",
+          "bullets": [
+            "WAAS는 GPS accuracy/integrity/availability 개선. WRS가 GPS를 monitor → WMS가 corrections 계산 → GUS/GES를 통해 GEO로 uplink → GPS L1 1575.42 MHz로 broadcast.",
+            "GEO는 correction뿐 아니라 additional pseudorange를 제공해 사실상 추가 satellite처럼 availability를 높인다. GNSS/WAAS는 WGS-84 reference."
+          ]
+        },
+        {
+          "title": "WAAS Approaches & Requirements",
+          "bullets": [
+            "APV에는 LNAV/VNAV와 LPV가 포함되며 vertical guidance를 제공하지만 ICAO precision-approach standard 자체를 충족하는 precision approach로 분류되지는 않는다.",
+            "LP는 WAAS angular lateral guidance를 사용하는 lateral-only procedure이며 일부 환경에서 LNAV보다 lower minima 가능.",
+            "LPV DA는 조건이 충족되면 200 ft HAT까지 가능.",
+            "WAAS avionics: TSO-C145/C146. MAY NOT BE AVBL은 predictive advisory이며 displayed service가 available하면 접근에서 사용할 수 있다."
+          ]
+        }
+      ],
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "module": "Section 1. Navigation Aids",
+      "source_printed_pages": [
+        382,
+        383,
+        384,
+        385,
+        386,
+        387
+      ],
+      "source_pdf_pages": [
+        382,
+        383,
+        384,
+        385,
+        386,
+        387
+      ],
+      "quiz_question_ids": [
+        "JEPP-NAVAIDS-073",
+        "JEPP-NAVAIDS-074",
+        "JEPP-NAVAIDS-075",
+        "JEPP-NAVAIDS-076",
+        "JEPP-NAVAIDS-077",
+        "JEPP-NAVAIDS-078",
+        "JEPP-NAVAIDS-079",
+        "JEPP-NAVAIDS-080"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "WAAS Flying Procedures · Scaling · Alternate Use",
+      "sections": [
+        {
+          "title": "WAAS Alternate & Guidance",
+          "bullets": [
+            "WAAS alternate planning은 기본적으로 LNAV/circling minima 등 authorized line을 기준으로 하며 arrival에서 higher vertical service가 available하면 사용할 수 있다(원문 조건/승인 범위 내).",
+            "WAAS glide path는 ground equipment/barometric aiding와 독립적으로 생성 가능.",
+            "LPV lateral integrity limit 40 m. Vertical bound: LNAV/VNAV 및 LPV minima ≥250 ft는 50 m, LPV minima <250 ft는 35 m."
+          ]
+        },
+        {
+          "title": "Scaling & Missed Approach",
+          "bullets": [
+            "Complete procedure: ±1 NM linear scaling until 2 NM prior FAF, 이후 ILS-like angular sensitivity. VTF는 일정 구간 ±1 NM linear scaling.",
+            "Missed approach scaling은 TSO-C129 GPS와 다르게 abrupt change가 가능하며 aligned TF leg에서는 0.3 NM linear sensitivity 후 terminal ±1 NM로 변할 수 있다.",
+            "LNAV/VNAV/LPV missed initiation은 DA와 visual reference를 기준으로 하며 ATD 0을 기다리지 않는다. RNAV-designed missed에서 WAAS는 MAWP를 자동 sequence할 수 있다."
+          ]
+        }
+      ],
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "module": "Section 1. Navigation Aids",
+      "source_printed_pages": [
+        387,
+        388,
+        389
+      ],
+      "source_pdf_pages": [
+        387,
+        388,
+        389
+      ],
+      "quiz_question_ids": [
+        "JEPP-NAVAIDS-081",
+        "JEPP-NAVAIDS-082",
+        "JEPP-NAVAIDS-083",
+        "JEPP-NAVAIDS-084",
+        "JEPP-NAVAIDS-085",
+        "JEPP-NAVAIDS-086",
+        "JEPP-NAVAIDS-087",
+        "JEPP-NAVAIDS-088"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "GBAS/GLS · Other Precision Approach Systems",
+      "sections": [
+        {
+          "title": "GBAS / GLS",
+          "bullets": [
+            "GBAS(구 LAAS)는 airport에서 GPS signal-in-space에 localized differential augmentation을 제공해 GLS precision approach capability를 지원한다.",
+            "GGF: at least four ground reference stations, corrections processor, VDB uplink antenna. Aircraft는 RNP APCH eligibility와 specific GBAS receiver airworthiness requirement가 필요하다.",
+            "GLS는 ILS와 유사한 3D angular lateral/vertical guidance를 제공하고 한 GBAS station이 multiple approaches/runways를 지원할 수 있다.",
+            "IAF 이전에는 RNAV 1/RNP 1, GLS mode 전에는 RNP APCH criteria가 사용될 수 있으며 final은 ILS/LPV와 유사한 technique으로 비행한다."
+          ]
+        },
+        {
+          "title": "Other Precision Systems",
+          "bullets": [
+            "ILS와 GLS 이외의 precision approach system은 special instrument approach procedure issuance가 필요하다.",
+            "Special procedures는 general public에 배포되지 않으며 approval conditions를 충족한 operator에게 발행된다. GA는 local FSDO의 LOA, air carrier는 Certificate Holding District Office를 통한 Operations Specification authorization을 요청한다."
+          ]
+        }
+      ],
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 1. Navigation Aids",
+      "module": "Section 1. Navigation Aids",
+      "source_printed_pages": [
+        390,
+        391,
+        392
+      ],
+      "source_pdf_pages": [
+        390,
+        391,
+        392
+      ],
+      "quiz_question_ids": [
+        "JEPP-NAVAIDS-089",
+        "JEPP-NAVAIDS-090",
+        "JEPP-NAVAIDS-091",
+        "JEPP-NAVAIDS-092",
+        "JEPP-NAVAIDS-093",
+        "JEPP-NAVAIDS-094",
+        "JEPP-NAVAIDS-095",
+        "JEPP-NAVAIDS-096"
+      ]
+    }
+  ]
+}
