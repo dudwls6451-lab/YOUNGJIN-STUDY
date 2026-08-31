@@ -1,12 +1,15 @@
-# v11.60.28 — Jeppesen Radio Data - General · Section 1. Navigation Aids
+# v11.60.29 — Jeppesen Theory Detail Overhaul
 
-- Base: v11.60.27
-- Source scope: Jeppesen Airway Manual pp.336–392 only
-- Adds 96 four-choice questions and 12 theory stages
-- Covers NDB, VOR/VOR MON, VOR checks, TACAN/VORTAC/DME, NAVAID service volumes, ILS/SDF, NAVAID outages, IRU/INS/AHRS/Doppler, GPS/RAIM, WAAS, GBAS/GLS
-- Section 2 PBN/RNAV beginning p.393 is excluded
-- Study/problem-solving time uses the existing cumulative study-time tracker
-- Incremental patch: no previous figure/assets are bundled
-- New figure files: 0 (source figure values/operational points are represented in theory/questions without rebundling images)
+Base: v11.60.28
 
-Apply over v11.60.27 preserving the folder structure.
+This delta patch updates **theory data only** for all Jeppesen reference-study modules added through v11.60.28, plus 9 new source figure crops for `Radio Data - General · Section 1. Navigation Aids`.
+
+Changes:
+- Normalizes theory section schema to the renderer-supported `heading / paragraphs / bullets / table / figure` format.
+- Normalizes stage quiz linkage to `question_ids` so existing stage quizzes use the intended question pools.
+- Adds source-reviewed stage detail tables derived from the existing Jeppesen question explanations.
+- Adds deeper source-only notes to all 12 Navigation Aids stages.
+- Adds FIG 1-1-1 through FIG 1-1-9 to the relevant theory stages.
+- Adds key source tables: VOR/DME/TACAN SSV, NDB SSV, marker indications, ILS minima, and all 40 ILS localizer/glideslope frequency pairs.
+- No question/choice/answer data changed.
+- Old figure assets are not re-bundled; only the 9 new Navigation Aids theory figures are included.

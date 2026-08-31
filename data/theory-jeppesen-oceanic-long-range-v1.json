@@ -8,7 +8,14 @@
     "question_count": 32,
     "pass_threshold_percent": 80,
     "language": "ko summary preserving Jeppesen terminology",
-    "scope_note": "p.309 begins Designators of ATS Routes and is excluded."
+    "scope_note": "p.309 begins Designators of ATS Routes and is excluded.",
+    "detail_revision": "v11.60.29-source-detail-overhaul",
+    "detail_revision_date": "2026-08-30",
+    "detail_note": "이론 렌더러 호환 스키마(heading/paragraphs/figure/question_ids)로 통일하고 원문 기반 세부 설명과 복습 표를 확장함.",
+    "quiz_rule": {
+      "questions": 8,
+      "pass_percent": 80
+    }
   },
   "stages": [
     {
@@ -16,7 +23,7 @@
       "title": "Oceanic Long-Range Operation · Flight Plan Deviations",
       "sections": [
         {
-          "title": "Basic Oceanic Long-Range Navigation and Communication Requirements",
+          "heading": "Basic Oceanic Long-Range Navigation and Communication Requirements",
           "bullets": [
             "국제 oceanic airspace에서 IFR flight plan, controlled VFR flight plan 또는 야간 비행이 NDB/VOR-DME 등 정상 airway navigation facilities의 published range를 넘어 계속되면 long-range navigation operation으로 본다.",
             "정확한 navigational performance는 ATC separation minima를 지원하기 위해 필요하다.",
@@ -26,13 +33,59 @@
           ]
         },
         {
-          "title": "Inadvertent Deviation from Current Flight Plan",
+          "heading": "Inadvertent Deviation from Current Flight Plan",
           "bullets": [
             "Off track이면 가능한 한 빨리 track을 회복하도록 즉시 heading을 조정한다.",
             "Reporting points 사이 cruising level의 average TAS가 flight plan 값에서 ±5% 달라지거나 그럴 것으로 예상되면 ATS에 통보한다.",
             "다음 applicable reporting point, FIR boundary 또는 destination airport 중 먼저 도달하는 지점의 estimate가 통보값보다 2분을 초과해 달라지면(또는 authority/regional agreement가 정한 다른 기간) revised estimate를 가능한 빨리 통보한다.",
             "IFR, 야간 또는 controlled VFR 국제항행 항공기는 prescribed station/frequency와 비행 중 언제든 two-way communication이 가능한 approved radio equipment를 갖춰야 한다."
           ]
+        },
+        {
+          "heading": "단계 세부 항목 정리",
+          "paragraphs": [
+            "이 표는 해당 단계의 원문 기반 문제 항목을 이론 복습용으로 다시 정리한 것이다."
+          ],
+          "table": {
+            "headers": [
+              "항목",
+              "Jeppesen 원문 기반 상세 설명"
+            ],
+            "rows": [
+              [
+                "국제 oceanic airspace에서 정상 airway navigation facility 범위를 넘어 계속되는 IFR/VFR controlled/night operation",
+                "Jeppesen은 국제 oceanic airspace에서 IFR flight plan, VFR controlled flight plan 또는 야간 비행이 정상 airway navigation facilities(NDB, VOR/DME)의 published range를 넘어 계속될 때 long-range navigation operation으로 본다."
+              ],
+              [
+                "ATC가 적용하는 separation minima를 지원하기 위해서",
+                "원문은 accurate navigational performance가 ATC units가 적용하는 separation minima를 지원하기 위해 필요하다고 설명한다."
+              ],
+              [
+                "해당 route의 centerline",
+                "Unless otherwise authorized/directed, controlled flights on an established ATS route should, insofar as practicable, operate along the centerline of that route."
+              ],
+              [
+                "가능한 한 빨리 track을 회복하도록 즉시 heading을 조정한다",
+                "Deviation from track 시 aircraft가 off track이면 가능한 한 빨리 track을 regain하도록 즉시 heading을 조정해야 한다."
+              ],
+              [
+                "±5%",
+                "원문 기준은 flight plan에 기재된 true airspeed 대비 plus or minus 5 percent이다."
+              ],
+              [
+                "2분",
+                "원문은 time estimate가 notified value보다 in excess of 2 minutes 오류가 있으면(또는 해당 ATS authority/지역 협정이 정한 다른 기간) revised estimate를 통보하도록 한다."
+              ],
+              [
+                "비행 중 언제든 지정된 aeronautical station 및 frequency와 two-way communication이 가능해야 한다",
+                "원문은 비행 중 언제든 prescribed aeronautical stations/frequencies와 two-way communication이 가능한 approved radio communication equipment를 요구한다고 설명한다."
+              ],
+              [
+                "변경을 요청해 appropriate ATC unit의 clearance를 받기 전에는 current flight plan을 따른다",
+                "Annex 2는 change request가 이루어지고 appropriate ATC unit의 clearance를 얻지 않는 한 current flight plan을 준수하도록 요구한다."
+              ]
+            ]
+          }
         }
       ],
       "subject": "Jeppesen Airway Manual · Oceanic Long-Range Navigation Information",
@@ -43,7 +96,7 @@
       "source_pdf_pages": [
         305
       ],
-      "quiz_question_ids": [
+      "question_ids": [
         "JEPP-OCEANIC-001",
         "JEPP-OCEANIC-002",
         "JEPP-OCEANIC-003",
@@ -52,14 +105,25 @@
         "JEPP-OCEANIC-006",
         "JEPP-OCEANIC-007",
         "JEPP-OCEANIC-008"
-      ]
+      ],
+      "quiz_questions": 8,
+      "pass_percent": 80,
+      "summary_points": [
+        "국제 oceanic airspace에서 IFR flight plan, controlled VFR flight plan 또는 야간 비행이 NDB/VOR-DME 등 정상 airway navigation facilities의 published range를 넘어 계속되면 long-range navigation operation으로 본다.",
+        "정확한 navigational performance는 ATC separation minima를 지원하기 위해 필요하다.",
+        "FAR 91.703은 high seas에서 미국 civil aircraft가 ICAO Annex 2를 준수하도록 요구하며, Annex 6 Part II는 flight plan 및 ATS requirements에 따라 진행할 수 있는 navigation equipment를 요구한다.",
+        "Current flight plan은 변경 요청 후 appropriate ATC unit의 clearance를 받지 않는 한 준수한다.",
+        "Established ATS route에서는 가능한 한 route centerline을, 그 밖의 route에서는 route를 정의하는 navigation facilities/points 사이를 direct로 비행한다.",
+        "Off track이면 가능한 한 빨리 track을 회복하도록 즉시 heading을 조정한다."
+      ],
+      "unit_title": "Enroute Data - General · Oceanic Long-Range Navigation Information"
     },
     {
       "id": 2,
       "title": "VHF/HF Communications · 121.5 MHz Guard",
       "sections": [
         {
-          "title": "Use of VHF and HF for Communication",
+          "heading": "Use of VHF and HF for Communication",
           "bullets": [
             "VHF는 line-of-sight 한계가 있으므로 oceanic airspace에서 VHF communication range를 벗어나는 IFR 또는 controlled VFR flight는 assigned HF frequencies에 continuous listening watch와 communication capability를 유지한다.",
             "HF frequencies는 ATC가 지정하지만 실제 교신은 international flight service stations 또는 ARINC 같은 general purpose communication facilities와 이루어질 수 있다.",
@@ -68,12 +132,58 @@
           ]
         },
         {
-          "title": "Guard of VHF Emergency Frequency",
+          "heading": "Guard of VHF Emergency Frequency",
           "bullets": [
             "Long over-water flight에서는 원칙적으로 VHF emergency frequency 121.5 MHz를 continuously guard한다.",
             "다른 VHF channel communications, equipment limitations 또는 cockpit duties 때문에 두 channel을 동시에 guard할 수 없는 경우는 예외이다.",
             "121.5 MHz guarding은 FIR boundaries 부근에서 특히 중요하다."
           ]
+        },
+        {
+          "heading": "단계 세부 항목 정리",
+          "paragraphs": [
+            "이 표는 해당 단계의 원문 기반 문제 항목을 이론 복습용으로 다시 정리한 것이다."
+          ],
+          "table": {
+            "headers": [
+              "항목",
+              "Jeppesen 원문 기반 상세 설명"
+            ],
+            "rows": [
+              [
+                "Assigned HF frequencies에 continuous listening watch와 communication capability를 유지한다",
+                "VHF의 line-of-sight 한계 때문에 VHF 통신 범위를 벗어나는 IFR/controlled VFR oceanic flight는 assigned HF frequencies에 continuous listening watch와 communication capability를 유지해야 한다."
+              ],
+              [
+                "International flight service station 또는 ARINC 같은 general purpose communication facility",
+                "원문은 실제 communication이 international flight service stations 또는 Aeronautical Radio, Inc. (ARINC) 같은 general purpose communication facilities와 이루어진다고 설명한다."
+              ],
+              [
+                "Aircraft와 ATC 사이의 position reports 및 관련 정보를 relay한다",
+                "시설은 position reports 및 other pertinent information을 aircraft와 ATC 사이에서 relay하는 책임을 가진다."
+              ],
+              [
+                "VHF air-to-air frequencies",
+                "Jeppesen은 remote/oceanic area에서 VHF ground stations 범위 밖 항공기들이 필요한 operational information을 교환하고 문제 해결을 돕기 위해 VHF air-to-air frequencies를 사용할 수 있다고 설명한다."
+              ],
+              [
+                "121.5 MHz",
+                "원문은 long over-water flights에서 121.5 MHz를 계속 guard할 필요가 있다고 강조한다."
+              ],
+              [
+                "단순히 oceanic flight이기 때문",
+                "다른 VHF channel 통신, equipment limitations 또는 cockpit duties가 simultaneous guarding을 방해할 때가 예외로 언급된다."
+              ],
+              [
+                "FIR boundaries 부근",
+                "Jeppesen은 FIR boundaries 근처에서 121.5 MHz guarding이 particularly critical하다고 설명한다."
+              ],
+              [
+                "Line-of-sight limitation",
+                "원문은 VHF radio equipment의 inherent line-of-sight limitations 때문에 oceanic 장거리에서 HF가 필요해진다고 설명한다."
+              ]
+            ]
+          }
         }
       ],
       "subject": "Jeppesen Airway Manual · Oceanic Long-Range Navigation Information",
@@ -84,7 +194,7 @@
       "source_pdf_pages": [
         306
       ],
-      "quiz_question_ids": [
+      "question_ids": [
         "JEPP-OCEANIC-009",
         "JEPP-OCEANIC-010",
         "JEPP-OCEANIC-011",
@@ -93,14 +203,25 @@
         "JEPP-OCEANIC-014",
         "JEPP-OCEANIC-015",
         "JEPP-OCEANIC-016"
-      ]
+      ],
+      "quiz_questions": 8,
+      "pass_percent": 80,
+      "summary_points": [
+        "VHF는 line-of-sight 한계가 있으므로 oceanic airspace에서 VHF communication range를 벗어나는 IFR 또는 controlled VFR flight는 assigned HF frequencies에 continuous listening watch와 communication capability를 유지한다.",
+        "HF frequencies는 ATC가 지정하지만 실제 교신은 international flight service stations 또는 ARINC 같은 general purpose communication facilities와 이루어질 수 있다.",
+        "이 facilities는 aircraft와 ATC 사이의 position reports 및 other pertinent information을 relay한다.",
+        "Remote/oceanic areas에서 VHF ground station 범위 밖 항공기끼리 필요한 operational information을 교환하기 위한 VHF air-to-air frequencies가 Jeppesen Enroute charts에 표시될 수 있다.",
+        "Long over-water flight에서는 원칙적으로 VHF emergency frequency 121.5 MHz를 continuously guard한다.",
+        "다른 VHF channel communications, equipment limitations 또는 cockpit duties 때문에 두 channel을 동시에 guard할 수 없는 경우는 예외이다."
+      ],
+      "unit_title": "Enroute Data - General · Oceanic Long-Range Navigation Information"
     },
     {
       "id": 3,
       "title": "NDB Limitations in Oceanic Navigation",
       "sections": [
         {
-          "title": "Use of NDB for Navigation",
+          "heading": "Use of NDB for Navigation",
           "bullets": [
             "Long-range oceanic flight에서 NDB를 primary navigation source로 사용하는 것은 low-frequency equipment/signal의 inherent limitations를 수반한다.",
             "2000 watts 이상의 highest-power NDB로 air navigation에 적합하게 maintained/flight-checked된 시설도 usable service/reception range는 any altitude에서 no more than 75 NM이다.",
@@ -108,7 +229,7 @@
           ]
         },
         {
-          "title": "Standard Broadcast Station Limitations",
+          "heading": "Standard Broadcast Station Limitations",
           "bullets": [
             "Station identification이 드물 수 있고, foreign-language station은 언어 지식이 없으면 identification이 어려울 수 있다.",
             "Transmitter site와 studio가 항상 collocated되지 않으며, 사전 통보 없이 service가 종료될 수 있다.",
@@ -116,6 +237,52 @@
             "Shoreline/mountain effect로 signal fluctuation(bending)이 발생할 수 있으며 standard broadcast stations는 air navigation 전용 시설이 아니다.",
             "Jeppesen 예시에서 2,000 miles 거리의 10° error는 약 350 miles의 course deviation에 해당한다. 따라서 NDB를 sole source로 쓸 때 inadequacy를 carefully evaluate해야 한다."
           ]
+        },
+        {
+          "heading": "단계 세부 항목 정리",
+          "paragraphs": [
+            "이 표는 해당 단계의 원문 기반 문제 항목을 이론 복습용으로 다시 정리한 것이다."
+          ],
+          "table": {
+            "headers": [
+              "항목",
+              "Jeppesen 원문 기반 상세 설명"
+            ],
+            "rows": [
+              [
+                "75 NM",
+                "2000 watts 이상의 highest-power NDB라도 usable service/reception range는 any altitude에서 no more than 75 nautical miles로 설명된다."
+              ],
+              [
+                "Questionable operating practice",
+                "Jeppesen은 standard AM broadcast stations를 primary navigation에 의존하는 것은 questionable operating practice라고 설명한다."
+              ],
+              [
+                "Station identification이 infrequent할 수 있다",
+                "원문은 infrequent station identification을 여러 inherent problems 중 하나로 든다."
+              ],
+              [
+                "언어 지식이 없으면 identification이 불가능할 수 있다",
+                "원문은 foreign language station의 identification이 그 언어에 대한 지식 없이는 impossible할 수 있다고 설명한다."
+              ],
+              [
+                "Air navigation suitability/reliability를 검증하는 flight check가 수행되지 않는다",
+                "원문은 이 시설과 신호가 air navigation에 적합하고 신뢰할 수 있는지 확인하는 flight check가 실시되지 않는다고 지적한다."
+              ],
+              [
+                "Signal fluctuation/bending",
+                "원문은 shoreline/mountain effect로 signal fluctuation (bending)이 생길 수 있다고 설명한다."
+              ],
+              [
+                "약 350 miles",
+                "원문은 10° error at 2000 miles가 approximately 350 miles of course deviation에 해당한다고 예시한다."
+              ],
+              [
+                "그 inadequacy와 limitations를 carefully evaluate해야 한다",
+                "원문은 NDB의 여러 제한과 장거리에서 작은 각오차가 큰 횡방향 편차로 이어지는 점 때문에 sole source로서의 inadequacy를 carefully evaluate해야 한다고 설명한다."
+              ]
+            ]
+          }
         }
       ],
       "subject": "Jeppesen Airway Manual · Oceanic Long-Range Navigation Information",
@@ -128,7 +295,7 @@
         306,
         307
       ],
-      "quiz_question_ids": [
+      "question_ids": [
         "JEPP-OCEANIC-017",
         "JEPP-OCEANIC-018",
         "JEPP-OCEANIC-019",
@@ -137,14 +304,25 @@
         "JEPP-OCEANIC-022",
         "JEPP-OCEANIC-023",
         "JEPP-OCEANIC-024"
-      ]
+      ],
+      "quiz_questions": 8,
+      "pass_percent": 80,
+      "summary_points": [
+        "Long-range oceanic flight에서 NDB를 primary navigation source로 사용하는 것은 low-frequency equipment/signal의 inherent limitations를 수반한다.",
+        "2000 watts 이상의 highest-power NDB로 air navigation에 적합하게 maintained/flight-checked된 시설도 usable service/reception range는 any altitude에서 no more than 75 NM이다.",
+        "NDB equipment로 standard AM broadcast station을 수신할 수 있어도 이를 primary navigation에 의존하는 것은 questionable operating practice이다.",
+        "Station identification이 드물 수 있고, foreign-language station은 언어 지식이 없으면 identification이 어려울 수 있다.",
+        "Transmitter site와 studio가 항상 collocated되지 않으며, 사전 통보 없이 service가 종료될 수 있다.",
+        "Weather/atmospheric disturbances로 signal reception이 erratic/unreliable할 수 있고, air-navigation suitability를 확인하는 flight check가 없다."
+      ],
+      "unit_title": "Enroute Data - General · Oceanic Long-Range Navigation Information"
     },
     {
       "id": 4,
       "title": "Special Emergency · Air Piracy / Code 7500",
       "sections": [
         {
-          "title": "Special Emergency (Air Piracy)",
+          "heading": "Special Emergency (Air Piracy)",
           "bullets": [
             "Special emergency는 air piracy 또는 onboard hostile act로 aircraft/passengers의 safety가 위협받는 상태를 말한다.",
             "상황이 허용되면 distress 또는 urgency radiotelephony procedures를 적용하고 special emergency details를 포함한다.",
@@ -153,13 +331,59 @@
           ]
         },
         {
-          "title": "Code 7500 Confirmation and Hijacked Aircraft Guidance",
+          "heading": "Code 7500 Confirmation and Hijacked Aircraft Guidance",
           "bullets": [
             "Code 7500은 pilot가 unlawful interference를 사전에 알리지 않은 상태에서 ATC가 assign하지 않는다. 다른 상황에서 assign되면 거부하고 controller에게 알린다.",
             "Controller는 7500 receipt를 verify하도록 요청한다. Unlawful interference가 아니면 pilot는 clear voice로 아니라고 답하고 code selector를 확인해 appropriate setting으로 변경한다.",
             "Pilot가 affirmative로 답하거나 reply하지 않으면 controller는 further questions를 하지 않고 flight follow, pilot request response, appropriate authority notification을 수행한다.",
             "Safety를 해치지 않는 범위에서 hijacked passenger aircraft는 cleared routing을 벗어난 뒤 TAS 400 kt 이하, preferably 10,000–25,000 ft를 유지하고 hijacker가 announced한 destination 방향 course를 시도한다."
           ]
+        },
+        {
+          "heading": "단계 세부 항목 정리",
+          "paragraphs": [
+            "이 표는 해당 단계의 원문 기반 문제 항목을 이론 복습용으로 다시 정리한 것이다."
+          ],
+          "table": {
+            "headers": [
+              "항목",
+              "Jeppesen 원문 기반 상세 설명"
+            ],
+            "rows": [
+              [
+                "Air piracy 또는 aircraft/passengers의 안전을 위협하는 hostile act",
+                "Special emergency는 air piracy 또는 aircraft나 passengers의 safety를 위협하는 onboard hostile act 상태로 정의된다."
+              ],
+              [
+                "Distress 또는 urgency radiotelephony procedures를 적용하고 special emergency details를 포함한다",
+                "원문은 상황이 허용하면 distress or urgency radiotelephony procedures를 적용하고 special emergency details를 포함하도록 한다."
+              ],
+              [
+                "I am being hijacked/forced to a new destination",
+                "원문은 “TRANSPONDER SEVEN FIVE ZERO ZERO”가 being hijacked/forced to a new destination를 의미하며 Mode 3/A Code 7500을 사용할 수 있다고 설명한다."
+              ],
+              [
+                "ATC는 사전 통보 없이 Code 7500을 assign하지 않는다",
+                "Jeppesen NOTE는 Code 7500이 pilot의 unlawful interference 사전 통보 없이 ATC에 의해 assign되지 않는다고 명시한다. 다른 상황에서 할당받으면 pilot는 거부하고 controller에게 알려야 한다."
+              ],
+              [
+                "Code를 verify하도록 요청한다",
+                "Air traffic controller는 Code 7500 수신을 acknowledge/confirm하기 위해 pilot에게 verify하도록 묻는다."
+              ],
+              [
+                "추가 질문을 하지 않고 flight follow하며 pilot requests에 대응하고 appropriate authorities에 통보한다",
+                "원문은 affirmative response 또는 no reply이면 controller가 further questions를 하지 않고 flight following, pilot request response, appropriate authority notification을 수행한다고 설명한다."
+              ],
+              [
+                "TAS 400 kt 이하, 가능하면 10,000–25,000 ft",
+                "Jeppesen은 가능하면 true airspeed no more than 400 knots, preferably altitude between 10,000 and 25,000 feet를 제시한다."
+              ],
+              [
+                "Hijacker가 announced한 destination 방향의 course",
+                "원문은 circumstances permit이면 hijacker가 announced한 destination을 향하는 course를 fly하도록 제시한다."
+              ]
+            ]
+          }
         }
       ],
       "subject": "Jeppesen Airway Manual · Oceanic Long-Range Navigation Information",
@@ -172,7 +396,7 @@
         307,
         308
       ],
-      "quiz_question_ids": [
+      "question_ids": [
         "JEPP-OCEANIC-025",
         "JEPP-OCEANIC-026",
         "JEPP-OCEANIC-027",
@@ -181,7 +405,18 @@
         "JEPP-OCEANIC-030",
         "JEPP-OCEANIC-031",
         "JEPP-OCEANIC-032"
-      ]
+      ],
+      "quiz_questions": 8,
+      "pass_percent": 80,
+      "summary_points": [
+        "Special emergency는 air piracy 또는 onboard hostile act로 aircraft/passengers의 safety가 위협받는 상태를 말한다.",
+        "상황이 허용되면 distress 또는 urgency radiotelephony procedures를 적용하고 special emergency details를 포함한다.",
+        "그 절차를 사용할 수 없으면 현재 air/ground frequency에서 station addressed, aircraft identification/current position, nature of special emergency/pilot intentions 등을 가능한 범위에서 순서대로 송신한다.",
+        "필요하면 “TRANSPONDER SEVEN FIVE ZERO ZERO” 또는 Mode 3/A Code 7500을 사용한다. 원문에서 이는 hijacked/forced to a new destination을 의미한다.",
+        "Code 7500은 pilot가 unlawful interference를 사전에 알리지 않은 상태에서 ATC가 assign하지 않는다. 다른 상황에서 assign되면 거부하고 controller에게 알린다.",
+        "Controller는 7500 receipt를 verify하도록 요청한다. Unlawful interference가 아니면 pilot는 clear voice로 아니라고 답하고 code selector를 확인해 appropriate setting으로 변경한다."
+      ],
+      "unit_title": "Enroute Data - General · Oceanic Long-Range Navigation Information"
     }
   ]
 }

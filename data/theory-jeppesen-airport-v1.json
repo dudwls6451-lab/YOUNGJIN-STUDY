@@ -11,7 +11,10 @@
       "questions": "6–10",
       "pass_percent": 80
     },
-    "version": "v11.60.18"
+    "version": "v11.60.18",
+    "detail_revision": "v11.60.29-source-detail-overhaul",
+    "detail_revision_date": "2026-08-30",
+    "detail_note": "이론 렌더러 호환 스키마(heading/paragraphs/figure/question_ids)로 통일하고 원문 기반 세부 설명과 복습 표를 확장함."
   },
   "stages": [
     {
@@ -120,9 +123,59 @@
             "src": "assets/jeppesen-airport-legend/airport-009-jeppesen-company-logo.webp",
             "caption": "Airport Chart Legend p.153 · Jeppesen company logo"
           }
+        },
+        {
+          "heading": "단계 세부 항목 정리",
+          "paragraphs": [
+            "이 표는 해당 단계의 원문 기반 문제 항목을 이론 복습용으로 다시 정리한 것이다."
+          ],
+          "table": {
+            "headers": [
+              "항목",
+              "Jeppesen 원문 기반 상세 설명"
+            ],
+            "rows": [
+              [
+                "No. 1 · ICAO indicators and IATA airport identifiers",
+                "ICAO 위치지시부호와 IATA 공항 식별부호를 표시한다."
+              ],
+              [
+                "No. 2 · Airport elevation",
+                "공항 표고를 표시한다."
+              ],
+              [
+                "No. 3 · Airport geographic latitude and longitude",
+                "공항의 지리적 위도와 경도를 도·분·0.1분 단위로 표시한다."
+              ],
+              [
+                "No. 4 · Chart index number",
+                "차트 인덱스 번호를 표시한다. 공항 차트가 접근 차트의 뒷면에 인쇄될 때에는 첫 접근 차트와 같은 번호를 사용한다."
+              ],
+              [
+                "No. 5 · Chart revision date",
+                "차트 개정일을 표시한다."
+              ],
+              [
+                "No. 6 · Chart effective date",
+                "차트 시행일을 표시한다."
+              ],
+              [
+                "No. 7 · Airport name",
+                "공항명을 표시한다."
+              ],
+              [
+                "No. 8 · Geographic location name",
+                "지리적 위치명을 표시한다."
+              ],
+              [
+                "No. 9 · Jeppesen company logo",
+                "Jeppesen 회사 로고를 표시한다."
+              ]
+            ]
+          }
         }
       ],
-      "quiz_question_ids": [
+      "question_ids": [
         "JEPP-AIRPORT-001",
         "JEPP-AIRPORT-002",
         "JEPP-AIRPORT-003",
@@ -132,6 +185,16 @@
         "JEPP-AIRPORT-007",
         "JEPP-AIRPORT-008",
         "JEPP-AIRPORT-009"
+      ],
+      "quiz_questions": 9,
+      "pass_percent": 80,
+      "summary_points": [
+        "Airport Chart는 Heading, Communications, Airport Planview, Additional Runway Information, Take-off and Alternate Minimums 등의 구역으로 나뉜다. 대형 공항에서는 Communications와 Airport Planview가 한쪽에, Added Notes·Additional Runway Information·Take-off/Alternate Minimums가 반대쪽에 배치될 수 있다.",
+        "ICAO 위치지시부호와 IATA 공항 식별부호를 표시한다.",
+        "공항의 지리적 위도와 경도를 도·분·0.1분 단위로 표시한다.",
+        "차트 인덱스 번호를 표시한다. 공항 차트가 접근 차트의 뒷면에 인쇄될 때에는 첫 접근 차트와 같은 번호를 사용한다.",
+        "Jeppesen 회사 로고를 표시한다.",
+        "이 표는 해당 단계의 원문 기반 문제 항목을 이론 복습용으로 다시 정리한 것이다."
       ]
     },
     {
@@ -300,9 +363,83 @@
             "src": "assets/jeppesen-airport-legend/airport-024-approach-light-systems.webp",
             "caption": "Airport Chart Legend p.154 · Approach light systems"
           }
+        },
+        {
+          "heading": "단계 세부 항목 정리",
+          "paragraphs": [
+            "이 표는 해당 단계의 원문 기반 문제 항목을 이론 복습용으로 다시 정리한 것이다."
+          ],
+          "table": {
+            "headers": [
+              "항목",
+              "Jeppesen 원문 기반 상세 설명"
+            ],
+            "rows": [
+              [
+                "No. 1 · Airport planview / latitude-longitude grid",
+                "공항 평면도는 실제 축척(To Scale)으로 표시되며, 도·분·0.1분 단위의 위도/경도 격자가 neat line 안쪽에 표시된다."
+              ],
+              [
+                "No. 2 · Airport magnetic variation",
+                "공항의 자기편차를 그래픽과 수치로 표시한다."
+              ],
+              [
+                "No. 3 · Airport operational notes",
+                "공항 운용 관련 주석은 평면도 안에 표시하며, 특정 구역에 관한 주석은 해당 구역 안에 두거나 연결해서 표시한다."
+              ],
+              [
+                "No. 4 · Runway designators and runway bearings",
+                "활주로 식별번호는 뒤에 T가 붙지 않는 한 자방위 기준이며, 알려진 경우 활주로 방위도 표시한다."
+              ],
+              [
+                "No. 5 · Physical runway length",
+                "정지로·오버런·이설시단 보정을 포함하지 않은 물리적 활주로 길이를 표시한다. 국제공항에서는 미터 환산값도 함께 표시한다."
+              ],
+              [
+                "No. 6 · Runway end elevation",
+                "알려진 경우 활주로 말단 표고를 표시한다."
+              ],
+              [
+                "No. 7 · Displaced threshold location",
+                "해당되는 경우 활주로상의 이설시단 위치를 표시한다."
+              ],
+              [
+                "No. 8 · LAHSO stopping points",
+                "Land and Hold Short Operations를 위한 활주로상의 정지지점을 표시한다."
+              ],
+              [
+                "No. 9 · Hot Spot",
+                "해당되는 경우 Hot Spot 구역과 해당 라벨을 표시하며, 평면도 또는 추가 활주로 정보 밴드 아래에 설명을 싣는다."
+              ],
+              [
+                "No. 10 · Stopways and overruns",
+                "이용 가능한 경우 정지로와 오버런을 해당 길이와 함께 표시한다."
+              ],
+              [
+                "No. 11 · RVR transmitter locations",
+                "알려진 경우 RVR 송신기 위치와 해당 식별자를 표시한다."
+              ],
+              [
+                "No. 12 · Active taxiways and ramp areas",
+                "운용 중인 모든 유도로와 램프 구역은 회색 면 채움으로 표시하며, 알려진 경우 유도로 식별자와 램프명을 표시한다."
+              ],
+              [
+                "No. 13 · Permanently closed taxiways",
+                "알려진 모든 영구 폐쇄 유도로를 표시한다."
+              ],
+              [
+                "No. 14 · Closed runway depiction",
+                "폐쇄 성격에 따라 두 가지 폐쇄 활주로 표기를 사용한다. 임시 폐쇄는 길이와 식별번호를 유지하고, 영구 폐쇄는 이를 제거한다."
+              ],
+              [
+                "No. 15 · Approach light systems",
+                "알려진 모든 접근등 시스템의 구성과 길이를 표시한다."
+              ]
+            ]
+          }
         }
       ],
-      "quiz_question_ids": [
+      "question_ids": [
         "JEPP-AIRPORT-010",
         "JEPP-AIRPORT-011",
         "JEPP-AIRPORT-012",
@@ -318,6 +455,16 @@
         "JEPP-AIRPORT-022",
         "JEPP-AIRPORT-023",
         "JEPP-AIRPORT-024"
+      ],
+      "quiz_questions": 10,
+      "pass_percent": 80,
+      "summary_points": [
+        "공항 평면도는 실제 축척(To Scale)으로 공항 배치를 나타내며, 다양한 공항 운용 정보와 활주로·유도로·조명·장애물·특수사용공역 등을 번호별 범례로 설명한다.",
+        "공항 평면도는 실제 축척(To Scale)으로 표시되며, 도·분·0.1분 단위의 위도/경도 격자가 neat line 안쪽에 표시된다.",
+        "공항의 자기편차를 그래픽과 수치로 표시한다.",
+        "공항 운용 관련 주석은 평면도 안에 표시하며, 특정 구역에 관한 주석은 해당 구역 안에 두거나 연결해서 표시한다.",
+        "활주로 식별번호는 뒤에 T가 붙지 않는 한 자방위 기준이며, 알려진 경우 활주로 방위도 표시한다.",
+        "정지로·오버런·이설시단 보정을 포함하지 않은 물리적 활주로 길이를 표시한다. 국제공항에서는 미터 환산값도 함께 표시한다."
       ]
     },
     {
@@ -526,9 +673,99 @@
             "src": "assets/jeppesen-airport-legend/airport-043-bluffs.webp",
             "caption": "Airport Chart Legend p.154 · Bluffs"
           }
+        },
+        {
+          "heading": "단계 세부 항목 정리",
+          "paragraphs": [
+            "이 표는 해당 단계의 원문 기반 문제 항목을 이론 복습용으로 다시 정리한 것이다."
+          ],
+          "table": {
+            "headers": [
+              "항목",
+              "Jeppesen 원문 기반 상세 설명"
+            ],
+            "rows": [
+              [
+                "No. 16 · Seaplane operating areas / water runways",
+                "모든 수상비행기 운용구역/수상활주로를 표시한다. 활주로 번호 뒤에 W를 붙이고, 물리적 길이와 표고도 함께 표시한다."
+              ],
+              [
+                "No. 17 · Airport Reference Point (ARP)",
+                "알려진 경우 공항기준점(ARP)의 지리적 위치를 표시한다."
+              ],
+              [
+                "No. 18 · Areas under construction",
+                "공사 중인 구역은 가는 파선 윤곽선으로 표시한다."
+              ],
+              [
+                "No. 19 · Airport identification beacon",
+                "알려진 경우 공항 식별 비콘의 위치를 표시한다."
+              ],
+              [
+                "No. 20 · Buildings",
+                "공항 안 또는 인근의 건물을 표시한다."
+              ],
+              [
+                "No. 21 · Roads",
+                "Caution, Alert 또는 Be Aware 주석에서 언급되는 경우 공항 안 또는 인근 도로를 표시한다."
+              ],
+              [
+                "No. 22 · Engineered Materials Arresting System (EMAS) pads",
+                "EMAS 패드 위치를 표시하고 라벨을 붙인다."
+              ],
+              [
+                "No. 23 · Wind direction indicators",
+                "알려진 모든 풍향지시기를 표시한다."
+              ],
+              [
+                "No. 24 · Helicopter landing pads/areas",
+                "헬리콥터 착륙 패드/구역을 표시한다."
+              ],
+              [
+                "No. 25 · Airport VORs and NDBs",
+                "공항 VOR 및 NDB의 지리적 위치를 표시하고 라벨을 붙인다."
+              ],
+              [
+                "No. 26 · Pole lines",
+                "공항 안 또는 인근의 전신주/전주 선을 표시한다."
+              ],
+              [
+                "No. 27 · Terrain high points and man-made structures",
+                "가장 가까운 활주로 말단 표고보다 50ft 이상 높은 알려진 지형 고점 및 인공구조물을 해당 기호와 표고로 표시한다."
+              ],
+              [
+                "No. 28 · Special use airspace",
+                "특수사용공역의 구역·윤곽·식별자를 표시한다. 전체 평면도가 한 공역 안에 있으면 “Entire Chart Lies Within R-XXXX” 형식의 주석을 표시한다."
+              ],
+              [
+                "No. 29 · Feet/meters scale",
+                "차트 축척과 동등한 feet 및 meters 눈금을 표시한다."
+              ],
+              [
+                "No. 30 · Hazard beacons",
+                "평면도 안의 위험 비콘과 알려진 경우 그 표고를 표시한다."
+              ],
+              [
+                "No. 31 · Railroads",
+                "Caution, Alert 또는 Be Aware 주석에서 언급되는 경우 공항 안 또는 인근 철도를 표시한다."
+              ],
+              [
+                "No. 32 · Ditches",
+                "공항 인근의 배수로/도랑을 표시한다."
+              ],
+              [
+                "No. 33 · Tree lines",
+                "수목선을 표시한다. 끝이 열린 수목선은 산림구역의 경계를 의미한다."
+              ],
+              [
+                "No. 34 · Bluffs",
+                "절벽은 기호의 화살표가 아래쪽 또는 더 낮은 표고 쪽을 가리키도록 표시한다."
+              ]
+            ]
+          }
         }
       ],
-      "quiz_question_ids": [
+      "question_ids": [
         "JEPP-AIRPORT-025",
         "JEPP-AIRPORT-026",
         "JEPP-AIRPORT-027",
@@ -548,6 +785,16 @@
         "JEPP-AIRPORT-041",
         "JEPP-AIRPORT-042",
         "JEPP-AIRPORT-043"
+      ],
+      "quiz_questions": 10,
+      "pass_percent": 80,
+      "summary_points": [
+        "Airport Planview 후반 범례는 수상활주로, ARP, 공사구역, 비콘, 건물·도로, EMAS, 풍향지시기, 헬리패드, NAVAID, 지형 및 각종 지상 특징을 설명한다.",
+        "모든 수상비행기 운용구역/수상활주로를 표시한다. 활주로 번호 뒤에 W를 붙이고, 물리적 길이와 표고도 함께 표시한다.",
+        "알려진 경우 공항기준점(ARP)의 지리적 위치를 표시한다.",
+        "공사 중인 구역은 가는 파선 윤곽선으로 표시한다.",
+        "알려진 경우 공항 식별 비콘의 위치를 표시한다.",
+        "공항 안 또는 인근의 건물을 표시한다."
       ]
     },
     {
@@ -676,9 +923,67 @@
             "src": "assets/jeppesen-airport-legend/airport-054-runway-information-notes.webp",
             "caption": "Airport Chart Legend p.155 · Runway information notes"
           }
+        },
+        {
+          "heading": "단계 세부 항목 정리",
+          "paragraphs": [
+            "이 표는 해당 단계의 원문 기반 문제 항목을 이론 복습용으로 다시 정리한 것이다."
+          ],
+          "table": {
+            "headers": [
+              "항목",
+              "Jeppesen 원문 기반 상세 설명"
+            ],
+            "rows": [
+              [
+                "No. 1 · Runway designators/numbers",
+                "활주로 식별번호는 박스의 좌상단과 우하단에 표시한다. 밴드 안의 모든 정보는 오른쪽에 표시된 활주로에 적용되며, 활주로별 정보가 다르면 선으로 구분한다."
+              ],
+              [
+                "No. 2 · Operational runway lighting and approach light systems",
+                "운용 중인 활주로 조명과 접근등 시스템을 모두 나열한다."
+              ],
+              [
+                "No. 3 · Runway surface treatment (grooving)",
+                "활주로 표면처리(그루빙) 여부를 표시한다."
+              ],
+              [
+                "No. 4 · RVR transmitters",
+                "활주로를 따라 하나 이상의 RVR 송신기가 설치된 경우 “RVR”를 표시한다."
+              ],
+              [
+                "No. 5 · Landing distance beyond threshold",
+                "물리적 활주로 길이와 다를 때 시단을 지난 착륙가용거리를 표시한다."
+              ],
+              [
+                "No. 6 · Glide slope transmitter to roll-out end distance",
+                "해당되는 경우 글라이드슬로프 송신기 정횡 지점부터 활주로 roll-out end까지의 거리를 표시한다. PAR의 경우 GS가 활주로와 교차하는 지점부터의 거리이다."
+              ],
+              [
+                "No. 7 · LAHSO threshold-to-hold-short distance",
+                "LAHSO가 있는 공항에서는 활주로 시단부터 지정 hold short 지점까지의 거리를 표시한다."
+              ],
+              [
+                "No. 8 · Restricted take-off length",
+                "이륙 길이가 제한되는 경우 이륙에 이용 가능한 물리적 활주로 거리를 표시한다."
+              ],
+              [
+                "No. 9 · Physical runway width",
+                "활주로의 물리적 폭을 표시한다."
+              ],
+              [
+                "No. 10 · Band expanded for all operational runways",
+                "이 밴드는 운용 중인 모든 활주로 정보를 활주로 번호 순으로 보여주도록 확장된다."
+              ],
+              [
+                "No. 11 · Runway information notes",
+                "이 구역에 표시된 활주로 정보와 관련된 모든 주석을 나타낸다."
+              ]
+            ]
+          }
         }
       ],
-      "quiz_question_ids": [
+      "question_ids": [
         "JEPP-AIRPORT-044",
         "JEPP-AIRPORT-045",
         "JEPP-AIRPORT-046",
@@ -690,6 +995,16 @@
         "JEPP-AIRPORT-052",
         "JEPP-AIRPORT-053",
         "JEPP-AIRPORT-054"
+      ],
+      "quiz_questions": 10,
+      "pass_percent": 80,
+      "summary_points": [
+        "추가 활주로 정보 밴드는 각 운용 활주로의 조명, 표면처리, RVR, 착륙/이륙 가용거리, 폭 등 세부 정보를 제공한다. 국제공항에서는 거리의 미터 환산값도 함께 표시될 수 있다.",
+        "활주로 식별번호는 박스의 좌상단과 우하단에 표시한다. 밴드 안의 모든 정보는 오른쪽에 표시된 활주로에 적용되며, 활주로별 정보가 다르면 선으로 구분한다.",
+        "운용 중인 활주로 조명과 접근등 시스템을 모두 나열한다.",
+        "활주로 표면처리(그루빙) 여부를 표시한다.",
+        "활주로를 따라 하나 이상의 RVR 송신기가 설치된 경우 “RVR”를 표시한다.",
+        "물리적 활주로 길이와 다를 때 시단을 지난 착륙가용거리를 표시한다."
       ]
     },
     {
@@ -900,9 +1215,99 @@
             "src": "assets/jeppesen-airport-legend/airport-073-take-off-minimums-notes.webp",
             "caption": "Airport Chart Legend p.157 · Take-off minimums notes"
           }
+        },
+        {
+          "heading": "단계 세부 항목 정리",
+          "paragraphs": [
+            "이 표는 해당 단계의 원문 기반 문제 항목을 이론 복습용으로 다시 정리한 것이다."
+          ],
+          "table": {
+            "headers": [
+              "항목",
+              "Jeppesen 원문 기반 상세 설명"
+            ],
+            "rows": [
+              [
+                "No. 1 · Take-off minimums header",
+                "이륙최저치 박스의 내용을 나타내는 헤더이다."
+              ],
+              [
+                "No. 2 · Runway number(s)",
+                "필요한 경우 활주로 번호를 표시하며 아래 최저치는 지정된 활주로에 적용된다."
+              ],
+              [
+                "No. 3 · General conditions",
+                "많은 최저치에 영향을 주는 일반 조건을 표시한다."
+              ],
+              [
+                "No. 4 · Aircraft type information",
+                "필요한 경우 항공기 엔진 수 또는 국가가 발행한 항공기 접근 범주 등 항공기 종류 정보를 표시한다."
+              ],
+              [
+                "No. 5 · More specific conditions",
+                "일부 최저치에만 영향을 주는 더 구체적인 조건을 표시한다."
+              ],
+              [
+                "No. 6 · Very specific conditions",
+                "바로 아래 최저치에만 영향을 주는 매우 구체적인 조건을 표시한다."
+              ],
+              [
+                "No. 7 · Best (lowest) authorized take-off minimums",
+                "위의 조건과 활주로에 따라 허용되는 ceiling 및 RVR/met VIS를 표시한다. ceiling과 visibility가 모두 있으면 둘 다 충족해야 하며, 이 형식의 해당 열은 가장 좋은(가장 낮은) 이륙최저치를 나타낸다."
+              ],
+              [
+                "No. 8 · Higher minimums with fewer restrictions",
+                "위 조건을 기준으로 허용되는 ceiling 및 visibility를 표시하며, 일반적으로 제한조건이 줄어들수록 최저치는 더 높아진다."
+              ],
+              [
+                "No. 9 · Abbreviations / detailed description",
+                "이륙최저치 밴드에는 긴 조건/제한 설명 때문에 약어가 자주 사용되며, 자세한 설명은 Chart Glossary 및 Abbreviations를 참조한다."
+              ],
+              [
+                "No. 10 · Separate minimums by aircraft type",
+                "같은 조건에서도 항공기 종류에 따라 이륙최저치가 다를 수 있어 각 항공기 종류별 최저치를 따로 표시한다."
+              ],
+              [
+                "No. 11 · “Other” take-off minimums",
+                "일반적으로 조건이 없는 이륙최저치를 나타낼 때 “Other”라는 용어를 사용한다."
+              ],
+              [
+                "No. 12 · Highest minimums / least conditions",
+                "가장 오른쪽 최저치 박스로서 일반적으로 해당 활주로에서 조건 수가 가장 적고 이륙최저치는 가장 높은 조합을 포함한다."
+              ],
+              [
+                "No. 13 · Minimums label",
+                "이륙최저치가 특정 규정을 준수함을 나타내는 라벨이다. 단, 국가가 발행한 값보다 낮아질 수 없다."
+              ],
+              [
+                "No. 14 · Take-off title / additional information",
+                "표시 내용에 따라 제목은 단순히 TAKE-OFF이거나 DEPARTURE PROCEDURE 등 추가 정보를 포함할 수 있다."
+              ],
+              [
+                "No. 15 · Runway numbers when minima differ",
+                "활주로별 이륙최저치가 다르거나 특정 활주로가 이륙에 허가되지 않은 경우에만 활주로 번호를 나열한다."
+              ],
+              [
+                "No. 16 · Special approval required",
+                "“Approved Operators”, “Low Visibility Take-off” 등 일부 최저치를 사용하려면 특별 승인이 필요할 수 있음을 나타낸다."
+              ],
+              [
+                "No. 17 · “R” means RVR",
+                "“R”은 RVR을 의미한다."
+              ],
+              [
+                "No. 18 · “R/V” means RVR or meteorological VIS",
+                "“R/V”는 값이 RVR 또는 기상시정(VIS) 둘 다일 수 있음을 의미한다."
+              ],
+              [
+                "No. 19 · Take-off minimums notes",
+                "도표화된 이륙최저치에 직접적으로만 관련된 주석은 최저치 박스 바로 아래 인접 위치에 표시한다."
+              ]
+            ]
+          }
         }
       ],
-      "quiz_question_ids": [
+      "question_ids": [
         "JEPP-AIRPORT-055",
         "JEPP-AIRPORT-056",
         "JEPP-AIRPORT-057",
@@ -922,6 +1327,16 @@
         "JEPP-AIRPORT-071",
         "JEPP-AIRPORT-072",
         "JEPP-AIRPORT-073"
+      ],
+      "quiz_questions": 10,
+      "pass_percent": 80,
+      "summary_points": [
+        "도표에 이륙최저치가 실려 있다고 해서 모든 운항자에게 사용 권한이 주어지는 것은 아니다. 운항자는 운항 종류에 맞는 승인과 적용 조건을 확인해야 한다. 국가가 이륙 시정을 제공하지 않으면 Jeppesen은 ICAO Doc 9365 기준에 따라 산출할 수 있다. VIS는 V, RVR은 R, 둘 다 가능한 값은 R/V로 표기한다.",
+        "이륙최저치 박스의 내용을 나타내는 헤더이다.",
+        "필요한 경우 활주로 번호를 표시하며 아래 최저치는 지정된 활주로에 적용된다.",
+        "많은 최저치에 영향을 주는 일반 조건을 표시한다.",
+        "필요한 경우 항공기 엔진 수 또는 국가가 발행한 항공기 접근 범주 등 항공기 종류 정보를 표시한다.",
+        "일부 최저치에만 영향을 주는 더 구체적인 조건을 표시한다."
       ]
     },
     {
@@ -1026,9 +1441,55 @@
             "src": "assets/jeppesen-airport-legend/airport-081-state-supplied-source-amendment-information.webp",
             "caption": "Airport Chart Legend p.158 · State-supplied source amendment information"
           }
+        },
+        {
+          "heading": "단계 세부 항목 정리",
+          "paragraphs": [
+            "이 표는 해당 단계의 원문 기반 문제 항목을 이론 복습용으로 다시 정리한 것이다."
+          ],
+          "table": {
+            "headers": [
+              "항목",
+              "Jeppesen 원문 기반 상세 설명"
+            ],
+            "rows": [
+              [
+                "No. 1 · Aircraft approach categories / category-based alternate minima",
+                "대체공항 최저치는 일반적으로 착륙공항의 사용 가능한 접근절차에 적용되는 착륙최저치를 기반으로 하므로, 이후 대체공항 최저치는 항공기 접근범주와 연계된다. 모든 범주에 같은 값이 적용되면 범주를 표시하지 않는다."
+              ],
+              [
+                "No. 2 · Alternate minimums box label",
+                "대체공항 최저치 박스임을 나타내는 라벨을 표시한다."
+              ],
+              [
+                "No. 3 · Conditional notes",
+                "적용되는 모든 조건부 주석은 해당 최저치 바로 위에 표시한다."
+              ],
+              [
+                "No. 4 · Approach procedure identifiers/classification",
+                "적절한 모든 접근절차의 식별자 또는 분류를 표시하고, 적용되는 대체공항 최저치는 바로 아래에 표시한다."
+              ],
+              [
+                "No. 5 · Visibility and ceiling values",
+                "대체공항 최저치의 시정은 국가가 제공한 단위로 표시한다. feet 단위 RVR와 statute/nautical mile 단위 기상시정은 별도 단위표시 없이 쓰며, meter는 m, kilometer는 km로 표시한다. ceiling은 국가 보고 단위로 기상시정 앞에 표시한다."
+              ],
+              [
+                "No. 1 · Summary of changes from the last revision",
+                "마지막 개정에서 차트에 적용된 변경사항을 간단히 요약한다."
+              ],
+              [
+                "No. 2 · Jeppesen copyright label",
+                "Jeppesen 저작권 표시이다."
+              ],
+              [
+                "No. 3 · State-supplied source amendment information",
+                "국가가 원자료 개정정보를 제공한 경우 표시한다. 일반적으로 이 개정번호는 이륙 또는 대체공항 최저치와 직접 관련된다."
+              ]
+            ]
+          }
         }
       ],
-      "quiz_question_ids": [
+      "question_ids": [
         "JEPP-AIRPORT-074",
         "JEPP-AIRPORT-075",
         "JEPP-AIRPORT-076",
@@ -1037,6 +1498,16 @@
         "JEPP-AIRPORT-079",
         "JEPP-AIRPORT-080",
         "JEPP-AIRPORT-081"
+      ],
+      "quiz_questions": 8,
+      "pass_percent": 80,
+      "summary_points": [
+        "Airport Chart에는 해당 국가 당국이 착륙공항에 대해 특별히 발행한 대체공항 최저치만 수록한다. 표시값은 국가가 제공한 값이다.",
+        "차트 경계에는 최근 개정 변경사항 요약, Jeppesen 저작권, 국가가 제공한 원자료 개정번호가 표시될 수 있다.",
+        "대체공항 최저치는 일반적으로 착륙공항의 사용 가능한 접근절차에 적용되는 착륙최저치를 기반으로 하므로, 이후 대체공항 최저치는 항공기 접근범주와 연계된다. 모든 범주에 같은 값이 적용되면 범주를 표시하지 않는다.",
+        "대체공항 최저치 박스임을 나타내는 라벨을 표시한다.",
+        "적용되는 모든 조건부 주석은 해당 최저치 바로 위에 표시한다.",
+        "적절한 모든 접근절차의 식별자 또는 분류를 표시하고, 적용되는 대체공항 최저치는 바로 아래에 표시한다."
       ]
     }
   ]

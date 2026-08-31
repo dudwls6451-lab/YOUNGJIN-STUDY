@@ -8,7 +8,14 @@
     "question_count": 16,
     "pass_threshold_percent": 80,
     "language": "ko summary preserving Jeppesen terminology",
-    "scope_note": "p.309–310 only."
+    "scope_note": "p.309–310 only.",
+    "detail_revision": "v11.60.29-source-detail-overhaul",
+    "detail_revision_date": "2026-08-30",
+    "detail_note": "이론 렌더러 호환 스키마(heading/paragraphs/figure/question_ids)로 통일하고 원문 기반 세부 설명과 복습 표를 확장함.",
+    "quiz_rule": {
+      "questions": 8,
+      "pass_percent": 80
+    }
   },
   "stages": [
     {
@@ -16,7 +23,7 @@
       "title": "ATS Route Designator Composition",
       "sections": [
         {
-          "title": "Basic Designator",
+          "heading": "Basic Designator",
           "bullets": [
             "Jeppesen 원문은 ICAO Annex 11에 따라 ATS route의 basic designator가 ground/airborne automation systems에서 사용 가능하도록 maximum of five, in no case exceed six alpha/numeric characters로 구성된다고 설명한다.",
             "Designator는 route의 type을 나타내며, 예시로 high/low altitude, specific airborne navigation equipment requirements(RNAV), route를 주로 또는 전용으로 사용하는 aircraft type을 든다.",
@@ -24,13 +31,59 @@
           ]
         },
         {
-          "title": "Basic Letter Groups",
+          "heading": "Basic Letter Groups",
           "bullets": [
             "A, B, G, R — regional networks의 일부이며 area navigation routes가 아닌 ATS routes.",
             "L, M, N, P — regional networks의 일부인 area navigation routes.",
             "H, J, V, W — regional networks의 일부가 아니며 area navigation routes가 아닌 ATS routes.",
             "Q, T, Y, Z — regional networks의 일부가 아닌 area navigation routes."
           ]
+        },
+        {
+          "heading": "단계 세부 항목 정리",
+          "paragraphs": [
+            "이 표는 해당 단계의 원문 기반 문제 항목을 이론 복습용으로 다시 정리한 것이다."
+          ],
+          "table": {
+            "headers": [
+              "항목",
+              "Jeppesen 원문 기반 상세 설명"
+            ],
+            "rows": [
+              [
+                "최대 5개의 alpha/numeric characters이며, 어떠한 경우에도 6개를 초과하지 않는다.",
+                "원문은 ATS route basic designator가 automation systems에서 사용 가능하도록 maximum of five, in no case exceed six alpha/numeric characters로 구성된다고 설명한다."
+              ],
+              [
+                "알파벳 1문자 뒤에 1부터 999까지의 숫자를 붙인다.",
+                "Basic designator는 one letter of the alphabet followed by a number from 1 to 999로 구성된다."
+              ],
+              [
+                "A, B, G, R",
+                "Jeppesen 원문은 A, B, G, R을 regional networks의 일부이며 area navigation routes가 아닌 route에 사용한다고 명시한다."
+              ],
+              [
+                "L, M, N, P",
+                "L, M, N, P는 area navigation routes which form part of the regional networks of ATS routes에 사용한다."
+              ],
+              [
+                "H, J, V, W",
+                "H, J, V, W는 regional networks의 일부가 아니며 area navigation routes도 아닌 route에 사용한다."
+              ],
+              [
+                "Q, T, Y, Z",
+                "Q, T, Y, Z는 area navigation routes which do not form part of the regional networks of ATS routes에 사용한다."
+              ],
+              [
+                "Regional network의 일부인 area navigation route",
+                "L은 M, N, P와 함께 regional network의 일부인 area navigation route용 기본 문자군에 속한다."
+              ],
+              [
+                "Regional network의 일부가 아닌 RNAV route",
+                "Z는 Q, T, Y와 함께 regional networks의 일부가 아닌 area navigation route용 문자군에 속한다."
+              ]
+            ]
+          }
         }
       ],
       "subject": "Jeppesen Airway Manual · Designators of ATS Routes and Its Use in Voice Communications",
@@ -41,7 +94,7 @@
       "source_pdf_pages": [
         309
       ],
-      "quiz_question_ids": [
+      "question_ids": [
         "JEPP-ATSROUTE-001",
         "JEPP-ATSROUTE-002",
         "JEPP-ATSROUTE-003",
@@ -50,14 +103,25 @@
         "JEPP-ATSROUTE-006",
         "JEPP-ATSROUTE-007",
         "JEPP-ATSROUTE-008"
-      ]
+      ],
+      "quiz_questions": 8,
+      "pass_percent": 80,
+      "summary_points": [
+        "Jeppesen 원문은 ICAO Annex 11에 따라 ATS route의 basic designator가 ground/airborne automation systems에서 사용 가능하도록 maximum of five, in no case exceed six alpha/numeric characters로 구성된다고 설명한다.",
+        "Designator는 route의 type을 나타내며, 예시로 high/low altitude, specific airborne navigation equipment requirements(RNAV), route를 주로 또는 전용으로 사용하는 aircraft type을 든다.",
+        "Basic designator는 알파벳 1문자 뒤에 1부터 999까지의 숫자를 붙여 구성한다.",
+        "A, B, G, R — regional networks의 일부이며 area navigation routes가 아닌 ATS routes.",
+        "L, M, N, P — regional networks의 일부인 area navigation routes.",
+        "H, J, V, W — regional networks의 일부가 아니며 area navigation routes가 아닌 ATS routes."
+      ],
+      "unit_title": "Enroute Data - General · Designators of ATS Routes and Its Use in Voice Communications"
     },
     {
       "id": 2,
       "title": "Prefixes, Suffixes & Voice Communications",
       "sections": [
         {
-          "title": "Supplementary Prefixes",
+          "heading": "Supplementary Prefixes",
           "bullets": [
             "K — low level route established for use primarily by helicopters.",
             "U — route 또는 그 일부가 upper airspace에 설정되어 있음을 나타낸다.",
@@ -65,19 +129,65 @@
           ]
         },
         {
-          "title": "Supplementary Suffixes",
+          "heading": "Supplementary Suffixes",
           "bullets": [
             "F — route 또는 그 일부에서 advisory service only가 제공됨.",
             "G — route 또는 그 일부에서 flight information service only가 제공됨."
           ]
         },
         {
-          "title": "Use in Voice Communications",
+          "heading": "Use in Voice Communications",
           "bullets": [
             "Basic designator의 기본 문자는 ICAO spelling alphabet에 따라 발음한다.",
             "Prefix K, U, S는 각각 \"Kopter\", \"Upper\", \"Supersonic\"으로 발음한다.",
             "Suffix F 또는 G가 사용되더라도 flight crew는 voice communications에서 이를 사용하도록 요구되지 않는다."
           ]
+        },
+        {
+          "heading": "단계 세부 항목 정리",
+          "paragraphs": [
+            "이 표는 해당 단계의 원문 기반 문제 항목을 이론 복습용으로 다시 정리한 것이다."
+          ],
+          "table": {
+            "headers": [
+              "항목",
+              "Jeppesen 원문 기반 상세 설명"
+            ],
+            "rows": [
+              [
+                "주로 helicopter가 사용하는 low-level route",
+                "Prefix K는 a low level route established for use primarily by helicopters를 나타낸다."
+              ],
+              [
+                "route 또는 그 일부가 upper airspace에 설정됨",
+                "Prefix U는 route or portion thereof is established in the upper airspace임을 나타낸다."
+              ],
+              [
+                "Supersonic aircraft가 acceleration/deceleration 및 supersonic flight 중 독점적으로 사용하는 route",
+                "Prefix S는 supersonic aircraft가 acceleration/deceleration 및 supersonic flight 중 exclusively 사용하는 route를 나타낸다."
+              ],
+              [
+                "Advisory service only가 제공됨",
+                "Suffix F는 on the route or portion thereof advisory service only is provided임을 나타낸다."
+              ],
+              [
+                "Flight information service only가 제공됨",
+                "Suffix G는 on the route or portion thereof flight information service only is provided임을 나타낸다."
+              ],
+              [
+                "ICAO spelling alphabet에 따라 발음한다.",
+                "Jeppesen 원문은 voice communications에서 basic letter of a designator를 ICAO spelling alphabet에 따라 말하도록 한다."
+              ],
+              [
+                "K = \"Kopter\", U = \"Upper\", S = \"Supersonic\"",
+                "원문은 prefix K, U, S를 voice communications에서 각각 \"Kopter\", \"Upper\", \"Supersonic\"으로 발음한다고 명시한다."
+              ],
+              [
+                "Flight crew가 이를 사용하도록 요구되지 않는다.",
+                "Jeppesen 원문은 suffix F 또는 G가 사용된 경우 flight crew should not be required to use them in voice communications라고 설명한다."
+              ]
+            ]
+          }
         }
       ],
       "subject": "Jeppesen Airway Manual · Designators of ATS Routes and Its Use in Voice Communications",
@@ -90,7 +200,7 @@
         309,
         310
       ],
-      "quiz_question_ids": [
+      "question_ids": [
         "JEPP-ATSROUTE-009",
         "JEPP-ATSROUTE-010",
         "JEPP-ATSROUTE-011",
@@ -99,7 +209,18 @@
         "JEPP-ATSROUTE-014",
         "JEPP-ATSROUTE-015",
         "JEPP-ATSROUTE-016"
-      ]
+      ],
+      "quiz_questions": 8,
+      "pass_percent": 80,
+      "summary_points": [
+        "K — low level route established for use primarily by helicopters.",
+        "U — route 또는 그 일부가 upper airspace에 설정되어 있음을 나타낸다.",
+        "S — acceleration/deceleration 및 supersonic flight 중 supersonic aircraft가 exclusively 사용하는 route.",
+        "F — route 또는 그 일부에서 advisory service only가 제공됨.",
+        "G — route 또는 그 일부에서 flight information service only가 제공됨.",
+        "Basic designator의 기본 문자는 ICAO spelling alphabet에 따라 발음한다."
+      ],
+      "unit_title": "Enroute Data - General · Designators of ATS Routes and Its Use in Voice Communications"
     }
   ]
 }

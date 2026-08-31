@@ -8,7 +8,14 @@
     "question_count": 40,
     "pass_threshold_percent": 80,
     "language": "ko summary preserving Jeppesen terminology",
-    "scope_note": "p.331–335 only; next Section 1 Navigation Aids begins p.336."
+    "scope_note": "p.331–335 only; next Section 1 Navigation Aids begins p.336.",
+    "detail_revision": "v11.60.29-source-detail-overhaul",
+    "detail_revision_date": "2026-08-30",
+    "detail_note": "이론 렌더러 호환 스키마(heading/paragraphs/figure/question_ids)로 통일하고 원문 기반 세부 설명과 복습 표를 확장함.",
+    "quiz_rule": {
+      "questions": 8,
+      "pass_percent": 80
+    }
   },
   "stages": [
     {
@@ -16,7 +23,7 @@
       "title": "Frequency Bands & VHF Markers",
       "sections": [
         {
-          "title": "Frequency Bands",
+          "heading": "Frequency Bands",
           "bullets": [
             "Radio frequencies는 대략 10 kHz–300 GHz 범위의 electro-magnetic spectrum에 놓이며 propagation characteristics에 따라 bands로 구분된다.",
             "VLF 0–30 kHz · LF 30–300 kHz · MF 300 kHz–3 MHz · HF 3–30 MHz.",
@@ -25,12 +32,58 @@
           ]
         },
         {
-          "title": "VHF Marker Beacons",
+          "heading": "VHF Marker Beacons",
           "bullets": [
             "FAN TYPE, OUTER, INNER, ZONE을 포함한 모든 VHF marker는 75 MHz(75,000 kHz)에서 운용된다.",
             "FM Fan Marker(100 W) 3000 Hz · LFM Low-Powered Fan Marker(5 W) 3000 Hz.",
             "MM Middle Marker 1300 Hz · OM Outer Marker 400 Hz · Z Station Location Marker 3000 Hz."
           ]
+        },
+        {
+          "heading": "단계 세부 항목 정리",
+          "paragraphs": [
+            "이 표는 해당 단계의 원문 기반 문제 항목을 이론 복습용으로 다시 정리한 것이다."
+          ],
+          "table": {
+            "headers": [
+              "항목",
+              "Jeppesen 원문 기반 상세 설명"
+            ],
+            "rows": [
+              [
+                "0–30 kHz",
+                "원문은 VLF를 0–30 kHz로 분류한다."
+              ],
+              [
+                "30–300 kHz",
+                "원문은 LF를 30 kHz–300 kHz로 분류한다."
+              ],
+              [
+                "3–30 MHz",
+                "원문은 HF를 3 MHz–30 MHz로 분류한다."
+              ],
+              [
+                "30–300 MHz",
+                "원문 frequency bands 표에서 VHF는 30 MHz–300 MHz이다."
+              ],
+              [
+                "200 MHz–3 GHz",
+                "원문 주석은 Aviation에서 200 MHz–3 GHz를 UHF로 간주한다고 명시한다."
+              ],
+              [
+                "75 MHz",
+                "원문은 모든 VHF marker가 75 MHz(75,000 kHz)에서 운용된다고 설명한다."
+              ],
+              [
+                "400 Hz",
+                "원문 marker tone 표에서 OM(Outer Marker)은 400 Hz이다."
+              ],
+              [
+                "1300 Hz",
+                "원문 marker tone 표에서 MM(Middle Marker)은 1300 Hz이다."
+              ]
+            ]
+          }
         }
       ],
       "subject": "Jeppesen Airway Manual · Radio Data - General · General Information",
@@ -41,7 +94,7 @@
       "source_pdf_pages": [
         331
       ],
-      "quiz_question_ids": [
+      "question_ids": [
         "JEPP-RADIOGEN-001",
         "JEPP-RADIOGEN-002",
         "JEPP-RADIOGEN-003",
@@ -50,14 +103,25 @@
         "JEPP-RADIOGEN-006",
         "JEPP-RADIOGEN-007",
         "JEPP-RADIOGEN-008"
-      ]
+      ],
+      "quiz_questions": 8,
+      "pass_percent": 80,
+      "summary_points": [
+        "Radio frequencies는 대략 10 kHz–300 GHz 범위의 electro-magnetic spectrum에 놓이며 propagation characteristics에 따라 bands로 구분된다.",
+        "VLF 0–30 kHz · LF 30–300 kHz · MF 300 kHz–3 MHz · HF 3–30 MHz.",
+        "VHF 30–300 MHz · UHF 300 MHz–3 GHz · SHF 3–30 GHz · EHF 30–300 GHz.",
+        "Jeppesen 주석: Aviation에서는 200 MHz–3 GHz를 UHF로 간주한다.",
+        "FAN TYPE, OUTER, INNER, ZONE을 포함한 모든 VHF marker는 75 MHz(75,000 kHz)에서 운용된다.",
+        "FM Fan Marker(100 W) 3000 Hz · LFM Low-Powered Fan Marker(5 W) 3000 Hz."
+      ],
+      "unit_title": "Radio Data - General · General Information"
     },
     {
       "id": 2,
       "title": "Navigation Aid & Airborne Frequency Allocation",
       "sections": [
         {
-          "title": "Navigation Aids",
+          "heading": "Navigation Aids",
           "bullets": [
             "NDB(low power)/Radio Range(low power): 190–535 kHz · standard NDB: 190–1750 kHz.",
             "VOT: 108.0–117.975 MHz.",
@@ -67,13 +131,59 @@
           ]
         },
         {
-          "title": "Airborne Stations & Channel Spacing",
+          "heading": "Airborne Stations & Channel Spacing",
           "bullets": [
             "410 kHz: International DF(outside continental USA) · 475 kHz: sea flights가 intermediate frequency를 원하는 경우의 working frequency.",
             "500 kHz: aircraft and ships over the seas를 위한 international frequency. 긴급/안전 전문 등을 제외하면 매시간 15분과 45분부터 3분간 송신을 중지한다.",
             "3281 kHz: lighter-than-aircraft · 117.975–137.0 MHz: Air Traffic Control Operations.",
             "Aeronautical mobile (R) service의 minimum separation between assignable frequencies는 8.33 kHz이며, 일부 지역에서는 25 kHz 등과 공존할 수 있다."
           ]
+        },
+        {
+          "heading": "단계 세부 항목 정리",
+          "paragraphs": [
+            "이 표는 해당 단계의 원문 기반 문제 항목을 이론 복습용으로 다시 정리한 것이다."
+          ],
+          "table": {
+            "headers": [
+              "항목",
+              "Jeppesen 원문 기반 상세 설명"
+            ],
+            "rows": [
+              [
+                "190–1750 kHz",
+                "원문은 standard NDB를 190–1750 kHz로 제시한다."
+              ],
+              [
+                "108.0–111.975 MHz",
+                "원문은 ILS localizer를 108.0–111.975 MHz로 제시하며 odd-tenths plus twentieth frequencies를 사용한다고 설명한다."
+              ],
+              [
+                "328.6–335.4 MHz",
+                "원문 frequency allocation에서 ILS glide slope는 328.6–335.4 MHz이다."
+              ],
+              [
+                "960.0–1215.0 MHz",
+                "원문은 DME and TACAN을 960.0–1215.0 MHz로 제시한다."
+              ],
+              [
+                "1563.42–1587.42 MHz",
+                "원문은 GPS를 1563.42–1587.42 MHz로 제시한다."
+              ],
+              [
+                "International frequency for aircraft and ships over the seas이다.",
+                "원문은 500 kHz를 aircraft and ships over the seas를 위한 international frequency로 설명한다."
+              ],
+              [
+                "15분과 45분",
+                "원문은 매시간 15분과 45분부터 각각 3분간 송신을 중지한다고 설명한다."
+              ],
+              [
+                "8.33 kHz",
+                "원문은 minimum separation between assignable frequencies를 8.33 kHz로 제시한다."
+              ]
+            ]
+          }
         }
       ],
       "subject": "Jeppesen Airway Manual · Radio Data - General · General Information",
@@ -84,7 +194,7 @@
       "source_pdf_pages": [
         332
       ],
-      "quiz_question_ids": [
+      "question_ids": [
         "JEPP-RADIOGEN-009",
         "JEPP-RADIOGEN-010",
         "JEPP-RADIOGEN-011",
@@ -93,14 +203,25 @@
         "JEPP-RADIOGEN-014",
         "JEPP-RADIOGEN-015",
         "JEPP-RADIOGEN-016"
-      ]
+      ],
+      "quiz_questions": 8,
+      "pass_percent": 80,
+      "summary_points": [
+        "NDB(low power)/Radio Range(low power): 190–535 kHz · standard NDB: 190–1750 kHz.",
+        "VOT: 108.0–117.975 MHz.",
+        "ILS localizer: 108.0–111.975 MHz(odd-tenths plus twentieth frequencies).",
+        "VOR: 108.0–111.975 MHz에서는 even tenths 또는 even tenths plus a twentieth; 111.975–117.975 MHz에서는 even and odd tenths.",
+        "ILS glide slope: 328.6–335.4 MHz · DME/TACAN: 960.0–1215.0 MHz · GPS: 1563.42–1587.42 MHz.",
+        "410 kHz: International DF(outside continental USA) · 475 kHz: sea flights가 intermediate frequency를 원하는 경우의 working frequency."
+      ],
+      "unit_title": "Radio Data - General · General Information"
     },
     {
       "id": 3,
       "title": "Aeronautical Mobile Frequencies & VHF Range",
       "sections": [
         {
-          "title": "Aeronautical Mobile Frequency Allocation",
+          "heading": "Aeronautical Mobile Frequency Allocation",
           "bullets": [
             "118–121.4 MHz: International and National Aeronautical Mobile Services.",
             "121.6–121.9917 MHz: International and National Aerodrome Surface Communications.",
@@ -109,12 +230,58 @@
           ]
         },
         {
-          "title": "Effective Range of VHF",
+          "heading": "Effective Range of VHF",
           "bullets": [
             "VHF transmission range는 actual line of sight보다 normally about 7% 더 길다.",
             "공식에서 D는 nautical miles 단위 distance, h는 aircraft station height above earth이다.",
             "Effective earth radius는 actual radius의 4/3을 사용하며, K는 h가 metres일 때 2.22, feet일 때 1.23이다."
           ]
+        },
+        {
+          "heading": "단계 세부 항목 정리",
+          "paragraphs": [
+            "이 표는 해당 단계의 원문 기반 문제 항목을 이론 복습용으로 다시 정리한 것이다."
+          ],
+          "table": {
+            "headers": [
+              "항목",
+              "Jeppesen 원문 기반 상세 설명"
+            ],
+            "rows": [
+              [
+                "International and National Aerodrome Surface Communications",
+                "원문은 121.6–121.9917 MHz를 International and National Aerodrome Surface Communications로 제시한다."
+              ],
+              [
+                "123.1 MHz",
+                "원문은 123.1 MHz를 Auxiliary frequency SAR로 제시한다."
+              ],
+              [
+                "123.45 MHz",
+                "원문은 123.45 MHz를 Worldwide air-to-air communications로 명시한다."
+              ],
+              [
+                "VHF air-ground data link communications",
+                "원문은 136.9–136.975 MHz를 VHF air-ground data link communications용으로 reserved한다고 설명한다."
+              ],
+              [
+                "약 7% 길다.",
+                "원문은 VHF transmission range가 actual line of sight보다 normally about 7% more라고 설명한다."
+              ],
+              [
+                "해리 단위 거리",
+                "원문에서 D는 distance in nautical miles를 의미한다."
+              ],
+              [
+                "1.23",
+                "원문은 h가 feet일 때 K=1.23이라고 제시한다."
+              ],
+              [
+                "2.22",
+                "원문은 h가 metres일 때 K=2.22라고 제시한다."
+              ]
+            ]
+          }
         }
       ],
       "subject": "Jeppesen Airway Manual · Radio Data - General · General Information",
@@ -125,7 +292,7 @@
       "source_pdf_pages": [
         333
       ],
-      "quiz_question_ids": [
+      "question_ids": [
         "JEPP-RADIOGEN-017",
         "JEPP-RADIOGEN-018",
         "JEPP-RADIOGEN-019",
@@ -134,14 +301,25 @@
         "JEPP-RADIOGEN-022",
         "JEPP-RADIOGEN-023",
         "JEPP-RADIOGEN-024"
-      ]
+      ],
+      "quiz_questions": 8,
+      "pass_percent": 80,
+      "summary_points": [
+        "118–121.4 MHz: International and National Aeronautical Mobile Services.",
+        "121.6–121.9917 MHz: International and National Aerodrome Surface Communications.",
+        "123.1 MHz: Auxiliary frequency SAR · 123.45 MHz: Worldwide air-to-air communications.",
+        "136.9–136.975 MHz: VHF air-ground data link communications용 reserved band.",
+        "VHF transmission range는 actual line of sight보다 normally about 7% 더 길다.",
+        "공식에서 D는 nautical miles 단위 distance, h는 aircraft station height above earth이다."
+      ],
+      "unit_title": "Radio Data - General · General Information"
     },
     {
       "id": 4,
       "title": "VHF Range Reference & Signal Emissions I",
       "sections": [
         {
-          "title": "VHF Range over Flat Terrain",
+          "heading": "VHF Range over Flat Terrain",
           "bullets": [
             "500 ft 28 NM · 1,000 ft 39 NM · 1,500 ft 48 NM · 2,000 ft 55 NM.",
             "3,000 ft 69 NM · 5,000 ft 87 NM · 10,000 ft 122 NM · 15,000 ft 152 NM.",
@@ -149,13 +327,59 @@
           ]
         },
         {
-          "title": "Types of Signal Emissions I",
+          "heading": "Types of Signal Emissions I",
           "bullets": [
             "NON(A0): no modulation.",
             "A1A(A1): telegraphy without use of a modulating audio frequency(by on-off keying).",
             "A3A(A3): telephony, double sideband.",
             "R3E(A3A): single sideband, reduced carrier · H3E(A3H): single sideband, full carrier · J3E(A3J): single sideband, suppressed carrier."
           ]
+        },
+        {
+          "heading": "단계 세부 항목 정리",
+          "paragraphs": [
+            "이 표는 해당 단계의 원문 기반 문제 항목을 이론 복습용으로 다시 정리한 것이다."
+          ],
+          "table": {
+            "headers": [
+              "항목",
+              "Jeppesen 원문 기반 상세 설명"
+            ],
+            "rows": [
+              [
+                "28 NM",
+                "원문 표에서 500 ft의 VHF range는 28 NM이다."
+              ],
+              [
+                "87 NM",
+                "원문 표에서 5,000 ft의 VHF range는 87 NM이다."
+              ],
+              [
+                "122 NM",
+                "원문 표에서 10,000 ft의 VHF range는 122 NM이다."
+              ],
+              [
+                "246 NM",
+                "원문 표에서 40,000 ft의 VHF range는 246 NM이다."
+              ],
+              [
+                "Telegraphy without the use of a modulating audio frequency",
+                "원문은 A1A(A1)를 modulating audio frequency를 사용하지 않는 telegraphy(on-off keying)로 설명한다."
+              ],
+              [
+                "Telephony · Double Sideband",
+                "원문 Types of Signal Emissions 표에서 A3A(A3)는 Telephony, Double Sideband이다."
+              ],
+              [
+                "Single sideband, suppressed carrier",
+                "원문은 J3E(A3J)를 Single sideband, suppressed carrier로 제시한다."
+              ],
+              [
+                "Single sideband, full carrier",
+                "원문은 H3E(A3H)를 Single sideband, full carrier로 제시한다."
+              ]
+            ]
+          }
         }
       ],
       "subject": "Jeppesen Airway Manual · Radio Data - General · General Information",
@@ -166,7 +390,7 @@
       "source_pdf_pages": [
         334
       ],
-      "quiz_question_ids": [
+      "question_ids": [
         "JEPP-RADIOGEN-025",
         "JEPP-RADIOGEN-026",
         "JEPP-RADIOGEN-027",
@@ -175,14 +399,25 @@
         "JEPP-RADIOGEN-030",
         "JEPP-RADIOGEN-031",
         "JEPP-RADIOGEN-032"
-      ]
+      ],
+      "quiz_questions": 8,
+      "pass_percent": 80,
+      "summary_points": [
+        "500 ft 28 NM · 1,000 ft 39 NM · 1,500 ft 48 NM · 2,000 ft 55 NM.",
+        "3,000 ft 69 NM · 5,000 ft 87 NM · 10,000 ft 122 NM · 15,000 ft 152 NM.",
+        "20,000 ft 174 NM · 30,000 ft 213 NM · 40,000 ft 246 NM.",
+        "NON(A0): no modulation.",
+        "A1A(A1): telegraphy without use of a modulating audio frequency(by on-off keying).",
+        "A3A(A3): telephony, double sideband."
+      ],
+      "unit_title": "Radio Data - General · General Information"
     },
     {
       "id": 5,
       "title": "Types of Signal Emissions II",
       "sections": [
         {
-          "title": "Types of Signal Emissions II",
+          "heading": "Types of Signal Emissions II",
           "bullets": [
             "B7E: two independent sidebands containing quantized/digital information.",
             "B8E: two independent sidebands containing analogue information.",
@@ -191,6 +426,52 @@
             "R7B(A7A): multichannel voice-frequency telegraphy, single sideband, reduced carrier.",
             "B9W(A9B): 위 분류에 포함되지 않는 조합(예: telephony + telegraphy), two independent sidebands."
           ]
+        },
+        {
+          "heading": "단계 세부 항목 정리",
+          "paragraphs": [
+            "이 표는 해당 단계의 원문 기반 문제 항목을 이론 복습용으로 다시 정리한 것이다."
+          ],
+          "table": {
+            "headers": [
+              "항목",
+              "Jeppesen 원문 기반 상세 설명"
+            ],
+            "rows": [
+              [
+                "Single sideband, reduced carrier",
+                "원문은 R3E(A3A)를 Single sideband, reduced carrier로 제시한다."
+              ],
+              [
+                "두 독립 sideband에 quantized/digital information 포함",
+                "원문은 B7E를 two independent sidebands containing quantized or digital information으로 설명한다."
+              ],
+              [
+                "Two independent sidebands containing analogue information",
+                "원문은 B8E를 two independent sidebands containing analogue information으로 설명한다."
+              ],
+              [
+                "Facsimile (by a frequency modulated sub-carrier)",
+                "원문은 A4를 Facsimile(by a frequency modulated sub-carrier)로 제시한다."
+              ],
+              [
+                "Single sideband, reduced carrier",
+                "원문 p.335에서 R3C(A4A)는 Single sideband, reduced carrier이다."
+              ],
+              [
+                "Single sideband, suppressed carrier",
+                "원문 p.335에서 J3C는 Single sideband, suppressed carrier이다."
+              ],
+              [
+                "Multichannel voice-frequency telegraphy / Single sideband, reduced carrier",
+                "원문은 R7B(A7A)를 Multichannel voice-frequency telegraphy, Single sideband, reduced carrier로 제시한다."
+              ],
+              [
+                "위 분류에 포함되지 않는 조합(예: telephony+telegraphy), two independent sidebands",
+                "원문은 B9W(A9B)를 위 항목으로 포괄되지 않는 경우(예: telephony와 telegraphy의 조합), two independent sidebands로 설명한다."
+              ]
+            ]
+          }
         }
       ],
       "subject": "Jeppesen Airway Manual · Radio Data - General · General Information",
@@ -203,7 +484,7 @@
         334,
         335
       ],
-      "quiz_question_ids": [
+      "question_ids": [
         "JEPP-RADIOGEN-033",
         "JEPP-RADIOGEN-034",
         "JEPP-RADIOGEN-035",
@@ -212,7 +493,18 @@
         "JEPP-RADIOGEN-038",
         "JEPP-RADIOGEN-039",
         "JEPP-RADIOGEN-040"
-      ]
+      ],
+      "quiz_questions": 8,
+      "pass_percent": 80,
+      "summary_points": [
+        "B7E: two independent sidebands containing quantized/digital information.",
+        "B8E: two independent sidebands containing analogue information.",
+        "A4(A4): Facsimile(by a frequency modulated sub-carrier).",
+        "R3C(A4A): single sideband, reduced carrier · J3C: single sideband, suppressed carrier.",
+        "R7B(A7A): multichannel voice-frequency telegraphy, single sideband, reduced carrier.",
+        "B9W(A9B): 위 분류에 포함되지 않는 조합(예: telephony + telegraphy), two independent sidebands."
+      ],
+      "unit_title": "Radio Data - General · General Information"
     }
   ]
 }

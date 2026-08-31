@@ -11,7 +11,10 @@
       "questions": "6–10",
       "pass_percent": 80
     },
-    "version": "v11.60.17"
+    "version": "v11.60.17",
+    "detail_revision": "v11.60.29-source-detail-overhaul",
+    "detail_revision_date": "2026-08-30",
+    "detail_note": "이론 렌더러 호환 스키마(heading/paragraphs/figure/question_ids)로 통일하고 원문 기반 세부 설명과 복습 표를 확장함."
   },
   "stages": [
     {
@@ -110,9 +113,55 @@
             "src": "assets/jeppesen-sidstar-legend/sidstar-008-chart-type-identifier.webp",
             "caption": "SID/DP and STAR Legend p.145 · Chart type identifier"
           }
+        },
+        {
+          "heading": "단계 세부 항목 정리",
+          "paragraphs": [
+            "이 표는 해당 단계의 원문 기반 문제 항목을 이론 복습용으로 다시 정리한 것이다."
+          ],
+          "table": {
+            "headers": [
+              "항목",
+              "Jeppesen 원문 기반 상세 설명"
+            ],
+            "rows": [
+              [
+                "No. 1 · ICAO indicators and IATA identifiers",
+                "ICAO 위치지시부호와 IATA 식별부호를 표시한다."
+              ],
+              [
+                "No. 2 · Airport name",
+                "공항명을 표시한다."
+              ],
+              [
+                "No. 3 · Chart revision date",
+                "차트 개정일을 표시한다."
+              ],
+              [
+                "No. 4 · Jeppesen company logo",
+                "Jeppesen 회사 로고를 표시한다."
+              ],
+              [
+                "No. 5 · Index number",
+                "인덱스 번호를 표시한다. 같은 종류의 도착/출발 절차에서는 알파벳순 또는 활주로 번호순으로 차트가 배열된다."
+              ],
+              [
+                "No. 6 · Chart effective date",
+                "차트 시행일(Effective Date)을 표시한다."
+              ],
+              [
+                "No. 7 · Geographical location name",
+                "지리적 위치명을 표시한다."
+              ],
+              [
+                "No. 8 · Chart type identifier",
+                "SID 등 차트 종류 식별자를 표시한다."
+              ]
+            ]
+          }
         }
       ],
-      "quiz_question_ids": [
+      "question_ids": [
         "JEPP-SIDSTAR-001",
         "JEPP-SIDSTAR-002",
         "JEPP-SIDSTAR-003",
@@ -121,6 +170,16 @@
         "JEPP-SIDSTAR-006",
         "JEPP-SIDSTAR-007",
         "JEPP-SIDSTAR-008"
+      ],
+      "quiz_questions": 8,
+      "pass_percent": 80,
+      "summary_points": [
+        "SID/DP 및 STAR 차트는 Heading, Briefing Information, MSA, Graphic, Climb and Routing Instructions 등으로 구성된다. 별도 표기가 없는 한 고도는 MSL, 거리는 NM, Radial과 Bearing은 Magnetic을 사용한다.",
+        "ICAO 위치지시부호와 IATA 식별부호를 표시한다.",
+        "Jeppesen 회사 로고를 표시한다.",
+        "인덱스 번호를 표시한다. 같은 종류의 도착/출발 절차에서는 알파벳순 또는 활주로 번호순으로 차트가 배열된다.",
+        "차트 시행일(Effective Date)을 표시한다.",
+        "SID 등 차트 종류 식별자를 표시한다."
       ]
     },
     {
@@ -259,9 +318,71 @@
             "src": "assets/jeppesen-sidstar-legend/sidstar-020-navaid-fix-arp-the-msa-is-predicated-on.webp",
             "caption": "SID/DP and STAR Legend p.146 · Navaid/Fix/ARP the MSA is predicated on"
           }
+        },
+        {
+          "heading": "단계 세부 항목 정리",
+          "paragraphs": [
+            "이 표는 해당 단계의 원문 기반 문제 항목을 이론 복습용으로 다시 정리한 것이다."
+          ],
+          "table": {
+            "headers": [
+              "항목",
+              "Jeppesen 원문 기반 상세 설명"
+            ],
+            "rows": [
+              [
+                "No. 1 · Part-time service indicator",
+                "해당 서비스가 시간제로 제공됨을 나타낸다."
+              ],
+              [
+                "No. 2 · SID/DP Initial Departure Control Services or STAR Weather Services",
+                "SID/DP의 초기 출발 관제 서비스 또는 STAR의 기상 서비스(예: ATIS)가 표시되는 부분이다."
+              ],
+              [
+                "No. 3 · Function of the service",
+                "해당되는 경우 서비스의 기능을 표시한다."
+              ],
+              [
+                "No. 4 · Service call sign",
+                "송수신 또는 송신 전용 서비스의 호출부호를 표시한다. 방송 전용이거나 보조 기능인 경우 호출부호가 생략될 수 있다."
+              ],
+              [
+                "No. 5 · Primary frequencies",
+                "사용 가능한 주요 주파수를 모두 표시한다."
+              ],
+              [
+                "No. 6 · Radar service available",
+                "레이더 서비스 이용 가능 여부를 나타낸다."
+              ],
+              [
+                "No. 7 · Airport elevation",
+                "도착/출발 공항의 공항표고를 표시한다."
+              ],
+              [
+                "No. 8 · Procedure restrictions and instructions",
+                "절차 제한사항과 지시사항을 표시하며, 필요한 장비 관련 주의사항도 두드러지게 표시한다."
+              ],
+              [
+                "No. 9 · Transition Level and Altitude",
+                "Transition Level과 Transition Altitude를 표시한다."
+              ],
+              [
+                "No. 1 · Sector-defining radial/bearing, inbound airway, fix or ARP",
+                "MSA 섹터를 구분하는 방위/방위선, 항행시설로 향하는 항로 또는 Fix/ARP를 나타낸다."
+              ],
+              [
+                "No. 2 · Minimum safe/sector altitude",
+                "해당 섹터의 최저안전고도/최저섹터고도를 나타낸다."
+              ],
+              [
+                "No. 3 · Navaid/Fix/ARP the MSA is predicated on",
+                "MSA 산정의 기준이 되는 항행시설, Fix 또는 ARP를 나타낸다."
+              ]
+            ]
+          }
         }
       ],
-      "quiz_question_ids": [
+      "question_ids": [
         "JEPP-SIDSTAR-009",
         "JEPP-SIDSTAR-010",
         "JEPP-SIDSTAR-011",
@@ -274,6 +395,16 @@
         "JEPP-SIDSTAR-018",
         "JEPP-SIDSTAR-019",
         "JEPP-SIDSTAR-020"
+      ],
+      "quiz_questions": 10,
+      "pass_percent": 80,
+      "summary_points": [
+        "Briefing Information 영역에는 관제·기상 서비스, 주파수, 공항표고, 절차 제한 및 Transition Level/Altitude 등이 표시된다. MSA는 섹터 구분과 최저고도, 기준 Navaid/Fix/ARP를 함께 읽는다.",
+        "해당 서비스가 시간제로 제공됨을 나타낸다.",
+        "SID/DP의 초기 출발 관제 서비스 또는 STAR의 기상 서비스(예: ATIS)가 표시되는 부분이다.",
+        "해당되는 경우 서비스의 기능을 표시한다.",
+        "송수신 또는 송신 전용 서비스의 호출부호를 표시한다. 방송 전용이거나 보조 기능인 경우 호출부호가 생략될 수 있다.",
+        "사용 가능한 주요 주파수를 모두 표시한다."
       ]
     },
     {
@@ -404,9 +535,67 @@
             "src": "assets/jeppesen-sidstar-legend/sidstar-031-navaid-box-with-shadowed-outline.webp",
             "caption": "SID/DP and STAR Legend p.147 · Navaid box with shadowed outline"
           }
+        },
+        {
+          "heading": "단계 세부 항목 정리",
+          "paragraphs": [
+            "이 표는 해당 단계의 원문 기반 문제 항목을 이론 복습용으로 다시 정리한 것이다."
+          ],
+          "table": {
+            "headers": [
+              "항목",
+              "Jeppesen 원문 기반 상세 설명"
+            ],
+            "rows": [
+              [
+                "No. 1 · General identification",
+                "활주로, 도착 또는 SID 식별과 같이 절차의 특정 부분에 적용되는 일반 식별정보를 나타낸다."
+              ],
+              [
+                "No. 2 · Segment of flight",
+                "Initial Climb, Routing, Landing 등 비행의 해당 구간을 식별한다."
+              ],
+              [
+                "No. 3 · Textual description",
+                "그래픽 표현을 보완하거나 그래픽으로 나타내기 어려운 고유 지시사항을 텍스트로 제공한다."
+              ],
+              [
+                "No. 4 · General restriction",
+                "그래픽에 포함하기 어렵거나 절차 이해에 도움이 되는 일반 제한사항을 나타낸다."
+              ],
+              [
+                "No. 1 · Information box heading",
+                "정보 상자의 제목으로, 상자가 누구/무엇/어디/왜에 관한 것인지 나타낸다."
+              ],
+              [
+                "No. 2 · Instruction separator lines",
+                "여러 지시사항과 조건을 구분하여 가독성을 높이는 구분선이다."
+              ],
+              [
+                "No. 3 · Instructions or conditional statements",
+                "해당 트랙, Fix, 항행시설 또는 절차와 관련된 지시사항이나 조건문을 표시한다."
+              ],
+              [
+                "No. LC · Lost Communications Procedure",
+                "관할 기관이 제공한 고유 통신두절 절차 지시를 그래픽 영역의 통신두절 경계 안에 표시한다."
+              ],
+              [
+                "No. SPD · Procedure-wide speed restriction",
+                "절차 전체에 적용되는 속도제한은 절차 제목 아래에 표시한다. 개별 구간의 제한은 텍스트/정보상자/관련 트랙 등에 표시될 수 있다."
+              ],
+              [
+                "No. 1 · Intersection or waypoint name in larger text",
+                "STAR의 시작점 또는 SID/DP의 종료점을 쉽게 식별할 수 있도록 교차점/웨이포인트 명칭을 크게 표시한다."
+              ],
+              [
+                "No. 2 · Navaid box with shadowed outline",
+                "절차의 시작점/종료점으로 강조되는 항행시설 박스는 음영 윤곽선을 포함한다."
+              ]
+            ]
+          }
         }
       ],
-      "quiz_question_ids": [
+      "question_ids": [
         "JEPP-SIDSTAR-021",
         "JEPP-SIDSTAR-022",
         "JEPP-SIDSTAR-023",
@@ -418,6 +607,16 @@
         "JEPP-SIDSTAR-029",
         "JEPP-SIDSTAR-030",
         "JEPP-SIDSTAR-031"
+      ],
+      "quiz_questions": 10,
+      "pass_percent": 80,
+      "summary_points": [
+        "표 형식의 Climb/Routing Instructions와 Graphic Information Box는 그래픽만으로 표현하기 어려운 지시·제한을 보완한다. Lost Communications, 절차 전체 Speed Restriction, STAR 시작점/SID·DP 종료점 표기도 함께 확인한다.",
+        "활주로, 도착 또는 SID 식별과 같이 절차의 특정 부분에 적용되는 일반 식별정보를 나타낸다.",
+        "Initial Climb, Routing, Landing 등 비행의 해당 구간을 식별한다.",
+        "그래픽 표현을 보완하거나 그래픽으로 나타내기 어려운 고유 지시사항을 텍스트로 제공한다.",
+        "그래픽에 포함하기 어렵거나 절차 이해에 도움이 되는 일반 제한사항을 나타낸다.",
+        "정보 상자의 제목으로, 상자가 누구/무엇/어디/왜에 관한 것인지 나타낸다."
       ]
     },
     {
@@ -516,9 +715,55 @@
             "src": "assets/jeppesen-sidstar-legend/sidstar-039-common-course-portion-of-procedure.webp",
             "caption": "SID/DP and STAR Legend p.148 · Common-course portion of procedure"
           }
+        },
+        {
+          "heading": "단계 세부 항목 정리",
+          "paragraphs": [
+            "이 표는 해당 단계의 원문 기반 문제 항목을 이론 복습용으로 다시 정리한 것이다."
+          ],
+          "table": {
+            "headers": [
+              "항목",
+              "Jeppesen 원문 기반 상세 설명"
+            ],
+            "rows": [
+              [
+                "No. 1 · Type of procedure",
+                "절차의 종류를 나타낸다."
+              ],
+              [
+                "No. 2 · Arrival/Departure code",
+                "Arrival/Departure 코드를 나타낸다."
+              ],
+              [
+                "No. 3 · Arrival/Departure name",
+                "Arrival/Departure 명칭을 나타낸다."
+              ],
+              [
+                "No. 4 · Database identifiers",
+                "Arrival/Departure 코드나 명칭과 다른 경우 데이터베이스 식별자를 함께 표시한다."
+              ],
+              [
+                "No. 5 · Qualifying statements",
+                "활주로, 항법 요구사항 또는 항공기 형식 등 절차에 적용되는 한정 조건을 표시한다."
+              ],
+              [
+                "No. 6 · Runway layout",
+                "모든 포장 활주로의 활주로 배치를 표시한다."
+              ],
+              [
+                "No. 7 · Arrival/Departure airport highlighted with circular screen",
+                "도착/출발 공항은 원형 스크린으로 강조한다."
+              ],
+              [
+                "No. 8 · Common-course portion of procedure",
+                "여러 전이가 공통으로 사용하는 Arrival/Departure 절차의 공통 코스 구간을 나타낸다."
+              ]
+            ]
+          }
         }
       ],
-      "quiz_question_ids": [
+      "question_ids": [
         "JEPP-SIDSTAR-032",
         "JEPP-SIDSTAR-033",
         "JEPP-SIDSTAR-034",
@@ -527,6 +772,16 @@
         "JEPP-SIDSTAR-037",
         "JEPP-SIDSTAR-038",
         "JEPP-SIDSTAR-039"
+      ],
+      "quiz_questions": 8,
+      "pass_percent": 80,
+      "summary_points": [
+        "기존 Not-To-Scale 형식의 SID/DP·STAR 그래픽에서 번호별 범례 요소를 읽는다.",
+        "Arrival/Departure 코드를 나타낸다.",
+        "Arrival/Departure 명칭을 나타낸다.",
+        "Arrival/Departure 코드나 명칭과 다른 경우 데이터베이스 식별자를 함께 표시한다.",
+        "활주로, 항법 요구사항 또는 항공기 형식 등 절차에 적용되는 한정 조건을 표시한다.",
+        "모든 포장 활주로의 활주로 배치를 표시한다."
       ]
     },
     {
@@ -605,15 +860,63 @@
             "src": "assets/jeppesen-sidstar-legend/sidstar-045-special-use-airspace-area.webp",
             "caption": "SID/DP and STAR Legend p.148 · Special Use Airspace area"
           }
+        },
+        {
+          "heading": "단계 세부 항목 정리",
+          "paragraphs": [
+            "이 표는 해당 단계의 원문 기반 문제 항목을 이론 복습용으로 다시 정리한 것이다."
+          ],
+          "table": {
+            "headers": [
+              "항목",
+              "Jeppesen 원문 기반 상세 설명"
+            ],
+            "rows": [
+              [
+                "No. 9 · Additional airport served by the SID/DP/STAR",
+                "SID, DP 또는 STAR가 여러 공항을 서비스하는 경우 추가 공항을 표시하며, 해당 공항들은 스크린 처리된다."
+              ],
+              [
+                "No. 10 · Starting point of STAR / end point of SID/DP",
+                "STAR의 시작점과 SID/DP의 종료점을 눈에 띄게 표시한다."
+              ],
+              [
+                "No. 11 · MOCA indicated by T after altitude",
+                "고도 뒤의 T 표시는 Minimum Obstruction Clearance Altitude(MOCA)를 뜻한다."
+              ],
+              [
+                "No. 12 · Radial and DME fix",
+                "Radial과 DME로 Fix를 구성한다. DME가 표시되지 않으면 구간거리이며, 표시되는 경우 기준 항행시설로부터의 총거리이다."
+              ],
+              [
+                "No. 13 · Altitude T at non-Navaid altitude change",
+                "항행시설이 아닌 지점에서 트랙을 따라 고도가 변경되는 경우 고도 T를 표시한다."
+              ],
+              [
+                "No. 14 · Special Use Airspace area",
+                "절차 원자료에 언급된 특정 특수사용공역을 표시한다."
+              ]
+            ]
+          }
         }
       ],
-      "quiz_question_ids": [
+      "question_ids": [
         "JEPP-SIDSTAR-040",
         "JEPP-SIDSTAR-041",
         "JEPP-SIDSTAR-042",
         "JEPP-SIDSTAR-043",
         "JEPP-SIDSTAR-044",
         "JEPP-SIDSTAR-045"
+      ],
+      "quiz_questions": 6,
+      "pass_percent": 80,
+      "summary_points": [
+        "기존 Not-To-Scale 형식의 SID/DP·STAR 그래픽에서 번호별 범례 요소를 읽는다.",
+        "SID, DP 또는 STAR가 여러 공항을 서비스하는 경우 추가 공항을 표시하며, 해당 공항들은 스크린 처리된다.",
+        "STAR의 시작점과 SID/DP의 종료점을 눈에 띄게 표시한다.",
+        "고도 뒤의 T 표시는 Minimum Obstruction Clearance Altitude(MOCA)를 뜻한다.",
+        "Radial과 DME로 Fix를 구성한다. DME가 표시되지 않으면 구간거리이며, 표시되는 경우 기준 항행시설로부터의 총거리이다.",
+        "항행시설이 아닌 지점에서 트랙을 따라 고도가 변경되는 경우 고도 T를 표시한다."
       ]
     },
     {
@@ -722,9 +1025,59 @@
             "src": "assets/jeppesen-sidstar-legend/sidstar-054-inbound-vor-radial.webp",
             "caption": "SID/DP and STAR Legend p.148 · Inbound VOR radial"
           }
+        },
+        {
+          "heading": "단계 세부 항목 정리",
+          "paragraphs": [
+            "이 표는 해당 단계의 원문 기반 문제 항목을 이론 복습용으로 다시 정리한 것이다."
+          ],
+          "table": {
+            "headers": [
+              "항목",
+              "Jeppesen 원문 기반 상세 설명"
+            ],
+            "rows": [
+              [
+                "No. 15 · Transition name",
+                "SID/DP의 마지막 구간과 STAR의 첫 구간에 전이 명칭을 표시한다."
+              ],
+              [
+                "No. 16 · Minimum Enroute Altitude (MEA)",
+                "별도 지정이 없는 한 최저항로고도(MEA)를 표시한다."
+              ],
+              [
+                "No. 17 · Segment distance",
+                "구간거리를 표시한다."
+              ],
+              [
+                "No. 18 · Coordinates of fix or Navaid",
+                "Fix 또는 항행시설의 좌표를 표시한다."
+              ],
+              [
+                "No. 19 · Formation radials",
+                "항행시설 위치와 공역 구성에 따라 형성 Radial을 다양한 방식으로 표시한다."
+              ],
+              [
+                "No. 20 · Route identification code",
+                "항로 식별 코드를 표시한다."
+              ],
+              [
+                "No. 21 · Changeover point",
+                "Changeover Point에서 조종사는 주 항법 기준을 다음 항행시설로 변경한다."
+              ],
+              [
+                "No. 22 · Transition track",
+                "전이 트랙을 나타낸다."
+              ],
+              [
+                "No. 23 · Inbound VOR radial",
+                "항공기가 항행시설을 향해 인바운드로 비행하는 VOR Radial을 나타낸다."
+              ]
+            ]
+          }
         }
       ],
-      "quiz_question_ids": [
+      "question_ids": [
         "JEPP-SIDSTAR-046",
         "JEPP-SIDSTAR-047",
         "JEPP-SIDSTAR-048",
@@ -734,6 +1087,16 @@
         "JEPP-SIDSTAR-052",
         "JEPP-SIDSTAR-053",
         "JEPP-SIDSTAR-054"
+      ],
+      "quiz_questions": 9,
+      "pass_percent": 80,
+      "summary_points": [
+        "기존 Not-To-Scale 형식의 SID/DP·STAR 그래픽에서 번호별 범례 요소를 읽는다.",
+        "SID/DP의 마지막 구간과 STAR의 첫 구간에 전이 명칭을 표시한다.",
+        "별도 지정이 없는 한 최저항로고도(MEA)를 표시한다.",
+        "Fix 또는 항행시설의 좌표를 표시한다.",
+        "항행시설 위치와 공역 구성에 따라 형성 Radial을 다양한 방식으로 표시한다.",
+        "Changeover Point에서 조종사는 주 항법 기준을 다음 항행시설로 변경한다."
       ]
     },
     {
@@ -832,9 +1195,55 @@
             "src": "assets/jeppesen-sidstar-legend/sidstar-062-holding-pattern-leg-lengths-to-scale.webp",
             "caption": "SID/DP and STAR Legend p.150 · Holding pattern leg lengths to scale"
           }
+        },
+        {
+          "heading": "단계 세부 항목 정리",
+          "paragraphs": [
+            "이 표는 해당 단계의 원문 기반 문제 항목을 이론 복습용으로 다시 정리한 것이다."
+          ],
+          "table": {
+            "headers": [
+              "항목",
+              "Jeppesen 원문 기반 상세 설명"
+            ],
+            "rows": [
+              [
+                "No. 1 · Primary-airport runway diagram to scale",
+                "주 공항의 활주로 도면을 To-Scale 그래픽과 동일한 축척으로 표시한다."
+              ],
+              [
+                "No. 2 · Minimum Sector Altitudes (MSA) to scale",
+                "MSA 섹터와 해당 고도를 To-Scale로 표시한다."
+              ],
+              [
+                "No. 3 · Other served airports in blue",
+                "여러 공항을 서비스하는 절차에서 주 공항이 아닌 서비스 공항을 파란색으로 표시한다."
+              ],
+              [
+                "No. 4 · IFR airports not served shown in subdued gray",
+                "To-Scale 범위 안에 있지만 해당 절차가 서비스하지 않는 IFR 공항은 연한 회색으로 표시한다. FAA 관할에서는 일정 조건의 공항만 표시한다."
+              ],
+              [
+                "No. 5 · Procedure altitude restrictions in blue",
+                "절차 고도제한은 파란색으로 표시하고, 값 위/아래 선을 사용해 최소·최대·필수 등 제한 형태를 나타낸다."
+              ],
+              [
+                "No. 6 · Speed restrictions in magenta",
+                "속도제한은 자홍색으로 표시하며 절차 고도제한과 함께 표시될 수도 있다."
+              ],
+              [
+                "No. 7 · Grid MORA",
+                "To-Scale 구역에서는 위도/경도로 구획된 Grid MORA를 표시한다. 큰 숫자는 천 피트, 작은 숫자는 절단된 백 피트를 나타낸다."
+              ],
+              [
+                "No. 8 · Holding pattern leg lengths to scale",
+                "Holding Pattern의 Leg 길이를 축척에 맞게 표시하며 DME/NM 제한이 있으면 outbound leg에 표시한다."
+              ]
+            ]
+          }
         }
       ],
-      "quiz_question_ids": [
+      "question_ids": [
         "JEPP-SIDSTAR-055",
         "JEPP-SIDSTAR-056",
         "JEPP-SIDSTAR-057",
@@ -843,6 +1252,16 @@
         "JEPP-SIDSTAR-060",
         "JEPP-SIDSTAR-061",
         "JEPP-SIDSTAR-062"
+      ],
+      "quiz_questions": 8,
+      "pass_percent": 80,
+      "summary_points": [
+        "To-Scale 형식에서는 공항·MSA·절차 제한·지형·Grid MORA·공역·수역·방향 등을 실제 축척 또는 명시된 방식으로 표시한다.",
+        "주 공항의 활주로 도면을 To-Scale 그래픽과 동일한 축척으로 표시한다.",
+        "MSA 섹터와 해당 고도를 To-Scale로 표시한다.",
+        "여러 공항을 서비스하는 절차에서 주 공항이 아닌 서비스 공항을 파란색으로 표시한다.",
+        "To-Scale 범위 안에 있지만 해당 절차가 서비스하지 않는 IFR 공항은 연한 회색으로 표시한다. FAA 관할에서는 일정 조건의 공항만 표시한다.",
+        "절차 고도제한은 파란색으로 표시하고, 값 위/아래 선을 사용해 최소·최대·필수 등 제한 형태를 나타낸다."
       ]
     },
     {
@@ -951,9 +1370,59 @@
             "src": "assets/jeppesen-sidstar-legend/sidstar-071-secondary-navaid-box-in-gray.webp",
             "caption": "SID/DP and STAR Legend p.150 · Secondary Navaid box in gray"
           }
+        },
+        {
+          "heading": "단계 세부 항목 정리",
+          "paragraphs": [
+            "이 표는 해당 단계의 원문 기반 문제 항목을 이론 복습용으로 다시 정리한 것이다."
+          ],
+          "table": {
+            "headers": [
+              "항목",
+              "Jeppesen 원문 기반 상세 설명"
+            ],
+            "rows": [
+              [
+                "No. 9 · Generalized terrain contours",
+                "지형 등고선을 일반화해 표시할 수 있으며, 등고선 범례에 해당 고도값을 표시한다."
+              ],
+              [
+                "No. 10 · Highest terrain or man-made structure",
+                "To-Scale 그래픽 안의 최고 지형 고점 또는 인공구조물을 표시하고 화살표로 강조한다."
+              ],
+              [
+                "No. 11 · Significant Special Use Airspace",
+                "당국이 중요하다고 지정한 특수사용공역은 외곽선 경계 안에 파란색으로 표시한다."
+              ],
+              [
+                "No. 12 · NOT TO SCALE transition inset",
+                "전체 절차를 To-Scale로 표현하기 어려운 경우 전이 정보를 NOT TO SCALE 삽입영역으로 표시한다."
+              ],
+              [
+                "No. 13 · Graphic scale indication",
+                "그래픽에 사용된 축척을 표시한다."
+              ],
+              [
+                "No. 14 · Latitude/Longitude ticks",
+                "가장자리의 위도/경도 눈금을 10분 간격으로 표시하고, 적절한 30분 또는 1도 눈금을 연장하여 MORA 그리드를 구성한다."
+              ],
+              [
+                "No. 15 · Large rivers and water bodies",
+                "큰 강과 수역을 표시한다."
+              ],
+              [
+                "No. 16 · North arrow / chart orientation",
+                "일반적으로 북쪽이 차트 위쪽을 향하지만 다른 방향이 더 적절한 경우 다른 방향을 사용할 수 있으며, 항상 북쪽 화살표로 방향을 표시한다."
+              ],
+              [
+                "No. 17 · Secondary Navaid box in gray",
+                "절차 항법에 직접 사용되지 않는 보조 항행시설 박스는 주 항행시설과 구분되도록 회색으로 표시한다."
+              ]
+            ]
+          }
         }
       ],
-      "quiz_question_ids": [
+      "question_ids": [
         "JEPP-SIDSTAR-063",
         "JEPP-SIDSTAR-064",
         "JEPP-SIDSTAR-065",
@@ -963,6 +1432,16 @@
         "JEPP-SIDSTAR-069",
         "JEPP-SIDSTAR-070",
         "JEPP-SIDSTAR-071"
+      ],
+      "quiz_questions": 9,
+      "pass_percent": 80,
+      "summary_points": [
+        "To-Scale 형식에서는 공항·MSA·절차 제한·지형·Grid MORA·공역·수역·방향 등을 실제 축척 또는 명시된 방식으로 표시한다.",
+        "지형 등고선을 일반화해 표시할 수 있으며, 등고선 범례에 해당 고도값을 표시한다.",
+        "To-Scale 그래픽 안의 최고 지형 고점 또는 인공구조물을 표시하고 화살표로 강조한다.",
+        "당국이 중요하다고 지정한 특수사용공역은 외곽선 경계 안에 파란색으로 표시한다.",
+        "전체 절차를 To-Scale로 표현하기 어려운 경우 전이 정보를 NOT TO SCALE 삽입영역으로 표시한다.",
+        "가장자리의 위도/경도 눈금을 10분 간격으로 표시하고, 적절한 30분 또는 1도 눈금을 연장하여 MORA 그리드를 구성한다."
       ]
     }
   ]

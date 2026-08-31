@@ -1,0 +1,271 @@
+{
+  "version": "v11.60.29",
+  "base": "v11.60.28",
+  "purpose": "Jeppesen reference-study theory detail overhaul + Navigation Aids figures",
+  "modules": {
+    "glossary": {
+      "theory_file": "data/theory-jeppesen-glossary-v1.json",
+      "stage_count": 33,
+      "question_count": 886,
+      "sections_before": 443,
+      "sections_after": 443,
+      "question_links_before": 886,
+      "question_links_after": 886,
+      "blank_headings": 0,
+      "legacy_unrendered_section_keys": 0,
+      "missing_question_ids": []
+    },
+    "symbols": {
+      "theory_file": "data/theory-jeppesen-symbols-v1.json",
+      "stage_count": 14,
+      "question_count": 168,
+      "sections_before": 168,
+      "sections_after": 182,
+      "question_links_before": 168,
+      "question_links_after": 168,
+      "blank_headings": 0,
+      "legacy_unrendered_section_keys": 0,
+      "missing_question_ids": []
+    },
+    "enroute": {
+      "theory_file": "data/theory-jeppesen-enroute-v1.json",
+      "stage_count": 7,
+      "question_count": 54,
+      "sections_before": 59,
+      "sections_after": 66,
+      "question_links_before": 54,
+      "question_links_after": 54,
+      "blank_headings": 0,
+      "legacy_unrendered_section_keys": 0,
+      "missing_question_ids": []
+    },
+    "sidstar": {
+      "theory_file": "data/theory-jeppesen-sidstar-v1.json",
+      "stage_count": 8,
+      "question_count": 71,
+      "sections_before": 79,
+      "sections_after": 87,
+      "question_links_before": 71,
+      "question_links_after": 71,
+      "blank_headings": 0,
+      "legacy_unrendered_section_keys": 0,
+      "missing_question_ids": []
+    },
+    "airport": {
+      "theory_file": "data/theory-jeppesen-airport-v1.json",
+      "stage_count": 6,
+      "question_count": 81,
+      "sections_before": 88,
+      "sections_after": 94,
+      "question_links_before": 81,
+      "question_links_after": 81,
+      "blank_headings": 0,
+      "legacy_unrendered_section_keys": 0,
+      "missing_question_ids": []
+    },
+    "approach": {
+      "theory_file": "data/theory-jeppesen-approach-v1.json",
+      "stage_count": 9,
+      "question_count": 146,
+      "sections_before": 174,
+      "sections_after": 183,
+      "question_links_before": 146,
+      "question_links_after": 146,
+      "blank_headings": 0,
+      "legacy_unrendered_section_keys": 0,
+      "missing_question_ids": []
+    },
+    "airline": {
+      "theory_file": "data/theory-jeppesen-airline-approach-v1.json",
+      "stage_count": 3,
+      "question_count": 11,
+      "sections_before": 19,
+      "sections_after": 22,
+      "question_links_before": 11,
+      "question_links_after": 11,
+      "blank_headings": 0,
+      "legacy_unrendered_section_keys": 0,
+      "missing_question_ids": []
+    },
+    "us_signs": {
+      "theory_file": "data/theory-jeppesen-us-airport-signs-v1.json",
+      "stage_count": 4,
+      "question_count": 22,
+      "sections_before": 38,
+      "sections_after": 42,
+      "question_links_before": 22,
+      "question_links_after": 22,
+      "blank_headings": 0,
+      "legacy_unrendered_section_keys": 0,
+      "missing_question_ids": []
+    },
+    "icao": {
+      "theory_file": "data/theory-jeppesen-icao-airport-signs-markings-v1.json",
+      "stage_count": 5,
+      "question_count": 28,
+      "sections_before": 46,
+      "sections_after": 51,
+      "question_links_before": 28,
+      "question_links_after": 28,
+      "blank_headings": 0,
+      "legacy_unrendered_section_keys": 0,
+      "missing_question_ids": []
+    },
+    "vdgs": {
+      "theory_file": "data/theory-jeppesen-vdgs-v1.json",
+      "stage_count": 7,
+      "question_count": 76,
+      "sections_before": 96,
+      "sections_after": 103,
+      "question_links_before": 63,
+      "question_links_after": 76,
+      "blank_headings": 0,
+      "legacy_unrendered_section_keys": 0,
+      "missing_question_ids": []
+    },
+    "oceanic": {
+      "theory_file": "data/theory-jeppesen-oceanic-long-range-v1.json",
+      "stage_count": 4,
+      "question_count": 32,
+      "sections_before": 8,
+      "sections_after": 12,
+      "question_links_before": 32,
+      "question_links_after": 32,
+      "blank_headings": 0,
+      "legacy_unrendered_section_keys": 0,
+      "missing_question_ids": []
+    },
+    "ats_routes": {
+      "theory_file": "data/theory-jeppesen-ats-route-designators-v1.json",
+      "stage_count": 2,
+      "question_count": 16,
+      "sections_before": 5,
+      "sections_after": 7,
+      "question_links_before": 16,
+      "question_links_after": 16,
+      "blank_headings": 0,
+      "legacy_unrendered_section_keys": 0,
+      "missing_question_ids": []
+    },
+    "radio_general": {
+      "theory_file": "data/theory-jeppesen-radio-general-v1.json",
+      "stage_count": 5,
+      "question_count": 40,
+      "sections_before": 9,
+      "sections_after": 14,
+      "question_links_before": 40,
+      "question_links_after": 40,
+      "blank_headings": 0,
+      "legacy_unrendered_section_keys": 0,
+      "missing_question_ids": []
+    },
+    "nav_aids": {
+      "theory_file": "data/theory-jeppesen-navigation-aids-v1.json",
+      "stage_count": 12,
+      "question_count": 96,
+      "sections_before": 24,
+      "sections_after": 74,
+      "question_links_before": 96,
+      "question_links_after": 96,
+      "blank_headings": 0,
+      "legacy_unrendered_section_keys": 0,
+      "missing_question_ids": []
+    }
+  },
+  "new_figure_assets": [
+    {
+      "file": "assets/jeppesen-navigation-aids-theory/fig-1-1-1-original-ssv.webp",
+      "caption": "FIG 1-1-1 · Original Standard Service Volume",
+      "source_page": 344,
+      "size": [
+        844,
+        1096
+      ]
+    },
+    {
+      "file": "assets/jeppesen-navigation-aids-theory/fig-1-1-2-terminal-lower-edge.webp",
+      "caption": "FIG 1-1-2 · Lower Edge of the Terminal Service Volume (ATH)",
+      "source_page": 345,
+      "size": [
+        844,
+        649
+      ]
+    },
+    {
+      "file": "assets/jeppesen-navigation-aids-theory/fig-1-1-3-low-high-lower-edge.webp",
+      "caption": "FIG 1-1-3 · Lower Edge of Low and High Service Volumes (ATH)",
+      "source_page": 345,
+      "size": [
+        844,
+        458
+      ]
+    },
+    {
+      "file": "assets/jeppesen-navigation-aids-theory/fig-1-1-4-new-vor-ssv.webp",
+      "caption": "FIG 1-1-4 · New VOR Service Volumes",
+      "source_page": 346,
+      "size": [
+        844,
+        689
+      ]
+    },
+    {
+      "file": "assets/jeppesen-navigation-aids-theory/fig-1-1-5-new-dme-ssv.webp",
+      "caption": "FIG 1-1-5 · New DME Service Volumes",
+      "source_page": 347,
+      "size": [
+        844,
+        704
+      ]
+    },
+    {
+      "file": "assets/jeppesen-navigation-aids-theory/fig-1-1-6-localizer-coverage.webp",
+      "caption": "FIG 1-1-6 · Limits of Localizer Coverage",
+      "source_page": 350,
+      "size": [
+        844,
+        370
+      ]
+    },
+    {
+      "file": "assets/jeppesen-navigation-aids-theory/fig-1-1-7-ils-esv.webp",
+      "caption": "FIG 1-1-7 · ILS Expanded Service Volume",
+      "source_page": 351,
+      "size": [
+        844,
+        1034
+      ]
+    },
+    {
+      "file": "assets/jeppesen-navigation-aids-theory/fig-1-1-8-faa-ils.webp",
+      "caption": "FIG 1-1-8 · FAA Instrument Landing Systems",
+      "source_page": 359,
+      "size": [
+        866,
+        1122
+      ]
+    },
+    {
+      "file": "assets/jeppesen-navigation-aids-theory/fig-1-1-9-gls-service-volume.webp",
+      "caption": "FIG 1-1-9 · GLS Standard Approach Service Volume",
+      "source_page": 391,
+      "size": [
+        844,
+        865
+      ]
+    }
+  ],
+  "checks": {
+    "theory_json_count": 14,
+    "total_stage_count": 119,
+    "json_parse": true,
+    "missing_figure_refs": [],
+    "new_image_count": 9,
+    "only_new_navigation_aids_images_in_delta": true,
+    "all_module_blank_headings_zero": true,
+    "all_legacy_section_keys_zero": true,
+    "all_stage_question_links_valid": true,
+    "zip_integrity": "PASS"
+  },
+  "zip_size_bytes": 627036
+}

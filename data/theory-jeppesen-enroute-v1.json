@@ -1,0 +1,1204 @@
+{
+  "metadata": {
+    "name": "Jeppesen Airway Manual · Enroute Chart Legend",
+    "subject": "Jeppesen Airway Manual · Enroute Chart Legend",
+    "source_file": "TalkFile_JEPPESEN AIRWAY MANUAL (251113).pdf",
+    "scope": "Enroute Chart Legend p.136–144",
+    "course_type": "reference_enroute_legend",
+    "legend_item_count": 54,
+    "stage_count": 7,
+    "quiz_rule": {
+      "questions": "6–8",
+      "pass_percent": 80
+    },
+    "version": "v11.60.16",
+    "detail_revision": "v11.60.29-source-detail-overhaul",
+    "detail_revision_date": "2026-08-30",
+    "detail_note": "이론 렌더러 호환 스키마(heading/paragraphs/figure/question_ids)로 통일하고 원문 기반 세부 설명과 복습 표를 확장함."
+  },
+  "stages": [
+    {
+      "id": "JEPP-ENR-STAGE-01",
+      "unit_title": "Enroute Chart Legend",
+      "title": "Chart Graphic 1–8",
+      "source_printed_pages": [
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142
+      ],
+      "source_pdf_pages": [
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142
+      ],
+      "sections": [
+        {
+          "heading": "Enroute Chart Format",
+          "paragraphs": [
+            "커버패널·차트 그래픽·End Panel의 기본 배치와 헤딩/차트 식별 요소를 설명한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-source-p136.webp",
+            "caption": "Enroute Chart Legend p.136 · Enroute Chart Format"
+          }
+        },
+        {
+          "heading": "Coverage Diagram",
+          "paragraphs": [
+            "차트 번호·지역명·지리적 커버리지·인접 차트와 시차 등을 Coverage Diagram에서 확인한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-source-p137.webp",
+            "caption": "Enroute Chart Legend p.137 · Coverage Diagram"
+          }
+        },
+        {
+          "heading": "Changes / Airspace Limits / Communications",
+          "paragraphs": [
+            "변경사항, 공역 한계·등급, 통신 Tabulated Data의 읽는 법을 설명한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-source-p138.webp",
+            "caption": "Enroute Chart Legend p.138 · Changes / Airspace Limits / Communications"
+          }
+        },
+        {
+          "heading": "Special Use Airspace / Reference Notes",
+          "paragraphs": [
+            "특수사용공역의 표기 요소와 Transponder Setting, ATS Route Restriction, RNP 등 Reference Notes를 설명한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-source-p139.webp",
+            "caption": "Enroute Chart Legend p.139 · Special Use Airspace / Reference Notes"
+          }
+        },
+        {
+          "heading": "Cruising Levels / Range Scale / End Panel",
+          "paragraphs": [
+            "지역별 순항고도 체계, 거리축척, End Panel 및 Chart Graphic의 성격을 설명한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-source-p140.webp",
+            "caption": "Enroute Chart Legend p.140 · Cruising Levels / Range Scale / End Panel"
+          }
+        },
+        {
+          "heading": "1. VORDME",
+          "paragraphs": [
+            "VHF 항행시설의 컴퍼스 로즈와 주파수·식별부호·모스부호·INS 좌표 등을 표시한다. 음영 박스는 해당 항행시설이 항로 구성요소임을 나타내며, 작은 D는 DME/TACAN을 뜻한다.",
+            "Jeppesen 원문 요지: Low and High/Low charts include a Compass Rose with VHF Navaids. Shadow box indicates navaid is airway component, with frequency, identifier, Morse code and INS coordinates. Small D indicates DME/TACAN."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-01-vordme.webp",
+            "caption": "Enroute Chart Legend · No. 1 · VORDME"
+          }
+        },
+        {
+          "heading": "2. Airports",
+          "paragraphs": [
+            "공항의 위치명·공항명·ICAO 식별부호·공항표고·최장 활주로 길이 등을 표시한다. IFR 공항은 파란색, VFR 공항은 초록색으로 표시된다.",
+            "Jeppesen 원문 요지: Location name, airport name, ICAO identifier, airport elevation and longest runway length; IFR airport in blue and VFR airport in green."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-02-airports.webp",
+            "caption": "Enroute Chart Legend · No. 2 · Airports"
+          }
+        },
+        {
+          "heading": "3. Controlled Airspace",
+          "paragraphs": [
+            "관제공역의 수직 한계를 나타낸다. 하한은 밑줄, 상한은 윗줄로 표시된다.",
+            "Jeppesen 원문 요지: Controlled airspace vertical limits; lower limit is indicated by underbar and upper limit by overbar."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-03-controlled-airspace.webp",
+            "caption": "Enroute Chart Legend · No. 3 · Controlled Airspace"
+          }
+        },
+        {
+          "heading": "4. Special Use Airspace",
+          "paragraphs": [
+            "특수사용공역을 나타낸다.",
+            "Jeppesen 원문 요지: Special use airspace."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-04-special-use-airspace.webp",
+            "caption": "Enroute Chart Legend · No. 4 · Special Use Airspace"
+          }
+        },
+        {
+          "heading": "5. Grid Lat-Long Values",
+          "paragraphs": [
+            "격자의 위도·경도 값을 나타낸다.",
+            "Jeppesen 원문 요지: Grid latitude and longitude values."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-05-grid-lat-long-values.webp",
+            "caption": "Enroute Chart Legend · No. 5 · Grid Lat-Long Values"
+          }
+        },
+        {
+          "heading": "6. CTR",
+          "paragraphs": [
+            "CTR(관제권)을 나타낸다. 미국의 일부 Class C·D·E 공역에서는 별표가 시간제 운용을 뜻하며, 그 외에는 H24이다.",
+            "Jeppesen 원문 요지: Control zone. Asterisks may indicate part-time operation for certain US Class C, D and E airspace; otherwise hours are H24."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-06-ctr.webp",
+            "caption": "Enroute Chart Legend · No. 6 · CTR"
+          }
+        },
+        {
+          "heading": "7. ILS Available at Airport",
+          "paragraphs": [
+            "해당 공항에서 ILS를 이용할 수 있음을 나타낸다.",
+            "Jeppesen 원문 요지: ILS available at airport."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-07-ils-available-at-airport.webp",
+            "caption": "Enroute Chart Legend · No. 7 · ILS Available at Airport"
+          }
+        },
+        {
+          "heading": "8. Magnetic Variation",
+          "paragraphs": [
+            "자기편차를 나타낸다.",
+            "Jeppesen 원문 요지: Magnetic variation."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-08-magnetic-variation.webp",
+            "caption": "Enroute Chart Legend · No. 8 · Magnetic Variation"
+          }
+        },
+        {
+          "heading": "단계 세부 항목 정리",
+          "paragraphs": [
+            "이 표는 해당 단계의 원문 기반 문제 항목을 이론 복습용으로 다시 정리한 것이다."
+          ],
+          "table": {
+            "headers": [
+              "항목",
+              "Jeppesen 원문 기반 상세 설명"
+            ],
+            "rows": [
+              [
+                "No. 1 · VORDME",
+                "VHF 항행시설의 컴퍼스 로즈와 주파수·식별부호·모스부호·INS 좌표 등을 표시한다. 음영 박스는 해당 항행시설이 항로 구성요소임을 나타내며, 작은 D는 DME/TACAN을 뜻한다. · Low and High/Low charts include a Compass Rose with VHF Navaids. Shadow box indicates navaid is airway component, with frequency, identifier, Morse code and INS coordinates. Small D indicates DME/TACAN."
+              ],
+              [
+                "No. 2 · Airports",
+                "공항의 위치명·공항명·ICAO 식별부호·공항표고·최장 활주로 길이 등을 표시한다. IFR 공항은 파란색, VFR 공항은 초록색으로 표시된다. · Location name, airport name, ICAO identifier, airport elevation and longest runway length; IFR airport in blue and VFR airport in green."
+              ],
+              [
+                "No. 3 · Controlled Airspace",
+                "관제공역의 수직 한계를 나타낸다. 하한은 밑줄, 상한은 윗줄로 표시된다. · Controlled airspace vertical limits; lower limit is indicated by underbar and upper limit by overbar."
+              ],
+              [
+                "No. 4 · Special Use Airspace",
+                "특수사용공역을 나타낸다. · Special use airspace."
+              ],
+              [
+                "No. 5 · Grid Lat-Long Values",
+                "격자의 위도·경도 값을 나타낸다. · Grid latitude and longitude values."
+              ],
+              [
+                "No. 6 · CTR",
+                "CTR(관제권)을 나타낸다. 미국의 일부 Class C·D·E 공역에서는 별표가 시간제 운용을 뜻하며, 그 외에는 H24이다. · Control zone. Asterisks may indicate part-time operation for certain US Class C, D and E airspace; otherwise hours are H24."
+              ],
+              [
+                "No. 7 · ILS Available at Airport",
+                "해당 공항에서 ILS를 이용할 수 있음을 나타낸다. · ILS available at airport."
+              ],
+              [
+                "No. 8 · Magnetic Variation",
+                "자기편차를 나타낸다. · Magnetic variation."
+              ]
+            ]
+          }
+        }
+      ],
+      "summary_points": [
+        "Enroute Chart Legend 번호 1–8의 실제 차트 표시와 의미를 연결해 식별합니다.",
+        "쪽지시험에서는 차트 이미지가 제시되고 해당 의미를 고릅니다."
+      ],
+      "question_ids": [
+        "JEPP-ENR-001",
+        "JEPP-ENR-002",
+        "JEPP-ENR-003",
+        "JEPP-ENR-004",
+        "JEPP-ENR-005",
+        "JEPP-ENR-006",
+        "JEPP-ENR-007",
+        "JEPP-ENR-008"
+      ],
+      "quiz_questions": 8,
+      "pass_percent": 80
+    },
+    {
+      "id": "JEPP-ENR-STAGE-02",
+      "unit_title": "Enroute Chart Legend",
+      "title": "Chart Graphic 9–16",
+      "source_printed_pages": [
+        141,
+        142
+      ],
+      "source_pdf_pages": [
+        141,
+        142
+      ],
+      "sections": [
+        {
+          "heading": "9. Area Chart Coverage",
+          "paragraphs": [
+            "Area Chart의 수록/커버리지 범위를 나타낸다.",
+            "Jeppesen 원문 요지: Area chart coverage."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-09-area-chart-coverage.webp",
+            "caption": "Enroute Chart Legend · No. 9 · Area Chart Coverage"
+          }
+        },
+        {
+          "heading": "10. Directional MEAs",
+          "paragraphs": [
+            "방향별 MEA(Minimum Enroute Altitude)를 나타낸다.",
+            "Jeppesen 원문 요지: Directional Minimum Enroute Altitudes."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-10-directional-meas.webp",
+            "caption": "Enroute Chart Legend · No. 10 · Directional MEAs"
+          }
+        },
+        {
+          "heading": "11. Minimum Crossing Altitude (MCA)",
+          "paragraphs": [
+            "최저통과고도(MCA)를 나타낸다.",
+            "Jeppesen 원문 요지: Minimum Crossing Altitude (MCA)."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-11-minimum-crossing-altitude-mca.webp",
+            "caption": "Enroute Chart Legend · No. 11 · Minimum Crossing Altitude (MCA)"
+          }
+        },
+        {
+          "heading": "12. Change to Adjoining Enroute Chart",
+          "paragraphs": [
+            "인접 Enroute Chart로 이어짐을 나타낸다.",
+            "Jeppesen 원문 요지: Change to adjoining Enroute chart."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-12-change-to-adjoining-enroute-chart.webp",
+            "caption": "Enroute Chart Legend · No. 12 · Change to Adjoining Enroute Chart"
+          }
+        },
+        {
+          "heading": "13. DME",
+          "paragraphs": [
+            "DME를 나타낸다.",
+            "Jeppesen 원문 요지: DME."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-13-dme.webp",
+            "caption": "Enroute Chart Legend · No. 13 · DME"
+          }
+        },
+        {
+          "heading": "14. Grid MORA",
+          "paragraphs": [
+            "Grid MORA를 나타낸다. 10,000 ft 이상은 적갈색, 10,000 ft 미만은 초록색이며 수치는 100 ft 단위로 표시된다.",
+            "Jeppesen 원문 요지: Grid MORA. Values 10,000 feet and greater are maroon; values less than 10,000 feet are green; values are depicted in hundreds of feet."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-14-grid-mora.webp",
+            "caption": "Enroute Chart Legend · No. 14 · Grid MORA"
+          }
+        },
+        {
+          "heading": "15. Gap in Nav Signal Coverage",
+          "paragraphs": [
+            "항행 신호 수신 범위의 공백 구간을 나타낸다.",
+            "Jeppesen 원문 요지: Gap in navigation signal coverage."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-15-gap-in-nav-signal-coverage.webp",
+            "caption": "Enroute Chart Legend · No. 15 · Gap in Nav Signal Coverage"
+          }
+        },
+        {
+          "heading": "16. DME/TACAN Fix / Segment Mileage",
+          "paragraphs": [
+            "D는 DME/TACAN fix를 뜻하며 구간 거리는 항행시설로부터의 DME/TACAN 거리이다. D 없는 화살표는 해당 시설 기준 보고지점을 나타낸다.",
+            "Jeppesen 원문 요지: D indicates DME/TACAN fix. Segment mileage is DME/TACAN distance from navaid. Arrow without a D designates a reporting point from facility."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-16-dme-tacan-fix-segment-mileage.webp",
+            "caption": "Enroute Chart Legend · No. 16 · DME/TACAN Fix / Segment Mileage"
+          }
+        },
+        {
+          "heading": "단계 세부 항목 정리",
+          "paragraphs": [
+            "이 표는 해당 단계의 원문 기반 문제 항목을 이론 복습용으로 다시 정리한 것이다."
+          ],
+          "table": {
+            "headers": [
+              "항목",
+              "Jeppesen 원문 기반 상세 설명"
+            ],
+            "rows": [
+              [
+                "No. 9 · Area Chart Coverage",
+                "Area Chart의 수록/커버리지 범위를 나타낸다. · Area chart coverage."
+              ],
+              [
+                "No. 10 · Directional MEAs",
+                "방향별 MEA(Minimum Enroute Altitude)를 나타낸다. · Directional Minimum Enroute Altitudes."
+              ],
+              [
+                "No. 11 · Minimum Crossing Altitude (MCA)",
+                "최저통과고도(MCA)를 나타낸다. · Minimum Crossing Altitude (MCA)."
+              ],
+              [
+                "No. 12 · Change to Adjoining Enroute Chart",
+                "인접 Enroute Chart로 이어짐을 나타낸다. · Change to adjoining Enroute chart."
+              ],
+              [
+                "No. 13 · DME",
+                "DME를 나타낸다. · DME."
+              ],
+              [
+                "No. 14 · Grid MORA",
+                "Grid MORA를 나타낸다. 10,000 ft 이상은 적갈색, 10,000 ft 미만은 초록색이며 수치는 100 ft 단위로 표시된다. · Grid MORA. Values 10,000 feet and greater are maroon; values less than 10,000 feet are green; values are depicted in hundreds of feet."
+              ],
+              [
+                "No. 15 · Gap in Nav Signal Coverage",
+                "항행 신호 수신 범위의 공백 구간을 나타낸다. · Gap in navigation signal coverage."
+              ],
+              [
+                "No. 16 · DME/TACAN Fix / Segment Mileage",
+                "D는 DME/TACAN fix를 뜻하며 구간 거리는 항행시설로부터의 DME/TACAN 거리이다. D 없는 화살표는 해당 시설 기준 보고지점을 나타낸다. · D indicates DME/TACAN fix. Segment mileage is DME/TACAN distance from navaid. Arrow without a D designates a reporting point from facility."
+              ]
+            ]
+          }
+        }
+      ],
+      "summary_points": [
+        "Enroute Chart Legend 번호 9–16의 실제 차트 표시와 의미를 연결해 식별합니다.",
+        "쪽지시험에서는 차트 이미지가 제시되고 해당 의미를 고릅니다."
+      ],
+      "question_ids": [
+        "JEPP-ENR-009",
+        "JEPP-ENR-010",
+        "JEPP-ENR-011",
+        "JEPP-ENR-012",
+        "JEPP-ENR-013",
+        "JEPP-ENR-014",
+        "JEPP-ENR-015",
+        "JEPP-ENR-016"
+      ],
+      "quiz_questions": 8,
+      "pass_percent": 80
+    },
+    {
+      "id": "JEPP-ENR-STAGE-03",
+      "unit_title": "Enroute Chart Legend",
+      "title": "Chart Graphic 17–24",
+      "source_printed_pages": [
+        141,
+        142
+      ],
+      "source_pdf_pages": [
+        141,
+        142
+      ],
+      "sections": [
+        {
+          "heading": "17. Non-Compulsory RNAV Waypoint",
+          "paragraphs": [
+            "비의무 RNAV 웨이포인트를 나타낸다.",
+            "Jeppesen 원문 요지: Non-compulsory RNAV waypoint."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-17-non-compulsory-rnav-waypoint.webp",
+            "caption": "Enroute Chart Legend · No. 17 · Non-Compulsory RNAV Waypoint"
+          }
+        },
+        {
+          "heading": "18. High Altitude Route (Orientation Only)",
+          "paragraphs": [
+            "일부 저고도 차트에 위치 파악용으로만 표시되는 고고도 항로이다.",
+            "Jeppesen 원문 요지: High altitude route included on some low charts for orientation only."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-18-high-altitude-route-orientation-only.webp",
+            "caption": "Enroute Chart Legend · No. 18 · High Altitude Route (Orientation Only)"
+          }
+        },
+        {
+          "heading": "19. Changeover Point Between Two Navaids",
+          "paragraphs": [
+            "두 항행시설 사이의 Changeover Point를 나타낸다.",
+            "Jeppesen 원문 요지: Changeover point between two navaids."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-19-changeover-point-between-two-navaids.webp",
+            "caption": "Enroute Chart Legend · No. 19 · Changeover Point Between Two Navaids"
+          }
+        },
+        {
+          "heading": "20. Intersection or Fix Formation",
+          "paragraphs": [
+            "원격 VHF/LF 항행시설의 방위·주파수·식별부호를 이용한 intersection/fix 형성을 나타낸다.",
+            "Jeppesen 원문 요지: Intersection or fix formation using bearing, frequency and identifier of remote VHF or LF navaid."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-20-intersection-or-fix-formation.webp",
+            "caption": "Enroute Chart Legend · No. 20 · Intersection or Fix Formation"
+          }
+        },
+        {
+          "heading": "21. Met Report Required",
+          "paragraphs": [
+            "기상보고가 요구되는 지점을 나타낸다.",
+            "Jeppesen 원문 요지: Meteorological report required."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-21-met-report-required.webp",
+            "caption": "Enroute Chart Legend · No. 21 · Met Report Required"
+          }
+        },
+        {
+          "heading": "22. Minimum Reception Altitude (MRA)",
+          "paragraphs": [
+            "최저수신고도(MRA)를 나타낸다.",
+            "Jeppesen 원문 요지: Minimum Reception Altitude (MRA)."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-22-minimum-reception-altitude-mra.webp",
+            "caption": "Enroute Chart Legend · No. 22 · Minimum Reception Altitude (MRA)"
+          }
+        },
+        {
+          "heading": "23. VORTAC – High Altitude / Off-Route Navaid",
+          "paragraphs": [
+            "VORTAC을 나타낸다. 고고도 또는 비항로 항행시설에는 Compass Rose가 표시되지 않는다.",
+            "Jeppesen 원문 요지: VORTAC. High altitude and off-route navaids do not include a Compass Rose."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-23-vortac-high-altitude-off-route-navaid.webp",
+            "caption": "Enroute Chart Legend · No. 23 · VORTAC – High Altitude / Off-Route Navaid"
+          }
+        },
+        {
+          "heading": "24. Uncontrolled Airway or Advisory Route",
+          "paragraphs": [
+            "비관제 항로 또는 Advisory Route를 나타낸다.",
+            "Jeppesen 원문 요지: Uncontrolled airway or advisory route."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-24-uncontrolled-airway-or-advisory-route.webp",
+            "caption": "Enroute Chart Legend · No. 24 · Uncontrolled Airway or Advisory Route"
+          }
+        },
+        {
+          "heading": "단계 세부 항목 정리",
+          "paragraphs": [
+            "이 표는 해당 단계의 원문 기반 문제 항목을 이론 복습용으로 다시 정리한 것이다."
+          ],
+          "table": {
+            "headers": [
+              "항목",
+              "Jeppesen 원문 기반 상세 설명"
+            ],
+            "rows": [
+              [
+                "No. 17 · Non-Compulsory RNAV Waypoint",
+                "비의무 RNAV 웨이포인트를 나타낸다. · Non-compulsory RNAV waypoint."
+              ],
+              [
+                "No. 18 · High Altitude Route (Orientation Only)",
+                "일부 저고도 차트에 위치 파악용으로만 표시되는 고고도 항로이다. · High altitude route included on some low charts for orientation only."
+              ],
+              [
+                "No. 19 · Changeover Point Between Two Navaids",
+                "두 항행시설 사이의 Changeover Point를 나타낸다. · Changeover point between two navaids."
+              ],
+              [
+                "No. 20 · Intersection or Fix Formation",
+                "원격 VHF/LF 항행시설의 방위·주파수·식별부호를 이용한 intersection/fix 형성을 나타낸다. · Intersection or fix formation using bearing, frequency and identifier of remote VHF or LF navaid."
+              ],
+              [
+                "No. 21 · Met Report Required",
+                "기상보고가 요구되는 지점을 나타낸다. · Meteorological report required."
+              ],
+              [
+                "No. 22 · Minimum Reception Altitude (MRA)",
+                "최저수신고도(MRA)를 나타낸다. · Minimum Reception Altitude (MRA)."
+              ],
+              [
+                "No. 23 · VORTAC – High Altitude / Off-Route Navaid",
+                "VORTAC을 나타낸다. 고고도 또는 비항로 항행시설에는 Compass Rose가 표시되지 않는다. · VORTAC. High altitude and off-route navaids do not include a Compass Rose."
+              ],
+              [
+                "No. 24 · Uncontrolled Airway or Advisory Route",
+                "비관제 항로 또는 Advisory Route를 나타낸다. · Uncontrolled airway or advisory route."
+              ]
+            ]
+          }
+        }
+      ],
+      "summary_points": [
+        "Enroute Chart Legend 번호 17–24의 실제 차트 표시와 의미를 연결해 식별합니다.",
+        "쪽지시험에서는 차트 이미지가 제시되고 해당 의미를 고릅니다."
+      ],
+      "question_ids": [
+        "JEPP-ENR-017",
+        "JEPP-ENR-018",
+        "JEPP-ENR-019",
+        "JEPP-ENR-020",
+        "JEPP-ENR-021",
+        "JEPP-ENR-022",
+        "JEPP-ENR-023",
+        "JEPP-ENR-024"
+      ],
+      "quiz_questions": 8,
+      "pass_percent": 80
+    },
+    {
+      "id": "JEPP-ENR-STAGE-04",
+      "unit_title": "Enroute Chart Legend",
+      "title": "Chart Graphic 25–32",
+      "source_printed_pages": [
+        141,
+        142
+      ],
+      "source_pdf_pages": [
+        141,
+        142
+      ],
+      "sections": [
+        {
+          "heading": "25. Route Suffix",
+          "paragraphs": [
+            "항로 접미문자이다. D/F는 ATC Advisory Service만, F/G는 Flight Information Service만 제공됨을 나타낸다.",
+            "Jeppesen 원문 요지: Route suffix. D or F indicates ATC advisory services only; F or G indicates Flight Information Services only."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-25-route-suffix.webp",
+            "caption": "Enroute Chart Legend · No. 25 · Route Suffix"
+          }
+        },
+        {
+          "heading": "26. Enroute Communications",
+          "paragraphs": [
+            "항로상 통신 정보를 나타낸다.",
+            "Jeppesen 원문 요지: Enroute communications."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-26-enroute-communications.webp",
+            "caption": "Enroute Chart Legend · No. 26 · Enroute Communications"
+          }
+        },
+        {
+          "heading": "27. Total Mileage Between Navaids",
+          "paragraphs": [
+            "항행시설 사이의 총 거리를 나타낸다.",
+            "Jeppesen 원문 요지: Total mileage between navaids."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-27-total-mileage-between-navaids.webp",
+            "caption": "Enroute Chart Legend · No. 27 · Total Mileage Between Navaids"
+          }
+        },
+        {
+          "heading": "28. Compulsory / Non-Compulsory Reporting Point",
+          "paragraphs": [
+            "의무보고지점은 채워진 형태, 비의무보고지점은 속이 빈 형태로 표시된다.",
+            "Jeppesen 원문 요지: Compulsory reporting point is screened fill; non-compulsory reporting point is open, no fill."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-28-compulsory-non-compulsory-reporting-point.webp",
+            "caption": "Enroute Chart Legend · No. 28 · Compulsory / Non-Compulsory Reporting Point"
+          }
+        },
+        {
+          "heading": "29. Holding Pattern",
+          "paragraphs": [
+            "Holding Pattern을 나타낸다.",
+            "Jeppesen 원문 요지: Holding pattern."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-29-holding-pattern.webp",
+            "caption": "Enroute Chart Legend · No. 29 · Holding Pattern"
+          }
+        },
+        {
+          "heading": "30. FIR/UIR Boundary / Identifier / Airspace Class",
+          "paragraphs": [
+            "FIR/UIR 경계명·식별부호·공역등급을 나타낸다.",
+            "Jeppesen 원문 요지: FIR/UIR boundary name, identifier and airspace class."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-30-fir-uir-boundary-identifier-airspace-class.webp",
+            "caption": "Enroute Chart Legend · No. 30 · FIR/UIR Boundary / Identifier / Airspace Class"
+          }
+        },
+        {
+          "heading": "31. Route Usability by Non B-RNAV Aircraft",
+          "paragraphs": [
+            "유럽에서 B-RNAV 미장착 항공기의 해당 항로 사용 가능 여부를 나타낸다.",
+            "Jeppesen 원문 요지: Route usability by non B-RNAV equipped aircraft (within Europe only)."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-31-route-usability-by-non-b-rnav-aircraft.webp",
+            "caption": "Enroute Chart Legend · No. 31 · Route Usability by Non B-RNAV Aircraft"
+          }
+        },
+        {
+          "heading": "32. Unnamed Official ATS Route with Direction",
+          "paragraphs": [
+            "명칭은 없지만 공식 발행된 ATS 항로와 진행 방향을 나타낸다.",
+            "Jeppesen 원문 요지: Unnamed, official published ATS route with direction indication."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-32-unnamed-official-ats-route-with-direction.webp",
+            "caption": "Enroute Chart Legend · No. 32 · Unnamed Official ATS Route with Direction"
+          }
+        },
+        {
+          "heading": "단계 세부 항목 정리",
+          "paragraphs": [
+            "이 표는 해당 단계의 원문 기반 문제 항목을 이론 복습용으로 다시 정리한 것이다."
+          ],
+          "table": {
+            "headers": [
+              "항목",
+              "Jeppesen 원문 기반 상세 설명"
+            ],
+            "rows": [
+              [
+                "No. 25 · Route Suffix",
+                "항로 접미문자이다. D/F는 ATC Advisory Service만, F/G는 Flight Information Service만 제공됨을 나타낸다. · Route suffix. D or F indicates ATC advisory services only; F or G indicates Flight Information Services only."
+              ],
+              [
+                "No. 26 · Enroute Communications",
+                "항로상 통신 정보를 나타낸다. · Enroute communications."
+              ],
+              [
+                "No. 27 · Total Mileage Between Navaids",
+                "항행시설 사이의 총 거리를 나타낸다. · Total mileage between navaids."
+              ],
+              [
+                "No. 28 · Compulsory / Non-Compulsory Reporting Point",
+                "의무보고지점은 채워진 형태, 비의무보고지점은 속이 빈 형태로 표시된다. · Compulsory reporting point is screened fill; non-compulsory reporting point is open, no fill."
+              ],
+              [
+                "No. 29 · Holding Pattern",
+                "Holding Pattern을 나타낸다. · Holding pattern."
+              ],
+              [
+                "No. 30 · FIR/UIR Boundary / Identifier / Airspace Class",
+                "FIR/UIR 경계명·식별부호·공역등급을 나타낸다. · FIR/UIR boundary name, identifier and airspace class."
+              ],
+              [
+                "No. 31 · Route Usability by Non B-RNAV Aircraft",
+                "유럽에서 B-RNAV 미장착 항공기의 해당 항로 사용 가능 여부를 나타낸다. · Route usability by non B-RNAV equipped aircraft (within Europe only)."
+              ],
+              [
+                "No. 32 · Unnamed Official ATS Route with Direction",
+                "명칭은 없지만 공식 발행된 ATS 항로와 진행 방향을 나타낸다. · Unnamed, official published ATS route with direction indication."
+              ]
+            ]
+          }
+        }
+      ],
+      "summary_points": [
+        "Enroute Chart Legend 번호 25–32의 실제 차트 표시와 의미를 연결해 식별합니다.",
+        "쪽지시험에서는 차트 이미지가 제시되고 해당 의미를 고릅니다."
+      ],
+      "question_ids": [
+        "JEPP-ENR-025",
+        "JEPP-ENR-026",
+        "JEPP-ENR-027",
+        "JEPP-ENR-028",
+        "JEPP-ENR-029",
+        "JEPP-ENR-030",
+        "JEPP-ENR-031",
+        "JEPP-ENR-032"
+      ],
+      "quiz_questions": 8,
+      "pass_percent": 80
+    },
+    {
+      "id": "JEPP-ENR-STAGE-05",
+      "unit_title": "Enroute Chart Legend",
+      "title": "Chart Graphic 33–40",
+      "source_printed_pages": [
+        141,
+        142
+      ],
+      "source_pdf_pages": [
+        141,
+        142
+      ],
+      "sections": [
+        {
+          "heading": "33. Uncontrolled Airspace (Class F or G)",
+          "paragraphs": [
+            "비관제공역(Class F 또는 G)을 나타낸다.",
+            "Jeppesen 원문 요지: Uncontrolled airspace (Class F or G)."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-33-uncontrolled-airspace-class-f-or-g.webp",
+            "caption": "Enroute Chart Legend · No. 33 · Uncontrolled Airspace (Class F or G)"
+          }
+        },
+        {
+          "heading": "34. GPS MEA",
+          "paragraphs": [
+            "GPS MEA를 나타낸다.",
+            "Jeppesen 원문 요지: GPS Minimum Enroute Altitude."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-34-gps-mea.webp",
+            "caption": "Enroute Chart Legend · No. 34 · GPS MEA"
+          }
+        },
+        {
+          "heading": "35. Minimum Obstruction Clearance Altitude (MOCA)",
+          "paragraphs": [
+            "최저장애물회피고도(MOCA)를 나타낸다.",
+            "Jeppesen 원문 요지: Minimum Obstruction Clearance Altitude (MOCA)."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-35-minimum-obstruction-clearance-altitude-moca.webp",
+            "caption": "Enroute Chart Legend · No. 35 · Minimum Obstruction Clearance Altitude (MOCA)"
+          }
+        },
+        {
+          "heading": "36. Conditional Route Category",
+          "paragraphs": [
+            "Conditional Route의 카테고리를 나타낸다.",
+            "Jeppesen 원문 요지: Conditional route category."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-36-conditional-route-category.webp",
+            "caption": "Enroute Chart Legend · No. 36 · Conditional Route Category"
+          }
+        },
+        {
+          "heading": "37. Airway Designator",
+          "paragraphs": [
+            "항로 지정부호를 나타낸다.",
+            "Jeppesen 원문 요지: Airway designator."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-37-airway-designator.webp",
+            "caption": "Enroute Chart Legend · No. 37 · Airway Designator"
+          }
+        },
+        {
+          "heading": "38. Segment Mileage",
+          "paragraphs": [
+            "항로 구간 거리를 나타낸다.",
+            "Jeppesen 원문 요지: Segment mileage."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-38-segment-mileage.webp",
+            "caption": "Enroute Chart Legend · No. 38 · Segment Mileage"
+          }
+        },
+        {
+          "heading": "39. Maximum Authorized Altitude (MAA)",
+          "paragraphs": [
+            "최대허용고도(MAA)를 나타낸다.",
+            "Jeppesen 원문 요지: Maximum Authorized Altitude (MAA)."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-39-maximum-authorized-altitude-maa.webp",
+            "caption": "Enroute Chart Legend · No. 39 · Maximum Authorized Altitude (MAA)"
+          }
+        },
+        {
+          "heading": "40. CNS/ATM Equipment Requirement Boundary",
+          "paragraphs": [
+            "CNS/ATM 장비 요구사항이 달라지는 경계를 나타낸다.",
+            "Jeppesen 원문 요지: CNS/ATM equipment requirement boundary."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-40-cns-atm-equipment-requirement-boundary.webp",
+            "caption": "Enroute Chart Legend · No. 40 · CNS/ATM Equipment Requirement Boundary"
+          }
+        },
+        {
+          "heading": "단계 세부 항목 정리",
+          "paragraphs": [
+            "이 표는 해당 단계의 원문 기반 문제 항목을 이론 복습용으로 다시 정리한 것이다."
+          ],
+          "table": {
+            "headers": [
+              "항목",
+              "Jeppesen 원문 기반 상세 설명"
+            ],
+            "rows": [
+              [
+                "No. 33 · Uncontrolled Airspace (Class F or G)",
+                "비관제공역(Class F 또는 G)을 나타낸다. · Uncontrolled airspace (Class F or G)."
+              ],
+              [
+                "No. 34 · GPS MEA",
+                "GPS MEA를 나타낸다. · GPS Minimum Enroute Altitude."
+              ],
+              [
+                "No. 35 · Minimum Obstruction Clearance Altitude (MOCA)",
+                "최저장애물회피고도(MOCA)를 나타낸다. · Minimum Obstruction Clearance Altitude (MOCA)."
+              ],
+              [
+                "No. 36 · Conditional Route Category",
+                "Conditional Route의 카테고리를 나타낸다. · Conditional route category."
+              ],
+              [
+                "No. 37 · Airway Designator",
+                "항로 지정부호를 나타낸다. · Airway designator."
+              ],
+              [
+                "No. 38 · Segment Mileage",
+                "항로 구간 거리를 나타낸다. · Segment mileage."
+              ],
+              [
+                "No. 39 · Maximum Authorized Altitude (MAA)",
+                "최대허용고도(MAA)를 나타낸다. · Maximum Authorized Altitude (MAA)."
+              ],
+              [
+                "No. 40 · CNS/ATM Equipment Requirement Boundary",
+                "CNS/ATM 장비 요구사항이 달라지는 경계를 나타낸다. · CNS/ATM equipment requirement boundary."
+              ]
+            ]
+          }
+        }
+      ],
+      "summary_points": [
+        "Enroute Chart Legend 번호 33–40의 실제 차트 표시와 의미를 연결해 식별합니다.",
+        "쪽지시험에서는 차트 이미지가 제시되고 해당 의미를 고릅니다."
+      ],
+      "question_ids": [
+        "JEPP-ENR-033",
+        "JEPP-ENR-034",
+        "JEPP-ENR-035",
+        "JEPP-ENR-036",
+        "JEPP-ENR-037",
+        "JEPP-ENR-038",
+        "JEPP-ENR-039",
+        "JEPP-ENR-040"
+      ],
+      "quiz_questions": 8,
+      "pass_percent": 80
+    },
+    {
+      "id": "JEPP-ENR-STAGE-06",
+      "unit_title": "Enroute Chart Legend",
+      "title": "Chart Graphic 41–48",
+      "source_printed_pages": [
+        141,
+        143
+      ],
+      "source_pdf_pages": [
+        141,
+        143
+      ],
+      "sections": [
+        {
+          "heading": "41. Non-Standard Flight Levels",
+          "paragraphs": [
+            "비표준 Flight Level 체계를 나타내며 표시된 방향에서 짝수 Flight Level을 사용함을 나타낸다.",
+            "Jeppesen 원문 요지: Non-standard flight levels; even flight levels in direction indicated."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-41-non-standard-flight-levels.webp",
+            "caption": "Enroute Chart Legend · No. 41 · Non-Standard Flight Levels"
+          }
+        },
+        {
+          "heading": "42. RNAV ATS Route Without Designator",
+          "paragraphs": [
+            "유럽 외 지역에서 별도 지정부호 없이 표시되는 RNAV ATS 항로이다.",
+            "Jeppesen 원문 요지: RNAV ATS route when not identified by designator (used outside Europe)."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-42-rnav-ats-route-without-designator.webp",
+            "caption": "Enroute Chart Legend · No. 42 · RNAV ATS Route Without Designator"
+          }
+        },
+        {
+          "heading": "43. Airspace Fix or Mileage Break",
+          "paragraphs": [
+            "명명 또는 무명 공역 fix/거리 분기점을 나타낸다. 대괄호 안 database identifier는 데이터베이스 항법시스템과 함께 위치 파악용으로만 쓰며 비행계획 제출이나 ATC 교신에 사용하지 않는다.",
+            "Jeppesen 원문 요지: Named or unnamed airspace fix or mileage break. Database identifiers are enclosed in square brackets and are for orientation with database navigation systems, not for flight plan filing or ATC communication."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-43-airspace-fix-or-mileage-break.webp",
+            "caption": "Enroute Chart Legend · No. 43 · Airspace Fix or Mileage Break"
+          }
+        },
+        {
+          "heading": "44. Altitude Change",
+          "paragraphs": [
+            "고도 변경 지점을 나타낸다.",
+            "Jeppesen 원문 요지: Altitude change."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-44-altitude-change.webp",
+            "caption": "Enroute Chart Legend · No. 44 · Altitude Change"
+          }
+        },
+        {
+          "heading": "45. Route Minimum Off-Route Altitude (Route MORA)",
+          "paragraphs": [
+            "Route MORA를 나타낸다.",
+            "Jeppesen 원문 요지: Route Minimum Off-Route Altitude (Route MORA)."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-45-route-minimum-off-route-altitude-route-mora.webp",
+            "caption": "Enroute Chart Legend · No. 45 · Route Minimum Off-Route Altitude (Route MORA)"
+          }
+        },
+        {
+          "heading": "46. Direct Route",
+          "paragraphs": [
+            "Direct Route를 나타낸다. ATC 승인이 필요하며 비행계획에는 수리되지 않는다.",
+            "Jeppesen 원문 요지: Direct route; requires ATC approval and will not be accepted in flight plans."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-46-direct-route.webp",
+            "caption": "Enroute Chart Legend · No. 46 · Direct Route"
+          }
+        },
+        {
+          "heading": "47. NDB",
+          "paragraphs": [
+            "NDB를 나타낸다.",
+            "Jeppesen 원문 요지: NDB."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-47-ndb.webp",
+            "caption": "Enroute Chart Legend · No. 47 · NDB"
+          }
+        },
+        {
+          "heading": "48. Airport Communications",
+          "paragraphs": [
+            "공항 라벨 위에 표시되는 해당 공항 통신정보이다. App/Arr, Dep, TWR, GND는 차트 표에도 수록되며 별표는 시간제 운용을 뜻한다.",
+            "Jeppesen 원문 요지: Communications related to airport listed above airport label. Approach/Arrival, Departure, Tower and Ground are listed in chart tabulations; asterisk indicates part-time operation."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-48-airport-communications.webp",
+            "caption": "Enroute Chart Legend · No. 48 · Airport Communications"
+          }
+        },
+        {
+          "heading": "단계 세부 항목 정리",
+          "paragraphs": [
+            "이 표는 해당 단계의 원문 기반 문제 항목을 이론 복습용으로 다시 정리한 것이다."
+          ],
+          "table": {
+            "headers": [
+              "항목",
+              "Jeppesen 원문 기반 상세 설명"
+            ],
+            "rows": [
+              [
+                "No. 41 · Non-Standard Flight Levels",
+                "비표준 Flight Level 체계를 나타내며 표시된 방향에서 짝수 Flight Level을 사용함을 나타낸다. · Non-standard flight levels; even flight levels in direction indicated."
+              ],
+              [
+                "No. 42 · RNAV ATS Route Without Designator",
+                "유럽 외 지역에서 별도 지정부호 없이 표시되는 RNAV ATS 항로이다. · RNAV ATS route when not identified by designator (used outside Europe)."
+              ],
+              [
+                "No. 43 · Airspace Fix or Mileage Break",
+                "명명 또는 무명 공역 fix/거리 분기점을 나타낸다. 대괄호 안 database identifier는 데이터베이스 항법시스템과 함께 위치 파악용으로만 쓰며 비행계획 제출이나 ATC 교신에 사용하지 않는다. · Named or unnamed airspace fix or mileage break. Database identifiers are enclosed in square brackets and are for orientation with database navigation systems, not for flight plan filing or ATC communication."
+              ],
+              [
+                "No. 44 · Altitude Change",
+                "고도 변경 지점을 나타낸다. · Altitude change."
+              ],
+              [
+                "No. 45 · Route Minimum Off-Route Altitude (Route MORA)",
+                "Route MORA를 나타낸다. · Route Minimum Off-Route Altitude (Route MORA)."
+              ],
+              [
+                "No. 46 · Direct Route",
+                "Direct Route를 나타낸다. ATC 승인이 필요하며 비행계획에는 수리되지 않는다. · Direct route; requires ATC approval and will not be accepted in flight plans."
+              ],
+              [
+                "No. 47 · NDB",
+                "NDB를 나타낸다. · NDB."
+              ],
+              [
+                "No. 48 · Airport Communications",
+                "공항 라벨 위에 표시되는 해당 공항 통신정보이다. App/Arr, Dep, TWR, GND는 차트 표에도 수록되며 별표는 시간제 운용을 뜻한다. · Communications related to airport listed above airport label. Approach/Arrival, Departure, Tower and Ground are listed in chart tabulations; asterisk indicates part-time operation."
+              ]
+            ]
+          }
+        }
+      ],
+      "summary_points": [
+        "Enroute Chart Legend 번호 41–48의 실제 차트 표시와 의미를 연결해 식별합니다.",
+        "쪽지시험에서는 차트 이미지가 제시되고 해당 의미를 고릅니다."
+      ],
+      "question_ids": [
+        "JEPP-ENR-041",
+        "JEPP-ENR-042",
+        "JEPP-ENR-043",
+        "JEPP-ENR-044",
+        "JEPP-ENR-045",
+        "JEPP-ENR-046",
+        "JEPP-ENR-047",
+        "JEPP-ENR-048"
+      ],
+      "quiz_questions": 8,
+      "pass_percent": 80
+    },
+    {
+      "id": "JEPP-ENR-STAGE-07",
+      "unit_title": "Enroute Chart Legend",
+      "title": "10-1B Chart Legend · 1–6",
+      "source_printed_pages": [
+        143,
+        144
+      ],
+      "source_pdf_pages": [
+        143,
+        144
+      ],
+      "sections": [
+        {
+          "heading": "10-1B 1. DME Arc Distances",
+          "paragraphs": [
+            "Terminal airspace를 정의하는 데 사용하는 DME arc 거리이다.",
+            "Jeppesen 원문 요지: DME arc distances used to define the Terminal airspace."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-10-1b-01-dme-arc-distances.webp",
+            "caption": "10-1B Chart Legend · No. 1 · DME Arc Distances"
+          }
+        },
+        {
+          "heading": "10-1B 2. Terminal Airspace Horizontal Limits",
+          "paragraphs": [
+            "굵은 선은 Terminal airspace 및 각 공역 섹터의 수평 한계를 나타낸다.",
+            "Jeppesen 원문 요지: Bold line represents the horizontal limits of the Terminal airspace and airspace sectors."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-10-1b-02-terminal-airspace-horizontal-limits.webp",
+            "caption": "10-1B Chart Legend · No. 2 · Terminal Airspace Horizontal Limits"
+          }
+        },
+        {
+          "heading": "10-1B 3. Primary Navaid",
+          "paragraphs": [
+            "Terminal airspace의 수평 한계를 추가로 정의하는 주 항행시설이다.",
+            "Jeppesen 원문 요지: Primary navaid used to further define the horizontal limits of the Terminal airspace."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-10-1b-03-primary-navaid.webp",
+            "caption": "10-1B Chart Legend · No. 3 · Primary Navaid"
+          }
+        },
+        {
+          "heading": "10-1B 4. Primary Airport",
+          "paragraphs": [
+            "주 공항은 굵은 글씨로 표시된다.",
+            "Jeppesen 원문 요지: Primary airport is shown in bold print."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-10-1b-04-primary-airport.webp",
+            "caption": "10-1B Chart Legend · No. 4 · Primary Airport"
+          }
+        },
+        {
+          "heading": "10-1B 5. Terminal Airspace Vertical Limits",
+          "paragraphs": [
+            "차트에 표시된 섹터 내 Terminal airspace의 수직 한계를 100 ft 단위로 나타낸다.",
+            "Jeppesen 원문 요지: Vertical limits of the Terminal airspace within charted sector in hundreds of feet."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-10-1b-05-terminal-airspace-vertical-limits.webp",
+            "caption": "10-1B Chart Legend · No. 5 · Terminal Airspace Vertical Limits"
+          }
+        },
+        {
+          "heading": "10-1B 6. Screened Orientation Information",
+          "paragraphs": [
+            "위치 파악을 위해 옅게 표시되는 정보로, 항로정보·공항·항행시설 등이 포함된다.",
+            "Jeppesen 원문 요지: Screened information provided for orientation purposes, including airway information, airports and navaids."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-enroute-legend/enroute-10-1b-06-screened-orientation-information.webp",
+            "caption": "10-1B Chart Legend · No. 6 · Screened Orientation Information"
+          }
+        },
+        {
+          "heading": "단계 세부 항목 정리",
+          "paragraphs": [
+            "이 표는 해당 단계의 원문 기반 문제 항목을 이론 복습용으로 다시 정리한 것이다."
+          ],
+          "table": {
+            "headers": [
+              "항목",
+              "Jeppesen 원문 기반 상세 설명"
+            ],
+            "rows": [
+              [
+                "No. 10-1B-1 · DME Arc Distances",
+                "Terminal airspace를 정의하는 데 사용하는 DME arc 거리이다. · DME arc distances used to define the Terminal airspace."
+              ],
+              [
+                "No. 10-1B-2 · Terminal Airspace Horizontal Limits",
+                "굵은 선은 Terminal airspace 및 각 공역 섹터의 수평 한계를 나타낸다. · Bold line represents the horizontal limits of the Terminal airspace and airspace sectors."
+              ],
+              [
+                "No. 10-1B-3 · Primary Navaid",
+                "Terminal airspace의 수평 한계를 추가로 정의하는 주 항행시설이다. · Primary navaid used to further define the horizontal limits of the Terminal airspace."
+              ],
+              [
+                "No. 10-1B-4 · Primary Airport",
+                "주 공항은 굵은 글씨로 표시된다. · Primary airport is shown in bold print."
+              ],
+              [
+                "No. 10-1B-5 · Terminal Airspace Vertical Limits",
+                "차트에 표시된 섹터 내 Terminal airspace의 수직 한계를 100 ft 단위로 나타낸다. · Vertical limits of the Terminal airspace within charted sector in hundreds of feet."
+              ],
+              [
+                "No. 10-1B-6 · Screened Orientation Information",
+                "위치 파악을 위해 옅게 표시되는 정보로, 항로정보·공항·항행시설 등이 포함된다. · Screened information provided for orientation purposes, including airway information, airports and navaids."
+              ]
+            ]
+          }
+        }
+      ],
+      "summary_points": [
+        "10-1B 차트의 Terminal airspace 한계, DME arc, 주 항행시설·공항, 수직한계 및 orientation 정보를 식별합니다.",
+        "쪽지시험에서는 10-1B 샘플 차트 이미지가 제시됩니다."
+      ],
+      "question_ids": [
+        "JEPP-ENR-049",
+        "JEPP-ENR-050",
+        "JEPP-ENR-051",
+        "JEPP-ENR-052",
+        "JEPP-ENR-053",
+        "JEPP-ENR-054"
+      ],
+      "quiz_questions": 6,
+      "pass_percent": 80
+    }
+  ]
+}

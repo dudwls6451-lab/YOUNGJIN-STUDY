@@ -11,7 +11,10 @@
       "questions": 10,
       "pass_percent": 80
     },
-    "version": "v11.60.14"
+    "version": "v11.60.14",
+    "detail_revision": "v11.60.29-source-detail-overhaul",
+    "detail_revision_date": "2026-08-30",
+    "detail_note": "Glossary는 443개 용어의 전체 한국어 정의가 이미 단계별 section으로 수록되어 있어 정의 본문을 보존하고 렌더러 호환/학습 요약만 재검증함."
   },
   "stages": [
     {
@@ -175,19 +178,7 @@
         "ADS-B — 탐지 대상 항공기 또는 차량에 데이터링크 송신 형태의 협조장비를 탑재하는 감시 시스템.",
         "ADS-C AGREEMENT — ADS-C 데이터 보고의 조건, 즉 항공교통업무기관이 요구하는 데이터와 ADS-C 보고 빈도 등을 정하는 보고 계획.",
         "ADS CONTRACT — ADS 합의 조건을 지상 시스템과 항공기 사이에서 교환하는 수단으로, 어떤 조건에서 ADS 보고를 시작할지와 보고에 어떤 데이터를 포함할지를 규정한다.",
-        "ADVISORY AIRSPACE — 정해진 범위의 공역 또는 지정된 항로로서 항공교통조언업무가 제공되는 곳.",
-        "ADVISORY ROUTE (ADR) — 항공교통조언업무가 제공되도록 지정된 항로.",
-        "ADVISORY SERVICE — 조종사가 비행 및 항공기 이동을 안전하게 수행하도록 돕기 위해 시설에서 제공하는 조언과 정보.",
-        "AERODROME — 항공기의 도착, 출발 및 지상이동을 전부 또는 일부 목적으로 사용하도록 정해진 육상 또는 수상의 구역.",
-        "AERODROME CLIMATOLOGICAL SUMMARY — 통계자료를 바탕으로 특정 비행장의 지정 기상요소를 간결하게 요약한 자료.",
-        "AERODROME CLIMATOLOGICAL TABLE — 비행장에서 관측된 하나 이상의 기상요소 발생에 관한 통계자료를 제공하는 표.",
-        "AERODROME CONTROL SERVICE — 비행장 교통에 제공되는 항공교통관제업무.",
-        "AERODROME CONTROL TOWER — 비행장 교통에 항공교통관제업무를 제공하기 위해 설치된 기관.",
-        "AERODROME ELEVATION — 착륙구역에서 가장 높은 지점의 표고.",
-        "AERODROME FLIGHT INFORMATION SERVICE (AFIS) — 비행장 비행정보구역 내에서 무선장비를 갖춘 모든 항공기에 제공되는 지향성 교통정보 및 운항정보 서비스로, 안전하고 효율적인 비행 수행을 지원한다.",
-        "AERODROME METEOROLOGICAL OFFICE — 국제항공항행을 위한 기상업무를 제공하도록 지정되어 비행장에 설치된 기상기관.",
-        "AERODROME REFERENCE CODE (ARC) — 비행장 특성에 관한 여러 규격을 상호 연계하여 해당 비행장에서 운항하도록 계획된 항공기에 적합한 비행장 시설을 제공하기 위한 간단한 분류 방식.",
-        "AERODROME TRAFFIC — 비행장의 기동지역에서 이루어지는 모든 교통과 비행장 부근을 비행하는 모든 항공기."
+        "ADVISORY AIRSPACE — 정해진 범위의 공역 또는 지정된 항로로서 항공교통조언업무가 제공되는 곳."
       ],
       "question_ids": [
         "JEPP-GLOSS-001-A",
@@ -388,19 +379,7 @@
         "AERONAUTICAL FIXED STATION — 항공고정업무에 속하는 국(station).",
         "AERONAUTICAL FIXED TELECOMMUNICATION NETWORK (AFTN) — 항공고정업무의 일부로 제공되는 세계적인 항공고정회선 체계.",
         "AERONAUTICAL GROUND LIGHT — 항공기에 표시되는 등화를 제외하고, 항공항행을 지원하기 위해 특별히 설치된 모든 등화.",
-        "AERONAUTICAL INFORMATION PUBLICATION (AIP) — 국가가 발행하거나 국가의 권한에 따라 발행되며, 항공항행에 필수적인 지속성 있는 항공정보를 수록한 간행물.",
-        "AERONAUTICAL METEOROLOGICAL STATION — 국제항공항행에 사용될 관측과 기상보고를 수행하도록 지정된 관측소.",
-        "AERONAUTICAL MOBILE SERVICE — 항공국과 항공기국 사이 또는 항공기국 상호 간의 이동업무.",
-        "AERONAUTICAL RADIO, INCORPORATED (ARINC) — 가입료 방식으로 공대지 통신을 제공하는 국제 무선통신망.",
-        "AERONAUTICAL STATION — 항공이동업무의 육상국.",
-        "AERONAUTICAL TELECOMMUNICATION SERVICE — 항공 관련 목적을 위해 제공되는 통신업무.",
-        "AERONAUTICAL TELECOMMUNICATION STATION — 항공통신업무에 속하는 국(station).",
-        "AIRBORNE COLLISION AVOIDANCE SYSTEM (ACAS) — 2차감시레이더(SSR) 트랜스폰더 신호를 기반으로 하며 지상장비와 독립적으로 작동하여, SSR 트랜스폰더를 장착한 잠재적 충돌 항공기에 관한 조언을 조종사에게 제공하는 항공기 시스템.",
-        "AIRCRAFT — 지표면에 대한 공기의 반작용이 아닌 대기 중 공기의 반작용으로 지지력을 얻을 수 있는 모든 기계.",
-        "AIRCRAFT ADDRESS — 공대지 통신, 항법 및 감시 목적으로 항공기에 부여할 수 있는 고유한 24비트 조합.",
-        "AIRCRAFT APPROACH CATEGORY (USA TERPS) — Vref가 규정되어 있으면 Vref, 규정되어 있지 않으면 최대 인증 착륙중량에서의 1.3 VS0를 기준으로 항공기를 분류한 것.",
-        "AIRCRAFT APPROACH CATEGORY (ICAO) — ATC 섹션 “Flight Procedures (DOC 8168) Arrival and Approach Procedures”의 ICAO 표는 각 항공기 범주별로 지정 기동을 수행할 때의 취급속도(IAS, KT) 범위를 제시한다.",
-        "AIRCRAFT GROUP NUMBER (AGN) — 추가 정보는 Canada ATC Air Operations를 참조한다."
+        "AERONAUTICAL INFORMATION PUBLICATION (AIP) — 국가가 발행하거나 국가의 권한에 따라 발행되며, 항공항행에 필수적인 지속성 있는 항공정보를 수록한 간행물."
       ],
       "question_ids": [
         "JEPP-GLOSS-021-A",
@@ -604,19 +583,7 @@
         "AIRCRAFT STATION — 생존정국을 제외하고 항공기에 설치된 항공이동업무의 이동국.",
         "AIRCRAFT SURFACE SURVEILLANCE CAPABILITY (ASSC) — 멀티래터레이션과 ADS-B 항공기 정보를 이용하여 항공기와 차량의 지상이동을 추적하는 감시 시스템.",
         "AIR DEFENSE IDENTIFICATION ZONE (ADIZ) — 국가안보를 위해 항공기의 신속한 식별, 위치확인 및 통제가 요구되는 육상 또는 수상 상공의 공역으로, 지표면에서 위쪽으로 연장된다.",
-        "AIR-GROUND COMMUNICATION — 항공기와 지표상의 국 또는 위치 사이의 양방향 통신.",
-        "AIR-GROUND CONTROL RADIO STATION — 특정 구역에서 항공기 운항 및 통제에 관한 통신을 처리할 주된 책임을 가진 항공통신국.",
-        "AIRMET INFORMATION — 저고도 항공기 운항의 안전에 영향을 줄 수 있고 해당 FIR 또는 그 하위구역의 저고도 비행 예보에 이미 포함되지 않은 특정 항로상 기상현상의 발생 또는 예상 발생에 관하여 기상감시소가 발행하는 정보.",
-        "AIRPLANE DESIGN GROUP (ADG) — 날개폭과 꼬리높이를 기준으로 한 FAA 항공기 분류.",
-        "AIRPORT — 항공기의 착륙 및 이륙에 사용되거나 사용될 예정인 육상 또는 수상의 구역으로, 해당되는 경우 건물과 시설을 포함한다.",
-        "AIRPORT ELEVATION/FIELD ELEVATION — 공항의 사용 가능한 활주로 중 가장 높은 지점을 평균해면으로부터 피트 단위로 측정한 값.",
-        "AIRPORT REFERENCE POINT (ARP) — 공항의 공식 위치로 지정된 공항 내 지점.",
-        "AIRPORT SURFACE DETECTION EQUIPMENT - MODEL X (ASDE-X) — 레이더, 항공기 트랜스폰더, 위성 및 멀티래터레이션을 사용하여 항공기와 차량의 지상이동을 추적하는 감시 시스템.",
-        "AIRPORT SURVEILLANCE RADAR (ASR) — 터미널 구역에서 항공기의 위치를 탐지·표시하는 접근관제 레이더.",
-        "AIRPROX — 항공교통사건 보고서에서 aircraft proximity를 표시하기 위해 사용하는 코드워드.",
-        "AIR-REPORT — 비행 중인 항공기가 위치 및 운항·기상 보고 요건에 맞추어 작성하는 보고.",
-        "AIR-TAXIING — 헬리콥터/VTOL이 비행장 표면 위를, 통상 지면효과 내에서 그리고 일반적으로 20KT(37km/h) 미만의 대지속도로 이동하는 것.",
-        "AIR-TO-GROUND COMMUNICATION — 항공기에서 지표상의 국 또는 위치로 보내는 단방향 통신."
+        "AIR-GROUND COMMUNICATION — 항공기와 지표상의 국 또는 위치 사이의 양방향 통신."
       ],
       "question_ids": [
         "JEPP-GLOSS-041-A",
@@ -814,19 +781,7 @@
         "AIR TRAFFIC CONTROL INSTRUCTION — 조종사에게 특정 행동을 하도록 요구하기 위해 ATC가 발부하는 지시.",
         "AIR TRAFFIC CONTROL SERVICE — 다음을 목적으로 제공되는 업무.",
         "AIR TRAFFIC CONTROL UNIT — area control centre, approach control office 또는 aerodrome control tower를 포괄하는 일반 용어.",
-        "AIR TRAFFIC SERVICE (ATS) — flight information service, alerting service, air traffic advisory service, air traffic control service(area control service, approach control service,…",
-        "AIR TRAFFIC SERVICES AIRSPACES — 정해진 범위와 알파벳 등급을 가진 공역으로, 특정 종류의 비행이 운항할 수 있으며 제공되는 항공교통업무와 운항규칙이 정해져 있다.",
-        "AIR TRAFFIC SERVICES REPORTING OFFICE — 출발 전에 제출되는 항공교통업무 관련 보고 및 비행계획을 접수하기 위해 설치된 기관.",
-        "AIR TRAFFIC SERVICES (ATS) ROUTE — 항공교통업무 제공을 위해 필요에 따라 교통흐름을 유도하도록 지정된 특정 항로.",
-        "AIR TRAFFIC SERVICES (ATS) ROUTE (USA) — VOR Federal airways, colored Federal airways, jet routes, Military Training Routes, named routes, RNAV routes를 포함하는 일반 용어.",
-        "AIR TRAFFIC SERVICES UNIT — air traffic control unit, flight information centre 또는 air traffic services reporting office를 포괄하는 일반 용어.",
-        "AIRWAY (ICAO) — 무선항행시설을 갖춘 회랑 형태로 설정된 관제구역 또는 그 일부.",
-        "AIRWAY (USA) — 무선항행시설로 중심선이 정의된 회랑 형태의 Class E 공역.",
-        "ALERFA — Alert phase를 나타내는 코드워드.",
-        "ALERT AREA (USA) — SPECIAL USE AIRSPACE (SUA) 참조.",
-        "ALERTING SERVICE — 수색구조 지원이 필요한 항공기에 관해 관계기관에 알리고 필요에 따라 그 기관을 지원하는 업무.",
-        "ALERT PHASE — 항공기와 탑승자의 안전에 대해 우려가 존재하는 상황.",
-        "ALLOCATION, ALLOCATE — 주파수, SSR Code 등을 국가·기관·업무에 분배하는 것."
+        "AIR TRAFFIC SERVICE (ATS) — flight information service, alerting service, air traffic advisory service, air traffic control service(area control service, approach control service,…"
       ],
       "question_ids": [
         "JEPP-GLOSS-061-A",
@@ -1027,19 +982,7 @@
         "ALTIMETER SETTING — 현재 대기압의 변화를 보정하거나 표준 고도계 설정(29.92 inHg, 1013.2 hPa 또는 1013.2 mb)에 맞추기 위해 기압고도계에 설정하는 기압값.",
         "ALTITUDE (ICAO) — 평균해면(MSL)으로부터 한 level, 지점 또는 점으로 간주한 물체까지의 수직거리.",
         "ALTITUDE (USA) — 지상(AGL) 또는 평균해면(MSL)으로부터 피트 단위로 측정한 level, 지점 또는 물체의 높이.",
-        "APPROACH BAN — 보고된 시정 또는 RVR이 해당 접근의 지정 최저치보다",
-        "APPROACH CONTROL OFFICE — 하나 이상의 비행장에 도착하거나 출발하는 관제비행에 항공교통관제업무를 제공하기 위해 설치된 기관.",
-        "APPROACH CONTROL SERVICE — 도착 또는 출발 관제비행에 제공되는 항공교통관제업무.",
-        "APPROACH CONTROL UNIT — 하나 이상의 비행장에 도착하거나 출발하는 관제비행에 항공교통관제업무를 제공하기 위해 설치된 기관.",
-        "APPROACH FUNNEL — 명목 접근경로 주변에 정해진 공역으로, 그 안의 착륙 접근 항공기는 정상접근을 수행 중인 것으로 본다.",
-        "APPROACH PROCEDURE WITH VERTICAL GUIDANCE (APV) — INSTRUMENT APPROACH PROCEDURE (IAP) 참조.",
-        "APPROACH SEQUENCE — 둘 이상의 항공기가 비행장에 착륙접근 허가를 받는 순서.",
-        "APPROPRIATE ATS AUTHORITY — 해당 공역에서 항공교통업무 제공을 담당하는 국가가 지정한 관계기관.",
-        "APPROPRIATE AUTHORITY — a.",
-        "APRON — 육상 비행장에서 승객·우편·화물의 탑재 또는 하역, 급유, 주기 또는 정비를 위해 항공기를 수용하도록 정해진 구역.",
-        "ARC — Aerodrome Reference Code 참조.",
-        "AREA CONTROL CENTRE — 관할 관제구역의 관제비행에 항공교통관제업무를 제공하기 위해 설치된 기관.",
-        "AREA CONTROL SERVICE — 관제구역 내 관제비행에 제공되는 항공교통관제업무."
+        "APPROACH BAN — 보고된 시정 또는 RVR이 해당 접근의 지정 최저치보다"
       ],
       "question_ids": [
         "JEPP-GLOSS-081-A",
@@ -1215,15 +1158,7 @@
         "ASSIGNMENT, ASSIGN — 주파수를 특정 국에 배정하는 것.",
         "ATIS — ASOS INTERFACE — ASOS 기상관측을 ATIS 방송에 붙일 수 있게 하는 스위치로, 동일한 ATIS 주파수에서 24시간 기상정보를 제공한다.",
         "ATS ROUTE — 항공교통업무 제공을 위해 필요에 따라 교통흐름을 유도하도록 지정한 특정 항로.",
-        "ATS SURVEILLANCE SERVICE — ATS 감시 시스템을 직접 이용하여 제공하는 업무를 나타내는 용어.",
-        "ATS SURVEILLANCE SYSTEM — ADS-B, PSR, SSR 또는 항공기 식별이 가능한 이에 준하는 지상 시스템을 포괄하는 일반 용어.",
-        "AUTOMATIC DEPENDENT SURVEILLANCE (ADS) — 항공기가 기내 항법 및 위치결정 시스템에서 얻은 항공기 식별, 4차원 위치 및 필요에 따른 추가 데이터를 데이터링크를 통해 자동으로 제공하는 감시기법.",
-        "AUTOMATIC DEPENDENT SURVEILLANCE — BROADCAST (ADS-B) — 항공기, 비행장 차량 및 기타 물체가 데이터링크를 통해 식별, 위치 및 필요한 추가 데이터를 방송 방식으로 자동 송신 및/또는 수신할 수 있게 하는 수단.",
-        "AUTOMATIC DEPENDENT SURVEILLANCE — CONTRACT (ADS-C) — ADS-C 합의 조건을 데이터링크로 지상 시스템과 항공기 사이에서 교환하여, 어떤 조건에서 ADS-C 보고를 시작하고 어떤 데이터를 보고에 포함할지를 정하는 수단.",
-        "AUTOMATIC TERMINAL INFORMATION SERVICE (ATIS) — 도착 및 출발 항공기에 현재의 정기 정보를 24시간 또는 지정된 시간 동안 자동 제공하는 업무.",
-        "AUTOMATED SURFACE OBSERVATION SYSTEM (ASOS) — 미국에서 National Weather Service, FAA 및 Department of Defense가 구축한 지상기상관측 시스템.",
-        "AUTOMATED WEATHER OBSERVING SYSTEM (AWOS) — 현지 실시간 기상자료를 조종사에게 직접 송신하는 자동 기상보고 시스템.",
-        "AUTOMATED WEATHER SENSOR SYSTEM (AWSS) — AWOS/ASOS와 유사한 지상기상관측 시스템으로 ASOS가 제공하는 모든 기상정보를 제공한다."
+        "ATS SURVEILLANCE SERVICE — ATS 감시 시스템을 직접 이용하여 제공하는 업무를 나타내는 용어."
       ],
       "question_ids": [
         "JEPP-GLOSS-101-A",
@@ -1487,19 +1422,7 @@
         "CHANGE-OVER POINT — VHF omnidirectional radio range를 기준으로 정의된 ATS 항로 구간을 항행하는 항공기가 주 항법기준을 뒤쪽 시설에서 앞쪽 다음 시설로 전환할 것으로 예상되는 지점.",
         "CHART CHANGE NOTICES — Jeppesen Enroute, Area 및 Terminal 차트에 영향을 주는 중요한 정보 변경을 수록한다.",
         "CIRCLING APPROACH / CIRCLE-TO-LAND MANEUVER — 착륙 전에 비행장을 시계로 선회할 수 있도록 하는 계기접근절차의 연장 부분.",
-        "CLEARANCE LIMIT — 항공교통관제 허가가 부여된 최종 지점.",
-        "CLEARWAY — 이륙활주로 너머에서 공항당국이 관리하는 구역으로, 지형 또는 고정 장애물이 지정 한계를 넘지 않도록 한 곳.",
-        "CLOUD OF OPERATIONAL SIGNIFICANCE — 운저고도가 5000ft(1500m) 미만이거나, 가장 높은 minimum sector altitude보다",
-        "CODE (SSR CODE) — Mode A 또는 Mode C에서 트랜스폰더가 송신하는 특정 다중펄스 응답신호에 부여된 번호.",
-        "COMMON TRAFFIC ADVISORY FREQUENCY (CTAF) (USA) — 비관제공항에서 출도착할 때 공항 조언 절차를 수행하도록 지정된 주파수.",
-        "COMMUNITY AERODROME RADIO STATION (CARS) — 기상·비행장 상태를 제공하고 비행계획과 위치보고를 접수하는 비행장 무선국.",
-        "COMPULSORY REPORTING POINTS — ATC에 반드시 보고해야 하는 보고지점.",
-        "COMPUTER — 사람의 개입 없이 데이터에 대해 산술 및 논리 연산 단계를 연속 수행하는 장치.",
-        "CONDITIONAL ROUTES (CDR) (Europe) — Category 1: 지정 시간 동안 상시 비행계획에 사용할 수 있는 CDR.",
-        "CONTINUOUS DESCENT FINAL APPROACH (CDFA) — 비정밀접근(NPA)의 최종접근을 연속강하로 비행하는 기법.",
-        "CONTROL AREA (ICAO) — 지표면 위의 지정된 하한에서 위쪽으로 연장되는 관제공역.",
-        "CONTROLLED AERODROME — 비행장 교통에 항공교통관제업무가 제공되는 비행장.",
-        "CONTROLLED AIRSPACE — 공역등급에 따라 IFR 및 VFR 비행에 항공교통관제업무가 제공되는 정해진 범위의 공역."
+        "CLEARANCE LIMIT — 항공교통관제 허가가 부여된 최종 지점."
       ],
       "question_ids": [
         "JEPP-GLOSS-123-A",
@@ -1630,9 +1553,7 @@
         "COURSE — a.",
         "CRITICAL DME — 특정 DME 시설이 이용 불가능할 때 특정 항로 또는 절차의 전부 또는 일부에서 DME/DME/IRU 운항에 충분한 항법서비스를 제공할 수 없게 되는 경우 그 DME 시설을 말한다.",
         "CRITICAL HEIGHT — 비행장과 관련해 지정된 최저 높이로, 그 아래에서는 계기만을 이용하여 접근절차를 안전하게 계속할 수 없다.",
-        "CRUISE CLIMB — 항공기 질량이 감소함에 따라 순항 중 순고도가 증가하도록 하는 순항기법.",
-        "CRUISING LEVEL — 비행의 상당 부분 동안 유지하는 level.",
-        "CURRENT FLIGHT PLAN (CPL) — 후속 관제허가로 인한 변경사항이 있다면 그것까지 포함한 현재 비행계획."
+        "CRUISE CLIMB — 항공기 질량이 감소함에 따라 순항 중 순고도가 증가하도록 하는 순항기법."
       ],
       "question_ids": [
         "JEPP-GLOSS-143-A",
@@ -1792,16 +1713,7 @@
         "DEAD RECKONING (DR) NAVIGATION — 이전에 알고 있던 위치에 방향·시간·속도 자료를 적용하여 현재 위치를 추정하거나 결정하는 항법.",
         "DECISION ALTITUDE (DA) or DECISION HEIGHT (DH) (ICAO) — 정밀접근 또는 수직유도가 있는 접근에서, 접근을 계속하는 데 필요한 시각참조가 확보되지 않은 경우 실패접근을 시작해야 하는 지정 altitude 또는 height.",
         "DECISION ALTITUDE/HEIGHT (DA/H) (FAA) — 계기접근절차에서 지정된 altitude/height로, 필요한 시각참조가 보이지 않으면 즉시 실패접근을 시작할지 또는 접근을 계속할지를 조종사가 결정해야 하는 지점의 값.",
-        "DEPARTURE CLEARANCE VIA DATA LINK (DCL) — 정보 및 출발허가의 요청·전달을 지원하여 승무원과 관제사의 업무량을 줄이기 위한 서비스.",
-        "DEPENDENT PARALLEL APPROACHES — 평행 또는 근접평행 계기활주로에 동시 접근할 때 인접 활주로 연장중심선상의 항공기 사이에 레이더 분리최저치를 적용하는 접근.",
-        "DETRESFA — Distress phase를 나타내는 코드워드.",
-        "DIRECT ROUTE — Jeppesen Enroute 또는 Area chart에 게재된 요청 가능 항로로, ATC가 과거 해당 항로를 수용해 왔다는 사전 지식이 있는 조종사를 돕기 위한 것이다.",
-        "DISCRETE CODE — 마지막 두 자리가 “00”이 아닌 4자리 SSR Code.",
-        "DISPLACED THRESHOLD — 활주로의 지정 시작점이 아닌 다른 위치에 놓인 threshold.",
-        "DISTRESS — 심각하고/또는 임박한 위험에 처해 있으며 즉각적인 지원이 필요한 상태.",
-        "DISTRESS PHASE — 항공기와 탑승자가 중대하고 임박한 위험에 처해 있거나 즉각적인 지원이 필요하다는 상당한 확신이 있는 상황.",
-        "DME DISTANCE — DME 신호원에서 수신 안테나까지의 시선거리(slant range).",
-        "DME GAP — 비행 중인 course에서 지정 DME 시설의 신호를 수신할 수 없는 거리구간."
+        "DEPARTURE CLEARANCE VIA DATA LINK (DCL) — 정보 및 출발허가의 요청·전달을 지원하여 승무원과 관제사의 업무량을 줄이기 위한 서비스."
       ],
       "question_ids": [
         "JEPP-GLOSS-153-A",
@@ -1926,9 +1838,7 @@
         "ENROUTE FLIGHT ADVISORY SERVICE (FLIGHT WATCH) — 조종사 요청 시 비행 종류, 예정 항로 및 고도에 적합한 최신 기상정보를 제공하도록 특별히 설계된 업무.",
         "ESTIMATED ELAPSED TIME — 한 중요지점에서 다른 중요지점까지 진행하는 데 필요할 것으로 예상되는 시간.",
         "ESTIMATED OFF-BLOCK TIME — 항공기가 출발과 관련된 이동을 시작할 것으로 예상되는 시각.",
-        "ESTIMATED TIME OF ARRIVAL — IFR 비행에서는 계기접근을 시작할 예정인, 항행시설로 정의된 지정지점 상공에 도착할 것으로 예상되는 시각.",
-        "EXPECTED APPROACH TIME — 지연 중인 도착 항공기가 착륙접근을 완료하기 위해 holding point를 이탈할 것으로 ATC가 예상하는 시각.",
-        "EXTENDED OPERATION (ETOPS) — 두 개의 터빈 동력장치를 가진 비행기에서, 항로상의 한 지점으로부터 적절한 교체비행장까지 한 개 동력장치 부작동 순항속도(ISA, 무풍 조건)로 비행하는 시간이 운항자 국가가 승인한 threshold time을 초과하는 모든 비행."
+        "ESTIMATED TIME OF ARRIVAL — IFR 비행에서는 계기접근을 시작할 예정인, 항행시설로 정의된 지정지점 상공에 도착할 것으로 예상되는 시각."
       ],
       "question_ids": [
         "JEPP-GLOSS-170-A",
@@ -2108,19 +2018,7 @@
         "FINAL APPROACH COURSE — 거리와 관계없이 활주로 또는 활주로 연장중심선으로 이어지는 계기접근의 bearing/radial/track.",
         "FINAL APPROACH (ICAO) — 지정된 final approach fix 또는 point에서 시작하는 계기접근절차 부분.",
         "FINAL APPROACH AND TAKE-OFF AREA (FATO) — hover 또는 착륙으로 이어지는 최종 접근기동 단계가 완료되고 이륙기동이 시작되는 정해진 구역.",
-        "FINAL APPROACH FIX (FAF) — 공항으로의 IFR 최종접근을 시작하며 final approach segment의 시작을 식별하는 fix.",
-        "FINAL APPROACH FIX (FAF) (AUSTRALIA) — 비정밀접근의 final segment 시작을 식별하는 지정지점.",
-        "FINAL APPROACH FIX (FAF) OR POINT (FAP) (ICAO) — 계기접근절차에서 final approach segment가 시작되는 fix 또는 point.",
-        "FINAL APPROACH — IFR (USA) — final instrument approach course를 따라 공항으로 inbound하는 항공기의 비행경로.",
-        "FINAL APPROACH POINT (FAP) (USA) — 표시된 FAF가 없는 비정밀접근(예: on-airport VOR)에만 적용한다.",
-        "FINAL APPROACH POINT (FAP) (AUSTRALIA) — 정밀계기접근의 glide path상에서 final segment 시작을 식별하는 지정지점.",
-        "FINAL APPROACH SEGMENT (FAS) — 착륙을 위한 정렬과 강하가 이루어지는 계기접근절차 구간.",
-        "FLIGHT CREW MEMBER — 비행시간 중 항공기 운항에 필수적인 임무를 맡은 자격을 가진 승무원.",
-        "FLIGHT DOCUMENTATION — 비행을 위한 기상정보를 포함하는 차트·양식 등의 서면 또는 인쇄 문서.",
-        "FLIGHT INFORMATION CENTRE — 비행정보업무 및 경보업무를 제공하기 위해 설치된 기관.",
-        "FLIGHT INFORMATION REGION (FIR, UIR) — Flight Information Service와 Alerting Service가 제공되는 정해진 범위의 공역.",
-        "FLIGHT INFORMATION SERVICE (FIS) — 비행의 안전하고 효율적인 수행에 유용한 조언과 정보를 제공하기 위한 업무.",
-        "FLIGHT LEVEL (FL) — 특정 기준기압 1013.2 hPa와 관련된 일정 기압면으로, 다른 기압면과 지정된 기압간격으로 분리된다."
+        "FINAL APPROACH FIX (FAF) — 공항으로의 IFR 최종접근을 시작하며 final approach segment의 시작을 식별하는 fix."
       ],
       "question_ids": [
         "JEPP-GLOSS-180-A",
@@ -2351,12 +2249,7 @@
         "GLIDE SLOPE/GLIDE PATH INTERCEPT ALTITUDE — 정밀접근에서 glide slope/path를 포착할 수 있는 최저고도.",
         "GLOBAL NAVIGATION SATELLITE SYSTEMS (GNSS) — 조종사가 위성자료를 이용하여 기내 위치결정을 수행하는 모든 독립 위성항법시스템을 포괄하기 위해 ICAO가 채택한 상위 개념의 용어.",
         "GLOBAL POSITIONING SYSTEM (GPS) — 우주 기반 무선 위치결정·항법·시각전송 시스템.",
-        "GRID MINIMUM OFF-ROUTE ALTITUDE (Grid MORA) — Jeppesen이 산출하거나 국가기관이 제공하는 고도.",
-        "GRID POINT DATA IN DIGITAL FORM — 차트상의 일정 간격 격자점 집합에 대한 컴퓨터 처리 기상자료로, 자동사용에 적합한 코드 형식으로 기상컴퓨터에서 다른 컴퓨터로 전송된다.",
-        "GRIP-FLEX MICRO-SURFACING — 고도로 정제되고 환경적으로 안전한 coal tar 유도체를 사용하여 산화방지 및 연료저항 특성을 갖춘 안정적인 포장 마모표면을 형성하는 열가소성 복합재.",
-        "GROUND COMMUNICATIONS OUTLET (GCO) (USA) — 무인 원격제어 지대지 통신시설.",
-        "GROUND EFFECT — 헬리콥터 또는 기타 VTOL 항공기가 지면 부근에서 운항할 때 지표면이 로터 시스템의 기류패턴에 영향을 주어 성능(양력)이 향상되는 상태.",
-        "GROUND VISIBILITY — 공인 관측자가 보고한 비행장의 시정."
+        "GRID MINIMUM OFF-ROUTE ALTITUDE (Grid MORA) — Jeppesen이 산출하거나 국가기관이 제공하는 고도."
       ],
       "question_ids": [
         "JEPP-GLOSS-206-A",
@@ -2477,10 +2370,7 @@
         "HIGH FREQUENCY COMMUNICATIONS — 해외운항의 공대지 음성통신에 사용하는 3–30MHz 고주파(HF).",
         "HIGH SPEED TAXIWAY / TURNOFF (HST) — 고속(최대 60KT)으로 이동하는 항공기가 활주로 중심에서 유도로 중심까지 이탈하는 경로를 조명 또는 표지로 정의한 큰 곡률반경의 유도로.",
         "HOLDING FIX, HOLDING POINT — ATC 허가에 따라 비행 중 항공기의 위치를 그 부근에서 유지하도록 시각 또는 기타 수단으로 식별되는 지정 위치.",
-        "HOLD / HOLDING PROCEDURE — 추가 ATC 허가를 기다리는 동안 항공기를 지정 공역 안에 유지하도록 미리 정해진 기동.",
-        "HOT SPOT — 충돌 또는 runway incursion의 이력이 있거나 잠재적 위험이 있는 비행장 이동지역의 위치로, 조종사/운전자의 각별한 주의가 필요한 곳.",
-        "HUMAN FACTORS PRINCIPLES — 항공 설계, 인증, 훈련, 운항 및 정비에 적용되며 인간의 수행능력을 적절히 고려하여 인간과 다른 시스템 구성요소 사이의 안전한 인터페이스를 추구하는 원칙.",
-        "HUMAN PERFORMANCE — 항공운항의 안전과 효율에 영향을 미치는 인간의 능력과 한계."
+        "HOLD / HOLDING PROCEDURE — 추가 ATC 허가를 기다리는 동안 항공기를 지정 공역 안에 유지하도록 미리 정해진 기동."
       ],
       "question_ids": [
         "JEPP-GLOSS-219-A",
@@ -2654,16 +2544,7 @@
         "INDEPENDENT PARALLEL APPROACHES — 평행 또는 근접평행 계기활주로에 동시에 접근하되, 인접 활주로 연장중심선상의 항공기 사이에 레이더 분리최저치를 규정하지 않는 접근.",
         "INDEPENDENT PARALLEL DEPARTURES — 평행 또는 근접평행 계기활주로에서 동시에 실시하는 출발.",
         "INITIAL APPROACH FIX (IAF) — initial segment 시작과, 해당되는 경우 arrival segment 끝을 표시하는 fix.",
-        "INITIAL APPROACH SEGMENT — initial approach fix와 intermediate approach fix 사이, 또는 해당되는 경우 final approach fix/point까지의 계기접근절차 구간.",
-        "INSTRUMENT APPROACH PROCEDURE (IAP) — 계기를 참조하여 수행하는 미리 정해진 일련의 기동으로, initial approach fix 또는 해당되는 경우 지정 arrival route의 시작부터 착륙을 완료할 수 있는 지점까지, 그리고 착륙하지 못한 경우 holding 또는 en-route 장애물 회피기준이 적용…",
-        "INSTRUMENT DEPARTURE PROCEDURE (DP) (USA) — 조종사 사용을 위해 도식 및/또는 문자 형식으로 인쇄된 사전계획 IFR ATC 출발절차.",
-        "INSTRUMENT METEOROLOGICAL CONDITIONS (IMC) — 시정, 구름으로부터의 거리, 운고로 표현되는 기상조건이 VMC에 지정된 최저치보다",
-        "INTERMEDIATE APPROACH SEGMENT — intermediate approach fix와 final approach fix/point 사이, 또는 reversal/racetrack/dead reckoning track procedure의 끝과 final approach fix/point 사이의 해당 계기접근 구간.",
-        "INTERMEDIATE FIX (IF) — initial segment의 끝과 intermediate segment의 시작을 표시하는 fix.",
-        "INTERNATIONAL AIRPORT (ICAO) — 소재 체약국이 국제항공교통의 입출국 공항으로 지정하여 세관, 출입국, 공중보건, 동식물 검역 및 유사 절차를 처리하는 공항.",
-        "INTERNATIONAL AIRPORT (USA) — 국제비행과 관련하여 다음을 의미한다.",
-        "INTERNATIONAL AIRWAYS VOLCANO WATCH (IAVW) — 대기 중 화산재를 감시하고 항공기에 경고하기 위한 국제적 체계.",
-        "INTERNATIONAL CIVIL AVIATION ORGANIZATION (ICAO) — 국제항공항행의 원칙과 기술을 개발하고 국제민간항공운송의 계획·발전을 촉진하는 것을 목적으로 하는 UN 전문기구."
+        "INITIAL APPROACH SEGMENT — initial approach fix와 intermediate approach fix 사이, 또는 해당되는 경우 final approach fix/point까지의 계기접근절차 구간."
       ],
       "question_ids": [
         "JEPP-GLOSS-230-A",
@@ -2792,10 +2673,7 @@
         "LATERAL NAVIGATION / VERTICAL NAVIGATION (LNAV/VNAV) — 수직유도가 있는 RNAV IAP에 사용하도록 개발된 APV 최저치.",
         "LEVEL — 비행 중 항공기의 수직위치와 관련된 일반 용어로 height, altitude 또는 flight level을 뜻할 수 있다.",
         "LOCAL AIRPORT ADVISORY (LAA) — 운영 중인 관제탑이 없는 공항에서 FSS 또는 군이 제공하는 서비스.",
-        "LOCALIZER PERFORMANCE WITH VERTICAL GUIDANCE (LPV) — 전자식 횡적·수직유도를 포함하는 APV 최저치를 식별한다.",
-        "LOCATION INDICATOR — ICAO 규칙에 따라 구성되어 항공고정국의 위치에 부여되는 4문자 코드.",
-        "LOW ALTITUDE AIRWAY STRUCTURE / FEDERAL AIRWAYS (USA) — 18,000ft MSL 미만의 항공기 운항을 지원하는 항로망.",
-        "LOW FREQUENCY (LF) — 30–300kHz 주파수대."
+        "LOCALIZER PERFORMANCE WITH VERTICAL GUIDANCE (LPV) — 전자식 횡적·수직유도를 포함하는 APV 최저치를 식별한다."
       ],
       "question_ids": [
         "JEPP-GLOSS-247-A",
@@ -2973,19 +2851,7 @@
         "MAXIMUM AUTHORIZED ALTITUDE (MAA) — 공역 구조 또는 항로구간에 사용할 수 있는 최대 altitude/flight level을 나타내는 공표고도.",
         "MEDIUM FREQUENCY (MF) — 300kHz–3MHz 주파수대.",
         "METEOROLOGICAL AUTHORITY — 체약국을 대신하여 국제항공항행 기상업무를 제공하거나 그 제공을 주선하는 당국.",
-        "METEOROLOGICAL BULLETIN — 적절한 heading이 앞에 붙은 기상정보 문서.",
-        "METEOROLOGICAL INFORMATION — 기상보고, 분석, 예보 및 현재 또는 예상 기상조건과 관련된 기타 모든 진술.",
-        "METEOROLOGICAL OFFICE — 국제항공항행 기상업무를 제공하도록 지정된 기관.",
-        "METEOROLOGICAL REPORT — 특정 시각과 위치의 관측 기상조건에 관한 진술.",
-        "METEOROLOGICAL SATELLITE — 기상관측을 수행하고 그 관측자료를 지상으로 송신하는 인공위성.",
-        "MILITARY OPERATIONS AREA (MOA) (USA) — SPECIAL USE AIRSPACE (SUA) 참조.",
-        "MINIMUM CROSSING ALTITUDE (MCA) — 더 높은 minimum enroute IFR altitude(MEA) 방향으로 진행할 때 특정 fix를 통과해야 하는 최저고도.",
-        "MINIMUM DESCENT ALTITUDE (MDA) (FAA) — 계기접근절차에 지정된 최저고도로, MSL 위 피트로 표시한다.",
-        "MINIMUM DESCENT ALTITUDE (MDA) OR MINIMUM DESCENT HEIGHT (MDH) (ICAO) — 비정밀접근 또는 circling approach에서 필요한 시각참조 없이는 그 아래로 강하할 수 없는 지정 altitude 또는 height.",
-        "MINIMUM ENROUTE IFR ALTITUDE (MEA) — 무선 fix 또는 waypoint 사이에 공표된 최저고도로, 그 사이의 장애물 회피요건을 충족하며 많은 국가에서 허용 가능한 항행신호 범위도 보장한다.",
-        "MINIMUM FUEL — 항공기 연료량이 거의 또는 전혀 지연을 받아들일 수 없는 상태에 도달했음을 나타내는 용어.",
-        "MINIMUM IFR ALTITUDES (USA) — IFR 운항의 최저고도는 항로, route 및 표준계기접근절차에 대해 항공차트에 공표된다.",
-        "MINIMUM OBSTRUCTION CLEARANCE ALTITUDE (MOCA) — VOR airway, off-airway route 또는 route segment의 무선 fix 사이에 공표되는 최저고도로 전체 구간의 장애물 회피요건을 충족한다."
+        "METEOROLOGICAL BULLETIN — 적절한 heading이 앞에 붙은 기상정보 문서."
       ],
       "question_ids": [
         "JEPP-GLOSS-258-A",
@@ -3140,13 +3006,7 @@
         "MINIMUM STABILIZATION DISTANCE (MSD) — 선회기동을 완료한 후 새로운 기동을 시작할 수 있기까지 필요한 최소거리.",
         "MINIMUM VECTORING ALTITUDE (MVA) — 레이더 접근·출발·실패접근에 별도 승인이 있는 경우를 제외하고, 레이더 관제사가 IFR 항공기를 vector할 수 있는 최저 MSL 고도.",
         "MISSED APPROACH — a.",
-        "MISSED APPROACH HOLDING FIX (MAHF) — RNAV에서 missed approach segment의 끝과 missed approach holding의 중심점을 표시하는 fix.",
-        "MISSED APPROACH POINT (MAP) (ICAO) — 최소 장애물 회피간격을 침범하지 않도록 하기 위해 지정 missed approach procedure를 그 지점 또는 그 이전에 시작해야 하는 계기접근절차상의 지점.",
-        "MISSED APPROACH POINT (MAP) (USA) — 필요한 시각참조가 존재하지 않으면 missed approach procedure를 수행해야 하도록 각 계기접근절차에 지정된 지점.",
-        "MISSED APPROACH PROCEDURE — 접근을 계속할 수 없을 때 따라야 하는 절차.",
-        "MODE (SSR) — SSR interrogator가 송신하는 interrogation signal의 특정 기능과 관련된 관례적 식별자.",
-        "MOUNTAINOUS AREA (ICAO) — 10NM 거리 안에서 지형표고 변화가 900m(3000ft)를 초과하는 지형변화 지역.",
-        "MOVEMENT AREA — 항공기의 이륙, 착륙 및 taxiing에 사용되는 비행장 부분으로 manoeuvring area와 apron을 포함한다."
+        "MISSED APPROACH HOLDING FIX (MAHF) — RNAV에서 missed approach segment의 끝과 missed approach holding의 중심점을 표시하는 fix."
       ],
       "question_ids": [
         "JEPP-GLOSS-278-A",
@@ -3494,19 +3354,7 @@
         "POINT-IN-SPACE REFERENCE POINT (PRP) — MAPt의 위도·경도로 식별되는 point-in-space approach의 기준점.",
         "PRECISION APPROACH (PA) PROCEDURE — INSTRUMENT APPROACH PROCEDURE (IAP) 참조.",
         "PRECISION APPROACH RADAR (PAR) — 최종접근 중 항공기의 위치를 명목 접근경로에 대한 횡적·수직 편차와 touchdown까지의 거리 측면에서 결정하는 데 사용하는 1차 레이더 장비.",
-        "PRECISION OBJECT FREE ZONE (POFZ) (FAA) — 활주로 threshold의 threshold elevation에서 시작하여 연장 활주로 중심선을 중심으로 하는 구역 위의 공역.",
-        "PRE-DEPARTURE CLEARANCE (PDC) — FAA의 ATC 출발허가를 사용자 네트워크 컴퓨터로 자동 전달한 뒤, 적절한 장비가 있는 항공기에는 ACARS(Airline/Aviation VHF data link)를 통해 조종실로 보내거나 조종사가 수령하도록 gate printer로 출력하는 자동 Clearance D…",
-        "PRESSURE ALTITUDE — 표준대기에서 해당 기압에 대응하는 고도로 나타낸 대기압.",
-        "PREVAILING VISIBILITY — “visibility”의 정의에 따라 관측한 값 중 수평선 원의 적어도 절반 또는 비행장 표면의 적어도 절반에서 도달하는 가장 큰 시정값.",
-        "PRIMARY AREA — 명목 비행 track을 중심으로 대칭 배치되며 전 장애물 회피간격(full obstacle clearance)을 제공하는 지정구역.",
-        "PRIMARY RADAR — 반사된 무선신호를 사용하는 레이더 시스템.",
-        "PRIMARY SURVEILLANCE RADAR (PSR) — 반사된 무선신호를 이용하는 감시 레이더 시스템.",
-        "PROCEDURE ALTITUDE/HEIGHT — ATC 요구사항과 조정하여 개발한 권장 altitude/height.",
-        "PROCEDURE TURN (PT) (ICAO) — 지정 track에서 바깥쪽으로 선회한 뒤 반대 방향으로 선회하여 항공기가 지정 track의 역방향 경로를 포착해 진행할 수 있게 하는 기동.",
-        "PROCEDURE TURN (PT) (USA) — 항공기를 intermediate approach segment 또는 final approach course에 설정하기 위해 방향반전이 필요할 때 규정되는 기동.",
-        "PROCEDURE TURN INBOUND — procedure turn에서 course reversal을 완료하고 항공기가 intermediate approach segment 또는 final approach course에 inbound로 established된 지점.",
-        "PROFILE — 명목 track을 포함하는 수직면에 비행경로 또는 그 일부를 직교투영한 것.",
-        "PROGNOSTIC CHART — 특정 시각/기간 및 특정 표면/공역부분에 대한 지정 기상요소의 예보를 차트에 도식화한 것."
+        "PRECISION OBJECT FREE ZONE (POFZ) (FAA) — 활주로 threshold의 threshold elevation에서 시작하여 연장 활주로 중심선을 중심으로 하는 구역 위의 공역."
       ],
       "question_ids": [
         "JEPP-GLOSS-305-A",
@@ -3781,19 +3629,7 @@
         "RADAR SEPARATION — 항공기 위치정보가 레이더 자료에서 얻어질 때 적용하는 분리.",
         "RADAR WEATHER ECHO INTENSITY LEVELS — 기존 레이더 시스템은 난기류 자체를 탐지할 수 없지만 뇌우와 관련된 난기류 정도 및 기타 기상특성과 radar weather echo 강도 사이에는 직접적인 상관관계가 있다.",
         "RADIO ALTIMETER / RADAR ALTIMETER — 지상에서 반사되는 전파를 이용하여 항공기의 지표면 위 높이를 측정하는 항공기 장비.",
-        "RADIOTELEPHONY — 주로 음성 형태의 정보를 교환하기 위한 무선통신 방식.",
-        "RADIOTELEPHONY NETWORK — 동일 계열 주파수를 운용·청취하는 항공 radiotelephony 국들의 집합으로, 공대지 통신과 공대지 교통정보 전파의 최대 신뢰성을 확보하도록 정해진 방식으로 서로 지원한다.",
-        "REDUCED VERTICAL SEPARATION MINIMUMS (RVSM) — FL290–FL410 사이의 수직분리를 2000ft에서 1000ft로 축소한 것.",
-        "REGIONAL AIR NAVIGATION AGREEMENT — 통상 지역 항공항행회의의 조언에 따라 ICAO Council이 승인하는 합의.",
-        "REPETITIVE FLIGHT PLAN (RPL) — 기본 특성이 동일하고 정기적으로 반복 운항되는 개별 비행들의 연속에 관한 비행계획으로, 운항자가 ATS 기관에 제출하여 보관 후 반복 사용하도록 한다.",
-        "REPORTING POINT — 항공기의 위치를 그 기준으로 보고할 수 있도록 정해진 지리적 위치.",
-        "REQUIRED NAVIGATION PERFORMANCE (RNP) — 지정 공역에서 운항하는 데 필요한 항법 위치정확도를 나타내는 규격.",
-        "RESCUE COORDINATION CENTER — 수색구조업무의 효율적인 조직을 촉진하고 수색구조구역 안에서 수색구조작업 수행을 조정할 책임이 있는 기관.",
-        "RESCUE UNIT — 수색구조를 신속하게 수행할 수 있는 장비와 훈련된 인원으로 구성된 기관.",
-        "RESTRICTED AREA (ICAO) (USA) — SPECIAL USE AIRSPACE (SUA) 참조.",
-        "REVERSAL PROCEDURE — 계기접근절차의 initial approach segment에서 항공기가 방향을 반전하도록 설계된 절차.",
-        "REVISION DATE — 차트 개정판은 금요일에 발행되며 수령 즉시 유효(사용 가능)한 것으로 본다.",
-        "RNAV APPROACH — 항법유도를 항공기의 area navigation 장비에 의존하는 계기접근절차."
+        "RADIOTELEPHONY — 주로 음성 형태의 정보를 교환하기 위한 무선통신 방식."
       ],
       "question_ids": [
         "JEPP-GLOSS-329-A",
@@ -3950,12 +3786,7 @@
         "RUNWAY EDGE LIGHTS (USA) — 야간 또는 제한된 시정에서 활주로 가장자리를 나타내는 등화.",
         "RUNWAY ENTRANCE LIGHTS (REL) — RWSL의 구성요소로 활주로 진입지점에 설치된 일련의 적색등.",
         "RUNWAY HOLDING POSITION — 활주로, obstacle limitation surface 또는 ILS/MLS critical/sensitive area를 보호하기 위해 지정된 위치.",
-        "RUNWAY INCURSION — 비행장에서 착륙·이륙용으로 지정된 표면의 보호구역에 항공기, 차량 또는 사람이 잘못 존재하는 모든 사건.",
-        "RUNWAY INTERSECTION LIGHTS (RIL) — RWSL의 구성요소로 유도로가 활주로를 가로지르는 활주로 교차지점에 설치된 일련의 적색등.",
-        "RUNWAY MARKINGS — a.",
-        "RUNWAY STATUS LIGHTS (RWSL) — 자율형 runway incursion 경고시스템의 한 종류.",
-        "RUNWAY STRIP — 활주로와 제공되는 경우 stopway를 포함하는 지정구역.",
-        "RUNWAY VISUAL RANGE (RVR) — 활주로 중심선상의 항공기 조종사가 활주로 표면표지 또는 활주로 윤곽/중심선을 나타내는 등화를 볼 수 있는 거리."
+        "RUNWAY INCURSION — 비행장에서 착륙·이륙용으로 지정된 표면의 보호구역에 항공기, 차량 또는 사람이 잘못 존재하는 모든 사건."
       ],
       "question_ids": [
         "JEPP-GLOSS-349-A",
@@ -4153,19 +3984,7 @@
         "SECONDARY SURVEILLANCE RADAR (SSR) — 송수신기(interrogator)와 transponder를 사용하는 감시 레이더 시스템.",
         "SEGMENT MINIMUM ALTITUDE (SMA), or SEGMENT MINIMUM SAFE ALTITUDE (SMSA) — 비정밀접근의 각 segment에서 최소 장애물 회피간격을 제공하는 고도.",
         "SEGMENTS OF AN INSTRUMENT APPROACH PROCEDURE — 계기접근절차의 구성에 따라 최대 네 개의 별도 segment로 이루어질 수 있다.",
-        "SEGREGATED PARALLEL OPERATIONS — 평행 또는 근접평행 계기활주로에서 동시에 운항하되 한 활주로는 접근 전용, 다른 활주로는 출발 전용으로 사용하는 운항.",
-        "SELECTIVE CALL SYSTEM (SELCAL) — 지상국과 항공기를 연결하는 radiotelephone 채널을 통해 개별 항공기를 선택적으로 호출할 수 있게 하는 시스템.",
-        "SHORELINE — 일반적인 해안 윤곽을 따르는 선.",
-        "SIDESTEP MANEUVER — 계기접근 완료 후 조종사가 수행하는 시계기동으로, 계기접근을 수행한 활주로의 좌우 1200ft 이내에 있는 평행활주로에 straight-in landing할 수 있게 한다.",
-        "SIGMET INFORMATION — 항공기 운항의 안전에 영향을 줄 수 있는 지정 항로상 기상현상의 발생 또는 예상 발생에 관하여 기상감시소가 발행하는 정보.",
-        "SIGNAL AREA — 지상 신호를 표시하기 위해 비행장에 마련된 구역.",
-        "SIGNIFICANT POINT — ATS 항로 또는 항공기 비행경로를 정의하거나 기타 항법·ATS 목적에 사용하는 지정 지리적 위치.",
-        "SLUSH — 물에 포화된 눈으로, 뒤꿈치와 발끝으로 지면을 힘껏 밟으면 튀면서 옆으로 밀려난다.",
-        "SNOW (on the ground) — a.",
-        "SPECIAL USE AIRSPACE — 활동의 성격상 그 활동을 특정 구역 안으로 제한해야 하거나, 해당 활동에 참여하지 않는 항공기의 운항에 제한을 가할 수 있는 정해진 범위의 공역.",
-        "SPECIAL VFR FLIGHT — VMC 미만의 기상조건에서 control zone 안을 운항하도록 ATC 허가를 받은 VFR 비행.",
-        "STANDARD INSTRUMENT ARRIVAL (STAR) (ICAO) — 통상 ATS route상의 significant point와, 공표된 계기접근절차를 시작할 수 있는 지점을 연결하는 지정 IFR 도착항로.",
-        "STANDARD INSTRUMENT DEPARTURE (SID) (ICAO) — 비행장 또는 특정 활주로와, 통상 지정 ATS route상의 enroute phase 시작지점을 연결하는 지정 IFR 출발항로."
+        "SEGREGATED PARALLEL OPERATIONS — 평행 또는 근접평행 계기활주로에서 동시에 운항하되 한 활주로는 접근 전용, 다른 활주로는 출발 전용으로 사용하는 운항."
       ],
       "question_ids": [
         "JEPP-GLOSS-362-A",
@@ -4294,9 +4113,7 @@
         "STOPWAY — take-off run available 끝에 마련된 지상의 직사각형 구역으로, 중단이륙 시 항공기가 정지할 수 있는 적합한 구역으로 준비된다.",
         "SUBSTITUTE ROUTE — 항행시설 상태 때문에 airway 또는 route 일부를 사용할 수 없을 때 조종사에게 배정하는 대체항로.",
         "SUNSET AND SUNRISE — Nautical Almanac에 발행된 일몰·일출 평균태양시를 해당 지역의 현지 표준시로 변환한 것.",
-        "SURFACE MOVEMENT GUIDANCE AND CONTROL SYSTEM (SMGCS) (USA) — 저시정 운항 중 항공기 조종사와 지상차량 운전자가 공항에서 길을 찾고 항공기·차량이 의도된 표면 또는 구역에 있도록 하기 위해 필요한 시설, 정보 및 조언에 대한 유도·통제·규제 체계.",
-        "SURVEILLANCE APPROACH (ASR) — 관제사의 radar scope에 표시되는 final approach course에 대한 항공기 위치(azimuth)와 활주로 끝까지의 거리(range)를 바탕으로 관제사가 조종사에게 따라야 할 지시를 제공하는 계기접근.",
-        "SURVEILLANCE RADAR — 항공기의 거리와 방위각 위치를 결정하는 데 사용하는 레이더 장비."
+        "SURFACE MOVEMENT GUIDANCE AND CONTROL SYSTEM (SMGCS) (USA) — 저시정 운항 중 항공기 조종사와 지상차량 운전자가 공항에서 길을 찾고 항공기·차량이 의도된 표면 또는 구역에 있도록 하기 위해 필요한 시설, 정보 및 조언에 대한 유도·통제·규제 체계."
       ],
       "question_ids": [
         "JEPP-GLOSS-382-A",
@@ -4477,19 +4294,7 @@
         "TAXIWAY — 육상 비행장에서 항공기 taxiing을 위해 설정되어 비행장의 한 부분과 다른 부분을 연결하는 지정 경로.",
         "TERMINAL CONTROL AREA (ICAO) — 통상 하나 이상의 주요 비행장 부근에서 ATS route가 모이는 곳에 설정하는 control area.",
         "TERMINAL ARRIVAL AREA (FAA) / TERMINAL ARRIVAL ALTITUDE (TAA) (ICAO) — FMS 및/또는 GPS 장착 항공기가 enroute 구조에서 terminal environment와 그 아래의 RNAV 계기접근절차로 끊김 없이 효율적으로 전환하도록 한다.",
-        "TERMINAL VFR RADAR SERVICE (USA) — IFR 항공기에 제공되던 terminal radar service를 VFR 항공기로 확대하기 위해 만든 전국 프로그램.",
-        "TERMINAL RADAR SERVICE AREA (TRSA) (USA) — 지정 공항을 둘러싼 공역으로 ATC가 모든 IFR 및 참여 VFR 항공기에 상시 radar vectoring, sequencing 및 separation을 제공한다.",
-        "THRESHOLD (THR) — 활주로 중 착륙에 사용할 수 있는 부분의 시작점.",
-        "THRESHOLD CROSSING HEIGHT (TCH) — 항공기가 ILS glide slope, MLS glide path 또는 차트에 표시된 descent angle을 유지한다고 가정할 때 항공기의 glide slope antenna(또는 동등 위치)가 활주로 threshold 상공에서 갖게 되는 이론적 높이.",
-        "TOTAL ESTIMATED ELAPSED TIME — IFR 비행: 이륙부터, 계기접근을 시작할 예정인 항행시설로 정의된 지정지점 상공까지의 예상 소요시간.",
-        "TOUCHDOWN — 명목 glide path가 활주로와 교차하는 지점.",
-        "TOUCHDOWN ZONE ELEVATION (TDZE) — 착륙표면 첫 3000ft 구간의 최고 표고.",
-        "TRACK — 항공기 비행경로를 지표면에 투영한 선.",
-        "TRAFFIC ALERT AND COLLISION AVOIDANCE SYSTEM (TCAS) — radar beacon 신호를 기반으로 하며 지상장비와 독립적으로 작동하는 공중충돌방지 시스템.",
-        "TRAFFIC AVOIDANCE ADVICE — 조종사가 충돌을 피하도록 돕기 위해 ATS 기관이 특정 기동을 제시하는 조언.",
-        "TRAFFIC INFORMATION — 항공기의 현재 위치 또는 예정 항로 부근에 있을 수 있는 알려진/관측된 다른 항공교통을 조종사에게 경고하고 충돌회피를 돕기 위해 ATS 기관이 제공하는 정보.",
-        "TRANSITION ALTITUDE (TA) — 공항 부근에서 그 이하에서는 항공기의 수직위치를 altitude(MSL)를 기준으로 통제하는 고도.",
-        "TRANSITION HEIGHT — 공항 부근에서 그 이하에서는 항공기의 수직위치를 공항 기준면 위 height로 표현하는 높이."
+        "TERMINAL VFR RADAR SERVICE (USA) — IFR 항공기에 제공되던 terminal radar service를 VFR 항공기로 확대하기 위해 만든 전국 프로그램."
       ],
       "question_ids": [
         "JEPP-GLOSS-392-A",
@@ -4797,16 +4602,7 @@
         "VERY HIGH FREQUENCY (VHF) — 30–300MHz 주파수대.",
         "VFR FLIGHT — 시계비행규칙에 따라 수행하는 비행.",
         "VIBAL — (Visibilité Balise) 사람 관측자 또는 이륙위치의 조종사가 활주로 옆의 특정 표지 또는 활주로 가장자리등 개수를 세어 RVR을 결정하는 방법.",
-        "VISIBILITY (ICAO) — 대기상태에 의해 결정되고 거리 단위로 표현되는 능력으로, 낮에는 눈에 띄는 비점등 물체를, 밤에는 눈에 띄는 점등 물체를 보고 식별할 수 있는 정도.",
-        "VISIBILITY (USA) — 대기상태에 의해 결정되고 거리 단위로 표현되는 능력으로, 낮에는 눈에 띄는 비점등 물체를, 밤에는 눈에 띄는 점등 물체를 보고 식별할 수 있는 정도.",
-        "VISUAL APPROACH (ICAO) — IFR 비행이 계기접근절차의 일부 또는 전부를 완료하지 않고 지형을 시각적으로 참조하여 수행하는 접근.",
-        "VISUAL APPROACH (USA) — IFR 비행계획으로 운항하면서 조종사가 시각적으로, 구름을 피하여 공항으로 진행하도록 허가하는 접근.",
-        "VISUAL DESCENT POINT (VDP) — 비정밀 straight-in 접근의 final approach course에 정해진 지점.",
-        "VISUAL MANOEUVRING (CIRCLING) AREA — circling approach를 수행하는 항공기에 대해 장애물 회피를 고려해야 하는 구역.",
-        "VISUAL METEOROLOGICAL CONDITIONS (VMC) — 시정, 구름과의 거리 및 운고가 지정 최저치와 같거나 그보다",
-        "VOLMET BROADCAST — 비행 중 항공기를 위한 기상정보의 정기 방송.",
-        "VOLCANIC ASH ADVISORY CENTRE (VAAC) — 지역 항공항행협정으로 지정된 기상센터.",
-        "VOLMET DATA LINK SERVICE (D-VOLMET) — 현재 METAR, SPECI, TAF, SIGMET, SIGMET에 포함되지 않은 special air-report 및 이용 가능한 경우 AIRMET을 데이터링크로 제공하는 업무."
+        "VISIBILITY (ICAO) — 대기상태에 의해 결정되고 거리 단위로 표현되는 능력으로, 낮에는 눈에 띄는 비점등 물체를, 밤에는 눈에 띄는 점등 물체를 보고 식별할 수 있는 정도."
       ],
       "question_ids": [
         "JEPP-GLOSS-421-A",
