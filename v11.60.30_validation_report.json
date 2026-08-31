@@ -1,0 +1,33 @@
+{
+  "version": "v11.60.30",
+  "base": "v11.60.29",
+  "feature": "subadmin + review mode + question/theory proposal + admin/subadmin approval deployment",
+  "approval_rule": "one administrator approval AND one subadministrator approval",
+  "files": [
+    "V11.60.30_REVIEW_MODE_WORKFLOW.md",
+    "assets/review-mode-v11-60-30.js",
+    "assets/style-v11-60-30-review-mode.css",
+    "index.html",
+    "supabase/V11.60.30_REVIEWER_WORKFLOW.sql"
+  ],
+  "checks": {
+    "index_has_review_css": true,
+    "index_has_review_js": true,
+    "version_label": true,
+    "js_syntax": true,
+    "frontend_backend_rpc_match": true,
+    "subadmin_column": true,
+    "two_role_gate": true,
+    "question_publish_uses_overrides": true,
+    "theory_publish_uses_overrides": true,
+    "reviewer_rls": true,
+    "no_question_json_in_patch": true,
+    "no_theory_json_in_patch": true,
+    "no_figure_assets_in_patch": true,
+    "sql_dollar_quotes_even": true,
+    "review_mode_no_scoring_text": true,
+    "question_proposal_no_local_mutation": true,
+    "theory_override_hook": true
+  },
+  "all_checks_pass": true
+}
