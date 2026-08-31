@@ -1,0 +1,15 @@
+{
+  "version": "v11.60.31",
+  "base": "v11.60.30",
+  "feature": "Review Mode Dark UI Hotfix",
+  "checks": {
+    "index_cache_buster_116031": true,
+    "review_item_dark": true,
+    "review_tab_dark": true,
+    "review_inputs_dark": true,
+    "review_modal_dark": true,
+    "no_db_changes": true,
+    "zip_integrity": true,
+    "zip_file_count": 4
+  }
+}
