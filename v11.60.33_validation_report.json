@@ -1,0 +1,181 @@
+{
+  "version": "v11.60.33",
+  "base": "v11.60.32",
+  "feature": "CPL Gleim source recovery + Figure extraction/linking",
+  "checks": {
+    "base_question_count": 859,
+    "recovered_question_count": 22,
+    "final_question_count": 881,
+    "unique_ids": true,
+    "existing_ids_preserved": true,
+    "valid_three_choices_all": true,
+    "valid_answers_all": true,
+    "figure_question_count": 161,
+    "figure_variant_count": 56,
+    "new_figure_asset_count": 56,
+    "all_figure_questions_have_asset": true,
+    "index_has_v116033_loader": true,
+    "js_syntax": true,
+    "zip_integrity": true,
+    "zip_file_count": 62,
+    "zip_size_bytes": 5764881,
+    "all_figure_assets_decodable": true,
+    "bad_figure_assets": []
+  },
+  "recovered_questions": [
+    {
+      "id": "CPL-GLEIM-REC-001",
+      "source_page": 40,
+      "book_question_number": 11,
+      "question": "The angle of attack of a wing directly controls the",
+      "answer": "C"
+    },
+    {
+      "id": "CPL-GLEIM-REC-002",
+      "source_page": 41,
+      "book_question_number": 16,
+      "question": "When a pilot increases the angle of attack on a symmetrical airfoil, the center of pressure will",
+      "answer": "C"
+    },
+    {
+      "id": "CPL-GLEIM-REC-003",
+      "source_page": 72,
+      "book_question_number": 5,
+      "question": "(Refer to Figure 5 on page 67.) Point C references",
+      "answer": "C"
+    },
+    {
+      "id": "CPL-GLEIM-REC-004",
+      "source_page": 75,
+      "book_question_number": 14,
+      "question": "What is an advantage of an electric turn coordinator if the airplane has a vacuum system for other gyroscopic instruments?",
+      "answer": "A"
+    },
+    {
+      "id": "CPL-GLEIM-REC-005",
+      "source_page": 81,
+      "book_question_number": 43,
+      "question": "An abnormally high engine oil temperature indication may be caused by",
+      "answer": "B"
+    },
+    {
+      "id": "CPL-GLEIM-REC-006",
+      "source_page": 106,
+      "book_question_number": 16,
+      "question": "If the minimum safe speed for any particular operation is greater than the maximum speed prescribed in 14 CFR Part 91, the",
+      "answer": "B"
+    },
+    {
+      "id": "CPL-GLEIM-REC-007",
+      "source_page": 107,
+      "book_question_number": 20,
+      "question": "When operating an airplane for the purpose of takeoff or landing within Class D airspace under special VFR, what minimum distance from clouds and what visibility are required?",
+      "answer": "A"
+    },
+    {
+      "id": "CPL-GLEIM-REC-008",
+      "source_page": 149,
+      "book_question_number": 11,
+      "question": "14 CFR Part 1 defines VNE as",
+      "answer": "B"
+    },
+    {
+      "id": "CPL-GLEIM-REC-009",
+      "source_page": 151,
+      "book_question_number": 19,
+      "question": "When acting as pilot-in-command or as a required crew member, a pilot must have in his or her personal possession or readily accessible in the aircraft a current",
+      "answer": "B"
+    },
+    {
+      "id": "CPL-GLEIM-REC-010",
+      "source_page": 169,
+      "book_question_number": 98,
+      "question": "According to 14 CFR Part 91, at what minimum altitude may an airplane be operated unless necessary for takeoff and landing?",
+      "answer": "C"
+    },
+    {
+      "id": "CPL-GLEIM-REC-011",
+      "source_page": 183,
+      "book_question_number": 157,
+      "question": "If an aircraft’s operation in flight was substantially affected by an alteration or repair, the aircraft documents must show that it was test flown and approved for return to service by an appropriately-rated pilot prior to being operated",
+      "answer": "B"
+    },
+    {
+      "id": "CPL-GLEIM-REC-012",
+      "source_page": 189,
+      "book_question_number": 181,
+      "question": "How many days after an accident is a report required to be filed with the nearest NTSB field office?",
+      "answer": "C"
+    },
+    {
+      "id": "CPL-GLEIM-REC-013",
+      "source_page": 266,
+      "book_question_number": 36,
+      "question": "Aeronautical Decision Making (ADM) is a",
+      "answer": "A"
+    },
+    {
+      "id": "CPL-GLEIM-REC-014",
+      "source_page": 266,
+      "book_question_number": 37,
+      "question": "Risk management, as part of the aeronautical decision making (ADM) process, relies on which features to reduce the risks associated with each flight?",
+      "answer": "C"
+    },
+    {
+      "id": "CPL-GLEIM-REC-015",
+      "source_page": 270,
+      "book_question_number": 53,
+      "question": "When a pilot recognizes a hazardous thought, he or she then should correct it by stating the corresponding antidote. Which of the following is the antidote for MACHO?",
+      "answer": "C"
+    },
+    {
+      "id": "CPL-GLEIM-REC-016",
+      "source_page": 289,
+      "book_question_number": 46,
+      "question": "Advection fog has drifted over a coastal airport during the day. What may tend to dissipate or lift this fog into low stratus clouds?",
+      "answer": "C"
+    },
+    {
+      "id": "CPL-GLEIM-REC-017",
+      "source_page": 318,
+      "book_question_number": 28,
+      "question": "What type of In-Flight Weather Advisories provides an en route pilot with information regarding the possibility of moderate icing, moderate turbulence, winds of 30 knots or more at the surface and extensive mountain obscurement?",
+      "answer": "C"
+    },
+    {
+      "id": "CPL-GLEIM-REC-018",
+      "source_page": 388,
+      "book_question_number": 46,
+      "question": "(Refer to Figure 55 on page 383.) When en route on V448 from YKM VORTAC to BTG VORTAC, what minimum navigation equipment is required to identify LEARN intersection?",
+      "answer": "A"
+    },
+    {
+      "id": "CPL-GLEIM-REC-019",
+      "source_page": 392,
+      "book_question_number": 52,
+      "question": "(Refer to Figure 30 on page 387.) What minimum navigation equipment is required to complete the VOR/DME-A procedure?",
+      "answer": "B"
+    },
+    {
+      "id": "CPL-GLEIM-REC-020",
+      "source_page": 398,
+      "book_question_number": 60,
+      "question": "(Refer to Figure 26 on page 393.) The final approach fix for the precision approach is located at",
+      "answer": "B"
+    },
+    {
+      "id": "CPL-GLEIM-REC-021",
+      "source_page": 398,
+      "book_question_number": 62,
+      "question": "(Refer to Figure 26 on page 393.) The final approach fix for the ILS RWY 24R is located at",
+      "answer": "B"
+    },
+    {
+      "id": "CPL-GLEIM-REC-022",
+      "source_page": 418,
+      "book_question_number": 23,
+      "question": "Effective navigation by means of GPS includes",
+      "answer": "A"
+    }
+  ]
+}

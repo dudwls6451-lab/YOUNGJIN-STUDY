@@ -1,0 +1,558 @@
+{
+  "version": "v11.60.33",
+  "variants": {
+    "2@42": {
+      "ref": "2",
+      "pdf_page": 42,
+      "asset": "assets/cpl-gleim-figures/figure-2-p042.webp",
+      "question_ids": [
+        "CPL-GLEIM-0022",
+        "CPL-GLEIM-0023"
+      ]
+    },
+    "3@43": {
+      "ref": "3",
+      "pdf_page": 43,
+      "asset": "assets/cpl-gleim-figures/figure-3-p043.webp",
+      "question_ids": [
+        "CPL-GLEIM-0025"
+      ]
+    },
+    "1@47": {
+      "ref": "1",
+      "pdf_page": 47,
+      "asset": "assets/cpl-gleim-figures/figure-1-p047.webp",
+      "question_ids": [
+        "CPL-GLEIM-0043",
+        "CPL-GLEIM-0044"
+      ]
+    },
+    "3@49": {
+      "ref": "3",
+      "pdf_page": 49,
+      "asset": "assets/cpl-gleim-figures/figure-3-p049.webp",
+      "question_ids": [
+        "CPL-GLEIM-0049",
+        "CPL-GLEIM-0050",
+        "CPL-GLEIM-0051"
+      ]
+    },
+    "3A@51": {
+      "ref": "3A",
+      "pdf_page": 51,
+      "asset": "assets/cpl-gleim-figures/figure-3a-p051.webp",
+      "question_ids": [
+        "CPL-GLEIM-0056",
+        "CPL-GLEIM-0057"
+      ]
+    },
+    "4@59": {
+      "ref": "4",
+      "pdf_page": 59,
+      "asset": "assets/cpl-gleim-figures/figure-4-p059.webp",
+      "question_ids": [
+        "CPL-GLEIM-0091",
+        "CPL-GLEIM-0092",
+        "CPL-GLEIM-0093"
+      ]
+    },
+    "5@73": {
+      "ref": "5",
+      "pdf_page": 73,
+      "asset": "assets/cpl-gleim-figures/figure-5-p073.webp",
+      "question_ids": [
+        "CPL-GLEIM-0106",
+        "CPL-GLEIM-REC-003",
+        "CPL-GLEIM-0108",
+        "CPL-GLEIM-0109"
+      ]
+    },
+    "51@111": {
+      "ref": "51",
+      "pdf_page": 111,
+      "asset": "assets/cpl-gleim-figures/figure-51-p111.webp",
+      "question_ids": [
+        "CPL-GLEIM-0190",
+        "CPL-GLEIM-0191",
+        "CPL-GLEIM-0192",
+        "CPL-GLEIM-0193",
+        "CPL-GLEIM-0194",
+        "CPL-GLEIM-0195",
+        "CPL-GLEIM-0196"
+      ]
+    },
+    "51@112": {
+      "ref": "51",
+      "pdf_page": 112,
+      "asset": "assets/cpl-gleim-figures/figure-51-p112.webp",
+      "question_ids": [
+        "CPL-GLEIM-0197",
+        "CPL-GLEIM-0198",
+        "CPL-GLEIM-0199",
+        "CPL-GLEIM-0200",
+        "CPL-GLEIM-0201"
+      ]
+    },
+    "56@113": {
+      "ref": "56",
+      "pdf_page": 113,
+      "asset": "assets/cpl-gleim-figures/figure-56-p113.webp",
+      "question_ids": [
+        "CPL-GLEIM-0202",
+        "CPL-GLEIM-0203"
+      ]
+    },
+    "57@114": {
+      "ref": "57",
+      "pdf_page": 114,
+      "asset": "assets/cpl-gleim-figures/figure-57-p114.webp",
+      "question_ids": [
+        "CPL-GLEIM-0204"
+      ]
+    },
+    "58@114": {
+      "ref": "58",
+      "pdf_page": 114,
+      "asset": "assets/cpl-gleim-figures/figure-58-p114.webp",
+      "question_ids": [
+        "CPL-GLEIM-0205"
+      ]
+    },
+    "99@115": {
+      "ref": "99",
+      "pdf_page": 115,
+      "asset": "assets/cpl-gleim-figures/figure-99-p115.webp",
+      "question_ids": [
+        "CPL-GLEIM-0206"
+      ]
+    },
+    "59@116": {
+      "ref": "59",
+      "pdf_page": 116,
+      "asset": "assets/cpl-gleim-figures/figure-59-p116.webp",
+      "question_ids": [
+        "CPL-GLEIM-0208"
+      ]
+    },
+    "60@117": {
+      "ref": "60",
+      "pdf_page": 117,
+      "asset": "assets/cpl-gleim-figures/figure-60-p117.webp",
+      "question_ids": [
+        "CPL-GLEIM-0210",
+        "CPL-GLEIM-0211"
+      ]
+    },
+    "61@117": {
+      "ref": "61",
+      "pdf_page": 117,
+      "asset": "assets/cpl-gleim-figures/figure-61-p117.webp",
+      "question_ids": [
+        "CPL-GLEIM-0212",
+        "CPL-GLEIM-0213"
+      ]
+    },
+    "64@118": {
+      "ref": "64",
+      "pdf_page": 118,
+      "asset": "assets/cpl-gleim-figures/figure-64-p118.webp",
+      "question_ids": [
+        "CPL-GLEIM-0217",
+        "CPL-GLEIM-0218",
+        "CPL-GLEIM-0219",
+        "CPL-GLEIM-0220",
+        "CPL-GLEIM-0221",
+        "CPL-GLEIM-0222",
+        "CPL-GLEIM-0223"
+      ]
+    },
+    "65@120": {
+      "ref": "65",
+      "pdf_page": 120,
+      "asset": "assets/cpl-gleim-figures/figure-65-p120.webp",
+      "question_ids": [
+        "CPL-GLEIM-0224"
+      ]
+    },
+    "58@125": {
+      "ref": "58",
+      "pdf_page": 125,
+      "asset": "assets/cpl-gleim-figures/figure-58-p125.webp",
+      "question_ids": [
+        "CPL-GLEIM-0249"
+      ]
+    },
+    "101@126": {
+      "ref": "101",
+      "pdf_page": 126,
+      "asset": "assets/cpl-gleim-figures/figure-101-p126.webp",
+      "question_ids": [
+        "CPL-GLEIM-0252"
+      ]
+    },
+    "32@215": {
+      "ref": "32",
+      "pdf_page": 215,
+      "asset": "assets/cpl-gleim-figures/figure-32-p215.webp",
+      "question_ids": [
+        "CPL-GLEIM-0451",
+        "CPL-GLEIM-0452",
+        "CPL-GLEIM-0453"
+      ]
+    },
+    "32@217": {
+      "ref": "32",
+      "pdf_page": 217,
+      "asset": "assets/cpl-gleim-figures/figure-32-p217.webp",
+      "question_ids": [
+        "CPL-GLEIM-0454",
+        "CPL-GLEIM-0455",
+        "CPL-GLEIM-0456"
+      ]
+    },
+    "13@219": {
+      "ref": "13",
+      "pdf_page": 219,
+      "asset": "assets/cpl-gleim-figures/figure-13-p219.webp",
+      "question_ids": [
+        "CPL-GLEIM-0457",
+        "CPL-GLEIM-0458"
+      ]
+    },
+    "14@221": {
+      "ref": "14",
+      "pdf_page": 221,
+      "asset": "assets/cpl-gleim-figures/figure-14-p221.webp",
+      "question_ids": [
+        "CPL-GLEIM-0462",
+        "CPL-GLEIM-0463"
+      ]
+    },
+    "15@223": {
+      "ref": "15",
+      "pdf_page": 223,
+      "asset": "assets/cpl-gleim-figures/figure-15-p223.webp",
+      "question_ids": [
+        "CPL-GLEIM-0467",
+        "CPL-GLEIM-0468"
+      ]
+    },
+    "9@225": {
+      "ref": "9",
+      "pdf_page": 225,
+      "asset": "assets/cpl-gleim-figures/figure-9-p225.webp",
+      "question_ids": [
+        "CPL-GLEIM-0469",
+        "CPL-GLEIM-0470"
+      ]
+    },
+    "10@227": {
+      "ref": "10",
+      "pdf_page": 227,
+      "asset": "assets/cpl-gleim-figures/figure-10-p227.webp",
+      "question_ids": [
+        "CPL-GLEIM-0474",
+        "CPL-GLEIM-0475"
+      ]
+    },
+    "33@229": {
+      "ref": "33",
+      "pdf_page": 229,
+      "asset": "assets/cpl-gleim-figures/figure-33-p229.webp",
+      "question_ids": [
+        "CPL-GLEIM-0479",
+        "CPL-GLEIM-0480"
+      ]
+    },
+    "11@231": {
+      "ref": "11",
+      "pdf_page": 231,
+      "asset": "assets/cpl-gleim-figures/figure-11-p231.webp",
+      "question_ids": [
+        "CPL-GLEIM-0481",
+        "CPL-GLEIM-0482"
+      ]
+    },
+    "12@233": {
+      "ref": "12",
+      "pdf_page": 233,
+      "asset": "assets/cpl-gleim-figures/figure-12-p233.webp",
+      "question_ids": [
+        "CPL-GLEIM-0483",
+        "CPL-GLEIM-0484",
+        "CPL-GLEIM-0485"
+      ]
+    },
+    "34@235": {
+      "ref": "34",
+      "pdf_page": 235,
+      "asset": "assets/cpl-gleim-figures/figure-34-p235.webp",
+      "question_ids": [
+        "CPL-GLEIM-0486",
+        "CPL-GLEIM-0487",
+        "CPL-GLEIM-0488"
+      ]
+    },
+    "8@237": {
+      "ref": "8",
+      "pdf_page": 237,
+      "asset": "assets/cpl-gleim-figures/figure-8-p237.webp",
+      "question_ids": [
+        "CPL-GLEIM-0490",
+        "CPL-GLEIM-0491",
+        "CPL-GLEIM-0492",
+        "CPL-GLEIM-0493",
+        "CPL-GLEIM-0494"
+      ]
+    },
+    "31@239": {
+      "ref": "31",
+      "pdf_page": 239,
+      "asset": "assets/cpl-gleim-figures/figure-31-p239.webp",
+      "question_ids": [
+        "CPL-GLEIM-0495",
+        "CPL-GLEIM-0496",
+        "CPL-GLEIM-0497",
+        "CPL-GLEIM-0498"
+      ]
+    },
+    "35@241": {
+      "ref": "35",
+      "pdf_page": 241,
+      "asset": "assets/cpl-gleim-figures/figure-35-p241.webp",
+      "question_ids": [
+        "CPL-GLEIM-0499",
+        "CPL-GLEIM-0500",
+        "CPL-GLEIM-0501",
+        "CPL-GLEIM-0502"
+      ]
+    },
+    "38@245": {
+      "ref": "38",
+      "pdf_page": 245,
+      "asset": "assets/cpl-gleim-figures/figure-38-p245.webp",
+      "question_ids": [
+        "CPL-GLEIM-0512"
+      ]
+    },
+    "38@247": {
+      "ref": "38",
+      "pdf_page": 247,
+      "asset": "assets/cpl-gleim-figures/figure-38-p247.webp",
+      "question_ids": [
+        "CPL-GLEIM-0513",
+        "CPL-GLEIM-0514",
+        "CPL-GLEIM-0515"
+      ]
+    },
+    "69@320": {
+      "ref": "69",
+      "pdf_page": 320,
+      "asset": "assets/cpl-gleim-figures/figure-69-p320.webp",
+      "question_ids": [
+        "CPL-GLEIM-0736",
+        "CPL-GLEIM-0737"
+      ]
+    },
+    "70@321": {
+      "ref": "70",
+      "pdf_page": 321,
+      "asset": "assets/cpl-gleim-figures/figure-70-p321.webp",
+      "question_ids": [
+        "CPL-GLEIM-0738",
+        "CPL-GLEIM-0739"
+      ]
+    },
+    "71@323": {
+      "ref": "71",
+      "pdf_page": 323,
+      "asset": "assets/cpl-gleim-figures/figure-71-p323.webp",
+      "question_ids": [
+        "CPL-GLEIM-0740",
+        "CPL-GLEIM-0741",
+        "CPL-GLEIM-0742",
+        "CPL-GLEIM-0743"
+      ]
+    },
+    "52@369": {
+      "ref": "52",
+      "pdf_page": 369,
+      "asset": "assets/cpl-gleim-figures/figure-52-p369.webp",
+      "question_ids": [
+        "CPL-GLEIM-0756",
+        "CPL-GLEIM-0757",
+        "CPL-GLEIM-0758",
+        "CPL-GLEIM-0759",
+        "CPL-GLEIM-0760"
+      ]
+    },
+    "52@371": {
+      "ref": "52",
+      "pdf_page": 371,
+      "asset": "assets/cpl-gleim-figures/figure-52-p371.webp",
+      "question_ids": [
+        "CPL-GLEIM-0761",
+        "CPL-GLEIM-0762",
+        "CPL-GLEIM-0763",
+        "CPL-GLEIM-0764",
+        "CPL-GLEIM-0765",
+        "CPL-GLEIM-0766"
+      ]
+    },
+    "53@373": {
+      "ref": "53",
+      "pdf_page": 373,
+      "asset": "assets/cpl-gleim-figures/figure-53-p373.webp",
+      "question_ids": [
+        "CPL-GLEIM-0767",
+        "CPL-GLEIM-0768",
+        "CPL-GLEIM-0769",
+        "CPL-GLEIM-0770",
+        "CPL-GLEIM-0771"
+      ]
+    },
+    "53@375": {
+      "ref": "53",
+      "pdf_page": 375,
+      "asset": "assets/cpl-gleim-figures/figure-53-p375.webp",
+      "question_ids": [
+        "CPL-GLEIM-0774",
+        "CPL-GLEIM-0775",
+        "CPL-GLEIM-0776",
+        "CPL-GLEIM-0777",
+        "CPL-GLEIM-0778"
+      ]
+    },
+    "54@377": {
+      "ref": "54",
+      "pdf_page": 377,
+      "asset": "assets/cpl-gleim-figures/figure-54-p377.webp",
+      "question_ids": [
+        "CPL-GLEIM-0779",
+        "CPL-GLEIM-0780",
+        "CPL-GLEIM-0781",
+        "CPL-GLEIM-0782",
+        "CPL-GLEIM-0783"
+      ]
+    },
+    "68@381": {
+      "ref": "68",
+      "pdf_page": 381,
+      "asset": "assets/cpl-gleim-figures/figure-68-p381.webp",
+      "question_ids": [
+        "CPL-GLEIM-0792",
+        "CPL-GLEIM-0793"
+      ]
+    },
+    "66@383": {
+      "ref": "66",
+      "pdf_page": 383,
+      "asset": "assets/cpl-gleim-figures/figure-66-p383.webp",
+      "question_ids": [
+        "CPL-GLEIM-0795",
+        "CPL-GLEIM-0796"
+      ]
+    },
+    "67@385": {
+      "ref": "67",
+      "pdf_page": 385,
+      "asset": "assets/cpl-gleim-figures/figure-67-p385.webp",
+      "question_ids": [
+        "CPL-GLEIM-0798",
+        "CPL-GLEIM-0799"
+      ]
+    },
+    "55@389": {
+      "ref": "55",
+      "pdf_page": 389,
+      "asset": "assets/cpl-gleim-figures/figure-55-p389.webp",
+      "question_ids": [
+        "CPL-GLEIM-0802",
+        "CPL-GLEIM-REC-018",
+        "CPL-GLEIM-0803"
+      ]
+    },
+    "55A@391": {
+      "ref": "55A",
+      "pdf_page": 391,
+      "asset": "assets/cpl-gleim-figures/figure-55a-p391.webp",
+      "question_ids": [
+        "CPL-GLEIM-0804",
+        "CPL-GLEIM-0805",
+        "CPL-GLEIM-0806",
+        "CPL-GLEIM-0807"
+      ]
+    },
+    "30@393": {
+      "ref": "30",
+      "pdf_page": 393,
+      "asset": "assets/cpl-gleim-figures/figure-30-p393.webp",
+      "question_ids": [
+        "CPL-GLEIM-REC-019",
+        "CPL-GLEIM-0808",
+        "CPL-GLEIM-0809"
+      ]
+    },
+    "28@395": {
+      "ref": "28",
+      "pdf_page": 395,
+      "asset": "assets/cpl-gleim-figures/figure-28-p395.webp",
+      "question_ids": [
+        "CPL-GLEIM-0810",
+        "CPL-GLEIM-0811"
+      ]
+    },
+    "27@397": {
+      "ref": "27",
+      "pdf_page": 397,
+      "asset": "assets/cpl-gleim-figures/figure-27-p397.webp",
+      "question_ids": [
+        "CPL-GLEIM-0812",
+        "CPL-GLEIM-0813",
+        "CPL-GLEIM-0814"
+      ]
+    },
+    "26@399": {
+      "ref": "26",
+      "pdf_page": 399,
+      "asset": "assets/cpl-gleim-figures/figure-26-p399.webp",
+      "question_ids": [
+        "CPL-GLEIM-REC-020",
+        "CPL-GLEIM-0815",
+        "CPL-GLEIM-REC-021"
+      ]
+    },
+    "29@400": {
+      "ref": "29",
+      "pdf_page": 400,
+      "asset": "assets/cpl-gleim-figures/figure-29-p400.webp",
+      "question_ids": [
+        "CPL-GLEIM-0816"
+      ]
+    },
+    "17@415": {
+      "ref": "17",
+      "pdf_page": 415,
+      "asset": "assets/cpl-gleim-figures/figure-17-p415.webp",
+      "question_ids": [
+        "CPL-GLEIM-0852",
+        "CPL-GLEIM-0853",
+        "CPL-GLEIM-0854",
+        "CPL-GLEIM-0855",
+        "CPL-GLEIM-0856"
+      ]
+    },
+    "17@417": {
+      "ref": "17",
+      "pdf_page": 417,
+      "asset": "assets/cpl-gleim-figures/figure-17-p417.webp",
+      "question_ids": [
+        "CPL-GLEIM-0857",
+        "CPL-GLEIM-0858",
+        "CPL-GLEIM-0859",
+        "CPL-GLEIM-0860",
+        "CPL-GLEIM-0861"
+      ]
+    }
+  }
+}
