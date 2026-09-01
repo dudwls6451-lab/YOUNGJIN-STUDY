@@ -1,0 +1,19 @@
+{
+  "version": "v11.60.38",
+  "base": "v11.60.37",
+  "feature": "FSR multi-blank authoring and multi-answer grading",
+  "checks": {
+    "js_version": true,
+    "multi_blank_state": true,
+    "multi_blank_rpc": true,
+    "overlap_guard": true,
+    "legacy_fallback": true,
+    "index_js": true,
+    "index_css": true,
+    "js_syntax": true,
+    "zip_integrity": true
+  },
+  "node_stderr": "",
+  "zip_file_count": 6,
+  "zip_size_bytes": 21574
+}
