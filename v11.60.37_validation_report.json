@@ -1,0 +1,45 @@
+{
+  "version": "v11.60.37",
+  "base": "v11.60.36",
+  "source": "(본문)고정익항공기를 위한 운항기술기준(국토교통부고시 제2024-828_20241218)(1).pdf",
+  "source_sha256": "75cf4cd3bd00948db423731e82eb6b99e2f91d83108a0b858b1415362421529d",
+  "scope": {
+    "chapter_1": [
+      "1.1.1.4",
+      "1.2.1.1"
+    ],
+    "chapter_2": [
+      "2.1.1.2",
+      "2.2.1.6",
+      "2.2.4.5",
+      "2.2.5.5"
+    ],
+    "chapter_3": "excluded",
+    "chapter_4": [
+      "4.3.1.4"
+    ],
+    "chapter_5": "excluded",
+    "chapter_6": "excluded",
+    "chapter_7": "all",
+    "chapter_8": "all",
+    "chapter_9": "excluded"
+  },
+  "checks": {
+    "section_count": 442,
+    "explicit_codes_present": true,
+    "chapter7_sections": 95,
+    "chapter8_sections": 340,
+    "excluded_chapters_absent": true,
+    "unique_section_codes": true,
+    "all_section_text_nonempty": true,
+    "index_has_css": true,
+    "index_has_js": true,
+    "sql_has_no_approval": true,
+    "js_syntax": true,
+    "js_syntax_stderr": "",
+    "json_parse": true,
+    "zip_integrity": true,
+    "zip_file_count": 7
+  },
+  "zip_size_bytes": 236471
+}
