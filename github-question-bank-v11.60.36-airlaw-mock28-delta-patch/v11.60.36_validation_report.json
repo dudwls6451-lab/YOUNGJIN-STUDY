@@ -1,0 +1,24 @@
+{
+  "version": "v11.60.36",
+  "base": "v11.60.35",
+  "feature": "검댕이 항공법규 제28회 모의고사",
+  "checks": {
+    "question_count": 25,
+    "unique_ids": true,
+    "four_choices_all": true,
+    "answers_valid": true,
+    "answer_key_matches_source_table": true,
+    "figures_required": 0,
+    "source_pages": [
+      326,
+      327,
+      328,
+      329
+    ],
+    "index_has_loader": true,
+    "js_syntax": true,
+    "zip_integrity": true,
+    "zip_file_count": 5,
+    "zip_size_bytes": 16682
+  }
+}

@@ -1,0 +1,1276 @@
+{
+  "metadata": {
+    "name": "검댕이 항공법규 제28회 모의고사",
+    "version": "v11.60.36",
+    "source": "항공법규_OCR.pdf",
+    "source_pdf_pages": [
+      326,
+      327,
+      328,
+      329
+    ],
+    "source_printed_pages": [
+      324,
+      325,
+      326,
+      327
+    ],
+    "question_count": 25,
+    "answer_key": [
+      "C",
+      "D",
+      "A",
+      "A",
+      "C",
+      "A",
+      "B",
+      "A",
+      "D",
+      "C",
+      "B",
+      "C",
+      "B",
+      "A",
+      "D",
+      "B",
+      "A",
+      "A",
+      "C",
+      "A",
+      "D",
+      "B",
+      "B",
+      "B",
+      "C"
+    ],
+    "figures_required": 0,
+    "review_method": "원본 PDF 페이지 시각 대조 + 제28회 정답표 직접 대조"
+  },
+  "questions": [
+    {
+      "id": "KDA-LAW-M28-001",
+      "number": 1,
+      "subject": "검댕이 항공법규",
+      "study_unit": 3,
+      "study_unit_title": "모의고사",
+      "subunit": {
+        "code": "M28",
+        "title": "제28회 모의고사"
+      },
+      "source_page": 324,
+      "source_pdf_page": 326,
+      "source_question_number": 1,
+      "source_section": "제28회 모의고사",
+      "question": "Air cabotage의 금지란 무엇인가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "외국 항공기에 대해 운수 이외의 목적으로 착륙하는 것을 금지하는 것"
+        },
+        {
+          "id": "B",
+          "text": "외국 항공기에 대해 자국으로부터 제3국을 향해 여객, 화물을 적재하는 것을 금지하는 것"
+        },
+        {
+          "id": "C",
+          "text": "외국 항공기에 대하여 자국 내의 지점 간에 있어 여객, 화물의 운송을 금지하는 것"
+        },
+        {
+          "id": "D",
+          "text": "외국 항공기에 대해 자국의 영공을 무착륙으로 횡단비행을 하는 것을 금지하는 것"
+        }
+      ],
+      "answer": "C",
+      "explanation": "교재 제28회 모의고사 해설: 국제 항공법 참고. 정답은 C번 선택지이다.",
+      "explanation_language": "ko",
+      "reference": "항공법규_OCR.pdf · 제28회 모의고사 p.324 · 국제 항공법 참고",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "검댕이 항공법규",
+        "모의고사",
+        "제28회 모의고사"
+      ],
+      "answer_source": "교재 제28회 정답표 (인쇄 p.327 / PDF p.329)",
+      "extraction_review": "source_page_visual_review"
+    },
+    {
+      "id": "KDA-LAW-M28-002",
+      "number": 2,
+      "subject": "검댕이 항공법규",
+      "study_unit": 3,
+      "study_unit_title": "모의고사",
+      "subunit": {
+        "code": "M28",
+        "title": "제28회 모의고사"
+      },
+      "source_page": 324,
+      "source_pdf_page": 326,
+      "source_question_number": 2,
+      "source_section": "제28회 모의고사",
+      "question": "다음 중 국제민간항공기구(ICAO)의 지역사무소가 아닌 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "아시아태평양지역사무소(APAVC)"
+        },
+        {
+          "id": "B",
+          "text": "중동지역사무소(MID)"
+        },
+        {
+          "id": "C",
+          "text": "남미지역사무소(SAM)"
+        },
+        {
+          "id": "D",
+          "text": "유럽지역사무소(EUR)"
+        }
+      ],
+      "answer": "D",
+      "explanation": "교재 제28회 모의고사 해설: 국제 항공법 참고. 정답은 D번 선택지이다.",
+      "explanation_language": "ko",
+      "reference": "항공법규_OCR.pdf · 제28회 모의고사 p.324 · 국제 항공법 참고",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "검댕이 항공법규",
+        "모의고사",
+        "제28회 모의고사"
+      ],
+      "answer_source": "교재 제28회 정답표 (인쇄 p.327 / PDF p.329)",
+      "extraction_review": "source_page_visual_review"
+    },
+    {
+      "id": "KDA-LAW-M28-003",
+      "number": 3,
+      "subject": "검댕이 항공법규",
+      "study_unit": 3,
+      "study_unit_title": "모의고사",
+      "subunit": {
+        "code": "M28",
+        "title": "제28회 모의고사"
+      },
+      "source_page": 324,
+      "source_pdf_page": 326,
+      "source_question_number": 3,
+      "source_section": "제28회 모의고사",
+      "question": "다음 중 등록을 하여야 하는 항공기는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "임대해서 사용하는 항공기"
+        },
+        {
+          "id": "B",
+          "text": "군 또는 세관에서 사용하는 항공기"
+        },
+        {
+          "id": "C",
+          "text": "외국에 임대할 목적으로 도입한 항공기로서 외국 국적을 취득할 항공기"
+        },
+        {
+          "id": "D",
+          "text": "국내에서 제작한 항공기로서 제작자 외의 소유자가 결정되지 않은 항공기"
+        }
+      ],
+      "answer": "A",
+      "explanation": "교재 제28회 모의고사 해설: 항공안전법 시행령 제4조(등록을 필요로 하지 않는 항공기의 범위) 참고. 정답은 A번 선택지이다.",
+      "explanation_language": "ko",
+      "reference": "항공법규_OCR.pdf · 제28회 모의고사 p.324 · 항공안전법 시행령 제4조(등록을 필요로 하지 않는 항공기의 범위) 참고",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "검댕이 항공법규",
+        "모의고사",
+        "제28회 모의고사"
+      ],
+      "answer_source": "교재 제28회 정답표 (인쇄 p.327 / PDF p.329)",
+      "extraction_review": "source_page_visual_review"
+    },
+    {
+      "id": "KDA-LAW-M28-004",
+      "number": 4,
+      "subject": "검댕이 항공법규",
+      "study_unit": 3,
+      "study_unit_title": "모의고사",
+      "subunit": {
+        "code": "M28",
+        "title": "제28회 모의고사"
+      },
+      "source_page": 324,
+      "source_pdf_page": 326,
+      "source_question_number": 4,
+      "source_section": "제28회 모의고사",
+      "question": "감항증명 신청시 비행교범에 포함되지 않는 사항은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "항공기의 순항성능"
+        },
+        {
+          "id": "B",
+          "text": "항공기의 종류, 등급, 형식 및 제원"
+        },
+        {
+          "id": "C",
+          "text": "항공기의 성능 및 운용한계"
+        },
+        {
+          "id": "D",
+          "text": "항공기의 조작방법"
+        }
+      ],
+      "answer": "A",
+      "explanation": "교재 제28회 모의고사 해설: 항공안전법 시행규칙 제35조(감항증명의 신청) 참고. 정답은 A번 선택지이다.",
+      "explanation_language": "ko",
+      "reference": "항공법규_OCR.pdf · 제28회 모의고사 p.324 · 항공안전법 시행규칙 제35조(감항증명의 신청) 참고",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "검댕이 항공법규",
+        "모의고사",
+        "제28회 모의고사"
+      ],
+      "answer_source": "교재 제28회 정답표 (인쇄 p.327 / PDF p.329)",
+      "extraction_review": "source_page_visual_review"
+    },
+    {
+      "id": "KDA-LAW-M28-005",
+      "number": 5,
+      "subject": "검댕이 항공법규",
+      "study_unit": 3,
+      "study_unit_title": "모의고사",
+      "subunit": {
+        "code": "M28",
+        "title": "제28회 모의고사"
+      },
+      "source_page": 324,
+      "source_pdf_page": 326,
+      "source_question_number": 5,
+      "source_section": "제28회 모의고사",
+      "question": "자격증명을 한정하는 경우 한정하는 항공기의 종류가 아닌 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "비행기"
+        },
+        {
+          "id": "B",
+          "text": "헬리콥터"
+        },
+        {
+          "id": "C",
+          "text": "초경량비행장치"
+        },
+        {
+          "id": "D",
+          "text": "항공우주선"
+        }
+      ],
+      "answer": "C",
+      "explanation": "교재 제28회 모의고사 해설: 항공안전법 시행규칙 제81조(자격증명의 한정) 참고. 정답은 C번 선택지이다.",
+      "explanation_language": "ko",
+      "reference": "항공법규_OCR.pdf · 제28회 모의고사 p.324 · 항공안전법 시행규칙 제81조(자격증명의 한정) 참고",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "검댕이 항공법규",
+        "모의고사",
+        "제28회 모의고사"
+      ],
+      "answer_source": "교재 제28회 정답표 (인쇄 p.327 / PDF p.329)",
+      "extraction_review": "source_page_visual_review"
+    },
+    {
+      "id": "KDA-LAW-M28-006",
+      "number": 6,
+      "subject": "검댕이 항공법규",
+      "study_unit": 3,
+      "study_unit_title": "모의고사",
+      "subunit": {
+        "code": "M28",
+        "title": "제28회 모의고사"
+      },
+      "source_page": 324,
+      "source_pdf_page": 326,
+      "source_question_number": 6,
+      "source_section": "제28회 모의고사",
+      "question": "조종사 자격증명 소지자가 “형식”을 추가하고자 하는 경우, 실기시험의 일부를 면제할 수 있는 해당 형식의 비행시간은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "200시간 이상"
+        },
+        {
+          "id": "B",
+          "text": "1,000시간 이상"
+        },
+        {
+          "id": "C",
+          "text": "300시간 이상"
+        },
+        {
+          "id": "D",
+          "text": "1,200시간 이상"
+        }
+      ],
+      "answer": "A",
+      "explanation": "교재 제28회 모의고사 해설: 항공안전법 시행규칙 별표 7(자격증명시험 및 한정심사의 일부 면제) 참고. 정답은 A번 선택지이다.",
+      "explanation_language": "ko",
+      "reference": "항공법규_OCR.pdf · 제28회 모의고사 p.324 · 항공안전법 시행규칙 별표 7(자격증명시험 및 한정심사의 일부 면제) 참고",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "검댕이 항공법규",
+        "모의고사",
+        "제28회 모의고사"
+      ],
+      "answer_source": "교재 제28회 정답표 (인쇄 p.327 / PDF p.329)",
+      "extraction_review": "source_page_visual_review"
+    },
+    {
+      "id": "KDA-LAW-M28-007",
+      "number": 7,
+      "subject": "검댕이 항공법규",
+      "study_unit": 3,
+      "study_unit_title": "모의고사",
+      "subunit": {
+        "code": "M28",
+        "title": "제28회 모의고사"
+      },
+      "source_page": 324,
+      "source_pdf_page": 326,
+      "source_question_number": 7,
+      "source_section": "제28회 모의고사",
+      "question": "자격증명시험이나 항공신체검사에서 부정행위를 한 경우, 그 부정한 행위를 한 날부터 얼마의 기간 동안 자격증명시험에 응시하거나 항공신체검사를 받을 수 없는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1년"
+        },
+        {
+          "id": "B",
+          "text": "2년"
+        },
+        {
+          "id": "C",
+          "text": "3년"
+        },
+        {
+          "id": "D",
+          "text": "4년"
+        }
+      ],
+      "answer": "B",
+      "explanation": "교재 제28회 모의고사 해설: 항공안전법 제43조(자격증명·항공신체검사증명의 취소 등) 참고. 정답은 B번 선택지이다.",
+      "explanation_language": "ko",
+      "reference": "항공법규_OCR.pdf · 제28회 모의고사 p.324 · 항공안전법 제43조(자격증명·항공신체검사증명의 취소 등) 참고",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "검댕이 항공법규",
+        "모의고사",
+        "제28회 모의고사"
+      ],
+      "answer_source": "교재 제28회 정답표 (인쇄 p.327 / PDF p.329)",
+      "extraction_review": "source_page_visual_review"
+    },
+    {
+      "id": "KDA-LAW-M28-008",
+      "number": 8,
+      "subject": "검댕이 항공법규",
+      "study_unit": 3,
+      "study_unit_title": "모의고사",
+      "subunit": {
+        "code": "M28",
+        "title": "제28회 모의고사"
+      },
+      "source_page": 324,
+      "source_pdf_page": 326,
+      "source_question_number": 8,
+      "source_section": "제28회 모의고사",
+      "question": "여압장치가 있는 비행기가 기내의 대기압이 376 hPa 미만인 비행고도로 비행하려면 기내의 압력이 떨어질 경우 운항승무원에게 이를 경고할 수 있는 기압저하경보장치 ( )를 장착하여야 한다. ( ) 안에 맞는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1기"
+        },
+        {
+          "id": "B",
+          "text": "2기"
+        },
+        {
+          "id": "C",
+          "text": "3기"
+        },
+        {
+          "id": "D",
+          "text": "4기"
+        }
+      ],
+      "answer": "A",
+      "explanation": "교재 제28회 모의고사 해설: 항공안전법 시행규칙 제114조(산소 저장 및 분배장치 등) 참고. 정답은 A번 선택지이다.",
+      "explanation_language": "ko",
+      "reference": "항공법규_OCR.pdf · 제28회 모의고사 p.324 · 항공안전법 시행규칙 제114조(산소 저장 및 분배장치 등) 참고",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "검댕이 항공법규",
+        "모의고사",
+        "제28회 모의고사"
+      ],
+      "answer_source": "교재 제28회 정답표 (인쇄 p.327 / PDF p.329)",
+      "extraction_review": "source_page_visual_review"
+    },
+    {
+      "id": "KDA-LAW-M28-009",
+      "number": 9,
+      "subject": "검댕이 항공법규",
+      "study_unit": 3,
+      "study_unit_title": "모의고사",
+      "subunit": {
+        "code": "M28",
+        "title": "제28회 모의고사"
+      },
+      "source_page": 325,
+      "source_pdf_page": 327,
+      "source_question_number": 9,
+      "source_section": "제28회 모의고사",
+      "question": "비행 중 이상사태가 발생하여 연료소모가 증가할 것에 대비하기 위한 항공기의 예비연료는 무엇에서 정한 연료의 양을 추가해야 하는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "운항규정"
+        },
+        {
+          "id": "B",
+          "text": "항공기기술기준"
+        },
+        {
+          "id": "C",
+          "text": "감항기준"
+        },
+        {
+          "id": "D",
+          "text": "운항기술기준"
+        }
+      ],
+      "answer": "D",
+      "explanation": "교재 제28회 모의고사 해설: 항공안전법 시행규칙 별표 17(항공기에 실어야 할 연료와 오일의 양) 참고. 정답은 D번 선택지이다.",
+      "explanation_language": "ko",
+      "reference": "항공법규_OCR.pdf · 제28회 모의고사 p.325 · 항공안전법 시행규칙 별표 17(항공기에 실어야 할 연료와 오일의 양) 참고",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "검댕이 항공법규",
+        "모의고사",
+        "제28회 모의고사"
+      ],
+      "answer_source": "교재 제28회 정답표 (인쇄 p.327 / PDF p.329)",
+      "extraction_review": "source_page_visual_review"
+    },
+    {
+      "id": "KDA-LAW-M28-010",
+      "number": 10,
+      "subject": "검댕이 항공법규",
+      "study_unit": 3,
+      "study_unit_title": "모의고사",
+      "subunit": {
+        "code": "M28",
+        "title": "제28회 모의고사"
+      },
+      "source_page": 325,
+      "source_pdf_page": 327,
+      "source_question_number": 10,
+      "source_section": "제28회 모의고사",
+      "question": "항공기를 출발시키기 전에 기장이 확인 및 점검해야 할 사항이 아닌 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "연료 및 윤활유의 탑재량과 그 품질"
+        },
+        {
+          "id": "B",
+          "text": "위험물을 포함한 적재물의 적절한 분배 여부 및 안전성"
+        },
+        {
+          "id": "C",
+          "text": "해당 항공기의 그 장비품의 정비 상태 및 품질"
+        },
+        {
+          "id": "D",
+          "text": "항공일지 및 정비에 관한 기록"
+        }
+      ],
+      "answer": "C",
+      "explanation": "교재 제28회 모의고사 해설: 항공안전법 시행규칙 제136조(출발 전의 확인) 참고. 정답은 C번 선택지이다.",
+      "explanation_language": "ko",
+      "reference": "항공법규_OCR.pdf · 제28회 모의고사 p.325 · 항공안전법 시행규칙 제136조(출발 전의 확인) 참고",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "검댕이 항공법규",
+        "모의고사",
+        "제28회 모의고사"
+      ],
+      "answer_source": "교재 제28회 정답표 (인쇄 p.327 / PDF p.329)",
+      "extraction_review": "source_page_visual_review"
+    },
+    {
+      "id": "KDA-LAW-M28-011",
+      "number": 11,
+      "subject": "검댕이 항공법규",
+      "study_unit": 3,
+      "study_unit_title": "모의고사",
+      "subunit": {
+        "code": "M28",
+        "title": "제28회 모의고사"
+      },
+      "source_page": 325,
+      "source_pdf_page": 327,
+      "source_question_number": 11,
+      "source_section": "제28회 모의고사",
+      "question": "조종사의 운항자격 인정을 위한 수시심사는 누구에게 받아야 하는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "지방항공청장"
+        },
+        {
+          "id": "B",
+          "text": "국토교통부장관"
+        },
+        {
+          "id": "C",
+          "text": "한국교통안전공단 이사장"
+        },
+        {
+          "id": "D",
+          "text": "위촉심사관"
+        }
+      ],
+      "answer": "B",
+      "explanation": "교재 제28회 모의고사 해설: 항공안전법 제63조(기장 등의 운항자격) 참고. 정답은 B번 선택지이다.",
+      "explanation_language": "ko",
+      "reference": "항공법규_OCR.pdf · 제28회 모의고사 p.325 · 항공안전법 제63조(기장 등의 운항자격) 참고",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "검댕이 항공법규",
+        "모의고사",
+        "제28회 모의고사"
+      ],
+      "answer_source": "교재 제28회 정답표 (인쇄 p.327 / PDF p.329)",
+      "extraction_review": "source_page_visual_review"
+    },
+    {
+      "id": "KDA-LAW-M28-012",
+      "number": 12,
+      "subject": "검댕이 항공법규",
+      "study_unit": 3,
+      "study_unit_title": "모의고사",
+      "subunit": {
+        "code": "M28",
+        "title": "제28회 모의고사"
+      },
+      "source_page": 325,
+      "source_pdf_page": 327,
+      "source_question_number": 12,
+      "source_section": "제28회 모의고사",
+      "question": "항공운송사업에 사용되는 항공기 기장의 운항자격 인정을 위한 지식요건에 해당하지 않는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "공항의 지형"
+        },
+        {
+          "id": "B",
+          "text": "수색 및 구조 절차"
+        },
+        {
+          "id": "C",
+          "text": "예비시설 이용 방법"
+        },
+        {
+          "id": "D",
+          "text": "계절별 기상 특성"
+        }
+      ],
+      "answer": "C",
+      "explanation": "교재 제28회 모의고사 해설: 항공안전법 시행규칙 제139조(기장 등의 운항자격인정을 위한 기량요건) 참고. 정답은 C번 선택지이다.",
+      "explanation_language": "ko",
+      "reference": "항공법규_OCR.pdf · 제28회 모의고사 p.325 · 항공안전법 시행규칙 제139조(기장 등의 운항자격인정을 위한 기량요건) 참고",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "검댕이 항공법규",
+        "모의고사",
+        "제28회 모의고사"
+      ],
+      "answer_source": "교재 제28회 정답표 (인쇄 p.327 / PDF p.329)",
+      "extraction_review": "source_page_visual_review"
+    },
+    {
+      "id": "KDA-LAW-M28-013",
+      "number": 13,
+      "subject": "검댕이 항공법규",
+      "study_unit": 3,
+      "study_unit_title": "모의고사",
+      "subunit": {
+        "code": "M28",
+        "title": "제28회 모의고사"
+      },
+      "source_page": 325,
+      "source_pdf_page": 327,
+      "source_question_number": 13,
+      "source_section": "제28회 모의고사",
+      "question": "29,000피트 이상에서 방위 180도에서 359도로 계기비행하는 항공기의 최저순항고도는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "30,000피트"
+        },
+        {
+          "id": "B",
+          "text": "31,000피트"
+        },
+        {
+          "id": "C",
+          "text": "32,000피트"
+        },
+        {
+          "id": "D",
+          "text": "33,000피트"
+        }
+      ],
+      "answer": "B",
+      "explanation": "교재 제28회 모의고사 해설: 항공안전법 시행규칙 제164조(순항고도) 참고. 정답은 B번 선택지이다.",
+      "explanation_language": "ko",
+      "reference": "항공법규_OCR.pdf · 제28회 모의고사 p.325 · 항공안전법 시행규칙 제164조(순항고도) 참고",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "검댕이 항공법규",
+        "모의고사",
+        "제28회 모의고사"
+      ],
+      "answer_source": "교재 제28회 정답표 (인쇄 p.327 / PDF p.329)",
+      "extraction_review": "source_page_visual_review"
+    },
+    {
+      "id": "KDA-LAW-M28-014",
+      "number": 14,
+      "subject": "검댕이 항공법규",
+      "study_unit": 3,
+      "study_unit_title": "모의고사",
+      "subunit": {
+        "code": "M28",
+        "title": "제28회 모의고사"
+      },
+      "source_page": 325,
+      "source_pdf_page": 327,
+      "source_question_number": 14,
+      "source_section": "제28회 모의고사",
+      "question": "B등급 공역에서 시계비행이 가능한 구름으로부터의 거리는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "수평으로 1,500미터, 수직으로 300미터"
+        },
+        {
+          "id": "B",
+          "text": "수평으로 1,000미터, 수직으로 150미터"
+        },
+        {
+          "id": "C",
+          "text": "수평으로 3,000미터, 수직으로 150미터"
+        },
+        {
+          "id": "D",
+          "text": "수평으로 1,500미터, 수직으로 150미터"
+        }
+      ],
+      "answer": "A",
+      "explanation": "교재 제28회 모의고사 해설: 항공안전법 시행규칙 별표 24(시계상의 양호한 기상상태) 참고. 정답은 A번 선택지이다.",
+      "explanation_language": "ko",
+      "reference": "항공법규_OCR.pdf · 제28회 모의고사 p.325 · 항공안전법 시행규칙 별표 24(시계상의 양호한 기상상태) 참고",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "검댕이 항공법규",
+        "모의고사",
+        "제28회 모의고사"
+      ],
+      "answer_source": "교재 제28회 정답표 (인쇄 p.327 / PDF p.329)",
+      "extraction_review": "source_page_visual_review"
+    },
+    {
+      "id": "KDA-LAW-M28-015",
+      "number": 15,
+      "subject": "검댕이 항공법규",
+      "study_unit": 3,
+      "study_unit_title": "모의고사",
+      "subunit": {
+        "code": "M28",
+        "title": "제28회 모의고사"
+      },
+      "source_page": 325,
+      "source_pdf_page": 327,
+      "source_question_number": 15,
+      "source_section": "제28회 모의고사",
+      "question": "계기비행 기상상태에서 통신 두절 시 가능한 한 접근예정시간과 도착예정시간 중 ( ) 이내에 착륙하여야 한다. ( )에 맞는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "더 빠른 시간부터 20분 이내"
+        },
+        {
+          "id": "B",
+          "text": "더 빠른 시간부터 30분 이내"
+        },
+        {
+          "id": "C",
+          "text": "더 늦은 시간부터 20분 이내"
+        },
+        {
+          "id": "D",
+          "text": "더 늦은 시간부터 30분 이내"
+        }
+      ],
+      "answer": "D",
+      "explanation": "교재 제28회 모의고사 해설: 항공안전법 시행규칙 제190조(통신) 참고. 정답은 D번 선택지이다.",
+      "explanation_language": "ko",
+      "reference": "항공법규_OCR.pdf · 제28회 모의고사 p.325 · 항공안전법 시행규칙 제190조(통신) 참고",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "검댕이 항공법규",
+        "모의고사",
+        "제28회 모의고사"
+      ],
+      "answer_source": "교재 제28회 정답표 (인쇄 p.327 / PDF p.329)",
+      "extraction_review": "source_page_visual_review"
+    },
+    {
+      "id": "KDA-LAW-M28-016",
+      "number": 16,
+      "subject": "검댕이 항공법규",
+      "study_unit": 3,
+      "study_unit_title": "모의고사",
+      "subunit": {
+        "code": "M28",
+        "title": "제28회 모의고사"
+      },
+      "source_page": 325,
+      "source_pdf_page": 327,
+      "source_question_number": 16,
+      "source_section": "제28회 모의고사",
+      "question": "빛총신호에 관한 설명 중 맞는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "연속되는 녹색 - 비행 중인 항공기는 착륙준비를 할 것"
+        },
+        {
+          "id": "B",
+          "text": "연속되는 적색 - 지상에 있는 항공기는 정지할 것"
+        },
+        {
+          "id": "C",
+          "text": "연속되는 백색 - 비행 중인 경우 착륙하여 계류장으로 갈 것"
+        },
+        {
+          "id": "D",
+          "text": "깜박이는 적색 - 비행 중인 경우 선회하며 대기할 것"
+        }
+      ],
+      "answer": "B",
+      "explanation": "교재 제28회 모의고사 해설: 항공안전법 시행규칙 별표 26(신호) 참고. 정답은 B번 선택지이다.",
+      "explanation_language": "ko",
+      "reference": "항공법규_OCR.pdf · 제28회 모의고사 p.325 · 항공안전법 시행규칙 별표 26(신호) 참고",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "검댕이 항공법규",
+        "모의고사",
+        "제28회 모의고사"
+      ],
+      "answer_source": "교재 제28회 정답표 (인쇄 p.327 / PDF p.329)",
+      "extraction_review": "source_page_visual_review"
+    },
+    {
+      "id": "KDA-LAW-M28-017",
+      "number": 17,
+      "subject": "검댕이 항공법규",
+      "study_unit": 3,
+      "study_unit_title": "모의고사",
+      "subunit": {
+        "code": "M28",
+        "title": "제28회 모의고사"
+      },
+      "source_page": 325,
+      "source_pdf_page": 327,
+      "source_question_number": 17,
+      "source_section": "제28회 모의고사",
+      "question": "다음 중 모든 항공기가 계기비행을 하여야 하는 공역은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A등급 공역"
+        },
+        {
+          "id": "B",
+          "text": "B등급 공역"
+        },
+        {
+          "id": "C",
+          "text": "C등급 공역"
+        },
+        {
+          "id": "D",
+          "text": "D등급 공역"
+        }
+      ],
+      "answer": "A",
+      "explanation": "교재 제28회 모의고사 해설: 항공안전법 시행규칙 별표 23(공역의 구분) 참고. 정답은 A번 선택지이다.",
+      "explanation_language": "ko",
+      "reference": "항공법규_OCR.pdf · 제28회 모의고사 p.325 · 항공안전법 시행규칙 별표 23(공역의 구분) 참고",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "검댕이 항공법규",
+        "모의고사",
+        "제28회 모의고사"
+      ],
+      "answer_source": "교재 제28회 정답표 (인쇄 p.327 / PDF p.329)",
+      "extraction_review": "source_page_visual_review"
+    },
+    {
+      "id": "KDA-LAW-M28-018",
+      "number": 18,
+      "subject": "검댕이 항공법규",
+      "study_unit": 3,
+      "study_unit_title": "모의고사",
+      "subunit": {
+        "code": "M28",
+        "title": "제28회 모의고사"
+      },
+      "source_page": 326,
+      "source_pdf_page": 328,
+      "source_question_number": 18,
+      "source_section": "제28회 모의고사",
+      "question": "긴급항공기 지정에 관한 설명 중 틀린 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "긴급한 업무의 수행을 위하여 운항하는 경우에도 이착륙 장소 제한규정이 적용된다."
+        },
+        {
+          "id": "B",
+          "text": "긴급항공기 지정에 관하여 필요한 사항은 국토교통부령으로 정한다."
+        },
+        {
+          "id": "C",
+          "text": "긴급항공기 지정은 지방항공청장으로부터 받아야 한다."
+        },
+        {
+          "id": "D",
+          "text": "긴급항공기 지정 취소처분을 받은 자는 2년 이내에는 긴급항공기의 지정을 받을 수 없다."
+        }
+      ],
+      "answer": "A",
+      "explanation": "교재 제28회 모의고사 해설: 항공안전법 관련 긴급항공기 지정 규정 참고. 정답은 A번 선택지이다.",
+      "explanation_language": "ko",
+      "reference": "항공법규_OCR.pdf · 제28회 모의고사 p.326 · 항공안전법 관련 긴급항공기 지정 규정 참고",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "검댕이 항공법규",
+        "모의고사",
+        "제28회 모의고사"
+      ],
+      "answer_source": "교재 제28회 정답표 (인쇄 p.327 / PDF p.329)",
+      "extraction_review": "source_page_visual_review"
+    },
+    {
+      "id": "KDA-LAW-M28-019",
+      "number": 19,
+      "subject": "검댕이 항공법규",
+      "study_unit": 3,
+      "study_unit_title": "모의고사",
+      "subunit": {
+        "code": "M28",
+        "title": "제28회 모의고사"
+      },
+      "source_page": 326,
+      "source_pdf_page": 328,
+      "source_question_number": 19,
+      "source_section": "제28회 모의고사",
+      "question": "다음 중 경보상황(alert phase)이 아닌 경우는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "항공기가 테러 등 불법간섭을 받는 것으로 인지된 경우"
+        },
+        {
+          "id": "B",
+          "text": "불확실상황에서의 항공기와의 교신시도 또는 관계부서의 조회로도 해당 항공기의 위치를 확인하기 곤란한 경우"
+        },
+        {
+          "id": "C",
+          "text": "항공기의 비행능력이 상실되었으나 불시착할 가능성이 없음을 나타내는 정보를 입수한 경우에 항공기 및 탑승자의 안전에 우려가 없는 경우"
+        },
+        {
+          "id": "D",
+          "text": "항공기가 착륙허가를 받고도 착륙 예정시간부터 5분 이내에 착륙하지 아니한 상태에서 그 항공기와의 무선교신이 되지 아니한 경우"
+        }
+      ],
+      "answer": "C",
+      "explanation": "교재 제28회 모의고사 해설: 항공안전법 시행규칙 제243조(경보업무의 수행절차 등) 참고. 정답은 C번 선택지이다.",
+      "explanation_language": "ko",
+      "reference": "항공법규_OCR.pdf · 제28회 모의고사 p.326 · 항공안전법 시행규칙 제243조(경보업무의 수행절차 등) 참고",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "검댕이 항공법규",
+        "모의고사",
+        "제28회 모의고사"
+      ],
+      "answer_source": "교재 제28회 정답표 (인쇄 p.327 / PDF p.329)",
+      "extraction_review": "source_page_visual_review"
+    },
+    {
+      "id": "KDA-LAW-M28-020",
+      "number": 20,
+      "subject": "검댕이 항공법규",
+      "study_unit": 3,
+      "study_unit_title": "모의고사",
+      "subunit": {
+        "code": "M28",
+        "title": "제28회 모의고사"
+      },
+      "source_page": 326,
+      "source_pdf_page": 328,
+      "source_question_number": 20,
+      "source_section": "제28회 모의고사",
+      "question": "다음 중 부정기편 운항에 포함되지 않는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "화물운송"
+        },
+        {
+          "id": "B",
+          "text": "지점 간 운항"
+        },
+        {
+          "id": "C",
+          "text": "전세운송"
+        },
+        {
+          "id": "D",
+          "text": "관광비행"
+        }
+      ],
+      "answer": "A",
+      "explanation": "교재 제28회 모의고사 해설: 항공사업법 시행규칙 제3조(부정기편 운항의 구분) 참고. 정답은 A번 선택지이다.",
+      "explanation_language": "ko",
+      "reference": "항공법규_OCR.pdf · 제28회 모의고사 p.326 · 항공사업법 시행규칙 제3조(부정기편 운항의 구분) 참고",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "검댕이 항공법규",
+        "모의고사",
+        "제28회 모의고사"
+      ],
+      "answer_source": "교재 제28회 정답표 (인쇄 p.327 / PDF p.329)",
+      "extraction_review": "source_page_visual_review"
+    },
+    {
+      "id": "KDA-LAW-M28-021",
+      "number": 21,
+      "subject": "검댕이 항공법규",
+      "study_unit": 3,
+      "study_unit_title": "모의고사",
+      "subunit": {
+        "code": "M28",
+        "title": "제28회 모의고사"
+      },
+      "source_page": 326,
+      "source_pdf_page": 328,
+      "source_question_number": 21,
+      "source_section": "제28회 모의고사",
+      "question": "장애물 제한표면에서 전이표면의 경사도는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1/3"
+        },
+        {
+          "id": "B",
+          "text": "1/4"
+        },
+        {
+          "id": "C",
+          "text": "1/6"
+        },
+        {
+          "id": "D",
+          "text": "1/7"
+        }
+      ],
+      "answer": "D",
+      "explanation": "교재 제28회 모의고사 해설: 공항시설법 시행규칙 별표 2(장애물 제한표면의 기준) 참고. 정답은 D번 선택지이다.",
+      "explanation_language": "ko",
+      "reference": "항공법규_OCR.pdf · 제28회 모의고사 p.326 · 공항시설법 시행규칙 별표 2(장애물 제한표면의 기준) 참고",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "검댕이 항공법규",
+        "모의고사",
+        "제28회 모의고사"
+      ],
+      "answer_source": "교재 제28회 정답표 (인쇄 p.327 / PDF p.329)",
+      "extraction_review": "source_page_visual_review"
+    },
+    {
+      "id": "KDA-LAW-M28-022",
+      "number": 22,
+      "subject": "검댕이 항공법규",
+      "study_unit": 3,
+      "study_unit_title": "모의고사",
+      "subunit": {
+        "code": "M28",
+        "title": "제28회 모의고사"
+      },
+      "source_page": 326,
+      "source_pdf_page": 328,
+      "source_question_number": 22,
+      "source_section": "제28회 모의고사",
+      "question": "외국항공기에 관한 허가에 대한 다음 내용 중 틀린 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "외국국적을 가진 항공기는 국토교통부장관의 허가가 있으면 군수품(병기, 탄약)을 수송할 수 있다."
+        },
+        {
+          "id": "B",
+          "text": "국토교통부장관의 허가가 있으면 외국항공기로 국내 각 지역 간 여객 또는 화물을 운송할 수 있다."
+        },
+        {
+          "id": "C",
+          "text": "외국국적을 가진 항공기를 사용하여 유상운송을 하려는 자는 운송예정일 10일 전까지 외국항공기 유상운송 허가신청서를 국토교통부장관 또는 지방항공청장에게 제출해야 한다."
+        },
+        {
+          "id": "D",
+          "text": "외국의 군, 세관 또는 경찰업무에 사용되는 항공기는 국가가 사용하는 항공기로 본다."
+        }
+      ],
+      "answer": "B",
+      "explanation": "교재 제28회 모의고사 해설: 항공사업법 제56조(외국항공기의 국내 유상운송 금지) 참고. 정답은 B번 선택지이다.",
+      "explanation_language": "ko",
+      "reference": "항공법규_OCR.pdf · 제28회 모의고사 p.326 · 항공사업법 제56조(외국항공기의 국내 유상운송 금지) 참고",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "검댕이 항공법규",
+        "모의고사",
+        "제28회 모의고사"
+      ],
+      "answer_source": "교재 제28회 정답표 (인쇄 p.327 / PDF p.329)",
+      "extraction_review": "source_page_visual_review"
+    },
+    {
+      "id": "KDA-LAW-M28-023",
+      "number": 23,
+      "subject": "검댕이 항공법규",
+      "study_unit": 3,
+      "study_unit_title": "모의고사",
+      "subunit": {
+        "code": "M28",
+        "title": "제28회 모의고사"
+      },
+      "source_page": 326,
+      "source_pdf_page": 328,
+      "source_question_number": 23,
+      "source_section": "제28회 모의고사",
+      "question": "다음 중 항공장애 주간표지를 설치하지 않아도 되는 경우는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "뼈대로만 이루어진 구조물의 경우"
+        },
+        {
+          "id": "B",
+          "text": "장애물이 주간에 고광도 장애등을 설치하여 운영되는 경우"
+        },
+        {
+          "id": "C",
+          "text": "장애물이 등대로서 광도가 충분하다고 지방항공청장이 인정하는 경우"
+        },
+        {
+          "id": "D",
+          "text": "장애물의 높이가 지표 또는 수면으로부터 200미터 이하인 경우"
+        }
+      ],
+      "answer": "B",
+      "explanation": "교재 제28회 모의고사 해설: 공항시설법 시행규칙 별표 9(표시등 및 표지 설치대상 구조물) 참고. 정답은 B번 선택지이다.",
+      "explanation_language": "ko",
+      "reference": "항공법규_OCR.pdf · 제28회 모의고사 p.326 · 공항시설법 시행규칙 별표 9(표시등 및 표지 설치대상 구조물) 참고",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "검댕이 항공법규",
+        "모의고사",
+        "제28회 모의고사"
+      ],
+      "answer_source": "교재 제28회 정답표 (인쇄 p.327 / PDF p.329)",
+      "extraction_review": "source_page_visual_review"
+    },
+    {
+      "id": "KDA-LAW-M28-024",
+      "number": 24,
+      "subject": "검댕이 항공법규",
+      "study_unit": 3,
+      "study_unit_title": "모의고사",
+      "subunit": {
+        "code": "M28",
+        "title": "제28회 모의고사"
+      },
+      "source_page": 326,
+      "source_pdf_page": 328,
+      "source_question_number": 24,
+      "source_section": "제28회 모의고사",
+      "question": "항공기 사고조사와 관련된 내용으로 옳은 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "통보한 자의 의사에 의해 해당 통보자의 신분을 공개할 수 있다."
+        },
+        {
+          "id": "B",
+          "text": "통보한 자의 의사에 반하여 해당 통보자의 신분을 공개하여서는 아니 된다."
+        },
+        {
+          "id": "C",
+          "text": "사고조사 자문위원 위촉 시 국토교통부장관이 정하는 바에 따른다."
+        },
+        {
+          "id": "D",
+          "text": "사고원인과 관계가 있거나 있었던 자와 밀접한 관계가 있는 인원의 회의 참석도 가능하다."
+        }
+      ],
+      "answer": "B",
+      "explanation": "교재 제28회 모의고사 해설: 항공·철도 사고조사에 관한 법률 제17조(항공·철도사고등의 발생 통보) 참고. 정답은 B번 선택지이다.",
+      "explanation_language": "ko",
+      "reference": "항공법규_OCR.pdf · 제28회 모의고사 p.326 · 항공·철도 사고조사에 관한 법률 제17조(항공·철도사고등의 발생 통보) 참고",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "검댕이 항공법규",
+        "모의고사",
+        "제28회 모의고사"
+      ],
+      "answer_source": "교재 제28회 정답표 (인쇄 p.327 / PDF p.329)",
+      "extraction_review": "source_page_visual_review"
+    },
+    {
+      "id": "KDA-LAW-M28-025",
+      "number": 25,
+      "subject": "검댕이 항공법규",
+      "study_unit": 3,
+      "study_unit_title": "모의고사",
+      "subunit": {
+        "code": "M28",
+        "title": "제28회 모의고사"
+      },
+      "source_page": 327,
+      "source_pdf_page": 329,
+      "source_question_number": 25,
+      "source_section": "제28회 모의고사",
+      "question": "민간항공의 안전 및 보안에 관한 국제협약이 아닌 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "항공기 내에서 범한 범죄 및 기타 행위에 관한 협약"
+        },
+        {
+          "id": "B",
+          "text": "항공기의 불법납치 억제를 위한 협약"
+        },
+        {
+          "id": "C",
+          "text": "마약 및 향정신성물질의 운송방지에 관한 협약"
+        },
+        {
+          "id": "D",
+          "text": "국제민간항공에 사용되는 공항에서의 불법적 폭력행위의 억제를 위한 협약"
+        }
+      ],
+      "answer": "C",
+      "explanation": "교재 제28회 모의고사 해설: 항공보안법 제3조(국제협약의 준수) 참고. 정답은 C번 선택지이다.",
+      "explanation_language": "ko",
+      "reference": "항공법규_OCR.pdf · 제28회 모의고사 p.327 · 항공보안법 제3조(국제협약의 준수) 참고",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "검댕이 항공법규",
+        "모의고사",
+        "제28회 모의고사"
+      ],
+      "answer_source": "교재 제28회 정답표 (인쇄 p.327 / PDF p.329)",
+      "extraction_review": "source_page_visual_review"
+    }
+  ]
+}
