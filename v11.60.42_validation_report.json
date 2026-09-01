@@ -1,0 +1,40 @@
+{
+  "version": "v11.60.42",
+  "base": "v11.60.41",
+  "feature": "Cross-device editable highlights/freehand annotations for Aviwiki + FSR + ICAO Doc 8168 Vol. I",
+  "checks": {
+    "index_has_annotation_css": true,
+    "index_has_annotation_js": true,
+    "index_fsr_v42": true,
+    "index_icao_v42": true,
+    "app_cache_v42": true,
+    "fsr_mounts_synced_annotations": true,
+    "icao_mounts_synced_annotations": true,
+    "generic_cloud_upsert": true,
+    "generic_cloud_reload_on_visibility": true,
+    "generic_normalized_drawings": true,
+    "aviwiki_cloud_sync": true,
+    "aviwiki_local_migration": true,
+    "aviwiki_offline_timestamp_merge": true,
+    "sql_table": true,
+    "sql_rls": true,
+    "sql_anon_revoked": true,
+    "sql_own_policies": true,
+    "node_check_app-v11-44.js": true,
+    "node_check_reference-annotations-v11-60-42.js": true,
+    "node_check_reference-fsr-v11-60-42.js": true,
+    "node_check_reference-icao-doc8168-v11-60-42.js": true
+  },
+  "pass": true,
+  "files": [
+    "V11.60.42_REFERENCE_ANNOTATIONS.md",
+    "V11.60.42_REFERENCE_ANNOTATIONS_SYNC.sql",
+    "assets/app-v11-44.js",
+    "assets/reference-annotations-v11-60-42.js",
+    "assets/reference-fsr-v11-60-42.js",
+    "assets/reference-icao-doc8168-v11-60-42.js",
+    "assets/style-v11-60-42-reference-annotations.css",
+    "index.html",
+    "supabase/V11.60.42_REFERENCE_ANNOTATIONS_SYNC.sql"
+  ]
+}

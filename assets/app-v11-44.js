@@ -668,8 +668,11 @@ const AVIWIKI_ANNOTATION_STATE_PREFIX = "pilotbank-aviwiki-annotations-v1156";
 const AVIWIKI_NOTES_DB_NAME = "pilotbank-aviwiki-notes-v1"; // legacy local notes only
 const AVIWIKI_NOTES_BUCKET = "aviwiki-notes";
 const AVIWIKI_NOTES_TABLE = "aviwiki_notes";
+const AVIWIKI_ANNOTATIONS_TABLE = "pilotbank_study_annotations";
+let aviwikiCloudAnnotationSaveTimer = null;
+let aviwikiCloudAnnotationAvailable = true;
 let aviwikiAnnotationLoadedKey = null;
-let aviwikiAnnotationState = {highlights:{}, drawings:{}};
+let aviwikiAnnotationState = {highlights:{}, drawings:{}, _updated_at:{}};
 let aviwikiLastTextSelection = null;
 let aviwikiDrawingActive = false;
 let aviwikiDrawingTool = "hand";
@@ -1088,17 +1091,124 @@ function ensureAviwikiAnnotationState() {
     aviwikiAnnotationState = {
       highlights: parsed?.highlights && typeof parsed.highlights === "object" ? parsed.highlights : {},
       drawings: parsed?.drawings && typeof parsed.drawings === "object" ? parsed.drawings : {},
+      _updated_at: parsed?._updated_at && typeof parsed._updated_at === "object" ? parsed._updated_at : {},
     };
   } catch {
-    aviwikiAnnotationState = {highlights:{}, drawings:{}};
+    aviwikiAnnotationState = {highlights:{}, drawings:{}, _updated_at:{}};
+  }
+}
+
+function persistAviwikiAnnotationLocalOnly() {
+  ensureAviwikiAnnotationState();
+  try { localStorage.setItem(aviwikiAnnotationStorageKey(), JSON.stringify(aviwikiAnnotationState)); } catch (err) {
+    console.warn("Aviwiki 필기 상태 저장 실패", err);
+  }
+}
+
+function aviwikiAnnotationSurfaceSize() {
+  const surface=els.aviwikiAnnotationSurface;
+  return {
+    width:Math.max(1, Number(surface?.scrollWidth || surface?.clientWidth || 1)),
+    height:Math.max(1, Number(surface?.scrollHeight || surface?.clientHeight || 1))
+  };
+}
+
+function aviwikiCloudAnnotationPayload(sectionId) {
+  ensureAviwikiAnnotationState();
+  const {width,height}=aviwikiAnnotationSurfaceSize();
+  const highlights=Array.isArray(aviwikiAnnotationState.highlights[sectionId]) ? aviwikiAnnotationState.highlights[sectionId] : [];
+  const drawings=Array.isArray(aviwikiAnnotationState.drawings[sectionId]) ? aviwikiAnnotationState.drawings[sectionId] : [];
+  return {
+    version:1,
+    highlight_encoding:"text_offset_v1",
+    drawing_encoding:"normalized_surface_v1",
+    highlights:highlights.map(h=>({...h})),
+    drawings:drawings.map(stroke=>({
+      tool:stroke.tool, color:stroke.color, width:stroke.width,
+      points:(stroke.points||[]).map(p=>({x:Math.max(0,Math.min(1,Number(p.x||0)/width)),y:Math.max(0,Math.min(1,Number(p.y||0)/height))}))
+    }))
+  };
+}
+
+function applyAviwikiCloudAnnotationPayload(sectionId,payload) {
+  ensureAviwikiAnnotationState();
+  const {width,height}=aviwikiAnnotationSurfaceSize();
+  aviwikiAnnotationState.highlights[sectionId]=Array.isArray(payload?.highlights)?payload.highlights.map(h=>({...h})):[];
+  if(payload?.drawing_encoding==="normalized_surface_v1") {
+    aviwikiAnnotationState.drawings[sectionId]=(Array.isArray(payload?.drawings)?payload.drawings:[]).map(stroke=>({
+      tool:stroke.tool, color:stroke.color, width:stroke.width,
+      points:(stroke.points||[]).map(p=>({x:Number(p.x||0)*width,y:Number(p.y||0)*height}))
+    }));
+  } else {
+    aviwikiAnnotationState.drawings[sectionId]=Array.isArray(payload?.drawings)?payload.drawings.map(stroke=>({...stroke,points:(stroke.points||[]).map(p=>({...p}))})):[];
+  }
+  persistAviwikiAnnotationLocalOnly();
+}
+
+async function saveAviwikiCloudAnnotationNow(sectionId=aviwikiCurrentSectionId) {
+  if(!sectionId || !aviwikiCloudAnnotationAvailable || !window.supabaseClient) return;
+  const userId=await aviwikiCloudNotesUserId();
+  if(!userId) return;
+  try {
+    const {error}=await window.supabaseClient.from(AVIWIKI_ANNOTATIONS_TABLE).upsert({
+      user_id:userId, surface_key:"aviwiki", content_key:String(sectionId),
+      payload:aviwikiCloudAnnotationPayload(sectionId), updated_at:new Date().toISOString()
+    },{onConflict:"user_id,surface_key,content_key"});
+    if(error) throw error;
+    aviwikiSetAnnotationStatus("계정에 동기화됨");
+  } catch(err) {
+    aviwikiCloudAnnotationAvailable=false;
+    console.warn("Aviwiki 형광펜/필기 클라우드 동기화 실패 · 로컬 저장 유지",err);
+    aviwikiSetAnnotationStatus("로컬 저장 · 동기화 SQL 확인 필요");
+  }
+}
+
+function queueAviwikiCloudAnnotationSave(sectionId=aviwikiCurrentSectionId) {
+  if(!sectionId) return;
+  clearTimeout(aviwikiCloudAnnotationSaveTimer);
+  aviwikiCloudAnnotationSaveTimer=setTimeout(()=>saveAviwikiCloudAnnotationNow(sectionId),350);
+}
+
+async function loadAviwikiCloudAnnotationForSection(sectionId) {
+  if(!sectionId || !aviwikiCloudAnnotationAvailable || !window.supabaseClient) return;
+  const userId=await aviwikiCloudNotesUserId();
+  if(!userId) return;
+  try {
+    const {data,error}=await window.supabaseClient.from(AVIWIKI_ANNOTATIONS_TABLE)
+      .select("payload,updated_at").eq("user_id",userId).eq("surface_key","aviwiki").eq("content_key",String(sectionId)).maybeSingle();
+    if(error) throw error;
+    if(data?.payload) {
+      ensureAviwikiAnnotationState();
+      const localTime=Date.parse(aviwikiAnnotationState._updated_at?.[sectionId]||0)||0;
+      const cloudTime=Date.parse(data.updated_at||0)||0;
+      const hasLocal=(aviwikiAnnotationState.highlights[sectionId]?.length||0)+(aviwikiAnnotationState.drawings[sectionId]?.length||0)>0;
+      if(hasLocal && localTime>cloudTime) {
+        await saveAviwikiCloudAnnotationNow(sectionId);
+      } else {
+        applyAviwikiCloudAnnotationPayload(sectionId,data.payload);
+        if(!aviwikiAnnotationState._updated_at || typeof aviwikiAnnotationState._updated_at!=="object") aviwikiAnnotationState._updated_at={};
+        aviwikiAnnotationState._updated_at[sectionId]=data.updated_at||new Date().toISOString();
+        persistAviwikiAnnotationLocalOnly();
+        aviwikiSetAnnotationStatus("계정에서 형광펜/필기를 불러왔습니다.");
+      }
+    } else {
+      ensureAviwikiAnnotationState();
+      const hasLocal=(aviwikiAnnotationState.highlights[sectionId]?.length||0)+(aviwikiAnnotationState.drawings[sectionId]?.length||0)>0;
+      if(hasLocal) await saveAviwikiCloudAnnotationNow(sectionId);
+    }
+  } catch(err) {
+    aviwikiCloudAnnotationAvailable=false;
+    console.warn("Aviwiki 형광펜/필기 클라우드 불러오기 실패 · 로컬 상태 사용",err);
+    aviwikiSetAnnotationStatus("로컬 저장 · 동기화 SQL 확인 필요");
   }
 }
 
 function saveAviwikiAnnotationState() {
   ensureAviwikiAnnotationState();
-  try { localStorage.setItem(aviwikiAnnotationStorageKey(), JSON.stringify(aviwikiAnnotationState)); } catch (err) {
-    console.warn("Aviwiki 필기 상태 저장 실패", err);
-  }
+  if(!aviwikiAnnotationState._updated_at || typeof aviwikiAnnotationState._updated_at!=="object") aviwikiAnnotationState._updated_at={};
+  if(aviwikiCurrentSectionId) aviwikiAnnotationState._updated_at[aviwikiCurrentSectionId]=new Date().toISOString();
+  persistAviwikiAnnotationLocalOnly();
+  queueAviwikiCloudAnnotationSave();
 }
 
 function aviwikiSetAnnotationStatus(message) {
@@ -1961,6 +2071,7 @@ async function openAviwikiSection(sectionId) {
   }
   if (els.aviwikiArticleBody) els.aviwikiArticleBody.innerHTML = renderAviwikiArticleBody(section.content);
   ensureAviwikiAnnotationState();
+  await loadAviwikiCloudAnnotationForSection(section.id);
   applyAviwikiHighlights();
   setAviwikiDrawingActive(false);
   requestAnimationFrame(() => requestAnimationFrame(resizeAviwikiDrawCanvas));
