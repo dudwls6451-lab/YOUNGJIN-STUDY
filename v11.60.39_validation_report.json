@@ -1,0 +1,27 @@
+{
+  "version": "v11.60.39",
+  "base": "v11.60.38",
+  "source_scope": "Jeppesen Airway Manual · Radio Data - General · Section 2 PBN/RNAV · p.393–408 inclusive",
+  "content_policy": "No source subheading, NOTE, FIGURE, TABLE, enumerated item, or page text intentionally omitted. Detailed Korean theory + page-by-page Coverage Audit + p.393–408 raw source text preservation.",
+  "checks": {
+    "question_count": 96,
+    "stage_count": 12,
+    "unique_ids": true,
+    "four_choices_all": true,
+    "all_stage_question_ids_exist": true,
+    "all_stages_8_questions": true,
+    "figure_count": 6,
+    "all_question_images_exist": true,
+    "scope_pages_393_408": true,
+    "coverage_pages_complete": true,
+    "index_has_script": true,
+    "no_prior_figure_dirs": true,
+    "js_syntax": true,
+    "zip_integrity": true,
+    "zip_file_count": 12,
+    "zip_size_bytes": 119818,
+    "raw_source_pages_preserved": true,
+    "raw_source_pages_nonempty": true,
+    "raw_source_total_chars": 37816
+  }
+}

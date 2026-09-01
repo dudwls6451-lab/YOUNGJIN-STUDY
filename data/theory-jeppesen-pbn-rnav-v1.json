@@ -1,0 +1,2217 @@
+{
+  "metadata": {
+    "title": "Jeppesen Airway Manual · Radio Data - General · Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV) 이론 학습",
+    "source": "Jeppesen Airway Manual, Radio Data - General, Section 2, pp.393–408",
+    "version": "1.0",
+    "patch_version": "11.60.39",
+    "stage_count": 12,
+    "question_count": 96,
+    "pass_threshold_percent": 80,
+    "language": "ko detailed source-grounded study notes preserving Jeppesen/FAA terminology",
+    "scope_note": "p.393–408 전체. p.409부터 Section 5. Surveillance Systems이 시작되므로 제외. 원문 heading/NOTE/Figure/Table/열거항목을 Coverage Audit로 전수 체크.",
+    "quiz_rule": {
+      "questions": 8,
+      "pass_percent": 80
+    },
+    "figure_count": 6,
+    "table_count": 1,
+    "source_preservation": "Jeppesen p.393–408의 PDF text layer를 페이지별로 theory JSON에 전부 보존. Figure 1-2-1~1-2-6은 원본 crop 이미지로 별도 포함.",
+    "source_preserved_pages": [
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408
+    ],
+    "source_raw_page_stats": {
+      "393": {
+        "chars": 1899,
+        "lines": 27
+      },
+      "394": {
+        "chars": 2389,
+        "lines": 37
+      },
+      "395": {
+        "chars": 1334,
+        "lines": 21
+      },
+      "396": {
+        "chars": 339,
+        "lines": 10
+      },
+      "397": {
+        "chars": 670,
+        "lines": 14
+      },
+      "398": {
+        "chars": 2532,
+        "lines": 40
+      },
+      "399": {
+        "chars": 3438,
+        "lines": 45
+      },
+      "400": {
+        "chars": 3165,
+        "lines": 45
+      },
+      "401": {
+        "chars": 3023,
+        "lines": 44
+      },
+      "402": {
+        "chars": 3233,
+        "lines": 44
+      },
+      "403": {
+        "chars": 2310,
+        "lines": 54
+      },
+      "404": {
+        "chars": 3000,
+        "lines": 42
+      },
+      "405": {
+        "chars": 2882,
+        "lines": 41
+      },
+      "406": {
+        "chars": 3164,
+        "lines": 43
+      },
+      "407": {
+        "chars": 2582,
+        "lines": 39
+      },
+      "408": {
+        "chars": 1856,
+        "lines": 31
+      }
+    }
+  },
+  "stages": [
+    {
+      "id": 1,
+      "title": "PBN Introduction · Navigation Specifications",
+      "sections": [
+        {
+          "heading": "Introduction to PBN",
+          "paragraphs": [
+            "PBN은 Area Navigation(RNAV)의 큰 틀 아래에서 운용된다. 절차 제목에서 RNAV라는 말은 항공기 장비 수준과 무관하게 “area navigation”을 뜻한다.",
+            "PBN에는 두 가지 주요 navigation specification 계열이 있다: RNAV와 RNP. RNAV x의 숫자는 해당 NavSpec의 lateral navigation accuracy 값을 뜻한다.",
+            "PBN 요구를 충족하려면 지정된 RNAV 또는 RNP accuracy를 비행시간의 최소 95% 동안 달성해야 한다.",
+            "RNP는 RNAV에 onboard performance monitoring and alerting capability를 추가한 개념이다. Jeppesen은 RAIM을 그 예로 든다.",
+            "NavSpec은 특정 airspace concept 안에서 navigation application을 지원하기 위해 필요한 aircraft 및 aircrew requirements의 집합이다. RNAV와 RNP 모두 숫자는 NM 단위 lateral accuracy를 나타내며, 해당 공역·route·procedure에서 운항하는 항공기 population이 비행시간의 최소 95% 동안 달성할 것으로 기대되는 값이다.",
+            "세부 기준은 ICAO Doc 9613 PBN Manual과 FAA AC 90-105의 관련 내용을 참고하도록 원문이 안내한다."
+          ]
+        },
+        {
+          "heading": "FIG 1-2-1 · Navigation Specifications",
+          "paragraphs": [
+            "원문 Figure는 Navigation Specifications를 RNP specifications와 RNAV specifications로 구분한다. RNP 쪽은 onboard performance monitoring and alerting이 요구되며 RNAV 쪽은 그 요구가 없다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-pbn-rnav-theory/fig-1-2-1-navigation-specifications.webp",
+            "caption": "FIG 1-2-1 · Navigation Specifications · p.393"
+          }
+        },
+        {
+          "heading": "FIG 1-2-1에 표시된 예시",
+          "table": {
+            "headers": [
+              "구분",
+              "원문 Figure의 예시"
+            ],
+            "rows": [
+              [
+                "RNP · oceanic/remote",
+                "RNP 4, RNP 2"
+              ],
+              [
+                "RNP · en-route/terminal",
+                "RNP 2, RNP 1, A-RNP, RNP APCH, RNP AR APCH, RNP 0.3"
+              ],
+              [
+                "RNP · additional requirements",
+                "예: 3D, 4D"
+              ],
+              [
+                "RNAV · oceanic/remote",
+                "RNAV 10"
+              ],
+              [
+                "RNAV · en-route/terminal",
+                "RNAV 5, RNAV 2, RNAV 1"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "원문 Coverage Audit · 생략 방지 체크",
+          "paragraphs": [
+            "아래 목록은 해당 단계가 원문에서 반영해야 하는 heading·NOTE·Figure·Table·세부 항목을 페이지별로 열거한 것이다. 패치 검증 시 이 목록을 기준으로 누락 여부를 확인한다."
+          ],
+          "table": {
+            "headers": [
+              "원문 페이지",
+              "반영 항목"
+            ],
+            "rows": [
+              [
+                "p.393",
+                "GENERAL"
+              ],
+              [
+                "p.393",
+                "Introduction to PBN"
+              ],
+              [
+                "p.393",
+                "FIG 1-2-1 Navigation Specifications"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "원문 전체 보존 · Jeppesen p.393",
+          "paragraphs": [
+            "이 블록은 이번 Section 2 패치에서 임의 요약으로 빠지는 내용을 막기 위해 해당 페이지의 원문 텍스트 레이어를 그대로 보존한 검수용 원문이다.",
+            "GENERAL",
+            "a. Introduction to PBN. As air travel has evolved, methods of navigation have improved to",
+            "give operators more flexibility. PBN exists under the umbrella of area navigation (RNAV).",
+            "The term RNAV in this context, as in procedure titles, just means “area navigation,” regard-",
+            "less of the equipment capability of the aircraft. (See FIG 1-2-1.) Many operators have upgra-",
+            "ded their systems to obtain the benefits of PBN. Within PBN there are two main categories of",
+            "navigation methods or specifications: area navigation (RNAV) and required navigation per-",
+            "formance (RNP). In this context, the term RNAV x means a specific navigation specification",
+            "with a specified lateral accuracy value. For an aircraft to meet the requirements of PBN, a",
+            "specified RNAV or RNP accuracy must be met 95 percent of the flight time. RNP is a PBN",
+            "system that includes onboard performance monitoring and alerting capability (for example,",
+            "Receiver Autonomous Integrity Monitoring (RAIM)). PBN also introduces the concept of navi-",
+            "gation specifications (NavSpecs) which are a set of aircraft and aircrew requirements",
+            "needed to support a navigation application within a defined airspace concept. For both RNP",
+            "and RNAV NavSpecs, the numerical designation refers to the lateral navigation accuracy in",
+            "nautical miles which is expected to be achieved at least 95 percent of the flight time by the",
+            "population of aircraft operating within the airspace, route, or procedure. This information is",
+            "detailed in International Civil Aviation Organization’s (ICAO) Doc 9613, Performance-based",
+            "Navigation (PBN) Manual and the latest FAA AC 90-105, Approval Guidance for RNP Oper-",
+            "ations and Barometric Vertical Navigation in the U.S. National Airspace System and in",
+            "Remote and Oceanic Airspace.",
+            "FIGURE 1-2-1",
+            "Navigation Specifications",
+            "1-2-1",
+            "RADIO DATA - GENERAL",
+            "393",
+            "SECTION 2. PERFORMANCE-BASED NAVIGATION (PBN) AND AREA NAVIGATION (RNAV)"
+          ],
+          "source_preservation": true
+        }
+      ],
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "module": "Section 2. PBN & RNAV",
+      "source_printed_pages": [
+        393
+      ],
+      "source_pdf_pages": [
+        393
+      ],
+      "question_ids": [
+        "JEPP-PBN-RNAV-001",
+        "JEPP-PBN-RNAV-002",
+        "JEPP-PBN-RNAV-003",
+        "JEPP-PBN-RNAV-004",
+        "JEPP-PBN-RNAV-005",
+        "JEPP-PBN-RNAV-006",
+        "JEPP-PBN-RNAV-007",
+        "JEPP-PBN-RNAV-008"
+      ],
+      "quiz_questions": 8,
+      "pass_percent": 80,
+      "unit_title": "Section 2. PBN & RNAV"
+    },
+    {
+      "id": 2,
+      "title": "RNAV General · Waypoints",
+      "sections": [
+        {
+          "heading": "Area Navigation (RNAV) — General",
+          "paragraphs": [
+            "RNAV는 ground- 또는 space-based navigation aids의 coverage 안, self-contained aids의 capability 한계 안, 또는 이들의 조합을 이용하여 원하는 flight path로 운항할 수 있게 하는 navigation method이다.",
+            "Jeppesen은 향후 ground-based NAVAID로 정의되는 route보다 RNAV 의존도가 커질 것으로 설명하며, RNAV route와 terminal procedures(DP, STAR 포함)는 RNAV systems를 염두에 두고 설계된다고 설명한다.",
+            "RNAV의 잠재적 장점으로 time/fuel savings, radar vector·altitude·speed assignment 의존도 감소에 따른 ATC radio transmission 감소, 더 효율적인 airspace use를 제시한다.",
+            "미국 domestic RNAV DP/STAR/route guidance는 AC 90-100도 참고하도록 안내한다."
+          ]
+        },
+        {
+          "heading": "RNAV Operations",
+          "paragraphs": [
+            "DP/STAR 같은 RNAV procedure는 procedure centerline에 대한 엄격한 awareness와 유지가 필요하다.",
+            "조종사는 aircraft navigation system의 working knowledge를 갖고 절차를 적절하게 비행해야 하며, RNAV procedure에서 쓰이는 waypoint type과 leg type을 이해해야 한다."
+          ]
+        },
+        {
+          "heading": "Waypoints",
+          "paragraphs": [
+            "Waypoint는 latitude/longitude coordinate로 정의되는 predetermined geographical position이며, 단순 named point일 수도 있고 기존 NAVAID·intersection·fix와 연계될 수도 있다.",
+            "Waypoint는 desired path에서 direction, speed, altitude change를 나타내는 데 자주 쓰인다.",
+            "Fly-by waypoint에서는 두 route segment를 나누는 waypoint에 도달하기 전에 다음 course로의 turn을 시작한다. 이를 turn anticipation이라 한다.",
+            "Fly-over waypoint에서는 turn을 시작하기 전에 반드시 waypoint 위를 통과해야 한다."
+          ]
+        },
+        {
+          "heading": "FIG 1-2-2 · Fly-by and Fly-over Waypoints",
+          "paragraphs": [
+            "원문 Figure는 fly-by가 waypoint 전에 turn anticipation을 시작하는 모습과 fly-over가 waypoint 통과 후 turn을 시작하는 모습을 비교한다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-pbn-rnav-theory/fig-1-2-2-flyby-flyover.webp",
+            "caption": "FIG 1-2-2 · Fly-by and Fly-over Waypoints · p.395"
+          }
+        },
+        {
+          "heading": "원문 Coverage Audit · 생략 방지 체크",
+          "paragraphs": [
+            "아래 목록은 해당 단계가 원문에서 반영해야 하는 heading·NOTE·Figure·Table·세부 항목을 페이지별로 열거한 것이다. 패치 검증 시 이 목록을 기준으로 누락 여부를 확인한다."
+          ],
+          "table": {
+            "headers": [
+              "원문 페이지",
+              "반영 항목"
+            ],
+            "rows": [
+              [
+                "p.394",
+                "Area Navigation (RNAV)"
+              ],
+              [
+                "p.394",
+                "General"
+              ],
+              [
+                "p.394",
+                "RNAV Operations"
+              ],
+              [
+                "p.394",
+                "Waypoints"
+              ],
+              [
+                "p.394",
+                "Fly-by waypoints"
+              ],
+              [
+                "p.394",
+                "Fly-over waypoints"
+              ],
+              [
+                "p.394",
+                "NOTE for FIG 1-2-2"
+              ],
+              [
+                "p.395",
+                "FIG 1-2-2"
+              ],
+              [
+                "p.395",
+                "RNAV Leg Types"
+              ],
+              [
+                "p.395",
+                "Track to Fix"
+              ],
+              [
+                "p.395",
+                "Direct to Fix"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "원문 전체 보존 · Jeppesen p.394",
+          "paragraphs": [
+            "이 블록은 이번 Section 2 패치에서 임의 요약으로 빠지는 내용을 막기 위해 해당 페이지의 원문 텍스트 레이어를 그대로 보존한 검수용 원문이다.",
+            "b. Area Navigation (RNAV)",
+            "1. General. RNAV is a method of navigation that permits aircraft operation on any desired",
+            "flight path within the coverage of ground- or space-based navigation aids or within the",
+            "limits of the capability of self-contained aids, or a combination of these. In the future,",
+            "there will be an increased dependence on the use of RNAV in lieu of routes defined by",
+            "ground-based navigation aids. RNAV routes and terminal procedures, including depar-",
+            "ture procedures (DPs) and standard terminal arrivals (STARs), are designed with RNAV",
+            "systems in mind. There are several potential advantages of RNAV routes and proce-",
+            "dures:",
+            "(a) Time and fuel savings;",
+            "(b) Reduced dependence on radar vectoring, altitude, and speed assignments allow-",
+            "ing a reduction in required ATC radio transmissions; and",
+            "(c) More efficient use of airspace.",
+            "In addition to information found in this manual, guidance for domestic RNAV DPs,",
+            "STARs, and routes may also be found in AC 90-100, U.S. Terminal and En Route Area",
+            "Navigation (RNAV) Operations.",
+            "2. RNAV Operations. RNAV procedures, such as DPs and STARs, demand strict pilot",
+            "awareness and maintenance of the procedure centerline. Pilots should possess a work-",
+            "ing knowledge of their aircraft navigation system to ensure RNAV procedures are flown",
+            "in an appropriate manner. In addition, pilots should have an understanding of the vari-",
+            "ous waypoint and leg types used in RNAV procedures; these are discussed in more",
+            "detail below.",
+            "(a) Waypoints. A waypoint is a predetermined geographical position that is defined in",
+            "terms of latitude/longitude coordinates. Waypoints may be a simple named point in",
+            "space or associated with existing navaids, intersections, or fixes. A waypoint is",
+            "most often used to indicate a change in direction, speed, or altitude along the",
+            "desired path. RNAV procedures make use of both fly-over and fly-by waypoints.",
+            "(1) Fly-by waypoints. Fly-by waypoints are used when an aircraft should begin a",
+            "turn to the next course prior to reaching the waypoint separating the two route",
+            "segments. This is known as turn anticipation.",
+            "(2) Fly-over waypoints. Fly-over waypoints are used when the aircraft must fly",
+            "over the point prior to starting a turn.",
+            "NOTE: FIG 1-2-2 illustrates several differences between a fly-by and a fly-",
+            "over waypoint.",
+            "RADIO DATA - GENERAL",
+            "394",
+            "SECTION 2. PERFORMANCE-BASED NAVIGATION (PBN) AND AREA NAVIGATION (RNAV)"
+          ],
+          "source_preservation": true
+        }
+      ],
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "module": "Section 2. PBN & RNAV",
+      "source_printed_pages": [
+        394,
+        395
+      ],
+      "source_pdf_pages": [
+        394,
+        395
+      ],
+      "question_ids": [
+        "JEPP-PBN-RNAV-009",
+        "JEPP-PBN-RNAV-010",
+        "JEPP-PBN-RNAV-011",
+        "JEPP-PBN-RNAV-012",
+        "JEPP-PBN-RNAV-013",
+        "JEPP-PBN-RNAV-014",
+        "JEPP-PBN-RNAV-015",
+        "JEPP-PBN-RNAV-016"
+      ],
+      "quiz_questions": 8,
+      "pass_percent": 80,
+      "unit_title": "Section 2. PBN & RNAV"
+    },
+    {
+      "id": 3,
+      "title": "RNAV Leg Types · TF/DF/CF/RF/Heading",
+      "sections": [
+        {
+          "heading": "Path and Terminator Concept",
+          "paragraphs": [
+            "RNAV leg type은 waypoint 이전·이후·사이의 desired path를 설명한다. 두 글자 code는 path(heading/course/track 등)와 termination point(altitude/distance/fix 등)를 나타낸다.",
+            "Procedure design에 사용되는 leg type은 aircraft navigation database에 포함되지만 보통 procedure chart에는 직접 표시되지 않는다. Chart의 narrative depiction이 절차를 어떻게 비행하는지 설명한다.",
+            "Path and terminator concept의 핵심은 모든 leg가 termination point를 가지며 그 termination point로 들어가는 어떤 형태의 path를 가진다는 것이다."
+          ]
+        },
+        {
+          "heading": "Track to Fix (TF)",
+          "paragraphs": [
+            "TF leg는 다음 waypoint까지의 flight track을 intercept하고 acquire하는 경로이며 point-to-point leg라고도 불린다. 원문 narrative 예시는 “direct ALPHA, then on course to BRAVO WP.”이다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-pbn-rnav-theory/fig-1-2-3-track-to-fix.webp",
+            "caption": "FIG 1-2-3 · Track to Fix Leg Type · p.396"
+          }
+        },
+        {
+          "heading": "Direct to Fix (DF)",
+          "paragraphs": [
+            "DF leg는 initial area에서 다음 waypoint로 직접 향하는 aircraft track으로 정의된다. 원문 narrative 예시는 “turn right direct BRAVO WP.”이다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-pbn-rnav-theory/fig-1-2-4-direct-to-fix.webp",
+            "caption": "FIG 1-2-4 · Direct to Fix Leg Type · p.396"
+          }
+        },
+        {
+          "heading": "Course to Fix (CF)",
+          "paragraphs": [
+            "CF leg는 지정된 course를 가지고 fix에서 끝나는 path이다. 원문 narrative 예시는 “on course 150 to ALPHA WP.”이다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-pbn-rnav-theory/fig-1-2-5-course-to-fix.webp",
+            "caption": "FIG 1-2-5 · Course to Fix Leg Type · p.397"
+          }
+        },
+        {
+          "heading": "Radius to Fix (RF)",
+          "paragraphs": [
+            "RF leg는 defined turn center 주위의 constant-radius circular path이며 fix에서 종료된다."
+          ],
+          "figure": {
+            "src": "assets/jeppesen-pbn-rnav-theory/fig-1-2-6-radius-to-fix.webp",
+            "caption": "FIG 1-2-6 · Radius to Fix Leg Type · p.397"
+          }
+        },
+        {
+          "heading": "Heading Legs",
+          "paragraphs": [
+            "Heading leg의 예로 Heading to Altitude(VA), Heading to DME range(VD), Heading to Manual Termination/Vector(VM)이 있다. 원문은 “climb heading 350 to 1500”, “heading 265, at 9 DME west of PXR VORTAC, right turn heading 360”, “fly heading 090, expect radar vectors to DRYHT INT.”를 narrative 예로 든다."
+          ]
+        },
+        {
+          "heading": "원문 Coverage Audit · 생략 방지 체크",
+          "paragraphs": [
+            "아래 목록은 해당 단계가 원문에서 반영해야 하는 heading·NOTE·Figure·Table·세부 항목을 페이지별로 열거한 것이다. 패치 검증 시 이 목록을 기준으로 누락 여부를 확인한다."
+          ],
+          "table": {
+            "headers": [
+              "원문 페이지",
+              "반영 항목"
+            ],
+            "rows": [
+              [
+                "p.395",
+                "FIG 1-2-2"
+              ],
+              [
+                "p.395",
+                "RNAV Leg Types"
+              ],
+              [
+                "p.395",
+                "Track to Fix"
+              ],
+              [
+                "p.395",
+                "Direct to Fix"
+              ],
+              [
+                "p.396",
+                "FIG 1-2-3"
+              ],
+              [
+                "p.396",
+                "FIG 1-2-4"
+              ],
+              [
+                "p.396",
+                "Course to Fix"
+              ],
+              [
+                "p.397",
+                "FIG 1-2-5"
+              ],
+              [
+                "p.397",
+                "Radius to Fix"
+              ],
+              [
+                "p.397",
+                "FIG 1-2-6"
+              ],
+              [
+                "p.397",
+                "Heading VA/VD/VM"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "원문 전체 보존 · Jeppesen p.395",
+          "paragraphs": [
+            "이 블록은 이번 Section 2 패치에서 임의 요약으로 빠지는 내용을 막기 위해 해당 페이지의 원문 텍스트 레이어를 그대로 보존한 검수용 원문이다.",
+            "FIGURE 1-2-2",
+            "Fly-by and Fly-over Waypoints",
+            "(b) RNAV Leg Types. A leg type describes the desired path proceeding, following, or",
+            "between waypoints on an RNAV procedure. Leg types are identified by a two-letter",
+            "code that describes the path (e.g., heading, course, track, etc.) and the termination",
+            "point (e.g., the path terminates at an altitude, distance, fix, etc.). Leg types used for",
+            "procedure design are included in the aircraft navigation database, but not normally",
+            "provided on the procedure chart. The narrative depiction of the RNAV chart",
+            "describes how a procedure is flown. The “path and terminator concept” defines",
+            "that every leg of a procedure has a termination point and some kind of path into",
+            "that termination point. Some of the available leg types are described below.",
+            "(1) Track to Fix. A Track to Fix (TF) leg is intercepted and acquired as the flight",
+            "track to the following waypoint. Track to a Fix legs are sometimes called",
+            "point-to-point legs for this reason. Narrative: “direct ALPHA, then on course",
+            "to BRAVO WP.” See FIG 1-2-3.",
+            "(2) Direct to Fix. A Direct to Fix (DF) leg is a path described by an aircraft’s track",
+            "from an initial area direct to the next waypoint. Narrative: “turn right direct",
+            "BRAVO WP.” See FIG 1-2-4.",
+            "RADIO DATA - GENERAL",
+            "395",
+            "SECTION 2. PERFORMANCE-BASED NAVIGATION (PBN) AND AREA NAVIGATION (RNAV)"
+          ],
+          "source_preservation": true
+        },
+        {
+          "heading": "원문 전체 보존 · Jeppesen p.396",
+          "paragraphs": [
+            "이 블록은 이번 Section 2 패치에서 임의 요약으로 빠지는 내용을 막기 위해 해당 페이지의 원문 텍스트 레이어를 그대로 보존한 검수용 원문이다.",
+            "FIGURE 1-2-3",
+            "Track to Fix Leg Type",
+            "FIGURE 1-2-4",
+            "Direct to Fix Leg Type",
+            "(3) Course to Fix. A Course to Fix (CF) leg is a path that terminates at a fix with",
+            "a specified course at that fix. Narrative: “on course 150 to ALPHA WP.” See",
+            "FIG 1-2-5.",
+            "RADIO DATA - GENERAL",
+            "396",
+            "SECTION 2. PERFORMANCE-BASED NAVIGATION (PBN) AND AREA NAVIGATION (RNAV)"
+          ],
+          "source_preservation": true
+        },
+        {
+          "heading": "원문 전체 보존 · Jeppesen p.397",
+          "paragraphs": [
+            "이 블록은 이번 Section 2 패치에서 임의 요약으로 빠지는 내용을 막기 위해 해당 페이지의 원문 텍스트 레이어를 그대로 보존한 검수용 원문이다.",
+            "FIGURE 1-2-5",
+            "Course to Fix Leg Type",
+            "(4) Radius to Fix. A Radius to Fix (RF) leg is defined as a constant radius circu-",
+            "lar path around a defined turn center that terminates at a fix. See FIG 1-2-6.",
+            "FIGURE 1-2-6",
+            "Radius to Fix Leg Type",
+            "(5) Heading. A Heading leg may be defined as, but not limited to, a Heading to",
+            "Altitude (VA), Heading to DME range (VD), and Heading to Manual Termina-",
+            "tion, i.e., Vector (VM). Narrative: “climb heading 350 to 1500”, “heading 265,",
+            "at 9 DME west of PXR VORTAC, right turn heading 360”, “fly heading 090,",
+            "expect radar vectors to DRYHT INT.”",
+            "RADIO DATA - GENERAL",
+            "397",
+            "SECTION 2. PERFORMANCE-BASED NAVIGATION (PBN) AND AREA NAVIGATION (RNAV)"
+          ],
+          "source_preservation": true
+        }
+      ],
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "module": "Section 2. PBN & RNAV",
+      "source_printed_pages": [
+        395,
+        396,
+        397
+      ],
+      "source_pdf_pages": [
+        395,
+        396,
+        397
+      ],
+      "question_ids": [
+        "JEPP-PBN-RNAV-017",
+        "JEPP-PBN-RNAV-018",
+        "JEPP-PBN-RNAV-019",
+        "JEPP-PBN-RNAV-020",
+        "JEPP-PBN-RNAV-021",
+        "JEPP-PBN-RNAV-022",
+        "JEPP-PBN-RNAV-023",
+        "JEPP-PBN-RNAV-024"
+      ],
+      "quiz_questions": 8,
+      "pass_percent": 80,
+      "unit_title": "Section 2. PBN & RNAV"
+    },
+    {
+      "id": 4,
+      "title": "Navigation Issues · FMS",
+      "sections": [
+        {
+          "heading": "Navigation Issues",
+          "paragraphs": [
+            "조종사는 navigation system inputs, alerts, annunciations를 이해해야 하며 particular sensor/system의 availability와 suitability를 고려해야 한다.",
+            "GPS/WAAS: TSO-C129(), C196(), C145(), C146() systems 사용자는 departure와 arrival airports를 입력하여 proper RAIM availability와 CDI sensitivity를 확보해야 한다.",
+            "DME/DME: position updating은 navigation system logic뿐 아니라 DME facility proximity, availability, geometry, signal masking에 의존한다.",
+            "VOR/DME: VOR의 고유 특성 때문에 GPS 또는 DME/DME position updating보다 less accurate한 값이 나올 수 있다.",
+            "Inertial Navigation: IRU/INS는 DME/DME 또는 GPS와 결합되어 overall navigation performance를 개선하는 경우가 많다. Specific inertial position updating requirements가 적용될 수 있다는 NOTE가 있다."
+          ]
+        },
+        {
+          "heading": "Flight Management System (FMS)",
+          "paragraphs": [
+            "FMS는 sensors, receivers, computers와 navigation database가 통합된 suite이며 displays 및 automatic flight control systems에 performance와 RNAV guidance를 제공한다.",
+            "GPS, DME, VOR, LOC, IRU 등 여러 source를 입력으로 받을 수 있고 한 번에 하나 또는 조합으로 navigation solution에 적용할 수 있다. 일부 FMS는 faulty navigation information의 detection/isolation 기능을 제공한다.",
+            "Appropriate signal이 있을 때 FMS는 보통 GPS 및/또는 DME/DME를 position update에 주로 사용하며 architecture와 source geometry에 따라 다른 input도 통합될 수 있다.",
+            "DME/DME와 하나 이상의 IRU를 결합한 입력은 DME/DME/IRU 또는 D/D/I로 약칭하는 경우가 많다."
+          ]
+        },
+        {
+          "heading": "원문 Coverage Audit · 생략 방지 체크",
+          "paragraphs": [
+            "아래 목록은 해당 단계가 원문에서 반영해야 하는 heading·NOTE·Figure·Table·세부 항목을 페이지별로 열거한 것이다. 패치 검증 시 이 목록을 기준으로 누락 여부를 확인한다."
+          ],
+          "table": {
+            "headers": [
+              "원문 페이지",
+              "반영 항목"
+            ],
+            "rows": [
+              [
+                "p.398",
+                "Navigation Issues"
+              ],
+              [
+                "p.398",
+                "GPS/WAAS"
+              ],
+              [
+                "p.398",
+                "DME/DME"
+              ],
+              [
+                "p.398",
+                "VOR/DME"
+              ],
+              [
+                "p.398",
+                "Inertial Navigation NOTE"
+              ],
+              [
+                "p.398",
+                "Flight Management System"
+              ],
+              [
+                "p.398",
+                "DME/DME/IRU NOTE"
+              ],
+              [
+                "p.398",
+                "RNAV Navigation Specifications"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "원문 전체 보존 · Jeppesen p.398",
+          "paragraphs": [
+            "이 블록은 이번 Section 2 패치에서 임의 요약으로 빠지는 내용을 막기 위해 해당 페이지의 원문 텍스트 레이어를 그대로 보존한 검수용 원문이다.",
+            "(c) Navigation Issues. Pilots should be aware of their navigation system inputs,",
+            "alerts, and annunciations in order to make better-informed decisions. In addition,",
+            "the availability and suitability of particular sensors/systems should be considered.",
+            "(1) GPS/WAAS. Operators using TSO-C129(), TSO-C196(), TSO-C145() or",
+            "TSO-C146() systems should ensure departure and arrival airports are entered",
+            "to ensure proper RAIM availability and CDI sensitivity.",
+            "(2) DME/DME. Operators should be aware that DME/DME position updating is",
+            "dependent on navigation system logic and DME facility proximity, availability,",
+            "geometry, and signal masking.",
+            "(3) VOR/DME. Unique VOR characteristics may result in less accurate values",
+            "from VOR/DME position updating than from GPS or DME/DME position",
+            "updating.",
+            "(4) Inertial Navigation. Inertial reference units and inertial navigation systems",
+            "are often coupled with other types of navigation inputs, e.g., DME/DME or",
+            "GPS, to improve overall navigation system performance.",
+            "NOTE: Specific inertial position updating requirements may apply.",
+            "(d) Flight Management System (FMS). An FMS is an integrated suite of sensors,",
+            "receivers, and computers, coupled with a navigation database. These systems",
+            "generally provide performance and RNAV guidance to displays and automatic",
+            "flight control systems.",
+            "Inputs can be accepted from multiple sources such as GPS, DME, VOR, LOC and",
+            "IRU. These inputs may be applied to a navigation solution one at a time or in com-",
+            "bination. Some FMSs provide for the detection and isolation of faulty navigation",
+            "information.",
+            "When appropriate navigation signals are available, FMSs will normally rely on GPS",
+            "and/or DME/DME (that is, the use of distance information from two or more DME",
+            "stations) for position updates. Other inputs may also be incorporated based on",
+            "FMS system architecture and navigation source geometry.",
+            "NOTE: DME/DME inputs coupled with one or more IRU(s) are often abbreviated",
+            "as DME/DME/IRU or D/D/I.",
+            "(e) RNAV Navigation Specifications (Nav Specs)",
+            "Nav Specs are a set of aircraft and aircrew requirements needed to support a navi-",
+            "gation application within a defined airspace concept. For both RNP and RNAV",
+            "designations, the numerical designation refers to the lateral navigation accuracy in",
+            "nautical miles which is expected to be achieved at least 95 percent of the flight",
+            "time by the population of aircraft operating within the airspace, route, or procedure.",
+            "(See FIG 1-2-1.)",
+            "RADIO DATA - GENERAL",
+            "398",
+            "SECTION 2. PERFORMANCE-BASED NAVIGATION (PBN) AND AREA NAVIGATION (RNAV)"
+          ],
+          "source_preservation": true
+        }
+      ],
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "module": "Section 2. PBN & RNAV",
+      "source_printed_pages": [
+        398
+      ],
+      "source_pdf_pages": [
+        398
+      ],
+      "question_ids": [
+        "JEPP-PBN-RNAV-025",
+        "JEPP-PBN-RNAV-026",
+        "JEPP-PBN-RNAV-027",
+        "JEPP-PBN-RNAV-028",
+        "JEPP-PBN-RNAV-029",
+        "JEPP-PBN-RNAV-030",
+        "JEPP-PBN-RNAV-031",
+        "JEPP-PBN-RNAV-032"
+      ],
+      "quiz_questions": 8,
+      "pass_percent": 80,
+      "unit_title": "Section 2. PBN & RNAV"
+    },
+    {
+      "id": 5,
+      "title": "RNAV NavSpecs · RNP General",
+      "sections": [
+        {
+          "heading": "RNAV Navigation Specifications",
+          "paragraphs": [
+            "NavSpec은 defined airspace concept에서 navigation application을 지원하기 위한 aircraft/aircrew requirements의 집합이다. RNP와 RNAV 숫자는 NM 단위 lateral accuracy를 나타내며 비행시간의 최소 95% 동안 달성되어야 한다.",
+            "RNAV 1은 보통 DP와 STAR에 사용되며 total system error가 비행시간의 95% 동안 1 NM를 넘지 않아야 한다.",
+            "RNAV 2는 별도 지정이 없으면 보통 en route operations에 사용된다. T-route와 Q-route가 예이며 total system error가 비행시간의 95% 동안 2 NM를 넘지 않아야 한다.",
+            "RNAV 10은 보통 oceanic operations에 사용된다. 원문은 RNP 10과 RNAV 10 terminology 관계의 자세한 내용은 paragraph 4-7-1을 보라고 안내한다."
+          ]
+        },
+        {
+          "heading": "Required Navigation Performance (RNP) — General",
+          "paragraphs": [
+            "RNAV NavSpec과 RNP NavSpec 모두 performance requirements를 갖지만 RNP는 onboard performance monitoring and alerting(OBPMA)을 추가로 요구한다.",
+            "RNP는 defined airspace에서 운항하기 위해 필요한 navigation performance의 statement이기도 하다. Aircraft navigation system이 실제 성능을 monitor하고 operational requirement 충족 여부를 pilot에게 알리는 능력이 핵심이다.",
+            "OBPMA는 ATC intervention 및/또는 procedural separation에 대한 의존을 줄이는 데 기여한다. Aircraft RNP capability는 overall containment를 위한 separation criteria 결정의 주요 요소이다.",
+            "RNP capability는 aircraft equipment와 navigation infrastructure에 따라 달라질 수 있다. Aircraft가 RNP 1 eligible이어도 NAVAID coverage 제한 또는 avionics failure로 실제 RNP 1 operation을 못 할 수 있다.",
+            "AFM 또는 avionics documents에는 aircraft의 RNP eligibilities가 명확히 기재되어야 하며, 누락·불완전하면 manufacturer에 확인하도록 원문이 권고한다.",
+            "NavSpec은 lateral accuracy 숫자가 더 작다고 무조건 “better”인 것이 아니라 서로 다른 specification이다. RNP 1 eligibility가 RNP 2 또는 RNAV 1 eligibility를 자동 의미하지 않는다.",
+            "FAA safeguard로 aircraft navigation database는 aircraft가 eligibility를 유지하는 procedures만 보유하도록 요구된다. 특정 procedure가 database에 없다면 aircraft가 그 PBN element에 ineligible이거나 계산/비행할 수 없는 가능성이 있다.",
+            "RF turns 또는 scalability 같은 optional capability는 AFM/avionics documents에 기술되어야 하며, database에서 procedure를 load한 후 avionics capability를 사용해 waypoint/track data를 확인해야 한다."
+          ]
+        },
+        {
+          "heading": "원문 Coverage Audit · 생략 방지 체크",
+          "paragraphs": [
+            "아래 목록은 해당 단계가 원문에서 반영해야 하는 heading·NOTE·Figure·Table·세부 항목을 페이지별로 열거한 것이다. 패치 검증 시 이 목록을 기준으로 누락 여부를 확인한다."
+          ],
+          "table": {
+            "headers": [
+              "원문 페이지",
+              "반영 항목"
+            ],
+            "rows": [
+              [
+                "p.398",
+                "Navigation Issues"
+              ],
+              [
+                "p.398",
+                "GPS/WAAS"
+              ],
+              [
+                "p.398",
+                "DME/DME"
+              ],
+              [
+                "p.398",
+                "VOR/DME"
+              ],
+              [
+                "p.398",
+                "Inertial Navigation NOTE"
+              ],
+              [
+                "p.398",
+                "Flight Management System"
+              ],
+              [
+                "p.398",
+                "DME/DME/IRU NOTE"
+              ],
+              [
+                "p.398",
+                "RNAV Navigation Specifications"
+              ],
+              [
+                "p.399",
+                "RNAV 1"
+              ],
+              [
+                "p.399",
+                "RNAV 2"
+              ],
+              [
+                "p.399",
+                "RNAV 10"
+              ],
+              [
+                "p.399",
+                "REQUIRED NAVIGATION PERFORMANCE (RNP)"
+              ],
+              [
+                "p.399",
+                "General"
+              ],
+              [
+                "p.399",
+                "PBN Operations"
+              ],
+              [
+                "p.399",
+                "Lateral Accuracy Values"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "원문 전체 보존 · Jeppesen p.399",
+          "paragraphs": [
+            "이 블록은 이번 Section 2 패치에서 임의 요약으로 빠지는 내용을 막기 위해 해당 페이지의 원문 텍스트 레이어를 그대로 보존한 검수용 원문이다.",
+            "(1) RNAV 1. Typically RNAV 1 is used for DPs and STARs and appears on the",
+            "charts. Aircraft must maintain a total system error of not more than 1 NM for",
+            "95 percent of the total flight time.",
+            "(2) RNAV 2. Typically RNAV 2 is used for en route operations unless otherwise",
+            "specified. T-routes and Q-routes are examples of this Nav Spec. Aircraft must",
+            "maintain a total system error of not more than 2 NM for 95 percent of the total",
+            "flight time.",
+            "(3) RNAV 10. Typically RNAV 10 is used in oceanic operations. See paragraph",
+            "4-7-1 for specifics and explanation of the relationship between RNP 10 and",
+            "RNAV 10 terminology.",
+            "REQUIRED NAVIGATION PERFORMANCE (RNP)",
+            "a. General. While both RNAV navigation specifications (NavSpecs) and RNP NavSpecs con-",
+            "tain specific performance requirements, RNP is RNAV with the added requirement for",
+            "onboard performance monitoring and alerting (OBPMA). RNP is also a statement of naviga-",
+            "tion performance necessary for operation within a defined airspace. A critical component of",
+            "RNP is the ability of the aircraft navigation system to monitor its achieved navigation per-",
+            "formance, and to identify for the pilot whether the operational requirement is, or is not, being",
+            "met during an operation. OBPMA capability therefore allows a lessened reliance on air traffic",
+            "control intervention and/or procedural separation to achieve the overall safety of the opera-",
+            "tion. RNP capability of the aircraft is a major component in determining the separation crite-",
+            "ria to ensure that the overall containment of the operation is met. The RNP capability of an",
+            "aircraft will vary depending upon the aircraft equipment and the navigation infrastructure. For",
+            "example, an aircraft may be eligible for RNP 1, but may not be capable of RNP 1 operations",
+            "due to limited NAVAID coverage or avionics failure. The Aircraft Flight Manual (AFM) or",
+            "avionics documents for your aircraft should specifically state the aircraft’s RNP eligibilities.",
+            "Contact the manufacturer of the avionics or the aircraft if this information is missing or incom-",
+            "plete. NavSpecs should be considered different from one another, not “better” or “worse”",
+            "based on the described lateral navigation accuracy. It is this concept that requires each Nav-",
+            "Spec eligbility to be listed separately in the avionics documents or AFM. For example, RNP 1",
+            "is different from RNAV 1, and an RNP 1 eligibility does NOT mean automatic RNP 2 or",
+            "RNAV 1 eligibility. As a safeguard, the FAA requires that aircraft navigation databases hold",
+            "only those procedures that the aircraft maintains eligibility for. If you look for a specific instru-",
+            "ment procedure in your aircraft’s navigation database and cannot find it, it’s likely that proce-",
+            "dure contains PBN elements your aircraft is ineligible for or cannot compute and fly. Further,",
+            "optional capabilities such as Radius-to-fix (RF) turns or scalability should be described in the",
+            "AFM or avionics documents. Use the capabilities of your avionics suite to verify the appropri-",
+            "ate waypoint and track data after loading the procedure from your database.",
+            "b. PBN Operations.",
+            "1. Lateral Accuracy Values. Lateral Accuracy values are applicable to a selected air-",
+            "space, route, or procedure. The lateral accuracy value is a value typically expressed as",
+            "a distance in nautical miles from the intended centerline of a procedure, route, or path.",
+            "1-2-2",
+            "RADIO DATA - GENERAL",
+            "399",
+            "SECTION 2. PERFORMANCE-BASED NAVIGATION (PBN) AND AREA NAVIGATION (RNAV)"
+          ],
+          "source_preservation": true
+        }
+      ],
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "module": "Section 2. PBN & RNAV",
+      "source_printed_pages": [
+        398,
+        399
+      ],
+      "source_pdf_pages": [
+        398,
+        399
+      ],
+      "question_ids": [
+        "JEPP-PBN-RNAV-033",
+        "JEPP-PBN-RNAV-034",
+        "JEPP-PBN-RNAV-035",
+        "JEPP-PBN-RNAV-036",
+        "JEPP-PBN-RNAV-037",
+        "JEPP-PBN-RNAV-038",
+        "JEPP-PBN-RNAV-039",
+        "JEPP-PBN-RNAV-040"
+      ],
+      "quiz_questions": 8,
+      "pass_percent": 80,
+      "unit_title": "Section 2. PBN & RNAV"
+    },
+    {
+      "id": 6,
+      "title": "RNP APCH · RNP AR APCH",
+      "sections": [
+        {
+          "heading": "Lateral Accuracy Values",
+          "paragraphs": [
+            "Lateral accuracy value는 selected airspace, route, procedure에 적용되며 intended centerline에서의 NM 거리로 표현된다. RNP application은 예를 들어 RNP lateral accuracy의 2배 같은 multiple에서의 potential error도 고려한다."
+          ]
+        },
+        {
+          "heading": "RNP Approach (RNP APCH)",
+          "paragraphs": [
+            "미국에서 RNP APCH는 chart title이 RNAV (GPS)이며 LNAV, LNAV/VNAV, LPV, LP 등 여러 minima line을 제공한다.",
+            "GPS는 SBAS 유무와 관계없이 LNAV minima의 lateral information을 제공할 수 있다. LNAV/VNAV는 LNAV lateral에 barometric VNAV 또는 SBAS vertical guidance를 결합한다.",
+            "LPV 또는 LP minima를 사용하려면 SBAS를 사용해야 한다.",
+            "RF turn capability는 RNP APCH eligibility에서 optional이다. RNP APCH eligible이어도 avionics feature에 RF turn이 명시되지 않으면 RF turn을 비행할 수 없다.",
+            "GLS procedure도 RNP APCH NavSpec을 사용해 구성되며 precision approach capability를 제공한다.",
+            "RNP APCH lateral accuracy는 terminal 및 missed approach segment에서 1이며 final approach에서는 본질적으로 RNP 0.3까지 scale한다(SBAS 사용 시 40 m)."
+          ]
+        },
+        {
+          "heading": "RNP Authorization Required Approach (RNP AR APCH)",
+          "paragraphs": [
+            "미국에서 RNP AR APCH의 chart title은 RNAV (RNP)이다.",
+            "엄격한 equipage/pilot training standards와 special FAA authorization이 필요하다. Scalability와 RF turn capability는 mandatory이다.",
+            "Vertical navigation performance는 barometric VNAV 또는 SBAS를 기반으로 한다.",
+            "RNP AR은 특정 location에서 specific benefit을 제공하기 위한 것으로 모든 operator/aircraft를 위한 것이 아니다. Required target level of safety를 위해 specific aircraft performance, design, operational processes, training, procedure design criteria가 필요하다.",
+            "Terminal/missed approach에서 lateral accuracy가 1 아래로 내려갈 수 있고 final approach에서는 RNP 0.3 이하까지 scale할 수 있다. 원문은 AC 90-101과 paragraph 5-4-18을 참고하도록 안내한다."
+          ]
+        },
+        {
+          "heading": "원문 Coverage Audit · 생략 방지 체크",
+          "paragraphs": [
+            "아래 목록은 해당 단계가 원문에서 반영해야 하는 heading·NOTE·Figure·Table·세부 항목을 페이지별로 열거한 것이다. 패치 검증 시 이 목록을 기준으로 누락 여부를 확인한다."
+          ],
+          "table": {
+            "headers": [
+              "원문 페이지",
+              "반영 항목"
+            ],
+            "rows": [
+              [
+                "p.400",
+                "RNP NavSpecs"
+              ],
+              [
+                "p.400",
+                "RNP APCH"
+              ],
+              [
+                "p.400",
+                "RNP AR APCH"
+              ],
+              [
+                "p.400",
+                "RNP AR DP"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "원문 전체 보존 · Jeppesen p.400",
+          "paragraphs": [
+            "이 블록은 이번 Section 2 패치에서 임의 요약으로 빠지는 내용을 막기 위해 해당 페이지의 원문 텍스트 레이어를 그대로 보존한 검수용 원문이다.",
+            "RNP applications also account for potential errors at some multiple of lateral accuracy",
+            "value (for example, twice the RNP lateral accuracy values).",
+            "(a) RNP NavSpecs. U.S. standard NavSpecs supporting typical RNP airspace uses",
+            "are as specified below. Other NavSpecs may include different lateral accuracy",
+            "values as identified by ICAO or other states. (See FIG 1-2-1.)",
+            "(1) RNP Approach (RNP APCH). In the U.S., RNP APCH procedures are titled",
+            "RNAV (GPS) and offer several lines of minima to accommodate varying",
+            "levels of aircraft equipage: either lateral navigation (LNAV), LNAV/vertical",
+            "navigation (LNAV/VNAV), Localizer Performance with Vertical Guidance",
+            "(LPV), and Localizer Performance (LP). GPS with or without Space-Based",
+            "Augmentation System (SBAS) (for example, WAAS) can provide the lateral",
+            "information to support LNAV minima. LNAV/VNAV incorporates LNAV lateral",
+            "with vertical path guidance for systems and operators capable of either baro-",
+            "metric or SBAS vertical. Pilots are required to use SBAS to fly to the LPV or",
+            "LP minima. RF turn capability is optional in RNP APCH eligibility. This means",
+            "that your aircraft may be eligible for RNP APCH operations, but you may not",
+            "fly an RF turn unless RF turns are also specifically listed as a feature of your",
+            "avionics suite. GBAS Landing System (GLS) procedures are also constructed",
+            "using RNP APCH NavSpecs and provide precision approach capability. RNP",
+            "APCH has a lateral accuracy value of 1 in the terminal and missed approach",
+            "segments and essentially scales to RNP 0.3 (or 40 meters with SBAS) in the",
+            "final approach. (See paragraph 5-4-18, RNP AR (Authorization Required)",
+            "Instrument Procedures.)",
+            "(2) RNP Authorization Required Approach (RNP AR APCH). In the U.S., RNP",
+            "AR APCH procedures are titled RNAV (RNP). These approaches have strin-",
+            "gent equipage and pilot training standards and require special FAA authoriza-",
+            "tion to fly. Scalability and RF turn capabilities are mandatory in RNP AR",
+            "APCH eligibility. RNP AR APCH vertical navigation performance is based",
+            "upon barometric VNAV or SBAS. RNP AR is intended to provide specific ben-",
+            "efits at specific locations. It is not intended for every operator or aircraft. RNP",
+            "AR capability requires specific aircraft performance, design, operational pro-",
+            "cesses, training, and specific procedure design criteria to achieve the",
+            "required target level of safety. RNP AR APCH has lateral accuracy values",
+            "that can range below 1 in the terminal and missed approach segments and",
+            "essentially scale to RNP 0.3 or lower in the final approach. Before conducting",
+            "these procedures, operators should refer to the latest AC 90-101, Approval",
+            "Guidance for RNP Procedures with AR. (See paragraph 5-4-18.)",
+            "(3) RNP Authorization Required Departure (RNP AR DP). Similar to RNP AR",
+            "approaches, RNP AR departure procedures have stringent equipage and pilot",
+            "training standards and require special FAA authorization to fly. Scalability and",
+            "RF turn capabilities is mandatory in RNP AR DP eligibility. RNP AR DP is",
+            "intended to provide specific benefits at specific locations. It is not intended for",
+            "RADIO DATA - GENERAL",
+            "400",
+            "SECTION 2. PERFORMANCE-BASED NAVIGATION (PBN) AND AREA NAVIGATION (RNAV)"
+          ],
+          "source_preservation": true
+        }
+      ],
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "module": "Section 2. PBN & RNAV",
+      "source_printed_pages": [
+        400
+      ],
+      "source_pdf_pages": [
+        400
+      ],
+      "question_ids": [
+        "JEPP-PBN-RNAV-041",
+        "JEPP-PBN-RNAV-042",
+        "JEPP-PBN-RNAV-043",
+        "JEPP-PBN-RNAV-044",
+        "JEPP-PBN-RNAV-045",
+        "JEPP-PBN-RNAV-046",
+        "JEPP-PBN-RNAV-047",
+        "JEPP-PBN-RNAV-048"
+      ],
+      "quiz_questions": 8,
+      "pass_percent": 80,
+      "unit_title": "Section 2. PBN & RNAV"
+    },
+    {
+      "id": 7,
+      "title": "RNP AR DP · Advanced RNP",
+      "sections": [
+        {
+          "heading": "RNP Authorization Required Departure (RNP AR DP)",
+          "paragraphs": [
+            "RNP AR DP는 RNP AR approach와 유사하게 stringent equipage/pilot training standards 및 special FAA authorization이 필요하다.",
+            "Scalability와 RF turn capability는 RNP AR DP eligibility에서 mandatory이다.",
+            "특정 location의 specific benefit을 위한 것으로 모든 operator/aircraft를 대상으로 하지 않는다. Required target level of safety를 위해 specific performance, design, operational processes, training, procedure design criteria가 필요하다.",
+            "Initial departure flight path에서 lateral accuracy는 RNP 0.3보다 낮게 scale하지 않는다. 원문은 AC 90-101 및 paragraph 5-4-18을 참고하도록 한다."
+          ]
+        },
+        {
+          "heading": "Advanced RNP (A-RNP)",
+          "paragraphs": [
+            "A-RNP는 aircraft avionics suite에 minimum mandatory functions가 enable된 NavSpec이다. 미국의 minimum functions에는 RF turns 계산/수행, scalable RNP, parallel offset flight path generation이 포함된다.",
+            "일부 oceanic/remote continental airspace에서는 dual systems 같은 higher continuity가 요구될 수 있다. Fixed radius transitions와 Time of Arrival Control 같은 일부 en route advanced option은 미국에서는 optional이다.",
+            "보통 A-RNP eligible aircraft는 RNP APCH, RNP/RNAV 1, RNP/RNAV 2, RNP 4, RNP/RNAV 10 운항에도 eligible하다.",
+            "Terminal environment에서 1.0 또는 0.3의 scalable RNP lateral value를 허용한다. Reduced lateral accuracy 사용은 보통 autopilot 및/또는 flight director 사용을 요구한다.",
+            "A-RNP eligible aircraft가 RNP AR APCH 또는 RNP AR DP에 자동 eligible한 것은 아니다. RNP AR은 별도의 eligibility determination과 special FAA authorization이 필요하다."
+          ]
+        },
+        {
+          "heading": "원문 Coverage Audit · 생략 방지 체크",
+          "paragraphs": [
+            "아래 목록은 해당 단계가 원문에서 반영해야 하는 heading·NOTE·Figure·Table·세부 항목을 페이지별로 열거한 것이다. 패치 검증 시 이 목록을 기준으로 누락 여부를 확인한다."
+          ],
+          "table": {
+            "headers": [
+              "원문 페이지",
+              "반영 항목"
+            ],
+            "rows": [
+              [
+                "p.400",
+                "RNP NavSpecs"
+              ],
+              [
+                "p.400",
+                "RNP APCH"
+              ],
+              [
+                "p.400",
+                "RNP AR APCH"
+              ],
+              [
+                "p.400",
+                "RNP AR DP"
+              ],
+              [
+                "p.401",
+                "RNP AR DP continued"
+              ],
+              [
+                "p.401",
+                "Advanced RNP"
+              ],
+              [
+                "p.401",
+                "A-RNP NOTE"
+              ],
+              [
+                "p.401",
+                "RNP 1"
+              ],
+              [
+                "p.401",
+                "RNP 2"
+              ],
+              [
+                "p.401",
+                "RNP 4"
+              ],
+              [
+                "p.401",
+                "RNP 10"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "원문 전체 보존 · Jeppesen p.401",
+          "paragraphs": [
+            "이 블록은 이번 Section 2 패치에서 임의 요약으로 빠지는 내용을 막기 위해 해당 페이지의 원문 텍스트 레이어를 그대로 보존한 검수용 원문이다.",
+            "every operator or aircraft. RNP AR DP capability requires specific aircraft per-",
+            "formance, design, operational processes, training, and specific procedure",
+            "design criteria to achieve the required target level of safety. RNP AR DP has",
+            "lateral accuracy values that can scale to no lower than RNP 0.3 in the initial",
+            "departure flight path. Before conducting these procedures, operators should",
+            "refer to the latest AC 90-101, Approval Guidance for RNP Procedures with",
+            "AR. (See paragraph 5-4-18.)",
+            "(4) Advanced RNP (A-RNP). Advanced RNP is a NavSpec with a minimum set",
+            "of mandatory functions enabled in the aircraft’s avionics suite. In the U.S.,",
+            "these minimum functions include capability to calculate and perform RF turns,",
+            "scalable RNP, and parallel offset flight path generation. Higher continuity",
+            "(such as dual systems) may be required for certain oceanic and remote conti-",
+            "nental airspace. Other “advanced” options for use in the en route environment",
+            "(such as fixed radius transitions and Time of Arrival Control) are optional in",
+            "the U.S. Typically, an aircraft eligible for A-RNP will also be eligible for opera-",
+            "tions comprising: RNP APCH, RNP/RNAV 1, RNP/RNAV 2, RNP 4, and RNP/",
+            "RNAV 10. A-RNP allows for scalable RNP lateral navigation values (either 1.0",
+            "or 0.3) in the terminal environment. Use of these reduced lateral accuracies",
+            "will normally require use of the aircraft’s autopilot and/or flight director. See",
+            "the latest AC 90-105 for more information on A-RNP, including NavSpec bun-",
+            "dling options, eligibility determinations, and operations approvals.",
+            "NOTE: A-RNP eligible aircraft are NOT automatically eligible for RNP AR",
+            "APCH or RNP AR DP operations, as RNP AR eligibility requires a separate",
+            "determination process and special FAA authorization.",
+            "(5) RNP 1. RNP 1 requires a lateral accuracy value of 1 for arrival and departure",
+            "in the terminal area, and the initial and intermediate approach phase when",
+            "used on conventional procedures with PBN segments (for example, an ILS",
+            "with a PBN feeder, IAF, or missed approach). RF turn capability is optional in",
+            "RNP 1 eligibility. This means that your aircraft may be eligible for RNP 1 oper-",
+            "ations, but you may not fly an RF turn unless RF turns are also specifically",
+            "listed as a feature of your avionics suite.",
+            "(6) RNP 2. RNP 2 will apply to both domestic and oceanic/remote operations with",
+            "a lateral accuracy value of 2.",
+            "(7) RNP 4. RNP 4 will apply to oceanic and remote operations only with a lateral",
+            "accuracy value of 4. RNP 4 eligibility will automatically confer RNP 10 eligibil-",
+            "ity.",
+            "(8) RNP 10. The RNP 10 NavSpec applies to certain oceanic and remote opera-",
+            "tions with a lateral accuracy of 10. In such airspace, the RNAV 10 NavSpec",
+            "will be applied, so any aircraft eligible for RNP 10 will be deemed eligible for",
+            "RNAV 10 operations. Further, any aircraft eligible for RNP 4 operations is",
+            "automatically qualified for RNP 10/RNAV 10 operations. (See also the latest",
+            "RADIO DATA - GENERAL",
+            "401",
+            "SECTION 2. PERFORMANCE-BASED NAVIGATION (PBN) AND AREA NAVIGATION (RNAV)"
+          ],
+          "source_preservation": true
+        }
+      ],
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "module": "Section 2. PBN & RNAV",
+      "source_printed_pages": [
+        400,
+        401
+      ],
+      "source_pdf_pages": [
+        400,
+        401
+      ],
+      "question_ids": [
+        "JEPP-PBN-RNAV-049",
+        "JEPP-PBN-RNAV-050",
+        "JEPP-PBN-RNAV-051",
+        "JEPP-PBN-RNAV-052",
+        "JEPP-PBN-RNAV-053",
+        "JEPP-PBN-RNAV-054",
+        "JEPP-PBN-RNAV-055",
+        "JEPP-PBN-RNAV-056"
+      ],
+      "quiz_questions": 8,
+      "pass_percent": 80,
+      "unit_title": "Section 2. PBN & RNAV"
+    },
+    {
+      "id": 8,
+      "title": "RNP 1/2/4/10/0.3 · PBN Depiction",
+      "sections": [
+        {
+          "heading": "RNP 1 / 2 / 4 / 10 / 0.3",
+          "paragraphs": [
+            "RNP 1은 terminal arrival/departure와 PBN segment가 포함된 conventional procedure의 initial/intermediate approach phase에 lateral accuracy 1을 요구한다. RF turn은 optional이다.",
+            "RNP 2는 domestic와 oceanic/remote operations에 lateral accuracy 2로 적용된다.",
+            "RNP 4는 oceanic/remote operations에만 lateral accuracy 4로 적용되며 RNP 4 eligibility는 자동으로 RNP 10 eligibility를 부여한다.",
+            "RNP 10 NavSpec은 일부 oceanic/remote operation에 lateral accuracy 10으로 적용된다. 그 airspace에서는 RNAV 10 NavSpec이 적용되므로 RNP 10 eligible aircraft는 RNAV 10 operation eligible로 간주된다. RNP 4 eligible aircraft도 자동으로 RNP 10/RNAV 10에 qualified된다.",
+            "RNP 0.3 NavSpec은 authorized flight phases에서 lateral accuracy 0.3을 요구하지만 oceanic, remote, final approach segment에는 authorized되지 않는다. 원문은 처음에는 rotorcraft operation에 적용되며 slow-flying fixed-wing application은 검토 중이라고 설명한다. RF turn은 optional이다.",
+            "Charted RNP value 0.30과 NavSpec title “RNP 0.3”을 혼동하지 말아야 한다. Charted RNP 0.30 이하 값은 RNP 0.15/0.10/0.30처럼 두 decimal place로 표시될 수 있지만 NavSpec title은 RNP 0.3이라고만 한다."
+          ]
+        },
+        {
+          "heading": "Application / Depiction of PBN Requirements",
+          "paragraphs": [
+            "U.S. standard lateral accuracy values는 특정 navigation sensor(GPS 등) 또는 적절한 performance의 multi-sensor RNAV systems에 기초할 수 있다.",
+            "미국에서 procedure에 적용되는 PBN requirements는 chart/procedure에 별도의 standardized PBN notes box로 prominently 표시된다.",
+            "PBN box에는 해당 NavSpec(s)와 필요 시 required sensor/infrastructure, additional/advanced functional requirements, minimum RNP value, amplifying remarks가 포함된다. 이 box의 항목은 procedure의 PBN element를 비행하기 위한 REQUIRED 사항이다.",
+            "예를 들어 RNAV missed approach가 있는 ILS는 missed approach에 필요한 capability를 PBN box에 명시한다.",
+            "별도의 Equipment Requirements box는 ground-based equipment 및/또는 airport-specific requirements를 표시한다. PBN element와 ground-based equipment requirement가 모두 있으면 PBN requirements box가 먼저 나온다."
+          ]
+        },
+        {
+          "heading": "원문 Coverage Audit · 생략 방지 체크",
+          "paragraphs": [
+            "아래 목록은 해당 단계가 원문에서 반영해야 하는 heading·NOTE·Figure·Table·세부 항목을 페이지별로 열거한 것이다. 패치 검증 시 이 목록을 기준으로 누락 여부를 확인한다."
+          ],
+          "table": {
+            "headers": [
+              "원문 페이지",
+              "반영 항목"
+            ],
+            "rows": [
+              [
+                "p.401",
+                "RNP AR DP continued"
+              ],
+              [
+                "p.401",
+                "Advanced RNP"
+              ],
+              [
+                "p.401",
+                "A-RNP NOTE"
+              ],
+              [
+                "p.401",
+                "RNP 1"
+              ],
+              [
+                "p.401",
+                "RNP 2"
+              ],
+              [
+                "p.401",
+                "RNP 4"
+              ],
+              [
+                "p.401",
+                "RNP 10"
+              ],
+              [
+                "p.402",
+                "RNP 10 continued"
+              ],
+              [
+                "p.402",
+                "RNP 0.3"
+              ],
+              [
+                "p.402",
+                "RNP 0.3 chart-value NOTE"
+              ],
+              [
+                "p.402",
+                "Application of Standard Lateral Accuracy Values"
+              ],
+              [
+                "p.402",
+                "Depiction of PBN Requirements"
+              ],
+              [
+                "p.402",
+                "Other RNP Applications Outside the U.S."
+              ],
+              [
+                "p.402",
+                "Aircraft/Airborne Equipment Eligibility"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "원문 전체 보존 · Jeppesen p.402",
+          "paragraphs": [
+            "이 블록은 이번 Section 2 패치에서 임의 요약으로 빠지는 내용을 막기 위해 해당 페이지의 원문 텍스트 레이어를 그대로 보존한 검수용 원문이다.",
+            "AC 91-70, Oceanic and Remote Continental Airspace Operations, for more",
+            "information on oceanic RNP/RNAV operations.)",
+            "(9) RNP 0.3. The RNP 0.3 NavSpec requires a lateral accuracy value of 0.3 for",
+            "all authorized phases of flight. RNP 0.3 is not authorized for oceanic, remote,",
+            "or the final approach segment. Use of RNP 0.3 by slow-flying fixed-wing air-",
+            "craft is under consideration, but the RNP 0.3 NavSpec initially will apply only",
+            "to rotorcraft operations. RF turn capability is optional in RNP 0.3 eligibility.",
+            "This means that your aircraft may be eligible for RNP 0.3 operations, but you",
+            "may not fly an RF turn unless RF turns are also specifically listed as a feature",
+            "of your avionics suite.",
+            "NOTE: On terminal procedures or en route charts, do not confuse a charted",
+            "RNP value of 0.30, or any standard final approach course segment width of",
+            "0.30, with the NavSpec title “RNP 0.3.” Charted RNP values of 0.30 or below",
+            "should contain two decimal places (for example, RNP 0.15, or 0.10, or 0.30)",
+            "whereas the NavSpec title will only state “RNP 0.3.”",
+            "(b) Application of Standard Lateral Accuracy Values. U.S. standard lateral accu-",
+            "racy values typically used for various routes and procedures supporting RNAV",
+            "operations may be based on use of a specific navigational system or sensor such",
+            "as GPS, or on multi-sensor RNAV systems having suitable performance.",
+            "(c) Depiction of PBN Requirements. In the U.S., PBN requirements like Lateral",
+            "Accuracy Values or NavSpecs applicable to a procedure will be depicted on affec-",
+            "ted charts and procedures. In the U.S., a specific procedure’s Performance-Based",
+            "Navigation (PBN) requirements will be prominently displayed in separate, standar-",
+            "dized notes boxes. For procedures with PBN elements, the “PBN box” will contain",
+            "the procedure’s NavSpec(s); and, if required: specific sensors or infrastructure",
+            "needed for the navigation solution, any additional or advanced functional require-",
+            "ments, the minimum RNP value, and any amplifying remarks. Items listed in this",
+            "PBN box are REQUIRED to fly the procedure’s PBN elements. For example, an",
+            "ILS with an RNAV missed approach would require a specific capability to fly the",
+            "missed approach portion of the procedure. That required capability will be listed in",
+            "the PBN box. The separate Equipment Requirements box will list ground-based",
+            "equipment and/or airport specific requirements. On procedures with both PBN ele-",
+            "ments and ground-based equipment requirements, the PBN requirements box will",
+            "be listed first. (See FIG 5-4-1.)",
+            "c. Other RNP Applications Outside the U.S. The FAA and ICAO member states have led ini-",
+            "tiatives in implementing the RNP concept to oceanic operations. For example, RNP-10",
+            "routes have been established in the northern Pacific (NOPAC) which has increased capacity",
+            "and efficiency by reducing the distance between tracks to 50 NM. (See paragraph 4-7-1).",
+            "d. Aircraft and Airborne Equipment Eligibility for RNP Operations. Aircraft eligible for RNP",
+            "operations will have an appropriate entry including special conditions and limitations in its",
+            "AFM, avionics manual, or a supplement. Operators of aircraft not having specific RNP eligi-",
+            "RADIO DATA - GENERAL",
+            "402",
+            "SECTION 2. PERFORMANCE-BASED NAVIGATION (PBN) AND AREA NAVIGATION (RNAV)"
+          ],
+          "source_preservation": true
+        }
+      ],
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "module": "Section 2. PBN & RNAV",
+      "source_printed_pages": [
+        401,
+        402
+      ],
+      "source_pdf_pages": [
+        401,
+        402
+      ],
+      "question_ids": [
+        "JEPP-PBN-RNAV-057",
+        "JEPP-PBN-RNAV-058",
+        "JEPP-PBN-RNAV-059",
+        "JEPP-PBN-RNAV-060",
+        "JEPP-PBN-RNAV-061",
+        "JEPP-PBN-RNAV-062",
+        "JEPP-PBN-RNAV-063",
+        "JEPP-PBN-RNAV-064"
+      ],
+      "quiz_questions": 8,
+      "pass_percent": 80,
+      "unit_title": "Section 2. PBN & RNAV"
+    },
+    {
+      "id": 9,
+      "title": "Other RNP Applications · Eligibility · TABLE 1-2-1",
+      "sections": [
+        {
+          "heading": "Other RNP Applications Outside the U.S.",
+          "paragraphs": [
+            "FAA와 ICAO member states는 oceanic operations에 RNP concept를 도입해 왔다. 원문 예시는 northern Pacific(NOPAC)의 RNP-10 routes이며 track 간격을 50 NM로 줄여 capacity와 efficiency를 높였다고 설명한다."
+          ]
+        },
+        {
+          "heading": "Aircraft and Airborne Equipment Eligibility",
+          "paragraphs": [
+            "RNP operation eligible aircraft의 AFM, avionics manual 또는 supplement에는 special conditions/limitations를 포함한 적절한 eligibility entry가 있어야 한다.",
+            "AFM/avionics document에 specific RNP eligibility statement가 없는 aircraft도 specific RNP eligibility에 대한 special conditions/limitations를 포함해 operational approval을 받을 수 있다.",
+            "일부 airborne system은 current estimated navigational performance를 Estimated Position Uncertainty(EPU)로 표시하며 Actual Navigation Performance(ANP) 또는 Estimated Position Error(EPE)라고도 부를 수 있다."
+          ]
+        },
+        {
+          "heading": "TABLE 1-2-1 · U.S. Standard RNP Levels",
+          "table": {
+            "headers": [
+              "RNP Level",
+              "Typical Application",
+              "Primary Route Width — Centerline to Boundary (NM)"
+            ],
+            "rows": [
+              [
+                "0.1 to 1.0",
+                "RNP AR Approach Segments",
+                "0.1 to 1.0"
+              ],
+              [
+                "0.3 to 1.0",
+                "RNP Approach Segments",
+                "0.3 to 1.0"
+              ],
+              [
+                "1",
+                "Terminal and En Route",
+                "1.0"
+              ],
+              [
+                "2",
+                "En Route",
+                "2.0"
+              ],
+              [
+                "4",
+                "Oceanic/remote areas where performance-based horizontal separation is applied",
+                "4.0"
+              ],
+              [
+                "10",
+                "Oceanic/remote areas where performance-based horizontal separation is applied",
+                "10.0"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "원문 Coverage Audit · 생략 방지 체크",
+          "paragraphs": [
+            "아래 목록은 해당 단계가 원문에서 반영해야 하는 heading·NOTE·Figure·Table·세부 항목을 페이지별로 열거한 것이다. 패치 검증 시 이 목록을 기준으로 누락 여부를 확인한다."
+          ],
+          "table": {
+            "headers": [
+              "원문 페이지",
+              "반영 항목"
+            ],
+            "rows": [
+              [
+                "p.402",
+                "RNP 10 continued"
+              ],
+              [
+                "p.402",
+                "RNP 0.3"
+              ],
+              [
+                "p.402",
+                "RNP 0.3 chart-value NOTE"
+              ],
+              [
+                "p.402",
+                "Application of Standard Lateral Accuracy Values"
+              ],
+              [
+                "p.402",
+                "Depiction of PBN Requirements"
+              ],
+              [
+                "p.402",
+                "Other RNP Applications Outside the U.S."
+              ],
+              [
+                "p.402",
+                "Aircraft/Airborne Equipment Eligibility"
+              ],
+              [
+                "p.403",
+                "Eligibility continued"
+              ],
+              [
+                "p.403",
+                "EPU/ANP/EPE NOTE"
+              ],
+              [
+                "p.403",
+                "TABLE 1-2-1 U.S. Standard RNP Levels"
+              ],
+              [
+                "p.403",
+                "USE OF SUITABLE RNAV SYSTEMS ON CONVENTIONAL PROCEDURES AND ROUTES"
+              ],
+              [
+                "p.403",
+                "Substitute Means"
+              ],
+              [
+                "p.403",
+                "Alternate Means"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "원문 전체 보존 · Jeppesen p.403",
+          "paragraphs": [
+            "이 블록은 이번 Section 2 패치에서 임의 요약으로 빠지는 내용을 막기 위해 해당 페이지의 원문 텍스트 레이어를 그대로 보존한 검수용 원문이다.",
+            "bility statements in the AFM or avionics documents may be issued operational approval",
+            "including special conditions and limitations for specific RNP eligibilities.",
+            "NOTE: Some airborne systems use Estimated Position Uncertainty (EPU) as a measure of",
+            "the current estimated navigational performance. EPU may also be referred to as Actual Navi-",
+            "gation Performance (ANP) or Estimated Position Error (EPE).",
+            "TABLE 1-2-1 U.S. Standard RNP Levels",
+            "RNP Level",
+            "Typical Application",
+            "Primary Route Width (NM) – Centerline to",
+            "Boundary",
+            "0.1 to 1.0",
+            "RNP AR Approach Segments",
+            "0.1 to 1.0",
+            "0.3 to 1.0",
+            "RNP Approach Segments",
+            "0.3 to 1.0",
+            "1",
+            "Terminal and En Route",
+            "1.0",
+            "2",
+            "En Route",
+            "2.0",
+            "4",
+            "Oceanic/remote areas where perform-",
+            "ance-based horizontal separation is ap-",
+            "plied.",
+            "4.0",
+            "10",
+            "Oceanic/remote areas where perform-",
+            "ance-based horizontal separation is ap-",
+            "plied.",
+            "10.0",
+            "USE OF SUITABLE AREA NAVIGATION (RNAV) SYSTEMS ON",
+            "CONVENTIONAL PROCEDURES AND ROUTES",
+            "a. Discussion. This paragraph sets forth policy, while providing operational and airworthiness",
+            "guidance regarding the suitability and use of RNAV systems when operating on, or transi-",
+            "tioning to, conventional, non-RNAV routes and procedures within the U.S. National Airspace",
+            "System (NAS):",
+            "1. Use of a suitable RNAV system as a Substitute Means of Navigation when a Very-High",
+            "Frequency (VHF) Omni-directional Range (VOR), Distance Measuring Equipment",
+            "(DME), Tactical Air Navigation (TACAN), VOR/TACAN (VORTAC), VOR/DME, Non-",
+            "directional Beacon (NDB), or compass locator facility including locator outer marker and",
+            "locator middle marker is out-of-service (that is, the navigation aid (NAVAID) information",
+            "is not available); an aircraft is not equipped with an Automatic Direction Finder (ADF) or",
+            "DME; or the installed ADF or DME on an aircraft is not operational. For example, if",
+            "equipped with a suitable RNAV system, a pilot may hold over an out-of-service NDB.",
+            "2. Use of a suitable RNAV system as an Alternate Means of Navigation when a VOR,",
+            "DME, VORTAC, VOR/DME, TACAN, NDB, or compass locator facility including locator",
+            "outer marker and locator middle marker is operational and the respective aircraft is",
+            "equipped with operational navigation equipment that is compatible with conventional",
+            "1-2-3",
+            "RADIO DATA - GENERAL",
+            "403",
+            "SECTION 2. PERFORMANCE-BASED NAVIGATION (PBN) AND AREA NAVIGATION (RNAV)"
+          ],
+          "source_preservation": true
+        }
+      ],
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "module": "Section 2. PBN & RNAV",
+      "source_printed_pages": [
+        402,
+        403
+      ],
+      "source_pdf_pages": [
+        402,
+        403
+      ],
+      "question_ids": [
+        "JEPP-PBN-RNAV-065",
+        "JEPP-PBN-RNAV-066",
+        "JEPP-PBN-RNAV-067",
+        "JEPP-PBN-RNAV-068",
+        "JEPP-PBN-RNAV-069",
+        "JEPP-PBN-RNAV-070",
+        "JEPP-PBN-RNAV-071",
+        "JEPP-PBN-RNAV-072"
+      ],
+      "quiz_questions": 8,
+      "pass_percent": 80,
+      "unit_title": "Section 2. PBN & RNAV"
+    },
+    {
+      "id": 10,
+      "title": "Suitable RNAV · Substitute/Alternate Means · Qualifying Systems",
+      "sections": [
+        {
+          "heading": "Use on Conventional Procedures and Routes — Discussion",
+          "paragraphs": [
+            "Suitable RNAV system은 VOR, DME, TACAN, VORTAC, VOR/DME, NDB 또는 compass locator가 out-of-service이거나, aircraft에 ADF/DME가 없거나, installed ADF/DME가 inoperative일 때 Substitute Means of Navigation으로 사용할 수 있다. 원문 예시는 suitable RNAV로 out-of-service NDB 위에서 holding하는 경우이다.",
+            "해당 conventional NAVAID가 operational이고 aircraft도 그 conventional NAVAID와 compatible한 operational equipment를 갖춘 경우에는 suitable RNAV를 Alternate Means of Navigation으로 사용할 수 있다. 예: operational VOR에 기반한 route/procedure를 VOR monitoring 없이 suitable RNAV로 비행."
+          ]
+        },
+        {
+          "heading": "Operational Notes",
+          "paragraphs": [
+            "추가 정보는 AC 90-108 “Use of Suitable RNAV Systems on Conventional Routes and Procedures”를 참고한다.",
+            "Safe/successful operation에는 good planning과 RNAV system knowledge가 중요하다.",
+            "Out-of-service NAVAID 대신 RNAV를 substitute means로 쓰려는 경우 pilot이 ATC에 intent/capability를 알려야 할 수 있다.",
+            "Navigation database는 flight duration 동안 current해야 한다. 비행 중 AIRAC cycle이 바뀌면 operator/pilot은 route/procedure를 정의하는 navigation facility suitability를 포함해 navigation data accuracy를 보장할 procedure를 마련해야 한다.",
+            "Instrument approach amendment date는 amendment number 뒤에 표시될 수 있다(원문 예: Amdt 4 14Jan10). Graphic DP/STAR currency는 procedure title의 numerical designation으로 확인할 수 있다. Procedure chart가 amended되었거나 chart의 procedure amendment date가 database expiration date와 같거나 이후면 그 database로 operation을 수행해서는 안 된다."
+          ]
+        },
+        {
+          "heading": "Types of RNAV Systems that Qualify",
+          "paragraphs": [
+            "적절한 airworthiness installation requirements와 operational guidance에 따라 설치/운용되면 TSO-C129/-C145/-C146 equipment를 가진 RNAV system이 suitable RNAV system이 될 수 있다. 원문은 AC 20-138에 따라 설치되고 IFR en route/terminal에 authorized된 systems를 포함한다고 설명한다.",
+            "또한 AC 90-100A의 equipment provisions를 충족하는 DME/DME/IRU input RNAV system도 RNAV routes에서 suitable RNAV system이 될 수 있다.",
+            "GPS/WAAS position input 없이 DME/DME/IRU만 사용하는 approved RNAV systems는 특정 procedure에 대해 NOTAM 또는 other FAA guidance가 명시적으로 authorize할 때만 substitute means로 사용할 수 있다. 그 guidance는 FAA DME infrastructure assessment에 따라 필요한 DME facilities도 식별한다."
+          ]
+        },
+        {
+          "heading": "원문 Coverage Audit · 생략 방지 체크",
+          "paragraphs": [
+            "아래 목록은 해당 단계가 원문에서 반영해야 하는 heading·NOTE·Figure·Table·세부 항목을 페이지별로 열거한 것이다. 패치 검증 시 이 목록을 기준으로 누락 여부를 확인한다."
+          ],
+          "table": {
+            "headers": [
+              "원문 페이지",
+              "반영 항목"
+            ],
+            "rows": [
+              [
+                "p.403",
+                "Eligibility continued"
+              ],
+              [
+                "p.403",
+                "EPU/ANP/EPE NOTE"
+              ],
+              [
+                "p.403",
+                "TABLE 1-2-1 U.S. Standard RNP Levels"
+              ],
+              [
+                "p.403",
+                "USE OF SUITABLE RNAV SYSTEMS ON CONVENTIONAL PROCEDURES AND ROUTES"
+              ],
+              [
+                "p.403",
+                "Substitute Means"
+              ],
+              [
+                "p.403",
+                "Alternate Means"
+              ],
+              [
+                "p.404",
+                "Operational NOTES a-d"
+              ],
+              [
+                "p.404",
+                "Types of RNAV Systems that Qualify"
+              ],
+              [
+                "p.404",
+                "TSO-C129/-C145/-C146"
+              ],
+              [
+                "p.404",
+                "DME/DME/IRU"
+              ],
+              [
+                "p.404",
+                "DME/DME/IRU authorization NOTE"
+              ],
+              [
+                "p.405",
+                "Uses of Suitable RNAV Systems 1-4"
+              ],
+              [
+                "p.405",
+                "NOTES a-f"
+              ],
+              [
+                "p.405",
+                "Alternate Airport Considerations"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "원문 전체 보존 · Jeppesen p.404",
+          "paragraphs": [
+            "이 블록은 이번 Section 2 패치에서 임의 요약으로 빠지는 내용을 막기 위해 해당 페이지의 원문 텍스트 레이어를 그대로 보존한 검수용 원문이다.",
+            "navaids. For example, if equipped with a suitable RNAV system, a pilot may fly a proce-",
+            "dure or route based on operational VOR system without monitoring the VOR.",
+            "NOTE:",
+            "a. Additional information and associated requirements are available in Advisory Circular",
+            "90-108 titled “Use of Suitable RNAV Systems on Conventional Routes and Proce-",
+            "dures.”",
+            "b. Good planning and knowledge of your RNAV system are critical for safe and successful",
+            "operations.",
+            "c. Pilots planning to use their RNAV system as a substitute means of navigation guidance",
+            "in lieu of an out-of-service NAVAID may need to advise ATC of this intent and capabil-",
+            "ity.",
+            "d. The navigation database should be current for the duration of the flight. If the AIRAC",
+            "cycle will change during flight, operators and pilots should establish procedures to",
+            "ensure the accuracy of navigation data, including suitability of navigation facilities used",
+            "to define the routes and procedures for flight. To facilitate validating database currency,",
+            "the FAA has developed procedures for publishing the amendment date that instrument",
+            "approach procedures were last revised. The amendment date follows the amendment",
+            "number, e.g., Amdt 4 14Jan10. Currency of graphic departure procedures and STARs",
+            "may be ascertained by the numerical designation in the procedure title. If an amended",
+            "chart is published for the procedure, or the procedure amendment date shown on the",
+            "chart is on or after the expiration date of the database, the operator must not use the",
+            "database to conduct the operation.",
+            "b. Types of RNAV Systems that Qualify as a Suitable RNAV System. When installed in",
+            "accordance with appropriate airworthiness installation requirements and operated in accord-",
+            "ance with applicable operational guidance (for example, aircraft flight manual and Advisory",
+            "Circular material), the following systems qualify as a suitable RNAV system:",
+            "1. An RNAV system with TSO-C129/-C145/-C146 equipment, installed in accordance with",
+            "AC 20-138, Airworthiness Approval of Global Positioning System (GPS) Navigation",
+            "Equipment for Use as a VFR and IFR Supplemental Navigation System, and authorized",
+            "for instrument flight rules (IFR) en route and terminal operations (including those sys-",
+            "tems previously qualified for “GPS in lieu of ADF or DME” operations), or",
+            "2. An RNAV system with DME/DME/IRU inputs that is compliant with the equipment provi-",
+            "sions of AC 90-100A, U.S. Terminal and En Route Area Navigation (RNAV) Operations,",
+            "for RNAV routes. A table of compliant equipment is available at the following website:",
+            "https://www.faa.gov/about/office_org/headquarters_offices/avs/offices/afx/afs/",
+            "afs400/afs410/media/AC90-100compliance.pdf",
+            "NOTE: Approved RNAV systems using DME/DME/IRU, without GPS/WAAS position input,",
+            "may only be used as a substitute means of navigation when specifically authorized by a",
+            "Notice to Airmen (NOTAM) or other FAA guidance for a specific procedure. The NOTAM or",
+            "RADIO DATA - GENERAL",
+            "404",
+            "SECTION 2. PERFORMANCE-BASED NAVIGATION (PBN) AND AREA NAVIGATION (RNAV)"
+          ],
+          "source_preservation": true
+        }
+      ],
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "module": "Section 2. PBN & RNAV",
+      "source_printed_pages": [
+        403,
+        404,
+        405
+      ],
+      "source_pdf_pages": [
+        403,
+        404,
+        405
+      ],
+      "question_ids": [
+        "JEPP-PBN-RNAV-073",
+        "JEPP-PBN-RNAV-074",
+        "JEPP-PBN-RNAV-075",
+        "JEPP-PBN-RNAV-076",
+        "JEPP-PBN-RNAV-077",
+        "JEPP-PBN-RNAV-078",
+        "JEPP-PBN-RNAV-079",
+        "JEPP-PBN-RNAV-080"
+      ],
+      "quiz_questions": 8,
+      "pass_percent": 80,
+      "unit_title": "Section 2. PBN & RNAV"
+    },
+    {
+      "id": 11,
+      "title": "Suitable RNAV Uses · Restrictions · Alternate Airport",
+      "sections": [
+        {
+          "heading": "Uses of Suitable RNAV Systems",
+          "paragraphs": [
+            "Operating requirements를 충족하면 suitable RNAV로 VOR/TACAN/NDB/compass locator/DME fix 또는 VOR radial·TACAN course·NDB/compass locator bearing과 VOR/localizer course 교차로 정의된 named fix에 대한 position/distance를 결정할 수 있다.",
+            "VOR, TACAN, NDB, compass locator로 navigate to/from 할 수 있다.",
+            "VOR, TACAN, NDB, compass locator, DME fix 위에서 hold할 수 있다.",
+            "DME-based arc를 비행할 수 있다."
+          ]
+        },
+        {
+          "heading": "Restrictions / Notes",
+          "paragraphs": [
+            "이 allowance는 procedure에 “ADF required”처럼 facility가 explicit required로 표시되어 있어도 적용될 수 있다.",
+            "Raw localizer data reference 없이 localizer-based course(Back Course 포함)의 lateral navigation에는 적용되지 않는다.",
+            "NOTAM exception 없이 NA(not authorized)로 식별된 procedure에는 suitable RNAV를 사용할 수 없다. Expired/unsatisfactory flight inspection 또는 recently decommissioned NAVAID 기반 procedure가 예이다.",
+            "Final approach segment lateral guidance를 제공하는 NAVAID(VOR/NDB 등)를 substitute할 수 없다. 다만 title에 “or GPS”가 있는 procedure를 GPS/WAAS로 비행하는 경우는 이 restriction의 대상이 아니다.",
+            "VOR/TACAN/NDB signal 기반 final approach segment에서 suitable RNAV를 navigation means로 사용하는 것은 허용되지만 underlying NAVAID가 operational이어야 하고 final segment course alignment를 위해 NAVAID를 monitor해야 한다.",
+            "이 문단에서 “VOR”은 VOR/VOR-DME/VORTAC을 포함하고 “compass locator”는 locator outer marker와 locator middle marker를 포함한다."
+          ]
+        },
+        {
+          "heading": "Alternate Airport Considerations",
+          "paragraphs": [
+            "Flight planning에서 required alternate airport는 원칙적으로 GPS 사용을 요구하지 않는 available instrument approach procedure를 가져야 한다. 여기에는 alternate에서 out-of-service VOR을 GPS substitute로 사용해 conventional approach를 계획하는 경우도 포함된다.",
+            "이 restriction은 TSO-C145/-C146 WAAS equipment에는 적용되지 않는다.",
+            "TSO-C129()/C196() GPS 사용자가 FDE capability를 갖고 RNAV(GPS) approach 공항에 대해 preflight RAIM prediction을 수행하며 필요한 knowledge/training/approval을 갖춘 경우 GPS-based IAP를 destination 또는 alternate 중 한 곳에만 기반해 file할 수 있다.",
+            "Alternate에서는 LNAV 또는 circling MDA, approved baro-VNAV 사용 시 LNAV/VNAV DA, 그리고 specifically authorized user가 approved baro-VNAV와 approved prediction program으로 RNP availability를 확인한 경우 RNAV(RNP) IAP의 RNP 0.3 DA를 계획할 수 있다.",
+            "위 조건을 충족하지 못하면 alternate에는 GPS 이외의 approved instrument approach가 ETA에 operational/available할 것으로 예상되어야 하고 aircraft가 그 approach를 비행할 equipment를 갖춰야 한다.",
+            "TSO-C145/C146 WAAS user에는 이 restriction이 적용되지 않는다."
+          ]
+        },
+        {
+          "heading": "원문 Coverage Audit · 생략 방지 체크",
+          "paragraphs": [
+            "아래 목록은 해당 단계가 원문에서 반영해야 하는 heading·NOTE·Figure·Table·세부 항목을 페이지별로 열거한 것이다. 패치 검증 시 이 목록을 기준으로 누락 여부를 확인한다."
+          ],
+          "table": {
+            "headers": [
+              "원문 페이지",
+              "반영 항목"
+            ],
+            "rows": [
+              [
+                "p.405",
+                "Uses of Suitable RNAV Systems 1-4"
+              ],
+              [
+                "p.405",
+                "NOTES a-f"
+              ],
+              [
+                "p.405",
+                "Alternate Airport Considerations"
+              ],
+              [
+                "p.406",
+                "Alternate Airport Considerations continued 1-3"
+              ],
+              [
+                "p.406",
+                "RECOGNIZING, MITIGATING, AND ADAPTING TO GPS JAMMING AND/OR SPOOFING"
+              ],
+              [
+                "p.406",
+                "Vulnerability"
+              ],
+              [
+                "p.406",
+                "Interference sources"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "원문 전체 보존 · Jeppesen p.405",
+          "paragraphs": [
+            "이 블록은 이번 Section 2 패치에서 임의 요약으로 빠지는 내용을 막기 위해 해당 페이지의 원문 텍스트 레이어를 그대로 보존한 검수용 원문이다.",
+            "other FAA guidance authorizing the use of DME/DME/IRU systems will also identify any",
+            "required DME facilities based on an FAA assessment of the DME navigation infrastructure.",
+            "c. Uses of Suitable RNAV Systems. Subject to the operating requirements, operators may",
+            "use a suitable RNAV system in the following ways.",
+            "1. Determine aircraft position relative to, or distance from a VOR (see NOTE 6 below),",
+            "TACAN, NDB, compass locator, DME fix; or a named fix defined by a VOR radial,",
+            "TACAN course, NDB bearing, or compass locator bearing intersecting a VOR or local-",
+            "izer course.",
+            "2. Navigate to or from a VOR, TACAN, NDB, or compass locator.",
+            "3. Hold over a VOR, TACAN, NDB, compass locator, or DME fix.",
+            "4. Fly an arc based upon DME.",
+            "NOTE:",
+            "a. The allowances described in this section apply even when a facility is explicitly identified",
+            "as required on a procedure (for example, “Note ADF required”).",
+            "b. These operations do not include lateral navigation on localizer-based courses (including",
+            "localizer back-course guidance) without reference to raw localizer data.",
+            "c. Unless otherwise specified, a suitable RNAV system cannot be used for navigation on",
+            "procedures that are identified as not authorized (“NA”) without exception by a NOTAM.",
+            "For example, an operator may not use a RNAV system to navigate on a procedure",
+            "affected by an expired or unsatisfactory flight inspection, or a procedure that is based",
+            "upon a recently decommissioned NAVAID.",
+            "d. Pilots may not substitute for the NAVAID (for example, a VOR or NDB) providing lateral",
+            "guidance for the final approach segment. This restriction does not refer to instrument",
+            "approach procedures with “or GPS” in the title when using GPS or WAAS. These allow-",
+            "ances do not apply to procedures that are identified as not authorized (NA) without",
+            "exception by a NOTAM, as other conditions may still exist and result in a procedure not",
+            "being available. For example, these allowances do not apply to a procedure associated",
+            "with an expired or unsatisfactory flight inspection, or is based upon a recently decom-",
+            "missioned NAVAID.",
+            "e. Use of a suitable RNAV system as a means to navigate on the final approach segment",
+            "of an instrument approach procedure based on a VOR, TACAN or NDB signal, is allow-",
+            "able. The underlying NAVAID must be operational and the NAVAID monitored for final",
+            "segment course alignment.",
+            "f. For the purpose of paragraph c, “VOR” includes VOR, VOR/DME, and VORTAC facili-",
+            "ties and “compass locator” includes locator outer marker and locator middle marker.",
+            "d. Alternate Airport Considerations. For the purposes of flight planning, any required alter-",
+            "nate airport must have an available instrument approach procedure that does not require the",
+            "use of GPS. This restriction includes conducting a conventional approach at the alternate air-",
+            "RADIO DATA - GENERAL",
+            "405",
+            "SECTION 2. PERFORMANCE-BASED NAVIGATION (PBN) AND AREA NAVIGATION (RNAV)"
+          ],
+          "source_preservation": true
+        }
+      ],
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "module": "Section 2. PBN & RNAV",
+      "source_printed_pages": [
+        405,
+        406
+      ],
+      "source_pdf_pages": [
+        405,
+        406
+      ],
+      "question_ids": [
+        "JEPP-PBN-RNAV-081",
+        "JEPP-PBN-RNAV-082",
+        "JEPP-PBN-RNAV-083",
+        "JEPP-PBN-RNAV-084",
+        "JEPP-PBN-RNAV-085",
+        "JEPP-PBN-RNAV-086",
+        "JEPP-PBN-RNAV-087",
+        "JEPP-PBN-RNAV-088"
+      ],
+      "quiz_questions": 8,
+      "pass_percent": 80,
+      "unit_title": "Section 2. PBN & RNAV"
+    },
+    {
+      "id": 12,
+      "title": "GPS Jamming / Spoofing",
+      "sections": [
+        {
+          "heading": "Vulnerability and Sources",
+          "paragraphs": [
+            "GPS satellite의 low-strength data transmission signal은 navigation reliability를 크게 낮출 수 있는 anomaly에 취약하다. GPS는 communication, navigation, surveillance, safety systems, automation 등 여러 aviation function에 쓰이므로 pilot은 equipment performance anomaly를 면밀히 monitor하고 apparent GPS degradation을 ATC에 promptly inform해야 하며 GPS 없이 운항할 준비도 해야 한다.",
+            "Unintentional interference source로 radar, microwave links, ionosphere effects, solar activity, multi-path error, satellite communications, GPS repeaters, 일부 onboard systems가 열거된다. 이런 interference는 일반적으로 localized/intermittent하다.",
+            "더 큰 concern은 jammer/spoofer를 이용한 intentional unauthorized interference이다.",
+            "U.S. government의 GPS tests/training/exercises도 GPS signal을 방해할 수 있지만 geographically limited, coordinated, scheduled되고 GPS/WAAS NOTAM으로 공지된다. GPS aircraft operator는 route의 GPS/WAAS NOTAM을 항상 확인해야 한다."
+          ]
+        },
+        {
+          "heading": "Possible Impacts",
+          "paragraphs": [
+            "GPS navigation 사용 불가, hybrid GPS-inertial navigation 사용 불가, PBN capability loss/degradation(RNP procedure 비행 불가 등)이 발생할 수 있다.",
+            "TAWS triggering이 unreliable해질 수 있고 navigation display/moving map/EFB의 aircraft position이 부정확할 수 있다.",
+            "ADS-B output이 loss 또는 erroneous가 될 수 있다.",
+            "Spoofing으로 intended path에서 벗어나면 autotuning이 nearby NAVAID를 선택하지 않는 등 conventional NAVAID 사용에도 unexpected effect가 생길 수 있다.",
+            "Erroneous insufficient-fuel indication 같은 position-dependent FMS effect가 생길 수 있다.",
+            "GPS 의존 ATM infrastructure와 관련 system failure/degradation으로 airspace infringement 또는 route deviation이 생길 수 있다.",
+            "Aircraft clock failure/오류로 CPDLC logon이 불가능해질 수 있고, wind/ground speed indication도 잘못될 수 있다."
+          ]
+        },
+        {
+          "heading": "IFR Cross-check and Pre-departure",
+          "paragraphs": [
+            "IFR 비행에서는 intended route에 대한 additional navigation equipment를 갖추고 VOR/DME 등으로 routine position cross-check를 해 compromised GPS signal을 탐지할 수 있도록 해야 한다.",
+            "GPS anomaly 때문에 VOR navigation으로 전환할 때는 Chart Supplement U.S.에서 VOR MON과 연계된 conventional approach available airport를 확인하도록 원문이 안내한다.",
+            "출발 전 FAA 권고: potential risk location 인지, relevant NOTAM 확인, fuel contingency 계획, destination에서 conventional NAVAID 및 적절한 arrival/approach 사용 계획, 해당 OEM의 detailed guidance 준수."
+          ]
+        },
+        {
+          "heading": "During Flight",
+          "paragraphs": [
+            "Aircraft type/avionics별 manufacturer guidance를 확인하고 GPS disruption indication에 vigilant해야 하며 가능하면 conventional NAVAID로 aircraft position을 verify한다.",
+            "Jamming/spoofing indication 예: actual navigation performance 변화, aircraft clock 오류, incorrect FMS position, displayed GPS position의 큰 shift, PFD/ND position-error warning, 다른 aircraft의 clock/position error 보고 또는 vector 요청.",
+            "GPS capability loss로 발생하는 operational risk/limitation 및 GPS signal input을 요구하는 onboard systems 영향을 평가한다.",
+            "Intended route/approach에 critical한 NAVAID availability를 확인하고 conventional IFR procedure로 revert할 준비를 유지한다.",
+            "GPS anomaly를 경험하면 ATC에 promptly notify한다. 다만 이미 NOTAM으로 공지된 known testing area를 통과 중이고 ATC assistance가 필요하지 않으면 jamming/spoofing을 ATC에 보고하지 않아도 된다고 원문이 설명한다."
+          ]
+        },
+        {
+          "heading": "Post-flight",
+          "paragraphs": [
+            "GPS jamming/spoofing은 maintenance log에 기록하여 모든 fault가 cleared되도록 하고, FAA의 “Report a GPS Anomaly” reporting site에 detailed report를 제출하도록 권고한다."
+          ]
+        },
+        {
+          "heading": "원문 Coverage Audit · 생략 방지 체크",
+          "paragraphs": [
+            "아래 목록은 해당 단계가 원문에서 반영해야 하는 heading·NOTE·Figure·Table·세부 항목을 페이지별로 열거한 것이다. 패치 검증 시 이 목록을 기준으로 누락 여부를 확인한다."
+          ],
+          "table": {
+            "headers": [
+              "원문 페이지",
+              "반영 항목"
+            ],
+            "rows": [
+              [
+                "p.406",
+                "Alternate Airport Considerations continued 1-3"
+              ],
+              [
+                "p.406",
+                "RECOGNIZING, MITIGATING, AND ADAPTING TO GPS JAMMING AND/OR SPOOFING"
+              ],
+              [
+                "p.406",
+                "Vulnerability"
+              ],
+              [
+                "p.406",
+                "Interference sources"
+              ],
+              [
+                "p.407",
+                "Jamming/spoofing continued"
+              ],
+              [
+                "p.407",
+                "Government GPS testing NOTE"
+              ],
+              [
+                "p.407",
+                "Impacts 1-11"
+              ],
+              [
+                "p.407",
+                "IFR cross-check"
+              ],
+              [
+                "p.407",
+                "Pre-departure recommendations 1-3"
+              ],
+              [
+                "p.408",
+                "Pre-departure recommendations 4-5"
+              ],
+              [
+                "p.408",
+                "During-flight recommendations"
+              ],
+              [
+                "p.408",
+                "Indications a-f"
+              ],
+              [
+                "p.408",
+                "Operational risk/NAVAID/conventional IFR/ATC notification"
+              ],
+              [
+                "p.408",
+                "Post-flight recommendations 1-2"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "원문 전체 보존 · Jeppesen p.406",
+          "paragraphs": [
+            "이 블록은 이번 Section 2 패치에서 임의 요약으로 빠지는 내용을 막기 위해 해당 페이지의 원문 텍스트 레이어를 그대로 보존한 검수용 원문이다.",
+            "port using a substitute means of navigation that is based upon the use of GPS. For example,",
+            "these restrictions would apply when planning to use GPS equipment as a substitute means",
+            "of navigation for an out-of-service VOR that supports an ILS missed approach procedure at",
+            "an alternate airport. In this case, some other approach not reliant upon the use of GPS must",
+            "be available. This restriction does not apply to RNAV systems using TSO-C145/-C146",
+            "WAAS equipment. For further WAAS guidance, see paragraph 1-1-18.",
+            "1. For flight planning purposes, TSO-C129() and TSO-C196() equipped users (GPS users)",
+            "whose navigation systems have fault detection and exclusion (FDE) capability, who per-",
+            "form a preflight RAIM prediction at the airport where the RNAV (GPS) approach will be",
+            "flown, and have proper knowledge and any required training and/or approval to conduct",
+            "a GPS-based IAP, may file based on a GPS-based IAP at either the destination or the",
+            "alternate airport, but not at both locations. At the alternate airport, pilots may plan for",
+            "applicable alternate airport weather minimums using:",
+            "(a) Lateral navigation (LNAV) or circling minimum descent altitude (MDA);",
+            "(b) LNAV/vertical navigation (LNAV/VNAV) DA, if equipped with and using approved",
+            "barometric vertical navigation (baro-VNAV) equipment;",
+            "(c) RNP 0.3 DA on an RNAV (RNP) IAP, if they are specifically authorized users using",
+            "approved baro-VNAV equipment and the pilot has verified required navigation per-",
+            "formance (RNP) availability through an approved prediction program.",
+            "2. If the above conditions cannot be met, any required alternate airport must have an",
+            "approved instrument approach procedure other than GPS that is anticipated to be",
+            "operational and available at the estimated time of arrival, and which the aircraft is equip-",
+            "ped to fly.",
+            "3. This restriction does not apply to TSO-C145() and TSO-C146() equipped users (WAAS",
+            "users). For further WAAS guidance, see paragraph 1-1-18.",
+            "RECOGNIZING, MITIGATING, AND ADAPTING TO GPS",
+            "JAMMING AND/OR SPOOFING",
+            "a. The low-strength data transmission signals from GPS satellites are vulnerable to various",
+            "anomalies that can significantly reduce the reliability of the navigation signal. The GPS signal",
+            "is vulnerable and has many uses in aviation (e.g., communication, navigation, surveillance,",
+            "safety systems and automation); therefore, pilots must place additional emphasis on closely",
+            "monitoring aircraft equipment performance for any anomalies and promptly inform Air Traffic",
+            "Control (ATC) of any apparent GPS degradation. Pilots should also be prepared to operate",
+            "without GPS navigation systems.",
+            "b. GPS signals are vulnerable to intentional and unintentional interference from a wide variety",
+            "of sources, including radars, microwave links, ionosphere effects, solar activity, multi-path",
+            "error, satellite communications, GPS repeaters, and even some systems onboard the air-",
+            "craft. In general, these types of unintentional interference are localized and intermittent. Of",
+            "greater and growing concern is the intentional and unauthorized interference of GPS signals",
+            "1-2-4",
+            "RADIO DATA - GENERAL",
+            "406",
+            "SECTION 2. PERFORMANCE-BASED NAVIGATION (PBN) AND AREA NAVIGATION (RNAV)"
+          ],
+          "source_preservation": true
+        },
+        {
+          "heading": "원문 전체 보존 · Jeppesen p.407",
+          "paragraphs": [
+            "이 블록은 이번 Section 2 패치에서 임의 요약으로 빠지는 내용을 막기 위해 해당 페이지의 원문 텍스트 레이어를 그대로 보존한 검수용 원문이다.",
+            "by persons using “jammers” or “spoofers” to disrupt air navigation by interfering with the",
+            "reception of valid satellite signals.",
+            "NOTE: The U.S. government regularly conducts GPS tests, training activities, and exercises",
+            "that interfere with GPS signals. These events are geographically limited, coordinated, sched-",
+            "uled, and advertised via GPS and/or WAAS NOTAMS. Operators of GPS aircraft should",
+            "always check for GPS and/or WAAS NOTAMS for their route of flight.",
+            "c. Manufacturers, operators, and air traffic controllers should be aware of the general impacts",
+            "of GPS jamming and/or spoofing, which include, but are not limited to:",
+            "1. Inability to use GPS for navigation.",
+            "2. Inability to use hybrid GPS inertial systems for navigation.",
+            "3. Loss of, or degraded, performance-based navigation (PBN) capability (e.g., inability to",
+            "fly required navigation performance (RNP) procedures).",
+            "4. Unreliable triggering of Terrain Awareness and Warning Systems (TAWS).",
+            "5. Inaccurate aircraft position on navigation display (e.g., moving map and electronic flight",
+            "bag).",
+            "6. Loss of, or erroneous, Automatic Dependent Surveillance-Broadcast (ADS-B) outputs.",
+            "7. Unexpected effects when navigating with conventional NAVAIDS (e.g., if the aircraft is",
+            "spoofed from the intended flight path, autotuning will not select the nearby NAVAID).",
+            "8. Unanticipated position-dependent flight management system effects (e.g., erroneous",
+            "insufficient fuel indication).",
+            "9. Failure or degradation of Air Traffic Management (ATM) infrastructure and its associ-",
+            "ated systems reliant on GPS, resulting in potential airspace infringements and/or route",
+            "deviations.",
+            "10. Failure of, or erroneous aircraft clocks (resulting in inability to log on to Controller-Pilot",
+            "Data Link Communications CPDLC).",
+            "11. Erroneous wind and ground speed indications.",
+            "d. When flying IFR, pilots should have additional navigation equipment for their intended route",
+            "to crosscheck their position. Routine checks of position against VOR or DME information, for",
+            "example, could help detect a compromised GPS signal. Pilots transitioning to VOR naviga-",
+            "tion in response to GPS anomalies should refer to the Chart Supplement U.S. to identify air-",
+            "ports with available conventional approaches associated with the VOR Minimum Operational",
+            "Network (MON) program. (Reference 1-1-3f.)",
+            "e. Prior to departure, the FAA recommends operators to:",
+            "1. Be aware of potential risk locations.",
+            "2. Check for any relevant Notices to Airmen (NOTAMs).",
+            "3. Plan fuel contingencies.",
+            "RADIO DATA - GENERAL",
+            "407",
+            "SECTION 2. PERFORMANCE-BASED NAVIGATION (PBN) AND AREA NAVIGATION (RNAV)"
+          ],
+          "source_preservation": true
+        },
+        {
+          "heading": "원문 전체 보존 · Jeppesen p.408",
+          "paragraphs": [
+            "이 블록은 이번 Section 2 패치에서 임의 요약으로 빠지는 내용을 막기 위해 해당 페이지의 원문 텍스트 레이어를 그대로 보존한 검수용 원문이다.",
+            "4. Plan to use conventional NAVAIDs and appropriate arrival/approach procedures at the",
+            "destination.",
+            "5. Follow the detailed guidance from the respective Original Equipment Manufacturer",
+            "(OEM).",
+            "f. During flight, the FAA recommends operators do the following:",
+            "1. Be vigilant for any indication that the aircraft’s GPS is disrupted by reviewing the manu-",
+            "facturer’s guidance for that specific aircraft type and avionics equipage. Verify the air-",
+            "craft position by means of conventional NAVAIDs, when available. Indications of jam-",
+            "ming and/or spoofing may include:",
+            "(a) Changes in actual navigation performance.",
+            "(b) Aircraft clock changes (e.g., incorrect time).",
+            "(c) Incorrect Flight Management System (FMS) position.",
+            "(d) Large shift in displayed GPS position.",
+            "(e) Primary Flight Display (PFD)/Navigation Display (ND) warnings about position",
+            "error.",
+            "(f) Other aircraft reporting clock issues, position errors, or requesting vectors.",
+            "2. Assess operational risks and limitations linked to the loss of GPS capability, including",
+            "any on-board systems requiring inputs from a GPS signal.",
+            "3. Ensure NAVAIDs critical to the operation for the intended route/approach are available.",
+            "4. Remain prepared to revert to conventional instrument flight procedures.",
+            "5. Promptly notify ATC if they experience GPS anomalies. Pilots should not inform ATC of",
+            "GPS jamming and/or spoofing when flying through known NOTAMed testing areas",
+            "unless they require ATC assistance. (See paragraph 1-1-13)",
+            "g. Post flight, the FAA recommends operators to:",
+            "1. Document any GPS jamming and/or spoofing in the maintenance log to ensure all faults",
+            "are cleared.",
+            "2. File a detailed report at the reporting site: Report a GPS Anomaly Federal Aviation",
+            "Administration, www.faa.gov/air_traffic/nas/gps_reports.",
+            "RADIO DATA - GENERAL",
+            "408",
+            "SECTION 2. PERFORMANCE-BASED NAVIGATION (PBN) AND AREA NAVIGATION (RNAV)"
+          ],
+          "source_preservation": true
+        }
+      ],
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "module": "Section 2. PBN & RNAV",
+      "source_printed_pages": [
+        406,
+        407,
+        408
+      ],
+      "source_pdf_pages": [
+        406,
+        407,
+        408
+      ],
+      "question_ids": [
+        "JEPP-PBN-RNAV-089",
+        "JEPP-PBN-RNAV-090",
+        "JEPP-PBN-RNAV-091",
+        "JEPP-PBN-RNAV-092",
+        "JEPP-PBN-RNAV-093",
+        "JEPP-PBN-RNAV-094",
+        "JEPP-PBN-RNAV-095",
+        "JEPP-PBN-RNAV-096"
+      ],
+      "quiz_questions": 8,
+      "pass_percent": 80,
+      "unit_title": "Section 2. PBN & RNAV"
+    }
+  ]
+}

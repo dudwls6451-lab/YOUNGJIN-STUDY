@@ -1,0 +1,4536 @@
+{
+  "metadata": {
+    "title": "Jeppesen Airway Manual · Section 2 PBN & RNAV 문제은행",
+    "source": "Jeppesen Airway Manual p.393–408",
+    "version": "v11.60.39",
+    "question_count": 96,
+    "stage_count": 12,
+    "note": "원문 p.393–408 범위에서만 출제. Figure 1-2-1~1-2-6 연결 포함."
+  },
+  "questions": [
+    {
+      "id": "JEPP-PBN-RNAV-001",
+      "number": 1,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-01",
+        "title": "PBN Introduction · Navigation Specifications"
+      },
+      "source_page": 393,
+      "question": "PBN에서 RNP와 RNAV NavSpec을 구분하는 핵심 차이로 맞는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "RNP는 onboard performance monitoring and alerting을 요구한다."
+        },
+        {
+          "id": "B",
+          "text": "RNAV는 반드시 radar monitoring을 요구한다."
+        },
+        {
+          "id": "C",
+          "text": "RNP는 lateral accuracy를 사용하지 않는다."
+        },
+        {
+          "id": "D",
+          "text": "RNAV는 oceanic airspace에서만 사용한다."
+        }
+      ],
+      "answer": "A",
+      "explanation": "RNP는 RNAV에 onboard performance monitoring and alerting(OBPMA)을 추가로 요구한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.393",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-pbn-rnav-theory/fig-1-2-1-navigation-specifications.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 1"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-002",
+      "number": 2,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-01",
+        "title": "PBN Introduction · Navigation Specifications"
+      },
+      "source_page": 393,
+      "question": "PBN의 지정 RNAV/RNP accuracy는 최소 어느 비율의 flight time 동안 충족되어야 하는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "90%"
+        },
+        {
+          "id": "B",
+          "text": "95%"
+        },
+        {
+          "id": "C",
+          "text": "98%"
+        },
+        {
+          "id": "D",
+          "text": "100%"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Jeppesen은 PBN accuracy requirement를 비행시간의 최소 95% 동안 충족하도록 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.393",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 1"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-003",
+      "number": 3,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-01",
+        "title": "PBN Introduction · Navigation Specifications"
+      },
+      "source_page": 393,
+      "question": "NavSpec의 숫자가 나타내는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Vertical accuracy(ft)"
+        },
+        {
+          "id": "B",
+          "text": "Lateral navigation accuracy(NM)"
+        },
+        {
+          "id": "C",
+          "text": "Required visibility(SM)"
+        },
+        {
+          "id": "D",
+          "text": "Maximum bank angle"
+        }
+      ],
+      "answer": "B",
+      "explanation": "RNAV/RNP NavSpec의 numerical designation은 NM 단위 lateral navigation accuracy를 뜻한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.393",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 1"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-004",
+      "number": 4,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-01",
+        "title": "PBN Introduction · Navigation Specifications"
+      },
+      "source_page": 393,
+      "question": "PBN의 두 주요 navigation specification 계열은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "VOR와 DME"
+        },
+        {
+          "id": "B",
+          "text": "ILS와 GLS"
+        },
+        {
+          "id": "C",
+          "text": "RNAV와 RNP"
+        },
+        {
+          "id": "D",
+          "text": "ADF와 GPS"
+        }
+      ],
+      "answer": "C",
+      "explanation": "PBN 내 두 주요 계열은 RNAV와 RNP이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.393",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 1"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-005",
+      "number": 5,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-01",
+        "title": "PBN Introduction · Navigation Specifications"
+      },
+      "source_page": 393,
+      "question": "RNP의 onboard monitoring/alerting capability 예로 원문이 든 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "RAIM"
+        },
+        {
+          "id": "B",
+          "text": "TCAS"
+        },
+        {
+          "id": "C",
+          "text": "GPWS"
+        },
+        {
+          "id": "D",
+          "text": "ADF"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문은 RAIM을 onboard performance monitoring and alerting capability의 예로 든다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.393",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 1"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-006",
+      "number": 6,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-01",
+        "title": "PBN Introduction · Navigation Specifications"
+      },
+      "source_page": 393,
+      "question": "PBN에서 “RNAV”라는 용어의 기본 의미는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Required navigation approval"
+        },
+        {
+          "id": "B",
+          "text": "Area navigation"
+        },
+        {
+          "id": "C",
+          "text": "Radar navigation"
+        },
+        {
+          "id": "D",
+          "text": "Remote navigation"
+        }
+      ],
+      "answer": "B",
+      "explanation": "절차 title에서 RNAV는 장비 capability와 무관하게 area navigation을 의미한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.393",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 1"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-007",
+      "number": 7,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-01",
+        "title": "PBN Introduction · Navigation Specifications"
+      },
+      "source_page": 393,
+      "question": "NavSpec은 무엇의 집합인가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "공항 조명 요구사항"
+        },
+        {
+          "id": "B",
+          "text": "Aircraft와 aircrew requirements"
+        },
+        {
+          "id": "C",
+          "text": "ATC separation minima만의 목록"
+        },
+        {
+          "id": "D",
+          "text": "기상 minima만의 목록"
+        }
+      ],
+      "answer": "B",
+      "explanation": "NavSpec은 defined airspace concept에서 navigation application을 지원하기 위한 aircraft/aircrew requirements의 집합이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.393",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 1"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-008",
+      "number": 8,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-01",
+        "title": "PBN Introduction · Navigation Specifications"
+      },
+      "source_page": 393,
+      "question": "FIG 1-2-1에서 RNAV 10은 주로 어느 application 쪽에 표시되는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Oceanic and remote navigation applications"
+        },
+        {
+          "id": "B",
+          "text": "Final approach only"
+        },
+        {
+          "id": "C",
+          "text": "Visual traffic pattern"
+        },
+        {
+          "id": "D",
+          "text": "Ground movement only"
+        }
+      ],
+      "answer": "A",
+      "explanation": "FIG 1-2-1은 RNAV 10을 oceanic and remote navigation applications에 배치한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.393",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 1"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-009",
+      "number": 9,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-02",
+        "title": "RNAV General · Waypoints"
+      },
+      "source_page": 394,
+      "question": "RNAV의 정의로 가장 적절한 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Ground NAVAID radial만 따라가는 항법"
+        },
+        {
+          "id": "B",
+          "text": "원하는 flight path에서 ground/space-based 또는 self-contained aids를 이용하는 area navigation"
+        },
+        {
+          "id": "C",
+          "text": "시계항법만 의미"
+        },
+        {
+          "id": "D",
+          "text": "Radar vector만 이용하는 항법"
+        }
+      ],
+      "answer": "B",
+      "explanation": "RNAV는 ground/space-based aids, self-contained aids 또는 조합의 capability 내에서 원하는 flight path로 운항하게 한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.394",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 2"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-010",
+      "number": 10,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-02",
+        "title": "RNAV General · Waypoints"
+      },
+      "source_page": 394,
+      "question": "원문이 제시한 RNAV의 잠재적 장점이 아닌 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Time/fuel savings"
+        },
+        {
+          "id": "B",
+          "text": "ATC radio transmission 감소"
+        },
+        {
+          "id": "C",
+          "text": "More efficient use of airspace"
+        },
+        {
+          "id": "D",
+          "text": "모든 ATC clearance 제거"
+        }
+      ],
+      "answer": "D",
+      "explanation": "RNAV는 효율을 높이지만 ATC clearance 자체를 없애지는 않는다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.394",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 2"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-011",
+      "number": 11,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-02",
+        "title": "RNAV General · Waypoints"
+      },
+      "source_page": 394,
+      "question": "Waypoint는 기본적으로 무엇으로 정의되는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Runway heading"
+        },
+        {
+          "id": "B",
+          "text": "Latitude/longitude coordinates"
+        },
+        {
+          "id": "C",
+          "text": "Radar range only"
+        },
+        {
+          "id": "D",
+          "text": "VOR frequency"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Waypoint는 latitude/longitude coordinate로 정의되는 predetermined geographical position이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.394",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 2"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-012",
+      "number": 12,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-02",
+        "title": "RNAV General · Waypoints"
+      },
+      "source_page": 394,
+      "question": "Fly-by waypoint에서 turn은 언제 시작되는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Waypoint 통과 후"
+        },
+        {
+          "id": "B",
+          "text": "Waypoint 도달 전에"
+        },
+        {
+          "id": "C",
+          "text": "ATC가 radar contact를 잃을 때"
+        },
+        {
+          "id": "D",
+          "text": "항상 waypoint 위에서"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Fly-by는 waypoint 전에 다음 course로 turn anticipation을 시작한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.394",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-pbn-rnav-theory/fig-1-2-2-flyby-flyover.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 2"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-013",
+      "number": 13,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-02",
+        "title": "RNAV General · Waypoints"
+      },
+      "source_page": 394,
+      "question": "Fly-over waypoint의 특징은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Waypoint를 통과하기 전에 turn"
+        },
+        {
+          "id": "B",
+          "text": "Waypoint 위를 통과한 후 turn"
+        },
+        {
+          "id": "C",
+          "text": "항상 RF turn 사용"
+        },
+        {
+          "id": "D",
+          "text": "Altitude change 금지"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Fly-over는 해당 waypoint를 실제로 통과한 뒤 turn을 시작한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.394",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 2"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-014",
+      "number": 14,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-02",
+        "title": "RNAV General · Waypoints"
+      },
+      "source_page": 394,
+      "question": "Fly-by에서 waypoint 전에 turn을 시작하는 개념은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Turn anticipation"
+        },
+        {
+          "id": "B",
+          "text": "Track capture"
+        },
+        {
+          "id": "C",
+          "text": "Course reversal"
+        },
+        {
+          "id": "D",
+          "text": "Path stretch"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문은 이를 turn anticipation이라 부른다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.394",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 2"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-015",
+      "number": 15,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-02",
+        "title": "RNAV General · Waypoints"
+      },
+      "source_page": 394,
+      "question": "RNAV DP/STAR를 비행할 때 특히 요구되는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Procedure centerline에 대한 엄격한 awareness와 유지"
+        },
+        {
+          "id": "B",
+          "text": "NDB만 사용"
+        },
+        {
+          "id": "C",
+          "text": "Radar vector만 사용"
+        },
+        {
+          "id": "D",
+          "text": "Waypoint 무시"
+        }
+      ],
+      "answer": "A",
+      "explanation": "RNAV procedure는 procedure centerline awareness와 유지가 중요하다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.394",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 2"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-016",
+      "number": 16,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-02",
+        "title": "RNAV General · Waypoints"
+      },
+      "source_page": 394,
+      "question": "원문이 RNAV route/terminal procedure guidance와 함께 참고하도록 한 AC는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "AC 90-100"
+        },
+        {
+          "id": "B",
+          "text": "AC 91-70"
+        },
+        {
+          "id": "C",
+          "text": "AC 90-101"
+        },
+        {
+          "id": "D",
+          "text": "AC 20-138"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Domestic RNAV DP/STAR/route guidance는 AC 90-100도 참고한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.394",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 2"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-017",
+      "number": 17,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-03",
+        "title": "RNAV Leg Types · TF/DF/CF/RF/Heading"
+      },
+      "source_page": 395,
+      "question": "RNAV leg type의 두 글자 code는 무엇을 설명하는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Path와 termination point"
+        },
+        {
+          "id": "B",
+          "text": "Airport와 runway"
+        },
+        {
+          "id": "C",
+          "text": "Weather와 visibility"
+        },
+        {
+          "id": "D",
+          "text": "Frequency와 channel"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Leg type two-letter code는 path와 termination point를 나타낸다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.395",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 3"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-018",
+      "number": 18,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-03",
+        "title": "RNAV Leg Types · TF/DF/CF/RF/Heading"
+      },
+      "source_page": 395,
+      "question": "Track to Fix(TF) leg에 대한 설명은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "다음 waypoint까지 flight track을 intercept/acquire"
+        },
+        {
+          "id": "B",
+          "text": "초기 area에서 next waypoint로 direct"
+        },
+        {
+          "id": "C",
+          "text": "Fix에서 specified course로 종료"
+        },
+        {
+          "id": "D",
+          "text": "Constant radius arc"
+        }
+      ],
+      "answer": "A",
+      "explanation": "TF는 다음 waypoint까지의 track을 intercept하고 acquire하는 leg이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.395",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-pbn-rnav-theory/fig-1-2-3-track-to-fix.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 3"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-019",
+      "number": 19,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-03",
+        "title": "RNAV Leg Types · TF/DF/CF/RF/Heading"
+      },
+      "source_page": 395,
+      "question": "Direct to Fix(DF) leg는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Initial area에서 next waypoint로 direct track"
+        },
+        {
+          "id": "B",
+          "text": "Specified course로 fix에서 종료"
+        },
+        {
+          "id": "C",
+          "text": "Heading to altitude"
+        },
+        {
+          "id": "D",
+          "text": "Constant-radius path"
+        }
+      ],
+      "answer": "A",
+      "explanation": "DF는 initial area에서 다음 waypoint로 직접 향하는 track이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.395",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-pbn-rnav-theory/fig-1-2-4-direct-to-fix.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 3"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-020",
+      "number": 20,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-03",
+        "title": "RNAV Leg Types · TF/DF/CF/RF/Heading"
+      },
+      "source_page": 396,
+      "question": "Course to Fix(CF) leg는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "지정된 course로 fix에서 종료되는 path"
+        },
+        {
+          "id": "B",
+          "text": "Random direct path"
+        },
+        {
+          "id": "C",
+          "text": "DME arc only"
+        },
+        {
+          "id": "D",
+          "text": "Waypoint 통과 후 vector"
+        }
+      ],
+      "answer": "A",
+      "explanation": "CF는 specified course at the fix로 종료된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.396",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-pbn-rnav-theory/fig-1-2-5-course-to-fix.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 3"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-021",
+      "number": 21,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-03",
+        "title": "RNAV Leg Types · TF/DF/CF/RF/Heading"
+      },
+      "source_page": 397,
+      "question": "Radius to Fix(RF) leg는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Defined turn center 주위 constant-radius circular path"
+        },
+        {
+          "id": "B",
+          "text": "Straight heading only"
+        },
+        {
+          "id": "C",
+          "text": "Altitude hold"
+        },
+        {
+          "id": "D",
+          "text": "DME distance measurement"
+        }
+      ],
+      "answer": "A",
+      "explanation": "RF는 defined turn center 주위의 일정 반경 곡선으로 fix에서 종료된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.397",
+      "requires_figure": true,
+      "figure_refs": [],
+      "images": [
+        "assets/jeppesen-pbn-rnav-theory/fig-1-2-6-radius-to-fix.webp"
+      ],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 3"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-022",
+      "number": 22,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-03",
+        "title": "RNAV Leg Types · TF/DF/CF/RF/Heading"
+      },
+      "source_page": 397,
+      "question": "Heading to Altitude의 leg code는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "VA"
+        },
+        {
+          "id": "B",
+          "text": "VD"
+        },
+        {
+          "id": "C",
+          "text": "VM"
+        },
+        {
+          "id": "D",
+          "text": "TF"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문은 Heading to Altitude를 VA 예로 든다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.397",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 3"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-023",
+      "number": 23,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-03",
+        "title": "RNAV Leg Types · TF/DF/CF/RF/Heading"
+      },
+      "source_page": 397,
+      "question": "Heading to DME range의 leg code는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "CF"
+        },
+        {
+          "id": "B",
+          "text": "VD"
+        },
+        {
+          "id": "C",
+          "text": "RF"
+        },
+        {
+          "id": "D",
+          "text": "DF"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Heading to DME range는 VD이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.397",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 3"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-024",
+      "number": 24,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-03",
+        "title": "RNAV Leg Types · TF/DF/CF/RF/Heading"
+      },
+      "source_page": 397,
+      "question": "Heading to Manual Termination(Vector)의 leg code는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "VM"
+        },
+        {
+          "id": "B",
+          "text": "VA"
+        },
+        {
+          "id": "C",
+          "text": "TF"
+        },
+        {
+          "id": "D",
+          "text": "RF"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Heading to Manual Termination, 즉 Vector는 VM이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.397",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 3"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-025",
+      "number": 25,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-04",
+        "title": "Navigation Issues · FMS"
+      },
+      "source_page": 398,
+      "question": "TSO-C129/C196/C145/C146 GPS/WAAS system에서 departure/arrival airport를 입력하는 이유는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Proper RAIM availability와 CDI sensitivity"
+        },
+        {
+          "id": "B",
+          "text": "TCAS range 증가"
+        },
+        {
+          "id": "C",
+          "text": "VOR frequency 자동변경"
+        },
+        {
+          "id": "D",
+          "text": "Weather radar calibration"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문은 proper RAIM availability와 CDI sensitivity 확보를 위해 입력하도록 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.398",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 4"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-026",
+      "number": 26,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-04",
+        "title": "Navigation Issues · FMS"
+      },
+      "source_page": 398,
+      "question": "DME/DME position updating에 영향을 주는 요소가 아닌 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "DME proximity"
+        },
+        {
+          "id": "B",
+          "text": "Availability/geometry"
+        },
+        {
+          "id": "C",
+          "text": "Signal masking"
+        },
+        {
+          "id": "D",
+          "text": "Runway lighting color"
+        }
+      ],
+      "answer": "D",
+      "explanation": "DME/DME는 system logic과 facility proximity/availability/geometry/signal masking에 의존한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.398",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 4"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-027",
+      "number": 27,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-04",
+        "title": "Navigation Issues · FMS"
+      },
+      "source_page": 398,
+      "question": "VOR/DME position updating은 일반적으로 무엇보다 less accurate할 수 있는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "GPS 또는 DME/DME"
+        },
+        {
+          "id": "B",
+          "text": "ADF homing only"
+        },
+        {
+          "id": "C",
+          "text": "Visual navigation"
+        },
+        {
+          "id": "D",
+          "text": "ATIS"
+        }
+      ],
+      "answer": "A",
+      "explanation": "VOR 특성 때문에 GPS나 DME/DME보다 less accurate할 수 있다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.398",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 4"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-028",
+      "number": 28,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-04",
+        "title": "Navigation Issues · FMS"
+      },
+      "source_page": 398,
+      "question": "IRU/INS가 DME/DME 또는 GPS와 결합되는 주된 목적은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Overall navigation performance 개선"
+        },
+        {
+          "id": "B",
+          "text": "Cabin pressure control"
+        },
+        {
+          "id": "C",
+          "text": "Fuel measurement"
+        },
+        {
+          "id": "D",
+          "text": "ATC voice recording"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Inertial system은 다른 input과 결합해 overall navigation performance를 개선한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.398",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 4"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-029",
+      "number": 29,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-04",
+        "title": "Navigation Issues · FMS"
+      },
+      "source_page": 398,
+      "question": "FMS의 구성 설명으로 맞는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Sensors/receivers/computers와 navigation database의 integrated suite"
+        },
+        {
+          "id": "B",
+          "text": "단일 VOR receiver"
+        },
+        {
+          "id": "C",
+          "text": "Radar antenna only"
+        },
+        {
+          "id": "D",
+          "text": "Weather display only"
+        }
+      ],
+      "answer": "A",
+      "explanation": "FMS는 sensors, receivers, computers와 navigation database가 통합된 system이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.398",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 4"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-030",
+      "number": 30,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-04",
+        "title": "Navigation Issues · FMS"
+      },
+      "source_page": 398,
+      "question": "FMS input으로 원문에 열거되지 않은 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "GPS"
+        },
+        {
+          "id": "B",
+          "text": "DME"
+        },
+        {
+          "id": "C",
+          "text": "VOR/LOC"
+        },
+        {
+          "id": "D",
+          "text": "ELT"
+        }
+      ],
+      "answer": "D",
+      "explanation": "원문은 GPS, DME, VOR, LOC, IRU를 input 예로 든다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.398",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 4"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-031",
+      "number": 31,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-04",
+        "title": "Navigation Issues · FMS"
+      },
+      "source_page": 398,
+      "question": "Appropriate signal이 있을 때 FMS가 position update에 보통 우선적으로 사용하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "GPS 및/또는 DME/DME"
+        },
+        {
+          "id": "B",
+          "text": "ADF only"
+        },
+        {
+          "id": "C",
+          "text": "ILS marker only"
+        },
+        {
+          "id": "D",
+          "text": "Weather radar"
+        }
+      ],
+      "answer": "A",
+      "explanation": "FMS는 보통 GPS 및/또는 DME/DME를 주 position update source로 사용한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.398",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 4"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-032",
+      "number": 32,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-04",
+        "title": "Navigation Issues · FMS"
+      },
+      "source_page": 398,
+      "question": "DME/DME와 하나 이상의 IRU 결합을 흔히 어떻게 약칭하는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "D/D/I"
+        },
+        {
+          "id": "B",
+          "text": "R/R/I"
+        },
+        {
+          "id": "C",
+          "text": "G/G/V"
+        },
+        {
+          "id": "D",
+          "text": "V/D/F"
+        }
+      ],
+      "answer": "A",
+      "explanation": "DME/DME/IRU는 D/D/I로 약칭할 수 있다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.398",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 4"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-033",
+      "number": 33,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-05",
+        "title": "RNAV NavSpecs · RNP General"
+      },
+      "source_page": 399,
+      "question": "RNAV 1이 전형적으로 사용되는 곳은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "DP와 STAR"
+        },
+        {
+          "id": "B",
+          "text": "Oceanic only"
+        },
+        {
+          "id": "C",
+          "text": "Final approach only"
+        },
+        {
+          "id": "D",
+          "text": "Ground taxi"
+        }
+      ],
+      "answer": "A",
+      "explanation": "RNAV 1은 보통 DP와 STAR에서 사용된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.399",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 5"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-034",
+      "number": 34,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-05",
+        "title": "RNAV NavSpecs · RNP General"
+      },
+      "source_page": 399,
+      "question": "RNAV 1의 total system error 기준은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "95% 시간 동안 1 NM 이하"
+        },
+        {
+          "id": "B",
+          "text": "100% 시간 동안 0.1 NM 이하"
+        },
+        {
+          "id": "C",
+          "text": "90% 시간 동안 2 NM 이하"
+        },
+        {
+          "id": "D",
+          "text": "95% 시간 동안 10 NM 이하"
+        }
+      ],
+      "answer": "A",
+      "explanation": "RNAV 1은 95% 시간 동안 total system error 1 NM 이하이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.399",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 5"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-035",
+      "number": 35,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-05",
+        "title": "RNAV NavSpecs · RNP General"
+      },
+      "source_page": 399,
+      "question": "RNAV 2의 전형적 사용은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "En route operations"
+        },
+        {
+          "id": "B",
+          "text": "CAT III landing only"
+        },
+        {
+          "id": "C",
+          "text": "Taxi only"
+        },
+        {
+          "id": "D",
+          "text": "Visual pattern only"
+        }
+      ],
+      "answer": "A",
+      "explanation": "RNAV 2는 별도 지정이 없으면 보통 en route에 사용된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.399",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 5"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-036",
+      "number": 36,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-05",
+        "title": "RNAV NavSpecs · RNP General"
+      },
+      "source_page": 399,
+      "question": "T-route와 Q-route는 어떤 NavSpec의 예인가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "RNAV 2"
+        },
+        {
+          "id": "B",
+          "text": "RNP 0.3"
+        },
+        {
+          "id": "C",
+          "text": "RNAV 10"
+        },
+        {
+          "id": "D",
+          "text": "RNP AR APCH"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문은 T-route와 Q-route를 RNAV 2 예로 든다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.399",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 5"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-037",
+      "number": 37,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-05",
+        "title": "RNAV NavSpecs · RNP General"
+      },
+      "source_page": 399,
+      "question": "RNAV 10은 전형적으로 어디에 사용되는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Oceanic operations"
+        },
+        {
+          "id": "B",
+          "text": "Localizer back course"
+        },
+        {
+          "id": "C",
+          "text": "Airport surface"
+        },
+        {
+          "id": "D",
+          "text": "VFR traffic pattern"
+        }
+      ],
+      "answer": "A",
+      "explanation": "RNAV 10은 보통 oceanic operations에 사용된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.399",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 5"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-038",
+      "number": 38,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-05",
+        "title": "RNAV NavSpecs · RNP General"
+      },
+      "source_page": 399,
+      "question": "RNP의 핵심 추가 요구사항은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "OBPMA"
+        },
+        {
+          "id": "B",
+          "text": "ADF carriage"
+        },
+        {
+          "id": "C",
+          "text": "Radar vector"
+        },
+        {
+          "id": "D",
+          "text": "Marker beacon"
+        }
+      ],
+      "answer": "A",
+      "explanation": "RNP는 onboard performance monitoring and alerting을 추가 요구한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.399",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 5"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-039",
+      "number": 39,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-05",
+        "title": "RNAV NavSpecs · RNP General"
+      },
+      "source_page": 399,
+      "question": "RNP 1 eligibility가 자동으로 의미하지 않는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "RNP 2 또는 RNAV 1 eligibility"
+        },
+        {
+          "id": "B",
+          "text": "RNP 1 operation potential"
+        },
+        {
+          "id": "C",
+          "text": "AFM documentation"
+        },
+        {
+          "id": "D",
+          "text": "PBN capability"
+        }
+      ],
+      "answer": "A",
+      "explanation": "NavSpec은 서로 별개이므로 RNP 1이 RNP 2/RNAV 1을 자동 의미하지 않는다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.399",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 5"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-040",
+      "number": 40,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-05",
+        "title": "RNAV NavSpecs · RNP General"
+      },
+      "source_page": 399,
+      "question": "Database에 특정 PBN procedure가 보이지 않을 때 가능한 이유는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Aircraft가 해당 PBN element에 ineligible하거나 계산/비행할 수 없음"
+        },
+        {
+          "id": "B",
+          "text": "항상 chart가 폐기됨"
+        },
+        {
+          "id": "C",
+          "text": "ATC가 삭제함"
+        },
+        {
+          "id": "D",
+          "text": "GPS가 반드시 고장남"
+        }
+      ],
+      "answer": "A",
+      "explanation": "FAA safeguard상 database는 aircraft eligibility에 맞는 procedure만 보유하므로 이런 가능성이 있다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.399",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 5"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-041",
+      "number": 41,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-06",
+        "title": "RNP APCH · RNP AR APCH"
+      },
+      "source_page": 400,
+      "question": "미국에서 RNP APCH의 chart title은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "RNAV (GPS)"
+        },
+        {
+          "id": "B",
+          "text": "RNAV (RNP)"
+        },
+        {
+          "id": "C",
+          "text": "ILS (RNP)"
+        },
+        {
+          "id": "D",
+          "text": "VOR (GPS only)"
+        }
+      ],
+      "answer": "A",
+      "explanation": "RNP APCH는 미국에서 RNAV (GPS)로 title된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.400",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 6"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-042",
+      "number": 42,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-06",
+        "title": "RNP APCH · RNP AR APCH"
+      },
+      "source_page": 400,
+      "question": "RNP APCH가 제공할 수 있는 minima 조합은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "LNAV, LNAV/VNAV, LPV, LP"
+        },
+        {
+          "id": "B",
+          "text": "CAT I/II/III only"
+        },
+        {
+          "id": "C",
+          "text": "VOR/DME only"
+        },
+        {
+          "id": "D",
+          "text": "Visual/circling only"
+        }
+      ],
+      "answer": "A",
+      "explanation": "RNP APCH에는 LNAV, LNAV/VNAV, LPV, LP minima가 있을 수 있다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.400",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 6"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-043",
+      "number": 43,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-06",
+        "title": "RNP APCH · RNP AR APCH"
+      },
+      "source_page": 400,
+      "question": "LPV 또는 LP minima 사용에 필요한 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "SBAS"
+        },
+        {
+          "id": "B",
+          "text": "ADF"
+        },
+        {
+          "id": "C",
+          "text": "TACAN only"
+        },
+        {
+          "id": "D",
+          "text": "Radar vector"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문은 LPV/LP minima에 SBAS 사용을 요구한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.400",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 6"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-044",
+      "number": 44,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-06",
+        "title": "RNP APCH · RNP AR APCH"
+      },
+      "source_page": 400,
+      "question": "RNP APCH에서 RF turn capability는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Optional"
+        },
+        {
+          "id": "B",
+          "text": "Mandatory"
+        },
+        {
+          "id": "C",
+          "text": "Prohibited"
+        },
+        {
+          "id": "D",
+          "text": "Only oceanic"
+        }
+      ],
+      "answer": "A",
+      "explanation": "RNP APCH eligibility에서 RF turn은 optional이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.400",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 6"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-045",
+      "number": 45,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-06",
+        "title": "RNP APCH · RNP AR APCH"
+      },
+      "source_page": 400,
+      "question": "RNP APCH final approach의 lateral accuracy는 본질적으로 어디까지 scale하는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "RNP 0.3 또는 SBAS 시 40 m"
+        },
+        {
+          "id": "B",
+          "text": "RNP 10"
+        },
+        {
+          "id": "C",
+          "text": "RNP 4"
+        },
+        {
+          "id": "D",
+          "text": "RNAV 5"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Final approach에서 RNP 0.3까지, SBAS 사용 시 40 m까지 scale한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.400",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 6"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-046",
+      "number": 46,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-06",
+        "title": "RNP APCH · RNP AR APCH"
+      },
+      "source_page": 400,
+      "question": "미국에서 RNP AR APCH의 chart title은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "RNAV (RNP)"
+        },
+        {
+          "id": "B",
+          "text": "RNAV (GPS)"
+        },
+        {
+          "id": "C",
+          "text": "ILS"
+        },
+        {
+          "id": "D",
+          "text": "GLS only"
+        }
+      ],
+      "answer": "A",
+      "explanation": "RNP AR APCH는 RNAV (RNP)로 title된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.400",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 6"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-047",
+      "number": 47,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-06",
+        "title": "RNP APCH · RNP AR APCH"
+      },
+      "source_page": 400,
+      "question": "RNP AR APCH에서 mandatory인 capability는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Scalability와 RF turns"
+        },
+        {
+          "id": "B",
+          "text": "ADF와 NDB"
+        },
+        {
+          "id": "C",
+          "text": "VOR MON"
+        },
+        {
+          "id": "D",
+          "text": "Marker beacon"
+        }
+      ],
+      "answer": "A",
+      "explanation": "RNP AR APCH에서는 scalability와 RF turn capability가 mandatory이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.400",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 6"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-048",
+      "number": 48,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-06",
+        "title": "RNP APCH · RNP AR APCH"
+      },
+      "source_page": 400,
+      "question": "RNP AR APCH vertical navigation은 무엇을 기반으로 하는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Barometric VNAV 또는 SBAS"
+        },
+        {
+          "id": "B",
+          "text": "ADF bearing"
+        },
+        {
+          "id": "C",
+          "text": "DME only"
+        },
+        {
+          "id": "D",
+          "text": "Radar altitude only"
+        }
+      ],
+      "answer": "A",
+      "explanation": "RNP AR APCH vertical navigation performance는 baro-VNAV 또는 SBAS 기반이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.400",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 6"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-049",
+      "number": 49,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-07",
+        "title": "RNP AR DP · Advanced RNP"
+      },
+      "source_page": 400,
+      "question": "RNP AR DP 운항에 필요한 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Special FAA authorization"
+        },
+        {
+          "id": "B",
+          "text": "Visual clearance only"
+        },
+        {
+          "id": "C",
+          "text": "ADF authorization"
+        },
+        {
+          "id": "D",
+          "text": "No special training"
+        }
+      ],
+      "answer": "A",
+      "explanation": "RNP AR DP는 stringent standards와 special FAA authorization이 필요하다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.400",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 7"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-050",
+      "number": 50,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-07",
+        "title": "RNP AR DP · Advanced RNP"
+      },
+      "source_page": 401,
+      "question": "RNP AR DP initial departure path의 lateral accuracy는 최소 어느 값보다 낮게 scale하지 않는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "RNP 0.3"
+        },
+        {
+          "id": "B",
+          "text": "RNP 0.1"
+        },
+        {
+          "id": "C",
+          "text": "RNP 1.0"
+        },
+        {
+          "id": "D",
+          "text": "RNP 4"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문은 initial departure flight path에서 RNP 0.3보다 낮게 scale하지 않는다고 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.401",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 7"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-051",
+      "number": 51,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-07",
+        "title": "RNP AR DP · Advanced RNP"
+      },
+      "source_page": 401,
+      "question": "A-RNP의 미국 mandatory function이 아닌 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "RF turns"
+        },
+        {
+          "id": "B",
+          "text": "Scalable RNP"
+        },
+        {
+          "id": "C",
+          "text": "Parallel offset path generation"
+        },
+        {
+          "id": "D",
+          "text": "CAT III autoland"
+        }
+      ],
+      "answer": "D",
+      "explanation": "A-RNP minimum functions에는 RF turns, scalable RNP, parallel offset path generation이 포함된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.401",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 7"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-052",
+      "number": 52,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-07",
+        "title": "RNP AR DP · Advanced RNP"
+      },
+      "source_page": 401,
+      "question": "일부 oceanic/remote continental airspace에서 A-RNP에 추가로 요구될 수 있는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Higher continuity(예: dual systems)"
+        },
+        {
+          "id": "B",
+          "text": "Single ADF only"
+        },
+        {
+          "id": "C",
+          "text": "No redundancy"
+        },
+        {
+          "id": "D",
+          "text": "Visual navigation only"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문은 higher continuity such as dual systems가 요구될 수 있다고 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.401",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 7"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-053",
+      "number": 53,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-07",
+        "title": "RNP AR DP · Advanced RNP"
+      },
+      "source_page": 401,
+      "question": "미국에서 A-RNP의 optional en route advanced option 예는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Fixed radius transitions와 Time of Arrival Control"
+        },
+        {
+          "id": "B",
+          "text": "CAT III autoland"
+        },
+        {
+          "id": "C",
+          "text": "NDB homing"
+        },
+        {
+          "id": "D",
+          "text": "Marker beacon passage"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문은 fixed radius transitions와 Time of Arrival Control을 optional advanced options로 든다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.401",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 7"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-054",
+      "number": 54,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-07",
+        "title": "RNP AR DP · Advanced RNP"
+      },
+      "source_page": 401,
+      "question": "A-RNP terminal environment에서 scalable lateral value는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1.0 또는 0.3"
+        },
+        {
+          "id": "B",
+          "text": "2 또는 4 only"
+        },
+        {
+          "id": "C",
+          "text": "10 only"
+        },
+        {
+          "id": "D",
+          "text": "0.1 only"
+        }
+      ],
+      "answer": "A",
+      "explanation": "A-RNP는 terminal에서 1.0 또는 0.3 scalable RNP를 허용한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.401",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 7"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-055",
+      "number": 55,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-07",
+        "title": "RNP AR DP · Advanced RNP"
+      },
+      "source_page": 401,
+      "question": "Reduced lateral accuracy 사용 시 보통 요구되는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Autopilot 및/또는 flight director"
+        },
+        {
+          "id": "B",
+          "text": "ADF only"
+        },
+        {
+          "id": "C",
+          "text": "Cabin crew approval"
+        },
+        {
+          "id": "D",
+          "text": "Radar altimeter only"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문은 reduced lateral accuracies가 보통 autopilot/flight director 사용을 요구한다고 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.401",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 7"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-056",
+      "number": 56,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-07",
+        "title": "RNP AR DP · Advanced RNP"
+      },
+      "source_page": 401,
+      "question": "A-RNP eligibility가 자동으로 주지 않는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "RNP AR APCH/DP eligibility"
+        },
+        {
+          "id": "B",
+          "text": "RNP APCH eligibility"
+        },
+        {
+          "id": "C",
+          "text": "RNP/RNAV 1 eligibility"
+        },
+        {
+          "id": "D",
+          "text": "RNP 4 eligibility"
+        }
+      ],
+      "answer": "A",
+      "explanation": "RNP AR은 별도 determination과 special FAA authorization이 필요하다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.401",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 7"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-057",
+      "number": 57,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-08",
+        "title": "RNP 1/2/4/10/0.3 · PBN Depiction"
+      },
+      "source_page": 401,
+      "question": "RNP 1의 lateral accuracy 값은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1"
+        },
+        {
+          "id": "B",
+          "text": "2"
+        },
+        {
+          "id": "C",
+          "text": "4"
+        },
+        {
+          "id": "D",
+          "text": "10"
+        }
+      ],
+      "answer": "A",
+      "explanation": "RNP 1은 lateral accuracy 1을 요구한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.401",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 8"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-058",
+      "number": 58,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-08",
+        "title": "RNP 1/2/4/10/0.3 · PBN Depiction"
+      },
+      "source_page": 401,
+      "question": "RNP 4의 적용 영역은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Oceanic/remote operations only"
+        },
+        {
+          "id": "B",
+          "text": "Final approach only"
+        },
+        {
+          "id": "C",
+          "text": "Taxi only"
+        },
+        {
+          "id": "D",
+          "text": "Visual approach only"
+        }
+      ],
+      "answer": "A",
+      "explanation": "RNP 4는 oceanic/remote에만 적용된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.401",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 8"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-059",
+      "number": 59,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-08",
+        "title": "RNP 1/2/4/10/0.3 · PBN Depiction"
+      },
+      "source_page": 401,
+      "question": "RNP 4 eligibility가 자동으로 부여하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "RNP 10 eligibility"
+        },
+        {
+          "id": "B",
+          "text": "RNP AR APCH"
+        },
+        {
+          "id": "C",
+          "text": "CAT III"
+        },
+        {
+          "id": "D",
+          "text": "RNAV 1 only"
+        }
+      ],
+      "answer": "A",
+      "explanation": "RNP 4 eligibility는 RNP 10 eligibility를 자동 confer한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.401",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 8"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-060",
+      "number": 60,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-08",
+        "title": "RNP 1/2/4/10/0.3 · PBN Depiction"
+      },
+      "source_page": 402,
+      "question": "RNP 0.3이 authorized되지 않는 영역이 아닌 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Terminal authorized phase"
+        },
+        {
+          "id": "B",
+          "text": "Oceanic"
+        },
+        {
+          "id": "C",
+          "text": "Remote"
+        },
+        {
+          "id": "D",
+          "text": "Final approach segment"
+        }
+      ],
+      "answer": "A",
+      "explanation": "RNP 0.3은 authorized phase에서는 사용할 수 있으나 oceanic/remote/final approach에는 authorized되지 않는다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.402",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 8"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-061",
+      "number": 61,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-08",
+        "title": "RNP 1/2/4/10/0.3 · PBN Depiction"
+      },
+      "source_page": 402,
+      "question": "RNP 0.3의 RF turn capability는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Optional"
+        },
+        {
+          "id": "B",
+          "text": "Mandatory"
+        },
+        {
+          "id": "C",
+          "text": "Prohibited"
+        },
+        {
+          "id": "D",
+          "text": "Only for oceanic"
+        }
+      ],
+      "answer": "A",
+      "explanation": "RNP 0.3 eligibility에서 RF turn은 optional이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.402",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 8"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-062",
+      "number": 62,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-08",
+        "title": "RNP 1/2/4/10/0.3 · PBN Depiction"
+      },
+      "source_page": 402,
+      "question": "Charted “RNP 0.30”과 NavSpec “RNP 0.3”에 대한 설명으로 맞는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "서로 혼동하지 말아야 한다."
+        },
+        {
+          "id": "B",
+          "text": "완전히 같은 표기 규칙이다."
+        },
+        {
+          "id": "C",
+          "text": "둘 다 반드시 세 자리 소수다."
+        },
+        {
+          "id": "D",
+          "text": "둘 다 final approach 전용이다."
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문 NOTE는 charted RNP 0.30과 NavSpec title RNP 0.3을 구분하라고 한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.402",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 8"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-063",
+      "number": 63,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-08",
+        "title": "RNP 1/2/4/10/0.3 · PBN Depiction"
+      },
+      "source_page": 402,
+      "question": "미국의 PBN box에 포함될 수 있는 항목이 아닌 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "NavSpec"
+        },
+        {
+          "id": "B",
+          "text": "Required sensor/infrastructure"
+        },
+        {
+          "id": "C",
+          "text": "Minimum RNP value"
+        },
+        {
+          "id": "D",
+          "text": "승객 수"
+        }
+      ],
+      "answer": "D",
+      "explanation": "PBN box는 NavSpec, sensor/infrastructure, advanced function, minimum RNP, remarks 등을 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.402",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 8"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-064",
+      "number": 64,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-08",
+        "title": "RNP 1/2/4/10/0.3 · PBN Depiction"
+      },
+      "source_page": 402,
+      "question": "PBN requirements와 ground-based equipment requirements가 모두 있으면 어느 box가 먼저 표시되는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "PBN requirements box"
+        },
+        {
+          "id": "B",
+          "text": "Equipment Requirements box"
+        },
+        {
+          "id": "C",
+          "text": "Weather box"
+        },
+        {
+          "id": "D",
+          "text": "NOTAM box"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문은 PBN requirements box가 먼저 나온다고 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.402",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 8"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-065",
+      "number": 65,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-09",
+        "title": "Other RNP Applications · Eligibility · TABLE 1-2-1"
+      },
+      "source_page": 402,
+      "question": "NOPAC의 RNP-10 route 도입 효과 예로 원문이 제시한 track 간격은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "50 NM"
+        },
+        {
+          "id": "B",
+          "text": "30 NM"
+        },
+        {
+          "id": "C",
+          "text": "80 NM"
+        },
+        {
+          "id": "D",
+          "text": "100 NM"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문은 northern Pacific RNP-10 route에서 track 간격을 50 NM로 줄였다고 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.402",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 9"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-066",
+      "number": 66,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-09",
+        "title": "Other RNP Applications · Eligibility · TABLE 1-2-1"
+      },
+      "source_page": 403,
+      "question": "RNP eligibility는 보통 어디에 기재되는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "AFM/avionics manual 또는 supplement"
+        },
+        {
+          "id": "B",
+          "text": "Passenger manifest"
+        },
+        {
+          "id": "C",
+          "text": "ATIS"
+        },
+        {
+          "id": "D",
+          "text": "Airport diagram only"
+        }
+      ],
+      "answer": "A",
+      "explanation": "RNP eligibility entry는 AFM, avionics manual 또는 supplement에 있어야 한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.403",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 9"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-067",
+      "number": 67,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-09",
+        "title": "Other RNP Applications · Eligibility · TABLE 1-2-1"
+      },
+      "source_page": 403,
+      "question": "EPU의 다른 명칭으로 원문이 제시한 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "ANP 또는 EPE"
+        },
+        {
+          "id": "B",
+          "text": "RAIM 또는 FDE"
+        },
+        {
+          "id": "C",
+          "text": "VOR 또는 DME"
+        },
+        {
+          "id": "D",
+          "text": "LPV 또는 LP"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Estimated Position Uncertainty는 ANP 또는 EPE라고도 불릴 수 있다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.403",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 9"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-068",
+      "number": 68,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-09",
+        "title": "Other RNP Applications · Eligibility · TABLE 1-2-1"
+      },
+      "source_page": 403,
+      "question": "TABLE 1-2-1에서 RNP 2의 typical application은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "En Route"
+        },
+        {
+          "id": "B",
+          "text": "RNP AR approach only"
+        },
+        {
+          "id": "C",
+          "text": "Taxi"
+        },
+        {
+          "id": "D",
+          "text": "Final approach only"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Table은 RNP 2를 En Route로 제시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.403",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 9"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-069",
+      "number": 69,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-09",
+        "title": "Other RNP Applications · Eligibility · TABLE 1-2-1"
+      },
+      "source_page": 403,
+      "question": "TABLE 1-2-1에서 RNP 4의 primary route width(centerline to boundary)는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "4.0 NM"
+        },
+        {
+          "id": "B",
+          "text": "2.0 NM"
+        },
+        {
+          "id": "C",
+          "text": "10.0 NM"
+        },
+        {
+          "id": "D",
+          "text": "1.0 NM"
+        }
+      ],
+      "answer": "A",
+      "explanation": "RNP 4는 4.0 NM이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.403",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 9"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-070",
+      "number": 70,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-09",
+        "title": "Other RNP Applications · Eligibility · TABLE 1-2-1"
+      },
+      "source_page": 403,
+      "question": "TABLE 1-2-1에서 RNP 10의 typical application은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Oceanic/remote areas with performance-based horizontal separation"
+        },
+        {
+          "id": "B",
+          "text": "Terminal only"
+        },
+        {
+          "id": "C",
+          "text": "Visual circuit"
+        },
+        {
+          "id": "D",
+          "text": "ILS final only"
+        }
+      ],
+      "answer": "A",
+      "explanation": "RNP 10은 oceanic/remote performance-based horizontal separation 영역에 적용된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.403",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 9"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-071",
+      "number": 71,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-09",
+        "title": "Other RNP Applications · Eligibility · TABLE 1-2-1"
+      },
+      "source_page": 403,
+      "question": "TABLE 1-2-1에서 RNP AR approach segment range는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "0.1 to 1.0"
+        },
+        {
+          "id": "B",
+          "text": "2 to 4"
+        },
+        {
+          "id": "C",
+          "text": "4 to 10"
+        },
+        {
+          "id": "D",
+          "text": "1 to 10"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Table은 RNP AR Approach Segments를 0.1 to 1.0으로 제시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.403",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 9"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-072",
+      "number": 72,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-09",
+        "title": "Other RNP Applications · Eligibility · TABLE 1-2-1"
+      },
+      "source_page": 403,
+      "question": "Specific eligibility statement가 AFM에 없어도 가능한 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Special conditions/limitations를 포함한 operational approval"
+        },
+        {
+          "id": "B",
+          "text": "RNP 운항은 절대 불가"
+        },
+        {
+          "id": "C",
+          "text": "자동 RNP AR approval"
+        },
+        {
+          "id": "D",
+          "text": "ATC 구두 승인만으로 모두 가능"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문은 specific statement가 없어도 조건을 포함한 operational approval 가능성을 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.403",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 9"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-073",
+      "number": 73,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-10",
+        "title": "Suitable RNAV · Substitute/Alternate Means · Qualifying Systems"
+      },
+      "source_page": 403,
+      "question": "Out-of-service NDB를 suitable RNAV로 대신해 hold하는 것은 어떤 개념의 예인가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Substitute Means of Navigation"
+        },
+        {
+          "id": "B",
+          "text": "Alternate Means only"
+        },
+        {
+          "id": "C",
+          "text": "Visual navigation"
+        },
+        {
+          "id": "D",
+          "text": "Radar separation"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Out-of-service NAVAID 대신 쓰는 것은 Substitute Means이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.403",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 10"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-074",
+      "number": 74,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-10",
+        "title": "Suitable RNAV · Substitute/Alternate Means · Qualifying Systems"
+      },
+      "source_page": 403,
+      "question": "Operational VOR 기반 route를 VOR monitoring 없이 suitable RNAV로 비행하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Alternate Means of Navigation"
+        },
+        {
+          "id": "B",
+          "text": "Substitute Means only"
+        },
+        {
+          "id": "C",
+          "text": "Emergency descent"
+        },
+        {
+          "id": "D",
+          "text": "Visual approach"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Underlying conventional NAVAID가 operational일 때 suitable RNAV를 alternate means로 사용할 수 있다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.403",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 10"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-075",
+      "number": 75,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-10",
+        "title": "Suitable RNAV · Substitute/Alternate Means · Qualifying Systems"
+      },
+      "source_page": 404,
+      "question": "Suitable RNAV 사용에 관한 추가 guidance AC는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "AC 90-108"
+        },
+        {
+          "id": "B",
+          "text": "AC 91-70"
+        },
+        {
+          "id": "C",
+          "text": "AC 90-101"
+        },
+        {
+          "id": "D",
+          "text": "AC 120-76"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문 NOTE는 AC 90-108을 안내한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.404",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 10"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-076",
+      "number": 76,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-10",
+        "title": "Suitable RNAV · Substitute/Alternate Means · Qualifying Systems"
+      },
+      "source_page": 404,
+      "question": "Navigation database에 대한 기본 원칙은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Flight duration 동안 current해야 한다."
+        },
+        {
+          "id": "B",
+          "text": "출발 시에만 current면 된다."
+        },
+        {
+          "id": "C",
+          "text": "Approach 때만 필요하다."
+        },
+        {
+          "id": "D",
+          "text": "RNAV에는 database가 필요 없다."
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문은 database가 flight duration 동안 current해야 한다고 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.404",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 10"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-077",
+      "number": 77,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-10",
+        "title": "Suitable RNAV · Substitute/Alternate Means · Qualifying Systems"
+      },
+      "source_page": 404,
+      "question": "Procedure amendment date가 database expiration date와 같거나 이후라면?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "그 database로 해당 operation을 수행하지 않는다."
+        },
+        {
+          "id": "B",
+          "text": "항상 그대로 사용한다."
+        },
+        {
+          "id": "C",
+          "text": "ATC 구두허가만 받는다."
+        },
+        {
+          "id": "D",
+          "text": "VFR로 전환하면 자동 허용"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문은 amended chart/date가 database expiration 이후면 database를 사용하지 말라고 한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.404",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 10"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-078",
+      "number": 78,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-10",
+        "title": "Suitable RNAV · Substitute/Alternate Means · Qualifying Systems"
+      },
+      "source_page": 404,
+      "question": "Suitable RNAV system으로 qualify할 수 있는 GPS equipment 조합은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "TSO-C129/-C145/-C146 조건 충족 system"
+        },
+        {
+          "id": "B",
+          "text": "ADF only"
+        },
+        {
+          "id": "C",
+          "text": "Marker beacon only"
+        },
+        {
+          "id": "D",
+          "text": "ELT only"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문은 TSO-C129/-C145/-C146 RNAV systems를 조건부 suitable system으로 제시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.404",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 10"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-079",
+      "number": 79,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-10",
+        "title": "Suitable RNAV · Substitute/Alternate Means · Qualifying Systems"
+      },
+      "source_page": 404,
+      "question": "DME/DME/IRU system의 관련 equipment provision guidance는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "AC 90-100A"
+        },
+        {
+          "id": "B",
+          "text": "AC 90-108 only"
+        },
+        {
+          "id": "C",
+          "text": "AC 91-70"
+        },
+        {
+          "id": "D",
+          "text": "AC 90-101"
+        }
+      ],
+      "answer": "A",
+      "explanation": "DME/DME/IRU RNAV routes equipment provisions는 AC 90-100A 관련이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.404",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 10"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-080",
+      "number": 80,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-10",
+        "title": "Suitable RNAV · Substitute/Alternate Means · Qualifying Systems"
+      },
+      "source_page": 404,
+      "question": "GPS/WAAS input 없는 DME/DME/IRU system을 substitute means로 쓰려면?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Specific NOTAM 또는 FAA guidance의 명시적 authorization"
+        },
+        {
+          "id": "B",
+          "text": "언제나 자유롭게 가능"
+        },
+        {
+          "id": "C",
+          "text": "VFR에서만 가능"
+        },
+        {
+          "id": "D",
+          "text": "ATIS 승인만 필요"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문 NOTE는 특정 procedure에 대해 NOTAM/FAA guidance가 authorize한 경우만 허용한다고 한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.404",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 10"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-081",
+      "number": 81,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-11",
+        "title": "Suitable RNAV Uses · Restrictions · Alternate Airport"
+      },
+      "source_page": 405,
+      "question": "Suitable RNAV로 가능한 operation이 아닌 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "DME-based arc 비행"
+        },
+        {
+          "id": "B",
+          "text": "VOR/NDB로 navigate to/from"
+        },
+        {
+          "id": "C",
+          "text": "VOR/NDB 위 hold"
+        },
+        {
+          "id": "D",
+          "text": "Raw localizer reference 없이 localizer final lateral guidance 대체"
+        }
+      ],
+      "answer": "D",
+      "explanation": "Localizer-based lateral guidance를 raw localizer data 없이 대체하는 것은 허용되지 않는다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.405",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 11"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-082",
+      "number": 82,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-11",
+        "title": "Suitable RNAV Uses · Restrictions · Alternate Airport"
+      },
+      "source_page": 405,
+      "question": "Procedure에 “ADF required”라고 명시되어 있어도 suitable RNAV allowance는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "조건 충족 시 적용될 수 있다."
+        },
+        {
+          "id": "B",
+          "text": "절대 적용되지 않는다."
+        },
+        {
+          "id": "C",
+          "text": "VFR에서만 적용"
+        },
+        {
+          "id": "D",
+          "text": "Military only"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문 NOTE는 explicit required facility에도 allowance가 적용될 수 있다고 한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.405",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 11"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-083",
+      "number": 83,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-11",
+        "title": "Suitable RNAV Uses · Restrictions · Alternate Airport"
+      },
+      "source_page": 405,
+      "question": "NA로 표시된 procedure에 suitable RNAV를 사용할 수 있는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "NOTAM exception 없이는 불가"
+        },
+        {
+          "id": "B",
+          "text": "항상 가능"
+        },
+        {
+          "id": "C",
+          "text": "GPS면 항상 가능"
+        },
+        {
+          "id": "D",
+          "text": "ATC vector면 자동 가능"
+        }
+      ],
+      "answer": "A",
+      "explanation": "NA without exception이면 suitable RNAV substitution도 허용되지 않는다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.405",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 11"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-084",
+      "number": 84,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-11",
+        "title": "Suitable RNAV Uses · Restrictions · Alternate Airport"
+      },
+      "source_page": 405,
+      "question": "VOR/TACAN/NDB 기반 final approach segment에서 suitable RNAV 사용 시 필요한 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Underlying NAVAID operational 및 course alignment monitoring"
+        },
+        {
+          "id": "B",
+          "text": "Underlying NAVAID off"
+        },
+        {
+          "id": "C",
+          "text": "No monitoring"
+        },
+        {
+          "id": "D",
+          "text": "ADF only"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Final segment navigation means로 RNAV를 사용할 수 있으나 underlying NAVAID가 operational이고 monitored되어야 한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.405",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 11"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-085",
+      "number": 85,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-11",
+        "title": "Suitable RNAV Uses · Restrictions · Alternate Airport"
+      },
+      "source_page": 406,
+      "question": "일반적인 alternate planning에서 required alternate가 가져야 하는 approach는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "GPS를 요구하지 않는 available instrument approach"
+        },
+        {
+          "id": "B",
+          "text": "GPS-only approach만"
+        },
+        {
+          "id": "C",
+          "text": "Visual approach only"
+        },
+        {
+          "id": "D",
+          "text": "No approach required"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원칙적으로 alternate에는 GPS를 요구하지 않는 available IAP가 있어야 한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.406",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 11"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-086",
+      "number": 86,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-11",
+        "title": "Suitable RNAV Uses · Restrictions · Alternate Airport"
+      },
+      "source_page": 406,
+      "question": "TSO-C129/C196 GPS user가 GPS-based IAP를 flight plan에 사용할 수 있는 위치 조합은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Destination 또는 alternate 중 한 곳, 둘 다는 아님"
+        },
+        {
+          "id": "B",
+          "text": "Destination과 alternate 모두 항상"
+        },
+        {
+          "id": "C",
+          "text": "Alternate만"
+        },
+        {
+          "id": "D",
+          "text": "어느 곳도 불가"
+        }
+      ],
+      "answer": "A",
+      "explanation": "조건 충족 시 destination 또는 alternate 중 한 곳에만 GPS-based IAP를 기반으로 file할 수 있다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.406",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 11"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-087",
+      "number": 87,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-11",
+        "title": "Suitable RNAV Uses · Restrictions · Alternate Airport"
+      },
+      "source_page": 406,
+      "question": "Alternate에서 TSO-C129/C196 user가 계획할 수 있는 minima가 아닌 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "LNAV/circling MDA"
+        },
+        {
+          "id": "B",
+          "text": "Approved baro-VNAV 사용 LNAV/VNAV DA"
+        },
+        {
+          "id": "C",
+          "text": "Authorized RNP 0.3 DA"
+        },
+        {
+          "id": "D",
+          "text": "CAT III autoland automatically"
+        }
+      ],
+      "answer": "D",
+      "explanation": "원문은 LNAV/circling, 조건부 LNAV/VNAV, 조건부 RNP 0.3 DA를 열거한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.406",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 11"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-088",
+      "number": 88,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-11",
+        "title": "Suitable RNAV Uses · Restrictions · Alternate Airport"
+      },
+      "source_page": 406,
+      "question": "Alternate restriction이 적용되지 않는 WAAS equipment는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "TSO-C145/C146"
+        },
+        {
+          "id": "B",
+          "text": "TSO-C129 only"
+        },
+        {
+          "id": "C",
+          "text": "ADF"
+        },
+        {
+          "id": "D",
+          "text": "DME only"
+        }
+      ],
+      "answer": "A",
+      "explanation": "TSO-C145/C146 WAAS user에는 해당 restriction이 적용되지 않는다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.406",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 11"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-089",
+      "number": 89,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-12",
+        "title": "GPS Jamming / Spoofing"
+      },
+      "source_page": 406,
+      "question": "GPS anomaly 발견 시 pilot의 기본 조치는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Equipment performance를 closely monitor하고 apparent degradation을 ATC에 promptly inform"
+        },
+        {
+          "id": "B",
+          "text": "무조건 transponder off"
+        },
+        {
+          "id": "C",
+          "text": "ATC에 알리지 않음"
+        },
+        {
+          "id": "D",
+          "text": "즉시 모든 electrical system off"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문은 anomaly monitoring과 ATC notification을 강조한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.406",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 12"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-090",
+      "number": 90,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-12",
+        "title": "GPS Jamming / Spoofing"
+      },
+      "source_page": 407,
+      "question": "U.S. government GPS tests/training/exercises는 어떻게 공지되는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "GPS/WAAS NOTAM"
+        },
+        {
+          "id": "B",
+          "text": "ATIS only"
+        },
+        {
+          "id": "C",
+          "text": "METAR only"
+        },
+        {
+          "id": "D",
+          "text": "No publication"
+        }
+      ],
+      "answer": "A",
+      "explanation": "이 활동은 GPS 및/또는 WAAS NOTAM으로 공지된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.407",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 12"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-091",
+      "number": 91,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-12",
+        "title": "GPS Jamming / Spoofing"
+      },
+      "source_page": 407,
+      "question": "GPS jamming/spoofing의 possible impact가 아닌 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "ADS-B output 오류"
+        },
+        {
+          "id": "B",
+          "text": "TAWS unreliable triggering"
+        },
+        {
+          "id": "C",
+          "text": "Aircraft clock error"
+        },
+        {
+          "id": "D",
+          "text": "Runway pavement 색상 변경"
+        }
+      ],
+      "answer": "D",
+      "explanation": "원문은 navigation/TAWS/ADS-B/FMS/clock 등 여러 시스템 영향을 열거한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.407",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 12"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-092",
+      "number": 92,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-12",
+        "title": "GPS Jamming / Spoofing"
+      },
+      "source_page": 407,
+      "question": "IFR에서 compromised GPS를 탐지하기 위한 방법으로 원문이 권고하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "VOR/DME 등으로 routine position cross-check"
+        },
+        {
+          "id": "B",
+          "text": "GPS indication만 신뢰"
+        },
+        {
+          "id": "C",
+          "text": "NAVAID 전부 끄기"
+        },
+        {
+          "id": "D",
+          "text": "Clock만 확인"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Additional navigation equipment와 VOR/DME cross-check가 도움될 수 있다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.407",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 12"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-093",
+      "number": 93,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-12",
+        "title": "GPS Jamming / Spoofing"
+      },
+      "source_page": 407,
+      "question": "Pre-departure FAA recommendation이 아닌 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Relevant NOTAM 확인"
+        },
+        {
+          "id": "B",
+          "text": "Fuel contingency 계획"
+        },
+        {
+          "id": "C",
+          "text": "Conventional NAVAID/arrival approach 계획"
+        },
+        {
+          "id": "D",
+          "text": "GPS anomaly report를 미리 허위 제출"
+        }
+      ],
+      "answer": "D",
+      "explanation": "출발 전 risk location/NOTAM/fuel/conventional plan/OEM guidance를 권고한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.407",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 12"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-094",
+      "number": 94,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-12",
+        "title": "GPS Jamming / Spoofing"
+      },
+      "source_page": 408,
+      "question": "Jamming/spoofing indication 예가 아닌 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Aircraft clock change"
+        },
+        {
+          "id": "B",
+          "text": "Large GPS position shift"
+        },
+        {
+          "id": "C",
+          "text": "PFD/ND position error warning"
+        },
+        {
+          "id": "D",
+          "text": "Cabin seat belt sign illumination만"
+        }
+      ],
+      "answer": "D",
+      "explanation": "원문은 navigation/clock/FMS/GPS position/PFD-ND warning/other aircraft reports 등을 예로 든다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.408",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 12"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-095",
+      "number": 95,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-12",
+        "title": "GPS Jamming / Spoofing"
+      },
+      "source_page": 408,
+      "question": "Known NOTAMed GPS testing area를 비행 중이고 ATC assistance가 필요하지 않다면?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Jamming/spoofing을 ATC에 굳이 보고하지 않아도 된다."
+        },
+        {
+          "id": "B",
+          "text": "반드시 emergency 선언"
+        },
+        {
+          "id": "C",
+          "text": "반드시 7700"
+        },
+        {
+          "id": "D",
+          "text": "즉시 착륙"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문은 known NOTAMed testing area에서는 ATC assistance가 필요하지 않으면 해당 보고를 하지 않아도 된다고 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.408",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 12"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-PBN-RNAV-096",
+      "number": 96,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 2. PBN & RNAV",
+      "study_unit": 2,
+      "study_unit_title": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+      "subunit": {
+        "code": "PBN-STAGE-12",
+        "title": "GPS Jamming / Spoofing"
+      },
+      "source_page": 408,
+      "question": "Post-flight FAA recommendation은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Maintenance log에 기록하고 detailed GPS anomaly report 제출"
+        },
+        {
+          "id": "B",
+          "text": "기록 없이 무시"
+        },
+        {
+          "id": "C",
+          "text": "GPS database 삭제"
+        },
+        {
+          "id": "D",
+          "text": "ATC clearance 취소"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Post-flight에는 maintenance log 기록과 FAA GPS anomaly reporting을 권고한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 2 · p.408",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data - General",
+        "PBN",
+        "RNAV",
+        "Stage 12"
+      ],
+      "reference_study_only": true
+    }
+  ]
+}
