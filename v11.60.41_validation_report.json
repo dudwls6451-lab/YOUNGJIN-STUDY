@@ -1,0 +1,21 @@
+{
+  "version": "11.60.41",
+  "base_version": "11.60.40",
+  "status": "PASS",
+  "source_pdf_sha256": "fdfa659f680009d177c58ae0e7f25c8a7d2a822e9085789bb330fa3c74551f4a",
+  "physical_pages": 214,
+  "page_objects": 214,
+  "source_text_exact_page_equality": true,
+  "source_text_chars": 302071,
+  "translated_text_chars": 138061,
+  "rendered_visual_pages": 110,
+  "blank_pages": 27,
+  "definitions_english_headword_policy": true,
+  "index_css_hook": true,
+  "index_js_hook": true,
+  "notes": [
+    "Every source page is retained in data JSON.",
+    "Rendered visual pages supplement extracted text for figures/tables.",
+    "Korean study text and full English source are switchable in the reader."
+  ]
+}
