@@ -1,0 +1,30 @@
+{
+  "version": "v11.60.35",
+  "base": "v11.60.34",
+  "source": "2. Gleim CPL 2024.pdf",
+  "checks": {
+    "question_count": 893,
+    "sequential_numbers": true,
+    "unique_ids": true,
+    "three_choices_all": true,
+    "answers_valid": true,
+    "source_answer_blocks": 893,
+    "answer_sequence_match_893": true,
+    "figure_dependent_questions": 164,
+    "new_figure_assets": 58,
+    "all_images_exist": true,
+    "known_text_fixes": [
+      276,
+      695,
+      793,
+      800
+    ],
+    "choice_fields_cleaned": 40,
+    "no_old_fullpage_figure_paths": true,
+    "legend14_connected": true,
+    "legend15_connected": true,
+    "js_syntax": true,
+    "zip_integrity": true,
+    "zip_file_count": 63
+  }
+}
