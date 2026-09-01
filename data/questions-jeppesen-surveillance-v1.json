@@ -1,0 +1,6130 @@
+{
+  "metadata": {
+    "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+    "source": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.409–436",
+    "version": "11.60.40",
+    "question_count": 136
+  },
+  "questions": [
+    {
+      "id": "JEPP-SURV-001",
+      "number": 1,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-01",
+        "title": "Radar · Capabilities & Core Limitations"
+      },
+      "source_page": 409,
+      "question": "Radar에서 표적까지의 range를 결정하는 기본 원리는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "반사파의 주파수 편이만 측정한다"
+        },
+        {
+          "id": "B",
+          "text": "전파가 표적까지 갔다가 돌아오는 시간을 측정한다"
+        },
+        {
+          "id": "C",
+          "text": "안테나 회전속도만 측정한다"
+        },
+        {
+          "id": "D",
+          "text": "Mode C 고도정보를 사용한다"
+        }
+      ],
+      "answer": "B",
+      "explanation": "원문은 전파가 물체까지 갔다가 되돌아오는 시간을 빛의 속도와 함께 이용해 range를 결정한다고 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.409",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-002",
+      "number": 2,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-01",
+        "title": "Radar · Capabilities & Core Limitations"
+      },
+      "source_page": 409,
+      "question": "Radar site에서 탐지된 물체의 direction은 무엇으로 결정하는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "반사파 수신 시 rotating antenna의 위치"
+        },
+        {
+          "id": "B",
+          "text": "transponder code"
+        },
+        {
+          "id": "C",
+          "text": "aircraft altitude"
+        },
+        {
+          "id": "D",
+          "text": "ground speed"
+        }
+      ],
+      "answer": "A",
+      "explanation": "반사된 radio wave가 수신될 때 rotating antenna의 position으로 direction을 결정한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.409",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-003",
+      "number": 3,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-01",
+        "title": "Radar · Capabilities & Core Limitations"
+      },
+      "source_page": 409,
+      "question": "Radar service limitation에 관한 설명으로 맞는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "모든 비관제 항공기에도 항상 traffic advisory 제공 가능"
+        },
+        {
+          "id": "B",
+          "text": "Radar에 보이지 않는 항공기에는 advisory가 제한될 수 있다"
+        },
+        {
+          "id": "C",
+          "text": "Primary radar는 지형의 영향을 받지 않는다"
+        },
+        {
+          "id": "D",
+          "text": "ADS-B는 radar limitation과 무관하다"
+        }
+      ],
+      "answer": "B",
+      "explanation": "ATC가 통제하지 않고 radar에도 보이지 않는 항공기에 대해 traffic advisory를 항상 제공할 수 있는 것은 아니다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.409",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-004",
+      "number": 4,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-01",
+        "title": "Radar · Capabilities & Core Limitations"
+      },
+      "source_page": 410,
+      "question": "Anomalous propagation 또는 ducting은 무엇을 의미하는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Radar pulse가 대기 현상으로 굽는 현상"
+        },
+        {
+          "id": "B",
+          "text": "Transponder가 code를 바꾸는 현상"
+        },
+        {
+          "id": "C",
+          "text": "DME slant range error"
+        },
+        {
+          "id": "D",
+          "text": "ADS-B FLT ID mismatch"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Temperature inversion 등으로 radar pulse가 굽는 현상을 anomalous propagation/ducting이라 한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.410",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-005",
+      "number": 5,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-01",
+        "title": "Radar · Capabilities & Core Limitations"
+      },
+      "source_page": 410,
+      "question": "Radar beam이 지상 쪽으로 비정상적으로 굽으면 나타날 수 있는 현상은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Detection range만 항상 증가한다"
+        },
+        {
+          "id": "B",
+          "text": "많은 extraneous blips가 나타날 수 있다"
+        },
+        {
+          "id": "C",
+          "text": "Mode C가 자동 비활성화된다"
+        },
+        {
+          "id": "D",
+          "text": "Radar scope가 꺼진다"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Beam이 지상 쪽으로 bent되면 operator display에 extraneous blips가 많이 나타날 수 있다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.410",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-006",
+      "number": 6,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-01",
+        "title": "Radar · Capabilities & Core Limitations"
+      },
+      "source_page": 410,
+      "question": "MTI의 부정적 특성으로 원문이 설명한 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "모든 weather return을 증가시킨다"
+        },
+        {
+          "id": "B",
+          "text": "Blind/tangential speed의 aircraft가 표시되지 않을 수 있다"
+        },
+        {
+          "id": "C",
+          "text": "ADS-B aircraft만 지운다"
+        },
+        {
+          "id": "D",
+          "text": "고도정보를 500 ft 단위로 만든다"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Aircraft speed가 MTI canceling signal과 일치하는 tangential/blind speed이면 display되지 않을 수 있다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.410",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-007",
+      "number": 7,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-01",
+        "title": "Radar · Capabilities & Core Limitations"
+      },
+      "source_page": 410,
+      "question": "낮은 고도의 항공기가 primary radar에 보이지 않을 수 있는 이유로 원문에 포함된 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Magnetic variation"
+        },
+        {
+          "id": "B",
+          "text": "Mountain screening 및 earth curvature"
+        },
+        {
+          "id": "C",
+          "text": "FLT ID mismatch"
+        },
+        {
+          "id": "D",
+          "text": "RAIM outage"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Mountain에 가려지거나 earth curvature 때문에 radar beam 아래에 위치할 수 있다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.410",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-008",
+      "number": 8,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-01",
+        "title": "Radar · Capabilities & Core Limitations"
+      },
+      "source_page": 410,
+      "question": "Secondary-radar-only 또는 ADS-B 지역에서 transponder와 ADS-B가 모두 없는 항공기는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Radar service를 정상 제공받을 수 있다"
+        },
+        {
+          "id": "B",
+          "text": "Radar service를 제공받을 수 없다"
+        },
+        {
+          "id": "C",
+          "text": "자동으로 TIS-B가 생성된다"
+        },
+        {
+          "id": "D",
+          "text": "항상 primary weather advisory를 받는다"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Secondary-only/ADS-B coverage에서는 해당 equipment가 없는 aircraft에 radar service를 제공할 수 없다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.410",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-009",
+      "number": 9,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-02",
+        "title": "Radar · Wind Turbine & ATC Limitations"
+      },
+      "source_page": 411,
+      "question": "원문의 rule of thumb에서 wind turbine farm으로 간주되는 turbine 수는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1개 이상"
+        },
+        {
+          "id": "B",
+          "text": "2개 이상"
+        },
+        {
+          "id": "C",
+          "text": "3개 이상"
+        },
+        {
+          "id": "D",
+          "text": "10개 이상"
+        }
+      ],
+      "answer": "C",
+      "explanation": "원문 NOTE는 일반적으로 3개 이상의 turbine을 wind turbine farm으로 본다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.411",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-010",
+      "number": 10,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-02",
+        "title": "Radar · Wind Turbine & ATC Limitations"
+      },
+      "source_page": 411,
+      "question": "극단적인 wind turbine detection loss는 nearest turbine 주변 수평으로 어느 거리보다 더 뻗을 수 있는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "0.3 NM"
+        },
+        {
+          "id": "B",
+          "text": "0.5 NM"
+        },
+        {
+          "id": "C",
+          "text": "1.0 NM"
+        },
+        {
+          "id": "D",
+          "text": "5 NM"
+        }
+      ],
+      "answer": "C",
+      "explanation": "원문은 extreme circumstances에서 1.0 NM보다 더 수평으로 확장될 수 있다고 한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.411",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-011",
+      "number": 11,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-02",
+        "title": "Radar · Wind Turbine & ATC Limitations"
+      },
+      "source_page": 411,
+      "question": "Non-Transponder/Non-ADS-B Out aircraft가 wind turbine farm 주변에서 피하도록 권고되는 범위는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "수평 1.0 NM 이내, 모든 고도"
+        },
+        {
+          "id": "B",
+          "text": "수평 10 NM 이내, 10,000 ft 이하"
+        },
+        {
+          "id": "C",
+          "text": "수평 0.1 NM 이내만"
+        },
+        {
+          "id": "D",
+          "text": "수평 5 NM 이내, 3,000 ft 이하"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문은 interference 회피를 위해 수평 1.0 NM 이내를 모든 고도에서 피하도록 권고한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.411",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-012",
+      "number": 12,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-02",
+        "title": "Radar · Wind Turbine & ATC Limitations"
+      },
+      "source_page": 411,
+      "question": "FIG 4-5-2의 NOTE가 인용하는 구조물 등에 대한 최소 접근 거리 기준은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "100 ft"
+        },
+        {
+          "id": "B",
+          "text": "500 ft"
+        },
+        {
+          "id": "C",
+          "text": "1,000 ft"
+        },
+        {
+          "id": "D",
+          "text": "2,000 ft"
+        }
+      ],
+      "answer": "B",
+      "explanation": "14 CFR §91.119(c)의 500 ft 기준이 인용되어 있다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.411",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-013",
+      "number": 13,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-02",
+        "title": "Radar · Wind Turbine & ATC Limitations"
+      },
+      "source_page": 412,
+      "question": "Wind turbine farm 인근 Non-Transponder/Non-ADS-B Out aircraft에 대해 ATC가 할 수 없는 것으로 강조된 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "항공기에 separation 제공"
+        },
+        {
+          "id": "B",
+          "text": "See-and-avoid 책임을 조종사에게 요구"
+        },
+        {
+          "id": "C",
+          "text": "VFR hemispheric altitude 준수 권고"
+        },
+        {
+          "id": "D",
+          "text": "Radar track loss 가능성 인지"
+        }
+      ],
+      "answer": "A",
+      "explanation": "이들 항공기는 radar/TIS-B에 나타나지 않을 수 있어 ATC가 separation을 제공할 수 없다고 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.412",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-014",
+      "number": 14,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-02",
+        "title": "Radar · Wind Turbine & ATC Limitations"
+      },
+      "source_page": 412,
+      "question": "Controller의 첫 우선순위는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "모든 VFR traffic 정보 제공"
+        },
+        {
+          "id": "B",
+          "text": "ATC 통제 하 IFR aircraft 사이 separation 설정"
+        },
+        {
+          "id": "C",
+          "text": "TIS-B weather uplink"
+        },
+        {
+          "id": "D",
+          "text": "ADS-B FLT ID 변경"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Vertical/lateral/longitudinal separation between IFR aircraft under ATC control이 first priority다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.412",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-015",
+      "number": 15,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-02",
+        "title": "Radar · Wind Turbine & ATC Limitations"
+      },
+      "source_page": 412,
+      "question": "FAA radar unit의 서비스에 관한 원문 설명으로 맞는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Military만 사용 가능"
+        },
+        {
+          "id": "B",
+          "text": "Civil만 사용 가능"
+        },
+        {
+          "id": "C",
+          "text": "Civil과 military pilots 모두 이용 가능"
+        },
+        {
+          "id": "D",
+          "text": "Emergency에만 이용 가능"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Chart Supplement에 표시된 FAA radar unit은 지속 운용되며 civil/military 모두 이용 가능하다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.412",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-016",
+      "number": 16,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-02",
+        "title": "Radar · Wind Turbine & ATC Limitations"
+      },
+      "source_page": 410,
+      "question": "Wind turbine가 일반적으로 크게 영향을 주지 않는 surveillance return은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Non-transponder search target"
+        },
+        {
+          "id": "B",
+          "text": "ADS-B Out/transponder-equipped aircraft의 surveillance return"
+        },
+        {
+          "id": "C",
+          "text": "Primary weather-only return"
+        },
+        {
+          "id": "D",
+          "text": "NDB bearing"
+        }
+      ],
+      "answer": "B",
+      "explanation": "원문은 transponder/ADS-B Out equipped aircraft에 대한 surveillance radar return quality는 일반적으로 영향이 크지 않다고 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.410",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-017",
+      "number": 17,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-03",
+        "title": "ATCRBS · Surveillance Radar · PAR"
+      },
+      "source_page": 412,
+      "question": "ATCRBS의 세 주요 구성요소가 아닌 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Interrogator"
+        },
+        {
+          "id": "B",
+          "text": "Transponder"
+        },
+        {
+          "id": "C",
+          "text": "Radarscope"
+        },
+        {
+          "id": "D",
+          "text": "Glideslope transmitter"
+        }
+      ],
+      "answer": "D",
+      "explanation": "ATCRBS의 세 요소는 Interrogator, Transponder, Radarscope다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.412",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-018",
+      "number": 18,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-03",
+        "title": "ATCRBS · Surveillance Radar · PAR"
+      },
+      "source_page": 412,
+      "question": "ATCRBS Interrogator의 역할은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Airborne에서 code를 선택한다"
+        },
+        {
+          "id": "B",
+          "text": "Ground에서 transponder에 interrogation을 보내 reply를 요청한다"
+        },
+        {
+          "id": "C",
+          "text": "Only weather를 표시한다"
+        },
+        {
+          "id": "D",
+          "text": "GNSS position을 계산한다"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Interrogator는 ground-based radar beacon transmitter-receiver로 transponder reply를 반복 요청한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.412",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-019",
+      "number": 19,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-03",
+        "title": "ATCRBS · Surveillance Radar · PAR"
+      },
+      "source_page": 412,
+      "question": "ATCRBS transponder reply는 primary radar return과 비교해?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "훨씬 약하다"
+        },
+        {
+          "id": "B",
+          "text": "대체로 동일하다"
+        },
+        {
+          "id": "C",
+          "text": "독립적이며 훨씬 강하다"
+        },
+        {
+          "id": "D",
+          "text": "항상 없다"
+        }
+      ],
+      "answer": "C",
+      "explanation": "원문은 transponder replies가 primary radar return과 독립적이고 훨씬 강하다고 한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.412",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-020",
+      "number": 20,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-03",
+        "title": "ATCRBS · Surveillance Radar · PAR"
+      },
+      "source_page": 413,
+      "question": "ATCRBS decoder가 수신하도록 설계된 altitude information은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Mode A"
+        },
+        {
+          "id": "B",
+          "text": "Mode C"
+        },
+        {
+          "id": "C",
+          "text": "Mode S FLT ID만"
+        },
+        {
+          "id": "D",
+          "text": "WAAS altitude"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Decoder equipment는 Mode C altitude information도 수신한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.413",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-021",
+      "number": 21,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-03",
+        "title": "ATCRBS · Surveillance Radar · PAR"
+      },
+      "source_page": 413,
+      "question": "ASR의 주된 용도는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Oceanic long-range surveillance"
+        },
+        {
+          "id": "B",
+          "text": "Airport vicinity의 short-range terminal surveillance"
+        },
+        {
+          "id": "C",
+          "text": "Satellite navigation"
+        },
+        {
+          "id": "D",
+          "text": "Surface-only vehicle tracking"
+        }
+      ],
+      "answer": "B",
+      "explanation": "ASR은 airport vicinity의 상대적 short-range coverage와 terminal traffic 처리를 위한 surveillance radar다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.413",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-022",
+      "number": 22,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-03",
+        "title": "ATCRBS · Surveillance Radar · PAR"
+      },
+      "source_page": 413,
+      "question": "ARSR의 주된 특징은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Long-range, large area aircraft display"
+        },
+        {
+          "id": "B",
+          "text": "Final approach 10-mile coverage만"
+        },
+        {
+          "id": "C",
+          "text": "Airport surface 200 ft까지"
+        },
+        {
+          "id": "D",
+          "text": "TIS data link only"
+        }
+      ],
+      "answer": "A",
+      "explanation": "ARSR은 넓은 지역의 aircraft location display를 위한 long-range system이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.413",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-023",
+      "number": 23,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-03",
+        "title": "ATCRBS · Surveillance Radar · PAR"
+      },
+      "source_page": 413,
+      "question": "PAR coverage의 range 제한은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "5 miles"
+        },
+        {
+          "id": "B",
+          "text": "10 miles"
+        },
+        {
+          "id": "C",
+          "text": "20 miles"
+        },
+        {
+          "id": "D",
+          "text": "55 NM"
+        }
+      ],
+      "answer": "B",
+      "explanation": "PAR range는 10 miles로 제한된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.413",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-024",
+      "number": 24,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-03",
+        "title": "ATCRBS · Surveillance Radar · PAR"
+      },
+      "source_page": 413,
+      "question": "PAR scope의 upper half가 제공하는 정보는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Azimuth/distance"
+        },
+        {
+          "id": "B",
+          "text": "Altitude/distance"
+        },
+        {
+          "id": "C",
+          "text": "Code/FLT ID"
+        },
+        {
+          "id": "D",
+          "text": "Weather/traffic"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Upper half는 altitude and distance, lower half는 azimuth and distance를 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.413",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-025",
+      "number": 25,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-04",
+        "title": "ASDE-X / ASSC · Facilities Tables"
+      },
+      "source_page": 414,
+      "question": "ASDE-X/ASSC primary radar coverage의 상단은 airport surface 위 약?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "50 ft"
+        },
+        {
+          "id": "B",
+          "text": "100 ft"
+        },
+        {
+          "id": "C",
+          "text": "200 ft"
+        },
+        {
+          "id": "D",
+          "text": "1,000 ft"
+        }
+      ],
+      "answer": "C",
+      "explanation": "원문은 airport surface와 surface 위 200 ft까지라고 한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.414",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-026",
+      "number": 26,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-04",
+        "title": "ASDE-X / ASSC · Facilities Tables"
+      },
+      "source_page": 414,
+      "question": "ASDE-X/ASSC primary radar가 탐지할 수 있는 대상으로 맞는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Transponder/ADS-B가 없는 aircraft도 가능"
+        },
+        {
+          "id": "B",
+          "text": "ADS-B aircraft만"
+        },
+        {
+          "id": "C",
+          "text": "Vehicle은 불가"
+        },
+        {
+          "id": "D",
+          "text": "Moving aircraft만"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Transponder가 없거나 malfunctioning한 aircraft도 primary radar로 detect/display할 수 있다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.414",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-027",
+      "number": 27,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-04",
+        "title": "ASDE-X / ASSC · Facilities Tables"
+      },
+      "source_page": 414,
+      "question": "ASDE-X/ASSC의 MSDP 역할은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Weather broadcast"
+        },
+        {
+          "id": "B",
+          "text": "여러 sensor report를 single target으로 결합"
+        },
+        {
+          "id": "C",
+          "text": "FLT ID를 7자리로 제한"
+        },
+        {
+          "id": "D",
+          "text": "Mode C encoder 역할"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Multi-sensor Data Processor가 모든 sensor report를 single target으로 결합한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.414",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-028",
+      "number": 28,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-04",
+        "title": "ASDE-X / ASSC · Facilities Tables"
+      },
+      "source_page": 414,
+      "question": "Tower에서 airport operation의 seamless picture를 제공하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "High-resolution color monitor"
+        },
+        {
+          "id": "B",
+          "text": "ADF indicator"
+        },
+        {
+          "id": "C",
+          "text": "DME display"
+        },
+        {
+          "id": "D",
+          "text": "HF radio"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Control tower cab의 high-resolution color monitor가 surface picture를 제공한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.414",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-029",
+      "number": 29,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-04",
+        "title": "ASDE-X / ASSC · Facilities Tables"
+      },
+      "source_page": 414,
+      "question": "Table 4-5-1에서 ASDE-X operational facility로 기재된 공항은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "BWI"
+        },
+        {
+          "id": "B",
+          "text": "SFO"
+        },
+        {
+          "id": "C",
+          "text": "CLE"
+        },
+        {
+          "id": "D",
+          "text": "ADW"
+        }
+      ],
+      "answer": "A",
+      "explanation": "BWI는 Table 4-5-1 ASDE-X 목록에 있으며 SFO/CLE/ADW는 Table 4-5-2 ASSC projected 목록에 있다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.414",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-030",
+      "number": 30,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-04",
+        "title": "ASDE-X / ASSC · Facilities Tables"
+      },
+      "source_page": 415,
+      "question": "Table 4-5-1에서 LAX는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Los Angeles International"
+        },
+        {
+          "id": "B",
+          "text": "LaGuardia"
+        },
+        {
+          "id": "C",
+          "text": "Louisville International"
+        },
+        {
+          "id": "D",
+          "text": "Las Vegas Harry Reid International"
+        }
+      ],
+      "answer": "A",
+      "explanation": "LAX는 Los Angeles International이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.415",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-031",
+      "number": 31,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-04",
+        "title": "ASDE-X / ASSC · Facilities Tables"
+      },
+      "source_page": 415,
+      "question": "Table 4-5-2에서 SFO는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "ASDE-X operational list"
+        },
+        {
+          "id": "B",
+          "text": "Projected to receive ASSC list"
+        },
+        {
+          "id": "C",
+          "text": "TIS-only radar site"
+        },
+        {
+          "id": "D",
+          "text": "FIS-B product"
+        }
+      ],
+      "answer": "B",
+      "explanation": "SFO는 projected ASSC facility Table 4-5-2에 있다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.415",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-032",
+      "number": 32,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-04",
+        "title": "ASDE-X / ASSC · Facilities Tables"
+      },
+      "source_page": 416,
+      "question": "Table 4-5-2의 ADW는 어떤 시설인가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Joint Base Andrews AFB"
+        },
+        {
+          "id": "B",
+          "text": "Washington Dulles International"
+        },
+        {
+          "id": "C",
+          "text": "Bradley International"
+        },
+        {
+          "id": "D",
+          "text": "John Wayne-Orange County"
+        }
+      ],
+      "answer": "A",
+      "explanation": "ADW는 Joint Base Andrews AFB로 기재된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.416",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-033",
+      "number": 33,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-05",
+        "title": "TIS · Introduction & Requirements"
+      },
+      "source_page": 416,
+      "question": "TIS가 한 client에 제공하는 intruder 최대 수는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "4"
+        },
+        {
+          "id": "B",
+          "text": "8"
+        },
+        {
+          "id": "C",
+          "text": "12"
+        },
+        {
+          "id": "D",
+          "text": "16"
+        }
+      ],
+      "answer": "B",
+      "explanation": "TIS는 최대 8 intruder aircraft를 제공한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.416",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-034",
+      "number": 34,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-05",
+        "title": "TIS · Introduction & Requirements"
+      },
+      "source_page": 416,
+      "question": "TIS proximity volume의 horizontal 범위는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "3 NM"
+        },
+        {
+          "id": "B",
+          "text": "5 NM"
+        },
+        {
+          "id": "C",
+          "text": "7 NM"
+        },
+        {
+          "id": "D",
+          "text": "55 NM"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Client 기준 horizontal 7 NM이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.416",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-035",
+      "number": 35,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-05",
+        "title": "TIS · Introduction & Requirements"
+      },
+      "source_page": 416,
+      "question": "TIS proximity volume의 vertical 범위는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "±1,000 ft"
+        },
+        {
+          "id": "B",
+          "text": "+3,500/-3,000 ft"
+        },
+        {
+          "id": "C",
+          "text": "±5,000 ft"
+        },
+        {
+          "id": "D",
+          "text": "+1,000/-500 ft"
+        }
+      ],
+      "answer": "B",
+      "explanation": "원문은 +3,500 ft와 -3,000 ft를 제시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.416",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-036",
+      "number": 36,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-05",
+        "title": "TIS · Introduction & Requirements"
+      },
+      "source_page": 416,
+      "question": "7 NM보다 먼 TIS target range의 의미는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "정확한 distance를 표시"
+        },
+        {
+          "id": "B",
+          "text": "34초 안에 threat가 될 수 있음을 의미"
+        },
+        {
+          "id": "C",
+          "text": "항상 false target"
+        },
+        {
+          "id": "D",
+          "text": "Mode C unavailable"
+        }
+      ],
+      "answer": "B",
+      "explanation": "7 NM보다 먼 target은 precise distance가 아니라 34초 내 threat 가능을 뜻한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.416",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-037",
+      "number": 37,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-05",
+        "title": "TIS · Introduction & Requirements"
+      },
+      "source_page": 416,
+      "question": "TIS surveillance data uplink 주기는 nominally?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1초"
+        },
+        {
+          "id": "B",
+          "text": "5초"
+        },
+        {
+          "id": "C",
+          "text": "12초"
+        },
+        {
+          "id": "D",
+          "text": "60초"
+        }
+      ],
+      "answer": "B",
+      "explanation": "각 radar scan마다 uplink되며 nominally 5 seconds다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.416",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-038",
+      "number": 38,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-05",
+        "title": "TIS · Introduction & Requirements"
+      },
+      "source_page": 416,
+      "question": "TIS capable terminal Mode S site에서 보통 service를 기대할 수 있는 거리로 제시된 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "7 NM"
+        },
+        {
+          "id": "B",
+          "text": "10 NM"
+        },
+        {
+          "id": "C",
+          "text": "34 NM"
+        },
+        {
+          "id": "D",
+          "text": "55 NM"
+        }
+      ],
+      "answer": "D",
+      "explanation": "Typically within 55 NM of FIG 4-5-4 sites라고 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.416",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-039",
+      "number": 39,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-05",
+        "title": "TIS · Introduction & Requirements"
+      },
+      "source_page": 416,
+      "question": "TIS를 수신하기 위해 ATC communication은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "항상 필수"
+        },
+        {
+          "id": "B",
+          "text": "TIS 자체에는 필수 아님"
+        },
+        {
+          "id": "C",
+          "text": "절대 금지"
+        },
+        {
+          "id": "D",
+          "text": "Only IFR에서 불필요"
+        }
+      ],
+      "answer": "B",
+      "explanation": "TIS 수신 자체에 ATC communication은 requirement가 아니지만 airspace/operation에 따라 통신은 별도로 필요할 수 있다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.416",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-040",
+      "number": 40,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-05",
+        "title": "TIS · Introduction & Requirements"
+      },
+      "source_page": 417,
+      "question": "FIG 4-5-4의 제목은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "TIS Proximity Coverage Volume"
+        },
+        {
+          "id": "B",
+          "text": "Terminal Mode S Radar Sites"
+        },
+        {
+          "id": "C",
+          "text": "TIS Avionics Block Diagram"
+        },
+        {
+          "id": "D",
+          "text": "ADS-B Broadcast Architecture"
+        }
+      ],
+      "answer": "B",
+      "explanation": "FIG 4-5-4는 Terminal Mode S Radar Sites이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.417",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-041",
+      "number": 41,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-06",
+        "title": "TIS · Equipment & Capabilities"
+      },
+      "source_page": 418,
+      "question": "TIS client 기본 장비 기능에 포함되는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Mode S data link transponder with altitude encoder"
+        },
+        {
+          "id": "B",
+          "text": "ADF only"
+        },
+        {
+          "id": "C",
+          "text": "HF SELCAL"
+        },
+        {
+          "id": "D",
+          "text": "Weather radar only"
+        }
+      ],
+      "answer": "A",
+      "explanation": "FIG 4-5-5 관련 requirements에 Mode S data link transponder with altitude encoder가 포함된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.418",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-042",
+      "number": 42,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-06",
+        "title": "TIS · Equipment & Capabilities"
+      },
+      "source_page": 419,
+      "question": "TIS client의 optional equipment로 제시된 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Digital heading source"
+        },
+        {
+          "id": "B",
+          "text": "Second ADF"
+        },
+        {
+          "id": "C",
+          "text": "Marker beacon"
+        },
+        {
+          "id": "D",
+          "text": "ELT"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Crab angle/turning maneuver display error correction을 위한 digital heading source가 optional이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.419",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-043",
+      "number": 43,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-06",
+        "title": "TIS · Equipment & Capabilities"
+      },
+      "source_page": 419,
+      "question": "Intruder가 TIS client에 보이기 위한 최소 조건은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "ADS-B Out 필수"
+        },
+        {
+          "id": "B",
+          "text": "Operating transponder Mode A/C/S"
+        },
+        {
+          "id": "C",
+          "text": "Mode S만 가능"
+        },
+        {
+          "id": "D",
+          "text": "Altitude encoder만"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Intruder는 최소 operating transponder(Mode A, C or S)를 가져야 한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.419",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-044",
+      "number": 44,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-06",
+        "title": "TIS · Equipment & Capabilities"
+      },
+      "source_page": 419,
+      "question": "Intruder가 8개보다 많으면 TIS는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "아무 것도 표시하지 않는다"
+        },
+        {
+          "id": "B",
+          "text": "8개의 가장 significant한 intruder를 uplink한다"
+        },
+        {
+          "id": "C",
+          "text": "모든 intruder를 1초마다 표시한다"
+        },
+        {
+          "id": "D",
+          "text": "무작위 8개를 선택한다"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Closest proximity/greatest threat 등 가장 significant한 8개가 uplink된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.419",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-045",
+      "number": 45,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-06",
+        "title": "TIS · Equipment & Capabilities"
+      },
+      "source_page": 419,
+      "question": "TIS relative bearing 정보의 increment는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1°"
+        },
+        {
+          "id": "B",
+          "text": "6°"
+        },
+        {
+          "id": "C",
+          "text": "15°"
+        },
+        {
+          "id": "D",
+          "text": "45°"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Relative bearing은 6-degree increments다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.419",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-046",
+      "number": 46,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-06",
+        "title": "TIS · Equipment & Capabilities"
+      },
+      "source_page": 419,
+      "question": "TIS estimated intruder ground track increment는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "6°"
+        },
+        {
+          "id": "B",
+          "text": "15°"
+        },
+        {
+          "id": "C",
+          "text": "30°"
+        },
+        {
+          "id": "D",
+          "text": "45°"
+        }
+      ],
+      "answer": "D",
+      "explanation": "Ground track은 45-degree increments로 제공된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.419",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-047",
+      "number": 47,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-06",
+        "title": "TIS · Equipment & Capabilities"
+      },
+      "source_page": 419,
+      "question": "Intruder가 client에서 1,000 ft 이내일 때 relative altitude increment는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "50 ft"
+        },
+        {
+          "id": "B",
+          "text": "100 ft"
+        },
+        {
+          "id": "C",
+          "text": "500 ft"
+        },
+        {
+          "id": "D",
+          "text": "1,000 ft"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Within 1,000 feet는 100-foot increments이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.419",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-048",
+      "number": 48,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-06",
+        "title": "TIS · Equipment & Capabilities"
+      },
+      "source_page": 420,
+      "question": "TIS altitude trend에서 level로 보는 기준은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "500 fpm 이내"
+        },
+        {
+          "id": "B",
+          "text": "1,000 fpm 이내"
+        },
+        {
+          "id": "C",
+          "text": "100 fpm 이내"
+        },
+        {
+          "id": "D",
+          "text": "2,000 fpm 이내"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Level within 500 fpm, climbing/descending >500 fpm으로 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.420",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-049",
+      "number": 49,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-07",
+        "title": "TIS · Alerts, Status & Display"
+      },
+      "source_page": 420,
+      "question": "TIS Alert가 식별하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "60초 이상 uplink loss"
+        },
+        {
+          "id": "B",
+          "text": "Potential collision hazard within 34 seconds"
+        },
+        {
+          "id": "C",
+          "text": "No intruder"
+        },
+        {
+          "id": "D",
+          "text": "Outside coverage"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Alert는 34초 이내 potential collision hazard를 식별한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.420",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-050",
+      "number": 50,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-07",
+        "title": "TIS · Alerts, Status & Display"
+      },
+      "source_page": 420,
+      "question": "TIS threat criterion의 예상 closest approach lateral 기준은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "0.1 NM"
+        },
+        {
+          "id": "B",
+          "text": "0.5 NM"
+        },
+        {
+          "id": "C",
+          "text": "1 NM"
+        },
+        {
+          "id": "D",
+          "text": "3 NM"
+        }
+      ],
+      "answer": "B",
+      "explanation": "30초 미만의 closest approach time과 함께 lateral 0.5 NM, vertical 500 ft 이내가 기준이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.420",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-051",
+      "number": 51,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-07",
+        "title": "TIS · Alerts, Status & Display"
+      },
+      "source_page": 420,
+      "question": "TIS Coasting은 display가 몇 초보다 오래되었을 때?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1초"
+        },
+        {
+          "id": "B",
+          "text": "6초"
+        },
+        {
+          "id": "C",
+          "text": "12초"
+        },
+        {
+          "id": "D",
+          "text": "60초"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Display가 6 seconds보다 old이면 Coasting이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.420",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-052",
+      "number": 52,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-07",
+        "title": "TIS · Alerts, Status & Display"
+      },
+      "source_page": 420,
+      "question": "TIS information이 12초보다 오래되면 표시되는 status는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Good-bye"
+        },
+        {
+          "id": "B",
+          "text": "No Traffic"
+        },
+        {
+          "id": "C",
+          "text": "TIS Disabled"
+        },
+        {
+          "id": "D",
+          "text": "Alert"
+        }
+      ],
+      "answer": "B",
+      "explanation": "12초보다 오래되면 No Traffic status가 indicated된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.420",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-053",
+      "number": 53,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-07",
+        "title": "TIS · Alerts, Status & Display"
+      },
+      "source_page": 420,
+      "question": "TIS uplink가 60초 이상 missing일 때?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "TIS Unavailable"
+        },
+        {
+          "id": "B",
+          "text": "TIS Traffic"
+        },
+        {
+          "id": "C",
+          "text": "Coasting만 유지"
+        },
+        {
+          "id": "D",
+          "text": "Good-bye만"
+        }
+      ],
+      "answer": "A",
+      "explanation": "TIS Unavailable은 no ground system 또는 uplink missing 60 seconds 이상일 때 표시된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.420",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-054",
+      "number": 54,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-07",
+        "title": "TIS · Alerts, Status & Display"
+      },
+      "source_page": 420,
+      "question": "TIS Good-bye의 의미는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Client가 TIS coverage 밖으로 나감"
+        },
+        {
+          "id": "B",
+          "text": "Intruder 8개 초과"
+        },
+        {
+          "id": "C",
+          "text": "Encoder failure"
+        },
+        {
+          "id": "D",
+          "text": "CSMM"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Client aircraft가 TIS coverage 밖으로 나갔음을 뜻한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.420",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-055",
+      "number": 55,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-07",
+        "title": "TIS · Alerts, Status & Display"
+      },
+      "source_page": 420,
+      "question": "FIG 4-5-5 example display의 orientation은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Heading up"
+        },
+        {
+          "id": "B",
+          "text": "North up"
+        },
+        {
+          "id": "C",
+          "text": "Track up"
+        },
+        {
+          "id": "D",
+          "text": "South up"
+        }
+      ],
+      "answer": "C",
+      "explanation": "원문 example은 track up이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.420",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-056",
+      "number": 56,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-07",
+        "title": "TIS · Alerts, Status & Display"
+      },
+      "source_page": 421,
+      "question": "FIG 4-5-5 data block의 “-07”은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "700 ft above"
+        },
+        {
+          "id": "B",
+          "text": "700 ft below"
+        },
+        {
+          "id": "C",
+          "text": "7 NM away"
+        },
+        {
+          "id": "D",
+          "text": "700 fpm descent"
+        }
+      ],
+      "answer": "B",
+      "explanation": "-07은 intruder가 client보다 700 ft 낮음을 뜻한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.421",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-057",
+      "number": 57,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-08",
+        "title": "TIS · Limitations I"
+      },
+      "source_page": 421,
+      "question": "TIS의 용도에 관한 맞는 설명은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Collision avoidance system"
+        },
+        {
+          "id": "B",
+          "text": "Visual acquisition 보조"
+        },
+        {
+          "id": "C",
+          "text": "IMC avoidance maneuver authorization"
+        },
+        {
+          "id": "D",
+          "text": "ATC separation replacement"
+        }
+      ],
+      "answer": "B",
+      "explanation": "TIS는 visual acquisition 보조용이며 collision avoidance system이 아니다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.421",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-058",
+      "number": 58,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-08",
+        "title": "TIS · Limitations I"
+      },
+      "source_page": 421,
+      "question": "TIS client altitude encoder가 disabled이면?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "TIS는 정상 유지"
+        },
+        {
+          "id": "B",
+          "text": "TIS unavailable"
+        },
+        {
+          "id": "C",
+          "text": "Intruder altitude만 없어짐"
+        },
+        {
+          "id": "D",
+          "text": "Range가 7→55 NM로 증가"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Client altitude reporting이 required이므로 encoder disabled/inoperative 시 TIS unavailable이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.421",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-059",
+      "number": 59,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-08",
+        "title": "TIS · Limitations I"
+      },
+      "source_page": 422,
+      "question": "Altitude reporting이 없는 intruder는 alert 계산에서 어떻게 가정되는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Client보다 3,500 ft 위"
+        },
+        {
+          "id": "B",
+          "text": "Client와 같은 altitude"
+        },
+        {
+          "id": "C",
+          "text": "Ground level"
+        },
+        {
+          "id": "D",
+          "text": "Unknown이라 제외"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Alert computation에서는 client와 같은 altitude로 가정한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.422",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-060",
+      "number": 60,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-08",
+        "title": "TIS · Limitations I"
+      },
+      "source_page": 422,
+      "question": "TIS coverage의 기본 성격은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Satellite global coverage"
+        },
+        {
+          "id": "B",
+          "text": "Ground secondary radar의 line-of-sight limitation 적용"
+        },
+        {
+          "id": "C",
+          "text": "Oceanic only"
+        },
+        {
+          "id": "D",
+          "text": "Terrain 무관"
+        }
+      ],
+      "answer": "B",
+      "explanation": "TIS는 ground-based secondary surveillance radar 기반으로 line-of-sight/terrain/earth curvature 제한을 받는다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.422",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-061",
+      "number": 61,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-08",
+        "title": "TIS · Limitations I"
+      },
+      "source_page": 422,
+      "question": "TIS zenith cone setting은 radar horizon 기준?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "10°"
+        },
+        {
+          "id": "B",
+          "text": "20°"
+        },
+        {
+          "id": "C",
+          "text": "34°"
+        },
+        {
+          "id": "D",
+          "text": "45°"
+        }
+      ],
+      "answer": "C",
+      "explanation": "원문은 34 degrees라고 한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.422",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-062",
+      "number": 62,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-08",
+        "title": "TIS · Limitations I"
+      },
+      "source_page": 422,
+      "question": "Zenith cone 때문에 coverage가 사라지고 adjacent radar도 없으면?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Alert"
+        },
+        {
+          "id": "B",
+          "text": "Good-bye 후 TIS 종료"
+        },
+        {
+          "id": "C",
+          "text": "Mode C 자동 켜짐"
+        },
+        {
+          "id": "D",
+          "text": "ADS-R 전환"
+        }
+      ],
+      "answer": "B",
+      "explanation": "다른 TIS-capable radar가 없으면 Good-bye message 후 service가 종료된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.422",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-063",
+      "number": 63,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-08",
+        "title": "TIS · Limitations I"
+      },
+      "source_page": 422,
+      "question": "TIS intermittent operation 가능성을 높이는 장비 조건은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Antenna diversity 없음"
+        },
+        {
+          "id": "B",
+          "text": "Dual GPS"
+        },
+        {
+          "id": "C",
+          "text": "Two DME"
+        },
+        {
+          "id": "D",
+          "text": "1090ES"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Turn/maneuver 시 antenna diversity가 없으면 aircraft structure가 ground radar line-of-sight를 가릴 수 있다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.422",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-064",
+      "number": 64,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-08",
+        "title": "TIS · Limitations I"
+      },
+      "source_page": 421,
+      "question": "TIS limitation에서 avoidance maneuver는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "TIS alert만으로 직접 허용"
+        },
+        {
+          "id": "B",
+          "text": "Visual contact 없는 IMC에서도 허용"
+        },
+        {
+          "id": "C",
+          "text": "TIS display 직접 결과로 제공/허용되지 않음"
+        },
+        {
+          "id": "D",
+          "text": "항상 ATC가 자동 수행"
+        }
+      ],
+      "answer": "C",
+      "explanation": "TIS intruder display/alert의 직접 결과로 avoidance maneuver가 제공되거나 authorized되지 않는다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.421",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-065",
+      "number": 65,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-09",
+        "title": "TIS · Limitations II & Malfunction Reports"
+      },
+      "source_page": 422,
+      "question": "TIS surveillance information은 표시 시점 기준 대략 얼마나 old인가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1초"
+        },
+        {
+          "id": "B",
+          "text": "5초"
+        },
+        {
+          "id": "C",
+          "text": "12초"
+        },
+        {
+          "id": "D",
+          "text": "60초"
+        }
+      ],
+      "answer": "B",
+      "explanation": "한 radar scan 전에 수집되어 약 5 seconds old이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.422",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-066",
+      "number": 66,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-09",
+        "title": "TIS · Limitations II & Malfunction Reports"
+      },
+      "source_page": 423,
+      "question": "TIS predictive algorithm error가 주로 영향을 주는 정보는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Relative bearing"
+        },
+        {
+          "id": "B",
+          "text": "Altitude only"
+        },
+        {
+          "id": "C",
+          "text": "Transponder code"
+        },
+        {
+          "id": "D",
+          "text": "FLT ID"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문은 primarily relative bearing information에 영향을 준다고 한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.423",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-067",
+      "number": 67,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-09",
+        "title": "TIS · Limitations II & Malfunction Reports"
+      },
+      "source_page": 423,
+      "question": "Shallow crossing 상황에서 급격한 course change가 어느 거리 안에서 발생하면 opposite-side display error가 생길 수 있는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1/8 NM"
+        },
+        {
+          "id": "B",
+          "text": "1/4 NM"
+        },
+        {
+          "id": "C",
+          "text": "1 NM"
+        },
+        {
+          "id": "D",
+          "text": "3/8 NM"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Within 1/4 NM에서 abrupt course change 시 opposite-side display가 생길 수 있다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.423",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-068",
+      "number": 68,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-09",
+        "title": "TIS · Limitations II & Malfunction Reports"
+      },
+      "source_page": 423,
+      "question": "Onboard heading reference가 없는 TIS installation은 bearing을 무엇에 reference하는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Magnetic heading"
+        },
+        {
+          "id": "B",
+          "text": "Ground track"
+        },
+        {
+          "id": "C",
+          "text": "True north only"
+        },
+        {
+          "id": "D",
+          "text": "Runway heading"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Mode S radar는 ground track만 결정하므로 intruder bearing도 ground track reference가 된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.423",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-069",
+      "number": 69,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-09",
+        "title": "TIS · Limitations II & Malfunction Reports"
+      },
+      "source_page": 423,
+      "question": "Mode S sensor에서 30 NM보다 멀 때 3/8 NM 이내 intruder는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Display에서 제거"
+        },
+        {
+          "id": "B",
+          "text": "Client와 같은 horizontal position에 표시"
+        },
+        {
+          "id": "C",
+          "text": "항상 alert circle"
+        },
+        {
+          "id": "D",
+          "text": "Altitude tag 제거"
+        }
+      ],
+      "answer": "B",
+      "explanation": "TIS는 close intruder를 client와 same horizontal position에 강제 표시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.423",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-070",
+      "number": 70,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-09",
+        "title": "TIS · Limitations II & Malfunction Reports"
+      },
+      "source_page": 424,
+      "question": "TIS malfunction report를 권고하는 기관은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Nearest FSS"
+        },
+        {
+          "id": "B",
+          "text": "Only ARTCC computer"
+        },
+        {
+          "id": "C",
+          "text": "Aircraft manufacturer only"
+        },
+        {
+          "id": "D",
+          "text": "Airport police"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Nearest FSS facility에 radio/telephone으로 보고하도록 권고한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.424",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-071",
+      "number": 71,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-09",
+        "title": "TIS · Limitations II & Malfunction Reports"
+      },
+      "source_page": 424,
+      "question": "TIS와 TIS-B 관계에 대한 NOTE는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "동일 서비스"
+        },
+        {
+          "id": "B",
+          "text": "TIS는 TIS-B의 별칭"
+        },
+        {
+          "id": "C",
+          "text": "Similar한 점은 있지만 서로 관련 없는 별도 서비스"
+        },
+        {
+          "id": "D",
+          "text": "TIS-B는 TIS를 반드시 필요로 함"
+        }
+      ],
+      "answer": "C",
+      "explanation": "원문 NOTE는 TIS가 TIS-B와 related되지 않는다고 명확히 한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.424",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-072",
+      "number": 72,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-09",
+        "title": "TIS · Limitations II & Malfunction Reports"
+      },
+      "source_page": 423,
+      "question": "30 NM보다 먼 sensor 거리에서 same-position intruder의 실제 위치 오차는 최대?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1/8 NM"
+        },
+        {
+          "id": "B",
+          "text": "1/4 NM"
+        },
+        {
+          "id": "C",
+          "text": "3/8 NM"
+        },
+        {
+          "id": "D",
+          "text": "1 NM"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Client와 same position에 보이는 intruder가 실제로는 어느 방향이든 최대 3/8 NM 떨어져 있을 수 있다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.423",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-073",
+      "number": 73,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-10",
+        "title": "ADS-B · Architecture, Links & Basic Operation"
+      },
+      "source_page": 424,
+      "question": "ADS-B onboard avionics가 aircraft position 결정에 사용하는 것으로 원문이 제시한 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "GNSS"
+        },
+        {
+          "id": "B",
+          "text": "NDB only"
+        },
+        {
+          "id": "C",
+          "text": "Primary radar"
+        },
+        {
+          "id": "D",
+          "text": "ILS marker"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Onboard avionics는 GNSS를 이용해 aircraft position을 결정한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.424",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-074",
+      "number": 74,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-10",
+        "title": "ADS-B · Architecture, Links & Basic Operation"
+      },
+      "source_page": 424,
+      "question": "ADS-B information 전송 rate는 대략?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1초에 한 번"
+        },
+        {
+          "id": "B",
+          "text": "5초에 한 번"
+        },
+        {
+          "id": "C",
+          "text": "12초에 한 번"
+        },
+        {
+          "id": "D",
+          "text": "1분에 한 번"
+        }
+      ],
+      "answer": "A",
+      "explanation": "약 once per second로 전송한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.424",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-075",
+      "number": 75,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-10",
+        "title": "ADS-B · Architecture, Links & Basic Operation"
+      },
+      "source_page": 425,
+      "question": "미국 ADS-B의 두 operating frequency는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "75/108 MHz"
+        },
+        {
+          "id": "B",
+          "text": "978/1090 MHz"
+        },
+        {
+          "id": "C",
+          "text": "121.5/243 MHz"
+        },
+        {
+          "id": "D",
+          "text": "1030/1080 MHz"
+        }
+      ],
+      "answer": "B",
+      "explanation": "978 MHz UAT와 1090 MHz(1090ES)가 사용된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.425",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-076",
+      "number": 76,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-10",
+        "title": "ADS-B · Architecture, Links & Basic Operation"
+      },
+      "source_page": 425,
+      "question": "1090 MHz transponder의 ADS-B 확장 message를 무엇이라 하는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Extended squitter (1090ES)"
+        },
+        {
+          "id": "B",
+          "text": "UAT only"
+        },
+        {
+          "id": "C",
+          "text": "TIS shadow"
+        },
+        {
+          "id": "D",
+          "text": "Mode C pulse"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Additional ADS-B information을 extended squitter message, 1090ES라고 한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.425",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-077",
+      "number": 77,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-10",
+        "title": "ADS-B · Architecture, Links & Basic Operation"
+      },
+      "source_page": 425,
+      "question": "978 MHz에서 운용되는 ADS-B equipment의 명칭은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "UAT"
+        },
+        {
+          "id": "B",
+          "text": "ATCRBS"
+        },
+        {
+          "id": "C",
+          "text": "PAR"
+        },
+        {
+          "id": "D",
+          "text": "ASR"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Universal Access Transceiver (UAT)이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.425",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-078",
+      "number": 78,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-10",
+        "title": "ADS-B · Architecture, Links & Basic Operation"
+      },
+      "source_page": 425,
+      "question": "ADS-B Out이 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Aircraft가 ADS-B 정보를 transmit"
+        },
+        {
+          "id": "B",
+          "text": "Aircraft가 ADS-B 정보를 receive"
+        },
+        {
+          "id": "C",
+          "text": "ATC voice reply"
+        },
+        {
+          "id": "D",
+          "text": "Radar primary return"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Aircraft에서 ADS-B information을 송신하는 것이 ADS-B Out이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.425",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-079",
+      "number": 79,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-10",
+        "title": "ADS-B · Architecture, Links & Basic Operation"
+      },
+      "source_page": 425,
+      "question": "일반적으로 Class A(18,000 ft 이상) 운항에 요구되는 ADS-B link는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "UAT만"
+        },
+        {
+          "id": "B",
+          "text": "1090ES"
+        },
+        {
+          "id": "C",
+          "text": "TIS-B only"
+        },
+        {
+          "id": "D",
+          "text": "Mode A only"
+        }
+      ],
+      "answer": "B",
+      "explanation": "18,000 feet and above에서는 일반적으로 1090ES equipment가 요구된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.425",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-080",
+      "number": 80,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-10",
+        "title": "ADS-B · Architecture, Links & Basic Operation"
+      },
+      "source_page": 426,
+      "question": "ADS-B In의 추가 benefit 예시로 원문이 제시한 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "TIS-B와 FIS-B"
+        },
+        {
+          "id": "B",
+          "text": "VOT와 NDB"
+        },
+        {
+          "id": "C",
+          "text": "ILS CAT III와 PAR"
+        },
+        {
+          "id": "D",
+          "text": "SELCAL과 CPDLC만"
+        }
+      ],
+      "answer": "A",
+      "explanation": "ADS-B In은 TIS-B 및 FIS-B broadcast services benefit을 제공한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.426",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-081",
+      "number": 81,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-11",
+        "title": "ADS-B · Certification & Service Volumes"
+      },
+      "source_page": 426,
+      "question": "ADS-B Out이 인증될 수 있는 역할은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "ATC separation service용 surveillance source"
+        },
+        {
+          "id": "B",
+          "text": "Only weather sensor"
+        },
+        {
+          "id": "C",
+          "text": "Only collision avoidance"
+        },
+        {
+          "id": "D",
+          "text": "Only navigation database"
+        }
+      ],
+      "answer": "A",
+      "explanation": "ADS-B Out은 air traffic separation service surveillance source로 certify될 수 있다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.426",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-082",
+      "number": 82,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-11",
+        "title": "ADS-B · Certification & Service Volumes"
+      },
+      "source_page": 426,
+      "question": "초기 NAS air-to-air ADS-B application의 성격은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Advisory use only"
+        },
+        {
+          "id": "B",
+          "text": "Mandatory collision maneuver"
+        },
+        {
+          "id": "C",
+          "text": "Weather only"
+        },
+        {
+          "id": "D",
+          "text": "ATC clearance 자동 변경"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Initial air-to-air application은 advisory use only로 visual acquisition을 enhance한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.426",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-083",
+      "number": 83,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-11",
+        "title": "ADS-B · Certification & Service Volumes"
+      },
+      "source_page": 427,
+      "question": "ADS-B FLT ID 최대 길이는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "4 alphanumeric"
+        },
+        {
+          "id": "B",
+          "text": "7 alphanumeric"
+        },
+        {
+          "id": "C",
+          "text": "8 numeric only"
+        },
+        {
+          "id": "D",
+          "text": "24 characters"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Maximum seven alphanumeric characters다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.427",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-084",
+      "number": 84,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-11",
+        "title": "ADS-B · Certification & Service Volumes"
+      },
+      "source_page": 427,
+      "question": "ADS-B FLT ID는 무엇과 일치해야 하는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Aircraft identification filed in flight plan"
+        },
+        {
+          "id": "B",
+          "text": "ICAO airport code only"
+        },
+        {
+          "id": "C",
+          "text": "Transponder 1200 always"
+        },
+        {
+          "id": "D",
+          "text": "Pilot initials"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Filed flight plan의 aircraft identification과 correspond해야 한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.427",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-085",
+      "number": 85,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-11",
+        "title": "ADS-B · Certification & Service Volumes"
+      },
+      "source_page": 427,
+      "question": "FLT ID와 filed identification이 다르면 생성되는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "RAIM alert"
+        },
+        {
+          "id": "B",
+          "text": "CSMM"
+        },
+        {
+          "id": "C",
+          "text": "TIS Good-bye"
+        },
+        {
+          "id": "D",
+          "text": "ADS-R"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Call Sign Mis-Match (CSMM)이 생성된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.427",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-086",
+      "number": 86,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-11",
+        "title": "ADS-B · Certification & Service Volumes"
+      },
+      "source_page": 427,
+      "question": "CSMM의 가능한 영향은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "ATC service가 지연되거나 unavailable"
+        },
+        {
+          "id": "B",
+          "text": "Radar range 증가"
+        },
+        {
+          "id": "C",
+          "text": "Weather product 증가"
+        },
+        {
+          "id": "D",
+          "text": "Anonymous mode 자동 활성화"
+        }
+      ],
+      "answer": "A",
+      "explanation": "ATC automation이 flight plan과 aircraft를 associate하지 못해 service가 delayed/unavailable할 수 있다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.427",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-087",
+      "number": 87,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-11",
+        "title": "ADS-B · Certification & Service Volumes"
+      },
+      "source_page": 426,
+      "question": "FIG 4-5-7은 무엇을 보여주는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "En Route ADS-B/ADS-R/TIS-B/FIS-B Service Ceilings/Floors"
+        },
+        {
+          "id": "B",
+          "text": "Terminal Mode S sites"
+        },
+        {
+          "id": "C",
+          "text": "TIS block diagram"
+        },
+        {
+          "id": "D",
+          "text": "Radar wind turbine interference"
+        }
+      ],
+      "answer": "A",
+      "explanation": "FIG 4-5-7 제목 그대로 en route service ceilings/floors다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.426",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-088",
+      "number": 88,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-11",
+        "title": "ADS-B · Certification & Service Volumes"
+      },
+      "source_page": 427,
+      "question": "FIG 4-5-8은 무엇을 보여주는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Terminal ADS-B/ADS-R/TIS-B/FIS-B Service Ceilings/Floors"
+        },
+        {
+          "id": "B",
+          "text": "PAR coverage"
+        },
+        {
+          "id": "C",
+          "text": "ATCRBS decoder"
+        },
+        {
+          "id": "D",
+          "text": "ASDE-X airports"
+        }
+      ],
+      "answer": "A",
+      "explanation": "FIG 4-5-8은 terminal service ceilings/floors다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.427",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-089",
+      "number": 89,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-12",
+        "title": "ADS-B · ICAO Address, Anonymous Mode & Emergency"
+      },
+      "source_page": 428,
+      "question": "각 ADS-B aircraft에 할당되어 transmitter가 broadcast하는 unique address는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "7-bit call sign"
+        },
+        {
+          "id": "B",
+          "text": "24-bit ICAO address"
+        },
+        {
+          "id": "C",
+          "text": "Mode C altitude"
+        },
+        {
+          "id": "D",
+          "text": "TIS client ID"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Unique ICAO address, also known as a 24-bit address다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.428",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-090",
+      "number": 90,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-12",
+        "title": "ADS-B · ICAO Address, Anonymous Mode & Emergency"
+      },
+      "source_page": 428,
+      "question": "같은 ADS-B Only Service Volume에서 여러 aircraft가 동일 ICAO address를 broadcast하면?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "항상 정상 추적"
+        },
+        {
+          "id": "B",
+          "text": "Network tracking 문제가 생길 수 있다"
+        },
+        {
+          "id": "C",
+          "text": "1090ES가 UAT로 자동 변경"
+        },
+        {
+          "id": "D",
+          "text": "Weather만 영향"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Network가 targets를 올바르게 track하지 못할 수 있고 radar reinforcement가 없으면 tracking을 잃을 수 있다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.428",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-091",
+      "number": 91,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-12",
+        "title": "ADS-B · ICAO Address, Anonymous Mode & Emergency"
+      },
+      "source_page": 428,
+      "question": "UAT anonymous address 기능을 사용할 수 있는 조건은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "IFR flight plan filed + ATC service 요청"
+        },
+        {
+          "id": "B",
+          "text": "IFR flight plan 미제출이고 ATC service 미요청"
+        },
+        {
+          "id": "C",
+          "text": "Class A에서만"
+        },
+        {
+          "id": "D",
+          "text": "7500 입력 시"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Operator가 IFR flight plan을 filed하지 않았고 ATC services를 request하지 않을 때만 가능하다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.428",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-092",
+      "number": 92,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-12",
+        "title": "ADS-B · ICAO Address, Anonymous Mode & Emergency"
+      },
+      "source_page": 428,
+      "question": "UAT anonymity mode에서 beacon code는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1200"
+        },
+        {
+          "id": "B",
+          "text": "7500"
+        },
+        {
+          "id": "C",
+          "text": "7600"
+        },
+        {
+          "id": "D",
+          "text": "7700"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Anonymity mode에서는 beacon code가 1200이어야 한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.428",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-093",
+      "number": 93,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-12",
+        "title": "ADS-B · ICAO Address, Anonymous Mode & Emergency"
+      },
+      "source_page": 428,
+      "question": "UAT anonymity mode의 consequence로 맞는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "ATC separation/flight following service에 eligible하지 않음"
+        },
+        {
+          "id": "B",
+          "text": "항상 Class A 진입 가능"
+        },
+        {
+          "id": "C",
+          "text": "FLT ID가 항상 AAL3432로 변경"
+        },
+        {
+          "id": "D",
+          "text": "Radar separation이 강화됨"
+        }
+      ],
+      "answer": "A",
+      "explanation": "ATC separation/flight following과 enhanced SAR benefit을 받을 수 없다고 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.428",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-094",
+      "number": 94,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-12",
+        "title": "ADS-B · ICAO Address, Anonymous Mode & Emergency"
+      },
+      "source_page": 428,
+      "question": "Transponder-integrated ADS-B에서 emergency status를 자동 설정하는 code 조합은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1200/2000/4000"
+        },
+        {
+          "id": "B",
+          "text": "7500/7600/7700"
+        },
+        {
+          "id": "C",
+          "text": "7000/7001/7002"
+        },
+        {
+          "id": "D",
+          "text": "0000/1111/2222"
+        }
+      ],
+      "answer": "B",
+      "explanation": "7500, 7600, 7700 입력 시 applicable emergency status가 자동 설정된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.428",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-095",
+      "number": 95,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-12",
+        "title": "ADS-B · ICAO Address, Anonymous Mode & Emergency"
+      },
+      "source_page": 428,
+      "question": "ATC가 달리 지시하지 않을 때 transponder/ADS-B의 기본 운용은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Airborne에서만 ON"
+        },
+        {
+          "id": "B",
+          "text": "Airport movement area에서는 OFF"
+        },
+        {
+          "id": "C",
+          "text": "Air 또는 airport surface movement area에서 ON 유지"
+        },
+        {
+          "id": "D",
+          "text": "Only IFR에서 ON"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Inflight 및 airport surface movement area에서 ON and remain ON이 기본이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.428",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-096",
+      "number": 96,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-12",
+        "title": "ADS-B · ICAO Address, Anonymous Mode & Emergency"
+      },
+      "source_page": 428,
+      "question": "ADS-B system이 transponder와 integrated되지 않은 경우 emergency status는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "항상 자동"
+        },
+        {
+          "id": "B",
+          "text": "Pilot interface로 appropriate code 입력이 필요할 수 있다"
+        },
+        {
+          "id": "C",
+          "text": "사용 불가"
+        },
+        {
+          "id": "D",
+          "text": "Only ATC가 remote로 설정"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Non-integrated/optional emergency code system은 pilot interface 입력이 필요할 수 있다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.428",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-097",
+      "number": 97,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-13",
+        "title": "ADS-B · ATC Procedures, Non-equipped Aircraft & Limitations"
+      },
+      "source_page": 428,
+      "question": "ATC service가 예상될 때 preflight ADS-B FLT ID에는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Flight plan aircraft identification 입력"
+        },
+        {
+          "id": "B",
+          "text": "항상 1200 입력"
+        },
+        {
+          "id": "C",
+          "text": "ICAO address 입력"
+        },
+        {
+          "id": "D",
+          "text": "Airport code 입력"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Flight plan에 entered된 aircraft identification을 FLT ID로 넣어야 한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.428",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-098",
+      "number": 98,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-13",
+        "title": "ADS-B · ATC Procedures, Non-equipped Aircraft & Limitations"
+      },
+      "source_page": 428,
+      "question": "Airborne에서 surveillance service 요청 전 anonymous feature는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Enable"
+        },
+        {
+          "id": "B",
+          "text": "Disable"
+        },
+        {
+          "id": "C",
+          "text": "무관"
+        },
+        {
+          "id": "D",
+          "text": "1090ES로 바꿈"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Prior to contacting ATC, anonymous feature를 disable해야 한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.428",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-099",
+      "number": 99,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-13",
+        "title": "ADS-B · ATC Procedures, Non-equipped Aircraft & Limitations"
+      },
+      "source_page": 429,
+      "question": "ADS-B transmitter malfunction 시 ATC가 사용할 수 있는 phraseology는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "STOP ADS-B TRANSMISSIONS"
+        },
+        {
+          "id": "B",
+          "text": "CHECK GEAR DOWN"
+        },
+        {
+          "id": "C",
+          "text": "SQUAWK STANDBY ONLY"
+        },
+        {
+          "id": "D",
+          "text": "CANCEL IFR IMMEDIATELY"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문 phraseology에 STOP ADS-B TRANSMISSIONS가 명시된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.429",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-100",
+      "number": 100,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-13",
+        "title": "ADS-B · ATC Procedures, Non-equipped Aircraft & Limitations"
+      },
+      "source_page": 429,
+      "question": "Automatic altitude reporting(encoder) failure의 결과는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "ATC altitude advisory services loss"
+        },
+        {
+          "id": "B",
+          "text": "TIS-B weather 증가"
+        },
+        {
+          "id": "C",
+          "text": "FLT ID 수정"
+        },
+        {
+          "id": "D",
+          "text": "1090ES disable required always"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Loss of automatic altitude reporting results in loss of ATC altitude advisory services.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.429",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-101",
+      "number": 101,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-13",
+        "title": "ADS-B · ATC Procedures, Non-equipped Aircraft & Limitations"
+      },
+      "source_page": 429,
+      "question": "Non-ADS-B aircraft가 ADS-B airspace를 운항하려면 원칙적으로?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Deviation authorization을 seek할 수 있다"
+        },
+        {
+          "id": "B",
+          "text": "아무 승인 필요 없음"
+        },
+        {
+          "id": "C",
+          "text": "TIS-B만 있으면 됨"
+        },
+        {
+          "id": "D",
+          "text": "Mode A만 있으면 됨"
+        }
+      ],
+      "answer": "A",
+      "explanation": "AC 90-114에 따라 required equipment 없이 운항하기 위한 deviation을 seek할 수 있다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.429",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-102",
+      "number": 102,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-13",
+        "title": "ADS-B · ATC Procedures, Non-equipped Aircraft & Limitations"
+      },
+      "source_page": 429,
+      "question": "ATC가 먼저 ADS-B airspace를 관통하는 clearance를 unequipped aircraft에 발행한 경우 pilot는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Clearance 거부만 해야 함"
+        },
+        {
+          "id": "B",
+          "text": "Acknowledge/execute하고 non-equipped 및 no authorization을 알림"
+        },
+        {
+          "id": "C",
+          "text": "ADS-B code 7700"
+        },
+        {
+          "id": "D",
+          "text": "Radio silence"
+        }
+      ],
+      "answer": "B",
+      "explanation": "ATC-initiated clearance는 수행하면서 장비/authorization 상태를 알려야 한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.429",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-103",
+      "number": 103,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-13",
+        "title": "ADS-B · ATC Procedures, Non-equipped Aircraft & Limitations"
+      },
+      "source_page": 430,
+      "question": "ADS-B cockpit traffic display의 역할은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Collision avoidance maneuver 권한"
+        },
+        {
+          "id": "B",
+          "text": "Visual acquisition assist"
+        },
+        {
+          "id": "C",
+          "text": "IFR separation replacement"
+        },
+        {
+          "id": "D",
+          "text": "ATC clearance substitute"
+        }
+      ],
+      "answer": "B",
+      "explanation": "ADS-B traffic display는 collision avoidance system이 아니며 visual acquisition을 보조한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.430",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-104",
+      "number": 104,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-13",
+        "title": "ADS-B · ATC Procedures, Non-equipped Aircraft & Limitations"
+      },
+      "source_page": 430,
+      "question": "ADS-B malfunction report에 포함되지 않는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Condition observed"
+        },
+        {
+          "id": "B",
+          "text": "Date/time"
+        },
+        {
+          "id": "C",
+          "text": "Altitude/location"
+        },
+        {
+          "id": "D",
+          "text": "Pilot의 favorite route"
+        }
+      ],
+      "answer": "D",
+      "explanation": "표준 report 항목에는 condition, date/time, altitude/location, aircraft type/call sign, avionics type/software version이 포함된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.430",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-105",
+      "number": 105,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-14",
+        "title": "TIS-B · Requirements & Capabilities"
+      },
+      "source_page": 430,
+      "question": "TIS-B traffic information의 source는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Ground-based ATC surveillance sensors"
+        },
+        {
+          "id": "B",
+          "text": "Only ADS-B air-to-air"
+        },
+        {
+          "id": "C",
+          "text": "Satellite weather radar"
+        },
+        {
+          "id": "D",
+          "text": "NDB network"
+        }
+      ],
+      "answer": "A",
+      "explanation": "TIS-B source는 ground-based air traffic surveillance sensors다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.430",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-106",
+      "number": 106,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-14",
+        "title": "TIS-B · Requirements & Capabilities"
+      },
+      "source_page": 431,
+      "question": "TIS-B service를 위해 필요한 coverage는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Ground surveillance와 ADS-B ground radio broadcast 모두"
+        },
+        {
+          "id": "B",
+          "text": "Only GNSS"
+        },
+        {
+          "id": "C",
+          "text": "Only VOR"
+        },
+        {
+          "id": "D",
+          "text": "Only UAT no radar"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Adequate ground sensor surveillance coverage와 ADS-B ground radio broadcast coverage가 모두 필요하다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.431",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-107",
+      "number": 107,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-14",
+        "title": "TIS-B · Requirements & Capabilities"
+      },
+      "source_page": 431,
+      "question": "TIS-B 수신에 필요한 airborne display는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "CDTI"
+        },
+        {
+          "id": "B",
+          "text": "ADF needle"
+        },
+        {
+          "id": "C",
+          "text": "Marker beacon light"
+        },
+        {
+          "id": "D",
+          "text": "Only weather radar"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Cockpit display of traffic information(CDTI)가 요구된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.431",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-108",
+      "number": 108,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-14",
+        "title": "TIS-B · Requirements & Capabilities"
+      },
+      "source_page": 431,
+      "question": "TIS-B 수신 조건에 포함되는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Aircraft가 최소 하나의 supporting ATC radar에 detected"
+        },
+        {
+          "id": "B",
+          "text": "ATC voice contact 필수"
+        },
+        {
+          "id": "C",
+          "text": "Only 1090ES 가능"
+        },
+        {
+          "id": "D",
+          "text": "Only UAT 가능"
+        }
+      ],
+      "answer": "A",
+      "explanation": "At least one ATC radar serving the ground station의 coverage/detection이 요구된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.431",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-109",
+      "number": 109,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-14",
+        "title": "TIS-B · Requirements & Capabilities"
+      },
+      "source_page": 431,
+      "question": "TIS-B의 목적은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "모든 traffic에 separation 제공"
+        },
+        {
+          "id": "B",
+          "text": "Nearby non-ADS-B traffic까지 더 완전한 traffic picture 제공"
+        },
+        {
+          "id": "C",
+          "text": "Weather briefing 대체"
+        },
+        {
+          "id": "D",
+          "text": "Collision maneuver 자동화"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Not all nearby aircraft are ADS-B Out equipped인 상황에서 more complete traffic picture를 제공한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.431",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-110",
+      "number": 110,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-14",
+        "title": "TIS-B · Requirements & Capabilities"
+      },
+      "source_page": 431,
+      "question": "TIS-B를 통해 ground architecture가 전송하는 target은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Transponder-equipped Mode A/C/S targets"
+        },
+        {
+          "id": "B",
+          "text": "No-transponder aircraft도 모두"
+        },
+        {
+          "id": "C",
+          "text": "Only military aircraft"
+        },
+        {
+          "id": "D",
+          "text": "Only ADS-B Out target"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Only transponder-equipped targets가 ATC ground architecture를 통해 전송된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.431",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-111",
+      "number": 111,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-14",
+        "title": "TIS-B · Requirements & Capabilities"
+      },
+      "source_page": 431,
+      "question": "어떤 지역에 radar coverage가 전혀 없다면 TIS-B는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "항상 satellite로 유지"
+        },
+        {
+          "id": "B",
+          "text": "Coverage가 없다"
+        },
+        {
+          "id": "C",
+          "text": "55 NM로 자동 확장"
+        },
+        {
+          "id": "D",
+          "text": "FIS-B로 대체되어 traffic 제공"
+        }
+      ],
+      "answer": "B",
+      "explanation": "No radar coverage이면 no TIS-B coverage라고 설명한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.431",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-112",
+      "number": 112,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-14",
+        "title": "TIS-B · Requirements & Capabilities"
+      },
+      "source_page": 431,
+      "question": "TIS-B의 application 성격은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Advisory-only, visual acquisition enhancement"
+        },
+        {
+          "id": "B",
+          "text": "Approved collision avoidance"
+        },
+        {
+          "id": "C",
+          "text": "Autopilot guidance"
+        },
+        {
+          "id": "D",
+          "text": "Weather only"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Advisory-only application으로 visual acquisition을 enhance한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.431",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-113",
+      "number": 113,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-15",
+        "title": "TIS-B · Limitations & Reports"
+      },
+      "source_page": 431,
+      "question": "TIS-B target만 보고 visual contact 없이 avoidance maneuver를 해도 되는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "된다"
+        },
+        {
+          "id": "B",
+          "text": "안 된다"
+        },
+        {
+          "id": "C",
+          "text": "Class G에서만 된다"
+        },
+        {
+          "id": "D",
+          "text": "UAT이면 된다"
+        }
+      ],
+      "answer": "B",
+      "explanation": "TIS-B는 collision avoidance system이 아니며 visual contact 없는 상태의 avoidance maneuver 근거가 아니다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.431",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-114",
+      "number": 114,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-15",
+        "title": "TIS-B · Limitations & Reports"
+      },
+      "source_page": 432,
+      "question": "TIS-B shadow는 무엇인가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Duplicate traffic symbol"
+        },
+        {
+          "id": "B",
+          "text": "Weather echo"
+        },
+        {
+          "id": "C",
+          "text": "Radar blind speed"
+        },
+        {
+          "id": "D",
+          "text": "FIS-B NOTAM"
+        }
+      ],
+      "answer": "A",
+      "explanation": "ADS-B-to-radar association이 어려울 때 duplicate traffic symbols(TIS-B shadows)가 보일 수 있다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.432",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-115",
+      "number": 115,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-15",
+        "title": "TIS-B · Limitations & Reports"
+      },
+      "source_page": 432,
+      "question": "TIS-B position update interval은 대략?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1초 고정"
+        },
+        {
+          "id": "B",
+          "text": "3–13초"
+        },
+        {
+          "id": "C",
+          "text": "30–60초"
+        },
+        {
+          "id": "D",
+          "text": "5분"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Radar system에 따라 approximately once every 3-13 seconds다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.432",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-116",
+      "number": 116,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-15",
+        "title": "TIS-B · Limitations & Reports"
+      },
+      "source_page": 432,
+      "question": "ADS-B nominal update rate는 비교 기준으로?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1초"
+        },
+        {
+          "id": "B",
+          "text": "5초"
+        },
+        {
+          "id": "C",
+          "text": "13초"
+        },
+        {
+          "id": "D",
+          "text": "1분"
+        }
+      ],
+      "answer": "A",
+      "explanation": "ADS-B update는 nominally once per second다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.432",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-117",
+      "number": 117,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-15",
+        "title": "TIS-B · Limitations & Reports"
+      },
+      "source_page": 432,
+      "question": "TIS-B에 표시되지 않는 aircraft는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Transponder 없는 aircraft"
+        },
+        {
+          "id": "B",
+          "text": "Mode S aircraft"
+        },
+        {
+          "id": "C",
+          "text": "Mode C aircraft"
+        },
+        {
+          "id": "D",
+          "text": "Mode A aircraft"
+        }
+      ],
+      "answer": "A",
+      "explanation": "TIS-B는 transponder-equipped aircraft data만 uplink한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.432",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-118",
+      "number": 118,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-15",
+        "title": "TIS-B · Limitations & Reports"
+      },
+      "source_page": 432,
+      "question": "TIS-B에서 aircraft가 service volume 안/밖인지 알려주는 indication은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "명확히 있음"
+        },
+        {
+          "id": "B",
+          "text": "없음"
+        },
+        {
+          "id": "C",
+          "text": "Only IFR에 있음"
+        },
+        {
+          "id": "D",
+          "text": "Only 1090ES에 있음"
+        }
+      ],
+      "answer": "B",
+      "explanation": "No indication is provided whether aircraft is inside/outside service volume.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.432",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-119",
+      "number": 119,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-15",
+        "title": "TIS-B · Limitations & Reports"
+      },
+      "source_page": 432,
+      "question": "Perceived converging traffic 때문에 ATC clearance에서 벗어나려면 imminent emergency가 아닌 경우?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "먼저 controlling ATC approval 필요"
+        },
+        {
+          "id": "B",
+          "text": "TIS-B target만으로 즉시 deviation"
+        },
+        {
+          "id": "C",
+          "text": "ADS-B Out off"
+        },
+        {
+          "id": "D",
+          "text": "7700 mandatory"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Except emergency/§91.123 conditions, controlling ATC approval before maneuver가 필요하다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.432",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-120",
+      "number": 120,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-15",
+        "title": "TIS-B · Limitations & Reports"
+      },
+      "source_page": 432,
+      "question": "TIS-B malfunction reporting destination으로 원문이 제시한 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Nearest FSS 또는 ADS-B help desk"
+        },
+        {
+          "id": "B",
+          "text": "Only airline dispatcher"
+        },
+        {
+          "id": "C",
+          "text": "Only airport tower"
+        },
+        {
+          "id": "D",
+          "text": "ICAO headquarters"
+        }
+      ],
+      "answer": "A",
+      "explanation": "FSS radio/telephone 또는 ADS-B help desk email을 제시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.432",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-121",
+      "number": 121,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-16",
+        "title": "FIS-B · Weather Products & Table 4-5-3"
+      },
+      "source_page": 432,
+      "question": "FIS-B가 사용하는 data link는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "978 MHz UAT"
+        },
+        {
+          "id": "B",
+          "text": "1090ES only"
+        },
+        {
+          "id": "C",
+          "text": "121.5 MHz"
+        },
+        {
+          "id": "D",
+          "text": "75 MHz"
+        }
+      ],
+      "answer": "A",
+      "explanation": "FIS-B는 978 MHz UAT data link를 사용한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.432",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-122",
+      "number": 122,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-16",
+        "title": "FIS-B · Weather Products & Table 4-5-3"
+      },
+      "source_page": 432,
+      "question": "FIS-B reception 특성은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Global satellite regardless terrain"
+        },
+        {
+          "id": "B",
+          "text": "Ground infrastructure service volume 내 line-of-sight"
+        },
+        {
+          "id": "C",
+          "text": "HF skip zone"
+        },
+        {
+          "id": "D",
+          "text": "Only airport surface"
+        }
+      ],
+      "answer": "B",
+      "explanation": "FIS-B reception is line-of-sight within the ground infrastructure service volume.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.432",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-123",
+      "number": 123,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-16",
+        "title": "FIS-B · Weather Products & Table 4-5-3"
+      },
+      "source_page": 433,
+      "question": "FIS-B는 preflight weather briefing을?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "완전히 대체한다"
+        },
+        {
+          "id": "B",
+          "text": "대체하지 않는다"
+        },
+        {
+          "id": "C",
+          "text": "IFR에서만 대체"
+        },
+        {
+          "id": "D",
+          "text": "Only NEXRAD를 대체"
+        }
+      ],
+      "answer": "B",
+      "explanation": "FIS-B does not replace preflight briefing or FSS/ATC inflight updates.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.433",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-124",
+      "number": 124,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-16",
+        "title": "FIS-B · Weather Products & Table 4-5-3"
+      },
+      "source_page": 433,
+      "question": "Table 4-5-3에서 AIRMET transmission interval(95%)은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1 minute"
+        },
+        {
+          "id": "B",
+          "text": "5 minutes"
+        },
+        {
+          "id": "C",
+          "text": "10 minutes"
+        },
+        {
+          "id": "D",
+          "text": "15 minutes"
+        }
+      ],
+      "answer": "B",
+      "explanation": "AIRMET은 5 minutes이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.433",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-125",
+      "number": 125,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-16",
+        "title": "FIS-B · Weather Products & Table 4-5-3"
+      },
+      "source_page": 434,
+      "question": "Table 4-5-3에서 D-ATIS transmission interval(95%)은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1 minute"
+        },
+        {
+          "id": "B",
+          "text": "2.5 minutes"
+        },
+        {
+          "id": "C",
+          "text": "5 minutes"
+        },
+        {
+          "id": "D",
+          "text": "10 minutes"
+        }
+      ],
+      "answer": "A",
+      "explanation": "D-ATIS는 1 minute이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.434",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-126",
+      "number": 126,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-16",
+        "title": "FIS-B · Weather Products & Table 4-5-3"
+      },
+      "source_page": 434,
+      "question": "MRMS NEXRAD (Regional)의 update / transmission interval은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "2 min / 2.5 min"
+        },
+        {
+          "id": "B",
+          "text": "2 min / 15 min"
+        },
+        {
+          "id": "C",
+          "text": "5 min / 5 min"
+        },
+        {
+          "id": "D",
+          "text": "1 min / 10 min"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Regional은 update 2 minutes, transmission 2.5 minutes이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.434",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-127",
+      "number": 127,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-16",
+        "title": "FIS-B · Weather Products & Table 4-5-3"
+      },
+      "source_page": 434,
+      "question": "TAF/AMEND의 update interval은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1 minute"
+        },
+        {
+          "id": "B",
+          "text": "As Available"
+        },
+        {
+          "id": "C",
+          "text": "6 Hours (±15 minutes)"
+        },
+        {
+          "id": "D",
+          "text": "12 Hours"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Table 4-5-3은 6 Hours (±15 minutes)로 제시한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.434",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-128",
+      "number": 128,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-16",
+        "title": "FIS-B · Weather Products & Table 4-5-3"
+      },
+      "source_page": 434,
+      "question": "Turbulence product의 update / transmission interval은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1 min / 15 min"
+        },
+        {
+          "id": "B",
+          "text": "5 min / 5 min"
+        },
+        {
+          "id": "C",
+          "text": "30 min / 15 min"
+        },
+        {
+          "id": "D",
+          "text": "60 min / 15 min"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Turbulence는 update 1 minute, transmission 15 minutes이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.434",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-129",
+      "number": 129,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-17",
+        "title": "FIS-B Table Completion · ADS-R"
+      },
+      "source_page": 435,
+      "question": "Table 4-5-3에서 TRA의 transmission interval(95%)은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1 minute"
+        },
+        {
+          "id": "B",
+          "text": "5 minutes"
+        },
+        {
+          "id": "C",
+          "text": "10 minutes"
+        },
+        {
+          "id": "D",
+          "text": "15 minutes"
+        }
+      ],
+      "answer": "C",
+      "explanation": "TRA는 As Available / 10 minutes / Basic Yes이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.435",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-130",
+      "number": 130,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-17",
+        "title": "FIS-B Table Completion · ADS-R"
+      },
+      "source_page": 435,
+      "question": "FIS-B Update Interval의 정의는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Source에서 product data가 available해지는 rate"
+        },
+        {
+          "id": "B",
+          "text": "Cockpit에서 display refresh만"
+        },
+        {
+          "id": "C",
+          "text": "ATC radar scan rate"
+        },
+        {
+          "id": "D",
+          "text": "Pilot report interval"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문 footnote 1 정의다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.435",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-131",
+      "number": 131,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-17",
+        "title": "FIS-B Table Completion · ADS-R"
+      },
+      "source_page": 435,
+      "question": "FIS-B Transmission Interval의 정의에 포함되는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "95% 기준 new/updated transmission 완료 시간과 rebroadcast repetition interval"
+        },
+        {
+          "id": "B",
+          "text": "Only weather validity time"
+        },
+        {
+          "id": "C",
+          "text": "GNSS integrity time"
+        },
+        {
+          "id": "D",
+          "text": "ATC handoff time"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원문 footnote 2가 해당 의미를 정의한다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.435",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-132",
+      "number": 132,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-17",
+        "title": "FIS-B Table Completion · ADS-R"
+      },
+      "source_page": 435,
+      "question": "FIS-B NOTE 2에서 NOTAM-D/NOTAM-FDC broadcast 제한은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Past 24 hours"
+        },
+        {
+          "id": "B",
+          "text": "Past 7 days"
+        },
+        {
+          "id": "C",
+          "text": "Issued/effective within past 30 days"
+        },
+        {
+          "id": "D",
+          "text": "No limit"
+        }
+      ],
+      "answer": "C",
+      "explanation": "지난 30일 내 issued 또는 effective된 항목으로 제한된다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.435",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-133",
+      "number": 133,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-17",
+        "title": "FIS-B Table Completion · ADS-R"
+      },
+      "source_page": 435,
+      "question": "ADS-R의 핵심 기능은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "978 MHz와 1090ES 사이 ADS-B message translation/reformat/rebroadcast"
+        },
+        {
+          "id": "B",
+          "text": "Weather radar filtering"
+        },
+        {
+          "id": "C",
+          "text": "Mode C altitude encoding"
+        },
+        {
+          "id": "D",
+          "text": "Primary radar target reinforcement"
+        }
+      ],
+      "answer": "A",
+      "explanation": "ADS-R는 두 ADS-B operating link 사이 datalink translation function이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.435",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-134",
+      "number": 134,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-17",
+        "title": "FIS-B Table Completion · ADS-R"
+      },
+      "source_page": 435,
+      "question": "두 aircraft가 같은 ADS-B frequency를 사용하면 ADS-R translation은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "필수"
+        },
+        {
+          "id": "B",
+          "text": "필요하지 않음"
+        },
+        {
+          "id": "C",
+          "text": "Only IFR에서 필요"
+        },
+        {
+          "id": "D",
+          "text": "Only Class A에서 필요"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Same frequency aircraft는 direct exchange하므로 ADS-R translation이 필요 없다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.435",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-135",
+      "number": 135,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-17",
+        "title": "FIS-B Table Completion · ADS-R"
+      },
+      "source_page": 435,
+      "question": "ADS-R로 인해 ADS-B In aircraft가 얻는 benefit은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "상대 aircraft의 link가 달라도 nearby ADS-B Out traffic을 볼 수 있음"
+        },
+        {
+          "id": "B",
+          "text": "GPS 없이 position 생성"
+        },
+        {
+          "id": "C",
+          "text": "Radar 없이 weather만 생성"
+        },
+        {
+          "id": "D",
+          "text": "Anonymous ICAO 자동 추적"
+        }
+      ],
+      "answer": "A",
+      "explanation": "978/1090 link 간 translation으로 다른 link traffic도 볼 수 있다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.435",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    },
+    {
+      "id": "JEPP-SURV-136",
+      "number": 136,
+      "subject": "Jeppesen Airway Manual · Radio Data - General · Section 5. Surveillance Systems",
+      "study_unit": 5,
+      "study_unit_title": "Surveillance Systems",
+      "subunit": {
+        "code": "SURV-STAGE-17",
+        "title": "FIS-B Table Completion · ADS-R"
+      },
+      "source_page": 436,
+      "question": "ADS-R malfunction report 항목에 포함되는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Altitude/location of observation"
+        },
+        {
+          "id": "B",
+          "text": "Favorite airport"
+        },
+        {
+          "id": "C",
+          "text": "Pilot medical class"
+        },
+        {
+          "id": "D",
+          "text": "Fuel remaining only"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Altitude and location of observation은 표준 report 항목이다.",
+      "explanation_language": "ko",
+      "reference": "Jeppesen Airway Manual · Radio Data - General · Section 5 · p.436",
+      "requires_figure": false,
+      "figure_refs": [],
+      "images": [],
+      "difficulty": null,
+      "tags": [
+        "Jeppesen",
+        "Radio Data",
+        "Surveillance Systems"
+      ],
+      "reference_study_only": true
+    }
+  ]
+}

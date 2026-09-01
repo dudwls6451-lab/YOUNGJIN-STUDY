@@ -1,0 +1,58 @@
+{
+  "version": "v11.60.40",
+  "base": "v11.60.39",
+  "source_scope": "Jeppesen Airway Manual Radio Data - General Section 5 Surveillance Systems p.409–436",
+  "checks": {
+    "question_count": 136,
+    "stage_count": 17,
+    "unique_ids": true,
+    "four_choices_all": true,
+    "valid_answers_all": true,
+    "stage_question_ids_complete": true,
+    "source_pages_preserved": true,
+    "figure_count": 8,
+    "all_figures_exist": true,
+    "tables_full_rows": {
+      "table_4_5_1": 35,
+      "table_4_5_2": 9,
+      "table_4_5_3": 27
+    },
+    "index_has_script": true,
+    "next_section_excluded": true,
+    "js_syntax": true,
+    "json_parse": true,
+    "no_previous_figure_dirs": true,
+    "zip_integrity": true,
+    "zip_file_count": 14,
+    "zip_size_bytes": 418221
+  },
+  "coverage": {
+    "subsections": [
+      "4-5-1 RADAR",
+      "4-5-2 ATCRBS",
+      "4-5-3 SURVEILLANCE RADAR",
+      "4-5-4 PAR",
+      "4-5-5 ASDE-X/ASSC",
+      "4-5-6 TIS",
+      "4-5-7 ADS-B SERVICES",
+      "4-5-8 TIS-B",
+      "4-5-9 FIS-B",
+      "4-5-10 ADS-R"
+    ],
+    "figures": [
+      "FIG 4-5-1",
+      "FIG 4-5-2",
+      "FIG 4-5-3",
+      "FIG 4-5-4",
+      "FIG 4-5-5",
+      "FIG 4-5-6",
+      "FIG 4-5-7",
+      "FIG 4-5-8"
+    ],
+    "tables": [
+      "Table 4-5-1",
+      "Table 4-5-2",
+      "Table 4-5-3"
+    ]
+  }
+}
