@@ -1,0 +1,31 @@
+{
+  "version": "v11.60.43",
+  "base_version": "v11.60.42",
+  "feature": "1-hour idle logout with top countdown and extend button",
+  "behavior": {
+    "idle_logout_minutes": 60,
+    "visible_countdown_starts_after_idle_seconds": 60,
+    "activity_resets_deadline": true,
+    "extend_button_resets_deadline": true,
+    "logout_occurs_after_total_idle_minutes": 60,
+    "database_migration_required": false
+  },
+  "checks": {
+    "index_version_11_60_43": true,
+    "index_new_auth_asset": true,
+    "idle_timeout_60_minutes": true,
+    "countdown_delay_1_minute": true,
+    "top_timer_control": true,
+    "extend_button": true,
+    "activity_reset_events": true,
+    "countdown_only_after_1m": true,
+    "exact_60m_deadline": true,
+    "idle_notice_1hour": true,
+    "visibility_recheck": true,
+    "warning_state": true,
+    "public_extend_api": true,
+    "timer_logic_samples": true,
+    "javascript_syntax": true
+  },
+  "pass": true
+}
