@@ -1,0 +1,28 @@
+{
+  "version": "v11.60.49",
+  "base": "v11.60.48",
+  "feature": "My Page personal theory notes / private notebook",
+  "files": [
+    "index.html",
+    "assets/personal-theory-notes-v11-60-49.js",
+    "assets/style-v11-60-49-personal-theory-notes.css",
+    "supabase/V11.60.49_PERSONAL_THEORY_NOTES.sql",
+    "V11.60.49_PERSONAL_THEORY_NOTES.sql",
+    "V11.60.49_PERSONAL_THEORY_NOTES.md"
+  ],
+  "checks": {
+    "index_css_ref": true,
+    "index_js_ref": true,
+    "mounts_into_mypage": true,
+    "create_edit_delete": true,
+    "search_and_filters": true,
+    "custom_category": true,
+    "subject_tags_content": true,
+    "pin_support": true,
+    "rls_enabled": true,
+    "rls_own_select": true,
+    "sql_table": true,
+    "sql_idempotent_policy_drop": true
+  },
+  "pass": true
+}
