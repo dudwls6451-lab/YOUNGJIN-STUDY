@@ -1,0 +1,62 @@
+{
+  "version": "v11.60.47",
+  "base_required": "v11.60.46 Study Group Question Lab mount hotfix",
+  "database_prerequisite": "V11.60.45_STUDY_GROUP_QUESTION_LAB.sql",
+  "feature": "Study-group user-defined question categories",
+  "behavior": {
+    "category_scope": "per study group",
+    "category_creator": "any authenticated study-group member",
+    "duplicate_policy": "case-insensitive trimmed name reuses existing category",
+    "question_category_required": false,
+    "uncategorized_supported": true,
+    "solve_filter": true,
+    "list_filter": true,
+    "legacy_tag_preserved": true
+  },
+  "checks": {
+    "node_syntax": true,
+    "index_loads_v47_js": true,
+    "index_loads_v47_css": true,
+    "custom_category_create_ui": true,
+    "category_assignment_select": true,
+    "category_filter_select": true,
+    "category_shared_rpc": true,
+    "question_create_v2_category_assignment": true,
+    "category_filter_logic": true,
+    "category_badge_rendering": true,
+    "legacy_question_lab_upgrade": true,
+    "category_table_migration": true,
+    "category_fk_migration": true,
+    "category_same_group_validation": true,
+    "duplicate_category_protection": true,
+    "question_list_returns_category": true,
+    "sql_transaction_wrapped": true
+  },
+  "pass": true,
+  "files": {
+    "index.html": {
+      "bytes": 45346,
+      "sha256": "983cd756048d7ecd207885106706ee5db9e6412a298cff050fda7f4cd2386379"
+    },
+    "assets/study-group-v11-60-47.js": {
+      "bytes": 72668,
+      "sha256": "b56a155832097d0acb4d07fe3e842dbddbf40f42a79399b9b6d2899227f5ef1b"
+    },
+    "assets/style-v11-60-47-study-group.css": {
+      "bytes": 21954,
+      "sha256": "82c73d51f586fecc7428f282b80e3128cf6152729b46fa733483153cc1b2ab7d"
+    },
+    "supabase/V11.60.47_STUDY_GROUP_QUESTION_CATEGORIES.sql": {
+      "bytes": 8561,
+      "sha256": "8eb69fd465f40b5115f20ceb096305f04c03e013841adc6265b6116f39a321ea"
+    },
+    "V11.60.47_STUDY_GROUP_QUESTION_CATEGORIES.sql": {
+      "bytes": 8561,
+      "sha256": "8eb69fd465f40b5115f20ceb096305f04c03e013841adc6265b6116f39a321ea"
+    },
+    "V11.60.47_STUDY_GROUP_CUSTOM_CATEGORIES.md": {
+      "bytes": 1138,
+      "sha256": "9f4f52d84de0f4cd09f4cf9d0a753a74d3e902c1db9304f54502ae256d96a120"
+    }
+  }
+}
