@@ -1,0 +1,17 @@
+/* PilotBank v11.60.44 · ERROR report dark-mode unification */
+#errorsCard,#adminErrorReportsCard{color-scheme:dark;background:linear-gradient(180deg,#111827 0%,#0b1220 100%)!important;color:#f8fafc!important;border:1px solid rgba(148,163,184,.24)!important;box-shadow:0 18px 50px rgba(0,0,0,.28)}
+#errorsCard .section-head h2,#adminErrorReportsCard .section-head h2,#errorsCard strong,#adminErrorReportsCard strong{color:#f8fafc!important}
+#errorsCard .muted,#adminErrorReportsCard .muted,#copyErrorsStatus,#adminErrorReportStatus{color:#aebdd0!important}
+#errorsCard .error-toolbar,#adminErrorReportsCard .error-toolbar{padding:.7rem .8rem;border:1px solid rgba(148,163,184,.18);border-radius:12px;background:rgba(15,23,42,.72)}
+#errorsCard .error-report-list,#adminErrorReportsCard .error-report-list{display:grid;gap:.85rem;margin-top:.9rem}
+#errorsCard .error-report-item,#adminErrorReportsCard .error-report-item{background:#111c2f!important;color:#e5edf7!important;border:1px solid rgba(148,163,184,.26)!important;border-radius:14px;padding:1rem;box-shadow:0 8px 26px rgba(0,0,0,.16)}
+#errorsCard .error-question,#adminErrorReportsCard .error-question{color:#f8fafc!important;line-height:1.58}
+#errorsCard .error-choice-list,#adminErrorReportsCard .error-choice-list{background:rgba(2,6,23,.4)!important;border:1px solid rgba(148,163,184,.16);border-radius:10px;padding:.7rem .8rem;color:#dce7f5!important}
+#errorsCard .error-note-label,#adminErrorReportsCard .error-note-label{color:#f1f5f9!important}
+#errorsCard .error-note{background:#08111f!important;color:#f8fafc!important;border:1px solid rgba(148,163,184,.36)!important;border-radius:10px;padding:.72rem .8rem;caret-color:#f8fafc;box-shadow:inset 0 1px 2px rgba(0,0,0,.24)}
+#errorsCard .error-note::placeholder{color:#8291a6!important}
+#errorsCard .error-note:focus{outline:2px solid rgba(56,189,248,.38);outline-offset:1px;border-color:rgba(56,189,248,.62)!important}
+#errorsCard .notice,#adminErrorReportsCard .notice{background:rgba(15,23,42,.78)!important;color:#cbd5e1!important;border:1px solid rgba(148,163,184,.2)!important}
+#errorsCard .button.secondary,#adminErrorReportsCard .button.secondary{background:#172338!important;color:#e5edf7!important;border-color:rgba(148,163,184,.3)!important}
+#errorsCard .danger-outline,#adminErrorReportsCard .danger-outline{background:rgba(127,29,29,.18)!important;color:#fecaca!important;border-color:rgba(248,113,113,.55)!important}
+@media(max-width:700px){#errorsCard .error-report-item,#adminErrorReportsCard .error-report-item{padding:.82rem}#errorsCard .error-toolbar,#adminErrorReportsCard .error-toolbar{padding:.6rem}}

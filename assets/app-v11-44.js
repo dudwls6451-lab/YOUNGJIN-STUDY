@@ -3586,6 +3586,21 @@ async function saveAdminQuestionEdit() {
   }
 }
 
+// v11.60.44: 2026-09-01 reported-error hotfix (18 newly reviewed items; 34 earlier items inherited from v11.60.12).
+const V116044_REPORTED_ERROR_CORRECTIONS = {"K-AIM-923":{"question":"지상에서 구조사에게 보내는 신호 중 “V”의 의미는?","choices":[{"id":"A","text":"임무 완수"},{"id":"B","text":"약품 요청"},{"id":"C","text":"원조 요청"},{"id":"D","text":"작전 실패"}],"answer":"C","explanation":"원본 교재 p.285(파일 PDF p.286) 문제 11을 직접 대조했습니다. 지상-공중 가시신호 V는 ‘Require assistance(원조 요청)’를 뜻하므로 정답은 C입니다.","requires_figure":false,"figure_refs":[],"images":[],"reported_error_hotfix_revision":"v11.60.44-reported52"},"K-AIM-175":{"question":"접지구역등(TDZL)에 관한 설명 중 틀린 것은?","choices":[{"id":"A","text":"정밀접근활주로 Category II 또는 III의 접지구역에 설치하여야 한다."},{"id":"B","text":"활주로 길이가 1,800 m 이하인 곳에서는 활주로 끝까지 설치한다."},{"id":"C","text":"등간 간격은 30 m 또는 60 m로 한다."},{"id":"D","text":"불빛은 가변백색의 고정된 단방향등으로 한다."}],"answer":"B","explanation":"원 교재의 B 보기는 ‘활주로 중간지점에 설치한다’로 표현되어 해설의 ‘중간지점까지 설치한다’와 의미가 모호해 단일정답성이 떨어졌습니다. 1,800 m 미만 활주로에서는 TDZL이 활주로 중간지점을 넘지 않도록 단축되므로 ‘활주로 끝까지 설치한다’는 설명이 틀립니다.","reported_error_hotfix_revision":"v11.60.44-reported52"},"K-AIM-140":{"answer":"D","explanation":"원본 교재 p.46(파일 PDF p.47) 문제 7 및 정답표를 대조했습니다. Precision instrument runway의 approach light system 설치 길이는 2,400~3,000 ft로 제시되어 정답은 D입니다.","reported_error_hotfix_revision":"v11.60.44-reported52"},"K-AIM-127":{"answer":"C","explanation":"원본 교재 p.32(파일 PDF p.33) 문제 1과 정답표를 대조했습니다. 교재 정답은 C이며, 일반 RNAV의 장점으로 제시된 직접비행·평행항로 비행과 달리 ‘회피지역을 피하기 위한 arc turn’은 이 문항에서 특성이 아닌 것으로 처리됩니다.","reported_error_hotfix_revision":"v11.60.44-reported52"},"K-AIM-120":{"answer":"C","explanation":"원본 교재 p.31(파일 PDF p.32) 문제 120과 정답표를 대조했습니다. GPS 오차의 주요인으로 전리층에 의한 오차가 제시되어 정답은 C입니다.","reported_error_hotfix_revision":"v11.60.44-reported52"},"K-AIM-015":{"question":"VOR 수신기 지상점검 시, 다음 중 허용오차 이내인 것은?","answer":"C","explanation":"원본 교재 p.16(파일 PDF p.17) 문제 15은 ‘허용오차 이내인 것은?’입니다. 지상 VOR 점검 허용오차 ±4° 기준에서 003° FROM / 178° TO는 허용범위에 들어가므로 정답은 C입니다.","reported_error_hotfix_revision":"v11.60.44-reported52"},"K-AIM-102":{"answer":"D","explanation":"원본 교재 p.28(파일 PDF p.29)의 해설은 운고 800 ft 이상이고 시정 2 SM 이상인 경우 CAT III ILS 훈련 시 critical area가 통상 보호되지 않는 조건임을 설명합니다. 따라서 보기 D가 문항 취지와 해설에 일치합니다. 교재 하단 정답표의 C는 해설과 상충하는 오기이므로 D로 교정했습니다.","reported_error_hotfix_revision":"v11.60.44-reported52"},"KDA-LAW-SU2-104":{"choices":[{"id":"A","text":"1년"},{"id":"B","text":"2년"},{"id":"C","text":"3년"},{"id":"D","text":"4년"}],"answer":"B","explanation":"항공안전법 제34조에 따라 자격증명 취소처분을 받고 그 취소일부터 2년이 지나지 않은 사람은 자격증명을 받을 수 없습니다. 원본 문제집의 선택지 순서도 1년/2년/3년/4년이며 정답은 ②(B)입니다.","reported_error_hotfix_revision":"v11.60.44-reported52"},"KDA-LAW-SU2-459":{"question":"항공운송사업자가 항공기의 운항규정과 정비규정을 변경하려는 경우에는 누구에게 신고하여야 하는가?","choices":[{"id":"A","text":"국토교통부장관"},{"id":"B","text":"한국교통안전공단 이사장"},{"id":"C","text":"지방항공청장"},{"id":"D","text":"항공기 제작사"}],"answer":"A","explanation":"항공안전법 제93조에 따라 인가받은 운항규정 또는 정비규정을 변경하려는 경우 국토교통부장관에게 신고하여야 합니다(중요사항 변경은 인가 대상). 원본 문제집 선택지 순서를 복원했습니다.","reported_error_hotfix_revision":"v11.60.44-reported52"},"KDA-LAW-SU2-465":{"question":"비행장, 공항시설 또는 항행안전시설을 파손하거나 그 밖의 방법으로 항공상의 위험을 발생시킨 사람에 대한 처벌은?","choices":[{"id":"A","text":"5년 이하의 징역"},{"id":"B","text":"10년 이하의 징역"},{"id":"C","text":"3년 이하의 징역 또는 5천만원 이하의 벌금"},{"id":"D","text":"1년 이상 10년 이하의 징역"}],"answer":"B","explanation":"항공법규 원본 출제예상문제 p.184(파일 PDF p.186) 문제 2와 정답표를 대조했습니다. 정답은 ② ‘10년 이하의 징역’입니다. OCR의 l0/띄어쓰기 오류를 함께 정리했습니다.","reported_error_hotfix_revision":"v11.60.44-reported52"},"KDA-LAW-SU2-437":{"choices":[{"id":"A","text":"이용자의 편의"},{"id":"B","text":"효율성과 경제성"},{"id":"C","text":"항공안전"},{"id":"D","text":"국토의 구분"}],"answer":"D","explanation":"항공안전법 시행규칙의 공역 설정기준에는 국가안전보장·항공안전, 항공교통 서비스 제공 여부, 이용자의 편의, 효율적·경제적 활용 등이 포함됩니다. ‘국토의 구분’은 설정기준이 아니므로 정답은 D입니다. ‘항땅안전’ OCR 오류를 ‘항공안전’으로 복원했습니다.","reported_error_hotfix_revision":"v11.60.44-reported52"},"WX-SU6-007":{"question":"대륙성 열대기단의 분류 기호는?","choices":[{"id":"A","text":"cT"},{"id":"B","text":"cP"},{"id":"C","text":"mT"},{"id":"D","text":"mP"}],"answer":"A","explanation":"원문 ‘기단의 특성에 따른 분류 기호가 틀린 것은?’은 cT/cP/mT/mP 네 보기가 모두 올바르게 대응되어 단일정답이 성립하지 않았습니다. 동일 학습개념을 단일정답형으로 재구성했습니다. 대륙성 열대기단은 continental Tropical, 즉 cT입니다.","requires_figure":false,"figure_refs":[],"images":[],"reported_error_hotfix_revision":"v11.60.44-reported52"},"WX-SU6-014":{"choices":[{"id":"A","text":"시베리아 기단"},{"id":"B","text":"북태평양 기단"},{"id":"C","text":"오호츠크해 기단"},{"id":"D","text":"양쯔강 기단"}],"answer":"A","explanation":"항공기상 원본 p.70(파일 PDF p.76) 문제 14를 대조했습니다. 겨울철 우리나라 동해안 강설과 관련된 기단은 시베리아 기단이며 정답은 A입니다. ‘1 시베리아’, ‘Fx 기단’ OCR 오류를 복원했습니다.","reported_error_hotfix_revision":"v11.60.44-reported52"},"WX-SU5-004":{"question":"현재 안개가 끼어 있고, 기온/이슬점(℃)이 순서대로 21/21 → 21/21 → 21/21 → 23/22 → 25/23으로 변할 때 기상은?","answer":"B","explanation":"원본 표에서 초기에 기온과 이슬점이 같다가 마지막에는 25℃/23℃로 차이가 2℃까지 벌어집니다. 공기가 포화에서 멀어지면서 기존 안개가 소산되는 방향이므로 정답은 B ‘안개가 사라질 것이다’입니다. 누락된 표의 수치를 지문에 직접 포함해 그림 없이도 풀 수 있게 복구했습니다.","requires_figure":false,"figure_refs":[],"images":[],"reported_error_hotfix_revision":"v11.60.44-reported52"},"FLIGHT-THEORY-285":{"choices":[{"id":"A","text":"양항비를 크게 한다."},{"id":"B","text":"양항비를 작게 한다."},{"id":"C","text":"양항비와 항력을 작게 한다."},{"id":"D","text":"항공기 속도를 감소시킨다."}],"answer":"A","explanation":"활공각을 작게 해 가장 멀리 활공하려면 양항비(L/D)를 크게 해야 합니다. 비행이론 원본 p.84(파일 PDF p.90) 해설과 정답표를 대조해 A를 유지하고 OCR/문장부호를 정리했습니다.","reported_error_hotfix_revision":"v11.60.44-reported52"},"FLIGHT-THEORY-213":{"choices":[{"id":"A","text":"분리형(split) 플랩"},{"id":"B","text":"파울러(fowler) 플랩"},{"id":"C","text":"통풍형(slotted) 플랩"},{"id":"D","text":"평형(plain) 플랩"}],"answer":"B","explanation":"비행이론 원본 p.61(파일 PDF p.67) 문제 7과 정답표를 대조했습니다. 정답 B는 유지하고 fowler/plain 등의 OCR 분리 오류를 복원했습니다.","reported_error_hotfix_revision":"v11.60.44-reported52"},"FLIGHT-THEORY-211":{"choices":[{"id":"A","text":"Fowler flap"},{"id":"B","text":"Double slotted flap"},{"id":"C","text":"Double slotted Fowler flap"},{"id":"D","text":"Split flap"}],"answer":"C","explanation":"비행이론 원본 p.61(파일 PDF p.67) 문제 5의 선택지 순서와 정답표를 복원했습니다. 가장 높은 CLmax를 갖는 것은 Double slotted Fowler flap이며 원본 기준 정답은 ③(C)입니다.","reported_error_hotfix_revision":"v11.60.44-reported52"},"FLIGHT-THEORY-218":{"question":"다음 그림과 같은 플랩(flap)의 명칭은?","choices":[{"id":"A","text":"Split flap"},{"id":"B","text":"Fowler flap"},{"id":"C","text":"Slotted flap"},{"id":"D","text":"Krueger flap"}],"answer":"B","explanation":"비행이론 원본 p.62(파일 PDF p.68) 문제 12의 그림과 해설을 복구했습니다. 그림은 플랩이 뒤로 이동하며 틈을 만들고 아래로 굽혀지는 Fowler flap을 나타내므로 정답은 B입니다.","requires_figure":true,"figure_refs":["assets/figures/flight-theory-q218-fowler-flap.png"],"images":[],"reported_error_hotfix_revision":"v11.60.44-reported52"}};
+function applyV116044ReportedErrorCorrections() {
+  if (!Array.isArray(bank)) return;
+  bank.forEach(q => {
+    const patch = V116044_REPORTED_ERROR_CORRECTIONS[q?.id];
+    if (!patch) return;
+    Object.entries(patch).forEach(([key,value]) => {
+      if (key === "choices" && Array.isArray(value)) q.choices = value.map(choice => ({...choice}));
+      else if (Array.isArray(value)) q[key] = [...value];
+      else q[key] = value;
+    });
+  });
+}
+
 async function loadBank() {
   try {
     let data = null;
@@ -3646,6 +3661,9 @@ async function loadBank() {
     } catch (flightTheoryError) {
       console.warn("비행이론 문제 데이터 로드 실패", flightTheoryError);
     }
+
+    // v11.60.44: 신고된 오류 검수 결과를 정적 문제은행 위에 적용합니다.
+    applyV116044ReportedErrorCorrections();
 
     // v11.60.13: 관리자 서버 수정본을 정적 문제은행 위에 overlay 합니다.
     await loadQuestionOverridesIntoBank();
@@ -4728,9 +4746,11 @@ async function clearAllAdminErrorReports() {
   } catch (err) {
     console.error("[Supabase] 관리자 오류 전체 삭제 실패", err);
     const message = String(err?.message || "알 수 없는 오류");
-    els.adminErrorReportStatus.textContent = message.includes("pilotbank_admin_clear_error_reports") || message.includes("function")
-      ? "삭제 실패: V11.60.13 Supabase SQL을 먼저 실행해 주세요."
-      : `삭제 실패: ${message}`;
+    els.adminErrorReportStatus.textContent = message.includes("DELETE requires a WHERE clause")
+      ? "삭제 실패: V11.60.44 Supabase 오류삭제 hotfix SQL을 실행해 주세요."
+      : (message.includes("pilotbank_admin_clear_error_reports") || message.includes("function")
+        ? "삭제 실패: V11.60.44 Supabase 오류삭제 hotfix SQL을 먼저 실행해 주세요."
+        : `삭제 실패: ${message}`);
   } finally {
     els.clearAdminErrorReports.disabled = false;
   }

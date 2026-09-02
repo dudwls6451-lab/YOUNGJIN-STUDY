@@ -1,0 +1,60 @@
+{
+  "version": "v11.60.44",
+  "base": "v11.60.43",
+  "checks": {
+    "index_version": true,
+    "index_new_css": true,
+    "index_app_cache": true,
+    "app_correction_map": true,
+    "app_apply_call": true,
+    "correction_count": true,
+    "delete_has_where": true,
+    "figure_exists": true,
+    "dark_css_error_card": true,
+    "javascript_syntax": true,
+    "reported52_unique_coverage": true
+  },
+  "pass": true,
+  "files": [
+    {
+      "path": "V11.60.44_REPORTED52_PATCH.md",
+      "bytes": 1361,
+      "sha256": "2994c69e4f093ddb39cb37d319d117a6564cd288edf17749d7509865314e3f74"
+    },
+    {
+      "path": "V11.60.44_REPORTED_ERRORS_HOTFIX.sql",
+      "bytes": 1490,
+      "sha256": "5fc125a59200286e630f58ada936a2f8b5c03591a0406f6980bc77ef6957a01e"
+    },
+    {
+      "path": "assets/app-v11-44.js",
+      "bytes": 1810321,
+      "sha256": "4db4d80fd3e84996b663810ed58c849b465eac0469add1400a90259a31608da5"
+    },
+    {
+      "path": "assets/figures/flight-theory-q218-fowler-flap.png",
+      "bytes": 17342,
+      "sha256": "8b8c4e8e3319a0b8ffd91a12510b4757513528375615b5add44e7bbed46c6886"
+    },
+    {
+      "path": "assets/style-v11-60-44-error-report-dark.css",
+      "bytes": 2640,
+      "sha256": "cbf5602d7bd021ecd7fb28b20d8d9b84b9a350bd6f0220712b478d4db3364309"
+    },
+    {
+      "path": "index.html",
+      "bytes": 45342,
+      "sha256": "f86b3382fe369bc0e215c903b7bd351a3f81bf76c633a9f23702b59997ce121d"
+    },
+    {
+      "path": "supabase/V11.60.44_REPORTED_ERRORS_HOTFIX.sql",
+      "bytes": 1490,
+      "sha256": "5fc125a59200286e630f58ada936a2f8b5c03591a0406f6980bc77ef6957a01e"
+    },
+    {
+      "path": "v11.60.44_reported52_review_report.json",
+      "bytes": 18010,
+      "sha256": "8454a4076c53416b37a20d6e98011bcf2f4d3b742672c57e4d6a5297f8dd8db3"
+    }
+  ]
+}
