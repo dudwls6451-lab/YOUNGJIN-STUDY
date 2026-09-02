@@ -1,0 +1,52 @@
+{
+  "version": "v11.60.46",
+  "base_compatible": [
+    "v11.60.44",
+    "v11.60.45"
+  ],
+  "purpose": "Study Group Question Lab visibility / mount hotfix",
+  "root_cause": "v11.60.45 injectUI created the new Question Lab only when #studyGroupCard did not already exist. When a prior study-group DOM was already mounted, the card was retained and the Question Lab section was not injected.",
+  "fixes": [
+    "Always run ensureQuestionLabUI after study-group UI initialization.",
+    "Upgrade an already-existing study-group detail DOM by inserting the Question Lab before Daily Goals when the create tab is absent.",
+    "Repair a partially-mounted Question Lab section by replacing it when the create tab is missing.",
+    "Add prominent quick-entry buttons for 문제 풀기 and 문제 만들기 in the group date/action bar.",
+    "Add 문제 만들기 to an existing legacy goal-type select when absent.",
+    "Update cache-busting asset versions to v11.60.46."
+  ],
+  "checks": {
+    "node_syntax": true,
+    "index_loads_v46_js": true,
+    "index_loads_v46_css": true,
+    "question_create_tab_present": true,
+    "question_solve_tab_present": true,
+    "question_list_tab_present": true,
+    "legacy_dom_upgrade_present": true,
+    "goal_question_create_option_upgrade": true,
+    "quick_create_button_present": true,
+    "sql_bundled": true
+  },
+  "pass": true,
+  "files": {
+    "V11.60.45_STUDY_GROUP_QUESTION_LAB.sql": {
+      "bytes": 17797,
+      "sha256": "b23c389965397a960c8e6e5f6abb15666d52257f0cb421bf20f436ec75e562e6"
+    },
+    "assets/study-group-v11-60-46.js": {
+      "bytes": 66415,
+      "sha256": "3b660dabfa30623444aa231af2ad286533a70c87bfa29c152fad5701d847876a"
+    },
+    "assets/style-v11-60-46-study-group.css": {
+      "bytes": 20093,
+      "sha256": "d4ce1dbab150147298820e617162f877be5ae2d073163ce8759fc69f2a4e2765"
+    },
+    "index.html": {
+      "bytes": 45346,
+      "sha256": "6ec155fb24069d4de32a40a32db43f376ff400dd74df3d6aa74c6ed266a1341e"
+    },
+    "supabase/V11.60.45_STUDY_GROUP_QUESTION_LAB.sql": {
+      "bytes": 17797,
+      "sha256": "b23c389965397a960c8e6e5f6abb15666d52257f0cb421bf20f436ec75e562e6"
+    }
+  }
+}
