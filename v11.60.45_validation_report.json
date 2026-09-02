@@ -1,0 +1,23 @@
+{
+  "version": "v11.60.45",
+  "base": "v11.60.44",
+  "feature": "study-group question creation / solving / question comments / question-create goals / board preserved",
+  "files": [
+    "index.html",
+    "assets/study-group-v11-60-45.js",
+    "assets/style-v11-60-45-study-group.css",
+    "supabase/V11.60.45_STUDY_GROUP_QUESTION_LAB.sql"
+  ],
+  "checks": {
+    "index_css_ref": true,
+    "index_js_ref": true,
+    "create_mode": true,
+    "solve_mode": true,
+    "question_comments": true,
+    "board_preserved": true,
+    "goal_question_create": true,
+    "dashboard_create_stats": true,
+    "sql_tables": true
+  },
+  "pass": true
+}
