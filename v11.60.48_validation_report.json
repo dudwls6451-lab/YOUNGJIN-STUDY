@@ -1,0 +1,53 @@
+{
+  "version": "v11.60.48",
+  "base_required": "v11.60.47 study-group custom question categories applied",
+  "feature": "Study Group two-stage mode selection router",
+  "flow": {
+    "stage_1": [
+      "스터디 그룹 만들기",
+      "내 스터디 그룹"
+    ],
+    "stage_2_after_group_selection": [
+      "오늘의 스터디 목표",
+      "문제 만들기",
+      "스터디원의 문제 풀기"
+    ],
+    "board_behavior": "게시판은 선택한 그룹 학습 모드 화면 하단에 유지"
+  },
+  "database_migration_required": false,
+  "changed_files": [
+    "index.html",
+    "assets/study-group-v11-60-48.js",
+    "assets/style-v11-60-48-study-group.css"
+  ],
+  "preserved": [
+    "스터디그룹 생성/초대/탈퇴/관리",
+    "복수 일일 목표 및 문제 만들기 목표",
+    "그룹 문제 만들기",
+    "사용자 생성 카테고리",
+    "그룹 문제 풀이",
+    "문제별 댓글",
+    "스터디그룹 게시판"
+  ],
+  "checks": {
+    "index_uses_v116048_css": true,
+    "index_uses_v116048_js": true,
+    "display_version_v116048": true,
+    "entry_mode_create": true,
+    "entry_mode_my_groups": true,
+    "workspace_goal_mode": true,
+    "workspace_create_mode": true,
+    "workspace_solve_mode": true,
+    "nav_opens_entry_first": true,
+    "group_selection_returns_mode_picker": true,
+    "workspace_section_router": true,
+    "board_preserved": true,
+    "custom_categories_preserved": true,
+    "question_comments_preserved": true,
+    "goal_question_create_preserved": true,
+    "router_css_present": true,
+    "mobile_router_css": true,
+    "no_db_migration_required": true,
+    "pass": true
+  }
+}
