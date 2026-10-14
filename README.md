@@ -1,7 +1,12 @@
-# v11.60.33 CPL Gleim verified replacement
+# v11.60.46 UI 복구 패치
 
-Base: v11.60.31. Do not use v11.60.32.
+v11.60.45 AWOS UI 정돈 패치를 적용한 기존 문제은행 루트에 이 ZIP을 풀어 index.html을 덮어쓰고 assets의 두 새 파일을 추가하세요. SQL은 필요 없습니다. 배포 후 강력 새로고침하세요.
 
-- 893 coordinate-matched questions, choices, answers, and explanations.
-- 54 extracted figure-page images linked to figure-dependent questions.
-- Lazy-loaded additive data; no database changes.
+- 이전 세로형 헤더의 width, min-height, flex-direction 규칙을 새 상단 헤더에서 명시적으로 초기화합니다.
+- 이전 mobile-nav-collapsed 규칙으로 대메뉴가 전부 숨겨지는 충돌을 방지합니다.
+- 홈 로고 아래 작은 설명 문구를 HTML에서 제거하며, JS도 해당 문구를 생성하지 않습니다.
+- 로고 innerHTML과 모바일 버튼 텍스트를 매번 재생성하던 코드를 수정해 변경 감시의 반복 실행을 막습니다.
+- 메뉴 영역의 flex 축소를 방지하고 모바일 한 열 카드 배치를 적용합니다.
+- 기존 기능 버튼 ID와 이벤트를 유지합니다.
+
+검증 범위와 결과는 validation.json에 기록합니다. 실제 운영 서버의 로그인, DB, 학습 엔진 전체 통합 테스트를 완료했다는 의미는 아닙니다.

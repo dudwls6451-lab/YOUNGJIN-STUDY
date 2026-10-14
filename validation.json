@@ -1,0 +1,26 @@
+{
+  "version": "11.60.46",
+  "javascriptSyntax": "PASS",
+  "staticIdsPreserved": true,
+  "duplicateIds": false,
+  "results": [
+    {
+      "width": 1440,
+      "domChecks": "PASS",
+      "idleMutations": 0
+    },
+    {
+      "width": 946,
+      "domChecks": "PASS",
+      "idleMutations": 0
+    },
+    {
+      "width": 390,
+      "domChecks": "PASS",
+      "idleMutations": 0
+    }
+  ],
+  "visualRendering": "NOT RUN: Chromium unavailable; browser download failed in environment",
+  "integration": "Live server/database not tested",
+  "cssEvidence": "Recovered v11.47 CSS has legacy width:232px, min-height:100%, flex-direction:column and mobile-nav-collapsed hiding all direct nav children; explicitly reset by new shell CSS."
+}
