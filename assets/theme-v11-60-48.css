@@ -1,0 +1,56 @@
+:root{--theme-bg:#f4f7fb;--theme-surface:#fff;--theme-raised:#f8fafc;--theme-text:#172338;--theme-muted:#52647a;--theme-border:#cdd8e6;--theme-accent:#2563eb}
+html[data-pb-theme="light"]{color-scheme:light}
+html[data-pb-theme="dark"]{color-scheme:dark;--theme-bg:#0b1220;--theme-surface:#131e30;--theme-raised:#1b2940;--theme-text:#edf4ff;--theme-muted:#b2c1d5;--theme-border:#354963;--theme-accent:#80aaff}
+html[data-pb-theme] body{background:var(--theme-bg)!important;color:var(--theme-text)!important}
+html[data-pb-theme] body .pilotbank-app-header,html[data-pb-theme] body #primaryFeatureNav{background:var(--theme-surface)!important;color:var(--theme-text)!important;border-color:var(--theme-border)!important}
+html[data-pb-theme] body .pilotbank-main,html[data-pb-theme] body .pilotbank-brand-logo{color:var(--theme-text)!important}
+html[data-pb-theme] body :is(input,select,textarea){background:var(--theme-surface)!important;color:var(--theme-text)!important;border-color:var(--theme-border)!important}
+html[data-pb-theme] body :is(input,textarea)::placeholder{color:var(--theme-muted)!important}
+html[data-pb-theme] body :is(.card,.home-hero,.progress-overview,.aviwiki-home,.aviwiki-reader-page,.pb-nav-group,.pb-nav-group-toggle,.pb-nav-group-icon,.theory-reader,.theory-sidebar,.theory-test-panel,.theory-coming-soon,.reference-book-card,.mode-choice-card,.book-choice-card,.wrong-review-choice-card,.auth-card,.auth-panel){background:var(--theme-surface)!important;color:var(--theme-text)!important;border-color:var(--theme-border)!important}
+html[data-pb-theme] body #primaryFeatureNav :is(.nav-action,.pb-menu-proxy){background:var(--theme-surface)!important;color:var(--theme-text)!important;border-color:var(--theme-border)!important}
+html[data-pb-theme] body #primaryFeatureNav [aria-current="page"]{background:#2563eb!important;border-color:#2563eb!important;color:#fff!important}
+html[data-pb-theme] body #primaryFeatureNav [aria-current="page"] :is(span,.nav-icon){color:#fff!important}
+html[data-pb-theme] body .pilotbank-main .button:not(.secondary){background:#2563eb!important;color:#fff!important;border-color:#2563eb!important}
+html[data-pb-theme] body .pilotbank-main .button:not(.secondary) :is(span,strong){color:#fff!important}
+html[data-pb-theme] body .button.secondary{background:var(--theme-surface)!important;color:var(--theme-text)!important;border-color:var(--theme-border)!important}
+html[data-pb-theme] body :is(.muted,.nav-label,.pb-nav-group-title-label,.pb-nav-group-icon){color:var(--theme-muted)!important}
+html[data-pb-theme] body #pilotbankMenuBackdrop{background:rgba(0,0,0,.45)!important}
+html[data-pb-theme] body :is(.auth-session-timer,.auth-user-chip,.auth-logout-button,.pb-theme-toggle){background:var(--theme-raised)!important;color:var(--theme-text)!important;border:1px solid var(--theme-border)!important}
+.pb-theme-toggle{font:inherit;font-size:12px;font-weight:700;padding:8px 10px;border-radius:10px;white-space:nowrap;cursor:pointer}
+body.pb-home-gate-pending main.pilotbank-main,body.pb-home-gate-pending #primaryFeatureNav{visibility:hidden!important;pointer-events:none!important}
+.pb-daily-gate{position:fixed;inset:var(--pb-header-h,66px) 0 0;z-index:9100;overflow:auto;background:var(--theme-bg);padding:28px 16px;box-sizing:border-box;color:var(--theme-text)}
+.pb-daily-card{box-sizing:border-box;max-width:800px;margin:0 auto;background:var(--theme-surface);color:var(--theme-text);border:1px solid var(--theme-border);border-radius:20px;padding:28px;box-shadow:0 12px 36px rgba(0,0,0,.08)}
+.pb-daily-card h1{font-size:24px;margin:0 0 12px;color:var(--theme-text)}
+.pb-daily-eyebrow{color:var(--theme-muted);font-size:13px}
+.pb-daily-question{font-size:19px;line-height:1.6;white-space:pre-wrap;color:var(--theme-text)}
+.pb-daily-choices{display:grid;gap:10px;margin:20px 0}
+.pb-daily-choice{font:inherit;line-height:1.6;text-align:left;white-space:pre-wrap;padding:14px 16px;border:1px solid var(--theme-border);border-radius:12px;background:var(--theme-raised);color:var(--theme-text);cursor:pointer}
+.pb-daily-choice:hover:not(:disabled){border-color:var(--theme-accent);transform:translateY(-1px)}
+.pb-daily-choice:disabled{opacity:1;cursor:default}
+.pb-daily-choice.is-correct{background:#dcfce7;color:#14532d;border-color:#16a34a}
+.pb-daily-choice.is-wrong{background:#fee2e2;color:#7f1d1d;border-color:#dc2626}
+.pb-daily-card .pb-good{color:#15803d}.pb-daily-card .pb-bad{color:#b91c1c}
+html[data-pb-theme="dark"] .pb-daily-card .pb-good{color:#86efac}html[data-pb-theme="dark"] .pb-daily-card .pb-bad{color:#fca5a5}
+.pb-daily-card .button{background:#2563eb!important;color:#fff!important;border-color:#2563eb!important;padding:12px 18px;border-radius:12px}
+.pb-daily-card .button:disabled{opacity:.55}
+.pb-daily-card progress{width:100%;height:10px;accent-color:#2563eb}
+#dailyFeedback p{white-space:pre-wrap;line-height:1.7}
+@media(max-width:560px){.pb-daily-card{padding:20px}.pb-theme-toggle{font-size:11px;padding:6px}.pb-daily-gate{padding:16px 12px}.pb-daily-card h1{font-size:21px}}
+html[data-pb-theme] body .pilotbank-main .eyebrow{color:var(--theme-accent)!important}
+html[data-pb-theme] body .pilotbank-main .progress-track{background:var(--theme-border)!important}
+html[data-pb-theme] body :is(.good,.correct-text,.success-message){color:var(--good)!important}
+html[data-pb-theme] body :is(.bad,.incorrect-text,.error-message,.auth-error){color:var(--bad)!important}
+/* Retain legacy auth/community header-nav hooks without making a fixed containing block. */
+html[data-pb-theme] body header.topbar.pilotbank-app-header{backdrop-filter:none!important;-webkit-backdrop-filter:none!important;filter:none!important;transform:none!important;contain:none!important;will-change:auto!important}
+html[data-pb-theme] body #primaryFeatureNav{height:calc(100vh - var(--pb-header-h))!important;height:calc(100dvh - var(--pb-header-h))!important;bottom:auto!important}
+html[data-pb-theme] body :is(.theory-status-badge.passed,.success-text){color:var(--good)!important;background:var(--theme-raised)!important}
+html[data-pb-theme] body :is(.auth-submit:not(.secondary):not(.ghost),.auth-tab.active){background:#2563eb!important;color:#fff!important;border-color:#2563eb!important}
+@media(max-width:560px){
+ :root{--pb-header-h:104px}
+ html[data-pb-theme] body header.topbar.pilotbank-app-header .pilotbank-header-row{height:60px!important}
+ html[data-pb-theme] body #pilotbankHeaderActions{position:absolute!important;top:62px!important;left:12px!important;right:12px!important;height:34px!important;justify-content:flex-end!important;gap:6px!important}
+ html[data-pb-theme] body #pilotbankHeaderActions .auth-session-timer{min-height:32px!important}
+ html[data-pb-theme] body #pilotbankHeaderActions .auth-logout-button{min-height:32px!important;height:32px!important}
+}
+html[data-pb-theme] body .pilotbank-main .mini-button:not(.secondary){background:#2563eb!important;color:#fff!important;border-color:#2563eb!important}
+html[data-pb-theme] body .auth-admin-badge{background:var(--theme-raised)!important;color:var(--theme-accent)!important;border-color:var(--theme-border)!important}

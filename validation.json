@@ -1,27 +1,102 @@
 {
-  "version": "11.60.47",
-  "javascriptSyntax": "PASS",
-  "staticIdsPreserved": true,
-  "duplicateIds": false,
+  "version": "11.60.48",
+  "actualChromiumRendering": true,
+  "scope": "Full patched app and recovered v11.33/v11.47/v11.57 styles. Auth, question fetch and external add-on modules mocked; live Supabase not tested.",
   "results": [
     {
       "width": 1440,
-      "domChecks": "PASS",
-      "idleMutations": 0
+      "mode": "light",
+      "headerWidth": 1440,
+      "navHeight": 834,
+      "overflow": false,
+      "bodyBackground": "rgb(244, 247, 251)",
+      "text": "rgb(23, 35, 56)"
+    },
+    {
+      "width": 1440,
+      "mode": "dark",
+      "headerWidth": 1440,
+      "navHeight": 834,
+      "overflow": false,
+      "bodyBackground": "rgb(11, 18, 32)",
+      "text": "rgb(237, 244, 255)"
     },
     {
       "width": 946,
-      "domChecks": "PASS",
-      "idleMutations": 0
+      "mode": "light",
+      "headerWidth": 946,
+      "navHeight": 840,
+      "overflow": false,
+      "bodyBackground": "rgb(244, 247, 251)",
+      "text": "rgb(23, 35, 56)"
+    },
+    {
+      "width": 946,
+      "mode": "dark",
+      "headerWidth": 946,
+      "navHeight": 840,
+      "overflow": false,
+      "bodyBackground": "rgb(11, 18, 32)",
+      "text": "rgb(237, 244, 255)"
     },
     {
       "width": 390,
-      "domChecks": "PASS",
-      "idleMutations": 0
+      "mode": "light",
+      "headerWidth": 390,
+      "navHeight": 796,
+      "overflow": false,
+      "bodyBackground": "rgb(244, 247, 251)",
+      "text": "rgb(23, 35, 56)"
+    },
+    {
+      "width": 390,
+      "mode": "dark",
+      "headerWidth": 390,
+      "navHeight": 796,
+      "overflow": false,
+      "bodyBackground": "rgb(11, 18, 32)",
+      "text": "rgb(237, 244, 255)"
+    },
+    {
+      "width": 360,
+      "mode": "light",
+      "headerWidth": 360,
+      "navHeight": 796,
+      "overflow": false,
+      "bodyBackground": "rgb(244, 247, 251)",
+      "text": "rgb(23, 35, 56)"
+    },
+    {
+      "width": 360,
+      "mode": "dark",
+      "headerWidth": 360,
+      "navHeight": 796,
+      "overflow": false,
+      "bodyBackground": "rgb(11, 18, 32)",
+      "text": "rgb(237, 244, 255)"
     }
   ],
-  "visualRendering": "NOT RUN: Chromium unavailable; browser download failed in environment",
-  "integration": "Live server/database not tested",
-  "viewportOwnership": true,
-  "cssEvidence": "Recovered v11.47 CSS has legacy width:232px, min-height:100%, flex-direction:column and mobile-nav-collapsed hiding all direct nav children; explicitly reset by new shell CSS."
+  "checks": [
+    "5 questions required before home",
+    "partial completion survives reload",
+    "completed day skips gate",
+    "home shows greeting/progress and hides mode hub",
+    "learning hub remains reachable",
+    "theme persists after reload",
+    "viewport-owned rail uses remaining screen height",
+    "desktop/tablet/mobile no horizontal overflow",
+    "no browser JS errors",
+    "two devices share daily completion via mocked DB",
+    "account isolation",
+    "Korea midnight date rollover",
+    "random draw has 5 distinct IDs",
+    "all-wrong completion is allowed",
+    "home click blocked during quiz",
+    "legacy inline white-on-white repaired in both themes",
+    "static IDs preserved, no duplicate IDs",
+    "header auth controls and branding do not overlap",
+    "reference highlight CSS colors preserved"
+  ],
+  "liveDatabaseTested": false,
+  "authAndModules": "Authentication controls modeled on real markup; live login and add-on feature modules not integrated."
 }
