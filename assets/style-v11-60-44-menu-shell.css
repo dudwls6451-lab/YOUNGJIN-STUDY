@@ -1,0 +1,411 @@
+/* PilotBank v11.60.44 · AWOS-inspired functional menu shell
+   Goal: make every major feature discoverable from one persistent menu without changing feature logic. */
+:root{
+  --pb-shell-bg:#f6f8fb;
+  --pb-panel:#ffffff;
+  --pb-line:#e6ebf2;
+  --pb-text:#0f172a;
+  --pb-muted:#64748b;
+  --pb-blue:#2563eb;
+  --pb-blue-soft:#eff6ff;
+  --pb-blue-line:#bfdbfe;
+  --pb-rail-w:244px;
+  --pb-rail-collapsed-w:76px;
+  --pb-header-h:64px;
+  --pb-radius:16px;
+}
+
+html{scroll-padding-top:calc(var(--pb-header-h) + 18px)}
+body{
+  background:var(--pb-shell-bg)!important;
+  color:var(--pb-text);
+  padding-top:var(--pb-header-h);
+}
+
+/* ── AWOS-like fixed header ─────────────────────────────────────────────── */
+.topbar.pilotbank-app-header{
+  position:fixed!important;
+  inset:0 0 auto 0;
+  z-index:9000;
+  height:var(--pb-header-h);
+  overflow:visible!important;
+  background:#fff!important;
+  color:var(--pb-text)!important;
+  border-bottom:1px solid var(--pb-line)!important;
+  box-shadow:none!important;
+  backdrop-filter:none!important;
+}
+.topbar.pilotbank-app-header .pilotbank-header-row{
+  height:var(--pb-header-h);
+  max-width:none!important;
+  width:100%!important;
+  margin:0!important;
+  padding:0 20px!important;
+  display:flex!important;
+  align-items:center!important;
+  justify-content:space-between!important;
+  gap:16px!important;
+}
+.pilotbank-brand-cluster{
+  min-width:0;
+  display:flex;
+  align-items:center;
+  gap:12px;
+}
+.pilotbank-brand-copy{min-width:0}
+.pilotbank-brand-copy h1{margin:0!important;line-height:1!important}
+.pilotbank-brand-copy .muted{
+  margin:5px 0 0!important;
+  color:#7b879a!important;
+  font-size:11.5px!important;
+  line-height:1.15!important;
+  white-space:nowrap;
+}
+.brand-home-button{
+  display:inline-flex!important;
+  align-items:baseline!important;
+  gap:7px!important;
+  padding:0!important;
+  border:0!important;
+  background:transparent!important;
+  color:var(--pb-text)!important;
+  box-shadow:none!important;
+  font:inherit!important;
+  cursor:pointer;
+}
+.pilotbank-brand-name{
+  font-size:19px;
+  font-weight:900;
+  letter-spacing:-.035em;
+}
+.pilotbank-brand-divider{font-size:15px;color:#cbd5e1;font-weight:500}
+.pilotbank-brand-section{font-size:15px;font-weight:800;letter-spacing:-.02em}
+.pilotbank-status-pill{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  min-height:28px;
+  padding:0 10px;
+  border:1px solid #e2e8f0;
+  border-radius:999px;
+  background:#f8fafc;
+  color:#475569;
+  font-size:10.5px;
+  font-weight:900;
+  letter-spacing:.06em;
+  white-space:nowrap;
+}
+.pilotbank-status-pill>span{
+  width:6px;height:6px;border-radius:999px;background:#10b981;box-shadow:0 0 0 3px rgba(16,185,129,.10)
+}
+.pilotbank-header-actions{
+  margin-left:auto;
+  display:flex;
+  align-items:center;
+  justify-content:flex-end;
+  gap:8px;
+  min-width:0;
+}
+.pilotbank-header-menu-slot{display:flex;align-items:center;flex:0 0 auto}
+.pilotbank-header-menu-slot #menuToggleBtn{
+  width:40px!important;
+  height:40px!important;
+  min-width:40px!important;
+  min-height:40px!important;
+  padding:0!important;
+  display:inline-flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  border:1px solid #e2e8f0!important;
+  border-radius:10px!important;
+  background:#fff!important;
+  color:#0f172a!important;
+  box-shadow:none!important;
+}
+.pilotbank-header-menu-slot #menuToggleBtn:hover{background:#f8fafc!important}
+.pilotbank-header-menu-slot #menuToggleBtn .nav-icon{font-size:20px!important;line-height:1!important}
+.pilotbank-header-menu-slot #menuToggleBtn .nav-label{display:none!important}
+
+/* Auth controls are moved here by menu-shell JS. Runtime-injected auth CSS is intentionally overridden. */
+header .pilotbank-header-actions .auth-session-timer{
+  order:initial!important;
+  min-height:38px!important;
+  padding:4px 5px 4px 11px!important;
+  border-color:#e2e8f0!important;
+  border-radius:10px!important;
+  background:#fff!important;
+  box-shadow:none!important;
+}
+header .pilotbank-header-actions .auth-session-timer.is-counting{background:#fffaf0!important;border-color:#f0c36a!important}
+header .pilotbank-header-actions .auth-session-timer.is-warning{background:#fff7e6!important;border-color:#f59e0b!important}
+header .pilotbank-header-actions .auth-session-timer.is-extended{background:#f0fff6!important;border-color:#86cfa3!important}
+header .pilotbank-header-actions .auth-user-chip,
+header .pilotbank-header-actions .auth-logout-button{
+  min-height:38px!important;
+  border:1px solid #e2e8f0!important;
+  border-radius:10px!important;
+  background:#fff!important;
+  color:#334155!important;
+  box-shadow:none!important;
+}
+header .pilotbank-header-actions .auth-user-chip{padding:0 11px!important}
+header .pilotbank-header-actions .auth-logout-button{padding:0 12px!important;font-size:12px!important;font-weight:800!important}
+header .pilotbank-header-actions .auth-logout-button:hover{background:#f8fafc!important}
+
+/* ── Persistent function rail ──────────────────────────────────────────── */
+.pilotbank-menu-rail{
+  position:fixed!important;
+  z-index:8950!important;
+  top:var(--pb-header-h)!important;
+  bottom:0!important;
+  left:0!important;
+  width:var(--pb-rail-w)!important;
+  margin:0!important;
+  padding:12px 10px 22px!important;
+  display:flex!important;
+  flex-direction:column!important;
+  flex-wrap:nowrap!important;
+  align-items:stretch!important;
+  gap:2px!important;
+  overflow-y:auto!important;
+  overflow-x:hidden!important;
+  background:#fff!important;
+  border-right:1px solid var(--pb-line)!important;
+  border-bottom:0!important;
+  box-shadow:none!important;
+  transition:width .2s ease, transform .22s cubic-bezier(.22,1,.36,1)!important;
+  scrollbar-width:thin;
+  scrollbar-color:#d8e0ea transparent;
+}
+.pilotbank-menu-rail::-webkit-scrollbar{width:7px}
+.pilotbank-menu-rail::-webkit-scrollbar-thumb{background:#d8e0ea;border-radius:99px}
+.pb-nav-menu-caption{
+  padding:2px 9px 11px;
+  color:#94a3b8;
+  font-size:10px;
+  font-weight:900;
+  letter-spacing:.10em;
+  text-transform:uppercase;
+}
+.pb-nav-home-slot{margin-bottom:5px;padding-bottom:6px;border-bottom:1px solid #eef2f7}
+.pb-nav-group{display:block;margin-top:3px}
+.pb-nav-group-toggle{
+  width:100%;
+  min-height:38px;
+  display:flex;
+  align-items:center;
+  gap:8px;
+  padding:7px 10px;
+  border:0;
+  border-radius:9px;
+  background:transparent;
+  color:#0f172a;
+  text-align:left;
+  font:inherit;
+  font-size:13px;
+  font-weight:900;
+  cursor:pointer;
+}
+.pb-nav-group-toggle:hover{background:#f8fafc}
+.pb-nav-group-icon{width:18px;text-align:center;color:#64748b;font-size:13px}
+.pb-nav-group-chevron{margin-left:auto;color:#94a3b8;font-size:12px;transition:transform .18s ease}
+.pb-nav-group.is-collapsed .pb-nav-group-chevron{transform:rotate(-90deg)}
+.pb-nav-group-body{
+  display:grid;
+  grid-template-rows:1fr;
+  opacity:1;
+  transition:grid-template-rows .22s cubic-bezier(.22,1,.36,1),opacity .15s ease;
+}
+.pb-nav-group-body-inner{min-height:0;overflow:hidden;display:flex;flex-direction:column;gap:1px}
+.pb-nav-group.is-collapsed .pb-nav-group-body{grid-template-rows:0fr;opacity:0}
+
+.pilotbank-menu-rail .nav-action,
+.pilotbank-menu-rail .pb-menu-proxy{
+  position:relative;
+  width:100%!important;
+  min-width:0!important;
+  min-height:39px!important;
+  margin:0!important;
+  padding:7px 10px!important;
+  display:flex!important;
+  align-items:center!important;
+  justify-content:flex-start!important;
+  gap:9px!important;
+  border:0!important;
+  border-radius:9px!important;
+  background:transparent!important;
+  color:#334155!important;
+  box-shadow:none!important;
+  text-align:left!important;
+  font:inherit!important;
+  font-size:13.5px!important;
+  font-weight:600!important;
+  line-height:1.2!important;
+  cursor:pointer;
+  text-decoration:none!important;
+  transition:background-color .14s ease,color .14s ease!important;
+}
+.pilotbank-menu-rail .nav-action:hover,
+.pilotbank-menu-rail .pb-menu-proxy:hover{background:#f1f5f9!important;color:#0f172a!important}
+.pilotbank-menu-rail .nav-action[aria-current="page"],
+.pilotbank-menu-rail .pb-menu-proxy[aria-current="page"]{
+  background:var(--pb-blue)!important;
+  color:#fff!important;
+  font-weight:800!important;
+}
+.pilotbank-menu-rail .nav-icon,
+.pilotbank-menu-rail .pb-menu-proxy .nav-icon{
+  width:18px!important;
+  flex:0 0 18px!important;
+  display:inline-flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  color:#64748b!important;
+  font-size:14px!important;
+  line-height:1!important;
+}
+.pilotbank-menu-rail [aria-current="page"] .nav-icon{color:#fff!important}
+.pilotbank-menu-rail .nav-label{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pilotbank-menu-rail .count-badge,
+.pilotbank-menu-rail .nav-pending-badge{
+  margin-left:auto!important;
+  min-width:19px!important;
+  height:19px!important;
+  padding:0 5px!important;
+  display:inline-flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  border-radius:999px!important;
+  background:#fee2e2!important;
+  color:#b91c1c!important;
+  font-size:10px!important;
+  font-weight:900!important;
+}
+.pilotbank-menu-rail [aria-current="page"] .count-badge,
+.pilotbank-menu-rail [aria-current="page"] .nav-pending-badge{background:rgba(255,255,255,.18)!important;color:#fff!important}
+.pilotbank-menu-rail .hidden{display:none!important}
+
+/* Existing global collapse logic remains compatible. */
+@media (min-width:1024px){
+  body.sidebar-collapsed .pilotbank-menu-rail{width:var(--pb-rail-collapsed-w)!important;padding-inline:8px!important}
+  body.sidebar-collapsed .pilotbank-main{margin-left:calc(var(--pb-rail-collapsed-w) + 24px)!important}
+  body.sidebar-collapsed .pb-nav-menu-caption,
+  body.sidebar-collapsed .pb-nav-group-toggle{display:none!important}
+  body.sidebar-collapsed .pb-nav-group.is-collapsed .pb-nav-group-body,
+  body.sidebar-collapsed .pb-nav-group-body{grid-template-rows:1fr!important;opacity:1!important}
+  body.sidebar-collapsed .pilotbank-menu-rail .nav-action,
+  body.sidebar-collapsed .pilotbank-menu-rail .pb-menu-proxy{justify-content:center!important;padding-inline:8px!important}
+  body.sidebar-collapsed .pilotbank-menu-rail .nav-label,
+  body.sidebar-collapsed .pilotbank-menu-rail .count-badge,
+  body.sidebar-collapsed .pilotbank-menu-rail .nav-pending-badge{display:none!important}
+}
+
+/* ── Main canvas: white cards on a quiet grey workspace ───────────────── */
+main.container.pilotbank-main{
+  width:auto!important;
+  max-width:none!important;
+  margin:0 24px 0 calc(var(--pb-rail-w) + 24px)!important;
+  padding:24px 0 44px!important;
+  transition:margin-left .2s ease!important;
+}
+.pilotbank-main>.card,
+.pilotbank-main>.home-hero,
+.pilotbank-main>.progress-overview,
+.pilotbank-main>.aviwiki-home,
+.pilotbank-main>.aviwiki-reader-page{
+  border:1px solid var(--pb-line)!important;
+  border-radius:var(--pb-radius)!important;
+  background:#fff!important;
+  box-shadow:none!important;
+}
+.pilotbank-main>.home-hero{
+  min-height:auto!important;
+  padding:24px 26px!important;
+  background:linear-gradient(135deg,#ffffff 0%,#f8fbff 100%)!important;
+}
+.pilotbank-main .eyebrow{color:var(--pb-blue)!important;letter-spacing:.08em!important;font-weight:900!important}
+.pilotbank-main .section-head h2,
+.pilotbank-main .dashboard-section-head h3{color:#0f172a!important;letter-spacing:-.025em}
+.pilotbank-main .button:not(.danger-outline):not(.error-button),
+.pilotbank-main .mini-button{
+  border-radius:10px!important;
+}
+.pilotbank-main .button.secondary,
+.pilotbank-main .mini-button.secondary{
+  background:#fff!important;
+  color:#334155!important;
+  border-color:#e2e8f0!important;
+  box-shadow:none!important;
+}
+.pilotbank-main .button.secondary:hover,
+.pilotbank-main .mini-button.secondary:hover{background:#f8fafc!important}
+
+/* Make the home hub read as a dashboard, while keeping every old card/function. */
+#modeHubCard.mode-hub{padding:22px!important}
+#modeHubCard .hub-title{margin-bottom:14px!important}
+#modeHubCard .mode-choice-grid{gap:10px!important}
+#modeHubCard .mode-choice-card{
+  min-height:116px!important;
+  border:1px solid #e6ebf2!important;
+  border-radius:14px!important;
+  background:#fff!important;
+  box-shadow:none!important;
+}
+#modeHubCard .mode-choice-card:hover{border-color:#bfdbfe!important;background:#f8fbff!important;transform:none!important}
+
+/* ── Mobile / tablet: AWOS-style drawer menu ───────────────────────────── */
+.pilotbank-menu-backdrop{display:none}
+@media (max-width:1023.98px){
+  :root{--pb-header-h:60px}
+  .topbar.pilotbank-app-header{height:var(--pb-header-h)}
+  .topbar.pilotbank-app-header .pilotbank-header-row{height:var(--pb-header-h);padding:0 12px!important;gap:8px!important}
+  .pilotbank-brand-cluster{gap:8px}
+  .pilotbank-brand-copy .muted{display:none}
+  .pilotbank-brand-divider,.pilotbank-brand-section,.pilotbank-status-pill{display:none}
+  .pilotbank-brand-name{font-size:18px}
+  .pilotbank-header-actions{gap:5px}
+  header .pilotbank-header-actions .auth-user-chip{display:none!important}
+  header .pilotbank-header-actions .auth-session-timer{min-height:36px!important;padding-left:7px!important}
+  header .pilotbank-header-actions .auth-session-timer-label{display:none!important}
+  header .pilotbank-header-actions .auth-logout-button{min-height:36px!important;padding:0 9px!important;font-size:11px!important}
+  .pilotbank-header-menu-slot #menuToggleBtn{width:38px!important;height:38px!important;min-width:38px!important;min-height:38px!important}
+
+  .pilotbank-menu-rail{
+    top:var(--pb-header-h)!important;
+    width:min(84vw,320px)!important;
+    padding:12px 10px 24px!important;
+    transform:translateX(-104%);
+    border-right:1px solid var(--pb-line)!important;
+    box-shadow:0 24px 60px rgba(15,23,42,.16)!important;
+  }
+  body.pb-mobile-menu-open .pilotbank-menu-rail{transform:translateX(0)}
+  .pilotbank-menu-backdrop{
+    position:fixed;
+    z-index:8925;
+    inset:var(--pb-header-h) 0 0 0;
+    width:100%;height:auto;
+    border:0;
+    background:rgba(15,23,42,.28);
+    backdrop-filter:blur(1px);
+    cursor:default;
+  }
+  body.pb-mobile-menu-open .pilotbank-menu-backdrop{display:block}
+  main.container.pilotbank-main{
+    margin:0!important;
+    padding:16px 12px 34px!important;
+  }
+  .pilotbank-main>.home-hero{padding:20px!important}
+  #modeHubCard.mode-hub{padding:16px!important}
+}
+
+@media (max-width:560px){
+  header .pilotbank-header-actions .auth-logout-button{font-size:0!important;width:36px!important;padding:0!important}
+  header .pilotbank-header-actions .auth-logout-button::before{content:"↪";font-size:17px!important}
+  header .pilotbank-header-actions .auth-session-timer{gap:4px!important}
+  header .pilotbank-header-actions .auth-session-extend-button{padding:6px 7px!important;font-size:10px!important}
+  .pilotbank-main>.home-hero{border-radius:14px!important}
+}
+
+@media (prefers-reduced-motion:reduce){
+  .pilotbank-menu-rail,.pb-nav-group-body,.pb-nav-group-chevron,main.container.pilotbank-main{transition:none!important}
+}

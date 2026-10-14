@@ -1,60 +1,45 @@
 {
   "version": "v11.60.44",
-  "base": "v11.60.43",
+  "base_version": "v11.60.43",
+  "scope": "AWOS-inspired global navigation/menu shell redesign",
   "checks": {
-    "index_version": true,
-    "index_new_css": true,
-    "index_app_cache": true,
-    "app_correction_map": true,
-    "app_apply_call": true,
-    "correction_count": true,
-    "delete_has_where": true,
-    "figure_exists": true,
-    "dark_css_error_card": true,
+    "html_parse": true,
+    "no_duplicate_ids": true,
+    "all_v11_60_43_static_ids_preserved": true,
+    "new_menu_css_linked": true,
+    "new_menu_js_linked": true,
+    "version_bumped": true,
+    "theme_color_white": true,
+    "feature_nav_preserved": true,
+    "header_slots_present": true,
+    "menu_groups_present": true,
+    "direct_quick_entries_present": true,
+    "mobile_drawer_present": true,
+    "desktop_collapse_compatible": true,
+    "auth_controls_relocated": true,
+    "quiz_exit_guard_extended": true,
+    "feature_access_guard": true,
+    "active_route_sync": true,
+    "css_braces_balanced": true,
     "javascript_syntax": true,
-    "reported52_unique_coverage": true
+    "reference_proxy_targets_verified": true,
+    "static_proxy_targets_verified": true
   },
   "pass": true,
+  "missing_base_ids": [],
+  "duplicate_ids": [],
+  "javascript_check_stderr": "",
   "files": [
-    {
-      "path": "V11.60.44_REPORTED52_PATCH.md",
-      "bytes": 1361,
-      "sha256": "2994c69e4f093ddb39cb37d319d117a6564cd288edf17749d7509865314e3f74"
-    },
-    {
-      "path": "V11.60.44_REPORTED_ERRORS_HOTFIX.sql",
-      "bytes": 1490,
-      "sha256": "5fc125a59200286e630f58ada936a2f8b5c03591a0406f6980bc77ef6957a01e"
-    },
-    {
-      "path": "assets/app-v11-44.js",
-      "bytes": 1810321,
-      "sha256": "4db4d80fd3e84996b663810ed58c849b465eac0469add1400a90259a31608da5"
-    },
-    {
-      "path": "assets/figures/flight-theory-q218-fowler-flap.png",
-      "bytes": 17342,
-      "sha256": "8b8c4e8e3319a0b8ffd91a12510b4757513528375615b5add44e7bbed46c6886"
-    },
-    {
-      "path": "assets/style-v11-60-44-error-report-dark.css",
-      "bytes": 2640,
-      "sha256": "cbf5602d7bd021ecd7fb28b20d8d9b84b9a350bd6f0220712b478d4db3364309"
-    },
-    {
-      "path": "index.html",
-      "bytes": 45342,
-      "sha256": "f86b3382fe369bc0e215c903b7bd351a3f81bf76c633a9f23702b59997ce121d"
-    },
-    {
-      "path": "supabase/V11.60.44_REPORTED_ERRORS_HOTFIX.sql",
-      "bytes": 1490,
-      "sha256": "5fc125a59200286e630f58ada936a2f8b5c03591a0406f6980bc77ef6957a01e"
-    },
-    {
-      "path": "v11.60.44_reported52_review_report.json",
-      "bytes": 18010,
-      "sha256": "8454a4076c53416b37a20d6e98011bcf2f4d3b742672c57e4d6a5297f8dd8db3"
-    }
+    "index.html",
+    "assets/style-v11-60-44-menu-shell.css",
+    "assets/menu-shell-v11-60-44.js"
+  ],
+  "sql_required": false,
+  "notes": [
+    "Existing feature element IDs and handlers are preserved; controls are moved/re-grouped in the DOM after boot.",
+    "Desktop: fixed left rail with grouped functions and legacy collapse support.",
+    "Mobile/tablet: hamburger drawer with backdrop and Escape close.",
+    "Auth session timer/user/logout are relocated from the feature rail into the top-right header without replacing their handlers.",
+    "Direct menu shortcuts delegate to existing feature buttons and extend the current quiz-leave guard."
   ]
 }
