@@ -1,23 +1,41 @@
 {
   "version": "v11.60.45",
-  "base": "v11.60.44",
-  "feature": "study-group question creation / solving / question comments / question-create goals / board preserved",
+  "base_version": "v11.60.44",
+  "scope": "AWOS visual refinement: typography contrast, fixed Aviquestionbank wordmark, bordered submenu buttons, spring interaction, and light-theme cleanup",
+  "checks": {
+    "html_document_present": true,
+    "no_duplicate_ids": true,
+    "all_v11_60_44_static_ids_preserved": true,
+    "new_menu_css_linked": true,
+    "new_menu_js_linked": true,
+    "version_bumped": true,
+    "wordmark_present": true,
+    "header_brand_simplified": true,
+    "submenu_border_styles_present": true,
+    "main_menu_vs_submenu_hierarchy_present": true,
+    "spring_animation_present": true,
+    "mobile_drawer_present": true,
+    "desktop_collapse_compatible": true,
+    "auth_controls_relocated": true,
+    "quiz_exit_guard_extended": true,
+    "active_route_sync": true,
+    "javascript_syntax": true
+  },
+  "pass": true,
+  "missing_base_ids": [],
+  "duplicate_ids": [],
+  "javascript_check_stderr": "",
   "files": [
     "index.html",
-    "assets/study-group-v11-60-45.js",
-    "assets/style-v11-60-45-study-group.css",
-    "supabase/V11.60.45_STUDY_GROUP_QUESTION_LAB.sql"
+    "assets/style-v11-60-45-menu-shell.css",
+    "assets/menu-shell-v11-60-45.js"
   ],
-  "checks": {
-    "index_css_ref": true,
-    "index_js_ref": true,
-    "create_mode": true,
-    "solve_mode": true,
-    "question_comments": true,
-    "board_preserved": true,
-    "goal_question_create": true,
-    "dashboard_create_stats": true,
-    "sql_tables": true
-  },
-  "pass": true
+  "sql_required": false,
+  "notes": [
+    "Base patch dependency: v11.60.44 menu shell redesign.",
+    "Simplified fixed wordmark: Aviquestionbank.",
+    "Left rail keeps AWOS grouping but visually separates main menus from bordered submenu buttons.",
+    "Submenu buttons include spring-style jelly feedback on click/toggle.",
+    "Light-theme cleanup also normalizes core cards, theory hub, and dashboard spacing/colors without changing app logic."
+  ]
 }
