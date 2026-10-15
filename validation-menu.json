@@ -1,0 +1,49 @@
+{
+  "results": [
+    {
+      "width": 1440,
+      "collapseExpand": true,
+      "visibleToggle": true,
+      "ariaMatchesVisibility": true,
+      "hiddenMenuInert": true,
+      "stateRestored": true,
+      "breakpointTransition": true,
+      "noOverflow": true,
+      "browserErrors": []
+    },
+    {
+      "width": 1024,
+      "collapseExpand": true,
+      "visibleToggle": true,
+      "ariaMatchesVisibility": true,
+      "hiddenMenuInert": true,
+      "stateRestored": true,
+      "breakpointTransition": true,
+      "noOverflow": true,
+      "browserErrors": []
+    },
+    {
+      "width": 946,
+      "collapseExpand": true,
+      "visibleToggle": true,
+      "ariaMatchesVisibility": true,
+      "hiddenMenuInert": true,
+      "stateRestored": false,
+      "breakpointTransition": false,
+      "noOverflow": true,
+      "browserErrors": []
+    },
+    {
+      "width": 390,
+      "collapseExpand": true,
+      "visibleToggle": true,
+      "ariaMatchesVisibility": true,
+      "hiddenMenuInert": true,
+      "stateRestored": false,
+      "breakpointTransition": false,
+      "noOverflow": true,
+      "browserErrors": []
+    }
+  ],
+  "scope": "Real Chromium; mocked auth/API. No actual Android device test."
+}
