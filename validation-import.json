@@ -1,15 +1,9 @@
 {
-  "version": "11.60.50",
-  "uniqueQuestions": 180,
-  "round4": {
-    "multipleChoice": 40,
-    "shortAnswer": 5,
-    "scoreMaximum": 96,
-    "missingFigure": [
-      44
-    ],
-    "answerKeys": "Derived from supplied option analyses; no independent external fact check"
-  },
-  "previous135QuestionsUnchanged": true,
-  "checks": "PASS"
+  "version": "11.60.55",
+  "cplCount": 893,
+  "cplSource": "Existing deployed questions-cpl-gleim-2024-v3.json",
+  "cplDataByteIdentical": true,
+  "sha256": "1ad1ed85601179c4b21d8db7e859ec39a2bc23f4b97d52b8e27e344a2c56b70b",
+  "eastarDataUnchanged": true,
+  "groupBackendChanged": false
 }

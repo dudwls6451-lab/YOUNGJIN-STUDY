@@ -2,30 +2,30 @@
   "results": [
     {
       "width": 1440,
-      "allSubjectsSelectable": 2,
-      "selectedHomeProgress": true,
-      "persistence": true,
-      "accountIsolation": true,
-      "emptySelection": true,
-      "whiteLineRemoved": true,
-      "blueFillAnimation": true,
-      "cardAnimation": true,
-      "reducedMotion": true,
-      "errors": []
+      "cpl893AvailableBeforeCourseClick": true,
+      "cplSelectedHomeProgress": true,
+      "eastarSeparated": true,
+      "groupListAboveDetail": true,
+      "groupActionsPreserved": true,
+      "dateAndGoalsVisible": true,
+      "boardFormWorks": true,
+      "groupSwitchWorks": true,
+      "noOverflow": true,
+      "browserErrors": []
     },
     {
       "width": 390,
-      "allSubjectsSelectable": 2,
-      "selectedHomeProgress": true,
-      "persistence": true,
-      "accountIsolation": true,
-      "emptySelection": true,
-      "whiteLineRemoved": true,
-      "blueFillAnimation": true,
-      "cardAnimation": true,
-      "reducedMotion": true,
-      "errors": []
+      "cpl893AvailableBeforeCourseClick": true,
+      "cplSelectedHomeProgress": true,
+      "eastarSeparated": true,
+      "groupListAboveDetail": true,
+      "groupActionsPreserved": true,
+      "dateAndGoalsVisible": true,
+      "boardFormWorks": true,
+      "groupSwitchWorks": true,
+      "noOverflow": true,
+      "browserErrors": []
     }
   ],
-  "scope": "Real Chromium with mocked auth/network. No live server or Android device test."
+  "scope": "Real Chromium; existing study-group script; auth/RPC mocked. No live DB writes or Android device tests."
 }
