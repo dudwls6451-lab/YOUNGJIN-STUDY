@@ -1,0 +1,15 @@
+/* Text-only blue fill; remove the former white active edge. */
+html[data-pb-theme] body #primaryFeatureNav :is(.nav-action,.pb-menu-proxy)::before{content:none!important;display:none!important}
+html[data-pb-theme] body #primaryFeatureNav :is(.nav-action,.pb-menu-proxy){isolation:isolate;overflow:hidden;position:relative;transition:color .18s ease,border-color .18s ease,box-shadow .25s ease,transform .3s cubic-bezier(.22,1.35,.36,1)!important}
+html[data-pb-theme] body #primaryFeatureNav :is(.nav-action,.pb-menu-proxy)::after{content:"";position:absolute;inset:0;border-radius:inherit;background:#2563eb;z-index:-1;pointer-events:none;transform-origin:left center;transform:scaleX(0);opacity:0}
+html[data-pb-theme] body #primaryFeatureNav :is(.nav-action,.pb-menu-proxy)[aria-current="page"]{background:var(--theme-surface)!important;color:#fff!important;border-color:#2563eb!important;animation:pbNavSettle .46s cubic-bezier(.22,1.3,.36,1)!important}
+html[data-pb-theme] body #primaryFeatureNav :is(.nav-action,.pb-menu-proxy)[aria-current="page"]::after{opacity:1;transform:scaleX(1);animation:pbBlueFill .46s cubic-bezier(.22,1.15,.36,1) both}
+html[data-pb-theme] body #primaryFeatureNav :is(.nav-action,.pb-menu-proxy):focus:not(:focus-visible){outline:none!important}
+html[data-pb-theme] body #primaryFeatureNav :is(.nav-action,.pb-menu-proxy):focus-visible{outline:2px solid #60a5fa!important;outline-offset:3px!important}
+@keyframes pbBlueFill{0%{transform:scaleX(0);opacity:.2}70%{transform:scaleX(1.035);opacity:1}100%{transform:scaleX(1);opacity:1}}
+@keyframes pbNavSettle{0%{transform:scale(.98)}65%{transform:scale(1.014)}100%{transform:scale(1)}}
+.focus-book-settings{margin-bottom:24px;padding:20px;border:1px solid var(--theme-border);background:var(--theme-surface);border-radius:16px}
+.focus-book-settings h3{margin-top:0}.focus-book-options{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,210px),1fr));gap:10px;margin:16px 0}
+.focus-book-option{display:flex;align-items:center;gap:10px;padding:12px;border:1px solid var(--theme-border);border-radius:12px;cursor:pointer;color:var(--theme-text);background:var(--theme-bg)}
+.focus-book-option:has(input:checked){border-color:#2563eb;background:var(--theme-surface-soft)}.focus-book-option input{width:18px;height:18px;accent-color:#2563eb;flex:none}.focus-book-actions{display:flex;align-items:center;gap:10px;flex-wrap:wrap}.focus-books-empty{grid-column:1/-1;padding:16px;color:var(--theme-text)}
+@media(prefers-reduced-motion:reduce){html[data-pb-theme] body #primaryFeatureNav :is(.nav-action,.pb-menu-proxy),html[data-pb-theme] body #primaryFeatureNav :is(.nav-action,.pb-menu-proxy)::after{animation:none!important;transition:none!important}}

@@ -1,5 +1,5 @@
 {
-  "version": "11.60.53",
+  "version": "11.60.54",
   "actualChromiumRendering": true,
   "scope": "Full patched app and recovered v11.33/v11.47/v11.57 styles. Auth, question fetch and external add-on modules mocked; live Supabase not tested.",
   "results": [

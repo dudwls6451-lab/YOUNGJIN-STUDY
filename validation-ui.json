@@ -1,0 +1,31 @@
+{
+  "results": [
+    {
+      "width": 1440,
+      "allSubjectsSelectable": 2,
+      "selectedHomeProgress": true,
+      "persistence": true,
+      "accountIsolation": true,
+      "emptySelection": true,
+      "whiteLineRemoved": true,
+      "blueFillAnimation": true,
+      "cardAnimation": true,
+      "reducedMotion": true,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "allSubjectsSelectable": 2,
+      "selectedHomeProgress": true,
+      "persistence": true,
+      "accountIsolation": true,
+      "emptySelection": true,
+      "whiteLineRemoved": true,
+      "blueFillAnimation": true,
+      "cardAnimation": true,
+      "reducedMotion": true,
+      "errors": []
+    }
+  ],
+  "scope": "Real Chromium with mocked auth/network. No live server or Android device test."
+}

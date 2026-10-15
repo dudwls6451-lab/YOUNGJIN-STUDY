@@ -1,0 +1,8 @@
+(() => {
+ const reduced=matchMedia('(prefers-reduced-motion: reduce)');
+ const playing=new WeakMap(),pending=new Set();let frame=0;
+ function reveal(el){if(reduced.matches||!el.isConnected||el.classList.contains('hidden')||getComputedStyle(el).display==='none')return;playing.get(el)?.cancel();const animation=el.animate([{opacity:0,transform:'translateY(14px) scale(.98)'},{opacity:1,transform:'translateY(-2px) scale(1.006)',offset:.72},{opacity:1,transform:'translateY(0) scale(1)'}],{duration:410,easing:'cubic-bezier(.22,1,.36,1)'});playing.set(el,animation);animation.onfinish=()=>playing.delete(el);}
+ function schedule(el){if(!el?.matches?.('main.pilotbank-main > section,main.pilotbank-main > .card'))return;pending.add(el);if(!frame)frame=requestAnimationFrame(()=>{frame=0;for(const node of pending)reveal(node);pending.clear();});}
+ function boot(){const main=document.querySelector('main.pilotbank-main');if(!main)return;const observer=new MutationObserver(records=>{for(const m of records){if(m.type==='attributes'){if((m.oldValue||'').split(/\s+/).includes('hidden')&&!m.target.classList.contains('hidden'))schedule(m.target);}else for(const node of m.addedNodes)schedule(node);}});observer.observe(main,{subtree:true,attributes:true,attributeFilter:['class'],attributeOldValue:true,childList:true});for(const el of main.children)if(!el.classList.contains('hidden'))schedule(el);reduced.addEventListener('change',()=>{if(reduced.matches)for(const el of main.children)playing.get(el)?.cancel();});}
+ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',boot,{once:true});else boot();
+})();
