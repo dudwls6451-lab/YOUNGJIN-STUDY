@@ -1,40 +1,15 @@
 {
-  "version": "11.60.49",
-  "count": 135,
-  "multiple_choice": 120,
-  "short_answer": 15,
-  "round_mapping": [
-    {
-      "file": "붙여넣은 텍스트(1).txt",
-      "round": 3,
-      "sha256": "76db3d22e1498d8866268cfe170e05bfb52351f720817e8b82437142845b1fc2",
-      "count": 45
-    },
-    {
-      "file": "붙여넣은 텍스트(2).txt",
-      "round": 2,
-      "sha256": "c7027f8fb6790b20ab1836b592e4a287e05142932d84717e4d671166627d38e3",
-      "count": 45
-    },
-    {
-      "file": "붙여넣은 텍스트(3).txt",
-      "round": 1,
-      "sha256": "9c3c21be6c1c2c7062f811d5312ed1be5f863c9a5e79ad0a147eb0e5db7d3c04",
-      "count": 45
-    }
-  ],
-  "missing_figure_ids": [
-    "EASTAR-R1-Q044",
-    "EASTAR-R2-Q044",
-    "EASTAR-R3-Q044"
-  ],
-  "nominal_points_per_round": 100,
-  "gradable_points_per_round": 96,
-  "logo_exact_bytes": true,
-  "static_ids_preserved": true,
-  "duplicate_static_ids": false,
-  "personal_answers_and_score_metadata_removed": true,
-  "answer_keys_preserved_from_user_sources": true,
-  "independent_content_fact_check": false,
-  "live_supabase_test": false
+  "version": "11.60.50",
+  "uniqueQuestions": 180,
+  "round4": {
+    "multipleChoice": 40,
+    "shortAnswer": 5,
+    "scoreMaximum": 96,
+    "missingFigure": [
+      44
+    ],
+    "answerKeys": "Derived from supplied option analyses; no independent external fact check"
+  },
+  "previous135QuestionsUnchanged": true,
+  "checks": "PASS"
 }
