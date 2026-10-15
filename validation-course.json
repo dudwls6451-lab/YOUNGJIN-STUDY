@@ -1,0 +1,20 @@
+{
+  "version": "11.60.49",
+  "results": [
+    {
+      "width": 1440,
+      "mappingAndScoring": "PASS",
+      "resume": "PASS",
+      "themeLayout": "PASS",
+      "browserErrors": []
+    },
+    {
+      "width": 390,
+      "mappingAndScoring": "PASS",
+      "resume": "PASS",
+      "themeLayout": "PASS",
+      "browserErrors": []
+    }
+  ],
+  "scope": "Real Chromium with full patched core and local source data. Login/storage API mock; live Supabase and external add-on modules not tested."
+}
