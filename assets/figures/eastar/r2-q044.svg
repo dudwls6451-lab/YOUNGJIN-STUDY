@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 124" width="360" height="124" font-family="Arial, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', sans-serif">
+  <!-- 자체 제작. 기호 모양: WMO-No.49 Vol.II(2018) / ICAO Doc 10157 부록1 Model SN 벡터 원본에서 옮겨 그림 -->
+  <rect width="360" height="124" fill="#ffffff"/>
+  <rect x="10" y="38" width="76" height="76" fill="#ffffff" stroke="#1f2937" stroke-width="1.6"/>
+  <circle cx="48" cy="19" r="11" fill="none" stroke="#1f2937" stroke-width="1.6"/>
+  <text x="48" y="23.6" font-size="13.5" font-weight="bold" fill="#1f2937" text-anchor="middle">1</text>
+  <g>
+    <path d="M23.7,70.2 L32.7,53.8 M30.9,70.2 L39.9,53.8 M38.1,70.2 L47.1,53.8 M52.5,70.2 L61.5,53.8 M59.7,70.2 L68.7,53.8 M66.9,70.2 L76,53.8 M48.9,98.2 L57.9,81.8 M56.1,98.2 L65.1,81.8 M63.3,98.2 L72.3,81.8 M20,98.2 L29.1,81.8 M27.3,98.2 L36.3,81.8 M34.5,98.2 L43.5,81.8" fill="none" stroke="#111827" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <rect x="98" y="38" width="76" height="76" fill="#ffffff" stroke="#1f2937" stroke-width="1.6"/>
+  <circle cx="136" cy="19" r="11" fill="none" stroke="#1f2937" stroke-width="1.6"/>
+  <text x="136" y="23.6" font-size="13.5" font-weight="bold" fill="#1f2937" text-anchor="middle">2</text>
+  <g>
+    <path d="M148.2,72 L146.5,76.1 L139.8,79.1 L143.5,86.9 L143.4,91.1 L140,90.1 L135.6,83 L131,90 L128.2,90.1 L127.5,86.7 L131.5,78.9 L124.7,75.7 L123.8,72.3 L126.1,70.2 L133.1,72.7 L133.3,63.4 L135.8,60.9 L137.8,63.4 L138.1,72.7 L144.9,70.4 L148.2,72 Z" fill="#111827"/>
+  </g>
+  <rect x="186" y="38" width="76" height="76" fill="#ffffff" stroke="#1f2937" stroke-width="1.6"/>
+  <circle cx="224" cy="19" r="11" fill="none" stroke="#1f2937" stroke-width="1.6"/>
+  <text x="224" y="23.6" font-size="13.5" font-weight="bold" fill="#1f2937" text-anchor="middle">3</text>
+  <g>
+    <path d="M224.1,97.8 L235.1,54.2 L212.9,54.2 L224.1,97.8" fill="none" stroke="#111827" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <rect x="274" y="38" width="76" height="76" fill="#ffffff" stroke="#1f2937" stroke-width="1.6"/>
+  <circle cx="312" cy="19" r="11" fill="none" stroke="#1f2937" stroke-width="1.6"/>
+  <text x="312" y="23.6" font-size="13.5" font-weight="bold" fill="#1f2937" text-anchor="middle">4</text>
+  <g>
+    <path d="M334.1,83.2 L289.7,83.2 M334.3,68.8 L289.9,68.8" fill="none" stroke="#111827" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

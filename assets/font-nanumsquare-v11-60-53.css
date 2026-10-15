@@ -1,0 +1,8 @@
+/* NAVER NanumSquare, official original WOFF assets. */
+@font-face{font-family:"PilotBank NanumSquare";src:url("./fonts/nanumsquare/NanumSquareL.woff") format("woff");font-style:normal;font-weight:300;font-display:swap;}
+@font-face{font-family:"PilotBank NanumSquare";src:url("./fonts/nanumsquare/NanumSquareR.woff") format("woff");font-style:normal;font-weight:400;font-display:swap;}
+@font-face{font-family:"PilotBank NanumSquare";src:url("./fonts/nanumsquare/NanumSquareB.woff") format("woff");font-style:normal;font-weight:700;font-display:swap;}
+@font-face{font-family:"PilotBank NanumSquare";src:url("./fonts/nanumsquare/NanumSquareEB.woff") format("woff");font-style:normal;font-weight:800;font-display:swap;}
+
+:root{--pb-font-family:"PilotBank NanumSquare","NanumSquare","Malgun Gothic","Apple SD Gothic Neo",sans-serif}
+:is(html,#pb-nanumsquare-root),:is(html,#pb-nanumsquare-root) body,:is(html,#pb-nanumsquare-root) body :is(*,#pb-nanumsquare-text),:is(html,#pb-nanumsquare-root) body *::before,:is(html,#pb-nanumsquare-root) body *::after{font-family:var(--pb-font-family)!important}

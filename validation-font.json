@@ -1,0 +1,35 @@
+{
+  "results": [
+    {
+      "width": 1440,
+      "all4WeightsLoaded": true,
+      "customFontRendered": [
+        {
+          "familyName": "NanumSquare",
+          "postScriptName": "NanumSquareB",
+          "isCustomFont": true,
+          "glyphCount": 27
+        }
+      ],
+      "questionsExplanationsInputs": true,
+      "menuSymbolsRemoved": true,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "all4WeightsLoaded": true,
+      "customFontRendered": [
+        {
+          "familyName": "NanumSquare",
+          "postScriptName": "NanumSquareB",
+          "isCustomFont": true,
+          "glyphCount": 27
+        }
+      ],
+      "questionsExplanationsInputs": true,
+      "menuSymbolsRemoved": true,
+      "errors": []
+    }
+  ],
+  "scope": "Real Chromium. Login/API mock; actual Android device not tested."
+}

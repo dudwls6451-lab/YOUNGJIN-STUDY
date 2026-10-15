@@ -1,0 +1,18 @@
+{
+  "NanumSquareL.woff": {
+    "source": "https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquare/NanumSquareL.woff",
+    "sha256": "a1ec4644cb2aba2010e07b3057d5caaa9eae412332d8d1ce0bb7acc1683b664e"
+  },
+  "NanumSquareB.woff": {
+    "source": "https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquare/NanumSquareB.woff",
+    "sha256": "9d2ff3cd7bcfbb1ed5a9493dd0deae23c33751e865222122a67984aba962f258"
+  },
+  "NanumSquareEB.woff": {
+    "source": "https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquare/NanumSquareEB.woff",
+    "sha256": "b8e3f3c56a5a0e32caf6e73d513857ef0794c915c9c83f8024e329fc00c4b6b2"
+  },
+  "NanumSquareR.woff": {
+    "source": "https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquare/NanumSquareR.woff",
+    "sha256": "e69a7466f8f7dd16f0bc035d5d37e9d0f28c31255b232d82da2a0d2f929b8c69"
+  }
+}
