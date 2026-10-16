@@ -1,0 +1,25 @@
+{
+  "scope": "Full v61 core and additive IR module in Chromium; auth, base feeds and remote modules mocked. No live server writes.",
+  "results": [
+    {
+      "width": 1440,
+      "questions": 960,
+      "unitOptions10": true,
+      "answerAndOriginalExplanation": true,
+      "figureLoaded": true,
+      "progressRecorded": true,
+      "goalAndFocusSubjects": true,
+      "themes": true
+    },
+    {
+      "width": 390,
+      "questions": 960,
+      "unitOptions10": true,
+      "answerAndOriginalExplanation": true,
+      "figureLoaded": true,
+      "progressRecorded": true,
+      "goalAndFocusSubjects": true,
+      "themes": true
+    }
+  ]
+}

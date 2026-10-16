@@ -1,0 +1,559 @@
+[
+  {
+    "id": "IR-GLEIM-2025-SU01-028",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU01-032",
+    "issues": [
+      "unresolved_term_token"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU01-034",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU01-037",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU01-042",
+    "issues": [
+      "term_alignment",
+      "unresolved_term_token"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU01-051",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU01-059",
+    "issues": [
+      "unresolved_term_token"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU01-061",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU02-008",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU02-010",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU02-022",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU02-030",
+    "issues": [
+      "term_alignment",
+      "unresolved_term_token"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU02-036",
+    "issues": [
+      "term_alignment",
+      "unresolved_term_token"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU02-038",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU02-057",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU03-008",
+    "issues": [
+      "unresolved_term_token"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU03-065",
+    "issues": [
+      "unresolved_term_token"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU03-066",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU04-005",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU04-013",
+    "issues": [
+      "term_alignment",
+      "unresolved_term_token"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU04-014",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU04-017",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU04-021",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU04-023",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU04-025",
+    "issues": [
+      "term_alignment",
+      "unresolved_term_token"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU04-028",
+    "issues": [
+      "numeric_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU04-052",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU04-055",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU04-058",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU04-064",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU04-081",
+    "issues": [
+      "numeric_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU05-003",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU05-044",
+    "issues": [
+      "numeric_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU05-060",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU05-107",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU05-132",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU06-008",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU06-017",
+    "issues": [
+      "numeric_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU06-020",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU06-021",
+    "issues": [
+      "numeric_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU06-024",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU06-027",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU06-030",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU06-036",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU06-038",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU06-048",
+    "issues": [
+      "numeric_alignment",
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU06-053",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU06-054",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU06-060",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU06-061",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU06-062",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU06-065",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU06-077",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU06-078",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU06-081",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU06-082",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU06-083",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU06-087",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU06-088",
+    "issues": [
+      "numeric_alignment",
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU06-097",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU06-123",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU06-127",
+    "issues": [
+      "term_alignment",
+      "unresolved_term_token"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU06-135",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU06-138",
+    "issues": [
+      "term_alignment",
+      "unresolved_term_token"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU06-140",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU06-153",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU06-163",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU06-174",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU07-028",
+    "issues": [
+      "unresolved_term_token"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU08-029",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU08-047",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU08-059",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU08-084",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU08-097",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU08-098",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU08-105",
+    "issues": [
+      "term_alignment",
+      "unresolved_term_token"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU08-110",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU08-114",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU08-135",
+    "issues": [
+      "unresolved_term_token"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU08-140",
+    "issues": [
+      "numeric_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU09-009",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU09-011",
+    "issues": [
+      "numeric_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU09-030",
+    "issues": [
+      "numeric_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU09-031",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU09-032",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU09-062",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU10-011",
+    "issues": [
+      "numeric_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU10-018",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU10-039",
+    "issues": [
+      "term_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU10-049",
+    "issues": [
+      "numeric_alignment"
+    ]
+  },
+  {
+    "id": "IR-GLEIM-2025-SU10-057",
+    "issues": [
+      "term_alignment",
+      "unresolved_term_token"
+    ]
+  }
+]

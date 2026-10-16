@@ -1,0 +1,25 @@
+{
+  "questions": 960,
+  "chapter_counts": [
+    88,
+    66,
+    82,
+    94,
+    139,
+    176,
+    44,
+    142,
+    65,
+    64
+  ],
+  "unique_ids": true,
+  "sequential_source_numbers": true,
+  "independent_answer_labels_matched": 960,
+  "questions_with_figures": 209,
+  "referenced_unique_figures": 95,
+  "all_image_paths_resolve": true,
+  "all_korean_explanations_present": true,
+  "english_explanations_preserved": true,
+  "translation_review_flags": 91,
+  "scope": "Automated structure/key/image checks; sampled source crops and Korean output reviewed. Automatic translations are not professionally reviewed in full."
+}

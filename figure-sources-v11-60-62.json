@@ -1,0 +1,962 @@
+{
+  "144": {
+    "path": "./assets/figures/ir-gleim-2025/figure-144.webp",
+    "page": 66,
+    "clip": [
+      33,
+      509.5,
+      560.5999755859375,
+      727.3005981445312
+    ]
+  },
+  "145": {
+    "path": "./assets/figures/ir-gleim-2025/figure-145.webp",
+    "page": 74,
+    "clip": [
+      33,
+      214.5,
+      562.0001220703125,
+      663.0142211914062
+    ]
+  },
+  "147": {
+    "path": "./assets/figures/ir-gleim-2025/figure-147.webp",
+    "page": 75,
+    "clip": [
+      33,
+      206.5,
+      562.7501220703125,
+      653.459716796875
+    ]
+  },
+  "146": {
+    "path": "./assets/figures/ir-gleim-2025/figure-146.webp",
+    "page": 76,
+    "clip": [
+      33,
+      270.0,
+      562.9000244140625,
+      717.5979614257812
+    ]
+  },
+  "148": {
+    "path": "./assets/figures/ir-gleim-2025/figure-148.webp",
+    "page": 77,
+    "clip": [
+      33,
+      188.0,
+      563.4500122070312,
+      635.4993896484375
+    ]
+  },
+  "149": {
+    "path": "./assets/figures/ir-gleim-2025/figure-149.webp",
+    "page": 78,
+    "clip": [
+      33,
+      224.5,
+      563.7999877929688,
+      672.01416015625
+    ]
+  },
+  "150": {
+    "path": "./assets/figures/ir-gleim-2025/figure-150.webp",
+    "page": 79,
+    "clip": [
+      33,
+      226.0,
+      563.2999877929688,
+      672.1642456054688
+    ]
+  },
+  "151": {
+    "path": "./assets/figures/ir-gleim-2025/figure-151.webp",
+    "page": 80,
+    "clip": [
+      33,
+      233.5,
+      563.4500122070312,
+      680.8106689453125
+    ]
+  },
+  "97": {
+    "path": "./assets/figures/ir-gleim-2025/figure-97.webp",
+    "page": 89,
+    "clip": [
+      32,
+      45,
+      563.0999755859375,
+      670.2119750976562
+    ]
+  },
+  "81": {
+    "path": "./assets/figures/ir-gleim-2025/figure-81.webp",
+    "page": 95,
+    "clip": [
+      33,
+      164.0,
+      560.4000244140625,
+      612.7591552734375
+    ]
+  },
+  "82": {
+    "path": "./assets/figures/ir-gleim-2025/figure-82.webp",
+    "page": 96,
+    "clip": [
+      33,
+      180.5,
+      561.5,
+      620.3095092773438
+    ]
+  },
+  "76": {
+    "path": "./assets/figures/ir-gleim-2025/figure-76.webp",
+    "page": 99,
+    "clip": [
+      32,
+      45,
+      560.75,
+      748.5494995117188
+    ]
+  },
+  "106": {
+    "path": "./assets/figures/ir-gleim-2025/figure-106.webp",
+    "page": 103,
+    "clip": [
+      33,
+      293.5,
+      561.0999755859375,
+      623.5591430664062
+    ]
+  },
+  "109": {
+    "path": "./assets/figures/ir-gleim-2025/figure-109.webp",
+    "page": 104,
+    "clip": [
+      34,
+      179.46194458007812,
+      280,
+      414.4619445800781
+    ]
+  },
+  "110": {
+    "path": "./assets/figures/ir-gleim-2025/figure-110.webp",
+    "page": 104,
+    "clip": [
+      34,
+      521.0999755859375,
+      280,
+      756.0999755859375
+    ]
+  },
+  "111": {
+    "path": "./assets/figures/ir-gleim-2025/figure-111.webp",
+    "page": 105,
+    "clip": [
+      34,
+      174.76202392578125,
+      272.3500061035156,
+      409.76202392578125
+    ]
+  },
+  "95": {
+    "path": "./assets/figures/ir-gleim-2025/figure-95.webp",
+    "page": 107,
+    "clip": [
+      33,
+      190.5,
+      560.5999755859375,
+      542.01416015625
+    ]
+  },
+  "98": {
+    "path": "./assets/figures/ir-gleim-2025/figure-98.webp",
+    "page": 109,
+    "clip": [
+      35,
+      45,
+      560,
+      378
+    ]
+  },
+  "99": {
+    "path": "./assets/figures/ir-gleim-2025/figure-99.webp",
+    "page": 109,
+    "clip": [
+      40,
+      380,
+      555,
+      757
+    ]
+  },
+  "96": {
+    "path": "./assets/figures/ir-gleim-2025/figure-96.webp",
+    "page": 110,
+    "clip": [
+      33,
+      564.5,
+      561.6500244140625,
+      731.6505126953125
+    ]
+  },
+  "137": {
+    "path": "./assets/figures/ir-gleim-2025/figure-137.webp",
+    "page": 167,
+    "clip": [
+      33,
+      403.5,
+      559.7000122070312,
+      587.4494018554688
+    ]
+  },
+  "138": {
+    "path": "./assets/figures/ir-gleim-2025/figure-138.webp",
+    "page": 166,
+    "clip": [
+      33,
+      387.0,
+      561.0999755859375,
+      735.7119140625
+    ]
+  },
+  "134": {
+    "path": "./assets/figures/ir-gleim-2025/figure-134.webp",
+    "page": 153,
+    "clip": [
+      32,
+      45,
+      563.4500122070312,
+      342.7585144042969
+    ]
+  },
+  "136": {
+    "path": "./assets/figures/ir-gleim-2025/figure-136.webp",
+    "page": 175,
+    "clip": [
+      33,
+      583.5,
+      564.2000122070312,
+      740.4091796875
+    ]
+  },
+  "254": {
+    "path": "./assets/figures/ir-gleim-2025/figure-254.webp",
+    "page": 169,
+    "clip": [
+      33,
+      348.5,
+      559.8499755859375,
+      735.3641967773438
+    ]
+  },
+  "94": {
+    "path": "./assets/figures/ir-gleim-2025/figure-94.webp",
+    "page": 171,
+    "clip": [
+      32,
+      45,
+      563.6500244140625,
+      745.2583618164062
+    ]
+  },
+  "135": {
+    "path": "./assets/figures/ir-gleim-2025/figure-135.webp",
+    "page": 173,
+    "clip": [
+      33,
+      584.5,
+      563.6500244140625,
+      751.5616455078125
+    ]
+  },
+  "162": {
+    "path": "./assets/figures/ir-gleim-2025/figure-162.webp",
+    "page": 201,
+    "clip": [
+      32,
+      45,
+      561.8499755859375,
+      745.8141479492188
+    ]
+  },
+  "158": {
+    "path": "./assets/figures/ir-gleim-2025/figure-158.webp",
+    "page": 179,
+    "clip": [
+      32,
+      45,
+      562.7501220703125,
+      755.5115966796875
+    ]
+  },
+  "251": {
+    "path": "./assets/figures/ir-gleim-2025/figure-251.webp",
+    "page": 203,
+    "clip": [
+      32,
+      45,
+      561.5,
+      760.0999755859375
+    ]
+  },
+  "139": {
+    "path": "./assets/figures/ir-gleim-2025/figure-139.webp",
+    "page": 209,
+    "clip": [
+      32,
+      45,
+      561.5,
+      466.7006530761719
+    ]
+  },
+  "178": {
+    "path": "./assets/figures/ir-gleim-2025/figure-178.webp",
+    "page": 243,
+    "clip": [
+      32,
+      45,
+      564.5499877929688,
+      761.7000122070312
+    ]
+  },
+  "187": {
+    "path": "./assets/figures/ir-gleim-2025/figure-187.webp",
+    "page": 247,
+    "clip": [
+      32,
+      45,
+      563.7999877929688,
+      761.0
+    ]
+  },
+  "233": {
+    "path": "./assets/figures/ir-gleim-2025/figure-233.webp",
+    "page": 248,
+    "clip": [
+      105,
+      150,
+      500,
+      763
+    ]
+  },
+  "249": {
+    "path": "./assets/figures/ir-gleim-2025/figure-249.webp",
+    "page": 329,
+    "clip": [
+      32,
+      45,
+      563.2999877929688,
+      760.0999755859375
+    ]
+  },
+  "210": {
+    "path": "./assets/figures/ir-gleim-2025/figure-210.webp",
+    "page": 251,
+    "clip": [
+      32,
+      45,
+      561.5,
+      729.2090454101562
+    ]
+  },
+  "61": {
+    "path": "./assets/figures/ir-gleim-2025/figure-61.webp",
+    "page": 253,
+    "clip": [
+      34,
+      321.7586669921875,
+      269.6499938964844,
+      591.7586669921875
+    ]
+  },
+  "140": {
+    "path": "./assets/figures/ir-gleim-2025/figure-140.webp",
+    "page": 256,
+    "clip": [
+      50,
+      440,
+      219,
+      640
+    ]
+  },
+  "141": {
+    "path": "./assets/figures/ir-gleim-2025/figure-141.webp",
+    "page": 256,
+    "clip": [
+      219,
+      440,
+      385,
+      640
+    ]
+  },
+  "142": {
+    "path": "./assets/figures/ir-gleim-2025/figure-142.webp",
+    "page": 256,
+    "clip": [
+      385,
+      440,
+      556,
+      640
+    ]
+  },
+  "250": {
+    "path": "./assets/figures/ir-gleim-2025/figure-250.webp",
+    "page": 259,
+    "clip": [
+      32,
+      45,
+      562.0001220703125,
+      759.3499755859375
+    ]
+  },
+  "112": {
+    "path": "./assets/figures/ir-gleim-2025/figure-112.webp",
+    "page": 263,
+    "clip": [
+      33,
+      256.0,
+      561.8499755859375,
+      569.5615844726562
+    ]
+  },
+  "113": {
+    "path": "./assets/figures/ir-gleim-2025/figure-113.webp",
+    "page": 265,
+    "clip": [
+      34,
+      512.8084106445312,
+      277.04998779296875,
+      747.8084106445312
+    ]
+  },
+  "114": {
+    "path": "./assets/figures/ir-gleim-2025/figure-114.webp",
+    "page": 266,
+    "clip": [
+      34,
+      208.2584228515625,
+      280,
+      443.2584228515625
+    ]
+  },
+  "160": {
+    "path": "./assets/figures/ir-gleim-2025/figure-160.webp",
+    "page": 269,
+    "clip": [
+      32,
+      45,
+      564.0,
+      761.0
+    ]
+  },
+  "247": {
+    "path": "./assets/figures/ir-gleim-2025/figure-247.webp",
+    "page": 271,
+    "clip": [
+      32,
+      45,
+      563.7999877929688,
+      760.7999877929688
+    ]
+  },
+  "232": {
+    "path": "./assets/figures/ir-gleim-2025/figure-232.webp",
+    "page": 273,
+    "clip": [
+      32,
+      45,
+      563.7999877929688,
+      754.2642211914062
+    ]
+  },
+  "223": {
+    "path": "./assets/figures/ir-gleim-2025/figure-223.webp",
+    "page": 275,
+    "clip": [
+      32,
+      45,
+      566.1500244140625,
+      762.7999877929688
+    ]
+  },
+  "196": {
+    "path": "./assets/figures/ir-gleim-2025/figure-196.webp",
+    "page": 279,
+    "clip": [
+      33,
+      163.5,
+      565.4500122070312,
+      768.6616821289062
+    ]
+  },
+  "213": {
+    "path": "./assets/figures/ir-gleim-2025/figure-213.webp",
+    "page": 281,
+    "clip": [
+      33,
+      164.0,
+      564.3499755859375,
+      769.0142211914062
+    ]
+  },
+  "217": {
+    "path": "./assets/figures/ir-gleim-2025/figure-217.webp",
+    "page": 283,
+    "clip": [
+      32,
+      45,
+      563.6500244140625,
+      759.3141479492188
+    ]
+  },
+  "221": {
+    "path": "./assets/figures/ir-gleim-2025/figure-221.webp",
+    "page": 285,
+    "clip": [
+      32,
+      45,
+      564.0,
+      760.7999877929688
+    ]
+  },
+  "227": {
+    "path": "./assets/figures/ir-gleim-2025/figure-227.webp",
+    "page": 287,
+    "clip": [
+      32,
+      45,
+      563.0999755859375,
+      758.2094116210938
+    ]
+  },
+  "228": {
+    "path": "./assets/figures/ir-gleim-2025/figure-228.webp",
+    "page": 289,
+    "clip": [
+      32,
+      45,
+      563.7999877929688,
+      761.1500244140625
+    ]
+  },
+  "230": {
+    "path": "./assets/figures/ir-gleim-2025/figure-230.webp",
+    "page": 291,
+    "clip": [
+      32,
+      45,
+      562.7501220703125,
+      754.0591430664062
+    ]
+  },
+  "231": {
+    "path": "./assets/figures/ir-gleim-2025/figure-231.webp",
+    "page": 293,
+    "clip": [
+      32,
+      45,
+      562.0001220703125,
+      759.5499877929688
+    ]
+  },
+  "234": {
+    "path": "./assets/figures/ir-gleim-2025/figure-234.webp",
+    "page": 295,
+    "clip": [
+      32,
+      45,
+      562.2000122070312,
+      759.5499877929688
+    ]
+  },
+  "236": {
+    "path": "./assets/figures/ir-gleim-2025/figure-236.webp",
+    "page": 297,
+    "clip": [
+      32,
+      45,
+      563.0999755859375,
+      760.7999877929688
+    ]
+  },
+  "240": {
+    "path": "./assets/figures/ir-gleim-2025/figure-240.webp",
+    "page": 299,
+    "clip": [
+      32,
+      45,
+      564.5499877929688,
+      760.9994506835938
+    ]
+  },
+  "242": {
+    "path": "./assets/figures/ir-gleim-2025/figure-242.webp",
+    "page": 303,
+    "clip": [
+      32,
+      45,
+      564.2000122070312,
+      760.4505004882812
+    ]
+  },
+  "244": {
+    "path": "./assets/figures/ir-gleim-2025/figure-244.webp",
+    "page": 305,
+    "clip": [
+      32,
+      45,
+      564.3499755859375,
+      761.1500244140625
+    ]
+  },
+  "245": {
+    "path": "./assets/figures/ir-gleim-2025/figure-245.webp",
+    "page": 307,
+    "clip": [
+      32,
+      45,
+      564.2000122070312,
+      725.9004516601562
+    ]
+  },
+  "175": {
+    "path": "./assets/figures/ir-gleim-2025/figure-175.webp",
+    "page": 310,
+    "clip": [
+      33,
+      184.0,
+      564.2000122070312,
+      768.8116455078125
+    ]
+  },
+  "174": {
+    "path": "./assets/figures/ir-gleim-2025/figure-174.webp",
+    "page": 311,
+    "clip": [
+      32,
+      45,
+      564.2000122070312,
+      761.1500244140625
+    ]
+  },
+  "209": {
+    "path": "./assets/figures/ir-gleim-2025/figure-209.webp",
+    "page": 312,
+    "clip": [
+      114,
+      174,
+      490,
+      764
+    ]
+  },
+  "208": {
+    "path": "./assets/figures/ir-gleim-2025/figure-208.webp",
+    "page": 313,
+    "clip": [
+      32,
+      45,
+      564.7000122070312,
+      761.7000122070312
+    ]
+  },
+  "211": {
+    "path": "./assets/figures/ir-gleim-2025/figure-211.webp",
+    "page": 315,
+    "clip": [
+      32,
+      45,
+      562.0001220703125,
+      759.7000122070312
+    ]
+  },
+  "216": {
+    "path": "./assets/figures/ir-gleim-2025/figure-216.webp",
+    "page": 317,
+    "clip": [
+      32,
+      45,
+      562.5499877929688,
+      759.7000122070312
+    ]
+  },
+  "235": {
+    "path": "./assets/figures/ir-gleim-2025/figure-235.webp",
+    "page": 321,
+    "clip": [
+      32,
+      45,
+      562.0001220703125,
+      726.0479125976562
+    ]
+  },
+  "238": {
+    "path": "./assets/figures/ir-gleim-2025/figure-238.webp",
+    "page": 323,
+    "clip": [
+      32,
+      45,
+      562.5499877929688,
+      759.7000122070312
+    ]
+  },
+  "243": {
+    "path": "./assets/figures/ir-gleim-2025/figure-243.webp",
+    "page": 325,
+    "clip": [
+      32,
+      45,
+      562.2000122070312,
+      725.6142578125
+    ]
+  },
+  "253": {
+    "path": "./assets/figures/ir-gleim-2025/figure-253.webp",
+    "page": 331,
+    "clip": [
+      32,
+      45,
+      565.25,
+      719.1994018554688
+    ]
+  },
+  "13": {
+    "path": "./assets/figures/ir-gleim-2025/figure-13.webp",
+    "page": 382,
+    "clip": [
+      33,
+      45,
+      563.4500122070312,
+      331.55047607421875
+    ]
+  },
+  "18": {
+    "path": "./assets/figures/ir-gleim-2025/figure-18.webp",
+    "page": 409,
+    "clip": [
+      32,
+      45,
+      566.5001220703125,
+      698.6116943359375
+    ]
+  },
+  "260": {
+    "path": "./assets/figures/ir-gleim-2025/figure-260.webp",
+    "page": 410,
+    "clip": [
+      33,
+      309.0,
+      564.9000244140625,
+      702.7600708007812
+    ]
+  },
+  "263": {
+    "path": "./assets/figures/ir-gleim-2025/figure-263.webp",
+    "page": 413,
+    "clip": [
+      33,
+      45,
+      565.0999755859375,
+      454.3006896972656
+    ]
+  },
+  "20": {
+    "path": "./assets/figures/ir-gleim-2025/figure-20.webp",
+    "page": 415,
+    "clip": [
+      33,
+      170.0,
+      564.9000244140625,
+      768.1993408203125
+    ]
+  },
+  "2": {
+    "path": "./assets/figures/ir-gleim-2025/figure-2.webp",
+    "page": 407,
+    "clip": [
+      33,
+      466.0,
+      565.25,
+      598.6005249023438
+    ]
+  },
+  "19": {
+    "path": "./assets/figures/ir-gleim-2025/figure-19.webp",
+    "page": 409,
+    "clip": [
+      32,
+      45,
+      566.5001220703125,
+      698.8094482421875
+    ]
+  },
+  "261": {
+    "path": "./assets/figures/ir-gleim-2025/figure-261.webp",
+    "page": 411,
+    "clip": [
+      33,
+      45,
+      563.4500122070312,
+      453.8006591796875
+    ]
+  },
+  "262": {
+    "path": "./assets/figures/ir-gleim-2025/figure-262.webp",
+    "page": 412,
+    "clip": [
+      33,
+      45,
+      563.2999877929688,
+      453.5993957519531
+    ]
+  },
+  "264": {
+    "path": "./assets/figures/ir-gleim-2025/figure-264.webp",
+    "page": 414,
+    "clip": [
+      33,
+      45,
+      564.9000244140625,
+      452.2587585449219
+    ]
+  },
+  "7": {
+    "path": "./assets/figures/ir-gleim-2025/figure-7.webp",
+    "page": 417,
+    "clip": [
+      32,
+      45,
+      562.7501220703125,
+      483.5090637207031
+    ]
+  },
+  "66": {
+    "path": "./assets/figures/ir-gleim-2025/figure-66.webp",
+    "page": 432,
+    "clip": [
+      33,
+      391.0,
+      564.7000122070312,
+      627.908447265625
+    ]
+  },
+  "65": {
+    "path": "./assets/figures/ir-gleim-2025/figure-65.webp",
+    "page": 433,
+    "clip": [
+      34,
+      45,
+      560,
+      677
+    ]
+  },
+  "67": {
+    "path": "./assets/figures/ir-gleim-2025/figure-67.webp",
+    "page": 433,
+    "clip": [
+      130,
+      685,
+      450,
+      765
+    ]
+  },
+  "87": {
+    "path": "./assets/figures/ir-gleim-2025/figure-87.webp",
+    "page": 435,
+    "clip": [
+      32,
+      45,
+      568.1500244140625,
+      726.1641845703125
+    ]
+  },
+  "88": {
+    "path": "./assets/figures/ir-gleim-2025/figure-88.webp",
+    "page": 438,
+    "clip": [
+      95,
+      502,
+      500,
+      746
+    ]
+  },
+  "89": {
+    "path": "./assets/figures/ir-gleim-2025/figure-89.webp",
+    "page": 441,
+    "clip": [
+      32,
+      45,
+      565.4500122070312,
+      734.110595703125
+    ]
+  },
+  "90": {
+    "path": "./assets/figures/ir-gleim-2025/figure-90.webp",
+    "page": 442,
+    "clip": [
+      33,
+      365.5,
+      565.0999755859375,
+      667.1085205078125
+    ]
+  },
+  "91": {
+    "path": "./assets/figures/ir-gleim-2025/figure-91.webp",
+    "page": 445,
+    "clip": [
+      32,
+      45,
+      564.0,
+      689.2642211914062
+    ]
+  },
+  "193": {
+    "path": "./assets/figures/ir-gleim-2025/figure-193.webp",
+    "page": 451,
+    "clip": [
+      32,
+      45,
+      561.8499755859375,
+      759.5499877929688
+    ]
+  },
+  "64": {
+    "path": "./assets/figures/ir-gleim-2025/figure-64.webp",
+    "page": 453,
+    "clip": [
+      32,
+      45,
+      562.0001220703125,
+      735.5142211914062
+    ]
+  },
+  "1A": {
+    "path": "./assets/figures/ir-gleim-2025/figure-1A.webp",
+    "page": 185,
+    "clip": [
+      34,
+      45,
+      558,
+      748
+    ]
+  },
+  "115": {
+    "path": "./assets/figures/ir-gleim-2025/figure-115.webp",
+    "page": 267,
+    "clip": [
+      47,
+      245,
+      541,
+      520
+    ]
+  },
+  "116": {
+    "path": "./assets/figures/ir-gleim-2025/figure-116.webp",
+    "page": 272,
+    "clip": [
+      55,
+      270,
+      547,
+      548
+    ]
+  }
+}
