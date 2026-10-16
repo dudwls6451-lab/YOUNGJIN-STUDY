@@ -1,0 +1,31 @@
+{
+  "scope": "Chromium with full patched core, real fetched base/airline data and existing CPL/IR data. Auth, daily gate and remote services mocked. No live account writes or Android device tests.",
+  "results": [
+    {
+      "width": 1440,
+      "trinity307": true,
+      "jeju200": true,
+      "quizGrading": true,
+      "editAndCancel": true,
+      "saveReload": true,
+      "homeUpdated": true,
+      "invalidDateRejected": true,
+      "retryAndFallback": true,
+      "ir960Preserved": true,
+      "themes": true
+    },
+    {
+      "width": 390,
+      "trinity307": true,
+      "jeju200": true,
+      "quizGrading": true,
+      "editAndCancel": true,
+      "saveReload": true,
+      "homeUpdated": true,
+      "invalidDateRejected": true,
+      "retryAndFallback": true,
+      "ir960Preserved": true,
+      "themes": true
+    }
+  ]
+}
