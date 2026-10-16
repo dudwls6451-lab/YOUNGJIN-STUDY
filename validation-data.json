@@ -1,0 +1,11 @@
+{
+  "reports": 125,
+  "uniqueQuestions": 119,
+  "allReportIdsCovered": true,
+  "changedAnswerKeys": 62,
+  "figuresRestoredOrRelinked": 32,
+  "fourChoicesWithValidAnswerAll": true,
+  "allPackagedAssetsExist": true,
+  "existingLearningRecordsChanged": false,
+  "serverReportStatusChanged": false
+}

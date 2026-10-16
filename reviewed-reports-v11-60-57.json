@@ -1,0 +1,2516 @@
+[
+  {
+    "id": "K-AIM-1091",
+    "report_indices": [
+      1
+    ],
+    "old_answer": "A",
+    "new_answer": "C",
+    "changed_fields": [
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 346,
+      "original_source_page": null,
+      "reference": "11. 세화 문제집.pdf · 예상문제 · 원본대조 4단계 검토"
+    },
+    "decision_note": "",
+    "explanation": "야간에는 한 점을 응시하지 않고 주변시와 천천히 이동하는 시선을 사용한다. 암순응에는 약 30분이 필요하다."
+  },
+  {
+    "id": "K-AIM-1054",
+    "report_indices": [
+      2
+    ],
+    "old_answer": "D",
+    "new_answer": "A",
+    "changed_fields": [
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 331,
+      "original_source_page": null,
+      "reference": "11. 세화 문제집.pdf · 예상문제 · 원본대조 4단계 검토"
+    },
+    "decision_note": "",
+    "explanation": "같은 조건에서 높은 받음각·큰 중량·저속일수록 강한 후류 와류가 발생한다. 대표 조건은 heavy, clean, slow이다."
+  },
+  {
+    "id": "AIR-NAV-510",
+    "report_indices": [
+      3
+    ],
+    "old_answer": "A",
+    "new_answer": "C",
+    "changed_fields": [
+      "question",
+      "choices",
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": null,
+      "original_source_page": 181,
+      "reference": "공중항법.pdf p.181"
+    },
+    "decision_note": "",
+    "explanation": "관리격자에서 (1,1)은 인간과 과업 모두 관심이 낮다. (5,5)는 양쪽에 중간 정도 관심을 두는 절충형이다."
+  },
+  {
+    "id": "AIR-NAV-431",
+    "report_indices": [
+      5
+    ],
+    "old_answer": "C",
+    "new_answer": "B",
+    "changed_fields": [
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": null,
+      "original_source_page": 142,
+      "reference": "공중항법.pdf p.142"
+    },
+    "decision_note": "",
+    "explanation": "CAT I 정밀접근 범주는 일반적으로 DH 200 ft 이상, RVR 550 m 이상을 기준으로 한다. 실제 운항에는 공시된 접근최저치와 승인 요건을 적용한다."
+  },
+  {
+    "id": "K-AIM-681",
+    "report_indices": [
+      6
+    ],
+    "old_answer": "D",
+    "new_answer": "A",
+    "changed_fields": [
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 232,
+      "original_source_page": null,
+      "reference": "11. 세화 문제집.pdf · 예상문제 · 원본대조 4단계 검토"
+    },
+    "decision_note": "",
+    "explanation": "RADAR CONTACT는 레이더 식별이 성립했다는 의미이다. IFR 허가나 조종사의 충돌회피 책임 면제를 뜻하지 않는다."
+  },
+  {
+    "id": "AIR-NAV-783",
+    "report_indices": [
+      7
+    ],
+    "old_answer": "B",
+    "new_answer": "D",
+    "changed_fields": [
+      "question",
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": null,
+      "original_source_page": 239,
+      "reference": "공중항법.pdf p.239 (제11회 모의고사 Q4)"
+    },
+    "decision_note": "",
+    "explanation": "Track은 항공기가 지표면 위에서 실제로 지나가는 경로·방향이다. Heading은 기수방향, course는 계획한 항로의 방향이다."
+  },
+  {
+    "id": "AIR-NAV-717",
+    "report_indices": [
+      9
+    ],
+    "old_answer": "A",
+    "new_answer": "B",
+    "changed_fields": [
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": null,
+      "original_source_page": 224,
+      "reference": "공중항법.pdf p.224 (제8회 모의고사 Q13)"
+    },
+    "decision_note": "",
+    "explanation": "국내 공역 분류에서 비행제한구역은 통제공역이다. 훈련구역·군작전구역·위험구역은 주의공역에 속한다."
+  },
+  {
+    "id": "AIR-NAV-486",
+    "report_indices": [
+      11
+    ],
+    "old_answer": "B",
+    "new_answer": "C",
+    "changed_fields": [
+      "choices",
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": null,
+      "original_source_page": 167,
+      "reference": "공중항법.pdf p.167"
+    },
+    "decision_note": "",
+    "explanation": "Autokinesis는 어두운 배경의 고정된 빛을 오래 응시할 때 빛이 움직이는 것처럼 느끼는 착시이다."
+  },
+  {
+    "id": "AIR-NAV-533",
+    "report_indices": [
+      15
+    ],
+    "old_answer": "B",
+    "new_answer": "A",
+    "changed_fields": [
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": null,
+      "original_source_page": 189,
+      "reference": "공중항법.pdf p.189 (제1회 모의고사 Q4)"
+    },
+    "decision_note": "",
+    "explanation": "구면상의 두 지점을 잇는 최단 경로는 대권의 짧은 호이다. 항정선은 일정한 침로를 유지하는 경로이다."
+  },
+  {
+    "id": "K-AIM-1056",
+    "report_indices": [
+      18
+    ],
+    "old_answer": "A",
+    "new_answer": "C",
+    "changed_fields": [
+      "choices",
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 332,
+      "original_source_page": null,
+      "reference": "11. 세화 문제집.pdf · 예상문제 · 원본대조 4단계 검토"
+    },
+    "decision_note": "",
+    "explanation": "약한 후측풍은 선행 항공기의 와류를 활주로에 남기거나 다시 이동시켜 위험을 오래 유지할 수 있다."
+  },
+  {
+    "id": "AIR-NAV-866",
+    "report_indices": [
+      27,
+      61
+    ],
+    "old_answer": "C",
+    "new_answer": "B",
+    "changed_fields": [
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": null,
+      "original_source_page": 254,
+      "reference": "공중항법.pdf p.254 (제14회 모의고사 Q12)"
+    },
+    "decision_note": "",
+    "explanation": "수신기의 시계 오차를 함께 구하는 일반적인 GPS 3차원 위치 결정에는 최소 4개 위성 신호가 필요하다. RAIM 감시에 필요한 위성 수와 구분한다."
+  },
+  {
+    "id": "AIR-NAV-196",
+    "report_indices": [
+      28
+    ],
+    "old_answer": "D",
+    "new_answer": "C",
+    "changed_fields": [
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": null,
+      "original_source_page": 81,
+      "reference": "공중항법.pdf p.81"
+    },
+    "decision_note": "",
+    "explanation": "항행안전시설의 동일 식별부호는 통상 해당 시설에서 600 NM 이내에 중복하지 않는 배치 원칙을 적용한다. ICAO APAC 주파수 관리 지침의 식별부호 배치 기준을 참조한다."
+  },
+  {
+    "id": "AIR-NAV-542",
+    "report_indices": [
+      29
+    ],
+    "old_answer": "B",
+    "new_answer": "A",
+    "changed_fields": [
+      "question",
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": null,
+      "original_source_page": 190,
+      "reference": "공중항법.pdf p.190 (제1회 모의고사 Q13)"
+    },
+    "decision_note": "",
+    "explanation": "Localizer는 활주로 중심선에 대한 좌우 편위, 즉 방위각 방향 유도를 제공한다. 수직 유도는 glide slope, 거리는 DME 등으로 얻는다."
+  },
+  {
+    "id": "AIR-NAV-861",
+    "report_indices": [
+      30,
+      58
+    ],
+    "old_answer": "C",
+    "new_answer": "D",
+    "changed_fields": [
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": null,
+      "original_source_page": 254,
+      "reference": "공중항법.pdf p.254 (제14회 모의고사 Q7)"
+    },
+    "decision_note": "",
+    "explanation": "날짜변경선의 기본 기준은 경도 180° 자오선이다. 실제 선은 국가와 도서를 피하도록 굴곡져 있다."
+  },
+  {
+    "id": "ATC-COMM-286",
+    "report_indices": [
+      34
+    ],
+    "old_answer": "C",
+    "new_answer": "C",
+    "changed_fields": [
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 118,
+      "original_source_page": null,
+      "reference": "항공교통통신 ocr_압축됨.pdf · 출제예상문제"
+    },
+    "decision_note": "",
+    "explanation": "ICAO 비행계획서의 Z는 처음 VFR로 비행한 뒤 IFR로 변경하는 경우이다. Y는 처음 IFR 후 VFR로 변경하는 경우이다."
+  },
+  {
+    "id": "K-AIM-1055",
+    "report_indices": [
+      46
+    ],
+    "old_answer": "A",
+    "new_answer": "B",
+    "changed_fields": [
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 332,
+      "original_source_page": null,
+      "reference": "11. 세화 문제집.pdf · 예상문제 · 원본대조 4단계 검토"
+    },
+    "decision_note": "",
+    "explanation": "후류 와류는 일반적으로 중량이 크고 clean configuration이며 저속인 heavy, clean, slow 조건에서 가장 강하다."
+  },
+  {
+    "id": "K-AIM-1075",
+    "report_indices": [
+      52
+    ],
+    "old_answer": "B",
+    "new_answer": "D",
+    "changed_fields": [
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 342,
+      "original_source_page": null,
+      "reference": "11. 세화 문제집.pdf · 예상문제 · 원본대조 4단계 검토"
+    },
+    "decision_note": "",
+    "explanation": "표준대기에서 기압이 해면기압의 약 절반이 되는 고도는 약 18,000 ft이다. 정확한 값은 약 18,000~18,200 ft 수준으로 근사한다."
+  },
+  {
+    "id": "AIR-NAV-540",
+    "report_indices": [
+      60
+    ],
+    "old_answer": "B",
+    "new_answer": "C",
+    "changed_fields": [
+      "choices",
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": null,
+      "original_source_page": 189,
+      "reference": "공중항법.pdf p.189 (제1회 모의고사 Q11)"
+    },
+    "decision_note": "",
+    "explanation": "EAS는 CAS에서 압축성 효과를 보정한 속도이다. 공기밀도 보정으로 EAS를 TAS로 환산한다."
+  },
+  {
+    "id": "AIR-NAV-358",
+    "report_indices": [
+      74
+    ],
+    "old_answer": "B",
+    "new_answer": "C",
+    "changed_fields": [
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": null,
+      "original_source_page": 119,
+      "reference": "공중항법.pdf p.119"
+    },
+    "decision_note": "",
+    "explanation": "선행 대형항공기의 부양지점보다 앞에서 이륙하고 선행 비행경로보다 높게 비행해 후류를 피한다. 바람·운항조건과 ATC 분리도 함께 고려한다."
+  },
+  {
+    "id": "AIR-NAV-559",
+    "report_indices": [
+      76
+    ],
+    "old_answer": "B",
+    "new_answer": "C",
+    "changed_fields": [
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": null,
+      "original_source_page": 194,
+      "reference": "공중항법.pdf p.194 (제2회 모의고사 Q5)"
+    },
+    "decision_note": "",
+    "explanation": "지구는 평균태양일 기준 약 24시간에 360° 회전하므로 시간당 약 15°이다."
+  },
+  {
+    "id": "K-AIM-432",
+    "report_indices": [
+      78
+    ],
+    "old_answer": "C",
+    "new_answer": "D",
+    "changed_fields": [
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 143,
+      "original_source_page": null,
+      "reference": "11. 세화 문제집.pdf · 예상문제 · 2단계 원본대조"
+    },
+    "decision_note": "",
+    "explanation": "레이더 교통정보의 시계방향 위치는 레이더 화면에서 관측되는 항적(ground track)을 기준으로 한다. 바람으로 heading과 track이 다를 수 있다."
+  },
+  {
+    "id": "AIR-NAV-364",
+    "report_indices": [
+      83
+    ],
+    "old_answer": "C",
+    "new_answer": "B",
+    "changed_fields": [
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": null,
+      "original_source_page": 120,
+      "reference": "공중항법.pdf p.120"
+    },
+    "decision_note": "",
+    "explanation": "기온 상승·기압 하강·습도 상승은 공기밀도를 낮추어 밀도고도를 높이는 방향으로 작용한다."
+  },
+  {
+    "id": "AIR-NAV-532",
+    "report_indices": [
+      85
+    ],
+    "old_answer": "C",
+    "new_answer": "D",
+    "changed_fields": [
+      "choices",
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": null,
+      "original_source_page": 189,
+      "reference": "공중항법.pdf p.189 (제1회 모의고사 Q3)"
+    },
+    "decision_note": "",
+    "explanation": "전통적인 해리의 기준은 위도 1분에 해당하는 자오선 호의 길이이다. 현재 국제해리는 정확히 1,852 m로 정의된다."
+  },
+  {
+    "id": "FLIGHT-THEORY-233",
+    "report_indices": [
+      88
+    ],
+    "old_answer": "A",
+    "new_answer": "C",
+    "changed_fields": [
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": null,
+      "original_source_page": 70,
+      "reference": "비행이론.pdf p.70"
+    },
+    "decision_note": "",
+    "explanation": "Slat은 주로 실속 지연과 고양력을 위한 장치이다. Drag chute, spoiler, thrust reverser는 감속·항력 증가와 관련된다."
+  },
+  {
+    "id": "FLIGHT-THEORY-073",
+    "report_indices": [
+      89
+    ],
+    "old_answer": "B",
+    "new_answer": "C",
+    "changed_fields": [
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": null,
+      "original_source_page": 46,
+      "reference": "비행이론.pdf p.46"
+    },
+    "decision_note": "",
+    "explanation": "시위선(chord line)은 에어포일 앞전과 뒷전을 잇는 직선이다. B는 최대 캠버의 설명이다."
+  },
+  {
+    "id": "FLIGHT-THEORY-237",
+    "report_indices": [
+      90
+    ],
+    "old_answer": "A",
+    "new_answer": "D",
+    "changed_fields": [
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": null,
+      "original_source_page": 83,
+      "reference": "비행이론.pdf p.83"
+    },
+    "decision_note": "",
+    "explanation": "정상 비행의 대표 네 힘은 양력·중력·추력·항력이다. Power는 힘이 아니라 일률이다."
+  },
+  {
+    "id": "FLIGHT-THEORY-181",
+    "report_indices": [
+      94
+    ],
+    "old_answer": "A",
+    "new_answer": "D",
+    "changed_fields": [
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": null,
+      "original_source_page": 63,
+      "reference": "비행이론.pdf p.63"
+    },
+    "decision_note": "",
+    "explanation": "수평 정상비행 등 같은 양력을 유지하는 조건에서 속도가 낮아지면 유도항력은 커진다. 유해항력은 대체로 속도 제곱에 비례한다."
+  },
+  {
+    "id": "ATC-COMM-508",
+    "report_indices": [
+      96
+    ],
+    "old_answer": "C",
+    "new_answer": "B",
+    "changed_fields": [
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 180,
+      "original_source_page": null,
+      "reference": "항공교통통신 ocr_압축됨.pdf · 출제예상문제"
+    },
+    "decision_note": "",
+    "explanation": "숫자 681은 각 자리별로 SIX EIGHT ONE으로 발음한다. 80이나 600으로 묶어서 읽지 않는다."
+  },
+  {
+    "id": "K-AIM-962",
+    "report_indices": [
+      4
+    ],
+    "old_answer": "D",
+    "new_answer": "C",
+    "changed_fields": [
+      "question",
+      "choices",
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 293,
+      "original_source_page": null,
+      "reference": "11. 세화 문제집.pdf · 예상문제 · 원본대조 4단계 검토"
+    },
+    "decision_note": "",
+    "explanation": "다른 IFR 항공기는 투하 항공기보다 적어도 1,000 ft 위 또는 2,000 ft 아래에 두거나 수평 5 mile 이상 분리한다. 따라서 위·아래를 모두 1,000 ft로 표현한 C가 틀리다. 단위와 조건은 FAA JO 7110.65 fuel dumping 기준을 따른다."
+  },
+  {
+    "id": "K-AIM-878",
+    "report_indices": [
+      12
+    ],
+    "old_answer": "A",
+    "new_answer": "B",
+    "changed_fields": [
+      "question",
+      "choices",
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 270,
+      "original_source_page": null,
+      "reference": "11. 세화 문제집.pdf · 예상문제 · 원본대조 4단계 검토"
+    },
+    "decision_note": "",
+    "explanation": "VFR-on-top은 IFR 비행계획에 의한 허가이며 적용되는 IFR 최저고도도 지켜야 한다. 레이더 유도가 조종사의 지형·장애물 회피 책임을 없애지는 않는다. 관제사의 MVA 등 고도 배정 책임과 별개이다."
+  },
+  {
+    "id": "K-AIM-1034",
+    "report_indices": [
+      13
+    ],
+    "old_answer": "D",
+    "new_answer": "D",
+    "changed_fields": [
+      "question",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 328,
+      "original_source_page": null,
+      "reference": "11. 세화 문제집.pdf · 예상문제 · 원본대조 4단계 검토"
+    },
+    "decision_note": "",
+    "explanation": "교재가 구분하는 기압고도계 오차는 기계적 오차·탄성 오차·기온 오차·설치/위치 오차 등이다. 밀도고도는 성능 평가 개념이며 이 분류의 고도계 오차 명칭이 아니다."
+  },
+  {
+    "id": "K-AIM-958",
+    "report_indices": [
+      14
+    ],
+    "old_answer": "D",
+    "new_answer": "A",
+    "changed_fields": [
+      "question",
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 292,
+      "original_source_page": null,
+      "reference": "11. 세화 문제집.pdf · 예상문제 · 원본대조 4단계 검토"
+    },
+    "decision_note": "",
+    "explanation": "불법간섭·공중피랍은 7500, 통신두절은 7600, 일반 비상은 7700이다."
+  },
+  {
+    "id": "K-AIM-882",
+    "report_indices": [
+      16
+    ],
+    "old_answer": "A",
+    "new_answer": "A",
+    "changed_fields": [
+      "question",
+      "choices",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 271,
+      "original_source_page": null,
+      "reference": "11. 세화 문제집.pdf · 예상문제 · 원본대조 4단계 검토"
+    },
+    "decision_note": "",
+    "explanation": "교통정보를 받으면 수신 응답을 하고, 항공기 육안 확인 여부를 통보한다. 관제정보가 see-and-avoid 책임을 대체하지는 않는다."
+  },
+  {
+    "id": "K-AIM-852",
+    "report_indices": [
+      17
+    ],
+    "old_answer": "D",
+    "new_answer": "B",
+    "changed_fields": [
+      "choices",
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 264,
+      "original_source_page": null,
+      "reference": "11. 세화 문제집.pdf · 예상문제 · 원본대조 4단계 검토"
+    },
+    "decision_note": "",
+    "explanation": "비행기 일반 실패접근의 기본 상승구배는 200 ft/NM이지 200 ft/min이 아니다. 공시 상승구배와 기종별 기준을 우선 적용한다. 필요한 상승률(ft/min)은 지상속도에 따라 달라진다."
+  },
+  {
+    "id": "K-AIM-921",
+    "report_indices": [
+      19
+    ],
+    "old_answer": "A",
+    "new_answer": "A",
+    "changed_fields": [
+      "question",
+      "choices",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 286,
+      "original_source_page": null,
+      "reference": "11. 세화 문제집.pdf · 예상문제 · 원본대조 4단계 검토"
+    },
+    "decision_note": "",
+    "explanation": "원본 세화 문제집 p.286의 문항 9와 정답표는 황색 십자 표시를 제시한다. 별도 생존자 공지신호 V(원조 필요), X(의료지원 필요)와 구분한다."
+  },
+  {
+    "id": "K-AIM-892",
+    "report_indices": [
+      20
+    ],
+    "old_answer": "D",
+    "new_answer": "D",
+    "changed_fields": [
+      "question",
+      "choices",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 273,
+      "original_source_page": null,
+      "reference": "11. 세화 문제집.pdf · 예상문제 · 원본대조 4단계 검토"
+    },
+    "decision_note": "",
+    "explanation": "Minimum fuel 통보 자체는 비상선언도 교통 우선권 요청도 아니다. 안전한 착륙에 우선권이 필요하면 저연료 비상을 선언하고 남은 연료를 시간(분)으로 알린다."
+  },
+  {
+    "id": "K-AIM-1039",
+    "report_indices": [
+      21
+    ],
+    "old_answer": "B",
+    "new_answer": "B",
+    "changed_fields": [
+      "question",
+      "choices",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 329,
+      "original_source_page": null,
+      "reference": "11. 세화 문제집.pdf · 예상문제 · 원본대조 4단계 검토"
+    },
+    "decision_note": "",
+    "explanation": "설정값이 실제 QNH보다 0.17 inHg 낮으므로 지시는 170 ft 낮다. 1,500 − 170 = 1,330 ft이다."
+  },
+  {
+    "id": "K-AIM-1041",
+    "report_indices": [
+      23
+    ],
+    "old_answer": "B",
+    "new_answer": "A",
+    "changed_fields": [
+      "question",
+      "choices",
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 329,
+      "original_source_page": null,
+      "reference": "11. 세화 문제집.pdf · 예상문제 · 원본대조 4단계 검토"
+    },
+    "decision_note": "",
+    "explanation": "29.92 − 30.37 = −0.45 inHg이므로 고도계는 450 ft 낮게 지시한다. 450 − 450 = 0 ft이다."
+  },
+  {
+    "id": "K-AIM-1040",
+    "report_indices": [
+      24
+    ],
+    "old_answer": "D",
+    "new_answer": "D",
+    "changed_fields": [
+      "question",
+      "choices",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 329,
+      "original_source_page": null,
+      "reference": "11. 세화 문제집.pdf · 예상문제 · 원본대조 4단계 검토"
+    },
+    "decision_note": "",
+    "explanation": "표준 설정 29.92 − 30.26 = −0.34 inHg, 즉 340 ft 낮게 지시한다. 134 − 340 = −206 ft이다."
+  },
+  {
+    "id": "K-AIM-911",
+    "report_indices": [
+      25
+    ],
+    "old_answer": "C",
+    "new_answer": "C",
+    "changed_fields": [
+      "question",
+      "choices",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 277,
+      "original_source_page": null,
+      "reference": "11. 세화 문제집.pdf · 예상문제 · 원본대조 4단계 검토"
+    },
+    "decision_note": "",
+    "explanation": "ICAO 요격 신호에서 모든 가용 등화의 규칙적인 on/off는 지시에 따를 수 없다는 뜻이다. 불규칙적인 점멸은 조난 상태를 나타낸다."
+  },
+  {
+    "id": "FLIGHT-THEORY-163",
+    "report_indices": [
+      26
+    ],
+    "old_answer": "D",
+    "new_answer": "D",
+    "changed_fields": [
+      "choices",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": null,
+      "original_source_page": 60,
+      "reference": "비행이론.pdf p.60"
+    },
+    "decision_note": "",
+    "explanation": "유도항력계수 CDi = CL²/(π e AR)이다. 엔진 흡입에 의한 항력이라는 D는 유도항력의 설명이 아니다."
+  },
+  {
+    "id": "AIR-NAV-321",
+    "report_indices": [
+      31,
+      57
+    ],
+    "old_answer": "C",
+    "new_answer": "D",
+    "changed_fields": [
+      "question",
+      "choices",
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": null,
+      "original_source_page": 112,
+      "reference": "공중항법.pdf p.112"
+    },
+    "decision_note": "",
+    "explanation": "전이고도 이하에서는 경로상 185 km(100 NM) 이내 관제기관의 QNH를 사용한다. 해당 기관이 없을 때는 최신 비행정보기관 정보 등 규정상 대안을 사용한다. 표준기압은 전이고도를 초과할 때 사용한다."
+  },
+  {
+    "id": "FLIGHT-THEORY-744",
+    "report_indices": [
+      32,
+      63
+    ],
+    "old_answer": "A",
+    "new_answer": "A",
+    "changed_fields": [
+      "choices",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": null,
+      "original_source_page": 225,
+      "reference": "비행이론.pdf p.225 (제7회 모의고사 Q5)"
+    },
+    "decision_note": "",
+    "explanation": "테이퍼비는 익단 시위/익근 시위이다. 직사각형 날개는 두 시위가 같으므로 테이퍼비는 1이다. C의 실속 방향도 교정해 정답이 A 하나가 되도록 했다."
+  },
+  {
+    "id": "ATC-COMM-542",
+    "report_indices": [
+      35
+    ],
+    "old_answer": "B",
+    "new_answer": "A",
+    "changed_fields": [
+      "question",
+      "choices",
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 199,
+      "original_source_page": null,
+      "reference": "항공교통통신 ocr_압축됨.pdf · 출제예상문제"
+    },
+    "decision_note": "",
+    "explanation": "SNOWTAM은 예보가 아니라 표면 상태 정보이다. 현행 GRF 체계의 최대 유효기간은 8시간이다. 원본의 과거 24시간·구형 기준을 그대로 정답 근거로 사용하지 않았다."
+  },
+  {
+    "id": "K-AIM-1058",
+    "report_indices": [
+      37
+    ],
+    "old_answer": "B",
+    "new_answer": "C",
+    "changed_fields": [
+      "question",
+      "choices",
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 332,
+      "original_source_page": null,
+      "reference": "11. 세화 문제집.pdf · 예상문제 · 원본대조 4단계 검토"
+    },
+    "decision_note": "",
+    "explanation": "부양지점 전에서 이륙하고 선행 비행경로 위쪽을 유지한다. 바람과 선행기 형상 변화에 따른 후류 이동도 고려한다."
+  },
+  {
+    "id": "K-AIM-1017",
+    "report_indices": [
+      38
+    ],
+    "old_answer": "C",
+    "new_answer": "C",
+    "changed_fields": [
+      "question",
+      "choices",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 324,
+      "original_source_page": null,
+      "reference": "11. 세화 문제집.pdf · 예상문제 · 원본대조 4단계 검토"
+    },
+    "decision_note": "",
+    "explanation": "4,000 ft 상승하면 8°C 낮아지므로 −10 − 8 = −18°C이다."
+  },
+  {
+    "id": "K-AIM-954",
+    "report_indices": [
+      39
+    ],
+    "old_answer": "A",
+    "new_answer": "D",
+    "changed_fields": [
+      "question",
+      "choices",
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 291,
+      "original_source_page": null,
+      "reference": "11. 세화 문제집.pdf · 예상문제 · 원본대조 4단계 검토"
+    },
+    "decision_note": "",
+    "explanation": "243.0 MHz는 군용 비상주파수로도 사용되므로 민간항공기만 사용한다는 D는 틀리다. B도 MAYDAY의 의미를 정확히 바꾸어 복수 오답 가능성을 제거했다."
+  },
+  {
+    "id": "K-AIM-935",
+    "report_indices": [
+      40
+    ],
+    "old_answer": "C",
+    "new_answer": "C",
+    "changed_fields": [
+      "question",
+      "choices",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 288,
+      "original_source_page": null,
+      "reference": "11. 세화 문제집.pdf · 예상문제 · 원본대조 4단계 검토"
+    },
+    "decision_note": "",
+    "explanation": "연료 고갈로 항공기 안전이 위태로운 상황은 조난단계(DETRESFA)에 해당한다. ALERFA·INCERFA와 구분한다."
+  },
+  {
+    "id": "K-AIM-991",
+    "report_indices": [
+      42
+    ],
+    "old_answer": "D",
+    "new_answer": "D",
+    "changed_fields": [
+      "question",
+      "choices",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 319,
+      "original_source_page": null,
+      "reference": "11. 세화 문제집.pdf · 예상문제 · 원본대조 4단계 검토"
+    },
+    "decision_note": "",
+    "explanation": "마이크로버스트 하강기류는 약 6,000 ft/min에 이를 수 있다. 이는 모든 사례가 이 속도라는 의미나 상한을 보장하는 수치가 아니다."
+  },
+  {
+    "id": "K-AIM-994",
+    "report_indices": [
+      43
+    ],
+    "old_answer": "A",
+    "new_answer": "B",
+    "changed_fields": [
+      "question",
+      "choices",
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 320,
+      "original_source_page": null,
+      "reference": "11. 세화 문제집.pdf · 예상문제 · 원본대조 4단계 검토"
+    },
+    "decision_note": "",
+    "explanation": "VC는 공항 기준위치에서 대략 8~16 km(5~10 NM) 범위의 현상이다. 원본 보기의 단일 8 km를 범위 전체로 해석하지 않도록 수정했다."
+  },
+  {
+    "id": "K-AIM-979",
+    "report_indices": [
+      44
+    ],
+    "old_answer": "C",
+    "new_answer": "D",
+    "changed_fields": [
+      "question",
+      "choices",
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 317,
+      "original_source_page": null,
+      "reference": "11. 세화 문제집.pdf · 예상문제 · 원본대조 4단계 검토"
+    },
+    "decision_note": "",
+    "explanation": "AWOS-3는 AWOS-2 항목에 운고(ceiling)를 추가한다. 강수 종류 식별은 AWOS-3P 등 확장 형태와 구분한다."
+  },
+  {
+    "id": "K-AIM-988",
+    "report_indices": [
+      45
+    ],
+    "old_answer": "D",
+    "new_answer": "A",
+    "changed_fields": [
+      "question",
+      "choices",
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 319,
+      "original_source_page": null,
+      "reference": "11. 세화 문제집.pdf · 예상문제 · 원본대조 4단계 검토"
+    },
+    "decision_note": "",
+    "explanation": "Ceiling은 하늘의 절반을 초과해 덮는 최저 구름층 높이를 말한다. 4/8 자체는 SCT로 ceiling에 해당하지 않는다. VV가 보고되는 차폐 상태도 별도 ceiling 보고에 포함한다."
+  },
+  {
+    "id": "K-AIM-973",
+    "report_indices": [
+      47
+    ],
+    "old_answer": "D",
+    "new_answer": "C",
+    "changed_fields": [
+      "question",
+      "choices",
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 315,
+      "original_source_page": null,
+      "reference": "11. 세화 문제집.pdf · 예상문제 · 원본대조 4단계 검토"
+    },
+    "decision_note": "",
+    "explanation": "50 kt 이상의 지상 돌풍·우박·토네이도 등 기준을 충족하는 대류성 위험에는 Convective SIGMET이 해당한다. 지상풍만으로 모든 지역에서 동일 정보가 발행된다고 단정하지 않도록 뇌우·미국 기준을 명시했다."
+  },
+  {
+    "id": "K-AIM-1044",
+    "report_indices": [
+      48
+    ],
+    "old_answer": "B",
+    "new_answer": "C",
+    "changed_fields": [
+      "question",
+      "choices",
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 329,
+      "original_source_page": null,
+      "reference": "11. 세화 문제집.pdf · 예상문제 · 원본대조 4단계 검토"
+    },
+    "decision_note": "",
+    "explanation": "차가운 공기에서는 같은 기압면 사이의 높이 간격이 작다. 같은 지시고도라도 진고도는 낮아진다: hot to cold, look out below."
+  },
+  {
+    "id": "K-AIM-989",
+    "report_indices": [
+      49
+    ],
+    "old_answer": "A",
+    "new_answer": "C",
+    "changed_fields": [
+      "question",
+      "choices",
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 319,
+      "original_source_page": null,
+      "reference": "11. 세화 문제집.pdf · 예상문제 · 원본대조 4단계 검토"
+    },
+    "decision_note": "",
+    "explanation": "통상적인 요청 기준에는 운고 5,000 ft 이하, 시정 5 mile 이하, 보통(moderate) 이상 난류 등이 있다. light 난류 자체만을 moderate 이상 기준과 혼동하지 않는다. 조종사는 이 외에도 유용한 PIREP을 제공할 수 있다."
+  },
+  {
+    "id": "K-AIM-1059",
+    "report_indices": [
+      50
+    ],
+    "old_answer": "A",
+    "new_answer": "B",
+    "changed_fields": [
+      "question",
+      "choices",
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 333,
+      "original_source_page": null,
+      "reference": "11. 세화 문제집.pdf · 예상문제 · 원본대조 4단계 검토"
+    },
+    "decision_note": "",
+    "explanation": "전통적 분리표에서 Heavy 뒤 Light는 6 NM이다. 따라서 5 NM으로 적힌 B가 틀리다. RECAT·현지 승인 절차는 별도로 적용될 수 있다."
+  },
+  {
+    "id": "K-AIM-924",
+    "report_indices": [
+      51
+    ],
+    "old_answer": "C",
+    "new_answer": "C",
+    "changed_fields": [
+      "question",
+      "choices",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 286,
+      "original_source_page": null,
+      "reference": "11. 세화 문제집.pdf · 예상문제 · 원본대조 4단계 검토"
+    },
+    "decision_note": "",
+    "explanation": "X는 의료지원 필요, V는 원조 필요, N은 부정(No)이다. 원본 p.286 문항 12의 잘린 문제를 복원했다."
+  },
+  {
+    "id": "K-AIM-1067",
+    "report_indices": [
+      53
+    ],
+    "old_answer": "A",
+    "new_answer": "B",
+    "changed_fields": [
+      "choices",
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 334,
+      "original_source_page": null,
+      "reference": "11. 세화 문제집.pdf · 예상문제 · 원본대조 4단계 검토"
+    },
+    "decision_note": "",
+    "explanation": "기온 상승·기압 하강·습도 상승은 모두 공기밀도를 낮추는 방향이다. 따라서 밀도고도를 증가시키는 조합은 B이다."
+  },
+  {
+    "id": "K-AIM-1105",
+    "report_indices": [
+      54
+    ],
+    "old_answer": "B",
+    "new_answer": "D",
+    "changed_fields": [
+      "question",
+      "choices",
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 351,
+      "original_source_page": null,
+      "reference": "11. 세화 문제집.pdf · 예상문제 · 원본대조 4단계 검토"
+    },
+    "decision_note": "",
+    "explanation": "일반적인 항로 차트의 방위 표시는 자북을 기준으로 한다. 고위도 등 진북·그리드 기준이 별도로 명시된 차트는 그 주기를 따른다."
+  },
+  {
+    "id": "K-AIM-972",
+    "report_indices": [
+      55
+    ],
+    "old_answer": "C",
+    "new_answer": "B",
+    "changed_fields": [
+      "question",
+      "choices",
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 315,
+      "original_source_page": null,
+      "reference": "11. 세화 문제집.pdf · 예상문제 · 원본대조 4단계 검토"
+    },
+    "decision_note": "",
+    "explanation": "일반 SIGMET은 최대 4시간, 열대저기압·화산재 관련 예외는 최대 6시간이다. 신고의 B=6시간을 일반 SIGMET에 그대로 적용하지 않고 보기와 조건을 함께 교정했다."
+  },
+  {
+    "id": "K-AIM-077",
+    "report_indices": [
+      56
+    ],
+    "old_answer": "A",
+    "new_answer": "B",
+    "changed_fields": [
+      "question",
+      "choices",
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 25,
+      "original_source_page": null,
+      "reference": "11. 세화 문제집.pdf · 예상문제 · 1단계 원본대조"
+    },
+    "decision_note": "",
+    "explanation": "FAA Pilot/Controller Glossary에서 TCH는 평균 ILS glide slope를 따를 때 항공기 GS 안테나의 시단 통과 이론높이이다. 주착륙장치 높이와는 안테나·기어 위치 차이가 있다."
+  },
+  {
+    "id": "AIR-NAV-184",
+    "report_indices": [
+      73
+    ],
+    "old_answer": "B",
+    "new_answer": "A",
+    "changed_fields": [
+      "question",
+      "choices",
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": null,
+      "original_source_page": 68,
+      "reference": "공중항법.pdf p.68"
+    },
+    "decision_note": "",
+    "explanation": "TAS = EAS × √(ρ0/ρ)이다. 밀도고도 자체를 계기오차처럼 빼는 것이 아니라 실제 공기밀도를 반영한다."
+  },
+  {
+    "id": "FLIGHT-THEORY-811",
+    "report_indices": [
+      65
+    ],
+    "old_answer": "A",
+    "new_answer": "A",
+    "changed_fields": [
+      "question",
+      "choices",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": null,
+      "original_source_page": 236,
+      "reference": "비행이론.pdf p.236 (제9회 모의고사 Q22)"
+    },
+    "decision_note": "",
+    "explanation": "일반적으로 후방 CG는 실속속도를 낮추는 방향이지만 세로 안정성을 줄이고 실속 회복을 어렵게 한다. C를 감소로 고쳐 A만 틀린 보기로 정리했다. 신고 메모의 D 정답 제안은 수용하지 않았다."
+  },
+  {
+    "id": "K-AIM-959",
+    "report_indices": [
+      66
+    ],
+    "old_answer": "B",
+    "new_answer": "B",
+    "changed_fields": [
+      "question",
+      "choices",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 292,
+      "original_source_page": null,
+      "reference": "11. 세화 문제집.pdf · 예상문제 · 원본대조 4단계 검토"
+    },
+    "decision_note": "",
+    "explanation": "표준 확인 용어는 VERIFY SQUAWKING 7500이다. 실제 피랍 시 조종사가 답변하지 않을 수 있으며 관제사는 관련 비상 절차에 따른다."
+  },
+  {
+    "id": "FLIGHT-THEORY-721",
+    "report_indices": [
+      70
+    ],
+    "old_answer": "B",
+    "new_answer": "B",
+    "changed_fields": [
+      "question",
+      "choices",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": null,
+      "original_source_page": 220,
+      "reference": "비행이론.pdf p.220 (제6회 모의고사 Q7)"
+    },
+    "decision_note": "",
+    "explanation": "AR=b²/S이다. 직사각형 날개에서는 b/c와 같다."
+  },
+  {
+    "id": "AIR-NAV-646",
+    "report_indices": [
+      71
+    ],
+    "old_answer": "B",
+    "new_answer": "C",
+    "changed_fields": [
+      "question",
+      "choices",
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": null,
+      "original_source_page": 210,
+      "reference": "공중항법.pdf p.210 (제5회 모의고사 Q17)"
+    },
+    "decision_note": "",
+    "explanation": "185 km는 약 100 NM이다. 원본에서 보기 첫 줄이 문제문으로 섞인 부분을 분리했다."
+  },
+  {
+    "id": "AIR-NAV-602",
+    "report_indices": [
+      72
+    ],
+    "old_answer": "C",
+    "new_answer": "D",
+    "changed_fields": [
+      "question",
+      "choices",
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": null,
+      "original_source_page": 200,
+      "reference": "공중항법.pdf p.200 (제3회 모의고사 Q23)"
+    },
+    "decision_note": "",
+    "explanation": "별도 지시가 없는 요격 상황에서는 7700을 선택한다. 피랍 자체를 나타내는 7500과 구분한다."
+  },
+  {
+    "id": "AIR-NAV-548",
+    "report_indices": [
+      75
+    ],
+    "old_answer": "A",
+    "new_answer": "A",
+    "changed_fields": [
+      "question",
+      "choices",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": null,
+      "original_source_page": 190,
+      "reference": "공중항법.pdf p.190 (제1회 모의고사 Q19)"
+    },
+    "decision_note": "",
+    "explanation": "FAA AIM Additional Reports는 비레이더 보고에 필요한 수정 예상시각 차이를 2분 초과로 정한다. ICAO 비행계획 변경의 다른 시간 기준과 섞지 않도록 적용 기준을 명시했다."
+  },
+  {
+    "id": "K-AIM-1013",
+    "report_indices": [
+      77
+    ],
+    "old_answer": "B",
+    "new_answer": "B",
+    "changed_fields": [
+      "question",
+      "choices",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 323,
+      "original_source_page": null,
+      "reference": "11. 세화 문제집.pdf · 예상문제 · 원본대조 4단계 검토"
+    },
+    "decision_note": "",
+    "explanation": "100 kt 이상은 P99KT로 보고한다. M은 이 보고의 초과 표시가 아니다. 국제 METAR 보고와 무전으로 전달되는 운항 풍향의 자북 기준을 구분한다."
+  },
+  {
+    "id": "K-AIM-888",
+    "report_indices": [
+      80
+    ],
+    "old_answer": "C",
+    "new_answer": "C",
+    "changed_fields": [
+      "question",
+      "choices",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 273,
+      "original_source_page": null,
+      "reference": "11. 세화 문제집.pdf · 예상문제 · 원본대조 4단계 검토"
+    },
+    "decision_note": "",
+    "explanation": "Minimum fuel은 추가 지연을 수용하기 어렵다는 통보이며 그 자체가 비상이나 우선권 요청은 아니다."
+  },
+  {
+    "id": "K-AIM-1077",
+    "report_indices": [
+      81
+    ],
+    "old_answer": "B",
+    "new_answer": "B",
+    "changed_fields": [
+      "question",
+      "choices",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 342,
+      "original_source_page": null,
+      "reference": "11. 세화 문제집.pdf · 예상문제 · 원본대조 4단계 검토"
+    },
+    "decision_note": "",
+    "explanation": "과다호흡은 과도하게 빠르거나 깊은 호흡에 따른 저탄산혈증과 관련된다. 호흡속도 감소 자체를 대표 증상으로 고르지 않는다."
+  },
+  {
+    "id": "K-AIM-1011",
+    "report_indices": [
+      82
+    ],
+    "old_answer": "C",
+    "new_answer": "C",
+    "changed_fields": [
+      "question",
+      "choices",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 323,
+      "original_source_page": null,
+      "reference": "11. 세화 문제집.pdf · 예상문제 · 원본대조 4단계 검토"
+    },
+    "decision_note": "",
+    "explanation": "ICAO 기준 지상풍이 1 kt(2 km/h) 미만이면 calm으로 보고한다. 관제 지상풍 전달이나 TAF 관행의 별도 기준과 구분한다."
+  },
+  {
+    "id": "K-AIM-987",
+    "report_indices": [
+      97
+    ],
+    "old_answer": "B",
+    "new_answer": "B",
+    "changed_fields": [
+      "question",
+      "choices",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 319,
+      "original_source_page": null,
+      "reference": "11. 세화 문제집.pdf · 예상문제 · 원본대조 4단계 검토"
+    },
+    "decision_note": "",
+    "explanation": "운고는 BKN·OVC인 최저 층 또는 보고되는 수직시정(VV)을 기준으로 판단한다. FEW와 SCT만 있는 층은 ceiling이 아니다."
+  },
+  {
+    "id": "K-AIM-1038",
+    "report_indices": [
+      98
+    ],
+    "old_answer": "B",
+    "new_answer": "B",
+    "changed_fields": [
+      "question",
+      "choices",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 328,
+      "original_source_page": null,
+      "reference": "11. 세화 문제집.pdf · 예상문제 · 원본대조 4단계 검토"
+    },
+    "decision_note": "",
+    "explanation": "설정값이 0.01 inHg 낮아 10 ft 낮게 지시한다. 1,500 − 10 = 1,490 ft이다."
+  },
+  {
+    "id": "K-AIM-1053",
+    "report_indices": [
+      99
+    ],
+    "old_answer": "C",
+    "new_answer": "D",
+    "changed_fields": [
+      "question",
+      "choices",
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 331,
+      "original_source_page": null,
+      "reference": "11. 세화 문제집.pdf · 예상문제 · 원본대조 4단계 검토"
+    },
+    "decision_note": "",
+    "explanation": "최대 강도의 대표 조건은 heavy, clean, slow이다. 고속이라고 한 D가 틀리다."
+  },
+  {
+    "id": "K-AIM-897",
+    "report_indices": [
+      100
+    ],
+    "old_answer": "A",
+    "new_answer": "B",
+    "changed_fields": [
+      "question",
+      "choices",
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 275,
+      "original_source_page": null,
+      "reference": "11. 세화 문제집.pdf · 예상문제 · 원본대조 4단계 검토"
+    },
+    "decision_note": "",
+    "explanation": "일반적인 주간 요격 신호는 약간 위·앞·보통 좌측 위치에서 날개 흔들기 등으로 한다. 기상·지형에 따른 예외와 헬리콥터 절차 등은 관련 지시를 따른다."
+  },
+  {
+    "id": "K-AIM-1031",
+    "report_indices": [
+      101
+    ],
+    "old_answer": "D",
+    "new_answer": "C",
+    "changed_fields": [
+      "question",
+      "choices",
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 327,
+      "original_source_page": null,
+      "reference": "11. 세화 문제집.pdf · 예상문제 · 원본대조 4단계 검토"
+    },
+    "decision_note": "",
+    "explanation": "표준기압면을 기준으로 한 고도는 기압고도이다. 비행고도 FL210은 표준기압 기준 21,000 ft를 뜻한다."
+  },
+  {
+    "id": "K-AIM-957",
+    "report_indices": [
+      102
+    ],
+    "old_answer": "D",
+    "new_answer": "C",
+    "changed_fields": [
+      "question",
+      "choices",
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 292,
+      "original_source_page": null,
+      "reference": "11. 세화 문제집.pdf · 예상문제 · 원본대조 4단계 검토"
+    },
+    "decision_note": "",
+    "explanation": "비상통신은 식별부호, 비상 성격, 위치·고도, 의도·요청, 연료 잔량 등을 우선 알린다. 이륙 공항만의 단독 통보는 이러한 기본 내용의 대체가 아니다."
+  },
+  {
+    "id": "K-AIM-1097",
+    "report_indices": [
+      103
+    ],
+    "old_answer": "D",
+    "new_answer": "C",
+    "changed_fields": [
+      "question",
+      "choices",
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 349,
+      "original_source_page": null,
+      "reference": "11. 세화 문제집.pdf · 예상문제 · 원본대조 4단계 검토"
+    },
+    "decision_note": "",
+    "explanation": "VFR TAC의 축척은 일반적으로 1:250,000이다. Sectional의 1:500,000과 구분한다."
+  },
+  {
+    "id": "FLIGHT-THEORY-469",
+    "report_indices": [
+      105
+    ],
+    "old_answer": "A",
+    "new_answer": "B",
+    "changed_fields": [
+      "question",
+      "choices",
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": null,
+      "original_source_page": 145,
+      "reference": "비행이론.pdf p.145"
+    },
+    "decision_note": "",
+    "explanation": "일반적인 이륙 설정에서는 fine/low pitch와 high RPM을 사용한다. 실제 설정은 POH/AFM에 따른다. 기하학적 깃각과 블레이드 받음각은 같은 개념이 아니므로 문구도 깃각으로 정리했다."
+  },
+  {
+    "id": "ATC-COMM-378",
+    "report_indices": [
+      112
+    ],
+    "old_answer": "A",
+    "new_answer": "A",
+    "changed_fields": [
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 135,
+      "original_source_page": null,
+      "reference": "항공교통통신 ocr_압축됨.pdf · 출제예상문제"
+    },
+    "decision_note": "신고 제안 불수용: 원문 대조 결과 A의 Base track은 의도된 오답",
+    "explanation": "원본 항공교통통신 PDF p.135 문항 26은 A를 Base track pattern으로 인쇄하고 정답 A를 제시한다. 해설에는 racetrack이 가능한 유형으로 별도 열거되어 있으므로 A를 Racetrack으로 바꾸면 정답이 사라진다. 따라서 신고의 Base→Race 수정 제안은 적용하지 않는다."
+  },
+  {
+    "id": "WX-SU5-026",
+    "report_indices": [
+      116
+    ],
+    "old_answer": "D",
+    "new_answer": "C",
+    "changed_fields": [
+      "question",
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 72,
+      "original_source_page": 66,
+      "reference": "항공기상.pdf · 출제예상문제"
+    },
+    "decision_note": "",
+    "explanation": "낮에는 육지가 바다보다 빨리 가열되어 바다에서 육지로 해풍이 분다. 기존 해무라는 문구는 안개를 뜻해 보기와 맞지 않으므로 해풍으로 바로잡았다."
+  },
+  {
+    "id": "ATC-COMM-195",
+    "report_indices": [
+      118
+    ],
+    "old_answer": "D",
+    "new_answer": "A",
+    "changed_fields": [
+      "question",
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 78,
+      "original_source_page": null,
+      "reference": "항공교통통신 ocr_압축됨.pdf · 출제예상문제"
+    },
+    "decision_note": "",
+    "explanation": "FAA 기준 일반 VFR 코드는 1200이다. 관제사가 기존 코드 유지 등 별도 지시를 했다면 그 지시를 따른다. 국가별 VFR 코드가 다를 수 있다."
+  },
+  {
+    "id": "K-AIM-992",
+    "report_indices": [
+      119
+    ],
+    "old_answer": "D",
+    "new_answer": "A",
+    "changed_fields": [
+      "question",
+      "choices",
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 320,
+      "original_source_page": null,
+      "reference": "11. 세화 문제집.pdf · 예상문제 · 원본대조 4단계 검토"
+    },
+    "decision_note": "",
+    "explanation": "가장 우선은 뇌우를 회피하는 것이다. 불가피하게 진입한 경우 AFM/POH의 난류속도·운용절차를 따르고 자세와 완만한 조작을 중시하며, 고도·속도를 쫓아 과조종하지 않는다. 원본의 절대적인 출력 일정 표현도 조건을 명확히 했다."
+  },
+  {
+    "id": "K-AIM-953",
+    "report_indices": [
+      120
+    ],
+    "old_answer": "A",
+    "new_answer": "B",
+    "changed_fields": [
+      "question",
+      "answer",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 291,
+      "original_source_page": null,
+      "reference": "11. 세화 문제집.pdf · 예상문제 · 원본대조 4단계 검토"
+    },
+    "decision_note": "",
+    "explanation": "2182 kHz는 국제 무선전화 조난주파수이다. 주파수 대역상 2.182 MHz는 MF이며, 원본의 HF라는 표현은 정확하지 않아 문제문도 함께 수정했다."
+  },
+  {
+    "id": "AIR-NAV-820",
+    "report_indices": [
+      8
+    ],
+    "old_answer": "D",
+    "new_answer": "D",
+    "changed_fields": [
+      "images",
+      "figure_refs"
+    ],
+    "source": {
+      "existing_asset": "airnav-q820-changeover-symbol.jpg",
+      "crop_pixels": [
+        85,
+        320,
+        157,
+        373
+      ]
+    },
+    "decision_note": "",
+    "explanation": ""
+  },
+  {
+    "id": "AIR-NAV-101",
+    "report_indices": [
+      59
+    ],
+    "old_answer": "D",
+    "new_answer": "D",
+    "changed_fields": [
+      "images",
+      "figure_refs"
+    ],
+    "source": {
+      "existing_asset": "airnav-q101-wind-triangle.jpg",
+      "crop_pixels": [
+        100,
+        231,
+        293,
+        329
+      ]
+    },
+    "decision_note": "",
+    "explanation": ""
+  },
+  {
+    "id": "AIR-NAV-259",
+    "report_indices": [
+      84
+    ],
+    "old_answer": "A",
+    "new_answer": "A",
+    "changed_fields": [
+      "images",
+      "figure_refs"
+    ],
+    "source": {
+      "existing_asset": "airnav-q259-location-sign.jpg",
+      "crop_pixels": [
+        125,
+        110,
+        200,
+        188
+      ]
+    },
+    "decision_note": "",
+    "explanation": ""
+  },
+  {
+    "id": "FLIGHT-THEORY-560",
+    "report_indices": [
+      64
+    ],
+    "old_answer": "C",
+    "new_answer": "C",
+    "changed_fields": [
+      "images",
+      "figure_refs"
+    ],
+    "source": {
+      "pdf": "flight",
+      "page": 185,
+      "clip_reference_pixels": [
+        192,
+        506,
+        423,
+        653
+      ],
+      "reference_scale": 1.2
+    },
+    "decision_note": "",
+    "explanation": ""
+  },
+  {
+    "id": "FLIGHT-THEORY-823",
+    "report_indices": [
+      67
+    ],
+    "old_answer": "D",
+    "new_answer": "D",
+    "changed_fields": [
+      "images",
+      "figure_refs"
+    ],
+    "source": {
+      "existing_asset": "flight-theory-q823.jpg",
+      "crop_pixels": [
+        97,
+        82,
+        253,
+        128
+      ]
+    },
+    "decision_note": "",
+    "explanation": ""
+  },
+  {
+    "id": "FLIGHT-THEORY-218",
+    "report_indices": [
+      68
+    ],
+    "old_answer": "B",
+    "new_answer": "B",
+    "changed_fields": [
+      "images",
+      "figure_refs"
+    ],
+    "source": {
+      "existing_asset": "flight-theory-q218-fowler-flap.png"
+    },
+    "decision_note": "",
+    "explanation": "비행이론 원본 p.62(파일 PDF p.68) 문제 12의 그림과 해설을 복구했습니다. 그림은 플랩이 뒤로 이동하며 틈을 만들고 아래로 굽혀지는 Fowler flap을 나타내므로 정답은 B입니다."
+  },
+  {
+    "id": "FLIGHT-THEORY-593",
+    "report_indices": [
+      69
+    ],
+    "old_answer": "A",
+    "new_answer": "A",
+    "changed_fields": [
+      "images",
+      "figure_refs"
+    ],
+    "source": {
+      "existing_asset": "flight-theory-q593.jpg",
+      "crop_pixels": [
+        38,
+        212,
+        285,
+        322
+      ]
+    },
+    "decision_note": "",
+    "explanation": ""
+  },
+  {
+    "id": "FLIGHT-THEORY-078",
+    "report_indices": [
+      86
+    ],
+    "old_answer": "D",
+    "new_answer": "D",
+    "changed_fields": [
+      "images",
+      "figure_refs"
+    ],
+    "source": {
+      "existing_asset": "flight-theory-airfoil-q078-q080.jpg",
+      "crop_pixels": [
+        72,
+        126,
+        312,
+        185
+      ]
+    },
+    "decision_note": "",
+    "explanation": ""
+  },
+  {
+    "id": "FLIGHT-THEORY-080",
+    "report_indices": [
+      87
+    ],
+    "old_answer": "A",
+    "new_answer": "A",
+    "changed_fields": [
+      "images",
+      "figure_refs"
+    ],
+    "source": {
+      "existing_asset": "flight-theory-airfoil-q078-q080.jpg",
+      "crop_pixels": [
+        72,
+        280,
+        320,
+        390
+      ]
+    },
+    "decision_note": "",
+    "explanation": ""
+  },
+  {
+    "id": "FLIGHT-THEORY-551",
+    "report_indices": [
+      91
+    ],
+    "old_answer": "D",
+    "new_answer": "D",
+    "changed_fields": [
+      "images",
+      "figure_refs"
+    ],
+    "source": {
+      "existing_asset": "flight-theory-q551.jpg",
+      "crop_pixels": [
+        176,
+        173,
+        379,
+        339
+      ]
+    },
+    "decision_note": "",
+    "explanation": ""
+  },
+  {
+    "id": "FLIGHT-THEORY-763",
+    "report_indices": [
+      92
+    ],
+    "old_answer": "D",
+    "new_answer": "D",
+    "changed_fields": [
+      "images",
+      "figure_refs"
+    ],
+    "source": {
+      "existing_asset": "flight-theory-q763.jpg",
+      "crop_pixels": [
+        25,
+        30,
+        255,
+        175
+      ]
+    },
+    "decision_note": "",
+    "explanation": ""
+  },
+  {
+    "id": "FLIGHT-THEORY-867",
+    "report_indices": [
+      104
+    ],
+    "old_answer": "C",
+    "new_answer": "C",
+    "changed_fields": [
+      "images",
+      "figure_refs"
+    ],
+    "source": {
+      "existing_asset": "flight-theory-airfoil-q867.jpg",
+      "crop_pixels": [
+        30,
+        125,
+        326,
+        240
+      ]
+    },
+    "decision_note": "",
+    "explanation": ""
+  },
+  {
+    "id": "FLIGHT-THEORY-079",
+    "report_indices": [
+      106
+    ],
+    "old_answer": "B",
+    "new_answer": "B",
+    "changed_fields": [
+      "images",
+      "figure_refs"
+    ],
+    "source": {
+      "existing_asset": "flight-theory-airfoil-q078-q080.jpg",
+      "crop_pixels": [
+        72,
+        280,
+        320,
+        390
+      ]
+    },
+    "decision_note": "",
+    "explanation": ""
+  },
+  {
+    "id": "WX-SU10-038",
+    "report_indices": [
+      108
+    ],
+    "old_answer": "B",
+    "new_answer": "B",
+    "changed_fields": [
+      "explanation",
+      "images"
+    ],
+    "source": {
+      "pdf": "wx",
+      "page": 119,
+      "clip_reference_pixels": [
+        125,
+        684,
+        245,
+        803
+      ],
+      "reference_scale": 1.2
+    },
+    "decision_note": "",
+    "explanation": "복원된 원본 도식에서 B가 아열대 제트기류이다. 저위도 대류권계면 부근을 따라 위치하며 극 제트와 구분한다."
+  },
+  {
+    "id": "WX-SU12-039",
+    "report_indices": [
+      109
+    ],
+    "old_answer": "D",
+    "new_answer": "D",
+    "changed_fields": [
+      "explanation",
+      "images"
+    ],
+    "source": {
+      "pdf": "wx",
+      "page": 155,
+      "clip_reference_pixels": [
+        112,
+        118,
+        199,
+        174
+      ],
+      "reference_scale": 1.2
+    },
+    "decision_note": "",
+    "explanation": "꺾쇠 한 개는 보통 난류이고 위아래 숫자 450/280은 FL450~FL280 범위이다. 스콜라인이라고 한 D가 틀리다."
+  },
+  {
+    "id": "WX-SU12-037",
+    "report_indices": [
+      36,
+      110
+    ],
+    "old_answer": "D",
+    "new_answer": "D",
+    "changed_fields": [
+      "question",
+      "choices",
+      "explanation",
+      "images"
+    ],
+    "source": {
+      "pdf": "wx",
+      "page": 154,
+      "clip_reference_pixels": [
+        124,
+        597,
+        210,
+        660
+      ],
+      "reference_scale": 1.2
+    },
+    "decision_note": "",
+    "explanation": "그림의 ISOL EMBD CB 350/XXX는 고립된 매몰 적란운, 운정 FL350, 기저가 해당 고고도 도표의 하한 아래임을 나타낸다. 원본 교재 범례에서 ISOL은 1/8 미만이므로 4/8 이하를 운량 정의로 제시한 D는 부정확하다. 원본 p.154 문항 37의 정답 D를 유지한다."
+  },
+  {
+    "id": "WX-SU11-025",
+    "report_indices": [
+      111
+    ],
+    "old_answer": "C",
+    "new_answer": "C",
+    "changed_fields": [
+      "explanation",
+      "images"
+    ],
+    "source": {
+      "pdf": "wx",
+      "page": 143,
+      "clip_reference_pixels": [
+        90,
+        631,
+        511,
+        675
+      ],
+      "reference_scale": 1.2
+    },
+    "decision_note": "",
+    "explanation": "③의 깃 표시와 10 kt라는 수치가 일치하지 않는다. 삼각깃 50 kt·긴 깃 10 kt·짧은 깃 5 kt를 합산한다. 원본 p.143의 보기 그림을 복원했다."
+  },
+  {
+    "id": "WX-SU12-041",
+    "report_indices": [
+      113
+    ],
+    "old_answer": "C",
+    "new_answer": "C",
+    "changed_fields": [
+      "explanation",
+      "images"
+    ],
+    "source": {
+      "pdf": "wx",
+      "page": 155,
+      "clip_reference_pixels": [
+        117,
+        585,
+        203,
+        673
+      ],
+      "reference_scale": 1.2
+    },
+    "decision_note": "",
+    "explanation": "FRQ CB는 해당 구역에 빈번한 적란운을 뜻하며 원본 범례의 FRQ는 75% 이상(ICAO 범례로 4/8 초과)이다. 75% 이하라는 C는 틀리다. 500은 운정 FL500이다."
+  },
+  {
+    "id": "WX-SU11-018",
+    "report_indices": [
+      114
+    ],
+    "old_answer": "D",
+    "new_answer": "D",
+    "changed_fields": [
+      "choices",
+      "explanation",
+      "images"
+    ],
+    "source": {
+      "pdf": "wx",
+      "page": 142,
+      "clip_reference_pixels": [
+        155,
+        567,
+        264,
+        603
+      ],
+      "reference_scale": 1.2
+    },
+    "decision_note": "",
+    "explanation": "삼각형과 반원이 선의 서로 반대쪽에 놓인 기호는 정체전선이다. 색상 자료에서는 청색 삼각형과 적색 반원으로 표시한다."
+  },
+  {
+    "id": "WX-SU12-026",
+    "report_indices": [
+      115
+    ],
+    "old_answer": "A",
+    "new_answer": "A",
+    "changed_fields": [
+      "explanation",
+      "images"
+    ],
+    "source": {
+      "pdf": "wx",
+      "page": 152,
+      "clip_reference_pixels": [
+        328,
+        609,
+        352,
+        635
+      ],
+      "reference_scale": 1.2
+    },
+    "decision_note": "",
+    "explanation": "세 줄을 동반한 착빙 기호는 심한 착빙이다. 원본 p.152 문항 26과 대조했다."
+  },
+  {
+    "id": "WX-SU11-023",
+    "report_indices": [
+      117
+    ],
+    "old_answer": "C",
+    "new_answer": "C",
+    "changed_fields": [
+      "choices",
+      "explanation",
+      "images"
+    ],
+    "source": {
+      "pdf": "wx",
+      "page": 143,
+      "clip_reference_pixels": [
+        90,
+        442,
+        485,
+        483
+      ],
+      "reference_scale": 1.2
+    },
+    "decision_note": "",
+    "explanation": "풍속기호는 삼각깃 50 kt, 긴 깃 10 kt, 짧은 깃 5 kt이다. 65 kt = 50+10+5이므로 ③이다. 보기에 정답 수치를 직접 적었던 문구도 없앴다."
+  },
+  {
+    "id": "WX-SU12-025",
+    "report_indices": [
+      121
+    ],
+    "old_answer": "D",
+    "new_answer": "D",
+    "changed_fields": [
+      "explanation",
+      "images"
+    ],
+    "source": {
+      "pdf": "wx",
+      "page": 152,
+      "clip_reference_pixels": [
+        328,
+        553,
+        352,
+        579
+      ],
+      "reference_scale": 1.2
+    },
+    "decision_note": "",
+    "explanation": "겹친 꺾쇠가 수평선 위에 있는 기호는 심한 난류이다. 원본 기상 PDF p.152 문항 25와 정답표를 대조했다."
+  },
+  {
+    "id": "WX-SU12-040",
+    "report_indices": [
+      123
+    ],
+    "old_answer": "A",
+    "new_answer": "A",
+    "changed_fields": [
+      "explanation",
+      "images"
+    ],
+    "source": {
+      "pdf": "wx",
+      "page": 155,
+      "clip_reference_pixels": [
+        112,
+        230,
+        199,
+        284
+      ],
+      "reference_scale": 1.2
+    },
+    "decision_note": "",
+    "explanation": "꺾쇠 한 개와 360/280 표시는 FL360과 FL280 사이의 보통 난류를 뜻한다."
+  },
+  {
+    "id": "WX-SU12-031",
+    "report_indices": [
+      124
+    ],
+    "old_answer": "A",
+    "new_answer": "A",
+    "changed_fields": [
+      "explanation",
+      "images"
+    ],
+    "source": {
+      "pdf": "wx",
+      "page": 153,
+      "clip_reference_pixels": [
+        96,
+        300,
+        505,
+        337
+      ],
+      "reference_scale": 1.2
+    },
+    "decision_note": "",
+    "explanation": "①의 소용돌이 모양이 열대성저기압(태풍)을 나타낸다. 원본 p.153 문항 31과 정답표를 대조했다."
+  },
+  {
+    "id": "WX-SU12-029",
+    "report_indices": [
+      125
+    ],
+    "old_answer": "C",
+    "new_answer": "C",
+    "changed_fields": [
+      "explanation",
+      "images"
+    ],
+    "source": {
+      "pdf": "wx",
+      "page": 153,
+      "clip_reference_pixels": [
+        178,
+        126,
+        234,
+        162
+      ],
+      "reference_scale": 1.2
+    },
+    "decision_note": "",
+    "explanation": "복원된 기호는 광범위한 연무가 아니라 연기(widespread smoke)를 표시한다. 원본 p.153 문항 29와 범례·정답표를 대조했다."
+  },
+  {
+    "id": "ATC-COMM-558",
+    "report_indices": [
+      107
+    ],
+    "old_answer": "A",
+    "new_answer": "A",
+    "changed_fields": [
+      "explanation",
+      "images"
+    ],
+    "source": {
+      "pdf": "atc",
+      "page": 203,
+      "clip_reference_pixels": [
+        176,
+        542,
+        239,
+        592
+      ],
+      "reference_scale": 1.5
+    },
+    "decision_note": "",
+    "explanation": "원본 p.203 문항 9의 VOR 도형과 TACAN 요소를 결합한 기호는 VORTAC이다."
+  },
+  {
+    "id": "ATC-COMM-561",
+    "report_indices": [
+      95
+    ],
+    "old_answer": "A",
+    "new_answer": "A",
+    "changed_fields": [
+      "question",
+      "choices",
+      "explanation",
+      "images"
+    ],
+    "source": {
+      "pdf": "atc",
+      "page": 203,
+      "clip_reference_pixels": [
+        285,
+        872,
+        350,
+        890
+      ],
+      "reference_scale": 1.5
+    },
+    "decision_note": "",
+    "explanation": "원본 p.203 문항 12의 실선 화살표는 출발 경로(Departure route)이다. 도형을 문제문과 분리하고 다른 문제의 해설은 제외했다."
+  },
+  {
+    "id": "K-AIM-1121",
+    "report_indices": [
+      41
+    ],
+    "old_answer": "C",
+    "new_answer": "C",
+    "changed_fields": [
+      "choices",
+      "explanation",
+      "images"
+    ],
+    "source": {
+      "pdf": "kaim",
+      "page": 353,
+      "clip_reference_pixels": [
+        88,
+        673,
+        505,
+        719
+      ],
+      "reference_scale": 1.1
+    },
+    "decision_note": "",
+    "explanation": "원본 p.353 문항 29의 ADIZ 경계 표시는 C(③)이다. 기존 이미지는 앞 문제의 경계 일부만 잘려 있었으므로 보기 그림 전체를 복원했다."
+  },
+  {
+    "id": "K-AIM-1118",
+    "report_indices": [
+      22
+    ],
+    "old_answer": "D",
+    "new_answer": "D",
+    "changed_fields": [
+      "question",
+      "choices",
+      "explanation",
+      "images"
+    ],
+    "source": {
+      "pdf": "kaim",
+      "page": 353,
+      "clip_reference_pixels": [
+        141,
+        330,
+        204,
+        369
+      ],
+      "reference_scale": 1.1
+    },
+    "decision_note": "",
+    "explanation": "두 항행시설 사이의 주파수 변경지점(COP)과 각 시설로부터의 거리를 표시한다. 원본 p.353 문항 26의 그림만 추출했다."
+  },
+  {
+    "id": "K-AIM-1120",
+    "report_indices": [
+      79
+    ],
+    "old_answer": "D",
+    "new_answer": "B",
+    "changed_fields": [
+      "question",
+      "answer",
+      "explanation",
+      "images"
+    ],
+    "source": {
+      "pdf": "kaim",
+      "page": 353,
+      "clip_reference_pixels": [
+        113,
+        583,
+        225,
+        615
+      ],
+      "reference_scale": 1.1
+    },
+    "decision_note": "",
+    "explanation": "원본 p.353 문항 28의 두 경계선은 FIR·UIR·ARTCC·OCA 경계에 대응한다. 문제문에 섞여 들어간 다른 보기의 명칭을 삭제했다."
+  },
+  {
+    "id": "AIR-NAV-396",
+    "report_indices": [
+      10
+    ],
+    "old_answer": "B",
+    "new_answer": "A",
+    "changed_fields": [
+      "question",
+      "choices",
+      "answer",
+      "explanation",
+      "images"
+    ],
+    "source": {
+      "diagram": "Reporting point legend redrawn as vector; no raster alterations"
+    },
+    "decision_note": "",
+    "explanation": "필수보고지점은 채워진 삼각형으로 표시한다. 빈 삼각형은 비필수보고지점이다. 깨진 기호를 보기의 문자 설명과 복원 도식으로 함께 제공한다."
+  },
+  {
+    "id": "JEPP-SYM-093",
+    "report_indices": [
+      62
+    ],
+    "old_answer": "D",
+    "new_answer": "D",
+    "changed_fields": [
+      "question",
+      "explanation",
+      "images"
+    ],
+    "source": {
+      "diagram": "Existing legend boundary traced into SVG; answer label Bldg Area omitted"
+    },
+    "decision_note": "",
+    "explanation": "정답은 D, Building Area이다. 원본 도식에 직접 적힌 Bldg Area라는 정답 문구를 풀이 전에 보이지 않도록 경계선만 벡터로 재현했다. 교재의 도식이라는 적용 범위를 명시했다."
+  },
+  {
+    "id": "WX-SU11-060",
+    "report_indices": [
+      122
+    ],
+    "old_answer": "D",
+    "new_answer": "D",
+    "changed_fields": [
+      "question",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": 148,
+      "original_source_page": 142,
+      "reference": "항공기상.pdf · 출제예상문제"
+    },
+    "decision_note": "",
+    "explanation": "Weather Depiction Chart는 시정·현재기상·운량 및 ceiling 등을 통해 비행기상 범주를 나타낸다. 지상풍은 이 도표의 기본 표시 요소가 아니다. 문제 자체는 별도 그림 없이 성립한다."
+  },
+  {
+    "id": "FLIGHT-THEORY-530",
+    "report_indices": [
+      33,
+      93
+    ],
+    "old_answer": "D",
+    "new_answer": "D",
+    "changed_fields": [
+      "question",
+      "explanation"
+    ],
+    "source": {
+      "original_pdf_page": null,
+      "original_source_page": 180,
+      "reference": "비행이론.pdf p.180"
+    },
+    "decision_note": "",
+    "explanation": "V1은 이륙결심속도(take-off decision speed)이다. 비행이론 원본 PDF p.180 문항 2에 인쇄된 아래첨자 1이 OCR에서 누락된 것을 직접 확인해 복원했다."
+  }
+]

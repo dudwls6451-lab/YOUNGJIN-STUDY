@@ -1,0 +1,2424 @@
+{
+  "version": "11.60.57",
+  "fixed_at": "2026-10-15T13:33:30Z",
+  "questions": {
+    "K-AIM-1091": {
+      "answer": "C",
+      "explanation": "야간에는 한 점을 응시하지 않고 주변시와 천천히 이동하는 시선을 사용한다. 암순응에는 약 30분이 필요하다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "K-AIM-1054": {
+      "answer": "A",
+      "explanation": "같은 조건에서 높은 받음각·큰 중량·저속일수록 강한 후류 와류가 발생한다. 대표 조건은 heavy, clean, slow이다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "AIR-NAV-510": {
+      "answer": "C",
+      "explanation": "관리격자에서 (1,1)은 인간과 과업 모두 관심이 낮다. (5,5)는 양쪽에 중간 정도 관심을 두는 절충형이다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조.",
+      "question": "관리격자 모델(managerial grid model)의 리더십 유형에 대한 설명 중 틀린 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1.9형: 원만한 인간관계를 최우선으로 한다."
+        },
+        {
+          "id": "B",
+          "text": "9.1형: 과업 수행을 최우선으로 한다."
+        },
+        {
+          "id": "C",
+          "text": "5.5형: 과업과 인간관계 양쪽에 관심이 없다."
+        },
+        {
+          "id": "D",
+          "text": "9.9형: 과업과 인간관계 모두에 높은 관심을 기울인다."
+        }
+      ]
+    },
+    "AIR-NAV-431": {
+      "answer": "B",
+      "explanation": "CAT I 정밀접근 범주는 일반적으로 DH 200 ft 이상, RVR 550 m 이상을 기준으로 한다. 실제 운항에는 공시된 접근최저치와 승인 요건을 적용한다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "K-AIM-681": {
+      "answer": "A",
+      "explanation": "RADAR CONTACT는 레이더 식별이 성립했다는 의미이다. IFR 허가나 조종사의 충돌회피 책임 면제를 뜻하지 않는다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "AIR-NAV-783": {
+      "answer": "D",
+      "explanation": "Track은 항공기가 지표면 위에서 실제로 지나가는 경로·방향이다. Heading은 기수방향, course는 계획한 항로의 방향이다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조.",
+      "question": "항공기가 지표면 위에서 실제로 이동한 궤적을 나타내는 용어는?"
+    },
+    "AIR-NAV-717": {
+      "answer": "B",
+      "explanation": "국내 공역 분류에서 비행제한구역은 통제공역이다. 훈련구역·군작전구역·위험구역은 주의공역에 속한다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "AIR-NAV-486": {
+      "answer": "C",
+      "explanation": "Autokinesis는 어두운 배경의 고정된 빛을 오래 응시할 때 빛이 움직이는 것처럼 느끼는 착시이다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Confusion"
+        },
+        {
+          "id": "B",
+          "text": "Somatogravic illusion"
+        },
+        {
+          "id": "C",
+          "text": "Autokinesis"
+        },
+        {
+          "id": "D",
+          "text": "Fascination"
+        }
+      ]
+    },
+    "AIR-NAV-533": {
+      "answer": "A",
+      "explanation": "구면상의 두 지점을 잇는 최단 경로는 대권의 짧은 호이다. 항정선은 일정한 침로를 유지하는 경로이다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "K-AIM-1056": {
+      "answer": "C",
+      "explanation": "약한 후측풍은 선행 항공기의 와류를 활주로에 남기거나 다시 이동시켜 위험을 오래 유지할 수 있다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "맞바람(정풍)"
+        },
+        {
+          "id": "B",
+          "text": "뒷바람(배풍)"
+        },
+        {
+          "id": "C",
+          "text": "약한 45° 후측풍"
+        },
+        {
+          "id": "D",
+          "text": "강한 45° 후측풍"
+        }
+      ]
+    },
+    "AIR-NAV-866": {
+      "answer": "B",
+      "explanation": "수신기의 시계 오차를 함께 구하는 일반적인 GPS 3차원 위치 결정에는 최소 4개 위성 신호가 필요하다. RAIM 감시에 필요한 위성 수와 구분한다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "AIR-NAV-196": {
+      "answer": "C",
+      "explanation": "항행안전시설의 동일 식별부호는 통상 해당 시설에서 600 NM 이내에 중복하지 않는 배치 원칙을 적용한다. ICAO APAC 주파수 관리 지침의 식별부호 배치 기준을 참조한다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "AIR-NAV-542": {
+      "answer": "A",
+      "explanation": "Localizer는 활주로 중심선에 대한 좌우 편위, 즉 방위각 방향 유도를 제공한다. 수직 유도는 glide slope, 거리는 DME 등으로 얻는다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조.",
+      "question": "ILS Localizer transmitter가 제공하는 주된 유도 정보는?"
+    },
+    "AIR-NAV-861": {
+      "answer": "D",
+      "explanation": "날짜변경선의 기본 기준은 경도 180° 자오선이다. 실제 선은 국가와 도서를 피하도록 굴곡져 있다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "ATC-COMM-286": {
+      "answer": "C",
+      "explanation": "ICAO 비행계획서의 Z는 처음 VFR로 비행한 뒤 IFR로 변경하는 경우이다. Y는 처음 IFR 후 VFR로 변경하는 경우이다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "K-AIM-1055": {
+      "answer": "B",
+      "explanation": "후류 와류는 일반적으로 중량이 크고 clean configuration이며 저속인 heavy, clean, slow 조건에서 가장 강하다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "K-AIM-1075": {
+      "answer": "D",
+      "explanation": "표준대기에서 기압이 해면기압의 약 절반이 되는 고도는 약 18,000 ft이다. 정확한 값은 약 18,000~18,200 ft 수준으로 근사한다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "AIR-NAV-540": {
+      "answer": "C",
+      "explanation": "EAS는 CAS에서 압축성 효과를 보정한 속도이다. 공기밀도 보정으로 EAS를 TAS로 환산한다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "IAS는 속도계에 표시되는 계기속도이다."
+        },
+        {
+          "id": "B",
+          "text": "CAS는 IAS에서 계기 오차와 장착 위치 오차를 보정한 속도이다."
+        },
+        {
+          "id": "C",
+          "text": "EAS는 CAS에서 공기밀도만 보정한 속도이다."
+        },
+        {
+          "id": "D",
+          "text": "TAS는 기압고도·기온 등을 반영해 실제 공기에 대한 속도로 환산한 값이다."
+        }
+      ]
+    },
+    "AIR-NAV-358": {
+      "answer": "C",
+      "explanation": "선행 대형항공기의 부양지점보다 앞에서 이륙하고 선행 비행경로보다 높게 비행해 후류를 피한다. 바람·운항조건과 ATC 분리도 함께 고려한다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "AIR-NAV-559": {
+      "answer": "C",
+      "explanation": "지구는 평균태양일 기준 약 24시간에 360° 회전하므로 시간당 약 15°이다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "K-AIM-432": {
+      "answer": "D",
+      "explanation": "레이더 교통정보의 시계방향 위치는 레이더 화면에서 관측되는 항적(ground track)을 기준으로 한다. 바람으로 heading과 track이 다를 수 있다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "AIR-NAV-364": {
+      "answer": "B",
+      "explanation": "기온 상승·기압 하강·습도 상승은 공기밀도를 낮추어 밀도고도를 높이는 방향으로 작용한다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "AIR-NAV-532": {
+      "answer": "D",
+      "explanation": "전통적인 해리의 기준은 위도 1분에 해당하는 자오선 호의 길이이다. 현재 국제해리는 정확히 1,852 m로 정의된다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "위도 1°"
+        },
+        {
+          "id": "B",
+          "text": "경도 1°"
+        },
+        {
+          "id": "C",
+          "text": "경도 1′"
+        },
+        {
+          "id": "D",
+          "text": "위도 1′"
+        }
+      ]
+    },
+    "FLIGHT-THEORY-233": {
+      "answer": "C",
+      "explanation": "Slat은 주로 실속 지연과 고양력을 위한 장치이다. Drag chute, spoiler, thrust reverser는 감속·항력 증가와 관련된다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "FLIGHT-THEORY-073": {
+      "answer": "C",
+      "explanation": "시위선(chord line)은 에어포일 앞전과 뒷전을 잇는 직선이다. B는 최대 캠버의 설명이다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "FLIGHT-THEORY-237": {
+      "answer": "D",
+      "explanation": "정상 비행의 대표 네 힘은 양력·중력·추력·항력이다. Power는 힘이 아니라 일률이다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "FLIGHT-THEORY-181": {
+      "answer": "D",
+      "explanation": "수평 정상비행 등 같은 양력을 유지하는 조건에서 속도가 낮아지면 유도항력은 커진다. 유해항력은 대체로 속도 제곱에 비례한다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "ATC-COMM-508": {
+      "answer": "B",
+      "explanation": "숫자 681은 각 자리별로 SIX EIGHT ONE으로 발음한다. 80이나 600으로 묶어서 읽지 않는다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "K-AIM-962": {
+      "answer": "C",
+      "question": "FAA 기준 연료투하(fuel dumping) 중 ATC의 조치로 틀린 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "IFR 조건에서 비행로 5 mile 이내 최고 장애물보다 최소 2,000 ft 높은 고도를 배정한다."
+        },
+        {
+          "id": "B",
+          "text": "연료투하가 끝날 때까지 3분 간격으로 투하 정보를 방송한다."
+        },
+        {
+          "id": "C",
+          "text": "다른 IFR 항공기에 대해 위·아래 모두 1,000 ft의 수직분리만 적용하면 된다."
+        },
+        {
+          "id": "D",
+          "text": "레이더 식별된 VFR 항공기에 수평 5 NM 분리를 적용한다."
+        }
+      ],
+      "explanation": "다른 IFR 항공기는 투하 항공기보다 적어도 1,000 ft 위 또는 2,000 ft 아래에 두거나 수평 5 mile 이상 분리한다. 따라서 위·아래를 모두 1,000 ft로 표현한 C가 틀리다. 단위와 조건은 FAA JO 7110.65 fuel dumping 기준을 따른다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "K-AIM-878": {
+      "answer": "B",
+      "question": "VFR-on-top 항공기가 레이더 유도를 받는 경우에도, 지형·장애물 회피와 적정 비행고도 유지에 대한 조종사의 책임을 묻는다면 누구인가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "레이더 관제사가 모든 회피 책임을 대신한다."
+        },
+        {
+          "id": "B",
+          "text": "조종사"
+        },
+        {
+          "id": "C",
+          "text": "지형을 먼저 발견한 사람"
+        },
+        {
+          "id": "D",
+          "text": "관제탑 관제사만 해당한다."
+        }
+      ],
+      "explanation": "VFR-on-top은 IFR 비행계획에 의한 허가이며 적용되는 IFR 최저고도도 지켜야 한다. 레이더 유도가 조종사의 지형·장애물 회피 책임을 없애지는 않는다. 관제사의 MVA 등 고도 배정 책임과 별개이다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "K-AIM-1034": {
+      "answer": "D",
+      "question": "기압고도계의 대표적인 오차 요인으로 분류하지 않는 것은?",
+      "explanation": "교재가 구분하는 기압고도계 오차는 기계적 오차·탄성 오차·기온 오차·설치/위치 오차 등이다. 밀도고도는 성능 평가 개념이며 이 분류의 고도계 오차 명칭이 아니다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "K-AIM-958": {
+      "answer": "A",
+      "question": "공중피랍(hijacking)을 나타내는 트랜스폰더 Mode A 코드는?",
+      "explanation": "불법간섭·공중피랍은 7500, 통신두절은 7600, 일반 비상은 7700이다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "K-AIM-882": {
+      "answer": "A",
+      "question": "레이더 교통정보를 받은 조종사의 조치로 틀린 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "교통정보를 수신했다는 응답은 필요 없다."
+        },
+        {
+          "id": "B",
+          "text": "해당 항공기를 발견하면 관제사에게 통보한다."
+        },
+        {
+          "id": "C",
+          "text": "교통정보가 항상 제공되는 것은 아님을 인식한다."
+        },
+        {
+          "id": "D",
+          "text": "서비스를 더 이상 원하지 않으면 관제사에게 통보한다."
+        }
+      ],
+      "explanation": "교통정보를 받으면 수신 응답을 하고, 항공기 육안 확인 여부를 통보한다. 관제정보가 see-and-avoid 책임을 대체하지는 않는다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "K-AIM-852": {
+      "answer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "실패접근을 실시하면 ATC에 통보한다."
+        },
+        {
+          "id": "B",
+          "text": "더 높은 상승구배가 공시되지 않았다면 최소 200 ft/min이면 충분하다."
+        },
+        {
+          "id": "C",
+          "text": "MAP 전에 실패접근을 시작해도 절차상 선회는 공시 경로와 MAP 제한을 따라야 한다."
+        },
+        {
+          "id": "D",
+          "text": "선회접근 중 시각참조물을 잃으면 우선 착륙 활주로 쪽으로 상승 선회하면서 계기실패접근 경로에 합류한다."
+        }
+      ],
+      "explanation": "비행기 일반 실패접근의 기본 상승구배는 200 ft/NM이지 200 ft/min이 아니다. 공시 상승구배와 기종별 기준을 우선 적용한다. 필요한 상승률(ft/min)은 지상속도에 따라 달라진다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "K-AIM-921": {
+      "answer": "A",
+      "question": "원본 교재의 수색구조 절차에서, 이미 보고되어 위치가 식별된 불시착 항공기를 표시하는 표지는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "황색 십자 표시"
+        },
+        {
+          "id": "B",
+          "text": "적색 십자 표시"
+        },
+        {
+          "id": "C",
+          "text": "황색 사각형 표시"
+        },
+        {
+          "id": "D",
+          "text": "적색 사각형 표시"
+        }
+      ],
+      "explanation": "원본 세화 문제집 p.286의 문항 9와 정답표는 황색 십자 표시를 제시한다. 별도 생존자 공지신호 V(원조 필요), X(의료지원 필요)와 구분한다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "K-AIM-892": {
+      "answer": "D",
+      "question": "Minimum fuel 상태에서 안전한 착륙을 위한 교통 우선권이 필요하다고 판단하면 조종사는 어떻게 해야 하는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "우선권을 받을 수 없으므로 바로 불시착 준비만 한다."
+        },
+        {
+          "id": "B",
+          "text": "Best glide speed 유지를 위해 고도를 높인다."
+        },
+        {
+          "id": "C",
+          "text": "속도를 줄여 목적지 접근만 계속한다."
+        },
+        {
+          "id": "D",
+          "text": "저연료 비상을 선언하고 잔여 연료를 비행 가능한 분 단위로 ATC에 보고한다."
+        }
+      ],
+      "explanation": "Minimum fuel 통보 자체는 비상선언도 교통 우선권 요청도 아니다. 안전한 착륙에 우선권이 필요하면 저연료 비상을 선언하고 남은 연료를 시간(분)으로 알린다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "K-AIM-1039": {
+      "answer": "B",
+      "question": "고도계를 29.91 inHg로 유지한 채 표고 1,500 ft, QNH 30.08 inHg인 공항에 착륙했다. 1 inHg ≈ 1,000 ft로 근사하면 지시고도는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "0 ft"
+        },
+        {
+          "id": "B",
+          "text": "1,330 ft"
+        },
+        {
+          "id": "C",
+          "text": "1,483 ft"
+        },
+        {
+          "id": "D",
+          "text": "1,670 ft"
+        }
+      ],
+      "explanation": "설정값이 실제 QNH보다 0.17 inHg 낮으므로 지시는 170 ft 낮다. 1,500 − 170 = 1,330 ft이다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "K-AIM-1041": {
+      "answer": "A",
+      "question": "FL220에서 비행한 뒤 표고 450 ft, QNH 30.37 inHg인 공항에 29.92 inHg 설정을 바꾸지 않고 착륙했다. 1 inHg ≈ 1,000 ft이면 지시고도는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "0 ft"
+        },
+        {
+          "id": "B",
+          "text": "450 ft"
+        },
+        {
+          "id": "C",
+          "text": "−450 ft"
+        },
+        {
+          "id": "D",
+          "text": "405 ft"
+        }
+      ],
+      "explanation": "29.92 − 30.37 = −0.45 inHg이므로 고도계는 450 ft 낮게 지시한다. 450 − 450 = 0 ft이다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "K-AIM-1040": {
+      "answer": "D",
+      "question": "FL220에서 비행한 뒤 표고 134 ft, QNH 30.26 inHg인 공항에 표준기압 설정을 바꾸지 않고 착륙했다. 1 inHg ≈ 1,000 ft이면 지시고도는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "134 ft"
+        },
+        {
+          "id": "B",
+          "text": "206 ft"
+        },
+        {
+          "id": "C",
+          "text": "−134 ft"
+        },
+        {
+          "id": "D",
+          "text": "−206 ft"
+        }
+      ],
+      "explanation": "표준 설정 29.92 − 30.26 = −0.34 inHg, 즉 340 ft 낮게 지시한다. 134 − 340 = −206 ft이다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "K-AIM-911": {
+      "answer": "C",
+      "question": "요격기의 지시에 따를 수 없음을 알리는 피요격 항공기의 응신은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "날개를 좌우로 흔든다."
+        },
+        {
+          "id": "B",
+          "text": "착륙등을 켠다."
+        },
+        {
+          "id": "C",
+          "text": "모든 가용 등화를 규칙적으로 켰다 껐다 한다."
+        },
+        {
+          "id": "D",
+          "text": "모든 가용 등화를 불규칙적으로 점멸한다."
+        }
+      ],
+      "explanation": "ICAO 요격 신호에서 모든 가용 등화의 규칙적인 on/off는 지시에 따를 수 없다는 뜻이다. 불규칙적인 점멸은 조난 상태를 나타낸다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "FLIGHT-THEORY-163": {
+      "answer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "같은 조건에서 가로세로비가 커지면 유도항력계수는 작아진다."
+        },
+        {
+          "id": "B",
+          "text": "같은 속도·형상에서 더 큰 중량을 지탱하면 유도항력이 커진다."
+        },
+        {
+          "id": "C",
+          "text": "유도항력계수는 양력계수의 제곱에 비례한다."
+        },
+        {
+          "id": "D",
+          "text": "유도항력은 엔진으로 공기가 흡입될 때 발생하는 항력이다."
+        }
+      ],
+      "explanation": "유도항력계수 CDi = CL²/(π e AR)이다. 엔진 흡입에 의한 항력이라는 D는 유도항력의 설명이 아니다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "AIR-NAV-321": {
+      "answer": "D",
+      "question": "국내 기준 전이고도 이하에서 비행할 때 기압고도계 수정 방법으로 옳은 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "항상 출발공항의 수정치를 그대로 사용한다."
+        },
+        {
+          "id": "B",
+          "text": "항상 목적공항의 수정치를 미리 사용한다."
+        },
+        {
+          "id": "C",
+          "text": "항상 29.92 inHg로 설정한다."
+        },
+        {
+          "id": "D",
+          "text": "비행로를 따라 185 km(100 NM) 이내 관제기관에서 통보받은 QNH로 설정한다."
+        }
+      ],
+      "explanation": "전이고도 이하에서는 경로상 185 km(100 NM) 이내 관제기관의 QNH를 사용한다. 해당 기관이 없을 때는 최신 비행정보기관 정보 등 규정상 대안을 사용한다. 표준기압은 전이고도를 초과할 때 사용한다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "FLIGHT-THEORY-744": {
+      "answer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "직사각형 날개의 테이퍼비는 0이다."
+        },
+        {
+          "id": "B",
+          "text": "다른 조건이 같을 때 테이퍼비가 커질수록 익근 실속 경향이 커진다."
+        },
+        {
+          "id": "C",
+          "text": "후퇴익은 일반적으로 익단 실속 경향이 있다."
+        },
+        {
+          "id": "D",
+          "text": "이상적인 타원형 날개는 전 스팬에 걸친 실속 경향이 있다."
+        }
+      ],
+      "explanation": "테이퍼비는 익단 시위/익근 시위이다. 직사각형 날개는 두 시위가 같으므로 테이퍼비는 1이다. C의 실속 방향도 교정해 정답이 A 하나가 되도록 했다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "ATC-COMM-542": {
+      "answer": "A",
+      "question": "현행 ICAO SNOWTAM에 대한 설명으로 틀린 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "향후 24시간의 활주로 상태를 예보하는 문서이다."
+        },
+        {
+          "id": "B",
+          "text": "최대 유효기간은 8시간이다."
+        },
+        {
+          "id": "C",
+          "text": "눈·얼음·슬러시 등으로 인한 이동지역 표면 상태를 정해진 형식으로 알린다."
+        },
+        {
+          "id": "D",
+          "text": "보고 대상 활주로 상태에 중요한 변화가 생기면 새 SNOWTAM을 발행한다."
+        }
+      ],
+      "explanation": "SNOWTAM은 예보가 아니라 표면 상태 정보이다. 현행 GRF 체계의 최대 유효기간은 8시간이다. 원본의 과거 24시간·구형 기준을 그대로 정답 근거로 사용하지 않았다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "K-AIM-1058": {
+      "answer": "C",
+      "question": "선행 대형항공기 뒤에서 이륙할 때 후류 회피 절차로 옳은 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "선행기의 부양지점과 같은 지점에서 이륙한다."
+        },
+        {
+          "id": "B",
+          "text": "이륙 후 선행기 경로보다 아래로 비행한다."
+        },
+        {
+          "id": "C",
+          "text": "선행기의 부양지점보다 앞에서 이륙하고 선행기 경로보다 높게 비행한다."
+        },
+        {
+          "id": "D",
+          "text": "선행기 바로 뒤 같은 고도를 유지한다."
+        }
+      ],
+      "explanation": "부양지점 전에서 이륙하고 선행 비행경로 위쪽을 유지한다. 바람과 선행기 형상 변화에 따른 후류 이동도 고려한다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "K-AIM-1017": {
+      "answer": "C",
+      "question": "고도 5,000 ft의 기온이 −10°C이다. 표준 기온감률 2°C/1,000 ft로 근사하면 9,000 ft의 기온은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "−24°C"
+        },
+        {
+          "id": "B",
+          "text": "−20°C"
+        },
+        {
+          "id": "C",
+          "text": "−18°C"
+        },
+        {
+          "id": "D",
+          "text": "−4°C"
+        }
+      ],
+      "explanation": "4,000 ft 상승하면 8°C 낮아지므로 −10 − 8 = −18°C이다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "K-AIM-954": {
+      "answer": "D",
+      "question": "조난 및 긴급통신에 대한 설명으로 틀린 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "비상통신에는 121.5 MHz 및 243.0 MHz가 사용된다."
+        },
+        {
+          "id": "B",
+          "text": "조난통신은 MAYDAY, 긴급통신은 PAN-PAN으로 시작한다."
+        },
+        {
+          "id": "C",
+          "text": "비상통신에 방해되지 않도록 주파수의 관련 통신을 계속 청취한다."
+        },
+        {
+          "id": "D",
+          "text": "비상주파수는 민간항공기만 사용할 수 있다."
+        }
+      ],
+      "explanation": "243.0 MHz는 군용 비상주파수로도 사용되므로 민간항공기만 사용한다는 D는 틀리다. B도 MAYDAY의 의미를 정확히 바꾸어 복수 오답 가능성을 제거했다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "K-AIM-935": {
+      "answer": "C",
+      "question": "다음 중 경보단계(ALERFA)에 해당하지 않는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "불확실단계 이후 교신 시도와 관계 부서 조회로도 위치를 확인하기 어렵다."
+        },
+        {
+          "id": "B",
+          "text": "착륙허가 후 예정시각에서 5분 이내에 착륙하지 않고 교신도 되지 않는다."
+        },
+        {
+          "id": "C",
+          "text": "탑재연료가 고갈되어 항공기 안전 유지가 곤란하다."
+        },
+        {
+          "id": "D",
+          "text": "항공기가 불법간섭을 받고 있는 것으로 인지된다."
+        }
+      ],
+      "explanation": "연료 고갈로 항공기 안전이 위태로운 상황은 조난단계(DETRESFA)에 해당한다. ALERFA·INCERFA와 구분한다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "K-AIM-991": {
+      "answer": "D",
+      "question": "FAA AIM이 설명하는 마이크로버스트 하강기류는 약 얼마의 수직속도에 이를 수 있는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "3,000 ft/min"
+        },
+        {
+          "id": "B",
+          "text": "4,000 ft/min"
+        },
+        {
+          "id": "C",
+          "text": "5,000 ft/min"
+        },
+        {
+          "id": "D",
+          "text": "6,000 ft/min"
+        }
+      ],
+      "explanation": "마이크로버스트 하강기류는 약 6,000 ft/min에 이를 수 있다. 이는 모든 사례가 이 속도라는 의미나 상한을 보장하는 수치가 아니다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "K-AIM-994": {
+      "answer": "B",
+      "question": "ICAO METAR에서 VC(in the vicinity)가 나타내는 공항 기준위치로부터의 거리 범위는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "0~5 km"
+        },
+        {
+          "id": "B",
+          "text": "약 8~16 km(5~10 NM)"
+        },
+        {
+          "id": "C",
+          "text": "약 16~24 km"
+        },
+        {
+          "id": "D",
+          "text": "24 km 밖의 전 지역"
+        }
+      ],
+      "explanation": "VC는 공항 기준위치에서 대략 8~16 km(5~10 NM) 범위의 현상이다. 원본 보기의 단일 8 km를 범위 전체로 해석하지 않도록 수정했다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "K-AIM-979": {
+      "answer": "D",
+      "question": "AWOS 관측 항목에 대한 설명으로 틀린 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "AWOS-A는 고도계 수정치를 제공한다."
+        },
+        {
+          "id": "B",
+          "text": "AWOS-1은 고도계 수정치·바람·기온·이슬점·밀도고도 정보를 제공한다."
+        },
+        {
+          "id": "C",
+          "text": "AWOS-2는 AWOS-1 항목에 시정을 추가한다."
+        },
+        {
+          "id": "D",
+          "text": "AWOS-3는 운고를 추가하지 않고 강수 종류 식별만 추가한다."
+        }
+      ],
+      "explanation": "AWOS-3는 AWOS-2 항목에 운고(ceiling)를 추가한다. 강수 종류 식별은 AWOS-3P 등 확장 형태와 구분한다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "K-AIM-988": {
+      "answer": "A",
+      "question": "ICAO 운고(ceiling)의 정의에 가장 알맞은 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "지표면·수면에서 6,000 m(20,000 ft) 미만에 있는 구름 중 하늘의 절반을 초과하여 덮는 최저 구름층 높이"
+        },
+        {
+          "id": "B",
+          "text": "운량에 관계없이 가장 낮은 모든 구름층 높이"
+        },
+        {
+          "id": "C",
+          "text": "Overcast인 구름층의 높이만 해당한다."
+        },
+        {
+          "id": "D",
+          "text": "하늘의 4/8 이상을 덮는 가장 낮은 모든 구름층 높이"
+        }
+      ],
+      "explanation": "Ceiling은 하늘의 절반을 초과해 덮는 최저 구름층 높이를 말한다. 4/8 자체는 SCT로 ceiling에 해당하지 않는다. VV가 보고되는 차폐 상태도 별도 ceiling 보고에 포함한다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "K-AIM-973": {
+      "answer": "C",
+      "question": "뇌우와 동반한 50 kt 이상의 지상 돌풍 등 조직적인 대류성 위험이 기준을 충족해 예상될 때, 미국에서 발표하는 기상정보는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "AIRMET"
+        },
+        {
+          "id": "B",
+          "text": "일반 비대류성 SIGMET"
+        },
+        {
+          "id": "C",
+          "text": "Convective SIGMET"
+        },
+        {
+          "id": "D",
+          "text": "SPECI"
+        }
+      ],
+      "explanation": "50 kt 이상의 지상 돌풍·우박·토네이도 등 기준을 충족하는 대류성 위험에는 Convective SIGMET이 해당한다. 지상풍만으로 모든 지역에서 동일 정보가 발행된다고 단정하지 않도록 뇌우·미국 기준을 명시했다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "K-AIM-1044": {
+      "answer": "C",
+      "question": "일정한 지시고도를 유지하며 따뜻한 지역에서 차가운 지역으로 비행할 때, 기온 오차로 인한 진고도의 변화는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "지시고도와 항상 같다."
+        },
+        {
+          "id": "B",
+          "text": "높아진다."
+        },
+        {
+          "id": "C",
+          "text": "낮아진다."
+        },
+        {
+          "id": "D",
+          "text": "기온 변화와 관계없다."
+        }
+      ],
+      "explanation": "차가운 공기에서는 같은 기압면 사이의 높이 간격이 작다. 같은 지시고도라도 진고도는 낮아진다: hot to cold, look out below.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "K-AIM-989": {
+      "answer": "C",
+      "question": "FAA의 PIREP 요청 기준에 비추어, 다음 중 다른 조건 없이 그 자체만으로 일반적인 요청 기준에 해당하지 않는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "운고 5,000 ft 이하"
+        },
+        {
+          "id": "B",
+          "text": "시정 5 mile 이하"
+        },
+        {
+          "id": "C",
+          "text": "약한(light) 난류만 존재하며 다른 요청 기준은 없다."
+        },
+        {
+          "id": "D",
+          "text": "윈드시어"
+        }
+      ],
+      "explanation": "통상적인 요청 기준에는 운고 5,000 ft 이하, 시정 5 mile 이하, 보통(moderate) 이상 난류 등이 있다. light 난류 자체만을 moderate 이상 기준과 혼동하지 않는다. 조종사는 이 외에도 유용한 PIREP을 제공할 수 있다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "K-AIM-1059": {
+      "answer": "B",
+      "question": "ICAO의 전통적 Heavy/Medium/Light 거리 분리표에서, 앞 항공기를 같은 고도 또는 1,000 ft 미만 아래에서 바로 따르는 경우 틀린 것은? (RECAT 등 별도 승인 기준 제외)",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Medium 뒤 Light: 5 NM"
+        },
+        {
+          "id": "B",
+          "text": "Heavy 뒤 Light: 5 NM"
+        },
+        {
+          "id": "C",
+          "text": "Heavy 뒤 Medium: 5 NM"
+        },
+        {
+          "id": "D",
+          "text": "Heavy 뒤 Heavy: 4 NM"
+        }
+      ],
+      "explanation": "전통적 분리표에서 Heavy 뒤 Light는 6 NM이다. 따라서 5 NM으로 적힌 B가 틀리다. RECAT·현지 승인 절차는 별도로 적용될 수 있다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "K-AIM-924": {
+      "answer": "C",
+      "question": "생존자용 지상 대 공중 가시신호에서 의료지원 필요(require medical assistance)를 뜻하는 기호는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "V"
+        },
+        {
+          "id": "B",
+          "text": "Y"
+        },
+        {
+          "id": "C",
+          "text": "X"
+        },
+        {
+          "id": "D",
+          "text": "N"
+        }
+      ],
+      "explanation": "X는 의료지원 필요, V는 원조 필요, N은 부정(No)이다. 원본 p.286 문항 12의 잘린 문제를 복원했다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "K-AIM-1067": {
+      "answer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "기온 하강·기압 하강·습도 상승"
+        },
+        {
+          "id": "B",
+          "text": "기온 상승·기압 하강·습도 상승"
+        },
+        {
+          "id": "C",
+          "text": "기온 하강·기압 상승·습도 하강"
+        },
+        {
+          "id": "D",
+          "text": "기온 상승·기압 상승·습도 하강"
+        }
+      ],
+      "explanation": "기온 상승·기압 하강·습도 상승은 모두 공기밀도를 낮추는 방향이다. 따라서 밀도고도를 증가시키는 조합은 B이다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "K-AIM-1105": {
+      "answer": "D",
+      "question": "일반적인 Enroute chart의 방위·진로·레디얼 표시가 기준으로 삼는 북쪽은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "True north"
+        },
+        {
+          "id": "B",
+          "text": "Compass north"
+        },
+        {
+          "id": "C",
+          "text": "Grid north"
+        },
+        {
+          "id": "D",
+          "text": "Magnetic north"
+        }
+      ],
+      "explanation": "일반적인 항로 차트의 방위 표시는 자북을 기준으로 한다. 고위도 등 진북·그리드 기준이 별도로 명시된 차트는 그 주기를 따른다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "K-AIM-972": {
+      "answer": "B",
+      "question": "열대저기압·화산재 예외를 제외한 일반 SIGMET의 최대 유효시간은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "3시간"
+        },
+        {
+          "id": "B",
+          "text": "4시간"
+        },
+        {
+          "id": "C",
+          "text": "6시간"
+        },
+        {
+          "id": "D",
+          "text": "12시간"
+        }
+      ],
+      "explanation": "일반 SIGMET은 최대 4시간, 열대저기압·화산재 관련 예외는 최대 6시간이다. 신고의 B=6시간을 일반 SIGMET에 그대로 적용하지 않고 보기와 조건을 함께 교정했다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "K-AIM-077": {
+      "answer": "B",
+      "question": "ILS 접근차트의 TCH 49 ft에서 TCH의 의미는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "지상 글라이드슬로프 송신안테나의 설치고도"
+        },
+        {
+          "id": "B",
+          "text": "항공기가 평균 ILS 경로를 유지할 때 항공기 글라이드슬로프 수신안테나가 활주로 시단을 지나는 이론적 높이"
+        },
+        {
+          "id": "C",
+          "text": "주착륙장치가 활주로 시단을 지나는 실제 높이"
+        },
+        {
+          "id": "D",
+          "text": "조종사의 눈이 활주로 시단을 지나는 실제 높이"
+        }
+      ],
+      "explanation": "FAA Pilot/Controller Glossary에서 TCH는 평균 ILS glide slope를 따를 때 항공기 GS 안테나의 시단 통과 이론높이이다. 주착륙장치 높이와는 안테나·기어 위치 차이가 있다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "AIR-NAV-184": {
+      "answer": "A",
+      "question": "등가대기속도(EAS)를 진대기속도(TAS)로 환산할 때 보정하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "실제 공기밀도(기압고도·기온의 영향)"
+        },
+        {
+          "id": "B",
+          "text": "장착 위치 오차"
+        },
+        {
+          "id": "C",
+          "text": "압축성 오차"
+        },
+        {
+          "id": "D",
+          "text": "계기 자체 오차"
+        }
+      ],
+      "explanation": "TAS = EAS × √(ρ0/ρ)이다. 밀도고도 자체를 계기오차처럼 빼는 것이 아니라 실제 공기밀도를 반영한다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "FLIGHT-THEORY-811": {
+      "answer": "A",
+      "question": "일반적인 종래형 항공기에서 CG가 뒤로 이동할 때의 특성으로 틀린 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "실속속도가 증가하는 경향이 있다."
+        },
+        {
+          "id": "B",
+          "text": "같은 조건에서 필요한 꼬리날개 하향력이 줄어 항력이 감소할 수 있다."
+        },
+        {
+          "id": "C",
+          "text": "세로 안정성이 감소한다."
+        },
+        {
+          "id": "D",
+          "text": "실속 회복이 어려워질 수 있다."
+        }
+      ],
+      "explanation": "일반적으로 후방 CG는 실속속도를 낮추는 방향이지만 세로 안정성을 줄이고 실속 회복을 어렵게 한다. C를 감소로 고쳐 A만 틀린 보기로 정리했다. 신고 메모의 D 정답 제안은 수용하지 않았다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "K-AIM-959": {
+      "answer": "B",
+      "question": "관제사가 피랍 코드 7500의 선택 여부를 확인할 때 사용하는 표준 관제용어는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "(호출부호) CONFIRM SQUAWKING 7500"
+        },
+        {
+          "id": "B",
+          "text": "(호출부호) VERIFY SQUAWKING 7500"
+        },
+        {
+          "id": "C",
+          "text": "(호출부호) ACKNOWLEDGE SQUAWKING 7500"
+        },
+        {
+          "id": "D",
+          "text": "(호출부호) SQUAWK IDENT"
+        }
+      ],
+      "explanation": "표준 확인 용어는 VERIFY SQUAWKING 7500이다. 실제 피랍 시 조종사가 답변하지 않을 수 있으며 관제사는 관련 비상 절차에 따른다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "FLIGHT-THEORY-721": {
+      "answer": "B",
+      "question": "날개 가로세로비(aspect ratio)의 정의로 옳은 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "날개폭 b만으로 정해진다."
+        },
+        {
+          "id": "B",
+          "text": "날개폭의 제곱/날개면적: b²/S"
+        },
+        {
+          "id": "C",
+          "text": "날개면적/날개폭의 제곱: S/b²"
+        },
+        {
+          "id": "D",
+          "text": "날개폭/날개면적: b/S"
+        }
+      ],
+      "explanation": "AR=b²/S이다. 직사각형 날개에서는 b/c와 같다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "AIR-NAV-646": {
+      "answer": "C",
+      "question": "국내 기준 전이고도 이하에서 원칙적으로 비행로를 따라 몇 NM 이내 관제기관이 제공한 QNH를 사용하는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "60 NM"
+        },
+        {
+          "id": "B",
+          "text": "80 NM"
+        },
+        {
+          "id": "C",
+          "text": "100 NM"
+        },
+        {
+          "id": "D",
+          "text": "120 NM"
+        }
+      ],
+      "explanation": "185 km는 약 100 NM이다. 원본에서 보기 첫 줄이 문제문으로 섞인 부분을 분리했다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "AIR-NAV-602": {
+      "answer": "D",
+      "question": "요격당한 항공기는 별도 ATS 지시가 없다면 트랜스폰더 Mode A에 어떤 코드를 선택하는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "7500"
+        },
+        {
+          "id": "B",
+          "text": "7600"
+        },
+        {
+          "id": "C",
+          "text": "7777"
+        },
+        {
+          "id": "D",
+          "text": "7700"
+        }
+      ],
+      "explanation": "별도 지시가 없는 요격 상황에서는 7700을 선택한다. 피랍 자체를 나타내는 7500과 구분한다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "AIR-NAV-548": {
+      "answer": "A",
+      "question": "FAA AIM의 비레이더 위치보고에서, 앞서 통보한 다음 보고지점 예상시각이 얼마를 초과해 틀릴 것이 명백하면 수정 예상시각을 보고하는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "2분"
+        },
+        {
+          "id": "B",
+          "text": "3분"
+        },
+        {
+          "id": "C",
+          "text": "5분"
+        },
+        {
+          "id": "D",
+          "text": "7분"
+        }
+      ],
+      "explanation": "FAA AIM Additional Reports는 비레이더 보고에 필요한 수정 예상시각 차이를 2분 초과로 정한다. ICAO 비행계획 변경의 다른 시간 기준과 섞지 않도록 적용 기준을 명시했다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "K-AIM-1013": {
+      "answer": "B",
+      "question": "국제 METAR의 바람 보고에 대한 설명으로 틀린 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "지상풍은 일반적으로 지표 약 10 m의 바람을 대표하며 풍향은 진북 기준이다."
+        },
+        {
+          "id": "B",
+          "text": "100 kt 이상 풍속은 문자 M 뒤에 99KT로 보고한다."
+        },
+        {
+          "id": "C",
+          "text": "관측 직전 평균풍속보다 순간 최대풍속이 10 kt 이상 크면 G 뒤에 돌풍을 보고한다."
+        },
+        {
+          "id": "D",
+          "text": "무풍은 00000KT로 보고한다."
+        }
+      ],
+      "explanation": "100 kt 이상은 P99KT로 보고한다. M은 이 보고의 초과 표시가 아니다. 국제 METAR 보고와 무전으로 전달되는 운항 풍향의 자북 기준을 구분한다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "K-AIM-888": {
+      "answer": "C",
+      "question": "Minimum fuel 상태에 대한 설명으로 옳은 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "잔여 연료는 교통 혼잡을 줄이기 위해 무조건 lb 단위로만 보고한다."
+        },
+        {
+          "id": "B",
+          "text": "최소연료 통보만 하면 자동으로 교통 우선권을 받는다."
+        },
+        {
+          "id": "C",
+          "text": "목적지 도착 시 부당한 추가 지연을 받아들일 수 없는 연료 상태임을 알리는 통보이다."
+        },
+        {
+          "id": "D",
+          "text": "최소연료 통보 자체가 곧 비상선언이다."
+        }
+      ],
+      "explanation": "Minimum fuel은 추가 지연을 수용하기 어렵다는 통보이며 그 자체가 비상이나 우선권 요청은 아니다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "K-AIM-1077": {
+      "answer": "B",
+      "question": "다음 중 과다호흡(hyperventilation)의 일반적인 증상이 아닌 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "근육 경련"
+        },
+        {
+          "id": "B",
+          "text": "호흡속도의 감소"
+        },
+        {
+          "id": "C",
+          "text": "시야의 협소"
+        },
+        {
+          "id": "D",
+          "text": "불안 및 초조함"
+        }
+      ],
+      "explanation": "과다호흡은 과도하게 빠르거나 깊은 호흡에 따른 저탄산혈증과 관련된다. 호흡속도 감소 자체를 대표 증상으로 고르지 않는다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "K-AIM-1011": {
+      "answer": "C",
+      "question": "ICAO METAR에서 지상풍을 calm(무풍)으로 보고하는 풍속 기준은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "5 kt 미만"
+        },
+        {
+          "id": "B",
+          "text": "3 kt 미만"
+        },
+        {
+          "id": "C",
+          "text": "1 kt(2 km/h) 미만"
+        },
+        {
+          "id": "D",
+          "text": "정확히 0 kt일 때만"
+        }
+      ],
+      "explanation": "ICAO 기준 지상풍이 1 kt(2 km/h) 미만이면 calm으로 보고한다. 관제 지상풍 전달이나 TAF 관행의 별도 기준과 구분한다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "K-AIM-987": {
+      "answer": "B",
+      "question": "운고(ceiling)의 정의로 옳은 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "운량과 관계없이 가장 낮은 구름층 높이"
+        },
+        {
+          "id": "B",
+          "text": "BKN 또는 OVC로 보고되는 가장 낮은 구름층 높이(차폐 시 VV 포함)"
+        },
+        {
+          "id": "C",
+          "text": "SCT로 보고되는 가장 낮은 구름층 높이"
+        },
+        {
+          "id": "D",
+          "text": "가장 높은 구름층 높이"
+        }
+      ],
+      "explanation": "운고는 BKN·OVC인 최저 층 또는 보고되는 수직시정(VV)을 기준으로 판단한다. FEW와 SCT만 있는 층은 ceiling이 아니다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "K-AIM-1038": {
+      "answer": "B",
+      "question": "고도계를 29.91 inHg로 유지한 채 표준 해면기압 29.92 inHg인 표고 1,500 ft 공항에 착륙했다. 1 inHg ≈ 1,000 ft이면 지시고도는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1,480 ft"
+        },
+        {
+          "id": "B",
+          "text": "1,490 ft"
+        },
+        {
+          "id": "C",
+          "text": "1,500 ft"
+        },
+        {
+          "id": "D",
+          "text": "1,510 ft"
+        }
+      ],
+      "explanation": "설정값이 0.01 inHg 낮아 10 ft 낮게 지시한다. 1,500 − 10 = 1,490 ft이다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "K-AIM-1053": {
+      "answer": "D",
+      "question": "후류 와류(wake turbulence)에 대한 설명으로 틀린 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "강도는 항공기 중량·속도·날개 형상에 따라 달라진다."
+        },
+        {
+          "id": "B",
+          "text": "다른 조건이 같으면 더 무거운 항공기가 강한 와류를 발생시키는 경향이 있다."
+        },
+        {
+          "id": "C",
+          "text": "플랩 등 형상 변화에 따라 와류 특성이 달라질 수 있다."
+        },
+        {
+          "id": "D",
+          "text": "가장 강한 와류는 무겁고 clean이며 고속인 항공기에서 발생한다."
+        }
+      ],
+      "explanation": "최대 강도의 대표 조건은 heavy, clean, slow이다. 고속이라고 한 D가 틀리다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "K-AIM-897": {
+      "answer": "B",
+      "question": "일반적인 요격의 시각식별 단계에서 요격기는 피요격 항공기의 어느 쪽에 위치해 신호하는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "피요격기의 후미 바로 뒤"
+        },
+        {
+          "id": "B",
+          "text": "보통 약간 위쪽·앞쪽의 좌측"
+        },
+        {
+          "id": "C",
+          "text": "보통 약간 아래쪽·뒤쪽의 우측"
+        },
+        {
+          "id": "D",
+          "text": "피요격기의 정면으로 마주보며 접근한다."
+        }
+      ],
+      "explanation": "일반적인 주간 요격 신호는 약간 위·앞·보통 좌측 위치에서 날개 흔들기 등으로 한다. 기상·지형에 따른 예외와 헬리콥터 절차 등은 관련 지시를 따른다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "K-AIM-1031": {
+      "answer": "C",
+      "question": "FL210에서 고도계를 표준기압 29.92 inHg로 설정했을 때 기준으로 나타내는 고도는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "절대고도"
+        },
+        {
+          "id": "B",
+          "text": "진고도"
+        },
+        {
+          "id": "C",
+          "text": "기압고도"
+        },
+        {
+          "id": "D",
+          "text": "밀도고도"
+        }
+      ],
+      "explanation": "표준기압면을 기준으로 한 고도는 기압고도이다. 비행고도 FL210은 표준기압 기준 21,000 ft를 뜻한다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "K-AIM-957": {
+      "answer": "C",
+      "question": "조난·긴급 무선통신의 기본 통보 내용에 직접 해당하지 않는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "항공기 식별부호"
+        },
+        {
+          "id": "B",
+          "text": "조종사의 의도와 요청"
+        },
+        {
+          "id": "C",
+          "text": "이륙 공항만 단독으로 통보하는 것"
+        },
+        {
+          "id": "D",
+          "text": "현재 위치·고도와 비상상황의 성격"
+        }
+      ],
+      "explanation": "비상통신은 식별부호, 비상 성격, 위치·고도, 의도·요청, 연료 잔량 등을 우선 알린다. 이륙 공항만의 단독 통보는 이러한 기본 내용의 대체가 아니다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "K-AIM-1097": {
+      "answer": "C",
+      "question": "미국 VFR Terminal Area Chart(TAC)의 일반적인 축척은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1:125,000"
+        },
+        {
+          "id": "B",
+          "text": "1:100,000"
+        },
+        {
+          "id": "C",
+          "text": "1:250,000"
+        },
+        {
+          "id": "D",
+          "text": "1:500,000"
+        }
+      ],
+      "explanation": "VFR TAC의 축척은 일반적으로 1:250,000이다. Sectional의 1:500,000과 구분한다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "FLIGHT-THEORY-469": {
+      "answer": "B",
+      "question": "일반적인 정속 프로펠러 항공기의 이륙 시 큰 출력을 얻기 위한 프로펠러 설정 조합은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "큰 깃각·낮은 RPM"
+        },
+        {
+          "id": "B",
+          "text": "작은 깃각·높은 RPM"
+        },
+        {
+          "id": "C",
+          "text": "큰 깃각·높은 RPM"
+        },
+        {
+          "id": "D",
+          "text": "작은 깃각·낮은 RPM"
+        }
+      ],
+      "explanation": "일반적인 이륙 설정에서는 fine/low pitch와 high RPM을 사용한다. 실제 설정은 POH/AFM에 따른다. 기하학적 깃각과 블레이드 받음각은 같은 개념이 아니므로 문구도 깃각으로 정리했다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "ATC-COMM-378": {
+      "answer": "A",
+      "explanation": "원본 항공교통통신 PDF p.135 문항 26은 A를 Base track pattern으로 인쇄하고 정답 A를 제시한다. 해설에는 racetrack이 가능한 유형으로 별도 열거되어 있으므로 A를 Racetrack으로 바꾸면 정답이 사라진다. 따라서 신고의 Base→Race 수정 제안은 적용하지 않는다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "WX-SU5-026": {
+      "answer": "C",
+      "question": "해풍(sea breeze)이 부는 일반적인 방향과 시간은?",
+      "explanation": "낮에는 육지가 바다보다 빨리 가열되어 바다에서 육지로 해풍이 분다. 기존 해무라는 문구는 안개를 뜻해 보기와 맞지 않으므로 해풍으로 바로잡았다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "ATC-COMM-195": {
+      "answer": "A",
+      "question": "미국에서 IFR 비행계획을 취소하고 VFR로 비행할 때, 별도 ATC 코드 유지 지시가 없다면 트랜스폰더 Mode A 코드는?",
+      "explanation": "FAA 기준 일반 VFR 코드는 1200이다. 관제사가 기존 코드 유지 등 별도 지시를 했다면 그 지시를 따른다. 국가별 VFR 코드가 다를 수 있다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "K-AIM-992": {
+      "answer": "A",
+      "question": "뇌우 속을 불가피하게 통과하는 상황의 조치로 옳은 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "제조사 권고 난류속도에 맞는 출력을 설정하고 급격한 출력·조종 변화를 피한다."
+        },
+        {
+          "id": "B",
+          "text": "고도와 속도를 완전히 일정하게 유지하기 위해 큰 조종 입력을 반복한다."
+        },
+        {
+          "id": "C",
+          "text": "번개에 의한 일시적 실명을 막기 위해 조종실 조명을 가장 어둡게 한다."
+        },
+        {
+          "id": "D",
+          "text": "착빙 회피를 위해 반드시 −5~−10°C 층을 선택한다."
+        }
+      ],
+      "explanation": "가장 우선은 뇌우를 회피하는 것이다. 불가피하게 진입한 경우 AFM/POH의 난류속도·운용절차를 따르고 자세와 완만한 조작을 중시하며, 고도·속도를 쫓아 과조종하지 않는다. 원본의 절대적인 출력 일정 표현도 조건을 명확히 했다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "K-AIM-953": {
+      "answer": "B",
+      "question": "다음 중 국제 무선전화 조난주파수로 사용되는 중파(MF) 주파수는?",
+      "explanation": "2182 kHz는 국제 무선전화 조난주파수이다. 주파수 대역상 2.182 MHz는 MF이며, 원본의 HF라는 표현은 정확하지 않아 문제문도 함께 수정했다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "AIR-NAV-820": {
+      "answer": "D",
+      "images": [
+        "assets/figures/reported57/AIR-NAV-820.png"
+      ],
+      "figure_refs": [],
+      "requires_figure": true,
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "AIR-NAV-101": {
+      "answer": "D",
+      "images": [
+        "assets/figures/reported57/AIR-NAV-101.png"
+      ],
+      "figure_refs": [],
+      "requires_figure": true,
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "AIR-NAV-259": {
+      "answer": "A",
+      "images": [
+        "assets/figures/reported57/AIR-NAV-259.png"
+      ],
+      "figure_refs": [],
+      "requires_figure": true,
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "FLIGHT-THEORY-560": {
+      "answer": "C",
+      "images": [
+        "assets/figures/reported57/FLIGHT-THEORY-560.png"
+      ],
+      "figure_refs": [],
+      "requires_figure": true,
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "FLIGHT-THEORY-823": {
+      "answer": "D",
+      "images": [
+        "assets/figures/reported57/FLIGHT-THEORY-823.png"
+      ],
+      "figure_refs": [],
+      "requires_figure": true,
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "FLIGHT-THEORY-218": {
+      "answer": "B",
+      "images": [
+        "assets/figures/reported57/FLIGHT-THEORY-218.png"
+      ],
+      "figure_refs": [],
+      "requires_figure": true,
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "FLIGHT-THEORY-593": {
+      "answer": "A",
+      "images": [
+        "assets/figures/reported57/FLIGHT-THEORY-593.png"
+      ],
+      "figure_refs": [],
+      "requires_figure": true,
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "FLIGHT-THEORY-078": {
+      "answer": "D",
+      "images": [
+        "assets/figures/reported57/FLIGHT-THEORY-078.png"
+      ],
+      "figure_refs": [],
+      "requires_figure": true,
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "FLIGHT-THEORY-080": {
+      "answer": "A",
+      "images": [
+        "assets/figures/reported57/FLIGHT-THEORY-080.png"
+      ],
+      "figure_refs": [],
+      "requires_figure": true,
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "FLIGHT-THEORY-551": {
+      "answer": "D",
+      "images": [
+        "assets/figures/reported57/FLIGHT-THEORY-551.png"
+      ],
+      "figure_refs": [],
+      "requires_figure": true,
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "FLIGHT-THEORY-763": {
+      "answer": "D",
+      "images": [
+        "assets/figures/reported57/FLIGHT-THEORY-763.png"
+      ],
+      "figure_refs": [],
+      "requires_figure": true,
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "FLIGHT-THEORY-867": {
+      "answer": "C",
+      "images": [
+        "assets/figures/reported57/FLIGHT-THEORY-867.png"
+      ],
+      "figure_refs": [],
+      "requires_figure": true,
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "FLIGHT-THEORY-079": {
+      "answer": "B",
+      "images": [
+        "assets/figures/reported57/FLIGHT-THEORY-079.png"
+      ],
+      "figure_refs": [],
+      "requires_figure": true,
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "WX-SU10-038": {
+      "answer": "B",
+      "explanation": "복원된 원본 도식에서 B가 아열대 제트기류이다. 저위도 대류권계면 부근을 따라 위치하며 극 제트와 구분한다.",
+      "images": [
+        "assets/figures/reported57/WX-SU10-038.png"
+      ],
+      "figure_refs": [],
+      "requires_figure": true,
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "WX-SU12-039": {
+      "answer": "D",
+      "explanation": "꺾쇠 한 개는 보통 난류이고 위아래 숫자 450/280은 FL450~FL280 범위이다. 스콜라인이라고 한 D가 틀리다.",
+      "images": [
+        "assets/figures/reported57/WX-SU12-039.png"
+      ],
+      "figure_refs": [],
+      "requires_figure": true,
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "WX-SU12-037": {
+      "answer": "D",
+      "explanation": "그림의 ISOL EMBD CB 350/XXX는 고립된 매몰 적란운, 운정 FL350, 기저가 해당 고고도 도표의 하한 아래임을 나타낸다. 원본 교재 범례에서 ISOL은 1/8 미만이므로 4/8 이하를 운량 정의로 제시한 D는 부정확하다. 원본 p.154 문항 37의 정답 D를 유지한다.",
+      "question": "원본 교재의 FL250~FL630 고고도 SIGWX 도표에서 다음 기호의 설명으로 틀린 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "구름의 기저는 도표 하한인 FL250보다 낮다."
+        },
+        {
+          "id": "B",
+          "text": "구름 상부 높이는 FL350이다."
+        },
+        {
+          "id": "C",
+          "text": "예상 구름은 매몰된 적란운이다."
+        },
+        {
+          "id": "D",
+          "text": "ISOL은 적란운 운량이 1/8 이상 4/8 이하라는 뜻이다."
+        }
+      ],
+      "images": [
+        "assets/figures/reported57/WX-SU12-037.png"
+      ],
+      "figure_refs": [],
+      "requires_figure": true,
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "WX-SU11-025": {
+      "answer": "C",
+      "explanation": "③의 깃 표시와 10 kt라는 수치가 일치하지 않는다. 삼각깃 50 kt·긴 깃 10 kt·짧은 깃 5 kt를 합산한다. 원본 p.143의 보기 그림을 복원했다.",
+      "images": [
+        "assets/figures/reported57/WX-SU11-025.png"
+      ],
+      "figure_refs": [],
+      "requires_figure": true,
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "WX-SU12-041": {
+      "answer": "C",
+      "explanation": "FRQ CB는 해당 구역에 빈번한 적란운을 뜻하며 원본 범례의 FRQ는 75% 이상(ICAO 범례로 4/8 초과)이다. 75% 이하라는 C는 틀리다. 500은 운정 FL500이다.",
+      "images": [
+        "assets/figures/reported57/WX-SU12-041.png"
+      ],
+      "figure_refs": [],
+      "requires_figure": true,
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "WX-SU11-018": {
+      "answer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Cold front"
+        },
+        {
+          "id": "B",
+          "text": "Warm front"
+        },
+        {
+          "id": "C",
+          "text": "Occluded front"
+        },
+        {
+          "id": "D",
+          "text": "Stationary front"
+        }
+      ],
+      "explanation": "삼각형과 반원이 선의 서로 반대쪽에 놓인 기호는 정체전선이다. 색상 자료에서는 청색 삼각형과 적색 반원으로 표시한다.",
+      "images": [
+        "assets/figures/reported57/WX-SU11-018.png"
+      ],
+      "figure_refs": [],
+      "requires_figure": true,
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "WX-SU12-026": {
+      "answer": "A",
+      "explanation": "세 줄을 동반한 착빙 기호는 심한 착빙이다. 원본 p.152 문항 26과 대조했다.",
+      "images": [
+        "assets/figures/reported57/WX-SU12-026.png"
+      ],
+      "figure_refs": [],
+      "requires_figure": true,
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "WX-SU11-023": {
+      "answer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "기호 ①"
+        },
+        {
+          "id": "B",
+          "text": "기호 ②"
+        },
+        {
+          "id": "C",
+          "text": "기호 ③"
+        },
+        {
+          "id": "D",
+          "text": "기호 ④"
+        }
+      ],
+      "explanation": "풍속기호는 삼각깃 50 kt, 긴 깃 10 kt, 짧은 깃 5 kt이다. 65 kt = 50+10+5이므로 ③이다. 보기에 정답 수치를 직접 적었던 문구도 없앴다.",
+      "images": [
+        "assets/figures/reported57/WX-SU11-023.png"
+      ],
+      "figure_refs": [],
+      "requires_figure": true,
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "WX-SU12-025": {
+      "answer": "D",
+      "explanation": "겹친 꺾쇠가 수평선 위에 있는 기호는 심한 난류이다. 원본 기상 PDF p.152 문항 25와 정답표를 대조했다.",
+      "images": [
+        "assets/figures/reported57/WX-SU12-025.png"
+      ],
+      "figure_refs": [],
+      "requires_figure": true,
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "WX-SU12-040": {
+      "answer": "A",
+      "explanation": "꺾쇠 한 개와 360/280 표시는 FL360과 FL280 사이의 보통 난류를 뜻한다.",
+      "images": [
+        "assets/figures/reported57/WX-SU12-040.png"
+      ],
+      "figure_refs": [],
+      "requires_figure": true,
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "WX-SU12-031": {
+      "answer": "A",
+      "explanation": "①의 소용돌이 모양이 열대성저기압(태풍)을 나타낸다. 원본 p.153 문항 31과 정답표를 대조했다.",
+      "images": [
+        "assets/figures/reported57/WX-SU12-031.png"
+      ],
+      "figure_refs": [],
+      "requires_figure": true,
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "WX-SU12-029": {
+      "answer": "C",
+      "explanation": "복원된 기호는 광범위한 연무가 아니라 연기(widespread smoke)를 표시한다. 원본 p.153 문항 29와 범례·정답표를 대조했다.",
+      "images": [
+        "assets/figures/reported57/WX-SU12-029.png"
+      ],
+      "figure_refs": [],
+      "requires_figure": true,
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "ATC-COMM-558": {
+      "answer": "A",
+      "explanation": "원본 p.203 문항 9의 VOR 도형과 TACAN 요소를 결합한 기호는 VORTAC이다.",
+      "images": [
+        "assets/figures/reported57/ATC-COMM-558.png"
+      ],
+      "figure_refs": [],
+      "requires_figure": true,
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "ATC-COMM-561": {
+      "answer": "A",
+      "question": "Area chart에서 아래의 실선 화살표가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Departure route"
+        },
+        {
+          "id": "B",
+          "text": "RNAV route"
+        },
+        {
+          "id": "C",
+          "text": "Arrival route"
+        },
+        {
+          "id": "D",
+          "text": "Diversionary route"
+        }
+      ],
+      "explanation": "원본 p.203 문항 12의 실선 화살표는 출발 경로(Departure route)이다. 도형을 문제문과 분리하고 다른 문제의 해설은 제외했다.",
+      "images": [
+        "assets/figures/reported57/ATC-COMM-561.png"
+      ],
+      "figure_refs": [],
+      "requires_figure": true,
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "K-AIM-1121": {
+      "answer": "C",
+      "explanation": "원본 p.353 문항 29의 ADIZ 경계 표시는 C(③)이다. 기존 이미지는 앞 문제의 경계 일부만 잘려 있었으므로 보기 그림 전체를 복원했다.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "(가)"
+        },
+        {
+          "id": "B",
+          "text": "(나)"
+        },
+        {
+          "id": "C",
+          "text": "(다)"
+        },
+        {
+          "id": "D",
+          "text": "(라)"
+        }
+      ],
+      "images": [
+        "assets/figures/reported57/K-AIM-1121.png"
+      ],
+      "figure_refs": [],
+      "requires_figure": true,
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "K-AIM-1118": {
+      "answer": "D",
+      "question": "Enroute chart에서 아래 기호가 나타내는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "DME distance"
+        },
+        {
+          "id": "B",
+          "text": "MEA change"
+        },
+        {
+          "id": "C",
+          "text": "Segment mileage"
+        },
+        {
+          "id": "D",
+          "text": "Changeover point"
+        }
+      ],
+      "explanation": "두 항행시설 사이의 주파수 변경지점(COP)과 각 시설로부터의 거리를 표시한다. 원본 p.353 문항 26의 그림만 추출했다.",
+      "images": [
+        "assets/figures/reported57/K-AIM-1118.png"
+      ],
+      "figure_refs": [],
+      "requires_figure": true,
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "K-AIM-1120": {
+      "answer": "B",
+      "question": "Enroute chart에서 아래 경계 기호가 의미하는 것은?",
+      "explanation": "원본 p.353 문항 28의 두 경계선은 FIR·UIR·ARTCC·OCA 경계에 대응한다. 문제문에 섞여 들어간 다른 보기의 명칭을 삭제했다.",
+      "images": [
+        "assets/figures/reported57/K-AIM-1120.png"
+      ],
+      "figure_refs": [],
+      "requires_figure": true,
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "AIR-NAV-396": {
+      "answer": "A",
+      "question": "항로 차트에서 필수 위치보고지점(compulsory reporting point)을 나타내는 기호는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "속이 채워진 삼각형"
+        },
+        {
+          "id": "B",
+          "text": "속이 빈 삼각형"
+        },
+        {
+          "id": "C",
+          "text": "속이 빈 원"
+        },
+        {
+          "id": "D",
+          "text": "사각형"
+        }
+      ],
+      "explanation": "필수보고지점은 채워진 삼각형으로 표시한다. 빈 삼각형은 비필수보고지점이다. 깨진 기호를 보기의 문자 설명과 복원 도식으로 함께 제공한다.",
+      "images": [
+        "assets/figures/reported57/AIR-NAV-396.svg"
+      ],
+      "figure_refs": [],
+      "requires_figure": true,
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "JEPP-SYM-093": {
+      "answer": "D",
+      "images": [
+        "assets/figures/reported57/JEPP-SYM-093.svg"
+      ],
+      "figure_refs": [],
+      "requires_figure": true,
+      "question": "아래 Jeppesen 공항차트 범례의 경계 도식이 의미하는 것은?",
+      "explanation": "정답은 D, Building Area이다. 원본 도식에 직접 적힌 Bldg Area라는 정답 문구를 풀이 전에 보이지 않도록 경계선만 벡터로 재현했다. 교재의 도식이라는 적용 범위를 명시했다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "WX-SU11-060": {
+      "answer": "D",
+      "question": "전통적인 Weather Depiction Chart에서 직접 알 수 없는 것은?",
+      "explanation": "Weather Depiction Chart는 시정·현재기상·운량 및 ceiling 등을 통해 비행기상 범주를 나타낸다. 지상풍은 이 도표의 기본 표시 요소가 아니다. 문제 자체는 별도 그림 없이 성립한다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    },
+    "FLIGHT-THEORY-530": {
+      "question": "속도 V₁(V1)의 정의로 맞는 것은?",
+      "answer": "D",
+      "explanation": "V1은 이륙결심속도(take-off decision speed)이다. 비행이론 원본 PDF p.180 문항 2에 인쇄된 아래첨자 1이 OCR에서 누락된 것을 직접 확인해 복원했다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "reported_error_hotfix_revision": "11.60.57",
+      "review_status": "reported_error_source_review_2026_10_15",
+      "review_note": "보고 오류 재검토: 문제·보기·정답·해설 및 그림 표시를 교정함. 세부 근거는 동봉 문항별 변경내역 참조."
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "results": [
+    {
+      "width": 1440,
+      "all119PatchesApplied": true,
+      "lazyJeppesenFix": true,
+      "all32FiguresLoaded": true,
+      "pathReferenceRendererFixed": true,
+      "changedKeyGrading": true,
+      "adminNewerEditPreserved": true,
+      "noOverflow": true,
+      "browserErrors": []
+    },
+    {
+      "width": 390,
+      "all119PatchesApplied": true,
+      "lazyJeppesenFix": true,
+      "all32FiguresLoaded": true,
+      "pathReferenceRendererFixed": true,
+      "changedKeyGrading": true,
+      "adminNewerEditPreserved": true,
+      "noOverflow": true,
+      "browserErrors": []
+    }
+  ],
+  "scope": "Real Chromium with actual deployed base/airnav/flight/CPL datasets and repaired figures. Auth and Supabase mocked. Live DB writes and Android device not tested."
+}
