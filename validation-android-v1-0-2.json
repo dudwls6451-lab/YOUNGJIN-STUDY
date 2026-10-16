@@ -1,0 +1,14 @@
+{
+  "version": "1.0.2",
+  "versionCode": 3,
+  "sameCertificateAsOriginal": true,
+  "sha256": "c3a6dfaee16247c56dd8e4bc063f2ebd015b71c470e9af67fe7a3a07d7919cb2",
+  "buildAndSigning": "Java/DEX compiled, zipalign passed, v2/v3 signature verified",
+  "permissions": [
+    "POST_NOTIFICATIONS",
+    "SCHEDULE_EXACT_ALARM",
+    "RECEIVE_BOOT_COMPLETED"
+  ],
+  "nativeBottomToolbarAbsent": true,
+  "scope": "No real Android device/emulator execution. Alarm delivery and reboot behavior untested on device."
+}

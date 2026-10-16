@@ -1,0 +1,16 @@
+{
+  "scope": "Chromium DOM, simulated Korean dates and native bridge; no OS alarms fired",
+  "checks": {
+    "selectedBookOnly": true,
+    "divideInclusiveDays": true,
+    "uniqueAcrossDays": true,
+    "otherBooksExcluded": true,
+    "allFourTimes": true,
+    "slotDedup": true,
+    "completedSuppresses": true,
+    "newDayResets": true,
+    "expiredSuppresses": true,
+    "accountIsolation": true,
+    "nativeBridgeAndCancellation": true
+  }
+}
