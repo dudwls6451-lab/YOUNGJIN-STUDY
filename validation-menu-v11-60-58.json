@@ -1,0 +1,61 @@
+{
+  "scope": "Real menu script and stylesheet in DOM fixture; native pointer clicks. Full app backend not exercised.",
+  "results": [
+    {
+      "version": "original",
+      "width": 1440,
+      "freezeReproduced": true
+    },
+    {
+      "version": "original",
+      "width": 1024,
+      "freezeReproduced": true
+    },
+    {
+      "version": "original",
+      "width": 946,
+      "freezeReproduced": true
+    },
+    {
+      "version": "original",
+      "width": 390,
+      "freezeReproduced": true
+    },
+    {
+      "version": "11.60.58",
+      "width": 1440,
+      "groupCycles": 6,
+      "drawerCycles": 8,
+      "freeze": false,
+      "shortcutsRemoved": true,
+      "hubAccessPreserved": true
+    },
+    {
+      "version": "11.60.58",
+      "width": 1024,
+      "groupCycles": 6,
+      "drawerCycles": 8,
+      "freeze": false,
+      "shortcutsRemoved": true,
+      "hubAccessPreserved": true
+    },
+    {
+      "version": "11.60.58",
+      "width": 946,
+      "groupCycles": 6,
+      "drawerCycles": 8,
+      "freeze": false,
+      "shortcutsRemoved": true,
+      "hubAccessPreserved": true
+    },
+    {
+      "version": "11.60.58",
+      "width": 390,
+      "groupCycles": 6,
+      "drawerCycles": 8,
+      "freeze": false,
+      "shortcutsRemoved": true,
+      "hubAccessPreserved": true
+    }
+  ]
+}
