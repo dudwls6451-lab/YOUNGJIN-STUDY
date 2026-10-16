@@ -1,0 +1,16 @@
+{
+  "scope": "Real sync module in independent Chromium contexts, shared simulated Auth server. No live account mutations.",
+  "checks": {
+    "twoIndependentContexts": true,
+    "legacyPhonePlanMigratesAfterPcFocus": true,
+    "periodSubjectsGoalsRemindersSync": true,
+    "focusBooksSync": true,
+    "tombstonePreventsResurrection": true,
+    "offlineSaveRetained": true,
+    "staleRetryConflict": true,
+    "explicitRetry": true,
+    "unrelatedMetadataPreserved": true,
+    "accountMismatchRejected": true,
+    "writes": 7
+  }
+}
