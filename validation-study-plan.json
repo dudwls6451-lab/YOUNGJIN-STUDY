@@ -1,0 +1,29 @@
+{
+  "scope": "Patched full core in Chromium; question feeds, auth, daily gate and remote add-ons mocked. No live DB writes.",
+  "results": [
+    {
+      "width": 1440,
+      "periodBoundary": true,
+      "uniqueProgress": true,
+      "repeatedAnswerAccuracy": true,
+      "gradingHook": true,
+      "homeLinked": true,
+      "reloadPersists": true,
+      "invalidRangeRejected": true,
+      "clearPreservesLifetime": true,
+      "themes": true
+    },
+    {
+      "width": 390,
+      "periodBoundary": true,
+      "uniqueProgress": true,
+      "repeatedAnswerAccuracy": true,
+      "gradingHook": true,
+      "homeLinked": true,
+      "reloadPersists": true,
+      "invalidRangeRejected": true,
+      "clearPreservesLifetime": true,
+      "themes": true
+    }
+  ]
+}

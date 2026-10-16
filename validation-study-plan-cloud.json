@@ -1,0 +1,28 @@
+{
+  "scope": "Simulated Supabase client; no live server calls",
+  "checks": {
+    "pagination1001": true,
+    "timezoneDedup": true,
+    "accountIsolation": true,
+    "loadFailure": true,
+    "retry": true,
+    "userFilters": [
+      [
+        "user_id",
+        "one"
+      ],
+      [
+        "user_id",
+        "one"
+      ],
+      [
+        "user_id",
+        "two"
+      ],
+      [
+        "user_id",
+        "two"
+      ]
+    ]
+  }
+}
