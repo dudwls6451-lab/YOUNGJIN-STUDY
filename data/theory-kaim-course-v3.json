@@ -26,7 +26,10 @@
       "Performance & Weight Balance.txt",
       "Emergency & Aeromedical.txt",
       "Weather.txt"
-    ]
+    ],
+    "content_enhancement_version": "v11.60.67",
+    "reference_policy": "대한민국 법령·eAIP가 한국 적용 기준. FAA 자료는 보충/미국 기준. 현행 발효자료와 NOTAM 반드시 확인.",
+    "deep_review_note": "기존 교재 이론은 유지하며 각 단계에 운항 적용과 자주 혼동하는 경계를 보강."
   },
   "stages": [
     {
@@ -361,7 +364,31 @@
           "section": "ILS — 로컬라이저·글라이드슬로프·마커비콘과 계기접근"
         }
       ],
-      "content_revision": "v11.58.1-kaim-theory-only"
+      "content_revision": "v11.58.1-kaim-theory-only",
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "Aviwiki 이론의 설명에서 정의·발동 조건·항공기 운용 적용·예외 조건을 찾아 연결하세요.",
+        "worked_case": "이 단계의 항공정보를 실제 비행에 적용하기 전에는 현행 국내 eAIP/NOTAM, 항공기 형식별 승인 운항자료 및 관제허가를 재확인하세요.",
+        "common_trap": "미국 AIM에만 있는 절차, 통신 예문이나 숫자기준을 한국 운항규정으로 그대로 옮기지 마세요."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "KAIM-COURSE-02",
@@ -550,7 +577,31 @@
           "section": "항법 사양의 지도 — 대양·터미널·접근과 현대 운항의 의의"
         }
       ],
-      "content_revision": "v11.58.1-kaim-theory-only"
+      "content_revision": "v11.58.1-kaim-theory-only",
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "Aviwiki 이론의 설명에서 정의·발동 조건·항공기 운용 적용·예외 조건을 찾아 연결하세요.",
+        "worked_case": "이 단계의 항공정보를 실제 비행에 적용하기 전에는 현행 국내 eAIP/NOTAM, 항공기 형식별 승인 운항자료 및 관제허가를 재확인하세요.",
+        "common_trap": "미국 AIM에만 있는 절차, 통신 예문이나 숫자기준을 한국 운항규정으로 그대로 옮기지 마세요."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "KAIM-COURSE-03",
@@ -764,7 +815,31 @@
           "section": "접근·착륙의 시각 착각 — 활주로 폭·경사·기상"
         }
       ],
-      "content_revision": "v11.58.1-kaim-theory-only"
+      "content_revision": "v11.58.1-kaim-theory-only",
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "Aviwiki 이론의 설명에서 정의·발동 조건·항공기 운용 적용·예외 조건을 찾아 연결하세요.",
+        "worked_case": "이 단계의 항공정보를 실제 비행에 적용하기 전에는 현행 국내 eAIP/NOTAM, 항공기 형식별 승인 운항자료 및 관제허가를 재확인하세요.",
+        "common_trap": "미국 AIM에만 있는 절차, 통신 예문이나 숫자기준을 한국 운항규정으로 그대로 옮기지 마세요."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "KAIM-COURSE-04",
@@ -940,7 +1015,31 @@
           "section": "곡예비행 제한과 이착륙·비행장 규칙"
         }
       ],
-      "content_revision": "v11.58.1-kaim-theory-only"
+      "content_revision": "v11.58.1-kaim-theory-only",
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "Aviwiki 이론의 설명에서 정의·발동 조건·항공기 운용 적용·예외 조건을 찾아 연결하세요.",
+        "worked_case": "이 단계의 항공정보를 실제 비행에 적용하기 전에는 현행 국내 eAIP/NOTAM, 항공기 형식별 승인 운항자료 및 관제허가를 재확인하세요.",
+        "common_trap": "미국 AIM에만 있는 절차, 통신 예문이나 숫자기준을 한국 운항규정으로 그대로 옮기지 마세요."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "KAIM-COURSE-05",
@@ -1049,7 +1148,31 @@
           "section": "공역 등급과 분리 서비스의 사다리 (Class A~G)"
         }
       ],
-      "content_revision": "v11.58.1-kaim-theory-only"
+      "content_revision": "v11.58.1-kaim-theory-only",
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "Aviwiki 이론의 설명에서 정의·발동 조건·항공기 운용 적용·예외 조건을 찾아 연결하세요.",
+        "worked_case": "이 단계의 항공정보를 실제 비행에 적용하기 전에는 현행 국내 eAIP/NOTAM, 항공기 형식별 승인 운항자료 및 관제허가를 재확인하세요.",
+        "common_trap": "미국 AIM에만 있는 절차, 통신 예문이나 숫자기준을 한국 운항규정으로 그대로 옮기지 마세요."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "KAIM-COURSE-06",
@@ -1209,7 +1332,31 @@
           "section": "공역 진입 장비 요건과 속도 제한"
         }
       ],
-      "content_revision": "v11.58.1-kaim-theory-only"
+      "content_revision": "v11.58.1-kaim-theory-only",
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "Aviwiki 이론의 설명에서 정의·발동 조건·항공기 운용 적용·예외 조건을 찾아 연결하세요.",
+        "worked_case": "이 단계의 항공정보를 실제 비행에 적용하기 전에는 현행 국내 eAIP/NOTAM, 항공기 형식별 승인 운항자료 및 관제허가를 재확인하세요.",
+        "common_trap": "미국 AIM에만 있는 절차, 통신 예문이나 숫자기준을 한국 운항규정으로 그대로 옮기지 마세요."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "KAIM-COURSE-07",
@@ -1324,7 +1471,31 @@
           "section": "VFR 최저기상조건과 특별시계비행"
         }
       ],
-      "content_revision": "v11.58.1-kaim-theory-only"
+      "content_revision": "v11.58.1-kaim-theory-only",
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "Aviwiki 이론의 설명에서 정의·발동 조건·항공기 운용 적용·예외 조건을 찾아 연결하세요.",
+        "worked_case": "이 단계의 항공정보를 실제 비행에 적용하기 전에는 현행 국내 eAIP/NOTAM, 항공기 형식별 승인 운항자료 및 관제허가를 재확인하세요.",
+        "common_trap": "미국 AIM에만 있는 절차, 통신 예문이나 숫자기준을 한국 운항규정으로 그대로 옮기지 마세요."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "KAIM-COURSE-08",
@@ -1437,7 +1608,31 @@
           "section": "특수사용공역과 방공식별구역·군용훈련항로"
         }
       ],
-      "content_revision": "v11.58.1-kaim-theory-only"
+      "content_revision": "v11.58.1-kaim-theory-only",
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "Aviwiki 이론의 설명에서 정의·발동 조건·항공기 운용 적용·예외 조건을 찾아 연결하세요.",
+        "worked_case": "이 단계의 항공정보를 실제 비행에 적용하기 전에는 현행 국내 eAIP/NOTAM, 항공기 형식별 승인 운항자료 및 관제허가를 재확인하세요.",
+        "common_trap": "미국 AIM에만 있는 절차, 통신 예문이나 숫자기준을 한국 운항규정으로 그대로 옮기지 마세요."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "KAIM-COURSE-09",
@@ -1567,7 +1762,31 @@
           "section": "영공주권과 협약의 적용 대상"
         }
       ],
-      "content_revision": "v11.58.1-kaim-theory-only"
+      "content_revision": "v11.58.1-kaim-theory-only",
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "Aviwiki 이론의 설명에서 정의·발동 조건·항공기 운용 적용·예외 조건을 찾아 연결하세요.",
+        "worked_case": "이 단계의 항공정보를 실제 비행에 적용하기 전에는 현행 국내 eAIP/NOTAM, 항공기 형식별 승인 운항자료 및 관제허가를 재확인하세요.",
+        "common_trap": "미국 AIM에만 있는 절차, 통신 예문이나 숫자기준을 한국 운항규정으로 그대로 옮기지 마세요."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "KAIM-COURSE-10",
@@ -1783,7 +2002,31 @@
           "section": "위치 보고와 의무 보고 — 레이더가 있어도 남는 것"
         }
       ],
-      "content_revision": "v11.58.1-kaim-theory-only"
+      "content_revision": "v11.58.1-kaim-theory-only",
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "Aviwiki 이론의 설명에서 정의·발동 조건·항공기 운용 적용·예외 조건을 찾아 연결하세요.",
+        "worked_case": "이 단계의 항공정보를 실제 비행에 적용하기 전에는 현행 국내 eAIP/NOTAM, 항공기 형식별 승인 운항자료 및 관제허가를 재확인하세요.",
+        "common_trap": "미국 AIM에만 있는 절차, 통신 예문이나 숫자기준을 한국 운항규정으로 그대로 옮기지 마세요."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "KAIM-COURSE-11",
@@ -1967,7 +2210,31 @@
           "section": "위치 보고와 의무 보고 — 레이더가 있어도 남는 것"
         }
       ],
-      "content_revision": "v11.58.1-kaim-theory-only"
+      "content_revision": "v11.58.1-kaim-theory-only",
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "Aviwiki 이론의 설명에서 정의·발동 조건·항공기 운용 적용·예외 조건을 찾아 연결하세요.",
+        "worked_case": "이 단계의 항공정보를 실제 비행에 적용하기 전에는 현행 국내 eAIP/NOTAM, 항공기 형식별 승인 운항자료 및 관제허가를 재확인하세요.",
+        "common_trap": "미국 AIM에만 있는 절차, 통신 예문이나 숫자기준을 한국 운항규정으로 그대로 옮기지 마세요."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "KAIM-COURSE-12",
@@ -2178,7 +2445,31 @@
           "section": "통신 두절(Lost Communication) 절차 — 항로·고도·시점"
         }
       ],
-      "content_revision": "v11.58.1-kaim-theory-only"
+      "content_revision": "v11.58.1-kaim-theory-only",
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "Aviwiki 이론의 설명에서 정의·발동 조건·항공기 운용 적용·예외 조건을 찾아 연결하세요.",
+        "worked_case": "이 단계의 항공정보를 실제 비행에 적용하기 전에는 현행 국내 eAIP/NOTAM, 항공기 형식별 승인 운항자료 및 관제허가를 재확인하세요.",
+        "common_trap": "미국 AIM에만 있는 절차, 통신 예문이나 숫자기준을 한국 운항규정으로 그대로 옮기지 마세요."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "KAIM-COURSE-13",
@@ -2400,7 +2691,31 @@
           "section": "체공 속도·선회율·바람 보정"
         }
       ],
-      "content_revision": "v11.58.1-kaim-theory-only"
+      "content_revision": "v11.58.1-kaim-theory-only",
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "Aviwiki 이론의 설명에서 정의·발동 조건·항공기 운용 적용·예외 조건을 찾아 연결하세요.",
+        "worked_case": "이 단계의 항공정보를 실제 비행에 적용하기 전에는 현행 국내 eAIP/NOTAM, 항공기 형식별 승인 운항자료 및 관제허가를 재확인하세요.",
+        "common_trap": "미국 AIM에만 있는 절차, 통신 예문이나 숫자기준을 한국 운항규정으로 그대로 옮기지 마세요."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "KAIM-COURSE-14",
@@ -2540,7 +2855,31 @@
           "section": "대양 통신과 감시 — HF·SELCAL·ACARS·CPDLC·ADS-C"
         }
       ],
-      "content_revision": "v11.58.1-kaim-theory-only"
+      "content_revision": "v11.58.1-kaim-theory-only",
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "Aviwiki 이론의 설명에서 정의·발동 조건·항공기 운용 적용·예외 조건을 찾아 연결하세요.",
+        "worked_case": "이 단계의 항공정보를 실제 비행에 적용하기 전에는 현행 국내 eAIP/NOTAM, 항공기 형식별 승인 운항자료 및 관제허가를 재확인하세요.",
+        "common_trap": "미국 AIM에만 있는 절차, 통신 예문이나 숫자기준을 한국 운항규정으로 그대로 옮기지 마세요."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "KAIM-COURSE-15",
@@ -2646,7 +2985,31 @@
           "section": "대양 항법 성능과 분리 기법 — PBN·MNPS·RVSM·MNT"
         }
       ],
-      "content_revision": "v11.58.1-kaim-theory-only"
+      "content_revision": "v11.58.1-kaim-theory-only",
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "Aviwiki 이론의 설명에서 정의·발동 조건·항공기 운용 적용·예외 조건을 찾아 연결하세요.",
+        "worked_case": "이 단계의 항공정보를 실제 비행에 적용하기 전에는 현행 국내 eAIP/NOTAM, 항공기 형식별 승인 운항자료 및 관제허가를 재확인하세요.",
+        "common_trap": "미국 AIM에만 있는 절차, 통신 예문이나 숫자기준을 한국 운항규정으로 그대로 옮기지 마세요."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "KAIM-COURSE-16",
@@ -2826,7 +3189,31 @@
           "section": "IFR 비행의 단계 구조와 ATC 허가"
         }
       ],
-      "content_revision": "v11.58.1-kaim-theory-only"
+      "content_revision": "v11.58.1-kaim-theory-only",
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "Aviwiki 이론의 설명에서 정의·발동 조건·항공기 운용 적용·예외 조건을 찾아 연결하세요.",
+        "worked_case": "이 단계의 항공정보를 실제 비행에 적용하기 전에는 현행 국내 eAIP/NOTAM, 항공기 형식별 승인 운항자료 및 관제허가를 재확인하세요.",
+        "common_trap": "미국 AIM에만 있는 절차, 통신 예문이나 숫자기준을 한국 운항규정으로 그대로 옮기지 마세요."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "KAIM-COURSE-17",
@@ -2947,7 +3334,31 @@
           "section": "출발 시 장애물 회피 기준"
         }
       ],
-      "content_revision": "v11.58.1-kaim-theory-only"
+      "content_revision": "v11.58.1-kaim-theory-only",
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "Aviwiki 이론의 설명에서 정의·발동 조건·항공기 운용 적용·예외 조건을 찾아 연결하세요.",
+        "worked_case": "이 단계의 항공정보를 실제 비행에 적용하기 전에는 현행 국내 eAIP/NOTAM, 항공기 형식별 승인 운항자료 및 관제허가를 재확인하세요.",
+        "common_trap": "미국 AIM에만 있는 절차, 통신 예문이나 숫자기준을 한국 운항규정으로 그대로 옮기지 마세요."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "KAIM-COURSE-18",
@@ -3158,7 +3569,31 @@
           "section": "위치 보고와 의무 보고 — 레이더가 있어도 남는 것"
         }
       ],
-      "content_revision": "v11.58.1-kaim-theory-only"
+      "content_revision": "v11.58.1-kaim-theory-only",
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "Aviwiki 이론의 설명에서 정의·발동 조건·항공기 운용 적용·예외 조건을 찾아 연결하세요.",
+        "worked_case": "이 단계의 항공정보를 실제 비행에 적용하기 전에는 현행 국내 eAIP/NOTAM, 항공기 형식별 승인 운항자료 및 관제허가를 재확인하세요.",
+        "common_trap": "미국 AIM에만 있는 절차, 통신 예문이나 숫자기준을 한국 운항규정으로 그대로 옮기지 마세요."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "KAIM-COURSE-19",
@@ -3446,7 +3881,31 @@
           "section": "접근 최저치와 고도 용어, Approach Ban"
         }
       ],
-      "content_revision": "v11.58.1-kaim-theory-only"
+      "content_revision": "v11.58.1-kaim-theory-only",
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "Aviwiki 이론의 설명에서 정의·발동 조건·항공기 운용 적용·예외 조건을 찾아 연결하세요.",
+        "worked_case": "이 단계의 항공정보를 실제 비행에 적용하기 전에는 현행 국내 eAIP/NOTAM, 항공기 형식별 승인 운항자료 및 관제허가를 재확인하세요.",
+        "common_trap": "미국 AIM에만 있는 절차, 통신 예문이나 숫자기준을 한국 운항규정으로 그대로 옮기지 마세요."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "KAIM-COURSE-20",
@@ -3618,7 +4077,31 @@
           "section": "위치 보고와 의무 보고 — 레이더가 있어도 남는 것"
         }
       ],
-      "content_revision": "v11.58.1-kaim-theory-only"
+      "content_revision": "v11.58.1-kaim-theory-only",
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "Aviwiki 이론의 설명에서 정의·발동 조건·항공기 운용 적용·예외 조건을 찾아 연결하세요.",
+        "worked_case": "이 단계의 항공정보를 실제 비행에 적용하기 전에는 현행 국내 eAIP/NOTAM, 항공기 형식별 승인 운항자료 및 관제허가를 재확인하세요.",
+        "common_trap": "미국 AIM에만 있는 절차, 통신 예문이나 숫자기준을 한국 운항규정으로 그대로 옮기지 마세요."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "KAIM-COURSE-21",
@@ -3765,7 +4248,31 @@
           "section": "시카고협약과 ICAO"
         }
       ],
-      "content_revision": "v11.58.1-kaim-theory-only"
+      "content_revision": "v11.58.1-kaim-theory-only",
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "Aviwiki 이론의 설명에서 정의·발동 조건·항공기 운용 적용·예외 조건을 찾아 연결하세요.",
+        "worked_case": "이 단계의 항공정보를 실제 비행에 적용하기 전에는 현행 국내 eAIP/NOTAM, 항공기 형식별 승인 운항자료 및 관제허가를 재확인하세요.",
+        "common_trap": "미국 AIM에만 있는 절차, 통신 예문이나 숫자기준을 한국 운항규정으로 그대로 옮기지 마세요."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "KAIM-COURSE-22",
@@ -3911,7 +4418,31 @@
           "section": "조난 통신·위치 신호와 비상장비"
         }
       ],
-      "content_revision": "v11.58.1-kaim-theory-only"
+      "content_revision": "v11.58.1-kaim-theory-only",
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "Aviwiki 이론의 설명에서 정의·발동 조건·항공기 운용 적용·예외 조건을 찾아 연결하세요.",
+        "worked_case": "이 단계의 항공정보를 실제 비행에 적용하기 전에는 현행 국내 eAIP/NOTAM, 항공기 형식별 승인 운항자료 및 관제허가를 재확인하세요.",
+        "common_trap": "미국 AIM에만 있는 절차, 통신 예문이나 숫자기준을 한국 운항규정으로 그대로 옮기지 마세요."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "KAIM-COURSE-23",
@@ -4070,7 +4601,31 @@
           "section": "비상 단계와 트랜스폰더 코드"
         }
       ],
-      "content_revision": "v11.58.1-kaim-theory-only"
+      "content_revision": "v11.58.1-kaim-theory-only",
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "Aviwiki 이론의 설명에서 정의·발동 조건·항공기 운용 적용·예외 조건을 찾아 연결하세요.",
+        "worked_case": "이 단계의 항공정보를 실제 비행에 적용하기 전에는 현행 국내 eAIP/NOTAM, 항공기 형식별 승인 운항자료 및 관제허가를 재확인하세요.",
+        "common_trap": "미국 AIM에만 있는 절차, 통신 예문이나 숫자기준을 한국 운항규정으로 그대로 옮기지 마세요."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "KAIM-COURSE-24",
@@ -4179,7 +4734,31 @@
           "section": "도착 절차 — STAR·강하 계획, Cruise Clearance, 통신두절 고도"
         }
       ],
-      "content_revision": "v11.58.1-kaim-theory-only"
+      "content_revision": "v11.58.1-kaim-theory-only",
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "Aviwiki 이론의 설명에서 정의·발동 조건·항공기 운용 적용·예외 조건을 찾아 연결하세요.",
+        "worked_case": "이 단계의 항공정보를 실제 비행에 적용하기 전에는 현행 국내 eAIP/NOTAM, 항공기 형식별 승인 운항자료 및 관제허가를 재확인하세요.",
+        "common_trap": "미국 AIM에만 있는 절차, 통신 예문이나 숫자기준을 한국 운항규정으로 그대로 옮기지 마세요."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "KAIM-COURSE-25",
@@ -4501,7 +5080,31 @@
           "section": "전선의 정의와 구조, 4대 전선 비교"
         }
       ],
-      "content_revision": "v11.58.1-kaim-theory-only"
+      "content_revision": "v11.58.1-kaim-theory-only",
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "Aviwiki 이론의 설명에서 정의·발동 조건·항공기 운용 적용·예외 조건을 찾아 연결하세요.",
+        "worked_case": "이 단계의 항공정보를 실제 비행에 적용하기 전에는 현행 국내 eAIP/NOTAM, 항공기 형식별 승인 운항자료 및 관제허가를 재확인하세요.",
+        "common_trap": "미국 AIM에만 있는 절차, 통신 예문이나 숫자기준을 한국 운항규정으로 그대로 옮기지 마세요."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "KAIM-COURSE-26",
@@ -4662,7 +5265,31 @@
           "section": "저온 고도보정: 차가운 날 고도계가 거짓말할 때"
         }
       ],
-      "content_revision": "v11.58.1-kaim-theory-only"
+      "content_revision": "v11.58.1-kaim-theory-only",
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "Aviwiki 이론의 설명에서 정의·발동 조건·항공기 운용 적용·예외 조건을 찾아 연결하세요.",
+        "worked_case": "이 단계의 항공정보를 실제 비행에 적용하기 전에는 현행 국내 eAIP/NOTAM, 항공기 형식별 승인 운항자료 및 관제허가를 재확인하세요.",
+        "common_trap": "미국 AIM에만 있는 절차, 통신 예문이나 숫자기준을 한국 운항규정으로 그대로 옮기지 마세요."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "KAIM-COURSE-27",
@@ -4852,7 +5479,31 @@
           "section": "청천난류(CAT)와 산악파 난류"
         }
       ],
-      "content_revision": "v11.58.1-kaim-theory-only"
+      "content_revision": "v11.58.1-kaim-theory-only",
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "Aviwiki 이론의 설명에서 정의·발동 조건·항공기 운용 적용·예외 조건을 찾아 연결하세요.",
+        "worked_case": "이 단계의 항공정보를 실제 비행에 적용하기 전에는 현행 국내 eAIP/NOTAM, 항공기 형식별 승인 운항자료 및 관제허가를 재확인하세요.",
+        "common_trap": "미국 AIM에만 있는 절차, 통신 예문이나 숫자기준을 한국 운항규정으로 그대로 옮기지 마세요."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "KAIM-COURSE-28",
@@ -5088,7 +5739,31 @@
           "section": "엔진·날개 방빙과 착빙 조건 판단"
         }
       ],
-      "content_revision": "v11.58.1-kaim-theory-only"
+      "content_revision": "v11.58.1-kaim-theory-only",
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "Aviwiki 이론의 설명에서 정의·발동 조건·항공기 운용 적용·예외 조건을 찾아 연결하세요.",
+        "worked_case": "이 단계의 항공정보를 실제 비행에 적용하기 전에는 현행 국내 eAIP/NOTAM, 항공기 형식별 승인 운항자료 및 관제허가를 재확인하세요.",
+        "common_trap": "미국 AIM에만 있는 절차, 통신 예문이나 숫자기준을 한국 운항규정으로 그대로 옮기지 마세요."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "KAIM-COURSE-29",
@@ -5308,7 +5983,31 @@
           "section": "항공 의사결정(ADM)과 DECIDE 모델"
         }
       ],
-      "content_revision": "v11.58.1-kaim-theory-only"
+      "content_revision": "v11.58.1-kaim-theory-only",
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "Aviwiki 이론의 설명에서 정의·발동 조건·항공기 운용 적용·예외 조건을 찾아 연결하세요.",
+        "worked_case": "이 단계의 항공정보를 실제 비행에 적용하기 전에는 현행 국내 eAIP/NOTAM, 항공기 형식별 승인 운항자료 및 관제허가를 재확인하세요.",
+        "common_trap": "미국 AIM에만 있는 절차, 통신 예문이나 숫자기준을 한국 운항규정으로 그대로 옮기지 마세요."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "KAIM-COURSE-30",
@@ -5482,7 +6181,31 @@
           "section": "접근 구간의 해부: 피더에서 실패접근까지, 그리고 TAA"
         }
       ],
-      "content_revision": "v11.58.1-kaim-theory-only"
+      "content_revision": "v11.58.1-kaim-theory-only",
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "Aviwiki 이론의 설명에서 정의·발동 조건·항공기 운용 적용·예외 조건을 찾아 연결하세요.",
+        "worked_case": "이 단계의 항공정보를 실제 비행에 적용하기 전에는 현행 국내 eAIP/NOTAM, 항공기 형식별 승인 운항자료 및 관제허가를 재확인하세요.",
+        "common_trap": "미국 AIM에만 있는 절차, 통신 예문이나 숫자기준을 한국 운항규정으로 그대로 옮기지 마세요."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     }
   ]
 }

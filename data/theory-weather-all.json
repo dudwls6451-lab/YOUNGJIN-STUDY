@@ -12,7 +12,10 @@
       "pass_percent": 80
     },
     "note": "교재 본문을 학습용으로 재구성. 쪽지시험은 별도 샘플문항이 아니라 기존 항공기상 문제은행의 관련 문항에서 매회 10문항 무작위 출제.",
-    "organization_note": "교재 제1편의 제1~9절과 제2편의 제1~4절 순서를 유지했다. 문제은행의 일부 Study Unit 번호는 추출 이력상 이론 절 번호와 다를 수 있다."
+    "organization_note": "교재 제1편의 제1~9절과 제2편의 제1~4절 순서를 유지했다. 문제은행의 일부 Study Unit 번호는 추출 이력상 이론 절 번호와 다를 수 있다.",
+    "content_enhancement_version": "v11.60.67",
+    "reference_policy": "대한민국 법령·eAIP가 한국 적용 기준. FAA 자료는 보충/미국 기준. 현행 발효자료와 NOTAM 반드시 확인.",
+    "deep_review_note": "기존 교재 이론은 유지하며 각 단계에 운항 적용과 자주 혼동하는 경계를 보강."
   },
   "stages": [
     {
@@ -124,6 +127,24 @@
             "src": "./assets/theory/weather/wx_atm_vertical_structure.png",
             "caption": "교재 그림 1-1. 대기권의 수직구조"
           }
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "대기의 층을 이름만 암기하지 말고 고도에 따른 온도 변화와 기상현상의 위치를 연결한다. 대류권은 강한 수직혼합과 수증기 때문에 대부분의 구름과 악기상이 생긴다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "출발 공항은 맑더라도 상승 중 역전층을 지나면 시정·난기류가 달라질 수 있다. 지상 관측값만으로 항로 전체의 기상을 대표해서는 안 된다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "‘고도가 올라가면 반드시 온도가 내려간다’는 말은 모든 대기층에 적용되지 않는다."
+          ]
         }
       ],
       "summary_points": [
@@ -133,7 +154,31 @@
         "대류권계면 높이: 적도 높고 극지방 낮음",
         "성층권의 오존은 자외선을 흡수하여 상층 기온 상승에 기여"
       ],
-      "unit_title": "제1절 대기"
+      "unit_title": "제1절 대기",
+      "study_references": [
+        {
+          "label": "FAA Aviation Weather Handbook (FAA-H-8083-28B)",
+          "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28b-aviation-weather-handbook",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-WEATHER"
+        },
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "대기의 층을 이름만 암기하지 말고 고도에 따른 온도 변화와 기상현상의 위치를 연결한다. 대류권은 강한 수직혼합과 수증기 때문에 대부분의 구름과 악기상이 생긴다.",
+        "worked_case": "출발 공항은 맑더라도 상승 중 역전층을 지나면 시정·난기류가 달라질 수 있다. 지상 관측값만으로 항로 전체의 기상을 대표해서는 안 된다.",
+        "common_trap": "‘고도가 올라가면 반드시 온도가 내려간다’는 말은 모든 대기층에 적용되지 않는다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "WX-TH-SU3-02",
@@ -230,6 +275,24 @@
             "QFE: 활주로/착지점 기준으로 지상에서 0을 나타내도록 맞추는 방식.",
             "QNE: 표준대기 29.92 inHg에 맞춘 설정으로 기압고도에 사용한다. 교재는 국내에서 14,000 ft 이상 비행 시 사용한다고 설명한다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "표준대기 ISA는 실황 예보가 아니라 성능과 계기 보정의 비교 기준이다. 표준 해면 기압 1013.25 hPa·온도 15°C와 표준 기온감률을 실제 관측치와 구분한다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "QNH를 설정하면 고도계는 공항 부근에서 해발고도에 가깝게 지시한다. 표준기압 설정 고도와 QNH 설정 고도는 같은 수치를 의미하지 않는다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "높은 곳에서 낮은 기압으로 비행하면서 설정을 갱신하지 않으면 실제 고도는 지시고도보다 낮을 수 있다. 저온에서도 장애물 여유가 줄어든다."
+          ]
         }
       ],
       "summary_points": [
@@ -239,7 +302,31 @@
         "AGL=절대고도, MSL=진고도, 29.92 설정=기압고도",
         "찬 공기/낮은 기압 쪽으로 갈수록 실제 고도 저하에 주의"
       ],
-      "unit_title": "제1절 대기"
+      "unit_title": "제1절 대기",
+      "study_references": [
+        {
+          "label": "FAA Aviation Weather Handbook (FAA-H-8083-28B)",
+          "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28b-aviation-weather-handbook",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-WEATHER"
+        },
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "표준대기 ISA는 실황 예보가 아니라 성능과 계기 보정의 비교 기준이다. 표준 해면 기압 1013.25 hPa·온도 15°C와 표준 기온감률을 실제 관측치와 구분한다.",
+        "worked_case": "QNH를 설정하면 고도계는 공항 부근에서 해발고도에 가깝게 지시한다. 표준기압 설정 고도와 QNH 설정 고도는 같은 수치를 의미하지 않는다.",
+        "common_trap": "높은 곳에서 낮은 기압으로 비행하면서 설정을 갱신하지 않으면 실제 고도는 지시고도보다 낮을 수 있다. 저온에서도 장애물 여유가 줄어든다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "WX-TH-SU3-03",
@@ -323,6 +410,24 @@
               ]
             ]
           }
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "단열변화는 외부와 열을 주고받지 않는 공기덩이가 상승·하강하며 팽창·압축되는 현상이다. 건조단열감률과 습윤단열감률은 포화 여부 때문에 달라진다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "산을 넘는 습윤 공기는 상승하며 냉각·응결하고 잠열을 방출한다. 이후 하강하는 공기는 다른 온도 경로를 거치므로 풍하측이 더 따뜻하고 건조해질 수 있다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "환경감률(주위 실제 기온의 높이별 변화)과 상승 공기덩이의 단열감률을 혼동하지 않는다."
+          ]
         }
       ],
       "summary_points": [
@@ -332,7 +437,31 @@
         "DALR ≈ 3°C/1,000 ft",
         "평균기온감률 ≈ 2°C/1,000 ft"
       ],
-      "unit_title": "제1절 대기"
+      "unit_title": "제1절 대기",
+      "study_references": [
+        {
+          "label": "FAA Aviation Weather Handbook (FAA-H-8083-28B)",
+          "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28b-aviation-weather-handbook",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-WEATHER"
+        },
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "단열변화는 외부와 열을 주고받지 않는 공기덩이가 상승·하강하며 팽창·압축되는 현상이다. 건조단열감률과 습윤단열감률은 포화 여부 때문에 달라진다.",
+        "worked_case": "산을 넘는 습윤 공기는 상승하며 냉각·응결하고 잠열을 방출한다. 이후 하강하는 공기는 다른 온도 경로를 거치므로 풍하측이 더 따뜻하고 건조해질 수 있다.",
+        "common_trap": "환경감률(주위 실제 기온의 높이별 변화)과 상승 공기덩이의 단열감률을 혼동하지 않는다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "WX-TH-SU3-04",
@@ -390,6 +519,24 @@
             "src": "./assets/theory/weather/wx_atm_phase_change.png",
             "caption": "교재 그림 1-3. 물의 상변화(Phase change)"
           }
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "상대습도는 포화수증기량에 대한 현재 수증기량의 비율이며, 이슬점은 기온을 낮췄을 때 포화되는 온도다. 기온과 이슬점의 차가 작을수록 응결 가능성을 경계한다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "기온 18°C·이슬점 17°C에 약한 바람과 야간 복사냉각이 겹치면 안개 또는 낮은 층운을 예상하고 시정 예보를 다시 확인한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "상대습도 100%가 강수 발생을 보장하지 않으며, 이슬점 차만으로 정확한 운저고도를 단정할 수 없다."
+          ]
         }
       ],
       "summary_points": [
@@ -399,7 +546,31 @@
         "기화는 열 흡수, 응결은 열 방출",
         "쪽지시험에서는 습도 정의와 상변화의 열 출입을 구분"
       ],
-      "unit_title": "제1절 대기"
+      "unit_title": "제1절 대기",
+      "study_references": [
+        {
+          "label": "FAA Aviation Weather Handbook (FAA-H-8083-28B)",
+          "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28b-aviation-weather-handbook",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-WEATHER"
+        },
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "상대습도는 포화수증기량에 대한 현재 수증기량의 비율이며, 이슬점은 기온을 낮췄을 때 포화되는 온도다. 기온과 이슬점의 차가 작을수록 응결 가능성을 경계한다.",
+        "worked_case": "기온 18°C·이슬점 17°C에 약한 바람과 야간 복사냉각이 겹치면 안개 또는 낮은 층운을 예상하고 시정 예보를 다시 확인한다.",
+        "common_trap": "상대습도 100%가 강수 발생을 보장하지 않으며, 이슬점 차만으로 정확한 운저고도를 단정할 수 없다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "WX-TH-ATM-05",
@@ -484,6 +655,24 @@
             "현상 규모는 미세규모·중간규모·종관규모·행성규모처럼 수평 길이에 따라 구분한다.",
             "항공기 운항에서는 단일 활주로 부근의 작은 난류부터 전선·저기압 같은 종관규모 현상까지 서로 다른 규모를 함께 판단해야 한다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "대기 안정도는 공기덩이가 강제로 이동한 뒤 원래 높이로 돌아가려는지 계속 멀어지는지의 성질이다. 환경감률과 공기덩이의 단열냉각률을 비교한다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "불안정한 날에는 적운 성장과 상승·하강기류가 발달하기 쉬워 VFR 시계비행과 저고도 접근에서 난기류가 커질 수 있다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "구름의 존재만으로 대기가 불안정하다고 단정할 수 없고, 포화 전후의 감률 비교가 달라진다."
+          ]
         }
       ],
       "summary_points": [
@@ -492,7 +681,31 @@
         "불안정: 적운형·소나기·난기류",
         "조건부 불안정: 습윤감률 < 실제감률 < 건조감률",
         "SSI는 낮아질수록 대류 불안정 쪽"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Aviation Weather Handbook (FAA-H-8083-28B)",
+          "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28b-aviation-weather-handbook",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-WEATHER"
+        },
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "대기 안정도는 공기덩이가 강제로 이동한 뒤 원래 높이로 돌아가려는지 계속 멀어지는지의 성질이다. 환경감률과 공기덩이의 단열냉각률을 비교한다.",
+        "worked_case": "불안정한 날에는 적운 성장과 상승·하강기류가 발달하기 쉬워 VFR 시계비행과 저고도 접근에서 난기류가 커질 수 있다.",
+        "common_trap": "구름의 존재만으로 대기가 불안정하다고 단정할 수 없고, 포화 전후의 감률 비교가 달라진다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "WX-TH-ATM-06",
@@ -567,6 +780,24 @@
             "Dynamic hydroplaning은 타이어가 물층 위로 떠오르며 제동·조향 효과가 크게 줄어드는 현상이다.",
             "Viscous hydroplaning과 reverted-rubber hydroplaning도 교재에서 별도 형태로 구분한다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "대규모 대기순환은 태양에너지의 위도별 불균형, 지구 자전, 압력경도로 설명한다. 역전층은 차가운 공기 위에 상대적으로 따뜻한 공기가 놓이는 상태다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "아침 저층 역전은 연무와 배출물 축적, 안개 지속에 기여할 수 있다. 상층의 강풍과 지상의 약풍 사이에는 풍속 변화가 있을 수 있다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "역전층이 있다고 비행 가능한 모든 고도에서 난기류가 발생하는 것은 아니며, 역전층 상·하단의 전단을 따로 본다."
+          ]
         }
       ],
       "summary_points": [
@@ -575,7 +806,31 @@
         "복사역전: 맑고 약한 바람의 야간",
         "높은 밀도고도는 항공기 성능에 불리",
         "Hydroplaning 시 제동·조향 성능 저하"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Aviation Weather Handbook (FAA-H-8083-28B)",
+          "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28b-aviation-weather-handbook",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-WEATHER"
+        },
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "대규모 대기순환은 태양에너지의 위도별 불균형, 지구 자전, 압력경도로 설명한다. 역전층은 차가운 공기 위에 상대적으로 따뜻한 공기가 놓이는 상태다.",
+        "worked_case": "아침 저층 역전은 연무와 배출물 축적, 안개 지속에 기여할 수 있다. 상층의 강풍과 지상의 약풍 사이에는 풍속 변화가 있을 수 있다.",
+        "common_trap": "역전층이 있다고 비행 가능한 모든 고도에서 난기류가 발생하는 것은 아니며, 역전층 상·하단의 전단을 따로 본다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "WX-TH-WIND-01",
@@ -639,6 +894,24 @@
           "paragraphs": [
             "곡률이 있는 흐름에서는 원심력과 기압경도력·전향력의 균형이 함께 고려된다. 교재는 이러한 힘의 조합을 이용해 고기압·저기압 주변의 바람을 설명한다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "바람의 1차 원인은 수평 기압경도력이다. 전향력은 운동 중 공기에 작용하고 마찰은 특히 지표 근처에서 풍향·풍속을 바꾼다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "일기도에서 등압선 간격이 좁은 구간은 보통 강한 압력경도를 시사하지만 실제 바람은 지형과 고도, 마찰의 영향을 함께 받는다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "등압선에 평행한 이상적인 지균풍과 지상에서 등압선을 비스듬히 가로지르는 마찰풍은 다르다."
+          ]
         }
       ],
       "summary_points": [
@@ -647,7 +920,31 @@
         "적도 전향력 ≈ 0",
         "마찰은 풍속과 전향효과를 감소",
         "등압선이 조밀할수록 강풍 가능성 증가"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Aviation Weather Handbook (FAA-H-8083-28B)",
+          "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28b-aviation-weather-handbook",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-WEATHER"
+        },
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "바람의 1차 원인은 수평 기압경도력이다. 전향력은 운동 중 공기에 작용하고 마찰은 특히 지표 근처에서 풍향·풍속을 바꾼다.",
+        "worked_case": "일기도에서 등압선 간격이 좁은 구간은 보통 강한 압력경도를 시사하지만 실제 바람은 지형과 고도, 마찰의 영향을 함께 받는다.",
+        "common_trap": "등압선에 평행한 이상적인 지균풍과 지상에서 등압선을 비스듬히 가로지르는 마찰풍은 다르다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "WX-TH-WIND-02",
@@ -707,6 +1004,24 @@
             "src": "./assets/theory/weather/wx_wind_local.png",
             "caption": "교재의 해륙풍·산곡풍 등 국지풍 그림"
           }
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "지균풍은 기압경도력과 전향력의 균형, 경도풍은 곡률에 따른 힘을 포함한다. 해륙풍·산곡풍은 가열과 냉각 차이에 따른 국지 순환이다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "해안 공항에서는 해풍 전환으로 정면풍·측풍 방향이 갑자기 달라질 수 있다. 착륙 전 최신 ATIS와 실풍을 비교한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "바람이 지균평형에 가깝다는 가정은 마찰이 큰 지표 바로 위나 적도 근처에서 그대로 적용하기 어렵다."
+          ]
         }
       ],
       "summary_points": [
@@ -715,7 +1030,31 @@
         "낮: 해풍·곡풍",
         "밤: 육풍·산풍",
         "하강 단열압축은 따뜻하고 건조한 바람을 만든다"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Aviation Weather Handbook (FAA-H-8083-28B)",
+          "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28b-aviation-weather-handbook",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-WEATHER"
+        },
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "지균풍은 기압경도력과 전향력의 균형, 경도풍은 곡률에 따른 힘을 포함한다. 해륙풍·산곡풍은 가열과 냉각 차이에 따른 국지 순환이다.",
+        "worked_case": "해안 공항에서는 해풍 전환으로 정면풍·측풍 방향이 갑자기 달라질 수 있다. 착륙 전 최신 ATIS와 실풍을 비교한다.",
+        "common_trap": "바람이 지균평형에 가깝다는 가정은 마찰이 큰 지표 바로 위나 적도 근처에서 그대로 적용하기 어렵다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "WX-TH-CLOUD-01",
@@ -816,6 +1155,24 @@
             "src": "./assets/theory/weather/wx_cloud_classification.png",
             "caption": "교재 표 1-5: 구름의 고도별 분류"
           }
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "구름은 공기를 이슬점까지 냉각하거나 수증기를 공급해 물방울·빙정이 형성될 때 발달한다. 층운형과 적운형은 안정도와 수직운동의 차이를 보여준다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "기온·이슬점 차를 이용한 운저 근사치는 제한된 조건에서만 성립한다. 실제 비행 계획은 METAR/TAF의 운량·운고와 최신 관측을 우선한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "‘운저’는 구름의 가장 낮은 밑면과 관련되고, ceiling은 정해진 운량 기준을 충족하는 최저 운층으로 동일한 말이 아니다."
+          ]
         }
       ],
       "summary_points": [
@@ -824,7 +1181,31 @@
         "Ci/Cc/Cs 상층운",
         "Ac/As 중층운",
         "Cu/Cb는 수직발달이 중요"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Aviation Weather Handbook (FAA-H-8083-28B)",
+          "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28b-aviation-weather-handbook",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-WEATHER"
+        },
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "구름은 공기를 이슬점까지 냉각하거나 수증기를 공급해 물방울·빙정이 형성될 때 발달한다. 층운형과 적운형은 안정도와 수직운동의 차이를 보여준다.",
+        "worked_case": "기온·이슬점 차를 이용한 운저 근사치는 제한된 조건에서만 성립한다. 실제 비행 계획은 METAR/TAF의 운량·운고와 최신 관측을 우선한다.",
+        "common_trap": "‘운저’는 구름의 가장 낮은 밑면과 관련되고, ceiling은 정해진 운량 기준을 충족하는 최저 운층으로 동일한 말이 아니다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "WX-TH-CLOUD-02",
@@ -873,6 +1254,24 @@
             "Cb는 소나기성 강수·뇌우·우박과 같은 강한 대류성 현상과 연결된다.",
             "강수입자가 커져 상승기류가 더 이상 지지하지 못할 때 지상으로 떨어진다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "강수는 구름방울의 충돌·병합 또는 얼음 결정 성장으로 발달한다. 같은 구름이라도 수직 온도분포에 따라 비·눈·진눈깨비·어는비로 달라진다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "지상은 영상이어도 상층에서 생성된 강수가 찬 공기층을 통과해 과냉각 액체 상태가 되면 항공기 결빙 위험이 남는다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "어는비 위험은 단순한 지상 온도보다 비행경로의 전체 수직 온도구조와 연관된다."
+          ]
         }
       ],
       "summary_points": [
@@ -881,7 +1280,31 @@
         "Ns: 지속성 강수",
         "Cb: 강한 소나기·뇌우·우박",
         "강수 형태는 구름 아래 온도층에도 좌우됨"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Aviation Weather Handbook (FAA-H-8083-28B)",
+          "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28b-aviation-weather-handbook",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-WEATHER"
+        },
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "강수는 구름방울의 충돌·병합 또는 얼음 결정 성장으로 발달한다. 같은 구름이라도 수직 온도분포에 따라 비·눈·진눈깨비·어는비로 달라진다.",
+        "worked_case": "지상은 영상이어도 상층에서 생성된 강수가 찬 공기층을 통과해 과냉각 액체 상태가 되면 항공기 결빙 위험이 남는다.",
+        "common_trap": "어는비 위험은 단순한 지상 온도보다 비행경로의 전체 수직 온도구조와 연관된다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "WX-TH-FOG-01",
@@ -959,6 +1382,24 @@
             "src": "./assets/theory/weather/wx_fog_types.png",
             "caption": "교재의 주요 안개 형태 그림"
           }
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "복사안개는 야간 지표 냉각, 이류안개는 따뜻하고 습한 공기의 차가운 표면 통과가 주요 기전이다. 증발안개·활승안개도 생성 조건이 다르다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "야간 맑고 약풍인 내륙공항과 따뜻한 해양기단이 유입되는 해안공항은 모두 안개가 낄 수 있어도 지속시간과 소산 요인이 다르다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "안개와 낮은 층운을 구분할 때 지면 접촉 여부가 중요하며, 안개 형성에 무조건 완전한 무풍이 필요한 것은 아니다."
+          ]
         }
       ],
       "summary_points": [
@@ -967,7 +1408,31 @@
         "이류안개: 습한 공기의 수평 이동",
         "활승안개: 지형 상승",
         "증기안개: 찬 공기 + 따뜻한 수면"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Aviation Weather Handbook (FAA-H-8083-28B)",
+          "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28b-aviation-weather-handbook",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-WEATHER"
+        },
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "복사안개는 야간 지표 냉각, 이류안개는 따뜻하고 습한 공기의 차가운 표면 통과가 주요 기전이다. 증발안개·활승안개도 생성 조건이 다르다.",
+        "worked_case": "야간 맑고 약풍인 내륙공항과 따뜻한 해양기단이 유입되는 해안공항은 모두 안개가 낄 수 있어도 지속시간과 소산 요인이 다르다.",
+        "common_trap": "안개와 낮은 층운을 구분할 때 지면 접촉 여부가 중요하며, 안개 형성에 무조건 완전한 무풍이 필요한 것은 아니다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "WX-TH-FOG-02",
@@ -1037,6 +1502,24 @@
           "paragraphs": [
             "안개는 지표 부근의 시정과 RVR을 직접 악화시키므로 이착륙 단계의 영향이 특히 크다. 현재 기온·이슬점 차, 바람, 야간 복사냉각, 해안의 이류 조건을 함께 확인하는 것이 교재 문제의 반복 포인트다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "안개 소산은 일사 가열·건조 공기 유입·바람에 의한 혼합에 좌우된다. 강한 역전과 약풍이 지속되면 오전에도 낮은 시정이 오래 유지될 수 있다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "도착 시각 전후 TEMPO 또는 BECMG 시정 예보가 있다면 연료·대체공항·접근 최저치를 함께 다시 검토한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "TAF에 ‘개선’이 표시되었다고 현재 METAR가 즉시 그 상태라는 뜻은 아니다."
+          ]
         }
       ],
       "summary_points": [
@@ -1045,7 +1528,31 @@
         "역전층은 안개 지속에 기여",
         "운항 영향은 이착륙 시 가장 직접적",
         "복사안개와 이류안개의 바람 조건을 구분"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Aviation Weather Handbook (FAA-H-8083-28B)",
+          "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28b-aviation-weather-handbook",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-WEATHER"
+        },
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "안개 소산은 일사 가열·건조 공기 유입·바람에 의한 혼합에 좌우된다. 강한 역전과 약풍이 지속되면 오전에도 낮은 시정이 오래 유지될 수 있다.",
+        "worked_case": "도착 시각 전후 TEMPO 또는 BECMG 시정 예보가 있다면 연료·대체공항·접근 최저치를 함께 다시 검토한다.",
+        "common_trap": "TAF에 ‘개선’이 표시되었다고 현재 METAR가 즉시 그 상태라는 뜻은 아니다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "WX-TH-AIRMASS-01",
@@ -1132,6 +1639,24 @@
           "paragraphs": [
             "기단이 발원지를 떠나 더 따뜻하거나 더 차가운 지면 위로 이동하면 하층의 안정도가 달라진다. 차가운 기단이 따뜻한 수면 위를 지나면 하층이 가열되어 불안정해지고 대류·적운·소나기가 강화될 수 있다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "기단은 발생 지역의 기온·수분 특성을 오랜 시간 얻은 대규모 공기덩이다. 이동하면서 아래 표면과 열·수분을 교환해 원래 특성이 변질된다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "차가운 기단이 따뜻한 해수면을 지나면 하층 가열로 불안정해져 적운·소나기가 증가할 수 있다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "기단의 원산지 분류는 현재 공항의 실황 날씨를 직접 확정하지 않는다."
+          ]
         }
       ],
       "summary_points": [
@@ -1140,7 +1665,31 @@
         "찬 기단이 따뜻한 지면 위 → 하층 불안정",
         "기단 특성은 이동경로에서 변질",
         "우리나라 날씨는 계절별 주변 기단의 영향을 크게 받음"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Aviation Weather Handbook (FAA-H-8083-28B)",
+          "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28b-aviation-weather-handbook",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-WEATHER"
+        },
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "기단은 발생 지역의 기온·수분 특성을 오랜 시간 얻은 대규모 공기덩이다. 이동하면서 아래 표면과 열·수분을 교환해 원래 특성이 변질된다.",
+        "worked_case": "차가운 기단이 따뜻한 해수면을 지나면 하층 가열로 불안정해져 적운·소나기가 증가할 수 있다.",
+        "common_trap": "기단의 원산지 분류는 현재 공항의 실황 날씨를 직접 확정하지 않는다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "WX-TH-FRONT-01",
@@ -1206,6 +1755,24 @@
           "paragraphs": [
             "두 기단의 세력이 비슷해 경계가 거의 이동하지 않는 전선이다. 전선대를 따라 흐린 날씨와 강수가 장기간 이어질 수 있다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "온난전선에서는 따뜻한 공기가 찬 공기 위로 비교적 완만하게 상승하여 넓은 범위의 층운과 지속성 강수를 형성할 수 있다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "온난전선 접근 시 상층운→중층운→낮은 운층과 강수의 연속 변화를 보고, 착륙 예정 공항의 ceiling·시정 악화를 대비한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "전선의 위치는 지상 바람 전환만으로 단정하지 않으며 기압·기온·강수의 연속 자료를 확인한다."
+          ]
         }
       ],
       "summary_points": [
@@ -1214,7 +1781,31 @@
         "전선 접근 시 구름 고도가 점차 낮아짐",
         "지속성 강수 가능",
         "정체전선은 이동이 매우 느림"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Aviation Weather Handbook (FAA-H-8083-28B)",
+          "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28b-aviation-weather-handbook",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-WEATHER"
+        },
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "온난전선에서는 따뜻한 공기가 찬 공기 위로 비교적 완만하게 상승하여 넓은 범위의 층운과 지속성 강수를 형성할 수 있다.",
+        "worked_case": "온난전선 접근 시 상층운→중층운→낮은 운층과 강수의 연속 변화를 보고, 착륙 예정 공항의 ceiling·시정 악화를 대비한다.",
+        "common_trap": "전선의 위치는 지상 바람 전환만으로 단정하지 않으며 기압·기온·강수의 연속 자료를 확인한다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "WX-TH-FRONT-02",
@@ -1270,6 +1861,24 @@
             "한랭전선 부근에는 급격한 바람 변화와 난류가 나타날 수 있다.",
             "전선대는 저층 wind shear와 착빙·뇌우 위험을 동반할 수 있어 단순 강수 여부만으로 판단하지 않는다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "한랭전선의 찬 공기는 따뜻한 공기를 상대적으로 급하게 들어 올려 적운·뇌우·돌풍을 동반할 수 있다. 폐색전선은 한랭전선이 온난전선을 따라잡은 구조다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "한랭전선 통과 전후 지상풍의 급변은 활주로 선택과 접근 안정성을 바꾼다. 뇌우가 동반되면 전선선상 강수만 보지 않고 광범위하게 우회한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "모든 한랭전선이 폭우를 동반하는 것은 아니고 전선의 기울기와 대기 안정도에 따라 양상이 달라진다."
+          ]
         }
       ],
       "summary_points": [
@@ -1278,7 +1887,31 @@
         "전선 통과 시 풍향·기압·기온 변화 확인",
         "한랭전선 부근 난류/뇌우 주의",
         "전선대는 wind shear 위험도 함께 판단"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Aviation Weather Handbook (FAA-H-8083-28B)",
+          "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28b-aviation-weather-handbook",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-WEATHER"
+        },
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "한랭전선의 찬 공기는 따뜻한 공기를 상대적으로 급하게 들어 올려 적운·뇌우·돌풍을 동반할 수 있다. 폐색전선은 한랭전선이 온난전선을 따라잡은 구조다.",
+        "worked_case": "한랭전선 통과 전후 지상풍의 급변은 활주로 선택과 접근 안정성을 바꾼다. 뇌우가 동반되면 전선선상 강수만 보지 않고 광범위하게 우회한다.",
+        "common_trap": "모든 한랭전선이 폭우를 동반하는 것은 아니고 전선의 기울기와 대기 안정도에 따라 양상이 달라진다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "WX-TH-TS-01",
@@ -1360,6 +1993,24 @@
           "paragraphs": [
             "강한 상승·하강기류, 우박, 번개, 돌풍, 강한 강수와 난류가 동시에 나타날 수 있어 성숙한 Cb는 항공기가 직접 통과해서는 안 되는 대표적 위험기상으로 취급된다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "뇌우는 충분한 수분·불안정·상승기작이 결합해 발생한다. 발달기, 성숙기, 소멸기 중 성숙기에는 상승·하강기류와 강수가 함께 강해진다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "적란운의 비가 약해 보여도 구름 주변의 돌풍전선과 급변풍은 접근 항공기를 위협할 수 있다. 레이더 반사도만으로 안전한 비행 구역이라 단정하지 않는다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "구름이 작아 보이는 초기 발달기에도 강한 상승기류가 있을 수 있어 외형만으로 위험도를 낮게 보지 않는다."
+          ]
         }
       ],
       "summary_points": [
@@ -1368,7 +2019,31 @@
         "성숙기: 상승+하강+강수",
         "소멸기: 하강기류",
         "성숙 Cb는 직접 회피"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Aviation Weather Handbook (FAA-H-8083-28B)",
+          "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28b-aviation-weather-handbook",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-WEATHER"
+        },
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "뇌우는 충분한 수분·불안정·상승기작이 결합해 발생한다. 발달기, 성숙기, 소멸기 중 성숙기에는 상승·하강기류와 강수가 함께 강해진다.",
+        "worked_case": "적란운의 비가 약해 보여도 구름 주변의 돌풍전선과 급변풍은 접근 항공기를 위협할 수 있다. 레이더 반사도만으로 안전한 비행 구역이라 단정하지 않는다.",
+        "common_trap": "구름이 작아 보이는 초기 발달기에도 강한 상승기류가 있을 수 있어 외형만으로 위험도를 낮게 보지 않는다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "WX-TH-TS-02",
@@ -1442,6 +2117,24 @@
             "교재 문제에서는 강한 뇌우로부터 약 20 NM 이상의 회피 간격을 반복적으로 다룬다.",
             "시각적으로 구름이 약해 보여도 돌풍전선과 난류가 강수구역 바깥까지 확장될 수 있다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "뇌우에는 강한 상승·하강기류, 우박, 낙뢰, 착빙, 난기류, 미소규모 급변풍이 복합적으로 나타난다. 슈퍼셀·다세포·단세포 뇌우는 조직이 다르다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "정면에 강한 대류셀이 보이면 관통보다 회피가 원칙이고, 회피 거리와 경로는 항공기·관제·회사 절차에 따라 판단한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "항공기 기상레이더는 강수 입자에 반응하므로 강수 밖 난기류까지 직접 검출해 주지 않는다."
+          ]
         }
       ],
       "summary_points": [
@@ -1450,7 +2143,31 @@
         "저고도 wind shear/microburst 주의",
         "강한 셀 사이를 관통하지 않기",
         "시험 포인트: 약 20 NM 회피"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Aviation Weather Handbook (FAA-H-8083-28B)",
+          "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28b-aviation-weather-handbook",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-WEATHER"
+        },
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "뇌우에는 강한 상승·하강기류, 우박, 낙뢰, 착빙, 난기류, 미소규모 급변풍이 복합적으로 나타난다. 슈퍼셀·다세포·단세포 뇌우는 조직이 다르다.",
+        "worked_case": "정면에 강한 대류셀이 보이면 관통보다 회피가 원칙이고, 회피 거리와 경로는 항공기·관제·회사 절차에 따라 판단한다.",
+        "common_trap": "항공기 기상레이더는 강수 입자에 반응하므로 강수 밖 난기류까지 직접 검출해 주지 않는다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "WX-TH-ICE-01",
@@ -1523,6 +2240,24 @@
             "src": "./assets/theory/weather/wx_icing_airfoil.png",
             "caption": "교재의 날개 앞전 clear/rime/mixed icing 형태"
           }
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "착빙은 과냉각 물방울이 항공기 표면에 부딪혀 동결될 때 특히 위험하다. 거친 얼음은 날개 형상을 변화시켜 항력을 키우고 실속속도를 높일 수 있다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "저온 구름 진입 전 착빙고도·AIRMET/SIGMET·항공기 승인 장비를 확인하고, 예상보다 빠른 축적이 발생하면 허용 절차에 따라 탈출한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "영하의 모든 구름에 같은 강도의 착빙이 있는 것은 아니며 물방울 크기와 액체수함량이 중요하다."
+          ]
         }
       ],
       "summary_points": [
@@ -1531,7 +2266,31 @@
         "Clear ice는 단단하고 퍼지는 형태",
         "Rime ice는 거칠고 불투명",
         "Frost도 이륙 전 제거 대상"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Aviation Weather Handbook (FAA-H-8083-28B)",
+          "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28b-aviation-weather-handbook",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-WEATHER"
+        },
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "착빙은 과냉각 물방울이 항공기 표면에 부딪혀 동결될 때 특히 위험하다. 거친 얼음은 날개 형상을 변화시켜 항력을 키우고 실속속도를 높일 수 있다.",
+        "worked_case": "저온 구름 진입 전 착빙고도·AIRMET/SIGMET·항공기 승인 장비를 확인하고, 예상보다 빠른 축적이 발생하면 허용 절차에 따라 탈출한다.",
+        "common_trap": "영하의 모든 구름에 같은 강도의 착빙이 있는 것은 아니며 물방울 크기와 액체수함량이 중요하다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "WX-TH-ICE-02",
@@ -1602,6 +2361,24 @@
           "paragraphs": [
             "Freezing rain이나 freezing drizzle은 큰 과냉각 물방울이 존재할 수 있어 빠르게 심한 착빙을 만들 수 있는 조건으로 다룬다. 단순히 구름 종류만 볼 것이 아니라 현재 온도·강수형태·상하층 온도구조를 함께 확인해야 한다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "착빙 위험은 온도와 액체수함량, 물방울 크기, 운형에 영향을 받는다. 대형 과냉각 물방울(SLD)은 일반 인증조건 밖의 부위에 결빙을 만들 수 있다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "비행경로 상에서 0°C 부근의 층운이나 적운이 예보되면 항공기 착빙 승인 범위와 탈출 고도를 함께 검토한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "영하 기온이면 비행기 표면에 반드시 얼음이 생긴다는 말도, 비가 아니면 착빙이 없다는 말도 틀리다."
+          ]
         }
       ],
       "summary_points": [
@@ -1610,7 +2387,31 @@
         "액체수분 많은 구름/강수는 위험 증가",
         "Freezing rain/drizzle은 특히 위험",
         "구름 종류 + 기온 + 강수형태를 함께 판단"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Aviation Weather Handbook (FAA-H-8083-28B)",
+          "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28b-aviation-weather-handbook",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-WEATHER"
+        },
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "착빙 위험은 온도와 액체수함량, 물방울 크기, 운형에 영향을 받는다. 대형 과냉각 물방울(SLD)은 일반 인증조건 밖의 부위에 결빙을 만들 수 있다.",
+        "worked_case": "비행경로 상에서 0°C 부근의 층운이나 적운이 예보되면 항공기 착빙 승인 범위와 탈출 고도를 함께 검토한다.",
+        "common_trap": "영하 기온이면 비행기 표면에 반드시 얼음이 생긴다는 말도, 비가 아니면 착빙이 없다는 말도 틀리다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "WX-TH-ICE-03",
@@ -1674,6 +2475,24 @@
           "paragraphs": [
             "대기속도 변화, 상승성능 저하, 진동, 조종력 변화, 프로펠러/엔진 계통 이상 등 착빙 징후가 나타나면 조기에 조건을 벗어나는 것이 중요하다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "방빙(anti-icing)은 얼음 발생을 억제하고 제빙(de-icing)은 이미 붙은 얼음을 제거한다. 지상 오염제거와 비행 중 시스템의 사용 시점은 항공기 매뉴얼이 우선한다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "추운 날 이륙 전 동체·날개 오염과 적용 유효시간을 확인한다. 비행 중 예상치 못한 착빙을 만나면 고도·경로 변경과 체크리스트를 고려한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "승인된 방빙 장비가 있다고 모든 착빙 조건을 안전하게 통과할 수 있는 것은 아니다."
+          ]
         }
       ],
       "summary_points": [
@@ -1682,7 +2501,31 @@
         "지상 서리도 제거",
         "착빙 증가 시 조기 이탈",
         "성능·조종성 변화에 즉시 대응"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Aviation Weather Handbook (FAA-H-8083-28B)",
+          "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28b-aviation-weather-handbook",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-WEATHER"
+        },
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "방빙(anti-icing)은 얼음 발생을 억제하고 제빙(de-icing)은 이미 붙은 얼음을 제거한다. 지상 오염제거와 비행 중 시스템의 사용 시점은 항공기 매뉴얼이 우선한다.",
+        "worked_case": "추운 날 이륙 전 동체·날개 오염과 적용 유효시간을 확인한다. 비행 중 예상치 못한 착빙을 만나면 고도·경로 변경과 체크리스트를 고려한다.",
+        "common_trap": "승인된 방빙 장비가 있다고 모든 착빙 조건을 안전하게 통과할 수 있는 것은 아니다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "WX-TH-TC-01",
@@ -1759,6 +2602,24 @@
           "paragraphs": [
             "같은 열대저기압이라도 발생 해역에 따라 Typhoon, Hurricane, Cyclone 등 다른 명칭을 사용한다. 문제에서는 해역-명칭 연결과 강도 등급을 자주 묻는다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "열대저기압은 높은 해수면 온도와 수분 공급, 충분한 코리올리 효과 등 조건에서 발달한다. 분류는 해당 기상기관의 최대풍속 산정 기준을 따른다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "태풍이 항로에서 멀어 보여도 외곽 비구름대와 강풍·고파·대류가 공항 운영에 영향을 주므로 TAF·SIGMET와 운영 통보를 함께 확인한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "열대저기압의 이름·등급만으로 특정 공항의 접근 가능 여부를 결론 내리지 않는다."
+          ]
         }
       ],
       "summary_points": [
@@ -1767,7 +2628,31 @@
         "TS 34~47 kt",
         "STS 48~63 kt",
         "TY ≥64 kt"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Aviation Weather Handbook (FAA-H-8083-28B)",
+          "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28b-aviation-weather-handbook",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-WEATHER"
+        },
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "열대저기압은 높은 해수면 온도와 수분 공급, 충분한 코리올리 효과 등 조건에서 발달한다. 분류는 해당 기상기관의 최대풍속 산정 기준을 따른다.",
+        "worked_case": "태풍이 항로에서 멀어 보여도 외곽 비구름대와 강풍·고파·대류가 공항 운영에 영향을 주므로 TAF·SIGMET와 운영 통보를 함께 확인한다.",
+        "common_trap": "열대저기압의 이름·등급만으로 특정 공항의 접근 가능 여부를 결론 내리지 않는다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "WX-TH-TC-02",
@@ -1820,6 +2705,24 @@
             "광범위한 항로·공항 영향과 급격한 기압 변화.",
             "태풍의 눈이나 약한 에코를 통로로 이용하지 않고 전체 순환을 크게 우회하는 판단이 중요하다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "태풍은 눈·눈벽·나선형 강수대로 조직되고 눈벽에서 매우 강한 바람과 대류가 나타난다. 이동 방향과 위험 반원 개념은 북반구·남반구에서 다르다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "태풍 접근 시 단순 직선 경로가 아니라 세력 변화와 예보 불확실성을 고려해 회항 여력·대체공항 연료를 충분히 검토한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "태풍의 눈이 비교적 고요해도 곧 반대쪽 눈벽이 다가오므로 ‘눈 통과=위험 종료’가 아니다."
+          ]
         }
       ],
       "summary_points": [
@@ -1828,7 +2731,31 @@
         "북반구 진행방향 오른쪽이 상대적으로 위험",
         "강풍·난류·뇌우·강수·저시정 동반",
         "충분한 거리로 전체 계통 우회"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Aviation Weather Handbook (FAA-H-8083-28B)",
+          "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28b-aviation-weather-handbook",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-WEATHER"
+        },
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "태풍은 눈·눈벽·나선형 강수대로 조직되고 눈벽에서 매우 강한 바람과 대류가 나타난다. 이동 방향과 위험 반원 개념은 북반구·남반구에서 다르다.",
+        "worked_case": "태풍 접근 시 단순 직선 경로가 아니라 세력 변화와 예보 불확실성을 고려해 회항 여력·대체공항 연료를 충분히 검토한다.",
+        "common_trap": "태풍의 눈이 비교적 고요해도 곧 반대쪽 눈벽이 다가오므로 ‘눈 통과=위험 종료’가 아니다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "WX-TH-TURB-01",
@@ -1885,6 +2812,24 @@
             "무겁고(clean) 저속이며 높은 받음각의 항공기에서 강한 wake vortex가 형성되는 조건을 중요하게 다룬다.",
             "뒤따르는 항공기는 선행 대형기의 비행경로·접지점·이륙점을 고려해 와류가 내려앉는 영역을 피해야 한다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "난기류는 기류의 불규칙한 속도 변화이며 기계적 난기류·대류성 난기류·항적 난기류 등 원인별로 구분한다. 항적 난기류는 대형 항공기 날개끝 와류에 연관된다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "선행 항공기와 같은 활주로에서 출발할 때 단순 시간 간격만이 아니라 실제 분리기준과 바람에 따른 와류 이동을 고려한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "무거운 선행 항공기가 항상 모든 뒤따르는 상황에서 더 위험하다고 단순화하지 말고 접근·이륙 위치와 바람을 함께 본다."
+          ]
         }
       ],
       "summary_points": [
@@ -1893,7 +2838,31 @@
         "Wake vortex: 무겁고 clean·저속 시 강함",
         "대형기 뒤에서는 경로와 접지점 고려",
         "난기류 강도는 기체 반응과 기내 영향으로 판단"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Aviation Weather Handbook (FAA-H-8083-28B)",
+          "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28b-aviation-weather-handbook",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-WEATHER"
+        },
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "난기류는 기류의 불규칙한 속도 변화이며 기계적 난기류·대류성 난기류·항적 난기류 등 원인별로 구분한다. 항적 난기류는 대형 항공기 날개끝 와류에 연관된다.",
+        "worked_case": "선행 항공기와 같은 활주로에서 출발할 때 단순 시간 간격만이 아니라 실제 분리기준과 바람에 따른 와류 이동을 고려한다.",
+        "common_trap": "무거운 선행 항공기가 항상 모든 뒤따르는 상황에서 더 위험하다고 단순화하지 말고 접근·이륙 위치와 바람을 함께 본다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "WX-TH-TURB-02",
@@ -1945,6 +2914,24 @@
             "이후 배풍이 증가하면 IAS와 양력이 급감해 가장 위험한 상태로 이어질 수 있다.",
             "저고도에서는 회복에 사용할 고도가 거의 없어 사전 회피가 핵심이다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "마이크로버스트는 국지적인 강한 하강기류가 지면에 부딪혀 수평으로 퍼지는 현상이다. 접근 경로에서 순간적 정면풍 증가 뒤 배풍과 하강이 연속해서 나타날 수 있다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "최종접근에서 지시대기속도가 갑자기 커진 직후 급감한다면 강한 윈드시어를 의심하고 항공기 절차에 맞는 회복 또는 복행을 우선한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "처음 순간 속도가 증가했다고 안전 여유가 늘었다고 판단하면 위험하다."
+          ]
         }
       ],
       "summary_points": [
@@ -1953,7 +2940,31 @@
         "배풍 증가 구간에서 IAS 급감 가능",
         "이착륙 저고도에서 특히 위험",
         "발견되면 회피가 핵심"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Aviation Weather Handbook (FAA-H-8083-28B)",
+          "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28b-aviation-weather-handbook",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-WEATHER"
+        },
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "마이크로버스트는 국지적인 강한 하강기류가 지면에 부딪혀 수평으로 퍼지는 현상이다. 접근 경로에서 순간적 정면풍 증가 뒤 배풍과 하강이 연속해서 나타날 수 있다.",
+        "worked_case": "최종접근에서 지시대기속도가 갑자기 커진 직후 급감한다면 강한 윈드시어를 의심하고 항공기 절차에 맞는 회복 또는 복행을 우선한다.",
+        "common_trap": "처음 순간 속도가 증가했다고 안전 여유가 늘었다고 판단하면 위험하다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "WX-TH-TURB-03",
@@ -2022,6 +3033,24 @@
           "paragraphs": [
             "CAT는 구름이 없거나 뚜렷한 대류운이 없는 상층에서도 발생할 수 있으며, 제트기류 주변의 강한 wind shear가 주요 원인 중 하나로 설명된다. 기상레이더에 강수가 없다는 이유만으로 CAT가 없다고 판단할 수 없다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "산악파는 안정한 공기가 강한 바람으로 산맥을 넘으면서 하류에 진동성 흐름을 만드는 현상이다. 제트기류 주변에서는 청천난기류가 구름 없이 발생할 수 있다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "산악 지형을 넘는 항로에서 렌즈구름·로터구름이 보이거나 상층 바람이 강하면 항로·고도를 조정할 여유가 있는지 확인한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "맑은 하늘은 난기류 부재의 증거가 아니며, 기상레이더의 강수 표시가 없어도 CAT가 있을 수 있다."
+          ]
         }
       ],
       "summary_points": [
@@ -2030,7 +3059,31 @@
         "Lenticular cloud는 산악파 단서",
         "제트 주변 강한 wind shear → CAT 가능",
         "CAT는 강수레이더로 직접 보이지 않을 수 있음"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Aviation Weather Handbook (FAA-H-8083-28B)",
+          "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28b-aviation-weather-handbook",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-WEATHER"
+        },
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "산악파는 안정한 공기가 강한 바람으로 산맥을 넘으면서 하류에 진동성 흐름을 만드는 현상이다. 제트기류 주변에서는 청천난기류가 구름 없이 발생할 수 있다.",
+        "worked_case": "산악 지형을 넘는 항로에서 렌즈구름·로터구름이 보이거나 상층 바람이 강하면 항로·고도를 조정할 여유가 있는지 확인한다.",
+        "common_trap": "맑은 하늘은 난기류 부재의 증거가 아니며, 기상레이더의 강수 표시가 없어도 CAT가 있을 수 있다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "WX-TH-TURB-04",
@@ -2086,6 +3139,24 @@
           "paragraphs": [
             "Low Level Wind Shear Alert System은 공항 주변 여러 풍향·풍속 센서의 차이를 비교해 저고도 wind shear를 탐지·경보하기 위한 체계로 설명된다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "윈드시어는 짧은 거리에서 바람 속도 또는 방향이 크게 달라지는 현상이다. LLWAS 등 저고도 경보는 관측되는 풍차이를 바탕으로 위험을 알려준다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "이륙·접근 시 윈드시어 경보를 받으면 활주로 변경보다 먼저 출발 중단 또는 접근 중단·회복 절차의 적용 기준을 검토한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "LLWAS가 탐지하지 못한 구역에도 윈드시어가 발생할 수 있으며 경보 부재를 안전 보장으로 해석하지 않는다."
+          ]
         }
       ],
       "summary_points": [
@@ -2094,7 +3165,31 @@
         "저고도에서는 회복 여유가 작음",
         "LLWAS는 공항 주변 풍속 차를 이용",
         "레이더 에코만으로 shear를 배제하지 않기"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Aviation Weather Handbook (FAA-H-8083-28B)",
+          "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28b-aviation-weather-handbook",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-WEATHER"
+        },
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "윈드시어는 짧은 거리에서 바람 속도 또는 방향이 크게 달라지는 현상이다. LLWAS 등 저고도 경보는 관측되는 풍차이를 바탕으로 위험을 알려준다.",
+        "worked_case": "이륙·접근 시 윈드시어 경보를 받으면 활주로 변경보다 먼저 출발 중단 또는 접근 중단·회복 절차의 적용 기준을 검토한다.",
+        "common_trap": "LLWAS가 탐지하지 못한 구역에도 윈드시어가 발생할 수 있으며 경보 부재를 안전 보장으로 해석하지 않는다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "WX-TH-CHART-01",
@@ -2176,6 +3271,24 @@
             "src": "./assets/theory/weather/wx_station_model.png",
             "caption": "교재의 지상 관측소 모델·풍속기호·현재일기 기호"
           }
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "지상일기도는 등압선·고저기압·전선과 관측소 모델로 넓은 기상계를 표현한다. 등압선 간격은 압력경도와 관련되지만 지형과 마찰 영향을 지우지는 못한다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "출발·도착 공항 사이에 저기압 중심이나 전선이 놓여 있으면 단일 공항 METAR 대신 전체 항로의 변화를 비교한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "관측소 모델의 풍향은 ‘바람이 불어오는 방향’이며 항공기의 이동 방향을 뜻하지 않는다."
+          ]
         }
       ],
       "summary_points": [
@@ -2184,7 +3297,31 @@
         "Trough와 Ridge 구분",
         "전선기호와 관측소 모델 동시 판독",
         "풍속기호는 깃 모양으로 읽음"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Aviation Weather Handbook (FAA-H-8083-28B)",
+          "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28b-aviation-weather-handbook",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-WEATHER"
+        },
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "지상일기도는 등압선·고저기압·전선과 관측소 모델로 넓은 기상계를 표현한다. 등압선 간격은 압력경도와 관련되지만 지형과 마찰 영향을 지우지는 못한다.",
+        "worked_case": "출발·도착 공항 사이에 저기압 중심이나 전선이 놓여 있으면 단일 공항 METAR 대신 전체 항로의 변화를 비교한다.",
+        "common_trap": "관측소 모델의 풍향은 ‘바람이 불어오는 방향’이며 항공기의 이동 방향을 뜻하지 않는다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "WX-TH-CHART-02",
@@ -2272,6 +3409,24 @@
             "300/200 hPa: 상층풍·제트기류와 연계해 활용.",
             "등고선 간격과 풍속, 기온장을 함께 보아 난류·상승/하강류 가능성을 판단한다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "상층일기도는 일정 기압면의 고도·기온·바람·습기를 표현한다. 기압면의 높이는 위치에 따라 변하므로 지상일기도와 읽는 방식이 다르다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "항로 예상 고도에 가까운 기압면에서 강한 바람·저온·습윤층을 확인하여 소요시간과 착빙 가능성을 비교한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "‘500 hPa 차트’는 지표로부터 언제나 같은 고도에서 관측한 차트가 아니다."
+          ]
         }
       ],
       "summary_points": [
@@ -2280,7 +3435,31 @@
         "700 hPa ≈ 10,000 ft",
         "500 hPa ≈ 18,000 ft",
         "300/200 hPa는 상층풍·제트 분석에 중요"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Aviation Weather Handbook (FAA-H-8083-28B)",
+          "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28b-aviation-weather-handbook",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-WEATHER"
+        },
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "상층일기도는 일정 기압면의 고도·기온·바람·습기를 표현한다. 기압면의 높이는 위치에 따라 변하므로 지상일기도와 읽는 방식이 다르다.",
+        "worked_case": "항로 예상 고도에 가까운 기압면에서 강한 바람·저온·습윤층을 확인하여 소요시간과 착빙 가능성을 비교한다.",
+        "common_trap": "‘500 hPa 차트’는 지표로부터 언제나 같은 고도에서 관측한 차트가 아니다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "WX-TH-CHART-03",
@@ -2327,6 +3506,24 @@
             "Cloud cover와 Ceiling: 특히 BKN/OVC의 낮은 운저가 비행범주 판단에 중요.",
             "한 장의 차트만으로 결론내기보다 지상·상층일기도와 예보를 함께 사용한다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "비행기상 판독은 운량·시정·기상현상에 대한 공간적 분포를 파악하는 작업이다. 미국식 Weather Depiction Chart 등 상품명은 지역과 발행기관에 따라 상이하다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "지상분석도와 공항 실황을 대조해 산악·해안 공항의 국지적인 저운고·안개를 놓치지 않는다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "과거 차트의 범례와 현재 사용 중인 최신 항공기상 서비스를 구별한다."
+          ]
         }
       ],
       "summary_points": [
@@ -2335,7 +3532,31 @@
         "BKN/OVC 운저가 ceiling",
         "관측 차트는 현재 상태 중심",
         "예보자료와 함께 사용"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Aviation Weather Handbook (FAA-H-8083-28B)",
+          "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28b-aviation-weather-handbook",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-WEATHER"
+        },
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "비행기상 판독은 운량·시정·기상현상에 대한 공간적 분포를 파악하는 작업이다. 미국식 Weather Depiction Chart 등 상품명은 지역과 발행기관에 따라 상이하다.",
+        "worked_case": "지상분석도와 공항 실황을 대조해 산악·해안 공항의 국지적인 저운고·안개를 놓치지 않는다.",
+        "common_trap": "과거 차트의 범례와 현재 사용 중인 최신 항공기상 서비스를 구별한다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "WX-TH-TAF-01",
@@ -2400,6 +3621,24 @@
           "paragraphs": [
             "숫자를 따로 암기하기보다 “언제부터 언제까지 어떤 조건이 기본상태이며, 어느 시점에 변화하는가”를 시간축으로 정리하면 TAF 문제를 안정적으로 풀 수 있다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "TAF는 공항과 일정 유효기간의 기상 전망을 규정된 형식으로 기록한 예보다. 기온·풍향·시정·운량은 시각 그룹과 변화 그룹을 함께 읽어야 한다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "도착예정시간이 1200Z라면 단순 초기 기준 상태가 아니라 해당 시각에 유효한 FM/BECMG/TEMPO 내용을 조합해 판단한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "TAF는 특정 항로 전체가 아닌 공항 주변 예보이므로 항로 악기상은 다른 자료로 보완한다."
+          ]
         }
       ],
       "summary_points": [
@@ -2408,7 +3647,31 @@
         "풍향/풍속/돌풍 → 시정 → 기상 → 구름 순서",
         "G는 gust",
         "시간축으로 변화그룹까지 연결"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Aviation Weather Handbook (FAA-H-8083-28B)",
+          "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28b-aviation-weather-handbook",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-WEATHER"
+        },
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "TAF는 공항과 일정 유효기간의 기상 전망을 규정된 형식으로 기록한 예보다. 기온·풍향·시정·운량은 시각 그룹과 변화 그룹을 함께 읽어야 한다.",
+        "worked_case": "도착예정시간이 1200Z라면 단순 초기 기준 상태가 아니라 해당 시각에 유효한 FM/BECMG/TEMPO 내용을 조합해 판단한다.",
+        "common_trap": "TAF는 특정 항로 전체가 아닌 공항 주변 예보이므로 항로 악기상은 다른 자료로 보완한다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "WX-TH-TAF-02",
@@ -2458,6 +3721,24 @@
           "paragraphs": [
             "FM(From)은 특정 시각부터 새 예보상태가 시작됨을 명확히 표시한다. PROB는 특정 현상의 발생확률을 나타내며 교재 예에서는 PROB30·PROB40과 같은 형태를 사용한다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "FM은 새 기준 상태가 특정 시각부터 시작됨을, BECMG는 점진적 변화를, TEMPO는 일시적인 편차를 나타내는 변화그룹이다. PROB는 발생 가능성을 표현한다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "예정 도착 시각에 TEMPO 저시정이 겹친다면 정책에 따른 대체공항 필요 여부를 검토한다. 시행규정은 국가·운항기준에 따라 다르다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "TEMPO와 BECMG를 모두 ‘이 시각에 영구 변경’으로 해석하면 예보를 잘못 읽는다."
+          ]
         }
       ],
       "summary_points": [
@@ -2466,7 +3747,31 @@
         "FM: 특정 시각부터 새 상태",
         "PROB30/40: 발생확률",
         "각 그룹의 종료 후 어떤 조건이 기본값인지 확인"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Aviation Weather Handbook (FAA-H-8083-28B)",
+          "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28b-aviation-weather-handbook",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-WEATHER"
+        },
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "FM은 새 기준 상태가 특정 시각부터 시작됨을, BECMG는 점진적 변화를, TEMPO는 일시적인 편차를 나타내는 변화그룹이다. PROB는 발생 가능성을 표현한다.",
+        "worked_case": "예정 도착 시각에 TEMPO 저시정이 겹친다면 정책에 따른 대체공항 필요 여부를 검토한다. 시행규정은 국가·운항기준에 따라 다르다.",
+        "common_trap": "TEMPO와 BECMG를 모두 ‘이 시각에 영구 변경’으로 해석하면 예보를 잘못 읽는다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "WX-TH-SIGWX-01",
@@ -2546,6 +3851,24 @@
           "paragraphs": [
             "CB나 난류 영역에는 top/base 고도가 FL로 표시된다. TOP가 도표 범위를 넘는 경우 TO 또는 ABV 같은 표기를 사용하므로 숫자의 위·아래 관계를 정확히 읽어야 한다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "SIGWX 차트는 고·중층 주요 기상위험을 종합적으로 표현한다. 유효시각·예측 고도층·기호 범례를 먼저 확인해야 한다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "고고도 항로를 검토할 때 CAT·적란운·제트기류 및 대류구역을 예상 비행고도와 대조한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "차트가 제시하지 않는 낮은 고도 위험이나 순간적 변화를 별도 실황 없이 배제하지 않는다."
+          ]
         }
       ],
       "summary_points": [
@@ -2554,7 +3877,31 @@
         "CB top/base를 FL로 판독",
         "난류·착빙·제트·권계면 기호 확인",
         "숫자의 위치가 top/base 의미를 결정"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Aviation Weather Handbook (FAA-H-8083-28B)",
+          "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28b-aviation-weather-handbook",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-WEATHER"
+        },
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "SIGWX 차트는 고·중층 주요 기상위험을 종합적으로 표현한다. 유효시각·예측 고도층·기호 범례를 먼저 확인해야 한다.",
+        "worked_case": "고고도 항로를 검토할 때 CAT·적란운·제트기류 및 대류구역을 예상 비행고도와 대조한다.",
+        "common_trap": "차트가 제시하지 않는 낮은 고도 위험이나 순간적 변화를 별도 실황 없이 배제하지 않는다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "WX-TH-FCST-04",
@@ -2604,6 +3951,24 @@
           "paragraphs": [
             "Winds and temperatures aloft forecast는 고도별 예상 바람과 기온을 제공한다. 항로 계획, 연료·시간 계산, 제트기류와 난류 가능성 판단에 활용한다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "SIGMET은 항공기 운항에 중대한 위험을 주는 현상의 실제·예상 상태를 알린다. AIRMET은 관할 국가·기관별 서비스와 기준이 다르므로 구별한다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "뇌우·화산재·심한 착빙 SIGMET이 계획 항로와 겹치면 이동 방향과 유효기간, 대체항로를 검토한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "미국의 G-AIRMET/AIRMET 체계를 한국 FIR에 그대로 대입하지 말고 국내 기상기관의 발행 자료를 확인한다."
+          ]
         }
       ],
       "summary_points": [
@@ -2612,7 +3977,31 @@
         "화산재·열대저기압 등은 특별히 중요",
         "상층풍예보는 항로·연료·시간 계획에 활용",
         "예보 유효시간과 대상고도 확인"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Aviation Weather Handbook (FAA-H-8083-28B)",
+          "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28b-aviation-weather-handbook",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-WEATHER"
+        },
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "SIGMET은 항공기 운항에 중대한 위험을 주는 현상의 실제·예상 상태를 알린다. AIRMET은 관할 국가·기관별 서비스와 기준이 다르므로 구별한다.",
+        "worked_case": "뇌우·화산재·심한 착빙 SIGMET이 계획 항로와 겹치면 이동 방향과 유효기간, 대체항로를 검토한다.",
+        "common_trap": "미국의 G-AIRMET/AIRMET 체계를 한국 FIR에 그대로 대입하지 말고 국내 기상기관의 발행 자료를 확인한다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "WX-TH-METAR-01",
@@ -2683,6 +4072,24 @@
           "paragraphs": [
             "우세시정과 방향별 최저시정 조건을 구분해 보고할 수 있다. 시정은 안개·강수·연무·눈보라 등과 함께 해석해야 한다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "METAR는 정시 공항 실황, SPECI는 중요 변화가 발생했을 때의 특별관측이다. 풍향은 통상 진북 기준이며 시정·현재일기·운량은 표준 순서로 읽는다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "METAR RKSI 121200Z 같은 보고를 읽을 때 121200Z를 현지시각 12시로 착각하지 말고 UTC를 한국시각으로 환산한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "풍향 표기 VRB와 특정 풍향의 변동구간은 같은 뜻이 아니며, 추세예보와 관측 자체도 구분한다."
+          ]
         }
       ],
       "summary_points": [
@@ -2691,7 +4098,31 @@
         "풍향 3자리 + 풍속 KT",
         "G=gust",
         "시정과 현재일기를 함께 해석"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Aviation Weather Handbook (FAA-H-8083-28B)",
+          "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28b-aviation-weather-handbook",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-WEATHER"
+        },
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "METAR는 정시 공항 실황, SPECI는 중요 변화가 발생했을 때의 특별관측이다. 풍향은 통상 진북 기준이며 시정·현재일기·운량은 표준 순서로 읽는다.",
+        "worked_case": "METAR RKSI 121200Z 같은 보고를 읽을 때 121200Z를 현지시각 12시로 착각하지 말고 UTC를 한국시각으로 환산한다.",
+        "common_trap": "풍향 표기 VRB와 특정 풍향의 변동구간은 같은 뜻이 아니며, 추세예보와 관측 자체도 구분한다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "WX-TH-METAR-02",
@@ -2761,6 +4192,24 @@
             "SH=showers, TS=thunderstorm, FZ=freezing, BL=blowing, DR=drifting 등 descriptor가 현상의 성격을 보완한다.",
             "VC는 공항 인근(proximity)에 있는 현상을 표시할 때 사용한다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "RVR은 활주로를 따라 조종사가 관측할 수 있는 거리의 계측·평가값이며 일반 지상시정과 다를 수 있다. 현재일기 코드의 강도·현상·시정 장애를 함께 해석한다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "저시정 접근 계획은 METAR 시정과 별도로 해당 활주로 RVR과 접근최저치를 비교해야 한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "기상 보고서의 시정 수치가 높다고 해당 활주로 RVR 역시 동일하다고 볼 수 없다."
+          ]
         }
       ],
       "summary_points": [
@@ -2769,7 +4218,31 @@
         "RA=비, SN=눈, FG=안개, BR=박무, HZ=연무",
         "SH/TS/FZ 등 descriptor 확인",
         "기호는 강도+descriptor+현상 순으로 조합"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Aviation Weather Handbook (FAA-H-8083-28B)",
+          "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28b-aviation-weather-handbook",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-WEATHER"
+        },
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "RVR은 활주로를 따라 조종사가 관측할 수 있는 거리의 계측·평가값이며 일반 지상시정과 다를 수 있다. 현재일기 코드의 강도·현상·시정 장애를 함께 해석한다.",
+        "worked_case": "저시정 접근 계획은 METAR 시정과 별도로 해당 활주로 RVR과 접근최저치를 비교해야 한다.",
+        "common_trap": "기상 보고서의 시정 수치가 높다고 해당 활주로 RVR 역시 동일하다고 볼 수 없다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "WX-TH-METAR-03",
@@ -2845,6 +4318,24 @@
           "paragraphs": [
             "기온과 이슬점은 섭씨로 보고하고 영하는 M을 붙인다. QNH는 Q 뒤에 hPa 값을 붙여 표시하는 형태로 제시된다. 기온과 이슬점 차이가 작으면 포화·안개·낮은 구름 가능성을 함께 생각한다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "운량은 FEW/SCT/BKN/OVC 등으로 분류하고, 구름 높이 표시는 관측소 기준 지상고도(AGL) 성격이다. QNH는 해면기압 보정 설정값이다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "낮은 BKN 운층과 비가 겹치면 공항 운영상 ceiling 제약을 먼저 확인한다. 비행고도의 해발고도와 관측 운고를 그대로 빼지 않는다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "METAR의 운고는 MSL이 아니라 대체로 공항 표고에 대한 높이이며, 고도계 QNH와 단위·기준이 다르다."
+          ]
         }
       ],
       "summary_points": [
@@ -2853,7 +4344,31 @@
         "영하 기온은 M 표기",
         "Qxxxx = QNH(hPa)",
         "CAVOK는 여러 조건을 동시에 만족해야 함"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Aviation Weather Handbook (FAA-H-8083-28B)",
+          "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28b-aviation-weather-handbook",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-WEATHER"
+        },
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "운량은 FEW/SCT/BKN/OVC 등으로 분류하고, 구름 높이 표시는 관측소 기준 지상고도(AGL) 성격이다. QNH는 해면기압 보정 설정값이다.",
+        "worked_case": "낮은 BKN 운층과 비가 겹치면 공항 운영상 ceiling 제약을 먼저 확인한다. 비행고도의 해발고도와 관측 운고를 그대로 빼지 않는다.",
+        "common_trap": "METAR의 운고는 MSL이 아니라 대체로 공항 표고에 대한 높이이며, 고도계 QNH와 단위·기준이 다르다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "WX-TH-METAR-04",
@@ -2906,6 +4421,24 @@
           "paragraphs": [
             "BECMG와 TEMPO의 가장 큰 차이는 “새 상태가 기본값으로 자리잡는가”와 “일시적으로 나타났다 사라지는가”에 있다. 시간그룹의 시작·종료 시점을 먼저 표시하고 해독하면 혼동이 줄어든다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "TREND는 현행 관측에 부속되는 짧은 시간대의 공항 기상 경향예보이다. NOSIG는 정해진 기준의 유의한 변화가 예상되지 않음을 나타낸다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "현재 METAR는 양호해도 TREND TEMPO가 목적지 도착 시각과 맞물리면 운항 판단에서 그 위험을 반영한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "NOSIG가 완전히 맑은 날씨나 바람의 0 변화를 의미하지는 않는다."
+          ]
         }
       ],
       "summary_points": [
@@ -2914,7 +4447,31 @@
         "TEMPO=일시 변동",
         "NOSIG=유의한 변화 없음",
         "FM/TL/AT 시간표시 함께 확인"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Aviation Weather Handbook (FAA-H-8083-28B)",
+          "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28b-aviation-weather-handbook",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-WEATHER"
+        },
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "TREND는 현행 관측에 부속되는 짧은 시간대의 공항 기상 경향예보이다. NOSIG는 정해진 기준의 유의한 변화가 예상되지 않음을 나타낸다.",
+        "worked_case": "현재 METAR는 양호해도 TREND TEMPO가 목적지 도착 시각과 맞물리면 운항 판단에서 그 위험을 반영한다.",
+        "common_trap": "NOSIG가 완전히 맑은 날씨나 바람의 0 변화를 의미하지는 않는다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "WX-TH-INFO-01",
@@ -2970,6 +4527,24 @@
           "paragraphs": [
             "교재는 저고도 wind shear의 gain/loss와 고도·위치·항공기 기종 같은 구체 정보를 보고하는 것이 후속 항공기의 판단에 도움이 된다고 설명한다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "PIREP은 실제 비행 중인 조종사가 체감한 착빙·난기류·운고·시정 등을 보고하는 정보다. 보고 위치와 고도, 관측 시각이 해석의 핵심이다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "PIREP ‘MOD TURB’ 하나만으로 전 항로가 같은 난기류 강도를 갖는다고 보지 않고 항공기 형식·고도·시간을 함께 평가한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "항공기의 특성과 조종사 보고에 따라 체감 강도가 다를 수 있으므로 다른 기상 자료와 교차 확인한다."
+          ]
         }
       ],
       "summary_points": [
@@ -2978,7 +4553,31 @@
         "위치·시각·고도·기종 포함",
         "난류/착빙/wind shear는 특히 가치가 큼",
         "위험현상은 신속 보고"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Aviation Weather Handbook (FAA-H-8083-28B)",
+          "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28b-aviation-weather-handbook",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-WEATHER"
+        },
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "PIREP은 실제 비행 중인 조종사가 체감한 착빙·난기류·운고·시정 등을 보고하는 정보다. 보고 위치와 고도, 관측 시각이 해석의 핵심이다.",
+        "worked_case": "PIREP ‘MOD TURB’ 하나만으로 전 항로가 같은 난기류 강도를 갖는다고 보지 않고 항공기 형식·고도·시간을 함께 평가한다.",
+        "common_trap": "항공기의 특성과 조종사 보고에 따라 체감 강도가 다를 수 있으므로 다른 기상 자료와 교차 확인한다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "WX-TH-INFO-02",
@@ -3031,6 +4630,24 @@
           "paragraphs": [
             "레이더는 강수입자 반사를 중심으로 보기 때문에 구름 자체, CAT, 모든 wind shear를 직접 보여주는 장비는 아니다. 따라서 위성·SIGWX·PIREP·공항 관측과 함께 사용해야 한다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "기상레이더는 강수 입자로부터 되돌아오는 에너지를 이용해 강수 영역과 상대적 반사도를 나타낸다. 레이더의 음영·감쇠·빔 고도를 이해해야 한다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "강한 적란운 뒤편에 반사도가 낮은 음영이 생겨도 안전한 공역이라 단정하지 않는다. 레이더 틸트와 관측범위를 재확인한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "레이더에 비가 안 보인다는 것과 구름·착빙·청천난기류가 없다는 것은 서로 다르다."
+          ]
         }
       ],
       "summary_points": [
@@ -3039,7 +4656,31 @@
         "CAT를 직접 탐지하는 장비가 아님",
         "PIREP·예보자료와 함께 판단",
         "대류셀의 형태와 이동도 함께 확인"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Aviation Weather Handbook (FAA-H-8083-28B)",
+          "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28b-aviation-weather-handbook",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-WEATHER"
+        },
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "기상레이더는 강수 입자로부터 되돌아오는 에너지를 이용해 강수 영역과 상대적 반사도를 나타낸다. 레이더의 음영·감쇠·빔 고도를 이해해야 한다.",
+        "worked_case": "강한 적란운 뒤편에 반사도가 낮은 음영이 생겨도 안전한 공역이라 단정하지 않는다. 레이더 틸트와 관측범위를 재확인한다.",
+        "common_trap": "레이더에 비가 안 보인다는 것과 구름·착빙·청천난기류가 없다는 것은 서로 다르다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "WX-TH-INFO-03",
@@ -3090,6 +4731,24 @@
           "paragraphs": [
             "AWOS(Automated Weather Observing System)는 자동센서로 공항 기상요소를 관측·방송하는 체계다. 교재는 장비 구성에 따라 고도계수정치, 풍향·풍속, 기온·이슬점, 시정, 구름 등 제공 요소가 달라지는 여러 AWOS 수준을 설명한다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "ATIS는 공항의 반복적인 운항·기상정보를, AWOS는 자동화된 관측정보를 제공한다. 최신 방송 식별문자와 갱신 시각이 중요하다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "접근 전 ATIS 문자가 바뀌었으면 바뀐 바람·QNH·활주로·NOTAM 관련 정보를 비교하고 필요한 내용을 관제에 보고한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "AWOS의 자동관측 값과 항공교통관제의 개별 허가는 대체 관계가 아니다."
+          ]
         }
       ],
       "summary_points": [
@@ -3098,7 +4757,31 @@
         "AWOS = 자동 기상관측시스템",
         "AWOS 구성에 따라 제공 요소 차이",
         "ATIS와 AWOS의 역할을 구분"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Aviation Weather Handbook (FAA-H-8083-28B)",
+          "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28b-aviation-weather-handbook",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-WEATHER"
+        },
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "ATIS는 공항의 반복적인 운항·기상정보를, AWOS는 자동화된 관측정보를 제공한다. 최신 방송 식별문자와 갱신 시각이 중요하다.",
+        "worked_case": "접근 전 ATIS 문자가 바뀌었으면 바뀐 바람·QNH·활주로·NOTAM 관련 정보를 비교하고 필요한 내용을 관제에 보고한다.",
+        "common_trap": "AWOS의 자동관측 값과 항공교통관제의 개별 허가는 대체 관계가 아니다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     }
   ]
 }

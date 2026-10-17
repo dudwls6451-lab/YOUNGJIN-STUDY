@@ -1,0 +1,80 @@
+{
+  "version": "v11.60.67",
+  "base": "v11.60.66",
+  "timestamp_utc": "2026-10-17T04:57:49.318627+00:00",
+  "counts": {
+    "theory-weather-all.json": {
+      "stages": 40,
+      "previous_sections": 114,
+      "new_sections": 234,
+      "old_json_bytes": 80635,
+      "new_json_bytes": 214076
+    },
+    "theory-airlaw-all.json": {
+      "stages": 15,
+      "previous_sections": 57,
+      "new_sections": 102,
+      "old_json_bytes": 40557,
+      "new_json_bytes": 91401
+    },
+    "theory-atccomm-all.json": {
+      "stages": 25,
+      "previous_sections": 94,
+      "new_sections": 169,
+      "old_json_bytes": 65486,
+      "new_json_bytes": 151370
+    },
+    "theory-kaim-course-v3.json": {
+      "stages": 30,
+      "previous_sections": 201,
+      "new_sections": 201,
+      "old_json_bytes": 314034,
+      "new_json_bytes": 419473
+    },
+    "theory-flight-theory-v1.json": {
+      "stages": 23,
+      "previous_sections": 60,
+      "new_sections": 129,
+      "old_json_bytes": 46271,
+      "new_json_bytes": 110300
+    },
+    "theory-air-navigation-v1.json": {
+      "stages": 31,
+      "previous_sections": 59,
+      "new_sections": 152,
+      "old_json_bytes": 43618,
+      "new_json_bytes": 130531
+    }
+  },
+  "checks": {
+    "stage_count_164": true,
+    "new_custom_three_part_lessons_134": true,
+    "remaining_30_kaim_long_text_preserved": true,
+    "stage_id_and_question_ids_unchanged": true,
+    "quiz_rule_and_source_pages_unchanged": true,
+    "original_sections_preserved": true,
+    "all_164_reference_links": true,
+    "all_164_revision_cards": true,
+    "app_business_logic_unchanged_outside_reader_block": true,
+    "index_references_new_app_css": true,
+    "javascript_syntax_passed": true,
+    "standalone_chromium_164_stage_ui_smoke_passed": true,
+    "mobile_390px_no_horizontal_overflow": true
+  },
+  "file_hashes": {
+    "index.html": "53061aa2ec430f977c1d4d01f4e5fb22b4b015c157f74d20e8ac98ad5c8a5c05",
+    "assets/app-v11-60-67.js": "aeca20e090cbd32bd1302c0bae2fdd38ea0a8ba8715d83ec57cff71cdba3f01e",
+    "assets/style-v11-60-67-theory-reader.css": "c2f2cb5f358913c57751739e6e9f4f50a237965da3b00b5ac4b0572c3880e94e",
+    "data/theory-weather-all.json": "9e28ae5703dc67aba80ac10f9351586cd314e13b0e081a2b5e0b14017f4dd768",
+    "data/theory-airlaw-all.json": "d9fb2d9125980d3d0ff9d23f13991017f830ce7d2d17160167929e68adfc5238",
+    "data/theory-atccomm-all.json": "ce89db01c4cd7e55541876612235ee123adae90dfb090404e98198b5de5733e3",
+    "data/theory-kaim-course-v3.json": "b564214cda21c8298398a6ec73e4d70bfe6ae689d6ab3f68cad2c1e34caabe40",
+    "data/theory-flight-theory-v1.json": "b719dce801f6c4657962559e17e1550760279c2e8bf785c8af28b45123a482cc",
+    "data/theory-air-navigation-v1.json": "bca033a1e387b510edb8b6532364c131b005e0555873a1af76c01ff664952bca"
+  },
+  "limitations": [
+    "전체 실서비스 통합 테스트와 실제 Supabase 쓰기 테스트 미수행",
+    "교재·항공고시의 모든 수치·조항을 항목별로 법률적으로 인증한 검증 아님",
+    "로컬 JSON 출처는 기존 아카이브 스냅샷; 작업 모드의 저장되지 않은 편집 내용과 동일하다고 보장할 수 없음"
+  ]
+}

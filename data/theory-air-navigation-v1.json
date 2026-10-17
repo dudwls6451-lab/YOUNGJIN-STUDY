@@ -14,7 +14,10 @@
     "note": "교재 원문 기준 학습과정이며 현행 규정·내용의 외부 검증은 별도로 수행하지 않음.",
     "content_basis": "공중항법.pdf의 장·절 구성, 본문, 출제예상문제 및 해설",
     "linked_question_count": 529,
-    "excluded_mock_question_count": 350
+    "excluded_mock_question_count": 350,
+    "content_enhancement_version": "v11.60.67",
+    "reference_policy": "대한민국 법령·eAIP가 한국 적용 기준. FAA 자료는 보충/미국 기준. 현행 발효자료와 NOTAM 반드시 확인.",
+    "deep_review_note": "기존 교재 이론은 유지하며 각 단계에 운항 적용과 자주 혼동하는 경계를 보강."
   },
   "stages": [
     {
@@ -54,6 +57,24 @@
             "교재는 공중항법을 항공기의 정확한 위치를 식별하고 한 지점에서 다른 지점까지 안전하고 효과적으로 유도하는 기술로 설명한다. 중요한 세 가지 요소는 항공기 위치 확인, 침로 결정, 도착예정시간(ETA) 산출이며, 기본문제는 위치·방향·거리·시간의 정확한 산출이다.",
             "기초공중항법에는 추측항법, 지문항법, 무선항법, 레이더항법이 포함되고, 전문공중항법에는 로란항법, 기압차항법, 천문항법, 그리드항법 등이 소개된다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "항법은 위치(P), 방향, 거리, 시간의 일관된 갱신 과정이다. 추측항법과 지문항법, 무선항법은 서로 보완한다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "GNSS가 불능인 경우 마지막 확정 위치와 방위·시간·속도를 이용해 추정위치를 계산하고 시각적 기준점으로 확인한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "하나의 항법장비에서 표시되는 위치가 정확하다는 것과 무결성·가용성이 충분하다는 것은 다르다."
+          ]
         }
       ],
       "summary_points": [
@@ -61,7 +82,31 @@
         "항법의 4대 기본문제: 위치·방향·거리·시간",
         "추측항법은 바람의 영향으로 시간이 지날수록 오차가 누적",
         "지문항법은 지형·지물과 항공도를 육안으로 대조"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "항법은 위치(P), 방향, 거리, 시간의 일관된 갱신 과정이다. 추측항법과 지문항법, 무선항법은 서로 보완한다.",
+        "worked_case": "GNSS가 불능인 경우 마지막 확정 위치와 방위·시간·속도를 이용해 추정위치를 계산하고 시각적 기준점으로 확인한다.",
+        "common_trap": "하나의 항법장비에서 표시되는 위치가 정확하다는 것과 무결성·가용성이 충분하다는 것은 다르다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "AIRNAV-TH-02",
@@ -107,6 +152,24 @@
           "paragraphs": [
             "위도는 적도를 기준으로 북·남 방향의 각거리, 경도는 본초자오선을 기준으로 동·서 방향의 각거리이다. 교재는 변위(Dl), 변경(Dlo), 중분위도(Lm)의 계산 방법도 함께 다룬다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "대권은 구면의 최단거리 경로, 항정선은 모든 자오선을 일정한 각도로 가로지르는 경로다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "장거리 항공노선에서 지도로 본 곡선이 실제 대권에 가까운 이유를 도법 특성과 연결한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "메르카토르 도법의 직선이 항상 최단경로를 나타내는 것은 아니다."
+          ]
         }
       ],
       "summary_points": [
@@ -114,7 +177,31 @@
         "자오선과 적도는 대권",
         "항정선은 각 자오선과 동일한 각도로 교차",
         "위도 기준 = 적도, 경도 기준 = 본초자오선"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "대권은 구면의 최단거리 경로, 항정선은 모든 자오선을 일정한 각도로 가로지르는 경로다.",
+        "worked_case": "장거리 항공노선에서 지도로 본 곡선이 실제 대권에 가까운 이유를 도법 특성과 연결한다.",
+        "common_trap": "메르카토르 도법의 직선이 항상 최단경로를 나타내는 것은 아니다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "AIRNAV-TH-03",
@@ -199,6 +286,24 @@
             "속도는 이동거리를 시간으로 나눈 값이며 항법에서는 대기속도, 대지속도, 상대속도를 구분한다. 마하수는 진대기속도와 음속의 비이다.",
             "Course는 계획한 수평진로, track은 실제 지표면상의 이동진로, heading은 항공기 기수가 향하는 방향이다. 상대방위는 기수를 기준으로 시계방향으로 측정하며 교재는 진방위·진침로·상대방위의 관계를 함께 설명한다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "지구는 360도를 24시간에 회전하므로 경도 15도 차이는 태양시 1시간에 대응한다. UTC와 현지 법정시의 관계는 별도로 계산한다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "예제: UTC 02:30이면 한국표준시(KST=UTC+9)는 11:30이다. 1 NM=1852 m이며 120 NM를 120 kt로 비행하면 1시간이다(바람 무시)."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "UTC와 지역 태양시를, 항공기 TAS와 GS를 혼동하지 않는다."
+          ]
         }
       ],
       "summary_points": [
@@ -206,7 +311,31 @@
         "위도 1′ = 1 NM",
         "1 NM = 1,852 m",
         "Course=계획 진로, Track=실제 진로, Heading=기수 방향"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "지구는 360도를 24시간에 회전하므로 경도 15도 차이는 태양시 1시간에 대응한다. UTC와 현지 법정시의 관계는 별도로 계산한다.",
+        "worked_case": "예제: UTC 02:30이면 한국표준시(KST=UTC+9)는 11:30이다. 1 NM=1852 m이며 120 NM를 120 kt로 비행하면 1시간이다(바람 무시).",
+        "common_trap": "UTC와 지역 태양시를, 항공기 TAS와 GS를 혼동하지 않는다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "AIRNAV-TH-04",
@@ -255,6 +384,24 @@
           "paragraphs": [
             "Mercator chart는 자오선과 위선이 직교하고 항정선이 직선이어서 방위 측정에 편리하지만 고위도로 갈수록 축척이 확대된다. Lambert 정각원추도법은 중위도 항공도에서 널리 다루며 대권이 거의 직선에 가깝게 표현되는 특성이 소개된다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "메르카토르 정각도법은 항정선을 직선으로 표시하지만 고위도에서 면적·거리 왜곡이 커진다. 램버트 정각원추도법은 중위도 항공도에 흔하다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "같은 항로를 다른 도법에서 측정할 때는 축척과 위도에 따른 왜곡을 고려한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "지도의 북쪽 방향과 실제 지리적 방위는 투영법에 따라 위치별로 차이가 날 수 있다."
+          ]
         }
       ],
       "summary_points": [
@@ -262,7 +409,31 @@
         "Mercator: 항정선이 직선",
         "Mercator는 고위도로 갈수록 축척 확대",
         "투영법은 원통·원추·평면 계열로 구분"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "메르카토르 정각도법은 항정선을 직선으로 표시하지만 고위도에서 면적·거리 왜곡이 커진다. 램버트 정각원추도법은 중위도 항공도에 흔하다.",
+        "worked_case": "같은 항로를 다른 도법에서 측정할 때는 축척과 위도에 따른 왜곡을 고려한다.",
+        "common_trap": "지도의 북쪽 방향과 실제 지리적 방위는 투영법에 따라 위치별로 차이가 날 수 있다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "AIRNAV-TH-05",
@@ -309,6 +480,24 @@
           "paragraphs": [
             "바람 때문에 항공기가 침로 좌우로 밀리는 현상을 편류라 하고 TH와 TR 사이 각을 편류각으로 나타낸다. 원하는 항로를 유지하려면 풍상측으로 침로를 보정하는 바람수정각(WCA)을 적용한다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "풍삼각형은 진대기속도 벡터와 풍속 벡터의 합이 대지속도 벡터가 되는 관계다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "예제: 정북으로 TAS 100 kt, 정북향 배풍 20 kt이면 GS는 120 kt다. 횡풍이 있으면 편류수정각도 계산해야 한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "Wind 270°는 서쪽 ‘에서’ 불어오는 바람이지 서쪽으로 이동하는 바람이 아니다."
+          ]
         }
       ],
       "summary_points": [
@@ -316,7 +505,31 @@
         "Wind vector = 풍향 + 풍속",
         "Ground vector = TR + GS",
         "측풍 = 풍속×sinα, 정풍/배풍 = 풍속×cosα"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "풍삼각형은 진대기속도 벡터와 풍속 벡터의 합이 대지속도 벡터가 되는 관계다.",
+        "worked_case": "예제: 정북으로 TAS 100 kt, 정북향 배풍 20 kt이면 GS는 120 kt다. 횡풍이 있으면 편류수정각도 계산해야 한다.",
+        "common_trap": "Wind 270°는 서쪽 ‘에서’ 불어오는 바람이지 서쪽으로 이동하는 바람이 아니다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "AIRNAV-TH-06",
@@ -378,6 +591,24 @@
           "paragraphs": [
             "대지속도·시간·거리 관계, 상승·하강 중 거리, 연료소모, 등시점(ETP)과 안전복귀점(PSR) 등 실제 항법계획에 필요한 계산 기법을 다룬다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "추측항법은 시간·속도·방위의 통합으로 예상위치를 갱신한다. 관측점으로 주기적으로 재고정하지 않으면 오차가 누적된다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "예제: GS 90 kt로 20분 비행하면 거리=90×(20/60)=30 NM이다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "시간은 60진법이므로 20분을 0.20시간으로 넣으면 오류가 난다."
+          ]
         }
       ],
       "summary_points": [
@@ -385,7 +616,31 @@
         "60:1 법칙으로 항로이탈각을 근사",
         "거리 = 속도 × 시간",
         "ETP는 양쪽 목적지까지 소요시간이 같아지는 지점"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "추측항법은 시간·속도·방위의 통합으로 예상위치를 갱신한다. 관측점으로 주기적으로 재고정하지 않으면 오차가 누적된다.",
+        "worked_case": "예제: GS 90 kt로 20분 비행하면 거리=90×(20/60)=30 NM이다.",
+        "common_trap": "시간은 60진법이므로 20분을 0.20시간으로 넣으면 오류가 난다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "AIRNAV-TH-07",
@@ -421,6 +676,24 @@
           "paragraphs": [
             "교재는 고도·속도·차트 축척이 지상 물표 식별에 미치는 영향을 설명한다. 큰 축척일수록 지형과 지물의 세부 표현이 많아 시각참조점 확인에 유리하다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "교차방위·시간거리·측풍각 추정은 장비 의존도를 낮추는 보조 항법 기법이다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "두 무선표지에서 얻은 방위선의 교점으로 위치를 확인할 때 방위선이 거의 평행하면 오차가 커질 수 있다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "한 개의 방위선만으로 2차원 위치가 확정되지 않는다."
+          ]
         }
       ],
       "summary_points": [
@@ -428,7 +701,31 @@
         "Air position = 바람을 고려하지 않은 위치",
         "Fix = 확실하게 확인된 위치",
         "큰 축척 차트일수록 지상물표 식별에 유리"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "교차방위·시간거리·측풍각 추정은 장비 의존도를 낮추는 보조 항법 기법이다.",
+        "worked_case": "두 무선표지에서 얻은 방위선의 교점으로 위치를 확인할 때 방위선이 거의 평행하면 오차가 커질 수 있다.",
+        "common_trap": "한 개의 방위선만으로 2차원 위치가 확정되지 않는다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "AIRNAV-TH-08",
@@ -486,6 +783,24 @@
           "paragraphs": [
             "북반구에서는 북쪽으로 선회할 때 지시지연, 남쪽으로 선회할 때 지시선행이 나타나는 선회오차가 설명된다. 동·서 방향에서 가속하면 북쪽, 감속하면 남쪽을 지시하는 가감속 오차도 다룬다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "자기컴퍼스는 지자기 방향을 가리키고 편차(variation)와 자차(deviation)가 더해져 진방위와 관계를 맺는다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "차트 자북편차와 항공기 자차표를 순서대로 적용해 지정 침로를 계산한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "Variation과 deviation은 각각 지자기와 기체 자기장의 서로 다른 오차 원인이다."
+          ]
         }
       ],
       "summary_points": [
@@ -493,7 +808,31 @@
         "Deviation = 항공기 내부 영향에 의한 나침반 오차",
         "복각은 극으로 갈수록 증가",
         "북반구 가속: 북쪽, 감속: 남쪽 지시 경향"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "자기컴퍼스는 지자기 방향을 가리키고 편차(variation)와 자차(deviation)가 더해져 진방위와 관계를 맺는다.",
+        "worked_case": "차트 자북편차와 항공기 자차표를 순서대로 적용해 지정 침로를 계산한다.",
+        "common_trap": "Variation과 deviation은 각각 지자기와 기체 자기장의 서로 다른 오차 원인이다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "AIRNAV-TH-09",
@@ -530,6 +869,24 @@
           "paragraphs": [
             "기압고도, 진고도, 절대고도, 밀도고도 등 서로 다른 기준의 고도를 구분하고, 고도계 설정과 대기상태에 따라 지시값이 달라지는 이유를 설명한다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "고도계는 기압을 높이로 환산하므로 기준기압(QNH/표준기압) 선택에 따라 지시고도가 달라진다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "예제: 표준기압 1013hPa 대신 QNH 1003hPa 공항에 1013을 설정하면 차이 약 10hPa로 고도계가 실제보다 대략 270ft 높게 보일 수 있다(근사, 기온 영향 별도)."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "압력고도·해발고도·지상고도·밀도고도를 같은 고도로 혼동하지 않는다."
+          ]
         }
       ],
       "summary_points": [
@@ -537,7 +894,31 @@
         "고도계는 온도·기압·기계적 특성에 따른 오차가 있음",
         "Pressure altitude는 표준기압 기준",
         "고도의 기준면을 구분해서 암기"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "고도계는 기압을 높이로 환산하므로 기준기압(QNH/표준기압) 선택에 따라 지시고도가 달라진다.",
+        "worked_case": "예제: 표준기압 1013hPa 대신 QNH 1003hPa 공항에 1013을 설정하면 차이 약 10hPa로 고도계가 실제보다 대략 270ft 높게 보일 수 있다(근사, 기온 영향 별도).",
+        "common_trap": "압력고도·해발고도·지상고도·밀도고도를 같은 고도로 혼동하지 않는다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "AIRNAV-TH-10",
@@ -579,6 +960,24 @@
           "paragraphs": [
             "IAS에서 계기·장착오차를 수정하면 CAS, 압축성 영향을 보정하면 EAS, 공기밀도 영향을 보정하면 TAS가 되는 흐름을 교재가 정리한다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "IAS는 계기 동압 기반, TAS는 기단 대비 실제 속도, GS는 지면 대비 속도다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "항로 시간 계산에는 GS, 성능과 속도 제한에는 해당 항공기 매뉴얼이 지정하는 IAS 또는 Mach가 중요하다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "상승하면서 같은 IAS를 유지하면 TAS가 일반적으로 증가할 수 있다."
+          ]
         }
       ],
       "summary_points": [
@@ -586,7 +985,31 @@
         "IAS → CAS: 계기·장착오차 수정",
         "CAS → EAS: 압축성 수정",
         "EAS → TAS: 공기밀도 수정"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "IAS는 계기 동압 기반, TAS는 기단 대비 실제 속도, GS는 지면 대비 속도다.",
+        "worked_case": "항로 시간 계산에는 GS, 성능과 속도 제한에는 해당 항공기 매뉴얼이 지정하는 IAS 또는 Mach가 중요하다.",
+        "common_trap": "상승하면서 같은 IAS를 유지하면 TAS가 일반적으로 증가할 수 있다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "AIRNAV-TH-11",
@@ -671,6 +1094,24 @@
           "paragraphs": [
             "ILS는 로컬라이저로 좌우 진로, 글라이드패스로 수직 유도, 마커나 DME 등으로 거리·위치 정보를 제공한다. 교재는 로컬라이저·글라이드패스·마커의 역할과 식별, 컴퍼스로케이터 등의 관련 시설을 설명한다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "NDB/ADF·VOR·DME·GNSS는 각각 방위·거리·위치 정보를 얻는 원리가 다르다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "VOR 전파 서비스구역 바깥에서는 불확실한 지시를 확인하기 위해 다른 항법원을 교차 확인한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "DME의 경사거리를 수평거리와 혼동하지 않는다."
+          ]
         }
       ],
       "summary_points": [
@@ -678,7 +1119,31 @@
         "VOR 식별 및 점검 허용오차가 주요 출제 포인트",
         "ILS: LOC + Glide Path + 거리/위치 보조",
         "DME 거리는 지상거리와 다른 경사거리"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "NDB/ADF·VOR·DME·GNSS는 각각 방위·거리·위치 정보를 얻는 원리가 다르다.",
+        "worked_case": "VOR 전파 서비스구역 바깥에서는 불확실한 지시를 확인하기 위해 다른 항법원을 교차 확인한다.",
+        "common_trap": "DME의 경사거리를 수평거리와 혼동하지 않는다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "AIRNAV-TH-12",
@@ -722,6 +1187,24 @@
           "paragraphs": [
             "비행장등대의 민간·군용 섬광 형태, 주간 점등 조건 등 공항 식별과 관련된 등화 특성을 다룬다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "접근등·활주로등·유도로등·PAPI 등은 위치 식별과 진입경로 안내에 쓰인다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "저시정 지상 이동 중에는 유도로 중심선·정지표지·표지판을 복합적으로 확인한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "등화로 지시되는 접근경로와 관제의 활주로 진입·착륙 허가는 별도다."
+          ]
         }
       ],
       "summary_points": [
@@ -729,7 +1212,31 @@
         "PAPI 색 조합으로 고저 판단",
         "비행장등대는 공항 식별에 사용",
         "등화의 색과 섬광 패턴이 시험 포인트"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "접근등·활주로등·유도로등·PAPI 등은 위치 식별과 진입경로 안내에 쓰인다.",
+        "worked_case": "저시정 지상 이동 중에는 유도로 중심선·정지표지·표지판을 복합적으로 확인한다.",
+        "common_trap": "등화로 지시되는 접근경로와 관제의 활주로 진입·착륙 허가는 별도다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "AIRNAV-TH-13",
@@ -759,6 +1266,24 @@
             "명령지시표지판, 위치표지판, 방향표지판, 목적지표지판, 정보표지판 등 표지판의 기능과 바탕색·문자색을 구분한다.",
             "방향표지와 목적지표지는 이동해야 할 방향을 안내하며, 위치표지는 현재 위치를 식별하도록 돕는다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "공항 표지판의 위치·방향·필수 지시 표지는 색과 모양으로 구분한다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "복잡한 교차 유도로에 진입하기 전 공항도에서 예정 경로와 hold-short 위치를 미리 표시한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "표지판의 문자·화살표만 보지 않고 주변 노면표시와 대조한다."
+          ]
         }
       ],
       "summary_points": [
@@ -766,7 +1291,31 @@
         "Mandatory sign의 색 조합 암기",
         "Location sign은 현재 위치 식별",
         "Direction/Destination sign은 지상 이동 방향 안내"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "공항 표지판의 위치·방향·필수 지시 표지는 색과 모양으로 구분한다.",
+        "worked_case": "복잡한 교차 유도로에 진입하기 전 공항도에서 예정 경로와 hold-short 위치를 미리 표시한다.",
+        "common_trap": "표지판의 문자·화살표만 보지 않고 주변 노면표시와 대조한다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "AIRNAV-TH-14",
@@ -815,6 +1364,24 @@
           "paragraphs": [
             "공항운영 출제예상문제에서는 활주로 방향·풍향의 기준, 유도신호, 저고도 윈드시어 정보 등 조종사가 지상과 터미널구역에서 접하는 운용 정보를 확인한다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "항공교통관제는 허가·분리·교통조언을 통해 교통의 안전과 효율을 높인다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "ATC가 지시한 고도·속도가 기체 한계에 맞지 않으면 조종사가 즉시 조정 요청을 해야 한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "관제허가는 조종사의 항공기 안전 책임을 완전히 대체하지 않는다."
+          ]
         }
       ],
       "summary_points": [
@@ -822,7 +1389,31 @@
         "Mode C = 자동고도보고",
         "LLWAS = 저고도 windshear/gust front 정보",
         "관제탑 radar는 위치·교통조언·방향정보 등에 활용"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "항공교통관제는 허가·분리·교통조언을 통해 교통의 안전과 효율을 높인다.",
+        "worked_case": "ATC가 지시한 고도·속도가 기체 한계에 맞지 않으면 조종사가 즉시 조정 요청을 해야 한다.",
+        "common_trap": "관제허가는 조종사의 항공기 안전 책임을 완전히 대체하지 않는다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "AIRNAV-TH-15",
@@ -855,6 +1446,24 @@
             "이 단계는 교재의 공항운영 출제예상문제와 해설을 중심으로 구성한다. 관제탑 레이더의 기본용도, 활주로 방향과 풍향 표현, 지상 유도신호, 공항 주변 윈드시어 정보 등 실제 공항운영에서 조종사가 접하는 항목을 정리한다.",
             "유도원과 조종사 사이의 브레이크·고임목 신호처럼 지상조업 중 사용하는 표준 시각신호도 함께 다룬다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "공항운영은 활주로·유도로·계류장·장애물·제동상태·운항정보의 관리로 구성된다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "NOTAM으로 활주로 일부가 폐쇄되면 성능차트의 사용가능 거리와 지상이동 경로를 새로 계산한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "차트상 활주로 길이와 현재 사용 가능한 이륙거리(TORA 등)가 항상 같지는 않다."
+          ]
         }
       ],
       "summary_points": [
@@ -863,7 +1472,31 @@
         "Marshaller 신호의 의미 구분",
         "LLWAS 관련 정보 확인"
       ],
-      "source_note": "독립 본문 절이 아닌 교재 출제예상문제·해설을 바탕으로 구성"
+      "source_note": "독립 본문 절이 아닌 교재 출제예상문제·해설을 바탕으로 구성",
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "공항운영은 활주로·유도로·계류장·장애물·제동상태·운항정보의 관리로 구성된다.",
+        "worked_case": "NOTAM으로 활주로 일부가 폐쇄되면 성능차트의 사용가능 거리와 지상이동 경로를 새로 계산한다.",
+        "common_trap": "차트상 활주로 길이와 현재 사용 가능한 이륙거리(TORA 등)가 항상 같지는 않다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "AIRNAV-TH-16",
@@ -917,6 +1550,24 @@
           "paragraphs": [
             "관제공역에서의 속도 제한, Special VFR, 항공기 간 분리와 ATC 허가의 적용방법을 출제예상문제와 해설로 반복 확인한다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "관제허가와 항공기 분리는 지역·업무·감시장비에 따라 절차가 다르다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "교통조언을 받았더라도 시계조건에서 경계 의무는 그대로 유지되므로 ‘Traffic in sight’ 통보는 실제로 확인했을 때만 한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "ATC가 제공하는 분리기준을 조종사가 임의로 축소해도 된다는 뜻은 아니다."
+          ]
         }
       ],
       "summary_points": [
@@ -924,7 +1575,31 @@
         "분리는 수직·종적·횡적 개념으로 구분",
         "레이더 분리와 속도조절 수치가 주요 시험 포인트",
         "공역별 운용조건을 구분"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "관제허가와 항공기 분리는 지역·업무·감시장비에 따라 절차가 다르다.",
+        "worked_case": "교통조언을 받았더라도 시계조건에서 경계 의무는 그대로 유지되므로 ‘Traffic in sight’ 통보는 실제로 확인했을 때만 한다.",
+        "common_trap": "ATC가 제공하는 분리기준을 조종사가 임의로 축소해도 된다는 뜻은 아니다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "AIRNAV-TH-17",
@@ -964,6 +1639,24 @@
           "paragraphs": [
             "교재는 SSR/트랜스폰더의 Mode A·C·S, 고도보고와 코드, TCAS의 Traffic Advisory와 Resolution Advisory 등 감시·충돌방지 체계를 함께 정리한다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "1차 레이더는 반사 신호를, 2차 감시레이더는 트랜스폰더 응답을 사용한다. ADS-B는 GNSS 등 기반의 주기적 위치 방송을 포함한다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "항법·감시 신호 이상이 생기면 관제에서 볼 수 있는 항적과 자신의 계기위치가 반드시 일치하지 않을 수 있음을 인식한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "레이더 화면에 보이지 않는 항공기가 없다는 뜻은 아니다."
+          ]
         }
       ],
       "summary_points": [
@@ -971,7 +1664,31 @@
         "ARSR = 항로 장거리 감시",
         "PAR = 정밀접근 유도",
         "TCAS II = TA + RA"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "1차 레이더는 반사 신호를, 2차 감시레이더는 트랜스폰더 응답을 사용한다. ADS-B는 GNSS 등 기반의 주기적 위치 방송을 포함한다.",
+        "worked_case": "항법·감시 신호 이상이 생기면 관제에서 볼 수 있는 항적과 자신의 계기위치가 반드시 일치하지 않을 수 있음을 인식한다.",
+        "common_trap": "레이더 화면에 보이지 않는 항공기가 없다는 뜻은 아니다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "AIRNAV-TH-18",
@@ -1038,6 +1755,24 @@
           "paragraphs": [
             "기압 변화와 고도계 지시의 관계, 저온에서 진고도가 지시고도보다 낮아지는 현상, 밀도고도와 TAS 변화 등 고도계·대기상태 관련 계산을 다룬다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "고도계 설정은 공항 관측기압과 기준면을 비행고도로 바꿔주는 절차다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "출발·상승·하강 중 전이고도/전이비행고도 설정 변경은 해당 국가 AIP와 허가 고도를 따라 수행한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "한국과 미국의 전이 관련 기준값을 동일한 고정 수치로 가정하지 않는다."
+          ]
         }
       ],
       "summary_points": [
@@ -1045,7 +1780,31 @@
         "상승 시 전이고도에서 표준기압, 강하 시 전이비행고도에서 QNH",
         "QNH/QFE/QNE 기준면 구분",
         "저온에서는 진고도가 지시고도보다 낮아질 수 있음"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "고도계 설정은 공항 관측기압과 기준면을 비행고도로 바꿔주는 절차다.",
+        "worked_case": "출발·상승·하강 중 전이고도/전이비행고도 설정 변경은 해당 국가 AIP와 허가 고도를 따라 수행한다.",
+        "common_trap": "한국과 미국의 전이 관련 기준값을 동일한 고정 수치로 가정하지 않는다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "AIRNAV-TH-19",
@@ -1087,6 +1846,24 @@
           "paragraphs": [
             "선행 대형기의 비행경로 아래쪽과 후방을 피하고, 이륙 시 선행기의 부양지점 이전에 이륙해 상승경로 위를 유지하는 등의 회피절차를 다룬다. 항공기 범주별 후류 간격도 시험문제로 반복된다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "항적난기류는 날개끝 와류와 관련되며 항공기 무게·속도·형상·위치·바람에 따라 영향을 받는다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "무거운 항공기 뒤에서 접근할 때 선행기보다 높은 접근경로 유지 가능성과 접지점 등을 고려하되 실제 관제 분리기준을 준수한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "시간 분리가 충족되었다고 모든 항적난기류 가능성이 물리적으로 사라진다고 보지 않는다."
+          ]
         }
       ],
       "summary_points": [
@@ -1094,7 +1871,31 @@
         "강한 와류 조건: heavy·clean·slow",
         "대형기 뒤에서는 비행경로 아래쪽을 피함",
         "이륙 시 선행기 rotation/lift-off point 이전 이륙이 핵심"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "항적난기류는 날개끝 와류와 관련되며 항공기 무게·속도·형상·위치·바람에 따라 영향을 받는다.",
+        "worked_case": "무거운 항공기 뒤에서 접근할 때 선행기보다 높은 접근경로 유지 가능성과 접지점 등을 고려하되 실제 관제 분리기준을 준수한다.",
+        "common_trap": "시간 분리가 충족되었다고 모든 항적난기류 가능성이 물리적으로 사라진다고 보지 않는다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "AIRNAV-TH-20",
@@ -1143,6 +1944,24 @@
           "paragraphs": [
             "공항·항행시설·공역·장애물·최저고도 등 차트에 표시되는 주요 정보를 식별하고, 비행방식과 비행구간에 맞는 차트를 선택하는 것이 핵심이다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "항공차트는 절차 경로·고도·방위·장애물·사용 제한을 압축한 운항 문서다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "접근도 하단의 최소치와 발행일, NOTAM에 의한 변경 여부를 차트 확인 흐름에 포함한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "도상 고도가 모두 MSL인지 AGL인지 표기를 확인하지 않고 해석하지 않는다."
+          ]
         }
       ],
       "summary_points": [
@@ -1151,7 +1970,31 @@
         "Enroute와 Approach chart 용도 구분",
         "차트 기호·고도·공역 정보 판독"
       ],
-      "source_note": "독립 본문 절이 아닌 교재 출제예상문제·해설을 바탕으로 구성"
+      "source_note": "독립 본문 절이 아닌 교재 출제예상문제·해설을 바탕으로 구성",
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "항공차트는 절차 경로·고도·방위·장애물·사용 제한을 압축한 운항 문서다.",
+        "worked_case": "접근도 하단의 최소치와 발행일, NOTAM에 의한 변경 여부를 차트 확인 흐름에 포함한다.",
+        "common_trap": "도상 고도가 모두 MSL인지 AGL인지 표기를 확인하지 않고 해석하지 않는다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "AIRNAV-TH-21",
@@ -1192,6 +2035,24 @@
           "paragraphs": [
             "항공교통업무시설은 UTC를 사용하며 시간기록의 정확도를 유지해야 한다. 조종사에게 시간정보를 제공하는 절차도 함께 다룬다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "비행전에는 경로·기상·NOTAM·항공기 성능·연료·대체공항·인적요소를 교차 검증한다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "출발 예정 시각에 목적지 TAF가 악화된다면 예상 도착시각 기준으로 대체계획과 연료를 다시 계산한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "‘기상 브리핑을 받았다’는 행위 자체가 계획의 안전성을 자동 보장하지 않는다."
+          ]
         }
       ],
       "summary_points": [
@@ -1199,7 +2060,31 @@
         "비행계획 필수 기재사항 암기",
         "ATS는 UTC 사용",
         "지연시간 기준이 문제로 자주 출제"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "비행전에는 경로·기상·NOTAM·항공기 성능·연료·대체공항·인적요소를 교차 검증한다.",
+        "worked_case": "출발 예정 시각에 목적지 TAF가 악화된다면 예상 도착시각 기준으로 대체계획과 연료를 다시 계산한다.",
+        "common_trap": "‘기상 브리핑을 받았다’는 행위 자체가 계획의 안전성을 자동 보장하지 않는다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "AIRNAV-TH-22",
@@ -1257,6 +2142,24 @@
           "paragraphs": [
             "허가한계점에 접근했지만 이후 허가를 받지 못한 경우의 감속, 후속허가 발부 시점, 체공 진입과 outbound leg 시간측정 등 체공절차를 설명한다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "항공로 절차에서는 비행계획의 경로와 관제허가·최저고도·주파수·위치보고를 지속적으로 일치시킨다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "수정된 항로 허가를 받으면 차트/FMS와 교차 확인하고 다음 항행지점·최저고도에 영향을 받는지 검토한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "비행계획상 제출 경로와 현재 승인된 경로가 달라질 수 있다."
+          ]
         }
       ],
       "summary_points": [
@@ -1264,7 +2167,31 @@
         "장비 기능상실은 ATC에 보고",
         "허가한계 접근 시 체공 준비",
         "Holding outbound time과 시작지점이 주요 시험 포인트"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "항공로 절차에서는 비행계획의 경로와 관제허가·최저고도·주파수·위치보고를 지속적으로 일치시킨다.",
+        "worked_case": "수정된 항로 허가를 받으면 차트/FMS와 교차 확인하고 다음 항행지점·최저고도에 영향을 받는지 검토한다.",
+        "common_trap": "비행계획상 제출 경로와 현재 승인된 경로가 달라질 수 있다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "AIRNAV-TH-23",
@@ -1325,6 +2252,24 @@
           "paragraphs": [
             "시각접근과 Contact approach의 요구조건과 책임을 비교하고, 조기 실패접근을 포함해 MAP까지의 비행과 이후 실패접근절차를 설명한다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "도착절차는 STAR에서 접근절차와 착륙·실패접근으로 연결된다. 각 지점 고도·속도 제한을 서로 구분한다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "접근 허가를 받은 뒤에도 안정접근기준을 충족하지 못하면 복행 여부를 판단한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "접근허가와 착륙허가는 서로 다른 허가이고 도착도상의 MSA는 임의 하강허가가 아니다."
+          ]
         }
       ],
       "summary_points": [
@@ -1332,7 +2277,31 @@
         "Procedure turn/HILPT 적용조건 확인",
         "Visual approach와 Contact approach 조건 구분",
         "Missed approach는 MAP와 지정 절차가 핵심"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "도착절차는 STAR에서 접근절차와 착륙·실패접근으로 연결된다. 각 지점 고도·속도 제한을 서로 구분한다.",
+        "worked_case": "접근 허가를 받은 뒤에도 안정접근기준을 충족하지 못하면 복행 여부를 판단한다.",
+        "common_trap": "접근허가와 착륙허가는 서로 다른 허가이고 도착도상의 MSA는 임의 하강허가가 아니다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "AIRNAV-TH-24",
@@ -1376,6 +2345,24 @@
           "paragraphs": [
             "요격기의 접근방향, 피요격항공기가 따라야 할 신호와 조치, 별도 지시가 없을 때의 트랜스폰더 설정 등 요격·비상상황의 기본행동을 다룬다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "요격은 특정 신호·동작으로 의도를 전달하며 긴급절차는 조난·긴급·통신두절 등에 따라 달라진다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "통신두절 발생 시 7600과 해당 국가 공표 절차, 항공기 비정상 체크리스트를 순서대로 검토한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "ADIZ, 영공, 금지구역은 목적과 법적 성격이 다르다."
+          ]
         }
       ],
       "summary_points": [
@@ -1383,7 +2370,31 @@
         "요격기·피요격기 시각신호 확인",
         "비상상황 transponder code 구분",
         "관제기관과의 교신·지시 준수가 핵심"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "요격은 특정 신호·동작으로 의도를 전달하며 긴급절차는 조난·긴급·통신두절 등에 따라 달라진다.",
+        "worked_case": "통신두절 발생 시 7600과 해당 국가 공표 절차, 항공기 비정상 체크리스트를 순서대로 검토한다.",
+        "common_trap": "ADIZ, 영공, 금지구역은 목적과 법적 성격이 다르다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "AIRNAV-TH-25",
@@ -1422,6 +2433,24 @@
           "paragraphs": [
             "운항승무원을 중심으로 software, hardware, environment, liveware가 상호작용하는 관계를 설명하며, 특히 동료와의 teamwork와 지휘·의사소통 문제를 안전과 연결한다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "항공 인적요소는 기술 수준뿐 아니라 의사결정, 인지, 피로, 팀워크가 사고 확률에 미치는 영향을 다룬다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "업무 과중 시 위협·오류관리(TEM)로 우선순위를 재정렬하고 안전 필수업무를 팀에 배분한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "실수를 개인 능력 부족으로만 돌리면 시스템 수준의 위험요인을 놓칠 수 있다."
+          ]
         }
       ],
       "summary_points": [
@@ -1429,7 +2458,31 @@
         "SHELL 요소 간 interface가 안전에 영향",
         "Liveware-Liveware에는 teamwork·의사소통 포함",
         "자동화 환경에서 monitoring과 cross-check 중요"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "항공 인적요소는 기술 수준뿐 아니라 의사결정, 인지, 피로, 팀워크가 사고 확률에 미치는 영향을 다룬다.",
+        "worked_case": "업무 과중 시 위협·오류관리(TEM)로 우선순위를 재정렬하고 안전 필수업무를 팀에 배분한다.",
+        "common_trap": "실수를 개인 능력 부족으로만 돌리면 시스템 수준의 위험요인을 놓칠 수 있다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "AIRNAV-TH-26",
@@ -1482,6 +2535,24 @@
           "paragraphs": [
             "+G에서 시각저하·blackout·의식상실 등이 나타날 수 있고, 시각·전정감각에 의한 다양한 비행착각을 설명한다. 공간정위상실 시 잘못된 신체감각보다 비행계기의 지시를 신뢰해야 한다고 강조한다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "저산소증은 고도·개인의 생리상태에 따라 영향을 주고, 과호흡·압력 변화·피로 등은 비슷한 증상을 보일 수 있다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "갑작스러운 판단력 저하가 나타나면 기종별 산소 절차와 안전고도·안전한 착륙을 우선한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "저산소증은 본인이 증상을 정확히 자각하지 못할 수 있으므로 주관적 감각만 믿지 않는다."
+          ]
         }
       ],
       "summary_points": [
@@ -1489,7 +2560,31 @@
         "Hyperventilation은 과도한 호흡으로 CO₂ 감소",
         "고도별 TUC 수치가 주요 암기",
         "공간정위상실 시 계기 지시를 신뢰"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "저산소증은 고도·개인의 생리상태에 따라 영향을 주고, 과호흡·압력 변화·피로 등은 비슷한 증상을 보일 수 있다.",
+        "worked_case": "갑작스러운 판단력 저하가 나타나면 기종별 산소 절차와 안전고도·안전한 착륙을 우선한다.",
+        "common_trap": "저산소증은 본인이 증상을 정확히 자각하지 못할 수 있으므로 주관적 감각만 믿지 않는다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "AIRNAV-TH-27",
@@ -1529,6 +2624,24 @@
           "paragraphs": [
             "인적과오를 탈락, 수행, 대상 등의 형태로 분류하고 인간과 기계가 각각 우월한 특성을 비교한다. 인간은 예기치 않은 상황에서의 판단·응용·창조에 강점이 있고, 기계는 빠르고 정확한 반복과 대량 정보처리에 강점이 있다고 정리한다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "주의·기억·상황인식은 제한된 자원이고 스트레스와 기대편향에 취약하다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "승무원 한 명이 잘못된 주파수·고도를 고집할 때 다른 구성원이 독립 확인과 명확한 이견 제시로 오류를 줄인다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "같은 계기를 여러 번 읽는 것만으로 서로 독립적인 교차검증이 되지는 않는다."
+          ]
         }
       ],
       "summary_points": [
@@ -1536,7 +2649,31 @@
         "과오 유형: 탈락·수행·대상",
         "기계 강점: 속도·반복·대량정보처리",
         "인간 강점: 판단·응용·창조·적응"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "주의·기억·상황인식은 제한된 자원이고 스트레스와 기대편향에 취약하다.",
+        "worked_case": "승무원 한 명이 잘못된 주파수·고도를 고집할 때 다른 구성원이 독립 확인과 명확한 이견 제시로 오류를 줄인다.",
+        "common_trap": "같은 계기를 여러 번 읽는 것만으로 서로 독립적인 교차검증이 되지는 않는다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "AIRNAV-TH-28",
@@ -1574,6 +2711,24 @@
           "paragraphs": [
             "스트레스를 개인의 능력 한계를 넘어서는 환경요구와의 불균형으로 설명하고, 긴급상황에서 나타나는 생리적·심리적 반응단계를 정리한다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "운항 적합성은 자격뿐 아니라 수면·피로·약물·질병·정서 상태를 포함한다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "출발 전 피로 또는 질병으로 판단력이 떨어지면 일정 준수보다 운항 적합성 보고·교체 등의 절차를 따른다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "법적으로 자격이 유효하다는 사실이 그날의 신체·인지 적합성을 보장하지 않는다."
+          ]
         }
       ],
       "summary_points": [
@@ -1581,7 +2736,31 @@
         "예방은 1차·2차·3차로 구분",
         "약물은 판단력·주의력·협응 등에 영향 가능",
         "스트레스는 개인 능력과 환경 요구의 불균형"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "운항 적합성은 자격뿐 아니라 수면·피로·약물·질병·정서 상태를 포함한다.",
+        "worked_case": "출발 전 피로 또는 질병으로 판단력이 떨어지면 일정 준수보다 운항 적합성 보고·교체 등의 절차를 따른다.",
+        "common_trap": "법적으로 자격이 유효하다는 사실이 그날의 신체·인지 적합성을 보장하지 않는다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "AIRNAV-TH-29",
@@ -1617,6 +2796,24 @@
           "paragraphs": [
             "관리격자 모델로 인간관계와 직무에 대한 관심 정도를 기준으로 리더십 유형을 구분하며 9.9형을 이상적인 형태로 설명한다. 또한 pilot, aircraft, environment, operation의 상호작용을 고려하는 위험관리 개념을 다룬다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "승무원 간 정보 교환에는 폐회로 통신, 브리핑, 권위경사 관리, CRM이 중요하다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "기장·부기장이 서로 다른 활주로를 이해하고 있다면 이륙 전에 명시적인 재확인이 필요하다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "확인 메시지 없이 끄덕이는 행동을 유효한 readback으로 대체하지 않는다."
+          ]
         }
       ],
       "summary_points": [
@@ -1624,7 +2821,31 @@
         "Leadership grid는 인간·직무 관심 축으로 구성",
         "9.9형 = 높은 인간관계 관심 + 높은 직무 관심",
         "Risk management는 pilot·aircraft·environment·operation을 함께 고려"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "승무원 간 정보 교환에는 폐회로 통신, 브리핑, 권위경사 관리, CRM이 중요하다.",
+        "worked_case": "기장·부기장이 서로 다른 활주로를 이해하고 있다면 이륙 전에 명시적인 재확인이 필요하다.",
+        "common_trap": "확인 메시지 없이 끄덕이는 행동을 유효한 readback으로 대체하지 않는다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "AIRNAV-TH-30",
@@ -1668,6 +2889,24 @@
           "paragraphs": [
             "점검표의 설계·사용상 문제, 표준용어와 응답의 구체성, 자동화의 장점과 인간-기계 interface를 설명한다. 경고표시장치는 warning, caution, advisory 정보를 구분해 승무원의 주의를 유도해야 한다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "절차서·전자비행가방·경고계통의 정보는 사람의 주의와 항공기 실제 상태를 연결한다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "체크리스트 자동화가 있더라도 상태 변화와 수행 결과는 독립적으로 확인한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "‘시스템이 정상 표시’와 ‘실제 운항 조건 전체가 적합’은 다른 판단이다."
+          ]
         }
       ],
       "summary_points": [
@@ -1675,7 +2914,31 @@
         "3P = Philosophy·Policies·Procedures",
         "Checklist는 표준용어와 정확한 상태확인이 중요",
         "ACW = Advisory·Caution·Warning"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "절차서·전자비행가방·경고계통의 정보는 사람의 주의와 항공기 실제 상태를 연결한다.",
+        "worked_case": "체크리스트 자동화가 있더라도 상태 변화와 수행 결과는 독립적으로 확인한다.",
+        "common_trap": "‘시스템이 정상 표시’와 ‘실제 운항 조건 전체가 적합’은 다른 판단이다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "AIRNAV-TH-31",
@@ -1711,6 +2974,24 @@
           "paragraphs": [
             "Hofstede의 문화차원으로 권력거리, 불확실성 회피, 개인주의, 남성성을 소개하고 이러한 문화적 특성이 CRM과 조직행동에 영향을 줄 수 있음을 설명한다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "기상·소음·온도·고도·시계정보는 인간의 감각과 인지에 영향을 준다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "악천후 접근에서 자동화·계기 의존도가 커질수록 사전 브리핑과 복행 기준 명확화가 중요하다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "시정이 좋은 날에도 착시와 지형기만으로 공간정위상실 위험이 없다고 단정할 수 없다."
+          ]
         }
       ],
       "summary_points": [
@@ -1718,7 +2999,31 @@
         "시차는 생체리듬 불일치와 피로를 유발",
         "Hofstede: 권력거리·불확실성회피·개인주의·남성성",
         "문화적 환경도 CRM의 일부"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "국토교통부 대한민국 eAIP (현행 발효판 / NOTAM 확인)",
+          "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html",
+          "jurisdiction": "KR",
+          "type": "공식 항공정보",
+          "id": "KOREA-AIP"
+        },
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "기상·소음·온도·고도·시계정보는 인간의 감각과 인지에 영향을 준다.",
+        "worked_case": "악천후 접근에서 자동화·계기 의존도가 커질수록 사전 브리핑과 복행 기준 명확화가 중요하다.",
+        "common_trap": "시정이 좋은 날에도 착시와 지형기만으로 공간정위상실 위험이 없다고 단정할 수 없다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     }
   ]
 }

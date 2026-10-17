@@ -16,7 +16,10 @@
     "linked_question_count": 589,
     "bank_question_total": 914,
     "mock_exam_questions": 325,
-    "question_source_file": "questions_flight_theory_001_914_review_pass2_ocr.json"
+    "question_source_file": "questions_flight_theory_001_914_review_pass2_ocr.json",
+    "content_enhancement_version": "v11.60.67",
+    "reference_policy": "대한민국 법령·eAIP가 한국 적용 기준. FAA 자료는 보충/미국 기준. 현행 발효자료와 NOTAM 반드시 확인.",
+    "deep_review_note": "기존 교재 이론은 유지하며 각 단계에 운항 적용과 자주 혼동하는 경계를 보강."
   },
   "stages": [
     {
@@ -88,6 +91,24 @@
               ]
             ]
           }
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "대기 밀도는 압력·온도·수분에 의해 변하고 밀도고도는 엔진·날개·프로펠러의 성능에 영향을 준다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "기온이 높은 고지대 공항에서 표준상태 성능표의 이륙거리를 그대로 쓰지 않고 AFM/POH 성능 자료의 온도·기압 조건을 적용한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "압력고도와 밀도고도를 동일하게 취급하지 않는다."
+          ]
         }
       ],
       "summary_points": [
@@ -96,7 +117,24 @@
         "ISA 해면기압 1013.25 hPa / 29.92 inHg",
         "ISA 해면온도 15°C",
         "11 km까지 표준기온감률 약 6.5°C/km"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "대기 밀도는 압력·온도·수분에 의해 변하고 밀도고도는 엔진·날개·프로펠러의 성능에 영향을 준다.",
+        "worked_case": "기온이 높은 고지대 공항에서 표준상태 성능표의 이륙거리를 그대로 쓰지 않고 AFM/POH 성능 자료의 온도·기압 조건을 적용한다.",
+        "common_trap": "압력고도와 밀도고도를 동일하게 취급하지 않는다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "FLT-TH-02",
@@ -144,6 +182,24 @@
             "전압 = 정압 + 동압",
             "속도 증가 → 동압 증가 → 정압 감소(조건이 성립하는 정상 흐름)"
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "연속방정식은 정상흐름의 질량보존을, 베르누이 관계는 제한조건에서 에너지 보존을 설명한다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "속도계가 동압을 이용하는 원리를 정압·전압 관계로 연결해 설명해 본다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "받음각과 날개 주위 순환을 무시한 단순한 ‘윗면 길이가 길어서 양력이 생긴다’는 설명만으로는 부족하다."
+          ]
         }
       ],
       "summary_points": [
@@ -151,7 +207,24 @@
         "동압은 속도의 제곱에 비례",
         "전압 = 정압 + 동압",
         "베르누이: 속도가 빨라지면 정압은 낮아진다"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "연속방정식은 정상흐름의 질량보존을, 베르누이 관계는 제한조건에서 에너지 보존을 설명한다.",
+        "worked_case": "속도계가 동압을 이용하는 원리를 정압·전압 관계로 연결해 설명해 본다.",
+        "common_trap": "받음각과 날개 주위 순환을 무시한 단순한 ‘윗면 길이가 길어서 양력이 생긴다’는 설명만으로는 부족하다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "FLT-TH-03",
@@ -207,6 +280,24 @@
           "paragraphs": [
             "교재는 난류 경계층이 층류 경계층보다 뒤쪽의 압력상승을 더 잘 견딘다는 점을 이용해 와류발생장치(vortex generator)나 표면 거칠기 등으로 천이를 유도하여 박리를 늦출 수 있다고 설명한다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "경계층에서 점성은 벽면 마찰과 압력기울기 영향을 받으며 층류·난류의 특성이 다르다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "표면 결빙이나 오염이 경계층 박리 지점을 바꿔 실속 특성을 악화할 수 있다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "난류 경계층이 항상 불리한 것은 아니며 경우에 따라 박리를 지연한다."
+          ]
         }
       ],
       "summary_points": [
@@ -214,7 +305,24 @@
         "층류 → 천이 → 난류",
         "경계층 박리 → 후류 증가·양력 급감",
         "난류 경계층은 박리에 상대적으로 강함"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "경계층에서 점성은 벽면 마찰과 압력기울기 영향을 받으며 층류·난류의 특성이 다르다.",
+        "worked_case": "표면 결빙이나 오염이 경계층 박리 지점을 바꿔 실속 특성을 악화할 수 있다.",
+        "common_trap": "난류 경계층이 항상 불리한 것은 아니며 경우에 따라 박리를 지연한다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "FLT-TH-04",
@@ -300,6 +408,24 @@
           "paragraphs": [
             "교재는 마하파·충격파, 임계마하수, 항력의 급증과 조종성 변화를 고속 비행의 핵심 현상으로 연결한다. 압축성 효과는 마하수가 커질수록 무시할 수 없으며, 날개 형상과 후퇴각은 임계마하수 및 고속 성능에 큰 영향을 준다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "마하수는 진대기속도와 그곳의 음속의 비율이다. 충격파는 압력 변화와 경계층 박리, 항력발산을 유발할 수 있다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "같은 IAS라도 고고도·저온에서 마하한계가 먼저 가까워질 수 있어 MMO와 VMO를 구별한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "IAS·TAS·Mach를 같은 숫자 축에서 직접 비교할 수 없다."
+          ]
         }
       ],
       "summary_points": [
@@ -308,7 +434,24 @@
         "마하 0.3 이하: 비압축성 근사 가능",
         "천음속에서는 국부 초음속·충격파 발생 가능",
         "압축성 효과는 고속에서 항력·조종성에 직접 영향"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "마하수는 진대기속도와 그곳의 음속의 비율이다. 충격파는 압력 변화와 경계층 박리, 항력발산을 유발할 수 있다.",
+        "worked_case": "같은 IAS라도 고고도·저온에서 마하한계가 먼저 가까워질 수 있어 MMO와 VMO를 구별한다.",
+        "common_trap": "IAS·TAS·Mach를 같은 숫자 축에서 직접 비교할 수 없다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "FLT-TH-05",
@@ -418,6 +561,24 @@
           "paragraphs": [
             "직사각형·테이퍼·타원형·후퇴익·삼각익 등 평면형에 따라 유도항력, 실속 형태, 구조 및 고속 특성이 달라진다. 후퇴익은 임계마하수와 항력발산마하수를 높이는 데 유리하지만 날개끝 실속과 조종성 저하를 주의해야 한다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "날개의 세장비·후퇴각·익형과 비틀림은 유도항력, 압축성, 실속 특성에 영향을 준다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "익면하중이 높은 항공기의 상승·선회 특성을 저익면하중 기종과 비교한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "날개 면적만으로 양력 성능을 결정하지 않고 속도·밀도·양력계수를 함께 본다."
+          ]
         }
       ],
       "summary_points": [
@@ -425,7 +586,24 @@
         "L, D는 대체로 ρ·S·V²와 계수에 비례",
         "임계 받음각 초과 → 실속",
         "후퇴익은 고속에 유리하지만 날개끝 실속에 취약"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "날개의 세장비·후퇴각·익형과 비틀림은 유도항력, 압축성, 실속 특성에 영향을 준다.",
+        "worked_case": "익면하중이 높은 항공기의 상승·선회 특성을 저익면하중 기종과 비교한다.",
+        "common_trap": "날개 면적만으로 양력 성능을 결정하지 않고 속도·밀도·양력계수를 함께 본다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "FLT-TH-06",
@@ -526,6 +704,24 @@
           "paragraphs": [
             "날개 평면형에 따라 실속이 뿌리에서 시작하는지 날개끝에서 시작하는지가 달라진다. 날개끝 실속은 도움날개 효율과 가로안정에 불리하므로 washout, 공력적 비틀림, stall strip, slot 등의 방법으로 실속 진행을 조절한다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "양력은 동압·날개면적·양력계수의 함수이다. 양력계수는 받음각·익형·표면 상태에 따라 변한다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "동일 중량으로 수평 비행할 때 속도를 낮추면 더 높은 양력계수가 요구되고 임계 받음각에 가까워진다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "실속은 특정 속도가 아닌 임계 받음각 초과에서 발생하며 해당 속도는 중량·하중계수에 따라 변한다."
+          ]
         }
       ],
       "summary_points": [
@@ -533,7 +729,24 @@
         "유도항력은 저속/고받음각에서 증가",
         "날개끝 실속은 aileron 효율을 악화",
         "washout·stall strip·slot 등으로 실속 특성 개선"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "양력은 동압·날개면적·양력계수의 함수이다. 양력계수는 받음각·익형·표면 상태에 따라 변한다.",
+        "worked_case": "동일 중량으로 수평 비행할 때 속도를 낮추면 더 높은 양력계수가 요구되고 임계 받음각에 가까워진다.",
+        "common_trap": "실속은 특정 속도가 아닌 임계 받음각 초과에서 발생하며 해당 속도는 중량·하중계수에 따라 변한다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "FLT-TH-07",
@@ -622,6 +835,24 @@
           "paragraphs": [
             "스포일러와 스피드브레이크는 양력을 줄이거나 항력을 증가시켜 강하·감속·착륙 후 제동에 사용된다. 장치별 목적과 양력/항력 변화 방향을 구분하는 것이 시험 포인트다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "플랩·슬랫은 최대양력계수와 익형의 양력을 바꿔 저속 운용을 돕는다. 장치별 항력 증가 정도는 서로 다르다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "접근 플랩과 착륙 플랩 구성의 속도 제한·복행 성능 차이를 AFM/FCOM에서 비교한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "양력 증가 장치의 사용이 언제나 상승성능을 개선하는 것은 아니다."
+          ]
         }
       ],
       "summary_points": [
@@ -629,7 +860,24 @@
         "Slotted flap/slot은 박리를 지연",
         "Fowler flap은 캠버와 면적을 함께 증가",
         "Spoiler는 양력 감소·항력 증가"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "플랩·슬랫은 최대양력계수와 익형의 양력을 바꿔 저속 운용을 돕는다. 장치별 항력 증가 정도는 서로 다르다.",
+        "worked_case": "접근 플랩과 착륙 플랩 구성의 속도 제한·복행 성능 차이를 AFM/FCOM에서 비교한다.",
+        "common_trap": "양력 증가 장치의 사용이 언제나 상승성능을 개선하는 것은 아니다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "FLT-TH-08",
@@ -679,6 +927,24 @@
           "paragraphs": [
             "필요마력은 항력을 이기며 비행을 유지하는 데 필요한 동력이고, 이용마력은 엔진이 제공할 수 있는 동력이다. 둘의 차이가 여유마력(excess power)이며 상승성능을 결정한다. 최대상승률은 여유마력이 최대일 때 얻어진다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "항력은 유해항력·유도항력 등으로 분해해 분석하며 속도 변화에 따라 두 성분이 달리 움직인다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "순항 최적속도와 활공 최적속도가 왜 다른 운용 목표인지 항력곡선과 필요한 동력을 비교한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "최소항력속도와 최소필요동력속도는 일반적으로 같지 않다."
+          ]
         }
       ],
       "summary_points": [
@@ -686,7 +952,24 @@
         "필요마력 = 비행 유지에 필요한 동력",
         "여유마력 = 이용마력 - 필요마력",
         "최대상승률 ↔ 여유마력 최대"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "항력은 유해항력·유도항력 등으로 분해해 분석하며 속도 변화에 따라 두 성분이 달리 움직인다.",
+        "worked_case": "순항 최적속도와 활공 최적속도가 왜 다른 운용 목표인지 항력곡선과 필요한 동력을 비교한다.",
+        "common_trap": "최소항력속도와 최소필요동력속도는 일반적으로 같지 않다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "FLT-TH-09",
@@ -782,6 +1065,24 @@
           "paragraphs": [
             "활공에서는 양항비와 활공거리의 관계를, 이륙·착륙에서는 중량·밀도고도·바람·활주로 상태와 속도가 거리 변화에 미치는 영향을 다룬다. 정풍은 대지속도를 낮춰 이착륙 거리를 줄이고 배풍은 반대로 거리를 늘린다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "상승성능은 이용 가능한 동력·추력과 수평비행에 필요한 값의 차이로 결정한다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "높은 밀도고도에서 상승률이 저하되므로 지형 통과 요구조건을 POH 성능표로 다시 계산한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "최대상승각(Vx)과 최대상승률(Vy)은 목표와 속도가 다른 성능이다."
+          ]
         }
       ],
       "summary_points": [
@@ -790,7 +1091,24 @@
         "절대상승한계에서 최대상승률 0",
         "최대 활공거리 ↔ 최대 양항비 조건",
         "정풍은 이착륙거리 감소, 배풍은 증가"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "상승성능은 이용 가능한 동력·추력과 수평비행에 필요한 값의 차이로 결정한다.",
+        "worked_case": "높은 밀도고도에서 상승률이 저하되므로 지형 통과 요구조건을 POH 성능표로 다시 계산한다.",
+        "common_trap": "최대상승각(Vx)과 최대상승률(Vy)은 목표와 속도가 다른 성능이다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "FLT-TH-10",
@@ -830,6 +1148,24 @@
           "paragraphs": [
             "스핀은 실속 상태에서 좌우 날개의 실속 정도가 달라 회전하며 강하하는 운동이다. 정상스핀과 수평스핀의 특징을 구분하며, 회복에서는 받음각을 줄이고 회전을 멈추는 조작이 핵심으로 제시된다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "이륙거리·착륙거리·엔진부전 성능 등은 중량·바람·경사·표면·온도에 영향을 받는다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "젖은 활주로에 배풍이 있는 경우 바람만 보지 말고 AFM의 거리 보정과 운항 한계를 함께 적용한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "지상활주거리와 장애물 통과 이륙거리를 같은 개념으로 쓰지 않는다."
+          ]
         }
       ],
       "summary_points": [
@@ -837,7 +1173,24 @@
         "실속속도는 √하중배수에 비례",
         "스핀 = 실속 + 비대칭 회전",
         "수평스핀은 회복이 매우 곤란"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "이륙거리·착륙거리·엔진부전 성능 등은 중량·바람·경사·표면·온도에 영향을 받는다.",
+        "worked_case": "젖은 활주로에 배풍이 있는 경우 바람만 보지 말고 AFM의 거리 보정과 운항 한계를 함께 적용한다.",
+        "common_trap": "지상활주거리와 장애물 통과 이륙거리를 같은 개념으로 쓰지 않는다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "FLT-TH-11",
@@ -891,6 +1244,24 @@
           "paragraphs": [
             "수평선회에서 경사각이 커질수록 하중배수가 증가한다. 하중배수 증가는 필요한 양력을 키우므로 실속속도도 상승한다. 큰 경사각의 선회에서는 구조하중과 실속 여유를 동시에 고려해야 한다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "선회 중 하중계수는 경사각이 커질수록 증가하고 실속속도는 하중계수의 제곱근 비율로 높아진다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "예를 들어 60도 수평 협조선회에서는 하중계수가 약 2가 되어 1g 실속속도에 약 1.414를 곱한 값이 기준이 된다(기종별 한계 별도)."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "45도 선회와 60도 선회의 하중계수를 단순한 각도 비율로 계산하지 않는다."
+          ]
         }
       ],
       "summary_points": [
@@ -898,7 +1269,24 @@
         "속도 증가 → 선회반경 증가·선회율 감소",
         "경사각 증가 → 하중배수 증가",
         "실속속도 ∝ √하중배수"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "선회 중 하중계수는 경사각이 커질수록 증가하고 실속속도는 하중계수의 제곱근 비율로 높아진다.",
+        "worked_case": "예를 들어 60도 수평 협조선회에서는 하중계수가 약 2가 되어 1g 실속속도에 약 1.414를 곱한 값이 기준이 된다(기종별 한계 별도).",
+        "common_trap": "45도 선회와 60도 선회의 하중계수를 단순한 각도 비율로 계산하지 않는다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "FLT-TH-12",
@@ -968,6 +1356,24 @@
               ]
             ]
           }
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "에일러론·승강타·방향타는 각각 주로 롤·피치·요를 제어한다. 트림은 지속적인 조종력 부담을 줄인다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "속도·무게중심·플랩 변경 후 필요 트림량이 바뀌는 이유를 공력 모멘트로 설명해 본다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "트림 작동은 자동으로 적절한 자세나 비행경로를 유지하는 기능과 같지 않다."
+          ]
         }
       ],
       "summary_points": [
@@ -976,7 +1382,24 @@
         "Trim tab은 지속 조종력 제거",
         "Balance/servo tab은 조종력 경감",
         "Anti-servo tab은 조종감을 증가"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "에일러론·승강타·방향타는 각각 주로 롤·피치·요를 제어한다. 트림은 지속적인 조종력 부담을 줄인다.",
+        "worked_case": "속도·무게중심·플랩 변경 후 필요 트림량이 바뀌는 이유를 공력 모멘트로 설명해 본다.",
+        "common_trap": "트림 작동은 자동으로 적절한 자세나 비행경로를 유지하는 기능과 같지 않다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "FLT-TH-13",
@@ -1091,6 +1514,24 @@
           "paragraphs": [
             "세로안정은 무게중심과 공기역학적 중심, 꼬리날개 부피와 효율의 영향을 받는다. 가로안정에는 쳐든각(dihedral), 후퇴각, 높은 날개 배치와 keel effect 등이 작용한다. 방향안정에는 수직꼬리날개와 모멘트암이 중요하다. 더치롤은 가로·방향 운동이 결합된 진동이며 요댐퍼로 억제한다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "정적 안정성은 교란 직후 원위치로 돌아가려는 초기 경향, 동적 안정성은 시간에 따른 운동의 감쇠·발산을 의미한다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "무게중심이 후방으로 이동하면 종안정 여유가 감소하므로 비행성능과 조종성을 함께 검토한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "정적으로 안정하다는 사실만으로 모든 진동이 시간이 지나며 감소하는 것은 아니다."
+          ]
         }
       ],
       "summary_points": [
@@ -1099,7 +1540,24 @@
         "Roll–Aileron / Pitch–Elevator / Yaw–Rudder",
         "전방 CG는 세로안정 증가 방향",
         "Dutch roll은 yaw damper로 억제"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "정적 안정성은 교란 직후 원위치로 돌아가려는 초기 경향, 동적 안정성은 시간에 따른 운동의 감쇠·발산을 의미한다.",
+        "worked_case": "무게중심이 후방으로 이동하면 종안정 여유가 감소하므로 비행성능과 조종성을 함께 검토한다.",
+        "common_trap": "정적으로 안정하다는 사실만으로 모든 진동이 시간이 지나며 감소하는 것은 아니다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "FLT-TH-14",
@@ -1146,6 +1604,24 @@
           "paragraphs": [
             "천음속에서 한쪽 날개가 먼저 충격실속을 일으켜 급격히 기우는 wing drop과, 한 축의 운동이 다른 축 운동을 유발하는 roll coupling을 다룬다. 고속 항공기에서는 이러한 결합운동을 줄이기 위해 꼬리면과 보조 안정장치를 사용한다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "더치롤·롤 발산·마하 턱 등 고속항공기의 동적·압축성 현상은 각각 다른 공기역학 기전에 의해 발생한다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "후퇴익 항공기의 요-롤 결합 운동과 요댐퍼 기능을 연결해 이해한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "고속 불안정 현상을 모두 ‘실속’이라고 부르지 않는다."
+          ]
         }
       ],
       "summary_points": [
@@ -1153,7 +1629,24 @@
         "Pitch up = 고받음각에서 과도한 기수 들림",
         "Deep stall = 꼬리면이 후류에 가려 회복 곤란",
         "Wing drop·roll coupling은 고속 가로 불안정"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "더치롤·롤 발산·마하 턱 등 고속항공기의 동적·압축성 현상은 각각 다른 공기역학 기전에 의해 발생한다.",
+        "worked_case": "후퇴익 항공기의 요-롤 결합 운동과 요댐퍼 기능을 연결해 이해한다.",
+        "common_trap": "고속 불안정 현상을 모두 ‘실속’이라고 부르지 않는다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "FLT-TH-15",
@@ -1233,6 +1726,24 @@
           "paragraphs": [
             "교재는 압축기 stall/surge, 온도와 회전수 한계, 고도와 기온에 따른 추력 변화, 추력증가장치와 역추력장치 등을 가스터빈 운용의 핵심으로 다룬다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "가스터빈의 기본 과정은 흡입·압축·연소·팽창·배기이며 압축기·터빈의 일과 추력 생성이 연결된다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "고온 공항에서 엔진 성능제한이 어떻게 달라지는지 공항기온과 항공기 성능자료를 연결한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "터보제트와 터보팬은 바이패스 흐름 및 추진 효율에서 차이가 있다."
+          ]
         }
       ],
       "summary_points": [
@@ -1241,7 +1752,24 @@
         "Turbofan은 bypass 공기를 이용",
         "터빈은 압축기·부속장치를 구동",
         "온도·RPM·압축기 stall/surge 감시"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "가스터빈의 기본 과정은 흡입·압축·연소·팽창·배기이며 압축기·터빈의 일과 추력 생성이 연결된다.",
+        "worked_case": "고온 공항에서 엔진 성능제한이 어떻게 달라지는지 공항기온과 항공기 성능자료를 연결한다.",
+        "common_trap": "터보제트와 터보팬은 바이패스 흐름 및 추진 효율에서 차이가 있다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "FLT-TH-16",
@@ -1288,6 +1816,24 @@
           "paragraphs": [
             "이륙·최대연속 등 엔진 정격과 온도·압력 한계를 구분하여, 주어진 운용조건에서 엔진 손상 없이 필요한 출력을 사용하는 것이 핵심이다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "왕복엔진은 흡입·압축·폭발·배기의 사이클과 점화·연료·윤활·냉각 계통이 결합한다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "엔진 시동·상승·순항에서 혼합비와 온도 관리가 왜 필요한지 기종별 체크리스트와 함께 공부한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "자동차 엔진 상식을 그대로 항공기 마그네토·카뷰레터 결빙·혼합비 운용에 적용하지 않는다."
+          ]
         }
       ],
       "summary_points": [
@@ -1295,7 +1841,24 @@
         "Detonation과 preignition 구분",
         "Supercharger는 기계구동, turbocharger는 배기가스 구동",
         "Manifold pressure와 RPM은 출력관리 핵심"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "왕복엔진은 흡입·압축·폭발·배기의 사이클과 점화·연료·윤활·냉각 계통이 결합한다.",
+        "worked_case": "엔진 시동·상승·순항에서 혼합비와 온도 관리가 왜 필요한지 기종별 체크리스트와 함께 공부한다.",
+        "common_trap": "자동차 엔진 상식을 그대로 항공기 마그네토·카뷰레터 결빙·혼합비 운용에 적용하지 않는다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "FLT-TH-17",
@@ -1348,6 +1911,24 @@
           "paragraphs": [
             "고정피치·조정피치·가변피치·정속 프로펠러를 구분한다. 정속 프로펠러는 governor가 깃각을 바꿔 RPM을 일정하게 유지하며, 다발기에서는 feathering이 정지 엔진의 항력을 줄이는 데 중요하다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "프로펠러는 회전하는 날개로 공기를 가속해 추력을 만들고 깃각·RPM·진대기속도의 균형으로 효율이 달라진다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "정속프로펠러의 피치 변화가 설정 RPM을 유지하는 과정을 상승과 순항 상황에 각각 적용해 본다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "프로펠러 깃각과 항공기 피치각·받음각은 서로 다른 개념이다."
+          ]
         }
       ],
       "summary_points": [
@@ -1355,7 +1936,24 @@
         "기하학적 피치와 유효피치의 차이 = slip",
         "정속 프로펠러는 governor가 RPM 유지",
         "Feather는 정지 엔진 프로펠러 항력 감소"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "프로펠러는 회전하는 날개로 공기를 가속해 추력을 만들고 깃각·RPM·진대기속도의 균형으로 효율이 달라진다.",
+        "worked_case": "정속프로펠러의 피치 변화가 설정 RPM을 유지하는 과정을 상승과 순항 상황에 각각 적용해 본다.",
+        "common_trap": "프로펠러 깃각과 항공기 피치각·받음각은 서로 다른 개념이다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "FLT-TH-18",
@@ -1437,6 +2035,24 @@
           "paragraphs": [
             "고도계는 정압 변화로 고도를, 승강계는 정압 변화율로 상승·하강률을 표시한다. 속도계의 색호선은 실속·정상운용·주의·플랩 운용 범위를 나타내므로 각 속도 정의를 연결해 암기하는 것이 중요하다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "피토정압 계통은 전압·정압을 이용해 속도·고도·상승률을 표시한다. 막힘 위치에 따라 계기 이상 징후가 다르다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "피토관·정압구 얼음으로 계기값이 비정상적일 때는 기종별 비정상 체크리스트와 대체 계기를 확인한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "고도계가 기압을 읽는다는 것과 실제 높이를 직접 재는 것은 다른 이야기다."
+          ]
         }
       ],
       "summary_points": [
@@ -1444,7 +2060,24 @@
         "Altimeter/VSI = 정압 사용",
         "Pitot 막힘과 static 막힘의 지시 차이를 구분",
         "속도계 색호선과 V-speed 연결"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "피토정압 계통은 전압·정압을 이용해 속도·고도·상승률을 표시한다. 막힘 위치에 따라 계기 이상 징후가 다르다.",
+        "worked_case": "피토관·정압구 얼음으로 계기값이 비정상적일 때는 기종별 비정상 체크리스트와 대체 계기를 확인한다.",
+        "common_trap": "고도계가 기압을 읽는다는 것과 실제 높이를 직접 재는 것은 다른 이야기다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "FLT-TH-19",
@@ -1478,13 +2111,48 @@
           "paragraphs": [
             "자이로는 강직성(rigidity)과 섭동성(precession)을 이용한다. 자세계, 방향지시계, 선회계 등은 자이로의 축을 서로 다르게 배치해 pitch·roll·yaw 정보를 제공한다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "자기컴퍼스는 지자기, 자이로계기는 회전축의 공간적 성질을 이용한다. 편차·자차와 자이로 드리프트의 원인은 구분된다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "선회·가감속 중 자기컴퍼스 오차를 예상하고 안정된 비행에서 검증한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "진북·자북·나침반북 방향을 항상 같다고 가정하지 않는다."
+          ]
         }
       ],
       "summary_points": [
         "자기 컴퍼스 주요 동적오차 = 선회오차·가속도오차",
         "자이로 핵심 성질 = rigidity·precession",
         "자세계·방향지시계·선회계의 기능 구분"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "자기컴퍼스는 지자기, 자이로계기는 회전축의 공간적 성질을 이용한다. 편차·자차와 자이로 드리프트의 원인은 구분된다.",
+        "worked_case": "선회·가감속 중 자기컴퍼스 오차를 예상하고 안정된 비행에서 검증한다.",
+        "common_trap": "진북·자북·나침반북 방향을 항상 같다고 가정하지 않는다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "FLT-TH-20",
@@ -1550,6 +2218,24 @@
           "paragraphs": [
             "한 물체를 앞이나 뒤로 이동하면 그 물체의 중량과 이동거리만큼 모멘트가 변한다. 새 CG는 변화된 총 모멘트를 총중량으로 나누어 계산한다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "모멘트는 무게×기준점으로부터 거리(arm)이며 CG는 모멘트합÷중량합으로 구한다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "예제: 빈 기체 700kg·arm 2.0m, 짐 100kg·arm 3.0m이면 CG=(700×2+100×3)/800=2.125m이다. 실제 허용범위는 기종별 승인표로 확인한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "kg·m 모멘트를 혼용할 때 기준선과 단위를 일치시키며 음수 arm 가능성도 고려한다."
+          ]
         }
       ],
       "summary_points": [
@@ -1557,7 +2243,24 @@
         "CG = Total Moment / Total Weight",
         "Datum 기준 앞/뒤 arm 부호 주의",
         "화물 이동은 총중량은 그대로이고 moment만 변화"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "모멘트는 무게×기준점으로부터 거리(arm)이며 CG는 모멘트합÷중량합으로 구한다.",
+        "worked_case": "예제: 빈 기체 700kg·arm 2.0m, 짐 100kg·arm 3.0m이면 CG=(700×2+100×3)/800=2.125m이다. 실제 허용범위는 기종별 승인표로 확인한다.",
+        "common_trap": "kg·m 모멘트를 혼용할 때 기준선과 단위를 일치시키며 음수 arm 가능성도 고려한다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "FLT-TH-21",
@@ -1613,13 +2316,48 @@
               ]
             ]
           }
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "전방 CG는 종안정을 높이는 경향이 있지만 기수 들기와 상승에 불리할 수 있고, 후방 CG는 안정 여유와 실속 회복 특성에 영향을 준다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "연료 소모 전·후 CG가 모두 허용 범위에 있는지 중량중심표로 검증한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "이륙 중량이 제한 이내라는 사실만으로 CG가 제한 내라고 확정하지 않는다."
+          ]
         }
       ],
       "summary_points": [
         "전방 CG → 안정성↑, 조종성/성능에는 불리할 수 있음",
         "후방 CG → 안정성↓, 실속·스핀 회복 불리",
         "CG 한계는 안정성과 조종성 모두를 위한 제한"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "전방 CG는 종안정을 높이는 경향이 있지만 기수 들기와 상승에 불리할 수 있고, 후방 CG는 안정 여유와 실속 회복 특성에 영향을 준다.",
+        "worked_case": "연료 소모 전·후 CG가 모두 허용 범위에 있는지 중량중심표로 검증한다.",
+        "common_trap": "이륙 중량이 제한 이내라는 사실만으로 CG가 제한 내라고 확정하지 않는다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "FLT-TH-22",
@@ -1716,6 +2454,24 @@
           "paragraphs": [
             "다발기에서는 VxSE·VySE·VMC와 zero sideslip 개념이 핵심이다. 한쪽 엔진이 정지하면 비대칭 추력을 방향키와 도움날개로 보정하며, 항력을 최소화하도록 zero sideslip 상태를 맞추는 것이 성능에 중요하다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "성능차트는 특정 장비·중량·고도·온도 조건에서 인증된 데이터를 제공하며 차트의 보간 방법도 중요하다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "출발 전 실제 기상·배풍·활주로 경사·장애물·오염 여부를 AFM 성능 계산에 반영한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "단순 경험칙보다 해당 기종의 승인된 성능표가 우선한다."
+          ]
         }
       ],
       "summary_points": [
@@ -1724,7 +2480,24 @@
         "종극하중 = 한계하중 × 안전계수",
         "중량 감소 → VA 감소",
         "OEI 성능: VxSE·VySE·VMC·zero sideslip"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "성능차트는 특정 장비·중량·고도·온도 조건에서 인증된 데이터를 제공하며 차트의 보간 방법도 중요하다.",
+        "worked_case": "출발 전 실제 기상·배풍·활주로 경사·장애물·오염 여부를 AFM 성능 계산에 반영한다.",
+        "common_trap": "단순 경험칙보다 해당 기종의 승인된 성능표가 우선한다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     },
     {
       "id": "FLT-TH-23",
@@ -1791,6 +2564,24 @@
           "paragraphs": [
             "저고도 wind shear는 접근·이륙 중 상대풍과 양력을 빠르게 변화시켜 위험하다. 또한 단발 프로펠러기의 좌선회 경향은 torque, spiral slipstream, gyroscopic action, P-factor와 연결하여 설명한다."
           ]
+        },
+        {
+          "heading": "원리와 성립 조건 — 심화 설명",
+          "paragraphs": [
+            "비행성능에는 이륙·상승·순항·하강·착륙·엔진부전의 각 구간에 필요한 여유가 포함된다."
+          ]
+        },
+        {
+          "heading": "비행 적용 · 계산 · 판단 사례",
+          "paragraphs": [
+            "착륙 가능한 거리와 복행 상승 능력은 서로 별도로 검증해 안정된 접근 여부를 결정한다."
+          ]
+        },
+        {
+          "heading": "자주 혼동하는 경계와 예외",
+          "paragraphs": [
+            "가장 경제적인 순항속도와 안전에 필요한 최소여유속도를 혼동하지 않는다."
+          ]
         }
       ],
       "summary_points": [
@@ -1800,7 +2591,24 @@
         "Hydroplaning: dynamic / viscous / reverted rubber",
         "저고도 wind shear는 이착륙 중 특히 위험",
         "좌선회 경향 4요소: torque·spiral slipstream·gyroscopic·P-factor"
-      ]
+      ],
+      "study_references": [
+        {
+          "label": "FAA Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+          "jurisdiction": "US reference",
+          "type": "이론 보충",
+          "id": "FAA-PHAK"
+        }
+      ],
+      "reference_usage_note": "국내 규정·운항 절차는 대한민국 현행 법령, eAIP, NOTAM 및 승인된 운항자료가 우선한다. FAA는 원리 보충 및 미국식 절차의 비교자료이며 한국 규정과 동일하게 적용하지 않는다.",
+      "deep_review": {
+        "learning_goal": "비행성능에는 이륙·상승·순항·하강·착륙·엔진부전의 각 구간에 필요한 여유가 포함된다.",
+        "worked_case": "착륙 가능한 거리와 복행 상승 능력은 서로 별도로 검증해 안정된 접근 여부를 결정한다.",
+        "common_trap": "가장 경제적인 순항속도와 안전에 필요한 최소여유속도를 혼동하지 않는다."
+      },
+      "content_enhancement_version": "v11.60.67",
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
     }
   ]
 }
