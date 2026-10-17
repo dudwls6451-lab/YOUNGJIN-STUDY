@@ -1,0 +1,40 @@
+{
+  "version": "11.60.66",
+  "results": [
+    {
+      "width": 1440,
+      "questionCount": 1122,
+      "excluded": 7,
+      "correctedQuestionsAndGrading": "PASS",
+      "figures": "4/4 PASS",
+      "dailyTheoryStudyExclusion": "PASS",
+      "laterAdminOverride": "PASS",
+      "otherSubjectUnchanged": "PASS",
+      "themeLayout": "PASS",
+      "pageErrors": []
+    },
+    {
+      "width": 390,
+      "questionCount": 1122,
+      "excluded": 7,
+      "correctedQuestionsAndGrading": "PASS",
+      "figures": "4/4 PASS",
+      "dailyTheoryStudyExclusion": "PASS",
+      "laterAdminOverride": "PASS",
+      "otherSubjectUnchanged": "PASS",
+      "themeLayout": "PASS",
+      "pageErrors": []
+    }
+  ],
+  "scope": "Actual Chromium with patched full core, real previous v57 corrections, source-recheck module, theme/menu and study-plan scripts. Auth and remote data APIs mocked. No live account writes; native APK and live Supabase not tested.",
+  "static_checks": {
+    "ids_order_subject_units_source_metadata_preserved": true,
+    "valid_four_choice_schema": true,
+    "new_figure_paths_exist": true,
+    "source_pages_reocr": 218,
+    "source_question_count": 1122,
+    "patched_questions": 186,
+    "answer_changes": 70,
+    "ungraded": 7
+  }
+}

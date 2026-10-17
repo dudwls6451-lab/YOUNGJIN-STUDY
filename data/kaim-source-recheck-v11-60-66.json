@@ -1,0 +1,3825 @@
+{
+  "version": "11.60.66",
+  "fixed_at": "2026-10-17T03:31:35Z",
+  "source_pdf_sha256": "aa898e49712e3193a915892ea31d1f322b089364e3b76cb56381b99a413842c4",
+  "questions": {
+    "K-AIM-877": {
+      "question": "항공교통관제인가(ATC clearance)나 지시(instruction)를 받았을 때 조종사의 행동으로 옳지 않은 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "ATC 인가는 항상 안전을 보장하는 것이므로 절대적으로 따라야 한다."
+        },
+        {
+          "id": "B",
+          "text": "비상시를 제외하고, 인가사항을 벗어난 행위를 하여서는 안 된다."
+        },
+        {
+          "id": "C",
+          "text": "비상상황으로 ATC 인가를 벗어난 행위를 하였다면 가능한 빨리 ATC에 보고하여야 한다."
+        },
+        {
+          "id": "D",
+          "text": "ATC 인가 사항에 의심이 간다면 다시 한 번 확인한다."
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 270쪽 문제 2의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 A: ATC 인가는 항상 안전을 보장하는 것이므로 절대적으로 따라야 한다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-878": {
+      "question": "VFR-on-top 항공기가 radar vector를 받을 때 지형지물의 회피 책임은 누구에게 있는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "조종사"
+        },
+        {
+          "id": "B",
+          "text": "지형지물을 먼저 본 조종사와 관제사"
+        },
+        {
+          "id": "C",
+          "text": "관제탑 관제사"
+        },
+        {
+          "id": "D",
+          "text": "접근관제소 관제사"
+        }
+      ],
+      "answer": "A",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 270쪽 문제 3의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 A: 조종사",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-879": {
+      "question": "공중경계(see and avoid)에 관한 조종사의 책임에 관하여 옳지 않은 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "조종사는 비행방식(VFR, IFR)에 관계없이 다른 항공기에 대한 경계를 해야 한다."
+        },
+        {
+          "id": "B",
+          "text": "Radar 서비스 제공 시 주위 항공기에 대한 경계를 해야 한다."
+        },
+        {
+          "id": "C",
+          "text": "Radar 서비스 제공 시 주위 장애물에 대한 경계를 해야 하고, 다른 항공기에 대한 경계를 할 필요는 없다."
+        },
+        {
+          "id": "D",
+          "text": "Radar 서비스가 제공되지 않을 때에는 주위 장애물과 다른 항공기에 대한 경계를 해야 한다."
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 270쪽 문제 4의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 C: Radar 서비스 제공 시 주위 장애물에 대한 경계를 해야 하고, 다른 항공기에 대한 경계를 할 필요는 없다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-880": {
+      "question": "다른 항공기와의 충돌 회피에 대한 최종적 책임은 누구에게 있는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "조종사"
+        },
+        {
+          "id": "B",
+          "text": "관제사"
+        },
+        {
+          "id": "C",
+          "text": "조종사 및 관제사"
+        },
+        {
+          "id": "D",
+          "text": "다른 항공기를 먼저 본 조종사 또는 관제사"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 270쪽 문제 5의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 A: 조종사",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-881": {
+      "question": "항공기의 speed adjustment 지시에 대한 다음 설명 중 틀린 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "관제사는 마음대로 비행 중인 항공기의 조종사에게 속도조절을 지시할 수 있다."
+        },
+        {
+          "id": "B",
+          "text": "비행계획서의 속도보다 ±5% 또는 10 knot 가운데 더 큰 수치로 변경되면 ATC에 보고하여야 한다."
+        },
+        {
+          "id": "C",
+          "text": "관제사가 지시한 속도보다 10 knot 이상 빠르면 ATC에 보고한다."
+        },
+        {
+          "id": "D",
+          "text": "10 knot 단위의 지시대기속도로 속도조절을 지시한다."
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 271쪽 문제 6의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 A: 관제사는 마음대로 비행 중인 항공기의 조종사에게 속도조절을 지시할 수 있다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-882": {
+      "question": "레이더 운영지역에서 다른 항공기의 항적에 대한 정보를 받았을 때 조종사가 조치해야 할 사항으로 틀린 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "관제사에게 정보를 수신하였다는 응답을 할 필요는 없다."
+        },
+        {
+          "id": "B",
+          "text": "비행 중 그 항공기를 발견했을 때는 반드시 관제사에 보고한다."
+        },
+        {
+          "id": "C",
+          "text": "이러한 정보가 항상 제공되는 것은 아니라는 것을 인식하고 있어야 한다."
+        },
+        {
+          "id": "D",
+          "text": "항적정보가 필요 없을 때는 관제사에게 필요 없음을 통보한다."
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-883": {
+      "question": "교통조언(traffic advisory)에 대한 설명 중 틀린 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "다른 항공기에 대한 교통조언을 받은 경우 ATC에 교통조언을 받았다는 것을 응답하여야 한다."
+        },
+        {
+          "id": "B",
+          "text": "다른 항공기를 피하기 위해 레이더 유도(vector)가 필요하다면 ATC에 요청한다."
+        },
+        {
+          "id": "C",
+          "text": "VFR 항공기의 경우, 모든 항공기에 대하여 레이더 교통조언을 받을 수 있다."
+        },
+        {
+          "id": "D",
+          "text": "교통조언 서비스를 원하지 않는 경우 관제사에게 통보한다."
+        }
+      ],
+      "answer": "C",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 271쪽 문제 8의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 C: VFR 항공기의 경우, 모든 항공기에 대하여 레이더 교통조언을 받을 수 있다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-884": {
+      "question": "Traffic advisory 및 traffic information에 대한 설명 중 옳지 않은 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "교통조언을 받은 경우 ATC에 수신하였다는 응답을 한다."
+        },
+        {
+          "id": "B",
+          "text": "교통조언을 받은 항공기를 육안 확인하였다면 ATC에 통보한다."
+        },
+        {
+          "id": "C",
+          "text": "See and avoid에 대한 책임은 관제사에게 있다."
+        },
+        {
+          "id": "D",
+          "text": "조언업무를 원하지 않으면 ATC에 통보한다."
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 271쪽 문제 9의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 C: See and avoid에 대한 책임은 관제사에게 있다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-885": {
+      "question": "항적정보 또는 항적조언에 대한 설명 중 틀린 내용은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "관제사는 항상 항적조언을 해야 할 책임이 있다."
+        },
+        {
+          "id": "B",
+          "text": "조종사는 항적을 확인하면 관제사에게 통보해야 한다."
+        },
+        {
+          "id": "C",
+          "text": "조종사는 항적조언을 받았다는 것을 관제사에게 통보해야 한다."
+        },
+        {
+          "id": "D",
+          "text": "만일 항적을 피하기 위한 vector가 필요하면 항공관제기관에 통보한다."
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 272쪽 문제 10의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 A: 관제사는 항상 항적조언을 해야 할 책임이 있다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-886": {
+      "question": "ATC가 항공교통관제업무 이외에 항공기에 제공하는 조언사항이 아닌 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "목적공항 및 교체공항의 기상정보"
+        },
+        {
+          "id": "B",
+          "text": "교체공항의 관제운영시간"
+        },
+        {
+          "id": "C",
+          "text": "해상 저고도로 비행하는 항공기에게 같은 경로 선박의 호출부호, 위치, 진행방향 및 속도 등에 대한 정보"
+        },
+        {
+          "id": "D",
+          "text": "C, D, E, F 및 G 공역 내에서 비행하는 항공기에 대한 충돌위험"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 272쪽 문제 11의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 B: 교체공항의 관제운영시간",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-887": {
+      "question": "다음 minimum fuel에 대한 설명 중 맞는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "조종사가 ATC로부터의 어떠한 지연사항도 수용할 수 없다고 판단할 때 ATC에 minimum fuel을 보고한다."
+        },
+        {
+          "id": "B",
+          "text": "착륙 우선권이 요구될 때 조종사는 ATC에 minimum fuel을 보고한다."
+        },
+        {
+          "id": "C",
+          "text": "오직 ATC만이 minimum fuel을 요청할 수 있다."
+        },
+        {
+          "id": "D",
+          "text": "조종사의 minimum fuel 통보는 비상상황을 의미한다."
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 273쪽 문제 12의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 A: 조종사가 ATC로부터의 어떠한 지연사항도 수용할 수 없다고 판단할 때 ATC에 minimum fuel을 보고한다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-888": {
+      "question": "Minimum fuel 상태에 대한 설명 중 맞는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "혼동을 줄이기 위해 lb(파운드) 단위로 연료 잔량을 보고한다."
+        },
+        {
+          "id": "B",
+          "text": "타 항공기에 비해 우선권을 가진다."
+        },
+        {
+          "id": "C",
+          "text": "목적지 공항까지 갈 수 있는 연료량만을 보유하고 있다는 것을 의미한다."
+        },
+        {
+          "id": "D",
+          "text": "비상상황으로 간주된다."
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-889": {
+      "question": "Minimum fuel 선포 시 ATC의 조치사항으로 올바른 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "목적지 공항까지 우선권을 부여한다."
+        },
+        {
+          "id": "B",
+          "text": "비상을 선포하고 가장 가까운 비행장으로 유도한다."
+        },
+        {
+          "id": "C",
+          "text": "단지 비행 지연이 발생 시에만 비상상황으로 간주한다."
+        },
+        {
+          "id": "D",
+          "text": "착륙 우선권을 부여한다."
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 273쪽 문제 14의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 C: 단지 비행 지연이 발생 시에만 비상상황으로 간주한다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-890": {
+      "question": "Minimum fuel에 대한 설명 중 옳지 않은 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "항공기가 목적지에 도착하기 전에 중간 지연이 발생 시 비상상황이 야기될 수 있다는 의미이다."
+        },
+        {
+          "id": "B",
+          "text": "최초교신 시 호출부호 다음에 minimum fuel이라고 말한다."
+        },
+        {
+          "id": "C",
+          "text": "Minimum fuel을 선포한 경우 목적지까지 우선권이 부여된다."
+        },
+        {
+          "id": "D",
+          "text": "남은 연료량을 분단위로 계산하여 ATC에 보고한다."
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 273쪽 문제 15의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 C: Minimum fuel을 선포한 경우 목적지까지 우선권이 부여된다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-891": {
+      "question": "Minimum fuel advisory에 관한 설명으로 틀린 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Minimum fuel 상태를 ATC에 보고한다는 것이 비상상황을 의미하는 것은 아니다."
+        },
+        {
+          "id": "B",
+          "text": "Minimum fuel advisory는 교통 우선권을 받아야 할 필요성을 의미하고 있다."
+        },
+        {
+          "id": "C",
+          "text": "Minimum fuel 상태인 경우 조종사는 ATC와 최초 교신을 할 때 자신의 호출부호를 말하고 나서 Minimum fuel이라고 말해야 한다."
+        },
+        {
+          "id": "D",
+          "text": "관제사는 조종사가 Minimum fuel 상태를 선언했을 때 이러한 정보를 관할권이 이전되는 관제기관에 전달해 주어야 한다."
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 273쪽 문제 16의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 B: Minimum fuel advisory는 교통 우선권을 받아야 할 필요성을 의미하고 있다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-892": {
+      "question": "Minimum fuel 시 안전한 착륙을 위하여 우선권이 필요하다고 판단한 경우, 조종사가 취해야 할 행동으로 맞는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "비행 우선권을 받을 수 없으므로 불시착을 위해 준비한다."
+        },
+        {
+          "id": "B",
+          "text": "Best glide speed를 위해 고도를 높인다."
+        },
+        {
+          "id": "C",
+          "text": "미리 속도를 줄여 공항에 접근한다."
+        },
+        {
+          "id": "D",
+          "text": "비상을 선포하고 분단위로 연료량을 계산하여 ATC에 보고한다."
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-893": {
+      "question": "ADIZ에 진입하려는 민간 항공기의 운항요건이 아닌 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "IFR 또는 DVFR 비행계획서를 제출해야 한다."
+        },
+        {
+          "id": "B",
+          "text": "상호 무선교신을 운용해야 한다."
+        },
+        {
+          "id": "C",
+          "text": "Transponder를 장착해야 하지만 ATC의 Mode C에 대해 응답할 필요는 없다."
+        },
+        {
+          "id": "D",
+          "text": "IFR 비행 시에는 표준 IFR 위치보고를 한다."
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 274쪽 문제 1의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 C: Transponder를 장착해야 하지만 ATC의 Mode C에 대해 응답할 필요는 없다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-894": {
+      "answer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "출발 전에 비행계획서를 제출하여야 한다."
+        },
+        {
+          "id": "B",
+          "text": "외국항공기는 ADIZ 진입 최소한 40분 전에 위치를 보고하여야 한다."
+        },
+        {
+          "id": "C",
+          "text": "자국항공기는 ADIZ 진입 최소한 15분 전에 위치를 보고하여야 한다."
+        },
+        {
+          "id": "D",
+          "text": "상호 무선교신을 유지하여야 한다."
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 274쪽 문제 2의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 B: 외국항공기는 ADIZ 진입 최소한 40분 전에 위치를 보고하여야 한다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-895": {
+      "question": "방공식별구역(ADIZ) 통과 시 해상에서 항공기 위치의 오차허용 범위는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "예정 시간으로부터 ±3분, 예정 경로로부터 10 NM 이내"
+        },
+        {
+          "id": "B",
+          "text": "예정 시간으로부터 ±3분, 예정 경로로부터 20 NM 이내"
+        },
+        {
+          "id": "C",
+          "text": "예정 시간으로부터 ±5분, 예정 경로로부터 10 NM 이내"
+        },
+        {
+          "id": "D",
+          "text": "예정 시간으로부터 ±5분, 예정 경로로부터 20 NM 이내"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 274쪽 문제 3의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 D: 예정 시간으로부터 ±5분, 예정 경로로부터 20 NM 이내",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-913": {
+      "question": "비상사태 시 transponder의 설정은?",
+      "answer": "D",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 285쪽 문제 1의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 D: 7700",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-914": {
+      "answer": "C",
+      "question": "Emergency Locator Transmitter(ELT)의 운용 주파수가 아닌 것은?",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 285쪽 문제 2의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 C: 335.0 MHz",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-915": {
+      "answer": "C",
+      "question": "ELT(Emergency Locator Transmitter)에 대한 설명으로 틀린 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "불시착한 항공기의 위치를 찾는 데 활용된다."
+        },
+        {
+          "id": "B",
+          "text": "추락 시의 충격으로 자동 작동된다."
+        },
+        {
+          "id": "C",
+          "text": "신호는 최소 24시간 동안 지속된다."
+        },
+        {
+          "id": "D",
+          "text": "신속한 수색 및 구조로 인명을 구할 수 있도록 한다."
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 285쪽 문제 3의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 C: 신호는 최소 24시간 동안 지속된다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-916": {
+      "answer": "C",
+      "question": "ELT(Emergency Locator Transmitter)는 항공기 추락 후 몇 시간 동안 계속 작동되는가?",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 285쪽 문제 4의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 C: 48시간",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-917": {
+      "question": "ATC와 사전 협의되지 않은 경우, 비상위치송신기(ELT)의 시험방송은 언제 하여야 하는가?",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-918": {
+      "question": "ELT(Emergency Locator Transmitter) test 방법 중 틀린 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "공중점검(airborne test)은 허용되지 않는다."
+        },
+        {
+          "id": "B",
+          "text": "매 시간 첫 5분에 실시하여야 한다."
+        },
+        {
+          "id": "C",
+          "text": "가청음(audible sweep)은 5회 이내로 하여야 한다."
+        },
+        {
+          "id": "D",
+          "text": "안테나를 분리할 수 있다면 분리하고 모형 안테나를 대신 사용한다."
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 285쪽 문제 6의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 C: 가청음(audible sweep)은 5회 이내로 하여야 한다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-919": {
+      "question": "ELT의 시험운용 방법으로 잘못된 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "3회 이상의 가청음(audible sweep)을 시험 운영해야 한다."
+        },
+        {
+          "id": "B",
+          "text": "안테나를 제거하고 dummy load를 대신 사용하여야 한다."
+        },
+        {
+          "id": "C",
+          "text": "매시 처음 5분 동안에만 시험 발사하여야 한다."
+        },
+        {
+          "id": "D",
+          "text": "체공 시험발사는 금지되어 있다."
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 285쪽 문제 7의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 A: 3회 이상의 가청음(audible sweep)을 시험 운영해야 한다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-920": {
+      "question": "ELT 시험방송의 지속시간은 몇 초 이내로 하여야 하는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "5초"
+        },
+        {
+          "id": "B",
+          "text": "10초"
+        },
+        {
+          "id": "C",
+          "text": "15초"
+        },
+        {
+          "id": "D",
+          "text": "20초"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 286쪽 문제 8의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 A: 5초",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-922": {
+      "question": "지상에서 구조 요청 시 assistance required code는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "L"
+        },
+        {
+          "id": "B",
+          "text": "V"
+        },
+        {
+          "id": "C",
+          "text": "X"
+        },
+        {
+          "id": "D",
+          "text": "Y"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 286쪽 문제 10의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 B: V",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-923": {
+      "question": "지상에서 구조사에게 보내는 신호 중 V의 의미는?",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-925": {
+      "question": "Ground air visual signal code X의 의미는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Require assistance"
+        },
+        {
+          "id": "B",
+          "text": "Require medical assistance"
+        },
+        {
+          "id": "C",
+          "text": "Drop emergency supplies at this point"
+        },
+        {
+          "id": "D",
+          "text": "No or Negative"
+        }
+      ],
+      "review_note": "원본 PDF 286쪽 정답표는 C이나 다음 287쪽의 구조신호 표에서 X는 의료지원 요청이다. 보기 B를 유지한다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 286쪽 문제 13의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 B: Require medical assistance 원본 PDF 286쪽 정답표는 C이나 다음 287쪽의 구조신호 표에서 X는 의료지원 요청이다. 보기 B를 유지한다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-927": {
+      "question": "지상의 항공기 구조대가 보내는 LLL의 신호를 보았다. 이의 의미는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "생존자를 모두 발견하였다."
+        },
+        {
+          "id": "B",
+          "text": "더 이상 수색을 계속할 수 없다."
+        },
+        {
+          "id": "C",
+          "text": "구조작업이 종료되었다."
+        },
+        {
+          "id": "D",
+          "text": "수색을 계속하겠다."
+        }
+      ],
+      "answer": "C",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 287쪽 문제 15의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 C: 구조작업이 종료되었다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-930": {
+      "question": "항공기가 ETA(Estimated Time of Arrival)로부터 30분이 초과하여도 도착하지 않을 경우 발령되는 단계는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "ALERFA"
+        },
+        {
+          "id": "B",
+          "text": "DETRESFA"
+        },
+        {
+          "id": "C",
+          "text": "CAUTFA"
+        },
+        {
+          "id": "D",
+          "text": "INCERFA"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 287쪽 문제 2의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 D: INCERFA",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-933": {
+      "answer": "B",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 288쪽 문제 5의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 B: 경보단계",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-934": {
+      "answer": "D",
+      "question": "항공기가 착륙허가를 받고도 착륙 예정시간부터 5분 이내에 착륙하지 않은 상태에서 그 항공기와의 무선교신이 되지 않는 경우 발령되는 단계는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "불확실단계(INCERFA)"
+        },
+        {
+          "id": "B",
+          "text": "주의단계(CAUTFA)"
+        },
+        {
+          "id": "C",
+          "text": "조난단계(DETRESFA)"
+        },
+        {
+          "id": "D",
+          "text": "경보단계(ALERFA)"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 288쪽 문제 6의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 D: 경보단계(ALERFA)",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-936": {
+      "question": "다음 중 ALERFA 단계는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "항공기의 비행능력이 상실되어 불시착하였을 가능성이 있음을 나타내는 정보가 입수되는 경우"
+        },
+        {
+          "id": "B",
+          "text": "착륙허가 후 착륙예정시간으로부터 5분 이내에 착륙하지 않고 통신이 두절된 경우"
+        },
+        {
+          "id": "C",
+          "text": "항공기 탑재연료가 고갈되어 항공기의 안전을 유지하기가 곤란한 경우"
+        },
+        {
+          "id": "D",
+          "text": "여러 관계 부서와의 조회 결과 항공기가 조난당하였을 가능성이 있는 경우"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 288쪽 문제 8의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 B: 착륙허가 후 착륙예정시간으로부터 5분 이내에 착륙하지 않고 통신이 두절된 경우",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-937": {
+      "answer": "A",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 288쪽 문제 9의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 A: ALERFA",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-939": {
+      "question": "다음 중 재난상황(distress condition)은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "납치 요격"
+        },
+        {
+          "id": "B",
+          "text": "탑재연료 고갈"
+        },
+        {
+          "id": "C",
+          "text": "송수신 안 됨"
+        },
+        {
+          "id": "D",
+          "text": "항공기 위치 확인 곤란"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 289쪽 문제 11의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 B: 탑재연료 고갈",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-941": {
+      "answer": "C",
+      "question": "조난(distress) 상황에서 사용하는 radio call은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "SOS"
+        },
+        {
+          "id": "B",
+          "text": "Emergency"
+        },
+        {
+          "id": "C",
+          "text": "Mayday"
+        },
+        {
+          "id": "D",
+          "text": "Pan-Pan"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 289쪽 문제 13의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 C: Mayday",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-942": {
+      "answer": "C",
+      "question": "PAN-PAN 무선신호의 의미는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Emergency"
+        },
+        {
+          "id": "B",
+          "text": "Distress"
+        },
+        {
+          "id": "C",
+          "text": "Urgency"
+        },
+        {
+          "id": "D",
+          "text": "Alert"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 289쪽 문제 14의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 C: Urgency",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-943": {
+      "question": "즉각적인 지원이 요구되지는 않지만 비행안전에 영향을 줄 수 있는 상태를 나타내는 항공용어와 호출용어가 바르게 연결된 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "긴급(Urgency) - Pan Pan"
+        },
+        {
+          "id": "B",
+          "text": "조난(Distress) - Mayday"
+        },
+        {
+          "id": "C",
+          "text": "긴급(Urgency) - Mayday"
+        },
+        {
+          "id": "D",
+          "text": "조난(Distress) - Pan Pan"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 289쪽 문제 15의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 A: 긴급(Urgency) - Pan Pan",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-944": {
+      "answer": "B",
+      "question": "긴급한 상태(urgency)일 때 이를 선언하는 방법으로 맞는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "ALERFA를 3회 반복한다."
+        },
+        {
+          "id": "B",
+          "text": "PAN PAN을 3회 반복한다."
+        },
+        {
+          "id": "C",
+          "text": "URGENCY를 3회 반복한다."
+        },
+        {
+          "id": "D",
+          "text": "MAYDAY를 3회 반복한다."
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 290쪽 문제 16의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 B: PAN PAN을 3회 반복한다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-945": {
+      "choices": [
+        {
+          "id": "A",
+          "text": "EMERGENCY, EMERGENCY, EMERGENCY"
+        },
+        {
+          "id": "B",
+          "text": "PAN PAN, PAN PAN, PAN PAN"
+        },
+        {
+          "id": "C",
+          "text": "URGENCY, URGENCY, URGENCY"
+        },
+        {
+          "id": "D",
+          "text": "MAYDAY, MAYDAY, MAYDAY"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 290쪽 문제 17의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 D: MAYDAY, MAYDAY, MAYDAY",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-946": {
+      "answer": "B",
+      "question": "조난상황(distress condition)에 대한 설명 중 틀린 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Mayday를 3회 반복 사용하여 상황을 알린다."
+        },
+        {
+          "id": "B",
+          "text": "즉각적인 구원요청이 필요하지는 않다."
+        },
+        {
+          "id": "C",
+          "text": "절박한 위험에 의하여 위협받고 있다."
+        },
+        {
+          "id": "D",
+          "text": "중대한 위험요소가 내재되어 있다."
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 290쪽 문제 18의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 B: 즉각적인 구원요청이 필요하지는 않다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-947": {
+      "question": "조종사가 Mayday를 call 한 것은 위급한 상황에 처해 있다는 것 외에 다른 어떤 의미가 있는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "다른 조종사는 해당 주파수의 무선침묵을 유지하라."
+        },
+        {
+          "id": "B",
+          "text": "사용 중인 주파수로 정상적인 통신을 계속하라."
+        },
+        {
+          "id": "C",
+          "text": "다른 주파수로 변경하라."
+        },
+        {
+          "id": "D",
+          "text": "해당 주파수를 청취하라."
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 290쪽 문제 19의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 A: 다른 조종사는 해당 주파수의 무선침묵을 유지하라.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-948": {
+      "answer": "C",
+      "question": "조난 상황에서 방해가 되지 않도록 다른 항공기 송수신 금지를 지시하는 용어는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Stop transmission. Mayday"
+        },
+        {
+          "id": "B",
+          "text": "Stop transmitting. Pan-Pan"
+        },
+        {
+          "id": "C",
+          "text": "Stop transmitting. Mayday"
+        },
+        {
+          "id": "D",
+          "text": "Stop transmission. Pan-Pan"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 290쪽 문제 20의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 C: Stop transmitting. Mayday",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-949": {
+      "choices": [
+        {
+          "id": "A",
+          "text": "121.5 MHz"
+        },
+        {
+          "id": "B",
+          "text": "243.0 MHz"
+        },
+        {
+          "id": "C",
+          "text": "현재 주파수"
+        },
+        {
+          "id": "D",
+          "text": "사용 가능한 모든 주파수"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 290쪽 문제 21의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 C: 현재 주파수",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-898": {
+      "choices": [
+        {
+          "id": "A",
+          "text": "2대가 피요격기의 양옆에서 접근"
+        },
+        {
+          "id": "B",
+          "text": "4대가 피요격기의 양옆에서 접근"
+        },
+        {
+          "id": "C",
+          "text": "2대가 피요격기의 후방에서 접근"
+        },
+        {
+          "id": "D",
+          "text": "4대가 피요격기의 후방에서 접근"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 275쪽 문제 6의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 C: 2대가 피요격기의 후방에서 접근",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-899": {
+      "choices": [
+        {
+          "id": "A",
+          "text": "121.5 MHz 또는 125.5 MHz"
+        },
+        {
+          "id": "B",
+          "text": "121.5 MHz 또는 243.0 MHz"
+        },
+        {
+          "id": "C",
+          "text": "121.5 MHz 또는 282.8 MHz"
+        },
+        {
+          "id": "D",
+          "text": "125.5 MHz 또는 243.0 MHz"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 275쪽 문제 7의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 B: 121.5 MHz 또는 243.0 MHz",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-900": {
+      "answer": "D",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 275쪽 문제 8의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 D: 별도의 지시가 없는 경우, transponder를 7700에 맞춘다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-901": {
+      "question": "피요격항공기가 SSR Transponder를 장착하고 있는 경우, 해당 항공교통관제기관의 별도 지시가 없다면 Mode 3/A에 선택해야 할 Code는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "4000"
+        },
+        {
+          "id": "B",
+          "text": "7500"
+        },
+        {
+          "id": "C",
+          "text": "7600"
+        },
+        {
+          "id": "D",
+          "text": "7700"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 275쪽 문제 9의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 D: 7700",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-903": {
+      "answer": "D",
+      "question": "대한민국 내에서 민간항공기에 대한 요격이 발생할 경우 피요격 항공기의 조치사항으로 옳지 않은 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "트랜스폰더를 장착했을 경우, ATC로부터 지시된 경우를 제외하고 Mode A Code 7700으로 맞춘다."
+        },
+        {
+          "id": "B",
+          "text": "요격 관제기관과 교신이 이루어지지 않으면 121.5 MHz로 ATC 기관과 교신할 수 있도록 한다."
+        },
+        {
+          "id": "C",
+          "text": "해당 ATC 기관에 피요격 중임을 통보한다."
+        },
+        {
+          "id": "D",
+          "text": "요격기의 지시를 따를 필요는 없으며, ATC 기관의 조치를 기다린다."
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 276쪽 문제 11의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 D: 요격기의 지시를 따를 필요는 없으며, ATC 기관의 조치를 기다린다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-904": {
+      "choices": [
+        {
+          "id": "A",
+          "text": "해당 ATC 기관에 피요격 중임을 통보한다."
+        },
+        {
+          "id": "B",
+          "text": "121.5 MHz의 비상주파수를 이용해 ATC 기관과 무선 교신하도록 노력한다."
+        },
+        {
+          "id": "C",
+          "text": "트랜스폰더를 장착했을 경우, ATC로부터 지시된 경우를 제외하고 Mode A Code 7500으로 맞춘다."
+        },
+        {
+          "id": "D",
+          "text": "요격기의 지시에 따른다."
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 276쪽 문제 12의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 C: 트랜스폰더를 장착했을 경우, ATC로부터 지시된 경우를 제외하고 Mode A Code 7500으로 맞춘다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-905": {
+      "answer": "A",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 276쪽 문제 13의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 A: 요격 중이니 나를 따라오라.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-908": {
+      "question": "요격기가 피요격기의 비행선상을 가로지르지 않고 90° 이상 상승하면서 피요격기로부터 급작스런 이탈 시 피요격기의 응신 행동으로 맞는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "날개를 흔든다."
+        },
+        {
+          "id": "B",
+          "text": "착륙장치를 내린다."
+        },
+        {
+          "id": "C",
+          "text": "가용한 모든 등을 규칙적으로 on-off 한다."
+        },
+        {
+          "id": "D",
+          "text": "가용한 모든 등을 불규칙적으로 flash 한다."
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 277쪽 문제 16의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 A: 날개를 흔든다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-909": {
+      "question": "요격기가 landing gear를 내리고 비행장을 선회 시의 의미는?",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-910": {
+      "question": "요격기가 랜딩기어를 내리고 착륙 방향으로 활주로를 통과하여 비행장을 선회할 경우 피요격기의 응신방법으로 맞는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "날개를 흔들고 난 후 뒤를 따라간다."
+        },
+        {
+          "id": "B",
+          "text": "날개를 흔들고 항행등을 불규칙적으로 점멸시킨 후 뒤를 따라간다."
+        },
+        {
+          "id": "C",
+          "text": "랜딩기어를 내리고 착륙방향으로 활주로 상공을 통과하여 비행장을 선회한다."
+        },
+        {
+          "id": "D",
+          "text": "랜딩기어를 내리고 요격기를 따라 활주로 상공을 통과한 후 안전하게 착륙할 수 있다고 판단되면 착륙한다."
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 277쪽 문제 18의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 D: 랜딩기어를 내리고 요격기를 따라 활주로 상공을 통과한 후 안전하게 착륙할 수 있다고 판단되면 착륙한다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-912": {
+      "question": "항법등을 포함한 모든 가용한 light를 불규칙적으로 on/off 하는 요격신호의 의미는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "I will comply."
+        },
+        {
+          "id": "B",
+          "text": "In emergency."
+        },
+        {
+          "id": "C",
+          "text": "Understood."
+        },
+        {
+          "id": "D",
+          "text": "Aerodrome you have designated is inadequate."
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 277쪽 문제 20의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 B: In emergency.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-950": {
+      "question": "Control zone 내에서 IFR 비행 중 비상시 가장 적합한 contact 주파수는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "현재 사용 중인 주파수"
+        },
+        {
+          "id": "B",
+          "text": "121.5 MHz"
+        },
+        {
+          "id": "C",
+          "text": "가까운 tower 주파수"
+        },
+        {
+          "id": "D",
+          "text": "ATC 지정 주파수"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 291쪽 문제 22의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 A: 현재 사용 중인 주파수",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-951": {
+      "question": "다음 중 emergency frequency가 아닌 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "500.0 MHz"
+        },
+        {
+          "id": "B",
+          "text": "121.5 MHz"
+        },
+        {
+          "id": "C",
+          "text": "243.0 MHz"
+        },
+        {
+          "id": "D",
+          "text": "2182 kHz"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 291쪽 문제 23의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 A: 500.0 MHz",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-952": {
+      "question": "Distress나 Urgency 상황에서 사용되지 않는 라디오 주파수는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "2182 kHz"
+        },
+        {
+          "id": "B",
+          "text": "7600 kHz"
+        },
+        {
+          "id": "C",
+          "text": "121.5 MHz"
+        },
+        {
+          "id": "D",
+          "text": "243.0 MHz"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 291쪽 문제 24의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 B: 7600 kHz",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-955": {
+      "question": "MAYDAY에 의하여 무선침묵을 통보 받았음에도 불구하고 국제통제국의 허가 없이 조난 주파수로 교신이 가능한 경우가 아닌 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "긴급 조치가 필요한 상황일 때"
+        },
+        {
+          "id": "B",
+          "text": "조난 상황이 종료되었을 때"
+        },
+        {
+          "id": "C",
+          "text": "다른 주파수로 전환되었을 때"
+        },
+        {
+          "id": "D",
+          "text": "교통통제국의 허가를 받았을 때"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 291쪽 문제 27의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 A: 긴급 조치가 필요한 상황일 때",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-956": {
+      "answer": "C",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 292쪽 문제 28의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 C: 영어. 프랑스어, 스페인어",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-960": {
+      "question": "Hijack 시 피랍 항공기의 조종사가 유지해야 할 속도 및 고도는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "진대기속도 400 kts 이하, 고도 10,000~25,000 ft"
+        },
+        {
+          "id": "B",
+          "text": "속도 400 kts 이하, 고도 10,000~25,000 ft"
+        },
+        {
+          "id": "C",
+          "text": "진대기속도 400 kts 이하, 고도 12,000~23,000 ft"
+        },
+        {
+          "id": "D",
+          "text": "속도 400 kts 이하, 고도 12,000~23,000 ft"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 293쪽 문제 32의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 A: 진대기속도 400 kts 이하, 고도 10,000~25,000 ft",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-961": {
+      "question": "Fuel dumping 시의 절차로 틀린 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "해당 조종사는 fuel dumping 할 내용을 즉시 ATC에 통보한다."
+        },
+        {
+          "id": "B",
+          "text": "통보를 받은 관제사는 3분마다 fuel dumping을 방송한다."
+        },
+        {
+          "id": "C",
+          "text": "해당 항로를 비행할 항공기 조종사는 즉시 고도 및 항로를 변경한다."
+        },
+        {
+          "id": "D",
+          "text": "ATC는 special VFR 및 IFR 항공기에게 fuel dumping을 조언한다."
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 293쪽 문제 33의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 D: ATC는 special VFR 및 IFR 항공기에게 fuel dumping을 조언한다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-964": {
+      "answer": "A",
+      "question": "VFR 기상상황에서 IFR 비행계획으로 비행 중 무선통신 장비의 고장 상황에 처했을 때 가장 적절한 조치는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "VFR 조건에서 계속 비행하고 가능한 한 빨리 착륙한다."
+        },
+        {
+          "id": "B",
+          "text": "지정된 고도와 항로로 계속 비행하고 ETA에 맞추어 접근을 시작한다."
+        },
+        {
+          "id": "C",
+          "text": "비상사태를 선포하고 즉시 착륙한다."
+        },
+        {
+          "id": "D",
+          "text": "트랜스폰더 코드를 7600에 맞추고 목적지 공항까지 계속 비행한다."
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 294쪽 문제 1의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 A: VFR 조건에서 계속 비행하고 가능한 한 빨리 착륙한다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-965": {
+      "question": "시계비행 기상조건하에서 계기비행 중 통신 두절 시 대처 요령은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "지정된 고도, 항로에 맞게 비행을 계속하여 도착예정시간에 계기접근을 실시한다."
+        },
+        {
+          "id": "B",
+          "text": "지정된 고도, 항로에 맞게 비행을 계속하여 IAF에서 체공한다."
+        },
+        {
+          "id": "C",
+          "text": "시계비행기상조건에 맞추어 가능한 빨리 착륙한다."
+        },
+        {
+          "id": "D",
+          "text": "통신두절 해당지역에서 체공한다."
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 294쪽 문제 2의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 C: 시계비행기상조건에 맞추어 가능한 빨리 착륙한다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-966": {
+      "answer": "B",
+      "question": "Two-way radio failure 시 transponder code는?",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 294쪽 문제 3의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 B: 7600",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-967": {
+      "question": "시계비행방식에 의해 비행 중 무선통신장비의 고장으로 통신 두절 시 트랜스폰더 코드는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1200"
+        },
+        {
+          "id": "B",
+          "text": "4000"
+        },
+        {
+          "id": "C",
+          "text": "7500"
+        },
+        {
+          "id": "D",
+          "text": "7600"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 294쪽 문제 4의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 D: 7600",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-968": {
+      "question": "언제 transponder code를 7600으로 set 하여야 하는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "An emergency"
+        },
+        {
+          "id": "B",
+          "text": "Unlawful interference with the planned operation of the flight"
+        },
+        {
+          "id": "C",
+          "text": "Transponder malfunction"
+        },
+        {
+          "id": "D",
+          "text": "Radio communication failure"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 295쪽 문제 5의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 D: Radio communication failure",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-970": {
+      "question": "지상에서 출발 전 FSS contact 시 가장 중요하게 들을 수 있는 기상정보는?",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-971": {
+      "question": "17,500 ft 이하의 고도에서 비행 중 EFAS(En-route Advisory Flight Service)를 받기 위한 주파수는?",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-975": {
+      "question": "비행 중에 만날 수 있는 moderate turbulence나 moderate icing을 확인할 수 있는 예보는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "SIGMET"
+        },
+        {
+          "id": "B",
+          "text": "Convective SIGMET"
+        },
+        {
+          "id": "C",
+          "text": "AIRMET"
+        },
+        {
+          "id": "D",
+          "text": "Terminal forecast"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 316쪽 문제 6의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 C: AIRMET",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-976": {
+      "question": "AIRMET에서 보고되는 기상이 아닌 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Moderate icing"
+        },
+        {
+          "id": "B",
+          "text": "Moderate turbulence"
+        },
+        {
+          "id": "C",
+          "text": "광범위한 1,000 ft 미만의 ceiling, 3 SM 미만의 시정"
+        },
+        {
+          "id": "D",
+          "text": "Tornado"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 316쪽 문제 7의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 D: Tornado",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-977": {
+      "answer": "C",
+      "question": "AIRMET에 해당되는 기상은?",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 316쪽 문제 8의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 C: Moderate icing",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-978": {
+      "question": "AWOS-1 system에서 제공하는 정보는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Altimeter setting, wind data, temperature, dewpoint, density altitude"
+        },
+        {
+          "id": "B",
+          "text": "Altimeter setting, wind data, temperature, dewpoint, pressure altitude"
+        },
+        {
+          "id": "C",
+          "text": "Altimeter setting, wind data, temperature, visibility, density altitude"
+        },
+        {
+          "id": "D",
+          "text": "Altimeter setting, wind data, temperature, visibility, pressure altitude"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 316쪽 문제 9의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 A: Altimeter setting, wind data, temperature, dewpoint, density altitude",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-980": {
+      "question": "자동기상 관측소를 나타내는 약어(abbreviation)는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "AWCS"
+        },
+        {
+          "id": "B",
+          "text": "AWOS"
+        },
+        {
+          "id": "C",
+          "text": "AWSS"
+        },
+        {
+          "id": "D",
+          "text": "ASOS"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 317쪽 문제 11의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 B: AWOS",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-982": {
+      "question": "Runway visual range(RVR)가 얼마 미만일 때 이를 보고하여야 하는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "800 m"
+        },
+        {
+          "id": "B",
+          "text": "1,000 m"
+        },
+        {
+          "id": "C",
+          "text": "1,200 m"
+        },
+        {
+          "id": "D",
+          "text": "1,500 m"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 317쪽 문제 13의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 D: 1,500 m",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-984": {
+      "question": "다음 중 RVR에 대한 설명으로 틀린 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "항상 장비에 의해 측정된 값을 사용한다."
+        },
+        {
+          "id": "B",
+          "text": "1,000 ft 또는 1 SM 단위로 통보한다."
+        },
+        {
+          "id": "C",
+          "text": "움직이는 항공기 내의 조종사가 활주로를 내려다보는 것을 기준으로 한다."
+        },
+        {
+          "id": "D",
+          "text": "Transmissometer를 활용하여 측정한다."
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 318쪽 문제 15의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 B: 1,000 ft 또는 1 SM 단위로 통보한다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-985": {
+      "answer": "A",
+      "question": "Mid-Point 및 Roll-out RVR 모두를 발부하는 시기로 옳은 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Mid-Point 또는 Roll-out RVR 값이 2,000피트 미만이고, Touchdown RVR 값이 Mid-Point 또는 Roll-out RVR 값보다 클 때 Mid 및 Roll-out RVR 모두를 발부한다."
+        },
+        {
+          "id": "B",
+          "text": "Mid-Point 또는 Roll-out RVR 값이 2,000피트 이상이고, Touchdown RVR 값이 Mid-Point 또는 Roll-out RVR 값보다 클 때 Mid 및 Roll-out RVR 모두를 발부한다."
+        },
+        {
+          "id": "C",
+          "text": "Mid-Point 또는 Roll-out RVR 값이 6,000피트 미만이고, Touchdown RVR 값이 Mid-Point 또는 Roll-out RVR 값보다 클 때 Mid 및 Roll-out RVR 모두를 발부한다."
+        },
+        {
+          "id": "D",
+          "text": "Mid-Point 또는 Roll-out RVR 값이 6,000피트 이상이고, Touchdown RVR 값이 Mid-Point 또는 Roll-out RVR 값보다 클 때 Mid 및 Roll-out RVR 모두를 발부한다."
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 318쪽 문제 16의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 A: Mid-Point 또는 Roll-out RVR 값이 2,000피트 미만이고, Touchdown RVR 값이 Mid-Point 또는 Roll-out RVR 값보다 클 때 Mid 및 Roll-out RVR 모두를 발부한다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-986": {
+      "question": "Mid-point RVR과 Roll-out RVR은 언제 조종사에게 통보되는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Mid-Point 또는 Roll-out RVR 값이 2,000 ft 미만이고, Touchdown RVR 값보다 클 때"
+        },
+        {
+          "id": "B",
+          "text": "Mid-Point 또는 Roll-out RVR 값이 1,200 ft 미만이고, Touchdown RVR 값보다 클 때"
+        },
+        {
+          "id": "C",
+          "text": "Mid-Point 또는 Roll-out RVR 값이 2,000 ft 미만이고, Touchdown RVR 값보다 작을 때"
+        },
+        {
+          "id": "D",
+          "text": "Mid-Point 또는 Roll-out RVR 값이 1,200 ft 미만이고, Touchdown RVR 값보다 작을 때"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 318쪽 문제 17의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 C: Mid-Point 또는 Roll-out RVR 값이 2,000 ft 미만이고, Touchdown RVR 값보다 작을 때",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-990": {
+      "question": "착빙(icing)이 미치는 영향으로 틀린 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "항공기 무게의 증가"
+        },
+        {
+          "id": "B",
+          "text": "추력과 양력의 감소"
+        },
+        {
+          "id": "C",
+          "text": "계기의 오작동"
+        },
+        {
+          "id": "D",
+          "text": "실속속도의 감소"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 319쪽 문제 21의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 D: 실속속도의 감소",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-993": {
+      "answer": "B",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 320쪽 문제 24의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 B: 5~10 mile",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-995": {
+      "question": "METAR에서 기상현상을 보고하기 위해 사용하는 VC의 의미는?",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-996": {
+      "question": "직경 1/4 in 이상의 우박(hail)을 나타내는 METAR 부호는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "GR"
+        },
+        {
+          "id": "B",
+          "text": "GS"
+        },
+        {
+          "id": "C",
+          "text": "SG"
+        },
+        {
+          "id": "D",
+          "text": "SN"
+        }
+      ],
+      "answer": "A",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 320쪽 문제 27의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 A: GR",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-997": {
+      "question": "최대 우박의 직경이 5 mm 이상일 때 이를 나타내는 부호는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "SG"
+        },
+        {
+          "id": "B",
+          "text": "GS"
+        },
+        {
+          "id": "C",
+          "text": "GR"
+        },
+        {
+          "id": "D",
+          "text": "SN"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 320쪽 문제 28의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 C: GR",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-998": {
+      "question": "연기(smoke)에 의한 시정장애를 나타내는 METAR 부호는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "BR"
+        },
+        {
+          "id": "B",
+          "text": "FU"
+        },
+        {
+          "id": "C",
+          "text": "SA"
+        },
+        {
+          "id": "D",
+          "text": "PY"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 321쪽 문제 29의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 B: FU",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1000": {
+      "choices": [
+        {
+          "id": "A",
+          "text": "SKC"
+        },
+        {
+          "id": "B",
+          "text": "FEW"
+        },
+        {
+          "id": "C",
+          "text": "SCT"
+        },
+        {
+          "id": "D",
+          "text": "BKN"
+        }
+      ],
+      "review_note": "PDF 321쪽 정답표의 C는 같은 쪽 운량 해설 및 보기 FEW(B)와 상충한다. B를 유지한다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 321쪽 문제 31의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 B: FEW PDF 321쪽 정답표의 C는 같은 쪽 운량 해설 및 보기 FEW(B)와 상충한다. B를 유지한다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1002": {
+      "question": "METAR ...SCT010 BKN030 OVC080...로 보고되었다면 ceiling은?",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1003": {
+      "question": "구름의 base가 불분명하고 안개 때문에 완전 차폐되었을 때 보고되는 시정은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Tower visibility"
+        },
+        {
+          "id": "B",
+          "text": "Slant visibility"
+        },
+        {
+          "id": "C",
+          "text": "Prevailing visibility"
+        },
+        {
+          "id": "D",
+          "text": "Vertical visibility"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 322쪽 문제 34의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 D: Vertical visibility",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1004": {
+      "question": "METAR에서 sky condition을 나타내는 VV003의 의미는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "운고 300 ft"
+        },
+        {
+          "id": "B",
+          "text": "운고 3,000 ft"
+        },
+        {
+          "id": "C",
+          "text": "수직시정 300 ft"
+        },
+        {
+          "id": "D",
+          "text": "수직시정 3,000 ft"
+        }
+      ],
+      "answer": "C",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 322쪽 문제 35의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 C: 수직시정 300 ft",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1005": {
+      "question": "METAR 기상예보에서 altimeter setting A3006의 의미는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Altimeter를 30.03 inHg로 set 한다."
+        },
+        {
+          "id": "B",
+          "text": "Altimeter를 30.06 inHg로 set 한다."
+        },
+        {
+          "id": "C",
+          "text": "Altimeter를 3003 hPa로 set 한다."
+        },
+        {
+          "id": "D",
+          "text": "Altimeter를 3006 hPa로 set 한다."
+        }
+      ],
+      "answer": "B",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 322쪽 문제 36의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 B: Altimeter를 30.06 inHg로 set 한다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1006": {
+      "question": "ICAO Annex에서 규정하고 있는 TAF의 권장 유효시간은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "3~9시간"
+        },
+        {
+          "id": "B",
+          "text": "3~12시간"
+        },
+        {
+          "id": "C",
+          "text": "9~24시간"
+        },
+        {
+          "id": "D",
+          "text": "12~24시간"
+        }
+      ],
+      "answer": "C",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 322쪽 문제 37의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 C: 9~24시간",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1008": {
+      "question": "TAF는 하루에 몇 번 발표하는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "수시로"
+        },
+        {
+          "id": "B",
+          "text": "2번"
+        },
+        {
+          "id": "C",
+          "text": "4번"
+        },
+        {
+          "id": "D",
+          "text": "6번"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 322쪽 문제 39의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 C: 4번",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1009": {
+      "question": "Terminal area forecast(TAF)의 측정 기준은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "활주로 중심 기준 반경 5 NM 이내"
+        },
+        {
+          "id": "B",
+          "text": "접지지점 기준 반경 5 NM 이내"
+        },
+        {
+          "id": "C",
+          "text": "기상대 기준 반경 5 NM 이내"
+        },
+        {
+          "id": "D",
+          "text": "공항 중심 기준 반경 5 NM 이내"
+        }
+      ],
+      "answer": "A",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 323쪽 문제 40의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 A: 활주로 중심 기준 반경 5 NM 이내",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1010": {
+      "question": "Terminal의 풍속이 얼마인 경우 calm wind 상태로 간주하는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "무풍"
+        },
+        {
+          "id": "B",
+          "text": "2 kts 이하"
+        },
+        {
+          "id": "C",
+          "text": "3 kts 이하"
+        },
+        {
+          "id": "D",
+          "text": "4 kts 이하"
+        }
+      ],
+      "review_note": "원본 정답표 C(3 kt 이하)는 같은 쪽 해설의 3 kt 미만과 경계값이 다르다. 정수 knot 기준 해당하는 기존 B(2 kt 이하)를 유지한다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 323쪽 문제 41의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 B: 2 kts 이하 원본 정답표 C(3 kt 이하)는 같은 쪽 해설의 3 kt 미만과 경계값이 다르다. 정수 knot 기준 해당하는 기존 B(2 kt 이하)를 유지한다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1012": {
+      "question": "관제사가 불러주는 바람정보는 활주로 상공 몇 m에서 측정하는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "3 m"
+        },
+        {
+          "id": "B",
+          "text": "5 m"
+        },
+        {
+          "id": "C",
+          "text": "7 m"
+        },
+        {
+          "id": "D",
+          "text": "10 m"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 323쪽 문제 43의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 D: 10 m",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1014": {
+      "answer": "B",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 324쪽 문제 45의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 B: CB",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1015": {
+      "question": "TAF의 변화지시군(change indicator groups)으로 알맞은 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "CAVOK"
+        },
+        {
+          "id": "B",
+          "text": "SKC"
+        },
+        {
+          "id": "C",
+          "text": "NIL"
+        },
+        {
+          "id": "D",
+          "text": "BECMG"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 324쪽 문제 46의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 D: BECMG",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1016": {
+      "question": "TAF에서 점진적으로 규칙 또는 불규칙인 기상상태의 변화가 예상될 때 이를 나타내는 변화지시자는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "TEMPO"
+        },
+        {
+          "id": "B",
+          "text": "BECMG"
+        },
+        {
+          "id": "C",
+          "text": "FM"
+        },
+        {
+          "id": "D",
+          "text": "PROB"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 324쪽 문제 47의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 B: BECMG",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1018": {
+      "question": "알려진 altimeter가 없을 경우, 비행로를 따라 몇 마일 이내에 있는 ATC로부터 통보받은 QNH로 수정하여야 하는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "50마일"
+        },
+        {
+          "id": "B",
+          "text": "100마일"
+        },
+        {
+          "id": "C",
+          "text": "150마일"
+        },
+        {
+          "id": "D",
+          "text": "200마일"
+        }
+      ],
+      "answer": "B",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 324쪽 문제 2의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 B: 100마일",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1020": {
+      "question": "31.00 inHg 이상의 대기압을 정확히 측정할 수 없는 공항의 기상보고 및 항공기 운항에 대한 설명으로 틀린 것은?",
+      "answer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "대기압은 Missing으로 보고된다."
+        },
+        {
+          "id": "B",
+          "text": "대기압은 In excessive of 31.00 inHg로 보고된다."
+        },
+        {
+          "id": "C",
+          "text": "이륙은 계기 출발하는 항공기만 가능하다."
+        },
+        {
+          "id": "D",
+          "text": "Mode C 운용 중인 비행기의 경우 radar scope 상에 실제와 상이한 고도정보가 표시된다."
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 325쪽 문제 4의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 C: 이륙은 계기 출발하는 항공기만 가능하다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1021": {
+      "answer": "B",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 325쪽 문제 5의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 B: Absolute Altitude",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1022": {
+      "answer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Indirect approach"
+        },
+        {
+          "id": "B",
+          "text": "Conventional approach followed by a visual maneuver"
+        },
+        {
+          "id": "C",
+          "text": "Precision approach"
+        },
+        {
+          "id": "D",
+          "text": "Conventional approach"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 325쪽 문제 6의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 C: Precision approach",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1023": {
+      "question": "정밀접근에서 DH는 ( )를 기준으로 하고, circling approach 시 MDA는 ( )를 기준으로 한다. ( ) 안에 맞는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "HAT, HAA"
+        },
+        {
+          "id": "B",
+          "text": "HAA, HAT"
+        },
+        {
+          "id": "C",
+          "text": "HAT, TDZE"
+        },
+        {
+          "id": "D",
+          "text": "HAA, TDZE"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 325쪽 문제 7의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 A: HAT, HAA",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1024": {
+      "question": "Altimeter setting에 대한 다음 설명 중 틀린 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "QNE set 시 지표면으로부터의 실제 고도를 지시한다."
+        },
+        {
+          "id": "B",
+          "text": "QNH set 시 MSL 고도의 실제 비행고도를 지시한다."
+        },
+        {
+          "id": "C",
+          "text": "QFE set 시 지표면에서는 0을 지시한다."
+        },
+        {
+          "id": "D",
+          "text": "전이고도 이상으로 상승 시에는 QNE, 미만으로 하강 시에는 QNH로 set 한다."
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 326쪽 문제 8의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 A: QNE set 시 지표면으로부터의 실제 고도를 지시한다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1025": {
+      "question": "QNE로 set 할 경우 지시하는 고도는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "진고도"
+        },
+        {
+          "id": "B",
+          "text": "기압고도"
+        },
+        {
+          "id": "C",
+          "text": "절대고도"
+        },
+        {
+          "id": "D",
+          "text": "밀도고도"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 326쪽 문제 9의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 B: 기압고도",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1026": {
+      "answer": "D",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 326쪽 문제 10의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 D: 기압고도",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1027": {
+      "question": "항공기가 활주로 상에 있을 때 활주로 표고를 지시하는 altimeter setting은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "QNE"
+        },
+        {
+          "id": "B",
+          "text": "QNH"
+        },
+        {
+          "id": "C",
+          "text": "QFE"
+        },
+        {
+          "id": "D",
+          "text": "QFH"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 326쪽 문제 11의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 B: QNH",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1028": {
+      "answer": "D",
+      "explanation": "공항의 QNH를 설정하면 착륙 시 고도계는 비행장 표고를 지시한다. QFE의 0 지시와 혼동하지 않는다. 원본 정답표 B는 같은 쪽 QNH 해설과 상충하므로 D로 교정했다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1029": {
+      "question": "전이고도 미만에서 altimeter set 후 착륙 시 고도계가 지시하는 고도는?",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1030": {
+      "question": "전이고도 미만의 고도에서 비행하는 경우 altimeter setting은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "출발공항의 altimeter로 setting 한다."
+        },
+        {
+          "id": "B",
+          "text": "착륙공항의 altimeter로 setting 한다."
+        },
+        {
+          "id": "C",
+          "text": "비행로를 따라 185 km 이내에 있는 ATC로부터 통보받은 altimeter로 setting 한다."
+        },
+        {
+          "id": "D",
+          "text": "29.92 inHg로 setting 한다."
+        }
+      ],
+      "answer": "C",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 327쪽 문제 14의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 C: 비행로를 따라 185 km 이내에 있는 ATC로부터 통보받은 altimeter로 setting 한다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1032": {
+      "question": "우리나라의 전이고도(transition altitude)는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "12,000 ft"
+        },
+        {
+          "id": "B",
+          "text": "14,000 ft"
+        },
+        {
+          "id": "C",
+          "text": "16,000 ft"
+        },
+        {
+          "id": "D",
+          "text": "18,000 ft"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 328쪽 문제 16의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 B: 14,000 ft",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1033": {
+      "question": "우리나라에서 상승하려는 경우 QNE로 변환해야 하는 고도는?",
+      "answer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "10,000 ft"
+        },
+        {
+          "id": "B",
+          "text": "12,000 ft"
+        },
+        {
+          "id": "C",
+          "text": "14,000 ft"
+        },
+        {
+          "id": "D",
+          "text": "16,000 ft"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 328쪽 문제 17의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 C: 14,000 ft",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1035": {
+      "question": "고도계는 이륙 전에 해당 공항의 표고와 국지 QNH로부터 얻어진 계기고도와의 편차가 몇 ft 이내이어야 계기비행에 사용할 수 있는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "±25 ft"
+        },
+        {
+          "id": "B",
+          "text": "±50 ft"
+        },
+        {
+          "id": "C",
+          "text": "±75 ft"
+        },
+        {
+          "id": "D",
+          "text": "±100 ft"
+        }
+      ],
+      "answer": "C",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 328쪽 문제 19의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 C: ±75 ft",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1037": {
+      "question": "비행 중 기압이 30.02 inHg인 곳에서 29.82 inHg인 곳으로 비행해 갔을 경우 고도계가 지시하는 고도는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "비행고도보다 200 ft 높게 지시한다."
+        },
+        {
+          "id": "B",
+          "text": "비행고도보다 200 ft 낮게 지시한다."
+        },
+        {
+          "id": "C",
+          "text": "비행고도보다 20 ft 높게 지시한다."
+        },
+        {
+          "id": "D",
+          "text": "비행고도보다 20 ft 낮게 지시한다."
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 328쪽 문제 21의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 A: 비행고도보다 200 ft 높게 지시한다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1042": {
+      "question": "29.92 inHg로 set하고 비행 후 QNH가 30.16 inHg이고 field elevation이 300 ft인 비행장에 고도계 수정 없이 착륙하였다. 고도계는 얼마를 지시하는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "60 ft"
+        },
+        {
+          "id": "B",
+          "text": "240 ft"
+        },
+        {
+          "id": "C",
+          "text": "300 ft"
+        },
+        {
+          "id": "D",
+          "text": "540 ft"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 329쪽 문제 26의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 A: 60 ft",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1043": {
+      "answer": "C",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 329쪽 문제 27의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 C: 지시고도는 진고도보다 높게 지시한다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1045": {
+      "question": "일정한 Indicated Airspeed(IAS) 상태에서 온도 강하 시 True Airspeed(TAS)는?",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1047": {
+      "choices": [
+        {
+          "id": "A",
+          "text": "진대기속도, 진고도 모두 증가한다."
+        },
+        {
+          "id": "B",
+          "text": "진대기속도, 진고도 모두 감소한다."
+        },
+        {
+          "id": "C",
+          "text": "진대기속도는 감소하고, 진고도는 증가한다."
+        },
+        {
+          "id": "D",
+          "text": "진대기속도는 증가하고, 진고도는 감소한다."
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 330쪽 문제 31의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 A: 진대기속도, 진고도 모두 증가한다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1048": {
+      "question": "일정한 power setting에서 일정한 지시고도를 유지하며 온도가 높은 지역으로 비행 시 다음 중 맞는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "True airspeed는 감소하고, true altitude는 증가한다."
+        },
+        {
+          "id": "B",
+          "text": "True airspeed와 true altitude 모두 감소한다."
+        },
+        {
+          "id": "C",
+          "text": "True airspeed와 true altitude 모두 증가한다."
+        },
+        {
+          "id": "D",
+          "text": "True airspeed는 증가하고, true altitude는 감소한다."
+        }
+      ],
+      "answer": "C",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 330쪽 문제 32의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 C: True airspeed와 true altitude 모두 증가한다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1050": {
+      "question": "외기온도가 일정한 상태에서 일정한 Calibrated Airspeed(CAS)로 강하 시 True Airspeed(TAS)는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "감소한다."
+        },
+        {
+          "id": "B",
+          "text": "일정하게 증가한다."
+        },
+        {
+          "id": "C",
+          "text": "변하지 않는다."
+        },
+        {
+          "id": "D",
+          "text": "급격하게 증가한다."
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 330쪽 문제 34의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 A: 감소한다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1051": {
+      "answer": "A",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 331쪽 문제 35의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 A: 진고도는 계기고도보다 높다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1052": {
+      "choices": [
+        {
+          "id": "A",
+          "text": "진고도는 지시고도보다 높게 지시한다."
+        },
+        {
+          "id": "B",
+          "text": "진고도는 지시고도보다 낮게 지시한다."
+        },
+        {
+          "id": "C",
+          "text": "진고도는 지시고도와 동일하게 지시한다."
+        },
+        {
+          "id": "D",
+          "text": "진고도와 지시고도는 변함이 없다."
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 331쪽 문제 36의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 B: 진고도는 지시고도보다 낮게 지시한다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1055": {
+      "question": "다음 중 가장 강도가 큰 wake turbulence를 발생시키는 항공기는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Large, heavy, at maximum speed in full flaps configuration."
+        },
+        {
+          "id": "B",
+          "text": "Large, heavy, at low speed in clean configuration."
+        },
+        {
+          "id": "C",
+          "text": "Small, light, at maximum speed in full flaps configuration."
+        },
+        {
+          "id": "D",
+          "text": "Small, light, at low speed in clean configuration."
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1057": {
+      "answer": "B",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 332쪽 문제 5의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 B: 대형항공기의 접근비행경로 또는 비행경로 위로 비행한다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1060": {
+      "question": "Wake turbulence Category별 final에서의 간격분리로 틀린 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Heavy 뒤에 Heavy: 4 NM"
+        },
+        {
+          "id": "B",
+          "text": "Heavy 뒤에 Medium: 5 NM"
+        },
+        {
+          "id": "C",
+          "text": "Heavy 뒤에 Light: 6 NM"
+        },
+        {
+          "id": "D",
+          "text": "Medium 뒤에 Light: 4 NM"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 333쪽 문제 8의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 D: Medium 뒤에 Light: 4 NM",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1061": {
+      "review_note": "원본 정답표 C는 다음 PDF 334쪽 해설의 대형항공기 뒤 3분/6 NM와 상충한다. 해당 보기 B를 유지한다.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "2분, 5 NM"
+        },
+        {
+          "id": "B",
+          "text": "3분, 6 NM"
+        },
+        {
+          "id": "C",
+          "text": "4분, 7 NM"
+        },
+        {
+          "id": "D",
+          "text": "5분, 8 NM"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 333쪽 문제 9의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 B: 3분, 6 NM 원본 정답표 C는 다음 PDF 334쪽 해설의 대형항공기 뒤 3분/6 NM와 상충한다. 해당 보기 B를 유지한다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1063": {
+      "question": "동일 활주로 상에서 대형 제트항공기를 뒤따라 착륙하는 다른 항공기와의 분리 간격은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "3분"
+        },
+        {
+          "id": "B",
+          "text": "4분"
+        },
+        {
+          "id": "C",
+          "text": "5분"
+        },
+        {
+          "id": "D",
+          "text": "6분"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 333쪽 문제 11의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 A: 3분",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1066": {
+      "question": "비행성능을 결정하는 기준이 되는 고도는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "밀도고도"
+        },
+        {
+          "id": "B",
+          "text": "기압고도"
+        },
+        {
+          "id": "C",
+          "text": "진고도"
+        },
+        {
+          "id": "D",
+          "text": "절대고도"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 334쪽 문제 1의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 A: 밀도고도",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1068": {
+      "choices": [
+        {
+          "id": "A",
+          "text": "온도 증가, 고도 증가, 습도 증가"
+        },
+        {
+          "id": "B",
+          "text": "온도 증가, 고도 증가, 습도 감소"
+        },
+        {
+          "id": "C",
+          "text": "온도 증가, 고도 감소, 습도 증가"
+        },
+        {
+          "id": "D",
+          "text": "온도 감소, 고도 증가, 습도 증가"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 334쪽 문제 3의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 A: 온도 증가, 고도 증가, 습도 증가",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1070": {
+      "question": "조종사가 약물을 복용했을 때 나타나는 증상이 아닌 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "경각심 증가"
+        },
+        {
+          "id": "B",
+          "text": "저산소증 발생"
+        },
+        {
+          "id": "C",
+          "text": "판단력 저하"
+        },
+        {
+          "id": "D",
+          "text": "주의력 저하"
+        }
+      ],
+      "answer": "A",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 341쪽 문제 1의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 A: 경각심 증가",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1072": {
+      "question": "단독으로 비행하는 조종사에게 저산소증이 특히 위험한 이유는 무엇인가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "야간 시력이 손상되어 다른 항공기를 발견할 수 없기 때문이다."
+        },
+        {
+          "id": "B",
+          "text": "저산소증의 증상은 조종사의 반응에 영향을 미치기 전에는 쉽게 인지하기 어렵기 때문이다."
+        },
+        {
+          "id": "C",
+          "text": "조종사는 산소를 흡입한다 하더라도 항공기를 조종할 수 없기 때문이다."
+        },
+        {
+          "id": "D",
+          "text": "저산소증은 고공에서만 발생하는 현상이기 때문이다."
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 341쪽 문제 3의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 B: 저산소증의 증상은 조종사의 반응에 영향을 미치기 전에는 쉽게 인지하기 어렵기 때문이다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1073": {
+      "answer": "C",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 341쪽 문제 4의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 C: 주, 야간 공히 10,000 ft 이하에서는 안전하다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1074": {
+      "question": "고도 35,000 ft에서 비여압 상태일 때, 비상산소가 없는 경우 유효의식시간은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1~2분"
+        },
+        {
+          "id": "B",
+          "text": "30~60초"
+        },
+        {
+          "id": "C",
+          "text": "15~20초"
+        },
+        {
+          "id": "D",
+          "text": "9~12초"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 342쪽 문제 5의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 B: 30~60초",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1076": {
+      "question": "부비강통의 치료 방법으로 틀린 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "가벼운 증상일 경우 침을 삼킨다."
+        },
+        {
+          "id": "B",
+          "text": "지속적으로 통증이 올 경우 발살바(Valsalva)를 실시한다."
+        },
+        {
+          "id": "C",
+          "text": "통증이 악화될 경우 2,000 ft~3,000 ft 상승 후 비점막 수축제를 투여하고 서서히 하강한다."
+        },
+        {
+          "id": "D",
+          "text": "100% 산소를 호흡한다."
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 342쪽 문제 7의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 D: 100% 산소를 호흡한다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1079": {
+      "question": "직진 수평비행 중 속도를 증가시키면 상승하는 것과 같이 느끼는 신체현상을 무엇이라 하는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "수평 착각"
+        },
+        {
+          "id": "B",
+          "text": "전향성 착각"
+        },
+        {
+          "id": "C",
+          "text": "신체중력성 착각"
+        },
+        {
+          "id": "D",
+          "text": "과중력 효과"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 343쪽 문제 10의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 C: 신체중력성 착각",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1080": {
+      "question": "수평비행 중 항공기 감속 시 나타나는 착각은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "신체중력성 착각 - 강하감"
+        },
+        {
+          "id": "B",
+          "text": "신체중력성 착각 - 상승감"
+        },
+        {
+          "id": "C",
+          "text": "안구중력성 착각 - 강하감"
+        },
+        {
+          "id": "D",
+          "text": "안구중력성 착각 - 상승감"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 343쪽 문제 11의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 A: 신체중력성 착각 - 강하감",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1081": {
+      "answer": "B",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 343쪽 문제 12의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 B: 실제보다 낮은 접근을 실시한다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1082": {
+      "question": "일반적인 활주로보다 폭이 넓은 활주로에 착륙할 때, 조종사는 어떠한 시각적 착각을 유발할 수 있는가?",
+      "review_note": "원본 PDF 343쪽 정답표 A는 PDF 344쪽 활주로 폭 착각 해설과 상충한다. 폭이 넓으면 낮게 느껴져 높게 접근하는 보기 B를 유지한다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1083": {
+      "choices": [
+        {
+          "id": "A",
+          "text": "Downslope, narrower than usual runway"
+        },
+        {
+          "id": "B",
+          "text": "Downslope, wider than usual runway"
+        },
+        {
+          "id": "C",
+          "text": "Upslope, narrower than usual runway"
+        },
+        {
+          "id": "D",
+          "text": "Upslope, wider than usual runway"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 343쪽 문제 14의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 C: Upslope, narrower than usual runway",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1086": {
+      "choices": [
+        {
+          "id": "A",
+          "text": "주변 장애물이 없는 활주로에서는 더 높은 고도에 있는 것 같이 느껴진다."
+        },
+        {
+          "id": "B",
+          "text": "우중에는 더 높은 고도에 있는 것 같이 느껴진다."
+        },
+        {
+          "id": "C",
+          "text": "비가 올 때 더 낮은 고도에 있는 것 같이 느껴진다."
+        },
+        {
+          "id": "D",
+          "text": "안개 속에 있을 때 기수가 들리는 것 같이 느껴진다."
+        }
+      ],
+      "gradable": false,
+      "answer_pending_review": true,
+      "review_note": "PDF 344쪽 문제 17: 주변 장애물 없는 활주로의 높은 고도 착각(A)과 안개 진입 시 기수 들림 착각(D)이 모두 성립한다. 우중의 높은 고도 착각(B)도 FAA AIM 8-1-5와 부합하여 단일정답을 확정할 수 없다.",
+      "explanation": "원본 문항의 정답을 확정할 수 없어 자동 채점에서 제외했습니다. PDF 344쪽 문제 17: 주변 장애물 없는 활주로의 높은 고도 착각(A)과 안개 진입 시 기수 들림 착각(D)이 모두 성립한다. 우중의 높은 고도 착각(B)도 FAA AIM 8-1-5와 부합하여 단일정답을 확정할 수 없다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_conflict_ungraded"
+    },
+    "K-AIM-1088": {
+      "answer": "B",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 344쪽 문제 19의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 B: 폭이 넓은 활주로-평소보다 높아 보이는 착각",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1090": {
+      "choices": [
+        {
+          "id": "A",
+          "text": "수평직선 비행 시 머리를 좌우로 약간 움직여 본다."
+        },
+        {
+          "id": "B",
+          "text": "착각이 지속되면 부조종사에게 조종을 인계한다."
+        },
+        {
+          "id": "C",
+          "text": "심한 비행착각 시 계기와 외부를 cross check 한다."
+        },
+        {
+          "id": "D",
+          "text": "크게 놀랐다면 의사나 동료들과 상의한다."
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 345쪽 문제 21의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 C: 심한 비행착각 시 계기와 외부를 cross check 한다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1093": {
+      "question": "VFR 비행을 위한 sectional aeronautical chart의 축척은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1:125,000"
+        },
+        {
+          "id": "B",
+          "text": "1:250,000"
+        },
+        {
+          "id": "C",
+          "text": "1:500,000"
+        },
+        {
+          "id": "D",
+          "text": "1:1,000,000"
+        }
+      ],
+      "answer": "C",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 349쪽 문제 1의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 C: 1:500,000",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1094": {
+      "answer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1:250,000"
+        },
+        {
+          "id": "B",
+          "text": "1:500,000"
+        },
+        {
+          "id": "C",
+          "text": "1:1,000,000"
+        },
+        {
+          "id": "D",
+          "text": "1:1,500,000"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 349쪽 문제 2의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 B: 1:500,000",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1096": {
+      "answer": "C",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 349쪽 문제 4의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 C: VFR terminal area chart",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1099": {
+      "question": "다음 중 Visual Approach Chart를 적용하지 않는 공항은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "시계접근절차가 수립된 공항"
+        },
+        {
+          "id": "B",
+          "text": "1/500,000 이상의 축척을 가진 chart가 발행되지 않은 공항"
+        },
+        {
+          "id": "C",
+          "text": "통신장비가 설치된 공항"
+        },
+        {
+          "id": "D",
+          "text": "제한된 항법장비가 설치된 공항"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 350쪽 문제 7의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 C: 통신장비가 설치된 공항",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1100": {
+      "question": "Visual Approach Chart가 제공되지 않아도 되는 곳은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "제한된 계기접근시설을 갖춘 비행장"
+        },
+        {
+          "id": "B",
+          "text": "무선통신시설을 갖춘 비행장"
+        },
+        {
+          "id": "C",
+          "text": "1/500,000 이상의 축척으로 제작된 chart가 제공되지 않는 비행장"
+        },
+        {
+          "id": "D",
+          "text": "시계접근절차가 수립된 비행장"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 350쪽 문제 8의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 B: 무선통신시설을 갖춘 비행장",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1101": {
+      "question": "ICAO Type B의 aerodrome obstacle chart에서 제공되지 않는 정보는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "최저안전고도"
+        },
+        {
+          "id": "B",
+          "text": "최대 허용 이륙중량"
+        },
+        {
+          "id": "C",
+          "text": "장애물 허용 간격"
+        },
+        {
+          "id": "D",
+          "text": "이착륙실패 절차"
+        }
+      ],
+      "answer": "B",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 350쪽 문제 9의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 B: 최대 허용 이륙중량",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1102": {
+      "question": "IFR Enroute Low Altitude Chart의 최대 사용고도는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "10,000 ft 미만"
+        },
+        {
+          "id": "B",
+          "text": "14,000 ft 미만"
+        },
+        {
+          "id": "C",
+          "text": "18,000 ft 미만"
+        },
+        {
+          "id": "D",
+          "text": "20,000 ft 미만"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 350쪽 문제 10의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 C: 18,000 ft 미만",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1103": {
+      "question": "북미 알래스카 지역 Low altitude Enroute chart의 운영 범위는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "IFR/VFR 항공기, 고도 18,000 ft MSL 미만"
+        },
+        {
+          "id": "B",
+          "text": "IFR/VFR 항공기, 고도 24,000 ft MSL 미만"
+        },
+        {
+          "id": "C",
+          "text": "IFR 항공기, 고도 18,000 ft MSL 미만"
+        },
+        {
+          "id": "D",
+          "text": "IFR 항공기, 고도 24,000 ft MSL 미만"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 350쪽 문제 11의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 C: IFR 항공기, 고도 18,000 ft MSL 미만",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1104": {
+      "question": "En-route chart, Terminal area chart, Approach chart에 사용되는 거리 단위는?",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1107": {
+      "question": "Enroute chart에 표기된 270°가 가리키는 방향은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "TH"
+        },
+        {
+          "id": "B",
+          "text": "Track"
+        },
+        {
+          "id": "C",
+          "text": "MH"
+        },
+        {
+          "id": "D",
+          "text": "MC"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 351쪽 문제 15의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 C: MH",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1108": {
+      "question": "Approach chart에 표기된 260° hdg의 의미는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Magnetic heading을 260°로 유지하라."
+        },
+        {
+          "id": "B",
+          "text": "True heading을 260°로 유지하라."
+        },
+        {
+          "id": "C",
+          "text": "True course를 260°로 유지하라."
+        },
+        {
+          "id": "D",
+          "text": "Track을 260°로 유지하라."
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 351쪽 문제 16의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 A: Magnetic heading을 260°로 유지하라.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1109": {
+      "question": "Chart에 표기되는 고도는?",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1110": {
+      "question": "SID와 STAR chart에 사용되는 고도는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "MSL"
+        },
+        {
+          "id": "B",
+          "text": "AGL"
+        },
+        {
+          "id": "C",
+          "text": "MEA"
+        },
+        {
+          "id": "D",
+          "text": "MORA"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 351쪽 문제 18의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 A: MSL",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1111": {
+      "question": "SID와 항로지도의 고도는 어느 것을 기준으로 하는가?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "HAA"
+        },
+        {
+          "id": "B",
+          "text": "HAT"
+        },
+        {
+          "id": "C",
+          "text": "AGL"
+        },
+        {
+          "id": "D",
+          "text": "MSL"
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 351쪽 문제 19의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 D: MSL",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1112": {
+      "choices": [
+        {
+          "id": "A",
+          "text": "Course"
+        },
+        {
+          "id": "B",
+          "text": "Radial"
+        },
+        {
+          "id": "C",
+          "text": "Heading"
+        },
+        {
+          "id": "D",
+          "text": "Track"
+        }
+      ],
+      "answer": "B",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 352쪽 문제 20의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 B: Radial",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1113": {
+      "question": "Feeder route에 대한 설명 중 맞는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "연료 절약을 보장하는 route이다."
+        },
+        {
+          "id": "B",
+          "text": "공항 5 NM 전까지 안전 운항을 보장하는 route이다."
+        },
+        {
+          "id": "C",
+          "text": "Route structure로부터 IAF까지의 전환을 제공한다."
+        },
+        {
+          "id": "D",
+          "text": "Final approach fix를 통과하면 종료된다."
+        }
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 352쪽 문제 21의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 C: Route structure로부터 IAF까지의 전환을 제공한다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1114": {
+      "question": "Feeder route를 볼 수 있는 chart는?",
+      "answer": "B",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 352쪽 문제 22의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 B: Approach chart",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1115": {
+      "question": "아래 기호가 의미하는 navigation aid는?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "VORTAC"
+        },
+        {
+          "id": "B",
+          "text": "VOR"
+        },
+        {
+          "id": "C",
+          "text": "DME"
+        },
+        {
+          "id": "D",
+          "text": "ADF"
+        }
+      ],
+      "requires_figure": true,
+      "images": [
+        "./assets/figures/kaim66/K-AIM-1115.png"
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 352쪽 문제 23의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 A: VORTAC",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1116": {
+      "question": "Area chart에서 아래 점선 화살표 부호가 의미하는 것은?",
+      "requires_figure": true,
+      "images": [
+        "./assets/figures/kaim66/K-AIM-1116.png"
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1117": {
+      "question": "Area chart에서 아래 실선 화살표 부호의 의미는?",
+      "requires_figure": true,
+      "images": [
+        "./assets/figures/kaim66/K-AIM-1117.png"
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-1119": {
+      "question": "아래 그림과 같은 chart의 기호가 의미하는 것은?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "두 항법 시설 사이의 항법 주파수 변경점까지의 거리"
+        },
+        {
+          "id": "B",
+          "text": "인근 장애물과의 거리"
+        },
+        {
+          "id": "C",
+          "text": "항로상의 필수 보고지점"
+        },
+        {
+          "id": "D",
+          "text": "항로에서 MEA가 변하는 표시"
+        }
+      ],
+      "answer": "A",
+      "requires_figure": true,
+      "images": [
+        "./assets/figures/kaim66/K-AIM-1119.png"
+      ],
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 353쪽 문제 27의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 A: 두 항법 시설 사이의 항법 주파수 변경점까지의 거리",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-139": {
+      "answer": "D",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 47쪽 문제 6의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 D: ALSF-2",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-274": {
+      "answer": "D",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 80쪽 문제 28의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 D: 250 KTS",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-410": {
+      "answer": "C",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 138쪽 문제 21의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 C: Transmitting blind (1회) due to receiver failure, 위치보고",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-413": {
+      "answer": "C",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 139쪽 문제 24의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 C: 관제사의 명백한 응답이 요구되는 경우",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-427": {
+      "answer": "C",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 142쪽 문제 38의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 C: Y: Yankee",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-473": {
+      "answer": "A",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 151쪽 문제 30의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 A: Give way to other aircraft and continue holding.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-638": {
+      "answer": "A",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 223쪽 문제 61의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 A: Positive controlled airspace 외부에서 VFR 기상상태일 때",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-751": {
+      "answer": "C",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 246쪽 문제 86의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 C: 14,000 ft 이하",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-765": {
+      "answer": "C",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 248쪽 문제 4의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 C: 조종사가 “NO STAR”를 요청하지 않는 한 ATC가 적절하다고 고려할 때 발부한다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-766": {
+      "answer": "A",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 248쪽 문제 5의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 A: 관제사가 필요할 때 발부한다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-767": {
+      "answer": "C",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 248쪽 문제 6의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 C: 330 ft/MN",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-771": {
+      "answer": "D",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 249쪽 문제 10의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 D: 유효기간",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-866": {
+      "answer": "B",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 267쪽 문제 105의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 B: Visual approach의 기상조건은 Special VFR의 조건과 동일하다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-301": {
+      "choices": [
+        {
+          "id": "A",
+          "text": "비행금지공역은 안전, 국방상 그 밖의 이유로 항공기의 비행을 금지하는 공역이다."
+        },
+        {
+          "id": "B",
+          "text": "경계공역은 대규모의 조종사의 훈련이나 비정상 형태의 항공활동이 수행되는 공역이다."
+        },
+        {
+          "id": "C",
+          "text": "제한공역을 나타내는 문자는 영문자 L로 시작한다."
+        },
+        {
+          "id": "D",
+          "text": "위험공역을 나타내는 문자는 영문자 D로 시작한다."
+        }
+      ],
+      "answer": "C",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "explanation": "원본 PDF 85쪽 문제 10의 지문·보기와 정답/해설을 대조했습니다. 이 문항의 정답은 C: 제한공역을 나타내는 문자는 영문자 L로 시작한다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-874": {
+      "review_note": "PDF 268쪽 정답표 C는 같은 쪽 해설 및 PDF 267쪽 시각접근 해설과 상충한다. 관제사가 visual approach를 제안할 수 있고 contact approach는 조종사만 요청하므로 기존 B를 유지한다.",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    },
+    "K-AIM-423": {
+      "gradable": false,
+      "answer_pending_review": true,
+      "review_note": "PDF 140~141쪽 문제 34: 네 보기의 시설 호출방식이 이어지는 해설과 모두 부합하여 틀린 보기 하나를 확정할 수 없다.",
+      "explanation": "원본 문항의 정답을 확정할 수 없어 자동 채점에서 제외했습니다. PDF 140~141쪽 문제 34: 네 보기의 시설 호출방식이 이어지는 해설과 모두 부합하여 틀린 보기 하나를 확정할 수 없다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_conflict_ungraded"
+    },
+    "K-AIM-457": {
+      "gradable": false,
+      "answer_pending_review": true,
+      "review_note": "PDF 148쪽 문제 14: Stopway를 Blast pad라고 하는 C와 정상 이착륙에 사용할 수 있다는 D가 모두 문제되어 단일정답을 확정할 수 없다.",
+      "explanation": "원본 문항의 정답을 확정할 수 없어 자동 채점에서 제외했습니다. PDF 148쪽 문제 14: Stopway를 Blast pad라고 하는 C와 정상 이착륙에 사용할 수 있다는 D가 모두 문제되어 단일정답을 확정할 수 없다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_conflict_ungraded"
+    },
+    "K-AIM-867": {
+      "gradable": false,
+      "answer_pending_review": true,
+      "review_note": "PDF 267쪽 문제 106: CVFP의 소음감소 목적(A)과 계기접근이 아니며 실패접근구간이 없다는 설명(B)이 모두 본문에 제시된다.",
+      "explanation": "원본 문항의 정답을 확정할 수 없어 자동 채점에서 제외했습니다. PDF 267쪽 문제 106: CVFP의 소음감소 목적(A)과 계기접근이 아니며 실패접근구간이 없다는 설명(B)이 모두 본문에 제시된다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_conflict_ungraded"
+    },
+    "K-AIM-963": {
+      "gradable": false,
+      "answer_pending_review": true,
+      "review_note": "PDF 293쪽 문제 35: B와 D가 모두 5마일, 2,000 ft로 인쇄되어 정답이 중복된다.",
+      "explanation": "원본 문항의 정답을 확정할 수 없어 자동 채점에서 제외했습니다. PDF 293쪽 문제 35: B와 D가 모두 5마일, 2,000 ft로 인쇄되어 정답이 중복된다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_conflict_ungraded"
+    },
+    "K-AIM-1036": {
+      "gradable": false,
+      "answer_pending_review": true,
+      "review_note": "PDF 328쪽 문제 20: 보기 55/70/95/105 ft 중 같은 쪽 해설의 75 ft 기준에 해당하는 보기가 없다.",
+      "explanation": "원본 문항의 정답을 확정할 수 없어 자동 채점에서 제외했습니다. PDF 328쪽 문제 20: 보기 55/70/95/105 ft 중 같은 쪽 해설의 75 ft 기준에 해당하는 보기가 없다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_conflict_ungraded"
+    },
+    "K-AIM-1071": {
+      "gradable": false,
+      "answer_pending_review": true,
+      "review_note": "PDF 341쪽 문제 2: 현기증·시력저하·두통·졸음은 모두 같은 쪽 해설에서 저산소증 관련 증상으로 설명되어 아닌 것 하나를 고를 수 없다.",
+      "explanation": "원본 문항의 정답을 확정할 수 없어 자동 채점에서 제외했습니다. PDF 341쪽 문제 2: 현기증·시력저하·두통·졸음은 모두 같은 쪽 해설에서 저산소증 관련 증상으로 설명되어 아닌 것 하나를 고를 수 없다.",
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_conflict_ungraded"
+    },
+    "K-AIM-1087": {
+      "answer": "C",
+      "explanation": "맑고 시정이 좋은 날에는 활주로가 실제보다 가까워 보일 수 있다. 따라서 멀다는 착각이라고 한 C가 틀리다. 우중에는 더 높은 고도로 느낄 수 있다는 B를 틀린 보기로 지정한 원본 정답표는 FAA AIM 8-1-5와 상충한다.",
+      "review_note": "원본 PDF 344쪽 문제 18의 정답표 B와 해설의 오류를 FAA AIM 8-1-5 대기 착각 설명과 대조하여 C로 교정함.",
+      "verification_url": "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap8_section_1.html",
+      "answer_pending_review": false,
+      "extraction_review_required": false,
+      "source_recheck_revision": "11.60.66",
+      "review_status": "source_rechecked"
+    }
+  }
+}
