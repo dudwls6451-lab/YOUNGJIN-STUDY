@@ -1,0 +1,31 @@
+{
+  "scope": "Full v64 core in Chromium with synthetic question feeds/auth; shared mocked auth metadata for two isolated browser contexts. No live account writes.",
+  "results": [
+    {
+      "width": 1440,
+      "newUserDefaults": true,
+      "legacyIRAdded": true,
+      "oldExclusionsPreserved": true,
+      "futureBookAutomatic": true,
+      "explicitHideSurvivesReload": true,
+      "lateLoadDraftSafe": true,
+      "themes": true
+    },
+    {
+      "width": 390,
+      "newUserDefaults": true,
+      "legacyIRAdded": true,
+      "oldExclusionsPreserved": true,
+      "futureBookAutomatic": true,
+      "explicitHideSurvivesReload": true,
+      "lateLoadDraftSafe": true,
+      "themes": true
+    },
+    {
+      "crossDeviceCatalog": true,
+      "planWritePreservesFocus": true,
+      "clearAllSync": true,
+      "noSyncLoop": true
+    }
+  ]
+}
