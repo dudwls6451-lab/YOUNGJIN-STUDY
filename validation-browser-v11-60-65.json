@@ -1,0 +1,23 @@
+{
+  "scope": "Full v64 app using patched CPL data; other question feeds and account services mocked. No live writes.",
+  "results": [
+    {
+      "width": 1440,
+      "loadedQuestions": 893,
+      "samples": 5,
+      "renderedNormalizedQuestion": true,
+      "renderedExplanation": true,
+      "gradingAndProgress": true,
+      "themes": true
+    },
+    {
+      "width": 390,
+      "loadedQuestions": 893,
+      "samples": 5,
+      "renderedNormalizedQuestion": true,
+      "renderedExplanation": true,
+      "gradingAndProgress": true,
+      "themes": true
+    }
+  ]
+}
