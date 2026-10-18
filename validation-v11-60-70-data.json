@@ -1,0 +1,52 @@
+{
+  "version": "11.60.70",
+  "source_file": "붙여넣은 텍스트(1)(3).txt",
+  "source_sha256": "d01e0744e13ef6a9420bad115490b375a082652b2916c2473d28050fbe4d525f",
+  "new_questions": 45,
+  "multiple_choice": 40,
+  "short_answer": 5,
+  "round_points": 100,
+  "old_180_questions_unchanged": true,
+  "unique_ids": 225,
+  "text_cleanup": [
+    {
+      "number": 4,
+      "change": "선지 앞에 중복된 동일 문제 문장 1회 제거"
+    }
+  ],
+  "image_mapping": [
+    {
+      "number": 13,
+      "input": "첨부 13번.png",
+      "output": "assets/figures/eastar/r5-q013.png",
+      "sha256": "04a830d186eb792efe306f7a0ceb4e924e69261ddd1593c1779f7dcf74eb2223"
+    },
+    {
+      "number": 14,
+      "input": "첨부 14번.png",
+      "output": "assets/figures/eastar/r5-q014.png",
+      "sha256": "5e6ab422b4c6f9fef4523e0ef5ca9e0f54bb327ae5a80dff947b66addaf9db1a"
+    },
+    {
+      "number": 37,
+      "input": "첨부 37번.png",
+      "output": "assets/figures/eastar/r5-q037.png",
+      "sha256": "da0e987d88879ad86d083c8a60a378a194a49b5254588c7b7905d5bb7978d9a2"
+    },
+    {
+      "number": 43,
+      "input": "첨부 43번.png",
+      "output": "assets/figures/eastar/r5-q043.png",
+      "sha256": "1fd17726d69c15c9131a8e888c74e5f0430cdc53632b5ce1f9f8cb69992e0e4e"
+    },
+    {
+      "number": 44,
+      "input": "첨부 44번.png",
+      "output": "assets/figures/eastar/r5-q044.png",
+      "sha256": "2779dc49ac7bbb999589a07556dd8dab761015bfece2688fa42dbb1392ba3fcf"
+    }
+  ],
+  "answer_policy": "첨부 정답·모범답안·해설 보존; 공식 출처에 대한 독립 정답 재검증은 범위에 포함하지 않음",
+  "all_45_stems_answers_models_explanations_compared_to_source": true,
+  "live_index_matched_v69_before_patch": true
+}

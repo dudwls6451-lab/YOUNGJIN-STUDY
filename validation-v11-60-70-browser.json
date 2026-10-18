@@ -1,0 +1,50 @@
+{
+  "version": "11.60.70",
+  "results": [
+    {
+      "width": 1440,
+      "mode": "exam",
+      "questions": 45,
+      "figuresInQuestionAndResults": 5,
+      "score": "100/100",
+      "attemptRecords": 45,
+      "goalSU5": true,
+      "oldRoundsVisible": true
+    },
+    {
+      "width": 390,
+      "mode": "exam",
+      "questions": 45,
+      "figuresInQuestionAndResults": 5,
+      "score": "100/100",
+      "attemptRecords": 45,
+      "goalSU5": true,
+      "oldRoundsVisible": true
+    },
+    {
+      "width": 390,
+      "mode": "study",
+      "questions": 45,
+      "figuresInQuestionAndResults": 5,
+      "score": "100/100",
+      "attemptRecords": 45,
+      "goalSU5": true,
+      "oldRoundsVisible": true
+    }
+  ],
+  "checks": [
+    "all 45 prompts match parsed source",
+    "all five figures load in question and result views",
+    "study explanations and 5 short-answer self grades",
+    "exam hides model answers until submission",
+    "40 objective correct answers plus 5 self grades yield 100/100",
+    "45 attempts recorded once through actual core bridge",
+    "five rounds visible and SU5 goal/reading-round stats integrated",
+    "light/dark and mobile no horizontal overflow",
+    "no browser JS errors"
+  ],
+  "limitations": [
+    "Authentication and Supabase are fixtures. Existing v67 core, v69 goals and v51 Eastar renderer are real; unrelated add-ons omitted.",
+    "No production account, deployment or independent source-answer verification."
+  ]
+}
