@@ -1,0 +1,111 @@
+{
+  "version": "11.60.68",
+  "browser": "Chromium",
+  "results": [
+    {
+      "width": 1440,
+      "theme": "light",
+      "overflow": false,
+      "dialogOverflow": false,
+      "bodyScroll": true,
+      "background": "rgb(255, 255, 255)",
+      "text": "rgb(23, 35, 56)"
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "overflow": false,
+      "dialogOverflow": false,
+      "bodyScroll": true,
+      "background": "rgb(19, 30, 48)",
+      "text": "rgb(237, 244, 255)"
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "dialogOverflow": false,
+      "bodyScroll": true,
+      "background": "rgb(255, 255, 255)",
+      "text": "rgb(23, 35, 56)"
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "dialogOverflow": false,
+      "bodyScroll": true,
+      "background": "rgb(19, 30, 48)",
+      "text": "rgb(237, 244, 255)"
+    },
+    {
+      "width": 320,
+      "theme": "light",
+      "overflow": false,
+      "dialogOverflow": false,
+      "bodyScroll": true,
+      "background": "rgb(255, 255, 255)",
+      "text": "rgb(23, 35, 56)"
+    },
+    {
+      "width": 320,
+      "theme": "dark",
+      "overflow": false,
+      "dialogOverflow": false,
+      "bodyScroll": true,
+      "background": "rgb(19, 30, 48)",
+      "text": "rgb(237, 244, 255)"
+    }
+  ],
+  "checks": [
+    "card-body click and keyboard activation",
+    "unique question coverage and repeat-attempt accuracy",
+    "Korea time inclusive period boundaries",
+    "remote/local attempt deduplication",
+    "numeric unit ordering and zero-progress units",
+    "all 164 stages across six actual v67 course catalogs",
+    "local fallback on server failure",
+    "goal editing and save preserved",
+    "account switch closes details",
+    "light/dark 1440/390/320px without horizontal overflow",
+    "no page JavaScript errors",
+    "new bank-loaded units repaint open detail",
+    "synced study-period changes repaint open detail",
+    "course download failure and retry",
+    "unassigned stage questions retained"
+  ],
+  "limitations": [
+    "Authentication and Supabase responses are fixtures; no production account or deployment test.",
+    "Core integration uses the unchanged v11.60.67 core and v11.60.64 settings sync module; unrelated external add-ons are omitted."
+  ],
+  "coreIntegration": [
+    {
+      "width": 1440,
+      "theme": "light",
+      "fullCore": true,
+      "goalEdit": true,
+      "kaimStages": 30
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "fullCore": true,
+      "goalEdit": true,
+      "kaimStages": 30
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "fullCore": true,
+      "goalEdit": true,
+      "kaimStages": 30
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "fullCore": true,
+      "goalEdit": true,
+      "kaimStages": 30
+    }
+  ]
+}
