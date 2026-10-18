@@ -1,0 +1,76 @@
+{
+  "version": "11.60.71",
+  "browser": "Chromium",
+  "results": [
+    {
+      "width": 1440,
+      "theme": "light",
+      "overflow": false,
+      "dialogOverflow": false,
+      "bodyScroll": true,
+      "background": "rgb(255, 255, 255)",
+      "text": "rgb(23, 35, 56)"
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "overflow": false,
+      "dialogOverflow": false,
+      "bodyScroll": true,
+      "background": "rgb(19, 30, 48)",
+      "text": "rgb(237, 244, 255)"
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "dialogOverflow": false,
+      "bodyScroll": true,
+      "background": "rgb(255, 255, 255)",
+      "text": "rgb(23, 35, 56)"
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "dialogOverflow": false,
+      "bodyScroll": true,
+      "background": "rgb(19, 30, 48)",
+      "text": "rgb(237, 244, 255)"
+    },
+    {
+      "width": 320,
+      "theme": "light",
+      "overflow": false,
+      "dialogOverflow": false,
+      "bodyScroll": true,
+      "background": "rgb(255, 255, 255)",
+      "text": "rgb(23, 35, 56)"
+    },
+    {
+      "width": 320,
+      "theme": "dark",
+      "overflow": false,
+      "dialogOverflow": false,
+      "bodyScroll": true,
+      "background": "rgb(19, 30, 48)",
+      "text": "rgb(237, 244, 255)"
+    }
+  ],
+  "checks": [
+    "card-body click and keyboard activation",
+    "unique question coverage and repeat-attempt accuracy",
+    "Korea time inclusive period boundaries",
+    "remote/local attempt deduplication",
+    "numeric unit ordering and zero-progress units",
+    "all 164 stages across six actual v67 course catalogs",
+    "local fallback on server failure",
+    "goal editing and save preserved",
+    "account switch closes details",
+    "light/dark 1440/390/320px without horizontal overflow",
+    "no page JavaScript errors"
+  ],
+  "limitations": [
+    "Authentication, Supabase and question bank are fixtures; production account E2E not executed."
+  ]
+}

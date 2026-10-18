@@ -1,0 +1,44 @@
+{
+  "version": "11.60.71",
+  "browser": "Chromium",
+  "results": [
+    {
+      "width": 1440,
+      "exactUnitPool": 3,
+      "periodWrongPool": 1,
+      "stagePool": 2,
+      "stageWrongPool": 1,
+      "eastarWrongPool": 2,
+      "eastarSubsetScore": "6/6",
+      "eastarFullPool": 45,
+      "goalRecordsUpdated": true,
+      "guards": true
+    },
+    {
+      "width": 390,
+      "exactUnitPool": 3,
+      "periodWrongPool": 1,
+      "stagePool": 2,
+      "stageWrongPool": 1,
+      "eastarWrongPool": 2,
+      "eastarSubsetScore": "6/6",
+      "eastarFullPool": 45,
+      "goalRecordsUpdated": true,
+      "guards": true
+    }
+  ],
+  "scope": "Real patched core, goal module and Eastar renderer; auth, Supabase and ordinary question feed use fixtures. No production deployment/account test.",
+  "checks": [
+    "source IDs restricted to selected subject and unit",
+    "period wrong-only excludes wrong attempts in other periods/units",
+    "reported and ungradable questions not selectable",
+    "stale figure/favorite/count filters cannot change selected pool",
+    "normal answer and Eastar self-grade update existing attempt records",
+    "Eastar mixed subset yields 6/6 and full-unit launch still includes 45",
+    "Eastar full-round draft retained",
+    "daily gate, access denial and empty/cross-subject selection guards",
+    "1440/390px light/dark screenshots inspected",
+    "no page JavaScript errors"
+  ],
+  "core_unmodified_outside_practice_bridge": true
+}
