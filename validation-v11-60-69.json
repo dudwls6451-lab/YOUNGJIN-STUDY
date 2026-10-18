@@ -1,0 +1,117 @@
+{
+  "version": "11.60.69",
+  "browser": "Chromium",
+  "results": [
+    {
+      "width": 1440,
+      "theme": "light",
+      "overflow": false,
+      "dialogOverflow": false,
+      "bodyScroll": true,
+      "background": "rgb(255, 255, 255)",
+      "text": "rgb(23, 35, 56)"
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "overflow": false,
+      "dialogOverflow": false,
+      "bodyScroll": true,
+      "background": "rgb(19, 30, 48)",
+      "text": "rgb(237, 244, 255)"
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "dialogOverflow": false,
+      "bodyScroll": true,
+      "background": "rgb(255, 255, 255)",
+      "text": "rgb(23, 35, 56)"
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "dialogOverflow": false,
+      "bodyScroll": true,
+      "background": "rgb(19, 30, 48)",
+      "text": "rgb(237, 244, 255)"
+    },
+    {
+      "width": 320,
+      "theme": "light",
+      "overflow": false,
+      "dialogOverflow": false,
+      "bodyScroll": true,
+      "background": "rgb(255, 255, 255)",
+      "text": "rgb(23, 35, 56)"
+    },
+    {
+      "width": 320,
+      "theme": "dark",
+      "overflow": false,
+      "dialogOverflow": false,
+      "bodyScroll": true,
+      "background": "rgb(19, 30, 48)",
+      "text": "rgb(237, 244, 255)"
+    }
+  ],
+  "checks": [
+    "card-body click and keyboard activation",
+    "unique question coverage and repeat-attempt accuracy",
+    "Korea time inclusive period boundaries",
+    "remote/local attempt deduplication",
+    "numeric unit ordering and zero-progress units",
+    "all 164 stages across six actual v67 course catalogs",
+    "local fallback on server failure",
+    "goal editing and save preserved",
+    "account switch closes details",
+    "light/dark 1440/390/320px without horizontal overflow",
+    "no page JavaScript errors",
+    "subject-specific low-accuracy warning and red styling",
+    "unattempted units stay neutral",
+    "exact goal equality passes",
+    "79.6 percent remains below 80 percent before rounding",
+    "target change refreshes warning",
+    "minimum per-question counts determine completed rounds",
+    "next-round unique question coverage",
+    "250 repeats of one question do not complete a unit",
+    "recording an attempt refreshes completed rounds immediately",
+    "period change resets rounds to the chosen period"
+  ],
+  "limitations": [
+    "Supabase and authentication use fixtures; production deployment/account not tested.",
+    "Core integration uses unchanged v11.60.67 core and existing settings sync; unrelated add-ons omitted."
+  ],
+  "coreIntegration": [
+    {
+      "width": 1440,
+      "theme": "light",
+      "fullCore": true,
+      "goalEdit": true,
+      "kaimStages": 30
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "fullCore": true,
+      "goalEdit": true,
+      "kaimStages": 30
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "fullCore": true,
+      "goalEdit": true,
+      "kaimStages": 30
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "fullCore": true,
+      "goalEdit": true,
+      "kaimStages": 30
+    }
+  ]
+}
