@@ -1,0 +1,63 @@
+{
+  "version": "11.60.73",
+  "results": [
+    {
+      "width": 1440,
+      "bankQuestions": 1042,
+      "units": 7,
+      "subunits": 30,
+      "theoryStages": 7,
+      "theoryPages": 110,
+      "firstUnitPractice": 102,
+      "firstStageQuiz": "10/10 passed",
+      "isolatedQuestionFigures": 17,
+      "graphicalOptions": 24,
+      "explanationCropAssets": 67,
+      "fullQuestionCaptures": false,
+      "examHidesAnswer": true,
+      "themes": [
+        "light",
+        "dark"
+      ]
+    },
+    {
+      "width": 390,
+      "bankQuestions": 1042,
+      "units": 7,
+      "subunits": 30,
+      "theoryStages": 7,
+      "theoryPages": 110,
+      "firstUnitPractice": 102,
+      "firstStageQuiz": "10/10 passed",
+      "isolatedQuestionFigures": 17,
+      "graphicalOptions": 24,
+      "explanationCropAssets": 67,
+      "fullQuestionCaptures": false,
+      "examHidesAnswer": true,
+      "themes": [
+        "light",
+        "dark"
+      ]
+    },
+    {
+      "width": 320,
+      "bankQuestions": 1042,
+      "units": 7,
+      "subunits": 30,
+      "theoryStages": 7,
+      "theoryPages": 110,
+      "firstUnitPractice": 102,
+      "firstStageQuiz": "10/10 passed",
+      "isolatedQuestionFigures": 17,
+      "graphicalOptions": 24,
+      "explanationCropAssets": 67,
+      "fullQuestionCaptures": false,
+      "examHidesAnswer": true,
+      "themes": [
+        "light",
+        "dark"
+      ]
+    }
+  ],
+  "scope": "Actual patched core and goal modules, real extracted data and images. Authentication, Supabase and unrelated question feeds use fixtures; unrelated external add-ons omitted. No production account/deployment test."
+}

@@ -1,0 +1,21 @@
+{
+  "version": "11.60.73",
+  "result": "passed",
+  "questions": 1042,
+  "stableQuestionIdsAndAnswers": true,
+  "graphicQuestions": 17,
+  "stemFigures": 11,
+  "choiceFigures": 24,
+  "explanationFigureTableAssets": 67,
+  "questionsWithExplanationFigures": 210,
+  "allQuizFiguresIndividuallyReviewed": true,
+  "fullQuestionCaptureReferences": 0,
+  "fullPageQuizFallbacks": 0,
+  "quizPageVisualReview": 216,
+  "sourcePdfPages": 340,
+  "theoryPagesPreserved": 110,
+  "markerLeakCheck": "passed",
+  "allImageFilesVerified": true,
+  "replaces": "11.60.72",
+  "prerequisite": "11.60.71 or later"
+}

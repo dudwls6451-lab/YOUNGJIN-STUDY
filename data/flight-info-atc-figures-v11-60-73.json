@@ -1,0 +1,1466 @@
+{
+  "version": "11.60.73",
+  "coordinate_space": "PDF original scan at 2 pixels per point; output rendered at 3 pixels per point",
+  "figures": [
+    {
+      "src": "assets/aim73/figures/AIM72-C1-S01-Q061-option-A.webp",
+      "pdf_page": 27,
+      "printed_page": 25,
+      "rect_pixels": [
+        246,
+        666,
+        345,
+        697
+      ],
+      "role": "choice",
+      "title": "보기 A",
+      "question_id": "AIM72-C1-S01-Q061",
+      "choice_id": "A",
+      "text": "White"
+    },
+    {
+      "src": "assets/aim73/figures/AIM72-C1-S01-Q061-option-B.webp",
+      "pdf_page": 27,
+      "printed_page": 25,
+      "rect_pixels": [
+        621,
+        666,
+        721,
+        697
+      ],
+      "role": "choice",
+      "title": "보기 B",
+      "question_id": "AIM72-C1-S01-Q061",
+      "choice_id": "B",
+      "text": "Blue"
+    },
+    {
+      "src": "assets/aim73/figures/AIM72-C1-S01-Q061-option-C.webp",
+      "pdf_page": 27,
+      "printed_page": 25,
+      "rect_pixels": [
+        246,
+        699,
+        345,
+        728
+      ],
+      "role": "choice",
+      "title": "보기 C",
+      "question_id": "AIM72-C1-S01-Q061",
+      "choice_id": "C",
+      "text": "Amber"
+    },
+    {
+      "src": "assets/aim73/figures/AIM72-C1-S01-Q061-option-D.webp",
+      "pdf_page": 27,
+      "printed_page": 25,
+      "rect_pixels": [
+        621,
+        699,
+        721,
+        728
+      ],
+      "role": "choice",
+      "title": "보기 D",
+      "question_id": "AIM72-C1-S01-Q061",
+      "choice_id": "D",
+      "text": "Blue"
+    },
+    {
+      "src": "assets/aim73/figures/AIM72-C1-S01-Q063-option-A.webp",
+      "pdf_page": 27,
+      "printed_page": 25,
+      "rect_pixels": [
+        245,
+        950,
+        344,
+        980
+      ],
+      "role": "choice",
+      "title": "보기 A",
+      "question_id": "AIM72-C1-S01-Q063",
+      "choice_id": "A",
+      "text": "White"
+    },
+    {
+      "src": "assets/aim73/figures/AIM72-C1-S01-Q063-option-B.webp",
+      "pdf_page": 27,
+      "printed_page": 25,
+      "rect_pixels": [
+        620,
+        950,
+        720,
+        980
+      ],
+      "role": "choice",
+      "title": "보기 B",
+      "question_id": "AIM72-C1-S01-Q063",
+      "choice_id": "B",
+      "text": "Blue"
+    },
+    {
+      "src": "assets/aim73/figures/AIM72-C1-S01-Q063-option-C.webp",
+      "pdf_page": 27,
+      "printed_page": 25,
+      "rect_pixels": [
+        245,
+        983,
+        344,
+        1013
+      ],
+      "role": "choice",
+      "title": "보기 C",
+      "question_id": "AIM72-C1-S01-Q063",
+      "choice_id": "C",
+      "text": "White"
+    },
+    {
+      "src": "assets/aim73/figures/AIM72-C1-S01-Q063-option-D.webp",
+      "pdf_page": 27,
+      "printed_page": 25,
+      "rect_pixels": [
+        620,
+        983,
+        720,
+        1013
+      ],
+      "role": "choice",
+      "title": "보기 D",
+      "question_id": "AIM72-C1-S01-Q063",
+      "choice_id": "D",
+      "text": "Blue"
+    },
+    {
+      "src": "assets/aim73/figures/AIM72-C2-S01-Q018-option-A.webp",
+      "pdf_page": 49,
+      "printed_page": 47,
+      "rect_pixels": [
+        177,
+        179,
+        259,
+        210
+      ],
+      "role": "choice",
+      "title": "보기 A",
+      "question_id": "AIM72-C2-S01-Q018",
+      "choice_id": "A"
+    },
+    {
+      "src": "assets/aim73/figures/AIM72-C2-S01-Q018-option-B.webp",
+      "pdf_page": 49,
+      "printed_page": 47,
+      "rect_pixels": [
+        370,
+        179,
+        449,
+        210
+      ],
+      "role": "choice",
+      "title": "보기 B",
+      "question_id": "AIM72-C2-S01-Q018",
+      "choice_id": "B"
+    },
+    {
+      "src": "assets/aim73/figures/AIM72-C2-S01-Q018-option-C.webp",
+      "pdf_page": 49,
+      "printed_page": 47,
+      "rect_pixels": [
+        568,
+        179,
+        648,
+        210
+      ],
+      "role": "choice",
+      "title": "보기 C",
+      "question_id": "AIM72-C2-S01-Q018",
+      "choice_id": "C"
+    },
+    {
+      "src": "assets/aim73/figures/AIM72-C2-S01-Q018-option-D.webp",
+      "pdf_page": 49,
+      "printed_page": 47,
+      "rect_pixels": [
+        754,
+        179,
+        833,
+        210
+      ],
+      "role": "choice",
+      "title": "보기 D",
+      "question_id": "AIM72-C2-S01-Q018",
+      "choice_id": "D"
+    },
+    {
+      "src": "assets/aim73/figures/AIM72-C2-S02-Q033-stem.webp",
+      "pdf_page": 62,
+      "printed_page": 60,
+      "rect_pixels": [
+        307,
+        634,
+        406,
+        734
+      ],
+      "role": "question",
+      "title": "공항 표지판",
+      "question_id": "AIM72-C2-S02-Q033"
+    },
+    {
+      "src": "assets/aim73/figures/AIM72-C2-S02-Q039-stem.webp",
+      "pdf_page": 64,
+      "printed_page": 62,
+      "rect_pixels": [
+        235,
+        182,
+        314,
+        283
+      ],
+      "role": "question",
+      "title": "활주로 잔여거리 표지판",
+      "question_id": "AIM72-C2-S02-Q039"
+    },
+    {
+      "src": "assets/aim73/figures/AIM72-C5-S02-Q024-stem.webp",
+      "pdf_page": 218,
+      "printed_page": 216,
+      "rect_pixels": [
+        387,
+        532,
+        421,
+        566
+      ],
+      "role": "question",
+      "title": "SID 차트 기호",
+      "question_id": "AIM72-C5-S02-Q024"
+    },
+    {
+      "src": "assets/aim73/figures/AIM72-C5-S03-Q012-option-A.webp",
+      "pdf_page": 220,
+      "printed_page": 218,
+      "rect_pixels": [
+        208,
+        802,
+        237,
+        830
+      ],
+      "role": "choice",
+      "title": "보기 A",
+      "question_id": "AIM72-C5-S03-Q012",
+      "choice_id": "A"
+    },
+    {
+      "src": "assets/aim73/figures/AIM72-C5-S03-Q012-option-B.webp",
+      "pdf_page": 220,
+      "printed_page": 218,
+      "rect_pixels": [
+        402,
+        802,
+        432,
+        830
+      ],
+      "role": "choice",
+      "title": "보기 B",
+      "question_id": "AIM72-C5-S03-Q012",
+      "choice_id": "B"
+    },
+    {
+      "src": "assets/aim73/figures/AIM72-C5-S03-Q012-option-C.webp",
+      "pdf_page": 220,
+      "printed_page": 218,
+      "rect_pixels": [
+        594,
+        802,
+        624,
+        830
+      ],
+      "role": "choice",
+      "title": "보기 C",
+      "question_id": "AIM72-C5-S03-Q012",
+      "choice_id": "C"
+    },
+    {
+      "src": "assets/aim73/figures/AIM72-C5-S03-Q012-option-D.webp",
+      "pdf_page": 220,
+      "printed_page": 218,
+      "rect_pixels": [
+        788,
+        802,
+        818,
+        830
+      ],
+      "role": "choice",
+      "title": "보기 D",
+      "question_id": "AIM72-C5-S03-Q012",
+      "choice_id": "D"
+    },
+    {
+      "src": "assets/aim73/figures/AIM72-C6-S01-Q015-option-A.webp",
+      "pdf_page": 275,
+      "printed_page": 273,
+      "rect_pixels": [
+        172,
+        550,
+        247,
+        584
+      ],
+      "role": "choice",
+      "title": "보기 A",
+      "question_id": "AIM72-C6-S01-Q015",
+      "choice_id": "A"
+    },
+    {
+      "src": "assets/aim73/figures/AIM72-C6-S01-Q015-option-B.webp",
+      "pdf_page": 275,
+      "printed_page": 273,
+      "rect_pixels": [
+        368,
+        550,
+        426,
+        584
+      ],
+      "role": "choice",
+      "title": "보기 B",
+      "question_id": "AIM72-C6-S01-Q015",
+      "choice_id": "B"
+    },
+    {
+      "src": "assets/aim73/figures/AIM72-C6-S01-Q015-option-C.webp",
+      "pdf_page": 275,
+      "printed_page": 273,
+      "rect_pixels": [
+        562,
+        550,
+        624,
+        584
+      ],
+      "role": "choice",
+      "title": "보기 C",
+      "question_id": "AIM72-C6-S01-Q015",
+      "choice_id": "C"
+    },
+    {
+      "src": "assets/aim73/figures/AIM72-C6-S01-Q015-option-D.webp",
+      "pdf_page": 275,
+      "printed_page": 273,
+      "rect_pixels": [
+        752,
+        550,
+        827,
+        584
+      ],
+      "role": "choice",
+      "title": "보기 D",
+      "question_id": "AIM72-C6-S01-Q015",
+      "choice_id": "D"
+    },
+    {
+      "src": "assets/aim73/figures/AIM72-C7-S06-Q021-stem.webp",
+      "pdf_page": 333,
+      "printed_page": 331,
+      "rect_pixels": [
+        258,
+        1257,
+        332,
+        1318
+      ],
+      "role": "question",
+      "title": "항행안전시설 기호",
+      "question_id": "AIM72-C7-S06-Q021"
+    },
+    {
+      "src": "assets/aim73/figures/AIM72-C7-S06-Q022-stem.webp",
+      "pdf_page": 334,
+      "printed_page": 332,
+      "rect_pixels": [
+        245,
+        200,
+        339,
+        286
+      ],
+      "role": "question",
+      "title": "항공도 기호",
+      "question_id": "AIM72-C7-S06-Q022"
+    },
+    {
+      "src": "assets/aim73/figures/AIM72-C7-S06-Q023-stem.webp",
+      "pdf_page": 334,
+      "printed_page": 332,
+      "rect_pixels": [
+        390,
+        721,
+        473,
+        744
+      ],
+      "role": "question",
+      "title": "Area chart 기호",
+      "question_id": "AIM72-C7-S06-Q023"
+    },
+    {
+      "src": "assets/aim73/figures/AIM72-C7-S06-Q024-stem.webp",
+      "pdf_page": 334,
+      "printed_page": 332,
+      "rect_pixels": [
+        390,
+        846,
+        473,
+        873
+      ],
+      "role": "question",
+      "title": "Area chart 기호",
+      "question_id": "AIM72-C7-S06-Q024"
+    },
+    {
+      "src": "assets/aim73/figures/AIM72-C7-S06-Q025-stem.webp",
+      "pdf_page": 334,
+      "printed_page": 332,
+      "rect_pixels": [
+        254,
+        1194,
+        350,
+        1264
+      ],
+      "role": "question",
+      "title": "항로도 기호",
+      "question_id": "AIM72-C7-S06-Q025"
+    },
+    {
+      "src": "assets/aim73/figures/AIM72-C7-S06-Q027-stem.webp",
+      "pdf_page": 335,
+      "printed_page": 333,
+      "rect_pixels": [
+        255,
+        427,
+        324,
+        532
+      ],
+      "role": "question",
+      "title": "항로도 기호",
+      "question_id": "AIM72-C7-S06-Q027"
+    },
+    {
+      "src": "assets/aim73/figures/AIM72-C7-S06-Q028-stem.webp",
+      "pdf_page": 335,
+      "printed_page": 333,
+      "rect_pixels": [
+        198,
+        649,
+        385,
+        692
+      ],
+      "role": "question",
+      "title": "공역 경계 기호",
+      "question_id": "AIM72-C7-S06-Q028"
+    },
+    {
+      "src": "assets/aim73/figures/AIM72-C7-S06-Q029-option-A.webp",
+      "pdf_page": 335,
+      "printed_page": 333,
+      "rect_pixels": [
+        198,
+        800,
+        425,
+        841
+      ],
+      "role": "choice",
+      "title": "보기 A",
+      "question_id": "AIM72-C7-S06-Q029",
+      "choice_id": "A"
+    },
+    {
+      "src": "assets/aim73/figures/AIM72-C7-S06-Q029-option-B.webp",
+      "pdf_page": 335,
+      "printed_page": 333,
+      "rect_pixels": [
+        586,
+        800,
+        824,
+        841
+      ],
+      "role": "choice",
+      "title": "보기 B",
+      "question_id": "AIM72-C7-S06-Q029",
+      "choice_id": "B"
+    },
+    {
+      "src": "assets/aim73/figures/AIM72-C7-S06-Q029-option-C.webp",
+      "pdf_page": 335,
+      "printed_page": 333,
+      "rect_pixels": [
+        198,
+        851,
+        425,
+        881
+      ],
+      "role": "choice",
+      "title": "보기 C",
+      "question_id": "AIM72-C7-S06-Q029",
+      "choice_id": "C"
+    },
+    {
+      "src": "assets/aim73/figures/AIM72-C7-S06-Q029-option-D.webp",
+      "pdf_page": 335,
+      "printed_page": 333,
+      "rect_pixels": [
+        586,
+        851,
+        824,
+        881
+      ],
+      "role": "choice",
+      "title": "보기 D",
+      "question_id": "AIM72-C7-S06-Q029",
+      "choice_id": "D"
+    },
+    {
+      "src": "assets/aim73/figures/AIM72-C7-S06-Q030-stem.webp",
+      "pdf_page": 336,
+      "printed_page": 334,
+      "rect_pixels": [
+        448,
+        244,
+        636,
+        271
+      ],
+      "role": "question",
+      "title": "SID/STAR 차트 기호",
+      "question_id": "AIM72-C7-S06-Q030"
+    },
+    {
+      "src": "assets/aim73/figures/p023-explanation-01.webp",
+      "pdf_page": 23,
+      "printed_page": 21,
+      "rect_pixels": [
+        155,
+        1070,
+        762,
+        1228
+      ],
+      "role": "explanation",
+      "title": "항행안전시설 서비스 범위",
+      "explanation_owner": "AIM72-C1-S01-Q037"
+    },
+    {
+      "src": "assets/aim73/figures/p023-explanation-02.webp",
+      "pdf_page": 23,
+      "printed_page": 21,
+      "rect_pixels": [
+        155,
+        1252,
+        762,
+        1341
+      ],
+      "role": "explanation",
+      "title": "NDB 서비스 범위",
+      "explanation_owner": "AIM72-C1-S01-Q037"
+    },
+    {
+      "src": "assets/aim73/figures/p025-explanation-03.webp",
+      "pdf_page": 25,
+      "printed_page": 23,
+      "rect_pixels": [
+        575,
+        681,
+        942,
+        758
+      ],
+      "role": "explanation",
+      "title": "로컬라이저 코스 폭",
+      "explanation_owner": "AIM72-C1-S01-Q049"
+    },
+    {
+      "src": "assets/aim73/figures/p025-explanation-04.webp",
+      "pdf_page": 25,
+      "printed_page": 23,
+      "rect_pixels": [
+        173,
+        1118,
+        797,
+        1318
+      ],
+      "role": "explanation",
+      "title": "항행안전시설 주파수",
+      "explanation_owner": "AIM72-C1-S01-Q049"
+    },
+    {
+      "src": "assets/aim73/figures/p028-explanation-05.webp",
+      "pdf_page": 28,
+      "printed_page": 26,
+      "rect_pixels": [
+        220,
+        294,
+        831,
+        430
+      ],
+      "role": "explanation",
+      "title": "마커 비콘 식별",
+      "explanation_owner": "AIM72-C1-S01-Q066"
+    },
+    {
+      "src": "assets/aim73/figures/p029-explanation-06.webp",
+      "pdf_page": 29,
+      "printed_page": 27,
+      "rect_pixels": [
+        180,
+        363,
+        712,
+        475
+      ],
+      "role": "explanation",
+      "title": "컴퍼스 로케이터",
+      "explanation_owner": "AIM72-C1-S01-Q071"
+    },
+    {
+      "src": "assets/aim73/figures/p029-explanation-07.webp",
+      "pdf_page": 29,
+      "printed_page": 27,
+      "rect_pixels": [
+        183,
+        1157,
+        819,
+        1334
+      ],
+      "role": "explanation",
+      "title": "ILS 카테고리",
+      "explanation_owner": "AIM72-C1-S01-Q076"
+    },
+    {
+      "src": "assets/aim73/figures/p047-explanation-08.webp",
+      "pdf_page": 47,
+      "printed_page": 45,
+      "rect_pixels": [
+        178,
+        253,
+        926,
+        643
+      ],
+      "role": "explanation",
+      "title": "접근등화 종류",
+      "explanation_owner": "AIM72-C2-S01-Q008"
+    },
+    {
+      "src": "assets/aim73/figures/p048-explanation-09.webp",
+      "pdf_page": 48,
+      "printed_page": 46,
+      "rect_pixels": [
+        175,
+        917,
+        863,
+        1126
+      ],
+      "role": "explanation",
+      "title": "VASI 지시",
+      "explanation_owner": "AIM72-C2-S01-Q016"
+    },
+    {
+      "src": "assets/aim73/figures/p049-explanation-10.webp",
+      "pdf_page": 49,
+      "printed_page": 47,
+      "rect_pixels": [
+        179,
+        676,
+        884,
+        783
+      ],
+      "role": "explanation",
+      "title": "PAPI 지시",
+      "explanation_owner": "AIM72-C2-S01-Q021"
+    },
+    {
+      "src": "assets/aim73/figures/p050-explanation-11.webp",
+      "pdf_page": 50,
+      "printed_page": 48,
+      "rect_pixels": [
+        200,
+        510,
+        827,
+        666
+      ],
+      "role": "explanation",
+      "title": "VASI 관측 범위",
+      "explanation_owner": "AIM72-C2-S01-Q026"
+    },
+    {
+      "src": "assets/aim73/figures/p055-explanation-12.webp",
+      "pdf_page": 55,
+      "printed_page": 53,
+      "rect_pixels": [
+        163,
+        1051,
+        740,
+        1303
+      ],
+      "role": "explanation",
+      "title": "활주로 등화 색상",
+      "explanation_owner": "AIM72-C2-S01-Q054"
+    },
+    {
+      "src": "assets/aim73/figures/p057-explanation-13.webp",
+      "pdf_page": 57,
+      "printed_page": 55,
+      "rect_pixels": [
+        168,
+        626,
+        838,
+        920
+      ],
+      "role": "explanation",
+      "title": "활주로 표지",
+      "explanation_owner": "AIM72-C2-S02-Q010"
+    },
+    {
+      "src": "assets/aim73/figures/p058-explanation-14.webp",
+      "pdf_page": 58,
+      "printed_page": 56,
+      "rect_pixels": [
+        210,
+        518,
+        533,
+        678
+      ],
+      "role": "explanation",
+      "title": "활주로 시단 표지 줄 수",
+      "explanation_owner": "AIM72-C2-S02-Q013"
+    },
+    {
+      "src": "assets/aim73/figures/p060-explanation-15.webp",
+      "pdf_page": 60,
+      "printed_page": 58,
+      "rect_pixels": [
+        204,
+        442,
+        870,
+        739
+      ],
+      "role": "explanation",
+      "title": "비행장 표지",
+      "explanation_owner": "AIM72-C2-S02-Q022"
+    },
+    {
+      "src": "assets/aim73/figures/p063-explanation-16.webp",
+      "pdf_page": 63,
+      "printed_page": 61,
+      "rect_pixels": [
+        174,
+        1037,
+        843,
+        1332
+      ],
+      "role": "explanation",
+      "title": "공항 표지판",
+      "explanation_owner": "AIM72-C2-S02-Q038"
+    },
+    {
+      "src": "assets/aim73/figures/p072-explanation-17.webp",
+      "pdf_page": 72,
+      "printed_page": 70,
+      "rect_pixels": [
+        210,
+        757,
+        935,
+        1238
+      ],
+      "role": "explanation",
+      "title": "VFR 기상 최저치",
+      "explanation_owner": "AIM72-C3-S01-Q003"
+    },
+    {
+      "src": "assets/aim73/figures/p073-explanation-18.webp",
+      "pdf_page": 73,
+      "printed_page": 71,
+      "rect_pixels": [
+        164,
+        551,
+        934,
+        752
+      ],
+      "role": "explanation",
+      "title": "VFR 순항고도",
+      "explanation_owner": "AIM72-C3-S01-Q008"
+    },
+    {
+      "src": "assets/aim73/figures/p079-explanation-19.webp",
+      "pdf_page": 79,
+      "printed_page": 77,
+      "rect_pixels": [
+        174,
+        139,
+        914,
+        438
+      ],
+      "role": "explanation",
+      "title": "공역별 운항 요건",
+      "explanation_owner": "AIM72-C3-S02-Q026"
+    },
+    {
+      "src": "assets/aim73/figures/p079-explanation-20.webp",
+      "pdf_page": 79,
+      "printed_page": 77,
+      "rect_pixels": [
+        172,
+        531,
+        876,
+        827
+      ],
+      "role": "explanation",
+      "title": "공역 분류와 최저치",
+      "explanation_owner": "AIM72-C3-S02-Q026"
+    },
+    {
+      "src": "assets/aim73/figures/p080-explanation-21.webp",
+      "pdf_page": 80,
+      "printed_page": 78,
+      "rect_pixels": [
+        208,
+        818,
+        954,
+        1138
+      ],
+      "role": "explanation",
+      "title": "공역별 VFR 요건",
+      "explanation_owner": "AIM72-C3-S03-Q006"
+    },
+    {
+      "src": "assets/aim73/figures/p081-explanation-22.webp",
+      "pdf_page": 81,
+      "printed_page": 79,
+      "rect_pixels": [
+        174,
+        358,
+        927,
+        559
+      ],
+      "role": "explanation",
+      "title": "비행고도 분리",
+      "explanation_owner": "AIM72-C3-S03-Q010"
+    },
+    {
+      "src": "assets/aim73/figures/p082-explanation-23.webp",
+      "pdf_page": 82,
+      "printed_page": 80,
+      "rect_pixels": [
+        209,
+        704,
+        967,
+        1002
+      ],
+      "role": "explanation",
+      "title": "특수사용공역",
+      "explanation_owner": "AIM72-C3-S04-Q007"
+    },
+    {
+      "src": "assets/aim73/figures/p121-explanation-24.webp",
+      "pdf_page": 121,
+      "printed_page": 119,
+      "rect_pixels": [
+        180,
+        690,
+        454,
+        859
+      ],
+      "role": "explanation",
+      "title": "트래픽 시계 방향",
+      "explanation_owner": "AIM72-C4-S01-Q047"
+    },
+    {
+      "src": "assets/aim73/figures/p125-explanation-25.webp",
+      "pdf_page": 125,
+      "printed_page": 123,
+      "rect_pixels": [
+        174,
+        1111,
+        658,
+        1339
+      ],
+      "role": "explanation",
+      "title": "트랜스폰더 코드",
+      "explanation_owner": "AIM72-C4-S01-Q070"
+    },
+    {
+      "src": "assets/aim73/figures/p127-explanation-26.webp",
+      "pdf_page": 127,
+      "printed_page": 125,
+      "rect_pixels": [
+        171,
+        389,
+        947,
+        851
+      ],
+      "role": "explanation",
+      "title": "트랜스폰더 관제 용어",
+      "explanation_owner": "AIM72-C4-S01-Q079"
+    },
+    {
+      "src": "assets/aim73/figures/p130-explanation-27.webp",
+      "pdf_page": 130,
+      "printed_page": 128,
+      "rect_pixels": [
+        204,
+        675,
+        962,
+        1331
+      ],
+      "role": "explanation",
+      "title": "표준 무선통신 용어",
+      "explanation_owner": "AIM72-C4-S02-Q015"
+    },
+    {
+      "src": "assets/aim73/figures/p131-explanation-28.webp",
+      "pdf_page": 131,
+      "printed_page": 129,
+      "rect_pixels": [
+        164,
+        146,
+        928,
+        327
+      ],
+      "role": "explanation",
+      "title": "표준 무선통신 용어 계속",
+      "explanation_owner": "AIM72-C4-S02-Q015"
+    },
+    {
+      "src": "assets/aim73/figures/p131-explanation-29.webp",
+      "pdf_page": 131,
+      "printed_page": 129,
+      "rect_pixels": [
+        165,
+        782,
+        928,
+        1036
+      ],
+      "role": "explanation",
+      "title": "Say again 사용 예",
+      "explanation_owner": "AIM72-C4-S02-Q017"
+    },
+    {
+      "src": "assets/aim73/figures/p135-explanation-30.webp",
+      "pdf_page": 135,
+      "printed_page": 133,
+      "rect_pixels": [
+        164,
+        334,
+        855,
+        717
+      ],
+      "role": "explanation",
+      "title": "관제기관 호출부호",
+      "explanation_owner": "AIM72-C4-S02-Q033"
+    },
+    {
+      "src": "assets/aim73/figures/p136-explanation-31.webp",
+      "pdf_page": 136,
+      "printed_page": 134,
+      "rect_pixels": [
+        210,
+        534,
+        873,
+        910
+      ],
+      "role": "explanation",
+      "title": "음성 알파벳",
+      "explanation_owner": "AIM72-C4-S02-Q036"
+    },
+    {
+      "src": "assets/aim73/figures/p136-explanation-32.webp",
+      "pdf_page": 136,
+      "printed_page": 134,
+      "rect_pixels": [
+        210,
+        1032,
+        873,
+        1193
+      ],
+      "role": "explanation",
+      "title": "숫자 발음",
+      "explanation_owner": "AIM72-C4-S02-Q037"
+    },
+    {
+      "src": "assets/aim73/figures/p146-explanation-33.webp",
+      "pdf_page": 146,
+      "printed_page": 144,
+      "rect_pixels": [
+        209,
+        484,
+        970,
+        805
+      ],
+      "role": "explanation",
+      "title": "라이트 건 신호",
+      "explanation_owner": "AIM72-C4-S03-Q029"
+    },
+    {
+      "src": "assets/aim73/figures/p163-explanation-34.webp",
+      "pdf_page": 163,
+      "printed_page": 161,
+      "rect_pixels": [
+        164,
+        365,
+        770,
+        589
+      ],
+      "role": "explanation",
+      "title": "관제 속도 제한",
+      "explanation_owner": "AIM72-C4-S04-Q054"
+    },
+    {
+      "src": "assets/aim73/figures/p200-explanation-35.webp",
+      "pdf_page": 200,
+      "printed_page": 198,
+      "rect_pixels": [
+        218,
+        704,
+        966,
+        1065
+      ],
+      "role": "explanation",
+      "title": "항공정보 간행물",
+      "explanation_owner": "AIM72-C5-S01-Q010"
+    },
+    {
+      "src": "assets/aim73/figures/p202-explanation-36.webp",
+      "pdf_page": 202,
+      "printed_page": 200,
+      "rect_pixels": [
+        214,
+        1078,
+        729,
+        1192
+      ],
+      "role": "explanation",
+      "title": "NOTAM Q 코드",
+      "explanation_owner": "AIM72-C5-S01-Q021"
+    },
+    {
+      "src": "assets/aim73/figures/p204-explanation-37.webp",
+      "pdf_page": 204,
+      "printed_page": 202,
+      "rect_pixels": [
+        228,
+        390,
+        473,
+        507
+      ],
+      "role": "explanation",
+      "title": "비행계획 우선순위",
+      "explanation_owner": "AIM72-C5-S01-Q026"
+    },
+    {
+      "src": "assets/aim73/figures/p206-explanation-38.webp",
+      "pdf_page": 206,
+      "printed_page": 204,
+      "rect_pixels": [
+        202,
+        718,
+        723,
+        854
+      ],
+      "role": "explanation",
+      "title": "VFR 비행계획 관련 용어",
+      "explanation_owner": "AIM72-C5-S01-Q035"
+    },
+    {
+      "src": "assets/aim73/figures/p209-explanation-39.webp",
+      "pdf_page": 209,
+      "printed_page": 207,
+      "rect_pixels": [
+        169,
+        418,
+        789,
+        627
+      ],
+      "role": "explanation",
+      "title": "탑재장비 코드",
+      "explanation_owner": "AIM72-C5-S01-Q049"
+    },
+    {
+      "src": "assets/aim73/figures/p211-explanation-40.webp",
+      "pdf_page": 211,
+      "printed_page": 209,
+      "rect_pixels": [
+        163,
+        1130,
+        805,
+        1332
+      ],
+      "role": "explanation",
+      "title": "비행계획 관련 용어",
+      "explanation_owner": "AIM72-C5-S01-Q063"
+    },
+    {
+      "src": "assets/aim73/figures/p221-explanation-41.webp",
+      "pdf_page": 221,
+      "printed_page": 219,
+      "rect_pixels": [
+        167,
+        208,
+        950,
+        566
+      ],
+      "role": "explanation",
+      "title": "항법시설 통과와 위치보고",
+      "explanation_owner": "AIM72-C5-S03-Q013"
+    },
+    {
+      "src": "assets/aim73/figures/p230-explanation-42.webp",
+      "pdf_page": 230,
+      "printed_page": 228,
+      "rect_pixels": [
+        209,
+        363,
+        869,
+        579
+      ],
+      "role": "explanation",
+      "title": "최대 체공속도",
+      "explanation_owner": "AIM72-C5-S03-Q061"
+    },
+    {
+      "src": "assets/aim73/figures/p231-explanation-43.webp",
+      "pdf_page": 231,
+      "printed_page": 229,
+      "rect_pixels": [
+        164,
+        305,
+        556,
+        417
+      ],
+      "role": "explanation",
+      "title": "체공 진입 방식",
+      "explanation_owner": "AIM72-C5-S03-Q065"
+    },
+    {
+      "src": "assets/aim73/figures/p231-explanation-44.webp",
+      "pdf_page": 231,
+      "printed_page": 229,
+      "rect_pixels": [
+        280,
+        718,
+        740,
+        965
+      ],
+      "role": "explanation",
+      "title": "표준 및 비표준 체공 진입",
+      "explanation_owner": "AIM72-C5-S03-Q065"
+    },
+    {
+      "src": "assets/aim73/figures/p231-explanation-45.webp",
+      "pdf_page": 231,
+      "printed_page": 229,
+      "rect_pixels": [
+        164,
+        1232,
+        556,
+        1341
+      ],
+      "role": "explanation",
+      "title": "체공 진입 방식 예제",
+      "explanation_owner": "AIM72-C5-S03-Q066"
+    },
+    {
+      "src": "assets/aim73/figures/p232-explanation-46.webp",
+      "pdf_page": 232,
+      "printed_page": 230,
+      "rect_pixels": [
+        213,
+        308,
+        605,
+        419
+      ],
+      "role": "explanation",
+      "title": "체공 진입 방식 예제 1",
+      "explanation_owner": "AIM72-C5-S03-Q067"
+    },
+    {
+      "src": "assets/aim73/figures/p232-explanation-47.webp",
+      "pdf_page": 232,
+      "printed_page": 230,
+      "rect_pixels": [
+        213,
+        610,
+        605,
+        721
+      ],
+      "role": "explanation",
+      "title": "체공 진입 방식 예제 2",
+      "explanation_owner": "AIM72-C5-S03-Q068"
+    },
+    {
+      "src": "assets/aim73/figures/p232-explanation-48.webp",
+      "pdf_page": 232,
+      "printed_page": 230,
+      "rect_pixels": [
+        213,
+        913,
+        605,
+        1023
+      ],
+      "role": "explanation",
+      "title": "체공 진입 방식 예제 3",
+      "explanation_owner": "AIM72-C5-S03-Q069"
+    },
+    {
+      "src": "assets/aim73/figures/p232-explanation-49.webp",
+      "pdf_page": 232,
+      "printed_page": 230,
+      "rect_pixels": [
+        213,
+        1216,
+        605,
+        1325
+      ],
+      "role": "explanation",
+      "title": "체공 진입 방식 예제 4",
+      "explanation_owner": "AIM72-C5-S03-Q070"
+    },
+    {
+      "src": "assets/aim73/figures/p242-explanation-50.webp",
+      "pdf_page": 242,
+      "printed_page": 240,
+      "rect_pixels": [
+        320,
+        163,
+        823,
+        319
+      ],
+      "role": "explanation",
+      "title": "Route MORA 적용 범위",
+      "explanation_owner": "AIM72-C5-S04-Q034"
+    },
+    {
+      "src": "assets/aim73/figures/p249-explanation-51.webp",
+      "pdf_page": 249,
+      "printed_page": 247,
+      "rect_pixels": [
+        163,
+        520,
+        765,
+        715
+      ],
+      "role": "explanation",
+      "title": "동시 접근 분리",
+      "explanation_owner": "AIM72-C5-S05-Q005"
+    },
+    {
+      "src": "assets/aim73/figures/p250-explanation-52.webp",
+      "pdf_page": 250,
+      "printed_page": 248,
+      "rect_pixels": [
+        202,
+        1001,
+        690,
+        1139
+      ],
+      "role": "explanation",
+      "title": "접근 시정 최저치",
+      "explanation_owner": "AIM72-C5-S05-Q012"
+    },
+    {
+      "src": "assets/aim73/figures/p257-explanation-53.webp",
+      "pdf_page": 257,
+      "printed_page": 255,
+      "rect_pixels": [
+        165,
+        456,
+        887,
+        612
+      ],
+      "role": "explanation",
+      "title": "Visual 및 contact approach",
+      "explanation_owner": "AIM72-C5-S05-Q042"
+    },
+    {
+      "src": "assets/aim73/figures/p266-explanation-54.webp",
+      "pdf_page": 266,
+      "printed_page": 264,
+      "rect_pixels": [
+        204,
+        552,
+        966,
+        1091
+      ],
+      "role": "explanation",
+      "title": "항공기 요격 신호",
+      "explanation_owner": "AIM72-C5-S07-Q020"
+    },
+    {
+      "src": "assets/aim73/figures/p266-explanation-55.webp",
+      "pdf_page": 266,
+      "printed_page": 264,
+      "rect_pixels": [
+        211,
+        1246,
+        581,
+        1334
+      ],
+      "role": "explanation",
+      "title": "요격 관련 통신 용어",
+      "explanation_owner": "AIM72-C5-S07-Q021"
+    },
+    {
+      "src": "assets/aim73/figures/p275-explanation-56.webp",
+      "pdf_page": 275,
+      "printed_page": 273,
+      "rect_pixels": [
+        173,
+        704,
+        838,
+        892
+      ],
+      "role": "explanation",
+      "title": "생존자 지대공 시각신호",
+      "explanation_owner": "AIM72-C6-S01-Q015"
+    },
+    {
+      "src": "assets/aim73/figures/p275-explanation-57.webp",
+      "pdf_page": 275,
+      "printed_page": 273,
+      "rect_pixels": [
+        173,
+        926,
+        838,
+        1138
+      ],
+      "role": "explanation",
+      "title": "구조대 지대공 시각신호",
+      "explanation_owner": "AIM72-C6-S01-Q015"
+    },
+    {
+      "src": "assets/aim73/figures/p277-explanation-58.webp",
+      "pdf_page": 277,
+      "printed_page": 275,
+      "rect_pixels": [
+        162,
+        356,
+        927,
+        959
+      ],
+      "role": "explanation",
+      "title": "비상 단계",
+      "explanation_owner": "AIM72-C6-S02-Q011"
+    },
+    {
+      "src": "assets/aim73/figures/p316-explanation-59.webp",
+      "pdf_page": 316,
+      "printed_page": 314,
+      "rect_pixels": [
+        200,
+        606,
+        940,
+        851
+      ],
+      "role": "explanation",
+      "title": "QNH QNE QFE",
+      "explanation_owner": "AIM72-C7-S02-Q010"
+    },
+    {
+      "src": "assets/aim73/figures/p321-explanation-60.webp",
+      "pdf_page": 321,
+      "printed_page": 319,
+      "rect_pixels": [
+        167,
+        751,
+        612,
+        930
+      ],
+      "role": "explanation",
+      "title": "고도계 오차",
+      "explanation_owner": "AIM72-C7-S02-Q040"
+    },
+    {
+      "src": "assets/aim73/figures/p326-explanation-61.webp",
+      "pdf_page": 326,
+      "printed_page": 324,
+      "rect_pixels": [
+        225,
+        269,
+        852,
+        408
+      ],
+      "role": "explanation",
+      "title": "산소 사용 시간",
+      "explanation_owner": "AIM72-C7-S05-Q005"
+    },
+    {
+      "src": "assets/aim73/figures/p329-explanation-62.webp",
+      "pdf_page": 329,
+      "printed_page": 327,
+      "rect_pixels": [
+        165,
+        701,
+        771,
+        926
+      ],
+      "role": "explanation",
+      "title": "시각 착각",
+      "explanation_owner": "AIM72-C7-S05-Q020"
+    },
+    {
+      "src": "assets/aim73/figures/p334-explanation-63.webp",
+      "pdf_page": 334,
+      "printed_page": 332,
+      "rect_pixels": [
+        193,
+        344,
+        859,
+        683
+      ],
+      "role": "explanation",
+      "title": "항행안전시설 기호",
+      "explanation_owner": "AIM72-C7-S06-Q022"
+    },
+    {
+      "src": "assets/aim73/figures/p334-explanation-64.webp",
+      "pdf_page": 334,
+      "printed_page": 332,
+      "rect_pixels": [
+        195,
+        1009,
+        713,
+        1106
+      ],
+      "role": "explanation",
+      "title": "Area chart 경로 기호",
+      "explanation_owner": "AIM72-C7-S06-Q024"
+    },
+    {
+      "src": "assets/aim73/figures/p335-explanation-65.webp",
+      "pdf_page": 335,
+      "printed_page": 333,
+      "rect_pixels": [
+        194,
+        951,
+        763,
+        1263
+      ],
+      "role": "explanation",
+      "title": "공역 경계 기호",
+      "explanation_owner": "AIM72-C7-S06-Q029"
+    },
+    {
+      "src": "assets/aim73/figures/p336-explanation-66.webp",
+      "pdf_page": 336,
+      "printed_page": 334,
+      "rect_pixels": [
+        187,
+        128,
+        784,
+        207
+      ],
+      "role": "explanation",
+      "title": "ADIZ 경계 기호",
+      "explanation_owner": "AIM72-C7-S06-Q029"
+    },
+    {
+      "src": "assets/aim73/figures/p336-explanation-67.webp",
+      "pdf_page": 336,
+      "printed_page": 334,
+      "rect_pixels": [
+        372,
+        430,
+        734,
+        544
+      ],
+      "role": "explanation",
+      "title": "SID/STAR 관제 섹터",
+      "explanation_owner": "AIM72-C7-S06-Q030"
+    }
+  ]
+}
