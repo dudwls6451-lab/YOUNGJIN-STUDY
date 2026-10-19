@@ -1,0 +1,43 @@
+{
+  "version": "11.60.72",
+  "results": [
+    {
+      "width": 1440,
+      "bankQuestions": 1042,
+      "units": 7,
+      "subunits": 30,
+      "theoryStages": 7,
+      "theoryPages": 110,
+      "firstUnitPractice": 102,
+      "firstStageQuiz": "10/10 passed",
+      "sourceQuestionAndExplanationImages": true,
+      "examHidesAnswer": true,
+      "themes": [
+        "light",
+        "dark"
+      ]
+    },
+    {
+      "width": 390,
+      "bankQuestions": 1042,
+      "units": 7,
+      "subunits": 30,
+      "theoryStages": 7,
+      "theoryPages": 110,
+      "firstUnitPractice": 102,
+      "firstStageQuiz": "10/10 passed",
+      "sourceQuestionAndExplanationImages": true,
+      "examHidesAnswer": true,
+      "themes": [
+        "light",
+        "dark"
+      ]
+    }
+  ],
+  "scope": "Actual patched core and goal modules, real extracted data and images. Authentication, Supabase and unrelated question feeds use fixtures; unrelated external add-ons omitted. No production account/deployment test.",
+  "additional_checks": [
+    "Original-image modal opens with zoom on mobile and fit on desktop",
+    "Zoom/fit and close buttons work",
+    "Existing K-AIM practice still records answers and hides AIM-specific source panels"
+  ]
+}

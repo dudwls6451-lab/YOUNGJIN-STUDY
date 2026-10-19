@@ -1,0 +1,38 @@
+{
+  "version": "11.60.72",
+  "source_file": "AIM_ocr.pdf",
+  "source_sha256": "d995e008ba190b46d2d9cfb23e9255911a20959477e724c5fe9d8061f893d360",
+  "source_pages": 340,
+  "questions": 1042,
+  "chapter_counts": {
+    "1": 102,
+    "2": 93,
+    "3": 58,
+    "4": 260,
+    "5": 323,
+    "6": 53,
+    "7": 153
+  },
+  "subunits": 30,
+  "theory_stages": 7,
+  "theory_pages": 110,
+  "unique_source_question_crops": 1044,
+  "image_files_verified": 1385,
+  "answer_key_number_matches": 1042,
+  "ambiguous_answer_glyphs_visually_corrected_to_D": 15,
+  "choice_marker_issues_remaining": 0,
+  "manual_option_row_corrections": [
+    "AIM72-C3-S02-Q013",
+    "AIM72-C7-S02-Q018",
+    "AIM72-C7-S06-Q021"
+  ],
+  "shared_commentary_links": 606,
+  "answer_policy": "Original book answer keys preserved; not independently revalidated against current regulations.",
+  "ocr_note": "All source question crops, commentary pages and 110 theory page images preserved. OCR wording can contain original scan recognition errors; original images remain available.",
+  "answer_glyph_crosscheck": {
+    "samples": 1042,
+    "method": "7-nearest image glyph comparison as a secondary check",
+    "high_consensus_disagreements": 1,
+    "manual_resolution": "PDF p.324 question 3 is visibly ①; OCR label retained; no source answer changed."
+  }
+}
