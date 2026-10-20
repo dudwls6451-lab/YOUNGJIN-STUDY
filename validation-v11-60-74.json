@@ -1,0 +1,97 @@
+{
+  "version": "11.60.74",
+  "source_pdf_pages": [
+    227,
+    329
+  ],
+  "rounds": 28,
+  "question_count": 700,
+  "per_round": 25,
+  "choices_per_question": 4,
+  "original_answer_keys_checked": 700,
+  "answer_key_glyph_crosscheck_mismatches": 0,
+  "stable_ids_preserved_round28": 25,
+  "existing_base_questions_untouched": 503,
+  "combined_subject_count": 1203,
+  "unique_ids": true,
+  "text_only_no_question_screenshots": true,
+  "source_reference_per_question": true,
+  "secondary_ocr_pages": 103,
+  "secondary_ocr_columns": 206,
+  "source_explanation_absent_count": 5,
+  "spacing": {
+    "processed": 4050,
+    "changed": 2822,
+    "content_preserved": true,
+    "round28_preserved": true
+  },
+  "data_sha256": "aa3c7a506043a9de9752f20fa307d8fcb9de08796d61c7ef0c6a0b35f4fcde55",
+  "browser": {
+    "browser": [
+      {
+        "width": 1440,
+        "theme": "light",
+        "grid": 28,
+        "overflow": false,
+        "colors": {
+          "bg": "rgb(248, 250, 252)",
+          "fg": "rgb(23, 35, 56)"
+        }
+      },
+      {
+        "width": 1440,
+        "theme": "dark",
+        "grid": 28,
+        "overflow": false,
+        "colors": {
+          "bg": "rgb(27, 41, 64)",
+          "fg": "rgb(237, 244, 255)"
+        }
+      },
+      {
+        "width": 390,
+        "theme": "light",
+        "grid": 28,
+        "overflow": false,
+        "colors": {
+          "bg": "rgb(248, 250, 252)",
+          "fg": "rgb(23, 35, 56)"
+        }
+      },
+      {
+        "width": 390,
+        "theme": "dark",
+        "grid": 28,
+        "overflow": false,
+        "colors": {
+          "bg": "rgb(27, 41, 64)",
+          "fg": "rgb(237, 244, 255)"
+        }
+      },
+      {
+        "width": 320,
+        "theme": "light",
+        "grid": 28,
+        "overflow": false,
+        "colors": {
+          "bg": "rgb(248, 250, 252)",
+          "fg": "rgb(23, 35, 56)"
+        }
+      },
+      {
+        "width": 320,
+        "theme": "dark",
+        "grid": 28,
+        "overflow": false,
+        "colors": {
+          "bg": "rgb(27, 41, 64)",
+          "fg": "rgb(237, 244, 255)"
+        }
+      }
+    ],
+    "source": "real original bank + v73 AIM + v74 law mocks",
+    "failureState": true
+  },
+  "period_aware_round_statistics": true,
+  "unit_practice_and_subject_counts_browser_checked": true
+}
