@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-21T04:33:47.033Z",
+  "flightQuestions": 914,
+  "uniqueIds": 914,
+  "units": 9,
+  "stages": 36,
+  "sourceAnswerKeys": 914,
+  "newCorrectedQuestions": 277,
+  "answerChanges": 9,
+  "figures": 11,
+  "otherSubjectRowsPreserved": 3438,
+  "loaderAtomic": true,
+  "loaderIdempotent": true,
+  "legacyOverlayDoesNotUndoReview": true,
+  "oldServerOverrideDoesNotUndoCorrections": true,
+  "newServerOverrideRetained": true,
+  "invalidPayloadPreservesBank": true,
+  "existingIndexDependenciesPreserved": true,
+  "syntax": "pass",
+  "browser": [
+    {
+      "width": 320,
+      "theme": "light",
+      "overflow": false,
+      "gradedQuestions": 21,
+      "loadedFigureQuestions": 11
+    },
+    {
+      "width": 320,
+      "theme": "dark",
+      "overflow": false,
+      "gradedQuestions": 21,
+      "loadedFigureQuestions": 11
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "gradedQuestions": 21,
+      "loadedFigureQuestions": 11
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "gradedQuestions": 21,
+      "loadedFigureQuestions": 11
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "overflow": false,
+      "gradedQuestions": 21,
+      "loadedFigureQuestions": 11
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "overflow": false,
+      "gradedQuestions": 21,
+      "loadedFigureQuestions": 11
+    }
+  ],
+  "browserKoreanFontLoaded": true,
+  "visualReview": "320/390/1440px, light and dark; Korean text, restored choices and actual figures",
+  "idsAndUnitStructurePreserved": true
+}
