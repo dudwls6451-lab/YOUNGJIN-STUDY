@@ -3,8 +3,8 @@
   "files": [
     {
       "path": "README-적용방법.txt",
-      "bytes": 3351,
-      "sha256": "c442422e44f7cf1793aa2585308b46055a40f6c108073785942a224c6079815e"
+      "bytes": 3422,
+      "sha256": "dc112acf72c2cbf07441ebd8277559ee54f40108b38e673ded5b0432adc1f7f0"
     },
     {
       "path": "assets/app-v11-60-78.js",
@@ -88,8 +88,8 @@
     },
     {
       "path": "audit/validation-v11-60-78.json",
-      "bytes": 3154,
-      "sha256": "f7edbe3bd929061719a8a90c5d9ada9b008d03dfc26ac40a1336bf2dc0b07b9b"
+      "bytes": 3672,
+      "sha256": "8b255fde2ae39d8c2867323824f406e6838c001b0d6b8e547c124b27a5e624c3"
     },
     {
       "path": "audit/검수결과.md",

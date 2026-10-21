@@ -1,0 +1,128 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "width": 1440,
+      "theme": "light",
+      "noOverflow": true,
+      "colors": {
+        "bg": "rgb(255, 255, 255)",
+        "text": "rgb(23, 35, 56)",
+        "font": "\"PilotBank NanumSquare\", NanumSquare, \"Malgun Gothic\", \"Apple SD Gothic Neo\", sans-serif",
+        "bar": "rgb(180, 35, 56)"
+      }
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "noOverflow": true,
+      "colors": {
+        "bg": "rgb(19, 30, 48)",
+        "text": "rgb(237, 244, 255)",
+        "font": "\"PilotBank NanumSquare\", NanumSquare, \"Malgun Gothic\", \"Apple SD Gothic Neo\", sans-serif",
+        "bar": "rgb(255, 171, 184)"
+      }
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "noOverflow": true,
+      "colors": {
+        "bg": "rgb(255, 255, 255)",
+        "text": "rgb(23, 35, 56)",
+        "font": "\"PilotBank NanumSquare\", NanumSquare, \"Malgun Gothic\", \"Apple SD Gothic Neo\", sans-serif",
+        "bar": "rgb(180, 35, 56)"
+      }
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "noOverflow": true,
+      "colors": {
+        "bg": "rgb(19, 30, 48)",
+        "text": "rgb(237, 244, 255)",
+        "font": "\"PilotBank NanumSquare\", NanumSquare, \"Malgun Gothic\", \"Apple SD Gothic Neo\", sans-serif",
+        "bar": "rgb(255, 171, 184)"
+      }
+    },
+    {
+      "width": 320,
+      "theme": "light",
+      "noOverflow": true,
+      "colors": {
+        "bg": "rgb(255, 255, 255)",
+        "text": "rgb(23, 35, 56)",
+        "font": "\"PilotBank NanumSquare\", NanumSquare, \"Malgun Gothic\", \"Apple SD Gothic Neo\", sans-serif",
+        "bar": "rgb(180, 35, 56)"
+      }
+    },
+    {
+      "width": 320,
+      "theme": "dark",
+      "noOverflow": true,
+      "colors": {
+        "bg": "rgb(19, 30, 48)",
+        "text": "rgb(237, 244, 255)",
+        "font": "\"PilotBank NanumSquare\", NanumSquare, \"Malgun Gothic\", \"Apple SD Gothic Neo\", sans-serif",
+        "bar": "rgb(255, 171, 184)"
+      }
+    }
+  ],
+  "cloudPagination": 1007,
+  "allTimeIgnoresPeriod": true,
+  "noDoubleCounting": true,
+  "wrongOnlyPractice": true,
+  "all30Units": true,
+  "accountIsolation": true,
+  "emptyState": true,
+  "failedReadState": true,
+  "privateCoursePermissions": true,
+  "stalePermissionPracticeBlocked": true,
+  "escapedLabels": true,
+  "reducedMotion": true,
+  "version": "11.60.79",
+  "baseVersion": "11.60.78",
+  "unitTests": {
+    "lifetimeAggregation": true,
+    "distinctQuestionConfidence": true,
+    "exactThresholdComparison": true,
+    "inactiveGoalsDefault80": true,
+    "malformedCounts": true,
+    "unavailableRecordsExcluded": true,
+    "duplicateLoadersDeduplicated": true,
+    "unseenNotZeroAccuracy": true,
+    "domainMetadataFallback": true
+  },
+  "unchangedPriorFiles": 20,
+  "unchangedPriorFilePaths": [
+    "audit/validation-v11-60-77.json",
+    "audit/validation-v11-60-78.json",
+    "audit/file-manifest-v11-60-78.json",
+    "audit/비행이론_전수검수_914문항.csv",
+    "audit/검수결과.md",
+    "audit/flight-theory-review-v11-60-77.json",
+    "data/questions-flight-theory-v1.json",
+    "assets/weather-criteria-v11-60-78.css",
+    "assets/weather-symbols-v11-60-78.js",
+    "assets/figures/flight77/FLIGHT-THEORY-593.png",
+    "assets/figures/flight77/FLIGHT-THEORY-763.png",
+    "assets/figures/flight77/FLIGHT-THEORY-078.png",
+    "assets/figures/flight77/FLIGHT-THEORY-788.png",
+    "assets/figures/flight77/FLIGHT-THEORY-551.png",
+    "assets/figures/flight77/FLIGHT-THEORY-560.png",
+    "assets/figures/flight77/FLIGHT-THEORY-823.png",
+    "assets/figures/flight77/FLIGHT-THEORY-080.png",
+    "assets/figures/flight77/FLIGHT-THEORY-867.png",
+    "assets/figures/flight77/FLIGHT-THEORY-079.png",
+    "assets/figures/flight77/FLIGHT-THEORY-218.png"
+  ],
+  "flightReviewQuestions": 914,
+  "noAdditionalSQL": true,
+  "noLiveUserDataModified": true,
+  "limitations": [
+    "Graphs reflect existing saved question counters for loaded, authorized question-bank items.",
+    "Cross-device updates appear after reloading the page.",
+    "Separate group quizzes and theory reading progress are not pooled with question-bank accuracy.",
+    "Browser integration uses synthetic histories and stubbed Supabase responses."
+  ]
+}

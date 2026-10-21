@@ -68,7 +68,6 @@
     "anonymousDenied": true,
     "directPrivateTableAccessDenied": true
   },
-  "fresh_private_guide_bootstrap_without_previous_sql": true,
   "ui": {
     "views": [
       {
@@ -123,5 +122,22 @@
     "logoutPurgesPrivateDOM": true
   },
   "accent_button_contrast_checked_in_both_themes": true,
-  "old_private_result_dom_purged_after_logout": true
+  "old_private_result_dom_purged_after_logout": true,
+  "small_sql": {
+    "originalSqlBytes": 1111159,
+    "smallSqlBytes": 55501,
+    "reductionPct": 95,
+    "questions": 153,
+    "allOriginalFieldsRestoredExactly": true,
+    "original86SymbolsAndImagesUnchanged": true,
+    "splitPartsUnder24KB": true,
+    "singleFileAndSplitBothPass": true,
+    "repeatable": true,
+    "missingChunkDoesNotPublish": true,
+    "duplicateChunkDoesNotDuplicateQuestions": true,
+    "approvedKYJAllowed": true,
+    "otherAndAnonymousDenied": true,
+    "directTableAccessDenied": true
+  },
+  "small_sql_reuses_existing_private_symbol_resource": true
 }

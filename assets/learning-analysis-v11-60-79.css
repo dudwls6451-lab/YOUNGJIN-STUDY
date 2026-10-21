@@ -1,0 +1,68 @@
+#learningAnalysis79{--la79-red:#b42338;--la79-red-bg:#fff1f2;--la79-green:#16714b;--la79-green-bg:#eaf8f0;--la79-amber:#845300;--la79-amber-bg:#fff6de;--la79-blue:#2563eb;margin:24px 0 32px;padding:24px;border:1px solid var(--theme-border);border-radius:20px;background:var(--theme-surface);color:var(--theme-text);font-size:14px;line-height:1.65;overflow-wrap:anywhere}
+html[data-pb-theme="dark"] #learningAnalysis79{--la79-red:#ffabb8;--la79-red-bg:#3e2332;--la79-green:#83dfb4;--la79-green-bg:#16372f;--la79-amber:#f1cf80;--la79-amber-bg:#3b3221;--la79-blue:#80aaff}
+#learningAnalysis79 *{box-sizing:border-box;min-width:0}
+#learningAnalysis79 :is(h3,h4,p){margin:0}
+#learningAnalysis79 h3{font-size:23px;letter-spacing:-.5px;line-height:1.4;margin:4px 0 7px}
+#learningAnalysis79 h4{font-size:16px;line-height:1.5}
+#learningAnalysis79 .la79-muted,#learningAnalysis79 small{color:var(--theme-muted)}
+#learningAnalysis79 .la79-header{display:flex;gap:12px;align-items:start;justify-content:space-between;margin-bottom:24px}
+#learningAnalysis79 .la79-eyebrow{color:var(--la79-blue);font-size:11px;font-weight:800;letter-spacing:1.7px}
+#learningAnalysis79 .la79-period{flex-shrink:0;background:var(--theme-raised);border:1px solid var(--theme-border);border-radius:30px;padding:5px 12px;color:var(--theme-muted);font-size:12px}
+#learningAnalysis79 .la79-summary{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:0 0 22px}
+#learningAnalysis79 .la79-summary>div{padding:18px;background:var(--theme-raised);border:1px solid var(--theme-border);border-radius:14px;display:flex;flex-direction:column;gap:5px}
+#learningAnalysis79 .la79-summary>div>span{font-weight:700;color:var(--theme-muted);font-size:12px}
+#learningAnalysis79 .la79-summary strong{font-size:28px;line-height:1.4;letter-spacing:-.6px;font-variant-numeric:tabular-nums}
+#learningAnalysis79 .la79-summary strong small{font-size:14px;font-weight:400;letter-spacing:0}
+#learningAnalysis79 .la79-summary>div>small{font-size:11px;line-height:1.6}
+#learningAnalysis79 .la79-controls{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:12px;padding-bottom:22px}
+#learningAnalysis79 .la79-controls label{display:grid;gap:6px;font-size:12px;color:var(--theme-muted);font-weight:700}
+#learningAnalysis79 .la79-controls select{width:100%;max-width:100%;font:inherit;color:var(--theme-text);background:var(--theme-surface);border:1px solid var(--theme-border);border-radius:10px;padding:10px;min-height:44px;text-overflow:ellipsis}
+#learningAnalysis79 .la79-layout{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:22px;align-items:start}
+#learningAnalysis79 .la79-panel-head{display:flex;align-items:center;justify-content:space-between;gap:12px}
+#learningAnalysis79 .la79-panel-head>span{font-size:11px;font-variant-numeric:tabular-nums}
+#learningAnalysis79 .la79-chart-key{font-size:11px;color:var(--theme-muted);margin:8px 0 4px}
+#learningAnalysis79 .la79-chart-key i{height:10px;border-left:2px solid var(--theme-text);display:inline-block;vertical-align:middle;margin:0 5px}
+#learningAnalysis79 .la79-chart-row{padding:15px 0;border-bottom:1px solid var(--theme-border)}
+#learningAnalysis79 .la79-row-top{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-bottom:9px}
+#learningAnalysis79 .la79-row-top>div{display:flex;flex-direction:column;gap:3px}
+#learningAnalysis79 .la79-row-top strong{font-size:13px;line-height:1.5}
+#learningAnalysis79 .la79-row-top small{font-size:10px}
+#learningAnalysis79 .la79-score{flex-shrink:0;font-size:18px;font-weight:800;font-variant-numeric:tabular-nums}
+#learningAnalysis79 .la79-danger{color:var(--la79-red)}
+#learningAnalysis79 .la79-track{position:relative;width:100%;height:9px;border-radius:4px;background:var(--theme-border)}
+#learningAnalysis79 .la79-fill{position:absolute;inset:0 auto 0 0;width:var(--la79-value);border-radius:4px;background:var(--la79-blue);transform-origin:left;animation:la79Grow .65s cubic-bezier(.22,1,.36,1) both}
+#learningAnalysis79 .la79-fill-weak{background:var(--la79-red)}
+#learningAnalysis79 .la79-target{position:absolute;top:-3px;bottom:-3px;width:2px;background:var(--theme-text);transform:translateX(-100%);border-radius:2px}
+#learningAnalysis79 .la79-row-meta{display:flex;align-items:center;flex-wrap:wrap;gap:7px;margin-top:9px;font-size:10px;color:var(--theme-muted)}
+#learningAnalysis79 .la79-badge{display:inline-flex;align-items:center;border-radius:5px;padding:2px 6px;font-size:10px;font-weight:800;white-space:nowrap;background:var(--theme-raised);color:var(--theme-muted)}
+#learningAnalysis79 .la79-weak{color:var(--la79-red);background:var(--la79-red-bg)}
+#learningAnalysis79 .la79-good{color:var(--la79-green);background:var(--la79-green-bg)}
+#learningAnalysis79 .la79-sample{color:var(--la79-amber);background:var(--la79-amber-bg)}
+#learningAnalysis79 .la79-recommendations>p{margin:8px 0 14px;font-size:12px}
+#learningAnalysis79 .la79-advice{padding:16px;margin-bottom:12px;border:1px solid var(--theme-border);border-radius:14px;background:var(--theme-raised);animation:la79Rise .5s cubic-bezier(.22,1,.36,1) both}
+#learningAnalysis79 .la79-advice:nth-of-type(2){animation-delay:.05s}
+#learningAnalysis79 .la79-advice:nth-of-type(3){animation-delay:.1s}
+#learningAnalysis79 .la79-advice-heading{display:flex;align-items:center;gap:8px;margin-bottom:9px}
+#learningAnalysis79 .la79-rank{display:grid;place-items:center;width:24px;height:24px;border:1px solid var(--theme-border);border-radius:8px;font-size:11px;color:var(--theme-muted);font-weight:800}
+#learningAnalysis79 .la79-advice>strong{display:block;font-size:13px;line-height:1.7}
+#learningAnalysis79 .la79-advice p{font-size:12px;line-height:1.9;color:var(--theme-muted);margin:8px 0 12px}
+#learningAnalysis79 .la79-actions{display:flex;flex-wrap:wrap;gap:7px}
+#learningAnalysis79 .la79-button{font:inherit;font-size:11px;font-weight:700;min-height:40px;padding:8px 11px;cursor:pointer;border:1px solid var(--theme-border);border-radius:9px;background:var(--theme-surface);color:var(--la79-blue);transition:transform .2s,border-color .2s}
+#learningAnalysis79 .la79-button:hover:not(:disabled){transform:translateY(-1px);border-color:var(--la79-blue)}
+#learningAnalysis79 .la79-button:active:not(:disabled){transform:scale(.97)}
+#learningAnalysis79 .la79-button:disabled{opacity:.45;cursor:default}
+#learningAnalysis79 :is(button,select,summary):focus-visible{outline:2px solid var(--theme-accent);outline-offset:3px}
+#learningAnalysis79 .la79-all{margin-top:22px;padding-top:18px;border-top:1px solid var(--theme-border)}
+#learningAnalysis79 summary{cursor:pointer;font-size:13px;font-weight:700;min-height:40px;padding:8px 0}
+#learningAnalysis79 #la79AllRows{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:14px 0}
+#learningAnalysis79 .la79-detail-row{padding:15px;border:1px solid var(--theme-border);border-radius:12px}
+#learningAnalysis79 .la79-detail-row .la79-chart-row{padding:0 0 12px;border:0}
+#learningAnalysis79 .la79-more{grid-column:1/-1}
+#learningAnalysis79 .la79-method{border-top:1px solid var(--theme-border);margin-top:14px;padding-top:8px;color:var(--theme-muted)}
+#learningAnalysis79 .la79-method p{font-size:11px;line-height:1.9;margin:6px 0 12px}
+#learningAnalysis79 .la79-empty{padding:15px;margin-bottom:22px;background:var(--theme-raised);border-radius:12px;color:var(--theme-muted)}
+@keyframes la79Grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@keyframes la79Rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:960px){#learningAnalysis79 .la79-layout{grid-template-columns:1fr}#learningAnalysis79 .la79-controls{grid-template-columns:1fr 1fr}#learningAnalysis79 .la79-controls label:first-child{grid-column:1/-1}}
+@media(max-width:560px){#learningAnalysis79{padding:16px;border-radius:16px}#learningAnalysis79 h3{font-size:20px}#learningAnalysis79 .la79-summary{grid-template-columns:1fr;gap:8px}#learningAnalysis79 .la79-summary>div{padding:13px 15px}#learningAnalysis79 .la79-summary strong{font-size:25px}#learningAnalysis79 .la79-header{gap:8px;margin-bottom:18px}#learningAnalysis79 .la79-period{padding:4px 8px;font-size:10px}#learningAnalysis79 .la79-header p{font-size:12px}#learningAnalysis79 #la79AllRows{grid-template-columns:1fr}#learningAnalysis79 .la79-row-top{gap:8px}#learningAnalysis79 .la79-score{font-size:16px}#learningAnalysis79 .la79-controls{gap:9px}#learningAnalysis79 .la79-controls select{font-size:11px;padding:8px}#learningAnalysis79 .la79-advice{padding:14px}}
+@media(prefers-reduced-motion:reduce){#learningAnalysis79 *,#learningAnalysis79 *::before{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
