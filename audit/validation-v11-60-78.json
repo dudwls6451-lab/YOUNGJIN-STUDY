@@ -1,0 +1,127 @@
+{
+  "version": "11.60.78",
+  "checked_at": "2026-10-21T14:05:19.545703+09:00",
+  "criteria_questions": 153,
+  "original_symbol_questions": 86,
+  "total_private_guide_questions": 239,
+  "categories": [
+    {
+      "title": "지상풍 관측",
+      "count": 14
+    },
+    {
+      "title": "시정 관측",
+      "count": 16
+    },
+    {
+      "title": "활주로가시거리 RVR",
+      "count": 18
+    },
+    {
+      "title": "특별관측 SPECI",
+      "count": 12
+    },
+    {
+      "title": "현재일기·강수 기준",
+      "count": 15
+    },
+    {
+      "title": "구름·CAVOK 기준",
+      "count": 13
+    },
+    {
+      "title": "기온·기압 기준",
+      "count": 7
+    },
+    {
+      "title": "TAF·착륙·이륙예보",
+      "count": 23
+    },
+    {
+      "title": "공항경보·급변풍 기준",
+      "count": 13
+    },
+    {
+      "title": "SIGWX·WINTEM·SIGMET·AIRMET",
+      "count": 22
+    }
+  ],
+  "source_revision": "사용자 제공 안내서 5차 개정판",
+  "source_sha256": "f0d0517c0b98b544dd0715a16179c5a8ffc66c7fbf34aed0501f9bff5223db86",
+  "every_source_quote_matched": true,
+  "all_questions_have_four_distinct_options": true,
+  "all_questions_have_hint_feedback_and_page_reference": true,
+  "independent_calculation_cases_verified": 14,
+  "source_table_boundary_differences_scoped_in_questions": true,
+  "flight_v77_data_unchanged": true,
+  "flight_v77_correction_guards_unchanged": true,
+  "public_patch_contains_no_private_criteria_or_sql": true,
+  "sql": {
+    "questions": 153,
+    "sqlSyntax": true,
+    "idempotent": true,
+    "originalSymbolsUntouched": true,
+    "approvedKYJAllowed": true,
+    "otherAccountDenied": true,
+    "spoofedUsernameDenied": true,
+    "pendingAccountDenied": true,
+    "anonymousDenied": true,
+    "directPrivateTableAccessDenied": true
+  },
+  "fresh_private_guide_bootstrap_without_previous_sql": true,
+  "ui": {
+    "views": [
+      {
+        "width": 320,
+        "theme": "light",
+        "overflow": false,
+        "criteria": 153,
+        "symbols": 86
+      },
+      {
+        "width": 320,
+        "theme": "dark",
+        "overflow": false,
+        "criteria": 153,
+        "symbols": 86
+      },
+      {
+        "width": 390,
+        "theme": "light",
+        "overflow": false,
+        "criteria": 153,
+        "symbols": 86
+      },
+      {
+        "width": 390,
+        "theme": "dark",
+        "overflow": false,
+        "criteria": 153,
+        "symbols": 86
+      },
+      {
+        "width": 1440,
+        "theme": "light",
+        "overflow": false,
+        "criteria": 153,
+        "symbols": 86
+      },
+      {
+        "width": 1440,
+        "theme": "dark",
+        "overflow": false,
+        "criteria": 153,
+        "symbols": 86
+      }
+    ],
+    "all153RenderedAndGraded": true,
+    "wrongOnlyWorks": true,
+    "originalSymbolDictionary86Preserved": true,
+    "missingRPCLeavesSymbolsUsable": true,
+    "lateResponseAfterLogoutDiscarded": true,
+    "unauthorizedUserDoesNotRequestResource": true,
+    "logoutPurgesPrivateDOM": true
+  },
+  "accent_button_contrast_checked_in_both_themes": true,
+  "old_private_result_dom_purged_after_logout": true
+}

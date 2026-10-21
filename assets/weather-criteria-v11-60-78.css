@@ -1,0 +1,12 @@
+/* Uses the existing shared light/dark palette. */
+:root{--wms78-on-accent:#fff}
+html[data-pb-theme] body #weatherSymbols75Card button.button[data-wms-start],html[data-pb-theme] body #weatherSymbols75Card .wms78-tabs button[aria-pressed="true"]{color:var(--wms78-on-accent)!important}
+.wms78-tabs{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+#weatherSymbols75Card .wms78-tabs button{min-width:0;white-space:normal;line-height:1.45;padding:12px 10px}
+#weatherSymbols75Card .wms75-categories label{max-width:100%;min-width:0}
+#weatherSymbols75Card .wms75-categories label>span{min-width:0;overflow-wrap:anywhere}
+.wms78-intro{color:var(--theme-muted);line-height:1.7;margin:14px 0 20px}
+.wms78-hint{border:1px solid var(--theme-border);border-radius:12px;padding:12px 16px;color:var(--theme-muted);background:var(--theme-raised);margin:14px 0}
+.wms78-hint summary{cursor:pointer;font-weight:700;color:var(--theme-text)}
+.wms78-hint p{font-size:14px;line-height:1.7;margin:10px 0 0}
+@media(max-width:480px){.wms78-tabs{gap:5px}#weatherSymbols75Card .wms78-tabs button{font-size:13px;padding:11px 5px}.wms78-hint{padding:10px 12px}}
