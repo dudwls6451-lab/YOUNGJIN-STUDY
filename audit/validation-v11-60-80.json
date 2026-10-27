@@ -1,0 +1,166 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "width": 1440,
+      "theme": "light",
+      "noOverflow": true,
+      "colors": {
+        "bg": "rgb(255, 255, 255)",
+        "text": "rgb(23, 35, 56)",
+        "font": "\"PilotBank NanumSquare\", NanumSquare, \"Malgun Gothic\", \"Apple SD Gothic Neo\", sans-serif"
+      }
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "noOverflow": true,
+      "colors": {
+        "bg": "rgb(19, 30, 48)",
+        "text": "rgb(237, 244, 255)",
+        "font": "\"PilotBank NanumSquare\", NanumSquare, \"Malgun Gothic\", \"Apple SD Gothic Neo\", sans-serif"
+      }
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "noOverflow": true,
+      "colors": {
+        "bg": "rgb(255, 255, 255)",
+        "text": "rgb(23, 35, 56)",
+        "font": "\"PilotBank NanumSquare\", NanumSquare, \"Malgun Gothic\", \"Apple SD Gothic Neo\", sans-serif"
+      }
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "noOverflow": true,
+      "colors": {
+        "bg": "rgb(19, 30, 48)",
+        "text": "rgb(237, 244, 255)",
+        "font": "\"PilotBank NanumSquare\", NanumSquare, \"Malgun Gothic\", \"Apple SD Gothic Neo\", sans-serif"
+      }
+    },
+    {
+      "width": 320,
+      "theme": "light",
+      "noOverflow": true,
+      "colors": {
+        "bg": "rgb(255, 255, 255)",
+        "text": "rgb(23, 35, 56)",
+        "font": "\"PilotBank NanumSquare\", NanumSquare, \"Malgun Gothic\", \"Apple SD Gothic Neo\", sans-serif"
+      }
+    },
+    {
+      "width": 320,
+      "theme": "dark",
+      "noOverflow": true,
+      "colors": {
+        "bg": "rgb(19, 30, 48)",
+        "text": "rgb(237, 244, 255)",
+        "font": "\"PilotBank NanumSquare\", NanumSquare, \"Malgun Gothic\", \"Apple SD Gothic Neo\", sans-serif"
+      }
+    }
+  ],
+  "nativeGradedQuestions": 100,
+  "cloudAttemptRows": 101,
+  "categoryCount": 7,
+  "sourceLinksCorrect": true,
+  "wrongUnseenScopes": true,
+  "analysis79Integration": true,
+  "malformedReloadAtomic": true,
+  "retryNoDuplicateButtons": true,
+  "version": "11.60.80",
+  "baseVersion": "11.60.79",
+  "source": {
+    "revision": "2026-154",
+    "date": "2026-03-25",
+    "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+    "pdfPages": 420,
+    "pdfSha256": "0394bfc42eb1849024eb981fc6e44413d300e32629041f9e92894038d65b10b8"
+  },
+  "dataValidation": {
+    "questions": 100,
+    "uniqueIds": 100,
+    "uniqueStems": 100,
+    "choicesPerQuestion": 4,
+    "answerPositionCounts": {
+      "A": 25,
+      "B": 25,
+      "C": 25,
+      "D": 25
+    },
+    "sourceNumericTermsVerified": 100,
+    "categories": [
+      {
+        "id": 1,
+        "title": "계기·통신·비상장비",
+        "count": 17
+      },
+      {
+        "id": 2,
+        "title": "산소·의료·구명장비",
+        "count": 13
+      },
+      {
+        "id": 3,
+        "title": "RVSM·PBN·비행기록",
+        "count": 13
+      },
+      {
+        "id": 4,
+        "title": "승무원 자격·음주",
+        "count": 15
+      },
+      {
+        "id": 5,
+        "title": "연료·교체공항",
+        "count": 18
+      },
+      {
+        "id": 6,
+        "title": "일반 비행절차",
+        "count": 14
+      },
+      {
+        "id": 7,
+        "title": "항공운송·성능",
+        "count": 10
+      }
+    ],
+    "numericCalculationsReviewed": [
+      "largest raft lost: 4x60 - 60 = 180",
+      "contingency 5%: max(10000x0.05,400)=500",
+      "contingency 3%: max(10000x0.03,400)=400",
+      "autopilot loss height: max(500,2x300)=600"
+    ]
+  },
+  "unchangedPriorFiles": [
+    "assets/weather-criteria-v11-60-78.css",
+    "assets/learning-analysis-v11-60-79.js",
+    "assets/learning-analysis-v11-60-79.css",
+    "assets/weather-symbols-v11-60-78.js",
+    "audit/validation-v11-60-78.json",
+    "audit/file-manifest-v11-60-78.json",
+    "audit/비행이론_전수검수_914문항.csv",
+    "audit/flight-theory-review-v11-60-77.json",
+    "audit/file-manifest-v11-60-79.json",
+    "audit/검수결과.md",
+    "audit/validation-v11-60-79.json",
+    "audit/validation-v11-60-77.json",
+    "data/questions-flight-theory-v1.json",
+    "assets/figures/flight77/FLIGHT-THEORY-593.png",
+    "assets/figures/flight77/FLIGHT-THEORY-079.png",
+    "assets/figures/flight77/FLIGHT-THEORY-080.png",
+    "assets/figures/flight77/FLIGHT-THEORY-078.png",
+    "assets/figures/flight77/FLIGHT-THEORY-867.png",
+    "assets/figures/flight77/FLIGHT-THEORY-218.png",
+    "assets/figures/flight77/FLIGHT-THEORY-551.png",
+    "assets/figures/flight77/FLIGHT-THEORY-763.png",
+    "assets/figures/flight77/FLIGHT-THEORY-788.png",
+    "assets/figures/flight77/FLIGHT-THEORY-560.png",
+    "assets/figures/flight77/FLIGHT-THEORY-823.png"
+  ],
+  "noNewSQL": true,
+  "noLiveUserDataModified": true
+}

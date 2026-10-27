@@ -1,0 +1,5970 @@
+{
+  "metadata": {
+    "version": "11.60.80",
+    "title": "고정익 운항기술기준 숫자 규정 객관식",
+    "subject": "고정익 운항기술기준",
+    "question_count": 100,
+    "source_revision": "2026-154",
+    "source_date": "2026-03-25",
+    "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+    "source_pdf_sha256": "0394bfc42eb1849024eb981fc6e44413d300e32629041f9e92894038d65b10b8",
+    "categories": [
+      {
+        "id": 1,
+        "title": "계기·통신·비상장비",
+        "count": 17
+      },
+      {
+        "id": 2,
+        "title": "산소·의료·구명장비",
+        "count": 13
+      },
+      {
+        "id": 3,
+        "title": "RVSM·PBN·비행기록",
+        "count": 13
+      },
+      {
+        "id": 4,
+        "title": "승무원 자격·음주",
+        "count": 15
+      },
+      {
+        "id": 5,
+        "title": "연료·교체공항",
+        "count": 18
+      },
+      {
+        "id": 6,
+        "title": "일반 비행절차",
+        "count": 14
+      },
+      {
+        "id": 7,
+        "title": "항공운송·성능",
+        "count": 10
+      }
+    ],
+    "notes": [
+      "2026년 3월 25일 전문의 제7·8장 기준",
+      "원문 조건과 경계값을 명시한 4지선다형 창작 문제",
+      "연료 계산은 각 문항의 전제와 규정된 하한을 함께 적용",
+      "공식 시험문제 또는 실제 비행용 운항 지시가 아님"
+    ]
+  },
+  "questions": [
+    {
+      "id": "FSR-NUM26-001",
+      "number": 1,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 1,
+      "study_unit_title": "계기·통신·비상장비",
+      "subunit": {
+        "code": "7.1.2",
+        "title": "계기·통신·비상장비"
+      },
+      "question": "장거리 해상비행의 거리 기준은 비상착륙에 적합한 육지로부터 어떤 거리 이상의 해상인가?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "50해리 또는 30분 중 긴 거리"
+        },
+        {
+          "id": "B",
+          "text": "50해리 또는 순항속도 30분 중 짧은 거리"
+        },
+        {
+          "id": "C",
+          "text": "100해리 또는 60분 중 짧은 거리"
+        },
+        {
+          "id": "D",
+          "text": "200해리 또는 120분 중 긴 거리"
+        }
+      ],
+      "answer": "B",
+      "explanation": "50해리와 순항속도 30분에 해당하는 거리 중 짧은 쪽을 적용한다. 두 기준을 더하거나 긴 쪽을 선택하지 않는다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 7.1.2 / 공식 전문 PDF p.170.",
+      "reference": "운항기술기준 제2026-154호 · 7.1.2 · PDF p.170",
+      "source_clause": "7.1.2",
+      "source_page": 170,
+      "source_pages": [
+        170
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "나. “장거리 해상비행(Extended flight over water)”이란 비상착륙에 적합한 육지로부터 93킬로미터(50해리) 또는 순항속도로 30분 중 짧은 거리 이상의 해상을 비행하는 것을 말한다. 7.1.3 약어(Acronyms)",
+      "source_verification_terms": [
+        "50해리"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "계기·통신·비상장비",
+        "7.1.2"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-002",
+      "number": 2,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 1,
+      "study_unit_title": "계기·통신·비상장비",
+      "subunit": {
+        "code": "7.1.5",
+        "title": "계기·통신·비상장비"
+      },
+      "question": "최대이륙중량 5,700kg 이상 항공기의 주 전력과 별도인 비상전력장치는 자세계와 식별 조명을 최소 얼마 동안 작동시켜야 하는가?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "10분 이상"
+        },
+        {
+          "id": "B",
+          "text": "5분 이상"
+        },
+        {
+          "id": "C",
+          "text": "20분 이상"
+        },
+        {
+          "id": "D",
+          "text": "30분 이상"
+        }
+      ],
+      "answer": "D",
+      "explanation": "이 조항은 5,700kg ‘이상’ 항공기에 별도의 비상전력을 요구하며 최소 지속시간은 30분이다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 7.1.5 / 공식 전문 PDF p.172.",
+      "reference": "운항기술기준 제2026-154호 · 7.1.5 · PDF p.172",
+      "source_clause": "7.1.5",
+      "source_page": 172,
+      "source_pages": [
+        172
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "무원의 좌석에서 지시치를 쉽게 볼 수 있도록 배열되어야 한다. 라. 최대이륙중량 5,700kg 이상 항공기에는 주(主) 전력생산 장치와는 별도로 30분 이상 자세계(artificial horizon)를 작동시키고, 기장이 분명하게 식별할 수 있는 조명을 제 공할 수 있는 비상전력생산 장치를 장착하여야 한다. 동 비상전력생산 장치는 주 전",
+      "source_verification_terms": [
+        "30분"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "계기·통신·비상장비",
+        "7.1.5"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-003",
+      "number": 3,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 1,
+      "study_unit_title": "계기·통신·비상장비",
+      "subunit": {
+        "code": "7.1.9",
+        "title": "계기·통신·비상장비"
+      },
+      "question": "7.1.9 가항에 각각 제시된 최대인가이륙중량과 최대인가승객좌석의 ‘초과’ 경계값은?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "27,000kg / 30석"
+        },
+        {
+          "id": "B",
+          "text": "15,000kg / 9석"
+        },
+        {
+          "id": "C",
+          "text": "5,700kg / 9석"
+        },
+        {
+          "id": "D",
+          "text": "5,700kg / 19석"
+        }
+      ],
+      "answer": "C",
+      "explanation": "7.1.9 가항이 열거하는 대상의 경계값은 5,700kg과 9석이며 모두 ‘초과’로 표현되어 있다. 비상전력장치의 별도 조항과 경계 표현을 구분한다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 7.1.9 / 공식 전문 PDF p.173.",
+      "reference": "운항기술기준 제2026-154호 · 7.1.9 · PDF p.173",
+      "source_clause": "7.1.9",
+      "source_page": 173,
+      "source_pages": [
+        173
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "가. 다음 각 호에서 정한 예비 자세지시기 1기(Single)를 장착하지 않는 한 최대인가이륙 중량 5,700킬로그램을 초과하는 비행기 및 최대인가승객좌석 9석을 초과하는 항공기 를 운항하여서는 아니된다. 1) 다른 자세지시기와 독립적으로 작동되어야 한다.",
+      "source_verification_terms": [
+        "9석"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "계기·통신·비상장비",
+        "7.1.9"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-004",
+      "number": 4,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 1,
+      "study_unit_title": "계기·통신·비상장비",
+      "subunit": {
+        "code": "7.1.9",
+        "title": "계기·통신·비상장비"
+      },
+      "question": "예비 자세지시기는 정상 발전기가 완전히 부작동한 뒤 독립 전원으로 최소 얼마 동안 자동 공급받아야 하는가?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "30분"
+        },
+        {
+          "id": "B",
+          "text": "60분"
+        },
+        {
+          "id": "C",
+          "text": "10분"
+        },
+        {
+          "id": "D",
+          "text": "15분"
+        }
+      ],
+      "answer": "A",
+      "explanation": "정상 발전기가 완전히 부작동한 뒤에도 독립된 전원에서 최소 30분 공급받아야 한다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 7.1.9 / 공식 전문 PDF p.173.",
+      "reference": "운항기술기준 제2026-154호 · 7.1.9 · PDF p.173",
+      "source_clause": "7.1.9",
+      "source_page": 173,
+      "source_pages": [
+        173
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "3) 정상적인 발전기가 완전히 부 작동된 후에도 독립된 발전기로부터 독립된 전원에서 최소한 30분 동안은 자동으로 공급받아야 한다. 나. 예비 자세지시기가 비상전원으로 작동될 경우 운항승무원에게 예비 자세지시기가 비 상전원으로부터 작동되고 있음을 확실하게 나타내 주어야 한다.",
+      "source_verification_terms": [
+        "30분"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "계기·통신·비상장비",
+        "7.1.9"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-005",
+      "number": 5,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 1,
+      "study_unit_title": "계기·통신·비상장비",
+      "subunit": {
+        "code": "7.1.10",
+        "title": "계기·통신·비상장비"
+      },
+      "question": "CAT II 제1그룹에 요구되는 정밀고도계의 고도 표시 간격은?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "20ft"
+        },
+        {
+          "id": "B",
+          "text": "100ft"
+        },
+        {
+          "id": "C",
+          "text": "50ft"
+        },
+        {
+          "id": "D",
+          "text": "10ft"
+        }
+      ],
+      "answer": "A",
+      "explanation": "왕복엔진·터보프롭인 제1그룹의 정밀고도계는 고도수정용 플래카드와 함께 20ft 간격으로 표시되어야 한다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 7.1.10 / 공식 전문 PDF p.174.",
+      "reference": "운항기술기준 제2026-154호 · 7.1.10 · PDF p.174",
+      "source_clause": "7.1.10",
+      "source_page": 174,
+      "source_pages": [
+        174
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "사) 2개의 정밀고도계(고도계 눈금오차와 항공기의 바퀴높이에 따른 고도수정용 플래 카드를 각각 보유하고 20피트 간격으로 표시되어야 하며, 대기압으로 교정이 가능 한 정밀고도계) 아) 2개의 승강계(Vertical Speed Indicators)",
+      "source_verification_terms": [
+        "20피트"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "계기·통신·비상장비",
+        "7.1.10"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-006",
+      "number": 6,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 1,
+      "study_unit_title": "계기·통신·비상장비",
+      "subunit": {
+        "code": "7.1.10",
+        "title": "계기·통신·비상장비"
+      },
+      "question": "CAT II 제1그룹에서 내측 마커 비콘 수신장치 또는 전파고도계가 요구되는 결심고도(DH) 조건은?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "200ft 초과"
+        },
+        {
+          "id": "B",
+          "text": "100ft 미만"
+        },
+        {
+          "id": "C",
+          "text": "250ft 이상"
+        },
+        {
+          "id": "D",
+          "text": "150ft 이하"
+        }
+      ],
+      "answer": "D",
+      "explanation": "해당 추가 장비의 조건은 CAT II의 DH가 150ft 이하인 경우다. 모든 CAT II에 무조건 같은 DH를 적용한다는 뜻은 아니다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 7.1.10 / 공식 전문 PDF p.174.",
+      "reference": "운항기술기준 제2026-154호 · 7.1.10 · PDF p.174",
+      "source_clause": "7.1.10",
+      "source_page": 174,
+      "source_pages": [
+        174
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "은 상기 가목에서 명시한 수신장비 중 하나로 동작될 수 있다. 차) 결심고도(DH)가 150피트 이하인 정밀계기접근 제2종 운항의 경우에는 내측 마커를 청각과 시각으로 알려주는 마커 비콘 수신장치 또는 전파고도계(Radio Altimeter)",
+      "source_verification_terms": [
+        "150피트"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "계기·통신·비상장비",
+        "7.1.10"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-007",
+      "number": 7,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 1,
+      "study_unit_title": "계기·통신·비상장비",
+      "subunit": {
+        "code": "7.1.11",
+        "title": "계기·통신·비상장비"
+      },
+      "question": "관제 VFR·IFR 또는 야간 운항용 양방향 무선통신장비에 포함되어야 하는 비상주파수는?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "406MHz"
+        },
+        {
+          "id": "B",
+          "text": "118.0MHz"
+        },
+        {
+          "id": "C",
+          "text": "123.45MHz"
+        },
+        {
+          "id": "D",
+          "text": "121.5MHz"
+        }
+      ],
+      "answer": "D",
+      "explanation": "양방향 무선통신장비는 비상주파수 121.5MHz를 포함한 지정 주파수를 사용할 수 있어야 한다. 406MHz는 ELT 송신 주파수와 구분한다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 7.1.11 / 공식 전문 PDF p.175.",
+      "reference": "운항기술기준 제2026-154호 · 7.1.11 · PDF p.175",
+      "source_clause": "7.1.11",
+      "source_page": 175,
+      "source_pages": [
+        175
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "나. 관제를 받는 시계비행방식 또는 계기비행방식으로 운항하거나 야간에 운항하는 모든 항공기는 비상주파수인 121.5MHz를 포함하여 국토교통부장관이 지정한 주파수를 사 용하여 항공기지국과 양방향 통신을 할 수 있는 무선통신장비를 갖추어야 한다. 주: 항로상에서 무선송신 성능이 정상으로 입증되면 이 요건이 충족된 것으로 간주한다.",
+      "source_verification_terms": [
+        "121.5MHz"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "계기·통신·비상장비",
+        "7.1.11"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-008",
+      "number": 8,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 1,
+      "study_unit_title": "계기·통신·비상장비",
+      "subunit": {
+        "code": "7.1.12",
+        "title": "계기·통신·비상장비"
+      },
+      "question": "소형항공운송사업에 관한 별도 예외를 적용하지 않을 때, 항공운송사업용 항공기와 그 밖의 항공기의 야간 착륙등 최소 수량은 각각?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "2기 / 1기"
+        },
+        {
+          "id": "B",
+          "text": "2기 / 2기"
+        },
+        {
+          "id": "C",
+          "text": "1기 / 1기"
+        },
+        {
+          "id": "D",
+          "text": "3기 / 2기"
+        }
+      ],
+      "answer": "A",
+      "explanation": "일반 기준은 항공운송사업용 2기 이상, 그 밖의 항공기 1기 이상이다. 제작사 개조기술 미개발 등 소형항공운송사업 예외를 문제 조건에서 제외했다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 7.1.12 / 공식 전문 PDF p.176.",
+      "reference": "운항기술기준 제2026-154호 · 7.1.12 · PDF p.176",
+      "source_clause": "7.1.12",
+      "source_page": 176,
+      "source_pages": [
+        176
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "2) 삭 제 <2014.10.31 > 3) 착륙등 : 항공운송사업용 항공기의 경우 2기 이상, 그 밖의 항공기에는 1기 이상 장 착 다만, 소형항공운송사업에 사용되는 항공기로서 1기의 착륙등이 장착되었으나 해 당 항공기에 착륙등을 추가로 장착하기 위하여 필요한 항공기 개조 등의 기술이 그",
+      "source_verification_terms": [
+        "2기"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "계기·통신·비상장비",
+        "7.1.12"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-009",
+      "number": 9,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 1,
+      "study_unit_title": "계기·통신·비상장비",
+      "subunit": {
+        "code": "7.1.13",
+        "title": "계기·통신·비상장비"
+      },
+      "question": "RVSM에 해당하는 공역에서 선정 고도로부터의 이탈을 알리는 고도경보 범위는 얼마를 초과해서는 안 되는가?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "±500ft"
+        },
+        {
+          "id": "B",
+          "text": "±300ft"
+        },
+        {
+          "id": "C",
+          "text": "±100ft"
+        },
+        {
+          "id": "D",
+          "text": "±1,000ft"
+        }
+      ],
+      "answer": "B",
+      "explanation": "고도경보 범위는 ±90m(300ft)를 초과하면 안 된다. RVSM 수직분리 간격 1,000ft와 혼동하지 않는다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 7.1.13 / 공식 전문 PDF p.176.",
+      "reference": "운항기술기준 제2026-154호 · 7.1.13 · PDF p.176",
+      "source_clause": "7.1.13",
+      "source_page": 176,
+      "source_pages": [
+        176
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "7.1.13 고도경보장치(Altitude Alerting System) 지역항행협정에 의하여 고도 2만9천피트 이상으로 수직분리 300미터(1,000피트)가 적용 되는 공역에서 운항하기 위해서는 선정된 고도로부터 벗어날 경우 운항승무원에게 경보 를 줄 수 있는 장치가 항공기에 장착되어야 한다. 다만, 경고의 범위는 ±90미터(300 피",
+      "source_verification_terms": [
+        "300"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "계기·통신·비상장비",
+        "7.1.13"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-010",
+      "number": 10,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 1,
+      "study_unit_title": "계기·통신·비상장비",
+      "subunit": {
+        "code": "7.1.14.4",
+        "title": "계기·통신·비상장비"
+      },
+      "question": "ELT 송신기를 연속 사용한 경우 건전지 교체 또는 재충전 기준은?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1시간 이상 사용"
+        },
+        {
+          "id": "B",
+          "text": "30분 이상 사용"
+        },
+        {
+          "id": "C",
+          "text": "2시간 초과 사용"
+        },
+        {
+          "id": "D",
+          "text": "15분 이상 사용"
+        }
+      ],
+      "answer": "A",
+      "explanation": "ELT를 1시간 이상 연속 사용하면 건전지를 교체하고, 충전 가능한 종류는 재충전한다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 7.1.14.4 / 공식 전문 PDF p.177.",
+      "reference": "운항기술기준 제2026-154호 · 7.1.14.4 · PDF p.177",
+      "source_clause": "7.1.14.4",
+      "source_page": 177,
+      "source_pages": [
+        177
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "다만, 충전이 가능한 경우에는 재충전한다. 1) 1시간 이상 연속 송신기를 사용한 경우 또는 2) 유효수명의 50퍼센트(충전용 건전지의 경우 충전유효수명의 50 퍼센트)가 지난 경우 3) 교체 또는 충전할 수 있는 비상위치지시용 무선표지설비 건전지의 유효일자는 송신",
+      "source_verification_terms": [
+        "1시간"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "계기·통신·비상장비",
+        "7.1.14.4"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-011",
+      "number": 11,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 1,
+      "study_unit_title": "계기·통신·비상장비",
+      "subunit": {
+        "code": "7.1.14.4",
+        "title": "계기·통신·비상장비"
+      },
+      "question": "일반적인 ELT 건전지는 유효수명의 몇 퍼센트가 지난 경우 교체·재충전해야 하는가?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "50%"
+        },
+        {
+          "id": "B",
+          "text": "90%"
+        },
+        {
+          "id": "C",
+          "text": "25%"
+        },
+        {
+          "id": "D",
+          "text": "75%"
+        }
+      ],
+      "answer": "A",
+      "explanation": "유효수명 또는 충전유효수명의 50%가 지난 경우가 기준이다. 탑재기간의 영향을 실질적으로 받지 않는 수분작동식 등은 원문의 예외를 따른다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 7.1.14.4 / 공식 전문 PDF p.177.",
+      "reference": "운항기술기준 제2026-154호 · 7.1.14.4 · PDF p.177",
+      "source_clause": "7.1.14.4",
+      "source_page": 177,
+      "source_pages": [
+        177
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "1) 1시간 이상 연속 송신기를 사용한 경우 또는 2) 유효수명의 50퍼센트(충전용 건전지의 경우 충전유효수명의 50 퍼센트)가 지난 경우 3) 교체 또는 충전할 수 있는 비상위치지시용 무선표지설비 건전지의 유효일자는 송신 기의 외부에 읽기 쉽게 표시하여야 한다.",
+      "source_verification_terms": [
+        "50퍼센트"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "계기·통신·비상장비",
+        "7.1.14.4"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-012",
+      "number": 12,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 1,
+      "study_unit_title": "계기·통신·비상장비",
+      "subunit": {
+        "code": "7.1.14.4",
+        "title": "계기·통신·비상장비"
+      },
+      "question": "항공기에 장착되는 ELT가 동시에 송신해야 하는 주파수 조합은?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "8.8kHz와 121.5kHz"
+        },
+        {
+          "id": "B",
+          "text": "118MHz와 406MHz"
+        },
+        {
+          "id": "C",
+          "text": "121.5MHz와 243kHz"
+        },
+        {
+          "id": "D",
+          "text": "121.5MHz와 406MHz"
+        }
+      ],
+      "answer": "D",
+      "explanation": "ELT는 121.5MHz와 406MHz를 동시에 송신한다. 수중위치전파발생기의 8.8kHz와 단위까지 구분해야 한다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 7.1.14.4 / 공식 전문 PDF p.177.",
+      "reference": "운항기술기준 제2026-154호 · 7.1.14.4 · PDF p.177",
+      "source_clause": "7.1.14.4",
+      "source_page": 177,
+      "source_pages": [
+        177
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "되어야 한다. 라. 항공기에 장착되는 비상위치지시용 무선표지설비(ELT)는 121.5MHz 및 406MHz로 동 시에 송신되어야 한다. 마. 장거리 해상비행을 하는 항공기에는 최소한 한개 이상의 비상위치지시용 무선표지설",
+      "source_verification_terms": [
+        "406MHz"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "계기·통신·비상장비",
+        "7.1.14.4"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-013",
+      "number": 13,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 1,
+      "study_unit_title": "계기·통신·비상장비",
+      "subunit": {
+        "code": "7.1.14.5",
+        "title": "계기·통신·비상장비"
+      },
+      "question": "동체 파괴위치 표시에서 양쪽 모퉁이 표지가 2m 이상 벌어질 때 추가하는 중간 표시 선의 크기는?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "15cm × 5cm"
+        },
+        {
+          "id": "B",
+          "text": "5cm × 2cm"
+        },
+        {
+          "id": "C",
+          "text": "9cm × 3cm"
+        },
+        {
+          "id": "D",
+          "text": "3cm × 1cm"
+        }
+      ],
+      "answer": "C",
+      "explanation": "중간에 9×3cm 선을 추가하여 표시 간격이 2m가 되지 않도록 한다. cm 단위 크기와 m 단위 간격을 구분한다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 7.1.14.5 / 공식 전문 PDF p.177, 178.",
+      "reference": "운항기술기준 제2026-154호 · 7.1.14.5 · PDF p.177, 178",
+      "source_clause": "7.1.14.5",
+      "source_page": 177,
+      "source_pages": [
+        177,
+        178
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "과 대조되는 백색으로 윤곽을 나타내어야 한다. 나. 양쪽 모퉁이의 표지가 2미터 이상 벌어지면 중간지점에서 9x3 센치미터 선을 표시 고정익항공기를 위한 운항기술기준",
+      "source_verification_terms": [
+        "9x3"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "계기·통신·비상장비",
+        "7.1.14.5"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-014",
+      "number": 14,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 2,
+      "study_unit_title": "산소·의료·구명장비",
+      "subunit": {
+        "code": "7.1.14.6",
+        "title": "산소·의료·구명장비"
+      },
+      "question": "Quick-donning형 산소마스크는 임무좌석에서 한 손으로 몇 초 이내에 착용·사용 가능해야 하는가?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "3초"
+        },
+        {
+          "id": "B",
+          "text": "15초"
+        },
+        {
+          "id": "C",
+          "text": "10초"
+        },
+        {
+          "id": "D",
+          "text": "5초"
+        }
+      ],
+      "answer": "D",
+      "explanation": "한 손으로 5초 이내에 착용해 사용할 수 있고 승무원 상호 통신도 가능해야 한다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 7.1.14.6 / 공식 전문 PDF p.178.",
+      "reference": "운항기술기준 제2026-154호 · 7.1.14.6 · PDF p.178",
+      "source_clause": "7.1.14.6",
+      "source_page": 178,
+      "source_pages": [
+        178
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "en mask)이어야 한다. 주 : Quick-donning 형 산소마스크 : 자신의 임무좌석에서 한 손으로 5초 이내에 착 용하여 사용가능하고 승무원 상호간 통신이 가능한 형태의 산소마스크 2) 객실의 여압이 상실될 경우 객실승무원이 위치에 관계없이 즉시 산소를 이용할 수",
+      "source_verification_terms": [
+        "5초"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "산소·의료·구명장비",
+        "7.1.14.6"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-015",
+      "number": 15,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 2,
+      "study_unit_title": "산소·의료·구명장비",
+      "subunit": {
+        "code": "7.1.14.6",
+        "title": "산소·의료·구명장비"
+      },
+      "question": "산소장비 조항의 표준대기 근사 고도표에서 절대압력 620hPa에 대응하는 고도는?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "약 10,000ft"
+        },
+        {
+          "id": "B",
+          "text": "약 25,000ft"
+        },
+        {
+          "id": "C",
+          "text": "약 8,000ft"
+        },
+        {
+          "id": "D",
+          "text": "약 13,000ft"
+        }
+      ],
+      "answer": "D",
+      "explanation": "원문의 근사표는 700hPa→10,000ft, 620hPa→13,000ft, 376hPa→25,000ft를 제시한다. 실제 고도·기압의 정밀 환산 문제는 아니다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 7.1.14.6 / 공식 전문 PDF p.178.",
+      "reference": "운항기술기준 제2026-154호 · 7.1.14.6 · PDF p.178",
+      "source_clause": "7.1.14.6",
+      "source_page": 178,
+      "source_pages": [
+        178
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "10,000 620 hPa 4,000 13,000",
+      "source_verification_terms": [
+        "620"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "산소·의료·구명장비",
+        "7.1.14.6"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-016",
+      "number": 16,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 2,
+      "study_unit_title": "산소·의료·구명장비",
+      "subunit": {
+        "code": "7.1.14.6",
+        "title": "산소·의료·구명장비"
+      },
+      "question": "운항증명소지자가 여압항공기를 운항할 때 Quick-donning형 산소마스크를 요구하는 해당 조항의 고도 경계는?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "14,000ft 초과"
+        },
+        {
+          "id": "B",
+          "text": "10,000ft 이상"
+        },
+        {
+          "id": "C",
+          "text": "35,000ft 이상"
+        },
+        {
+          "id": "D",
+          "text": "25,000ft 초과"
+        }
+      ],
+      "answer": "D",
+      "explanation": "25,000ft를 초과하거나 대기기압 376hPa 미만의 고도 위로 비행할 때 해당 요건을 충족해야 한다. 임무좌석 이탈 시 마스크 사용 조항과는 구분한다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 7.1.14.6 / 공식 전문 PDF p.178.",
+      "reference": "운항기술기준 제2026-154호 · 7.1.14.6 · PDF p.178",
+      "source_clause": "7.1.14.6",
+      "source_page": 178,
+      "source_pages": [
+        178
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "13,000 376 hPa 7,600 25,000",
+      "source_verification_terms": [
+        "376hPa"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "산소·의료·구명장비",
+        "7.1.14.6"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-017",
+      "number": 17,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 1,
+      "study_unit_title": "계기·통신·비상장비",
+      "subunit": {
+        "code": "7.1.14.9",
+        "title": "계기·통신·비상장비"
+      },
+      "question": "날개 위 비상구를 제외한 승객운송용 비행기의 비상구에 지상 하강 보조용 비상탈출장비가 요구되는 높이는?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "지상에서 10ft 이상"
+        },
+        {
+          "id": "B",
+          "text": "지상에서 3ft 이상"
+        },
+        {
+          "id": "C",
+          "text": "지상에서 4ft 초과"
+        },
+        {
+          "id": "D",
+          "text": "지상에서 6ft 이상"
+        }
+      ],
+      "answer": "D",
+      "explanation": "지상 상태에서 6ft 이상 높이에 있는 비상구가 대상이며, 날개 위 비상구는 이 문장의 적용 대상에서 제외된다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 7.1.14.9 / 공식 전문 PDF p.179.",
+      "reference": "운항기술기준 제2026-154호 · 7.1.14.9 · PDF p.179",
+      "source_clause": "7.1.14.9",
+      "source_page": 179,
+      "source_pages": [
+        179
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "7.1.14.9 비상탈출장비(Emergency Exit Equipment) 가. 비행기가 지상에 있는 상태에서 지상으로부터 6피트 이상 높이에 장착되어 있는 승 객운송용 비행기의 비상구(날개 위에 있는 비상구는 제외)는 승객이 지상으로 내려 오는데 도움을 줄 수 있도록 항공당국에 의해 인가된 비상탈출장비가 있어야 한다.",
+      "source_verification_terms": [
+        "6피트"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "계기·통신·비상장비",
+        "7.1.14.9"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-018",
+      "number": 18,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 2,
+      "study_unit_title": "산소·의료·구명장비",
+      "subunit": {
+        "code": "7.1.14.13",
+        "title": "산소·의료·구명장비"
+      },
+      "question": "비상의료용구(EMK)를 1조 이상 탑재해야 하는 해당 조항의 비행시간·좌석 조건은?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "4시간 초과 및 200석 초과"
+        },
+        {
+          "id": "B",
+          "text": "2시간 이상 및 100석 이하"
+        },
+        {
+          "id": "C",
+          "text": "비행시간 2시간 초과 및 승객좌석 100석 초과"
+        },
+        {
+          "id": "D",
+          "text": "1시간 초과 및 50석 초과"
+        }
+      ],
+      "answer": "C",
+      "explanation": "2시간을 초과하는 비행이며 승객좌석이 100석을 초과할 때, 전문의사 또는 비행 중 응급처치 자격자가 사용할 수 있는 EMK를 1조 이상 탑재해야 한다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 7.1.14.13 / 공식 전문 PDF p.181.",
+      "reference": "운항기술기준 제2026-154호 · 7.1.14.13 · PDF p.181",
+      "source_clause": "7.1.14.13",
+      "source_page": 181,
+      "source_pages": [
+        181
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "예방의료용구(Universal Precaution Kit) 및 비상의료용구(Emergency Medical Kit)를 탑 재하여야 한다. 다만, 비행거리가 2시간을 초과하고 승객 좌석 수가 100석을 초과하는 항공기의 경우에는 전문의사 또는 비행 중 응급처치 자격을 갖춘 사람이 사용할 수 있는 비상의료용구(Emergency Medical Kit)를 1조 이상 탑재해야 한다.",
+      "source_verification_terms": [
+        "100석"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "산소·의료·구명장비",
+        "7.1.14.13"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-019",
+      "number": 19,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 2,
+      "study_unit_title": "산소·의료·구명장비",
+      "subunit": {
+        "code": "7.1.14.14",
+        "title": "산소·의료·구명장비"
+      },
+      "question": "25,000ft 초과 여압항공기 여객운송에서 객실승무원이 구급용 산소공급 수단으로 사용할 수 있어야 하는 산소 분배장치의 최소 수는?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1개"
+        },
+        {
+          "id": "B",
+          "text": "4개"
+        },
+        {
+          "id": "C",
+          "text": "2개"
+        },
+        {
+          "id": "D",
+          "text": "3개"
+        }
+      ],
+      "answer": "C",
+      "explanation": "해당 구급용 산소공급 기구는 충분한 수의 분배장치를 갖추되 최소 2개 이상이어야 한다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 7.1.14.14 / 공식 전문 PDF p.181.",
+      "reference": "운항기술기준 제2026-154호 · 7.1.14.14 · PDF p.181",
+      "source_clause": "7.1.14.14",
+      "source_page": 181,
+      "source_pages": [
+        181
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "구급용 산소공급기구 2) 객실승무원이 구급용 산소공급 수단으로 사용할 수 있는 충분한 수(최소 2개 이상) 의 산소 분배장치 나. 운항증명소지자는 특정 운항과 노선에 대하여 가항에서 요구하는 구급용 산소(first-",
+      "source_verification_terms": [
+        "2개"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "산소·의료·구명장비",
+        "7.1.14.14"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-020",
+      "number": 20,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 2,
+      "study_unit_title": "산소·의료·구명장비",
+      "subunit": {
+        "code": "7.1.14.14",
+        "title": "산소·의료·구명장비"
+      },
+      "question": "구급용 산소의 표준대기조건 1인당 평균 공급률 최소 기준은?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "분당 5L"
+        },
+        {
+          "id": "B",
+          "text": "분당 2L"
+        },
+        {
+          "id": "C",
+          "text": "분당 3L"
+        },
+        {
+          "id": "D",
+          "text": "분당 1L"
+        }
+      ],
+      "answer": "C",
+      "explanation": "구급용 산소의 1인당 평균 공급률은 최소 3L/min이다. 다른 보조 산소 기준이나 마스크 작동시간과 구분한다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 7.1.14.14 / 공식 전문 PDF p.181.",
+      "reference": "운항기술기준 제2026-154호 · 7.1.14.14 · PDF p.181",
+      "source_clause": "7.1.14.14",
+      "source_page": 181,
+      "source_pages": [
+        181
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "1) 8천 피트 이상의 객실고도에서 객실 압력이 감소된 후의 비행시간 2) 표준대기조건으로 제공되어야 할 1인당 평균 산소 공급율은 최소 분당 3리터 이상 3) 최소한 탑승객의 2퍼센트(그러나 1명 이상)이상이 사용할 수 있는 양 7.1.14.15 개인 부양장비(Individual Flotation Devices)",
+      "source_verification_terms": [
+        "3리터"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "산소·의료·구명장비",
+        "7.1.14.14"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-021",
+      "number": 21,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 2,
+      "study_unit_title": "산소·의료·구명장비",
+      "subunit": {
+        "code": "7.1.14.14",
+        "title": "산소·의료·구명장비"
+      },
+      "question": "구급용 산소의 양은 최소한 어느 인원이 사용할 수 있도록 결정하는가?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "탑승객의 2% 이상, 최소 1명"
+        },
+        {
+          "id": "B",
+          "text": "탑승객의 1% 이상, 최소 1명"
+        },
+        {
+          "id": "C",
+          "text": "탑승객 전원, 최소 10명"
+        },
+        {
+          "id": "D",
+          "text": "탑승객의 5% 이상, 최소 2명"
+        }
+      ],
+      "answer": "A",
+      "explanation": "탑승객의 최소 2%가 사용할 양을 산정하되 1명 미만으로 줄어서는 안 된다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 7.1.14.14 / 공식 전문 PDF p.181.",
+      "reference": "운항기술기준 제2026-154호 · 7.1.14.14 · PDF p.181",
+      "source_clause": "7.1.14.14",
+      "source_page": 181,
+      "source_pages": [
+        181
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "2) 표준대기조건으로 제공되어야 할 1인당 평균 산소 공급율은 최소 분당 3리터 이상 3) 최소한 탑승객의 2퍼센트(그러나 1명 이상)이상이 사용할 수 있는 양 7.1.14.15 개인 부양장비(Individual Flotation Devices) 가. 모든 항공기에는 항공안전법 시행규칙 제110조에서 정한 바에 따라 구명동의 또는",
+      "source_verification_terms": [
+        "2퍼센트"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "산소·의료·구명장비",
+        "7.1.14.14"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-022",
+      "number": 22,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 2,
+      "study_unit_title": "산소·의료·구명장비",
+      "subunit": {
+        "code": "7.1.14.16",
+        "title": "산소·의료·구명장비"
+      },
+      "question": "원격조종으로 펼칠 수 없는 구명보트에 기계적 전개 보조장치가 요구되는 총중량 조건은?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "40kg 이상"
+        },
+        {
+          "id": "B",
+          "text": "60kg 초과"
+        },
+        {
+          "id": "C",
+          "text": "30kg 초과"
+        },
+        {
+          "id": "D",
+          "text": "20kg 이상"
+        }
+      ],
+      "answer": "A",
+      "explanation": "원격 전개가 불가능하고 총중량이 40kg 이상이면 기계적으로 펼칠 보조장치가 필요하다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 7.1.14.16 / 공식 전문 PDF p.182.",
+      "reference": "운항기술기준 제2026-154호 · 7.1.14.16 · PDF p.182",
+      "source_clause": "7.1.14.16",
+      "source_page": 182,
+      "source_pages": [
+        182
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "라. 삭 제 <2014.10.31> 마. 원격조종으로 펼칠 수 없고 총 중량이 40킬로그램 이상인 구명보트는 기계적으로 펼 칠 수 있는 보조장치가 있어야 한다. 7.1.14.16A 수중위치전파발생기(Underwater Locating Device)",
+      "source_verification_terms": [
+        "40킬로그램"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "산소·의료·구명장비",
+        "7.1.14.16"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-023",
+      "number": 23,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 2,
+      "study_unit_title": "산소·의료·구명장비",
+      "subunit": {
+        "code": "7.1.14.16",
+        "title": "산소·의료·구명장비"
+      },
+      "question": "탑승자 180명을 위해 60인승 구명보트만 탑재한다. 가장 큰 보트 1개를 잃어도 전원을 수용해야 할 때 필요한 최소 보트 수는?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "3개"
+        },
+        {
+          "id": "B",
+          "text": "5개"
+        },
+        {
+          "id": "C",
+          "text": "4개"
+        },
+        {
+          "id": "D",
+          "text": "2개"
+        }
+      ],
+      "answer": "C",
+      "explanation": "4개를 탑재하면 하나를 잃어도 3×60=180명 수용이 가능하다. 3개만 탑재하면 손실 후 120명만 수용한다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 7.1.14.16 / 공식 전문 PDF p.182.",
+      "reference": "운항기술기준 제2026-154호 · 7.1.14.16 · PDF p.182",
+      "source_clause": "7.1.14.16",
+      "source_page": 182,
+      "source_pages": [
+        182
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "이와 동등한 성능을 갖은 부양장비를 구비하여야 한다. 주. 탑재된 구명보트 중 가장 큰 수용능력을 가진 구명보트 1개가 손실된 경우에도 항공기 탑승자 전원을 수용할 수 있는 적정용량의 여분의 구명보트가 비치되어 있어야 한다.",
+      "source_verification_terms": [
+        "1개가"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "산소·의료·구명장비",
+        "7.1.14.16"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-024",
+      "number": 24,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 2,
+      "study_unit_title": "산소·의료·구명장비",
+      "subunit": {
+        "code": "7.1.14.16A",
+        "title": "산소·의료·구명장비"
+      },
+      "question": "해당 장거리 해상비행에 요구되는 수중위치전파발생기(ULD)의 작동 주파수는?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "8.8MHz"
+        },
+        {
+          "id": "B",
+          "text": "406MHz"
+        },
+        {
+          "id": "C",
+          "text": "121.5MHz"
+        },
+        {
+          "id": "D",
+          "text": "8.8kHz"
+        }
+      ],
+      "answer": "D",
+      "explanation": "ULD의 주파수는 8.8kHz다. ELT의 VHF·UHF 주파수와 장비 및 단위가 다르다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 7.1.14.16A / 공식 전문 PDF p.182.",
+      "reference": "운항기술기준 제2026-154호 · 7.1.14.16A · PDF p.182",
+      "source_clause": "7.1.14.16A",
+      "source_page": 182,
+      "source_pages": [
+        182
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "최대이륙중량 27,000kg을 초과하는 항공운송사업에 사용되는 모든 비행기로서, 다음 각 호와 같이 장거리 해상을 비행하는 비행기는 8.8kHz 주파수로 작동되는 수중위치전파발 생기 1개를 2020년 1월 1일 이전까지 장착하여야 한다. 수중위치전파발생기는 최소 30 일간 작동될 수 있어야 하며, 주익 또는 미익에 장착되어서는 아니 된다.",
+      "source_verification_terms": [
+        "8.8kHz"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "산소·의료·구명장비",
+        "7.1.14.16A"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-025",
+      "number": 25,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 2,
+      "study_unit_title": "산소·의료·구명장비",
+      "subunit": {
+        "code": "7.1.14.16A",
+        "title": "산소·의료·구명장비"
+      },
+      "question": "장거리 해상비행용 수중위치전파발생기(ULD)는 최소 얼마 동안 작동할 수 있어야 하는가?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "90일"
+        },
+        {
+          "id": "B",
+          "text": "15일"
+        },
+        {
+          "id": "C",
+          "text": "7일"
+        },
+        {
+          "id": "D",
+          "text": "30일"
+        }
+      ],
+      "answer": "D",
+      "explanation": "해당 ULD는 최소 30일간 작동 가능해야 하며, 주익 또는 미익에 장착해서는 안 된다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 7.1.14.16A / 공식 전문 PDF p.182.",
+      "reference": "운항기술기준 제2026-154호 · 7.1.14.16A · PDF p.182",
+      "source_clause": "7.1.14.16A",
+      "source_page": 182,
+      "source_pages": [
+        182
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "호와 같이 장거리 해상을 비행하는 비행기는 8.8kHz 주파수로 작동되는 수중위치전파발 생기 1개를 2020년 1월 1일 이전까지 장착하여야 한다. 수중위치전파발생기는 최소 30 일간 작동될 수 있어야 하며, 주익 또는 미익에 장착되어서는 아니 된다. 가. 비상착륙에 적합한 육지로부터 120분 또는 740킬로미터(400해리) 중 짧은 거리 이",
+      "source_verification_terms": [
+        "30"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "산소·의료·구명장비",
+        "7.1.14.16A"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-026",
+      "number": 26,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 2,
+      "study_unit_title": "산소·의료·구명장비",
+      "subunit": {
+        "code": "7.1.14.16A",
+        "title": "산소·의료·구명장비"
+      },
+      "question": "다른 장거리 해상비행 조건도 충족한다는 전제에서, 해당 ULD 장착 대상인 항공운송사업용 비행기의 최대이륙중량 조건은?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "27,000kg 초과"
+        },
+        {
+          "id": "B",
+          "text": "27,000kg 이하"
+        },
+        {
+          "id": "C",
+          "text": "5,700kg 이상"
+        },
+        {
+          "id": "D",
+          "text": "15,000kg 초과"
+        }
+      ],
+      "answer": "A",
+      "explanation": "ULD 대상 중량 경계는 최대이륙중량 27,000kg ‘초과’다. 중량만으로 의무가 결정되는 것은 아니며 조항의 해상비행 조건도 충족해야 한다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 7.1.14.16A / 공식 전문 PDF p.182.",
+      "reference": "운항기술기준 제2026-154호 · 7.1.14.16A · PDF p.182",
+      "source_clause": "7.1.14.16A",
+      "source_page": 182,
+      "source_pages": [
+        182
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "7.1.14.16A 수중위치전파발생기(Underwater Locating Device) 최대이륙중량 27,000kg을 초과하는 항공운송사업에 사용되는 모든 비행기로서, 다음 각 호와 같이 장거리 해상을 비행하는 비행기는 8.8kHz 주파수로 작동되는 수중위치전파발 생기 1개를 2020년 1월 1일 이전까지 장착하여야 한다. 수중위치전파발생기는 최소 30",
+      "source_verification_terms": [
+        "27,000kg"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "산소·의료·구명장비",
+        "7.1.14.16A"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-027",
+      "number": 27,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 2,
+      "study_unit_title": "산소·의료·구명장비",
+      "subunit": {
+        "code": "7.4.8.2",
+        "title": "산소·의료·구명장비"
+      },
+      "question": "운항증명소지자의 최대인가이륙중량 5,700kg 초과 또는 최대인가좌석 19석 초과 항공기에서 호흡보호장비(PBE)의 최소 산소공급 시간은?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "5분 이상"
+        },
+        {
+          "id": "B",
+          "text": "15분 이상"
+        },
+        {
+          "id": "C",
+          "text": "10분 이상"
+        },
+        {
+          "id": "D",
+          "text": "30분 이상"
+        }
+      ],
+      "answer": "B",
+      "explanation": "조종실 운항승무원용 및 최소 객실승무원용 호흡보호장비는 각각 최소 15분 이상의 산소를 공급할 수 있어야 한다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 7.4.8.2 / 공식 전문 PDF p.210.",
+      "reference": "운항기술기준 제2026-154호 · 7.4.8.2 · PDF p.210",
+      "source_clause": "7.4.8.2",
+      "source_page": 210,
+      "source_pages": [
+        210
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "1) 운항승무원이 조종실에서 근무하는 동안 각 운항승무원의 눈, 코, 입을 보호할 수 있고 최소한 15분 이상의 산소를 공급할 수 있는 호흡 보호장비 또는 산소마스크 2) 최소객실승무원의 눈, 코, 입을 보호할 수 있고 최소한 15분 이상의 산소를 공급할 수 있는 휴대용 호흡보호장비",
+      "source_verification_terms": [
+        "15분"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "산소·의료·구명장비",
+        "7.4.8.2"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-028",
+      "number": 28,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 1,
+      "study_unit_title": "계기·통신·비상장비",
+      "subunit": {
+        "code": "7.4.9.3",
+        "title": "계기·통신·비상장비"
+      },
+      "question": "최대인가 승객좌석 19석 초과 여객운송용 항공기의 기내방송시스템은 객실승무원이 자기 좌석에서 몇 초 이내 작동할 수 있어야 하는가?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "15초"
+        },
+        {
+          "id": "B",
+          "text": "5초"
+        },
+        {
+          "id": "C",
+          "text": "10초"
+        },
+        {
+          "id": "D",
+          "text": "30초"
+        }
+      ],
+      "answer": "C",
+      "explanation": "기내방송시스템(PA)은 사용하려는 객실승무원이 각자의 좌석에서 10초 이내에 작동할 수 있어야 한다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 7.4.9.3 / 공식 전문 PDF p.212.",
+      "reference": "운항기술기준 제2026-154호 · 7.4.9.3 · PDF p.212",
+      "source_clause": "7.4.9.3",
+      "source_page": 212,
+      "source_pages": [
+        212
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "이 장착되어 있을 것 3) 사용하려는 객실승무원이 각자의 좌석에서 10초 이내에 작동이 가능할 것 4) 모든 승객좌석, 화장실, 객실승무원 좌석, 업무구역에서 기내방송을 인지하고 들을 수 있을 것",
+      "source_verification_terms": [
+        "10초"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "계기·통신·비상장비",
+        "7.4.9.3"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-029",
+      "number": 29,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 1,
+      "study_unit_title": "계기·통신·비상장비",
+      "subunit": {
+        "code": "7.3.1.4",
+        "title": "계기·통신·비상장비"
+      },
+      "question": "항공기사용사업용 승무원 인터폰 장비 조항에서 열거한 최대인가이륙중량·승객좌석 경계값은?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "15,000kg 이상 또는 30석 이상"
+        },
+        {
+          "id": "B",
+          "text": "15,000kg 초과 또는 19석 초과"
+        },
+        {
+          "id": "C",
+          "text": "5,700kg 초과 또는 9석 초과"
+        },
+        {
+          "id": "D",
+          "text": "27,000kg 초과 또는 100석 초과"
+        }
+      ],
+      "answer": "B",
+      "explanation": "7.3.1.4 나항의 해당 장착 대상은 15,000kg 초과 또는 19석 초과다. 항공운송사업의 다른 장착 규정과 적용 대상을 구분한다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 7.3.1.4 / 공식 전문 PDF p.204, 205.",
+      "reference": "운항기술기준 제2026-154호 · 7.3.1.4 · PDF p.204, 205",
+      "source_clause": "7.3.1.4",
+      "source_page": 204,
+      "source_pages": [
+        204,
+        205
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "개정：2026.03.25. 나. 최대인가이륙중량 15,000킬로그램을 초과하거나 최대인가승객좌석 19석을 초과하는 항공기를 운용하는 운항증명소지자는 다음에서 정한 승무원 인터폰 시스템을 갖추지 아니하고 운항하여서는 아니된다.",
+      "source_verification_terms": [
+        "15,000"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "계기·통신·비상장비",
+        "7.3.1.4"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-030",
+      "number": 30,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 1,
+      "study_unit_title": "계기·통신·비상장비",
+      "subunit": {
+        "code": "7.1.14.10",
+        "title": "계기·통신·비상장비"
+      },
+      "question": "항공기 조종실에 운항승무원이 편리하게 사용할 수 있도록 설치해야 하는 휴대용 소화기는 최소 몇 개인가?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "3개"
+        },
+        {
+          "id": "B",
+          "text": "0개"
+        },
+        {
+          "id": "C",
+          "text": "2개"
+        },
+        {
+          "id": "D",
+          "text": "1개"
+        }
+      ],
+      "answer": "D",
+      "explanation": "조종실에는 최소 1개 이상의 휴대용 소화기가 필요하다. 객실 좌석수별 수량은 별도 기준이다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 7.1.14.10 / 공식 전문 PDF p.180.",
+      "reference": "운항기술기준 제2026-154호 · 7.1.14.10 · PDF p.180",
+      "source_clause": "7.1.14.10",
+      "source_page": 180,
+      "source_pages": [
+        180
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "설계되어야 한다. 2) E급 화물실에는 최소 1개 이상의 휴대용 소화기가 비행중 승무원이 편리하게 접근 할 수 있는 위치에 있어야 하며, 최소 1개 이상의 휴대용 소화기가 주방 내 혹은 쉽 게 접근할 수 있는 위치에 각각 설치되어 있어야 한다.",
+      "source_verification_terms": [
+        "1개"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "계기·통신·비상장비",
+        "7.1.14.10"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-031",
+      "number": 31,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 3,
+      "study_unit_title": "RVSM·PBN·비행기록",
+      "subunit": {
+        "code": "7.1.16.1",
+        "title": "RVSM·PBN·비행기록"
+      },
+      "question": "RVSM 공역의 비행고도 범위와 수직분리최저치 조합은?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "FL180~FL290 / 1,000ft"
+        },
+        {
+          "id": "B",
+          "text": "FL290~FL410 / 1,000ft"
+        },
+        {
+          "id": "C",
+          "text": "FL290~FL410 / 2,000ft"
+        },
+        {
+          "id": "D",
+          "text": "FL290~FL450 / 500ft"
+        }
+      ],
+      "answer": "B",
+      "explanation": "해당 조항은 FL290부터 FL410까지 수직분리 300m(1,000ft)가 적용되는 공역을 규정한다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 7.1.16.1 / 공식 전문 PDF p.183.",
+      "reference": "운항기술기준 제2026-154호 · 7.1.16.1 · PDF p.183",
+      "source_clause": "7.1.16.1",
+      "source_page": 183,
+      "source_pages": [
+        183
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "in RVSM Airspace) 가. 지역항행협정에 의거 300m의 수직분리최저치가 적용되는 FL290부터 FL410까지의 공역(이하 수직분리축소공역이라 한다)을 운항하고자 하는 항공기는 조종사에게 비 행중인 고도를 전시해 주고, 지정된 고도를 자동으로 유지하고, 항공기가 지정된 고",
+      "source_verification_terms": [
+        "FL410"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "RVSM·PBN·비행기록",
+        "7.1.16.1"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-032",
+      "number": 32,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 3,
+      "study_unit_title": "RVSM·PBN·비행기록",
+      "subunit": {
+        "code": "7.1.16.1",
+        "title": "RVSM·PBN·비행기록"
+      },
+      "question": "RVSM 고도유지 성능 모니터링을 위해 각 항공기 형식 그룹에서 선정해야 하는 비행기의 최소 수는? 단, 그룹이 1대로만 구성된 경우는 제외한다.",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "2대"
+        },
+        {
+          "id": "B",
+          "text": "3대"
+        },
+        {
+          "id": "C",
+          "text": "5대"
+        },
+        {
+          "id": "D",
+          "text": "1대"
+        }
+      ],
+      "answer": "A",
+      "explanation": "각 형식 그룹마다 최소 2대를 선정한다. 그룹에 1대만 있다면 그 1대를 규정된 기간 안에 모니터링해야 한다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 7.1.16.1 / 공식 전문 PDF p.183.",
+      "reference": "운항기술기준 제2026-154호 · 7.1.16.1 · PDF p.183",
+      "source_clause": "7.1.16.1",
+      "source_page": 183,
+      "source_pages": [
+        183
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "식별된 경우 즉각적인 개선조치를 실시하기 위한 절차가 수립되어 있을 것 라. 항공기 소유자등은 보유한 각 형식의 항공기 그룹마다 최소 2대의 비행기를 선정하 여 최소 2년에 한 번 또는 매 1,000 비행시간 간격(이중 더 긴 기간을 기준으로 한 다) 이내로 고도유지 성능을 모니터링하여야 한다. 만일 소유자등의 항공기 형식 그",
+      "source_verification_terms": [
+        "2대"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "RVSM·PBN·비행기록",
+        "7.1.16.1"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-033",
+      "number": 33,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 3,
+      "study_unit_title": "RVSM·PBN·비행기록",
+      "subunit": {
+        "code": "7.1.16.1",
+        "title": "RVSM·PBN·비행기록"
+      },
+      "question": "RVSM 고도유지 성능 모니터링 간격 기준으로 맞는 것은?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "2년 또는 1,000시간 중 짧은 기간 이내"
+        },
+        {
+          "id": "B",
+          "text": "2년 또는 1,000비행시간 중 더 긴 기간 이내"
+        },
+        {
+          "id": "C",
+          "text": "1년 또는 500시간 중 짧은 기간 이내"
+        },
+        {
+          "id": "D",
+          "text": "5년 또는 2,000시간 중 더 긴 기간 이내"
+        }
+      ],
+      "answer": "B",
+      "explanation": "원문은 최소 2년에 한 번 또는 매 1,000비행시간 간격 중 더 긴 기간을 기준으로 한다. 일반적인 정비의 ‘먼저 도래하는 때’와 혼동하지 않는다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 7.1.16.1 / 공식 전문 PDF p.183.",
+      "reference": "운항기술기준 제2026-154호 · 7.1.16.1 · PDF p.183",
+      "source_clause": "7.1.16.1",
+      "source_page": 183,
+      "source_pages": [
+        183
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "라. 항공기 소유자등은 보유한 각 형식의 항공기 그룹마다 최소 2대의 비행기를 선정하 여 최소 2년에 한 번 또는 매 1,000 비행시간 간격(이중 더 긴 기간을 기준으로 한 다) 이내로 고도유지 성능을 모니터링하여야 한다. 만일 소유자등의 항공기 형식 그 룹이 한 대의 비행기로만 구성되어 있으면 규정된 기간 이내에 해당 비행기의 고도",
+      "source_verification_terms": [
+        "더 긴"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "RVSM·PBN·비행기록",
+        "7.1.16.1"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-034",
+      "number": 34,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 3,
+      "study_unit_title": "RVSM·PBN·비행기록",
+      "subunit": {
+        "code": "7.1.16.2",
+        "title": "RVSM·PBN·비행기록"
+      },
+      "question": "PBN 항법성능의 해당 정확도 요건은 비행시간의 몇 퍼센트에 해당하는 시간 동안 충족해야 하는가?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "90%"
+        },
+        {
+          "id": "B",
+          "text": "98%"
+        },
+        {
+          "id": "C",
+          "text": "100%"
+        },
+        {
+          "id": "D",
+          "text": "95%"
+        }
+      ],
+      "answer": "D",
+      "explanation": "규정된 항법 정확도는 비행시간의 95% 동안 충족하는 기준이다. 운항승인·무결성 등 다른 PBN 요구사항도 별도로 적용된다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 7.1.16.2 / 공식 전문 PDF p.184.",
+      "reference": "운항기술기준 제2026-154호 · 7.1.16.2 · PDF p.184",
+      "source_clause": "7.1.16.2",
+      "source_page": 184,
+      "source_pages": [
+        184
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "다. 성능기반항행(PBN)요구 공역을 운항하기 위해서 필요 항법장비의 하나 또는 조합을 이용하여 비행시간의 95퍼센트에 해당하는 시간 동안 다음과 같은 항법성능이 요구 된다.",
+      "source_verification_terms": [
+        "95퍼센트"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "RVSM·PBN·비행기록",
+        "7.1.16.2"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-035",
+      "number": 35,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 3,
+      "study_unit_title": "RVSM·PBN·비행기록",
+      "subunit": {
+        "code": "7.1.16.2",
+        "title": "RVSM·PBN·비행기록"
+      },
+      "question": "PBN 정확도 표에서 RNAV 10(RNP 10)의 정확도는?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "±10NM"
+        },
+        {
+          "id": "B",
+          "text": "±5NM"
+        },
+        {
+          "id": "C",
+          "text": "±0.3NM"
+        },
+        {
+          "id": "D",
+          "text": "±1NM"
+        }
+      ],
+      "answer": "A",
+      "explanation": "표는 RNAV 10(RNP 10)의 정확도를 ±10NM로 제시한다. 적용되는 시간 비율은 앞 조항의 95%다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 7.1.16.2 / 공식 전문 PDF p.185.",
+      "reference": "운항기술기준 제2026-154호 · 7.1.16.2 · PDF p.185",
+      "source_clause": "7.1.16.2",
+      "source_page": 185,
+      "source_pages": [
+        185
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "RNAV 10 (RNP10) ±10NM INS(IRU), FMS, GPS(GNSS) RNAV 5",
+      "source_verification_terms": [
+        "±10NM"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "RVSM·PBN·비행기록",
+        "7.1.16.2"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-036",
+      "number": 36,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 3,
+      "study_unit_title": "RVSM·PBN·비행기록",
+      "subunit": {
+        "code": "7.1.16.2",
+        "title": "RVSM·PBN·비행기록"
+      },
+      "question": "PBN 정확도 표에서 RNAV 1의 정확도는?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "±0.1NM"
+        },
+        {
+          "id": "B",
+          "text": "±1NM"
+        },
+        {
+          "id": "C",
+          "text": "±2NM"
+        },
+        {
+          "id": "D",
+          "text": "±5NM"
+        }
+      ],
+      "answer": "B",
+      "explanation": "RNAV 1의 표상 정확도는 ±1NM다. 숫자가 같더라도 RNAV와 RNP의 기능상 요구사항이 전부 같은 것은 아니다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 7.1.16.2 / 공식 전문 PDF p.185.",
+      "reference": "운항기술기준 제2026-154호 · 7.1.16.2 · PDF p.185",
+      "source_clause": "7.1.16.2",
+      "source_page": 185,
+      "source_pages": [
+        185
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "RNAV 1 ±1NM RNP 4 ±4NM",
+      "source_verification_terms": [
+        "±1NM"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "RVSM·PBN·비행기록",
+        "7.1.16.2"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-037",
+      "number": 37,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 3,
+      "study_unit_title": "RVSM·PBN·비행기록",
+      "subunit": {
+        "code": "7.1.16.2",
+        "title": "RVSM·PBN·비행기록"
+      },
+      "question": "PBN 정확도 표에서 RNP 4의 정확도는?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "±4NM"
+        },
+        {
+          "id": "B",
+          "text": "±10NM"
+        },
+        {
+          "id": "C",
+          "text": "±0.4NM"
+        },
+        {
+          "id": "D",
+          "text": "±2NM"
+        }
+      ],
+      "answer": "A",
+      "explanation": "RNP 4의 표상 정확도는 ±4NM이며 필요한 항법장비로 GNSS가 제시된다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 7.1.16.2 / 공식 전문 PDF p.185.",
+      "reference": "운항기술기준 제2026-154호 · 7.1.16.2 · PDF p.185",
+      "source_clause": "7.1.16.2",
+      "source_page": 185,
+      "source_pages": [
+        185
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "RNP 4 ±4NM GNSS RNP 2",
+      "source_verification_terms": [
+        "±4NM"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "RVSM·PBN·비행기록",
+        "7.1.16.2"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-038",
+      "number": 38,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 3,
+      "study_unit_title": "RVSM·PBN·비행기록",
+      "subunit": {
+        "code": "7.1.17.2",
+        "title": "RVSM·PBN·비행기록"
+      },
+      "question": "7.1.17.2 가항 5)의 특별한 경우를 제외한 모든 FDR은 운항 종료 시점 이전 최소 얼마의 정보를 유지해야 하는가?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "24시간"
+        },
+        {
+          "id": "B",
+          "text": "2시간"
+        },
+        {
+          "id": "C",
+          "text": "30분"
+        },
+        {
+          "id": "D",
+          "text": "25시간"
+        }
+      ],
+      "answer": "D",
+      "explanation": "일반적인 FDR 보존시간은 이전 25시간이다. 특정 경량 다발 터빈엔진 비행기의 예외는 별도로 규정되어 있다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 7.1.17.2 / 공식 전문 PDF p.194.",
+      "reference": "운항기술기준 제2026-154호 · 7.1.17.2 · PDF p.194",
+      "source_clause": "7.1.17.2",
+      "source_page": 194,
+      "source_pages": [
+        194
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "7.1.17.2 가항 5)에서 정하는 항공기에 설치된 경우를 제외하고, 모든 FDR은 운항 종료시 점부터 이전 25시간의 기록된 정보를 유지해야 한다. 7.1.17.2 가항 5)의 경우 FDR은 운 항종료 시점 이전 최소 30분간의 기록을 유지해야 한다. 또한 보정 목적을 위한 선행이륙 (preceding take-off)시 충분한 정보를 기록할 수 있어야 한다.",
+      "source_verification_terms": [
+        "25시간"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "RVSM·PBN·비행기록",
+        "7.1.17.2"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-039",
+      "number": 39,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 3,
+      "study_unit_title": "RVSM·PBN·비행기록",
+      "subunit": {
+        "code": "7.1.17.2",
+        "title": "RVSM·PBN·비행기록"
+      },
+      "question": "1990년 1월 1일 이후 개별감항증명서가 발급된 최대이륙중량 5,700kg 이하의 항공운송사업용 다발 터빈엔진 비행기에 해당 항목의 FDR을 설치한 경우, 최소 기록 유지시간은?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "2시간"
+        },
+        {
+          "id": "B",
+          "text": "25시간"
+        },
+        {
+          "id": "C",
+          "text": "30분"
+        },
+        {
+          "id": "D",
+          "text": "10분"
+        }
+      ],
+      "answer": "C",
+      "explanation": "7.1.17.2 가항 5)의 경우에는 다항에서 최소 30분을 규정한다. FDR 일반 기준 25시간의 명시적 예외다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 7.1.17.2 / 공식 전문 PDF p.192, 194.",
+      "reference": "운항기술기준 제2026-154호 · 7.1.17.2 · PDF p.192, 194",
+      "source_clause": "7.1.17.2",
+      "source_page": 192,
+      "source_pages": [
+        192,
+        194
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "점부터 이전 25시간의 기록된 정보를 유지해야 한다. 7.1.17.2 가항 5)의 경우 FDR은 운 항종료 시점 이전 최소 30분간의 기록을 유지해야 한다. 또한 보정 목적을 위한 선행이륙 (preceding take-off)시 충분한 정보를 기록할 수 있어야 한다. 7.1.17.2A 삭 제 <2024.12.00>",
+      "source_verification_terms": [
+        "30분"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "RVSM·PBN·비행기록",
+        "7.1.17.2"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-040",
+      "number": 40,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 3,
+      "study_unit_title": "RVSM·PBN·비행기록",
+      "subunit": {
+        "code": "7.1.17.3",
+        "title": "RVSM·PBN·비행기록"
+      },
+      "question": "25시간 기록 대상 등 별도 강화요건을 제외할 때, CVR의 일반적인 최소 기록시간은?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "2시간"
+        },
+        {
+          "id": "B",
+          "text": "30분"
+        },
+        {
+          "id": "C",
+          "text": "1시간"
+        },
+        {
+          "id": "D",
+          "text": "24시간"
+        }
+      ],
+      "answer": "A",
+      "explanation": "CVR 일반 기준은 운항종료 시점 이전 최소 2시간이다. 최초 개별감항증명 시점과 최대이륙중량에 따라 25시간 기준이 별도로 적용된다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 7.1.17.3 / 공식 전문 PDF p.195.",
+      "reference": "운항기술기준 제2026-154호 · 7.1.17.3 · PDF p.195",
+      "source_clause": "7.1.17.3",
+      "source_page": 195,
+      "source_pages": [
+        195
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "다. 기록기간(Duration) 1) CVR은 운항종료 시점 이전 최소 2시간의 정보를 기록할 수 있어야 한다. 2) 2022년 1월 1일 이후 최초로 개별감항증명을 받은 최대이륙중량이 27,000kg을 초과 하는 모든 비행기는 운항종료 시점 이전 최소 25시간의 정보를 기록할 수 있는 CVR을",
+      "source_verification_terms": [
+        "2시간"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "RVSM·PBN·비행기록",
+        "7.1.17.3"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-041",
+      "number": 41,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 3,
+      "study_unit_title": "RVSM·PBN·비행기록",
+      "subunit": {
+        "code": "7.1.17.3",
+        "title": "RVSM·PBN·비행기록"
+      },
+      "question": "2022년 1월 1일 이후 최초 개별감항증명을 받은 최대이륙중량 27,000kg 초과 비행기의 CVR 최소 기록시간은?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "24시간"
+        },
+        {
+          "id": "B",
+          "text": "25시간"
+        },
+        {
+          "id": "C",
+          "text": "2시간"
+        },
+        {
+          "id": "D",
+          "text": "12시간"
+        }
+      ],
+      "answer": "B",
+      "explanation": "최초 개별감항증명 날짜와 27,000kg 초과 조건을 모두 만족하면 CVR 최소 25시간 기록 기준이 적용된다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 7.1.17.3 / 공식 전문 PDF p.195.",
+      "reference": "운항기술기준 제2026-154호 · 7.1.17.3 · PDF p.195",
+      "source_clause": "7.1.17.3",
+      "source_page": 195,
+      "source_pages": [
+        195
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "2) 2022년 1월 1일 이후 최초로 개별감항증명을 받은 최대이륙중량이 27,000kg을 초과 하는 모든 비행기는 운항종료 시점 이전 최소 25시간의 정보를 기록할 수 있는 CVR을 장착하여야 한다. 3) 2025년 1월 1일 이후 최초로 개별감항증명을 받은 비행기 중 CARS를 장착해야 하는",
+      "source_verification_terms": [
+        "25시간"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "RVSM·PBN·비행기록",
+        "7.1.17.3"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-042",
+      "number": 42,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 3,
+      "study_unit_title": "RVSM·PBN·비행기록",
+      "subunit": {
+        "code": "7.1.17.3",
+        "title": "RVSM·PBN·비행기록"
+      },
+      "question": "2025년 1월 1일 이후 최초 개별감항증명을 받은 비행기 중 CARS 장착 대상 비행기의 최소 CARS 기록시간은?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "30분"
+        },
+        {
+          "id": "B",
+          "text": "25시간"
+        },
+        {
+          "id": "C",
+          "text": "2시간"
+        },
+        {
+          "id": "D",
+          "text": "1시간"
+        }
+      ],
+      "answer": "C",
+      "explanation": "2026년 전문의 CARS 조항은 해당 비행기에 최소 2시간 기록을 요구한다. CVR의 25시간 장착 대상과 구분한다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 7.1.17.3 / 공식 전문 PDF p.195.",
+      "reference": "운항기술기준 제2026-154호 · 7.1.17.3 · PDF p.195",
+      "source_clause": "7.1.17.3",
+      "source_page": 195,
+      "source_pages": [
+        195
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "장착하여야 한다. 3) 2025년 1월 1일 이후 최초로 개별감항증명을 받은 비행기 중 CARS를 장착해야 하는 모든 비행기는 운항종료 시점 이전 최소 2시간의 정보를 기록할 수 있는 CARS를 장착",
+      "source_verification_terms": [
+        "2025년"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "RVSM·PBN·비행기록",
+        "7.1.17.3"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-043",
+      "number": 43,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 3,
+      "study_unit_title": "RVSM·PBN·비행기록",
+      "subunit": {
+        "code": "7.1.17.3",
+        "title": "RVSM·PBN·비행기록"
+      },
+      "question": "항공운송사업용 비행기에서 동력 손실로 CVR 녹음이 중단될 때 대체 동력원의 공급시간은?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "5분(±1분)"
+        },
+        {
+          "id": "B",
+          "text": "30분(±5분)"
+        },
+        {
+          "id": "C",
+          "text": "10분(±1분)"
+        },
+        {
+          "id": "D",
+          "text": "15분(±2분)"
+        }
+      ],
+      "answer": "C",
+      "explanation": "대체 동력원은 CVR 및 관련 조종실 마이크 구성품에 10분±1분의 동력을 제공하며 자동으로 작동해야 한다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 7.1.17.3 / 공식 전문 PDF p.195, 196.",
+      "reference": "운항기술기준 제2026-154호 · 7.1.17.3 · PDF p.195, 196",
+      "source_clause": "7.1.17.3",
+      "source_page": 195,
+      "source_pages": [
+        195,
+        196
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "항공운송사업에 사용되는 비행기에는 동력이 정지되거나 동력손실에 의해 CVR 녹음이 중단될 경우에 CVR 및 연관된 조종실 마이크 구성품에 10분(±1분)간의 동력을 제공 해 주는 대체 동력원이 있어야 한다. 대체 동력원은 자동으로 작동되어야 하며, CVR 은 대체 동력원에 가능한 한 가까운 곳에 위치하여야 한다.",
+      "source_verification_terms": [
+        "10분"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "RVSM·PBN·비행기록",
+        "7.1.17.3"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-044",
+      "number": 44,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 4,
+      "study_unit_title": "승무원 자격·음주",
+      "subunit": {
+        "code": "8.1.8.4",
+        "title": "승무원 자격·음주"
+      },
+      "question": "알코올 성분 음료를 복용한 뒤 항공업무 등을 수행할 수 없는 시간 기준은?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "복용 후 8시간 이내"
+        },
+        {
+          "id": "B",
+          "text": "복용 후 6시간 이내"
+        },
+        {
+          "id": "C",
+          "text": "복용 후 2시간 이내"
+        },
+        {
+          "id": "D",
+          "text": "복용 후 4시간 이내"
+        }
+      ],
+      "answer": "A",
+      "explanation": "해당 조항은 음주 후 8시간 이내 임무를 금지한다. 8시간이 지나도 알코올 영향이나 농도 기준 등에 해당하면 임무를 수행할 수 없다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.1.8.4 / 공식 전문 PDF p.239.",
+      "reference": "운항기술기준 제2026-154호 · 8.1.8.4 · PDF p.239",
+      "source_clause": "8.1.8.4",
+      "source_page": 239,
+      "source_pages": [
+        239
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "게 임무를 부여하여서는 아니된다. 1) 알코올 성분의 음료 복용 후 8시간 이내 2) 알코올의 영향 하에 있을 때 3) 항공업무(조종연습을 포함한다) 또는 객실승무원의 업무에 영향을 미치고 비행안전을",
+      "source_verification_terms": [
+        "8시간"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "승무원 자격·음주",
+        "8.1.8.4"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-045",
+      "number": 45,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 4,
+      "study_unit_title": "승무원 자격·음주",
+      "subunit": {
+        "code": "8.1.8.4",
+        "title": "승무원 자격·음주"
+      },
+      "question": "임무 수행 금지에 해당하는 혈중알코올농도의 숫자 기준은?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "0.03% 이상"
+        },
+        {
+          "id": "B",
+          "text": "0.01% 초과"
+        },
+        {
+          "id": "C",
+          "text": "0.02% 이상"
+        },
+        {
+          "id": "D",
+          "text": "0.05% 이상"
+        }
+      ],
+      "answer": "C",
+      "explanation": "혈중알코올농도 0.02% 이상이 금지 기준이다. 시간 기준과 별개이므로 낮은 농도만으로 임무 적합성이 보장되는 것은 아니다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.1.8.4 / 공식 전문 PDF p.239.",
+      "reference": "운항기술기준 제2026-154호 · 8.1.8.4 · PDF p.239",
+      "source_clause": "8.1.8.4",
+      "source_page": 239,
+      "source_pages": [
+        239
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "을 사용중일 때 4) 혈중 알코올 농도 0.02퍼센트 이상일 때 5) 마약, 마리화나, 진정제 또는 자극제를 재배, 가공, 생산, 판매, 처분, 소지, 이송 또 는 수입하여 국내법 또는 국제법을 위반한 경우",
+      "source_verification_terms": [
+        "0.02"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "승무원 자격·음주",
+        "8.1.8.4"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-046",
+      "number": 46,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 4,
+      "study_unit_title": "승무원 자격·음주",
+      "subunit": {
+        "code": "8.1.8.4",
+        "title": "승무원 자격·음주"
+      },
+      "question": "운항증명소지자가 연간 고르게 예고 없이 약물 섭취·사용 여부를 무작위 측정해야 하는 최소 인원 비율은?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "10%"
+        },
+        {
+          "id": "B",
+          "text": "2%"
+        },
+        {
+          "id": "C",
+          "text": "1%"
+        },
+        {
+          "id": "D",
+          "text": "5%"
+        }
+      ],
+      "answer": "D",
+      "explanation": "대상 항공종사자 및 객실승무원 중 최소 5%에 해당하는 인원을 연간 고른 분포로 무작위 측정한다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.1.8.4 / 공식 전문 PDF p.240.",
+      "reference": "운항기술기준 제2026-154호 · 8.1.8.4 · PDF p.240",
+      "source_clause": "8.1.8.4",
+      "source_page": 240,
+      "source_pages": [
+        240
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "바. 운항증명소지자는 소속 항공종사자(조종연습을 하는 자를 포함한다) 및 객실승무원 중 최소 5퍼센트에 해당하는 인원에 대하여 무작위로 연간 고른 분포로 예고없이 약물 섭취 또는 사용여부를 측정하여야 한다. 사. 약물 섭취 또는 사용여부 측정은 피측정자의 임무수행 직전부터 임무수행 직후까지",
+      "source_verification_terms": [
+        "5퍼센트"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "승무원 자격·음주",
+        "8.1.8.4"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-047",
+      "number": 47,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 4,
+      "study_unit_title": "승무원 자격·음주",
+      "subunit": {
+        "code": "8.1.8.4",
+        "title": "승무원 자격·음주"
+      },
+      "question": "운항증명소지자가 주류 등의 측정결과 기록을 안전한 장소에 보관해야 하는 최소 기간은?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1년"
+        },
+        {
+          "id": "B",
+          "text": "3개월"
+        },
+        {
+          "id": "C",
+          "text": "3년"
+        },
+        {
+          "id": "D",
+          "text": "6개월"
+        }
+      ],
+      "answer": "A",
+      "explanation": "측정결과 기록은 접근이 통제되는 안전한 장소에 최소 1년 보관한다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.1.8.4 / 공식 전문 PDF p.240.",
+      "reference": "운항기술기준 제2026-154호 · 8.1.8.4 · PDF p.240",
+      "source_clause": "8.1.8.4",
+      "source_page": 240,
+      "source_pages": [
+        240
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "아. 운항증명소지자는 주류등의 측정결과 기록을 접근이 통제되는 안전한 장소에 최소 1년간 보관하여야 한다. 자. 운항증명소지자는 전년도 주류등의 측정결과보고서를 매년 1월말까지 국토교통부장관 또는 지방항공청장에게 보고하고 최소 1년간 보관하여야 한다.",
+      "source_verification_terms": [
+        "1년"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "승무원 자격·음주",
+        "8.1.8.4"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-048",
+      "number": 48,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 4,
+      "study_unit_title": "승무원 자격·음주",
+      "subunit": {
+        "code": "8.1.8.4",
+        "title": "승무원 자격·음주"
+      },
+      "question": "전년도 주류 등의 측정결과보고서를 제출해야 하는 연간 기한은?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "매년 6월 말까지"
+        },
+        {
+          "id": "B",
+          "text": "매년 1월 말까지"
+        },
+        {
+          "id": "C",
+          "text": "매년 3월 말까지"
+        },
+        {
+          "id": "D",
+          "text": "매년 1월 10일까지"
+        }
+      ],
+      "answer": "B",
+      "explanation": "전년도 측정결과보고서는 매년 1월 말까지 보고하고 최소 1년간 보관한다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.1.8.4 / 공식 전문 PDF p.240.",
+      "reference": "운항기술기준 제2026-154호 · 8.1.8.4 · PDF p.240",
+      "source_clause": "8.1.8.4",
+      "source_page": 240,
+      "source_pages": [
+        240
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "1년간 보관하여야 한다. 자. 운항증명소지자는 전년도 주류등의 측정결과보고서를 매년 1월말까지 국토교통부장관 또는 지방항공청장에게 보고하고 최소 1년간 보관하여야 한다. 차. 운항증명소지자는 항공기 사고 시 가능한 빨리 해당 사고와 직접 관련이 있는 소속",
+      "source_verification_terms": [
+        "1월말"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "승무원 자격·음주",
+        "8.1.8.4"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-049",
+      "number": 49,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 4,
+      "study_unit_title": "승무원 자격·음주",
+      "subunit": {
+        "code": "8.1.8.11",
+        "title": "승무원 자격·음주"
+      },
+      "question": "기장이 안전운항상의 이유로 감독관의 조종실 출입을 불허했다면 사유 보고서를 언제까지 제출해야 하는가?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "비행 종료 후 7일 이내"
+        },
+        {
+          "id": "B",
+          "text": "비행 종료 후 30일 이내"
+        },
+        {
+          "id": "C",
+          "text": "비행 종료 후 24시간 이내"
+        },
+        {
+          "id": "D",
+          "text": "비행 종료 후 3일 이내"
+        }
+      ],
+      "answer": "A",
+      "explanation": "출입 불허 사유를 명기한 보고서를 비행 종료 후 7일 이내 국토교통부장관에게 제출해야 한다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.1.8.11 / 공식 전문 PDF p.244.",
+      "reference": "운항기술기준 제2026-154호 · 8.1.8.11 · PDF p.244",
+      "source_clause": "8.1.8.11",
+      "source_page": 244,
+      "source_pages": [
+        244
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "라. 가항의 규정에도 불구하고 기장은 항공기 안전운항상의 이유로 조종실의 출입을 불 허할 수 있으나, 이 경우 당해 기장은 비행종료 후 7일 이내에 그 사유를 명기한 보 고서를 국토교통부장관에게 제출하여야 한다. 8.1.8.12 기계적인 비정상보고 (Reporting Mechanical Irregularities)",
+      "source_verification_terms": [
+        "7일"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "승무원 자격·음주",
+        "8.1.8.11"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-050",
+      "number": 50,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 4,
+      "study_unit_title": "승무원 자격·음주",
+      "subunit": {
+        "code": "8.2.2",
+        "title": "승무원 자격·음주"
+      },
+      "question": "8.2.2 가항의 여객운송 또는 2인 이상 조종사 필요 항공기 기장의 최근 이착륙 경험은?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "최근 90일 이내 직접 조작 3회 이상"
+        },
+        {
+          "id": "B",
+          "text": "최근 90일 이내 1회 이상"
+        },
+        {
+          "id": "C",
+          "text": "최근 180일 이내 2회 이상"
+        },
+        {
+          "id": "D",
+          "text": "최근 30일 이내 1회 이상"
+        }
+      ],
+      "answer": "A",
+      "explanation": "가항의 대상 기장은 최근 90일 이내 동일 등급 항공기 형식 또는 모의비행장치로 직접 비행조작한 최소 3회 이착륙 경험이 필요하다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.2.2 / 공식 전문 PDF p.291.",
+      "reference": "운항기술기준 제2026-154호 · 8.2.2 · PDF p.291",
+      "source_clause": "8.2.2",
+      "source_page": 291,
+      "source_pages": [
+        291
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "8.2.2 기장의 자격유지 : 최근의 비행경험(Recent Experience : Takeoffs and Landings) 가. 여객을 운송하거나 2인 이상의 조종사를 필요로 하는 항공기의 기장은 최근 90일 이내에 동일 등급 항공기 형식 또는 모의비행장치를 이용하여 다음 각 호에서 정한 비행경험을 유지하여야 한다.",
+      "source_verification_terms": [
+        "90일"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "승무원 자격·음주",
+        "8.2.2"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-051",
+      "number": 51,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 4,
+      "study_unit_title": "승무원 자격·음주",
+      "subunit": {
+        "code": "8.2.2",
+        "title": "승무원 자격·음주"
+      },
+      "question": "8.2.2 가항 기장이 야간비행을 할 때, 기본 최근경험 조건과 함께 필요한 야간 이착륙 경험은?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "최근 30일 이내 야간 3회"
+        },
+        {
+          "id": "B",
+          "text": "최근 180일 이내 야간 1회"
+        },
+        {
+          "id": "C",
+          "text": "최근 90일 이내 야간 1회"
+        },
+        {
+          "id": "D",
+          "text": "최근 90일 이내 야간 3회"
+        }
+      ],
+      "answer": "C",
+      "explanation": "최근 90일의 최소 3회 이착륙 요건과 야간 1회 요건을 함께 충족해야 한다. 3회와 별도로 1회를 더해 총 4회를 요구한다는 뜻은 아니다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.2.2 / 공식 전문 PDF p.291.",
+      "reference": "운항기술기준 제2026-154호 · 8.2.2 · PDF p.291",
+      "source_clause": "8.2.2",
+      "source_page": 291,
+      "source_pages": [
+        291
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "1) 직접 비행조작으로 최소한 3회의 이∙착륙을 행한 경험이 있어야 한다. 2) 야간비행의 경우 제1호의 조건으로 야간에 1회의 이․착륙을 행한 경험이 있어야 한다. 나. 가항 이외의 항공기의 기장은 최근 180일 이내에 동일 등급 항공기 형식 또는 모의 비행장치를 이용하여 3회 이상의 이․착륙 경험을 유지하여야 한다.",
+      "source_verification_terms": [
+        "1회"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "승무원 자격·음주",
+        "8.2.2"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-052",
+      "number": 52,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 4,
+      "study_unit_title": "승무원 자격·음주",
+      "subunit": {
+        "code": "8.2.2",
+        "title": "승무원 자격·음주"
+      },
+      "question": "8.2.2 가항 이외 항공기 기장에게 적용되는 최근 이착륙 경험은?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "최근 180일 이내 1회 이상"
+        },
+        {
+          "id": "B",
+          "text": "최근 365일 이내 3회 이상"
+        },
+        {
+          "id": "C",
+          "text": "최근 90일 이내 1회 이상"
+        },
+        {
+          "id": "D",
+          "text": "최근 180일 이내 3회 이상"
+        }
+      ],
+      "answer": "D",
+      "explanation": "가항 이외 항공기의 기장은 최근 180일 이내 동일 등급 항공기 형식 또는 모의비행장치로 3회 이상의 이착륙 경험을 유지해야 한다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.2.2 / 공식 전문 PDF p.291.",
+      "reference": "운항기술기준 제2026-154호 · 8.2.2 · PDF p.291",
+      "source_clause": "8.2.2",
+      "source_page": 291,
+      "source_pages": [
+        291
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "2) 야간비행의 경우 제1호의 조건으로 야간에 1회의 이․착륙을 행한 경험이 있어야 한다. 나. 가항 이외의 항공기의 기장은 최근 180일 이내에 동일 등급 항공기 형식 또는 모의 비행장치를 이용하여 3회 이상의 이․착륙 경험을 유지하여야 한다. 8.2.3 조종사 자격유지 : 계기비행(Pilot Currency : IFR Operations)",
+      "source_verification_terms": [
+        "180일"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "승무원 자격·음주",
+        "8.2.2"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-053",
+      "number": 53,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 4,
+      "study_unit_title": "승무원 자격·음주",
+      "subunit": {
+        "code": "8.2.3",
+        "title": "승무원 자격·음주"
+      },
+      "question": "IFR 또는 IMC 계기비행을 하려는 조종사의 최근 계기비행 경험 조합은?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "이전 6개월간 계기접근 6회 이상 및 계기비행 6시간 이상"
+        },
+        {
+          "id": "B",
+          "text": "이전 3개월간 3회 및 3시간"
+        },
+        {
+          "id": "C",
+          "text": "이전 6개월간 3회 및 6시간"
+        },
+        {
+          "id": "D",
+          "text": "이전 12개월간 6회 및 12시간"
+        }
+      ],
+      "answer": "A",
+      "explanation": "비행하려는 날부터 이전 6개월 사이에 접근 6회 이상과 비행 6시간 이상을 모두 충족해야 한다. 계기비행시간에는 모의계기비행도 포함된다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.2.3 / 공식 전문 PDF p.291.",
+      "reference": "운항기술기준 제2026-154호 · 8.2.3 · PDF p.291",
+      "source_clause": "8.2.3",
+      "source_page": 291,
+      "source_pages": [
+        291
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "계기비행을 하고자 하는 날부터 기산하여 그 이전 6월까지의 사이에 6회 이상의 계기 접근과 6시간 이상의 계기비행(모의계기비행을 포함한다)을 행한 경험이 있어야 한다. 나. 국토교통부장관이 인정한 자로부터 계기비행심사를 이수한 조종사는 심사 이후 6개 월 동안은 계기비행 경험을 유지하고 있는 것으로 본다.",
+      "source_verification_terms": [
+        "6시간"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "승무원 자격·음주",
+        "8.2.3"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-054",
+      "number": 54,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 4,
+      "study_unit_title": "승무원 자격·음주",
+      "subunit": {
+        "code": "8.2.3",
+        "title": "승무원 자격·음주"
+      },
+      "question": "인정된 자로부터 계기비행심사를 이수한 조종사는 심사 후 얼마 동안 계기비행 경험을 유지하는 것으로 보는가?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "24개월"
+        },
+        {
+          "id": "B",
+          "text": "6개월"
+        },
+        {
+          "id": "C",
+          "text": "3개월"
+        },
+        {
+          "id": "D",
+          "text": "12개월"
+        }
+      ],
+      "answer": "B",
+      "explanation": "인정된 계기비행심사를 이수하면 심사 이후 6개월 동안 계기비행 경험 유지로 본다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.2.3 / 공식 전문 PDF p.291.",
+      "reference": "운항기술기준 제2026-154호 · 8.2.3 · PDF p.291",
+      "source_clause": "8.2.3",
+      "source_page": 291,
+      "source_pages": [
+        291
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "고정익항공기를 위한 운항기술기준 제8장 항공기 운항 제정：2001.10.04. 8 - 76 개정：2026.03.25. 8.2 일반항공(General Aviation)에 적용되는 추가 기준 8.2.1 항공기 운영교범 가. 국외비행에 사용되는 항공기 운영자는 항공기 운항절차(정상, 비정상 및 비상절차, 계 기접근절차 등)를 포함하여 비행교범 및 비행교범 준수여부를 확인하는데 사용할 수 있는 점검표가 수록된 항공기 운영교범(Aircraft Operating Manual)을 운항승무원 및 운항업무 관련 직원에게 제공 하여야 한다. 나. 항공기 운영교범은 활용되는 비행교범 및 점검표와 일관성이 있어야 하며, 사용자가 사용에 편리하도록 인적요인(Human Factors) 개념을 반영하여 설계 하여야 한다. 주. 인적요인 개념의 적용에 관한 지침은 ICAO Doc 9683(Human Factors Training Manual)을 참조한다. 다. 운영교범은 운항승무원 및 운항통제업무 등 운항관련 업무를 수행하는 모든 부서에 배부되어 근무 중 쉽게 이용할 수 있어야 하며, 비행중에는 운항승무원이 사용할 수 있도록 접근이 용이한 곳에 비치하여야 한다. 8.2.2 기장의 자격유지 : 최근의 비행경험(Recent Experience : Takeoffs and Land",
+      "source_verification_terms": [
+        "6개월"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "승무원 자격·음주",
+        "8.2.3"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-055",
+      "number": 55,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 4,
+      "study_unit_title": "승무원 자격·음주",
+      "subunit": {
+        "code": "8.2.4",
+        "title": "승무원 자격·음주"
+      },
+      "question": "8.2.2의 최근 비행경험을 유지하지 못한 기장·조종사의 자격회복 교육 최소 요건은?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "조종교육증명 보유자와 동승하여 2시간 이상 및 이착륙 3회 이상"
+        },
+        {
+          "id": "B",
+          "text": "3시간 이상 및 이착륙 6회 이상"
+        },
+        {
+          "id": "C",
+          "text": "1시간 이상 및 이착륙 1회 이상"
+        },
+        {
+          "id": "D",
+          "text": "2시간 이상 및 이착륙 1회 이상"
+        }
+      ],
+      "answer": "A",
+      "explanation": "해당 등급 항공기 또는 모의비행장치를 이용하여 2시간 이상의 교육과 3회 이상의 이착륙을 모두 이수해야 한다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.2.4 / 공식 전문 PDF p.292.",
+      "reference": "운항기술기준 제2026-154호 · 8.2.4 · PDF p.292",
+      "source_clause": "8.2.4",
+      "source_page": 292,
+      "source_pages": [
+        292
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "가. 8.2.2의 비행경험을 유지하지 못한 기장 또는 조종사는 운항하고자 하는 당해 등급 의 항공기 또는 모의비행장치를 이용하여 조종교육증명을 받은 자와 동승하여 2시간 이상, 3회 이상의 이․착륙 비행교육을 받아야 한다. 나. 삭 제",
+      "source_verification_terms": [
+        "2시간"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "승무원 자격·음주",
+        "8.2.4"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-056",
+      "number": 56,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 4,
+      "study_unit_title": "승무원 자격·음주",
+      "subunit": {
+        "code": "8.2.4",
+        "title": "승무원 자격·음주"
+      },
+      "question": "1개 조종석으로 형식증명된 항공기의 기장 임무를 위한 해당 교육의 기간·시간 기준은?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "최근 12개월 이내 2시간 이상"
+        },
+        {
+          "id": "B",
+          "text": "최근 6개월 이내 1시간 이상"
+        },
+        {
+          "id": "C",
+          "text": "최근 24개월 이내 2시간 이상"
+        },
+        {
+          "id": "D",
+          "text": "최근 36개월 이내 3시간 이상"
+        }
+      ],
+      "answer": "C",
+      "explanation": "조종교육증명 보유자의 감독하에 최근 24개월 이내 2시간 이상 교육한다. 심사관 동승이 불가능한 형식에는 원문의 지상 입회심사 예외가 있다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.2.4 / 공식 전문 PDF p.292.",
+      "reference": "운항기술기준 제2026-154호 · 8.2.4 · PDF p.292",
+      "source_clause": "8.2.4",
+      "source_page": 292,
+      "source_pages": [
+        292
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "다. 1개의 조종석으로 형식 증명된 항공기의 기장으로서 임무를 수행하고자 하는 자는 최근 24월 이내에 운항하고자 하는 당해 등급의 항공기 또는 모의비행장치를 이용하 여 조종교육증명을 받은 자의 감독하에서 2시간 이상의 비행교육을 이수하여야 한 다. 단, 조종석이 1개 밖에 없어 심사관 동승이 불가한 형식의 항공기는 지상 입회심",
+      "source_verification_terms": [
+        "24월"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "승무원 자격·음주",
+        "8.2.4"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-057",
+      "number": 57,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 4,
+      "study_unit_title": "승무원 자격·음주",
+      "subunit": {
+        "code": "8.2.4",
+        "title": "승무원 자격·음주"
+      },
+      "question": "2인 이상 조종사 필요 항공기의 부조종사 임무에 관한 해당 조항의 최근기간과 직접 조작 이착륙 횟수는?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "최근 12개월 / 1회"
+        },
+        {
+          "id": "B",
+          "text": "최근 24개월 / 3회"
+        },
+        {
+          "id": "C",
+          "text": "최근 12개월 / 3회"
+        },
+        {
+          "id": "D",
+          "text": "최근 6개월 / 1회"
+        }
+      ],
+      "answer": "C",
+      "explanation": "8.2.4 마항은 최근 12개월 내 시스템·성능·절차 숙지와 직접 조작한 이착륙 3회 기록을 요구한다. 다른 운송사업 최근경험 요건의 대체를 뜻하지 않는다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.2.4 / 공식 전문 PDF p.292.",
+      "reference": "운항기술기준 제2026-154호 · 8.2.4 · PDF p.292",
+      "source_clause": "8.2.4",
+      "source_page": 292,
+      "source_pages": [
+        292
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "마. 2인 이상의 조종사를 필요로 하는 항공기의 부조종사로서 임무를 수행하고자 하는 자 는 최근 12월 이내에 다음 요건을 충족하지 아니하고 임무를 수행하여서는 아니 된다. 1) 항공기시스템, 성능, 정상 및 비정상 비행절차를 숙지할 것 2) 직접 비행 조작하여 행한 3회의 이․착륙 기록이 있을 것",
+      "source_verification_terms": [
+        "12월"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "승무원 자격·음주",
+        "8.2.4"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-058",
+      "number": 58,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 4,
+      "study_unit_title": "승무원 자격·음주",
+      "subunit": {
+        "code": "8.2.6",
+        "title": "승무원 자격·음주"
+      },
+      "question": "국외비행 항공기의 정비기록 중 가항 1~5호와 6호의 최소 보관기간 조합은?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "운영중지 후 5년 / 서명 후 3년"
+        },
+        {
+          "id": "B",
+          "text": "영구 운영중지 후 90일 / 확인서명 후 1년"
+        },
+        {
+          "id": "C",
+          "text": "운영중지 후 30일 / 서명 후 6개월"
+        },
+        {
+          "id": "D",
+          "text": "운영중지 후 1년 / 서명 후 90일"
+        }
+      ],
+      "answer": "B",
+      "explanation": "1~5호 기록은 영구 운영중지 후 최소 90일, 6호의 세부 정비기록은 정비확인 또는 감항성 확인서명 이후 최소 1년을 보관한다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.2.6 / 공식 전문 PDF p.292, 293.",
+      "reference": "운항기술기준 제2026-154호 · 8.2.6 · PDF p.292, 293",
+      "source_clause": "8.2.6",
+      "source_page": 292,
+      "source_pages": [
+        292,
+        293
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "비 기록 나. 가항의 제1호 내지 제5호에 있는 항목들은 영구적으로 운영을 중지한 후 최소한 90 일 동안 보관되도록 하여야 하고, 가항 6)에 있는 기록은 정비확인 또는 감항성 확 인서명 이후 최소한 1년 동안 보관되도록 하여야 한다.",
+      "source_verification_terms": [
+        "90"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "승무원 자격·음주",
+        "8.2.6"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-059",
+      "number": 59,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 5,
+      "study_unit_title": "연료·교체공항",
+      "subunit": {
+        "code": "8.1.9.9",
+        "title": "연료·교체공항"
+      },
+      "question": "IFR 목적공항 관련 주석에서 공항 ‘사용예정시간’으로 간주하는 시간 여유는?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "도착 30분 전후"
+        },
+        {
+          "id": "B",
+          "text": "도착 1시간 전후"
+        },
+        {
+          "id": "C",
+          "text": "도착 2시간 전후"
+        },
+        {
+          "id": "D",
+          "text": "도착 15분 전후"
+        }
+      ],
+      "answer": "B",
+      "explanation": "해당 주석은 사용예정시간을 도착 1시간 전후로 간주한다. 특정 운영자의 별도 승인기준과는 구분한다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.1.9.9 / 공식 전문 PDF p.252.",
+      "reference": "운항기술기준 제2026-154호 · 8.1.9.9 · PDF p.252",
+      "source_clause": "8.1.9.9",
+      "source_page": 252,
+      "source_pages": [
+        252
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "기준을 승인할 수 있다. 주. ‘사용예정시간’은 도착 1시간 전후로 간주되며, 세부사항은 Flight Planning and Fuel Management Manual(Doc 9976)에 따른다. 8.1.9.10 계기비행방식으로 비행시 교체비행장 요건(IFR Destination Alternate Requirement)",
+      "source_verification_terms": [
+        "1시간"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "연료·교체공항",
+        "8.1.9.9"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-060",
+      "number": 60,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 5,
+      "study_unit_title": "연료·교체공항",
+      "subunit": {
+        "code": "8.1.9.10",
+        "title": "연료·교체공항"
+      },
+      "question": "별도로 열거된 면제조건이 없는 IFR 비행계획의 목적지 교체비행장 최소 수는?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "3개"
+        },
+        {
+          "id": "B",
+          "text": "2개"
+        },
+        {
+          "id": "C",
+          "text": "1개"
+        },
+        {
+          "id": "D",
+          "text": "0개"
+        }
+      ],
+      "answer": "C",
+      "explanation": "IFR은 원칙적으로 최소 1개의 목적지 교체비행장을 선정한다. 적합한 VMC·분리활주로 또는 고립공항 등의 명시된 예외는 별도다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.1.9.10 / 공식 전문 PDF p.252.",
+      "reference": "운항기술기준 제2026-154호 · 8.1.9.10 · PDF p.252",
+      "source_clause": "8.1.9.10",
+      "source_page": 252,
+      "source_pages": [
+        252
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "가. 계기비행규칙(IFR)에 의한 비행을 하고자 하는 자는 다음에서 정한 경우를 제외하고 비행계획서에 최소한 1개의 목적지 교체비행장을 정하지 아니하고 비행을 시작하여 서는 아니 된다. 1) 출발공항 또는 비행 중 재비행계획 지점(point of in-flight re-planning)부터 목적지",
+      "source_verification_terms": [
+        "1개"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "연료·교체공항",
+        "8.1.9.10"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-061",
+      "number": 61,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 5,
+      "study_unit_title": "연료·교체공항",
+      "subunit": {
+        "code": "8.1.9.10",
+        "title": "연료·교체공항"
+      },
+      "question": "운항증명소지자가 목적공항의 사용예정시간 기상이 설정 최저치 미만이거나 기상정보를 이용할 수 없을 때 목적지 교체공항 최소 수는?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1개"
+        },
+        {
+          "id": "B",
+          "text": "3개"
+        },
+        {
+          "id": "C",
+          "text": "0개"
+        },
+        {
+          "id": "D",
+          "text": "2개"
+        }
+      ],
+      "answer": "D",
+      "explanation": "두 상황에서는 최소 2개의 목적지 교체공항을 선정해야 한다. 위험도평가에 따른 별도 승인 변경기준은 적용하지 않은 문제다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.1.9.10 / 공식 전문 PDF p.253.",
+      "reference": "운항기술기준 제2026-154호 · 8.1.9.10 · PDF p.253",
+      "source_clause": "8.1.9.10",
+      "source_page": 253,
+      "source_pages": [
+        253
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "이상 주1. 분리활주로는 동일 공항에 2개 이상의 활주로로 구성되어 있음으로 1개의 활주로가 폐쇄되더라도 다른 활주로로 운항할 수 있다. 주2. 고립공항까지의 운항계획 수립을 위한 세부사항은 Flight Planning and Fuel",
+      "source_verification_terms": [
+        "2개"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "연료·교체공항",
+        "8.1.9.10"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-062",
+      "number": 62,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 5,
+      "study_unit_title": "연료·교체공항",
+      "subunit": {
+        "code": "8.1.9.11",
+        "title": "연료·교체공항"
+      },
+      "question": "교체비행장 최저기상치가 공표되지 않았고 별도 인가 최저치도 적용하지 않는 경우, 정밀접근 교체비행장의 운고·시정 기준은?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "600ft / 3km 이상"
+        },
+        {
+          "id": "B",
+          "text": "800ft / 3km 이상"
+        },
+        {
+          "id": "C",
+          "text": "400ft / 1.6km 이상"
+        },
+        {
+          "id": "D",
+          "text": "600ft / 5km 이상"
+        }
+      ],
+      "answer": "A",
+      "explanation": "정밀접근은 운고 180m(600ft), 시정 3km 이상이다. 본문의 병기 단위와 EDTO 공항선정 표의 3,200m를 혼합하지 않는다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.1.9.11 / 공식 전문 PDF p.254.",
+      "reference": "운항기술기준 제2026-154호 · 8.1.9.11 · PDF p.254",
+      "source_clause": "8.1.9.11",
+      "source_page": 254,
+      "source_pages": [
+        254
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "기상치 이상임을 확인하여야 한다. 1) 정밀접근 : 운고 180m(600ft) 및 시정 3km(2 statute miles) 이상 2) 비정밀접근 : 운고 240m(800ft) 및 시정 5km(3 statute miles) 이상 다. 가항 및 나항의 규정에 불구하고 항공운송사업에 사용되는 항공기의 기장의 경우에는",
+      "source_verification_terms": [
+        "600ft"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "연료·교체공항",
+        "8.1.9.11"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-063",
+      "number": 63,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 5,
+      "study_unit_title": "연료·교체공항",
+      "subunit": {
+        "code": "8.1.9.11",
+        "title": "연료·교체공항"
+      },
+      "question": "교체비행장 최저기상치가 공표되지 않았고 별도 인가 최저치도 적용하지 않는 경우, 비정밀접근 교체비행장의 운고·시정 기준은?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "800ft / 5km 이상"
+        },
+        {
+          "id": "B",
+          "text": "600ft / 3km 이상"
+        },
+        {
+          "id": "C",
+          "text": "800ft / 3km 이상"
+        },
+        {
+          "id": "D",
+          "text": "1,000ft / 5.5km 이상"
+        }
+      ],
+      "answer": "A",
+      "explanation": "비정밀접근은 운고 240m(800ft), 시정 5km 이상이다. 정밀접근과 시정·운고를 각각 구분한다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.1.9.11 / 공식 전문 PDF p.254.",
+      "reference": "운항기술기준 제2026-154호 · 8.1.9.11 · PDF p.254",
+      "source_clause": "8.1.9.11",
+      "source_page": 254,
+      "source_pages": [
+        254
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "1) 정밀접근 : 운고 180m(600ft) 및 시정 3km(2 statute miles) 이상 2) 비정밀접근 : 운고 240m(800ft) 및 시정 5km(3 statute miles) 이상 다. 가항 및 나항의 규정에 불구하고 항공운송사업에 사용되는 항공기의 기장의 경우에는 운영기준(Operations Specifications)에 정하여 항공당국의 인가를 받은 경우, 승인",
+      "source_verification_terms": [
+        "800ft"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "연료·교체공항",
+        "8.1.9.11"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-064",
+      "number": 64,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 5,
+      "study_unit_title": "연료·교체공항",
+      "subunit": {
+        "code": "8.1.9.15",
+        "title": "연료·교체공항"
+      },
+      "question": "운송사업용 외의 IFR 비행기에서 교체비행장이 요구되지 않는 경우, 목적지 도착 뒤 순항고도에서 비행할 수 있어야 하는 최종예비연료 시간은?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "최소 60분"
+        },
+        {
+          "id": "B",
+          "text": "최소 20분"
+        },
+        {
+          "id": "C",
+          "text": "최소 45분"
+        },
+        {
+          "id": "D",
+          "text": "최소 30분"
+        }
+      ],
+      "answer": "C",
+      "explanation": "가항의 비운송사업용 IFR 비행기는 이 조건에서 목적지 도착 후 순항고도로 최소 45분 비행할 최종예비연료가 필요하다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.1.9.15 / 공식 전문 PDF p.256, 257.",
+      "reference": "운항기술기준 제2026-154호 · 8.1.9.15 · PDF p.256, 257",
+      "source_clause": "8.1.9.15",
+      "source_page": 256,
+      "source_pages": [
+        256,
+        257
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "식으로 운항하거나, 고립공항으로 운항할 경우에는 목적지 비행장까지 비행 후에 순 항고도로 최소 45분 간 비행할 수 있는 최종예비연료량 또는, 3) 항공기운영자는 계기비행방식으로 운영하면서 목적지 교체비행장이 요구되는 경우, 목적지 교체비행장까지 비행 그리고 교체비행장까지 비행 후에 순항고도로 최소 45",
+      "source_verification_terms": [
+        "45분"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "연료·교체공항",
+        "8.1.9.15"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-065",
+      "number": 65,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 5,
+      "study_unit_title": "연료·교체공항",
+      "subunit": {
+        "code": "8.1.9.15",
+        "title": "연료·교체공항"
+      },
+      "question": "운송사업용 비행기의 일반적인 보정연료 비율은 계획된 운항연료의 얼마인가? 별도 감축·예외 승인은 적용하지 않는다.",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "3%"
+        },
+        {
+          "id": "B",
+          "text": "10%"
+        },
+        {
+          "id": "C",
+          "text": "2%"
+        },
+        {
+          "id": "D",
+          "text": "5%"
+        }
+      ],
+      "answer": "D",
+      "explanation": "기본 보정연료는 계획 운항연료의 5%이며, 최소 5분 체공량 하한도 따로 충족해야 한다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.1.9.15 / 공식 전문 PDF p.257.",
+      "reference": "운항기술기준 제2026-154호 · 8.1.9.15 · PDF p.257",
+      "source_clause": "8.1.9.15",
+      "source_page": 257,
+      "source_pages": [
+        257
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "예상치 못한 요인(unforeseen factor)에 대비하기 위한 연료로서 계획된 운항연료의 5퍼센트 또는 비행중 재 비행계획 지점(point of in-flight re-planning)에서 요구 되는 운항연료의 5퍼센트에 해당하는 보정연료를 탑재할 수 있다. 다만, 항로상 교체공항(En-route Alternate)이 별표 8.1.9.13에서 정한 범위 내에 있는 경우 운항",
+      "source_verification_terms": [
+        "5퍼센트"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "연료·교체공항",
+        "8.1.9.15"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-066",
+      "number": 66,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 5,
+      "study_unit_title": "연료·교체공항",
+      "subunit": {
+        "code": "8.1.9.15",
+        "title": "연료·교체공항"
+      },
+      "question": "별표가 정한 범위 내 항로상 교체공항 조건을 충족하면 보정연료를 운항연료의 몇 퍼센트로 산정할 수 있는가?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "4%"
+        },
+        {
+          "id": "B",
+          "text": "3%"
+        },
+        {
+          "id": "C",
+          "text": "2%"
+        },
+        {
+          "id": "D",
+          "text": "1%"
+        }
+      ],
+      "answer": "B",
+      "explanation": "적합한 항로상 교체공항이 별표 8.1.9.13의 범위 안에 있으면 3%를 적용할 수 있다. 최소 체공연료 하한은 그대로 적용된다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.1.9.15 / 공식 전문 PDF p.257.",
+      "reference": "운항기술기준 제2026-154호 · 8.1.9.15 · PDF p.257",
+      "source_clause": "8.1.9.15",
+      "source_page": 257,
+      "source_pages": [
+        257
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "교체공항(En-route Alternate)이 별표 8.1.9.13에서 정한 범위 내에 있는 경우 운항 연료의 3퍼센트에 해당하는 보정연료를 탑재할 수 있다. 보정연료는 표준대기상태 에서 목적공항 상공 450m(1,500 ft)에서 5분간 체공할 수 있는 양보다 적어서는 아니 된다.",
+      "source_verification_terms": [
+        "3퍼센트"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "연료·교체공항",
+        "8.1.9.15"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-067",
+      "number": 67,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 5,
+      "study_unit_title": "연료·교체공항",
+      "subunit": {
+        "code": "8.1.9.15",
+        "title": "연료·교체공항"
+      },
+      "question": "운송사업용 비행기 보정연료의 절대 하한인 체공 조건은?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "목적공항 1,000ft 상공에서 15분"
+        },
+        {
+          "id": "B",
+          "text": "목적공항 1,500ft 상공·표준대기에서 5분"
+        },
+        {
+          "id": "C",
+          "text": "목적공항 1,500ft 상공에서 30분"
+        },
+        {
+          "id": "D",
+          "text": "목적공항 500ft 상공에서 10분"
+        }
+      ],
+      "answer": "B",
+      "explanation": "보정연료는 목적공항 상공 450m(1,500ft), 표준대기에서 5분 체공량보다 적을 수 없다. 30분 최종예비연료와 다르다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.1.9.15 / 공식 전문 PDF p.257.",
+      "reference": "운항기술기준 제2026-154호 · 8.1.9.15 · PDF p.257",
+      "source_clause": "8.1.9.15",
+      "source_page": 257,
+      "source_pages": [
+        257
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "연료의 3퍼센트에 해당하는 보정연료를 탑재할 수 있다. 보정연료는 표준대기상태 에서 목적공항 상공 450m(1,500 ft)에서 5분간 체공할 수 있는 양보다 적어서는 아니 된다. 주. 예측치 못한 요인들(Unforeseen factors)은 목적공항까지의 연료소모에 영향을 미",
+      "source_verification_terms": [
+        "5분"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "연료·교체공항",
+        "8.1.9.15"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-068",
+      "number": 68,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 5,
+      "study_unit_title": "연료·교체공항",
+      "subunit": {
+        "code": "8.1.9.15",
+        "title": "연료·교체공항"
+      },
+      "question": "두 목적지 교체공항의 해당 연료량을 각각 4,000kg과 5,500kg으로 산정했다. 다른 조건이 같을 때 선정할 목적지교체공항 연료는?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "9,500kg"
+        },
+        {
+          "id": "B",
+          "text": "5,500kg"
+        },
+        {
+          "id": "C",
+          "text": "4,000kg"
+        },
+        {
+          "id": "D",
+          "text": "4,750kg"
+        }
+      ],
+      "answer": "B",
+      "explanation": "두 교체공항이 필요한 경우 각각 산정한 연료 중 더 많은 양을 선택한다. 평균이나 합계를 적용하지 않는다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.1.9.15 / 공식 전문 PDF p.257.",
+      "reference": "운항기술기준 제2026-154호 · 8.1.9.15 · PDF p.257",
+      "source_clause": "8.1.9.15",
+      "source_page": 257,
+      "source_pages": [
+        257
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "② 두 개의 목적지 교체공항이 필요한 경우 1) 라) ①에 따라 산정된 두 교체공항 연료 중 더 많은 연료량 ③ 목적지교체공항 없는 비행의 경우 표준대기상태에서 항공기가 목적공항 상공 450m (1,500ft)에서 체공속도로 15분 동안 비행하기 위한 연료량",
+      "source_verification_terms": [
+        "더 많은"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "연료·교체공항",
+        "8.1.9.15"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-069",
+      "number": 69,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 5,
+      "study_unit_title": "연료·교체공항",
+      "subunit": {
+        "code": "8.1.9.15",
+        "title": "연료·교체공항"
+      },
+      "question": "운송사업용 비행기의 목적지 교체공항 없는 비행에서 해당 목적지교체공항 연료 항목으로 요구되는 체공량은?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "목적공항 1,500ft 상공에서 15분"
+        },
+        {
+          "id": "B",
+          "text": "목적공항 1,500ft 상공에서 5분"
+        },
+        {
+          "id": "C",
+          "text": "목적공항 1,500ft 상공에서 45분"
+        },
+        {
+          "id": "D",
+          "text": "목적공항 3,000ft 상공에서 15분"
+        }
+      ],
+      "answer": "A",
+      "explanation": "표준대기, 목적공항 450m(1,500ft) 상공, 체공속도로 15분 비행할 연료다. 최종예비연료 항목은 별도로 유지한다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.1.9.15 / 공식 전문 PDF p.257.",
+      "reference": "운항기술기준 제2026-154호 · 8.1.9.15 · PDF p.257",
+      "source_clause": "8.1.9.15",
+      "source_page": 257,
+      "source_pages": [
+        257
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "③ 목적지교체공항 없는 비행의 경우 표준대기상태에서 항공기가 목적공항 상공 450m (1,500ft)에서 체공속도로 15분 동안 비행하기 위한 연료량 ④ 목적공항이 고립공항(Isolated Airdrome)인 경우 ㉮ 왕복엔진 항공기의 경우, 최종예비연료를 포함하여 순항고도에서 45분간 비행 할",
+      "source_verification_terms": [
+        "15분"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "연료·교체공항",
+        "8.1.9.15"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-070",
+      "number": 70,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 5,
+      "study_unit_title": "연료·교체공항",
+      "subunit": {
+        "code": "8.1.9.15",
+        "title": "연료·교체공항"
+      },
+      "question": "운송사업용 터빈엔진 항공기가 고립공항으로 운항할 때 해당 목적지교체공항 연료 항목의 기준은?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "최종예비연료 제외, 30분"
+        },
+        {
+          "id": "B",
+          "text": "최종예비연료 포함, 목적공항 상공 정상 순항소모율로 2시간"
+        },
+        {
+          "id": "C",
+          "text": "최종예비연료 포함, 45분"
+        },
+        {
+          "id": "D",
+          "text": "최종예비연료 제외, 3시간"
+        }
+      ],
+      "answer": "B",
+      "explanation": "고립공항 터빈엔진은 최종예비연료를 포함하여 목적공항 상공의 정상 순항 연료소모율로 2시간 비행할 양을 산정한다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.1.9.15 / 공식 전문 PDF p.257.",
+      "reference": "운항기술기준 제2026-154호 · 8.1.9.15 · PDF p.257",
+      "source_clause": "8.1.9.15",
+      "source_page": 257,
+      "source_pages": [
+        257
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "수 있는 연료에다 순항고도에서 비행시간의 15퍼센트에 해당하는 연료를 합한 연료량 또는 2시간 연료 중 더 적은 연료량 ㉯ 터빈엔진 항공기의 경우, 최종예비연료(final reserve fuel)를 포함하여 목적공항 상공에서 정상적인 순항 연료소모율로 2시간 비행할 수 있는 연료량",
+      "source_verification_terms": [
+        "2시간"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "연료·교체공항",
+        "8.1.9.15"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-071",
+      "number": 71,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 5,
+      "study_unit_title": "연료·교체공항",
+      "subunit": {
+        "code": "8.1.9.15",
+        "title": "연료·교체공항"
+      },
+      "question": "운송사업용 왕복엔진 항공기의 고립공항 연료 기준으로 맞는 것은?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "45분분+비행시간 5%분과 2시간분 중 많은 양"
+        },
+        {
+          "id": "B",
+          "text": "30분분+비행시간 10%분과 3시간분 중 적은 양"
+        },
+        {
+          "id": "C",
+          "text": "순항고도에서 2시간분에 최종예비를 추가"
+        },
+        {
+          "id": "D",
+          "text": "45분분+비행시간 15%분과 2시간분 중 적은 양(최종예비 포함)"
+        }
+      ],
+      "answer": "D",
+      "explanation": "순항고도 45분분과 비행시간 15%분의 합계 또는 2시간분 중 적은 연료량이며, 최종예비연료가 포함된다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.1.9.15 / 공식 전문 PDF p.257.",
+      "reference": "운항기술기준 제2026-154호 · 8.1.9.15 · PDF p.257",
+      "source_clause": "8.1.9.15",
+      "source_page": 257,
+      "source_pages": [
+        257
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "㉮ 왕복엔진 항공기의 경우, 최종예비연료를 포함하여 순항고도에서 45분간 비행 할 수 있는 연료에다 순항고도에서 비행시간의 15퍼센트에 해당하는 연료를 합한 연료량 또는 2시간 연료 중 더 적은 연료량 ㉯ 터빈엔진 항공기의 경우, 최종예비연료(final reserve fuel)를 포함하여 목적공항",
+      "source_verification_terms": [
+        "15퍼센트"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "연료·교체공항",
+        "8.1.9.15"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-072",
+      "number": 72,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 5,
+      "study_unit_title": "연료·교체공항",
+      "subunit": {
+        "code": "8.1.9.15",
+        "title": "연료·교체공항"
+      },
+      "question": "운송사업용 왕복엔진 항공기의 기본 최종예비연료는 어떤 비행에 해당하는가?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "순항속도·순항고도로 45분"
+        },
+        {
+          "id": "B",
+          "text": "순항속도로 60분"
+        },
+        {
+          "id": "C",
+          "text": "체공속도로 30분"
+        },
+        {
+          "id": "D",
+          "text": "체공속도로 15분"
+        }
+      ],
+      "answer": "A",
+      "explanation": "왕복엔진의 기본 최종예비연료는 순항속도와 순항고도에서 45분 비행할 양이다. 터빈엔진의 체공 30분 기준과 구분한다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.1.9.15 / 공식 전문 PDF p.257.",
+      "reference": "운항기술기준 제2026-154호 · 8.1.9.15 · PDF p.257",
+      "source_clause": "8.1.9.15",
+      "source_page": 257,
+      "source_pages": [
+        257
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "④ 목적공항이 고립공항(Isolated Airdrome)인 경우 ㉮ 왕복엔진 항공기의 경우, 최종예비연료를 포함하여 순항고도에서 45분간 비행 할 수 있는 연료에다 순항고도에서 비행시간의 15퍼센트에 해당하는 연료를 합한 연료량 또는 2시간 연료 중 더 적은 연료량",
+      "source_verification_terms": [
+        "45분"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "연료·교체공항",
+        "8.1.9.15"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-073",
+      "number": 73,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 5,
+      "study_unit_title": "연료·교체공항",
+      "subunit": {
+        "code": "8.1.9.15",
+        "title": "연료·교체공항"
+      },
+      "question": "운송사업용 터빈엔진 항공기의 기본 최종예비연료 조건은?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "공항 500ft 상공에서 15분"
+        },
+        {
+          "id": "B",
+          "text": "공항 3,000ft 상공에서 체공속도로 60분"
+        },
+        {
+          "id": "C",
+          "text": "공항 1,500ft 상공·표준대기·체공속도로 30분"
+        },
+        {
+          "id": "D",
+          "text": "공항 1,500ft 상공에서 순항속도로 45분"
+        }
+      ],
+      "answer": "C",
+      "explanation": "터빈엔진의 기본 기준은 공항 450m(1,500ft) 상공의 표준대기에서 체공속도로 30분 비행할 양이다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.1.9.15 / 공식 전문 PDF p.257, 258.",
+      "reference": "운항기술기준 제2026-154호 · 8.1.9.15 · PDF p.257, 258",
+      "source_clause": "8.1.9.15",
+      "source_page": 257,
+      "source_pages": [
+        257,
+        258
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "② 터빈엔진 항공기의 경우, 공항 450m(1,500 ft) 상공, 표준대기 상태에서 체공 속도로 30분 동안 비행할 수 있는 연료량 고정익항공기를 위한 운항기술기준",
+      "source_verification_terms": [
+        "30분"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "연료·교체공항",
+        "8.1.9.15"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-074",
+      "number": 74,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 5,
+      "study_unit_title": "연료·교체공항",
+      "subunit": {
+        "code": "8.1.9.15",
+        "title": "연료·교체공항"
+      },
+      "question": "엔진고장 또는 여압장치 고장 중 더 많은 연료를 요구하는 상황에 대비한 추가연료에는 교체공항 도착 후 어떤 체공이 포함되는가?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "공항 3,000ft 상공에서 30분"
+        },
+        {
+          "id": "B",
+          "text": "공항 1,500ft 상공·표준대기·체공속도로 15분"
+        },
+        {
+          "id": "C",
+          "text": "공항 500ft 상공에서 5분"
+        },
+        {
+          "id": "D",
+          "text": "공항 1,000ft 상공에서 10분"
+        }
+      ],
+      "answer": "B",
+      "explanation": "최소연료가 해당 고장 상황을 감당하기에 불충분한 경우의 추가연료는 교체공항 상공 1,500ft에서 15분 체공과 접근·착륙을 포함한다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.1.9.15 / 공식 전문 PDF p.258.",
+      "reference": "운항기술기준 제2026-154호 · 8.1.9.15 · PDF p.258",
+      "source_clause": "8.1.9.15",
+      "source_page": 258,
+      "source_pages": [
+        258
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "다음을 포함하는 연료 ㉮ 표준대기 상태에서 공항 450m(1,500 ft) 상공에서 체공속도로 15분 동안 비행 ㉯ 접근 및 착륙 ② 회항시간 연장운항(EDTO) 임계연료 시나리오에 부합하여 항공기가 회항시간 연장",
+      "source_verification_terms": [
+        "15분"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "연료·교체공항",
+        "8.1.9.15"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-075",
+      "number": 75,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 5,
+      "study_unit_title": "연료·교체공항",
+      "subunit": {
+        "code": "8.1.9.15",
+        "title": "연료·교체공항"
+      },
+      "question": "기본 5% 보정연료를 적용한다. 운항연료 10,000kg, 규정된 5분 체공량 400kg일 때 필요한 최소 보정연료는?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "300kg"
+        },
+        {
+          "id": "B",
+          "text": "900kg"
+        },
+        {
+          "id": "C",
+          "text": "500kg"
+        },
+        {
+          "id": "D",
+          "text": "400kg"
+        }
+      ],
+      "answer": "C",
+      "explanation": "운항연료의 5%는 500kg이며 5분 체공 하한 400kg보다 크다. 둘을 더하지 않고 하한을 충족하는 500kg을 사용한다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.1.9.15 / 공식 전문 PDF p.257.",
+      "reference": "운항기술기준 제2026-154호 · 8.1.9.15 · PDF p.257",
+      "source_clause": "8.1.9.15",
+      "source_page": 257,
+      "source_pages": [
+        257
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "예상치 못한 요인(unforeseen factor)에 대비하기 위한 연료로서 계획된 운항연료의 5퍼센트 또는 비행중 재 비행계획 지점(point of in-flight re-planning)에서 요구 되는 운항연료의 5퍼센트에 해당하는 보정연료를 탑재할 수 있다. 다만, 항로상 교체공항(En-route Alternate)이 별표 8.1.9.13에서 정한 범위 내에 있는 경우 운항",
+      "source_verification_terms": [
+        "5퍼센트"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "연료·교체공항",
+        "8.1.9.15"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-076",
+      "number": 76,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 5,
+      "study_unit_title": "연료·교체공항",
+      "subunit": {
+        "code": "8.1.9.15",
+        "title": "연료·교체공항"
+      },
+      "question": "3% 보정연료 감축 조건을 충족한다. 운항연료 10,000kg, 규정된 5분 체공량 400kg일 때 필요한 최소 보정연료는?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "500kg"
+        },
+        {
+          "id": "B",
+          "text": "400kg"
+        },
+        {
+          "id": "C",
+          "text": "300kg"
+        },
+        {
+          "id": "D",
+          "text": "700kg"
+        }
+      ],
+      "answer": "B",
+      "explanation": "3%는 300kg이지만 5분 체공 하한 400kg보다 적다. 하한 때문에 필요한 최소량은 400kg이다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.1.9.15 / 공식 전문 PDF p.257.",
+      "reference": "운항기술기준 제2026-154호 · 8.1.9.15 · PDF p.257",
+      "source_clause": "8.1.9.15",
+      "source_page": 257,
+      "source_pages": [
+        257
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "연료의 3퍼센트에 해당하는 보정연료를 탑재할 수 있다. 보정연료는 표준대기상태 에서 목적공항 상공 450m(1,500 ft)에서 5분간 체공할 수 있는 양보다 적어서는 아니 된다. 주. 예측치 못한 요인들(Unforeseen factors)은 목적공항까지의 연료소모에 영향을 미",
+      "source_verification_terms": [
+        "5분"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "연료·교체공항",
+        "8.1.9.15"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-077",
+      "number": 77,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 6,
+      "study_unit_title": "일반 비행절차",
+      "subunit": {
+        "code": "8.1.11.4",
+        "title": "일반 비행절차"
+      },
+      "question": "이 조항에 따른 해면고도 14,000ft 이상의 고도계 설정값은?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "29.92inHg"
+        },
+        {
+          "id": "B",
+          "text": "30.92inHg"
+        },
+        {
+          "id": "C",
+          "text": "공항 QFE만 사용"
+        },
+        {
+          "id": "D",
+          "text": "28.92inHg"
+        }
+      ],
+      "answer": "A",
+      "explanation": "해면고도 14,000ft 이상에서는 29.92인치로 맞춘다. 미만 구간의 고도계 수정치 및 예외와 구분한다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.1.11.4 / 공식 전문 PDF p.263, 264.",
+      "reference": "운항기술기준 제2026-154호 · 8.1.11.4 · PDF p.263, 264",
+      "source_clause": "8.1.11.4",
+      "source_page": 263,
+      "source_pages": [
+        263,
+        264
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "주. 동 요건은 공역내 및 항로상에서 운항하는 항공기가 해면고도 1만4천 피트 미만 에서 29.92인치를 사용하도록 요구된 때에는 적용되지 않는다. 가) 항로상에서 항공기로부터 100해리 이내에 위치한 항공교통관제기관으로부터 통보 된 고도계 수정치",
+      "source_verification_terms": [
+        "29.92"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "일반 비행절차",
+        "8.1.11.4"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-078",
+      "number": 78,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 6,
+      "study_unit_title": "일반 비행절차",
+      "subunit": {
+        "code": "8.1.11.4",
+        "title": "일반 비행절차"
+      },
+      "question": "해면고도 14,000ft 미만에서 원칙적으로 사용할 항로상 관제기관 고도계 수정치의 거리 기준은?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "항공기로부터 50NM 이내"
+        },
+        {
+          "id": "B",
+          "text": "항공기로부터 100NM 이내"
+        },
+        {
+          "id": "C",
+          "text": "항공기로부터 200NM 이내"
+        },
+        {
+          "id": "D",
+          "text": "항공기로부터 25NM 이내"
+        }
+      ],
+      "answer": "B",
+      "explanation": "항로상에서 항공기로부터 100해리 이내의 관제기관 수정치를 사용한다. 해당 기관이 없거나 무선이 없는 경우 등의 별도 규정도 있다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.1.11.4 / 공식 전문 PDF p.263.",
+      "reference": "운항기술기준 제2026-154호 · 8.1.11.4 · PDF p.263",
+      "source_clause": "8.1.11.4",
+      "source_page": 263,
+      "source_pages": [
+        263
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "에서 29.92인치를 사용하도록 요구된 때에는 적용되지 않는다. 가) 항로상에서 항공기로부터 100해리 이내에 위치한 항공교통관제기관으로부터 통보 된 고도계 수정치 나) 항로상에 항공교통관제기관이 없는 경우, 근접한 항공교통관제기관으로부터 통보",
+      "source_verification_terms": [
+        "100해리"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "일반 비행절차",
+        "8.1.11.4"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-079",
+      "number": 79,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 6,
+      "study_unit_title": "일반 비행절차",
+      "subunit": {
+        "code": "8.1.11.19",
+        "title": "일반 비행절차"
+      },
+      "question": "터보제트·터보팬 또는 대형항공기가 비행장에 도착할 때 장주에 진입하는 최소 높이는? 추가 착륙 강하 전을 말한다.",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "500ft AGL"
+        },
+        {
+          "id": "B",
+          "text": "1,000ft AGL"
+        },
+        {
+          "id": "C",
+          "text": "2,500ft MSL"
+        },
+        {
+          "id": "D",
+          "text": "1,500ft AGL"
+        }
+      ],
+      "answer": "D",
+      "explanation": "해당 장주 진입 고도는 최소 지표면상공고도 1,500ft다. MSL과 AGL 기준을 혼합하지 않는다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.1.11.19 / 공식 전문 PDF p.272.",
+      "reference": "운항기술기준 제2026-154호 · 8.1.11.19 · PDF p.272",
+      "source_clause": "8.1.11.19",
+      "source_page": 272,
+      "source_pages": [
+        272
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "가. 항공기가 비행장에 도착 시, 터보제트, 터보팬 또는 대형 항공기의 기장은 착륙을 위 한 강하가 더 필요할 때까지 최소한 지표면상공고도(AGL) 1,500피트로 장주에 진입 하여야 한다. 나. 항공기가 비행장을 출발할 시, 터보제트, 터보팬 또는 대형 항공기의 기장은 가능한",
+      "source_verification_terms": [
+        "1,500"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "일반 비행절차",
+        "8.1.11.19"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-080",
+      "number": 80,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 6,
+      "study_unit_title": "일반 비행절차",
+      "subunit": {
+        "code": "8.1.11.23",
+        "title": "일반 비행절차"
+      },
+      "question": "관제비행 중 보고지점 사이의 평균 TAS가 제출 비행계획 속도와 어느 정도 차이 날 것으로 예상되면 통보하는가?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "±3%"
+        },
+        {
+          "id": "B",
+          "text": "±10%"
+        },
+        {
+          "id": "C",
+          "text": "±5%"
+        },
+        {
+          "id": "D",
+          "text": "±2%"
+        }
+      ],
+      "answer": "C",
+      "explanation": "보고지점 사이 평균 진대기속도가 계획 속도와 ±5% 차이가 예상되는 경우 해당 관제기관에 통보한다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.1.11.23 / 공식 전문 PDF p.273.",
+      "reference": "운항기술기준 제2026-154호 · 8.1.11.23 · PDF p.273",
+      "source_clause": "8.1.11.23",
+      "source_page": 273,
+      "source_pages": [
+        273
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "2) 진대기속도 편차 : 기장은 순항고도에서 보고지점 사이의 평균 진대기속도가 비행계 획서에 명시된 속도와 ±5퍼센트의 차이가 발생될 것이 예상되는 경우에는 해당 항 공교통관제기관에 이를 통보 3) 예정시간 변경 : 기장은 보고지점, 비행정보구역의 경계 또는 도착공항의 도착예정",
+      "source_verification_terms": [
+        "5퍼센트"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "일반 비행절차",
+        "8.1.11.23"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-081",
+      "number": 81,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 6,
+      "study_unit_title": "일반 비행절차",
+      "subunit": {
+        "code": "8.1.11.23",
+        "title": "일반 비행절차"
+      },
+      "question": "별도의 관제기관·국지절차 시간 기준이 없다. 보고지점 등의 도착예정시각이 보고한 시각보다 몇 분 이상 늦어질 때 수정 통보하는가?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1분"
+        },
+        {
+          "id": "B",
+          "text": "2분"
+        },
+        {
+          "id": "C",
+          "text": "3분"
+        },
+        {
+          "id": "D",
+          "text": "5분"
+        }
+      ],
+      "answer": "C",
+      "explanation": "규정은 보고지점·FIR 경계·도착공항 도착예정시각이 보고한 시간보다 3분 이상 초과될 경우를 명시한다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.1.11.23 / 공식 전문 PDF p.273, 274.",
+      "reference": "운항기술기준 제2026-154호 · 8.1.11.23 · PDF p.273, 274",
+      "source_clause": "8.1.11.23",
+      "source_page": 273,
+      "source_pages": [
+        273,
+        274
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "3) 예정시간 변경 : 기장은 보고지점, 비행정보구역의 경계 또는 도착공항의 도착예정 시각이 관제기관에 보고된 시간보다 3분 이상 초과될 경우, 해당 항공교통관제 당국 고정익항공기를 위한 운항기술기준",
+      "source_verification_terms": [
+        "3분"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "일반 비행절차",
+        "8.1.11.23"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-082",
+      "number": 82,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 6,
+      "study_unit_title": "일반 비행절차",
+      "subunit": {
+        "code": "8.1.11.25",
+        "title": "일반 비행절차"
+      },
+      "question": "운영 중인 관제탑이 있는 공항에 도착하며 지상부터 2,500ft까지 운항할 때, 양방향통신은 최소 공항 몇 해리 전에 유지해야 하는가?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "5NM"
+        },
+        {
+          "id": "B",
+          "text": "10NM"
+        },
+        {
+          "id": "C",
+          "text": "2NM"
+        },
+        {
+          "id": "D",
+          "text": "3NM"
+        }
+      ],
+      "answer": "A",
+      "explanation": "해당 도착 항공기는 최소 공항 5해리 전에 관제탑과 양방향통신을 유지해야 한다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.1.11.25 / 공식 전문 PDF p.274.",
+      "reference": "운항기술기준 제2026-154호 · 8.1.11.25 · PDF p.274",
+      "source_clause": "8.1.11.25",
+      "source_page": 274,
+      "source_pages": [
+        274
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "나. 도착하는 항공기 : 기장은 도착시 지상으로부터 고도 2천 500 피트까지 운항 시에는 상기 가 항에서 요구되는 통신을 최소한 공항 5해리 전에 유지하여야 한다. 다. 출발하는 항공기 : 기장은 출발시 지상활주 전에 관제탑과 통신을 유지하여야 한다. 라. 이륙, 착륙, 지상활주허가 : 기장은 관제탑이 운영되는 공항에서 관제사의 적절한 허",
+      "source_verification_terms": [
+        "5해리"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "일반 비행절차",
+        "8.1.11.25"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-083",
+      "number": 83,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 6,
+      "study_unit_title": "일반 비행절차",
+      "subunit": {
+        "code": "8.1.11.28",
+        "title": "일반 비행절차"
+      },
+      "question": "특별 VFR 예외를 적용하지 않고 관제권 내 비행장에서 VFR 이착륙·진입을 위한 보고 운고·지상시정 기준은?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1,500ft 이상 / 1마일 이상"
+        },
+        {
+          "id": "B",
+          "text": "1,000ft 이상 / 1마일 이상"
+        },
+        {
+          "id": "C",
+          "text": "1,500ft 이상 / 3마일 이상"
+        },
+        {
+          "id": "D",
+          "text": "2,000ft 이상 / 5마일 이상"
+        }
+      ],
+      "answer": "C",
+      "explanation": "보고된 운고 1,500ft 이상 및 지상시정이 보고된 경우 3마일 이상을 요구한다. 지상시정 미보고 시에도 비행시정 3마일 이상을 유지한다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.1.11.28 / 공식 전문 PDF p.275.",
+      "reference": "운항기술기준 제2026-154호 · 8.1.11.28 · PDF p.275",
+      "source_clause": "8.1.11.28",
+      "source_page": 275,
+      "source_pages": [
+        275
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "거나 관제권 안으로 진입할 수 없다. 1) 보고된 운고 1,500피트 이상, 그리고 2) 보고되었다면, 보고된 지상시정 3마일 이상",
+      "source_verification_terms": [
+        "1,500피트"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "일반 비행절차",
+        "8.1.11.28"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-084",
+      "number": 84,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 6,
+      "study_unit_title": "일반 비행절차",
+      "subunit": {
+        "code": "8.1.11.28",
+        "title": "일반 비행절차"
+      },
+      "question": "G등급 공역의 공항에서 지표 1,200ft 이하로 이착륙을 위한 장주 진입 시, 활주로 1/2마일 이내 구름회피 조건과 함께 요구되는 최소 시정은?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "2마일"
+        },
+        {
+          "id": "B",
+          "text": "3마일"
+        },
+        {
+          "id": "C",
+          "text": "1마일"
+        },
+        {
+          "id": "D",
+          "text": "1/2마일"
+        }
+      ],
+      "answer": "C",
+      "explanation": "해당 조건에서 시정은 최소 1마일이다. 활주로 1/2마일 이내에서 구름을 회피할 수 있다는 다른 조건까지 함께 충족해야 한다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.1.11.28 / 공식 전문 PDF p.275, 276.",
+      "reference": "운항기술기준 제2026-154호 · 8.1.11.28 · PDF p.275, 276",
+      "source_clause": "8.1.11.28",
+      "source_page": 275,
+      "source_pages": [
+        275,
+        276
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "충족하여야 한다. 1) 항공기 : 시정이 적어도 1마일 이상이고 항공기가 활주로 1/2마일 이내에서 구름을 회피하여 운항할 수 있거나 2) 삭 제 < 2014.10.31 >",
+      "source_verification_terms": [
+        "1마일"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "일반 비행절차",
+        "8.1.11.28"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-085",
+      "number": 85,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 6,
+      "study_unit_title": "일반 비행절차",
+      "subunit": {
+        "code": "8.1.11.38",
+        "title": "일반 비행절차"
+      },
+      "question": "비관제공역에서 IMC로 지상·해상 3,000ft 이상 순항하며 자침로 090°일 때, 해당 조항에 맞는 고도는?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "7,000ft MSL"
+        },
+        {
+          "id": "B",
+          "text": "6,000ft MSL"
+        },
+        {
+          "id": "C",
+          "text": "8,500ft MSL"
+        },
+        {
+          "id": "D",
+          "text": "7,500ft MSL"
+        }
+      ],
+      "answer": "A",
+      "explanation": "자침로 0~179°는 홀수 천 단위 고도, 180~359°는 짝수 천 단위 고도를 사용한다. VFR의 500ft 가산 규칙과 구분한다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.1.11.38 / 공식 전문 PDF p.278, 279.",
+      "reference": "운항기술기준 제2026-154호 · 8.1.11.38 · PDF p.278, 279",
+      "source_clause": "8.1.11.38",
+      "source_page": 278,
+      "source_pages": [
+        278,
+        279
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "의 조종사는 다음 각 호에서 정한 고도를 유지하여야 한다. 1) 자침로 0°에서 179°까지 5,000, 7,000피트 또는 FL210과 같은 홀수 천 단위 해발고 도 또는 비행고도(FL) 2) 자침로 180°에서 359°까지 4,000, 6,000피트 또는 FL220과 같은 짝수 천 단위 해",
+      "source_verification_terms": [
+        "179"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "일반 비행절차",
+        "8.1.11.38"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-086",
+      "number": 86,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 6,
+      "study_unit_title": "일반 비행절차",
+      "subunit": {
+        "code": "8.1.11.35",
+        "title": "일반 비행절차"
+      },
+      "question": "지정된 IFR 최저고도가 없는 높은 지형·산악지역에서, 항공기 위치 8km 이내 최고 장애물 위 확보해야 하는 높이는?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1,000ft 이상"
+        },
+        {
+          "id": "B",
+          "text": "2,000ft 이상"
+        },
+        {
+          "id": "C",
+          "text": "500ft 이상"
+        },
+        {
+          "id": "D",
+          "text": "1,500ft 이상"
+        }
+      ],
+      "answer": "B",
+      "explanation": "산악·높은 지형은 반경 8km 내 최고 장애물로부터 600m(2,000ft) 이상이다. 이착륙 및 지정 최저고도가 있는 경우는 별도로 다룬다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.1.11.35 / 공식 전문 PDF p.277.",
+      "reference": "운항기술기준 제2026-154호 · 8.1.11.35 · PDF p.277",
+      "source_clause": "8.1.11.35",
+      "source_page": 277,
+      "source_pages": [
+        277
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "가) 높은 지형이나 산악지역에서는 항공기 위치로부터 8킬로미터 이내에 있는 제일 높 은 장애물로부터 600미터 (2,000피트) 이상 높이 나) 제1호에서 규정한 지역 이외에서는 항공기 위치로부터 8킬로미터 이내에서 가장 높은 장애물로부터 300미터(1,000피트) 이상 높이",
+      "source_verification_terms": [
+        "2,000피트"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "일반 비행절차",
+        "8.1.11.35"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-087",
+      "number": 87,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 6,
+      "study_unit_title": "일반 비행절차",
+      "subunit": {
+        "code": "8.1.11.35",
+        "title": "일반 비행절차"
+      },
+      "question": "지정된 IFR 최저고도가 없는 비산악지역에서, 항공기 위치 8km 이내 최고 장애물 위 확보해야 하는 높이는?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "2,000ft 이상"
+        },
+        {
+          "id": "B",
+          "text": "1,500ft 이상"
+        },
+        {
+          "id": "C",
+          "text": "500ft 이상"
+        },
+        {
+          "id": "D",
+          "text": "1,000ft 이상"
+        }
+      ],
+      "answer": "D",
+      "explanation": "높은 지형·산악지역 이외에서는 반경 8km 내 최고 장애물 위 300m(1,000ft) 이상이다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.1.11.35 / 공식 전문 PDF p.277.",
+      "reference": "운항기술기준 제2026-154호 · 8.1.11.35 · PDF p.277",
+      "source_clause": "8.1.11.35",
+      "source_page": 277,
+      "source_pages": [
+        277
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "나) 제1호에서 규정한 지역 이외에서는 항공기 위치로부터 8킬로미터 이내에서 가장 높은 장애물로부터 300미터(1,000피트) 이상 높이 다) 최저항로고도(MEA)와 최저장애물통과고도(MOCA)가 설정된 항로의 경우 운항하는 항공기가 관련 항행안전시설(VOR, VORTAC, TACAN)로부터 22해리 이내에 위치",
+      "source_verification_terms": [
+        "1,000피트"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "일반 비행절차",
+        "8.1.11.35"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-088",
+      "number": 88,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 6,
+      "study_unit_title": "일반 비행절차",
+      "subunit": {
+        "code": "8.1.11.35",
+        "title": "일반 비행절차"
+      },
+      "question": "MEA와 MOCA가 설정된 항로에서 MEA 아래 MOCA까지 운항할 수 있는 해당 항행안전시설과의 거리 조건은?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "15NM 이내"
+        },
+        {
+          "id": "B",
+          "text": "25NM 이내"
+        },
+        {
+          "id": "C",
+          "text": "22NM 이내"
+        },
+        {
+          "id": "D",
+          "text": "10NM 이내"
+        }
+      ],
+      "answer": "C",
+      "explanation": "관련 VOR·VORTAC·TACAN으로부터 22해리 이내라는 조건을 확인해야 한다. 항로가 지정한 MOCA 자체를 임의로 낮출 수는 없다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.1.11.35 / 공식 전문 PDF p.277.",
+      "reference": "운항기술기준 제2026-154호 · 8.1.11.35 · PDF p.277",
+      "source_clause": "8.1.11.35",
+      "source_page": 277,
+      "source_pages": [
+        277
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "다) 최저항로고도(MEA)와 최저장애물통과고도(MOCA)가 설정된 항로의 경우 운항하는 항공기가 관련 항행안전시설(VOR, VORTAC, TACAN)로부터 22해리 이내에 위치 하고 있다면 최저항로고도 이하로 강하하여 설정된 최저장애물통과고도까지 항공 기를 운항시킬 수 있다.",
+      "source_verification_terms": [
+        "22해리"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "일반 비행절차",
+        "8.1.11.35"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-089",
+      "number": 89,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 6,
+      "study_unit_title": "일반 비행절차",
+      "subunit": {
+        "code": "8.1.11.36",
+        "title": "일반 비행절차"
+      },
+      "question": "항로 자동조종장치 사용에서 AFM 최대손실고도의 2배가 500ft 이하이고 별도 승인 예외가 없을 때, 사용 금지 구간은?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "지상 300ft 미만"
+        },
+        {
+          "id": "B",
+          "text": "지상 500ft 미만"
+        },
+        {
+          "id": "C",
+          "text": "지상 100ft 미만"
+        },
+        {
+          "id": "D",
+          "text": "지상 1,000ft 미만"
+        }
+      ],
+      "answer": "B",
+      "explanation": "항로운항의 기본 사용 최저고도는 지상 500ft다. AFM 최대손실고도 2배가 더 크면 그 큰 수치를 적용한다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.1.11.36 / 공식 전문 PDF p.277, 278.",
+      "reference": "운항기술기준 제2026-154호 · 8.1.11.36 · PDF p.277, 278",
+      "source_clause": "8.1.11.36",
+      "source_page": 277,
+      "source_pages": [
+        277,
+        278
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "개정：2026.03.25. 가. 조종사는 항로운항 중 지상 500피트 미만의 고도에서 자동조종장치를 사용하여서는 아니 된다. 주. 순항상태에서 고장 발생시 비행교범(AFM)에 규정된 최대손실고도에 2를 곱하여",
+      "source_verification_terms": [
+        "500피트"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "일반 비행절차",
+        "8.1.11.36"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-090",
+      "number": 90,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 6,
+      "study_unit_title": "일반 비행절차",
+      "subunit": {
+        "code": "8.1.11.36",
+        "title": "일반 비행절차"
+      },
+      "question": "항로 순항 중 AFM의 자동조종장치 고장 최대손실고도가 300ft다. 별도 승인 예외가 없다면 사용 최저고도는?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "900ft AGL"
+        },
+        {
+          "id": "B",
+          "text": "300ft AGL"
+        },
+        {
+          "id": "C",
+          "text": "500ft AGL"
+        },
+        {
+          "id": "D",
+          "text": "600ft AGL"
+        }
+      ],
+      "answer": "D",
+      "explanation": "최대손실고도의 2배는 600ft로 기본 500ft보다 크다. 따라서 이 조건의 최저고도는 600ft AGL이다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.1.11.36 / 공식 전문 PDF p.277, 278.",
+      "reference": "운항기술기준 제2026-154호 · 8.1.11.36 · PDF p.277, 278",
+      "source_clause": "8.1.11.36",
+      "source_page": 277,
+      "source_pages": [
+        277,
+        278
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "아니 된다. 주. 순항상태에서 고장 발생시 비행교범(AFM)에 규정된 최대손실고도에 2를 곱하여 500피트 보다 크면 그 수치가 자동조종장치 사용 최저고도가 된다. 나. 조종사는 계기접근 중 최저강하고도(MDA) 또는 결심고도(DH) 50피트 미만에서 자",
+      "source_verification_terms": [
+        "2를"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "일반 비행절차",
+        "8.1.11.36"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-091",
+      "number": 91,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 7,
+      "study_unit_title": "항공운송·성능",
+      "subunit": {
+        "code": "8.4.4.2",
+        "title": "항공운송·성능"
+      },
+      "question": "EDTO 별도 인가 기준을 적용하지 않을 때 이륙교체비행장의 거리 제한에 대응하는 비행시간은? 쌍발은 1개 엔진 부작동, 3발 이상은 모든 엔진 작동 기준이다.",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "쌍발 2시간 / 3발 이상 3시간"
+        },
+        {
+          "id": "B",
+          "text": "모두 1시간"
+        },
+        {
+          "id": "C",
+          "text": "쌍발 30분 / 3발 이상 1시간"
+        },
+        {
+          "id": "D",
+          "text": "쌍발 1시간 / 3발 이상 2시간"
+        }
+      ],
+      "answer": "D",
+      "explanation": "실제이륙중량·무풍·ISA 조건에서 쌍발은 OEI 순항속도 1시간, 3발 이상은 모든 엔진 작동 순항속도 2시간의 거리 이내다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.4.4.2 / 공식 전문 PDF p.310.",
+      "reference": "운항기술기준 제2026-154호 · 8.4.4.2 · PDF p.310",
+      "source_clause": "8.4.4.2",
+      "source_page": 310,
+      "source_pages": [
+        310
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "2) 3발 이상 엔진 비행기 : 실제이륙중량을 사용하여 무풍상태 및 국제표준대기(ISA) 로 산정되고 비행기운용교범에서 결정된 모든 엔진 작동시 순항속도로 2시간의 비행 시간. 3) 회항시간연장운항(EDTO) 승인을 받은 비행기 : 실제이륙중량을 감안하여 운영자가 인",
+      "source_verification_terms": [
+        "2시간"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "항공운송·성능",
+        "8.4.4.2"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-092",
+      "number": 92,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 7,
+      "study_unit_title": "항공운송·성능",
+      "subunit": {
+        "code": "8.4.4.3",
+        "title": "항공운송·성능"
+      },
+      "question": "EDTO 승인을 받지 않은 항공운송사업용 쌍발 터빈엔진 비행기의 착륙가능비행장으로부터 최대 거리 기준은?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "모든 엔진 작동 순항속도로 60분"
+        },
+        {
+          "id": "B",
+          "text": "1개 엔진 부작동 순항속도로 60분"
+        },
+        {
+          "id": "C",
+          "text": "모든 엔진 작동 순항속도로 180분"
+        },
+        {
+          "id": "D",
+          "text": "1개 엔진 부작동 순항속도로 120분"
+        }
+      ],
+      "answer": "B",
+      "explanation": "무승인 쌍발 터빈 비행기는 규정된 OEI 순항속도로 60분의 비행거리를 벗어나면 안 된다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.4.4.3 / 공식 전문 PDF p.311.",
+      "reference": "운항기술기준 제2026-154호 · 8.4.4.3 · PDF p.311",
+      "source_clause": "8.4.4.3",
+      "source_page": 311,
+      "source_pages": [
+        311
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "1) 쌍발 터빈엔진 비행기 : 나목에 따라 결정된 1개 엔진이 부작동된 상태의 순항속도로 착륙가능비행장으로부터 60분의 비행거리 2) 삼발 이상의 터빈엔진 비행기 : 나목에 따라 결정된 모든 엔진이 작동된 상태의 순항 속도로 착륙가능비행장으로부터 180분의 비행거리(화물만을 전용으로 운송하기 위한",
+      "source_verification_terms": [
+        "60분"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "항공운송·성능",
+        "8.4.4.3"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-093",
+      "number": 93,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 7,
+      "study_unit_title": "항공운송·성능",
+      "subunit": {
+        "code": "8.4.4.5",
+        "title": "항공운송·성능"
+      },
+      "question": "EDTO 교체비행장에 2개 이상 정밀접근이 가능하다. 표준 기준을 적용하고 최저 접근기상치가 운고 200ft·시정 800m라면 선정 기상최저치는?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "운고 800ft / 시정 5,000m"
+        },
+        {
+          "id": "B",
+          "text": "운고 400ft / 시정 1,600m"
+        },
+        {
+          "id": "C",
+          "text": "운고 200ft / 시정 800m"
+        },
+        {
+          "id": "D",
+          "text": "운고 600ft / 시정 3,200m"
+        }
+      ],
+      "answer": "B",
+      "explanation": "기준 400ft·1,600m와 해당 최저치에 200ft·800m를 더한 결과를 비교해 높은 값을 쓴다. 이 예에서는 둘 다 400ft·1,600m다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.4.4.5 / 공식 전문 PDF p.312.",
+      "reference": "운항기술기준 제2026-154호 · 8.4.4.5 · PDF p.312",
+      "source_clause": "8.4.4.5",
+      "source_page": 312,
+      "source_pages": [
+        312
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "운고 600피트 및 시정 3,200미터 또는 당해 공항의 가장 낮은 최저 기상치에 운고 400피트 및 시정 1,600미터를 더한 것 중 높은 기상치 2) 2개 이상의 정밀접근절차가 가능한 공항 운고 400피트 및 시정 1,600미터 또는 당해 공항의 가장 낮은 최저 기상치에 운고",
+      "source_verification_terms": [
+        "1,600"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "항공운송·성능",
+        "8.4.4.5"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-094",
+      "number": 94,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 7,
+      "study_unit_title": "항공운송·성능",
+      "subunit": {
+        "code": "8.4.5.3",
+        "title": "항공운송·성능"
+      },
+      "question": "무풍 이착륙 성능자료에 바람효과를 수정할 때 적용하는 보고 정풍·배풍 비율은?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "정풍 50% / 배풍 50%"
+        },
+        {
+          "id": "B",
+          "text": "정풍 100% / 배풍 100%"
+        },
+        {
+          "id": "C",
+          "text": "정풍 50% / 배풍 150%"
+        },
+        {
+          "id": "D",
+          "text": "정풍 150% / 배풍 50%"
+        }
+      ],
+      "answer": "C",
+      "explanation": "보고된 정풍은 50%, 배풍은 150%를 고려한다. 유리한 효과는 줄이고 불리한 효과는 확대하는 방향이다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.4.5.3 / 공식 전문 PDF p.316.",
+      "reference": "운항기술기준 제2026-154호 · 8.4.5.3 · PDF p.316",
+      "source_clause": "8.4.5.3",
+      "source_page": 316,
+      "source_pages": [
+        316
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "주2. 바람효과 수정시 무풍을 기본으로 한 이․착륙 자료는 보고된 정풍의 50퍼센트, 보고된 배풍의 150퍼센트를 고려하여 수정한다. 라. 기장은 비행교범에 수록된 성능에 관한 정보가 위의 다항 및 8.1.10.3에 규정된 기 준이 비행하는데 맞게 적용될 수 있다는 것이 명시되어 있지 않는 한 비행하여서는",
+      "source_verification_terms": [
+        "150퍼센트"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "항공운송·성능",
+        "8.4.5.3"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-095",
+      "number": 95,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 7,
+      "study_unit_title": "항공운송·성능",
+      "subunit": {
+        "code": "8.4.5.4",
+        "title": "항공운송·성능"
+      },
+      "question": "V1 이후 중요엔진 부작동 조건에서 이륙비행경로의 최소 수직 장애물 통과 높이는 터빈엔진과 왕복엔진 각각 얼마인가?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "35ft / 35ft"
+        },
+        {
+          "id": "B",
+          "text": "50ft / 100ft"
+        },
+        {
+          "id": "C",
+          "text": "35ft / 50ft"
+        },
+        {
+          "id": "D",
+          "text": "15ft / 35ft"
+        }
+      ],
+      "answer": "C",
+      "explanation": "해당 이륙성능 조항은 터빈엔진 10.7m(35ft), 왕복엔진 15.2m(50ft)를 구분한다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.4.5.4 / 공식 전문 PDF p.316.",
+      "reference": "운항기술기준 제2026-154호 · 8.4.5.4 · PDF p.316",
+      "source_clause": "8.4.5.4",
+      "source_page": 316,
+      "source_pages": [
+        316
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "음 각 호를 만족하는 이륙비행경로를 유지해야 한다. 가) 터빈엔진 비행기는 최소 수직으로 10.7미터(35피트) 높이로, 왕복엔진 비행기는 15.2미터(50피트) 높이로 장애물을 통과할 수 있을 것 나) 이륙비행경로의 폭은 비행장 경계 이내에서는 수평으로 최소한 60미터(200피트)이",
+      "source_verification_terms": [
+        "35피트"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "항공운송·성능",
+        "8.4.5.4"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-096",
+      "number": 96,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 7,
+      "study_unit_title": "항공운송·성능",
+      "subunit": {
+        "code": "8.4.5.8",
+        "title": "항공운송·성능"
+      },
+      "question": "마른 활주로에서 터보제트·터보프롭이 완전 정지해야 하는 착륙가능거리(LDA)의 비율은 각각?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "60% / 60%"
+        },
+        {
+          "id": "B",
+          "text": "70% / 80%"
+        },
+        {
+          "id": "C",
+          "text": "50% / 60%"
+        },
+        {
+          "id": "D",
+          "text": "60% / 70%"
+        }
+      ],
+      "answer": "D",
+      "explanation": "활주로 말단 상공 50ft에서부터 터보제트는 LDA 60%, 터보프롭은 70% 이내 완전정지가 가능해야 한다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.4.5.8 / 공식 전문 PDF p.318.",
+      "reference": "운항기술기준 제2026-154호 · 8.4.5.8 · PDF p.318",
+      "source_clause": "8.4.5.8",
+      "source_page": 318,
+      "source_pages": [
+        318
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "가) 터보제트 비행기는 착륙가능거리(LDA)의 60퍼센트 이내 나) 터보프롭 비행기는 착륙가능거리(LDA)의 70퍼센트 이내 2) 젖은 활주로(Wet Runways) 또는 오염된 활주로(Contaminated Runways) : 도착예상시간의 활주로가 젖어있거나 미끄럽다고 예보되었다면 착륙가능거리(LDA)는",
+      "source_verification_terms": [
+        "70퍼센트"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "항공운송·성능",
+        "8.4.5.8"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-097",
+      "number": 97,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 7,
+      "study_unit_title": "항공운송·성능",
+      "subunit": {
+        "code": "8.4.5.8",
+        "title": "항공운송·성능"
+      },
+      "question": "AFM의 별도 젖은 활주로 기준이 없는 경우, 젖거나 미끄러운 활주로로 예보되면 LDA는 건조 활주로 요구 착륙거리의 최소 얼마여야 하는가?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "125%"
+        },
+        {
+          "id": "B",
+          "text": "110%"
+        },
+        {
+          "id": "C",
+          "text": "105%"
+        },
+        {
+          "id": "D",
+          "text": "115%"
+        }
+      ],
+      "answer": "D",
+      "explanation": "일반 기준은 마른 활주로 요구거리의 115% 이상이다. AFM 별도 기준을 쓰더라도 건조 활주로 요구거리보다 짧을 수 없다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.4.5.8 / 공식 전문 PDF p.318.",
+      "reference": "운항기술기준 제2026-154호 · 8.4.5.8 · PDF p.318",
+      "source_clause": "8.4.5.8",
+      "source_page": 318,
+      "source_pages": [
+        318
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "도착예상시간의 활주로가 젖어있거나 미끄럽다고 예보되었다면 착륙가능거리(LDA)는 상기 가목1)에 따라 마른 활주로에 요구되는 착륙거리의 115 퍼센트 이상이 되어야 한다. 다만, 비행교범(Flight Manual)에 젖은 활주로에서 착륙거리에 대해 별도로 규 정하는 경우 전술한 내용보다 짧은 착륙거리를 사용할 수 있으나 이 경우에도 마른",
+      "source_verification_terms": [
+        "115"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "항공운송·성능",
+        "8.4.5.8"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-098",
+      "number": 98,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 7,
+      "study_unit_title": "항공운송·성능",
+      "subunit": {
+        "code": "8.4.6.3",
+        "title": "항공운송·성능"
+      },
+      "question": "항공운송사업용 안정접근 요건에서 착륙형태 등 안정상태를 갖추어야 하는 IMC·VMC 높이는 각각?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1,000ft / 1,000ft"
+        },
+        {
+          "id": "B",
+          "text": "비행장 표고 위 1,000ft / 500ft"
+        },
+        {
+          "id": "C",
+          "text": "1,500ft / 1,000ft"
+        },
+        {
+          "id": "D",
+          "text": "500ft / 300ft"
+        }
+      ],
+      "answer": "B",
+      "explanation": "IMC는 비행장 표고로부터 1,000ft, VMC는 500ft에서 규정된 안정상태를 갖추어야 한다. 목표속도·경로·강하율 등 나머지 조건도 함께 충족해야 한다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.4.6.3 / 공식 전문 PDF p.321.",
+      "reference": "운항기술기준 제2026-154호 · 8.4.6.3 · PDF p.321",
+      "source_clause": "8.4.6.3",
+      "source_page": 321,
+      "source_pages": [
+        321
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "유지하였을 경우에는 목표속도로 줄여 안정된 접근상태를 유지하여야 하며, 항공기 는 비행장 표고로부터 500피트에서 다음 각 호와 같은 상태를 유지하여야 한다. 1) 분당 1,000피트를 초과하지 않는 안정된 강하율을 유지하여야 한다. 2) 허용된 범위 안의 목표속도를 유지하여야 한다.",
+      "source_verification_terms": [
+        "500피트"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "항공운송·성능",
+        "8.4.6.3"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-099",
+      "number": 99,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 7,
+      "study_unit_title": "항공운송·성능",
+      "subunit": {
+        "code": "8.4.8.22",
+        "title": "항공운송·성능"
+      },
+      "question": "기장·부기장의 해당 형식 노선운항승무시간이 각각 어느 수치 미만이면 두 조종사를 동시에 편조해서는 안 되는가?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "각각 25시간 미만"
+        },
+        {
+          "id": "B",
+          "text": "각각 200시간 미만"
+        },
+        {
+          "id": "C",
+          "text": "각각 50시간 미만"
+        },
+        {
+          "id": "D",
+          "text": "각각 100시간 미만"
+        }
+      ],
+      "answer": "D",
+      "explanation": "두 조종사가 각각 해당 형식 항공기의 기장 또는 부기장으로서 노선운항승무시간 100시간 미만이면 동시 편조 임무를 금지한다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.4.8.22 / 공식 전문 PDF p.337.",
+      "reference": "운항기술기준 제2026-154호 · 8.4.8.22 · PDF p.337",
+      "source_clause": "8.4.8.22",
+      "source_page": 337,
+      "source_pages": [
+        337
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "나. 부기장(Co-pilot)이 항공운송사업에서 운항하고자 하는 해당 형식 항공기의 비행시간 이 100시간 미만이고, 기장이 적합한 자격을 갖춘 검열운항승무원 또는 비행교관이 아닌 경우 기장은 별표 8.4.8.22에서 지정한 상황에서의 모든 이륙과 착륙을 직접 수행하여야 한다.",
+      "source_verification_terms": [
+        "100시간"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "항공운송·성능",
+        "8.4.8.22"
+      ]
+    },
+    {
+      "id": "FSR-NUM26-100",
+      "number": 100,
+      "subject": "고정익 운항기술기준",
+      "study_unit": 7,
+      "study_unit_title": "항공운송·성능",
+      "subunit": {
+        "code": "8.4.8.31",
+        "title": "항공운송·성능"
+      },
+      "question": "항공운송사업용 항공기 조종사는 최근 얼마 이내 동일 형식 항공기에 동승하는 노선심사를 받아야 하는가?",
+      "question_type": "multiple_choice",
+      "choices": [
+        {
+          "id": "A",
+          "text": "3개월"
+        },
+        {
+          "id": "B",
+          "text": "12개월"
+        },
+        {
+          "id": "C",
+          "text": "24개월"
+        },
+        {
+          "id": "D",
+          "text": "6개월"
+        }
+      ],
+      "answer": "B",
+      "explanation": "최근 12개월 이내 지정 공무원 또는 위촉심사관과 동일 형식 항공기에 동승하여 노선심사를 받아야 한다.\n\n근거: 국토교통부고시 제2026-154호(2026.3.25.) 8.4.8.31 / 공식 전문 PDF p.342.",
+      "reference": "운항기술기준 제2026-154호 · 8.4.8.31 · PDF p.342",
+      "source_clause": "8.4.8.31",
+      "source_page": 342,
+      "source_pages": [
+        342
+      ],
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162882605",
+      "source_document": "references/fsr-aeroplanes-2026-154.pdf",
+      "source_revision": "2026-154",
+      "source_date": "2026-03-25",
+      "source_excerpt": "Line checks) 가. 항공운송사업에 사용되는 항공기의 조종사는 최근 12개월 이내에 국토교통부장관이 지명한 소속공무원 또는 위촉심사관과 운항하고자 하는 동일 항공기 형식에 동승하 여 노선심사를 받아야 한다.",
+      "source_verification_terms": [
+        "12개월"
+      ],
+      "review_status": "official_2026_pdf_text_and_conditions_reviewed",
+      "gradable": true,
+      "answer_pending_review": false,
+      "requires_figure": false,
+      "images": [],
+      "figure_refs": [],
+      "tags": [
+        "숫자 규정",
+        "2026-154",
+        "항공운송·성능",
+        "8.4.8.31"
+      ]
+    }
+  ]
+}
