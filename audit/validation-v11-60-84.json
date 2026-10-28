@@ -1,0 +1,321 @@
+{
+  "pass": true,
+  "classified": 914,
+  "stages": 23,
+  "unassigned": 0,
+  "duplicateMembership": 0,
+  "checks": [
+    {
+      "width": 390,
+      "topic": "FLT-TH-01",
+      "count": 22,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "FLT-TH-02",
+      "count": 20,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "FLT-TH-03",
+      "count": 29,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "FLT-TH-04",
+      "count": 31,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "FLT-TH-05",
+      "count": 107,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "FLT-TH-06",
+      "count": 100,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "FLT-TH-07",
+      "count": 45,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "FLT-TH-08",
+      "count": 30,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "FLT-TH-09",
+      "count": 99,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "FLT-TH-10",
+      "count": 17,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "FLT-TH-11",
+      "count": 39,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "FLT-TH-12",
+      "count": 24,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "FLT-TH-13",
+      "count": 87,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "FLT-TH-14",
+      "count": 14,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "FLT-TH-15",
+      "count": 36,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "FLT-TH-16",
+      "count": 15,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "FLT-TH-17",
+      "count": 26,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "FLT-TH-18",
+      "count": 42,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "FLT-TH-19",
+      "count": 5,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "FLT-TH-20",
+      "count": 15,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "FLT-TH-21",
+      "count": 19,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "FLT-TH-22",
+      "count": 48,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "FLT-TH-23",
+      "count": 44,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "detailStages": 23,
+      "unassigned": 0,
+      "repeatCount": 2,
+      "wrongPractice": 1
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "detailStages": 23,
+      "unassigned": 0,
+      "repeatCount": 2,
+      "wrongPractice": 1
+    },
+    {
+      "width": 1440,
+      "topic": "FLT-TH-01",
+      "count": 22,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "FLT-TH-02",
+      "count": 20,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "FLT-TH-03",
+      "count": 29,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "FLT-TH-04",
+      "count": 31,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "FLT-TH-05",
+      "count": 107,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "FLT-TH-06",
+      "count": 100,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "FLT-TH-07",
+      "count": 45,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "FLT-TH-08",
+      "count": 30,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "FLT-TH-09",
+      "count": 99,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "FLT-TH-10",
+      "count": 17,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "FLT-TH-11",
+      "count": 39,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "FLT-TH-12",
+      "count": 24,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "FLT-TH-13",
+      "count": 87,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "FLT-TH-14",
+      "count": 14,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "FLT-TH-15",
+      "count": 36,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "FLT-TH-16",
+      "count": 15,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "FLT-TH-17",
+      "count": 26,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "FLT-TH-18",
+      "count": 42,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "FLT-TH-19",
+      "count": 5,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "FLT-TH-20",
+      "count": 15,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "FLT-TH-21",
+      "count": 19,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "FLT-TH-22",
+      "count": 48,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "FLT-TH-23",
+      "count": 44,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "detailStages": 23,
+      "unassigned": 0,
+      "repeatCount": 2,
+      "wrongPractice": 1
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "detailStages": 23,
+      "unassigned": 0,
+      "repeatCount": 2,
+      "wrongPractice": 1
+    }
+  ],
+  "lawClassificationRegression": true,
+  "navClassificationRegression": true,
+  "progressPreserved": true,
+  "mockRoundsRetained": 13
+}

@@ -3,23 +3,25 @@
     "name": "비행이론 교재 이론학습",
     "subject": "비행이론",
     "source_file": "비행이론.pdf",
-    "source_scope": "교재 본문 제1장~제8장(공기역학~항공기 성능) · 출제예상문제 589문항 연계",
-    "version": "v11.58.7-flight-theory-course23",
+    "source_scope": "교재 제1~8장 예상문제 589문항 + 모의고사 제1~13회 325문항",
+    "version": "v11.60.84-flight-theory-classified",
     "stage_count": 23,
     "quiz_rule": {
       "questions": 10,
       "pass_correct": 8,
       "pass_percent": 80
     },
-    "note": "비행이론.pdf의 장·절 구조를 23단계로 재구성. 각 단계를 끝까지 읽으면 해당 절의 출제예상문제에서 최대 10문항을 무작위 출제하고 80% 이상 정답 시 다음 단계가 열린다. 모의고사 325문항은 일반 문제은행에는 유지하되 단계시험에는 사용하지 않는다.",
+    "note": "기존 23개 단계 ID와 설명 본문 및 예상문제 연결을 유지하며, 모의고사까지 포함한 전체 914문항을 대표 학습영역 하나씩 연결. 단계시험은 연결된 문항에서 최대 10문항을 출제하고 80% 이상 정답 시 다음 단계가 열린다.",
     "content_basis": "비행이론.pdf 본문을 학습용으로 요약·재구성했으며 교재의 용어·수치·분류를 우선 보존함.",
-    "linked_question_count": 589,
+    "linked_question_count": 914,
     "bank_question_total": 914,
     "mock_exam_questions": 325,
     "question_source_file": "questions_flight_theory_001_914_review_pass2_ocr.json",
     "content_enhancement_version": "v11.60.67",
     "reference_policy": "대한민국 법령·eAIP가 한국 적용 기준. FAA 자료는 보충/미국 기준. 현행 발효자료와 NOTAM 반드시 확인.",
-    "deep_review_note": "기존 교재 이론은 유지하며 각 단계에 운항 적용과 자주 혼동하는 경계를 보강."
+    "deep_review_note": "기존 교재 이론은 유지하며 각 단계에 운항 적용과 자주 혼동하는 경계를 보강.",
+    "excluded_mock_question_count": 0,
+    "classification_revision": "v11.60.84"
   },
   "stages": [
     {
@@ -50,7 +52,14 @@
         "FLIGHT-THEORY-012",
         "FLIGHT-THEORY-013",
         "FLIGHT-THEORY-014",
-        "FLIGHT-THEORY-015"
+        "FLIGHT-THEORY-015",
+        "FLIGHT-THEORY-590",
+        "FLIGHT-THEORY-640",
+        "FLIGHT-THEORY-665",
+        "FLIGHT-THEORY-740",
+        "FLIGHT-THEORY-790",
+        "FLIGHT-THEORY-815",
+        "FLIGHT-THEORY-890"
       ],
       "quiz_questions": 10,
       "pass_percent": 80,
@@ -134,7 +143,8 @@
         "common_trap": "압력고도와 밀도고도를 동일하게 취급하지 않는다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.84-flight-all-topics"
     },
     {
       "id": "FLT-TH-02",
@@ -161,7 +171,13 @@
         "FLIGHT-THEORY-026",
         "FLIGHT-THEORY-027",
         "FLIGHT-THEORY-028",
-        "FLIGHT-THEORY-029"
+        "FLIGHT-THEORY-029",
+        "FLIGHT-THEORY-591",
+        "FLIGHT-THEORY-690",
+        "FLIGHT-THEORY-715",
+        "FLIGHT-THEORY-765",
+        "FLIGHT-THEORY-840",
+        "FLIGHT-THEORY-865"
       ],
       "quiz_questions": 10,
       "pass_percent": 80,
@@ -224,7 +240,8 @@
         "common_trap": "받음각과 날개 주위 순환을 무시한 단순한 ‘윗면 길이가 길어서 양력이 생긴다’는 설명만으로는 부족하다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.84-flight-all-topics"
     },
     {
       "id": "FLT-TH-03",
@@ -258,7 +275,17 @@
         "FLIGHT-THEORY-045",
         "FLIGHT-THEORY-046",
         "FLIGHT-THEORY-047",
-        "FLIGHT-THEORY-048"
+        "FLIGHT-THEORY-048",
+        "FLIGHT-THEORY-616",
+        "FLIGHT-THEORY-641",
+        "FLIGHT-THEORY-666",
+        "FLIGHT-THEORY-691",
+        "FLIGHT-THEORY-741",
+        "FLIGHT-THEORY-791",
+        "FLIGHT-THEORY-816",
+        "FLIGHT-THEORY-841",
+        "FLIGHT-THEORY-866",
+        "FLIGHT-THEORY-891"
       ],
       "quiz_questions": 10,
       "pass_percent": 80,
@@ -322,7 +349,8 @@
         "common_trap": "난류 경계층이 항상 불리한 것은 아니며 경우에 따라 박리를 지연한다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.84-flight-all-topics"
     },
     {
       "id": "FLT-TH-04",
@@ -358,7 +386,17 @@
         "FLIGHT-THEORY-066",
         "FLIGHT-THEORY-067",
         "FLIGHT-THEORY-068",
-        "FLIGHT-THEORY-069"
+        "FLIGHT-THEORY-069",
+        "FLIGHT-THEORY-595",
+        "FLIGHT-THEORY-615",
+        "FLIGHT-THEORY-667",
+        "FLIGHT-THEORY-669",
+        "FLIGHT-THEORY-692",
+        "FLIGHT-THEORY-716",
+        "FLIGHT-THEORY-767",
+        "FLIGHT-THEORY-792",
+        "FLIGHT-THEORY-842",
+        "FLIGHT-THEORY-892"
       ],
       "quiz_questions": 10,
       "pass_percent": 80,
@@ -451,7 +489,8 @@
         "common_trap": "IAS·TAS·Mach를 같은 숫자 축에서 직접 비교할 수 없다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.84-flight-all-topics"
     },
     {
       "id": "FLT-TH-05",
@@ -539,7 +578,41 @@
         "FLIGHT-THEORY-139",
         "FLIGHT-THEORY-140",
         "FLIGHT-THEORY-141",
-        "FLIGHT-THEORY-142"
+        "FLIGHT-THEORY-142",
+        "FLIGHT-THEORY-593",
+        "FLIGHT-THEORY-594",
+        "FLIGHT-THEORY-617",
+        "FLIGHT-THEORY-618",
+        "FLIGHT-THEORY-619",
+        "FLIGHT-THEORY-621",
+        "FLIGHT-THEORY-642",
+        "FLIGHT-THEORY-643",
+        "FLIGHT-THEORY-646",
+        "FLIGHT-THEORY-668",
+        "FLIGHT-THEORY-681",
+        "FLIGHT-THEORY-693",
+        "FLIGHT-THEORY-694",
+        "FLIGHT-THEORY-695",
+        "FLIGHT-THEORY-717",
+        "FLIGHT-THEORY-718",
+        "FLIGHT-THEORY-721",
+        "FLIGHT-THEORY-742",
+        "FLIGHT-THEORY-743",
+        "FLIGHT-THEORY-748",
+        "FLIGHT-THEORY-769",
+        "FLIGHT-THEORY-771",
+        "FLIGHT-THEORY-793",
+        "FLIGHT-THEORY-794",
+        "FLIGHT-THEORY-817",
+        "FLIGHT-THEORY-818",
+        "FLIGHT-THEORY-820",
+        "FLIGHT-THEORY-843",
+        "FLIGHT-THEORY-845",
+        "FLIGHT-THEORY-867",
+        "FLIGHT-THEORY-868",
+        "FLIGHT-THEORY-869",
+        "FLIGHT-THEORY-893",
+        "FLIGHT-THEORY-894"
       ],
       "quiz_questions": 10,
       "pass_percent": 80,
@@ -603,7 +676,8 @@
         "common_trap": "날개 면적만으로 양력 성능을 결정하지 않고 속도·밀도·양력계수를 함께 본다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.84-flight-all-topics"
     },
     {
       "id": "FLT-TH-06",
@@ -682,7 +756,43 @@
         "FLIGHT-THEORY-203",
         "FLIGHT-THEORY-204",
         "FLIGHT-THEORY-205",
-        "FLIGHT-THEORY-206"
+        "FLIGHT-THEORY-206",
+        "FLIGHT-THEORY-592",
+        "FLIGHT-THEORY-596",
+        "FLIGHT-THEORY-597",
+        "FLIGHT-THEORY-622",
+        "FLIGHT-THEORY-625",
+        "FLIGHT-THEORY-644",
+        "FLIGHT-THEORY-645",
+        "FLIGHT-THEORY-671",
+        "FLIGHT-THEORY-696",
+        "FLIGHT-THEORY-697",
+        "FLIGHT-THEORY-719",
+        "FLIGHT-THEORY-720",
+        "FLIGHT-THEORY-744",
+        "FLIGHT-THEORY-745",
+        "FLIGHT-THEORY-746",
+        "FLIGHT-THEORY-747",
+        "FLIGHT-THEORY-768",
+        "FLIGHT-THEORY-770",
+        "FLIGHT-THEORY-772",
+        "FLIGHT-THEORY-795",
+        "FLIGHT-THEORY-796",
+        "FLIGHT-THEORY-797",
+        "FLIGHT-THEORY-798",
+        "FLIGHT-THEORY-819",
+        "FLIGHT-THEORY-821",
+        "FLIGHT-THEORY-822",
+        "FLIGHT-THEORY-844",
+        "FLIGHT-THEORY-846",
+        "FLIGHT-THEORY-847",
+        "FLIGHT-THEORY-852",
+        "FLIGHT-THEORY-870",
+        "FLIGHT-THEORY-871",
+        "FLIGHT-THEORY-889",
+        "FLIGHT-THEORY-895",
+        "FLIGHT-THEORY-896",
+        "FLIGHT-THEORY-897"
       ],
       "quiz_questions": 10,
       "pass_percent": 80,
@@ -746,7 +856,8 @@
         "common_trap": "실속은 특정 속도가 아닌 임계 받음각 초과에서 발생하며 해당 속도는 중량·하중계수에 따라 변한다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.84-flight-all-topics"
     },
     {
       "id": "FLT-TH-07",
@@ -791,7 +902,22 @@
         "FLIGHT-THEORY-233",
         "FLIGHT-THEORY-234",
         "FLIGHT-THEORY-235",
-        "FLIGHT-THEORY-236"
+        "FLIGHT-THEORY-236",
+        "FLIGHT-THEORY-598",
+        "FLIGHT-THEORY-623",
+        "FLIGHT-THEORY-647",
+        "FLIGHT-THEORY-648",
+        "FLIGHT-THEORY-670",
+        "FLIGHT-THEORY-672",
+        "FLIGHT-THEORY-698",
+        "FLIGHT-THEORY-722",
+        "FLIGHT-THEORY-723",
+        "FLIGHT-THEORY-749",
+        "FLIGHT-THEORY-773",
+        "FLIGHT-THEORY-799",
+        "FLIGHT-THEORY-823",
+        "FLIGHT-THEORY-872",
+        "FLIGHT-THEORY-898"
       ],
       "quiz_questions": 10,
       "pass_percent": 80,
@@ -877,7 +1003,8 @@
         "common_trap": "양력 증가 장치의 사용이 언제나 상승성능을 개선하는 것은 아니다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.84-flight-all-topics"
     },
     {
       "id": "FLT-TH-08",
@@ -911,7 +1038,16 @@
         "FLIGHT-THEORY-254",
         "FLIGHT-THEORY-255",
         "FLIGHT-THEORY-256",
-        "FLIGHT-THEORY-257"
+        "FLIGHT-THEORY-257",
+        "FLIGHT-THEORY-599",
+        "FLIGHT-THEORY-624",
+        "FLIGHT-THEORY-699",
+        "FLIGHT-THEORY-724",
+        "FLIGHT-THEORY-750",
+        "FLIGHT-THEORY-824",
+        "FLIGHT-THEORY-849",
+        "FLIGHT-THEORY-873",
+        "FLIGHT-THEORY-899"
       ],
       "quiz_questions": 10,
       "pass_percent": 80,
@@ -969,7 +1105,8 @@
         "common_trap": "최소항력속도와 최소필요동력속도는 일반적으로 같지 않다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.84-flight-all-topics"
     },
     {
       "id": "FLT-TH-09",
@@ -1043,7 +1180,47 @@
         "FLIGHT-THEORY-313",
         "FLIGHT-THEORY-314",
         "FLIGHT-THEORY-315",
-        "FLIGHT-THEORY-316"
+        "FLIGHT-THEORY-316",
+        "FLIGHT-THEORY-600",
+        "FLIGHT-THEORY-601",
+        "FLIGHT-THEORY-606",
+        "FLIGHT-THEORY-620",
+        "FLIGHT-THEORY-626",
+        "FLIGHT-THEORY-627",
+        "FLIGHT-THEORY-649",
+        "FLIGHT-THEORY-650",
+        "FLIGHT-THEORY-651",
+        "FLIGHT-THEORY-652",
+        "FLIGHT-THEORY-653",
+        "FLIGHT-THEORY-673",
+        "FLIGHT-THEORY-674",
+        "FLIGHT-THEORY-675",
+        "FLIGHT-THEORY-700",
+        "FLIGHT-THEORY-701",
+        "FLIGHT-THEORY-702",
+        "FLIGHT-THEORY-725",
+        "FLIGHT-THEORY-726",
+        "FLIGHT-THEORY-751",
+        "FLIGHT-THEORY-752",
+        "FLIGHT-THEORY-766",
+        "FLIGHT-THEORY-774",
+        "FLIGHT-THEORY-775",
+        "FLIGHT-THEORY-776",
+        "FLIGHT-THEORY-777",
+        "FLIGHT-THEORY-800",
+        "FLIGHT-THEORY-801",
+        "FLIGHT-THEORY-825",
+        "FLIGHT-THEORY-826",
+        "FLIGHT-THEORY-827",
+        "FLIGHT-THEORY-834",
+        "FLIGHT-THEORY-848",
+        "FLIGHT-THEORY-850",
+        "FLIGHT-THEORY-851",
+        "FLIGHT-THEORY-874",
+        "FLIGHT-THEORY-875",
+        "FLIGHT-THEORY-876",
+        "FLIGHT-THEORY-900",
+        "FLIGHT-THEORY-901"
       ],
       "quiz_questions": 10,
       "pass_percent": 80,
@@ -1108,7 +1285,8 @@
         "common_trap": "최대상승각(Vx)과 최대상승률(Vy)은 목표와 속도가 다른 성능이다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.84-flight-all-topics"
     },
     {
       "id": "FLT-TH-10",
@@ -1132,7 +1310,15 @@
         "FLIGHT-THEORY-322",
         "FLIGHT-THEORY-323",
         "FLIGHT-THEORY-324",
-        "FLIGHT-THEORY-325"
+        "FLIGHT-THEORY-325",
+        "FLIGHT-THEORY-603",
+        "FLIGHT-THEORY-628",
+        "FLIGHT-THEORY-703",
+        "FLIGHT-THEORY-727",
+        "FLIGHT-THEORY-802",
+        "FLIGHT-THEORY-828",
+        "FLIGHT-THEORY-877",
+        "FLIGHT-THEORY-902"
       ],
       "quiz_questions": 10,
       "pass_percent": 80,
@@ -1190,7 +1376,8 @@
         "common_trap": "지상활주거리와 장애물 통과 이륙거리를 같은 개념으로 쓰지 않는다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.84-flight-all-topics"
     },
     {
       "id": "FLT-TH-11",
@@ -1228,7 +1415,23 @@
         "FLIGHT-THEORY-345",
         "FLIGHT-THEORY-346",
         "FLIGHT-THEORY-347",
-        "FLIGHT-THEORY-348"
+        "FLIGHT-THEORY-348",
+        "FLIGHT-THEORY-604",
+        "FLIGHT-THEORY-629",
+        "FLIGHT-THEORY-654",
+        "FLIGHT-THEORY-655",
+        "FLIGHT-THEORY-677",
+        "FLIGHT-THEORY-728",
+        "FLIGHT-THEORY-753",
+        "FLIGHT-THEORY-754",
+        "FLIGHT-THEORY-762",
+        "FLIGHT-THEORY-778",
+        "FLIGHT-THEORY-779",
+        "FLIGHT-THEORY-803",
+        "FLIGHT-THEORY-853",
+        "FLIGHT-THEORY-878",
+        "FLIGHT-THEORY-879",
+        "FLIGHT-THEORY-903"
       ],
       "quiz_questions": 10,
       "pass_percent": 80,
@@ -1286,7 +1489,8 @@
         "common_trap": "45도 선회와 60도 선회의 하중계수를 단순한 각도 비율로 계산하지 않는다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.84-flight-all-topics"
     },
     {
       "id": "FLT-TH-12",
@@ -1315,7 +1519,15 @@
         "FLIGHT-THEORY-361",
         "FLIGHT-THEORY-362",
         "FLIGHT-THEORY-363",
-        "FLIGHT-THEORY-364"
+        "FLIGHT-THEORY-364",
+        "FLIGHT-THEORY-605",
+        "FLIGHT-THEORY-678",
+        "FLIGHT-THEORY-704",
+        "FLIGHT-THEORY-729",
+        "FLIGHT-THEORY-804",
+        "FLIGHT-THEORY-829",
+        "FLIGHT-THEORY-854",
+        "FLIGHT-THEORY-906"
       ],
       "quiz_questions": 10,
       "pass_percent": 80,
@@ -1399,7 +1611,8 @@
         "common_trap": "트림 작동은 자동으로 적절한 자세나 비행경로를 유지하는 기능과 같지 않다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.84-flight-all-topics"
     },
     {
       "id": "FLT-TH-13",
@@ -1468,7 +1681,40 @@
         "FLIGHT-THEORY-415",
         "FLIGHT-THEORY-416",
         "FLIGHT-THEORY-417",
-        "FLIGHT-THEORY-418"
+        "FLIGHT-THEORY-418",
+        "FLIGHT-THEORY-602",
+        "FLIGHT-THEORY-607",
+        "FLIGHT-THEORY-630",
+        "FLIGHT-THEORY-631",
+        "FLIGHT-THEORY-632",
+        "FLIGHT-THEORY-656",
+        "FLIGHT-THEORY-657",
+        "FLIGHT-THEORY-658",
+        "FLIGHT-THEORY-676",
+        "FLIGHT-THEORY-679",
+        "FLIGHT-THEORY-680",
+        "FLIGHT-THEORY-682",
+        "FLIGHT-THEORY-705",
+        "FLIGHT-THEORY-706",
+        "FLIGHT-THEORY-730",
+        "FLIGHT-THEORY-731",
+        "FLIGHT-THEORY-755",
+        "FLIGHT-THEORY-756",
+        "FLIGHT-THEORY-757",
+        "FLIGHT-THEORY-780",
+        "FLIGHT-THEORY-781",
+        "FLIGHT-THEORY-805",
+        "FLIGHT-THEORY-806",
+        "FLIGHT-THEORY-807",
+        "FLIGHT-THEORY-830",
+        "FLIGHT-THEORY-831",
+        "FLIGHT-THEORY-832",
+        "FLIGHT-THEORY-855",
+        "FLIGHT-THEORY-856",
+        "FLIGHT-THEORY-857",
+        "FLIGHT-THEORY-880",
+        "FLIGHT-THEORY-904",
+        "FLIGHT-THEORY-905"
       ],
       "quiz_questions": 10,
       "pass_percent": 80,
@@ -1557,7 +1803,8 @@
         "common_trap": "정적으로 안정하다는 사실만으로 모든 진동이 시간이 지나며 감소하는 것은 아니다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.84-flight-all-topics"
     },
     {
       "id": "FLT-TH-14",
@@ -1582,7 +1829,11 @@
         "FLIGHT-THEORY-425",
         "FLIGHT-THEORY-426",
         "FLIGHT-THEORY-427",
-        "FLIGHT-THEORY-428"
+        "FLIGHT-THEORY-428",
+        "FLIGHT-THEORY-684",
+        "FLIGHT-THEORY-707",
+        "FLIGHT-THEORY-883",
+        "FLIGHT-THEORY-907"
       ],
       "quiz_questions": 10,
       "pass_percent": 80,
@@ -1646,7 +1897,8 @@
         "common_trap": "고속 불안정 현상을 모두 ‘실속’이라고 부르지 않는다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.84-flight-all-topics"
     },
     {
       "id": "FLT-TH-15",
@@ -1683,7 +1935,21 @@
         "FLIGHT-THEORY-447",
         "FLIGHT-THEORY-448",
         "FLIGHT-THEORY-449",
-        "FLIGHT-THEORY-450"
+        "FLIGHT-THEORY-450",
+        "FLIGHT-THEORY-608",
+        "FLIGHT-THEORY-609",
+        "FLIGHT-THEORY-633",
+        "FLIGHT-THEORY-659",
+        "FLIGHT-THEORY-685",
+        "FLIGHT-THEORY-708",
+        "FLIGHT-THEORY-732",
+        "FLIGHT-THEORY-761",
+        "FLIGHT-THEORY-782",
+        "FLIGHT-THEORY-808",
+        "FLIGHT-THEORY-833",
+        "FLIGHT-THEORY-858",
+        "FLIGHT-THEORY-884",
+        "FLIGHT-THEORY-908"
       ],
       "quiz_questions": 10,
       "pass_percent": 80,
@@ -1769,7 +2035,8 @@
         "common_trap": "터보제트와 터보팬은 바이패스 흐름 및 추진 효율에서 차이가 있다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.84-flight-all-topics"
     },
     {
       "id": "FLT-TH-16",
@@ -1794,7 +2061,12 @@
         "FLIGHT-THEORY-457",
         "FLIGHT-THEORY-458",
         "FLIGHT-THEORY-459",
-        "FLIGHT-THEORY-460"
+        "FLIGHT-THEORY-460",
+        "FLIGHT-THEORY-634",
+        "FLIGHT-THEORY-660",
+        "FLIGHT-THEORY-709",
+        "FLIGHT-THEORY-733",
+        "FLIGHT-THEORY-837"
       ],
       "quiz_questions": 10,
       "pass_percent": 80,
@@ -1858,7 +2130,8 @@
         "common_trap": "자동차 엔진 상식을 그대로 항공기 마그네토·카뷰레터 결빙·혼합비 운용에 적용하지 않는다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.84-flight-all-topics"
     },
     {
       "id": "FLT-TH-17",
@@ -1889,7 +2162,17 @@
         "FLIGHT-THEORY-473",
         "FLIGHT-THEORY-474",
         "FLIGHT-THEORY-475",
-        "FLIGHT-THEORY-476"
+        "FLIGHT-THEORY-476",
+        "FLIGHT-THEORY-635",
+        "FLIGHT-THEORY-734",
+        "FLIGHT-THEORY-758",
+        "FLIGHT-THEORY-784",
+        "FLIGHT-THEORY-809",
+        "FLIGHT-THEORY-861",
+        "FLIGHT-THEORY-863",
+        "FLIGHT-THEORY-881",
+        "FLIGHT-THEORY-885",
+        "FLIGHT-THEORY-909"
       ],
       "quiz_questions": 10,
       "pass_percent": 80,
@@ -1953,7 +2236,8 @@
         "common_trap": "프로펠러 깃각과 항공기 피치각·받음각은 서로 다른 개념이다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.84-flight-all-topics"
     },
     {
       "id": "FLT-TH-18",
@@ -1996,7 +2280,21 @@
         "FLIGHT-THEORY-501",
         "FLIGHT-THEORY-502",
         "FLIGHT-THEORY-503",
-        "FLIGHT-THEORY-504"
+        "FLIGHT-THEORY-504",
+        "FLIGHT-THEORY-610",
+        "FLIGHT-THEORY-613",
+        "FLIGHT-THEORY-661",
+        "FLIGHT-THEORY-662",
+        "FLIGHT-THEORY-683",
+        "FLIGHT-THEORY-710",
+        "FLIGHT-THEORY-739",
+        "FLIGHT-THEORY-759",
+        "FLIGHT-THEORY-785",
+        "FLIGHT-THEORY-810",
+        "FLIGHT-THEORY-836",
+        "FLIGHT-THEORY-859",
+        "FLIGHT-THEORY-887",
+        "FLIGHT-THEORY-910"
       ],
       "quiz_questions": 10,
       "pass_percent": 80,
@@ -2077,7 +2375,8 @@
         "common_trap": "고도계가 기압을 읽는다는 것과 실제 높이를 직접 재는 것은 다른 이야기다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.84-flight-all-topics"
     },
     {
       "id": "FLT-TH-19",
@@ -2095,7 +2394,9 @@
       "question_ids": [
         "FLIGHT-THEORY-505",
         "FLIGHT-THEORY-506",
-        "FLIGHT-THEORY-507"
+        "FLIGHT-THEORY-507",
+        "FLIGHT-THEORY-636",
+        "FLIGHT-THEORY-860"
       ],
       "quiz_questions": 10,
       "pass_percent": 80,
@@ -2152,7 +2453,8 @@
         "common_trap": "진북·자북·나침반북 방향을 항상 같다고 가정하지 않는다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.84-flight-all-topics"
     },
     {
       "id": "FLT-TH-20",
@@ -2176,7 +2478,13 @@
         "FLIGHT-THEORY-513",
         "FLIGHT-THEORY-514",
         "FLIGHT-THEORY-515",
-        "FLIGHT-THEORY-516"
+        "FLIGHT-THEORY-516",
+        "FLIGHT-THEORY-637",
+        "FLIGHT-THEORY-686",
+        "FLIGHT-THEORY-714",
+        "FLIGHT-THEORY-786",
+        "FLIGHT-THEORY-839",
+        "FLIGHT-THEORY-911"
       ],
       "quiz_questions": 10,
       "pass_percent": 80,
@@ -2260,7 +2568,8 @@
         "common_trap": "kg·m 모멘트를 혼용할 때 기준선과 단위를 일치시키며 음수 arm 가능성도 고려한다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.84-flight-all-topics"
     },
     {
       "id": "FLT-TH-21",
@@ -2287,7 +2596,14 @@
         "FLIGHT-THEORY-525",
         "FLIGHT-THEORY-526",
         "FLIGHT-THEORY-527",
-        "FLIGHT-THEORY-528"
+        "FLIGHT-THEORY-528",
+        "FLIGHT-THEORY-612",
+        "FLIGHT-THEORY-663",
+        "FLIGHT-THEORY-687",
+        "FLIGHT-THEORY-735",
+        "FLIGHT-THEORY-783",
+        "FLIGHT-THEORY-811",
+        "FLIGHT-THEORY-888"
       ],
       "quiz_questions": 10,
       "pass_percent": 80,
@@ -2357,7 +2673,8 @@
         "common_trap": "이륙 중량이 제한 이내라는 사실만으로 CG가 제한 내라고 확정하지 않는다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.84-flight-all-topics"
     },
     {
       "id": "FLT-TH-22",
@@ -2403,7 +2720,24 @@
         "FLIGHT-THEORY-556",
         "FLIGHT-THEORY-557",
         "FLIGHT-THEORY-558",
-        "FLIGHT-THEORY-559"
+        "FLIGHT-THEORY-559",
+        "FLIGHT-THEORY-611",
+        "FLIGHT-THEORY-638",
+        "FLIGHT-THEORY-664",
+        "FLIGHT-THEORY-688",
+        "FLIGHT-THEORY-712",
+        "FLIGHT-THEORY-713",
+        "FLIGHT-THEORY-736",
+        "FLIGHT-THEORY-738",
+        "FLIGHT-THEORY-760",
+        "FLIGHT-THEORY-763",
+        "FLIGHT-THEORY-787",
+        "FLIGHT-THEORY-812",
+        "FLIGHT-THEORY-813",
+        "FLIGHT-THEORY-838",
+        "FLIGHT-THEORY-882",
+        "FLIGHT-THEORY-886",
+        "FLIGHT-THEORY-912"
       ],
       "quiz_questions": 10,
       "pass_percent": 80,
@@ -2497,7 +2831,8 @@
         "common_trap": "단순 경험칙보다 해당 기종의 승인된 성능표가 우선한다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.84-flight-all-topics"
     },
     {
       "id": "FLT-TH-23",
@@ -2542,7 +2877,21 @@
         "FLIGHT-THEORY-586",
         "FLIGHT-THEORY-587",
         "FLIGHT-THEORY-588",
-        "FLIGHT-THEORY-589"
+        "FLIGHT-THEORY-589",
+        "FLIGHT-THEORY-614",
+        "FLIGHT-THEORY-639",
+        "FLIGHT-THEORY-689",
+        "FLIGHT-THEORY-711",
+        "FLIGHT-THEORY-737",
+        "FLIGHT-THEORY-764",
+        "FLIGHT-THEORY-788",
+        "FLIGHT-THEORY-789",
+        "FLIGHT-THEORY-814",
+        "FLIGHT-THEORY-835",
+        "FLIGHT-THEORY-862",
+        "FLIGHT-THEORY-864",
+        "FLIGHT-THEORY-913",
+        "FLIGHT-THEORY-914"
       ],
       "quiz_questions": 10,
       "pass_percent": 80,
@@ -2608,7 +2957,8 @@
         "common_trap": "가장 경제적인 순항속도와 안전에 필요한 최소여유속도를 혼동하지 않는다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.84-flight-all-topics"
     }
   ]
 }
