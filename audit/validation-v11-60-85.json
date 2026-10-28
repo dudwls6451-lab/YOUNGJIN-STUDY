@@ -1,0 +1,1014 @@
+{
+  "pass": true,
+  "classified": 1860,
+  "subjects": [
+    {
+      "subject": "항공기상",
+      "questions": 922,
+      "stages": 40
+    },
+    {
+      "subject": "항공교통통신",
+      "questions": 938,
+      "stages": 25
+    }
+  ],
+  "unassigned": 0,
+  "duplicateMembership": 0,
+  "checks": [
+    {
+      "width": 390,
+      "subject": "항공기상",
+      "topic": "WX-TH-SU3-01",
+      "count": 41,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공기상",
+      "topic": "WX-TH-SU3-02",
+      "count": 40,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공기상",
+      "topic": "WX-TH-SU3-03",
+      "count": 16,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공기상",
+      "topic": "WX-TH-SU3-04",
+      "count": 14,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공기상",
+      "topic": "WX-TH-ATM-05",
+      "count": 26,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공기상",
+      "topic": "WX-TH-ATM-06",
+      "count": 48,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공기상",
+      "topic": "WX-TH-WIND-01",
+      "count": 22,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공기상",
+      "topic": "WX-TH-WIND-02",
+      "count": 14,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공기상",
+      "topic": "WX-TH-CLOUD-01",
+      "count": 32,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공기상",
+      "topic": "WX-TH-CLOUD-02",
+      "count": 6,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공기상",
+      "topic": "WX-TH-FOG-01",
+      "count": 46,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공기상",
+      "topic": "WX-TH-FOG-02",
+      "count": 12,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공기상",
+      "topic": "WX-TH-AIRMASS-01",
+      "count": 33,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공기상",
+      "topic": "WX-TH-FRONT-01",
+      "count": 20,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공기상",
+      "topic": "WX-TH-FRONT-02",
+      "count": 20,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공기상",
+      "topic": "WX-TH-TS-01",
+      "count": 20,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공기상",
+      "topic": "WX-TH-TS-02",
+      "count": 22,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공기상",
+      "topic": "WX-TH-ICE-01",
+      "count": 28,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공기상",
+      "topic": "WX-TH-ICE-02",
+      "count": 26,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공기상",
+      "topic": "WX-TH-ICE-03",
+      "count": 5,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공기상",
+      "topic": "WX-TH-TC-01",
+      "count": 14,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공기상",
+      "topic": "WX-TH-TC-02",
+      "count": 13,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공기상",
+      "topic": "WX-TH-TURB-01",
+      "count": 21,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공기상",
+      "topic": "WX-TH-TURB-02",
+      "count": 5,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공기상",
+      "topic": "WX-TH-TURB-03",
+      "count": 52,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공기상",
+      "topic": "WX-TH-TURB-04",
+      "count": 16,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공기상",
+      "topic": "WX-TH-CHART-01",
+      "count": 55,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공기상",
+      "topic": "WX-TH-CHART-02",
+      "count": 34,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공기상",
+      "topic": "WX-TH-CHART-03",
+      "count": 2,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공기상",
+      "topic": "WX-TH-TAF-01",
+      "count": 19,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공기상",
+      "topic": "WX-TH-TAF-02",
+      "count": 17,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공기상",
+      "topic": "WX-TH-SIGWX-01",
+      "count": 31,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공기상",
+      "topic": "WX-TH-FCST-04",
+      "count": 10,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공기상",
+      "topic": "WX-TH-METAR-01",
+      "count": 32,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공기상",
+      "topic": "WX-TH-METAR-02",
+      "count": 45,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공기상",
+      "topic": "WX-TH-METAR-03",
+      "count": 33,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공기상",
+      "topic": "WX-TH-METAR-04",
+      "count": 13,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공기상",
+      "topic": "WX-TH-INFO-01",
+      "count": 3,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공기상",
+      "topic": "WX-TH-INFO-02",
+      "count": 5,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공기상",
+      "topic": "WX-TH-INFO-03",
+      "count": 11,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "subject": "항공기상",
+      "detailStages": 40,
+      "unassigned": 0,
+      "repeatCount": 2,
+      "wrongPractice": 1
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "subject": "항공기상",
+      "detailStages": 40,
+      "unassigned": 0,
+      "repeatCount": 2,
+      "wrongPractice": 1
+    },
+    {
+      "width": 390,
+      "subject": "항공교통통신",
+      "topic": "ATC-TH-01",
+      "count": 56,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공교통통신",
+      "topic": "ATC-TH-02",
+      "count": 39,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공교통통신",
+      "topic": "ATC-TH-03",
+      "count": 37,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공교통통신",
+      "topic": "ATC-TH-04",
+      "count": 41,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공교통통신",
+      "topic": "ATC-TH-05",
+      "count": 52,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공교통통신",
+      "topic": "ATC-TH-06",
+      "count": 36,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공교통통신",
+      "topic": "ATC-TH-07",
+      "count": 31,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공교통통신",
+      "topic": "ATC-TH-08",
+      "count": 53,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공교통통신",
+      "topic": "ATC-TH-09",
+      "count": 27,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공교통통신",
+      "topic": "ATC-TH-10",
+      "count": 22,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공교통통신",
+      "topic": "ATC-TH-11",
+      "count": 23,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공교통통신",
+      "topic": "ATC-TH-12",
+      "count": 35,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공교통통신",
+      "topic": "ATC-TH-13",
+      "count": 20,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공교통통신",
+      "topic": "ATC-TH-14",
+      "count": 39,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공교통통신",
+      "topic": "ATC-TH-15",
+      "count": 33,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공교통통신",
+      "topic": "ATC-TH-16",
+      "count": 39,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공교통통신",
+      "topic": "ATC-TH-17",
+      "count": 80,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공교통통신",
+      "topic": "ATC-TH-18",
+      "count": 12,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공교통통신",
+      "topic": "ATC-TH-19",
+      "count": 27,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공교통통신",
+      "topic": "ATC-TH-20",
+      "count": 27,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공교통통신",
+      "topic": "ATC-TH-21",
+      "count": 53,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공교통통신",
+      "topic": "ATC-TH-22",
+      "count": 33,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공교통통신",
+      "topic": "ATC-TH-23",
+      "count": 40,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공교통통신",
+      "topic": "ATC-TH-24",
+      "count": 59,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "subject": "항공교통통신",
+      "topic": "ATC-TH-25",
+      "count": 24,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "subject": "항공교통통신",
+      "detailStages": 25,
+      "unassigned": 0,
+      "repeatCount": 2,
+      "wrongPractice": 1
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "subject": "항공교통통신",
+      "detailStages": 25,
+      "unassigned": 0,
+      "repeatCount": 2,
+      "wrongPractice": 1
+    },
+    {
+      "width": 1440,
+      "subject": "항공기상",
+      "topic": "WX-TH-SU3-01",
+      "count": 41,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공기상",
+      "topic": "WX-TH-SU3-02",
+      "count": 40,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공기상",
+      "topic": "WX-TH-SU3-03",
+      "count": 16,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공기상",
+      "topic": "WX-TH-SU3-04",
+      "count": 14,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공기상",
+      "topic": "WX-TH-ATM-05",
+      "count": 26,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공기상",
+      "topic": "WX-TH-ATM-06",
+      "count": 48,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공기상",
+      "topic": "WX-TH-WIND-01",
+      "count": 22,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공기상",
+      "topic": "WX-TH-WIND-02",
+      "count": 14,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공기상",
+      "topic": "WX-TH-CLOUD-01",
+      "count": 32,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공기상",
+      "topic": "WX-TH-CLOUD-02",
+      "count": 6,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공기상",
+      "topic": "WX-TH-FOG-01",
+      "count": 46,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공기상",
+      "topic": "WX-TH-FOG-02",
+      "count": 12,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공기상",
+      "topic": "WX-TH-AIRMASS-01",
+      "count": 33,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공기상",
+      "topic": "WX-TH-FRONT-01",
+      "count": 20,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공기상",
+      "topic": "WX-TH-FRONT-02",
+      "count": 20,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공기상",
+      "topic": "WX-TH-TS-01",
+      "count": 20,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공기상",
+      "topic": "WX-TH-TS-02",
+      "count": 22,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공기상",
+      "topic": "WX-TH-ICE-01",
+      "count": 28,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공기상",
+      "topic": "WX-TH-ICE-02",
+      "count": 26,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공기상",
+      "topic": "WX-TH-ICE-03",
+      "count": 5,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공기상",
+      "topic": "WX-TH-TC-01",
+      "count": 14,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공기상",
+      "topic": "WX-TH-TC-02",
+      "count": 13,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공기상",
+      "topic": "WX-TH-TURB-01",
+      "count": 21,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공기상",
+      "topic": "WX-TH-TURB-02",
+      "count": 5,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공기상",
+      "topic": "WX-TH-TURB-03",
+      "count": 52,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공기상",
+      "topic": "WX-TH-TURB-04",
+      "count": 16,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공기상",
+      "topic": "WX-TH-CHART-01",
+      "count": 55,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공기상",
+      "topic": "WX-TH-CHART-02",
+      "count": 34,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공기상",
+      "topic": "WX-TH-CHART-03",
+      "count": 2,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공기상",
+      "topic": "WX-TH-TAF-01",
+      "count": 19,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공기상",
+      "topic": "WX-TH-TAF-02",
+      "count": 17,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공기상",
+      "topic": "WX-TH-SIGWX-01",
+      "count": 31,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공기상",
+      "topic": "WX-TH-FCST-04",
+      "count": 10,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공기상",
+      "topic": "WX-TH-METAR-01",
+      "count": 32,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공기상",
+      "topic": "WX-TH-METAR-02",
+      "count": 45,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공기상",
+      "topic": "WX-TH-METAR-03",
+      "count": 33,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공기상",
+      "topic": "WX-TH-METAR-04",
+      "count": 13,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공기상",
+      "topic": "WX-TH-INFO-01",
+      "count": 3,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공기상",
+      "topic": "WX-TH-INFO-02",
+      "count": 5,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공기상",
+      "topic": "WX-TH-INFO-03",
+      "count": 11,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "subject": "항공기상",
+      "detailStages": 40,
+      "unassigned": 0,
+      "repeatCount": 2,
+      "wrongPractice": 1
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "subject": "항공기상",
+      "detailStages": 40,
+      "unassigned": 0,
+      "repeatCount": 2,
+      "wrongPractice": 1
+    },
+    {
+      "width": 1440,
+      "subject": "항공교통통신",
+      "topic": "ATC-TH-01",
+      "count": 56,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공교통통신",
+      "topic": "ATC-TH-02",
+      "count": 39,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공교통통신",
+      "topic": "ATC-TH-03",
+      "count": 37,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공교통통신",
+      "topic": "ATC-TH-04",
+      "count": 41,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공교통통신",
+      "topic": "ATC-TH-05",
+      "count": 52,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공교통통신",
+      "topic": "ATC-TH-06",
+      "count": 36,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공교통통신",
+      "topic": "ATC-TH-07",
+      "count": 31,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공교통통신",
+      "topic": "ATC-TH-08",
+      "count": 53,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공교통통신",
+      "topic": "ATC-TH-09",
+      "count": 27,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공교통통신",
+      "topic": "ATC-TH-10",
+      "count": 22,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공교통통신",
+      "topic": "ATC-TH-11",
+      "count": 23,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공교통통신",
+      "topic": "ATC-TH-12",
+      "count": 35,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공교통통신",
+      "topic": "ATC-TH-13",
+      "count": 20,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공교통통신",
+      "topic": "ATC-TH-14",
+      "count": 39,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공교통통신",
+      "topic": "ATC-TH-15",
+      "count": 33,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공교통통신",
+      "topic": "ATC-TH-16",
+      "count": 39,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공교통통신",
+      "topic": "ATC-TH-17",
+      "count": 80,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공교통통신",
+      "topic": "ATC-TH-18",
+      "count": 12,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공교통통신",
+      "topic": "ATC-TH-19",
+      "count": 27,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공교통통신",
+      "topic": "ATC-TH-20",
+      "count": 27,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공교통통신",
+      "topic": "ATC-TH-21",
+      "count": 53,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공교통통신",
+      "topic": "ATC-TH-22",
+      "count": 33,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공교통통신",
+      "topic": "ATC-TH-23",
+      "count": 40,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공교통통신",
+      "topic": "ATC-TH-24",
+      "count": 59,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "subject": "항공교통통신",
+      "topic": "ATC-TH-25",
+      "count": 24,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "subject": "항공교통통신",
+      "detailStages": 25,
+      "unassigned": 0,
+      "repeatCount": 2,
+      "wrongPractice": 1
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "subject": "항공교통통신",
+      "detailStages": 25,
+      "unassigned": 0,
+      "repeatCount": 2,
+      "wrongPractice": 1
+    }
+  ],
+  "priorThreeSubjectsRegression": true,
+  "reportedFix81Regression": true,
+  "progressPreserved": true,
+  "mockRoundsRetained": {
+    "weather": 13,
+    "atc": 15
+  },
+  "sourceQuestionFieldsPreserved": 1860,
+  "theorySectionsPreserved": true,
+  "originalStageIdsPreserved": true,
+  "oldCumulativePayloadsPreserved": true,
+  "classificationTagsIdempotent": true
+}

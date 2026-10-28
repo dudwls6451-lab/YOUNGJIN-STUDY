@@ -3,8 +3,8 @@
     "name": "항공기상 이론학습 전체과정",
     "subject": "항공기상",
     "source_file": "항공기상.pdf",
-    "source_scope": "교재 이론 본문: 인쇄 p.6~19, 41~56, 76~93, 120~133, 152~162",
-    "version": "v11.18-full-weather-theory",
+    "source_scope": "교재 예상문제 597문항 및 모의고사 325문항 전체",
+    "version": "v11.60.85-weather-all-topics",
     "stage_count": 40,
     "quiz_rule": {
       "questions": 10,
@@ -15,7 +15,15 @@
     "organization_note": "교재 제1편의 제1~9절과 제2편의 제1~4절 순서를 유지했다. 문제은행의 일부 Study Unit 번호는 추출 이력상 이론 절 번호와 다를 수 있다.",
     "content_enhancement_version": "v11.60.67",
     "reference_policy": "대한민국 법령·eAIP가 한국 적용 기준. FAA 자료는 보충/미국 기준. 현행 발효자료와 NOTAM 반드시 확인.",
-    "deep_review_note": "기존 교재 이론은 유지하며 각 단계에 운항 적용과 자주 혼동하는 경계를 보강."
+    "deep_review_note": "기존 교재 이론은 유지하며 각 단계에 운항 적용과 자주 혼동하는 경계를 보강.",
+    "linked_question_count": 922,
+    "unique_linked_question_count": 922,
+    "bank_question_total": 922,
+    "question_bank_total": 922,
+    "mock_exam_questions": 325,
+    "excluded_mock_question_count": 0,
+    "classification_revision": "v11.60.85",
+    "classification_note": "각 문항을 대표 학습영역 한 곳에 연결. 기존 단계 ID와 이론 본문, 문제 ID 및 모의고사 회차는 유지."
   },
   "stages": [
     {
@@ -60,7 +68,18 @@
         "WX-SU3-027",
         "WX-SU3-028",
         "WX-SU3-029",
-        "WX-SU3-030"
+        "WX-SU3-030",
+        "WX-MOCK1-001",
+        "WX-MOCK2-001",
+        "WX-MOCK3-001",
+        "WX-MOCK4-001",
+        "WX-MOCK5-001",
+        "WX-MOCK7-001",
+        "WX-MOCK8-001",
+        "WX-MOCK9-001",
+        "WX-MOCK10-001",
+        "WX-MOCK12-001",
+        "WX-MOCK13-001"
       ],
       "sections": [
         {
@@ -178,7 +197,8 @@
         "common_trap": "‘고도가 올라가면 반드시 온도가 내려간다’는 말은 모든 대기층에 적용되지 않는다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-weather-all-topics"
     },
     {
       "id": "WX-TH-SU3-02",
@@ -221,7 +241,20 @@
         "WX-SU3-054",
         "WX-SU3-055",
         "WX-SU3-056",
-        "WX-SU3-057"
+        "WX-SU3-057",
+        "WX-MOCK1-002",
+        "WX-MOCK3-002",
+        "WX-MOCK4-002",
+        "WX-MOCK5-002",
+        "WX-MOCK6-001",
+        "WX-MOCK6-002",
+        "WX-MOCK7-002",
+        "WX-MOCK8-002",
+        "WX-MOCK9-002",
+        "WX-MOCK11-001",
+        "WX-MOCK11-002",
+        "WX-MOCK12-002",
+        "WX-MOCK13-002"
       ],
       "sections": [
         {
@@ -326,7 +359,8 @@
         "common_trap": "높은 곳에서 낮은 기압으로 비행하면서 설정을 갱신하지 않으면 실제 고도는 지시고도보다 낮을 수 있다. 저온에서도 장애물 여유가 줄어든다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-weather-all-topics"
     },
     {
       "id": "WX-TH-SU3-03",
@@ -341,17 +375,10 @@
         11
       ],
       "question_ids": [
-        "WX-SU3-033",
-        "WX-SU3-034",
-        "WX-SU3-035",
-        "WX-SU3-036",
-        "WX-SU3-037",
-        "WX-SU3-038",
         "WX-SU3-058",
         "WX-SU3-059",
         "WX-SU3-060",
         "WX-SU3-061",
-        "WX-SU3-062",
         "WX-SU3-063",
         "WX-SU3-064",
         "WX-SU3-065",
@@ -361,7 +388,9 @@
         "WX-SU3-069",
         "WX-SU3-070",
         "WX-SU3-071",
-        "WX-SU3-072"
+        "WX-MOCK2-002",
+        "WX-MOCK3-003",
+        "WX-MOCK10-002"
       ],
       "sections": [
         {
@@ -461,7 +490,8 @@
         "common_trap": "환경감률(주위 실제 기온의 높이별 변화)과 상승 공기덩이의 단열감률을 혼동하지 않는다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-weather-all-topics"
     },
     {
       "id": "WX-TH-SU3-04",
@@ -475,15 +505,6 @@
       ],
       "question_ids": [
         "WX-SU3-062",
-        "WX-SU3-063",
-        "WX-SU3-064",
-        "WX-SU3-065",
-        "WX-SU3-066",
-        "WX-SU3-067",
-        "WX-SU3-068",
-        "WX-SU3-069",
-        "WX-SU3-070",
-        "WX-SU3-071",
         "WX-SU3-072",
         "WX-SU3-073",
         "WX-SU3-074",
@@ -491,7 +512,12 @@
         "WX-SU3-076",
         "WX-SU3-077",
         "WX-SU3-078",
-        "WX-SU3-079"
+        "WX-SU3-079",
+        "WX-MOCK1-003",
+        "WX-MOCK3-008",
+        "WX-MOCK6-003",
+        "WX-MOCK10-003",
+        "WX-MOCK13-003"
       ],
       "sections": [
         {
@@ -570,7 +596,8 @@
         "common_trap": "상대습도 100%가 강수 발생을 보장하지 않으며, 이슬점 차만으로 정확한 운저고도를 단정할 수 없다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-weather-all-topics"
     },
     {
       "id": "WX-TH-ATM-05",
@@ -586,18 +613,6 @@
         15
       ],
       "question_ids": [
-        "WX-SU3-013",
-        "WX-SU3-017",
-        "WX-SU3-018",
-        "WX-SU3-019",
-        "WX-SU3-021",
-        "WX-SU3-023",
-        "WX-SU3-026",
-        "WX-SU3-036",
-        "WX-SU3-068",
-        "WX-SU3-070",
-        "WX-SU3-071",
-        "WX-SU3-072",
         "WX-SU4-001",
         "WX-SU4-002",
         "WX-SU4-003",
@@ -617,9 +632,13 @@
         "WX-SU4-017",
         "WX-SU4-018",
         "WX-SU4-020",
-        "WX-SU4-038",
-        "WX-SU4-039",
-        "WX-SU4-042"
+        "WX-MOCK2-003",
+        "WX-MOCK4-003",
+        "WX-MOCK5-003",
+        "WX-MOCK7-003",
+        "WX-MOCK8-003",
+        "WX-MOCK11-003",
+        "WX-MOCK12-003"
       ],
       "sections": [
         {
@@ -705,13 +724,14 @@
         "common_trap": "구름의 존재만으로 대기가 불안정하다고 단정할 수 없고, 포화 전후의 감률 비교가 달라진다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-weather-all-topics"
     },
     {
       "id": "WX-TH-ATM-06",
       "order": 6,
       "unit_title": "제1절 대기",
-      "title": "대기 대순환·역전층·비행에 미치는 영향",
+      "title": "대기 대순환·역전층·비행성능과 수막현상",
       "source_pdf_pages": [
         22,
         25
@@ -721,12 +741,23 @@
         19
       ],
       "question_ids": [
-        "WX-SU3-019",
-        "WX-SU3-026",
-        "WX-SU3-044",
-        "WX-SU3-045",
-        "WX-SU3-055",
-        "WX-SU3-070",
+        "WX-SU4-019",
+        "WX-SU4-021",
+        "WX-SU4-022",
+        "WX-SU4-023",
+        "WX-SU4-024",
+        "WX-SU4-025",
+        "WX-SU4-026",
+        "WX-SU4-027",
+        "WX-SU4-028",
+        "WX-SU4-029",
+        "WX-SU4-030",
+        "WX-SU4-031",
+        "WX-SU4-032",
+        "WX-SU4-033",
+        "WX-SU4-034",
+        "WX-SU4-035",
+        "WX-SU4-036",
         "WX-SU4-037",
         "WX-SU4-038",
         "WX-SU4-039",
@@ -735,8 +766,29 @@
         "WX-SU4-042",
         "WX-SU4-043",
         "WX-SU4-044",
+        "WX-SU4-045",
+        "WX-SU4-046",
+        "WX-SU4-047",
         "WX-SU4-048",
-        "WX-SU4-049"
+        "WX-SU4-049",
+        "WX-MOCK1-004",
+        "WX-MOCK1-005",
+        "WX-MOCK2-004",
+        "WX-MOCK3-004",
+        "WX-MOCK4-004",
+        "WX-MOCK4-005",
+        "WX-MOCK5-004",
+        "WX-MOCK6-004",
+        "WX-MOCK7-004",
+        "WX-MOCK8-004",
+        "WX-MOCK8-005",
+        "WX-MOCK9-004",
+        "WX-MOCK10-004",
+        "WX-MOCK11-004",
+        "WX-MOCK11-005",
+        "WX-MOCK12-008",
+        "WX-MOCK13-004",
+        "WX-MOCK13-007"
       ],
       "sections": [
         {
@@ -830,7 +882,8 @@
         "common_trap": "역전층이 있다고 비행 가능한 모든 고도에서 난기류가 발생하는 것은 아니며, 역전층 상·하단의 전단을 따로 본다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-weather-all-topics"
     },
     {
       "id": "WX-TH-WIND-01",
@@ -846,6 +899,7 @@
         42
       ],
       "question_ids": [
+        "WX-SU1-001",
         "WX-SU1-002",
         "WX-SU1-003",
         "WX-SU1-004",
@@ -858,12 +912,15 @@
         "WX-SU1-011",
         "WX-SU1-012",
         "WX-SU1-013",
-        "WX-SU1-014",
-        "WX-SU1-015",
-        "WX-SU1-016",
-        "WX-SU1-017",
-        "WX-SU1-018",
-        "WX-SU1-019"
+        "WX-MOCK2-005",
+        "WX-MOCK3-005",
+        "WX-MOCK4-006",
+        "WX-MOCK5-005",
+        "WX-MOCK7-005",
+        "WX-MOCK9-005",
+        "WX-MOCK10-005",
+        "WX-MOCK11-006",
+        "WX-MOCK13-005"
       ],
       "sections": [
         {
@@ -944,7 +1001,8 @@
         "common_trap": "등압선에 평행한 이상적인 지균풍과 지상에서 등압선을 비스듬히 가로지르는 마찰풍은 다르다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-weather-all-topics"
     },
     {
       "id": "WX-TH-WIND-02",
@@ -960,21 +1018,20 @@
         44
       ],
       "question_ids": [
-        "WX-SU1-007",
-        "WX-SU1-011",
-        "WX-SU1-012",
         "WX-SU1-014",
         "WX-SU1-015",
         "WX-SU1-016",
         "WX-SU1-017",
+        "WX-SU1-018",
         "WX-SU1-019",
         "WX-SU1-020",
         "WX-SU1-021",
         "WX-SU1-022",
-        "WX-SU1-001",
-        "WX-SU1-002",
-        "WX-SU1-003",
-        "WX-SU1-004"
+        "WX-MOCK1-008",
+        "WX-MOCK2-006",
+        "WX-MOCK6-005",
+        "WX-MOCK8-008",
+        "WX-MOCK12-005"
       ],
       "sections": [
         {
@@ -1054,7 +1111,8 @@
         "common_trap": "바람이 지균평형에 가깝다는 가정은 마찰이 큰 지표 바로 위나 적도 근처에서 그대로 적용하기 어렵다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-weather-all-topics"
     },
     {
       "id": "WX-TH-CLOUD-01",
@@ -1087,25 +1145,21 @@
         "WX-SU2-015",
         "WX-SU2-016",
         "WX-SU2-017",
+        "WX-SU2-018",
         "WX-SU2-019",
-        "WX-SU2-021",
-        "WX-SU2-022",
-        "WX-SU2-023",
-        "WX-SU4-003",
-        "WX-SU4-010",
-        "WX-SU4-011",
-        "WX-SU4-012",
-        "WX-SU4-013",
-        "WX-SU4-014",
-        "WX-SU4-015",
-        "WX-SU4-016",
-        "WX-SU4-030",
-        "WX-SU4-031",
-        "WX-SU4-039",
-        "WX-SU4-042",
-        "WX-SU4-043",
-        "WX-SU4-045",
-        "WX-SU4-047"
+        "WX-MOCK1-007",
+        "WX-MOCK2-007",
+        "WX-MOCK5-006",
+        "WX-MOCK5-007",
+        "WX-MOCK6-006",
+        "WX-MOCK7-006",
+        "WX-MOCK9-003",
+        "WX-MOCK9-006",
+        "WX-MOCK10-006",
+        "WX-MOCK10-014",
+        "WX-MOCK11-007",
+        "WX-MOCK12-006",
+        "WX-MOCK13-006"
       ],
       "sections": [
         {
@@ -1205,7 +1259,8 @@
         "common_trap": "‘운저’는 구름의 가장 낮은 밑면과 관련되고, ceiling은 정해진 운량 기준을 충족하는 최저 운층으로 동일한 말이 아니다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-weather-all-topics"
     },
     {
       "id": "WX-TH-CLOUD-02",
@@ -1221,21 +1276,12 @@
         47
       ],
       "question_ids": [
-        "WX-SU2-008",
-        "WX-SU2-012",
-        "WX-SU2-016",
-        "WX-SU2-017",
         "WX-SU2-020",
+        "WX-SU2-021",
+        "WX-SU2-022",
         "WX-SU2-023",
-        "WX-SU4-014",
-        "WX-SU4-018",
-        "WX-SU4-031",
-        "WX-SU4-033",
-        "WX-SU4-034",
-        "WX-SU4-035",
-        "WX-SU4-046",
-        "WX-SU4-048",
-        "WX-SU2-001"
+        "WX-MOCK4-007",
+        "WX-MOCK7-007"
       ],
       "sections": [
         {
@@ -1304,7 +1350,8 @@
         "common_trap": "어는비 위험은 단순한 지상 온도보다 비행경로의 전체 수직 온도구조와 연관된다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-weather-all-topics"
     },
     {
       "id": "WX-TH-FOG-01",
@@ -1323,15 +1370,10 @@
         "WX-SU5-001",
         "WX-SU5-002",
         "WX-SU5-003",
-        "WX-SU5-004",
         "WX-SU5-005",
         "WX-SU5-006",
         "WX-SU5-007",
         "WX-SU5-008",
-        "WX-SU5-009",
-        "WX-SU5-010",
-        "WX-SU5-011",
-        "WX-SU5-012",
         "WX-SU5-013",
         "WX-SU5-014",
         "WX-SU5-015",
@@ -1344,7 +1386,7 @@
         "WX-SU5-022",
         "WX-SU5-023",
         "WX-SU5-024",
-        "WX-SU5-025",
+        "WX-SU5-026",
         "WX-SU5-027",
         "WX-SU5-028",
         "WX-SU5-029",
@@ -1355,7 +1397,22 @@
         "WX-SU5-034",
         "WX-SU5-035",
         "WX-SU5-036",
-        "WX-SU5-037"
+        "WX-SU5-037",
+        "WX-MOCK1-009",
+        "WX-MOCK2-008",
+        "WX-MOCK3-006",
+        "WX-MOCK4-008",
+        "WX-MOCK5-008",
+        "WX-MOCK6-007",
+        "WX-MOCK6-008",
+        "WX-MOCK7-008",
+        "WX-MOCK8-007",
+        "WX-MOCK9-008",
+        "WX-MOCK10-007",
+        "WX-MOCK10-008",
+        "WX-MOCK11-008",
+        "WX-MOCK12-004",
+        "WX-MOCK13-008"
       ],
       "sections": [
         {
@@ -1432,7 +1489,8 @@
         "common_trap": "안개와 낮은 층운을 구분할 때 지면 접촉 여부가 중요하며, 안개 형성에 무조건 완전한 무풍이 필요한 것은 아니다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-weather-all-topics"
     },
     {
       "id": "WX-TH-FOG-02",
@@ -1448,39 +1506,18 @@
         50
       ],
       "question_ids": [
-        "WX-SU5-001",
-        "WX-SU5-002",
         "WX-SU5-004",
-        "WX-SU5-005",
-        "WX-SU5-006",
-        "WX-SU5-007",
-        "WX-SU5-008",
+        "WX-SU5-009",
         "WX-SU5-010",
         "WX-SU5-011",
         "WX-SU5-012",
-        "WX-SU5-013",
-        "WX-SU5-015",
-        "WX-SU5-016",
-        "WX-SU5-017",
-        "WX-SU5-018",
-        "WX-SU5-019",
-        "WX-SU5-020",
-        "WX-SU5-021",
-        "WX-SU5-022",
-        "WX-SU5-023",
-        "WX-SU5-024",
         "WX-SU5-025",
-        "WX-SU5-027",
-        "WX-SU5-028",
-        "WX-SU5-029",
-        "WX-SU5-030",
-        "WX-SU5-031",
-        "WX-SU5-032",
-        "WX-SU5-033",
-        "WX-SU5-034",
-        "WX-SU5-035",
-        "WX-SU5-036",
-        "WX-SU5-037"
+        "WX-SU5-038",
+        "WX-SU5-039",
+        "WX-MOCK1-006",
+        "WX-MOCK2-009",
+        "WX-MOCK9-007",
+        "WX-MOCK12-007"
       ],
       "sections": [
         {
@@ -1552,7 +1589,8 @@
         "common_trap": "TAF에 ‘개선’이 표시되었다고 현재 METAR가 즉시 그 상태라는 뜻은 아니다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-weather-all-topics"
     },
     {
       "id": "WX-TH-AIRMASS-01",
@@ -1577,6 +1615,8 @@
         "WX-SU6-007",
         "WX-SU6-008",
         "WX-SU6-009",
+        "WX-SU6-010",
+        "WX-SU6-011",
         "WX-SU6-012",
         "WX-SU6-013",
         "WX-SU6-014",
@@ -1587,9 +1627,18 @@
         "WX-SU6-019",
         "WX-SU6-020",
         "WX-SU6-021",
-        "WX-SU6-024",
-        "WX-SU6-031",
-        "WX-SU6-032"
+        "WX-MOCK1-010",
+        "WX-MOCK2-010",
+        "WX-MOCK3-009",
+        "WX-MOCK4-009",
+        "WX-MOCK5-009",
+        "WX-MOCK6-009",
+        "WX-MOCK7-009",
+        "WX-MOCK8-009",
+        "WX-MOCK9-009",
+        "WX-MOCK11-009",
+        "WX-MOCK12-009",
+        "WX-MOCK13-009"
       ],
       "sections": [
         {
@@ -1689,7 +1738,8 @@
         "common_trap": "기단의 원산지 분류는 현재 공항의 실황 날씨를 직접 확정하지 않는다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-weather-all-topics"
     },
     {
       "id": "WX-TH-FRONT-01",
@@ -1705,12 +1755,6 @@
         54
       ],
       "question_ids": [
-        "WX-SU6-001",
-        "WX-SU6-012",
-        "WX-SU6-015",
-        "WX-SU6-017",
-        "WX-SU6-018",
-        "WX-SU6-019",
         "WX-SU6-022",
         "WX-SU6-023",
         "WX-SU6-024",
@@ -1721,17 +1765,16 @@
         "WX-SU6-029",
         "WX-SU6-030",
         "WX-SU6-031",
-        "WX-SU6-032",
-        "WX-SU6-033",
-        "WX-SU6-034",
-        "WX-SU6-035",
-        "WX-SU6-036",
-        "WX-SU6-037",
-        "WX-SU6-038",
-        "WX-SU6-039",
-        "WX-SU6-040",
-        "WX-SU6-041",
-        "WX-SU6-042"
+        "WX-MOCK3-010",
+        "WX-MOCK4-018",
+        "WX-MOCK5-010",
+        "WX-MOCK7-010",
+        "WX-MOCK8-018",
+        "WX-MOCK9-010",
+        "WX-MOCK9-011",
+        "WX-MOCK11-010",
+        "WX-MOCK12-011",
+        "WX-MOCK13-011"
       ],
       "sections": [
         {
@@ -1805,7 +1848,8 @@
         "common_trap": "전선의 위치는 지상 바람 전환만으로 단정하지 않으며 기압·기온·강수의 연속 자료를 확인한다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-weather-all-topics"
     },
     {
       "id": "WX-TH-FRONT-02",
@@ -1821,8 +1865,6 @@
         56
       ],
       "question_ids": [
-        "WX-SU6-025",
-        "WX-SU6-030",
         "WX-SU6-032",
         "WX-SU6-033",
         "WX-SU6-034",
@@ -1834,8 +1876,15 @@
         "WX-SU6-040",
         "WX-SU6-041",
         "WX-SU6-042",
-        "WX-SU6-001",
-        "WX-SU6-002"
+        "WX-MOCK1-011",
+        "WX-MOCK2-011",
+        "WX-MOCK4-010",
+        "WX-MOCK5-011",
+        "WX-MOCK6-010",
+        "WX-MOCK8-010",
+        "WX-MOCK10-009",
+        "WX-MOCK12-010",
+        "WX-MOCK13-010"
       ],
       "sections": [
         {
@@ -1911,7 +1960,8 @@
         "common_trap": "모든 한랭전선이 폭우를 동반하는 것은 아니고 전선의 기울기와 대기 안정도에 따라 양상이 달라진다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-weather-all-topics"
     },
     {
       "id": "WX-TH-TS-01",
@@ -1929,6 +1979,7 @@
       "question_ids": [
         "WX-SU7-001",
         "WX-SU7-002",
+        "WX-SU7-003",
         "WX-SU7-004",
         "WX-SU7-005",
         "WX-SU7-006",
@@ -1940,19 +1991,12 @@
         "WX-SU7-012",
         "WX-SU7-013",
         "WX-SU7-014",
-        "WX-SU7-015",
-        "WX-SU7-016",
-        "WX-SU7-018",
-        "WX-SU7-019",
-        "WX-SU7-021",
-        "WX-SU7-023",
-        "WX-SU7-024",
-        "WX-SU7-025",
-        "WX-SU7-026",
-        "WX-SU7-027",
-        "WX-SU7-028",
-        "WX-SU7-029",
-        "WX-SU7-030"
+        "WX-MOCK1-012",
+        "WX-MOCK3-011",
+        "WX-MOCK4-011",
+        "WX-MOCK7-011",
+        "WX-MOCK10-011",
+        "WX-MOCK13-012"
       ],
       "sections": [
         {
@@ -2043,7 +2087,8 @@
         "common_trap": "구름이 작아 보이는 초기 발달기에도 강한 상승기류가 있을 수 있어 외형만으로 위험도를 낮게 보지 않는다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-weather-all-topics"
     },
     {
       "id": "WX-TH-TS-02",
@@ -2059,17 +2104,6 @@
         79
       ],
       "question_ids": [
-        "WX-SU7-001",
-        "WX-SU7-002",
-        "WX-SU7-004",
-        "WX-SU7-006",
-        "WX-SU7-008",
-        "WX-SU7-009",
-        "WX-SU7-010",
-        "WX-SU7-011",
-        "WX-SU7-012",
-        "WX-SU7-013",
-        "WX-SU7-014",
         "WX-SU7-015",
         "WX-SU7-016",
         "WX-SU7-017",
@@ -2085,11 +2119,13 @@
         "WX-SU7-028",
         "WX-SU7-029",
         "WX-SU7-030",
-        "WX-SU10-006",
-        "WX-SU10-012",
-        "WX-SU10-013",
-        "WX-SU10-048",
-        "WX-SU10-058"
+        "WX-MOCK4-012",
+        "WX-MOCK6-011",
+        "WX-MOCK6-012",
+        "WX-MOCK8-011",
+        "WX-MOCK9-012",
+        "WX-MOCK11-011",
+        "WX-MOCK12-012"
       ],
       "sections": [
         {
@@ -2167,7 +2203,8 @@
         "common_trap": "항공기 기상레이더는 강수 입자에 반응하므로 강수 밖 난기류까지 직접 검출해 주지 않는다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-weather-all-topics"
     },
     {
       "id": "WX-TH-ICE-01",
@@ -2197,24 +2234,20 @@
         "WX-SU8-012",
         "WX-SU8-013",
         "WX-SU8-014",
+        "WX-SU8-015",
         "WX-SU8-016",
         "WX-SU8-017",
         "WX-SU8-018",
         "WX-SU8-019",
-        "WX-SU8-020",
-        "WX-SU8-021",
-        "WX-SU8-022",
-        "WX-SU8-023",
-        "WX-SU8-025",
-        "WX-SU8-026",
-        "WX-SU8-027",
-        "WX-SU8-028",
-        "WX-SU8-029",
-        "WX-SU8-030",
-        "WX-SU8-031",
-        "WX-SU8-032",
-        "WX-SU8-033",
-        "WX-SU8-034"
+        "WX-MOCK1-013",
+        "WX-MOCK2-012",
+        "WX-MOCK4-013",
+        "WX-MOCK5-013",
+        "WX-MOCK7-012",
+        "WX-MOCK8-012",
+        "WX-MOCK9-013",
+        "WX-MOCK10-013",
+        "WX-MOCK12-013"
       ],
       "sections": [
         {
@@ -2290,7 +2323,8 @@
         "common_trap": "영하의 모든 구름에 같은 강도의 착빙이 있는 것은 아니며 물방울 크기와 액체수함량이 중요하다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-weather-all-topics"
     },
     {
       "id": "WX-TH-ICE-02",
@@ -2306,23 +2340,6 @@
         83
       ],
       "question_ids": [
-        "WX-SU8-001",
-        "WX-SU8-002",
-        "WX-SU8-003",
-        "WX-SU8-004",
-        "WX-SU8-005",
-        "WX-SU8-006",
-        "WX-SU8-007",
-        "WX-SU8-008",
-        "WX-SU8-009",
-        "WX-SU8-010",
-        "WX-SU8-011",
-        "WX-SU8-012",
-        "WX-SU8-013",
-        "WX-SU8-014",
-        "WX-SU8-017",
-        "WX-SU8-018",
-        "WX-SU8-019",
         "WX-SU8-020",
         "WX-SU8-021",
         "WX-SU8-022",
@@ -2335,9 +2352,20 @@
         "WX-SU8-029",
         "WX-SU8-030",
         "WX-SU8-031",
-        "WX-SU8-032",
-        "WX-SU8-033",
-        "WX-SU8-034"
+        "WX-MOCK1-014",
+        "WX-MOCK2-013",
+        "WX-MOCK3-012",
+        "WX-MOCK3-013",
+        "WX-MOCK5-012",
+        "WX-MOCK6-013",
+        "WX-MOCK7-013",
+        "WX-MOCK8-013",
+        "WX-MOCK9-014",
+        "WX-MOCK10-010",
+        "WX-MOCK11-012",
+        "WX-MOCK11-020",
+        "WX-MOCK12-014",
+        "WX-MOCK13-013"
       ],
       "sections": [
         {
@@ -2411,7 +2439,8 @@
         "common_trap": "영하 기온이면 비행기 표면에 반드시 얼음이 생긴다는 말도, 비가 아니면 착빙이 없다는 말도 틀리다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-weather-all-topics"
     },
     {
       "id": "WX-TH-ICE-03",
@@ -2427,32 +2456,11 @@
         83
       ],
       "question_ids": [
-        "WX-SU8-001",
-        "WX-SU8-002",
-        "WX-SU8-003",
-        "WX-SU8-004",
-        "WX-SU8-005",
-        "WX-SU8-006",
-        "WX-SU8-007",
-        "WX-SU8-008",
-        "WX-SU8-009",
-        "WX-SU8-010",
-        "WX-SU8-011",
-        "WX-SU8-012",
-        "WX-SU8-013",
-        "WX-SU8-017",
-        "WX-SU8-018",
-        "WX-SU8-019",
-        "WX-SU8-020",
-        "WX-SU8-022",
-        "WX-SU8-025",
-        "WX-SU8-026",
-        "WX-SU8-029",
-        "WX-SU8-030",
-        "WX-SU8-031",
         "WX-SU8-032",
         "WX-SU8-033",
-        "WX-SU8-034"
+        "WX-SU8-034",
+        "WX-MOCK6-014",
+        "WX-MOCK11-014"
       ],
       "sections": [
         {
@@ -2525,7 +2533,8 @@
         "common_trap": "승인된 방빙 장비가 있다고 모든 착빙 조건을 안전하게 통과할 수 있는 것은 아니다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-weather-all-topics"
     },
     {
       "id": "WX-TH-TC-01",
@@ -2549,15 +2558,12 @@
         "WX-SU9-006",
         "WX-SU9-007",
         "WX-SU9-008",
-        "WX-SU9-009",
-        "WX-SU9-010",
-        "WX-SU9-011",
-        "WX-SU9-012",
-        "WX-SU9-013",
-        "WX-SU9-014",
-        "WX-SU9-015",
-        "WX-SU9-016",
-        "WX-SU9-017"
+        "WX-MOCK2-018",
+        "WX-MOCK3-014",
+        "WX-MOCK5-014",
+        "WX-MOCK8-014",
+        "WX-MOCK10-015",
+        "WX-MOCK13-014"
       ],
       "sections": [
         {
@@ -2652,7 +2658,8 @@
         "common_trap": "열대저기압의 이름·등급만으로 특정 공항의 접근 가능 여부를 결론 내리지 않는다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-weather-all-topics"
     },
     {
       "id": "WX-TH-TC-02",
@@ -2668,9 +2675,6 @@
         85
       ],
       "question_ids": [
-        "WX-SU9-006",
-        "WX-SU9-007",
-        "WX-SU9-008",
         "WX-SU9-009",
         "WX-SU9-010",
         "WX-SU9-011",
@@ -2680,9 +2684,10 @@
         "WX-SU9-015",
         "WX-SU9-016",
         "WX-SU9-017",
-        "WX-SU9-001",
-        "WX-SU9-002",
-        "WX-SU9-003"
+        "WX-MOCK1-015",
+        "WX-MOCK6-015",
+        "WX-MOCK7-014",
+        "WX-MOCK9-015"
       ],
       "sections": [
         {
@@ -2755,7 +2760,8 @@
         "common_trap": "태풍의 눈이 비교적 고요해도 곧 반대쪽 눈벽이 다가오므로 ‘눈 통과=위험 종료’가 아니다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-weather-all-topics"
     },
     {
       "id": "WX-TH-TURB-01",
@@ -2771,6 +2777,7 @@
         87
       ],
       "question_ids": [
+        "WX-SU7-022",
         "WX-SU10-001",
         "WX-SU10-002",
         "WX-SU10-003",
@@ -2782,11 +2789,15 @@
         "WX-SU10-009",
         "WX-SU10-010",
         "WX-SU10-011",
-        "WX-SU10-016",
-        "WX-SU10-017",
-        "WX-SU10-036",
-        "WX-SU10-037",
-        "WX-SU10-044"
+        "WX-MOCK2-015",
+        "WX-MOCK2-016",
+        "WX-MOCK3-015",
+        "WX-MOCK4-014",
+        "WX-MOCK5-015",
+        "WX-MOCK7-015",
+        "WX-MOCK8-015",
+        "WX-MOCK10-012",
+        "WX-MOCK11-013"
       ],
       "sections": [
         {
@@ -2862,7 +2873,8 @@
         "common_trap": "무거운 선행 항공기가 항상 모든 뒤따르는 상황에서 더 위험하다고 단순화하지 말고 접근·이륙 위치와 바람을 함께 본다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-weather-all-topics"
     },
     {
       "id": "WX-TH-TURB-02",
@@ -2881,19 +2893,8 @@
         "WX-SU10-012",
         "WX-SU10-013",
         "WX-SU10-014",
-        "WX-SU10-018",
-        "WX-SU10-023",
-        "WX-SU10-040",
-        "WX-SU10-041",
-        "WX-SU10-046",
-        "WX-SU10-048",
-        "WX-SU10-049",
-        "WX-SU10-050",
-        "WX-SU10-051",
-        "WX-SU10-052",
-        "WX-SU10-053",
-        "WX-SU10-054",
-        "WX-SU10-058"
+        "WX-MOCK4-015",
+        "WX-MOCK12-015"
       ],
       "sections": [
         {
@@ -2964,7 +2965,8 @@
         "common_trap": "처음 순간 속도가 증가했다고 안전 여유가 늘었다고 판단하면 위험하다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-weather-all-topics"
     },
     {
       "id": "WX-TH-TURB-03",
@@ -2991,12 +2993,20 @@
         "WX-SU10-023",
         "WX-SU10-024",
         "WX-SU10-025",
+        "WX-SU10-026",
+        "WX-SU10-027",
+        "WX-SU10-028",
+        "WX-SU10-029",
         "WX-SU10-030",
         "WX-SU10-031",
+        "WX-SU10-032",
+        "WX-SU10-033",
         "WX-SU10-034",
+        "WX-SU10-035",
         "WX-SU10-036",
         "WX-SU10-037",
         "WX-SU10-038",
+        "WX-SU10-039",
         "WX-SU10-040",
         "WX-SU10-041",
         "WX-SU10-042",
@@ -3005,7 +3015,25 @@
         "WX-SU10-045",
         "WX-SU10-046",
         "WX-SU10-047",
-        "WX-SU10-049"
+        "WX-MOCK1-016",
+        "WX-MOCK1-017",
+        "WX-MOCK2-017",
+        "WX-MOCK3-016",
+        "WX-MOCK3-017",
+        "WX-MOCK4-021",
+        "WX-MOCK5-016",
+        "WX-MOCK6-016",
+        "WX-MOCK7-016",
+        "WX-MOCK7-017",
+        "WX-MOCK8-016",
+        "WX-MOCK9-016",
+        "WX-MOCK10-016",
+        "WX-MOCK10-017",
+        "WX-MOCK11-016",
+        "WX-MOCK11-017",
+        "WX-MOCK12-016",
+        "WX-MOCK13-015",
+        "WX-MOCK13-016"
       ],
       "sections": [
         {
@@ -3083,7 +3111,8 @@
         "common_trap": "맑은 하늘은 난기류 부재의 증거가 아니며, 기상레이더의 강수 표시가 없어도 CAT가 있을 수 있다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-weather-all-topics"
     },
     {
       "id": "WX-TH-TURB-04",
@@ -3099,9 +3128,6 @@
         93
       ],
       "question_ids": [
-        "WX-SU10-040",
-        "WX-SU10-041",
-        "WX-SU10-046",
         "WX-SU10-048",
         "WX-SU10-049",
         "WX-SU10-050",
@@ -3109,11 +3135,15 @@
         "WX-SU10-052",
         "WX-SU10-053",
         "WX-SU10-054",
+        "WX-SU10-055",
+        "WX-SU10-056",
         "WX-SU10-057",
         "WX-SU10-058",
-        "WX-SU10-001",
-        "WX-SU10-002",
-        "WX-SU10-003"
+        "WX-MOCK2-014",
+        "WX-MOCK6-017",
+        "WX-MOCK9-017",
+        "WX-MOCK11-018",
+        "WX-MOCK12-017"
       ],
       "sections": [
         {
@@ -3189,7 +3219,8 @@
         "common_trap": "LLWAS가 탐지하지 못한 구역에도 윈드시어가 발생할 수 있으며 경보 부재를 안전 보장으로 해석하지 않는다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-weather-all-topics"
     },
     {
       "id": "WX-TH-CHART-01",
@@ -3227,20 +3258,39 @@
         "WX-SU11-020",
         "WX-SU11-021",
         "WX-SU11-022",
+        "WX-SU11-023",
         "WX-SU11-024",
+        "WX-SU11-025",
+        "WX-SU11-026",
+        "WX-SU11-027",
+        "WX-SU11-028",
+        "WX-SU11-029",
+        "WX-SU11-030",
+        "WX-SU11-031",
+        "WX-SU11-032",
+        "WX-SU11-033",
+        "WX-SU11-034",
         "WX-SU11-035",
         "WX-SU11-036",
-        "WX-SU11-037",
-        "WX-SU11-041",
-        "WX-SU11-044",
-        "WX-SU11-045",
-        "WX-SU11-046",
-        "WX-SU11-050",
-        "WX-SU11-051",
-        "WX-SU11-052",
-        "WX-SU11-053",
-        "WX-SU11-056",
-        "WX-SU11-057"
+        "WX-MOCK1-018",
+        "WX-MOCK1-019",
+        "WX-MOCK2-019",
+        "WX-MOCK4-016",
+        "WX-MOCK4-019",
+        "WX-MOCK5-017",
+        "WX-MOCK5-018",
+        "WX-MOCK6-018",
+        "WX-MOCK7-018",
+        "WX-MOCK8-017",
+        "WX-MOCK8-023",
+        "WX-MOCK9-018",
+        "WX-MOCK10-018",
+        "WX-MOCK11-019",
+        "WX-MOCK12-018",
+        "WX-MOCK12-019",
+        "WX-MOCK13-017",
+        "WX-MOCK13-018",
+        "WX-MOCK13-024"
       ],
       "sections": [
         {
@@ -3321,7 +3371,8 @@
         "common_trap": "관측소 모델의 풍향은 ‘바람이 불어오는 방향’이며 항공기의 이동 방향을 뜻하지 않는다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-weather-all-topics"
     },
     {
       "id": "WX-TH-CHART-02",
@@ -3352,11 +3403,25 @@
         "WX-SU11-049",
         "WX-SU11-050",
         "WX-SU11-051",
+        "WX-SU11-052",
         "WX-SU11-053",
+        "WX-SU11-054",
         "WX-SU11-055",
         "WX-SU11-056",
         "WX-SU11-057",
-        "WX-SU11-058"
+        "WX-SU11-058",
+        "WX-MOCK1-020",
+        "WX-MOCK2-020",
+        "WX-MOCK3-018",
+        "WX-MOCK5-019",
+        "WX-MOCK6-019",
+        "WX-MOCK7-019",
+        "WX-MOCK8-020",
+        "WX-MOCK9-019",
+        "WX-MOCK10-022",
+        "WX-MOCK11-015",
+        "WX-MOCK12-020",
+        "WX-MOCK13-020"
       ],
       "sections": [
         {
@@ -3459,7 +3524,8 @@
         "common_trap": "‘500 hPa 차트’는 지표로부터 언제나 같은 고도에서 관측한 차트가 아니다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-weather-all-topics"
     },
     {
       "id": "WX-TH-CHART-03",
@@ -3475,21 +3541,8 @@
         126
       ],
       "question_ids": [
-        "WX-SU11-034",
         "WX-SU11-059",
-        "WX-SU11-060",
-        "WX-SU11-001",
-        "WX-SU11-002",
-        "WX-SU11-003",
-        "WX-SU11-004",
-        "WX-SU11-005",
-        "WX-SU11-006",
-        "WX-SU11-007",
-        "WX-SU11-008",
-        "WX-SU11-009",
-        "WX-SU11-010",
-        "WX-SU11-011",
-        "WX-SU11-012"
+        "WX-SU11-060"
       ],
       "sections": [
         {
@@ -3556,7 +3609,8 @@
         "common_trap": "과거 차트의 범례와 현재 사용 중인 최신 항공기상 서비스를 구별한다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-weather-all-topics"
     },
     {
       "id": "WX-TH-TAF-01",
@@ -3581,22 +3635,16 @@
         "WX-SU12-007",
         "WX-SU12-008",
         "WX-SU12-009",
-        "WX-SU12-010",
-        "WX-SU12-011",
-        "WX-SU12-012",
-        "WX-SU12-013",
         "WX-SU12-014",
         "WX-SU12-015",
-        "WX-SU12-016",
-        "WX-SU12-017",
-        "WX-SU12-018",
-        "WX-SU12-020",
-        "WX-SU12-043",
-        "WX-SU12-045",
-        "WX-SU12-046",
-        "WX-SU12-047",
-        "WX-SU12-048",
-        "WX-SU12-049"
+        "WX-SU12-049",
+        "WX-SU12-050",
+        "WX-MOCK2-021",
+        "WX-MOCK3-020",
+        "WX-MOCK6-020",
+        "WX-MOCK8-022",
+        "WX-MOCK9-020",
+        "WX-MOCK11-021"
       ],
       "sections": [
         {
@@ -3671,7 +3719,8 @@
         "common_trap": "TAF는 특정 항로 전체가 아닌 공항 주변 예보이므로 항로 악기상은 다른 자료로 보완한다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-weather-all-topics"
     },
     {
       "id": "WX-TH-TAF-02",
@@ -3687,8 +3736,6 @@
         129
       ],
       "question_ids": [
-        "WX-SU12-007",
-        "WX-SU12-008",
         "WX-SU12-010",
         "WX-SU12-011",
         "WX-SU12-012",
@@ -3699,9 +3746,13 @@
         "WX-SU12-019",
         "WX-SU12-020",
         "WX-SU12-021",
-        "WX-SU12-001",
-        "WX-SU12-002",
-        "WX-SU12-003"
+        "WX-SU13-061",
+        "WX-SU13-072",
+        "WX-MOCK4-020",
+        "WX-MOCK6-024",
+        "WX-MOCK7-021",
+        "WX-MOCK8-021",
+        "WX-MOCK10-024"
       ],
       "sections": [
         {
@@ -3771,7 +3822,8 @@
         "common_trap": "TEMPO와 BECMG를 모두 ‘이 시각에 영구 변경’으로 해석하면 예보를 잘못 읽는다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-weather-all-topics"
     },
     {
       "id": "WX-TH-SIGWX-01",
@@ -3787,12 +3839,16 @@
         132
       ],
       "question_ids": [
-        "WX-SU12-008",
-        "WX-SU12-014",
         "WX-SU12-022",
+        "WX-SU12-023",
         "WX-SU12-024",
+        "WX-SU12-025",
         "WX-SU12-026",
+        "WX-SU12-027",
+        "WX-SU12-028",
+        "WX-SU12-029",
         "WX-SU12-030",
+        "WX-SU12-031",
         "WX-SU12-032",
         "WX-SU12-033",
         "WX-SU12-034",
@@ -3802,7 +3858,18 @@
         "WX-SU12-038",
         "WX-SU12-039",
         "WX-SU12-040",
-        "WX-SU12-041"
+        "WX-SU12-041",
+        "WX-SU12-042",
+        "WX-MOCK1-021",
+        "WX-MOCK2-022",
+        "WX-MOCK4-017",
+        "WX-MOCK5-020",
+        "WX-MOCK5-021",
+        "WX-MOCK6-021",
+        "WX-MOCK10-021",
+        "WX-MOCK11-022",
+        "WX-MOCK12-021",
+        "WX-MOCK13-021"
       ],
       "sections": [
         {
@@ -3901,7 +3968,8 @@
         "common_trap": "차트가 제시하지 않는 낮은 고도 위험이나 순간적 변화를 별도 실황 없이 배제하지 않는다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-weather-all-topics"
     },
     {
       "id": "WX-TH-FCST-04",
@@ -3923,15 +3991,10 @@
         "WX-SU12-046",
         "WX-SU12-047",
         "WX-SU12-048",
-        "WX-SU12-001",
-        "WX-SU12-002",
-        "WX-SU12-003",
-        "WX-SU12-004",
-        "WX-SU12-005",
-        "WX-SU12-006",
-        "WX-SU12-007",
-        "WX-SU12-008",
-        "WX-SU12-009"
+        "WX-SU12-051",
+        "WX-MOCK3-021",
+        "WX-MOCK7-020",
+        "WX-MOCK12-022"
       ],
       "sections": [
         {
@@ -4001,7 +4064,8 @@
         "common_trap": "미국의 G-AIRMET/AIRMET 체계를 한국 FIR에 그대로 대입하지 말고 국내 기상기관의 발행 자료를 확인한다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-weather-all-topics"
     },
     {
       "id": "WX-TH-METAR-01",
@@ -4018,41 +4082,37 @@
       ],
       "question_ids": [
         "WX-SU13-001",
+        "WX-SU13-002",
+        "WX-SU13-003",
         "WX-SU13-004",
+        "WX-SU13-005",
         "WX-SU13-006",
+        "WX-SU13-007",
         "WX-SU13-008",
+        "WX-SU13-009",
         "WX-SU13-010",
         "WX-SU13-011",
         "WX-SU13-012",
         "WX-SU13-013",
+        "WX-SU13-014",
         "WX-SU13-015",
         "WX-SU13-016",
         "WX-SU13-017",
         "WX-SU13-018",
         "WX-SU13-019",
         "WX-SU13-020",
-        "WX-SU13-021",
-        "WX-SU13-022",
-        "WX-SU13-023",
-        "WX-SU13-027",
-        "WX-SU13-030",
-        "WX-SU13-032",
-        "WX-SU13-033",
-        "WX-SU13-034",
-        "WX-SU13-035",
-        "WX-SU13-036",
-        "WX-SU13-037",
-        "WX-SU13-045",
-        "WX-SU13-046",
-        "WX-SU13-047",
-        "WX-SU13-049",
-        "WX-SU13-051",
-        "WX-SU13-052",
-        "WX-SU13-054",
-        "WX-SU13-058",
-        "WX-SU13-060",
-        "WX-SU13-062",
-        "WX-SU13-063"
+        "WX-MOCK1-022",
+        "WX-MOCK2-023",
+        "WX-MOCK3-019",
+        "WX-MOCK3-022",
+        "WX-MOCK6-022",
+        "WX-MOCK7-022",
+        "WX-MOCK9-021",
+        "WX-MOCK9-022",
+        "WX-MOCK10-019",
+        "WX-MOCK12-023",
+        "WX-MOCK13-022",
+        "WX-MOCK13-023"
       ],
       "sections": [
         {
@@ -4122,7 +4182,8 @@
         "common_trap": "풍향 표기 VRB와 특정 풍향의 변동구간은 같은 뜻이 아니며, 추세예보와 관측 자체도 구분한다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-weather-all-topics"
     },
     {
       "id": "WX-TH-METAR-02",
@@ -4139,12 +4200,20 @@
       ],
       "question_ids": [
         "WX-SU13-021",
+        "WX-SU13-022",
         "WX-SU13-023",
         "WX-SU13-024",
         "WX-SU13-025",
+        "WX-SU13-026",
+        "WX-SU13-027",
         "WX-SU13-028",
+        "WX-SU13-029",
+        "WX-SU13-030",
+        "WX-SU13-031",
+        "WX-SU13-032",
         "WX-SU13-033",
         "WX-SU13-034",
+        "WX-SU13-035",
         "WX-SU13-036",
         "WX-SU13-037",
         "WX-SU13-038",
@@ -4152,17 +4221,29 @@
         "WX-SU13-040",
         "WX-SU13-041",
         "WX-SU13-042",
+        "WX-SU13-043",
         "WX-SU13-044",
         "WX-SU13-045",
         "WX-SU13-046",
         "WX-SU13-047",
-        "WX-SU13-057",
-        "WX-SU13-060",
-        "WX-SU13-067",
-        "WX-SU13-069",
-        "WX-SU13-070",
-        "WX-SU13-072",
-        "WX-SU13-077"
+        "WX-MOCK1-023",
+        "WX-MOCK2-024",
+        "WX-MOCK3-007",
+        "WX-MOCK3-023",
+        "WX-MOCK4-022",
+        "WX-MOCK4-023",
+        "WX-MOCK5-022",
+        "WX-MOCK5-023",
+        "WX-MOCK6-023",
+        "WX-MOCK7-023",
+        "WX-MOCK8-006",
+        "WX-MOCK8-024",
+        "WX-MOCK9-023",
+        "WX-MOCK10-023",
+        "WX-MOCK11-023",
+        "WX-MOCK11-024",
+        "WX-MOCK12-024",
+        "WX-MOCK13-019"
       ],
       "sections": [
         {
@@ -4242,7 +4323,8 @@
         "common_trap": "기상 보고서의 시정 수치가 높다고 해당 활주로 RVR 역시 동일하다고 볼 수 없다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-weather-all-topics"
     },
     {
       "id": "WX-TH-METAR-03",
@@ -4258,22 +4340,39 @@
         158
       ],
       "question_ids": [
-        "WX-SU13-019",
         "WX-SU13-048",
         "WX-SU13-049",
         "WX-SU13-050",
+        "WX-SU13-051",
+        "WX-SU13-052",
         "WX-SU13-053",
+        "WX-SU13-054",
+        "WX-SU13-055",
+        "WX-SU13-056",
         "WX-SU13-057",
         "WX-SU13-058",
         "WX-SU13-059",
         "WX-SU13-060",
-        "WX-SU13-061",
         "WX-SU13-062",
         "WX-SU13-063",
         "WX-SU13-064",
+        "WX-SU13-065",
+        "WX-SU13-066",
+        "WX-SU13-067",
+        "WX-SU13-068",
         "WX-SU13-069",
         "WX-SU13-070",
-        "WX-SU13-072"
+        "WX-MOCK1-024",
+        "WX-MOCK2-025",
+        "WX-MOCK3-024",
+        "WX-MOCK4-024",
+        "WX-MOCK5-024",
+        "WX-MOCK7-024",
+        "WX-MOCK8-019",
+        "WX-MOCK9-024",
+        "WX-MOCK10-020",
+        "WX-MOCK11-025",
+        "WX-MOCK12-025"
       ],
       "sections": [
         {
@@ -4368,7 +4467,8 @@
         "common_trap": "METAR의 운고는 MSL이 아니라 대체로 공항 표고에 대한 높이이며, 고도계 QNH와 단위·기준이 다르다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-weather-all-topics"
     },
     {
       "id": "WX-TH-METAR-04",
@@ -4384,21 +4484,19 @@
         159
       ],
       "question_ids": [
-        "WX-SU13-061",
-        "WX-SU13-067",
-        "WX-SU13-070",
         "WX-SU13-071",
-        "WX-SU13-072",
         "WX-SU13-073",
         "WX-SU13-074",
         "WX-SU13-075",
         "WX-SU13-076",
+        "WX-SU13-077",
         "WX-SU13-078",
         "WX-SU13-079",
-        "WX-SU13-001",
-        "WX-SU13-002",
-        "WX-SU13-003",
-        "WX-SU13-004"
+        "WX-MOCK1-025",
+        "WX-MOCK4-025",
+        "WX-MOCK7-025",
+        "WX-MOCK10-025",
+        "WX-MOCK13-025"
       ],
       "sections": [
         {
@@ -4471,7 +4569,8 @@
         "common_trap": "NOSIG가 완전히 맑은 날씨나 바람의 0 변화를 의미하지는 않는다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-weather-all-topics"
     },
     {
       "id": "WX-TH-INFO-01",
@@ -4489,18 +4588,7 @@
       "question_ids": [
         "WX-SU14-001",
         "WX-SU14-002",
-        "WX-SU14-003",
-        "WX-SU14-004",
-        "WX-SU14-005",
-        "WX-SU14-006",
-        "WX-SU14-007",
-        "WX-SU14-008",
-        "WX-SU14-009",
-        "WX-SU14-010",
-        "WX-SU14-011",
-        "WX-SU14-012",
-        "WX-SU14-013",
-        "WX-SU14-014"
+        "WX-SU14-003"
       ],
       "sections": [
         {
@@ -4577,7 +4665,8 @@
         "common_trap": "항공기의 특성과 조종사 보고에 따라 체감 강도가 다를 수 있으므로 다른 기상 자료와 교차 확인한다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-weather-all-topics"
     },
     {
       "id": "WX-TH-INFO-02",
@@ -4597,16 +4686,7 @@
         "WX-SU14-005",
         "WX-SU14-006",
         "WX-SU14-007",
-        "WX-SU14-001",
-        "WX-SU14-002",
-        "WX-SU14-003",
-        "WX-SU14-008",
-        "WX-SU14-009",
-        "WX-SU14-010",
-        "WX-SU14-011",
-        "WX-SU14-012",
-        "WX-SU14-013",
-        "WX-SU14-014"
+        "WX-MOCK6-025"
       ],
       "sections": [
         {
@@ -4680,7 +4760,8 @@
         "common_trap": "레이더에 비가 안 보인다는 것과 구름·착빙·청천난기류가 없다는 것은 서로 다르다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-weather-all-topics"
     },
     {
       "id": "WX-TH-INFO-03",
@@ -4703,13 +4784,10 @@
         "WX-SU14-012",
         "WX-SU14-013",
         "WX-SU14-014",
-        "WX-SU14-001",
-        "WX-SU14-002",
-        "WX-SU14-003",
-        "WX-SU14-004",
-        "WX-SU14-005",
-        "WX-SU14-006",
-        "WX-SU14-007"
+        "WX-MOCK3-025",
+        "WX-MOCK5-025",
+        "WX-MOCK8-025",
+        "WX-MOCK9-025"
       ],
       "sections": [
         {
@@ -4781,7 +4859,8 @@
         "common_trap": "AWOS의 자동관측 값과 항공교통관제의 개별 허가는 대체 관계가 아니다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-weather-all-topics"
     }
   ]
 }

@@ -3,11 +3,11 @@
     "name": "항공교통통신 전체 이론학습 과정",
     "subject": "항공교통통신",
     "source_file": "항공교통통신  ocr_압축됨.pdf",
-    "source_scope": "제1장 항행안전시설부터 항공정보업무까지 교재 이론 전 범위. 모의고사 15회는 종합문제이므로 단계별 쪽지시험 연결에서는 제외.",
-    "version": "v11.34-atccomm-theory-full-563-linked",
+    "source_scope": "교재 예상문제 563문항 및 모의고사 375문항 전체",
+    "version": "v11.60.85-atc-all-topics",
     "stage_count": 25,
-    "linked_question_count": 563,
-    "unique_linked_question_count": 563,
+    "linked_question_count": 938,
+    "unique_linked_question_count": 938,
     "question_bank_total": 938,
     "mock_exam_questions": 375,
     "quiz_rule": {
@@ -18,7 +18,11 @@
     "completion_rule": "각 단계 본문 학습 후 쪽지시험에서 10문항 중 8문항 이상 정답 시 다음 단계 해제",
     "content_enhancement_version": "v11.60.67",
     "reference_policy": "대한민국 법령·eAIP가 한국 적용 기준. FAA 자료는 보충/미국 기준. 현행 발효자료와 NOTAM 반드시 확인.",
-    "deep_review_note": "기존 교재 이론은 유지하며 각 단계에 운항 적용과 자주 혼동하는 경계를 보강."
+    "deep_review_note": "기존 교재 이론은 유지하며 각 단계에 운항 적용과 자주 혼동하는 경계를 보강.",
+    "bank_question_total": 938,
+    "excluded_mock_question_count": 0,
+    "classification_revision": "v11.60.85",
+    "classification_note": "각 문항을 대표 학습영역 한 곳에 연결. 기존 단계 ID와 이론 본문, 문제 ID 및 모의고사 회차는 유지."
   },
   "stages": [
     {
@@ -68,7 +72,31 @@
         "ATC-COMM-029",
         "ATC-COMM-030",
         "ATC-COMM-031",
-        "ATC-COMM-032"
+        "ATC-COMM-032",
+        "ATC-COMM-564",
+        "ATC-COMM-565",
+        "ATC-COMM-566",
+        "ATC-COMM-589",
+        "ATC-COMM-595",
+        "ATC-COMM-614",
+        "ATC-COMM-639",
+        "ATC-COMM-664",
+        "ATC-COMM-665",
+        "ATC-COMM-689",
+        "ATC-COMM-714",
+        "ATC-COMM-739",
+        "ATC-COMM-764",
+        "ATC-COMM-765",
+        "ATC-COMM-789",
+        "ATC-COMM-790",
+        "ATC-COMM-800",
+        "ATC-COMM-814",
+        "ATC-COMM-839",
+        "ATC-COMM-864",
+        "ATC-COMM-889",
+        "ATC-COMM-890",
+        "ATC-COMM-920",
+        "ATC-COMM-933"
       ],
       "sections": [
         {
@@ -216,7 +244,8 @@
         "common_trap": "DME 거리와 공항까지의 수평거리는 높은 고도·근거리에서는 차이가 크다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-atc-all-topics"
     },
     {
       "id": "ATC-TH-02",
@@ -254,7 +283,25 @@
         "ATC-COMM-050",
         "ATC-COMM-051",
         "ATC-COMM-052",
-        "ATC-COMM-053"
+        "ATC-COMM-053",
+        "ATC-COMM-567",
+        "ATC-COMM-590",
+        "ATC-COMM-615",
+        "ATC-COMM-640",
+        "ATC-COMM-666",
+        "ATC-COMM-690",
+        "ATC-COMM-691",
+        "ATC-COMM-715",
+        "ATC-COMM-740",
+        "ATC-COMM-771",
+        "ATC-COMM-792",
+        "ATC-COMM-815",
+        "ATC-COMM-840",
+        "ATC-COMM-865",
+        "ATC-COMM-866",
+        "ATC-COMM-914",
+        "ATC-COMM-915",
+        "ATC-COMM-930"
       ],
       "sections": [
         {
@@ -362,7 +409,8 @@
         "common_trap": "PAPI가 보인다는 사실이 계기접근의 모든 최저치와 안정접근 기준을 대신하지 않는다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-atc-all-topics"
     },
     {
       "id": "ATC-TH-03",
@@ -406,7 +454,19 @@
         "ATC-COMM-075",
         "ATC-COMM-076",
         "ATC-COMM-077",
-        "ATC-COMM-078"
+        "ATC-COMM-078",
+        "ATC-COMM-591",
+        "ATC-COMM-616",
+        "ATC-COMM-641",
+        "ATC-COMM-667",
+        "ATC-COMM-692",
+        "ATC-COMM-716",
+        "ATC-COMM-717",
+        "ATC-COMM-791",
+        "ATC-COMM-816",
+        "ATC-COMM-817",
+        "ATC-COMM-867",
+        "ATC-COMM-893"
       ],
       "sections": [
         {
@@ -528,7 +588,8 @@
         "common_trap": "유도로 위치 표지와 필수 지시 표지의 색상·의미를 혼동하지 않는다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-atc-all-topics"
     },
     {
       "id": "ATC-TH-04",
@@ -576,7 +637,21 @@
         "ATC-COMM-102",
         "ATC-COMM-103",
         "ATC-COMM-104",
-        "ATC-COMM-105"
+        "ATC-COMM-105",
+        "ATC-COMM-569",
+        "ATC-COMM-592",
+        "ATC-COMM-593",
+        "ATC-COMM-617",
+        "ATC-COMM-618",
+        "ATC-COMM-642",
+        "ATC-COMM-668",
+        "ATC-COMM-695",
+        "ATC-COMM-741",
+        "ATC-COMM-767",
+        "ATC-COMM-793",
+        "ATC-COMM-842",
+        "ATC-COMM-854",
+        "ATC-COMM-892"
       ],
       "sections": [
         {
@@ -684,7 +759,8 @@
         "common_trap": "공역 등급 설명표와 실제 관제기구 관할 경계를 혼동하지 않는다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-atc-all-topics"
     },
     {
       "id": "ATC-TH-05",
@@ -739,7 +815,25 @@
         "ATC-COMM-136",
         "ATC-COMM-137",
         "ATC-COMM-138",
-        "ATC-COMM-139"
+        "ATC-COMM-139",
+        "ATC-COMM-568",
+        "ATC-COMM-570",
+        "ATC-COMM-594",
+        "ATC-COMM-619",
+        "ATC-COMM-643",
+        "ATC-COMM-644",
+        "ATC-COMM-671",
+        "ATC-COMM-693",
+        "ATC-COMM-696",
+        "ATC-COMM-742",
+        "ATC-COMM-743",
+        "ATC-COMM-768",
+        "ATC-COMM-796",
+        "ATC-COMM-819",
+        "ATC-COMM-820",
+        "ATC-COMM-844",
+        "ATC-COMM-868",
+        "ATC-COMM-891"
       ],
       "sections": [
         {
@@ -853,7 +947,8 @@
         "common_trap": "‘RNAV 장비 장착’만으로 모든 RNP AR 접근 자격까지 충족되는 것은 아니다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-atc-all-topics"
     },
     {
       "id": "ATC-TH-06",
@@ -891,7 +986,24 @@
         "ATC-COMM-155",
         "ATC-COMM-156",
         "ATC-COMM-157",
-        "ATC-COMM-158"
+        "ATC-COMM-158",
+        "ATC-COMM-571",
+        "ATC-COMM-597",
+        "ATC-COMM-604",
+        "ATC-COMM-647",
+        "ATC-COMM-670",
+        "ATC-COMM-719",
+        "ATC-COMM-722",
+        "ATC-COMM-727",
+        "ATC-COMM-750",
+        "ATC-COMM-769",
+        "ATC-COMM-770",
+        "ATC-COMM-795",
+        "ATC-COMM-870",
+        "ATC-COMM-884",
+        "ATC-COMM-894",
+        "ATC-COMM-895",
+        "ATC-COMM-936"
       ],
       "sections": [
         {
@@ -995,7 +1107,8 @@
         "common_trap": "미국 AIM의 일반 표준이 한국의 지역 최소고도 또는 교체공항 법정 요건을 자동 규정하지 않는다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-atc-all-topics"
     },
     {
       "id": "ATC-TH-07",
@@ -1029,7 +1142,19 @@
         "ATC-COMM-174",
         "ATC-COMM-175",
         "ATC-COMM-176",
-        "ATC-COMM-177"
+        "ATC-COMM-177",
+        "ATC-COMM-580",
+        "ATC-COMM-596",
+        "ATC-COMM-621",
+        "ATC-COMM-646",
+        "ATC-COMM-669",
+        "ATC-COMM-698",
+        "ATC-COMM-720",
+        "ATC-COMM-766",
+        "ATC-COMM-801",
+        "ATC-COMM-818",
+        "ATC-COMM-871",
+        "ATC-COMM-921"
       ],
       "sections": [
         {
@@ -1107,7 +1232,8 @@
         "common_trap": "주파수 상의 교통조언은 관제허가와 같은 법적 효력을 갖지 않는다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-atc-all-topics"
     },
     {
       "id": "ATC-TH-08",
@@ -1153,7 +1279,31 @@
         "ATC-COMM-203",
         "ATC-COMM-204",
         "ATC-COMM-205",
-        "ATC-COMM-206"
+        "ATC-COMM-206",
+        "ATC-COMM-573",
+        "ATC-COMM-598",
+        "ATC-COMM-645",
+        "ATC-COMM-672",
+        "ATC-COMM-694",
+        "ATC-COMM-699",
+        "ATC-COMM-718",
+        "ATC-COMM-721",
+        "ATC-COMM-745",
+        "ATC-COMM-746",
+        "ATC-COMM-758",
+        "ATC-COMM-777",
+        "ATC-COMM-781",
+        "ATC-COMM-808",
+        "ATC-COMM-821",
+        "ATC-COMM-833",
+        "ATC-COMM-845",
+        "ATC-COMM-846",
+        "ATC-COMM-847",
+        "ATC-COMM-869",
+        "ATC-COMM-875",
+        "ATC-COMM-883",
+        "ATC-COMM-896",
+        "ATC-COMM-928"
       ],
       "sections": [
         {
@@ -1275,7 +1425,8 @@
         "common_trap": "조언업무와 레이더 분리는 관제사가 제공하는 책임·보장 범위가 다르다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-atc-all-topics"
     },
     {
       "id": "ATC-TH-09",
@@ -1310,7 +1461,16 @@
         "ATC-COMM-221",
         "ATC-COMM-222",
         "ATC-COMM-223",
-        "ATC-COMM-224"
+        "ATC-COMM-224",
+        "ATC-COMM-574",
+        "ATC-COMM-622",
+        "ATC-COMM-648",
+        "ATC-COMM-723",
+        "ATC-COMM-744",
+        "ATC-COMM-794",
+        "ATC-COMM-798",
+        "ATC-COMM-857",
+        "ATC-COMM-873"
       ],
       "sections": [
         {
@@ -1423,7 +1583,8 @@
         "common_trap": "빛총신호 색상과 점멸/연속 조합은 지상 항공기와 비행 중 항공기에서 뜻이 다르다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-atc-all-topics"
     },
     {
       "id": "ATC-TH-10",
@@ -1450,7 +1611,17 @@
         "ATC-COMM-233",
         "ATC-COMM-234",
         "ATC-COMM-235",
-        "ATC-COMM-236"
+        "ATC-COMM-236",
+        "ATC-COMM-600",
+        "ATC-COMM-625",
+        "ATC-COMM-649",
+        "ATC-COMM-680",
+        "ATC-COMM-702",
+        "ATC-COMM-748",
+        "ATC-COMM-773",
+        "ATC-COMM-822",
+        "ATC-COMM-841",
+        "ATC-COMM-898"
       ],
       "sections": [
         {
@@ -1533,7 +1704,8 @@
         "common_trap": "Option approach 등 미국 관제용어는 국내 관제 절차와 일대일 대응한다고 가정하지 않는다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-atc-all-topics"
     },
     {
       "id": "ATC-TH-11",
@@ -1563,7 +1735,15 @@
         "ATC-COMM-248",
         "ATC-COMM-249",
         "ATC-COMM-250",
-        "ATC-COMM-251"
+        "ATC-COMM-251",
+        "ATC-COMM-575",
+        "ATC-COMM-599",
+        "ATC-COMM-624",
+        "ATC-COMM-701",
+        "ATC-COMM-724",
+        "ATC-COMM-774",
+        "ATC-COMM-848",
+        "ATC-COMM-874"
       ],
       "sections": [
         {
@@ -1638,13 +1818,14 @@
         "common_trap": "‘Descend and maintain’과 ‘Descend at pilot’s discretion’은 시작 시점에 대한 의미가 다르다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-atc-all-topics"
     },
     {
       "id": "ATC-TH-12",
       "order": 12,
       "unit_title": "제2장 항공교통업무",
-      "title": "IFR 분리기준 · 속도조절",
+      "title": "IFR 분리기준·항적난류·속도조절",
       "source_pdf_pages": [
         53,
         54
@@ -1669,7 +1850,26 @@
         "ATC-COMM-264",
         "ATC-COMM-265",
         "ATC-COMM-266",
-        "ATC-COMM-267"
+        "ATC-COMM-267",
+        "ATC-COMM-576",
+        "ATC-COMM-601",
+        "ATC-COMM-623",
+        "ATC-COMM-678",
+        "ATC-COMM-704",
+        "ATC-COMM-725",
+        "ATC-COMM-749",
+        "ATC-COMM-797",
+        "ATC-COMM-799",
+        "ATC-COMM-804",
+        "ATC-COMM-823",
+        "ATC-COMM-824",
+        "ATC-COMM-849",
+        "ATC-COMM-851",
+        "ATC-COMM-855",
+        "ATC-COMM-899",
+        "ATC-COMM-917",
+        "ATC-COMM-925",
+        "ATC-COMM-926"
       ],
       "sections": [
         {
@@ -1778,7 +1978,8 @@
         "common_trap": "관제사가 모든 국면의 비행물리적 한계와 장애물 회피 책임까지 대신하지 않는다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-atc-all-topics"
     },
     {
       "id": "ATC-TH-13",
@@ -1808,7 +2009,14 @@
         "ATC-COMM-277",
         "ATC-COMM-278",
         "ATC-COMM-279",
-        "ATC-COMM-280"
+        "ATC-COMM-280",
+        "ATC-COMM-652",
+        "ATC-COMM-674",
+        "ATC-COMM-676",
+        "ATC-COMM-752",
+        "ATC-COMM-775",
+        "ATC-COMM-825",
+        "ATC-COMM-919"
       ],
       "sections": [
         {
@@ -1908,7 +2116,8 @@
         "common_trap": "TCAS TA와 RA는 행동 요구 수준이 다르며 감시화면 표시는 실시간 비행경로 안전의 충분조건이 아니다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-atc-all-topics"
     },
     {
       "id": "ATC-TH-14",
@@ -1954,7 +2163,19 @@
         "ATC-COMM-304",
         "ATC-COMM-305",
         "ATC-COMM-306",
-        "ATC-COMM-307"
+        "ATC-COMM-307",
+        "ATC-COMM-581",
+        "ATC-COMM-602",
+        "ATC-COMM-628",
+        "ATC-COMM-651",
+        "ATC-COMM-700",
+        "ATC-COMM-703",
+        "ATC-COMM-747",
+        "ATC-COMM-776",
+        "ATC-COMM-850",
+        "ATC-COMM-852",
+        "ATC-COMM-900",
+        "ATC-COMM-901"
       ],
       "sections": [
         {
@@ -2054,7 +2275,8 @@
         "common_trap": "비행계획서 제출과 특정 관제허가 획득은 별도 단계다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-atc-all-topics"
     },
     {
       "id": "ATC-TH-15",
@@ -2092,7 +2314,19 @@
         "ATC-COMM-325",
         "ATC-COMM-326",
         "ATC-COMM-327",
-        "ATC-COMM-328"
+        "ATC-COMM-328",
+        "ATC-COMM-603",
+        "ATC-COMM-626",
+        "ATC-COMM-633",
+        "ATC-COMM-653",
+        "ATC-COMM-677",
+        "ATC-COMM-726",
+        "ATC-COMM-737",
+        "ATC-COMM-753",
+        "ATC-COMM-802",
+        "ATC-COMM-803",
+        "ATC-COMM-826",
+        "ATC-COMM-916"
       ],
       "sections": [
         {
@@ -2187,7 +2421,8 @@
         "common_trap": "미국 FAA의 ODP 표준 개념을 국내 모든 출발절차에 존재하는 규칙으로 가정하지 않는다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-atc-all-topics"
     },
     {
       "id": "ATC-TH-16",
@@ -2230,7 +2465,22 @@
         "ATC-COMM-349",
         "ATC-COMM-350",
         "ATC-COMM-351",
-        "ATC-COMM-352"
+        "ATC-COMM-352",
+        "ATC-COMM-579",
+        "ATC-COMM-582",
+        "ATC-COMM-620",
+        "ATC-COMM-629",
+        "ATC-COMM-650",
+        "ATC-COMM-675",
+        "ATC-COMM-679",
+        "ATC-COMM-681",
+        "ATC-COMM-728",
+        "ATC-COMM-772",
+        "ATC-COMM-778",
+        "ATC-COMM-827",
+        "ATC-COMM-853",
+        "ATC-COMM-878",
+        "ATC-COMM-902"
       ],
       "sections": [
         {
@@ -2322,7 +2572,8 @@
         "common_trap": "홀딩 패턴의 표준 회전방향을 알더라도 개별 차트 또는 관제에서 지정한 비표준 패턴을 우선한다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-atc-all-topics"
     },
     {
       "id": "ATC-TH-17",
@@ -2395,7 +2646,39 @@
         "ATC-COMM-397",
         "ATC-COMM-398",
         "ATC-COMM-399",
-        "ATC-COMM-400"
+        "ATC-COMM-400",
+        "ATC-COMM-572",
+        "ATC-COMM-577",
+        "ATC-COMM-605",
+        "ATC-COMM-606",
+        "ATC-COMM-630",
+        "ATC-COMM-631",
+        "ATC-COMM-654",
+        "ATC-COMM-656",
+        "ATC-COMM-657",
+        "ATC-COMM-673",
+        "ATC-COMM-682",
+        "ATC-COMM-705",
+        "ATC-COMM-706",
+        "ATC-COMM-707",
+        "ATC-COMM-729",
+        "ATC-COMM-731",
+        "ATC-COMM-751",
+        "ATC-COMM-755",
+        "ATC-COMM-756",
+        "ATC-COMM-780",
+        "ATC-COMM-805",
+        "ATC-COMM-806",
+        "ATC-COMM-828",
+        "ATC-COMM-829",
+        "ATC-COMM-843",
+        "ATC-COMM-856",
+        "ATC-COMM-880",
+        "ATC-COMM-882",
+        "ATC-COMM-903",
+        "ATC-COMM-904",
+        "ATC-COMM-905",
+        "ATC-COMM-924"
       ],
       "sections": [
         {
@@ -2489,7 +2772,8 @@
         "common_trap": "차트의 MSA를 임의 하강이 허가된 고도로 오해하지 않는다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-atc-all-topics"
     },
     {
       "id": "ATC-TH-18",
@@ -2514,7 +2798,9 @@
         "ATC-COMM-407",
         "ATC-COMM-408",
         "ATC-COMM-409",
-        "ATC-COMM-410"
+        "ATC-COMM-410",
+        "ATC-COMM-732",
+        "ATC-COMM-927"
       ],
       "sections": [
         {
@@ -2587,7 +2873,8 @@
         "common_trap": "‘Minimum fuel’과 ‘Mayday fuel’ 또는 비상연료 선언을 같은 표현으로 사용하지 않는다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-atc-all-topics"
     },
     {
       "id": "ATC-TH-19",
@@ -2621,7 +2908,17 @@
         "ATC-COMM-424",
         "ATC-COMM-425",
         "ATC-COMM-426",
-        "ATC-COMM-427"
+        "ATC-COMM-427",
+        "ATC-COMM-578",
+        "ATC-COMM-608",
+        "ATC-COMM-627",
+        "ATC-COMM-655",
+        "ATC-COMM-683",
+        "ATC-COMM-757",
+        "ATC-COMM-779",
+        "ATC-COMM-807",
+        "ATC-COMM-830",
+        "ATC-COMM-877"
       ],
       "sections": [
         {
@@ -2715,7 +3012,8 @@
         "common_trap": "ADIZ 통과와 국가 영공 진입은 서로 다른 법적 상황이다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-atc-all-topics"
     },
     {
       "id": "ATC-TH-20",
@@ -2745,7 +3043,19 @@
         "ATC-COMM-439",
         "ATC-COMM-440",
         "ATC-COMM-441",
-        "ATC-COMM-442"
+        "ATC-COMM-442",
+        "ATC-COMM-583",
+        "ATC-COMM-607",
+        "ATC-COMM-684",
+        "ATC-COMM-708",
+        "ATC-COMM-782",
+        "ATC-COMM-783",
+        "ATC-COMM-809",
+        "ATC-COMM-831",
+        "ATC-COMM-876",
+        "ATC-COMM-906",
+        "ATC-COMM-907",
+        "ATC-COMM-922"
       ],
       "sections": [
         {
@@ -2816,7 +3126,8 @@
         "common_trap": "7700 설정만으로 모든 상황 정보가 관제기관에 전달되지는 않는다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-atc-all-topics"
     },
     {
       "id": "ATC-TH-21",
@@ -2869,7 +3180,26 @@
         "ATC-COMM-473",
         "ATC-COMM-474",
         "ATC-COMM-475",
-        "ATC-COMM-476"
+        "ATC-COMM-476",
+        "ATC-COMM-585",
+        "ATC-COMM-609",
+        "ATC-COMM-632",
+        "ATC-COMM-634",
+        "ATC-COMM-635",
+        "ATC-COMM-658",
+        "ATC-COMM-697",
+        "ATC-COMM-709",
+        "ATC-COMM-712",
+        "ATC-COMM-733",
+        "ATC-COMM-754",
+        "ATC-COMM-810",
+        "ATC-COMM-832",
+        "ATC-COMM-859",
+        "ATC-COMM-872",
+        "ATC-COMM-881",
+        "ATC-COMM-897",
+        "ATC-COMM-908",
+        "ATC-COMM-918"
       ],
       "sections": [
         {
@@ -2966,7 +3296,8 @@
         "common_trap": "7700(비상)·7600(통신두절)·7500(불법간섭) 코드를 뒤섞지 않는다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-atc-all-topics"
     },
     {
       "id": "ATC-TH-22",
@@ -3005,7 +3336,22 @@
         "ATC-COMM-491",
         "ATC-COMM-492",
         "ATC-COMM-493",
-        "ATC-COMM-494"
+        "ATC-COMM-494",
+        "ATC-COMM-610",
+        "ATC-COMM-659",
+        "ATC-COMM-660",
+        "ATC-COMM-685",
+        "ATC-COMM-686",
+        "ATC-COMM-711",
+        "ATC-COMM-735",
+        "ATC-COMM-759",
+        "ATC-COMM-760",
+        "ATC-COMM-784",
+        "ATC-COMM-834",
+        "ATC-COMM-837",
+        "ATC-COMM-858",
+        "ATC-COMM-879",
+        "ATC-COMM-909"
       ],
       "sections": [
         {
@@ -3120,7 +3466,8 @@
         "common_trap": "‘Roger’는 수신을 뜻할 뿐 지시를 수행할 수 있다는 의미의 readback을 대신하지 않는다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-atc-all-topics"
     },
     {
       "id": "ATC-TH-23",
@@ -3170,7 +3517,18 @@
         "ATC-COMM-520",
         "ATC-COMM-521",
         "ATC-COMM-522",
-        "ATC-COMM-523"
+        "ATC-COMM-523",
+        "ATC-COMM-584",
+        "ATC-COMM-613",
+        "ATC-COMM-636",
+        "ATC-COMM-734",
+        "ATC-COMM-761",
+        "ATC-COMM-785",
+        "ATC-COMM-811",
+        "ATC-COMM-860",
+        "ATC-COMM-886",
+        "ATC-COMM-929",
+        "ATC-COMM-932"
       ],
       "sections": [
         {
@@ -3278,7 +3636,8 @@
         "common_trap": "문자 송신 전문의 우선순위와 음성 교신의 관제 지시 우선순위는 하나의 동일한 규칙이 아니다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-atc-all-topics"
     },
     {
       "id": "ATC-TH-24",
@@ -3331,7 +3690,40 @@
         "ATC-COMM-546",
         "ATC-COMM-547",
         "ATC-COMM-548",
-        "ATC-COMM-549"
+        "ATC-COMM-549",
+        "ATC-COMM-586",
+        "ATC-COMM-587",
+        "ATC-COMM-611",
+        "ATC-COMM-612",
+        "ATC-COMM-638",
+        "ATC-COMM-661",
+        "ATC-COMM-662",
+        "ATC-COMM-687",
+        "ATC-COMM-688",
+        "ATC-COMM-710",
+        "ATC-COMM-713",
+        "ATC-COMM-736",
+        "ATC-COMM-738",
+        "ATC-COMM-763",
+        "ATC-COMM-786",
+        "ATC-COMM-787",
+        "ATC-COMM-812",
+        "ATC-COMM-813",
+        "ATC-COMM-835",
+        "ATC-COMM-836",
+        "ATC-COMM-862",
+        "ATC-COMM-863",
+        "ATC-COMM-885",
+        "ATC-COMM-887",
+        "ATC-COMM-888",
+        "ATC-COMM-910",
+        "ATC-COMM-911",
+        "ATC-COMM-912",
+        "ATC-COMM-931",
+        "ATC-COMM-934",
+        "ATC-COMM-935",
+        "ATC-COMM-937",
+        "ATC-COMM-938"
       ],
       "sections": [
         {
@@ -3414,7 +3806,8 @@
         "common_trap": "오래된 저장 PDF가 최신 NOTAM과 개정된 항공정보를 대체하지 않는다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-atc-all-topics"
     },
     {
       "id": "ATC-TH-25",
@@ -3445,7 +3838,17 @@
         "ATC-COMM-560",
         "ATC-COMM-561",
         "ATC-COMM-562",
-        "ATC-COMM-563"
+        "ATC-COMM-563",
+        "ATC-COMM-588",
+        "ATC-COMM-637",
+        "ATC-COMM-663",
+        "ATC-COMM-730",
+        "ATC-COMM-762",
+        "ATC-COMM-788",
+        "ATC-COMM-838",
+        "ATC-COMM-861",
+        "ATC-COMM-913",
+        "ATC-COMM-923"
       ],
       "sections": [
         {
@@ -3556,7 +3959,8 @@
         "common_trap": "차트의 모든 숫자가 같은 기준면(MSL/AGL)이나 동일한 단위로 표기되는 것은 아니다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.85-atc-all-topics"
     }
   ]
 }
