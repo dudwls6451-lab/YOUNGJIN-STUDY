@@ -1,0 +1,258 @@
+{
+  "README-적용방법.txt": {
+    "bytes": 3856,
+    "sha256": "08b875eb6af7f1889d566cb48eecfddd3e3b2691eaa18d29fa42feb15d3acbd0"
+  },
+  "index.html": {
+    "bytes": 48229,
+    "sha256": "7cba92475b7030962a79de5c8f320ba13e63b5d2af249276de696d468cacfec0"
+  },
+  "references/fsr-aeroplanes-2026-154.pdf": {
+    "bytes": 2469975,
+    "sha256": "0394bfc42eb1849024eb981fc6e44413d300e32629041f9e92894038d65b10b8"
+  },
+  "audit/airlaw-classification-v11-60-82.csv": {
+    "bytes": 312682,
+    "sha256": "be8df8e3b0e4e6ce7cf9d14c314cd97d61132f9c0bfeed9f8b382796142a9f93"
+  },
+  "audit/validation-v11-60-79.json": {
+    "bytes": 4251,
+    "sha256": "df0e91e9c5973c4f1c23d07683e512cdb4dd567bda74bdedd78784528a1d81b2"
+  },
+  "audit/reported-errors-v11-60-81.json": {
+    "bytes": 12766,
+    "sha256": "f9f785c4b4e6d050dc9cff92f7424f2476051f8ce27d638fbc5f8db847795e18"
+  },
+  "audit/README-v11.60.81.txt": {
+    "bytes": 3541,
+    "sha256": "bf2507816776df3ee89172ed1801ffde20bd0383fc320eeb468af404bbb33c9e"
+  },
+  "audit/README-v11.60.80.txt": {
+    "bytes": 4914,
+    "sha256": "e632ff5f1466e32d19304ef76b6512e1fc7061c391ab93e0f4ef5211d8a0c635"
+  },
+  "audit/flight-theory-review-v11-60-77.json": {
+    "bytes": 789438,
+    "sha256": "78ea27c5fa9206bbbfa0847b4aca06473cdd182f4e4bd8ff228756da3060b3d0"
+  },
+  "audit/검수결과.md": {
+    "bytes": 8103,
+    "sha256": "20c1871d1b2cd3f8ba1adeaae6d7c85ecb667eb6eb490aff5117058f2f3ed4b6"
+  },
+  "audit/항공법규_학습영역_분류내역.md": {
+    "bytes": 2487,
+    "sha256": "23ecc27bcf3c2d0bed0584a86df42fc0b1762960b0e5d6e923ba4ce3cfe6e9a1"
+  },
+  "audit/file-manifest-v11-60-78.json": {
+    "bytes": 3863,
+    "sha256": "dbc532952a9f8a28ff5ed97ce066e27a0eedafdf30abe57dca53bb9296447ec2"
+  },
+  "audit/validation-v11-60-77.json": {
+    "bytes": 1603,
+    "sha256": "205acaf82ce5dea740c9b36b373fdb021e54717939a8ea896f1fa08d512296af"
+  },
+  "audit/file-manifest-v11-60-81.json": {
+    "bytes": 8364,
+    "sha256": "06234f99fe1590a5229af09370dd9a50776a1e97c598d28dc1435bc91e181be9"
+  },
+  "audit/비행이론_전수검수_914문항.csv": {
+    "bytes": 76484,
+    "sha256": "c197653789578d714d5415eaaecf63d863ca2fcdf7c4840ead43a814f3f2a774"
+  },
+  "audit/validation-v11-60-80.json": {
+    "bytes": 4769,
+    "sha256": "125ca76653ce3a9a3fd13bb9aae713703d0055601976e2cce66df06c7e3d0d28"
+  },
+  "audit/validation-v11-60-78.json": {
+    "bytes": 3672,
+    "sha256": "8b255fde2ae39d8c2867323824f406e6838c001b0d6b8e547c124b27a5e624c3"
+  },
+  "audit/file-manifest-v11-60-80.json": {
+    "bytes": 4971,
+    "sha256": "87a342e1ff604833423a0d211cacadd2a3545dfcace9ee93d13c64ce63801dbb"
+  },
+  "audit/보고오류_11건_검수내역.md": {
+    "bytes": 2609,
+    "sha256": "5fa15b8b6127a14c4645cc68470110516e360c84c9056248ebfbfa86ae27390b"
+  },
+  "audit/validation-v11-60-81.json": {
+    "bytes": 5705,
+    "sha256": "9e07198e4667b2bfe90cee58b1a84d9bbeb8e303b7b5d41fc2c4f75d1b8bf32a"
+  },
+  "audit/fsr-numeric-v11-60-80-review.csv": {
+    "bytes": 78804,
+    "sha256": "d52ee1e369a076883c5a734e6e60b4ce8fbe837e39bc25d08b256bb5a9f7a900"
+  },
+  "audit/file-manifest-v11-60-79.json": {
+    "bytes": 3931,
+    "sha256": "e3dd06b4341ba2bbc5afbca9edef3174c2209649d9376ba712d1e78e48585295"
+  },
+  "audit/validation-v11-60-82.json": {
+    "bytes": 4919,
+    "sha256": "d046695833906a0eb8c8949b670f5a9123fe3d7585a30f8248c3cd56a8f9cf52"
+  },
+  "data/questions-fsr-numeric-2026-v1.json": {
+    "bytes": 230034,
+    "sha256": "8528c3d3317b8661736d086f1775289becb1711217062a89cc902f9ced614792"
+  },
+  "data/questions-airlaw-mocks-v11-60-74.json": {
+    "bytes": 1537551,
+    "sha256": "121ccba6f1baddf147b310f8f1a1679672186d43b005fe99a6d992c0918f603d"
+  },
+  "data/theory-airlaw-all.json": {
+    "bytes": 117794,
+    "sha256": "016f48fe24f48aa7730a186b924fa02a5a7f79e9ba93fc736a7de8aa69c0a9d6"
+  },
+  "data/questions-flight-theory-v1.json": {
+    "bytes": 1473072,
+    "sha256": "d5497add66b35f1f153bcf521a5fc9088531c22200b1520d622f9a95659e471d"
+  },
+  "data/airlaw-topic-map-v11-60-82.json": {
+    "bytes": 759624,
+    "sha256": "272aa0b371f751633799bdc0b395386eac467527368c8fc958924845606b1d0f"
+  },
+  "assets/weather-criteria-v11-60-78.css": {
+    "bytes": 1162,
+    "sha256": "a420f54564c98ed6a84f6a356bd21a321dada6e9a94fe972bc91b278377ce057"
+  },
+  "assets/learning-analysis-v11-60-79.js": {
+    "bytes": 18194,
+    "sha256": "32f57c737f69587ab846a1829647e183bb926e0a51b4c1b3ef5153a5d6b6503b"
+  },
+  "assets/fsr-numeric-v11-60-80.js": {
+    "bytes": 8554,
+    "sha256": "c7f8e6ece3ad0612af75f0d77ad622da92697c10130767105587135fe0a3574c"
+  },
+  "assets/app-v11-60-82.js": {
+    "bytes": 1895030,
+    "sha256": "9ef680917d296a4a00045b39ea5215cb3252c460b7ee467844acf84479a6ff26"
+  },
+  "assets/learning-analysis-v11-60-79.css": {
+    "bytes": 8757,
+    "sha256": "4d52abaf05af590188d4d41cdfb8cb0e0a0a92db53f126f54b71688cf087c2a4"
+  },
+  "assets/study-plan-v11-60-82.js": {
+    "bytes": 28830,
+    "sha256": "2f5fe2e867a1a08d8cab2e8ee6855e5b0076906f0315c7fbf1ba8723f0b666ce"
+  },
+  "assets/fsr-numeric-v11-60-80.css": {
+    "bytes": 3514,
+    "sha256": "de58661d08e12e4cbff42851eadf621b39f2fb800b1299e4682647bfe6e2452a"
+  },
+  "assets/weather-symbols-v11-60-78.js": {
+    "bytes": 16123,
+    "sha256": "1dedd22206c97afa350ab3734a2166c012dc60c9b0db8dde1c0c7bb5812b1a53"
+  },
+  "assets/reported-review-v11-60-81.css": {
+    "bytes": 594,
+    "sha256": "b90dcd36e3adc8bc6c31bcd9b749c049e20a34213aa41b750a3c42595ef403cb"
+  },
+  "assets/figures/reported81/ATC-COMM-762-C.png": {
+    "bytes": 8183,
+    "sha256": "f42607ed3c04538c307434459fe7de590ef251ae82c3bc04b707861471382320"
+  },
+  "assets/figures/reported81/AIM72-C5-S04-Q013-D.svg": {
+    "bytes": 419,
+    "sha256": "defee5a67b38fc6754b223de708679da433d85af2da2c3f82d52a9e07c465447"
+  },
+  "assets/figures/reported81/WX-SU11-007.png": {
+    "bytes": 149321,
+    "sha256": "58a2b8c934c551d0e31e553dcedd746a14f9369c6ee957a12ece7300182d8572"
+  },
+  "assets/figures/reported81/ATC-COMM-762-B.png": {
+    "bytes": 6375,
+    "sha256": "9fcecafd1f3f89582166eee4f96290423f32077ea99734f48f68fa55908cc60d"
+  },
+  "assets/figures/reported81/WX-SU11-035.svg": {
+    "bytes": 549,
+    "sha256": "862eeb66b8059b8bb5e884e97a03b0529943a55df8cc22edf199e5f37ffbe2d6"
+  },
+  "assets/figures/reported81/WX-SU11-034.svg": {
+    "bytes": 544,
+    "sha256": "ad3507458c2ae8cd6ab90689d733f66cad853df58deb87bc4ad87b26c9ac5327"
+  },
+  "assets/figures/reported81/AIM72-C5-S04-Q013-C.svg": {
+    "bytes": 367,
+    "sha256": "5ce077702c36a8a54a29386cb9ddd8cbd69c059a5b268fc5a917f5095840d0bf"
+  },
+  "assets/figures/reported81/ATC-COMM-762-A.png": {
+    "bytes": 7969,
+    "sha256": "b6e93cc0ab746164c1a237afa889fcc732dbfb2e3434dd6aa02a87212c3a1b9e"
+  },
+  "assets/figures/reported81/AIM72-C5-S04-Q013-A.svg": {
+    "bytes": 315,
+    "sha256": "89dd5517eea447d8f992af1a06c2179a5365f6630dec36a30c7242605063b8d0"
+  },
+  "assets/figures/reported81/AIM72-C5-S04-Q013-B.svg": {
+    "bytes": 367,
+    "sha256": "c20e58413b36d2df9b3b3725b87e7beeb24d2638710204c0263fef076478a9e2"
+  },
+  "assets/figures/reported81/WX-SU11-030-D.png": {
+    "bytes": 8135,
+    "sha256": "3e134b96b17a79c4a309054bef6852c5e689c46a55320324e5a462cfa4f1508c"
+  },
+  "assets/figures/reported81/ATC-COMM-762-D.png": {
+    "bytes": 7477,
+    "sha256": "466463aac7a1c9a98cbffe80880226d785ab59b80c457e4b6d3287b38eb37c7f"
+  },
+  "assets/figures/reported81/WX-MOCK5-018.png": {
+    "bytes": 3473,
+    "sha256": "cae9fd43dfbec15ec132592196b1b8c0e584b828a27984308add9a192dbc2b13"
+  },
+  "assets/figures/reported81/WX-SU11-030-A.png": {
+    "bytes": 4393,
+    "sha256": "be4e155c602d6ba0ab113f33362d9e2e36b9900d5829d64f0821385e8f612819"
+  },
+  "assets/figures/reported81/WX-SU11-030-C.png": {
+    "bytes": 5545,
+    "sha256": "24b294dde7dc61f683bd4e55877eca9b92fbbfdd1768dafc766ccbce18ec81e1"
+  },
+  "assets/figures/reported81/WX-SU11-030-B.png": {
+    "bytes": 5431,
+    "sha256": "6201a2158ebedf47193f52b48c5cac9e54dc61d67c26bb755571ad1dc8043d45"
+  },
+  "assets/figures/flight77/FLIGHT-THEORY-867.png": {
+    "bytes": 26536,
+    "sha256": "bc5044f93155950bb610b68e6f62a886769cb9fa6147290db4e93a141500bda6"
+  },
+  "assets/figures/flight77/FLIGHT-THEORY-551.png": {
+    "bytes": 18539,
+    "sha256": "d4204b0fe771ee7db900945e73edcb42eaca4d9e506190ed9fd819e8fdd46e38"
+  },
+  "assets/figures/flight77/FLIGHT-THEORY-078.png": {
+    "bytes": 12670,
+    "sha256": "ef6523d0c3ce2b4f9625f5d5a293e0048c5bb6088c6c7e20ebd51fed1f70f049"
+  },
+  "assets/figures/flight77/FLIGHT-THEORY-080.png": {
+    "bytes": 21011,
+    "sha256": "25f790577b059ddcfc5b1db7a4b2ebcb76f8c2545146d9af51c4dd12ae18772a"
+  },
+  "assets/figures/flight77/FLIGHT-THEORY-560.png": {
+    "bytes": 96517,
+    "sha256": "e49a2774019d6578525cc87bbb148a4277a21a7ce12726b754e1e404f48ce49b"
+  },
+  "assets/figures/flight77/FLIGHT-THEORY-763.png": {
+    "bytes": 18054,
+    "sha256": "c1544af1d8ea4013fcaf9eecfc77a9a25eef52134a01c9c166bb9577a025f8d7"
+  },
+  "assets/figures/flight77/FLIGHT-THEORY-788.png": {
+    "bytes": 96178,
+    "sha256": "2a7101ab90feec9701c3d5d97cbec63acbca320def92fdfbf79c44c540ad5bea"
+  },
+  "assets/figures/flight77/FLIGHT-THEORY-593.png": {
+    "bytes": 20629,
+    "sha256": "880ac04bbf834641e5fb6d5ac52f4592be8048f221c9ee4ea097418e1113503b"
+  },
+  "assets/figures/flight77/FLIGHT-THEORY-823.png": {
+    "bytes": 5313,
+    "sha256": "e04654c25e00330debfc281f5d8d64dfc991b182b4e48cf2c10680ebd2ebbcae"
+  },
+  "assets/figures/flight77/FLIGHT-THEORY-079.png": {
+    "bytes": 21011,
+    "sha256": "25f790577b059ddcfc5b1db7a4b2ebcb76f8c2545146d9af51c4dd12ae18772a"
+  },
+  "assets/figures/flight77/FLIGHT-THEORY-218.png": {
+    "bytes": 17342,
+    "sha256": "8b8c4e8e3319a0b8ffd91a12510b4757513528375615b5add44e7bbed46c6886"
+  }
+}

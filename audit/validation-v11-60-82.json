@@ -1,0 +1,283 @@
+{
+  "pass": true,
+  "classificationCount": 1203,
+  "stageCount": 20,
+  "uniqueMembership": true,
+  "filtersAndNativePractice": [
+    {
+      "width": 390,
+      "topic": "KDA-TH-01",
+      "count": 13,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "KDA-TH-02",
+      "count": 42,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "KDA-TH-03",
+      "count": 9,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "KDA-TH-04",
+      "count": 18,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "KDA-TH-05",
+      "count": 29,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "KDA-TH-06",
+      "count": 45,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "KDA-TH-07",
+      "count": 69,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "KDA-TH-08",
+      "count": 35,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "KDA-TH-09",
+      "count": 55,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "KDA-TH-10",
+      "count": 143,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "KDA-TH-11",
+      "count": 156,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "KDA-TH-12",
+      "count": 110,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "KDA-TH-13",
+      "count": 194,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "KDA-TH-14",
+      "count": 107,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "KDA-TH-15",
+      "count": 37,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "KDA-TH-16",
+      "count": 73,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "KDA-TH-17",
+      "count": 17,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "KDA-TH-18",
+      "count": 37,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "KDA-TH-19",
+      "count": 12,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "KDA-TH-20",
+      "count": 2,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "detailStages": 20,
+      "unassigned": 0,
+      "repeatCount": 2,
+      "wrongPractice": 1
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "detailStages": 20,
+      "unassigned": 0,
+      "repeatCount": 2,
+      "wrongPractice": 1
+    },
+    {
+      "width": 1440,
+      "topic": "KDA-TH-01",
+      "count": 13,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "KDA-TH-02",
+      "count": 42,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "KDA-TH-03",
+      "count": 9,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "KDA-TH-04",
+      "count": 18,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "KDA-TH-05",
+      "count": 29,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "KDA-TH-06",
+      "count": 45,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "KDA-TH-07",
+      "count": 69,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "KDA-TH-08",
+      "count": 35,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "KDA-TH-09",
+      "count": 55,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "KDA-TH-10",
+      "count": 143,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "KDA-TH-11",
+      "count": 156,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "KDA-TH-12",
+      "count": 110,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "KDA-TH-13",
+      "count": 194,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "KDA-TH-14",
+      "count": 107,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "KDA-TH-15",
+      "count": 37,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "KDA-TH-16",
+      "count": 73,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "KDA-TH-17",
+      "count": 17,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "KDA-TH-18",
+      "count": 37,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "KDA-TH-19",
+      "count": 12,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "KDA-TH-20",
+      "count": 2,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "detailStages": 20,
+      "unassigned": 0,
+      "repeatCount": 2,
+      "wrongPractice": 1
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "detailStages": 20,
+      "unassigned": 0,
+      "repeatCount": 2,
+      "wrongPractice": 1
+    }
+  ],
+  "studyProgressPreserved": true,
+  "sourceTextAnswersUnchanged": true,
+  "mockRoundsRetained": 28
+}
