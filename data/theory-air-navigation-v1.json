@@ -3,21 +3,22 @@
     "name": "공중항법 교재 이론학습",
     "subject": "공중항법",
     "source_file": "공중항법.pdf",
-    "source_scope": "교재 본문 및 해당 출제예상문제 해설. 모의고사 350문항은 단계시험에서 제외.",
-    "version": "1.0",
+    "source_scope": "교재 예상문제 529문항 + 모의고사 제1~14회 350문항",
+    "version": "v11.60.83-air-navigation-classified",
     "stage_count": 31,
     "quiz_rule": {
       "questions_max": 10,
       "pass_percent": 80,
       "unlock": "previous_stage_passed"
     },
-    "note": "교재 원문 기준 학습과정이며 현행 규정·내용의 외부 검증은 별도로 수행하지 않음.",
+    "note": "교재 원문의 이론 설명과 단계 ID를 유지하며, 모의고사를 포함한 전체 879문항을 대표 학습영역 하나에 연결. 단계시험은 연결된 문항에서 출제.",
     "content_basis": "공중항법.pdf의 장·절 구성, 본문, 출제예상문제 및 해설",
-    "linked_question_count": 529,
-    "excluded_mock_question_count": 350,
+    "linked_question_count": 879,
+    "excluded_mock_question_count": 0,
     "content_enhancement_version": "v11.60.67",
     "reference_policy": "대한민국 법령·eAIP가 한국 적용 기준. FAA 자료는 보충/미국 기준. 현행 발효자료와 NOTAM 반드시 확인.",
-    "deep_review_note": "기존 교재 이론은 유지하며 각 단계에 운항 적용과 자주 혼동하는 경계를 보강."
+    "deep_review_note": "기존 교재 이론은 유지하며 각 단계에 운항 적용과 자주 혼동하는 경계를 보강.",
+    "classification_revision": "v11.60.83"
   },
   "stages": [
     {
@@ -46,7 +47,18 @@
         "AIR-NAV-012",
         "AIR-NAV-013",
         "AIR-NAV-014",
-        "AIR-NAV-015"
+        "AIR-NAV-015",
+        "AIR-NAV-530",
+        "AIR-NAV-555",
+        "AIR-NAV-605",
+        "AIR-NAV-630",
+        "AIR-NAV-655",
+        "AIR-NAV-680",
+        "AIR-NAV-705",
+        "AIR-NAV-730",
+        "AIR-NAV-780",
+        "AIR-NAV-805",
+        "AIR-NAV-830"
       ],
       "quiz_questions": 10,
       "pass_percent": 80,
@@ -106,7 +118,8 @@
         "common_trap": "하나의 항법장비에서 표시되는 위치가 정확하다는 것과 무결성·가용성이 충분하다는 것은 다르다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.83-airnav-all-topics"
     },
     {
       "id": "AIRNAV-TH-02",
@@ -135,7 +148,17 @@
         "AIR-NAV-026",
         "AIR-NAV-027",
         "AIR-NAV-028",
-        "AIR-NAV-029"
+        "AIR-NAV-029",
+        "AIR-NAV-533",
+        "AIR-NAV-556",
+        "AIR-NAV-580",
+        "AIR-NAV-581",
+        "AIR-NAV-631",
+        "AIR-NAV-656",
+        "AIR-NAV-706",
+        "AIR-NAV-731",
+        "AIR-NAV-755",
+        "AIR-NAV-806"
       ],
       "quiz_questions": 10,
       "pass_percent": 80,
@@ -201,7 +224,8 @@
         "common_trap": "메르카토르 도법의 직선이 항상 최단경로를 나타내는 것은 아니다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.83-airnav-all-topics"
     },
     {
       "id": "AIRNAV-TH-03",
@@ -268,7 +292,49 @@
         "AIR-NAV-078",
         "AIR-NAV-079",
         "AIR-NAV-080",
-        "AIR-NAV-081"
+        "AIR-NAV-081",
+        "AIR-NAV-531",
+        "AIR-NAV-532",
+        "AIR-NAV-534",
+        "AIR-NAV-557",
+        "AIR-NAV-558",
+        "AIR-NAV-559",
+        "AIR-NAV-560",
+        "AIR-NAV-582",
+        "AIR-NAV-583",
+        "AIR-NAV-606",
+        "AIR-NAV-607",
+        "AIR-NAV-608",
+        "AIR-NAV-632",
+        "AIR-NAV-633",
+        "AIR-NAV-634",
+        "AIR-NAV-657",
+        "AIR-NAV-658",
+        "AIR-NAV-681",
+        "AIR-NAV-682",
+        "AIR-NAV-683",
+        "AIR-NAV-684",
+        "AIR-NAV-707",
+        "AIR-NAV-708",
+        "AIR-NAV-709",
+        "AIR-NAV-713",
+        "AIR-NAV-732",
+        "AIR-NAV-733",
+        "AIR-NAV-756",
+        "AIR-NAV-757",
+        "AIR-NAV-758",
+        "AIR-NAV-763",
+        "AIR-NAV-781",
+        "AIR-NAV-782",
+        "AIR-NAV-783",
+        "AIR-NAV-807",
+        "AIR-NAV-808",
+        "AIR-NAV-831",
+        "AIR-NAV-833",
+        "AIR-NAV-855",
+        "AIR-NAV-856",
+        "AIR-NAV-857",
+        "AIR-NAV-861"
       ],
       "quiz_questions": 10,
       "pass_percent": 80,
@@ -335,7 +401,8 @@
         "common_trap": "UTC와 지역 태양시를, 항공기 TAS와 GS를 혼동하지 않는다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.83-airnav-all-topics"
     },
     {
       "id": "AIRNAV-TH-04",
@@ -367,7 +434,24 @@
         "AIR-NAV-095",
         "AIR-NAV-096",
         "AIR-NAV-097",
-        "AIR-NAV-098"
+        "AIR-NAV-098",
+        "AIR-NAV-538",
+        "AIR-NAV-561",
+        "AIR-NAV-584",
+        "AIR-NAV-587",
+        "AIR-NAV-609",
+        "AIR-NAV-612",
+        "AIR-NAV-635",
+        "AIR-NAV-660",
+        "AIR-NAV-685",
+        "AIR-NAV-711",
+        "AIR-NAV-734",
+        "AIR-NAV-736",
+        "AIR-NAV-760",
+        "AIR-NAV-784",
+        "AIR-NAV-785",
+        "AIR-NAV-809",
+        "AIR-NAV-838"
       ],
       "quiz_questions": 10,
       "pass_percent": 80,
@@ -433,7 +517,8 @@
         "common_trap": "지도의 북쪽 방향과 실제 지리적 방위는 투영법에 따라 위치별로 차이가 날 수 있다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.83-airnav-all-topics"
     },
     {
       "id": "AIRNAV-TH-05",
@@ -463,7 +548,13 @@
         "AIR-NAV-110",
         "AIR-NAV-111",
         "AIR-NAV-112",
-        "AIR-NAV-113"
+        "AIR-NAV-113",
+        "AIR-NAV-536",
+        "AIR-NAV-586",
+        "AIR-NAV-610",
+        "AIR-NAV-659",
+        "AIR-NAV-712",
+        "AIR-NAV-737"
       ],
       "quiz_questions": 10,
       "pass_percent": 80,
@@ -529,7 +620,8 @@
         "common_trap": "Wind 270°는 서쪽 ‘에서’ 불어오는 바람이지 서쪽으로 이동하는 바람이 아니다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.83-airnav-all-topics"
     },
     {
       "id": "AIRNAV-TH-06",
@@ -574,7 +666,29 @@
         "AIR-NAV-140",
         "AIR-NAV-141",
         "AIR-NAV-142",
-        "AIR-NAV-143"
+        "AIR-NAV-143",
+        "AIR-NAV-537",
+        "AIR-NAV-562",
+        "AIR-NAV-563",
+        "AIR-NAV-585",
+        "AIR-NAV-588",
+        "AIR-NAV-603",
+        "AIR-NAV-611",
+        "AIR-NAV-636",
+        "AIR-NAV-661",
+        "AIR-NAV-688",
+        "AIR-NAV-689",
+        "AIR-NAV-738",
+        "AIR-NAV-761",
+        "AIR-NAV-786",
+        "AIR-NAV-810",
+        "AIR-NAV-811",
+        "AIR-NAV-812",
+        "AIR-NAV-827",
+        "AIR-NAV-832",
+        "AIR-NAV-836",
+        "AIR-NAV-837",
+        "AIR-NAV-860"
       ],
       "quiz_questions": 10,
       "pass_percent": 80,
@@ -640,7 +754,8 @@
         "common_trap": "시간은 60진법이므로 20분을 0.20시간으로 넣으면 오류가 난다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.83-airnav-all-topics"
     },
     {
       "id": "AIRNAV-TH-07",
@@ -659,7 +774,10 @@
         "AIR-NAV-144",
         "AIR-NAV-145",
         "AIR-NAV-146",
-        "AIR-NAV-147"
+        "AIR-NAV-147",
+        "AIR-NAV-662",
+        "AIR-NAV-710",
+        "AIR-NAV-762"
       ],
       "quiz_questions": 10,
       "pass_percent": 80,
@@ -725,7 +843,8 @@
         "common_trap": "한 개의 방위선만으로 2차원 위치가 확정되지 않는다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.83-airnav-all-topics"
     },
     {
       "id": "AIRNAV-TH-08",
@@ -766,7 +885,25 @@
         "AIR-NAV-170",
         "AIR-NAV-171",
         "AIR-NAV-172",
-        "AIR-NAV-173"
+        "AIR-NAV-173",
+        "AIR-NAV-535",
+        "AIR-NAV-539",
+        "AIR-NAV-564",
+        "AIR-NAV-589",
+        "AIR-NAV-613",
+        "AIR-NAV-637",
+        "AIR-NAV-638",
+        "AIR-NAV-663",
+        "AIR-NAV-690",
+        "AIR-NAV-714",
+        "AIR-NAV-715",
+        "AIR-NAV-735",
+        "AIR-NAV-759",
+        "AIR-NAV-787",
+        "AIR-NAV-793",
+        "AIR-NAV-813",
+        "AIR-NAV-834",
+        "AIR-NAV-862"
       ],
       "quiz_questions": 10,
       "pass_percent": 80,
@@ -832,7 +969,8 @@
         "common_trap": "Variation과 deviation은 각각 지자기와 기체 자기장의 서로 다른 오차 원인이다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.83-airnav-all-topics"
     },
     {
       "id": "AIRNAV-TH-09",
@@ -853,7 +991,15 @@
         "AIR-NAV-176",
         "AIR-NAV-177",
         "AIR-NAV-178",
-        "AIR-NAV-179"
+        "AIR-NAV-179",
+        "AIR-NAV-547",
+        "AIR-NAV-565",
+        "AIR-NAV-623",
+        "AIR-NAV-639",
+        "AIR-NAV-739",
+        "AIR-NAV-789",
+        "AIR-NAV-814",
+        "AIR-NAV-864"
       ],
       "quiz_questions": 10,
       "pass_percent": 80,
@@ -918,13 +1064,14 @@
         "common_trap": "압력고도·해발고도·지상고도·밀도고도를 같은 고도로 혼동하지 않는다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.83-airnav-all-topics"
     },
     {
       "id": "AIRNAV-TH-10",
       "order": 10,
       "unit_title": "제3장 항공계기",
-      "title": "3.3 속도계",
+      "title": "3.3 속도계·기타 항공계기",
       "source_printed_pages": [
         61,
         62
@@ -944,7 +1091,20 @@
         "AIR-NAV-187",
         "AIR-NAV-188",
         "AIR-NAV-189",
-        "AIR-NAV-190"
+        "AIR-NAV-190",
+        "AIR-NAV-540",
+        "AIR-NAV-590",
+        "AIR-NAV-614",
+        "AIR-NAV-664",
+        "AIR-NAV-698",
+        "AIR-NAV-716",
+        "AIR-NAV-764",
+        "AIR-NAV-822",
+        "AIR-NAV-835",
+        "AIR-NAV-858",
+        "AIR-NAV-859",
+        "AIR-NAV-863",
+        "AIR-NAV-872"
       ],
       "quiz_questions": 10,
       "pass_percent": 80,
@@ -1009,7 +1169,8 @@
         "common_trap": "상승하면서 같은 IAS를 유지하면 TAS가 일반적으로 증가할 수 있다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.83-airnav-all-topics"
     },
     {
       "id": "AIRNAV-TH-11",
@@ -1077,7 +1238,44 @@
         "AIR-NAV-240",
         "AIR-NAV-241",
         "AIR-NAV-242",
-        "AIR-NAV-243"
+        "AIR-NAV-243",
+        "AIR-NAV-377",
+        "AIR-NAV-541",
+        "AIR-NAV-542",
+        "AIR-NAV-566",
+        "AIR-NAV-567",
+        "AIR-NAV-568",
+        "AIR-NAV-591",
+        "AIR-NAV-592",
+        "AIR-NAV-593",
+        "AIR-NAV-615",
+        "AIR-NAV-619",
+        "AIR-NAV-640",
+        "AIR-NAV-641",
+        "AIR-NAV-648",
+        "AIR-NAV-666",
+        "AIR-NAV-667",
+        "AIR-NAV-668",
+        "AIR-NAV-669",
+        "AIR-NAV-686",
+        "AIR-NAV-687",
+        "AIR-NAV-721",
+        "AIR-NAV-740",
+        "AIR-NAV-741",
+        "AIR-NAV-742",
+        "AIR-NAV-765",
+        "AIR-NAV-768",
+        "AIR-NAV-790",
+        "AIR-NAV-791",
+        "AIR-NAV-792",
+        "AIR-NAV-815",
+        "AIR-NAV-816",
+        "AIR-NAV-839",
+        "AIR-NAV-841",
+        "AIR-NAV-847",
+        "AIR-NAV-848",
+        "AIR-NAV-865",
+        "AIR-NAV-866"
       ],
       "quiz_questions": 10,
       "pass_percent": 80,
@@ -1143,7 +1341,8 @@
         "common_trap": "DME의 경사거리를 수평거리와 혼동하지 않는다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.83-airnav-all-topics"
     },
     {
       "id": "AIRNAV-TH-12",
@@ -1171,7 +1370,14 @@
         "AIR-NAV-253",
         "AIR-NAV-254",
         "AIR-NAV-255",
-        "AIR-NAV-256"
+        "AIR-NAV-256",
+        "AIR-NAV-543",
+        "AIR-NAV-569",
+        "AIR-NAV-617",
+        "AIR-NAV-642",
+        "AIR-NAV-718",
+        "AIR-NAV-769",
+        "AIR-NAV-842"
       ],
       "quiz_questions": 10,
       "pass_percent": 80,
@@ -1236,7 +1442,8 @@
         "common_trap": "등화로 지시되는 접근경로와 관제의 활주로 진입·착륙 허가는 별도다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.83-airnav-all-topics"
     },
     {
       "id": "AIRNAV-TH-13",
@@ -1255,7 +1462,8 @@
         "AIR-NAV-257",
         "AIR-NAV-258",
         "AIR-NAV-259",
-        "AIR-NAV-260"
+        "AIR-NAV-260",
+        "AIR-NAV-618"
       ],
       "quiz_questions": 10,
       "pass_percent": 80,
@@ -1315,7 +1523,8 @@
         "common_trap": "표지판의 문자·화살표만 보지 않고 주변 노면표시와 대조한다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.83-airnav-all-topics"
     },
     {
       "id": "AIRNAV-TH-14",
@@ -1337,17 +1546,10 @@
         "AIR-NAV-264",
         "AIR-NAV-265",
         "AIR-NAV-266",
-        "AIR-NAV-267",
-        "AIR-NAV-268",
-        "AIR-NAV-269",
-        "AIR-NAV-270",
-        "AIR-NAV-271",
-        "AIR-NAV-272",
-        "AIR-NAV-273",
-        "AIR-NAV-274",
-        "AIR-NAV-275",
-        "AIR-NAV-276",
-        "AIR-NAV-277"
+        "AIR-NAV-594",
+        "AIR-NAV-616",
+        "AIR-NAV-691",
+        "AIR-NAV-743"
       ],
       "quiz_questions": 10,
       "pass_percent": 80,
@@ -1413,7 +1615,8 @@
         "common_trap": "관제허가는 조종사의 항공기 안전 책임을 완전히 대체하지 않는다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.83-airnav-all-topics"
     },
     {
       "id": "AIRNAV-TH-15",
@@ -1435,7 +1638,11 @@
         "AIR-NAV-281",
         "AIR-NAV-282",
         "AIR-NAV-283",
-        "AIR-NAV-284"
+        "AIR-NAV-284",
+        "AIR-NAV-570",
+        "AIR-NAV-692",
+        "AIR-NAV-719",
+        "AIR-NAV-843"
       ],
       "quiz_questions": 10,
       "pass_percent": 80,
@@ -1496,7 +1703,8 @@
         "common_trap": "차트상 활주로 길이와 현재 사용 가능한 이륙거리(TORA 등)가 항상 같지는 않다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.83-airnav-all-topics"
     },
     {
       "id": "AIRNAV-TH-16",
@@ -1534,7 +1742,20 @@
         "AIR-NAV-304",
         "AIR-NAV-305",
         "AIR-NAV-306",
-        "AIR-NAV-307"
+        "AIR-NAV-307",
+        "AIR-NAV-545",
+        "AIR-NAV-620",
+        "AIR-NAV-670",
+        "AIR-NAV-671",
+        "AIR-NAV-693",
+        "AIR-NAV-717",
+        "AIR-NAV-720",
+        "AIR-NAV-744",
+        "AIR-NAV-770",
+        "AIR-NAV-794",
+        "AIR-NAV-819",
+        "AIR-NAV-845",
+        "AIR-NAV-868"
       ],
       "quiz_questions": 10,
       "pass_percent": 80,
@@ -1599,13 +1820,14 @@
         "common_trap": "ATC가 제공하는 분리기준을 조종사가 임의로 축소해도 된다는 뜻은 아니다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.83-airnav-all-topics"
     },
     {
       "id": "AIRNAV-TH-17",
       "order": 17,
       "unit_title": "제5장 항공교통업무",
-      "title": "5.4 감시시스템(Surveillance systems)",
+      "title": "5.4 감시시스템·트랜스폰더·기상관측",
       "source_printed_pages": [
         96
       ],
@@ -1613,6 +1835,17 @@
         100
       ],
       "question_ids": [
+        "AIR-NAV-267",
+        "AIR-NAV-268",
+        "AIR-NAV-269",
+        "AIR-NAV-270",
+        "AIR-NAV-271",
+        "AIR-NAV-272",
+        "AIR-NAV-273",
+        "AIR-NAV-274",
+        "AIR-NAV-275",
+        "AIR-NAV-276",
+        "AIR-NAV-277",
         "AIR-NAV-308",
         "AIR-NAV-309",
         "AIR-NAV-310",
@@ -1623,7 +1856,21 @@
         "AIR-NAV-315",
         "AIR-NAV-316",
         "AIR-NAV-317",
-        "AIR-NAV-318"
+        "AIR-NAV-318",
+        "AIR-NAV-544",
+        "AIR-NAV-576",
+        "AIR-NAV-595",
+        "AIR-NAV-643",
+        "AIR-NAV-644",
+        "AIR-NAV-652",
+        "AIR-NAV-665",
+        "AIR-NAV-726",
+        "AIR-NAV-745",
+        "AIR-NAV-766",
+        "AIR-NAV-767",
+        "AIR-NAV-788",
+        "AIR-NAV-818",
+        "AIR-NAV-869"
       ],
       "quiz_questions": 10,
       "pass_percent": 80,
@@ -1688,7 +1935,8 @@
         "common_trap": "레이더 화면에 보이지 않는 항공기가 없다는 뜻은 아니다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.83-airnav-all-topics"
     },
     {
       "id": "AIRNAV-TH-18",
@@ -1738,7 +1986,42 @@
         "AIR-NAV-350",
         "AIR-NAV-351",
         "AIR-NAV-352",
-        "AIR-NAV-353"
+        "AIR-NAV-353",
+        "AIR-NAV-363",
+        "AIR-NAV-364",
+        "AIR-NAV-546",
+        "AIR-NAV-571",
+        "AIR-NAV-572",
+        "AIR-NAV-574",
+        "AIR-NAV-597",
+        "AIR-NAV-598",
+        "AIR-NAV-621",
+        "AIR-NAV-622",
+        "AIR-NAV-646",
+        "AIR-NAV-647",
+        "AIR-NAV-672",
+        "AIR-NAV-673",
+        "AIR-NAV-694",
+        "AIR-NAV-695",
+        "AIR-NAV-696",
+        "AIR-NAV-697",
+        "AIR-NAV-722",
+        "AIR-NAV-724",
+        "AIR-NAV-746",
+        "AIR-NAV-747",
+        "AIR-NAV-771",
+        "AIR-NAV-772",
+        "AIR-NAV-795",
+        "AIR-NAV-796",
+        "AIR-NAV-797",
+        "AIR-NAV-798",
+        "AIR-NAV-821",
+        "AIR-NAV-823",
+        "AIR-NAV-840",
+        "AIR-NAV-844",
+        "AIR-NAV-853",
+        "AIR-NAV-870",
+        "AIR-NAV-873"
       ],
       "quiz_questions": 10,
       "pass_percent": 80,
@@ -1804,7 +2087,8 @@
         "common_trap": "한국과 미국의 전이 관련 기준값을 동일한 고정 수치로 가정하지 않는다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.83-airnav-all-topics"
     },
     {
       "id": "AIRNAV-TH-19",
@@ -1829,8 +2113,8 @@
         "AIR-NAV-360",
         "AIR-NAV-361",
         "AIR-NAV-362",
-        "AIR-NAV-363",
-        "AIR-NAV-364"
+        "AIR-NAV-577",
+        "AIR-NAV-846"
       ],
       "quiz_questions": 10,
       "pass_percent": 80,
@@ -1895,7 +2179,8 @@
         "common_trap": "시간 분리가 충족되었다고 모든 항적난기류 가능성이 물리적으로 사라진다고 보지 않는다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.83-airnav-all-topics"
     },
     {
       "id": "AIRNAV-TH-20",
@@ -1923,12 +2208,23 @@
         "AIR-NAV-374",
         "AIR-NAV-375",
         "AIR-NAV-376",
-        "AIR-NAV-377",
         "AIR-NAV-378",
         "AIR-NAV-379",
         "AIR-NAV-380",
         "AIR-NAV-381",
-        "AIR-NAV-382"
+        "AIR-NAV-382",
+        "AIR-NAV-396",
+        "AIR-NAV-550",
+        "AIR-NAV-596",
+        "AIR-NAV-645",
+        "AIR-NAV-649",
+        "AIR-NAV-723",
+        "AIR-NAV-748",
+        "AIR-NAV-773",
+        "AIR-NAV-774",
+        "AIR-NAV-799",
+        "AIR-NAV-820",
+        "AIR-NAV-871"
       ],
       "quiz_questions": 10,
       "pass_percent": 80,
@@ -1994,7 +2290,8 @@
         "common_trap": "도상 고도가 모두 MSL인지 AGL인지 표기를 확인하지 않고 해석하지 않는다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.83-airnav-all-topics"
     },
     {
       "id": "AIRNAV-TH-21",
@@ -2019,7 +2316,14 @@
         "AIR-NAV-389",
         "AIR-NAV-390",
         "AIR-NAV-391",
-        "AIR-NAV-392"
+        "AIR-NAV-392",
+        "AIR-NAV-549",
+        "AIR-NAV-624",
+        "AIR-NAV-674",
+        "AIR-NAV-699",
+        "AIR-NAV-749",
+        "AIR-NAV-800",
+        "AIR-NAV-849"
       ],
       "quiz_questions": 10,
       "pass_percent": 80,
@@ -2084,7 +2388,8 @@
         "common_trap": "‘기상 브리핑을 받았다’는 행위 자체가 계획의 안전성을 자동 보장하지 않는다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.83-airnav-all-topics"
     },
     {
       "id": "AIRNAV-TH-22",
@@ -2103,7 +2408,6 @@
         "AIR-NAV-393",
         "AIR-NAV-394",
         "AIR-NAV-395",
-        "AIR-NAV-396",
         "AIR-NAV-397",
         "AIR-NAV-398",
         "AIR-NAV-399",
@@ -2126,7 +2430,25 @@
         "AIR-NAV-416",
         "AIR-NAV-417",
         "AIR-NAV-418",
-        "AIR-NAV-419"
+        "AIR-NAV-548",
+        "AIR-NAV-575",
+        "AIR-NAV-599",
+        "AIR-NAV-600",
+        "AIR-NAV-625",
+        "AIR-NAV-650",
+        "AIR-NAV-651",
+        "AIR-NAV-675",
+        "AIR-NAV-700",
+        "AIR-NAV-725",
+        "AIR-NAV-775",
+        "AIR-NAV-776",
+        "AIR-NAV-801",
+        "AIR-NAV-817",
+        "AIR-NAV-824",
+        "AIR-NAV-825",
+        "AIR-NAV-850",
+        "AIR-NAV-874",
+        "AIR-NAV-875"
       ],
       "quiz_questions": 10,
       "pass_percent": 80,
@@ -2191,7 +2513,8 @@
         "common_trap": "비행계획상 제출 경로와 현재 승인된 경로가 달라질 수 있다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.83-airnav-all-topics"
     },
     {
       "id": "AIRNAV-TH-23",
@@ -2207,6 +2530,7 @@
         134
       ],
       "question_ids": [
+        "AIR-NAV-419",
         "AIR-NAV-420",
         "AIR-NAV-421",
         "AIR-NAV-422",
@@ -2236,7 +2560,21 @@
         "AIR-NAV-446",
         "AIR-NAV-447",
         "AIR-NAV-448",
-        "AIR-NAV-449"
+        "AIR-NAV-449",
+        "AIR-NAV-551",
+        "AIR-NAV-573",
+        "AIR-NAV-601",
+        "AIR-NAV-626",
+        "AIR-NAV-676",
+        "AIR-NAV-677",
+        "AIR-NAV-701",
+        "AIR-NAV-750",
+        "AIR-NAV-777",
+        "AIR-NAV-802",
+        "AIR-NAV-826",
+        "AIR-NAV-851",
+        "AIR-NAV-867",
+        "AIR-NAV-876"
       ],
       "quiz_questions": 10,
       "pass_percent": 80,
@@ -2301,7 +2639,8 @@
         "common_trap": "접근허가와 착륙허가는 서로 다른 허가이고 도착도상의 MSA는 임의 하강허가가 아니다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.83-airnav-all-topics"
     },
     {
       "id": "AIRNAV-TH-24",
@@ -2329,7 +2668,17 @@
         "AIR-NAV-459",
         "AIR-NAV-460",
         "AIR-NAV-461",
-        "AIR-NAV-462"
+        "AIR-NAV-462",
+        "AIR-NAV-552",
+        "AIR-NAV-602",
+        "AIR-NAV-627",
+        "AIR-NAV-653",
+        "AIR-NAV-702",
+        "AIR-NAV-727",
+        "AIR-NAV-751",
+        "AIR-NAV-778",
+        "AIR-NAV-852",
+        "AIR-NAV-877"
       ],
       "quiz_questions": 10,
       "pass_percent": 80,
@@ -2394,13 +2743,14 @@
         "common_trap": "ADIZ, 영공, 금지구역은 목적과 법적 성격이 다르다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.83-airnav-all-topics"
     },
     {
       "id": "AIRNAV-TH-25",
       "order": 25,
       "unit_title": "제7장 인적요소 일반",
-      "title": "7.1 인적요소의 개요",
+      "title": "7.1 인적요소의 개요·항공안전보고",
       "source_printed_pages": [
         152,
         153
@@ -2417,7 +2767,13 @@
         "AIR-NAV-467",
         "AIR-NAV-468",
         "AIR-NAV-469",
-        "AIR-NAV-470"
+        "AIR-NAV-491",
+        "AIR-NAV-553",
+        "AIR-NAV-578",
+        "AIR-NAV-579",
+        "AIR-NAV-703",
+        "AIR-NAV-752",
+        "AIR-NAV-828"
       ],
       "quiz_questions": 10,
       "pass_percent": 80,
@@ -2482,7 +2838,8 @@
         "common_trap": "실수를 개인 능력 부족으로만 돌리면 시스템 수준의 위험요인을 놓칠 수 있다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.83-airnav-all-topics"
     },
     {
       "id": "AIRNAV-TH-26",
@@ -2498,6 +2855,7 @@
         161
       ],
       "question_ids": [
+        "AIR-NAV-470",
         "AIR-NAV-471",
         "AIR-NAV-472",
         "AIR-NAV-473",
@@ -2518,7 +2876,14 @@
         "AIR-NAV-488",
         "AIR-NAV-489",
         "AIR-NAV-490",
-        "AIR-NAV-491"
+        "AIR-NAV-554",
+        "AIR-NAV-628",
+        "AIR-NAV-629",
+        "AIR-NAV-654",
+        "AIR-NAV-728",
+        "AIR-NAV-753",
+        "AIR-NAV-803",
+        "AIR-NAV-878"
       ],
       "quiz_questions": 10,
       "pass_percent": 80,
@@ -2584,7 +2949,8 @@
         "common_trap": "저산소증은 본인이 증상을 정확히 자각하지 못할 수 있으므로 주관적 감각만 믿지 않는다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.83-airnav-all-topics"
     },
     {
       "id": "AIRNAV-TH-27",
@@ -2608,7 +2974,8 @@
         "AIR-NAV-497",
         "AIR-NAV-498",
         "AIR-NAV-499",
-        "AIR-NAV-500"
+        "AIR-NAV-500",
+        "AIR-NAV-678"
       ],
       "quiz_questions": 10,
       "pass_percent": 80,
@@ -2673,7 +3040,8 @@
         "common_trap": "같은 계기를 여러 번 읽는 것만으로 서로 독립적인 교차검증이 되지는 않는다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.83-airnav-all-topics"
     },
     {
       "id": "AIRNAV-TH-28",
@@ -2695,7 +3063,11 @@
         "AIR-NAV-504",
         "AIR-NAV-505",
         "AIR-NAV-506",
-        "AIR-NAV-507"
+        "AIR-NAV-507",
+        "AIR-NAV-729",
+        "AIR-NAV-779",
+        "AIR-NAV-829",
+        "AIR-NAV-854"
       ],
       "quiz_questions": 10,
       "pass_percent": 80,
@@ -2760,7 +3132,8 @@
         "common_trap": "법적으로 자격이 유효하다는 사실이 그날의 신체·인지 적합성을 보장하지 않는다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.83-airnav-all-topics"
     },
     {
       "id": "AIRNAV-TH-29",
@@ -2780,7 +3153,9 @@
         "AIR-NAV-509",
         "AIR-NAV-510",
         "AIR-NAV-511",
-        "AIR-NAV-512"
+        "AIR-NAV-512",
+        "AIR-NAV-604",
+        "AIR-NAV-879"
       ],
       "quiz_questions": 10,
       "pass_percent": 80,
@@ -2845,7 +3220,8 @@
         "common_trap": "확인 메시지 없이 끄덕이는 행동을 유효한 readback으로 대체하지 않는다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.83-airnav-all-topics"
     },
     {
       "id": "AIRNAV-TH-30",
@@ -2872,7 +3248,10 @@
         "AIR-NAV-521",
         "AIR-NAV-522",
         "AIR-NAV-523",
-        "AIR-NAV-524"
+        "AIR-NAV-524",
+        "AIR-NAV-679",
+        "AIR-NAV-704",
+        "AIR-NAV-754"
       ],
       "quiz_questions": 10,
       "pass_percent": 80,
@@ -2938,7 +3317,8 @@
         "common_trap": "‘시스템이 정상 표시’와 ‘실제 운항 조건 전체가 적합’은 다른 판단이다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.83-airnav-all-topics"
     },
     {
       "id": "AIRNAV-TH-31",
@@ -2958,7 +3338,8 @@
         "AIR-NAV-526",
         "AIR-NAV-527",
         "AIR-NAV-528",
-        "AIR-NAV-529"
+        "AIR-NAV-529",
+        "AIR-NAV-804"
       ],
       "quiz_questions": 10,
       "pass_percent": 80,
@@ -3023,7 +3404,8 @@
         "common_trap": "시정이 좋은 날에도 착시와 지형기만으로 공간정위상실 위험이 없다고 단정할 수 없다."
       },
       "content_enhancement_version": "v11.60.67",
-      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요."
+      "reference_verified_scope": "참고 링크의 공식성·관할 및 주제 대응 확인. 각 문장·수치의 법령 조문 단위 대조는 개별 검증 필요.",
+      "classification_revision": "v11.60.83-airnav-all-topics"
     }
   ]
 }

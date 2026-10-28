@@ -1,0 +1,416 @@
+{
+  "pass": true,
+  "classified": 879,
+  "stages": 31,
+  "unassigned": 0,
+  "duplicateMembership": 0,
+  "checks": [
+    {
+      "width": 390,
+      "topic": "AIRNAV-TH-01",
+      "count": 26,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "AIRNAV-TH-02",
+      "count": 24,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "AIRNAV-TH-03",
+      "count": 94,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "AIRNAV-TH-04",
+      "count": 34,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "AIRNAV-TH-05",
+      "count": 21,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "AIRNAV-TH-06",
+      "count": 52,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "AIRNAV-TH-07",
+      "count": 7,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "AIRNAV-TH-08",
+      "count": 44,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "AIRNAV-TH-09",
+      "count": 14,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "AIRNAV-TH-10",
+      "count": 24,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "AIRNAV-TH-11",
+      "count": 90,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "AIRNAV-TH-12",
+      "count": 20,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "AIRNAV-TH-13",
+      "count": 5,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "AIRNAV-TH-14",
+      "count": 10,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "AIRNAV-TH-15",
+      "count": 11,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "AIRNAV-TH-16",
+      "count": 36,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "AIRNAV-TH-17",
+      "count": 36,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "AIRNAV-TH-18",
+      "count": 70,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "AIRNAV-TH-19",
+      "count": 11,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "AIRNAV-TH-20",
+      "count": 29,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "AIRNAV-TH-21",
+      "count": 17,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "AIRNAV-TH-22",
+      "count": 44,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "AIRNAV-TH-23",
+      "count": 45,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "AIRNAV-TH-24",
+      "count": 23,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "AIRNAV-TH-25",
+      "count": 14,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "AIRNAV-TH-26",
+      "count": 29,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "AIRNAV-TH-27",
+      "count": 10,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "AIRNAV-TH-28",
+      "count": 11,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "AIRNAV-TH-29",
+      "count": 7,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "AIRNAV-TH-30",
+      "count": 15,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "topic": "AIRNAV-TH-31",
+      "count": 6,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "detailStages": 31,
+      "unassigned": 0,
+      "repeatCount": 2,
+      "wrongPractice": 1
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "detailStages": 31,
+      "unassigned": 0,
+      "repeatCount": 2,
+      "wrongPractice": 1
+    },
+    {
+      "width": 1440,
+      "topic": "AIRNAV-TH-01",
+      "count": 26,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "AIRNAV-TH-02",
+      "count": 24,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "AIRNAV-TH-03",
+      "count": 94,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "AIRNAV-TH-04",
+      "count": 34,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "AIRNAV-TH-05",
+      "count": 21,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "AIRNAV-TH-06",
+      "count": 52,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "AIRNAV-TH-07",
+      "count": 7,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "AIRNAV-TH-08",
+      "count": 44,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "AIRNAV-TH-09",
+      "count": 14,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "AIRNAV-TH-10",
+      "count": 24,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "AIRNAV-TH-11",
+      "count": 90,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "AIRNAV-TH-12",
+      "count": 20,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "AIRNAV-TH-13",
+      "count": 5,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "AIRNAV-TH-14",
+      "count": 10,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "AIRNAV-TH-15",
+      "count": 11,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "AIRNAV-TH-16",
+      "count": 36,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "AIRNAV-TH-17",
+      "count": 36,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "AIRNAV-TH-18",
+      "count": 70,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "AIRNAV-TH-19",
+      "count": 11,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "AIRNAV-TH-20",
+      "count": 29,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "AIRNAV-TH-21",
+      "count": 17,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "AIRNAV-TH-22",
+      "count": 44,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "AIRNAV-TH-23",
+      "count": 45,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "AIRNAV-TH-24",
+      "count": 23,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "AIRNAV-TH-25",
+      "count": 14,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "AIRNAV-TH-26",
+      "count": 29,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "AIRNAV-TH-27",
+      "count": 10,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "AIRNAV-TH-28",
+      "count": 11,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "AIRNAV-TH-29",
+      "count": 7,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "AIRNAV-TH-30",
+      "count": 15,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "topic": "AIRNAV-TH-31",
+      "count": 6,
+      "filter": true
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "detailStages": 31,
+      "unassigned": 0,
+      "repeatCount": 2,
+      "wrongPractice": 1
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "detailStages": 31,
+      "unassigned": 0,
+      "repeatCount": 2,
+      "wrongPractice": 1
+    }
+  ],
+  "lawClassificationRegression": true,
+  "progressPreserved": true,
+  "mockRoundsRetained": 14
+}

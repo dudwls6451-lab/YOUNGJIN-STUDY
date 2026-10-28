@@ -1,0 +1,880 @@
+﻿문제 ID,문제,원래 SU,원래 소단원·모의고사 회차,기존 연결 단계,대표 학습영역,학습영역 이름
+AIR-NAV-001,항법의 중요한 3 가지 요소가 아닌 것은?,1,공중항법의 개요,1,AIRNAV-TH-01,1.1 공중항법의 개요
+AIR-NAV-002,항법의 4대 요소가 아닌 것은?,1,공중항법의 개요,1,AIRNAV-TH-01,1.1 공중항법의 개요
+AIR-NAV-003,공중항법의 4 대 기본요소는?,1,공중항법의 개요,1,AIRNAV-TH-01,1.1 공중항법의 개요
+AIR-NAV-004,"해상, 운상이나현저한참조점이 없는지역, 또는야간이나시정이 불량할 때 사용되는항법은?",1,공중항법의 개요,1,AIRNAV-TH-01,1.1 공중항법의 개요
+AIR-NAV-005,지상목표 없이 기본 계기를 이용해 예상되는 경로를 비행하는 방법은?,1,공중항법의 개요,1,AIRNAV-TH-01,1.1 공중항법의 개요
+AIR-NAV-006,지상의 저명한 지형지물을 참조하여 항행하는 항법은?,1,공중항법의 개요,1,AIRNAV-TH-01,1.1 공중항법의 개요
+AIR-NAV-007,"지상의 구조물이나 지형, 또는 항공도를 보고 비행하는 항법은?",1,공중항법의 개요,1,AIRNAV-TH-01,1.1 공중항법의 개요
+AIR-NAV-008,"조종사가 태양이나 달, 별 등을 보고 위치를 파악하며 비행하는 방법으로 극지방에서 사용하는 항법은?",1,공중항법의 개요,1,AIRNAV-TH-01,1.1 공중항법의 개요
+AIR-NAV-009,발사된 신호의 도달시간 차이를 측정하여 항공기의 위치를 구하는 항법은?,1,공중항법의 개요,1,AIRNAV-TH-01,1.1 공중항법의 개요
+AIR-NAV-010,배풍을 최대한 이용하여 비행시간을 단축할 수 있는 항법은?,1,공중항법의 개요,1,AIRNAV-TH-01,1.1 공중항법의 개요
+AIR-NAV-011,가상 자오선을 이용한 항법은?,1,공중항법의 개요,1,AIRNAV-TH-01,1.1 공중항법의 개요
+AIR-NAV-012,극지방 항법 시 그리드 격자가 사용 가능한 위도는?,1,공중항법의 개요,1,AIRNAV-TH-01,1.1 공중항법의 개요
+AIR-NAV-013,항법의 종류에 대한 설명 중 틀린 것은?,1,공중항법의 개요,1,AIRNAV-TH-01,1.1 공중항법의 개요
+AIR-NAV-014,추측항법을 하는데 있어서 필요한 요소로 구성된 것은?,1,공중항법의 개요,1,AIRNAV-TH-01,1.1 공중항법의 개요
+AIR-NAV-015,추측항법 시 시간이 경과할수록 오차가 커지는 이유 중에서 가장 중요한 요인은?,1,공중항법의 개요,1,AIRNAV-TH-01,1.1 공중항법의 개요
+AIR-NAV-016,대권(great circle)에 대한 설명 중 틀린 것은?,1,지구(Earth),2,AIRNAV-TH-02,1.2 지구(Earth)
+AIR-NAV-017,대권에 대한 설명 중 맞는 것은?,1,지구(Earth),2,AIRNAV-TH-02,1.2 지구(Earth)
+AIR-NAV-018,적도에 관한 설명 중 틀린 것은?,1,지구(Earth),2,AIRNAV-TH-02,1.2 지구(Earth)
+AIR-NAV-019,양 극(pole)을 통하는 대권으로 적도에 수직인 선은?,1,지구(Earth),2,AIRNAV-TH-02,1.2 지구(Earth)
+AIR-NAV-020,경도 측정의 기준이 되는 선으로 영국의 그리니치 천문대를 통과하는 것은?,1,지구(Earth),2,AIRNAV-TH-02,1.2 지구(Earth)
+AIR-NAV-021,항정선에 대한 설명 중 틀린 것은?,1,지구(Earth),2,AIRNAV-TH-02,1.2 지구(Earth)
+AIR-NAV-022,항정선에 대한 설명으로 맞는 것은?,1,지구(Earth),2,AIRNAV-TH-02,1.2 지구(Earth)
+AIR-NAV-023,경도 1°의 길이가 0 NM이 되는 곳은?,1,지구(Earth),2,AIRNAV-TH-02,1.2 지구(Earth)
+AIR-NAV-024,두 지점 35°N와 13°N 사이의 변위(DI)는 얼마인가?,1,지구(Earth),2,AIRNAV-TH-02,1.2 지구(Earth)
+AIR-NAV-025,두 지점 67°N와 23°S 사이의 변위(DI)는 얼마인가?,1,지구(Earth),2,AIRNAV-TH-02,1.2 지구(Earth)
+AIR-NAV-026,두 지점 Ol8°E와 095°w 사이의 변경(Dlo)은 얼마인가?,1,지구(Earth),2,AIRNAV-TH-02,1.2 지구(Earth)
+AIR-NAV-027,두 지점 126°E와 82°W 사이의 변경 (Dlo)은 얼마인가?,1,지구(Earth),2,AIRNAV-TH-02,1.2 지구(Earth)
+AIR-NAV-028,두 지점 22°N와 52°N 사이의 중분위도는?,1,지구(Earth),2,AIRNAV-TH-02,1.2 지구(Earth)
+AIR-NAV-029,두 지점 40°N와 10°S 사이의 중분위도는?,1,지구(Earth),2,AIRNAV-TH-02,1.2 지구(Earth)
+AIR-NAV-030,다음 보기 중에서 성격이 다른 하나는?,1,"시간, 거리 및 방향",3,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-031,1 시간당 지구의 자전속도(rotation rate)는?,1,"시간, 거리 및 방향",3,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-032,경도 15°는 몇 시간에 해당하는가?,1,"시간, 거리 및 방향",3,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-033,경도 15° 당 지역시간의 차이는?,1,"시간, 거리 및 방향",3,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-034,시간과 경도와의 관계로 맞는 것은?,1,"시간, 거리 및 방향",3,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-035,경도 137° 15'W에서의 지방시가 15일 2000일 때 전환계수는?,1,"시간, 거리 및 방향",3,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-036,경도 98° 20'E 에서의 지방시가 30일 0700일 때 전환계수는?,1,"시간, 거리 및 방향",3,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-037,서경 54° 15’ 에서 지방시가 30일 0500일 때 UTC는 얼마인가?,1,"시간, 거리 및 방향",3,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-038,70° 25'E에서 local time이 23일 04시 일 때 UTC는?,1,"시간, 거리 및 방향",3,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-039,UTC 16일 0500시 일 때 서 경 135도 15분의 local mean time은?,1,"시간, 거리 및 방향",3,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-040,UTC 1300일 때 82°W 30°8 인 지역의 지방시는?,1,"시간, 거리 및 방향",3,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-041,동경 135°에서 UTC 0300 이면 현지 시간은?,1,"시간, 거리 및 방향",3,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-042,13502일 때 우리나라의 LT (local time)는?,1,"시간, 거리 및 방향",3,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-043,"항공기가 현지시간 5 월 1일 2330분에 LAX를 출발하였다. 비행시간 13시간 10분 후에 ICN에 도착하였다면 ICN의 현지시간은? （여기에서 LAX의 LMT는 UTC-8, ICN의 LMT는 UTC +9 이다)",1,"시간, 거리 및 방향",3,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-044,지구의 시간에 대한 설명 중 틀린 것은?,1,"시간, 거리 및 방향",3,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-045,날짜 변경선의 기준은?,1,"시간, 거리 및 방향",3,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-046,지역별로 해상마일(nautical mile)의 기준이 되는 것은?,1,"시간, 거리 및 방향",3,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-047,위도 1분의 길이는?,1,"시간, 거리 및 방향",3,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-048,위도 1 도의 길이는?,1,"시간, 거리 및 방향",3,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-049,우리나라에서 쓰는 평균 해상마일은 어디를 기준으로 한 것인가?,1,"시간, 거리 및 방향",3,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-050,국제해상마일의 거리는?,1,"시간, 거리 및 방향",3,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-051,위도 18도가 되어야 하는데 17도 이었다면 오차는 몇 마일인가?,1,"시간, 거리 및 방향",3,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-052,FMS에 해당 지점의 좌표를 수동 입력하는 과정에서 N43을 N45로 잘못 입력한 경우 오차 거리는?,1,"시간, 거리 및 방향",3,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-053,지구 표면을 이동하는 항공기의 속도는?,1,"시간, 거리 및 방향",3,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-054,2분 동안 6 NM을 비행하였다면 이 항공기의 대지속도(GS)는 얼마인가?,1,"시간, 거리 및 방향",3,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-055,25초 동안 1 NM을 비행하였다면 이 항공기의 대지속도(GS)는 얼마인가?,1,"시간, 거리 및 방향",3,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-056,123 kts로 30초 동안 비행했다면 이동한 거리는?,1,"시간, 거리 및 방향",3,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-057,144 KTS로 2 NM을 이동하는데 소요되는 시간은?,1,"시간, 거리 및 방향",3,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-058,마하수(Mach number) 란?,1,"시간, 거리 및 방향",3,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-059,"음속이 640 kts인 고도 25,000 ft에서 항공기의 진대기속도(TAS)가 460 kts 이면, 이 항공기의 Mach number는 얼마인가?",1,"시간, 거리 및 방향",3,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-060,다음 중 항로에 대해서 맞게 설명한 것은?,1,"시간, 거리 및 방향",3,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-061,최단거리 항로는?,1,"시간, 거리 및 방향",3,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-062,"지구의 중심을 포함한 원이 지표면과 만나는 선을 이용한 항로로 두 점 사이의 최단거리가 되 며, 주로 장거리를 비행할 때 사용되는 항로는?",1,"시간, 거리 및 방향",3,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-063,대권항로에 대한 설명 중 틀린 것은?,1,"시간, 거리 및 방향",3,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-064,대권항로에 대한 설명으로 틀린 것은?,1,"시간, 거리 및 방향",3,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-065,항정선 항로 비행 시 항적(track)은?,1,"시간, 거리 및 방향",3,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-066,항정선 항로의 특징이 아닌 것은?,1,"시간, 거리 및 방향",3,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-067,항정선 항로에 대한 설명으로 틀린 것은?,1,"시간, 거리 및 방향",3,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-068,항공기가 실제로 비행한 지표면상의 경로는?,1,"시간, 거리 및 방향",3,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-069,항공기가 지나온 실제 이동방위는?,1,"시간, 거리 및 방향",3,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-070,Track 이란?,1,"시간, 거리 및 방향",3,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-071,항공기가 비행을 하면 경로를 알 수 있는 자료는?,1,"시간, 거리 및 방향",3,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-072,침로(heading)의 정의로 맞는 것은?,1,"시간, 거리 및 방향",3,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-073,다음 중 각각의 정의가 올바른 것은?,1,"시간, 거리 및 방향",3,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-074,진방위(true bearing)에 대한 설명으로 맞는 것은?,1,"시간, 거리 및 방향",3,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-075,다음 설명으로 옳지 않은 것은?,1,"시간, 거리 및 방향",3,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-076,다음 중 항공기 기축을 기준으로 하는 위치는?,1,"시간, 거리 및 방향",3,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-077,Rela ti ve bearing에 대한 설명으로 옳은 것은?,1,"시간, 거리 및 방향",3,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-078,RB(relative bearing)을 구하는 식으로 맞는 것은?,1,"시간, 거리 및 방향",3,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-079,"True heading(TH)이 315°, relative bearing(RB)이 090° 일 때 목표물로부터 t rue bear i ng (TB)은 얼마인가?",1,"시간, 거리 및 방향",3,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-080,"ADF 장비에서 magnetic heading 350°, relative bearing 270°일 때 magnetic bearing은?",1,"시간, 거리 및 방향",3,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-081,Magnetic heading 30°. NDB의 relative bearing 120° 일 때 NDB의 magnetic bearing은?,1,"시간, 거리 및 방향",3,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-082,"차트를 육도, 해도, 항공도 등으로 구분하는 기준은?",1,차트(Charts),4,AIRNAV-TH-04,1.4 차트(Charts)
+AIR-NAV-083,용도에 따른 지도의 분류로 알맞은 것은?,1,차트(Charts),4,AIRNAV-TH-04,1.4 차트(Charts)
+AIR-NAV-084,항공용 지도의 조건이 아닌 것은?,1,차트(Charts),4,AIRNAV-TH-04,1.4 차트(Charts)
+AIR-NAV-085,항공용 지도의 조건으로 틀린 것은?,1,차트(Charts),4,AIRNAV-TH-04,1.4 차트(Charts)
+AIR-NAV-086,투영법 중 모든 대권이 직선으로 나타나는 투영법은?,1,차트(Charts),4,AIRNAV-TH-04,1.4 차트(Charts)
+AIR-NAV-087,대권을 직선으로 나타내는 투영법은?,1,차트(Charts),4,AIRNAV-TH-04,1.4 차트(Charts)
+AIR-NAV-088,극지방을 중심으로 하는 polar gnomonic 평면투영법으로 지도를 그렸을 때 틀린 것은?,1,차트(Charts),4,AIRNAV-TH-04,1.4 차트(Charts)
+AIR-NAV-089,Polar gnomonic 평면투영법에 대해 잘못 설명한 것은?,1,차트(Charts),4,AIRNAV-TH-04,1.4 차트(Charts)
+AIR-NAV-090,Mercator 도법에 대한 설명으로 틀린 것은?,1,차트(Charts),4,AIRNAV-TH-04,1.4 차트(Charts)
+AIR-NAV-091,Mercator 지도에 대한 설명 중 틀린 것은?,1,차트(Charts),4,AIRNAV-TH-04,1.4 차트(Charts)
+AIR-NAV-092,Mercator chart의 특징으로 맞는 것은?,1,차트(Charts),4,AIRNAV-TH-04,1.4 차트(Charts)
+AIR-NAV-093,항정선이 직선으로 그려지는 투영방법은?,1,차트(Charts),4,AIRNAV-TH-04,1.4 차트(Charts)
+AIR-NAV-094,경도와 위도가 직선으로 표시되는 항공도는?,1,차트(Charts),4,AIRNAV-TH-04,1.4 차트(Charts)
+AIR-NAV-095,Lambert chart에 대한 설명으로 틀린 것은?,1,차트(Charts),4,AIRNAV-TH-04,1.4 차트(Charts)
+AIR-NAV-096,Lambert conformal conic chart의 특징으로 맞는 것은?,1,차트(Charts),4,AIRNAV-TH-04,1.4 차트(Charts)
+AIR-NAV-097,"형상이 실제 지구와 거의 일치(conformal) 하며, 항공도로서 갖추어야 할 제반조건을 만족시 키고 있어 각종 chart로 사용되는 것은?",1,차트(Charts),4,AIRNAV-TH-04,1.4 차트(Charts)
+AIR-NAV-098,Lambert 도법에 대한 설명 중 옳은 것은?,1,차트(Charts),4,AIRNAV-TH-04,1.4 차트(Charts)
+AIR-NAV-099,바람 삼각형의 구성요소가 아닌 것은?,2,항공기에 대한 바람의 영향,5,AIRNAV-TH-05,2.1 항공기에 대한 바람의 영향
+AIR-NAV-100,바람 삼각형의 구성요소 중 ground vector의 요소는?,2,항공기에 대한 바람의 영향,5,AIRNAV-TH-05,2.1 항공기에 대한 바람의 영향
+AIR-NAV-101,다음 그림과 같은 바람 삼각형에서 (C) 선의 요소는?,2,항공기에 대한 바람의 영향,5,AIRNAV-TH-05,2.1 항공기에 대한 바람의 영향
+AIR-NAV-102,RWY 14에 바람이 200°/20 kt로 불 때 항공기에 미치는 측풍 성분은?,2,항공기에 대한 바람의 영향,5,AIRNAV-TH-05,2.1 항공기에 대한 바람의 영향
+AIR-NAV-103,200 kts 비행 중 90° 우측에서 20 kts의 바람이 불면 편류는 몇 도인가?,2,항공기에 대한 바람의 영향,5,AIRNAV-TH-05,2.1 항공기에 대한 바람의 영향
+AIR-NAV-104,"True heading(TH)이 050°이고 Track(TR)이 070°일 때, Drift angle은 얼마인가?",2,항공기에 대한 바람의 영향,5,AIRNAV-TH-05,2.1 항공기에 대한 바람의 영향
+AIR-NAV-105,"270° radial을 타고 CDI를 중앙을 두고서 나가는 도중에 나의 heading이 280° 라면 편류각 은 얼마이고, 바람은 어디에서 불어오는 것인가?",2,항공기에 대한 바람의 영향,5,AIRNAV-TH-05,2.1 항공기에 대한 바람의 영향
+AIR-NAV-106,편류각과 편류수정각에 대한 설명 중 틀린 것은?,2,항공기에 대한 바람의 영향,5,AIRNAV-TH-05,2.1 항공기에 대한 바람의 영향
+AIR-NAV-107,편류(wind drift)에 대한 내용 중 틀린 것은?,2,항공기에 대한 바람의 영향,5,AIRNAV-TH-05,2.1 항공기에 대한 바람의 영향
+AIR-NAV-108,Magnetic course(MC)와 Magnetic heading(MH)의 차이는?,2,항공기에 대한 바람의 영향,5,AIRNAV-TH-05,2.1 항공기에 대한 바람의 영향
+AIR-NAV-109,항공기의 magnetic course(MC)가 320°이고 wind correction angle이 +10°일 때 magnetic heading(MH)은 얼마인가?,2,항공기에 대한 바람의 영향,5,AIRNAV-TH-05,2.1 항공기에 대한 바람의 영향
+AIR-NAV-110,항공기의 true course가 090°이고 wind correction angle은 20° left이다. 이 항공기의 true heading은 얼마인가?,2,항공기에 대한 바람의 영향,5,AIRNAV-TH-05,2.1 항공기에 대한 바람의 영향
+AIR-NAV-111,항공기의 track이 180°이고 heading이 165°일 때 wind correction angle은 얼마인가?,2,항공기에 대한 바람의 영향,5,AIRNAV-TH-05,2.1 항공기에 대한 바람의 영향
+AIR-NAV-112,TAS 200 kts 일 때 90도 우측으로 20 kts의 측풍이 불면 wind correction angle(WCA)은?,2,항공기에 대한 바람의 영향,5,AIRNAV-TH-05,2.1 항공기에 대한 바람의 영향
+AIR-NAV-113,TAS 420 kts인 항공기가 true course 315°로 비행하고 있다. Wind velocity가 230°/45 kts이면 wind correction angle(WCA)은?,2,항공기에 대한 바람의 영향,5,AIRNAV-TH-05,2.1 항공기에 대한 바람의 영향
+AIR-NAV-114,MB-4 컴퓨터에서 Mach No를 구할 때 영향을 미치는 주요 요소는?,2,조종사 항법 기법,6,AIRNAV-TH-06,2.2 조종사 항법 기법
+AIR-NAV-115,"FL 50, OAT 20°C, CAS 100 kt 일 때 TAS는 얼마인가?",2,조종사 항법 기법,6,AIRNAV-TH-06,2.2 조종사 항법 기법
+AIR-NAV-116,"기압고도가 12,000 ft, 외기온도가 -20°C, CAS가 155 kt 일 때 TAS는 얼마인가?",2,조종사 항법 기법,6,AIRNAV-TH-06,2.2 조종사 항법 기법
+AIR-NAV-117,Magnetic heading 270°로 비행하는 항공기가 radial 360°에 11 시 44분에 도착하였다. Radial 360°를 지나 radial 350°를 11 시 47분에 통과하였다면 이곳으로부터 station까지의 비행시간은 얼마인가?,2,조종사 항법 기법,6,AIRNAV-TH-06,2.2 조종사 항법 기법
+AIR-NAV-118,ADF relative beari ng이 1. 5분 동안에 090°에서 100°로 변하였다면 station까지의 시간은 얼마인가?,2,조종사 항법 기법,6,AIRNAV-TH-06,2.2 조종사 항법 기법
+AIR-NAV-119,항공기가 ground speed 150 kts로 비행 중 radial 120°에서 130°로 변하는데 120초가 걸렸 다. Station까지의 거리는 얼마인가?,2,조종사 항법 기법,6,AIRNAV-TH-06,2.2 조종사 항법 기법
+AIR-NAV-120,항공기가 TAS 160 kts의 속도로 비행하고 있다. 2분 동안 송신소로부터의 방위각이 10° 변화 했다면 이때 송신소까지의 거리는 얼마인가?,2,조종사 항법 기법,6,AIRNAV-TH-06,2.2 조종사 항법 기법
+AIR-NAV-121,"항공기가 100 kts의 속도로 ADF bearing 270°에서 275°로 비행하는데 2분이 걸렸다면, station까지의 거리는 얼마인가?",2,조종사 항법 기법,6,AIRNAV-TH-06,2.2 조종사 항법 기법
+AIR-NAV-122,TAS 95 kts의 속도로 NDB bearing 5°를 벗어나는데 1. 5분이 걸렸다면 station까지의 시간과 거리는?,2,조종사 항법 기법,6,AIRNAV-TH-06,2.2 조종사 항법 기법
+AIR-NAV-123,"비행기가 heading 180°, 속도 250 kt로 어떤 VOR의 270° radial을 17:42분에 260° radial을 17:47분에 통과했다. 이 때 VOR station까지의 비행시간과 거리는 얼마인가?",2,조종사 항법 기법,6,AIRNAV-TH-06,2.2 조종사 항법 기법
+AIR-NAV-124,항공기가 20 NM 비행 중 3 NM 벗어났으면 몇 도 벗어난 것인가?,2,조종사 항법 기법,6,AIRNAV-TH-06,2.2 조종사 항법 기법
+AIR-NAV-125,항공기가 30 NM 비행 시 20 벗어났다면 벗어난 거리는?,2,조종사 항법 기법,6,AIRNAV-TH-06,2.2 조종사 항법 기법
+AIR-NAV-126,항공기 course deviation indicator(CDI)가 VOR로부터 60 NM 떨어진 거리에서 2 dot 벗어났다면 course에서 몇 마일 off 된 것인가?,2,조종사 항법 기법,6,AIRNAV-TH-06,2.2 조종사 항법 기법
+AIR-NAV-127,출발지점으로부터 45마일 비행 후 항공기의 위치가 항로에서 5마일 벗어났다면 최초항로와 평행하게 비행할 수 있는 수정각은?,2,조종사 항법 기법,6,AIRNAV-TH-06,2.2 조종사 항법 기법
+AIR-NAV-128,항공기가HDG 180°로 20 NM 비행하였는데 2 NM 왼쪽으로 off되었다. 30 NM 더 비행해 서 원래의 track으로 돌아가기 위한 HDG은?,2,조종사 항법 기법,6,AIRNAV-TH-06,2.2 조종사 항법 기법
+AIR-NAV-129,항공기가 60 NM 비행 후 6 NM을 벗어났다. 목적지까지 120 NM 남았을 때 원래의 목적지 로가기 위한수정각은?,2,조종사 항법 기법,6,AIRNAV-TH-06,2.2 조종사 항법 기법
+AIR-NAV-130,Ground speed 140 kt인 항공기가 300 ft/NM으로 상승하고 있을 때 상승률은 몇 fpm 인가?,2,조종사 항법 기법,6,AIRNAV-TH-06,2.2 조종사 항법 기법
+AIR-NAV-131,선회반경이 2 NM인 항공기가 station으로부터 20 NM 떨어진 위치에서 90° 진입각도로 i ntercept하기 위한 lead point는?,2,조종사 항법 기법,6,AIRNAV-TH-06,2.2 조종사 항법 기법
+AIR-NAV-132,선회반경이 3 NM인 항공기가 VOR로부터 30 NM 위치에서 45° 진입각도로 intercept하기 위한 lead point는?,2,조종사 항법 기법,6,AIRNAV-TH-06,2.2 조종사 항법 기법
+AIR-NAV-133,"항공기가 고도 18,000 ft에서 선회각 90°로 경로에 진입할 때, 선회반경 4 NM의 표준 선회율로 선회할 경우 lead point는?",2,조종사 항법 기법,6,AIRNAV-TH-06,2.2 조종사 항법 기법
+AIR-NAV-134,"항공기가 고도 24,000 ft에서 선회각 90°로 경로에 진입할 때, 선회반경 5 NM의 표준 선회율로 선회할 경우 lead po int는?",2,조종사 항법 기법,6,AIRNAV-TH-06,2.2 조종사 항법 기법
+AIR-NAV-135,"고도 24,000 ft에서 ground speed 360 kts로 비행 중 VOR airway fix에서 표준율 선회로 90° 선회가 필요한 경우 lead point는?",2,조종사 항법 기법,6,AIRNAV-TH-06,2.2 조종사 항법 기법
+AIR-NAV-136,비행 중 항로상에서 어떤 이유로 인해 출발지로 되돌아오거나 목적지까지 계속 비행할 때 같 은 시간이 걸리는 중간지점을 무엇이라고 하는가?,2,조종사 항법 기법,6,AIRNAV-TH-06,2.2 조종사 항법 기법
+AIR-NAV-137,등시점(ETP)에 대한 설명 중 틀린 것은?,2,조종사 항법 기법,6,AIRNAV-TH-06,2.2 조종사 항법 기법
+AIR-NAV-138,등시점(ETP)에 대한 설명 중 틀린 것은?,2,조종사 항법 기법,6,AIRNAV-TH-06,2.2 조종사 항법 기법
+AIR-NAV-139,항공기가 공항을 출발하여 목적지까지의 거리가 200 NM인 항로를 100 kts의 TAS로 비행 하고 있다 바람 성분이 30 kts의 배풍일 때 출발공항으로부터 ETP까지의 거리는?,2,조종사 항법 기법,6,AIRNAV-TH-06,2.2 조종사 항법 기법
+AIR-NAV-140,"항공기가 출발지부터 목적지까지의 거리가 1,600 NM인 항로를 TAS 480 kts의 속도로 비행하고 있다. 바람 성분이 목적지까지의 중간지점까지는 정풍 30 kts, 그 후 목적지까지는 배풍 50 kts일 경우 출발지부터 ETP까지의 거리는?",2,조종사 항법 기법,6,AIRNAV-TH-06,2.2 조종사 항법 기법
+AIR-NAV-141,연료 소모율이 40 lbs/hr인 항공기의 ground speed가 90 kts 이면 360 NM을 비행하는 데 필요한 연료량은 얼마인가?,2,조종사 항법 기법,6,AIRNAV-TH-06,2.2 조종사 항법 기법
+AIR-NAV-142,120 GAL의 연료를 탑재한 항공기가 35분 비행하면서 24 GAL의 연료를 소비하였다. 앞으 로 이 항공기의 비행 가능한 시간은 얼마인가?,2,조종사 항법 기법,6,AIRNAV-TH-06,2.2 조종사 항법 기법
+AIR-NAV-143,항공기가 시간 당 165 lbs/hr의 연료를 소비하고 있다. 항공기에 920lbs의 연료가 남아 있 다면 가능한 비행시간은 얼마인가?,2,조종사 항법 기법,6,AIRNAV-TH-06,2.2 조종사 항법 기법
+AIR-NAV-144,추측항법에서 추측위치를 표기하는 기호는?,2,관련 항법 기법,7,AIRNAV-TH-07,2.3 관련 항법 기법
+AIR-NAV-145,이동하는 목표에 대한 상대운동과 관련된 항법 이 아닌 것은?,2,관련 항법 기법,7,AIRNAV-TH-07,2.3 관련 항법 기법
+AIR-NAV-146,항공용 지도의 특성에 대한 설명 중 틀린 것은?,2,관련 항법 기법,7,AIRNAV-TH-07,2.3 관련 항법 기법
+AIR-NAV-147,항공 지도 해독 시 유의사항이 아닌 것은?,2,관련 항법 기법,7,AIRNAV-TH-07,2.3 관련 항법 기법
+AIR-NAV-148,진북과 자북의 차이를 무엇이라 하는가?,3,자기 나침반(Magnetic Compass),8,AIRNAV-TH-08,3.1 자기 나침반(Magnetic Compass)
+AIR-NAV-149,편차가 ‘‘5°W‘‘라는 것은 무슨 뜻인가?,3,자기 나침반(Magnetic Compass),8,AIRNAV-TH-08,3.1 자기 나침반(Magnetic Compass)
+AIR-NAV-150,Isogonic li ne 이란?,3,자기 나침반(Magnetic Compass),8,AIRNAV-TH-08,3.1 자기 나침반(Magnetic Compass)
+AIR-NAV-151,"편차가 ""0'’이 되는 지점을 연결한 선을 무엇이라 하는가?",3,자기 나침반(Magnetic Compass),8,AIRNAV-TH-08,3.1 자기 나침반(Magnetic Compass)
+AIR-NAV-152,나침반의 자차(deviation) 란?,3,자기 나침반(Magnetic Compass),8,AIRNAV-TH-08,3.1 자기 나침반(Magnetic Compass)
+AIR-NAV-153,항공기 자체의 자성에 의해 발생하는 오차는?,3,자기 나침반(Magnetic Compass),8,AIRNAV-TH-08,3.1 자기 나침반(Magnetic Compass)
+AIR-NAV-154,자차(deviation)의 원인이 아닌 것은?,3,자기 나침반(Magnetic Compass),8,AIRNAV-TH-08,3.1 자기 나침반(Magnetic Compass)
+AIR-NAV-155,자차(deviation)에 대한 설명 중 틀린 것은?,3,자기 나침반(Magnetic Compass),8,AIRNAV-TH-08,3.1 자기 나침반(Magnetic Compass)
+AIR-NAV-156,자차를 수정해야 하는 경우가 아닌 것은?,3,자기 나침반(Magnetic Compass),8,AIRNAV-TH-08,3.1 자기 나침반(Magnetic Compass)
+AIR-NAV-157,Deviation을 수정해야 하는 경우가 아닌 것은?,3,자기 나침반(Magnetic Compass),8,AIRNAV-TH-08,3.1 자기 나침반(Magnetic Compass)
+AIR-NAV-158,Magnetic dip이란?,3,자기 나침반(Magnetic Compass),8,AIRNAV-TH-08,3.1 자기 나침반(Magnetic Compass)
+AIR-NAV-159,"True heading이 090° 이고 편차가 6°E 일 때, magnetic heading은 얼마인가?",3,자기 나침반(Magnetic Compass),8,AIRNAV-TH-08,3.1 자기 나침반(Magnetic Compass)
+AIR-NAV-160,A지점과 B지점의 진항로(TC)가 173도일 때 자항로(MC)는 얼마인가? （동편차 8도인 경우),3,자기 나침반(Magnetic Compass),8,AIRNAV-TH-08,3.1 자기 나침반(Magnetic Compass)
+AIR-NAV-161,"자항로(MC)가 270° 인 경우 진항로(TC)는 얼마인가? (단 VAR은 8°W, DEV는 5°E 이다)",3,자기 나침반(Magnetic Compass),8,AIRNAV-TH-08,3.1 자기 나침반(Magnetic Compass)
+AIR-NAV-162,"True heading (TH)이 050° 이고 variation이 4°E 일 때, magnetic heading (MH)은 얼마인가?",3,자기 나침반(Magnetic Compass),8,AIRNAV-TH-08,3.1 자기 나침반(Magnetic Compass)
+AIR-NAV-163,"True heading(TH)이 135°, variation이 6°E, deviation이 2°w 일 때 compass heading (CH)은 얼마인가?",3,자기 나침반(Magnetic Compass),8,AIRNAV-TH-08,3.1 자기 나침반(Magnetic Compass)
+AIR-NAV-164,Magnetic heading(MH)이 120°. wind correction angle(WCA)이 +7°. variation이 6°W 일 때 true course(TC)는 얼마인가?,3,자기 나침반(Magnetic Compass),8,AIRNAV-TH-08,3.1 자기 나침반(Magnetic Compass)
+AIR-NAV-165,북반구에서 북쪽으로 침로를 유지하던 중 표준율 좌선회를 시도하면 자기나침의(magnetic compass)는 어떻게 지시하는가?,3,자기 나침반(Magnetic Compass),8,AIRNAV-TH-08,3.1 자기 나침반(Magnetic Compass)
+AIR-NAV-166,북반구에서 북쪽에 heading을 두려고 할 때 어떻게 하여야 하는가?,3,자기 나침반(Magnetic Compass),8,AIRNAV-TH-08,3.1 자기 나침반(Magnetic Compass)
+AIR-NAV-167,북반구에서 북쪽으로 정침하고 있다가 표준율로 우선회를 했을 때 자기 나침반은 어떻게 지시 하는가?,3,자기 나침반(Magnetic Compass),8,AIRNAV-TH-08,3.1 자기 나침반(Magnetic Compass)
+AIR-NAV-168,북반구에서 남쪽으로 기수방위를유지하며 비행 중인 항공기가좌측으로 표준율 선회를 했을 때 자기 나침반은 어떻게 지시하는가?,3,자기 나침반(Magnetic Compass),8,AIRNAV-TH-08,3.1 자기 나침반(Magnetic Compass)
+AIR-NAV-169,자기 나침반에서 가감속 오차가 생기는 이유는?,3,자기 나침반(Magnetic Compass),8,AIRNAV-TH-08,3.1 자기 나침반(Magnetic Compass)
+AIR-NAV-170,북반구에서 자기 나침반의 가속 오차에 대한 설명으로 맞는 것은?,3,자기 나침반(Magnetic Compass),8,AIRNAV-TH-08,3.1 자기 나침반(Magnetic Compass)
+AIR-NAV-171,자기 나침반의 가감속 오차가 가장 심한 기수방위는?,3,자기 나침반(Magnetic Compass),8,AIRNAV-TH-08,3.1 자기 나침반(Magnetic Compass)
+AIR-NAV-172,북반구에서 동쪽으로 향하는 항공기가 가속 시에 자기 나침반의 지시는?,3,자기 나침반(Magnetic Compass),8,AIRNAV-TH-08,3.1 자기 나침반(Magnetic Compass)
+AIR-NAV-173,자기 나침반의 오차에 속하지 않는 것은?,3,자기 나침반(Magnetic Compass),8,AIRNAV-TH-08,3.1 자기 나침반(Magnetic Compass)
+AIR-NAV-174,고도계의 오차가 아닌 것은?,3,고도계,9,AIRNAV-TH-09,3.2 고도계
+AIR-NAV-175,순간적인 항공기의 pitch up으로 발생할 수 있는 고도계의 오차는?,3,고도계,9,AIRNAV-TH-09,3.2 고도계
+AIR-NAV-176,"고도 12,000 ft로 비행 중 기압눈금이 28.52 inHg를 지시하고 있을 때 기압고도는 얼마인가?",3,고도계,9,AIRNAV-TH-09,3.2 고도계
+AIR-NAV-177,"공항 표고 1,000 ft 상공 5,000 ft에서의 절대고도는 얼마인가?",3,고도계,9,AIRNAV-TH-09,3.2 고도계
+AIR-NAV-178,전파 고도계(radio altimeter)가 지시하는 고도는?,3,고도계,9,AIRNAV-TH-09,3.2 고도계
+AIR-NAV-179,고도계에서 수정할 수 있는 barometric scale의 범위는?,3,고도계,9,AIRNAV-TH-09,3.2 고도계
+AIR-NAV-180,다음 중 정압과 동압을 모두 이용하는 계기는?,3,속도계,10,AIRNAV-TH-10,3.3 속도계·기타 항공계기
+AIR-NAV-181,지시속도(IAS) 란?,3,속도계,10,AIRNAV-TH-10,3.3 속도계·기타 항공계기
+AIR-NAV-182,CAS에서 압축오차를 수정한 속도는?,3,속도계,10,AIRNAV-TH-10,3.3 속도계·기타 항공계기
+AIR-NAV-183,EAS에서 밀도고도를 수정한 대기속도는?,3,속도계,10,AIRNAV-TH-10,3.3 속도계·기타 항공계기
+AIR-NAV-184,TAS는 EAS에서 무엇을 수정한 것인가?,3,속도계,10,AIRNAV-TH-10,3.3 속도계·기타 항공계기
+AIR-NAV-185,CAS에서 기압고도와 온도를 수정한 속도는?,3,속도계,10,AIRNAV-TH-10,3.3 속도계·기타 항공계기
+AIR-NAV-186,CAS는 IAS에서 무엇을 보정한 값안가?,3,속도계,10,AIRNAV-TH-10,3.3 속도계·기타 항공계기
+AIR-NAV-187,TAS는 CAS에서 무엇을 보정한 것인가?,3,속도계,10,AIRNAV-TH-10,3.3 속도계·기타 항공계기
+AIR-NAV-188,TAS를 구하는 올바른 순서는?,3,속도계,10,AIRNAV-TH-10,3.3 속도계·기타 항공계기
+AIR-NAV-189,대기속도에 대한 설명으로 틀린 것은?,3,속도계,10,AIRNAV-TH-10,3.3 속도계·기타 항공계기
+AIR-NAV-190,수정대기속도(CAS)에서 기압고도와 진대기온도를 수정한 속도는?,3,속도계,10,AIRNAV-TH-10,3.3 속도계·기타 항공계기
+AIR-NAV-191,무지향표지시설(NDB)의 운용 주파수대는?,4,항행안전무선시설(Radio Navigation Aids),11,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-192,다음 중 가장 낮은 주파수대에서 운용되는 시설은?,4,항행안전무선시설(Radio Navigation Aids),11,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-193,ADF의 오차를 유발할 수 있는 효과가 아닌 것은?,4,항행안전무선시설(Radio Navigation Aids),11,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-194,VORW에서 “W가 의미하는 것은?,4,항행안전무선시설(Radio Navigation Aids),11,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-195,헬리콥터 또는 프로펠러 항공기의 Course Deviation Indicator(CDI)가 흔들릴 때 조종사의 조치로 적합한 것은?,4,항행안전무선시설(Radio Navigation Aids),11,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-196,동일한 부호명칭을 사용하는 VOR 간의 최소 분리간격은?,4,항행안전무선시설(Radio Navigation Aids),11,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-197,"조종사가 공항표면의 지정된 점검지점에서 VOR 수신기를 점검할 때, 수신기의 오차는 얼마 이내이어야하는가?",4,항행안전무선시설(Radio Navigation Aids),11,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-198,VOR 수신기 공중점검의 허용 오차범위는 얼마인가?,4,항행안전무선시설(Radio Navigation Aids),11,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-199,Dual system VOR 점검 시 두 지시방위 간의 최대 허용편차는?,4,항행안전무선시설(Radio Navigation Aids),11,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-200,VOR 수신기 점검시 허용 오차범위가 맞는 것은?,4,항행안전무선시설(Radio Navigation Aids),11,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-201,VOT 수신기 점검에 대한 설명 중 틀린 것은?,4,항행안전무선시설(Radio Navigation Aids),11,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-202,VOR receiver에 reverse sensing이 발생되는 경우는?,4,항행안전무선시설(Radio Navigation Aids),11,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-203,항공기가 비행을 할 때 송신소로부터의 거리와 방위각을 제공하는 시설은?,4,항행안전무선시설(Radio Navigation Aids),11,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-204,일반적으로 DME 계기가 지시하는 거리는?,4,항행안전무선시설(Radio Navigation Aids),11,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-205,DME와 GPS의 거리 표시는?,4,항행안전무선시설(Radio Navigation Aids),11,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-206,DME의 주파수 범위는?,4,항행안전무선시설(Radio Navigation Aids),11,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-207,UHF 주파수 범위 내에서 운용되는 시설은?,4,항행안전무선시설(Radio Navigation Aids),11,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-208,"DME station 6,000 ft 직상공에 있을 때 지시되는 DME상 거리는?",4,항행안전무선시설(Radio Navigation Aids),11,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-209,"VOR 상공 고도 12,000 ft일 때 DME상 지시 거리는?",4,항행안전무선시설(Radio Navigation Aids),11,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-210,다음 중 DME 오차가 가장 큰 경우는?,4,항행안전무선시설(Radio Navigation Aids),11,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-211,VORTAC coded identifier 신호가 30초에 1회 송신되는 경우 VORTAC의 운용상태는?,4,항행안전무선시설(Radio Navigation Aids),11,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-212,VOR 시설 고장 수리 중 식별부호의 송신 방법으로 맞는 것은?,4,항행안전무선시설(Radio Navigation Aids),11,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-213,Flight management system(FMS)의 구성요소가 아닌 것은?,4,항행안전무선시설(Radio Navigation Aids),11,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-214,Terminal VOR의 운용 범위는 얼마인가?,4,항행안전무선시설(Radio Navigation Aids),11,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-215,L등급 VOR의 Serv ice volume은?,4,항행안전무선시설(Radio Navigation Aids),11,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-216,"VOR (L) 등급의 1,000 ft에서 18,000 ft 까지의 반경 범위는?",4,항행안전무선시설(Radio Navigation Aids),11,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-217,"45,000 ft 이상에서 VOR(H)의 통달거리는 반경 얼마인가?",4,항행안전무선시설(Radio Navigation Aids),11,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-218,H-VOR의 SSV 범위로 잘못된 것은?,4,항행안전무선시설(Radio Navigation Aids),11,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-219,HVOR 통달범위 최고고도는?,4,항행안전무선시설(Radio Navigation Aids),11,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-220,ILS가 제공해 주는 정보가 아닌 것은?,4,항행안전무선시설(Radio Navigation Aids),11,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-221,ILS의 local i zer와 glide slope가 항공기에 제공해 주는 정보는?,4,항행안전무선시설(Radio Navigation Aids),11,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-222,ILS 구성요소 중 거리정보를 제공하는 시설은?,4,항행안전무선시설(Radio Navigation Aids),11,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-223,ILS Local i zer의 최대 유효거리는?,4,항행안전무선시설(Radio Navigation Aids),11,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-224,ILS glide slope signal의 수직 범위는?,4,항행안전무선시설(Radio Navigation Aids),11,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-225,Glide slo p e의 활공로 투사각은 얼마인가?,4,항행안전무선시설(Radio Navigation Aids),11,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-226,TCH 49 ft에서 “TCH'’의 의미는?,4,항행안전무선시설(Radio Navigation Aids),11,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-227,Outer Marker의 모르스 부호는?,4,항행안전무선시설(Radio Navigation Aids),11,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-228,ILS Outer Marker의 식 별 신호 및 색깔은?,4,항행안전무선시설(Radio Navigation Aids),11,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-229,ILS MM의 light 색깔과 신호음은?,4,항행안전무선시설(Radio Navigation Aids),11,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-230,ILS fr ont course 접근 경로선상에 설치된 inner marker에서 조종사가 수신할 수 있는 신 호음과등화색은?,4,항행안전무선시설(Radio Navigation Aids),11,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-231,ILS back course가 있는 공항에 back course로 접근 시 light 색깔과 신호음은?,4,항행안전무선시설(Radio Navigation Aids),11,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-232,Glide p ath와 교차되는 middle marker 상공의 높이는?,4,항행안전무선시설(Radio Navigation Aids),11,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-233,"ILS 구성요소 중 두 개의 문자로 식별되고, 거리 정보를 제공하는 요소는?",4,항행안전무선시설(Radio Navigation Aids),11,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-234,"ILS의 localizer signal 중 첫 2자리 문자의 signal을 송신하고, marker beacon을 대신할 수 있는 것은?",4,항행안전무선시설(Radio Navigation Aids),11,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-235,ILS 구성품으로 3자리의 localizer 식별부호 중 뒤의 두 자리 문자를 송신하는 것은?,4,항행안전무선시설(Radio Navigation Aids),11,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-236,LORAN 항법을 하기 위해서는 하나의 chain 내에 최소 몇 개의 station이 필요한가?,4,항행안전무선시설(Radio Navigation Aids),11,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-237,다음 중 관성항법장치(INS)의 구성요소가 아닌 것은?,4,항행안전무선시설(Radio Navigation Aids),11,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-238,위성항법장치(GPS) 오차의 주요인은?,4,항행안전무선시설(Radio Navigation Aids),11,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-239,"GPS를 이용한 항법을 할 때 3차원 정보(위도, 경도 및 고도)와 시간을 얻기 위해 필요한 최소 위성수는?",4,항행안전무선시설(Radio Navigation Aids),11,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-240,비행기에 장착된 장비로 자기 위치를 확인하면서 비행할 수 있는 방식은?,4,항행안전무선시설(Radio Navigation Aids),11,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-241,다음 중 항공기의 현재 위치 update에 사용하지 않는 것은?,4,항행안전무선시설(Radio Navigation Aids),11,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-242,Area Navigation(RNAV)의 특성이 아닌 것은?,4,항행안전무선시설(Radio Navigation Aids),11,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-243,Area Navigation(RNAV)에 대한 설명 중 틀린 것은?,4,항행안전무선시설(Radio Navigation Aids),11,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-244,2-bar VASI가 제공하는 접근각은?,4,항공등화시설(Lighting Aids),12,AIRNAV-TH-12,4.2 항공등화시설(Lighting Aids)
+AIR-NAV-245,2-bar VASI 시설은 일반적으로 몇 개의 시각 활공통로(glide path)를 제공하는가?,4,항공등화시설(Lighting Aids),12,AIRNAV-TH-12,4.2 항공등화시설(Lighting Aids)
+AIR-NAV-246,PAPI의 식별 가능거리는?,4,항공등화시설(Lighting Aids),12,AIRNAV-TH-12,4.2 항공등화시설(Lighting Aids)
+AIR-NAV-247,"Slightly high 진입각인 경우, PAPI 등화의 색상은?",4,항공등화시설(Lighting Aids),12,AIRNAV-TH-12,4.2 항공등화시설(Lighting Aids)
+AIR-NAV-248,야간에 3색 (t ri-color) VASI의 정상유효거리 (normal range)는?,4,항공등화시설(Lighting Aids),12,AIRNAV-TH-12,4.2 항공등화시설(Lighting Aids)
+AIR-NAV-249,항공기가 정상적 인 glide path보다 낮은 곳에 있을 때 tri-color VASI의 색깔은?,4,항공등화시설(Lighting Aids),12,AIRNAV-TH-12,4.2 항공등화시설(Lighting Aids)
+AIR-NAV-250,Tri-color VASI에서 glide path가 정상보다 높을 때 보이는 색은?,4,항공등화시설(Lighting Aids),12,AIRNAV-TH-12,4.2 항공등화시설(Lighting Aids)
+AIR-NAV-251,정상 강하각에서 below glide path로 내려갈 때 3 색(t ri-color) VASI에서 볼 수 있는 색의 순서는?,4,항공등화시설(Lighting Aids),12,AIRNAV-TH-12,4.2 항공등화시설(Lighting Aids)
+AIR-NAV-252,On glide slope에서 below glide slope로 전환하는 동안 Tri-color VASI에서 볼 수 있는 색 은?,4,항공등화시설(Lighting Aids),12,AIRNAV-TH-12,4.2 항공등화시설(Lighting Aids)
+AIR-NAV-253,비행장등화의 점등에 관한 설명 중 옳지 않은 것은?,4,항공등화시설(Lighting Aids),12,AIRNAV-TH-12,4.2 항공등화시설(Lighting Aids)
+AIR-NAV-254,민간 육상비행장을 의미하는 비행장등대의 색은?,4,항공등화시설(Lighting Aids),12,AIRNAV-TH-12,4.2 항공등화시설(Lighting Aids)
+AIR-NAV-255,군 공항의 비행장등대를 식별하는 불빛 색상은?,4,항공등화시설(Lighting Aids),12,AIRNAV-TH-12,4.2 항공등화시설(Lighting Aids)
+AIR-NAV-256,비행장 등대(rotating beacon)의 운용에 대한 설명 중 맞는 것은?,4,항공등화시설(Lighting Aids),12,AIRNAV-TH-12,4.2 항공등화시설(Lighting Aids)
+AIR-NAV-257,유도로 마킹(marki ng) 중 유도로 중심선의 색은?,4,공항 표지판(Airport Sign),13,AIRNAV-TH-13,4.3 공항 표지판(Airport Sign)
+AIR-NAV-258,Runway holding position sign의 색은?,4,공항 표지판(Airport Sign),13,AIRNAV-TH-13,4.3 공항 표지판(Airport Sign)
+AIR-NAV-259,아래 그림과 같은 공항 표지판의 종류는?,4,공항 표지판(Airport Sign),13,AIRNAV-TH-13,4.3 공항 표지판(Airport Sign)
+AIR-NAV-260,Location sign의 표지판 색깔은?,4,공항 표지판(Airport Sign),13,AIRNAV-TH-13,4.3 공항 표지판(Airport Sign)
+AIR-NAV-261,ATIS에서 시정에 대한 언급이 없을 때 시정은 얼마 이상인가?,5,항공교통관제업무,14,AIRNAV-TH-14,5.1 항공교통관제업무
+AIR-NAV-262,ATIS에서 visibility와 ceiling이 언급되지 않는 경우는?,5,항공교통관제업무,14,AIRNAV-TH-14,5.1 항공교통관제업무
+AIR-NAV-263,교통조언을 발부할 때 항적정보를 시계방향 용어로 정확히 통보해 줄 수 없을 경우에는?,5,항공교통관제업무,14,AIRNAV-TH-14,5.1 항공교통관제업무
+AIR-NAV-264,Radar에 식별된 표적에 제공하는 항공정보에 포함되지 않는 것은?,5,항공교통관제업무,14,AIRNAV-TH-14,5.1 항공교통관제업무
+AIR-NAV-265,관제사가 조종사에게 traffic information을 제공할 때 방향의 기준은?,5,항공교통관제업무,14,AIRNAV-TH-14,5.1 항공교통관제업무
+AIR-NAV-266,관제사가 조종사에게 12시간 시각 기준으로 radar traffic information을 제공할 때 기준으로 하는것은?,5,항공교통관제업무,14,AIRNAV-TH-14,5.1 항공교통관제업무
+AIR-NAV-267,"트랜스폰더를 “ALT"" 위치에 놓았을 때 보고되는 고도 단위는?",5,항공교통관제업무,14,AIRNAV-TH-17,5.4 감시시스템·트랜스폰더·기상관측
+AIR-NAV-268,항공기 고도정보를 자동으로 나타내는 트랜스폰더 mode는?,5,항공교통관제업무,14,AIRNAV-TH-17,5.4 감시시스템·트랜스폰더·기상관측
+AIR-NAV-269,IFR 비행 시 Mode C 트랜스폰더를 장착한 항공기는 언제 이를 작동시켜야 하는가?,5,항공교통관제업무,14,AIRNAV-TH-17,5.4 감시시스템·트랜스폰더·기상관측
+AIR-NAV-270,"트랜스폰더의 “IDENT"" 기능은 언제 작동시켜야 하는가?",5,항공교통관제업무,14,AIRNAV-TH-17,5.4 감시시스템·트랜스폰더·기상관측
+AIR-NAV-271,RVSM이 적용되는 고도에서 Mode C 고도정보의 허용오차 범위는?,5,항공교통관제업무,14,AIRNAV-TH-17,5.4 감시시스템·트랜스폰더·기상관측
+AIR-NAV-272,Transponder code 변경 시 선택되지 않도록 주의해야 할 code는?,5,항공교통관제업무,14,AIRNAV-TH-17,5.4 감시시스템·트랜스폰더·기상관측
+AIR-NAV-273,민간항공기가 사용해서는 안되는 트랜스폰더 code는?,5,항공교통관제업무,14,AIRNAV-TH-17,5.4 감시시스템·트랜스폰더·기상관측
+AIR-NAV-274,Transponder code에 대한 설명 중 잘못된 것은?,5,항공교통관제업무,14,AIRNAV-TH-17,5.4 감시시스템·트랜스폰더·기상관측
+AIR-NAV-275,다음 중 트랜스폰더 code를 4000으로 설정해야 하는 항공기는?,5,항공교통관제업무,14,AIRNAV-TH-17,5.4 감시시스템·트랜스폰더·기상관측
+AIR-NAV-276,IFR 비행방식으로 비행하는 조종사가 목적지에 도착하기 전에 IFR 비행계획을 취소하였다면?,5,항공교통관제업무,14,AIRNAV-TH-17,5.4 감시시스템·트랜스폰더·기상관측
+AIR-NAV-277,VFR 항공기의 트랜스폰더 code는?,5,항공교통관제업무,14,AIRNAV-TH-17,5.4 감시시스템·트랜스폰더·기상관측
+AIR-NAV-278,관제탑 Radar의 4가지 기본용도가 아닌 것은?,5,공항운영(Airport Operations),15,AIRNAV-TH-15,5.2 공항운영(Airport Operations)
+AIR-NAV-279,관제탑에서 조종사에게 제공하는 활주로 방향과 풍향은?,5,공항운영(Airport Operations),15,AIRNAV-TH-15,5.2 공항운영(Airport Operations)
+AIR-NAV-280,게이트 접현시 marshaller가 팔을 수평으로 들어 가슴부분에서 주먹을 꽉 쥐는 행동은 무엇을 의미하는가?,5,공항운영(Airport Operations),15,AIRNAV-TH-15,5.2 공항운영(Airport Operations)
+AIR-NAV-281,항공기유도사에게 조종사가 주먹을 쥐고 앞으로 내밀어서 손을 짝 펴면 무슨 신호인가?,5,공항운영(Airport Operations),15,AIRNAV-TH-15,5.2 공항운영(Airport Operations)
+AIR-NAV-282,조종사가 ground signalman에게 보내는 inser t chocks 수신호로 맞는 것은?,5,공항운영(Airport Operations),15,AIRNAV-TH-15,5.2 공항운영(Airport Operations)
+AIR-NAV-283,공항주변의 wind shear 정보를 조종사에게 제공하는 장비는?,5,공항운영(Airport Operations),15,AIRNAV-TH-15,5.2 공항운영(Airport Operations)
+AIR-NAV-284,"LLWAS에 의해 wind shear 발생이 인지된 경우, ATIS는 몇 분 동안 관련 정보를 방송하여 야하는가?",5,공항운영(Airport Operations),15,AIRNAV-TH-15,5.2 공항운영(Airport Operations)
+AIR-NAV-285,시계비행 최저치 미만의 기상상황에서 특별시계비행 허가를 받고 출항하는 항공기에 대한 설명 중틀린 것은?,5,항공교통관제 허가와 항공기분리,16,AIRNAV-TH-16,5.3 항공교통관제 허가와 항공기분리
+AIR-NAV-286,Special VFR에 대한 설명 중 틀린 것은?,5,항공교통관제 허가와 항공기분리,16,AIRNAV-TH-16,5.3 항공교통관제 허가와 항공기분리
+AIR-NAV-287,운상시계비행(VFR on top)에 대한 설명 중 틀린 것은?,5,항공교통관제 허가와 항공기분리,16,AIRNAV-TH-16,5.3 항공교통관제 허가와 항공기분리
+AIR-NAV-288,VFR-on- top 비행을 할 수 없는 공역은?,5,항공교통관제 허가와 항공기분리,16,AIRNAV-TH-16,5.3 항공교통관제 허가와 항공기분리
+AIR-NAV-289,레이더 안테나로부터 40마일 밖에 있을 때 동일 고도에 있는 항공기 간 최소 간격 분리는 몇 마일로하는가?,5,항공교통관제 허가와 항공기분리,16,AIRNAV-TH-16,5.3 항공교통관제 허가와 항공기분리
+AIR-NAV-290,동일 고도에 있는 항공기 간의 분리에 레이더를 사용할 때 분리 최저치로 맞는 것은?,5,항공교통관제 허가와 항공기분리,16,AIRNAV-TH-16,5.3 항공교통관제 허가와 항공기분리
+AIR-NAV-291,속도조절을 지시받은 조종사가 유지해야 할 속도 범위는?,5,항공교통관제 허가와 항공기분리,16,AIRNAV-TH-16,5.3 항공교통관제 허가와 항공기분리
+AIR-NAV-292,속도조절을 지시받은 조종사가 유지해야 할 마하수는?,5,항공교통관제 허가와 항공기분리,16,AIRNAV-TH-16,5.3 항공교통관제 허가와 항공기분리
+AIR-NAV-293,"ATC로부터 210 kts의 속도를 유지할 것을 지시받았다면, 유지해야 할 속도의 범위는?",5,항공교통관제 허가와 항공기분리,16,AIRNAV-TH-16,5.3 항공교통관제 허가와 항공기분리
+AIR-NAV-294,"항공기 주변의 교통정보를 감시하고 다른 항공기가 일정한 거리나 고도로 접근 시, 공중총둘 방지를 위하여 조종사에게 이를 알려주기 위하여 사용되는 장치는?",5,항공교통관제 허가와 항공기분리,16,AIRNAV-TH-16,5.3 항공교통관제 허가와 항공기분리
+AIR-NAV-295,TCAS에 대한 설명으로 맞는 것은?,5,항공교통관제 허가와 항공기분리,16,AIRNAV-TH-16,5.3 항공교통관제 허가와 항공기분리
+AIR-NAV-296,TCAS II의 기능으로 맞는 것은?,5,항공교통관제 허가와 항공기분리,16,AIRNAV-TH-16,5.3 항공교통관제 허가와 항공기분리
+AIR-NAV-297,TCAS II가 제공하는 정보는?,5,항공교통관제 허가와 항공기분리,16,AIRNAV-TH-16,5.3 항공교통관제 허가와 항공기분리
+AIR-NAV-298,"B등급 공역에서 19,000 lbs 이하의 모든 항공기와 VFR 항공기 간의 수직분리 거리는?",5,항공교통관제 허가와 항공기분리,16,AIRNAV-TH-16,5.3 항공교통관제 허가와 항공기분리
+AIR-NAV-299,"B등급 공역에서 VFR 항공기와 무게 19,000 pound를 초과하는 다른 항공기 간의 최저 횡적 분리 간격은?",5,항공교통관제 허가와 항공기분리,16,AIRNAV-TH-16,5.3 항공교통관제 허가와 항공기분리
+AIR-NAV-300,"인천 FIR 내의 B등급 공역에서 운항하는 항공기의 10,000 ft 이하고도에서 최대속도는?",5,항공교통관제 허가와 항공기분리,16,AIRNAV-TH-16,5.3 항공교통관제 허가와 항공기분리
+AIR-NAV-301,"C등급 및 D등급 공역의 주요 공항으로부터 4 NM 이내의 2,500 ft 이하고도에서 비행할 수 있는 최대 지시대기속도는?",5,항공교통관제 허가와 항공기분리,16,AIRNAV-TH-16,5.3 항공교통관제 허가와 항공기분리
+AIR-NAV-302,Class D controlled airspace 내에서 항공기 운항 시 최대 허용속도는?,5,항공교통관제 허가와 항공기분리,16,AIRNAV-TH-16,5.3 항공교통관제 허가와 항공기분리
+AIR-NAV-303,다음 중 관제공역에 해당되지 않는 것은?,5,항공교통관제 허가와 항공기분리,16,AIRNAV-TH-16,5.3 항공교통관제 허가와 항공기분리
+AIR-NAV-304,특수시용공역 (special use airspace)이 아닌 것은?,5,항공교통관제 허가와 항공기분리,16,AIRNAV-TH-16,5.3 항공교통관제 허가와 항공기분리
+AIR-NAV-305,"항공사격, 대공사격 등으로 인한 위험으로부터 항공기의 안전을 보호하거나 그 밖의 이유로 비행허가를 받지 않은 항공기의 비행을 제한하는 공역은?",5,항공교통관제 허가와 항공기분리,16,AIRNAV-TH-16,5.3 항공교통관제 허가와 항공기분리
+AIR-NAV-306,대규모 조종사의 훈련이나 비정상 형태의 항공활동이 주로 수행되는 공역은?,5,항공교통관제 허가와 항공기분리,16,AIRNAV-TH-16,5.3 항공교통관제 허가와 항공기분리
+AIR-NAV-307,다음중주의공역이 아닌 것은?,5,항공교통관제 허가와 항공기분리,16,AIRNAV-TH-16,5.3 항공교통관제 허가와 항공기분리
+AIR-NAV-308,Airport Surve illance Radar(ASR)에 대한 설명으로 틀린 것은?,5,감시시스템(Surveillance systems),17,AIRNAV-TH-17,5.4 감시시스템·트랜스폰더·기상관측
+AIR-NAV-309,Airport Surve illance Radar(ASR)의 serv ice 범위는?,5,감시시스템(Surveillance systems),17,AIRNAV-TH-17,5.4 감시시스템·트랜스폰더·기상관측
+AIR-NAV-310,항공로 상에 있는 항공기의 관제업무에 주로 시용되는 레이더는?,5,감시시스템(Surveillance systems),17,AIRNAV-TH-17,5.4 감시시스템·트랜스폰더·기상관측
+AIR-NAV-311,정밀접근레이더(PAR)의 운영범위는?,5,감시시스템(Surveillance systems),17,AIRNAV-TH-17,5.4 감시시스템·트랜스폰더·기상관측
+AIR-NAV-312,정밀접근래이더(PAR)에 대한 설명 중 틀린 것은?,5,감시시스템(Surveillance systems),17,AIRNAV-TH-17,5.4 감시시스템·트랜스폰더·기상관측
+AIR-NAV-313,자동기상 관측소를 나타내는 약어(abbreviati on)는?,5,감시시스템(Surveillance systems),17,AIRNAV-TH-17,5.4 감시시스템·트랜스폰더·기상관측
+AIR-NAV-314,AWOS-1 system에서 제공하는 정보는?,5,감시시스템(Surveillance systems),17,AIRNAV-TH-17,5.4 감시시스템·트랜스폰더·기상관측
+AIR-NAV-315,자동기상관측장비(AWOS)에 제공하는 관측 data에 대한 설명 중 잘못된 것은?,5,감시시스템(Surveillance systems),17,AIRNAV-TH-17,5.4 감시시스템·트랜스폰더·기상관측
+AIR-NAV-316,Ceiling의 정의로 올바른 것은?,5,감시시스템(Surveillance systems),17,AIRNAV-TH-17,5.4 감시시스템·트랜스폰더·기상관측
+AIR-NAV-317,METAR 기상예보에서 altimeter setting A3006의 의미는?,5,감시시스템(Surveillance systems),17,AIRNAV-TH-17,5.4 감시시스템·트랜스폰더·기상관측
+AIR-NAV-318,TAF는 하루에 몇 번 발표하는가?,5,감시시스템(Surveillance systems),17,AIRNAV-TH-17,5.4 감시시스템·트랜스폰더·기상관측
+AIR-NAV-319,우리나라의 전이고도(transiti on al titude)는?,5,고도계 수정 절차(Altimeter Setting Procedures),18,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-320,"알려진 altimeter가 없을 경우, 비행로를 따라 몇 마일 이내에 있는 ATC로부터 통보받은 QNH 로수정하여야 하는가?",5,고도계 수정 절차(Altimeter Setting Procedures),18,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-321,전이고도 이하의 고도에서 비행하는 경우 altimeter setting은?,5,고도계 수정 절차(Altimeter Setting Procedures),18,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-322,전이고도 미만에서의 고도계 setting 방식은?,5,고도계 수정 절차(Altimeter Setting Procedures),18,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-323,이륙 시 altimeter setting에 대한 자료가 없을 경우 고도계 setting은?,5,고도계 수정 절차(Altimeter Setting Procedures),18,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-324,FL 210에서 altimeter set 후 비행 시 고도계가 지시하는 고도는?,5,고도계 수정 절차(Altimeter Setting Procedures),18,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-325,전이고도에서 고도계를 변경할 때 변경 기압치의 기준으로 옳은 것은?,5,고도계 수정 절차(Altimeter Setting Procedures),18,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-326,전이고도 이상의 고도에서 비행하는 경우 고도계의 수정방법으로 맞는 것은?,5,고도계 수정 절차(Altimeter Setting Procedures),18,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-327,IFR로 출발하는 항공기의 조종사는 어느 부분을 통과할 때 altimeter se tting을 QNH에서 표준기압치(1 013.2 hPa)로 변경하여야 하는가?,5,고도계 수정 절차(Altimeter Setting Procedures),18,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-328,"Transition level 060, transition altitude 5,800 ft인 transition layer를 통과하여 강하 하는 항공기가 고도계를 local altimeter로 수정해야 하는 고도는?",5,고도계 수정 절차(Altimeter Setting Procedures),18,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-329,"비행고도 13,000 ft에서 현재 altimeter setting은 28.92 inHg이다. Transition Level이 FL 140일 때 조종사의 조치사항으로 적합한 것은?",5,고도계 수정 절차(Altimeter Setting Procedures),18,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-330,항공기의 고도계를 공항표고로 setting했을 때 지시하는 고도는?,5,고도계 수정 절차(Altimeter Setting Procedures),18,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-331,"기압고도계를 비행장의 QNH로 set할 경우, 고도계가 지시하는 고도는?",5,고도계 수정 절차(Altimeter Setting Procedures),18,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-332,고도계수정치를 29.92 inHg로 set 할 경우 지시하는 고도는?,5,고도계 수정 절차(Altimeter Setting Procedures),18,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-333,QNE로 set 할 경우 지시하는 고도는?,5,고도계 수정 절차(Altimeter Setting Procedures),18,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-334,"항공기가 착륙했을 때 활주로 표면 위에서 고도계가 ""0""을 지시하도록 하는 고도계 설정 방법은?",5,고도계 수정 절차(Altimeter Setting Procedures),18,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-335,Altimeter se tti ng에 대한 다음 설명 중 틀린 것은?,5,고도계 수정 절차(Altimeter Setting Procedures),18,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-336,"지표면이 표준기압일 때, 대기압이 해면기압의 1/2로 감소되는 고도는?",5,고도계 수정 절차(Altimeter Setting Procedures),18,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-337,고도계의 오차가 아닌 것은?,5,고도계 수정 절차(Altimeter Setting Procedures),18,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-338,비행전 점검 시 허용되는 고도계의 최대 오차범위는?,5,고도계 수정 절차(Altimeter Setting Procedures),18,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-339,Altimeter setting O.1 inHg 차이에 따른 고도 편차는?,5,고도계 수정 절차(Altimeter Setting Procedures),18,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-340,실수로 공항의 기압을 5 hPa 낮게 공지하였다면 발생할 수 있는 실제 기압고도와의 차이는?,5,고도계 수정 절차(Altimeter Setting Procedures),18,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-341,"고도계수정치를 30.10 ""Hg로 통보받고도 30.01 ""Hg로 잘못 setting 했다면 기압고도계는 어떻게 지시하는가?",5,고도계 수정 절차(Altimeter Setting Procedures),18,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-342,"고도계의 기압 눈금 30.52 ""Hg로 8,000 ft의 계기고도에서 비행 중인 항공기의 기압고도는?",5,고도계 수정 절차(Altimeter Setting Procedures),18,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-343,"Altimeter setting 30.42 inHg인 항공기의 고도가 6,500 ft MSL 일 때 기압고도는 얼마인가?",5,고도계 수정 절차(Altimeter Setting Procedures),18,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-344,활주로 표고가 500 ft인 공항에 착륙하려고 한다. 현재 기압고도계는 29.92 inHg로 설정되어 있으며 해당 공항의 기압치는 31.42 inHg이다. 조종사가 고도계 수정 없이 착륙하였다면 고도계가 지시하는 고도는?,5,고도계 수정 절차(Altimeter Setting Procedures),18,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-345,29.92 inHg로 set하고 공항에 착륙 후 고도계가 0 ft를 지시하였다. 공항에서 고도계를 22.92 inHg로 수정하였다면 지시하는 고도는?,5,고도계 수정 절차(Altimeter Setting Procedures),18,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-346,저온 지역에서 고온 지역으로 비행 시 진고도와 계기고도의 관계로 맞는 것은?,5,고도계 수정 절차(Altimeter Setting Procedures),18,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-347,"FL 310에서 기온이 표준온도 이하일 때, true altitude(TA)와 pressure al titude(PA)의 관계로옳은 것은?",5,고도계 수정 절차(Altimeter Setting Procedures),18,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-348,일정한 Indicated Airspeed(IAS) 상태에서 온도 강하 시 true Airspeed(TAS)는?,5,고도계 수정 절차(Altimeter Setting Procedures),18,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-349,일정한 power setting에서 일정한 지시고도를 유지하며 온도가 높은 지역으로 비행 시 다음 중맞는 것은?,5,고도계 수정 절차(Altimeter Setting Procedures),18,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-350,일정한 power setting으로 전선을 통과해서 찬 공기 쪽으로 비행 시 다음 중 맞는 것은?,5,고도계 수정 절차(Altimeter Setting Procedures),18,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-351,외기온도가 일정한 상태에서 일정한 Calibrated Ai rspeed(CAS)로 강하 시 True Airspeed (TAS)는?,5,고도계 수정 절차(Altimeter Setting Procedures),18,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-352,저기압 지역에서 고기압 지역으로 비행 시 진고도는?,5,고도계 수정 절차(Altimeter Setting Procedures),18,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-353,기압이 높은 곳에서 낮은 곳으로 비행할 경우 고도계의 지시는?,5,고도계 수정 절차(Altimeter Setting Procedures),18,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-354,Wake turbulence의 강도에 관한 다음 설명 중 틀린 것은?,5,항적난기류(Wake Turbulence),19,AIRNAV-TH-19,5.6 항적난기류(Wake Turbulence)
+AIR-NAV-355,다음 중 wake turbulence의 강도가 가장 큰 경우는?,5,항적난기류(Wake Turbulence),19,AIRNAV-TH-19,5.6 항적난기류(Wake Turbulence)
+AIR-NAV-356,다음 중 가장 강도가 큰 wake turbulence를 발생시키는 항공기는?,5,항적난기류(Wake Turbulence),19,AIRNAV-TH-19,5.6 항적난기류(Wake Turbulence)
+AIR-NAV-357,대형 항공기 뒤에서 접근할 때 wake turbulence를 회피하기 위한 방법으로 적합한 것은?,5,항적난기류(Wake Turbulence),19,AIRNAV-TH-19,5.6 항적난기류(Wake Turbulence)
+AIR-NAV-358,대형항공기 다음에 이륙할 때 후류를 회피하기 위한 절차로 맞는 것은?,5,항적난기류(Wake Turbulence),19,AIRNAV-TH-19,5.6 항적난기류(Wake Turbulence)
+AIR-NAV-359,"동일 고도 또는 1,000 ft 이하로 분리된 항공기 뒤를 따를 때 wake turbulence 간격분리 최 저치로틀린 것은?",5,항적난기류(Wake Turbulence),19,AIRNAV-TH-19,5.6 항적난기류(Wake Turbulence)
+AIR-NAV-360,Wake turbulence Cat egory 별 final 에서의 간격분리로 틀린 것은?,5,항적난기류(Wake Turbulence),19,AIRNAV-TH-19,5.6 항적난기류(Wake Turbulence)
+AIR-NAV-361,동일 활주로 상에서 출항하는 CAT II 항공기와 뒤따라 이륙하는 CAT I 항공기 간의 분리 간 격은?,5,항적난기류(Wake Turbulence),19,AIRNAV-TH-19,5.6 항적난기류(Wake Turbulence)
+AIR-NAV-362,대형항공기의 뒤를 따라 소형항공기가 interse cti on takeoff 시 vortex를 회피하기 위한 최소한 의 시간간격은?,5,항적난기류(Wake Turbulence),19,AIRNAV-TH-19,5.6 항적난기류(Wake Turbulence)
+AIR-NAV-363,비행성능을 결정하는 기준이 되는 고도는?,5,항적난기류(Wake Turbulence),19,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-364,다음 중 밀도고도가 증가하는 경우는?,5,항적난기류(Wake Turbulence),19,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-365,VFR 비행을 위한 sectional aeronautical chart의 축척은?,5,항공차트(Aeronautical Charts),20,AIRNAV-TH-20,5.7 항공차트(Aeronautical Charts)
+AIR-NAV-366,야외시계비행을 위한 지도의 축척은?,5,항공차트(Aeronautical Charts),20,AIRNAV-TH-20,5.7 항공차트(Aeronautical Charts)
+AIR-NAV-367,"저속 및 중속 비행기의 시계비행을 위한 축척 1:500,000의 chart는?",5,항공차트(Aeronautical Charts),20,AIRNAV-TH-20,5.7 항공차트(Aeronautical Charts)
+AIR-NAV-368,B등급 공역으로 지정된 공역을 수록하고 있는 VFR Terminal Area Chart의 축척은?,5,항공차트(Aeronautical Charts),20,AIRNAV-TH-20,5.7 항공차트(Aeronautical Charts)
+AIR-NAV-369,B등급 또는 C등급 공역 내부 또는 주변의 비행장으로 접근하는 시계비행 조종사가 보아야 할 차트는?,5,항공차트(Aeronautical Charts),20,AIRNAV-TH-20,5.7 항공차트(Aeronautical Charts)
+AIR-NAV-370,고고도 장거리 비행에 적합한 chart는?,5,항공차트(Aeronautical Charts),20,AIRNAV-TH-20,5.7 항공차트(Aeronautical Charts)
+AIR-NAV-371,다음 중 Visual approach chart를 적용하지 않는 공항은?,5,항공차트(Aeronautical Charts),20,AIRNAV-TH-20,5.7 항공차트(Aeronautical Charts)
+AIR-NAV-372,Enroute chart에 표시되는 방위(bear i ng)의 기준은?,5,항공차트(Aeronautical Charts),20,AIRNAV-TH-20,5.7 항공차트(Aeronautical Charts)
+AIR-NAV-373,Approach chart에 표기된 260° hdg의 의미는?,5,항공차트(Aeronautical Charts),20,AIRNAV-TH-20,5.7 항공차트(Aeronautical Charts)
+AIR-NAV-374,Chart에 표기되는 고도는?,5,항공차트(Aeronautical Charts),20,AIRNAV-TH-20,5.7 항공차트(Aeronautical Charts)
+AIR-NAV-375,SID와 STAR chart에 사용되는 고도는 어느 것을 기준으로 하는가?,5,항공차트(Aeronautical Charts),20,AIRNAV-TH-20,5.7 항공차트(Aeronautical Charts)
+AIR-NAV-376,항법시설을 중심으로 한 위치를 나타내는 용어는?,5,항공차트(Aeronautical Charts),20,AIRNAV-TH-20,5.7 항공차트(Aeronautical Charts)
+AIR-NAV-377,VOR 설치 시 radial의 기준은?,5,항공차트(Aeronautical Charts),20,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-378,Feeder route를 볼 수 있는 chart는?,5,항공차트(Aeronautical Charts),20,AIRNAV-TH-20,5.7 항공차트(Aeronautical Charts)
+AIR-NAV-379,아래 기호가 의미하는 navigation aid는?,5,항공차트(Aeronautical Charts),20,AIRNAV-TH-20,5.7 항공차트(Aeronautical Charts)
+AIR-NAV-380,Enroute chart에서 아래 그림과 같은 부호의 의미는?,5,항공차트(Aeronautical Charts),20,AIRNAV-TH-20,5.7 항공차트(Aeronautical Charts)
+AIR-NAV-381,Area chart에서 기호 ”) “가 의미하는 것은?,5,항공차트(Aeronautical Charts),20,AIRNAV-TH-20,5.7 항공차트(Aeronautical Charts)
+AIR-NAV-382,Enroute chart에서 아래 그림과 같은 기호의 의미는?,5,항공차트(Aeronautical Charts),20,AIRNAV-TH-20,5.7 항공차트(Aeronautical Charts)
+AIR-NAV-383,비행계획서를 제출하고 얼마 이내에 이륙하지 않은 경우 제출한 비행계획서를 취소하여야 하는가?,6,비행전(Preflight),21,AIRNAV-TH-21,6.1 비행전(Preflight)
+AIR-NAV-384,대한민국에서 제출된 비행계획을 변경하려면 최소 몇 분 전에 새로운 비행계획을 제출하여야 하는가?,6,비행전(Preflight),21,AIRNAV-TH-21,6.1 비행전(Preflight)
+AIR-NAV-385,비행계획서에 연료탑재량은 어떻게 표기하는가?,6,비행전(Preflight),21,AIRNAV-TH-21,6.1 비행전(Preflight)
+AIR-NAV-386,비행계획서에 기재하여야 할 사항이 아닌 것은?,6,비행전(Preflight),21,AIRNAV-TH-21,6.1 비행전(Preflight)
+AIR-NAV-387,비행계획서는 출발예정시간 몇 분 전까지 제출하여야 하는가?,6,비행전(Preflight),21,AIRNAV-TH-21,6.1 비행전(Preflight)
+AIR-NAV-388,"항공교통관제기관과 협의한 경우를 제외하고, 비행 전 항공기의 시간은 어디에 맞추어야 하는 가?",6,비행전(Preflight),21,AIRNAV-TH-21,6.1 비행전(Preflight)
+AIR-NAV-389,비행장 표고(aerodrome elevation)의 기준이 되는 것은?,6,비행전(Preflight),21,AIRNAV-TH-21,6.1 비행전(Preflight)
+AIR-NAV-390,SID에서 항공기가 활주로 말단을 활주로 말단보다 35 ft 이상의 높이로 통과한 후 유지해야 할 최저 상승률은?,6,비행전(Preflight),21,AIRNAV-TH-21,6.1 비행전(Preflight)
+AIR-NAV-391,St andard Ins trumen t Depar ture(SID) 절차로 비행하기 위한 요건으로 틀린 것은?,6,비행전(Preflight),21,AIRNAV-TH-21,6.1 비행전(Preflight)
+AIR-NAV-392,Takeo ff dist ance(TOD)의 기준 고도는?,6,비행전(Preflight),21,AIRNAV-TH-21,6.1 비행전(Preflight)
+AIR-NAV-393,VOR station 상공 통과 시 위치보고 시점은?,6,항공로 절차(En Route Procedure),22,AIRNAV-TH-22,6.2 항공로 절차(En Route Procedure)
+AIR-NAV-394,Stati on 통과 시 위치보고 시점으로 잘못된 것은?,6,항공로 절차(En Route Procedure),22,AIRNAV-TH-22,6.2 항공로 절차(En Route Procedure)
+AIR-NAV-395,NDB station 상공 통과 시 위치보고 시기는?,6,항공로 절차(En Route Procedure),22,AIRNAV-TH-22,6.2 항공로 절차(En Route Procedure)
+AIR-NAV-396,Chart에서 필수보고지점(compulsory reporti ng point)을 나타내는 symbol은?,6,항공로 절차(En Route Procedure),22,AIRNAV-TH-20,5.7 항공차트(Aeronautical Charts)
+AIR-NAV-397,RNAV 비행로에서 운항중인 항공기가 위치보고를 해야 하는 곳은?,6,항공로 절차(En Route Procedure),22,AIRNAV-TH-22,6.2 항공로 절차(En Route Procedure)
+AIR-NAV-398,필수보고지점 설정 조건이 아닌 것은?,6,항공로 절차(En Route Procedure),22,AIRNAV-TH-22,6.2 항공로 절차(En Route Procedure)
+AIR-NAV-399,항공통신 용어 중 조종사에게 현재 사용 중인 주파수를 계속 유지할 것을 요구할 때 사용하는 용어는?,6,항공로 절차(En Route Procedure),22,AIRNAV-TH-22,6.2 항공로 절차(En Route Procedure)
+AIR-NAV-400,비행계획서에 제출한 진대기속도보다 순항고도에서 평균전대기속도의 변화가 있는 경우 ATC에 보고해야 하는것은?,6,항공로 절차(En Route Procedure),22,AIRNAV-TH-22,6.2 항공로 절차(En Route Procedure)
+AIR-NAV-401,FIX에서 이전에 통보한 도착 예정시간과 얼마 이상 차이가 날 때 ATC에 보고해야 하는가?,6,항공로 절차(En Route Procedure),22,AIRNAV-TH-22,6.2 항공로 절차(En Route Procedure)
+AIR-NAV-402,ATC의 요청이 없어도 항상 보고하여야 할 사항이 아닌 것은?,6,항공로 절차(En Route Procedure),22,AIRNAV-TH-22,6.2 항공로 절차(En Route Procedure)
+AIR-NAV-403,Vict or a irway는 어떤 항행안전시설을 기반으로 하는 항로인가?,6,항공로 절차(En Route Procedure),22,AIRNAV-TH-22,6.2 항공로 절차(En Route Procedure)
+AIR-NAV-404,항로명 OTR-13에서 “OTR'’의 의미는?,6,항공로 절차(En Route Procedure),22,AIRNAV-TH-22,6.2 항공로 절차(En Route Procedure)
+AIR-NAV-405,항로에서 항행시설 신호의 수신과 장애물 회피를 보장하는 최저고도는?,6,항공로 절차(En Route Procedure),22,AIRNAV-TH-22,6.2 항공로 절차(En Route Procedure)
+AIR-NAV-406,VOR station으로부터 22 NM 내에서 장애물 회피와 항법신호의 수신을 보장하는 고도는?,6,항공로 절차(En Route Procedure),22,AIRNAV-TH-22,6.2 항공로 절차(En Route Procedure)
+AIR-NAV-407,En-rou te chart에서 고도 표시 ‘‘7000T'’가 의미하는 것은?,6,항공로 절차(En Route Procedure),22,AIRNAV-TH-22,6.2 항공로 절차(En Route Procedure)
+AIR-NAV-408,En-rou te chart에서 고도 표시 ‘‘6000a“가 의미하는 것은?,6,항공로 절차(En Route Procedure),22,AIRNAV-TH-22,6.2 항공로 절차(En Route Procedure)
+AIR-NAV-409,"지연이 예상되지 않는 경우, 관제사는 항공기가 허가한계점에 도착하기 최소한 몇 분 전에 체 공 fix 이후에 대한 비행인가를 발부하여야 하는가?",6,항공로 절차(En Route Procedure),22,AIRNAV-TH-22,6.2 항공로 절차(En Route Procedure)
+AIR-NAV-410,지연이 예상될 때 항공기가 허가한계점에 도착하기 최소한 몇 분 전까지 체공지시를 발부하여 야하는가?,6,항공로 절차(En Route Procedure),22,AIRNAV-TH-22,6.2 항공로 절차(En Route Procedure)
+AIR-NAV-411,"14,000 ft 이하의 고도에서 유지해야 할 maximum holding s peed는?",6,항공로 절차(En Route Procedure),22,AIRNAV-TH-22,6.2 항공로 절차(En Route Procedure)
+AIR-NAV-412,"ICAO 기준으로 14,000~20,000 ft 고도에서 holding 시 유지해야 할 속도는?",6,항공로 절차(En Route Procedure),22,AIRNAV-TH-22,6.2 항공로 절차(En Route Procedure)
+AIR-NAV-413,Holding 시 최대 inbound leg time이 1 분인 고도는?,6,항공로 절차(En Route Procedure),22,AIRNAV-TH-22,6.2 항공로 절차(En Route Procedure)
+AIR-NAV-414,"Sti ll air 상태에서 14,000 ft를 초과하는 체공장주의 outbound time은?",6,항공로 절차(En Route Procedure),22,AIRNAV-TH-22,6.2 항공로 절차(En Route Procedure)
+AIR-NAV-415,"14,000 ft 이상의 고도에서 holding leg time은?",6,항공로 절차(En Route Procedure),22,AIRNAV-TH-22,6.2 항공로 절차(En Route Procedure)
+AIR-NAV-416,Holding에 관한 다음 설명 중 맞는 것은?,6,항공로 절차(En Route Procedure),22,AIRNAV-TH-22,6.2 항공로 절차(En Route Procedure)
+AIR-NAV-417,Hold ing fi x 진입 전 속도 조절에 대한 설명 중 맞는 것은?,6,항공로 절차(En Route Procedure),22,AIRNAV-TH-22,6.2 항공로 절차(En Route Procedure)
+AIR-NAV-418,Hold ing point 전입시 속도를 줄이는 시점은?,6,항공로 절차(En Route Procedure),22,AIRNAV-TH-22,6.2 항공로 절차(En Route Procedure)
+AIR-NAV-419,ILS 접근 시 Final approach segment가 시작되는 지점은?,6,항공로 절차(En Route Procedure),22,AIRNAV-TH-23,6.3 도착절차(Arrival Procedures)
+AIR-NAV-420,Approach gat e에 대한 설명 중 틀린 것은?,6,도착절차(Arrival Procedures),23,AIRNAV-TH-23,6.3 도착절차(Arrival Procedures)
+AIR-NAV-421,최저안전고도(MSA)에 대한 설명 중 맞는 것은?,6,도착절차(Arrival Procedures),23,AIRNAV-TH-23,6.3 도착절차(Arrival Procedures)
+AIR-NAV-422,접근차트의 MSA에 대한 설명 중 맞는 것은?,6,도착절차(Arrival Procedures),23,AIRNAV-TH-23,6.3 도착절차(Arrival Procedures)
+AIR-NAV-423,MSA에 대한 설명 중 틀린 것은?,6,도착절차(Arrival Procedures),23,AIRNAV-TH-23,6.3 도착절차(Arrival Procedures)
+AIR-NAV-424,최저안전고도(MSA)에 대한 설명 중 틀린 것은?,6,도착절차(Arrival Procedures),23,AIRNAV-TH-23,6.3 도착절차(Arrival Procedures)
+AIR-NAV-425,MVA는 비산악 지형에서 몇 ft의 장애물 clearance를 보장하는가?,6,도착절차(Arrival Procedures),23,AIRNAV-TH-23,6.3 도착절차(Arrival Procedures)
+AIR-NAV-426,MVA에 대한 설명 중 틀린 것은?,6,도착절차(Arrival Procedures),23,AIRNAV-TH-23,6.3 도착절차(Arrival Procedures)
+AIR-NAV-427,Minimum Vectoring Al titude와 관계없는 것은?,6,도착절차(Arrival Procedures),23,AIRNAV-TH-23,6.3 도착절차(Arrival Procedures)
+AIR-NAV-428,MVA에 대한 설명 중 틀린 것은?,6,도착절차(Arrival Procedures),23,AIRNAV-TH-23,6.3 도착절차(Arrival Procedures)
+AIR-NAV-429,MVA(minimum vectoring altitude)에 대한 설명으로 맞는 것은?,6,도착절차(Arrival Procedures),23,AIRNAV-TH-23,6.3 도착절차(Arrival Procedures)
+AIR-NAV-430,다음 중 장애물 회피를 보장하는 최저고도는?,6,도착절차(Arrival Procedures),23,AIRNAV-TH-23,6.3 도착절차(Arrival Procedures)
+AIR-NAV-431,CAT I 정밀접근 활주로의 결심고도(DH) 및 활주로가시거리(RVR) 최저치는?,6,도착절차(Arrival Procedures),23,AIRNAV-TH-23,6.3 도착절차(Arrival Procedures)
+AIR-NAV-432,CAT II 정밀접근 활주로의 RVR 및 DH의 범위는?,6,도착절차(Arrival Procedures),23,AIRNAV-TH-23,6.3 도착절차(Arrival Procedures)
+AIR-NAV-433,Procedure turn 중 inbound course로 진입할 때까지 준수해야 할 고도는?,6,도착절차(Arrival Procedures),23,AIRNAV-TH-23,6.3 도착절차(Arrival Procedures)
+AIR-NAV-434,Procedure turn 시 유지해야 할 최대속도는?,6,도착절차(Arrival Procedures),23,AIRNAV-TH-23,6.3 도착절차(Arrival Procedures)
+AIR-NAV-435,"ILS, VOR 또는 NDB final course의 진입이 유효한 상태는?",6,도착절차(Arrival Procedures),23,AIRNAV-TH-23,6.3 도착절차(Arrival Procedures)
+AIR-NAV-436,ASR 관제시 관제사가 조종사에게 제공하는 것이 아닌 것은?,6,도착절차(Arrival Procedures),23,AIRNAV-TH-23,6.3 도착절차(Arrival Procedures)
+AIR-NAV-437,Simult aneous parallel dependen t approach를 위한 활주로 이격거리는?,6,도착절차(Arrival Procedures),23,AIRNAV-TH-23,6.3 도착절차(Arrival Procedures)
+AIR-NAV-438,Side step 접근을 하기 위한 활주로 간격은?,6,도착절차(Arrival Procedures),23,AIRNAV-TH-23,6.3 도착절차(Arrival Procedures)
+AIR-NAV-439,Side step maneuver가 가능한 활주로 간격은?,6,도착절차(Arrival Procedures),23,AIRNAV-TH-23,6.3 도착절차(Arrival Procedures)
+AIR-NAV-440,Side—st ep maneuver는 언제 시작하여야 하는가?,6,도착절차(Arrival Procedures),23,AIRNAV-TH-23,6.3 도착절차(Arrival Procedures)
+AIR-NAV-441,Cont act approach에 관한 설명 중 틀린 것은?,6,도착절차(Arrival Procedures),23,AIRNAV-TH-23,6.3 도착절차(Arrival Procedures)
+AIR-NAV-442,Contact approach는 누가 요구할 수 있는가?,6,도착절차(Arrival Procedures),23,AIRNAV-TH-23,6.3 도착절차(Arrival Procedures)
+AIR-NAV-443,Contact approach를 요구하려면 비행시정은 얼마 이상이어야 하는가?,6,도착절차(Arrival Procedures),23,AIRNAV-TH-23,6.3 도착절차(Arrival Procedures)
+AIR-NAV-444,Contact approach를 하기 위한 최저 지상시정은?,6,도착절차(Arrival Procedures),23,AIRNAV-TH-23,6.3 도착절차(Arrival Procedures)
+AIR-NAV-445,Contact approach에 관한 설명 중 틀린 것은?,6,도착절차(Arrival Procedures),23,AIRNAV-TH-23,6.3 도착절차(Arrival Procedures)
+AIR-NAV-446,Contact approach와 Visual approach에 대한 설명 중 옳은 것은?,6,도착절차(Arrival Procedures),23,AIRNAV-TH-23,6.3 도착절차(Arrival Procedures)
+AIR-NAV-447,What is the diff erence between a visual and a contact approach?,6,도착절차(Arrival Procedures),23,AIRNAV-TH-23,6.3 도착절차(Arrival Procedures)
+AIR-NAV-448,Missed approach에 대한 설명 중 올바른 것은?,6,도착절차(Arrival Procedures),23,AIRNAV-TH-23,6.3 도착절차(Arrival Procedures)
+AIR-NAV-449,요격기는 피요격기의 어느 쪽으로 접근하는가?,6,도착절차(Arrival Procedures),23,AIRNAV-TH-23,6.3 도착절차(Arrival Procedures)
+AIR-NAV-450,요격을 당했을 때 피요격항공기의 대처방법으로 맞는 것은?,6,"국가안보, 요격절차 및 비상절차",24,AIRNAV-TH-24,"6.4 국가안보, 요격절차 및 비상절차"
+AIR-NAV-451,일반적인 요격기의 수와 접근방법으로 맞는 것은?,6,"국가안보, 요격절차 및 비상절차",24,AIRNAV-TH-24,"6.4 국가안보, 요격절차 및 비상절차"
+AIR-NAV-452,"피요격항공기가 SSR Transponder를 장착하고 있는 경우, 해당 항공교통관제기관의 별도 지시가 없다면 Mode 3/A에 선택해야 할 Code는?",6,"국가안보, 요격절차 및 비상절차",24,AIRNAV-TH-24,"6.4 국가안보, 요격절차 및 비상절차"
+AIR-NAV-453,대한민국 내에서 민간항공기에 대한 요격이 발생할 경우 피요격항공기의 조치사항으로 옳지 않은 것은?,6,"국가안보, 요격절차 및 비상절차",24,AIRNAV-TH-24,"6.4 국가안보, 요격절차 및 비상절차"
+AIR-NAV-454,대한민국 내에서 요격 중 피요격기의 행동으로 틀린 것은?,6,"국가안보, 요격절차 및 비상절차",24,AIRNAV-TH-24,"6.4 국가안보, 요격절차 및 비상절차"
+AIR-NAV-455,방공식별구역(ADIZ) 통과 시 항공기 위치오차 허용범위로 맞는 것은?,6,"국가안보, 요격절차 및 비상절차",24,AIRNAV-TH-24,"6.4 국가안보, 요격절차 및 비상절차"
+AIR-NAV-456,담당자가 emergency를 선포해야 할 emer gency s ituati on이 아닌 것은?,6,"국가안보, 요격절차 및 비상절차",24,AIRNAV-TH-24,"6.4 국가안보, 요격절차 및 비상절차"
+AIR-NAV-457,Hijack 항공기의 트랜스폰더 code는?,6,"국가안보, 요격절차 및 비상절차",24,AIRNAV-TH-24,"6.4 국가안보, 요격절차 및 비상절차"
+AIR-NAV-458,피랍 항공기의 조종사가 유지해야 할 속도 및 고도는?,6,"국가안보, 요격절차 및 비상절차",24,AIRNAV-TH-24,"6.4 국가안보, 요격절차 및 비상절차"
+AIR-NAV-459,시계비행방식에 의해 비행 중 무선통신장비의 고장으로 통신 두절 시 트랜스폰더 코드는?,6,"국가안보, 요격절차 및 비상절차",24,AIRNAV-TH-24,"6.4 국가안보, 요격절차 및 비상절차"
+AIR-NAV-460,언제 transponder code를 7600으로 set 하여야 하는가?,6,"국가안보, 요격절차 및 비상절차",24,AIRNAV-TH-24,"6.4 국가안보, 요격절차 및 비상절차"
+AIR-NAV-461,다음 중 emer genc y frequency가 아닌 것은?,6,"국가안보, 요격절차 및 비상절차",24,AIRNAV-TH-24,"6.4 국가안보, 요격절차 및 비상절차"
+AIR-NAV-462,항공분야에서 인적요소(Human Factors) 란?,6,"국가안보, 요격절차 및 비상절차",24,AIRNAV-TH-24,"6.4 국가안보, 요격절차 및 비상절차"
+AIR-NAV-463,항공종사자의 인적요소 교육과목 중 항공생리 및 항공심리에 대하여 ICAO에서 권고하는 학 습l:l]중은?,7,인적요소의 개요,25,AIRNAV-TH-25,7.1 인적요소의 개요·항공안전보고
+AIR-NAV-464,Frank. H. Hawkins의 SHELL Model에서 Software 분야에 속하지 않는 것은?,7,인적요소의 개요,25,AIRNAV-TH-25,7.1 인적요소의 개요·항공안전보고
+AIR-NAV-465,다음 중 SHELL 모델에서 Software 요소에 해당하는 것은?,7,인적요소의 개요,25,AIRNAV-TH-25,7.1 인적요소의 개요·항공안전보고
+AIR-NAV-466,"""SHELL"" Model에서 Liveware에 해당하는 것은?",7,인적요소의 개요,25,AIRNAV-TH-25,7.1 인적요소의 개요·항공안전보고
+AIR-NAV-467,Frank. H. Hawkins의 SHELL 모델의 요소로 적합하지 않는 것은?,7,인적요소의 개요,25,AIRNAV-TH-25,7.1 인적요소의 개요·항공안전보고
+AIR-NAV-468,SHELL Model의 각 요소에 대한 설명으로 틀린 것은?,7,인적요소의 개요,25,AIRNAV-TH-25,7.1 인적요소의 개요·항공안전보고
+AIR-NAV-469,현대 항공기 운항에 있어서 계기를 읽을 때 실수를 할 수 있기 때문에 승무원 상호간 크로스체크를하는등협력의 필요성이 더욱증가하고 있다. 이러한의미에서 인적요소분야에서 중요하게 여겨지는관계는?,7,인적요소의 개요,25,AIRNAV-TH-25,7.1 인적요소의 개요·항공안전보고
+AIR-NAV-470,온몸으로 가는 전체 혈액 중 뇌로 공급되는 혈류량은?,7,인적요소의 개요,25,AIRNAV-TH-26,7.2 항공생리
+AIR-NAV-471,"산소가 뇌에 얼마 동안 공급되지 않을 경우, 뇌에 치명적인 손상을 가져올 수 있는가?",7,항공생리,26,AIRNAV-TH-26,7.2 항공생리
+AIR-NAV-472,폐포 내의 산소분압이 얼마 이하로 떨어지면 저산소증이 나타날 수 있는가?,7,항공생리,26,AIRNAV-TH-26,7.2 항공생리
+AIR-NAV-473,"고도 25,000 ft에서의 유효의식시간은?",7,항공생리,26,AIRNAV-TH-26,7.2 항공생리
+AIR-NAV-474,"고도 35,000 피트에서 비여압 상태이고 비상산소가 없을 경우, 유효의식시간은?",7,항공생리,26,AIRNAV-TH-26,7.2 항공생리
+AIR-NAV-475,저산소증(hypoxia)에 빠졌을 때 나타나는 증상이 아닌 것은?,7,항공생리,26,AIRNAV-TH-26,7.2 항공생리
+AIR-NAV-476,저산소증(hypoxia)의 자각증상이 아닌 것은?,7,항공생리,26,AIRNAV-TH-26,7.2 항공생리
+AIR-NAV-477,저산소증에 가장 민감한 인체 기관은?,7,항공생리,26,AIRNAV-TH-26,7.2 항공생리
+AIR-NAV-478,저산소증에 대한 설명 중 틀린 것은?,7,항공생리,26,AIRNAV-TH-26,7.2 항공생리
+AIR-NAV-479,조종사가 산소 마스크를 착용해야 할 최소고도는?,7,항공생리,26,AIRNAV-TH-26,7.2 항공생리
+AIR-NAV-480,여압되지 않는 항공기에서 승객에게 보충산소를 제공하지 않고 비행할 수 있는 최대고도는?,7,항공생리,26,AIRNAV-TH-26,7.2 항공생리
+AIR-NAV-481,과다호흡증(hyperventilation)이 나타날 경우 조치방법으로 적합한 것은?,7,항공생리,26,AIRNAV-TH-26,7.2 항공생리
+AIR-NAV-482,탄산음료의 병을 따면 기포가 올라오는 것과 같은 현상으로 인해 발생하는 증상은?,7,항공생리,26,AIRNAV-TH-26,7.2 항공생리
+AIR-NAV-483,실제보다 높은 고도에 있는 것 같은 착각을 유발하는 활주로는?,7,항공생리,26,AIRNAV-TH-26,7.2 항공생리
+AIR-NAV-484,활주로 접근 시 비행착각에 대한 설명 중 틀린 것은?,7,항공생리,26,AIRNAV-TH-26,7.2 항공생리
+AIR-NAV-485,양성 가속도(+G) 상황에서 발생할 수 있는 현상이 아닌 것은?,7,항공생리,26,AIRNAV-TH-26,7.2 항공생리
+AIR-NAV-486,불빛이 마치 스스로 움직이고 있는 것처럼 보이는 착시현상은?,7,항공생리,26,AIRNAV-TH-26,7.2 항공생리
+AIR-NAV-487,직진 수평비행 중 속도를 증가시키면 상승하는 것과 같이 느끼는 신체현상을 무엇이라 하는 가?,7,항공생리,26,AIRNAV-TH-26,7.2 항공생리
+AIR-NAV-488,수평비행 중 항공기 감속시 나타나는 착각은?,7,항공생리,26,AIRNAV-TH-26,7.2 항공생리
+AIR-NAV-489,공간정위 상실 시 이를 극복하기 위한 최선의 방법은?,7,항공생리,26,AIRNAV-TH-26,7.2 항공생리
+AIR-NAV-490,비행착각 발생 시 조치사항에 관한 설명 중 틀린 것은?,7,항공생리,26,AIRNAV-TH-26,7.2 항공생리
+AIR-NAV-491,운항승무원에게 요구되는 능력과 인적특성이 아닌 것은?,7,항공생리,26,AIRNAV-TH-25,7.1 인적요소의 개요·항공안전보고
+AIR-NAV-492,"비행 중 쌍발 엔진 항공기의 한쪽 엔진에 고장이 발생하였을 때 정상 작동 중인 다른 쪽 엔진을 정지시켰다면, 어떤 형태의 과오를 범한 것인가?",7,항공심리,27,AIRNAV-TH-27,7.3 항공심리
+AIR-NAV-493,기계가 인간보다 우월한 점이 아닌 것은?,7,항공심리,27,AIRNAV-TH-27,7.3 항공심리
+AIR-NAV-494,작업 수행 능력에 있어 인간이 기계보다 우월한 점은?,7,항공심리,27,AIRNAV-TH-27,7.3 항공심리
+AIR-NAV-495,다음 중 조종사 과오의 주원인은?,7,항공심리,27,AIRNAV-TH-27,7.3 항공심리
+AIR-NAV-496,긴급사태의 피로 단계에서 나타나는 인간의 반응은?,7,항공심리,27,AIRNAV-TH-27,7.3 항공심리
+AIR-NAV-497,"긴급사태 하의 생리적 단계에서 에너지의 과소모, 의욕감퇴와행동의 억제가나타나는단계는?",7,항공심리,27,AIRNAV-TH-27,7.3 항공심리
+AIR-NAV-498,행동은 정지되고 정신이 혼미해지는 생리적 단계는?,7,항공심리,27,AIRNAV-TH-27,7.3 항공심리
+AIR-NAV-499,긴급상황에서의 심리적 단계에 대한 설명 중 틀린 것은?,7,항공심리,27,AIRNAV-TH-27,7.3 항공심리
+AIR-NAV-500,인간의 행동 과정으로 올바른 것은?,7,항공심리,27,AIRNAV-TH-27,7.3 항공심리
+AIR-NAV-501,세계보건기구(WHO)가 규정한 건강의 개념으로 알맞은 것은?,7,직무와 신체조건의 적정성,28,AIRNAV-TH-28,7.4 직무와 신체조건의 적정성
+AIR-NAV-502,질병의 예방대책에서 1 차적 예방조치에 속하는 것은?,7,직무와 신체조건의 적정성,28,AIRNAV-TH-28,7.4 직무와 신체조건의 적정성
+AIR-NAV-503,리벨(Leave l) 교수가 제시한 단계별 질병 예방대책에서 2차 예방대책으로 적합한 것은?,7,직무와 신체조건의 적정성,28,AIRNAV-TH-28,7.4 직무와 신체조건의 적정성
+AIR-NAV-504,"인간이 섭취해야 할 영양소 중에서 탄수화물, 단백질과 지방의 바람직한 섭취 비율은?",7,직무와 신체조건의 적정성,28,AIRNAV-TH-28,7.4 직무와 신체조건의 적정성
+AIR-NAV-505,조종사가 약물을 복용했을 때 나타나는 증상이 아닌 것은?,7,직무와 신체조건의 적정성,28,AIRNAV-TH-28,7.4 직무와 신체조건의 적정성
+AIR-NAV-506,스트레스를 받았을 때 나타나는 생리적 반응의 단계로 맞는 것은?,7,직무와 신체조건의 적정성,28,AIRNAV-TH-28,7.4 직무와 신체조건의 적정성
+AIR-NAV-507,스트레스에 대한 생리적 반응 중 첫 단계인 경고반응 시에 나타나는 증세와 거리가 먼 것은?,7,직무와 신체조건의 적정성,28,AIRNAV-TH-28,7.4 직무와 신체조건의 적정성
+AIR-NAV-508,비앵글로(non-anglo) 문화권의 운항승무원에 대한 특성으로 적합한 것은?,8,인간-인간(Liveware-Liveware),29,AIRNAV-TH-29,8.1 인간-인간(Liveware-Liveware)
+AIR-NAV-509,조종사 leadership 능력 향상 요소 중 논평(critique) 이란?,8,인간-인간(Liveware-Liveware),29,AIRNAV-TH-29,8.1 인간-인간(Liveware-Liveware)
+AIR-NAV-510,관리격자 모델(manager i al grid model)의 leadership 유형에 대한 설명 중 틀린 것은?,8,인간-인간(Liveware-Liveware),29,AIRNAV-TH-29,8.1 인간-인간(Liveware-Liveware)
+AIR-NAV-511,관리격자 모델(managerial grid model)의 leadership 유형에서 가장 이상적인 단계는?,8,인간-인간(Liveware-Liveware),29,AIRNAV-TH-29,8.1 인간-인간(Liveware-Liveware)
+AIR-NAV-512,비행과 관련된 risk mana gemen t 항목이 아닌 것은?,8,인간-인간(Liveware-Liveware),29,AIRNAV-TH-29,8.1 인간-인간(Liveware-Liveware)
+AIR-NAV-513,표준운영절차(SOP)에 대한 설명으로 적합하지 않는 것은?,8,인간-소프트웨어/하드웨어(Liveware-Software/Hardware),30,AIRNAV-TH-30,8.2 인간-소프트웨어/하드웨어(Liveware-Software/Hardware)
+AIR-NAV-514,표준운영절차(SOP)의 목적이 아닌 것은?,8,인간-소프트웨어/하드웨어(Liveware-Software/Hardware),30,AIRNAV-TH-30,8.2 인간-소프트웨어/하드웨어(Liveware-Software/Hardware)
+AIR-NAV-515,1987년 Lautman과 All imore의 연구결과에 따르면 승무원 과실에 의한 항공기 사고에서 가 장 많은 비중을 차지하는 사고 원인은?,8,인간-소프트웨어/하드웨어(Liveware-Software/Hardware),30,AIRNAV-TH-30,8.2 인간-소프트웨어/하드웨어(Liveware-Software/Hardware)
+AIR-NAV-516,“조종석 운영의 3P 이론”에 포함되지 않는 것은?,8,인간-소프트웨어/하드웨어(Liveware-Software/Hardware),30,AIRNAV-TH-30,8.2 인간-소프트웨어/하드웨어(Liveware-Software/Hardware)
+AIR-NAV-517,항공기 운항절차 개발에 대한 지침으로 맞지 않는 것은?,8,인간-소프트웨어/하드웨어(Liveware-Software/Hardware),30,AIRNAV-TH-30,8.2 인간-소프트웨어/하드웨어(Liveware-Software/Hardware)
+AIR-NAV-518,다음 중 절차 변경의 사유에 해당되지 않는 것은?,8,인간-소프트웨어/하드웨어(Liveware-Software/Hardware),30,AIRNAV-TH-30,8.2 인간-소프트웨어/하드웨어(Liveware-Software/Hardware)
+AIR-NAV-519,Checkli st를 사용하여 비행을 수행할 때 발생할 수 있는 문제점이 아닌 것은?,8,인간-소프트웨어/하드웨어(Liveware-Software/Hardware),30,AIRNAV-TH-30,8.2 인간-소프트웨어/하드웨어(Liveware-Software/Hardware)
+AIR-NAV-520,다음중자동화의 필요성이 아닌 것은?,8,인간-소프트웨어/하드웨어(Liveware-Software/Hardware),30,AIRNAV-TH-30,8.2 인간-소프트웨어/하드웨어(Liveware-Software/Hardware)
+AIR-NAV-521,조종실 자동화의 목적으로 적합하지 않은 것은?,8,인간-소프트웨어/하드웨어(Liveware-Software/Hardware),30,AIRNAV-TH-30,8.2 인간-소프트웨어/하드웨어(Liveware-Software/Hardware)
+AIR-NAV-522,조종실 자동화에 대한 장점이 아닌 것은?,8,인간-소프트웨어/하드웨어(Liveware-Software/Hardware),30,AIRNAV-TH-30,8.2 인간-소프트웨어/하드웨어(Liveware-Software/Hardware)
+AIR-NAV-523,항공기 경고표시장치에서 제공하는 내용이 아닌 것은?,8,인간-소프트웨어/하드웨어(Liveware-Software/Hardware),30,AIRNAV-TH-30,8.2 인간-소프트웨어/하드웨어(Liveware-Software/Hardware)
+AIR-NAV-524,경고표시장치의 특성이 아닌 것은?,8,인간-소프트웨어/하드웨어(Liveware-Software/Hardware),30,AIRNAV-TH-30,8.2 인간-소프트웨어/하드웨어(Liveware-Software/Hardware)
+AIR-NAV-525,인간은 온도변화에 내성을 가지고 있지만 보통 몇 도의 범위에서는 불쾌감을 느끼는가?,8,인간-환경(Liveware-Environment),31,AIRNAV-TH-31,8.3 인간-환경(Liveware-Environment)
+AIR-NAV-526,감기와 같은 호흡기 질환에 잘 걸릴 수 있는 상대습도는?,8,인간-환경(Liveware-Environment),31,AIRNAV-TH-31,8.3 인간-환경(Liveware-Environment)
+AIR-NAV-527,건강에 좋지 않은 영향을 주는 상대습도의 범위는?,8,인간-환경(Liveware-Environment),31,AIRNAV-TH-31,8.3 인간-환경(Liveware-Environment)
+AIR-NAV-528,시차에 관한 다음 설명 중 옳지 않은 것은?,8,인간-환경(Liveware-Environment),31,AIRNAV-TH-31,8.3 인간-환경(Liveware-Environment)
+AIR-NAV-529,Hofst ede 박사가 정 의한 국가 문화적 환경 의 구분 요소에 해당되지 않는 것은?,8,인간-환경(Liveware-Environment),31,AIRNAV-TH-31,8.3 인간-환경(Liveware-Environment)
+AIR-NAV-530,항법의 중요한 3 가지 요소가 아닌 것은?,9,제1회 모의고사,,AIRNAV-TH-01,1.1 공중항법의 개요
+AIR-NAV-531,다음 time 중 성격이 다른 하나는?,9,제1회 모의고사,,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-532,지역별로 해상마일(nautical mile)의 기준이 되는것은?,9,제1회 모의고사,,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-533,장거리 비행에 이용하는 지구 표면상 최단거리는?,9,제1회 모의고사,,AIRNAV-TH-02,1.2 지구(Earth)
+AIR-NAV-534,다음 중 각각의 정의가 올바른 것은?,9,제1회 모의고사,,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-535,Variati on이 란?,9,제1회 모의고사,,AIRNAV-TH-08,3.1 자기 나침반(Magnetic Compass)
+AIR-NAV-536,바람 삼각형의 구성요소 중 ground vector의 요소는?,9,제1회 모의고사,,AIRNAV-TH-05,2.1 항공기에 대한 바람의 영향
+AIR-NAV-537,항공기가 60마일 비행 후 2마일 벗어났을 때 최초항로와 평행하게 비행할 수 있는 수정각은?,9,제1회 모의고사,,AIRNAV-TH-06,2.2 조종사 항법 기법
+AIR-NAV-538,경도와 위도가 직선으로 표시되는 항공도는?,9,제1회 모의고사,,AIRNAV-TH-04,1.4 차트(Charts)
+AIR-NAV-539,북반구에서 북쪽에 heading을 두려고 할 때 어떻게 하여야 하는가?,9,제1회 모의고사,,AIRNAV-TH-08,3.1 자기 나침반(Magnetic Compass)
+AIR-NAV-540,대기속도에 대한 설명으로 틀린 것은?,9,제1회 모의고사,,AIRNAV-TH-10,3.3 속도계·기타 항공계기
+AIR-NAV-541,DME와 GPS의 거리표시는?,9,제1회 모의고사,,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-542,Localizer transmitt er가 제공하는 정보는?,9,제1회 모의고사,,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-543,PAPI의 식별 가능거리는?,9,제1회 모의고사,,AIRNAV-TH-12,4.2 항공등화시설(Lighting Aids)
+AIR-NAV-544,민간항공기가 절대 set 해서는 안되는 transponder code는?,9,제1회 모의고사,,AIRNAV-TH-17,5.4 감시시스템·트랜스폰더·기상관측
+AIR-NAV-545,항공사격 대공사격 등으로 인한 위험으로부터 항공기의 안전을 보호하거나 그 밖의 이유로 비행허가를받지 않은항공기의 비행을제한하는공역은?,9,제1회 모의고사,,AIRNAV-TH-16,5.3 항공교통관제 허가와 항공기분리
+AIR-NAV-546,전이고도 미만에서 altimeter set 후 착륙 시 고도계가 지시하는 고도는?,9,제1회 모의고사,,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-547,온도가 높은 지역에서 낮은 지역으로 비행 시 고도계의 지시는?,9,제1회 모의고사,,AIRNAV-TH-09,3.2 고도계
+AIR-NAV-548,FIX에서 이전에 통보한 도착 예정시간과 얼마,9,제1회 모의고사,,AIRNAV-TH-22,6.2 항공로 절차(En Route Procedure)
+AIR-NAV-549,비행계획서를 제출하고 얼마 이내에 이륙하지 않은 경우 제출한 비행계획서를 취소하여야 하는 가?,9,제1회 모의고사,,AIRNAV-TH-21,6.1 비행전(Preflight)
+AIR-NAV-550,Enroute chart에 표시 되는 방위 (bearing)의 기준은?,9,제1회 모의고사,,AIRNAV-TH-20,5.7 항공차트(Aeronautical Charts)
+AIR-NAV-551,ILS 접근 시 final approach segment가 시작 되는 지점은?,9,제1회 모의고사,,AIRNAV-TH-23,6.3 도착절차(Arrival Procedures)
+AIR-NAV-552,방공식 별구역 (ADIZ) 통과 시 중심 항로로부터 항공기 위치오차의 허용범위는?,9,제1회 모의고사,,AIRNAV-TH-24,"6.4 국가안보, 요격절차 및 비상절차"
+AIR-NAV-553,Frank H. Hawkins의 SHELL Model에서 Software 분야에 속하지 않는 것은?,9,제1회 모의고사,,AIRNAV-TH-25,7.1 인적요소의 개요·항공안전보고
+AIR-NAV-554,탄산음료의 병을 따면 기포가 올라오는 것과 같 은 현상으로 인해 발생하는 증상은?,9,제1회 모의고사,,AIRNAV-TH-26,7.2 항공생리
+AIR-NAV-555,지문항법에 대한 설명으로 맞는 것은?,9,제2회 모의고사,,AIRNAV-TH-01,1.1 공중항법의 개요
+AIR-NAV-556,대권(great circle)에 대한 설명 중 틀린 것은?,9,제2회 모의고사,,AIRNAV-TH-02,1.2 지구(Earth)
+AIR-NAV-557,지구 표면을 이동하는 항공기의 속도는?,9,제2회 모의고사,,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-558,항정선 항로에 대한 설명으로 틀린 것은?,9,제2회 모의고사,,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-559,1시간당 지구의 자전속도(rotation rate)는?,9,제2회 모의고사,,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-560,Relati ve bearing에 대한 설명으로 옳은 것은?,9,제2회 모의고사,,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-561,Lambert 도법에 대한 설명 중 옳은 것은?,9,제2회 모의고사,,AIRNAV-TH-04,1.4 차트(Charts)
+AIR-NAV-562,Magnetic heading 270°로 비행하는 항공기가 radial 360°에 11시 44분에 도착하였다. Radial 360°를 지나 radial 350°를 11시 47분에 통과하였다면 이곳으로부터 station까지의 비행시간은 얼마인가?,9,제2회 모의고사,,AIRNAV-TH-06,2.2 조종사 항법 기법
+AIR-NAV-563,선회반경이 2 NM인 항공기가 station으로부터 20 NM 떨어진 위치에서 90° 진입각도로 intercept하기 위한 lead point는?,9,제2회 모의고사,,AIRNAV-TH-06,2.2 조종사 항법 기법
+AIR-NAV-564,자차(dev i ati on)에 대한 설명 중 틀린 것은?,9,제2회 모의고사,,AIRNAV-TH-08,3.1 자기 나침반(Magnetic Compass)
+AIR-NAV-565,항공기의 기수를급격하게 들었을 때 발생할 수 있는고도계의 오차는?,9,제2회 모의고사,,AIRNAV-TH-09,3.2 고도계
+AIR-NAV-566,다음 중 가장 낮은 주파수대를 사용하는 항법 시설은?,9,제2회 모의고사,,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-567,동일한 주파수를 사용하는 VOR은 최소 몇 마일의 간격을 두고 설치하여야 하는가?,9,제2회 모의고사,,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-568,Out er Marker 통과 시 수신할 수 있는 등화의 색상은?,9,제2회 모의고사,,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-569,Above glide path 시 tri-color VASI의 지시 색깔은?,9,제2회 모의고사,,AIRNAV-TH-12,4.2 항공등화시설(Lighting Aids)
+AIR-NAV-570,게이트 집현시 marshaller가 팔을 수평으로 들 어 가슴부분에서 주먹을 펴는 것은 무엇을 의미하는가?,9,제2회 모의고사,,AIRNAV-TH-15,5.2 공항운영(Airport Operations)
+AIR-NAV-571,전이고도 미만에서의 고도계 setting 방식은?,9,제2회 모의고사,,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-572,"지표면이 표준기압일 때, 대기압이 해면기압의 1/2로 감소되는 고도는?",9,제2회 모의고사,,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-573,Side-step maneuver는 언제 시작하여야 하는가?,9,제2회 모의고사,,AIRNAV-TH-23,6.3 도착절차(Arrival Procedures)
+AIR-NAV-574,공항 표고(airport elevation)의 기준이 되는 것은?,9,제2회 모의고사,,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-575,지연이 예상될 때 항공기가 허가한계점에 도착하기 최소한 몇 분 전까지 체공지시를 발부하여야 하는가?,9,제2회 모의고사,,AIRNAV-TH-22,6.2 항공로 절차(En Route Procedure)
+AIR-NAV-576,최저레이더유도고도(MVA)에 대한 설명으로 틀린 것은?,9,제2회 모의고사,,AIRNAV-TH-17,5.4 감시시스템·트랜스폰더·기상관측
+AIR-NAV-577,동일 활주로상에서 출항하는CAT II 항공기와 뒤따라 이륙하는 CAT I 항공기 간의 분리간격은?,9,제2회 모의고사,,AIRNAV-TH-19,5.6 항적난기류(Wake Turbulence)
+AIR-NAV-578,운항승무원에게 요구되는 능력과 인적특성이 아닌 것은?,9,제2회 모의고사,,AIRNAV-TH-25,7.1 인적요소의 개요·항공안전보고
+AIR-NAV-579,현대 항공기 운항에 있어서 계기를 읽을 때 실수를 할 수 있기 때문에 승무원 상호간 크로스체크를 하는 등 협력의 필요성이 더욱 증가하고 있 다. 이러한 의미에서 인적요소 분야에서 중요하게 여겨지는관계는?,9,제2회 모의고사,,AIRNAV-TH-25,7.1 인적요소의 개요·항공안전보고
+AIR-NAV-580,적도에 관한 설명 중 틀린 것은?,9,제3회 모의고사,,AIRNAV-TH-02,1.2 지구(Earth)
+AIR-NAV-581,경도 10의 길이가 O NM이 되는 곳은?,9,제3회 모의고사,,AIRNAV-TH-02,1.2 지구(Earth)
+AIR-NAV-582,152°W에서 지방시가 5일 20시일 때 UTC는?,9,제3회 모의고사,,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-583,우리나라에서 위도 1분의 길이가 1 NM이 되는 곳은?,9,제3회 모의고사,,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-584,"육도, 해도, 항공도의 분류 기준은 무엇인가?",9,제3회 모의고사,,AIRNAV-TH-04,1.4 차트(Charts)
+AIR-NAV-585,비행 중 항로상에서 어떤 이유로 인해 출발지로 되돌아오거나 목적지까지 계속 비행할 때 같은 시간이 걸리는 중간지점을 무엇이라고 하는가?,9,제3회 모의고사,,AIRNAV-TH-06,2.2 조종사 항법 기법
+AIR-NAV-586,항공기의 Magnetic course(MC)가 045°이고 Wind correction angle이 5L일 때 Magnetic heading(MH)은 얼마인가?,9,제3회 모의고사,,AIRNAV-TH-05,2.1 항공기에 대한 바람의 영향
+AIR-NAV-587,대권이 직선인 투영법은?,9,제3회 모의고사,,AIRNAV-TH-04,1.4 차트(Charts)
+AIR-NAV-588,연료 소모율이 60 lbs/hr인 항공기의 Ground speed가 70 kts이면 240 NM을 비행할 때 총 소모되는 연료량은 얼마인가?,9,제3회 모의고사,,AIRNAV-TH-06,2.2 조종사 항법 기법
+AIR-NAV-589,북반구에서 북쪽으로 침로를 유지하던 중 표준 율 좌선회를 시도하면 자기나침의(magnetic compass)는 어떻게 지시하는가?,9,제3회 모의고사,,AIRNAV-TH-08,3.1 자기 나침반(Magnetic Compass)
+AIR-NAV-590,다음 중 정압과 동압을 모두 이용하는 계기는?,9,제3회 모의고사,,AIRNAV-TH-10,3.3 속도계·기타 항공계기
+AIR-NAV-591,Ground check point에서 VOR 수신기를 지상점검할 때 CDI의 허용오차는?,9,제3회 모의고사,,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-592,VORTAC 식별부호를 매 30초마다 한 번씩만 수신하였다면 무엇을 의미하는가?,9,제3회 모의고사,,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-593,항공기 자체탑재장비로 자기위치를 보정하면서 비행할 수 있는 시스템은?,9,제3회 모의고사,,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-594,ATIS에서 시정을 생략할 수 있는 경우는?,9,제3회 모의고사,,AIRNAV-TH-14,5.1 항공교통관제업무
+AIR-NAV-595,운고(ceiling)의 정의로 올바른 것은?,9,제3회 모의고사,,AIRNAV-TH-17,5.4 감시시스템·트랜스폰더·기상관측
+AIR-NAV-596,Enroute chart에서 아래 그림과 같은 부호의 의미는?,9,제3회 모의고사,,AIRNAV-TH-20,5.7 항공차트(Aeronautical Charts)
+AIR-NAV-597,QNE로 set 할 경우 지시하는 고도는?,9,제3회 모의고사,,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-598,항공기의 성능을 결정하는 기준이 되는 고도는?,9,제3회 모의고사,,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-599,VOR station 상공 통과 시 위치보고 시점은?,9,제3회 모의고사,,AIRNAV-TH-22,6.2 항공로 절차(En Route Procedure)
+AIR-NAV-600,항로에서 항행시설 신호의 수신과장애물 회피 를 보장하는 최저고도는?,9,제3회 모의고사,,AIRNAV-TH-22,6.2 항공로 절차(En Route Procedure)
+AIR-NAV-601,MSA에 대한 설명 중 틀린 것은?,9,제3회 모의고사,,AIRNAV-TH-23,6.3 도착절차(Arrival Procedures)
+AIR-NAV-602,요격시 트랜스폰더 코드는?,9,제3회 모의고사,,AIRNAV-TH-24,"6.4 국가안보, 요격절차 및 비상절차"
+AIR-NAV-603,섭씨(°C)를 화씨(°F)로 변환하는 공식으로 맞는 것은?,9,제3회 모의고사,,AIRNAV-TH-06,2.2 조종사 항법 기법
+AIR-NAV-604,관리격자 모델(managerial grid model)의 leadership 유형에서 가장 이상적인 단계는?,9,제3회 모의고사,,AIRNAV-TH-29,8.1 인간-인간(Liveware-Liveware)
+AIR-NAV-605,공중항법의 주요 4대 요소가 아닌 것은?,9,제4회 모의고사,,AIRNAV-TH-01,1.1 공중항법의 개요
+AIR-NAV-606,다음 중 시간의 개념이 다른 것은?,9,제4회 모의고사,,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-607,위도 1분의 길이는?,9,제4회 모의고사,,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-608,"지구의 중심을 포함한 원이 지표면과 만나는 선 을이용한항로로두점 사이의 최단거리가되며, 주로 장거리를 비행할 때 사용되는 항로는?",9,제4회 모의고사,,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-609,Mercator 도법에 대한 설명으로 틀린 것은?,9,제4회 모의고사,,AIRNAV-TH-04,1.4 차트(Charts)
+AIR-NAV-610,RWY 36에 바람이 330°/22 kt로 불 때 항공기 에 미치는측풍성분은?,9,제4회 모의고사,,AIRNAV-TH-05,2.1 항공기에 대한 바람의 영향
+AIR-NAV-611,MB-4 컴퓨터에서 Mach No를 구할 때 영향을 미치는주요요소는?,9,제4회 모의고사,,AIRNAV-TH-06,2.2 조종사 항법 기법
+AIR-NAV-612,항공용 지도의 특성에 대한 설명 중 틀린 것은?,9,제4회 모의고사,,AIRNAV-TH-04,1.4 차트(Charts)
+AIR-NAV-613,Isogonic li ne이 란?,9,제4회 모의고사,,AIRNAV-TH-08,3.1 자기 나침반(Magnetic Compass)
+AIR-NAV-614,지시속도(IAS) 란?,9,제4회 모의고사,,AIRNAV-TH-10,3.3 속도계·기타 항공계기
+AIR-NAV-615,ADF의 오차를 유발할 수 있는 효과가 아닌 것은?,9,제4회 모의고사,,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-616,"관제사가 ""traffic 12 o'clock,2 miles north- bound’’와 같이 제공하는 항적정보는 무엇을 기준으로한 것인가?",9,제4회 모의고사,,AIRNAV-TH-14,5.1 항공교통관제업무
+AIR-NAV-617,비행장등화의 점등에 관한 설명 중 옳지 않은 것은?,9,제4회 모의고사,,AIRNAV-TH-12,4.2 항공등화시설(Lighting Aids)
+AIR-NAV-618,Taxiway centerline의 모양과 색깔은?,9,제4회 모의고사,,AIRNAV-TH-13,4.3 공항 표지판(Airport Sign)
+AIR-NAV-619,T-VOR의 운용 범위는?,9,제4회 모의고사,,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-620,특별시계비행에 대한 설명 중 틀린 것은?,9,제4회 모의고사,,AIRNAV-TH-16,5.3 항공교통관제 허가와 항공기분리
+AIR-NAV-621,"Transition level 060, transition altitude 5,800 ft인 transition layer를 통과하여 강하하는 항공기가 고도계를 local altimeter로 수정해야 하는 고도는?",9,제4회 모의고사,,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-622,"고도계를 30.12 inHg로 set한 항공기가 6,000 ft의 계기고도로 비행 중일 때, 이 항공기의 기압고도는?",9,제4회 모의고사,,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-623,"고도 10,000 ft에서 순항비행을 하고 있을 때 외기온도가 올라가면 진고도는?",9,제4회 모의고사,,AIRNAV-TH-09,3.2 고도계
+AIR-NAV-624,Standard Instrument Departure (SID) 절차로 비행하기 위한 요건으로 틀린 것은?,9,제4회 모의고사,,AIRNAV-TH-21,6.1 비행전(Preflight)
+AIR-NAV-625,항공통신 용어 중 조종사에게 현재 사용 중인 주파수를 계속 유지할 것을 요구할 때 사용하는 용어는?,9,제4회 모의고사,,AIRNAV-TH-22,6.2 항공로 절차(En Route Procedure)
+AIR-NAV-626,Procedure turn이 포함되어 있는 접근절차에 서 유지해야 할 최대속도는?,9,제4회 모의고사,,AIRNAV-TH-23,6.3 도착절차(Arrival Procedures)
+AIR-NAV-627,Hijack 항공기의 트랜스폰더 code는?,9,제4회 모의고사,,AIRNAV-TH-24,"6.4 국가안보, 요격절차 및 비상절차"
+AIR-NAV-628,온몸으로 가는 전체 혈액 중 뇌로 공급되는 혈류량은?,9,제4회 모의고사,,AIRNAV-TH-26,7.2 항공생리
+AIR-NAV-629,비행 착각 현상 중 Autokines is 란?,9,제4회 모의고사,,AIRNAV-TH-26,7.2 항공생리
+AIR-NAV-630,추측항법 시 시간이 경과할수록 오차가 커진다. 오차가 커지는 가장 중요한 요인은?,9,제5회 모의고사,,AIRNAV-TH-01,1.1 공중항법의 개요
+AIR-NAV-631,대권(great circle)에 대한 설명 중 틀린 것은?,9,제5회 모의고사,,AIRNAV-TH-02,1.2 지구(Earth)
+AIR-NAV-632,RB (relative bearing)을 구하는 식 으로 맞는 것은?,9,제5회 모의고사,,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-633,1분 동안에 2 NM을 이동했을 경우 속도는 얼마 인가?,9,제5회 모의고사,,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-634,다음 설명으로 옳지 않은 것은?,9,제5회 모의고사,,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-635,Lambert conformal chart의 특징 중 틀린 것은?,9,제5회 모의고사,,AIRNAV-TH-04,1.4 차트(Charts)
+AIR-NAV-636,"항공기가 180 kts의 속도로 radial 090°에서 100°로 변하는데 240초가 걸렸다면, station까 지의 거리는 얼마인가?",9,제5회 모의고사,,AIRNAV-TH-06,2.2 조종사 항법 기법
+AIR-NAV-637,편차가 ‘‘5°E'’라는 의미는?,9,제5회 모의고사,,AIRNAV-TH-08,3.1 자기 나침반(Magnetic Compass)
+AIR-NAV-638,북반구에서 동쪽으로 향하는 항공기가 가속시에 자기 나침반의 지시는?,9,제5회 모의고사,,AIRNAV-TH-08,3.1 자기 나침반(Magnetic Compass)
+AIR-NAV-639,"공항 표고 1,000 ft 상공에서 절대고도가 5,000 ft일 때 진고도는 얼마인가?",9,제5회 모의고사,,AIRNAV-TH-09,3.2 고도계
+AIR-NAV-640,UHF 주파수 범위 내에서 운용되는 시설은?,9,제5회 모의고사,,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-641,VORTAC 시설을 정비중일 때 이를 어떻게 알 수 있는가?,9,제5회 모의고사,,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-642,군 공항의 비행장등대를 식별하는 불빛 색상은?,9,제5회 모의고사,,AIRNAV-TH-12,4.2 항공등화시설(Lighting Aids)
+AIR-NAV-643,Transponder Mode C의 유효 고도범위는?,9,제5회 모의고사,,AIRNAV-TH-17,5.4 감시시스템·트랜스폰더·기상관측
+AIR-NAV-644,IFR 비행방식으로 비행 중 IFR을 취소하였을 경우 트랜스폰더 코드는?,9,제5회 모의고사,,AIRNAV-TH-17,5.4 감시시스템·트랜스폰더·기상관측
+AIR-NAV-645,저속 및 중속 비행기의 시계비행을 위한 축척 1: 500. 000의 chart는?,9,제5회 모의고사,,AIRNAV-TH-20,5.7 항공차트(Aeronautical Charts)
+AIR-NAV-646,"전이고도 이하의 고도로 비행하는 경우, 몇 마일",9,제5회 모의고사,,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-647,항공기 출발 전 점검시 고도계의 최대 허용 오 차범위는?,9,제5회 모의고사,,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-648,TCH 49 ft에서 “TCH'’의 의미는?,9,제5회 모의고사,,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-649,Chart에 표기된 090° HDG의 의미는?,9,제5회 모의고사,,AIRNAV-TH-20,5.7 항공차트(Aeronautical Charts)
+AIR-NAV-650,"첫 호출에 상대방의 응답이 없는 경우, 두 번째 호출은 최소한 몇 초 뒤에 하여야 하는가?",9,제5회 모의고사,,AIRNAV-TH-22,6.2 항공로 절차(En Route Procedure)
+AIR-NAV-651,ATC의 요청이 없어도 항상 보고하여야 할 사항이 아닌 것은?,9,제5회 모의고사,,AIRNAV-TH-22,6.2 항공로 절차(En Route Procedure)
+AIR-NAV-652,최저레이더유도고도(MVA)에 대한설명 중올 바른것은?,9,제5회 모의고사,,AIRNAV-TH-17,5.4 감시시스템·트랜스폰더·기상관측
+AIR-NAV-653,Two-way radio fai lure 시 transponder code는?,9,제5회 모의고사,,AIRNAV-TH-24,"6.4 국가안보, 요격절차 및 비상절차"
+AIR-NAV-654,폐포 내의 산소분압이 얼마 이하로 떨어지면 저 산소증(hypoxia)에 걸릴 수 있는가?,9,제5회 모의고사,,AIRNAV-TH-26,7.2 항공생리
+AIR-NAV-655,"다음 보기에서 설명하는 항법은 무슨 항법에 관한 것인가? 고도계, 속도계, 자기 나침반과 같은 계기를 이용하여 자신의 위치를 판단하고 측정한 바람에 따라서 항적 및 ground speed를 예측하여 비행하는 항법",9,제6회 모의고사,,AIRNAV-TH-01,1.1 공중항법의 개요
+AIR-NAV-656,두 지점 35°N와 13°N 사이의 변위(DI)는 얼마 인가?,9,제6회 모의고사,,AIRNAV-TH-02,1.2 지구(Earth)
+AIR-NAV-657,국제해상마일의 거리는?,9,제6회 모의고사,,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-658,항정선 항로에 대한 설명으로 틀린 것은?,9,제6회 모의고사,,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-659,편류각과 편류수정각에 대한 설명 중 틀린 것은?,9,제6회 모의고사,,AIRNAV-TH-05,2.1 항공기에 대한 바람의 영향
+AIR-NAV-660,대권을 직선으로 나타내는 투영법은?,9,제6회 모의고사,,AIRNAV-TH-04,1.4 차트(Charts)
+AIR-NAV-661,항공기 course deviation indi cator(CDI)가 VOR로부터 60 NM 떨어진 거리에서 2 dot 벗어 났다면 course에서 몇 마일 off 된 것인가?,9,제6회 모의고사,,AIRNAV-TH-06,2.2 조종사 항법 기법
+AIR-NAV-662,추측항법에서 추측위치를 표기하는 기호는?,9,제6회 모의고사,,AIRNAV-TH-07,2.3 관련 항법 기법
+AIR-NAV-663,Magnetic compass의 자차를 수정해야 하는 경우가아닌 것은?,9,제6회 모의고사,,AIRNAV-TH-08,3.1 자기 나침반(Magnetic Compass)
+AIR-NAV-664,TAS는 CAS에서 무엇을 보정한 것인가?,9,제6회 모의고사,,AIRNAV-TH-10,3.3 속도계·기타 항공계기
+AIR-NAV-665,Squawk code를 4000으로 설정해야 하는 항공기는?,9,제6회 모의고사,,AIRNAV-TH-17,5.4 감시시스템·트랜스폰더·기상관측
+AIR-NAV-666,VOR L 등급의 serv ice volume 반경은?,9,제6회 모의고사,,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-667,Glide path와 교차되는 middle marker 상공 의 높이는?,9,제6회 모의고사,,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-668,Localizer iden tifi er 중 뒤 의 두 자리 iden ti- fi er를 이용하여 식별하는 ILS 시설은?,9,제6회 모의고사,,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-669,VOR은 몇 도 오차 범위 내인 경우 항로에서 사 용가능한가?,9,제6회 모의고사,,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-670,같은고도에 있는항공기의 분리에 레이더를사 용할 때 레이더 안테나로부터 40 NM 이내에 있는 항공기 간의 분리 간격은?,9,제6회 모의고사,,AIRNAV-TH-16,5.3 항공교통관제 허가와 항공기분리
+AIR-NAV-671,대규모 조종사의 훈련이나 비정상 형태의 비행 활동이 주로 이루어지는 공역은?,9,제6회 모의고사,,AIRNAV-TH-16,5.3 항공교통관제 허가와 항공기분리
+AIR-NAV-672,항공기의 고도계를 QNH로 는 고도는?,9,제6회 모의고사,,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-673,Altimeter setting 0.1 inHg 차이 에 따른 고도편차는?,9,제6회 모의고사,,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-674,Takeo ff dist ance (TOD)의 기준 고도는?,9,제6회 모의고사,,AIRNAV-TH-21,6.1 비행전(Preflight)
+AIR-NAV-675,조종사는 holding fi x 진입 몇 분 전까지 ATC clearance를 받을 수 있을 것으로 기대하는가?,9,제6회 모의고사,,AIRNAV-TH-22,6.2 항공로 절차(En Route Procedure)
+AIR-NAV-676,Approach gat e에 대한 설명 중 틀린 것은?,9,제6회 모의고사,,AIRNAV-TH-23,6.3 도착절차(Arrival Procedures)
+AIR-NAV-677,Cont act approach는 누가 요청 할 수 있는가?,9,제6회 모의고사,,AIRNAV-TH-23,6.3 도착절차(Arrival Procedures)
+AIR-NAV-678,작업 수행 능력에 있어 인간이 기계보다 우월한 점은?,9,제6회 모의고사,,AIRNAV-TH-27,7.3 항공심리
+AIR-NAV-679,1987년 Lautman과 Gallimore의 연구 결과에 따르면 승무원 과실에 의한 항공기 사고에서 가장 많은 비중을 차지하는 사고 요인은?,9,제6회 모의고사,,AIRNAV-TH-30,8.2 인간-소프트웨어/하드웨어(Liveware-Software/Hardware)
+AIR-NAV-680,배풍을 최대한 이용하여 비행시간을 단축할 수 있는항법은?,9,제7회 모의고사,,AIRNAV-TH-01,1.1 공중항법의 개요
+AIR-NAV-681,경도와 시간과의 관계로 맞는 것은?,9,제7회 모의고사,,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-682,동경 126° 6′에서의 시간이 25일 1000일 때 UTC는?,9,제7회 모의고사,,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-683,대권항로에 대한 설명으로 틀린 것은?,9,제7회 모의고사,,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-684,항공기 기수를 기준으로 하여 목표의 방위를 측 정하는 것은?,9,제7회 모의고사,,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-685,항정선이 직선으로 그려지는 투영방법은?,9,제7회 모의고사,,AIRNAV-TH-04,1.4 차트(Charts)
+AIR-NAV-686,"항공기가 DME station 직상공 고도 12,000 ft를 지날 때 DME상 지시하는 거리는?",9,제7회 모의고사,,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-687,"14,500 ft ~60,000 ft 고도에서 VOR(H)의 통 달범위는?",9,제7회 모의고사,,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-688,선회반경이 2 NM인 항공기가 station으로부터 20 NM 떨어진 위치에서 45° 진입각도로 intercept하기 위한 lead point는?,9,제7회 모의고사,,AIRNAV-TH-06,2.2 조종사 항법 기법
+AIR-NAV-689,등시점(ETP)에 대한 설명 중 틀린 것은?,9,제7회 모의고사,,AIRNAV-TH-06,2.2 조종사 항법 기법
+AIR-NAV-690,북반구에서 북쪽으로 정침하고 있다가 표준율 로 좌선회를 했을 때 자기 나침반은 어떻게 지시 하는가?,9,제7회 모의고사,,AIRNAV-TH-08,3.1 자기 나침반(Magnetic Compass)
+AIR-NAV-691,ATIS에 하늘상태와 시정에 관한 내용이 없다 면?,9,제7회 모의고사,,AIRNAV-TH-14,5.1 항공교통관제업무
+AIR-NAV-692,관제탑 Radar의 주요 기능이 아닌 것은?,9,제7회 모의고사,,AIRNAV-TH-15,5.2 공항운영(Airport Operations)
+AIR-NAV-693,B등급 공역에서의 비행절차에 대한 설명 중 틀린 것은?,9,제7회 모의고사,,AIRNAV-TH-16,5.3 항공교통관제 허가와 항공기분리
+AIR-NAV-694,전이고도 미만의 고도로 비행하는 경우 alti- met er setting 방법으로 잘못된 것은?,9,제7회 모의고사,,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-695,대기압이 해면기압의 1/2이 되는 고도는?,9,제7회 모의고사,,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-696,FL370에서 외기온도가 ISA-10°C일 때 true altitude(TA)와 pressure altitude(PA)의 관계로 옳은 것은?,9,제7회 모의고사,,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-697,다음 중 밀도고도가 증가하는 경우는?,9,제7회 모의고사,,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-698,CAS는 IAS에서 무엇을 보정한 값인가?,9,제7회 모의고사,,AIRNAV-TH-10,3.3 속도계·기타 항공계기
+AIR-NAV-699,비행계획서에 연료탑재량은 어떻게 표기하는가?,9,제7회 모의고사,,AIRNAV-TH-21,6.1 비행전(Preflight)
+AIR-NAV-700,ADF station 상공을 처음 통과한 시 점은 언제 인가?,9,제7회 모의고사,,AIRNAV-TH-22,6.2 항공로 절차(En Route Procedure)
+AIR-NAV-701,절차선회(procedure turn) 시 항공기가 강하할 수 있는 시기는?,9,제7회 모의고사,,AIRNAV-TH-23,6.3 도착절차(Arrival Procedures)
+AIR-NAV-702,방공식별구역(ADIZ) 통과 시 항공기 위치오차 허용범위로 맞는 것은?,9,제7회 모의고사,,AIRNAV-TH-24,"6.4 국가안보, 요격절차 및 비상절차"
+AIR-NAV-703,SHELL Model에서 Liveware에 해당하는 것은?,9,제7회 모의고사,,AIRNAV-TH-25,7.1 인적요소의 개요·항공안전보고
+AIR-NAV-704,다음중절차변경의사유에 해당되지 않는것은?,9,제7회 모의고사,,AIRNAV-TH-30,8.2 인간-소프트웨어/하드웨어(Liveware-Software/Hardware)
+AIR-NAV-705,항법의 요소가 아닌 것은?,9,제8회 모의고사,,AIRNAV-TH-01,1.1 공중항법의 개요
+AIR-NAV-706,적도에 관한 설명 중 틀린 것은?,9,제8회 모의고사,,AIRNAV-TH-02,1.2 지구(Earth)
+AIR-NAV-707,1350Z일 때 우리나라의 LT(local time)는?,9,제8회 모의고사,,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-708,Magnetic heading이 040° 이고 NDB까지의 relative bearing이 290° 일 때 NDB까지 의 magnetic bearing은?,9,제8회 모의고사,,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-709,위도 19°N이 되어야 하는데 20°N 이었다면 오 차는 몇 마일인가?,9,제8회 모의고사,,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-710,항공 지도 해독시 유의사항이 아닌 것은?,9,제8회 모의고사,,AIRNAV-TH-07,2.3 관련 항법 기법
+AIR-NAV-711,Mercator 도법에 대한 설명 중 틀린 것은?,9,제8회 모의고사,,AIRNAV-TH-04,1.4 차트(Charts)
+AIR-NAV-712,TAS 200 kts 일 때 90도 우측으로 20 kts의 측 풍이 불면 wind corre ction an gle (WCA)은?,9,제8회 모의고사,,AIRNAV-TH-05,2.1 항공기에 대한 바람의 영향
+AIR-NAV-713,항공기가 지구 수평면에서 실제 이동한 방향은?,9,제8회 모의고사,,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-714,"편차가 ""0’’이 되는 지점을 연결한 선을 무엇이 라하는가?",9,제8회 모의고사,,AIRNAV-TH-08,3.1 자기 나침반(Magnetic Compass)
+AIR-NAV-715,북반구에서 heading 090° 상태로 동쪽으로 가속하면 자기 나침반의 heading은 어떻게 되는가?,9,제8회 모의고사,,AIRNAV-TH-08,3.1 자기 나침반(Magnetic Compass)
+AIR-NAV-716,수정대기속도(CAS)에서 기압고도와진대기온 도를수정한속도는?,9,제8회 모의고사,,AIRNAV-TH-10,3.3 속도계·기타 항공계기
+AIR-NAV-717,다음 중 주의공역이 아닌 것은?,9,제8회 모의고사,,AIRNAV-TH-16,5.3 항공교통관제 허가와 항공기분리
+AIR-NAV-718,"Slightly high 진입각인 경우, PAPI 등화의 색 상은?",9,제8회 모의고사,,AIRNAV-TH-12,4.2 항공등화시설(Lighting Aids)
+AIR-NAV-719,Tower가 지시하는 바람의 방향은?,9,제8회 모의고사,,AIRNAV-TH-15,5.2 공항운영(Airport Operations)
+AIR-NAV-720,ATC로부터 속도조절을 지시받은 경우 유지해 야하는속도 범위는?,9,제8회 모의고사,,AIRNAV-TH-16,5.3 항공교통관제 허가와 항공기분리
+AIR-NAV-721,ILS 구성요소 중 거리정보를 제공하는 시설은?,9,제8회 모의고사,,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-722,FL 290으로 항로 비행 후 altimeter 수정치가 30.52 inHg인 공항(활주로 표고 600 ft)에 고도계 수정 없이 착륙하였을 때 고도계가 지시하는 고도는?,9,제8회 모의고사,,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-723,B등급 또는 C등급 공역에서 입출항을 하기 위해 사용하는 chart는?,9,제8회 모의고사,,AIRNAV-TH-20,5.7 항공차트(Aeronautical Charts)
+AIR-NAV-724,"비행고도 13,000 ft에서 현재 altimeter setting은 28.92 inHg이다. Transiti on Level이 FL 140일 때 조종사의 조치사항으로 적합한 것은?",9,제8회 모의고사,,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-725,VOR station으로부터 22 NM 내에서 장애물 회피와 항법신호의 수신을 보장하는 고도는?,9,제8회 모의고사,,AIRNAV-TH-22,6.2 항공로 절차(En Route Procedure)
+AIR-NAV-726,최저레이더유도고도(MVA)에 대한 설명으로 틀린 것은?,9,제8회 모의고사,,AIRNAV-TH-17,5.4 감시시스템·트랜스폰더·기상관측
+AIR-NAV-727,요격을 당하고 있을 때 t rans ponder code의 설정은?,9,제8회 모의고사,,AIRNAV-TH-24,"6.4 국가안보, 요격절차 및 비상절차"
+AIR-NAV-728,조종사가 산소 마스크를 착용해야 할 최소 고도 는?,9,제8회 모의고사,,AIRNAV-TH-26,7.2 항공생리
+AIR-NAV-729,세계보건기구(WHO)가 규정한 건강의 개념으 로알맞은것은?,9,제8회 모의고사,,AIRNAV-TH-28,7.4 직무와 신체조건의 적정성
+AIR-NAV-730,다음 중 항법의 3 대 요소가 아닌 것은?,9,제9회 모의고사,,AIRNAV-TH-01,1.1 공중항법의 개요
+AIR-NAV-731,북위 30°와 남위 10° 사이의 중분위도는?,9,제9회 모의고사,,AIRNAV-TH-02,1.2 지구(Earth)
+AIR-NAV-732,대지속도(GS) 240 knot s로 24분 동안 비행했 다면 이동한 거리는?,9,제9회 모의고사,,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-733,진방위(true bearing)에 대한 설명으로 맞는 것은?,9,제9회 모의고사,,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-734,"육도, 해도항공도 등으로 차트를 구분하는 분류 기준은무엇인가?",9,제9회 모의고사,,AIRNAV-TH-04,1.4 차트(Charts)
+AIR-NAV-735,"True heading이 090°이 고 편차가 6°E 일 때, magnetic heading은 얼마인가?",9,제9회 모의고사,,AIRNAV-TH-08,3.1 자기 나침반(Magnetic Compass)
+AIR-NAV-736,Polar gnomonic 평면투영법에 대한 설명 중 틀 린것은?,9,제9회 모의고사,,AIRNAV-TH-04,1.4 차트(Charts)
+AIR-NAV-737,편류(wind drift)에 대한 내용 중 틀린 것은?,9,제9회 모의고사,,AIRNAV-TH-05,2.1 항공기에 대한 바람의 영향
+AIR-NAV-738,항공기가 HDG 180°로 20 NM 비행하였는데 2 NM 왼쪽으로 off 되었다. 30 NM 더 비행해서 원래의 track으로 돌아가기 위한 HDG은?,9,제9회 모의고사,,AIRNAV-TH-06,2.2 조종사 항법 기법
+AIR-NAV-739,Radio altimeter가 지시하는 고도는?,9,제9회 모의고사,,AIRNAV-TH-09,3.2 고도계
+AIR-NAV-740,"ILS 식별부호가 ""ISEL“ 일 때 ""I“ 다음의 첫 두 자리 문자가 의미하는 시설은?",9,제9회 모의고사,,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-741,항공기 자체탑재장비로 자기위치를 보정하면서 비행할 수 있는 시스템은?,9,제9회 모의고사,,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-742,VOR 수신기 점검 시 오차 허용범위는 얼마인가?,9,제9회 모의고사,,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-743,관제사가 조종사에게 traffic information을 제 공할 때 방향의 기준은?,9,제9회 모의고사,,AIRNAV-TH-14,5.1 항공교통관제업무
+AIR-NAV-744,G등급 공역에 대한 설명으로 맞는 것은?,9,제9회 모의고사,,AIRNAV-TH-16,5.3 항공교통관제 허가와 항공기분리
+AIR-NAV-745,정밀접근레이더(PAR)의 운영범위는?,9,제9회 모의고사,,AIRNAV-TH-17,5.4 감시시스템·트랜스폰더·기상관측
+AIR-NAV-746,항공기가 착륙했을 때 활주로 표면 위에서 고도계가 “0”을 지시하도록 하는 고도계 설정방법은?,9,제9회 모의고사,,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-747,일정한 power와 calibra t ed airs peed(CAS)로 고온지역에서 저온지역으로 비행하면?,9,제9회 모의고사,,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-748,항공도에 표기되는 고도는?,9,제9회 모의고사,,AIRNAV-TH-20,5.7 항공차트(Aeronautical Charts)
+AIR-NAV-749,"SID에 특별한 언급이 없는 경우, 이륙 시 장애 물 회피를 위한 minimum climb gradient는?",9,제9회 모의고사,,AIRNAV-TH-21,6.1 비행전(Preflight)
+AIR-NAV-750,접근차트의 MSA에 대한 설명 중 맞는 것은?,9,제9회 모의고사,,AIRNAV-TH-23,6.3 도착절차(Arrival Procedures)
+AIR-NAV-751,피랍 항공기의 조종사가 유지해야 할 속도 및 고도는?,9,제9회 모의고사,,AIRNAV-TH-24,"6.4 국가안보, 요격절차 및 비상절차"
+AIR-NAV-752,자율보고대상 항공안전장애를 발생시킨 사람이 발생일로부터 며칠 이내에 항공안전 자율보고를 한 경우 처분을 하지 않을 수 있는가?,9,제9회 모의고사,,AIRNAV-TH-25,7.1 인적요소의 개요·항공안전보고
+AIR-NAV-753,저산소증에 가장 민감한 인체 기관은?,9,제9회 모의고사,,AIRNAV-TH-26,7.2 항공생리
+AIR-NAV-754,조종실 자동화에 따른 문제점이 아닌 것은?,9,제9회 모의고사,,AIRNAV-TH-30,8.2 인간-소프트웨어/하드웨어(Liveware-Software/Hardware)
+AIR-NAV-755,대권의 일종이고 경도 측정의 기준이 되는 선으 로 영국의 그리니치 천문대를 통과하는 선은?,9,제10회 모의고사,,AIRNAV-TH-02,1.2 지구(Earth)
+AIR-NAV-756,경도 15°는 몇 시간에 해당하는가?,9,제10회 모의고사,,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-757,68° 12′E에서의 시간이 05일 0700일 때 UTC는?,9,제10회 모의고사,,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-758,대권항로에 대한 설명으로 틀린 것은?,9,제10회 모의고사,,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-759,나침반에서 북선 오차(northern turning error)의 원인은?,9,제10회 모의고사,,AIRNAV-TH-08,3.1 자기 나침반(Magnetic Compass)
+AIR-NAV-760,Lambert conformal chart의 특징 중 틀린 것은?,9,제10회 모의고사,,AIRNAV-TH-04,1.4 차트(Charts)
+AIR-NAV-761,항공기가 heading 180°로 VOR 10° radial을 비행하는데 240초가 걸렸다. 이때 항공기의 속도 가 180 kts 이었다면 VOR station까지의 거리는?,9,제10회 모의고사,,AIRNAV-TH-06,2.2 조종사 항법 기법
+AIR-NAV-762,상대운동과 관련된 항법이 아닌 것은?,9,제10회 모의고사,,AIRNAV-TH-07,2.3 관련 항법 기법
+AIR-NAV-763,Magnetic heading이 220° 이고 NDB까지의 relative bearing이 200° 일 때 NDB까지 의 magnetic bearing은?,9,제10회 모의고사,,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-764,EAS는 CAS에서 무엇을 수정한 것인가?,9,제10회 모의고사,,AIRNAV-TH-10,3.3 속도계·기타 항공계기
+AIR-NAV-765,다음 중 DME 오차가 가장 큰 경우는?,9,제10회 모의고사,,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-766,항공기의 비행고도를 자동으로 전송하는 트랜 스폰더 mode는?,9,제10회 모의고사,,AIRNAV-TH-17,5.4 감시시스템·트랜스폰더·기상관측
+AIR-NAV-767,항공로 상에 있는 항공기의 관제업무에 주로 사용되는 레이더는?,9,제10회 모의고사,,AIRNAV-TH-17,5.4 감시시스템·트랜스폰더·기상관측
+AIR-NAV-768,ILS Glide slope beam의 상하 폭은 얼마인가?,9,제10회 모의고사,,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-769,Tri-color VASI 접근 시 on glide path에서 below glide path가 될 때 보게 되는 색상의 순서 는?,9,제10회 모의고사,,AIRNAV-TH-12,4.2 항공등화시설(Lighting Aids)
+AIR-NAV-770,다음 중 관제공역에 해당되지 않는 것은?,9,제10회 모의고사,,AIRNAV-TH-16,5.3 항공교통관제 허가와 항공기분리
+AIR-NAV-771,항공기가 활주로 상에 있을 때 공항 표고를 지시하는 altimeter setting은?,9,제10회 모의고사,,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-772,일정한 power se tti ng으로 따뜻한 곳에서 차 가운 곳으로 비행 시 TAS(true airspeed)는?,9,제10회 모의고사,,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-773,Area chart에서 기호 ” » “가 의미하는 것은?,9,제10회 모의고사,,AIRNAV-TH-20,5.7 항공차트(Aeronautical Charts)
+AIR-NAV-774,비레이더 상황 시 필수보고지점(compulsory reporti ng point)을 나타내는 chart symbol은?,9,제10회 모의고사,,AIRNAV-TH-20,5.7 항공차트(Aeronautical Charts)
+AIR-NAV-775,"레이더 관제 시 비행계획서에 기재한속도보다 순항고도에서 TAS가 얼마 변하는 경우, ATC에 보고해야 하는가?",9,제10회 모의고사,,AIRNAV-TH-22,6.2 항공로 절차(En Route Procedure)
+AIR-NAV-776,MOCA에서 VOR 신호를 수신할 수 있는 유효 거리는?,9,제10회 모의고사,,AIRNAV-TH-22,6.2 항공로 절차(En Route Procedure)
+AIR-NAV-777,Simul taneous parallel dependen t ILS 집 근을 위한 활주로중심선 간의 최소간격은?,9,제10회 모의고사,,AIRNAV-TH-23,6.3 도착절차(Arrival Procedures)
+AIR-NAV-778,다음 중 emer gency 주파수가 아닌 것은?,9,제10회 모의고사,,AIRNAV-TH-24,"6.4 국가안보, 요격절차 및 비상절차"
+AIR-NAV-779,"인간이 섭취해야 할 영양소 중에서 탄수화물, 단백질과 지방의 바람직한 섭취 비율은?",9,제10회 모의고사,,AIRNAV-TH-28,7.4 직무와 신체조건의 적정성
+AIR-NAV-780,육상또는해안에서 시계비행상태 하에서 가능한 항법으로 육안으로 확인되는 지상목표를 이용하는항법은?,9,제11회 모의고사,,AIRNAV-TH-01,1.1 공중항법의 개요
+AIR-NAV-781,항공기가 현지시간 5월 1일 2330분에 LAX(UTC-8)를 출발하였다. 비행시간 13시간 10분 후 ICN(UTC+9)에 도착하였다면 ICN의 현지시간은?,9,제11회 모의고사,,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-782,우리나라에서 쓰는 평균 해상마일은 어디를 기준으로한 것인가?,9,제11회 모의고사,,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-783,항공기가 지표면 상에서 실제 이동한 궤적을 나 타내는용어는?,9,제11회 모의고사,,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-784,항공용 지도의 조건이 아닌 것은?,9,제11회 모의고사,,AIRNAV-TH-04,1.4 차트(Charts)
+AIR-NAV-785,Mercator chart의 특징으로 맞는 것은?,9,제11회 모의고사,,AIRNAV-TH-04,1.4 차트(Charts)
+AIR-NAV-786,"고도 24,000 ft에서 ground speed 360 kts로 90도를 선회하면서 final 비행 중 반표준율 선회로 course로 진입하려고 할 때 lead point는?",9,제11회 모의고사,,AIRNAV-TH-06,2.2 조종사 항법 기법
+AIR-NAV-787,나침반의 자차(deviation) 란?,9,제11회 모의고사,,AIRNAV-TH-08,3.1 자기 나침반(Magnetic Compass)
+AIR-NAV-788,다음 중 트랜스폰더 code를 4000으로 설정해야 하는항공기는?,9,제11회 모의고사,,AIRNAV-TH-17,5.4 감시시스템·트랜스폰더·기상관측
+AIR-NAV-789,고도계에서 수정할 수 있는 barome t ric scale의 범위는?,9,제11회 모의고사,,AIRNAV-TH-09,3.2 고도계
+AIR-NAV-790,"VOR ""H"" 등급의 Service volume으로 맞는 것은?",9,제11회 모의고사,,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-791,LORAN 수신기의 항법정보가 유효하기 위해서는 최소 몇 개의 국으로부터 신호를 수신하여야 하는가?,9,제11회 모의고사,,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-792,다음 중 항공기의 현재 위치 update에 사용하지 않는 것은?,9,제11회 모의고사,,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-793,자기 나침반의 가감속 오차가 가장 심한 기수방위는?,9,제11회 모의고사,,AIRNAV-TH-08,3.1 자기 나침반(Magnetic Compass)
+AIR-NAV-794,TCAS Il가 제공하는 정보는?,9,제11회 모의고사,,AIRNAV-TH-16,5.3 항공교통관제 허가와 항공기분리
+AIR-NAV-795,FL 210에서 altimeter set 후 비행 시 고도계가 지시하는 고도는?,9,제11회 모의고사,,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-796,전이고도에서 고도계를 변경할 때 변경 기압치 의 기준으로옳은 것은?,9,제11회 모의고사,,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-797,밀도고도가 증가하기 위한 조건으로 맞는 것은?,9,제11회 모의고사,,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-798,"기압 29.92 inHg인 곳에서 계기고도가 0 ft이면, 이곳에서의 기압이 28.92 inHg일 때 계기고도는?",9,제11회 모의고사,,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-799,"공항 인근 주요 지형지물을 묘사하여 시계비행 조종사들에게 필요한 정보를 제공하며, 또한 대형 공항 주변의 혼잡한 공역에서의 접근과 출발절차에 대한 정보를 포함하고 있는 차트는?",9,제11회 모의고사,,AIRNAV-TH-20,5.7 항공차트(Aeronautical Charts)
+AIR-NAV-800,비행계획서는 출발예정시간 몇 분 전까지 제출하여야 하는가? (ICAO 기준),9,제11회 모의고사,,AIRNAV-TH-21,6.1 비행전(Preflight)
+AIR-NAV-801,Holding instruction을 받아야 한다면 fix 도착 몇 분 전에 체공속도로 감속하여야 하는가?,9,제11회 모의고사,,AIRNAV-TH-22,6.2 항공로 절차(En Route Procedure)
+AIR-NAV-802,Contact approach에 관한 설명 중 틀린 것은?,9,제11회 모의고사,,AIRNAV-TH-23,6.3 도착절차(Arrival Procedures)
+AIR-NAV-803,과다호흡증(hyperventilati on)이 나타날 경우 취해야 할 행동으로 맞는 것은?,9,제11회 모의고사,,AIRNAV-TH-26,7.2 항공생리
+AIR-NAV-804,인간은 보통 섭씨 29.4°C 이상의 온도와 () 이하의 온도에서 불쾌감을 느낀다. () 안에 알맞은 것은?,9,제11회 모의고사,,AIRNAV-TH-31,8.3 인간-환경(Liveware-Environment)
+AIR-NAV-805,가상 자오선을 이용한 항법은?,9,제12회 모의고사,,AIRNAV-TH-01,1.1 공중항법의 개요
+AIR-NAV-806,항정선에 대한 설명 중 틀린 것은?,9,제12회 모의고사,,AIRNAV-TH-02,1.2 지구(Earth)
+AIR-NAV-807,FMS에 해당 지점의 좌표를 수동 입력하는 과정에서 N43을 N45로 잘못 입력한 경우 오차 거리는?,9,제12회 모의고사,,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-808,항정선 항로 비행 시 항적(track)은?,9,제12회 모의고사,,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-809,Polar gnomonic 평면투영법에 대해 잘못 설명 한 것은?,9,제12회 모의고사,,AIRNAV-TH-04,1.4 차트(Charts)
+AIR-NAV-810,항공기가 전체 200마일의 항로를 200 kts의 비행속도로 동쪽으로 비행하고 있다. 바람이 090°/40 kts이면 출발공항으로부터 ETP까지의 거리는?,9,제12회 모의고사,,AIRNAV-TH-06,2.2 조종사 항법 기법
+AIR-NAV-811,비행속도 120 kt의 항공기가무풍상태에서 270° 방위로 비행하고 있다. 임의의 VOR로부터 17:37분에 radial 360°를 지나 17:44분에 radial 350°까지 진행하였다. 이 때 VORstation까지의 거리 와 도착시간은 얼마인가?,9,제12회 모의고사,,AIRNAV-TH-06,2.2 조종사 항법 기법
+AIR-NAV-812,MB-4 컴퓨터에서 Mach No.를 구할 때 영향을 미치는 주요요소는?,9,제12회 모의고사,,AIRNAV-TH-06,2.2 조종사 항법 기법
+AIR-NAV-813,A지점과 B지점의 진항로(TC)가 173도일 때 자항로(MC)는 얼마인가? (동편차 8도인 경우),9,제12회 모의고사,,AIRNAV-TH-08,3.1 자기 나침반(Magnetic Compass)
+AIR-NAV-814,고도계의 오차가 아닌 것은?,9,제12회 모의고사,,AIRNAV-TH-09,3.2 고도계
+AIR-NAV-815,CDI needle이 한쪽으로 완전히 치우쳤다면 VOR course centerline에서 몇 도 편향된 것인가?,9,제12회 모의고사,,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-816,TCH 49 ft에서 'TCH'의 의미는?,9,제12회 모의고사,,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-817,"1,000 ft 간격의 수직분리가 적용되는 수직분리축소공역(RVSM)에서 29,000 ft 이상의 고도 로 175° 방향으로 계기비행 시 비행할 수 있는 최저 순항고도는?",9,제12회 모의고사,,AIRNAV-TH-22,6.2 항공로 절차(En Route Procedure)
+AIR-NAV-818,RVSM이 적용되는 고도에서 Mode C 고도정보의 허용오차범위는?,9,제12회 모의고사,,AIRNAV-TH-17,5.4 감시시스템·트랜스폰더·기상관측
+AIR-NAV-819,G등급 공역에서의 IFR 운용요건으로 맞는 것은?,9,제12회 모의고사,,AIRNAV-TH-16,5.3 항공교통관제 허가와 항공기분리
+AIR-NAV-820,Enroute chart에서 아래 그림과 같은 기호의 의미는?,9,제12회 모의고사,,AIRNAV-TH-20,5.7 항공차트(Aeronautical Charts)
+AIR-NAV-821,실수로 공항의 기압을 5hPa 낮게 공지하였다 면 발생할 수 있는 실제 기압고도와의 차이는?,9,제12회 모의고사,,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-822,일정한 고도로 비행할 때 외기온도가 증가하면 True Airspeed (TAS)는?,9,제12회 모의고사,,AIRNAV-TH-10,3.3 속도계·기타 항공계기
+AIR-NAV-823,우리 나라의 transition altitude는?,9,제12회 모의고사,,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-824,관제구역 내에서 IFR 비행 중 두 개의 VHF radio 가운데 한 개가 고장 난 경우 조종사는 어떠 한 조치를 취하여야 하는가?,9,제12회 모의고사,,AIRNAV-TH-22,6.2 항공로 절차(En Route Procedure)
+AIR-NAV-825,En-rou t e chart에서 고도 표시 ‘‘6000a“가 의 미하는 것은?,9,제12회 모의고사,,AIRNAV-TH-22,6.2 항공로 절차(En Route Procedure)
+AIR-NAV-826,Minimum safe al titude(MSA)에 대한 설명 으로틀린 것은?,9,제12회 모의고사,,AIRNAV-TH-23,6.3 도착절차(Arrival Procedures)
+AIR-NAV-827,섭 씨 (celsius) 15도는 화씨 (fahrenhe it) 몇 도 인가?,9,제12회 모의고사,,AIRNAV-TH-06,2.2 조종사 항법 기법
+AIR-NAV-828,Frank. H. Hawkins의 SHELL 모델의 요소 로적합하지 않는것은?,9,제12회 모의고사,,AIRNAV-TH-25,7.1 인적요소의 개요·항공안전보고
+AIR-NAV-829,조종사가 약을 복용하고 비행을 했을 때 나타나는 증상이 아닌 것은?,9,제12회 모의고사,,AIRNAV-TH-28,7.4 직무와 신체조건의 적정성
+AIR-NAV-830,다음 중 항법의 4가지 중요 요소로 구성된 것은?,9,제13회 모의고사,,AIRNAV-TH-01,1.1 공중항법의 개요
+AIR-NAV-831,UTC 16일 05시일 때 서경 135도 15분의 local mean time은?,9,제13회 모의고사,,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-832,"음속이 640 kts인 고도 25,000 ft에서 항공기의 진대기속도(TAS)가 460 kts 이면, 이 항공기의 Mach number는 얼마인가?",9,제13회 모의고사,,AIRNAV-TH-06,2.2 조종사 항법 기법
+AIR-NAV-833,다음 중 항공기 기축을 기준으로 하는 위치는?,9,제13회 모의고사,,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-834,항공기 자체의 자성에 의해 발생하는 오차는?,9,제13회 모의고사,,AIRNAV-TH-08,3.1 자기 나침반(Magnetic Compass)
+AIR-NAV-835,EAS에서 밀도고도를 수정한 대기속도는?,9,제13회 모의고사,,AIRNAV-TH-10,3.3 속도계·기타 항공계기
+AIR-NAV-836,항공기가 20마일 비행하는데 2마일 벗어났으면 몇 도 벗어난 것인가?,9,제13회 모의고사,,AIRNAV-TH-06,2.2 조종사 항법 기법
+AIR-NAV-837,Ground speed 140 kt 인 항공기가 300 ft /NM으로 상승하고 있을 때 상승률은 몇 fpm 인가?,9,제13회 모의고사,,AIRNAV-TH-06,2.2 조종사 항법 기법
+AIR-NAV-838,항공용 지도의 조건으로 틀린 것은?,9,제13회 모의고사,,AIRNAV-TH-04,1.4 차트(Charts)
+AIR-NAV-839,동일한 주파수를 사용하는 VOR 간에 사용이 가 능한 최소이격거리는?,9,제13회 모의고사,,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-840,RVSM 비행 전 지상에서 고도계 점검 시 오차 허용치는?,9,제13회 모의고사,,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-841,ILS localizer가 계기접근에 사용될 때 localizer 식별부호 중 마지막 두 자리 문자를 송신하는 장비는?,9,제13회 모의고사,,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-842,Tri-color VASI의 정상유효거리(normal range)는?,9,제13회 모의고사,,AIRNAV-TH-12,4.2 항공등화시설(Lighting Aids)
+AIR-NAV-843,"LLWAS에 의해 wind shear 발생이 인지된 경우, ATIS는 몇 분 동안 관련 정보를 방송하여야 하는가?",9,제13회 모의고사,,AIRNAV-TH-15,5.2 공항운영(Airport Operations)
+AIR-NAV-844,"전이고도 이하의 고도로 비행하는 경우, 몇 마일 이내에 있는 관제소에서 제공하는 QNH로 setting하여 야 하는가?",9,제13회 모의고사,,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-845,"해발 10,000 ft 미만의 C등급 공역에서 VFR 비행을 하기 위한 양호한 기상상태는?",9,제13회 모의고사,,AIRNAV-TH-16,5.3 항공교통관제 허가와 항공기분리
+AIR-NAV-846,다음 중 가장 큰 강도의 wake turbulence를 발생시키는조건은?,9,제13회 모의고사,,AIRNAV-TH-19,5.6 항적난기류(Wake Turbulence)
+AIR-NAV-847,VOR 설치 시 radial의 기준은?,9,제13회 모의고사,,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-848,DME를 수신하기 위한 장비에 대한 설명으로 맞는 것은?,9,제13회 모의고사,,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-849,"항공교통관제기관과 협의한 경우를 제외하고, 비행 전항공기의 시간은어디에 맞추어야하는가?",9,제13회 모의고사,,AIRNAV-TH-21,6.1 비행전(Preflight)
+AIR-NAV-850,Holding 시 VOR outbound leg ti ming check 시기는?,9,제13회 모의고사,,AIRNAV-TH-22,6.2 항공로 절차(En Route Procedure)
+AIR-NAV-851,Parallel 활주로에서 side step maneuver가 가능한 활주로 간의 분리거리는?,9,제13회 모의고사,,AIRNAV-TH-23,6.3 도착절차(Arrival Procedures)
+AIR-NAV-852,담당자가 emergency를 선포해야 할 emergency s ituati on이 아닌 것은?,9,제13회 모의고사,,AIRNAV-TH-24,"6.4 국가안보, 요격절차 및 비상절차"
+AIR-NAV-853,표준대기(I SA)에서 고도 증가에 따른 기온체 감률은?,9,제13회 모의고사,,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-854,항공기 운항 시 시차(time zone lag)가 인체 에 가장 큰 영향을 미치는 경우는?,9,제13회 모의고사,,AIRNAV-TH-28,7.4 직무와 신체조건의 적정성
+AIR-NAV-855,경도 15°는 몇 시간에 해당하는가?,9,제14회 모의고사,,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-856,항정선 항로 비행 시 track은?,9,제14회 모의고사,,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-857,Track 이란?,9,제14회 모의고사,,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-858,터보제트 엔진의 추력은 무엇으로 확인할 수 있는가?,9,제14회 모의고사,,AIRNAV-TH-10,3.3 속도계·기타 항공계기
+AIR-NAV-859,비행 중 CAS에서 해당 고도의 온도와 기압을 고려한 속도는?,9,제14회 모의고사,,AIRNAV-TH-10,3.3 속도계·기타 항공계기
+AIR-NAV-860,HDG 010°로 첫 번째 구간 30 NM을 비행하는 데 우측으로 5 NM 벗어났을 때 두 번째 60 NM 얼마로하여야 하는가?,9,제14회 모의고사,,AIRNAV-TH-06,2.2 조종사 항법 기법
+AIR-NAV-861,날짜 변경선의 기준은?,9,제14회 모의고사,,AIRNAV-TH-03,"1.3 시간, 거리 및 방향"
+AIR-NAV-862,자기 나침반에서 가감속 오차가 생기는 이유는?,9,제14회 모의고사,,AIRNAV-TH-08,3.1 자기 나침반(Magnetic Compass)
+AIR-NAV-863,TAS를 구하는 올바른 순서는?,9,제14회 모의고사,,AIRNAV-TH-10,3.3 속도계·기타 항공계기
+AIR-NAV-864,순간적인 항공기의 pit ch up으로 발생할 수 있는고도계의 오차는?,9,제14회 모의고사,,AIRNAV-TH-09,3.2 고도계
+AIR-NAV-865,다음 중 VOR receiver에 reverse sensing이 발생하는 경우는?,9,제14회 모의고사,,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-866,GPS를 이용하여 3차원 위치정보를 얻기 위한 최소 위성의 수는?,9,제14회 모의고사,,AIRNAV-TH-11,4.1 항행안전무선시설(Radio Navigation Aids)
+AIR-NAV-867,조종사가 VASI를 갖춘 활주로에 ILS 접근 중 OM을 통과한 후 glide slope out을 인지하였다. VASI를 확인한 경우 조종사의 조치사항으로 올바른 것은?,9,제14회 모의고사,,AIRNAV-TH-23,6.3 도착절차(Arrival Procedures)
+AIR-NAV-868,다음 중 특별사용공역이 아닌 것은?,9,제14회 모의고사,,AIRNAV-TH-16,5.3 항공교통관제 허가와 항공기분리
+AIR-NAV-869,Transponder code 변경 시 선택되지 않도록 주의해야 할 code는?,9,제14회 모의고사,,AIRNAV-TH-17,5.4 감시시스템·트랜스폰더·기상관측
+AIR-NAV-870,전이고도 이상의 고도에서 비행하는 경우 고도계의 수정방법으로 맞는 것은?,9,제14회 모의고사,,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-871,고고도 장거리 비행에 적합한 chart는?,9,제14회 모의고사,,AIRNAV-TH-20,5.7 항공차트(Aeronautical Charts)
+AIR-NAV-872,표준대기상태에서 일정한 Indicated Airspeed(IAS)로 상승 시 True Airspeed(TAS)는?,9,제14회 모의고사,,AIRNAV-TH-10,3.3 속도계·기타 항공계기
+AIR-NAV-873,고도계수정치를 30.10 inHg로 통보받고도 30.01 inHg로 잘못 setting했다면 기압고도계는 어떻게 지시하는가?,9,제14회 모의고사,,AIRNAV-TH-18,5.5 고도계 수정 절차(Altimeter Setting Procedures)
+AIR-NAV-874,필수보고지점 설정 조건이 아닌 것은?,9,제14회 모의고사,,AIRNAV-TH-22,6.2 항공로 절차(En Route Procedure)
+AIR-NAV-875,"14,000~20,000 ft 고도에서 holding 시 유지 해야 할 maximum holding speed는?",9,제14회 모의고사,,AIRNAV-TH-22,6.2 항공로 절차(En Route Procedure)
+AIR-NAV-876,Missed approach에 대한 설명 중 올바른 것은?,9,제14회 모의고사,,AIRNAV-TH-23,6.3 도착절차(Arrival Procedures)
+AIR-NAV-877,지상에서 생존자가 구조 요청 시 보내는 신호 중‘‘X’’의 의미는?,9,제14회 모의고사,,AIRNAV-TH-24,"6.4 국가안보, 요격절차 및 비상절차"
+AIR-NAV-878,여압이 안되는 항공기에서 기내 압력이 떨어져 서 보충산소가 공급되지 않을 때 승객이 견딜 수 있는최대고도는?,9,제14회 모의고사,,AIRNAV-TH-26,7.2 항공생리
+AIR-NAV-879,관리격자 모델(managerial grid model)의 leadership 유형에 대한 설명 중 틀린 것은?,9,제14회 모의고사,,AIRNAV-TH-29,8.1 인간-인간(Liveware-Liveware)
