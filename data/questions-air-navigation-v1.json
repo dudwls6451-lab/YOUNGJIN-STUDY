@@ -47,8 +47,8 @@
     "subjects": [
       "공중항법"
     ],
-    "figure_count": 7,
-    "figure_linked_questions": 9,
+    "figure_count": 8,
+    "figure_linked_questions": 10,
     "notes": "공중항법.pdf 전체 문제를 원문 우선으로 1차 추출한 검수 전 파일. 교재의 “총 530여 문항” 출제예상문제를 실제 번호로 집계하면 529문항이며, 14회 모의고사 350문항을 합쳐 총 879문항이다. OCR 오탈자·정답키·도형 연결·현행성·해설은 후속 검토 대상이다. 명확히 텍스트 레이어에서 빠진 선지는 placeholder로 표시하여 내용을 추정해 채우지 않았다. Pass2에서는 Pass1 재검수 큐 74문항을 원문 정답란과 대조했으며, 모의고사 350문항은 14개 정답표 전체와 일괄 대조했다. 이는 교재 원문 정답키 검증이며 현행 규정/내용 타당성 검토는 아직 수행하지 않았다. 공중항법.pdf 대조 전수검사에서 OCR 분절, 정답표·해설 혼입, 선택지 구조 손상과 도형 누락을 교정함. 공중항법.pdf 대조 전수검사에서 OCR 분절, 정답표·해설 혼입, 선택지 구조 손상과 도형 누락을 교정함. 공중항법.pdf 대조 전수검사에서 OCR 분절, 정답표·해설 혼입, 선택지 구조 손상과 도형 누락을 교정함. 공중항법.pdf 대조 전수검사에서 OCR 분절, 정답표·해설 혼입, 선택지 구조 손상과 도형 누락을 교정함.",
     "explanation_language": "ko",
     "extraction_status": "ocr_reviewed_pass1",
@@ -85,7 +85,17 @@
     "reported_error_review_revision": "v11.60.12-reported34",
     "reported_error_review_count": 34,
     "classification_revision": "v11.60.83",
-    "classified_question_count": 879
+    "classified_question_count": 879,
+    "source_review_revision": "v11.60.86-reported-six-airnav",
+    "reported_ocr_fix_count": 6,
+    "reported_ocr_fix_ids": [
+      "AIR-NAV-773",
+      "AIR-NAV-676",
+      "AIR-NAV-642",
+      "AIR-NAV-629",
+      "AIR-NAV-613",
+      "AIR-NAV-042"
+    ]
   },
   "subunits": [
     {
@@ -2715,7 +2725,7 @@
         "title": "시간, 거리 및 방향"
       },
       "source_page": 24,
-      "question": "13502일 때 우리나라의 LT (local time)는?",
+      "question": "1350Z일 때 우리나라의 LT(local time)는?",
       "choices": [
         {
           "id": "A",
@@ -2735,7 +2745,7 @@
         }
       ],
       "answer": "D",
-      "explanation": "",
+      "explanation": "1350Z는 UTC 13:50을 뜻한다. 우리나라 표준시(KST)는 UTC+9이므로 13:50+9시간=22:50(2250)이다.",
       "reference": "공중항법.pdf p.24",
       "requires_figure": false,
       "figure_refs": [],
@@ -2747,7 +2757,7 @@
         "학습영역:AIRNAV-TH-03"
       ],
       "explanation_language": "ko",
-      "extraction_status": "unreviewed",
+      "extraction_status": "source_pdf_verified_2026-10-29",
       "answer_extraction": "source_visual_auto",
       "answer_review_needed": false,
       "spacing_review_revision": "v11.60.12-korean-full-recheck",
@@ -2758,7 +2768,13 @@
       "theory_stage_title": "1.3 시간, 거리 및 방향",
       "topic_id": "AIRNAV-TH-03",
       "topic_title": "1.3 시간, 거리 및 방향",
-      "classification_revision": "v11.60.83-airnav-all-topics"
+      "classification_revision": "v11.60.83-airnav-all-topics",
+      "source_review_revision": "v11.60.86-reported-six-airnav",
+      "source_review_updated_at": "2026-10-29",
+      "review_status": "source_pdf_verified_and_corrected",
+      "answer_reviewed": true,
+      "answer_review_basis": "공중항법.pdf 원문 문제면·정답·해설 대조 (2026-10-29)",
+      "review_note": "사용자 오류 제보 OCR/그림 문제 복원; 문제 ID·정답·단원·학습영역 불변"
     },
     {
       "id": "AIR-NAV-043",
@@ -36075,11 +36091,11 @@
         "title": "제4회 모의고사"
       },
       "source_page": 204,
-      "question": "Isogonic li ne이 란?",
+      "question": "Isogonic line이란?",
       "choices": [
         {
           "id": "A",
-          "text": "편차가 0 인 지점을 연결한 선"
+          "text": "편차가 0인 지점을 연결한 선"
         },
         {
           "id": "B",
@@ -36087,15 +36103,15 @@
         },
         {
           "id": "C",
-          "text": "자차가"
+          "text": "자차가 0인 지점을 연결한 선"
         },
         {
           "id": "D",
-          "text": "인 지점을 연결한 선"
+          "text": "편차가 동일한 지점을 연결한 선"
         }
       ],
       "answer": "D",
-      "explanation": "",
+      "explanation": "등편차선(Isogonic line)은 자기편차(variation)가 같은 지점을 이은 선이다. 편차가 0인 지점을 잇는 선은 무편차선(Agonic line)이다. 자차(deviation)는 항공기 내부 자성의 영향으로 발생하는 나침반 오차이다.",
       "reference": "공중항법.pdf p.204 (제4회 모의고사 Q9)",
       "requires_figure": false,
       "figure_refs": [],
@@ -36108,12 +36124,12 @@
         "학습영역:AIRNAV-TH-08"
       ],
       "explanation_language": "ko",
-      "extraction_status": "unreviewed",
+      "extraction_status": "source_pdf_verified_2026-10-29",
       "answer_extraction": "source_answer_table_verified",
       "answer_review_needed": false,
       "answer_reviewed": true,
       "answer_review_pass": "pass2_source_key",
-      "answer_review_basis": "공중항법.pdf 모의고사 정답표 직접 대조",
+      "answer_review_basis": "공중항법.pdf 원문 문제면·정답·해설 대조 (2026-10-29)",
       "spacing_review_revision": "v11.60.12-korean-full-recheck",
       "theory_stage_id": "AIRNAV-TH-08",
       "theory_stage_ids": [
@@ -36122,7 +36138,11 @@
       "theory_stage_title": "3.1 자기 나침반(Magnetic Compass)",
       "topic_id": "AIRNAV-TH-08",
       "topic_title": "3.1 자기 나침반(Magnetic Compass)",
-      "classification_revision": "v11.60.83-airnav-all-topics"
+      "classification_revision": "v11.60.83-airnav-all-topics",
+      "source_review_revision": "v11.60.86-reported-six-airnav",
+      "source_review_updated_at": "2026-10-29",
+      "review_status": "source_pdf_verified_and_corrected",
+      "review_note": "사용자 오류 제보 OCR/그림 문제 복원; 문제 ID·정답·단원·학습영역 불변"
     },
     {
       "id": "AIR-NAV-614",
@@ -37057,7 +37077,7 @@
         "title": "제4회 모의고사"
       },
       "source_page": 206,
-      "question": "비행 착각 현상 중 Autokines is 란?",
+      "question": "비행 착각 현상 중 Autokinesis란?",
       "choices": [
         {
           "id": "A",
@@ -37065,19 +37085,19 @@
         },
         {
           "id": "B",
-          "text": "다른 항공기가 접근하고 있는 데 멀어져 가는 것처럼 보이는착시현상"
+          "text": "다른 항공기가 접근하는데 멀어져 가는 것처럼 보이는 착시현상"
         },
         {
           "id": "C",
-          "text": "불빛이 마치 스스로 움직이고 있는 것처럼 보"
+          "text": "불빛이 마치 스스로 움직이고 있는 것처럼 보이는 착시현상"
         },
         {
           "id": "D",
-          "text": "는착시현상"
+          "text": "다른 항공기의 움직임을 자기 항공기의 움직임으로 잘못 판단하는 현상"
         }
       ],
       "answer": "C",
-      "explanation": "",
+      "explanation": "Autokinesis(자동운동착시)는 어두운 배경에서 정지한 작은 불빛을 응시할 때 불빛이 스스로 움직이는 것처럼 지각되는 현상이다.",
       "reference": "공중항법.pdf p.206 (제4회 모의고사 Q25)",
       "requires_figure": false,
       "figure_refs": [],
@@ -37090,12 +37110,12 @@
         "학습영역:AIRNAV-TH-26"
       ],
       "explanation_language": "ko",
-      "extraction_status": "unreviewed",
+      "extraction_status": "source_pdf_verified_2026-10-29",
       "answer_extraction": "source_answer_table_verified",
       "answer_review_needed": false,
       "answer_reviewed": true,
       "answer_review_pass": "pass2_source_key",
-      "answer_review_basis": "공중항법.pdf 모의고사 정답표 직접 대조",
+      "answer_review_basis": "공중항법.pdf 원문 문제면·정답·해설 대조 (2026-10-29)",
       "spacing_review_revision": "v11.60.12-korean-full-recheck",
       "theory_stage_id": "AIRNAV-TH-26",
       "theory_stage_ids": [
@@ -37104,7 +37124,11 @@
       "theory_stage_title": "7.2 항공생리",
       "topic_id": "AIRNAV-TH-26",
       "topic_title": "7.2 항공생리",
-      "classification_revision": "v11.60.83-airnav-all-topics"
+      "classification_revision": "v11.60.83-airnav-all-topics",
+      "source_review_revision": "v11.60.86-reported-six-airnav",
+      "source_review_updated_at": "2026-10-29",
+      "review_status": "source_pdf_verified_and_corrected",
+      "review_note": "사용자 오류 제보 OCR/그림 문제 복원; 문제 ID·정답·단원·학습영역 불변"
     },
     {
       "id": "AIR-NAV-630",
@@ -37854,23 +37878,23 @@
       "choices": [
         {
           "id": "A",
-          "text": "yellow의 alt erna ti ng fl ash White와 green의 alt erna ti ng fl ash"
+          "text": "White와 yellow의 alternating flash"
         },
         {
           "id": "B",
-          "text": "Wh ite와"
+          "text": "White와 green의 alternating flash"
         },
         {
           "id": "C",
-          "text": "Green fl ash 사이 에 2 번의 빠른 whit e fl ash"
+          "text": "Green flash 사이에 2번의 빠른 white flash"
         },
         {
           "id": "D",
-          "text": "Green, yellow와 whit e fl ash"
+          "text": "Green, yellow와 white flash"
         }
       ],
       "answer": "C",
-      "explanation": "",
+      "explanation": "군 비행장등대는 백색과 녹색이 교대로 섬광하며, 녹색 섬광 사이에 백색이 빠르게 두 차례 섬광한다. 이는 일반 육상 민간 비행장등대(백색·녹색 교대 섬광)와 구별된다.",
       "reference": "공중항법.pdf p.210 (제5회 모의고사 Q13)",
       "requires_figure": false,
       "figure_refs": [],
@@ -37883,12 +37907,12 @@
         "학습영역:AIRNAV-TH-12"
       ],
       "explanation_language": "ko",
-      "extraction_status": "unreviewed",
+      "extraction_status": "source_pdf_verified_2026-10-29",
       "answer_extraction": "source_answer_table_verified",
       "answer_review_needed": false,
       "answer_reviewed": true,
       "answer_review_pass": "pass2_source_key",
-      "answer_review_basis": "공중항법.pdf 모의고사 정답표 직접 대조",
+      "answer_review_basis": "공중항법.pdf 원문 문제면·정답·해설 대조 (2026-10-29)",
       "spacing_review_revision": "v11.60.12-korean-full-recheck",
       "theory_stage_id": "AIRNAV-TH-12",
       "theory_stage_ids": [
@@ -37897,7 +37921,11 @@
       "theory_stage_title": "4.2 항공등화시설(Lighting Aids)",
       "topic_id": "AIRNAV-TH-12",
       "topic_title": "4.2 항공등화시설(Lighting Aids)",
-      "classification_revision": "v11.60.83-airnav-all-topics"
+      "classification_revision": "v11.60.83-airnav-all-topics",
+      "source_review_revision": "v11.60.86-reported-six-airnav",
+      "source_review_updated_at": "2026-10-29",
+      "review_status": "source_pdf_verified_and_corrected",
+      "review_note": "사용자 오류 제보 OCR/그림 문제 복원; 문제 ID·정답·단원·학습영역 불변"
     },
     {
       "id": "AIR-NAV-643",
@@ -39930,27 +39958,27 @@
         "title": "제6회 모의고사"
       },
       "source_page": 215,
-      "question": "Approach gat e에 대한 설명 중 틀린 것은?",
+      "question": "Approach gate에 대한 설명 중 틀린 것은?",
       "choices": [
         {
           "id": "A",
-          "text": "ATC가 항공기를 최종접근코스로 vectoring 시킬 때 사용하는 지점이다."
+          "text": "ATC가 항공기를 최종접근코스로 vectoring시킬 때 사용하는 지점이다."
         },
         {
           "id": "B",
-          "text": "항공기가 착륙을 위한 강하를 시작하는 지점"
+          "text": "항공기가 착륙을 위한 강하를 시작하는 지점이다."
         },
         {
           "id": "C",
-          "text": "다."
+          "text": "Final approach fix(FAF)로부터 1 NM 바깥 지점에 위치하여야 한다."
         },
         {
           "id": "D",
-          "text": "Final approach fix로부터 1 NM 바깥 지 점 에 위치하여야 한다."
+          "text": "Landing threshold로부터 5 NM을 초과한 위치에 있어야 한다."
         }
       ],
       "answer": "B",
-      "explanation": "",
+      "explanation": "Approach gate는 ATC가 최종접근코스로 레이더 유도할 때 사용하는 가상의 지점이다. 교재의 기준은 FAF 바깥쪽 1 NM 이상, 착륙시단으로부터 5 NM을 초과하는 위치이다. 강하 시작 지점이라는 B는 틀리다.",
       "reference": "공중항법.pdf p.215 (제6회 모의고사 Q22)",
       "requires_figure": false,
       "figure_refs": [],
@@ -39963,12 +39991,12 @@
         "학습영역:AIRNAV-TH-23"
       ],
       "explanation_language": "ko",
-      "extraction_status": "unreviewed",
+      "extraction_status": "source_pdf_verified_2026-10-29",
       "answer_extraction": "source_answer_table_verified",
       "answer_review_needed": false,
       "answer_reviewed": true,
       "answer_review_pass": "pass2_source_key",
-      "answer_review_basis": "공중항법.pdf 모의고사 정답표 직접 대조",
+      "answer_review_basis": "공중항법.pdf 원문 문제면·정답·해설 대조 (2026-10-29)",
       "spacing_review_revision": "v11.60.12-korean-full-recheck",
       "theory_stage_id": "AIRNAV-TH-23",
       "theory_stage_ids": [
@@ -39977,7 +40005,11 @@
       "theory_stage_title": "6.3 도착절차(Arrival Procedures)",
       "topic_id": "AIRNAV-TH-23",
       "topic_title": "6.3 도착절차(Arrival Procedures)",
-      "classification_revision": "v11.60.83-airnav-all-topics"
+      "classification_revision": "v11.60.83-airnav-all-topics",
+      "source_review_revision": "v11.60.86-reported-six-airnav",
+      "source_review_updated_at": "2026-10-29",
+      "review_status": "source_pdf_verified_and_corrected",
+      "review_note": "사용자 오류 제보 OCR/그림 문제 복원; 문제 ID·정답·단원·학습영역 불변"
     },
     {
       "id": "AIR-NAV-677",
@@ -45883,15 +45915,15 @@
         "title": "제10회 모의고사"
       },
       "source_page": 235,
-      "question": "Area chart에서 기호 ” » “가 의미하는 것은?",
+      "question": "Area chart에서 아래 그림의 기호가 의미하는 것은?",
       "choices": [
         {
           "id": "A",
-          "text": "Depar ture rou te"
+          "text": "Departure route"
         },
         {
           "id": "B",
-          "text": "Arr ival rou te"
+          "text": "Arrival route"
         },
         {
           "id": "C",
@@ -45899,14 +45931,16 @@
         },
         {
           "id": "D",
-          "text": "Divers ionar y Route"
+          "text": "Diversionary route"
         }
       ],
       "answer": "A",
-      "explanation": "",
+      "explanation": "제시된 화살표 모양의 실선은 Area chart에서 Departure route(출발 항로)를 나타낸다. 원문 해설에서는 Arrival route를 점선 형태의 화살표와 구별한다.",
       "reference": "공중항법.pdf p.235 (제10회 모의고사 Q19)",
-      "requires_figure": false,
-      "figure_refs": [],
+      "requires_figure": true,
+      "figure_refs": [
+        "assets/figures/airnav86/AIR-NAV-773-area-chart-departure-symbol.png"
+      ],
       "difficulty": null,
       "tags": [
         "9.10",
@@ -45916,12 +45950,12 @@
         "학습영역:AIRNAV-TH-20"
       ],
       "explanation_language": "ko",
-      "extraction_status": "unreviewed",
+      "extraction_status": "source_pdf_verified_2026-10-29",
       "answer_extraction": "source_answer_table_verified",
       "answer_review_needed": false,
       "answer_reviewed": true,
       "answer_review_pass": "pass2_source_key",
-      "answer_review_basis": "공중항법.pdf 모의고사 정답표 직접 대조",
+      "answer_review_basis": "공중항법.pdf 원문 문제면·정답·해설 대조 (2026-10-29)",
       "spacing_review_revision": "v11.60.12-korean-full-recheck",
       "theory_stage_id": "AIRNAV-TH-20",
       "theory_stage_ids": [
@@ -45930,7 +45964,17 @@
       "theory_stage_title": "5.7 항공차트(Aeronautical Charts)",
       "topic_id": "AIRNAV-TH-20",
       "topic_title": "5.7 항공차트(Aeronautical Charts)",
-      "classification_revision": "v11.60.83-airnav-all-topics"
+      "classification_revision": "v11.60.83-airnav-all-topics",
+      "images": [
+        "assets/figures/airnav86/AIR-NAV-773-area-chart-departure-symbol.png"
+      ],
+      "figure_captions": [
+        "Area chart의 항로 기호"
+      ],
+      "source_review_revision": "v11.60.86-reported-six-airnav",
+      "source_review_updated_at": "2026-10-29",
+      "review_status": "source_pdf_verified_and_corrected",
+      "review_note": "사용자 오류 제보 OCR/그림 문제 복원; 문제 ID·정답·단원·학습영역 불변"
     },
     {
       "id": "AIR-NAV-774",
