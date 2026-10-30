@@ -1,0 +1,18 @@
+/* Shared round colors for saved goals, home cards and unit details. */
+.sp-round-gauge{display:flex;position:relative;box-sizing:border-box;width:100%;height:14px;overflow:hidden;border-radius:999px;background:var(--theme-border,#cdd8e6);margin:12px 0}
+.sp-round-fill,.sp-round-legend i{background:hsl(218 88% clamp(25%,calc(84% - var(--sp-round,1)*13%),75%))}
+.sp-round-fill{display:block;flex-shrink:0;height:100%;min-width:0;transition:width .45s cubic-bezier(.2,.8,.2,1);animation:sp-round-appear .35s ease-out}
+.sp-round-layered{display:block;height:10px}.sp-round-layered .sp-round-fill{position:absolute;inset:0 auto 0 0;border-radius:999px}
+.sp-overall-goal{padding:22px;margin:20px 0 24px;border:1px solid var(--theme-border,#cdd8e6);border-radius:16px;background:var(--theme-raised,#f8fafc);color:var(--theme-text,#172338)}
+.sp-goal-line{display:flex;justify-content:space-between;align-items:center;gap:12px}.sp-goal-line>div{min-width:0}.sp-goal-line strong{font-size:24px;white-space:nowrap;color:var(--theme-text,#172338)}
+.sp-overall-goal .sp-goal-line strong{font-size:40px;line-height:1.15}.sp-overall-goal h4{margin:0;font-size:18px;line-height:1.5;color:inherit}.sp-overall-goal .sp-goal-eyebrow{margin:0 0 5px;font-size:12px;color:var(--theme-muted,#52647a)}
+.sp-overall-goal .sp-round-gauge{height:18px;margin:18px 0 12px}.sp-overall-goal .sp-overall-count{font-size:14px;margin:0;line-height:1.6}
+.sp-round-caption{font-size:12px!important;line-height:1.65!important;margin:8px 0 0!important;color:var(--theme-muted,#52647a)!important;overflow-wrap:anywhere}
+.sp-round-legend{display:flex;align-items:center;flex-wrap:wrap;gap:10px 16px;margin-top:16px;color:var(--theme-muted,#52647a);font-size:12px}.sp-round-legend span{display:inline-flex;align-items:center;gap:6px}.sp-round-legend i{width:11px;height:11px;border-radius:3px;display:inline-block}.sp-round-legend [data-round="1"]{--sp-round:1}.sp-round-legend [data-round="2"]{--sp-round:2}.sp-round-legend [data-round="3"]{--sp-round:3}
+.sp-book-goal{margin-top:14px;padding-top:12px;border-top:1px solid var(--theme-border,#cdd8e6)}.sp-book-goal .sp-goal-line{font-size:13px}.sp-book-goal .sp-round-gauge{height:12px;margin:10px 0}.top-progress-item .sp-book-goal .sp-goal-line strong{font-size:22px}
+#studyPlanSettings .study-plan-targets{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}#studyPlanSettings .study-plan-targets label{min-width:0;font-size:11px;line-height:1.5;align-self:start}#studyPlanSettings .study-plan-targets input{width:100%;font-size:14px}
+#studyProgressDetail .sp-round-gauge{margin:16px 0 12px}#studyProgressDetail .sp-book-goal{margin-bottom:16px}
+html[data-pb-theme="dark"] .sp-round-fill,html[data-pb-theme="dark"] .sp-round-legend i{background:hsl(218 88% clamp(30%,calc(84% - var(--sp-round,1)*11%),78%))}
+@keyframes sp-round-appear{from{opacity:.5}to{opacity:1}}
+@media(max-width:480px){.sp-overall-goal{padding:16px}.sp-overall-goal .sp-goal-line strong{font-size:34px}.sp-overall-goal h4{font-size:16px}#studyPlanSettings .study-plan-targets label{font-size:11px}}
+@media(prefers-reduced-motion:reduce){.sp-round-fill{animation:none;transition:none}}
