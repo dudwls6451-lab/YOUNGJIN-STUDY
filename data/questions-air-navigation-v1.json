@@ -95,7 +95,8 @@
       "AIR-NAV-629",
       "AIR-NAV-613",
       "AIR-NAV-042"
-    ]
+    ],
+    "reported_review_revision": "v11.60.89"
   },
   "subunits": [
     {
@@ -2769,12 +2770,22 @@
       "topic_id": "AIRNAV-TH-03",
       "topic_title": "1.3 시간, 거리 및 방향",
       "classification_revision": "v11.60.83-airnav-all-topics",
-      "source_review_revision": "v11.60.86-reported-six-airnav",
-      "source_review_updated_at": "2026-10-29",
-      "review_status": "source_pdf_verified_and_corrected",
+      "source_review_revision": "v11.60.89-reported-20",
+      "source_review_updated_at": "2026-10-30T03:56:45.455050+00:00",
+      "review_status": "v89_source_and_reference_reviewed",
       "answer_reviewed": true,
       "answer_review_basis": "공중항법.pdf 원문 문제면·정답·해설 대조 (2026-10-29)",
-      "review_note": "사용자 오류 제보 OCR/그림 문제 복원; 문제 ID·정답·단원·학습영역 불변"
+      "review_note": "사용자 오류 제보 OCR/그림 문제 복원; 문제 ID·정답·단원·학습영역 불변",
+      "review_needed": false,
+      "review_reason": "",
+      "extraction_review_required": false,
+      "answer_pending_review": false,
+      "gradable": true,
+      "extraction_quality": "v89_visual_source_verified",
+      "source_question_images": [],
+      "explanation_figures": [],
+      "source_reported_at": "2026-10-28T00:12:00+09:00",
+      "images": []
     },
     {
       "id": "AIR-NAV-043",
@@ -22231,29 +22242,29 @@
         "title": "항공차트(Aeronautical Charts)"
       },
       "source_page": 123,
-      "question": "Area chart에서 기호 ”) “가 의미하는 것은?",
+      "question": "교재의 Area chart 범례에서 아래 그림의 기호가 의미하는 것은?",
       "choices": [
         {
           "id": "A",
-          "text": "Depar ture rou te"
+          "text": "Departure route"
         },
         {
           "id": "B",
-          "text": "RNAV rou te"
+          "text": "Arrival route"
         },
         {
           "id": "C",
-          "text": "Arr ival rou te"
+          "text": "RNAV route"
         },
         {
           "id": "D",
-          "text": "Divers ionar y Route"
+          "text": "Diversionary route"
         }
       ],
       "answer": "A",
-      "explanation": "",
-      "reference": "공중항법.pdf p.123",
-      "requires_figure": false,
+      "explanation": "이 교재의 Area chart 범례에서 화살표가 있는 실선은 Departure route(출발 항로), 점선 화살표는 Arrival route(도착 항로)를 나타낸다. 제시된 것은 실선 화살표이므로 A가 정답이다. 원문의 그림을 문자 “)”로 잘못 인식했던 부분을 별도 이미지로 복원하고, 보기는 원문 순서로 정리했다.",
+      "reference": "공중항법.pdf PDF p.127 / 인쇄 p.123, 17번 및 해당 면의 차트 범례",
+      "requires_figure": true,
       "figure_refs": [],
       "difficulty": null,
       "tags": [
@@ -22275,7 +22286,25 @@
       "theory_stage_title": "5.7 항공차트(Aeronautical Charts)",
       "topic_id": "AIRNAV-TH-20",
       "topic_title": "5.7 항공차트(Aeronautical Charts)",
-      "classification_revision": "v11.60.83-airnav-all-topics"
+      "classification_revision": "v11.60.83-airnav-all-topics",
+      "images": [
+        "assets/figures/reported89/area-chart-departure.png"
+      ],
+      "figure_captions": [
+        "Area chart의 기호"
+      ],
+      "source_review_revision": "v11.60.89-reported-20",
+      "source_review_updated_at": "2026-10-30T03:56:45.455050+00:00",
+      "review_status": "v89_source_and_reference_reviewed",
+      "review_needed": false,
+      "review_reason": "",
+      "extraction_review_required": false,
+      "answer_pending_review": false,
+      "gradable": true,
+      "extraction_quality": "v89_visual_source_verified",
+      "source_question_images": [],
+      "explanation_figures": [],
+      "source_reported_at": "2026-10-29T22:32:00+09:00"
     },
     {
       "id": "AIR-NAV-382",
@@ -36139,10 +36168,20 @@
       "topic_id": "AIRNAV-TH-08",
       "topic_title": "3.1 자기 나침반(Magnetic Compass)",
       "classification_revision": "v11.60.83-airnav-all-topics",
-      "source_review_revision": "v11.60.86-reported-six-airnav",
-      "source_review_updated_at": "2026-10-29",
-      "review_status": "source_pdf_verified_and_corrected",
-      "review_note": "사용자 오류 제보 OCR/그림 문제 복원; 문제 ID·정답·단원·학습영역 불변"
+      "source_review_revision": "v11.60.89-reported-20",
+      "source_review_updated_at": "2026-10-30T03:56:45.455050+00:00",
+      "review_status": "v89_source_and_reference_reviewed",
+      "review_note": "사용자 오류 제보 OCR/그림 문제 복원; 문제 ID·정답·단원·학습영역 불변",
+      "review_needed": false,
+      "review_reason": "",
+      "extraction_review_required": false,
+      "answer_pending_review": false,
+      "gradable": true,
+      "extraction_quality": "v89_visual_source_verified",
+      "source_question_images": [],
+      "explanation_figures": [],
+      "source_reported_at": "2026-10-28T23:38:00+09:00",
+      "images": []
     },
     {
       "id": "AIR-NAV-614",
@@ -37125,10 +37164,20 @@
       "topic_id": "AIRNAV-TH-26",
       "topic_title": "7.2 항공생리",
       "classification_revision": "v11.60.83-airnav-all-topics",
-      "source_review_revision": "v11.60.86-reported-six-airnav",
-      "source_review_updated_at": "2026-10-29",
-      "review_status": "source_pdf_verified_and_corrected",
-      "review_note": "사용자 오류 제보 OCR/그림 문제 복원; 문제 ID·정답·단원·학습영역 불변"
+      "source_review_revision": "v11.60.89-reported-20",
+      "source_review_updated_at": "2026-10-30T03:56:45.455050+00:00",
+      "review_status": "v89_source_and_reference_reviewed",
+      "review_note": "사용자 오류 제보 OCR/그림 문제 복원; 문제 ID·정답·단원·학습영역 불변",
+      "review_needed": false,
+      "review_reason": "",
+      "extraction_review_required": false,
+      "answer_pending_review": false,
+      "gradable": true,
+      "extraction_quality": "v89_visual_source_verified",
+      "source_question_images": [],
+      "explanation_figures": [],
+      "source_reported_at": "2026-10-28T23:41:00+09:00",
+      "images": []
     },
     {
       "id": "AIR-NAV-630",
@@ -37922,10 +37971,20 @@
       "topic_id": "AIRNAV-TH-12",
       "topic_title": "4.2 항공등화시설(Lighting Aids)",
       "classification_revision": "v11.60.83-airnav-all-topics",
-      "source_review_revision": "v11.60.86-reported-six-airnav",
-      "source_review_updated_at": "2026-10-29",
-      "review_status": "source_pdf_verified_and_corrected",
-      "review_note": "사용자 오류 제보 OCR/그림 문제 복원; 문제 ID·정답·단원·학습영역 불변"
+      "source_review_revision": "v11.60.89-reported-20",
+      "source_review_updated_at": "2026-10-30T03:56:45.455050+00:00",
+      "review_status": "v89_source_and_reference_reviewed",
+      "review_note": "사용자 오류 제보 OCR/그림 문제 복원; 문제 ID·정답·단원·학습영역 불변",
+      "review_needed": false,
+      "review_reason": "",
+      "extraction_review_required": false,
+      "answer_pending_review": false,
+      "gradable": true,
+      "extraction_quality": "v89_visual_source_verified",
+      "source_question_images": [],
+      "explanation_figures": [],
+      "source_reported_at": "2026-10-28T23:48:00+09:00",
+      "images": []
     },
     {
       "id": "AIR-NAV-643",
@@ -39962,7 +40021,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "ATC가 항공기를 최종접근코스로 vectoring시킬 때 사용하는 지점이다."
+          "text": "ATC가 항공기를 최종접근코스로 유도할 때 사용하는 가상의 기준점이다."
         },
         {
           "id": "B",
@@ -39970,16 +40029,16 @@
         },
         {
           "id": "C",
-          "text": "Final approach fix(FAF)로부터 1 NM 바깥 지점에 위치하여야 한다."
+          "text": "최종접근코스상 FAF에서 공항 반대쪽으로 1 NM 떨어진 지점이다."
         },
         {
           "id": "D",
-          "text": "Landing threshold로부터 5 NM을 초과한 위치에 있어야 한다."
+          "text": "착륙시단에서 최소 5 NM 이상 떨어진 위치에 설정된다."
         }
       ],
       "answer": "B",
-      "explanation": "Approach gate는 ATC가 최종접근코스로 레이더 유도할 때 사용하는 가상의 지점이다. 교재의 기준은 FAF 바깥쪽 1 NM 이상, 착륙시단으로부터 5 NM을 초과하는 위치이다. 강하 시작 지점이라는 B는 틀리다.",
-      "reference": "공중항법.pdf p.215 (제6회 모의고사 Q22)",
+      "explanation": "Approach gate는 관제사가 최종접근코스로 레이더 유도를 할 때 사용하는 가상의 기준점이다. 최종접근코스상 FAF에서 공항 반대쪽으로 1 NM 떨어져 있고, 착륙시단으로부터 5 NM보다 가까워서는 안 된다. 따라서 5 NM 이상이며, 원문의 “5 NM 초과”는 “5 NM 이상”으로 명확히 고쳤다. 강하 시작 지점을 뜻한다는 B가 틀린 설명이다.",
+      "reference": "공중항법.pdf PDF p.219 / 인쇄 p.215, 모의고사 6회 22번; FAA Pilot/Controller Glossary: APPROACH GATE",
       "requires_figure": false,
       "figure_refs": [],
       "difficulty": null,
@@ -40006,10 +40065,23 @@
       "topic_id": "AIRNAV-TH-23",
       "topic_title": "6.3 도착절차(Arrival Procedures)",
       "classification_revision": "v11.60.83-airnav-all-topics",
-      "source_review_revision": "v11.60.86-reported-six-airnav",
-      "source_review_updated_at": "2026-10-29",
-      "review_status": "source_pdf_verified_and_corrected",
-      "review_note": "사용자 오류 제보 OCR/그림 문제 복원; 문제 ID·정답·단원·학습영역 불변"
+      "source_review_revision": "v11.60.89-reported-20",
+      "source_review_updated_at": "2026-10-30T03:56:45.455050+00:00",
+      "review_status": "v89_source_and_reference_reviewed",
+      "review_note": "사용자 오류 제보 OCR/그림 문제 복원; 문제 ID·정답·단원·학습영역 불변",
+      "explanation_references": [
+        "https://www.faa.gov/Air_Traffic/publications/atpubs/pcg_html/glossary-a.html"
+      ],
+      "review_needed": false,
+      "review_reason": "",
+      "extraction_review_required": false,
+      "answer_pending_review": false,
+      "gradable": true,
+      "extraction_quality": "v89_visual_source_verified",
+      "source_question_images": [],
+      "explanation_figures": [],
+      "source_reported_at": "2026-10-28T23:56:00+09:00",
+      "images": []
     },
     {
       "id": "AIR-NAV-677",
@@ -45938,9 +46010,7 @@
       "explanation": "제시된 화살표 모양의 실선은 Area chart에서 Departure route(출발 항로)를 나타낸다. 원문 해설에서는 Arrival route를 점선 형태의 화살표와 구별한다.",
       "reference": "공중항법.pdf p.235 (제10회 모의고사 Q19)",
       "requires_figure": true,
-      "figure_refs": [
-        "assets/figures/airnav86/AIR-NAV-773-area-chart-departure-symbol.png"
-      ],
+      "figure_refs": [],
       "difficulty": null,
       "tags": [
         "9.10",
@@ -45966,15 +46036,24 @@
       "topic_title": "5.7 항공차트(Aeronautical Charts)",
       "classification_revision": "v11.60.83-airnav-all-topics",
       "images": [
-        "assets/figures/airnav86/AIR-NAV-773-area-chart-departure-symbol.png"
+        "assets/figures/reported89/area-chart-departure.png"
       ],
       "figure_captions": [
-        "Area chart의 항로 기호"
+        "Area chart의 기호"
       ],
-      "source_review_revision": "v11.60.86-reported-six-airnav",
-      "source_review_updated_at": "2026-10-29",
-      "review_status": "source_pdf_verified_and_corrected",
-      "review_note": "사용자 오류 제보 OCR/그림 문제 복원; 문제 ID·정답·단원·학습영역 불변"
+      "source_review_revision": "v11.60.89-reported-20",
+      "source_review_updated_at": "2026-10-30T03:56:45.455050+00:00",
+      "review_status": "v89_source_and_reference_reviewed",
+      "review_note": "사용자 오류 제보 OCR/그림 문제 복원; 문제 ID·정답·단원·학습영역 불변",
+      "review_needed": false,
+      "review_reason": "",
+      "extraction_review_required": false,
+      "answer_pending_review": false,
+      "gradable": true,
+      "extraction_quality": "v89_visual_source_verified",
+      "source_question_images": [],
+      "explanation_figures": [],
+      "source_reported_at": "2026-10-29T12:12:00+09:00"
     },
     {
       "id": "AIR-NAV-774",

@@ -1,0 +1,21 @@
+﻿번호,문제 ID,정답,수정/재검증 내용,교재 및 공식 근거
+1,WX-SU12-038,B,"원문 SIGWX 난류 기호 300/XXX 추출·연결, 도표 하한 FL250와 실제 XXX 해설 정정","항공기상.pdf PDF p.154 / 인쇄 p.148, 38번; FAA-H-8083-28B Fig.27-18"
+2,WX-SU12-036,C,"원문 SIGWX 적란운 510/XXX 추출·연결, 운정/운저 보기 명확화","항공기상.pdf PDF p.154 / 인쇄 p.148, 36번; FAA-H-8083-28B Ch.27 High-Level SIGWX"
+3,AIR-NAV-381,A,"출발 항로 실선 화살표 복원, 보기 띄어쓰기 및 원문 순서 복원","공중항법.pdf PDF p.127 / 인쇄 p.123, 17번 및 해당 면의 차트 범례"
+4,AIR-NAV-773,A,"v86 출발 항로 기호 수정 유지·재포함, 381과 공통 이미지 연결",공중항법.pdf p.235 (제10회 모의고사 Q19)
+5,AIR-NAV-676,B,"분리·누락된 보기 복원, 공식 Approach gate 기준으로 5 NM 이상 표현 명확화","공중항법.pdf PDF p.219 / 인쇄 p.215, 모의고사 6회 22번; FAA Pilot/Controller Glossary: APPROACH GATE"
+6,AIR-NAV-642,C,"White/yellow, White/green, 두 번 빠른 백색 섬광 등 네 보기 복원",공중항법.pdf p.210 (제5회 모의고사 Q13)
+7,AIR-NAV-629,C,Autokinesis 문구 및 잘린 C·D 보기 복원,공중항법.pdf p.206 (제4회 모의고사 Q25)
+8,AIR-NAV-613,D,Isogonic line 및 누락된 C·D 보기 복원,공중항법.pdf p.204 (제4회 모의고사 Q9)
+9,AIR-NAV-042,D,"13502를 1350Z로 복원, UTC+9 해설 유지",공중항법.pdf p.24
+10,WX-SU11-034,B,관측소 모형 그림 재포함. 원본 기온/이슬점 모순을 보완한 13°C/8°C 도해 유지,항공기상.pdf · PDF p.144 / 인쇄 p.138 · 34번(원본 수치 오류 보완); NOAA/WPC station model; NWS dew point
+11,WX-SU11-030,C,네 기상 기호 보기 이미지 재포함,항공기상.pdf · PDF p.144 / 인쇄 p.138 · 30번; NOAA/WPC Present Weather
+12,WX-SU11-036,A,"기압 부호 자체로 풀 수 있도록 불필요한 그림 요구 해제, 128=1012.8 hPa 해설 유지",항공기상.pdf · PDF p.145 / 인쇄 p.139 · 36번; NOAA/WPC Sea Level Pressure
+13,WX-SU11-007,D,기압골 도해만 추출한 이미지 재포함,항공기상.pdf · PDF p.140 / 인쇄 p.134 · 7번; NOAA/OPC Terminology and Weather Symbols
+14,WX-SU11-017,C,"860을 Red로 복원, 정답 Purple 유지",항공기상.pdf · PDF p.142 / 인쇄 p.136 · 17번; NOAA/OPC fronts legend
+15,WX-SU11-035,C,"기온 27°C/이슬점 21°C 보완 도해 재포함, 정답 C 유지",항공기상.pdf · PDF p.144 / 인쇄 p.138 · 35번(도해·정답 오류 보완); NOAA/WPC station model; NWS dew point
+16,WX-MOCK5-018,C,이슬비 기호 독립 이미지 재포함,항공기상.pdf · PDF p.208 / 인쇄 p.202 · 모의고사 제5회 18번; 같은 교재 PDF p.144 기호표; NOAA/WPC Present Weather
+17,AIM72-C5-S03-Q035,C,"고고도 OCR 복원, 미국 제트항로 고도 범위 문맥 유지",AIM_ocr.pdf · PDF p.225 / 인쇄 p.223 · 35번; FAA AIM 5-3-4(b)
+18,AIM72-C5-S04-Q013,D,보기별 고도 숫자의 윗줄/밑줄 이미지 재포함,AIM_ocr.pdf · PDF p.238 / 인쇄 p.236 · 13번; FAA AIM 5-4-5(b)
+19,ATC-COMM-762,B,RNAV waypoint 네 보기 도해 재포함,항공교통통신 ocr_압축됨.pdf · PDF p.249 / 인쇄 p.247 · 모의고사 8회 24번; FAA Aeronautical Chart Users’ Guide
+20,ATC-COMM-738,D,"D의 혼입 OCR 제거, AIC 설명·예고·조언과 정규 VOLMET 방송 구분 명확화",항공교통통신 ocr_압축됨.pdf · PDF p.243 / 인쇄 p.241 · 모의고사 7회 25번; PDF p.200 AIC 해설

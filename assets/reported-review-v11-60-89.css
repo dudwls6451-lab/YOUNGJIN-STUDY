@@ -1,0 +1,7 @@
+/* Diagnostic symbols retain their original white paper background in both themes. */
+.choice.aim73-image-choice{display:flex;align-items:center;gap:12px;min-height:76px;}
+.choice.aim73-image-choice img{display:block;width:auto;max-width:min(220px,70%);height:64px;object-fit:contain;background:#fff;border-radius:6px;padding:6px;box-sizing:content-box;filter:none;flex-shrink:1;}
+#figureGallery img[src*="reported81/"]{width:auto;max-width:100%;max-height:300px;object-fit:contain;background:#fff;border-radius:8px;filter:none;}
+.review81-image-error{color:var(--theme-text);font-size:.9rem;}
+
+#figureGallery img[src*="reported89/"]{width:auto;max-width:100%;max-height:300px;object-fit:contain;background:#fff;border-radius:8px;filter:none;}
